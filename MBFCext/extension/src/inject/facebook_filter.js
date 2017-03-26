@@ -6,13 +6,15 @@ var aliases     = {};
 var loaded      = false;
 var verbose     = false;
 var windowObjectReference;
+var load_count  = 3;
 
 var base = "https://drmikecrowe.github.io/mbfcext/";
 
 (function () {
 
     function isDevMode() {
-        return !('update_url' in chrome.runtime.getManifest());
+        var obj = chrome.runtime.getManifest();
+        return !('update_url' in obj);
     }
 
     verbose = isDevMode();
@@ -31,12 +33,21 @@ var base = "https://drmikecrowe.github.io/mbfcext/";
                     case 'sources':
                         sites = obj[type];
                         save_mbfc();
+                        load_count--;
+                        loaded = (load_count == 0);
+                        if (loaded) process();
                         break;
                     case 'biases':
                         biases = obj[type];
+                        load_count--;
+                        loaded = (load_count == 0);
+                        if (loaded) process();
                         break;
                     case 'aliases':
                         aliases = obj[type];
+                        load_count--;
+                        loaded = (load_count == 0);
+                        if (loaded) process();
                         break;
                 }
             }
@@ -66,6 +77,7 @@ var base = "https://drmikecrowe.github.io/mbfcext/";
     };
 
     var update = function () {
+        load_count = 3;
         if (verbose) {
             console.log("Updating sources");
         }
@@ -85,6 +97,8 @@ var base = "https://drmikecrowe.github.io/mbfcext/";
     }
 
     chrome.storage.local.get(['biases', 'sources', 'expires2'], function (items) {
+        loaded = false;
+        load_count = 0;
         if (items.sources === undefined || items.biases === undefined) {
             update();
         } else {
@@ -97,19 +111,26 @@ var base = "https://drmikecrowe.github.io/mbfcext/";
             } else {
                 if (items.sources && Object.keys(items.sources).length > 0) {
                     sites = items.sources;
+                    loaded = true;
                     save_mbfc();
                 } else {
                     getFile('sources');
+                    loaded = false;
+                    load_count++;
                 }
                 if (items.biases && Object.keys(items.biases).length > 0) {
                     biases = items.biases;
                 } else {
                     getFile('biases');
+                    loaded = false;
+                    load_count++;
                 }
                 if (items.aliases && Object.keys(items.aliases).length > 0) {
                     aliases = items.aliases;
                 } else {
                     getFile('aliases');
+                    loaded = false;
+                    load_count++;
                 }
             }
         }
@@ -271,36 +292,36 @@ var base = "https://drmikecrowe.github.io/mbfcext/";
         })(site.name, count);
     }
 
+    function process() {
+        if (!loaded) return;
+        var nodes = document.querySelectorAll("div._5jmm[data-fte='1']:not(.mbfcfound)");
+        for (var ii = 0, nn = nodes.length; ii < nn; ii++) {
+            var top_node = nodes[ii] ? nodes[ii] : null;
+            var els = top_node ? top_node.querySelectorAll('.ellipsis') : [];
+            var node = els.length ? els[0] : null;
+            if (!node) {
+                continue;
+            }
+            var domain        = getDomain(node.textContent.toLowerCase());
+            var parsed_domain = checkDomain(domain);
+            if (parsed_domain) {
+                searchNodes(parsed_domain, top_node);
+            } else {
+                if (!logged[domain]) {
+                    logged[domain] = true;
+                    reportUnknown(domain);
+                }
+            }
+        }
+    }
+
     var count = 0;
 
     var observer = new MutationObserver(function (mutations) {
-        if (!loaded) {
-            loaded = true;
-            loadHidden();
-        }
         mutations.forEach(function (mutation) {
             var newNodes = mutation.addedNodes;
             if (newNodes !== null) {
-                var nodes = document.querySelectorAll("div._5jmm[data-fte='1']:not(.mbfcfound)");
-                for (var ii = 0, nn = nodes.length; ii < nn; ii++) {
-                    var top_node = nodes[ii] ? nodes[ii] : null;
-                    var els = top_node ? top_node.querySelectorAll('.ellipsis') : [];
-                    var node = els.length ? els[0] : null;
-                    if (!node) {
-                        continue;
-                    }
-                    var domain        = getDomain(node.textContent.toLowerCase());
-                    var parsed_domain = checkDomain(domain);
-                    if (parsed_domain) {
-                        searchNodes(parsed_domain, top_node);
-                    } else {
-                        if (!logged[domain]) {
-                            logged[domain] = true;
-                            reportUnknown(domain);
-                        }
-                    }
-                }
-
+                process();
             }
         });
     });
@@ -345,5 +366,6 @@ var base = "https://drmikecrowe.github.io/mbfcext/";
         characterData: false,
     });
 
+    loadHidden();
 
 })();
