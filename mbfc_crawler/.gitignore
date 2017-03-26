@@ -1,0 +1,6 @@
+# Ignore bundler config.
+/.bundle
+
+output
+crawl.log
+cron.sh
