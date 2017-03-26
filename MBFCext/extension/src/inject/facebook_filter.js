@@ -7,8 +7,7 @@ var loaded      = false;
 var verbose     = false;
 var windowObjectReference;
 
-//'https://jeffreyatw.com/static/mbfc/'
-var base = "https://dl.dropboxusercontent.com/u/491017/";
+var base = "https://drmikecrowe.github.io/mbfcext/";
 
 (function () {
 
@@ -46,10 +45,8 @@ var base = "https://dl.dropboxusercontent.com/u/491017/";
         switch (type) {
             case 'sources':
             case 'biases':
-                url = base + type + '.json';
-                break;
             case 'aliases':
-                url = base + 'aliases.json';
+                url = base + type + '.json';
                 break;
         }
         xhr.open('GET', url, true);
