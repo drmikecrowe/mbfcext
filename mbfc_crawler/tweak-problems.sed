@@ -118,6 +118,8 @@ s@"soas.ac.uk/lmei/meil"@"soas.ac.uk"@g
 s@"sourcewatch.org/index.php/SourceWatch"@"sourcewatch.org"@g
 # -- Original spiegel.de/international
 s@"spiegel.de/international"@"spiegel.de"@g
+# -- Original syriahr.com/en
+s@"syriahr.com/en"@"syriahr.com"@g
 # -- Original telesurtv.net/english
 s@"telesurtv.net/english"@"telesurtv.net"@g
 # -- Original theconversation.com/us
