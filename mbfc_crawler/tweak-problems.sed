@@ -136,6 +136,8 @@ s@"whitehouse.gov/1600daily"@"whitehouse.gov"@g
 s@"who.int/en"@"who.int"@g
 # -- Original worldsocialism.org/spgb
 s@"worldsocialism.org/spgb"@"worldsocialism.org"@g
+# -- Original www3.nhk.or.jp/nhkworld
+s@"www3.nhk.or.jp/nhkworld"@"www3.nhk.or.jp"@g
 # -- Original yahoo.com/news
 s@"yahoo.com/news"@"yahoo.com"@g
 # -- Original zcomm.org/zmag
