@@ -5,8 +5,10 @@ import { Provider } from 'react-redux'
 
 import PopupContainer from './containers/popup'
 
+const extension = '/* @echo extension */'
 const proxyStore = new Store({
-  portName: 'extension-demo-app'
+  portName: 'extension-demo-app',
+  extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : ''
 })
 
 proxyStore.ready().then(() => {
