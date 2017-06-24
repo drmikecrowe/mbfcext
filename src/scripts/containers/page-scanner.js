@@ -8,7 +8,7 @@ import { SCAN_PAGE, sendPageTags } from '../actions'
 
 class PageScannerContainer extends Component {
   static propTypes = {
-    sendPageTags: PropTypes.func.isRequire
+    sendPageTags: PropTypes.func.isRequired
   }
 
   _extractTags = () => {
