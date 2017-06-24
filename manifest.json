@@ -31,6 +31,7 @@
       "js": [
         "scripts/contentscript.js"
       ],
+      "css" : [],
       "run_at": "document_end",
       "all_frames": false
     }
@@ -42,7 +43,6 @@
     },
     "default_title": "Extension Boilerplate",
     "default_popup": "popup.html"
-  }
+  },
+  "web_accessible_resources": []
 }
-
-

@@ -1,12 +1,16 @@
-import ext from "./utils/ext";
+import { applyMiddleware, createStore } from 'redux'
+import { alias, wrapStore } from 'react-chrome-redux'
+import thunk from 'redux-thunk'
 
-ext.runtime.onMessage.addListener(
-  function(request, sender, sendResponse) {
-    if(request.action === "perform-save") {
-      console.log("Extension Type: ", "/* @echo extension */");
-      console.log("PERFORM AJAX", request.data);
+import rootReducer from './reducers'
+import aliases from './aliases'
 
-      sendResponse({ action: "saved" });
-    }
-  }
-);
+const preloadedState = {}
+const middlewares = [alias(aliases), thunk]
+const store = createStore(rootReducer, preloadedState,
+  applyMiddleware(...middlewares)
+)
+
+wrapStore(store, {
+  portName: 'extension-demo-app'
+})

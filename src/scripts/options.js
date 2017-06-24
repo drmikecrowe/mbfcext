@@ -1,30 +1,19 @@
-import ext from "./utils/ext";
-import storage from "./utils/storage";
+import React from 'react'
+import { render } from 'react-dom'
+import { Store } from 'react-chrome-redux'
+import { Provider } from 'react-redux'
 
-var colorSelectors = document.querySelectorAll(".js-radio");
+import OptionPanel from './components/option-panel'
 
-var setColor = (color) => {
-  document.body.style.backgroundColor = color;
-};
+const proxyStore = new Store({
+  portName: 'extension-demo-app'
+})
 
-storage.get('color', function(resp) {
-  var color = resp.color;
-  var option;
-  if(color) {
-    option = document.querySelector(`.js-radio.${color}`);
-    setColor(color);
-  } else {
-    option = colorSelectors[0]
-  }
-
-  option.setAttribute("checked", "checked");
-});
-
-colorSelectors.forEach(function(el) {
-  el.addEventListener("click", function(e) {
-    var value = this.value;
-    storage.set({ color: value }, function() {
-      setColor(value);
-    });
-  })
+proxyStore.ready().then(() => {
+  render(
+    <Provider store={proxyStore}>
+      <OptionPanel />
+    </Provider>
+    , document.getElementById('app')
+  )
 })

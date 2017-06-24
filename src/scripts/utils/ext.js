@@ -19,14 +19,14 @@ const apis = [
   'tabs',
   'webNavigation',
   'webRequest',
-  'windows',
+  'windows'
 ]
 
+/* eslint-disable no-undef */
 function Extension () {
   const _this = this
 
   apis.forEach(function (api) {
-
     _this[api] = null
 
     try {
@@ -62,7 +62,7 @@ function Extension () {
       this.browserAction = browser.browserAction
     }
   } catch (e) {}
-
 }
+/* eslint-enable no-undef */
 
-module.exports = new Extension();
+module.exports = new Extension()

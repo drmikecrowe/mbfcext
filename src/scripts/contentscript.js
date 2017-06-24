@@ -1,34 +1,19 @@
-import ext from "./utils/ext";
+import React from 'react'
+import { render } from 'react-dom'
+import { Store } from 'react-chrome-redux'
+import { Provider } from 'react-redux'
 
-var extractTags = () => {
-  var url = document.location.href;
-  if(!url || !url.match(/^http/)) return;
+import PageScannerContainer from './containers/page-scanner'
 
-  var data = {
-    title: "",
-    description: "",
-    url: document.location.href
-  }
+const proxyStore = new Store({
+  portName: 'extension-demo-app'
+})
 
-  var ogTitle = document.querySelector("meta[property='og:title']");
-  if(ogTitle) {
-    data.title = ogTitle.getAttribute("content")
-  } else {
-    data.title = document.title
-  }
-
-  var descriptionTag = document.querySelector("meta[property='og:description']") || document.querySelector("meta[name='description']")
-  if(descriptionTag) {
-    data.description = descriptionTag.getAttribute("content")
-  }
-
-  return data;
-}
-
-function onRequest(request, sender, sendResponse) {
-  if (request.action === 'process-page') {
-    sendResponse(extractTags())
-  }
-}
-
-ext.runtime.onMessage.addListener(onRequest);
+proxyStore.ready().then(() => {
+  render(
+    <Provider store={proxyStore}>
+      <PageScannerContainer />
+    </Provider>
+    , document.createElement('div')    // anonymous div
+  )
+})
