@@ -70,6 +70,12 @@ The Chrome Extensions is available [on the Chrome Web Store](https://chrome.goog
   </dd>
 </dl>
 
+<dl>
+  <dt>React-Redux ready.</dt>
+  <dd>
+    You might need `react-redux` for more structured or productive development. [react-chrome-redux](https://github.com/tshaddix/react-chrome-redux) is integrated. It suggestes a simple but powerful idea which extends `Redux` to chrome extension architecture. For instance, background script as store(action/reducer) and content/popoup script as React UI component. Please pull and check example source code.
+  </dd>
+</dl>
 
 
 ## Installation
@@ -100,6 +106,10 @@ The following tasks can be used when you want to start developing the extension 
 - `npm run chrome-watch`
 - `npm run opera-watch`
 - `npm run firefox-watch`
+
+If you want to use lint or auto fix -
+- `npm run lint`
+- `npm run lint:fix`
 
 
 ## Packaging
