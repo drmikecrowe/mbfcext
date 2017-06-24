@@ -5,6 +5,7 @@ import browserify from 'browserify';
 import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
 import preprocessify from 'preprocessify';
+import babelify from 'babelify';
 import gulpif from "gulp-if";
 
 const $ = require('gulp-load-plugins')();
@@ -134,12 +135,15 @@ function buildJS(target) {
     'livereload.js'
   ]
 
-  let tasks = files.map( file => {
+  let tasks = files.map(file => {
     return browserify({
       entries: 'src/scripts/' + file,
       debug: true
     })
-    .transform('babelify', { presets: ['es2015'] })
+    .transform(babelify.configure({
+      plugins: ['transform-runtime', 'transform-async-to-generator'],
+      presets: ['es2015', 'react', 'stage-0']
+    }))
     .transform(preprocessify, {
       includeExtensions: ['.js'],
       context: context
