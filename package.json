@@ -17,7 +17,10 @@
     "opera-dist": "cross-env NODE_ENV=production cross-env TARGET=opera gulp dist",
     "firefox-dist": "cross-env NODE_ENV=production cross-env TARGET=firefox gulp dist",
     "dist": "npm run lint && npm run chrome-dist && npm run opera-dist && npm run firefox-dist",
-    "webpack": "node compile/build.js"
+    "webpack-chrome": "cross-env TARGET=chrome node compile/build.js",
+    "webpack-opera": "cross-env TARGET=opera node compile/build.js",
+    "webpack-firefox": "cross-env TARGET=firefox node compile/build.js",
+    "webpack": "cross-env NODE_ENV=production npm run webpack-chrome && cross-env NODE_ENV=production npm run webpack-opera && cross-env NODE_ENV=production npm run webpack-firefox"
   },
   "repository": {
     "type": "git",
