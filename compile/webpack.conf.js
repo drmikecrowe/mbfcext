@@ -65,7 +65,15 @@ var webpackConfig = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      mangle: false,
+      output: {
+        ascii_only: true
+      }
+    })
+  ]
 }
 
 module.exports = webpackConfig
