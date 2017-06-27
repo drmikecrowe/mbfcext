@@ -87,6 +87,7 @@
     "redux": "^3.7.0",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^6.0.6",
+    "string-replace-loader": "^1.2.0",
     "style-loader": "^0.18.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",

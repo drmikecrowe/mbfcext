@@ -1,10 +1,21 @@
+var fs = require('fs')
 var path = require('path')
 var webpack = require('webpack')
 
-var target = process.env.TARGET || "chrome";
+var production = process.env.NODE_ENV === "production"
+var target = process.env.TARGET || "chrome"
+var environment = process.env.NODE_ENV || "development"
+
+var generic = JSON.parse(fs.readFileSync(`./config/${environment}.json`))
+var specific = JSON.parse(fs.readFileSync(`./config/${target}.json`))
+var context = Object.assign({}, generic, specific)
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
+}
+
+function replaceQuery(query) {
+  return `/* @echo ${query} */`
 }
 
 var webpackConfig = {
@@ -40,6 +51,18 @@ var webpackConfig = {
         test: /\.js$/,
         loader: 'babel-loader',
         include: [resolve('src')]
+      },
+      {
+        test: /\.js$/,
+        loader: 'string-replace-loader',
+        query: {
+          multiple: Object.keys(context).map(function(key) {
+            return {
+              search: replaceQuery(key),
+              replace: context[key]
+            }
+          })
+        }
       }
     ]
   }
