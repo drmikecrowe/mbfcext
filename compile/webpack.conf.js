@@ -3,6 +3,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 var CopyWebpackPlugin = require('copy-webpack-plugin')
+var GenerateJsonPlugin = require('generate-json-webpack-plugin')
 
 var production = process.env.NODE_ENV === "production"
 var target = process.env.TARGET || "chrome"
@@ -11,6 +12,31 @@ var environment = process.env.NODE_ENV || "development"
 var generic = JSON.parse(fs.readFileSync(`./config/${environment}.json`))
 var specific = JSON.parse(fs.readFileSync(`./config/${target}.json`))
 var context = Object.assign({}, generic, specific)
+
+var manifestTemplate = JSON.parse(fs.readFileSync(`./manifest.json`))
+var manifestOptions = {
+  dev: {
+    "background": {
+      "scripts": [
+        "scripts/livereload.js",
+        "scripts/background.js"
+      ]
+    }
+  },
+  firefox: {
+    "applications": {
+      "gecko": {
+        "id": "my-app-id@mozilla.org"
+      }
+    }
+  }
+}
+var manifest = Object.assign(
+    {},
+    manifestTemplate,
+    !production ? manifestOptions.dev : {},
+    target === 'firefox' ? manifestOptions.firefox : {}
+)
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -85,7 +111,8 @@ var webpackConfig = {
       copy(`./src/images/${target}`, '**/*', `${target}/images`),
       copy('./src/images/shared', '**/*', `${target}/images`),
       copy('./src', '**/*.html', `${target}`),
-    ])
+    ]),
+    new GenerateJsonPlugin(`${target}/manifest.json`, manifest)
   ]
 }
 
