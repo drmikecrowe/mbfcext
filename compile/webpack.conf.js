@@ -3,6 +3,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 var CopyWebpackPlugin = require('copy-webpack-plugin')
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var GenerateJsonPlugin = require('generate-json-webpack-plugin')
 
 var production = process.env.NODE_ENV === "production"
@@ -55,8 +56,8 @@ var webpackConfig = {
     background: './src/scripts/background.js',
     contentscript: './src/scripts/contentscript.js',
     livereload: './src/scripts/livereload.js',
-    options: './src/scripts/options.js',
-    popup: './src/scripts/popup.js'
+    options: ['./src/scripts/options.js', './src/styles/options.scss'],
+    popup: ['./src/scripts/popup.js', './src/styles/popup.scss']
   },
   output: {
     path: resolve('dist'),
@@ -95,6 +96,13 @@ var webpackConfig = {
             }
           })
         }
+      },
+      {
+        test: /\.scss$/,
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader','sass-loader']
+        })
       }
     ]
   },
@@ -112,7 +120,8 @@ var webpackConfig = {
       copy('./src/images/shared', '**/*', `${target}/images`),
       copy('./src', '**/*.html', `${target}`),
     ]),
-    new GenerateJsonPlugin(`${target}/manifest.json`, manifest)
+    new GenerateJsonPlugin(`${target}/manifest.json`, manifest),
+    new ExtractTextPlugin(`${target}/styles/[name].css`)
   ]
 }
 
