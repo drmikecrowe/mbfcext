@@ -2,6 +2,8 @@ var fs = require('fs')
 var path = require('path')
 var webpack = require('webpack')
 
+var CopyWebpackPlugin = require('copy-webpack-plugin')
+
 var production = process.env.NODE_ENV === "production"
 var target = process.env.TARGET || "chrome"
 var environment = process.env.NODE_ENV || "development"
@@ -16,6 +18,10 @@ function resolve (dir) {
 
 function replaceQuery(query) {
   return `/* @echo ${query} */`
+}
+
+function copy(context, from, to) {
+  return { context, from, to }
 }
 
 var webpackConfig = {
@@ -72,7 +78,14 @@ var webpackConfig = {
       output: {
         ascii_only: true
       }
-    })
+    }),
+    new CopyWebpackPlugin([
+      copy('./src/icons', '**/*', `${target}/icons`),
+      copy('./src/_locales', '**/*', `${target}/_locales`),
+      copy(`./src/images/${target}`, '**/*', `${target}/images`),
+      copy('./src/images/shared', '**/*', `${target}/images`),
+      copy('./src', '**/*.html', `${target}`),
+    ])
   ]
 }
 
