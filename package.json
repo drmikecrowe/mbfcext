@@ -61,6 +61,7 @@
     "event-stream": "^3.3.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "generate-json-webpack-plugin": "^0.2.1",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-babel": "^6.1.0",
