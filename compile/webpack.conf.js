@@ -131,6 +131,9 @@ var webpackConfig = {
     new GenerateJsonPlugin(`${target}/manifest.json`, manifest),
     new ExtractTextPlugin(`${target}/styles/[name].css`),
     new webpack.HotModuleReplacementPlugin(),
+    new webpack.DefinePlugin({
+      'process.env': require(`../env/${environment}.env`)
+    }),
   ],
   devServer: {
     hot: true,
