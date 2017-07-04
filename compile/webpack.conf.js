@@ -121,8 +121,15 @@ var webpackConfig = {
       copy('./src', '**/*.html', `${target}`),
     ]),
     new GenerateJsonPlugin(`${target}/manifest.json`, manifest),
-    new ExtractTextPlugin(`${target}/styles/[name].css`)
-  ]
+    new ExtractTextPlugin(`${target}/styles/[name].css`),
+    new webpack.HotModuleReplacementPlugin(),
+  ],
+  devServer: {
+    hot: true,
+    contentBase: resolve('dist'),
+    publicPath: '/',
+    headers: { "Access-Control-Allow-Origin": "*" }
+  }
 }
 
 module.exports = webpackConfig
