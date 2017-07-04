@@ -70,7 +70,7 @@ var webpackConfig = {
   output: {
     path: resolve('dist'),
     filename: target + '/scripts/[name].js',
-    publicPath: '/'
+    publicPath: 'http://localhost:8080/'
   },
   resolve: {
     extensions: ['.js', '.json', '.sass', '.scss'],
