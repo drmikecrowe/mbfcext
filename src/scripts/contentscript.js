@@ -8,14 +8,30 @@ import PageScannerContainer from './containers/page-scanner'
 const extension = '/* @echo extension */'
 const proxyStore = new Store({
   portName: 'extension-demo-app',
-  extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : ''
+  //TODO extentision id error
+  extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : 'test'
 })
 
-proxyStore.ready().then(() => {
+let renderDOM = () => {
+  const AsyncPageScanner = require('./containers/page-scanner').default
   render(
     <Provider store={proxyStore}>
-      <PageScannerContainer />
+      <AsyncPageScanner />
     </Provider>
     , document.createElement('div')    // anonymous div
   )
+}
+
+//TODO ready not called
+proxyStore.ready().then(() => {
+  renderDOM()
 })
+
+if (module.hot) {
+  module.hot.accept()
+  module.hot.accept('./containers/page-scanner', () => {
+    renderDOM()
+  })
+}
+
+renderDOM()
