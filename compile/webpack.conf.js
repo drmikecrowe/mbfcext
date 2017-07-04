@@ -17,12 +17,20 @@ var context = Object.assign({}, generic, specific)
 var manifestTemplate = JSON.parse(fs.readFileSync(`./manifest.json`))
 var manifestOptions = {
   dev: {
-    "background": {
-      "scripts": [
-        "scripts/livereload.js",
-        "scripts/background.js"
-      ]
-    }
+    "content_scripts":[
+      {
+        "matches": [
+          "http://*/*",
+          "https://*/*"
+        ],
+        "js": [
+          "scripts/contentscriptInjector.js"
+        ],
+        "css" : [],
+        "run_at": "document_end",
+        "all_frames": false
+      }
+    ]
   },
   firefox: {
     "applications": {
@@ -55,7 +63,7 @@ var webpackConfig = {
   entry: {
     background: './src/scripts/background.js',
     contentscript: './src/scripts/contentscript.js',
-    livereload: './src/scripts/livereload.js',
+    contentscriptInjector: './src/scripts/contentscriptInjector.js',
     options: ['./src/scripts/options.js', './src/styles/options.scss'],
     popup: ['./src/scripts/popup.js', './src/styles/popup.scss']
   },
