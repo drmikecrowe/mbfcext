@@ -20,7 +20,9 @@
     "webpack-chrome": "cross-env TARGET=chrome node compile/build.js",
     "webpack-opera": "cross-env TARGET=opera node compile/build.js",
     "webpack-firefox": "cross-env TARGET=firefox node compile/build.js",
-    "webpack": "cross-env NODE_ENV=production npm run webpack-chrome && cross-env NODE_ENV=production npm run webpack-opera && cross-env NODE_ENV=production npm run webpack-firefox"
+    "webpack-dist": "cross-env NODE_ENV=production npm run webpack-chrome && cross-env NODE_ENV=production npm run webpack-opera && cross-env NODE_ENV=production npm run webpack-firefox",
+    "webpack": "npm run webpack-chrome &&npm run webpack-opera &&npm run webpack-firefox",
+    "start": "webpack-dev-server --config compile/webpack.conf.js"
   },
   "repository": {
     "type": "git",
