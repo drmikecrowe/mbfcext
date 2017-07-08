@@ -4,7 +4,7 @@ Be informed as you read your Facebook feed. We are the most comprehensive media 
 
 ### Release notes for version 1.0.13
 
-## Beta Users:  [Click Here]()
+## Beta Users:  [Click Here](/beta)
 
 We are very excited to announce a new feature:  **_Collapsable News_**  
 
