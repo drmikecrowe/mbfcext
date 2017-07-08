@@ -1,8 +1,9 @@
 {
-  "name":                     "Official Media Bias/Fact Check Extension",
+  "name":                     "Beta/Official Media Bias/Fact Check Extension",
   "short_name":               "MBFCext",
   "author":                   "Mike Crowe",
-  "version":                  "1.0.13",
+  "version":                  "1.0.13.1",
+  "version_name":             "Beta release 1",
   "manifest_version":         2,
   "description":              "Curate Facebook with MBFC news categorizations",
   "content_security_policy":  "script-src 'self' https://www.google-analytics.com; object-src 'self'",
