@@ -1,0 +1,6 @@
+.mainview {
+    min-height: 500px;
+}
+.content > div {
+    padding-right: 30px;
+}

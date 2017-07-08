@@ -1,0 +1,8 @@
+{{#biases}}
+    { type: 'h3', desc: '{{name}} {{collapse}}' },
+    { name: 'collapse-{{key}}', type: 'select', default: 'show', options: [
+    { value: 'show',  desc: 'Show {{name}}' },
+    { value: 'hide', desc: 'Hide {{name}}' },
+    ],
+    desc: '{{description}}' },
+{{/biases}}

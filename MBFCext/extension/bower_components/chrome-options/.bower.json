@@ -1,0 +1,33 @@
+{
+  "name": "chrome-options",
+  "main": "chrome-options.js",
+  "version": "0.2.0",
+  "description": "Options page for your Chrome extension",
+  "keywords": [
+    "chrome",
+    "extension"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.2.2",
+    "jquery.animateAuto": "~0.1.0",
+    "jquery-ui": "~1.11.4",
+    "throttle-debounce": "~0.1.1",
+    "chrome-bootstrap": "~1.5.0",
+    "spectrum": "~1.8.0"
+  },
+  "ignore": [
+    "images"
+  ],
+  "homepage": "https://github.com/fent/chrome-options",
+  "_release": "0.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.0",
+    "commit": "a95af16ba7c69f6194b15c0661594f46f278029f"
+  },
+  "_source": "https://github.com/fent/chrome-options.git",
+  "_target": "^0.2.0",
+  "_originalSource": "chrome-options",
+  "_direct": true
+}

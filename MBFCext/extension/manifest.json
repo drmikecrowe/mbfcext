@@ -2,14 +2,14 @@
   "name":                     "Official Media Bias/Fact Check Extension",
   "short_name":               "MBFCext",
   "author":                   "Mike Crowe",
-  "version":                  "1.0.12",
+  "version":                  "1.0.13",
   "manifest_version":         2,
-  "description":              "Update Facebook with MBFC news categorizations",
+  "description":              "Curate Facebook with MBFC news categorizations",
   "content_security_policy":  "script-src 'self' https://www.google-analytics.com; object-src 'self'",
   "default_locale":           "en",
   "background":               {
     "scripts": [
-      "src/bg/background.js"
+      "background.js"
     ]
   },
   "icons":                    {
