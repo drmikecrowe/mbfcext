@@ -9,7 +9,7 @@ const extension = '/* @echo extension */'
 const proxyStore = new Store({
   portName: 'extension-demo-app',
   //TODO extentision id error
-  extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : 'test'
+  extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : ''
 })
 
 let renderDOM = () => {
@@ -28,10 +28,17 @@ proxyStore.ready().then(() => {
 })
 
 if (module.hot) {
-  module.hot.accept()
-  module.hot.accept('./containers/page-scanner', () => {
-    renderDOM()
+  const script = document.createElement("script");
+  script.setAttribute('src','http://localhost:8080/chrome/scripts/livereload.js');
+  document.head.appendChild(script);
+
+  window.addEventListener("message", event => {
+    if (event.source != window)
+      return;
+
+    if (event.data.type && (event.data.type === "RELOAD")) {
+      chrome.runtime.sendMessage(event.data)
+      location.reload();
+    }
   })
 }
-
-renderDOM()

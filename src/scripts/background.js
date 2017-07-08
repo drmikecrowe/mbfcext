@@ -12,5 +12,13 @@ const store = createStore(rootReducer, preloadedState,
 )
 
 wrapStore(store, {
-  portName: 'extension-demo-app'
+  portName: 'extension-demo-app',
 })
+
+if (module.hot) {
+  chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    if (request.type === "RELOAD") {
+      chrome.runtime.reload()
+    }
+  })
+}

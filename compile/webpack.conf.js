@@ -5,6 +5,7 @@ var webpack = require('webpack')
 var CopyWebpackPlugin = require('copy-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var GenerateJsonPlugin = require('generate-json-webpack-plugin')
+var WriteFilePlugin = require('write-file-webpack-plugin')
 
 var production = process.env.NODE_ENV === "production"
 var target = process.env.TARGET || "chrome"
@@ -16,22 +17,6 @@ var context = Object.assign({}, generic, specific)
 
 var manifestTemplate = JSON.parse(fs.readFileSync(`./manifest.json`))
 var manifestOptions = {
-  dev: {
-    "content_scripts":[
-      {
-        "matches": [
-          "http://*/*",
-          "https://*/*"
-        ],
-        "js": [
-          "scripts/contentscriptInjector.js"
-        ],
-        "css" : [],
-        "run_at": "document_end",
-        "all_frames": false
-      }
-    ]
-  },
   firefox: {
     "applications": {
       "gecko": {
@@ -43,7 +28,6 @@ var manifestOptions = {
 var manifest = Object.assign(
     {},
     manifestTemplate,
-    !production ? manifestOptions.dev : {},
     target === 'firefox' ? manifestOptions.firefox : {}
 )
 
@@ -63,7 +47,7 @@ var webpackConfig = {
   entry: {
     background: './src/scripts/background.js',
     contentscript: './src/scripts/contentscript.js',
-    contentscriptInjector: './src/scripts/contentscriptInjector.js',
+    livereload: './src/scripts/livereload.js',
     options: ['./src/scripts/options.js', './src/styles/options.scss'],
     popup: ['./src/scripts/popup.js', './src/styles/popup.scss']
   },
@@ -134,6 +118,7 @@ var webpackConfig = {
     new webpack.DefinePlugin({
       'process.env': require(`../env/${environment}.env`)
     }),
+    new WriteFilePlugin()
   ],
   devServer: {
     hot: true,
