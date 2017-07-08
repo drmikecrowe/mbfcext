@@ -1,10 +1,12 @@
-## Official Media Bias/Fact Check Extension
+# Beta Test Users
+
+[Click Here](/mbfcext/beta)
+
+# Official Media Bias/Fact Check Extension
 
 Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources.
 
 ### Release notes for version 1.0.13
-
-## Beta Users:  [Click Here](/mbfcext/beta)
 
 We are very excited to announce a new feature:  **_Collapsable News_**  
 
