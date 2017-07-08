@@ -12,3 +12,21 @@ To install the beta version of our extension, please follow these steps:
 The first time you run the extension, you will be presented with the options page.  Please try out the Collapse section as depicted below
 
 ![Collapse Section](collapse.png)
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https://drmikecrowe.github.io/mbfcext/";
+this.page.identifier = "beta";
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://mbfcext.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                         
+{% endif %}

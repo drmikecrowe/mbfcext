@@ -1,8 +1,8 @@
-# Beta Test Users
+# Beta Test Users for version 1.0.13
 
 [Click Here](/mbfcext/beta)
 
-# Official Media Bias/Fact Check Extension
+## Official Media Bias/Fact Check Extension
 
 Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources.
 
@@ -39,3 +39,23 @@ You can donate in multiple ways:
 
 *   Via [PayPal](https://paypal.me/drmikecrowe)
 *   Via [Patreon](https://www.patreon.com/solvedbymike)
+
+
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https://drmikecrowe.github.io/mbfcext/";
+this.page.identifier = "main";
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://mbfcext.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>                         
+{% endif %}
