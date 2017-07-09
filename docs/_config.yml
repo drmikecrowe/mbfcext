@@ -1,7 +1,7 @@
 title: Official Media Bias/Fact Check Extension
-tagline: Homepage for the Google Chrome extension
+tagline: Homepage
 markdown: kramdown
-layout: page
+layout: default
 comments: true
 disqus: mbfcext
 
@@ -11,10 +11,9 @@ disqus: mbfcext
 permalink:           pretty
 
 # Setup
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'Homepage of the Official Media Bias/Fact Check Extension.'
 url:                 https://drmikecrowe.github.io/mbfcext/
 baseurl:             ''
-paginate:            5
 
 # About/contact
 author:
@@ -28,5 +27,8 @@ github:
 version:             1.0.0
 
 pages_list:
-  Extension: '/extension'
-  Beta: '/beta'
+  "Beta!": 'https://drmikecrowe.github.io/mbfcext/beta'
+
+extension_list:
+  "Production Extension": https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh
+  "Beta Extension": https://chrome.google.com/webstore/detail/betaofficial-media-biasfa/janhmnkcmhhbkachkhmchiidolkpeafm
