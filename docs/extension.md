@@ -40,9 +40,6 @@ You can donate in multiple ways:
 *   Via [PayPal](https://paypal.me/drmikecrowe)
 *   Via [Patreon](https://www.patreon.com/solvedbymike)
 
-
-{% raw %}
-
 {% if site.disqus %}
 <div id="disqus_thread"></div>
 <script>
@@ -59,4 +56,3 @@ You can donate in multiple ways:
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
-{: .language-html} {% endraw %}

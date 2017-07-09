@@ -1,7 +1,7 @@
 title: Official Media Bias/Fact Check Extension
 tagline: Homepage for the Google Chrome extension
 markdown: kramdown
-layout: default
+layout: page
 comments: true
 disqus: mbfcext
 
@@ -23,5 +23,11 @@ author:
   url:               https://github.com/drmikecrowe
   email:             drmikecrowe@gmail.com
 
+github:
+  repo:           github.com/drmikecrowe/mbfcext
 # Custom vars
 version:             1.0.0
+
+pages_list:
+  Extension: '/extension'
+  Beta: '/beta'

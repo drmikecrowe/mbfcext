@@ -2,6 +2,7 @@
 <html lang="en-us">
 
   {% include head.html %}
+  {% include google_analytics.html %}
 
   <body>
 
@@ -15,13 +16,17 @@
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
+          {% for page in site.pages_list %}
+              &nbsp;&nbsp;&nbsp;<small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
+          {% endfor %}
           </h3>
         </div>
       </div>
 
       <div class="container content">
         {{ content }}
-      </div>
+
+      {% include comments.html %}
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
