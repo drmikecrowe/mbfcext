@@ -11,7 +11,10 @@ MBFCext.sublime-*
 MBFCext*zip
 git-old
 my_crawler/*.json
+my_crawler/.scrapy
 MBFCext/extension/aliases.json
 MBFCext/extension/biases.json
 MBFCext/extension/config.json
 MBFCext/extension/sources.json
+*.pyc
+my_crawler/shelf.dat
