@@ -26,19 +26,3 @@ let renderDOM = () => {
 proxyStore.ready().then(() => {
   renderDOM()
 })
-
-if (module.hot) {
-  const script = document.createElement("script");
-  script.setAttribute('src','http://localhost:8080/chrome/scripts/livereload.js');
-  document.head.appendChild(script);
-
-  window.addEventListener("message", event => {
-    if (event.source != window)
-      return;
-
-    if (event.data.type && (event.data.type === "RELOAD")) {
-      chrome.runtime.sendMessage(event.data)
-      location.reload();
-    }
-  })
-}

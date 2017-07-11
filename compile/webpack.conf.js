@@ -47,14 +47,12 @@ var webpackConfig = {
   entry: {
     background: './src/scripts/background.js',
     contentscript: './src/scripts/contentscript.js',
-    livereload: './src/scripts/livereload.js',
     options: ['./src/scripts/options.js', './src/styles/options.scss'],
     popup: ['./src/scripts/popup.js', './src/styles/popup.scss']
   },
   output: {
-    path: resolve('dist'),
-    filename: target + '/scripts/[name].js',
-    publicPath: 'http://localhost:8080/'
+    path: resolve(`dist/${target}`),
+    filename: 'scripts/[name].js',
   },
   resolve: {
     extensions: ['.js', '.json', '.sass', '.scss'],
@@ -106,14 +104,14 @@ var webpackConfig = {
       }
     }),
     new CopyWebpackPlugin([
-      copy('./src/icons', '**/*', `${target}/icons`),
-      copy('./src/_locales', '**/*', `${target}/_locales`),
-      copy(`./src/images/${target}`, '**/*', `${target}/images`),
-      copy('./src/images/shared', '**/*', `${target}/images`),
-      copy('./src', '**/*.html', `${target}`),
+      copy('./src/icons', '**/*', `icons`),
+      copy('./src/_locales', '**/*', `_locales`),
+      copy(`./src/images`, '**/*', `images`),
+      copy('./src/images/shared', '**/*', `images`),
+      copy('./src', '**/*.html', `.`),
     ]),
-    new GenerateJsonPlugin(`${target}/manifest.json`, manifest),
-    new ExtractTextPlugin(`${target}/styles/[name].css`),
+    new GenerateJsonPlugin(`manifest.json`, manifest),
+    new ExtractTextPlugin(`styles/[name].css`),
     new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({
       'process.env': require(`../env/${environment}.env`)

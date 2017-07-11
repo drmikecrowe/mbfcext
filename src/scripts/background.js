@@ -16,9 +16,8 @@ wrapStore(store, {
 })
 
 if (module.hot) {
-  chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    if (request.type === "RELOAD") {
-      chrome.runtime.reload()
-    }
+  const clientEmitter = require('webpack/hot/emitter')
+  clientEmitter.on('webpackHotUpdate', currentHash => {
+    chrome.runtime.reload()
   })
 }
