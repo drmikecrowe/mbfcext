@@ -97,12 +97,6 @@ var webpackConfig = {
     ]
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      mangle: false,
-      output: {
-        ascii_only: true
-      }
-    }),
     new CopyWebpackPlugin([
       copy('./src/icons', '**/*', `icons`),
       copy('./src/_locales', '**/*', `_locales`),
@@ -124,6 +118,17 @@ var webpackConfig = {
     publicPath: '/',
     headers: { "Access-Control-Allow-Origin": "*" }
   }
+}
+
+if (production) {
+  webpackConfig.plugins.append(
+    new webpack.optimize.UglifyJsPlugin({
+      mangle: false,
+      output: {
+        ascii_only: true
+      }
+    })
+  )
 }
 
 module.exports = webpackConfig
