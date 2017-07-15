@@ -11,11 +11,15 @@ const proxyStore = new Store({
   extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : ''
 })
 
-proxyStore.ready().then(() => {
+let renderDOM = () => {
   render(
     <Provider store={proxyStore}>
       <PageScannerContainer />
     </Provider>
     , document.createElement('div')    // anonymous div
   )
+}
+
+proxyStore.ready().then(() => {
+  renderDOM()
 })
