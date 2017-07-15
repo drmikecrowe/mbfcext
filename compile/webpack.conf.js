@@ -7,6 +7,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var GenerateJsonPlugin = require('generate-json-webpack-plugin')
 var WriteFilePlugin = require('write-file-webpack-plugin')
 var LiveReloadPlugin = require('webpack-weex-livereload-plugin')
+var ZipPlugin = require('zip-webpack-plugin')
 
 var production = process.env.NODE_ENV === "production"
 var target = process.env.TARGET || "chrome"
@@ -115,14 +116,13 @@ var webpackConfig = {
 
 if (production) {
   webpackConfig.output.path = resolve(`dist/${target}`)
-  webpackConfig.plugins.push(
+  webpackConfig.plugins = webpackConfig.plugins.concat([
     new webpack.optimize.UglifyJsPlugin({
       mangle: false,
-      output: {
-        ascii_only: true
-      }
-    })
-  )
+      output: { ascii_only: true }
+    }),
+    new ZipPlugin({ filename: `${target}.zip` })
+  ])
 } else {
   webpackConfig.entry.background = [
     './src/scripts/livereload.js',

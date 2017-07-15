@@ -71,6 +71,7 @@
     "webpack-bundle-analyzer": "^2.8.2",
     "webpack-merge": "^4.1.0",
     "webpack-weex-livereload-plugin": "^1.0.4",
-    "write-file-webpack-plugin": "^4.1.0"
+    "write-file-webpack-plugin": "^4.1.0",
+    "zip-webpack-plugin": "^1.1.0"
   }
 }
