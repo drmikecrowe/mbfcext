@@ -3,7 +3,7 @@ var chalk = require('chalk')
 var webpack = require('webpack')
 var webpackConfig = require('./webpack.conf')
 
-var spinner = ora('building for production...')
+var spinner = ora('building...')
 spinner.start()
 
 webpack(webpackConfig, function (err, stats) {

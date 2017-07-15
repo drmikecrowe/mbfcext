@@ -6,6 +6,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var GenerateJsonPlugin = require('generate-json-webpack-plugin')
 var WriteFilePlugin = require('write-file-webpack-plugin')
+var LiveReloadPlugin = require('webpack-weex-livereload-plugin')
 
 var production = process.env.NODE_ENV === "production"
 var target = process.env.TARGET || "chrome"
@@ -31,7 +32,7 @@ var manifest = Object.assign(
     target === 'firefox' ? manifestOptions.firefox : {}
 )
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, '..', dir)
 }
 
@@ -51,7 +52,7 @@ var webpackConfig = {
     popup: ['./src/scripts/popup.js', './src/styles/popup.scss']
   },
   output: {
-    path: resolve(`dist/${target}`),
+    path: resolve(`build/${target}`),
     filename: 'scripts/[name].js',
   },
   resolve: {
@@ -106,22 +107,15 @@ var webpackConfig = {
     ]),
     new GenerateJsonPlugin(`manifest.json`, manifest),
     new ExtractTextPlugin(`styles/[name].css`),
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({
       'process.env': require(`../env/${environment}.env`)
-    }),
-    new WriteFilePlugin()
-  ],
-  devServer: {
-    hot: true,
-    contentBase: resolve('dist'),
-    publicPath: '/',
-    headers: { "Access-Control-Allow-Origin": "*" }
-  }
+    })
+  ]
 }
 
 if (production) {
-  webpackConfig.plugins.append(
+  webpackConfig.output.path = resolve(`dist/${target}`)
+  webpackConfig.plugins.push(
     new webpack.optimize.UglifyJsPlugin({
       mangle: false,
       output: {
@@ -129,6 +123,15 @@ if (production) {
       }
     })
   )
+} else {
+  webpackConfig.entry.background = [
+    './src/scripts/livereload.js',
+    './src/scripts/background.js'
+  ]
+  webpackConfig.plugins = webpackConfig.plugins.concat([
+    new WriteFilePlugin(),
+    new LiveReloadPlugin({ port: 35729, message: 'reload' })
+  ])
 }
 
 module.exports = webpackConfig

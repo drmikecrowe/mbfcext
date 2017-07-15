@@ -14,10 +14,3 @@ const store = createStore(rootReducer, preloadedState,
 wrapStore(store, {
   portName: 'extension-demo-app',
 })
-
-if (module.hot) {
-  const clientEmitter = require('webpack/hot/emitter')
-  clientEmitter.on('webpackHotUpdate', currentHash => {
-    chrome.runtime.reload()
-  })
-}

@@ -6,23 +6,16 @@
     "postinstall": "./node_modules/.bin/npm-git install https://github.com/sangwonl/react-chrome-redux.git",
     "lint": "./node_modules/.bin/eslint src config",
     "lint:fix": "npm run lint -- --fix",
-    "chrome-build": "cross-env TARGET=chrome gulp",
-    "opera-build": "cross-env TARGET=opera gulp",
-    "firefox-build": "cross-env TARGET=firefox gulp",
-    "build": "cross-env NODE_ENV=production npm run chrome-build && cross-env NODE_ENV=production npm run opera-build && cross-env NODE_ENV=production npm run firefox-build",
-    "chrome-watch": "cross-env TARGET=chrome gulp watch",
-    "opera-watch": "cross-env TARGET=opera gulp watch",
-    "firefox-watch": "cross-env TARGET=firefox gulp watch",
-    "chrome-dist": "cross-env NODE_ENV=production cross-env TARGET=chrome gulp dist",
-    "opera-dist": "cross-env NODE_ENV=production cross-env TARGET=opera gulp dist",
-    "firefox-dist": "cross-env NODE_ENV=production cross-env TARGET=firefox gulp dist",
-    "dist": "npm run lint && npm run chrome-dist && npm run opera-dist && npm run firefox-dist",
-    "webpack-chrome": "cross-env TARGET=chrome node compile/build.js",
-    "webpack-opera": "cross-env TARGET=opera node compile/build.js",
-    "webpack-firefox": "cross-env TARGET=firefox node compile/build.js",
-    "webpack-dist": "cross-env NODE_ENV=production npm run webpack-chrome && cross-env NODE_ENV=production npm run webpack-opera && cross-env NODE_ENV=production npm run webpack-firefox",
-    "webpack": "npm run webpack-chrome &&npm run webpack-opera &&npm run webpack-firefox",
-    "start": "webpack-dev-server --config compile/webpack.conf.js"
+    "webpack": "./node_modules/webpack/bin/webpack.js --config compile/webpack.conf.js",
+    "webpack-watch": "./node_modules/webpack/bin/webpack.js --config compile/webpack.conf.js --watch",
+    "chrome-build": "cross-env TARGET=chrome npm run webpack",
+    "opera-build": "cross-env TARGET=opera npm run webpack",
+    "firefox-build": "cross-env TARGET=firefox npm run webpack",
+    "build": "npm run chrome-build && npm run opera-build && npm run firefox-build",
+    "dist": "npm run lint && cross-env NODE_ENV=production npm run chrome-build && cross-env NODE_ENV=production npm run opera-build && cross-env NODE_ENV=production npm run firefox-build",
+    "chrome-watch": "cross-env TARGET=chrome npm run webpack-watch",
+    "opera-watch": "cross-env TARGET=opera npm run webpack-watch",
+    "firefox-watch": "cross-env TARGET=firefox npm run webpack-watch"
   },
   "repository": {
     "type": "git",
@@ -98,8 +91,8 @@
     "vinyl-source-stream": "^1.1.0",
     "webpack": "^3.0.0",
     "webpack-bundle-analyzer": "^2.8.2",
-    "webpack-dev-server": "^2.5.0",
     "webpack-merge": "^4.1.0",
+    "webpack-weex-livereload-plugin": "^1.0.4",
     "write-file-webpack-plugin": "^4.1.0"
   }
 }
