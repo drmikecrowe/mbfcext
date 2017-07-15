@@ -12,5 +12,5 @@ const store = createStore(rootReducer, preloadedState,
 )
 
 wrapStore(store, {
-  portName: 'extension-demo-app',
+  portName: 'extension-demo-app'
 })

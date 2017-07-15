@@ -22,7 +22,7 @@ const SiteDescription = (props) => (
 )
 
 SiteDescription.propTypes = {
-  siteInfo: PropTypes.string.isRequired,
+  siteInfo: PropTypes.object.isRequired,
   onBookmark: PropTypes.func.isRequired
 }
 
