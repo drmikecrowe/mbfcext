@@ -13,6 +13,7 @@ connection.onerror = (error) => {
 
 connection.onmessage = (m) => {
   if (m.data === 'reload') {
+    console.log('reload triggered..')
     ext.runtime.reload()
   }
 }
