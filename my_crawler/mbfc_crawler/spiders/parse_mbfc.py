@@ -137,11 +137,14 @@ class ParseMbfc(scrapy.Spider):
             notes = -1
             source = -1
             latest = -1
+            dup_notes = -1
             i = 0
             for t in raw:
                 if t.find("Factual Reporting:") > -1:
                     factual = i
                 if t.find("Notes:") > -1:
+                    if notes > -1:
+                        dup_notes = notes
                     notes = i
                 if t.find("Source:") > -1 or t.find("Sources:") > -1:
                     source = i
@@ -150,6 +153,8 @@ class ParseMbfc(scrapy.Spider):
                 i += 1
             if latest == -1:
                 latest = i
+            if source == -1 and dup_notes > -1:
+                source = dup_notes
             if source == -1:
                 item['review'] = True
                 self.logger.info('Missing information for %s (f=%d,n=%d,s=%d)-- skipping', response.url, factual, notes, source)
@@ -160,9 +165,13 @@ class ParseMbfc(scrapy.Spider):
             # Get factual reporting
             if factual > -1:
                 text = "".join(page.css('.hentry p')[factual].css("::text").extract())
-                item["reporting"] = tostr(text).replace("Factual Reporting:", "")
+                reporting = tostr(text).replace("Factual Reporting:", "").strip()
+                if reporting.upper() in ['LOW', 'MIXED', 'HIGH', 'VERY HIGH']:
+                    item["reporting"] = reporting
+                else:
+                    bk = 1
 
-            # Get notes
+                    # Get notes
             if notes > -1:
                 text = "".join(page.css('.hentry p')[notes:source].extract())
                 item["details"] = tostr(text).replace("Notes:", "")

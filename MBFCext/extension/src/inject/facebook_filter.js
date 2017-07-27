@@ -23,16 +23,16 @@
 
   function loadSettings() {
     chrome.runtime.sendMessage({method: "setup"}, function (response, b, c) {
-      if (response && response.data) {
+      if (response && response.data && response.data.hiddenSites) {
         config                   = response.data;
         config.marker            = config.marker || 'mbfcfound';
         config.not               = ':not(.' + config.marker + ')';
-        config.data_node_search  = config.data_node_search || '[role="article"] ._1dwg' + config.not;
+        config.data_node_search  = config.data_node_search  || '[role="article"] ._1dwg' + config.not;
         config.ellipse_placement = config.ellipse_placement || '._3x-2' + config.not;
-        config.fb_page_search    = config.fb_page_search || '._5x46 a.lfloat._ohe' + config.not;
-        config.collapse_search   = config.collapse_search || '._5x46' + config.not;
-        config.ellipses_search   = config.ellipses_search || '.ellipsis' + config.not;
-        config.profile_search    = config.profile_search || 'a.profileLink' + config.not;
+        config.fb_page_search    = config.fb_page_search    || '._5x46 a.lfloat._ohe' + config.not;
+        config.collapse_search   = config.collapse_search   || '._5x46' + config.not;
+        config.ellipses_search   = config.ellipses_search   || '.ellipsis' + config.not;
+        config.profile_search    = config.profile_search    || 'a.profileLink' + config.not;
         loaded                   = true;
         process();
       }
@@ -141,32 +141,33 @@
     iDiv.className = 'mbfcext ' + config.marker;
     iDiv.id        = "mbfcext" + count;
 
-    var mtype        = site.bias.toLowerCase().replace(" ", "-");
+    var mtype        = site.b.toLowerCase().replace(" ", "-");
     var master_style = "mbfc-" + mtype;
 
     var toolbar = [
       '<div id="mbfctt' + count + '" class="" style="display:none">',
-      '<button class="myButton2 mbfc-right-spacer toolbar-button1-' + count + '">Ignore ' + site.name + '</button><span class="spacer">&nbsp;</span>',
+      '<button class="myButton2 mbfc-right-spacer toolbar-button1-' + count + '">Ignore ' + site.n + '</button><span class="spacer">&nbsp;</span>',
       '<button class="myButton2 toolbar-button3-' + count + '">Options</button>',
       '<button style="float: right;" class="myButton2 toolbar-button2-' + count + '">Say Thanks</button>',
       '</div>'
     ];
+    var factual = site.r && site.r > "" ? (" -- factual reporting: " + site.r) : "";
     var table   = [
       '<div class="mbfc-config content-option' + count + ' toolbar-home ">',
       '<i class="fa fa-cog" aria-hidden="true" onclick="el=document.getElementById(\'mbfctt' + count + '\'); if (el.style.display==\'none\') { el.style.display=\'block\'; } else { el.style.display=\'none\'; }"></i>',
       '</div>',
       '<div class="mbfc-table">' +
       '<div class="mbfc-element ' + master_style + ' mbfc-table-' + mtype + '">' +
-      '<a target="_blank" href="' + site.url + '">' + config.biases[site.bias].name.replace(/ Bias(ed)?/, "") + '</a>' +
+      '<a target="_blank" href="' + site.u + '">' + config.biases[site.b].name.replace(/ Bias(ed)?/, "") + '</a>' +
       '</div>' +
       '</div>' +
       '<div class="mbfc-url">' +
-      '<a class="mbfcicon" target="_blank" href="' + site.url + '">' +
+      '<a class="mbfcicon" target="_blank" href="' + site.u + '">' +
       '<img width="20" height="20" title="" alt="" src="data:image/png;base64,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" />' +
       '</a>' +
       '</div>' +
       '<div class="clearfix">' +
-      '<a class="mbfcicon" target="_blank" href="' + site.url + '">mediabiasfactcheck.com</a>' +
+      '<a class="mbfcicon" target="_blank" href="' + site.u + '">mediabiasfactcheck.com ' + factual + '</a>' +
       '</div>'
     ];
     iDiv.innerHTML = table.join("") + toolbar.join("");
@@ -246,7 +247,7 @@
     if (!collapsable) {
       var iDiv = getReportDiv(site, count);
       parent.appendChild(iDiv);
-      addButtons(site.name, count);
+      addButtons(site.n, count);
     } else {
       reportCollapsed(site);
       user_content.forEach(function(el) {
@@ -257,7 +258,7 @@
       var hDiv = getHiddenDiv(site, count);
       parent.appendChild(hDiv);
       parent.appendChild(iDiv);
-      addButtons(site.name, count);
+      addButtons(site.n, count);
     }
     count++;
   }
@@ -379,7 +380,7 @@
   }
 
   function reportSite(site) {
-    chrome.runtime.sendMessage({method: "showSite", site: site.name, bias: site.bias}, function (response) {
+    chrome.runtime.sendMessage({method: "showSite", site: site.n, bias: site.b}, function (response) {
       if (response && response.dirty) {
         loadSettings();
       }
@@ -387,7 +388,7 @@
   }
 
   function reportCollapsed(site) {
-    chrome.runtime.sendMessage({method: "collapsedSite", site: site.name, bias: site.bias}, function (response) {
+    chrome.runtime.sendMessage({method: "collapsedSite", site: site.n, bias: site.b}, function (response) {
       if (response && response.dirty) {
         loadSettings();
       }

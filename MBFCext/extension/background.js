@@ -1,12 +1,13 @@
 'use strict';
 
-var hidden  = {};
-var verbose = !('update_url' in chrome.runtime.getManifest());
-var loaded  = false;
-var allowed = false;
-var config  = {};
-var tabs    = null;
-var dirty   = true;
+var hidden       = {};
+var verbose      = !('update_url' in chrome.runtime.getManifest());
+var loaded       = false;
+var allowed      = false;
+var config       = {};
+var tabs         = null;
+var dirty        = true;
+var force_remote = false;
 
 var base = "https://drmikecrowe.github.io/mbfcext/";
 
@@ -97,6 +98,9 @@ function getFile(type) {
         var js   = JSON.parse(xhr.responseText);
         var date = new Date();
         date.setDate(date.getDate() + 1);
+        if (type == 'csources') {
+          type = 'sources';
+        }
         var obj         = {}
         obj[type]       = js;
         obj['expires2'] = date.getTime();
@@ -107,8 +111,11 @@ function getFile(type) {
           });
       }
     };
-    var fname = base + type + '.json';
-    if (verbose) {
+    if (type == 'sources') {
+      type = 'csources';
+    }
+    var fname              = base + type + '.json';
+    if (!force_remote && verbose) {
       fname = chrome.extension.getURL('/' + type + '.json')
     }
     xhr.open('GET', fname, true);
@@ -131,7 +138,9 @@ function getStorage(type) {
 }
 
 function getStorageOrFile(type) {
-  if (verbose) return getFile(type);
+  if (verbose) {
+    return getFile(type);
+  }
   return chromep.storage.local.get(type)
     .then(function (dict) {
       if (dict) {
@@ -140,7 +149,7 @@ function getStorageOrFile(type) {
           var future = new Date();
           future.setDate(future.getHours() + 12);
           var stored_time = dict.expires2 || 0;
-          if (stored_time >= now.getTime() && stored_time <= future.getTime()) {
+          if (!force_remote && (stored_time >= now.getTime() && stored_time <= future.getTime())) {
             log('Using ' + type + ' from local storage');
             return dict[type];
           } else {
@@ -235,10 +244,10 @@ function loadSettings() {
         collapse:    {},
         fb_pages:    {},
       };
-      Object.keys(parts[4]).forEach(function(key) {
+      Object.keys(parts[4]).forEach(function (key) {
         config[key] = parts[4][key];
       });
-      Object.keys(config.sites).forEach(function(key) {
+      Object.keys(config.sites).forEach(function (key) {
         var fb = config.sites[key].facebook_url;
         if (fb) {
           if (!fb.endsWith('/')) {
@@ -276,7 +285,7 @@ function setCollapsed(dict) {
 
 function loadCollapsedOnly() {
   return chromep.storage.sync.get()
-    .then(function(dict) {
+    .then(function (dict) {
       setCollapsed(dict);
     });
 }
@@ -307,7 +316,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     dirty = false;
   } else if (request.method == "resetIgnored") {
     resetIgnored()
-      .then(function() {
+      .then(function () {
         sendResponse({data: config.hiddenSites, dirty: dirty});
       });
   } else if (request.method == "showOptions") {
@@ -347,7 +356,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
   if (changeInfo.status == 'complete') {
-    chrome.tabs.query({active: true, currentWindow: true}, function(t){
+    chrome.tabs.query({active: true, currentWindow: true}, function (t) {
       tabs = t;
     });
   }
