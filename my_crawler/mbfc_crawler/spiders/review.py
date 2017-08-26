@@ -15,7 +15,7 @@ except ImportError:
 
 class ReviewSpider(ParseMbfc):
     name = 'review'
-    todo = []
+    todo = ['https://mediabiasfactcheck.com/independent-journal-review/']
     limit = [] # ['https://mediabiasfactcheck.com/msnbc/']
 
     def launch(self, key, item):
@@ -32,7 +32,7 @@ class ReviewSpider(ParseMbfc):
             item = self.shelf[key]
 
             try:
-                if item['review']:
+                if item['review'] or self.todo.find(key) > -1:
                     if len(self.limit) > 0 and not key in self.limit:
                         continue
                     yield self.launch(key, item)

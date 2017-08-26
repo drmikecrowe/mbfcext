@@ -1,5 +1,6 @@
 import json
 import shelve
+import os
 from unidecode import unidecode
 
 shelf = shelve.open('shelf.dat')
@@ -74,6 +75,12 @@ for k in todo:
         s = json.dumps(v, sort_keys=True, indent=4, separators=(',', ': '))
     open(k, "w").write(s)
     print('Saved %d items to %s' % (len(v.keys()), k))
+    if k == "csources.json":
+        if len(v.keys()) > 1700:
+            open("valid.export", "w").write("\n")
+        else:
+            if os.path.exists("valid.export"):
+                os.unlink("valid.export")
 
 
 shelf.close()

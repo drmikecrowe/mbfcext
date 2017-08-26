@@ -62,7 +62,7 @@ def check_fb_needed(item):
 
 class ParseMbfc(scrapy.Spider):
     review = 'truth-and-action'
-    shelf = shelve.open('shelf.dat')
+    shelf = shelve.open('../shelf.dat')
     try:
         complete = shelf['complete']
     except KeyError:
@@ -146,6 +146,14 @@ class ParseMbfc(scrapy.Spider):
                     if notes > -1:
                         dup_notes = notes
                     notes = i
+                    if t.find("The Fucking News") > -1 and source == -1:
+                        item["homepage"] = "http://thefingnews.com"
+                        item["domain"] = "thefingnews.com"
+                        source = notes
+                    elif t.find("News Examiner") > -1 and source == -1:
+                        item["homepage"] = "http://newsexaminer.net"
+                        item["domain"] = "newsexaminer.net"
+                        source = notes
                 if t.find("Source:") > -1 or t.find("Sources:") > -1:
                     source = i
                 if t.find("Latest from") > -1:
@@ -157,7 +165,7 @@ class ParseMbfc(scrapy.Spider):
                 source = dup_notes
             if source == -1:
                 item['review'] = True
-                self.logger.info('Missing information for %s (f=%d,n=%d,s=%d)-- skipping', response.url, factual, notes, source)
+                item['review_details'] = 'Missing information for %s (f=%d,n=%d,s=%d)-- skipping' % (response.url, factual, notes, source)
                 self.complete(item)
                 yield item
                 continue
@@ -180,6 +188,7 @@ class ParseMbfc(scrapy.Spider):
                 if source == -1:
                     source = notes
 
+
             selector = page.css(".hentry p")[source:latest]
             urls = selector.css('a::attr("href")').extract()
             if len(urls) > 0:
@@ -200,16 +209,19 @@ class ParseMbfc(scrapy.Spider):
                     item['review'] = False
                 else:
                     item['review'] = True
+                    item['review_details'] = 'No URLs found'
 
             if not item['homepage'] or not item['domain']:
                 item['review'] = True
-                self.logger.info('No homepage %s -- skipping looking up facebook', response.url)
+                item['review_details'] = 'No homepage %s -- skipping looking up facebook' % (response.url)
                 self.complete(item)
                 yield item
                 continue
 
             if len(dict(item).keys()) < 7 and item['bias'] != 'satire':
                 item['review'] = True
+                item['review_details'] = 'Not enough information'
+
             if item['facebook_url']:
                 self.complete(item)
                 yield item

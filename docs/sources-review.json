@@ -1,1 +1,53 @@
-{}
+{
+    "https://mediabiasfactcheck.com/council-of-concerned-citizens/": {
+        "bias": "fake-news",
+        "complete": true,
+        "details": null,
+        "domain": null,
+        "domains": "",
+        "error": false,
+        "facebook_url": null,
+        "homepage": null,
+        "name": null,
+        "notes": null,
+        "raw": null,
+        "reporting": null,
+        "review": true,
+        "text": null,
+        "url": "https://mediabiasfactcheck.com/council-of-concerned-citizens/"
+    },
+    "https://www.hermancain.com/": {
+        "bias": "right",
+        "complete": false,
+        "details": null,
+        "domain": null,
+        "domains": "",
+        "error": false,
+        "facebook_url": null,
+        "homepage": null,
+        "name": null,
+        "notes": null,
+        "raw": null,
+        "reporting": null,
+        "review": true,
+        "text": null,
+        "url": "https://www.hermancain.com/"
+    },
+    "mediabiasfactcheck.com": {
+        "bias": "right-center",
+        "complete": true,
+        "details": "",
+        "domain": "mediabiasfactcheck.com",
+        "domains": "",
+        "error": false,
+        "facebook_url": "https://www.facebook.com/mediabiasfactcheck/",
+        "homepage": "http://mediabiasfactcheck.com/independent-journal-review/",
+        "name": "Rare News",
+        "notes": "",
+        "raw": "<p>These media sources are slightly to moderately conservative in bias. They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor conservative causes. These sources are generally trustworthy for information, but may require further investigation. <a href=\"http://mediabiasfactcheck.com/right-center/\">See all Right-Center sources.</a></p><p>Factual Reporting: <span style=\"color:#008000;\"><strong>HIGH</strong></span></p><p><em>Notes: Rare is an American website for viral news, original content and opinion, based in Washington, D.C. Rare has been compared to the websites <a href=\"http://mediabiasfactcheck.com/independent-journal-review/\">Independent Journal Review</a>, <a href=\"http://mediabiasfactcheck.com/buzzfeed/\">BuzzFeed</a>, and <a href=\"http://mediabiasfactcheck.com/huffington-post/\">The Huffington Post</a>.<span style=\"font-size:13.3333px;\">  </span>The website has been described as libertarian-conservative, targeting a younger audience.</em></p><p>Notes: <a href=\"http://rare.us/\" target=\"_blank\">http://rare.us/</a></p><p style=\"text-align:center;\"><a id=\"pd_a_9550593\"></a>\n</p>",
+        "reporting": "HIGH",
+        "review": true,
+        "text": "These media sources are slightly to moderately conservative in bias. They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor conservative causes. These sources are generally trustworthy for information, but may require further investigation. See all Right-Center sources.Factual Reporting: HIGHNotes: Rare is an American website for viral news, original content and opinion, based in Washington, D.C. Rare has been compared to the websites Independent Journal Review, BuzzFeed, and The Huffington Post.  The website has been described as libertarian-conservative, targeting a younger audience.Notes: http://rare.us/\n",
+        "url": "https://mediabiasfactcheck.com/rare-news/"
+    }
+}
