@@ -2,7 +2,6 @@
 
 cd /home/mcrowe/Programming/Personal/show_media_bias/my_crawler/mbfc_crawler
 scrapy crawl getsource
-cp shelf.dat ..
 cd ..
 python extract.py
 if [ -f valid.export ]; then

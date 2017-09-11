@@ -23,6 +23,7 @@ default = {
     "text": None,
     "complete": False,
     "review": False,
+    "review_details": "",
     "error": False,
 }
 
@@ -40,6 +41,7 @@ class MbfcCrawlerItem(scrapy.Item):
     reporting = scrapy.Field()
     complete = scrapy.Field()
     review = scrapy.Field()
+    review_details = scrapy.Field()
     error = scrapy.Field()
     raw = scrapy.Field()
     text = scrapy.Field()
