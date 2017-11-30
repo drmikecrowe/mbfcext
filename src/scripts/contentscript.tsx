@@ -1,21 +1,25 @@
-import React from 'react'
+import * as React from 'react'
 import { render } from 'react-dom'
 import { Store } from 'react-chrome-redux'
 import { Provider } from 'react-redux'
 
-import PopupContainer from './containers/popup'
+import PageScannerContainer from './containers/page-scanner'
 
-const extension = '/* @echo extension */'
+const extension: string = '/* @echo extension */'
 const proxyStore = new Store({
   portName: 'extension-demo-app',
   extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : ''
 })
 
-proxyStore.ready().then(() => {
+let renderDOM = () => {
   render(
     <Provider store={proxyStore}>
-      <PopupContainer />
+      <PageScannerContainer />
     </Provider>
-    , document.getElementById('app')
+    , document.createElement('div')    // anonymous div
   )
+}
+
+proxyStore.ready().then(() => {
+  renderDOM()
 })

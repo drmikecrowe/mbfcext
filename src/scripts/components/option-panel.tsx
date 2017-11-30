@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import PropTypes from 'prop-types'
 
 import storage from '../utils/storage'
@@ -38,12 +38,12 @@ const ColorOptions = (props) => (
   </div>
 )
 
-ColorOptions.propTypes = {
-  colors: PropTypes.array.isRequire,
-  onSelected: PropTypes.func.isRequire
-}
+// ColorOptions.propTypes = {
+//   colors: PropTypes.array.isRequire,
+//   onSelected: PropTypes.func.isRequire
+// }
 
-class OptionPanel extends Component {
+class OptionPanel extends React.Component<any, any> {
   constructor (props) {
     super(props)
     this.state = {

@@ -47,17 +47,17 @@ function copy(context, from, to) {
 
 var webpackConfig = {
   entry: {
-    background: './src/scripts/background.js',
-    contentscript: './src/scripts/contentscript.js',
-    options: ['./src/scripts/options.js', './src/styles/options.scss'],
-    popup: ['./src/scripts/popup.js', './src/styles/popup.scss']
+    background: './src/scripts/background.ts',
+    contentscript: './src/scripts/contentscript.tsx',
+    options: ['./src/scripts/options.tsx', './src/styles/options.scss'],
+    popup: ['./src/scripts/popup.tsx', './src/styles/popup.scss']
   },
   output: {
     path: resolve(`build/${target}`),
     filename: 'scripts/[name].js',
   },
   resolve: {
-    extensions: ['.js', '.json', '.sass', '.scss'],
+    extensions: ['.js', '.ts', '.tsx', '.json', '.sass', '.scss'],
     modules: [
       resolve('src'),
       resolve('node_modules')
@@ -78,7 +78,12 @@ var webpackConfig = {
         include: [resolve('src')]
       },
       {
-        test: /\.js$/,
+        test: /\.tsx?$/,
+        loader: 'ts-loader',
+        include: [resolve('src')]
+      },
+      {
+        test: /\.tsx?$/,
         loader: 'string-replace-loader',
         query: {
           multiple: Object.keys(context).map(function(key) {
@@ -125,8 +130,8 @@ if (production) {
   ])
 } else {
   webpackConfig.entry.background = [
-    './src/scripts/livereload.js',
-    './src/scripts/background.js'
+    './src/scripts/livereload.ts',
+    './src/scripts/background.ts'
   ]
   webpackConfig.plugins = webpackConfig.plugins.concat([
     new WriteFilePlugin(),

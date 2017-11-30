@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import * as React from 'react'
 import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
@@ -8,7 +8,10 @@ import ext from '../utils/ext'
 
 import { SCAN_PAGE, addBookmark } from '../actions'
 
-const SiteDescription = (props) => (
+const SiteDescription = (props: {
+  siteInfo: any; //TODO FIXME
+  onBookmark: any; //TODO FIXME
+}) => (
   <div>
     <div className='site-description'>
       <h3 className='title'>{props.siteInfo.title}</h3>
@@ -21,12 +24,7 @@ const SiteDescription = (props) => (
   </div>
 )
 
-SiteDescription.propTypes = {
-  siteInfo: PropTypes.object.isRequired,
-  onBookmark: PropTypes.func.isRequired
-}
-
-class PopupContainer extends Component {
+class PopupContainer extends React.Component<any, any> { // TODO FIXME
   static propTypes = {
     addBookmarkAsync: PropTypes.func.isRequired,
     isScanning: PropTypes.bool.isRequired,

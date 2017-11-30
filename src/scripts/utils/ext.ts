@@ -1,3 +1,5 @@
+declare const chrome, browser, module;
+
 const apis = [
   'alarms',
   'bookmarks',
@@ -22,7 +24,6 @@ const apis = [
   'windows'
 ]
 
-/* eslint-disable no-undef */
 function Extension () {
   const _this = this
 
@@ -63,6 +64,5 @@ function Extension () {
     }
   } catch (e) {}
 }
-/* eslint-enable no-undef */
 
-module.exports = new Extension()
+export default new Extension()
