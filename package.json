@@ -3,7 +3,6 @@
   "version": "0.0.2",
   "description": "A template for creating cross-browser extensions",
   "scripts": {
-    "postinstall": "./node_modules/.bin/npm-git install https://github.com/sangwonl/react-chrome-redux.git",
     "lint": "./node_modules/.bin/eslint src config",
     "lint:fix": "npm run lint -- --fix",
     "webpack": "./node_modules/webpack/bin/webpack.js --config compile/webpack.conf.js",
