@@ -27,7 +27,10 @@
   },
   "homepage": "https://www.emailthis.me/extension-boilerplate",
   "devDependencies": {
+    "@types/chrome": "0.0.54",
     "@types/react": "^16.0.25",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.14",
     "axios": "^0.16.2",
     "babel-core": "^6.1.2",
     "babel-eslint": "^7.2.3",
