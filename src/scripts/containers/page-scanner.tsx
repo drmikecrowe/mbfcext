@@ -5,30 +5,34 @@ import { connect } from 'react-redux'
 import ext from '../utils/ext'
 
 import { SCAN_PAGE, sendPageTags } from '../actions'
+import { Bookmark } from '../reducers/bookmarks'
 
-class PageScannerContainer extends React.Component<any, any> { //TODO FIXME
-  static propTypes = {
-    sendPageTags: PropTypes.func.isRequired
-  }
+// props of action-creator
+interface DispatchProps {
+  sendPageTags: typeof sendPageTags
+}
 
-  _extractTags = () => {
-    var url = document.location.href
+interface State {}
+
+class PageScannerContainer extends React.Component<DispatchProps, State> {
+  private extractTags (): Bookmark {
+    const url = document.location.href
     if (!url || !url.match(/^http/)) { return }
 
-    var data = {
+    const data = {
       title: '',
       description: '',
       url: document.location.href
     }
 
-    var ogTitle = document.querySelector("meta[property='og:title']")
+    const ogTitle = document.querySelector("meta[property='og:title']")
     if (ogTitle) {
       data.title = ogTitle.getAttribute('content')
     } else {
       data.title = document.title
     }
 
-    var descriptionTag = document.querySelector("meta[property='og:description']") ||
+    const descriptionTag = document.querySelector("meta[property='og:description']") ||
                          document.querySelector("meta[name='description']")
     if (descriptionTag) {
       data.description = descriptionTag.getAttribute('content')
@@ -40,7 +44,7 @@ class PageScannerContainer extends React.Component<any, any> { //TODO FIXME
   componentDidMount () {
     ext.runtime.onMessage.addListener((request, sender, sendResponse) => {
       if (request.action === SCAN_PAGE) {
-        const pageTags = this._extractTags()
+        const pageTags = this.extractTags()
         this.props.sendPageTags(pageTags)
       }
     })
@@ -51,7 +55,7 @@ class PageScannerContainer extends React.Component<any, any> { //TODO FIXME
   }
 }
 
-const mapDispatchToProps = { sendPageTags }
-const mapStateToProps = (state) => ({})
+const mapDispatchToProps: DispatchProps = { sendPageTags }
+const mapStateToProps = (): State => ({})
 
 export default connect(mapStateToProps, mapDispatchToProps)(PageScannerContainer)

@@ -1,6 +1,11 @@
 import { combineReducers } from 'redux'
 
-import scans from './scans'
-import bookmarks from './bookmarks'
+import scans, { Scans } from './scans'
+import bookmarks, { Bookmarks } from './bookmarks'
 
-export default combineReducers({ scans, bookmarks })
+export interface Store {
+  bookmarks: Bookmarks
+  scans: Scans
+}
+
+export default combineReducers<Store>({ scans, bookmarks })

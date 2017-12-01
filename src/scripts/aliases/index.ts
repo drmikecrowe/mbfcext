@@ -1,9 +1,9 @@
-import { SAVE_BOOKMARK } from '../actions'
+import { Actions, SAVE_BOOKMARK } from '../actions'
 
 // import axios from 'axios'
 
 export default {
-  ADD_BOOKMARK: (action) => {
+  ADD_BOOKMARK: (action: Actions) => {
     return async (dispatch, getState) => {
       console.log('# You can do some async job or access to chrome object here.')
       console.log('Saving bookmark: ', action.payload)

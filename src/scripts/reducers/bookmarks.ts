@@ -1,10 +1,20 @@
 import { SAVE_BOOKMARK } from '../actions'
 
-const initialState = {
+export interface Bookmark {
+  title: string
+  description: string
+  url: string
+}
+
+export interface Bookmarks {
+  items: Array<Bookmark>
+}
+
+const initialState: Bookmarks = {
   items: []
 }
 
-export default (state = initialState, action) => {
+export default (state: Bookmarks = initialState, action) => {
   switch (action.type) {
     case SAVE_BOOKMARK:
       return {

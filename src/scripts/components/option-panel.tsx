@@ -3,6 +3,19 @@ import PropTypes from 'prop-types'
 
 import storage from '../utils/storage'
 
+
+interface Color {
+  color: string
+  label: string
+}
+
+interface Props {}
+
+interface State {
+  selectedColor: string
+  colors: Array<Color>
+}
+
 const OptionHeader = () => (
   <div className='grid'>
     <div className='unit whole center-on-mobiles'>
@@ -26,24 +39,27 @@ const OptionFooter = () => (
   </footer>
 )
 
-const ColorOptions = (props) => (
+const ColorOptions = ({
+  colors,
+  curColor,
+  onSelected
+}: {
+  colors: Array<Color>
+  curColor: string
+  onSelected: (event: any) => void
+}) => (
   <div className='radio-group'>
-    { props.colors.map((item, i) => (
+    { colors.map((item, i) => (
       <label key={i}>
         <input type='radio' name='radio' value={item.color}
-          checked={props.curColor === item.color}
-          onChange={props.onSelected} />{item.label}
+          checked={curColor === item.color}
+          onChange={onSelected} />{item.label}
       </label>
     )) }
   </div>
 )
 
-// ColorOptions.propTypes = {
-//   colors: PropTypes.array.isRequire,
-//   onSelected: PropTypes.func.isRequire
-// }
-
-class OptionPanel extends React.Component<any, any> {
+class OptionPanel extends React.Component<Props, State> {
   constructor (props) {
     super(props)
     this.state = {
