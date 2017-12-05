@@ -1,4 +1,4 @@
-declare const chrome, browser, module;
+declare const browser, module;
 
 const apis = [
   'alarms',
@@ -8,7 +8,7 @@ const apis = [
   'contextMenus',
   'cookies',
   'downloads',
-  'events',
+  // 'events',
   'extension',
   'extensionTypes',
   'history',
@@ -22,47 +22,57 @@ const apis = [
   'webNavigation',
   'webRequest',
   'windows'
-]
+] as Array<keyof Extension>;
 
-function Extension () {
-  const _this = this
+class Extension {
+  alerms: typeof chrome.alarms
+  bookmarks: typeof chrome.bookmarks
+  browserAction: typeof chrome.browserAction
+  commands: typeof chrome.commands
+  contextMenus: typeof chrome.contextMenus
+  cookies: typeof chrome.cookies
+  downloads: typeof chrome.downloads
+  //events: typeof chrome.events
+  extension: typeof chrome.extension
+  //extensionTypes: typeof chrome.extensionTypes
+  history: typeof chrome.history
+  i18n: typeof chrome.i18n
+  idle: typeof chrome.idle
+  nortifications: typeof chrome.notifications
+  pageAction: typeof chrome.pageAction
+  runtime: typeof chrome.runtime
+  storage: typeof chrome.storage
+  tabs: typeof chrome.tabs
+  webNavigation: typeof chrome.webNavigation
+  webRequest: typeof chrome.webRequest
+  windows: typeof chrome.windows
 
-  apis.forEach(function (api) {
-    _this[api] = null
-
-    try {
-      if (chrome[api]) {
-        _this[api] = chrome[api]
+  constructor () {
+    apis.forEach((api: keyof Extension) => {
+      if (typeof chrome !== 'undefined') {
+        this[api] = chrome[api]
       }
-    } catch (e) {}
-
-    try {
-      if (window[api]) {
-        _this[api] = window[api]
+      if (typeof window !== 'undefined' && window[api]) {
+        this[api] = chrome[api]
       }
-    } catch (e) {}
-
-    try {
-      if (browser[api]) {
-        _this[api] = browser[api]
+      if (typeof browser !== 'undefined') {
+        if (browser.extension && browser.extension[api]) {
+          this[api] = browser.extension[api]
+        } else if (browser[api]) {
+          this[api] = browser[api]
+        }
       }
-    } catch (e) {}
-    try {
-      _this.api = browser.extension[api]
-    } catch (e) {}
-  })
+    })
 
-  try {
-    if (browser && browser.runtime) {
-      this.runtime = browser.runtime
+    if (typeof browser !== 'undefined') {
+      if (browser.runtime) {
+        this.runtime = browser.runtime
+      }
+      if (browser.browserAction) {
+        this.browserAction = browser.browserAction
+      }
     }
-  } catch (e) {}
-
-  try {
-    if (browser && browser.browserAction) {
-      this.browserAction = browser.browserAction
-    }
-  } catch (e) {}
+  }
 }
 
 export default new Extension()
