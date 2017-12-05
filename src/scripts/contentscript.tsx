@@ -11,7 +11,7 @@ const proxyStore = new Store({
   extensionId: extension === 'firefox' ? 'my-app-id@mozilla.org' : ''
 })
 
-let renderDOM = () => {
+const renderDOM = () => {
   render(
     <Provider store={proxyStore}>
       <PageScannerContainer />

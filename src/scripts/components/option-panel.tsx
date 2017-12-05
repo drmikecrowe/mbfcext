@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 import storage from '../utils/storage'
 
-
 interface Color {
   color: string
   label: string
@@ -72,7 +71,7 @@ class OptionPanel extends React.Component<Props, State> {
     }
   }
 
-  _changeColor = (color) => {
+  changeColor (color) {
     document.body.style.backgroundColor = color
     this.setState({ ...this.state, selectedColor: color })
   }
@@ -81,16 +80,16 @@ class OptionPanel extends React.Component<Props, State> {
     setTimeout(() => {
       storage.get('color', (resp) => {
         if (resp && resp.color) {
-          this._changeColor(resp.color)
+          this.changeColor(resp.color)
         }
       })
     }, 0)
   }
 
-  onColorSelected = (event) => {
+  onColorSelected (event) {
     const color = event.target.value
     storage.set({ color }, () => {
-      this._changeColor(color)
+      this.changeColor(color)
     })
   }
 

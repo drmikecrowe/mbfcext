@@ -15,11 +15,11 @@ interface DispatchProps {
 interface State {}
 
 class PageScannerContainer extends React.Component<DispatchProps, State> {
-  private extractTags (): Bookmark {
+  extractTags (): Bookmark {
     const url = document.location.href
     if (!url || !url.match(/^http/)) { return }
 
-    const data = {
+    const data: Bookmark = {
       title: '',
       description: '',
       url: document.location.href

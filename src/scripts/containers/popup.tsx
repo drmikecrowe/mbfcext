@@ -68,7 +68,7 @@ class PopupContainer extends React.Component<StateProps & DispatchProps, State> 
     })
   }
 
-  private resultMessage (message) {
+  resultMessage (message) {
     this.setState({ ...this.state, resultMessage: message })
   }
 
