@@ -1,3 +1,4 @@
+import { Action } from 'redux'
 import { Bookmark } from '../reducers/bookmarks'
 
 export const SCAN_PAGE = 'SCAN_PAGE'
@@ -5,28 +6,27 @@ export const SEND_PAGE_TAGS = 'SEND_PAGE_TAGS'
 export const ADD_BOOKMARK = 'ADD_BOOKMARK'
 export const SAVE_BOOKMARK = 'SAVE_BOOKMARK'
 
-export type ActionNames = typeof SCAN_PAGE |
-                          typeof SEND_PAGE_TAGS |
-                          typeof ADD_BOOKMARK |
-                          typeof SAVE_BOOKMARK
-
-export type Action<T extends ActionNames, P> = {
-  type: T
-  payload: P
+export interface SendPageTagsAction extends Action {
+  type: typeof SEND_PAGE_TAGS
+  payload: Bookmark
 }
 
-export type Actions = Action<typeof SEND_PAGE_TAGS, Bookmark> |
-                      Action<typeof ADD_BOOKMARK, Bookmark> |
-                      Action<typeof SAVE_BOOKMARK, Bookmark>
+export interface AddBookmarkAction extends Action {
+  type: typeof ADD_BOOKMARK
+  payload: Bookmark
+}
 
-type ActionCreator<T extends ActionNames, P> = (payload: P) => Action<T, P>
+export interface SaveBookmarkAction extends Action {
+  type: typeof SAVE_BOOKMARK
+  payload: Bookmark
+}
 
-export const sendPageTags: ActionCreator<typeof SEND_PAGE_TAGS, Bookmark> = (tags: Bookmark) => ({
+export const sendPageTags = (tags: Bookmark): SendPageTagsAction => ({
   type: SEND_PAGE_TAGS,
   payload: tags
 })
 
-export const addBookmark: ActionCreator<typeof ADD_BOOKMARK, Bookmark> = (siteInfo: Bookmark) => ({
+export const addBookmark = (siteInfo: Bookmark): AddBookmarkAction => ({
   type: ADD_BOOKMARK,
   payload: siteInfo
 })
