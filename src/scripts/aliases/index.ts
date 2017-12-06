@@ -1,9 +1,10 @@
-import { SAVE_BOOKMARK } from '../actions'
+import { Action, Dispatch } from 'redux'
+import { SAVE_BOOKMARK, AddBookmarkAction, SaveBookmarkAction } from '../actions'
 
 // import axios from 'axios'
 
 export default {
-  ADD_BOOKMARK: (action) => {
+  ADD_BOOKMARK: (action: AddBookmarkAction) => {
     return async (dispatch, getState) => {
       console.log('# You can do some async job or access to chrome object here.')
       console.log('Saving bookmark: ', action.payload)
