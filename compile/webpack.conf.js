@@ -73,11 +73,6 @@ var webpackConfig = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        include: [resolve('src')]
-      },
-      {
         test: /\.tsx?$/,
         loader: 'ts-loader',
         include: [resolve('src')]
