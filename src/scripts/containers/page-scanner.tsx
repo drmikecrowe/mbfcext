@@ -1,5 +1,4 @@
 import * as React from 'react'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 import ext from '../utils/ext'
@@ -15,9 +14,9 @@ interface DispatchProps {
 interface State {}
 
 class PageScannerContainer extends React.Component<DispatchProps, State> {
-  extractTags (): Bookmark {
+  extractTags (): Bookmark | undefined {
     const url = document.location.href
-    if (!url || !url.match(/^http/)) { return }
+    if (!url || !url.match(/^http/)) { return undefined }
 
     const data: Bookmark = {
       title: '',
@@ -27,7 +26,7 @@ class PageScannerContainer extends React.Component<DispatchProps, State> {
 
     const ogTitle = document.querySelector("meta[property='og:title']")
     if (ogTitle) {
-      data.title = ogTitle.getAttribute('content')
+      data.title = ogTitle.getAttribute('content') || document.title
     } else {
       data.title = document.title
     }
@@ -35,7 +34,7 @@ class PageScannerContainer extends React.Component<DispatchProps, State> {
     const descriptionTag = document.querySelector("meta[property='og:description']") ||
                          document.querySelector("meta[name='description']")
     if (descriptionTag) {
-      data.description = descriptionTag.getAttribute('content')
+      data.description = descriptionTag.getAttribute('content') || ''
     }
 
     return data
@@ -45,7 +44,9 @@ class PageScannerContainer extends React.Component<DispatchProps, State> {
     ext.runtime.onMessage.addListener((request, sender, sendResponse) => {
       if (request.action === SCAN_PAGE) {
         const pageTags = this.extractTags()
-        this.props.sendPageTags(pageTags)
+        if (pageTags) {
+          this.props.sendPageTags(pageTags)
+        }
       }
     })
   }

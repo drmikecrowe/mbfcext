@@ -3,12 +3,11 @@ import { Bookmark } from './bookmarks'
 
 export interface Scans {
   isScanning: boolean
-  scannedPageTags: Bookmark
+  scannedPageTags?: Bookmark
 }
 
 const initialState: Scans = {
-  isScanning: false,
-  scannedPageTags: null
+  isScanning: false
 }
 
 export default (state: Scans = initialState, action) => {
@@ -16,7 +15,7 @@ export default (state: Scans = initialState, action) => {
     case SCAN_PAGE:
       return {
         isScanning: true,
-        scannedPageTags: null
+        scannedPageTags: undefined
       }
     case SEND_PAGE_TAGS:
       return {

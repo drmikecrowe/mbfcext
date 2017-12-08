@@ -1,4 +1,4 @@
-declare const browser, module;
+declare const browser: typeof chrome
 
 const apis = [
   'alarms',
@@ -22,7 +22,7 @@ const apis = [
   'webNavigation',
   'webRequest',
   'windows'
-] as Array<keyof Extension>;
+] as Array<keyof Extension>
 
 class Extension {
   alerms: typeof chrome.alarms
@@ -32,9 +32,9 @@ class Extension {
   contextMenus: typeof chrome.contextMenus
   cookies: typeof chrome.cookies
   downloads: typeof chrome.downloads
-  //events: typeof chrome.events
+  // events: typeof chrome.events
   extension: typeof chrome.extension
-  //extensionTypes: typeof chrome.extensionTypes
+  // extensionTypes: typeof chrome.extensionTypes
   history: typeof chrome.history
   i18n: typeof chrome.i18n
   idle: typeof chrome.idle
@@ -49,12 +49,15 @@ class Extension {
 
   constructor () {
     apis.forEach((api: keyof Extension) => {
+      // tslint:disable:strict-type-predicates
       if (typeof chrome !== 'undefined') {
         this[api] = chrome[api]
       }
+      // tslint:disable:strict-type-predicates
       if (typeof window !== 'undefined' && window[api]) {
         this[api] = chrome[api]
       }
+      // tslint:disable:strict-type-predicates
       if (typeof browser !== 'undefined') {
         if (browser.extension && browser.extension[api]) {
           this[api] = browser.extension[api]
@@ -64,6 +67,7 @@ class Extension {
       }
     })
 
+    // tslint:disable:strict-type-predicates
     if (typeof browser !== 'undefined') {
       if (browser.runtime) {
         this.runtime = browser.runtime

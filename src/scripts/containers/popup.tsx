@@ -1,6 +1,5 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 import storage from '../utils/storage'
@@ -13,7 +12,7 @@ import { Bookmark } from '../reducers/bookmarks'
 // props of redux state
 interface StateProps {
   isScanning: boolean,
-  bookmarkSiteInfo: Bookmark
+  bookmarkSiteInfo?: Bookmark
 }
 
 // props of action-creator
@@ -22,7 +21,7 @@ interface DispatchProps {
 }
 
 interface State {
-  resultMessage: string
+  resultMessage?: string
 }
 
 const SiteDescription = ({
@@ -47,9 +46,6 @@ const SiteDescription = ({
 class PopupContainer extends React.Component<StateProps & DispatchProps, State> {
   constructor (props) {
     super(props)
-    this.state = {
-      resultMessage: null
-    }
   }
 
   componentDidMount () {
@@ -57,14 +53,18 @@ class PopupContainer extends React.Component<StateProps & DispatchProps, State> 
       storage.get('color', (resp) => {
         if (resp && resp.color) {
           const parentElem = ReactDOM.findDOMNode(this).parentElement
-          parentElem.style.backgroundColor = resp.color
+          if (parentElem) {
+            parentElem.style.backgroundColor = resp.color
+          }
         }
       })
     }, 0)
 
     ext.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-      var activeTab = tabs[0]
-      ext.tabs.sendMessage(activeTab.id, { action: SCAN_PAGE })
+      const activeTab = tabs[0]
+      if (activeTab && typeof activeTab.id === 'number') {
+        ext.tabs.sendMessage(activeTab.id, { action: SCAN_PAGE })
+      }
     })
   }
 
@@ -78,18 +78,20 @@ class PopupContainer extends React.Component<StateProps & DispatchProps, State> 
 
   handleSaveBookmark = async () => {
     const { addBookmarkAsync, bookmarkSiteInfo } = this.props
-    try {
-      const data = await addBookmarkAsync(bookmarkSiteInfo)
-      console.log(data)
-      this.resultMessage('Your bookmark was saved successfully!')
-    } catch (err) {
-      console.log(err)
-      this.resultMessage('Sorry, there was an error while saving your bookmark.')
+    if (bookmarkSiteInfo) {
+      try {
+        const data = await (addBookmarkAsync(bookmarkSiteInfo) as any)
+        console.log(data)
+        this.resultMessage('Your bookmark was saved successfully!')
+      } catch (err) {
+        console.log(err)
+        this.resultMessage('Sorry, there was an error while saving your bookmark.')
+      }
     }
   }
 
   render () {
-    let siteDescContent = null
+    let siteDescContent
     let resultMessage = this.state.resultMessage
     if (!this.props.isScanning) {
       if (this.props.bookmarkSiteInfo) {

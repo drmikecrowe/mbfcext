@@ -1,4 +1,3 @@
-import { Action, Dispatch } from 'redux'
 import { SAVE_BOOKMARK, AddBookmarkAction, SaveBookmarkAction } from '../actions'
 
 // import axios from 'axios'
@@ -12,7 +11,8 @@ export default {
       // const res = await axios.post('http://my-api-server.com/bookmarks/')
       // console.log(res)
 
-      return dispatch({ type: SAVE_BOOKMARK, payload: action.payload })
+      const saveBookmarkAction: SaveBookmarkAction = { type: SAVE_BOOKMARK, payload: action.payload }
+      return dispatch(saveBookmarkAction)
     }
   }
 }
