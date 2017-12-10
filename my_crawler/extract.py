@@ -45,6 +45,10 @@ for key in shelf:
         # if item['url'].find('mediabiasfactcheck.com/msnbc/') > -1:
         #     print(repr(item))
         pass
+    except TypeError:
+        # if item['url'].find('mediabiasfactcheck.com/msnbc/') > -1:
+        #     print(repr(item))
+        continue
     try:
         key = item['domain'] if item['domain'] else item['url']
         sources_all[key] = item
@@ -59,6 +63,10 @@ for key in shelf:
             sources_review[key] = item
     except KeyError:
         print(repr(item))
+    except TypeError:
+        # if item['url'].find('mediabiasfactcheck.com/msnbc/') > -1:
+        #     print(repr(item))
+        continue
 
 todo = {
     "sources-all.json": sources_all,
