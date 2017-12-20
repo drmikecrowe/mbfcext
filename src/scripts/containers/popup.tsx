@@ -98,7 +98,8 @@ class PopupContainer extends React.Component<StateProps & DispatchProps, State> 
         siteDescContent = (
           <SiteDescription
             siteInfo={this.props.bookmarkSiteInfo}
-            onBookmark={this.handleSaveBookmark} />
+            onBookmark={this.handleSaveBookmark}
+          />
         )
       } else {
         resultMessage = "Sorry, could not extract this page's title and URL"

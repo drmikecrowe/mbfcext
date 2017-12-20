@@ -1,8 +1,6 @@
 {
-  "extends": "tslint-config-standard",
+  "extends": ["tslint-config-standard", "tslint-react"],
   "rules": {
-    "jsx-quotes"           : [2, "prefer-single"],
-    "max-len"              : [2, 120, 2],
-    "object-curly-spacing" : [2, "always"]
+    "jsx-no-multiline-js": false
   }
 }

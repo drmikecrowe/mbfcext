@@ -49,9 +49,13 @@ const ColorOptions = ({
   <div className='radio-group'>
     { colors.map((item, i) => (
       <label key={i}>
-        <input type='radio' name='radio' value={item.color}
+        <input
+          type='radio'
+          name='radio'
+          value={item.color}
           checked={curColor === item.color}
-          onChange={onSelected} />{item.label}
+          onChange={onSelected}
+        />{item.label}
       </label>
     )) }
   </div>
@@ -105,7 +109,8 @@ class OptionPanel extends React.Component<Props, State> {
                 <ColorOptions
                   colors={this.state.colors}
                   curColor={this.state.selectedColor}
-                  onSelected={this.onColorSelected} />
+                  onSelected={this.onColorSelected}
+                />
               </div>
               <div className='option'>
                 <em className='text-muted'>...display your extensions' options here...</em>
