@@ -45,6 +45,7 @@ class MbfcCrawlerItem(scrapy.Item):
     error = scrapy.Field()
     raw = scrapy.Field()
     text = scrapy.Field()
+    crawled_at = scrapy.Field()
 
     def __init__(self, *args, **kwargs):
         super(scrapy.Item, self).__init__(default)

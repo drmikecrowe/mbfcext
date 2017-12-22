@@ -1,29 +1,54 @@
 # -*- coding: utf-8 -*-
+import datetime
 import re
-import shelve
 from urlparse import urlparse
 
 import scrapy
+
+from Source import Source
+from Source import create_or_update_source
 
 try:
     from mbfc_crawler.items import MbfcCrawlerItem
 except ImportError:
     from items import MbfcCrawlerItem
 
-check = [
-    "https://www.facebook.com/dialog",
-    "https://www.facebook.com/sharer.php?s",
-    "https://www.facebook.com/tampabaycom",
-    "https://www.facebook.com/tr?ev",
-    "https://www.facebook.com/wired",
-    "https://www.facebook.com/groups",
-    "https://www.facebook.com/newstargetofficial",
-    "https://www.facebook.com/share.php?u",
-    "https://www.facebook.com/sharer.php?u",
-    "https://www.facebook.com/sharer",
-    "https://www.facebook.com/plugins",
-    "https://www.facebook.com/tr?id",
-    "https://www.facebook.com/pages",
+facebook_ignore = [
+    "facebook.com/Conservative",
+    "facebook.com/Left",
+    "facebook.com/MarketWatch",
+    "facebook.com/The",
+    "facebook.com/TheTruthMonitor/",
+    "facebook.com/TmzWorldstar/",
+    "facebook.com/USDailyNewss/",
+    "facebook.com/app",
+    "facebook.com/dialog",
+    "facebook.com/groups",
+    "facebook.com/home.php",
+    "facebook.com/newstargetofficial",
+    "facebook.com/pages",
+    "facebook.com/pages/American",
+    "facebook.com/pages/Australian",
+    "facebook.com/pages/Committee",
+    "facebook.com/pages/Foreign",
+    "facebook.com/pages/Hoover",
+    "facebook.com/pages/Left",
+    "facebook.com/pages/New",
+    "facebook.com/pages/The",
+    "facebook.com/plugins",
+    "facebook.com/plugins/like.php?app",
+    "facebook.com/plugins/like.php?href",
+    "facebook.com/plugins/likebox.php?href",
+    "facebook.com/plugins/page.php?href",
+    "facebook.com/profile.php?id",
+    "facebook.com/share.php?u",
+    "facebook.com/sharer",
+    "facebook.com/sharer.php?s",
+    "facebook.com/sharer.php?u",
+    "facebook.com/sharer/sharer.php?u",
+    "facebook.com/tr?ev",
+    "facebook.com/tr?id",
+    "facebook.com/v2.6/plugins/page.php?adapt",
 ]
 
 review = [
@@ -31,14 +56,14 @@ review = [
 ]
 
 override = {
-    'https://mediabiasfactcheck.com/cato-institute/': 'cato.org',
-    'https://mediabiasfactcheck.com/regulation-magazine/': 'cato.org/regulation',
-    'https://mediabiasfactcheck.com/factcheck/': 'factcheck.org',
-    'https://mediabiasfactcheck.com/scicheck/': 'factcheck.org/scicheck',
-    'https://mediabiasfactcheck.com/hoover-institution/': 'hoover.org',
-    'https://mediabiasfactcheck.com/policy-review/': 'hoover.org/publications/policy-review',
+    'https://mediabiasfactcheck.com/cato-institute/':                 'cato.org',
+    'https://mediabiasfactcheck.com/regulation-magazine/':            'cato.org/regulation',
+    'https://mediabiasfactcheck.com/factcheck/':                      'factcheck.org',
+    'https://mediabiasfactcheck.com/scicheck/':                       'factcheck.org/scicheck',
+    'https://mediabiasfactcheck.com/hoover-institution/':             'hoover.org',
+    'https://mediabiasfactcheck.com/policy-review/':                  'hoover.org/publications/policy-review',
     'https://mediabiasfactcheck.com/public-radio-international-pri/': 'pri.org',
-    'https://mediabiasfactcheck.com/global-post/': 'pri.org/programs/globalpost',
+    'https://mediabiasfactcheck.com/global-post/':                    'pri.org/programs/globalpost',
 }
 
 
@@ -53,33 +78,55 @@ def tostr(text):
 
 
 def check_fb_needed(item):
-    global check
-    for t in check:
+    global facebook_ignore
+    for t in facebook_ignore:
         if t == item['facebook_url']:
             return True
     return False
 
 
+def parse_url(url):
+    o = urlparse(url)
+    obj = {
+        "homepage": tostr(o.geturl()),
+        "domain":   tostr(o.netloc),
+        "url":      url,
+    }
+    if obj["url"] in override:
+        obj["domain"] = override[obj["url"]]
+    return obj
+
+
 class ParseMbfc(scrapy.Spider):
-    review = 'truth-and-action'
-    shelf = shelve.open('../shelf.dat')
-    try:
-        complete = shelf['complete']
-    except KeyError:
-        shelf['complete'] = {}
-
-    def closed(self, reason):
-        self.shelf.close()
-
     def complete(self, item):
-        item['complete'] = True
-        self.shelf[str(item['url'])] = dict(item)
-        self.shelf["complete"][str(item['url'])] = True
+        if type(item) == Source:
+            item.complete = True
+            item.crawled_at = datetime.datetime.now()
+            item.save()
+        else:
+            item['complete'] = True
+            item['crawled_at'] = datetime.datetime.now()
+            create_or_update_source(dict(item))
+
+    def review(self, item, msg):
+        if type(item) == Source:
+            item.review = True
+            item.review_details = msg
+            item.complete = True
+            item.crawled_at = datetime.datetime.now()
+            item.save()
+        else:
+            item['review_details'] = msg
+            item['review'] = True
+            item['complete'] = True
+            item['crawled_at'] = datetime.datetime.now()
+            create_or_update_source(dict(item))
 
     def errorback(self, response):
-        item = response.request.meta['item']
-        item['error'] = True
-        self.complete(item)
+        sources = Source.get_or_create(domain=response.request.meta['domain'])
+        source = sources[0]
+        source.error = True
+        self.complete(source)
         self.logger.error('URL Invalid, flagging: %s', response.request.url)
 
     def parse(self, response):
@@ -90,49 +137,39 @@ class ParseMbfc(scrapy.Spider):
         for link in selectors:
             reviewed += 1
             url = link.extract().replace("http:", "https:")
-            if url.find(self.review) > -1:
-                bk = 1
             try:
-                item = self.shelf[str(url)]
-                if item['error']:
+                sources = Source.get_or_create(url=str(url))
+                source = sources[0]
+                if source.error:
                     self.logger.info('Error %s -- skipping', response.url)
-                    self.complete(item)
-                    yield item
+                    self.complete(source)
+                    yield source
                     continue
-                if item['complete'] and not item['review']:
-                    self.logger.info('Already processed %s -- skipping', item['url'])
-                    self.complete(item)
-                    yield item
+                if source.complete and not source.review:
+                    self.logger.info('Already processed %s -- skipping', source.url)
+                    yield None
                     continue
             except KeyError:
+                pass
+            except Exception as ex:
                 pass
             item = MbfcCrawlerItem()
             item['url'] = url
             item['bias'] = response.meta['bias']
-            self.shelf[str(url)] = dict(item)
+            response.meta['url'] = url
             request = scrapy.Request(url, callback=self.parse_details, errback=self.errorback, dont_filter=True)
             request.meta['item'] = item
-            self.logger.info('Processing %s', item['url'])
+            self.logger.info('Processing %s', url)
             yield request
-        if reviewed == 0:
-            self.logger.error('No items processed on %s!' % response.url)
-            bk = 1
 
     def parse_details(self, response):
         item = response.meta['item']
-        if item['url'].find(self.review) > -1:
-            bk = 1
-        if item['url'].find("mediabiasfactcheck.com") > -1:
-            del self.shelf[str(item['url'])]
         for page in response.css('article.hentry'):
             item['name'] = tostr(page.css('h1.page-title::text').extract_first())
-            review = {}
-            review['loaded'] = False
             raw = page.css(".hentry p").extract()
             text = page.css(".hentry p").css("::text").extract()
             item['raw'] = "".join(raw)
             item['text'] = "".join(text)
-            stage = None
             factual = -1
             notes = -1
             source = -1
@@ -188,24 +225,21 @@ class ParseMbfc(scrapy.Spider):
                 if source == -1:
                     source = notes
 
-
             selector = page.css(".hentry p")[source:latest]
             urls = selector.css('a::attr("href")').extract()
             if len(urls) > 0:
-                o = urlparse(urls[0])
-                item["homepage"] = tostr(o.geturl())
-                item["domain"] = tostr(o.netloc)
-                if item['url'] in override:
-                    item['domain'] = override[item['url']]
+                obj = parse_url(urls[0])
+                item['homepage'] = obj["homepage"]
+                item['domain'] = obj["domain"]
+                item['url'] = urls[0]
                 item['review'] = False
             else:
                 urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', re.sub('<[^<]+?>', '', item['text']))
                 if len(urls) > 0:
-                    o = urlparse(urls[0])
-                    item["homepage"] = tostr(o.geturl())
-                    item["domain"] = tostr(o.netloc)
-                    if item['url'] in override:
-                        item['domain'] = override[item['url']]
+                    obj = parse_url(urls[0])
+                    item['homepage'] = obj["homepage"]
+                    item['domain'] = obj["domain"]
+                    item['url'] = urls[0]
                     item['review'] = False
                 else:
                     item['review'] = True
@@ -218,14 +252,15 @@ class ParseMbfc(scrapy.Spider):
                 yield item
                 continue
 
-            if len(dict(item).keys()) < 7 and item['bias'] != 'satire':
-                item['review'] = True
-                item['review_details'] = 'Not enough information'
+            # if len(dict(item).keys()) < 7 and source.bias != 'satire':
+            #     source.review = True
+            #     source.review_details = 'Not enough information'
 
             if item['facebook_url']:
                 self.complete(item)
                 yield item
                 continue
+
             request = scrapy.Request(item["homepage"], callback=self.parse_homepage, errback=self.errorback, dont_filter=True)
             request.meta['item'] = item
             yield request
@@ -234,7 +269,7 @@ class ParseMbfc(scrapy.Spider):
         item = response.meta['item']
         fburls = response.css('body').re('facebook.com\/[a-zA-Z0-9/(\.\?)?]+')
         for fburl in fburls:
-            if fburl and not fburl in check and len(fburl) > 14:
+            if fburl and not fburl in facebook_ignore and len(fburl) > 14:
                 item['facebook_url'] = 'https://www.' + fburl
                 break
         self.complete(item)

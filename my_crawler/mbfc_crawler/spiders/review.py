@@ -19,12 +19,12 @@ class ReviewSpider(ParseMbfc):
     limit = [] # ['https://mediabiasfactcheck.com/msnbc/']
 
     def launch(self, key, item):
+        raise Exception("Needs rework")
         item = MbfcCrawlerItem(item)
-        self.shelf[key] = dict(item)
-        request = scrapy.Request(item["url"], callback=self.parse_details, errback=self.errorback, dont_filter=True)
-        request.meta['bias'] = item['bias']
-        request.meta['item'] = item
-        self.logger.info('Starting review of: %s', item['url'])
+        request = scrapy.Request(item.url, callback=self.parse_details, errback=self.errorback, dont_filter=True)
+        request.meta['bias'] = item.bias
+        request.meta['domain'] = item.domain
+        self.logger.info('Starting review of: %s', item.url)
         return request
 
     def start_requests(self):
@@ -32,7 +32,7 @@ class ReviewSpider(ParseMbfc):
             item = self.shelf[key]
 
             try:
-                if item['review'] or self.todo.find(key) > -1:
+                if item.review or self.todo.find(key) > -1:
                     if len(self.limit) > 0 and not key in self.limit:
                         continue
                     yield self.launch(key, item)

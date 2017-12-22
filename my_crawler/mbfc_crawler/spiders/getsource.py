@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-import scrapy
 import json
-from urlparse import urlparse
 import os
-from unidecode import unidecode
-import shelve
+
+import scrapy
+
 from parse_mbfc import ParseMbfc
 
 try:
