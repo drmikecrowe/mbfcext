@@ -92,16 +92,29 @@ for k in todo:
             if os.path.exists("valid.export"):
                 os.unlink("valid.export")
 
+def get_domains(where):
+    domains = []
+    for source in Source.select().where(where).order_by(Source.MozRankURL.desc()):
+        domains.append(source.domain)
+    return sorted(set(domains))
+
+
+baseline = ((Source.complete == 1) & (Source.review == 0) & (Source.reporting << ['HIGH', 'VERY HIGH']) & (Source.Links > 1000))
 biases = json.load(open("biases.json", "r"))
 for bias in biases:
     if bias == 'fake-news' or bias == 'satire' or bias == 'conspiracy':
         continue
-    domains = []
-    for source in Source.select().where((Source.complete == 1) & (Source.review == 0) & (Source.bias == bias) & ((Source.reporting == 'HIGH') | (Source.reporting=='VERY HIGH'))).order_by(Source.MozRankURL.desc()).limit(500):
-        domains.append(source.domain)
-    open(biases[bias]["name"] + ".txt", "w").write("\n".join(domains))
+    domains = get_domains(baseline & (Source.bias == bias))
+    open("GCS/" + biases[bias]["name"].replace(" ","-") + ".txt", "w").write("\n".join(domains))
 
-domains = []
-for source in Source.select().where((Source.complete == 1) & (Source.review == 0) & ((Source.reporting == 'HIGH') | (Source.reporting == 'VERY-HIGH'))).order_by(Source.MozRankURL.desc()).limit(500):
-    domains.append(source.domain)
-open("Factual Reporting.txt", "w").write("\n".join(domains))
+domains = get_domains(baseline)
+open("GCS/Factual-Reporting.txt", "w").write("\n".join(domains))
+
+domains = get_domains(baseline & (Source.bias << ['left', 'left-center', 'center']))
+open("GCS/Left-Leaning-Or-Center-Sources.txt", "w").write("\n".join(domains))
+
+domains = get_domains(baseline & (Source.bias << ['right', 'right-center', 'center']))
+open("GCS/Right-Leaning-Or-Center-Sources.txt", "w").write("\n".join(domains))
+
+domains = get_domains(baseline & (Source.bias << ['left-center', 'right-center', 'center']))
+open("GCS/Leaning-Center-Sources.txt", "w").write("\n".join(domains))
