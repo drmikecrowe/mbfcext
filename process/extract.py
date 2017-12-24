@@ -1,6 +1,6 @@
 import json
-import datetime
 import os
+
 from unidecode import unidecode
 
 from Source import Source
@@ -13,7 +13,7 @@ sources_review = {}
 
 skeys = ["name", "bias", "facebook_url", "homepage", "url", "reporting", "Links", "MozRankURL"]
 
-for source in Source.select().where((Source.complete==1) & (Source.review==0)):
+for source in Source.select().where((Source.complete == 1) & (Source.review == 0)):
     item = source.toJSON()
     for k in item:
         try:
@@ -68,10 +68,10 @@ for source in Source.select().where((Source.complete==1) & (Source.review==0)):
         continue
 
 todo = {
-    "sources-all.json": sources_all,
-    "sources.json": sources,
-    "csources.json": csources,
-    "sources-error.json": sources_error,
+    "sources-all.json":    sources_all,
+    "sources.json":        sources,
+    "csources.json":       csources,
+    "sources-error.json":  sources_error,
     "sources-review.json": sources_review,
 }
 for k in todo:
@@ -97,11 +97,11 @@ for bias in biases:
     if bias == 'fake-news' or bias == 'satire' or bias == 'conspiracy':
         continue
     domains = []
-    for source in Source.select().where((Source.complete==1) & (Source.review==0) & (Source.bias == bias)).order_by(Source.MozRankURL.desc()).limit(500):
+    for source in Source.select().where((Source.complete == 1) & (Source.review == 0) & (Source.bias == bias) & ((Source.reporting == 'HIGH') | (Source.reporting=='VERY HIGH'))).order_by(Source.MozRankURL.desc()).limit(500):
         domains.append(source.domain)
     open(biases[bias]["name"] + ".txt", "w").write("\n".join(domains))
 
 domains = []
-for source in Source.select().where((Source.complete==1) & (Source.review==0) & ((Source.reporting == 'HIGH') | (Source.reporting == 'VERY-HIGH'))).order_by(Source.MozRankURL.desc()).limit(500):
+for source in Source.select().where((Source.complete == 1) & (Source.review == 0) & ((Source.reporting == 'HIGH') | (Source.reporting == 'VERY-HIGH'))).order_by(Source.MozRankURL.desc()).limit(500):
     domains.append(source.domain)
 open("Factual Reporting.txt", "w").write("\n".join(domains))
