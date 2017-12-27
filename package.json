@@ -63,6 +63,7 @@
     "zip-webpack-plugin": "^1.1.0"
   },
   "dependencies": {
-    "react-chrome-redux": "^1.4.0"
+    "react-chrome-redux": "^1.4.0",
+    "uglifyjs-webpack-plugin": "^1.1.4"
   }
 }

@@ -2,6 +2,7 @@ var fs = require('fs')
 var path = require('path')
 var webpack = require('webpack')
 
+var UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 var CopyWebpackPlugin = require('copy-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var GenerateJsonPlugin = require('generate-json-webpack-plugin')
@@ -117,9 +118,11 @@ var webpackConfig = {
 if (production) {
   webpackConfig.output.path = resolve(`dist/${target}`)
   webpackConfig.plugins = webpackConfig.plugins.concat([
-    new webpack.optimize.UglifyJsPlugin({
-      mangle: false,
-      output: { ascii_only: true }
+    new UglifyJsPlugin({
+      uglifyOptions: {
+        mangle: false,
+        output: { ascii_only: true }
+      }
     }),
     new ZipPlugin({ filename: `${target}.zip` })
   ])
