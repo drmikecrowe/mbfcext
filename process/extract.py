@@ -19,7 +19,8 @@ def get_domains(where, label):
                 "labels": [],
                 "name": source.name
             }
-        table_hosts[host]["labels"].append(label)
+        if label != "factual-reporting":
+            table_hosts[host]["labels"].append(label)
     return sorted(set(domains))
 
 
@@ -181,7 +182,7 @@ for bias in biases:
     domains = get_domains(baseline & (Source.bias == bias), bias + "-only")
     sources[bias + "-only"] = add_sources(bias + "-only", biases[bias]["name"] + " Sources only with Highly Factual Reporting", domains)
     hosts[bias + "-only"] = domains
-    add_facet(bias + "-only", biases[bias]["name"] + " only")
+    add_facet(bias + "-only", biases[bias]["name"].replace(" Bias", ""))
     add_hosts(bias + "-only", domains)
 
 js = []

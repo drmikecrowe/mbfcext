@@ -22,37 +22,37 @@
         <Label name="right-only" mode="FILTER" enable_for_facet_search="false">
           <Rewrite></Rewrite>
         </Label>
-        <Title>Right Bias only</Title>
+        <Title>Right</Title>
       </FacetItem>
       <FacetItem>
         <Label name="left-center-only" mode="FILTER" enable_for_facet_search="false">
           <Rewrite></Rewrite>
         </Label>
-        <Title>Left-Center Bias only</Title>
+        <Title>Left-Center</Title>
       </FacetItem>
       <FacetItem>
         <Label name="center-only" mode="FILTER" enable_for_facet_search="false">
           <Rewrite></Rewrite>
         </Label>
-        <Title>Least Biased only</Title>
+        <Title>Leasted</Title>
       </FacetItem>
       <FacetItem>
         <Label name="pro-science-only" mode="FILTER" enable_for_facet_search="false">
           <Rewrite></Rewrite>
         </Label>
-        <Title>Pro-Science only</Title>
+        <Title>Pro-Science</Title>
       </FacetItem>
       <FacetItem>
         <Label name="right-center-only" mode="FILTER" enable_for_facet_search="false">
           <Rewrite></Rewrite>
         </Label>
-        <Title>Right-Center Bias only</Title>
+        <Title>Right-Center</Title>
       </FacetItem>
       <FacetItem>
         <Label name="left-only" mode="FILTER" enable_for_facet_search="false">
           <Rewrite></Rewrite>
         </Label>
-        <Title>Left Bias only</Title>
+        <Title>Left</Title>
       </FacetItem>
 
     </Facet>
