@@ -1,0 +1,58 @@
+
+    <Facet>
+      <FacetItem>
+        <Label name="mostly-center" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Mostly Center</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="left-leaning" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Left Leaning</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="right-leaning" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Right Leaning</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="right-only" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Right Bias only</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="left-center-only" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Left-Center Bias only</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="center-only" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Least Biased only</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="pro-science-only" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Pro-Science only</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="right-center-only" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Right-Center Bias only</Title>
+      </FacetItem>
+      <FacetItem>
+        <Label name="left-only" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>Left Bias only</Title>
+      </FacetItem>
+
+    </Facet>
