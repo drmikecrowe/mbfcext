@@ -1,15 +1,71 @@
 import json
 import os
+import csv
 
 from unidecode import unidecode
 
 from Source import Source
+
+
+def get_domains(where, label):
+    global table_hosts
+    domains = []
+    for source in Source.select().where(where).order_by(Source.MozRankURL.desc()):
+        domains.append(source.domain)
+        host = source.domain
+        if host not in table_hosts:
+            table_hosts[host] = {
+                "url": source.homepage,
+                "labels": [],
+                "name": source.name
+            }
+        table_hosts[host]["labels"].append(label)
+    return sorted(set(domains))
+
+
+def add_sources(key, title, domains):
+    return {
+        "key": key,
+        "href": "#/home/" + key,
+        "name": title,
+        "gcse": "",
+    }
+
+
+def add_hosts(label, hosts):
+    global tsv_hosts, max_labels,sources
+    for host in hosts:
+        if not host in tsv_hosts:
+            tsv_hosts[host] = {
+                "url": host + "/*",
+                "labels": ["_cse_i0l4anspnui"],
+                "domain": host,
+            }
+        tsv_hosts[host]["labels"].append(label)
+        max_labels = max(max_labels, len(tsv_hosts[host]["labels"]))
+
+
+def add_facet(label, name):
+    global facets
+    facets += """      <FacetItem>
+        <Label name="%s" mode="FILTER" enable_for_facet_search="false">
+          <Rewrite></Rewrite>
+        </Label>
+        <Title>%s</Title>
+      </FacetItem>
+""" % (label, name)
+
 
 csources = {}
 sources = {}
 sources_all = {}
 sources_error = {}
 sources_review = {}
+
+facets = ""
+tsv_hosts = {}
+table_hosts = {}
+max_labels = 1
 
 skeys = ["name", "bias", "facebook_url", "homepage", "url", "reporting", "Links", "MozRankURL"]
 
@@ -92,29 +148,52 @@ for k in todo:
             if os.path.exists("valid.export"):
                 os.unlink("valid.export")
 
-def get_domains(where):
-    domains = []
-    for source in Source.select().where(where).order_by(Source.MozRankURL.desc()):
-        domains.append(source.domain)
-    return sorted(set(domains))
-
-
+sources = {}
+hosts = {}
 baseline = ((Source.complete == 1) & (Source.review == 0) & (Source.reporting << ['HIGH', 'VERY HIGH']) & (Source.Links > 1000))
+
+domains = get_domains(baseline, "factual-reporting")
+sources["factual-reporting"] = add_sources("factual-reporting", "News Sources with Highly Factual Reporting (all biases)", domains)
+hosts["factual-reporting"] = domains
+
+domains = get_domains(baseline & (Source.bias << ['left-center', 'right-center', 'center']), "mostly-center")
+sources["mostly-center"] = add_sources("mostly-center", "Left-Center, Least and Right-Center Biased Sources with Highly Factual Reporting", domains)
+hosts["mostly-center"] = domains
+add_facet("mostly-center", "Mostly Center")
+add_hosts("mostly-center", domains)
+
+domains = get_domains(baseline & (Source.bias << ['left', 'left-center']), "left-leaning")
+sources["left-leaning"] = add_sources("left-leaning", "Left, Left-Center and Least Biased Sources with Highly Factual Reporting", domains)
+hosts["left-leaning"] = domains
+add_facet("left-leaning", "Left Leaning")
+add_hosts("left-leaning", domains)
+
+domains = get_domains(baseline & (Source.bias << ['right', 'right-center']), "right-leaning")
+sources["right-leaning"] = add_sources("right-leaning", "Right, Right-Center and Least Biased Sources with Highly Factual Reporting", domains)
+hosts["right-leaning"] = domains
+add_facet("right-leaning", "Right Leaning")
+add_hosts("right-leaning", domains)
+
 biases = json.load(open("biases.json", "r"))
 for bias in biases:
     if bias == 'fake-news' or bias == 'satire' or bias == 'conspiracy':
         continue
-    domains = get_domains(baseline & (Source.bias == bias))
-    open("GCS/" + biases[bias]["name"].replace(" ","-") + ".txt", "w").write("\n".join(domains))
+    domains = get_domains(baseline & (Source.bias == bias), bias + "-only")
+    sources[bias + "-only"] = add_sources(bias + "-only", biases[bias]["name"] + " Sources only with Highly Factual Reporting", domains)
+    hosts[bias + "-only"] = domains
+    add_facet(bias + "-only", biases[bias]["name"] + " only")
+    add_hosts(bias + "-only", domains)
 
-domains = get_domains(baseline)
-open("GCS/Factual-Reporting.txt", "w").write("\n".join(domains))
+js = []
+for key in sorted(table_hosts.keys()):
+    js.append(table_hosts[key])
+open("GCS/hosts.json", "w").write(json.dumps(js, encoding='latin1'))
 
-domains = get_domains(baseline & (Source.bias << ['left', 'left-center', 'center']))
-open("GCS/Left-Leaning-Or-Center-Sources.txt", "w").write("\n".join(domains))
+open("GCS/labels.xml","w").write("\n    <Facet>\n%s\n    </Facet>" % facets)
+with open("GCS/annotations.tsv", "w") as fp:
+    writer = csv.writer(fp, delimiter='\t')
+    writer.writerow(["URL"] + ['Label'] * max_labels + ['Score'])
+    for key in tsv_hosts:
+        host = tsv_hosts[key]
+        writer.writerow([host["url"]] + host["labels"])
 
-domains = get_domains(baseline & (Source.bias << ['right', 'right-center', 'center']))
-open("GCS/Right-Leaning-Or-Center-Sources.txt", "w").write("\n".join(domains))
-
-domains = get_domains(baseline & (Source.bias << ['left-center', 'right-center', 'center']))
-open("GCS/Leaning-Center-Sources.txt", "w").write("\n".join(domains))
