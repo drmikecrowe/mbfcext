@@ -1,15 +1,22 @@
 'use strict';
 
 var hidden       = {};
-var verbose      = !('update_url' in chrome.runtime.getManifest());
+var verbose      = !chrome.runtime || !('update_url' in chrome.runtime.getManifest());
 var loaded       = false;
 var allowed      = false;
-var config       = {};
+var config       = {
+  sites:       {},
+  biases:      {},
+  aliases:     {},
+  hiddenSites: {},
+  collapse:    {},
+  fb_pages:    {},
+};
 var tabs         = null;
 var dirty        = true;
-var force_remote = false;
+var force_remote = true;
 
-var base = "https://drmikecrowe.github.io/mbfcext/";
+var base = "https://drmikecrowe.github.io/mbfcext/revised/";
 
 function ChromePromise() {
   /*!
@@ -236,14 +243,10 @@ function loadSettings() {
   return Promise.all(todo)
     .then(function (parts) {
       log('Settings retrieved, processing');
-      config = {
-        sites:       parts[0],
-        biases:      parts[1],
-        aliases:     parts[2],
-        hiddenSites: parts[3] || {},
-        collapse:    {},
-        fb_pages:    {},
-      };
+      Object.assign(config.sites, parts[0] || {});
+      Object.assign(config.biases, parts[1] || {});
+      Object.assign(config.aliases, parts[2] || {});
+      Object.assign(config.hiddenSites, parts[3] || {});
       Object.keys(parts[4]).forEach(function (key) {
         config[key] = parts[4][key];
       });

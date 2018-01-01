@@ -144,33 +144,34 @@
     var mtype        = site.b.toLowerCase().replace(" ", "-");
     var master_style = "mbfc-" + mtype;
 
-    var toolbar = [
-      '<div id="mbfctt' + count + '" class="" style="display:none">',
-      '<button class="myButton2 mbfc-right-spacer toolbar-button1-' + count + '">Ignore ' + site.n + '</button><span class="spacer">&nbsp;</span>',
-      '<button class="myButton2 toolbar-button3-' + count + '">Options</button>',
-      '<button style="float: right;" class="myButton2 toolbar-button2-' + count + '">Say Thanks</button>',
-      '</div>'
-    ];
+    var toolbar = `
+<div id="mbfctt${count}" class="" style="display:none">
+    <button class="myButton2 mbfc-right-spacer toolbar-button1-${count}">Ignore ${site.n}</button><span class="spacer">&nbsp;</span>
+    <button class="myButton2 toolbar-button3-${count}">Options</button>
+    <button style="float: right;" class="myButton2 toolbar-button2-${count}">Say Thanks</button>
+</div>`;
+
     var factual = site.r && site.r > "" ? (" -- factual reporting: " + site.r) : "";
-    var table   = [
-      '<div class="mbfc-config content-option' + count + ' toolbar-home ">',
-      '<i class="fa fa-cog" aria-hidden="true" onclick="el=document.getElementById(\'mbfctt' + count + '\'); if (el.style.display==\'none\') { el.style.display=\'block\'; } else { el.style.display=\'none\'; }"></i>',
-      '</div>',
-      '<div class="mbfc-table">' +
-      '<div class="mbfc-element ' + master_style + ' mbfc-table-' + mtype + '">' +
-      '<a target="_blank" href="' + site.u + '">' + config.biases[site.b].name.replace(/ Bias(ed)?/, "") + '</a>' +
-      '</div>' +
-      '</div>' +
-      '<div class="mbfc-url">' +
-      '<a class="mbfcicon" target="_blank" href="' + site.u + '">' +
-      '<img width="20" height="20" title="" alt="" src="data:image/png;base64,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" />' +
-      '</a>' +
-      '</div>' +
-      '<div class="clearfix">' +
-      '<a class="mbfcicon" target="_blank" href="' + site.u + '">mediabiasfactcheck.com ' + factual + '</a>' +
-      '</div>'
-    ];
-    iDiv.innerHTML = table.join("") + toolbar.join("");
+
+    var table   = `
+<div class="mbfc-config content-option${count} toolbar-home ">
+    <i class="fa fa-cog" aria-hidden="true" onclick="el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='block'; } else { el.style.display='none'; }"></i>
+</div>
+<div class="mbfc-table">
+    <div class="mbfc-element ${master_style} mbfc-table-${mtype}">
+        <a target="_blank" href="${site.u}">${config.biases[site.b].name.replace(/ Bias(ed)?/, "")}</a>
+    </div>
+</div>
+<div class="mbfc-url">
+    <a class="mbfcicon" target="_blank" href="${site.u}">
+        <img width="20" height="20" title="" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gATQ3JlYXRlZCB3aXRoIEdJTVD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAAUABQDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAGQEAAgMBAAAAAAAAAAAAAAAAAgMBBAUA/9oADAMBAAIQAxAAAAHf1XKBKqEoJX1xAO1R+ZSZUO9LSR//xAAbEAACAgMBAAAAAAAAAAAAAAADBAIFAAEUFf/aAAgBAQABBQIt0Lp9FWOxE0WDSRIvCpjsRoleaueNsA1bGbpM/8QAHREAAgICAwEAAAAAAAAAAAAAAQIAEQMhBBIxEP/aAAgBAwEBPwFcLUDXsKMN1GHUzFyVA3GdWb25yGHbUuA/P//EABoRAQEAAgMAAAAAAAAAAAAAAAEAAhESICH/2gAIAQIBAT8B5FsicGBsDzp//8QAJRAAAgEDAQgDAAAAAAAAAAAAAQIDABESMQQQEyEiI1FhcZGh/9oACAEBAAY/ApYusmPkQBrVn2iONvDOBV1OQ8ipI4kXuKXV8dD7/Klz7fDYjO33SIfkVkoF/dGOVEKHUW3f/8QAIBAAAgIBAwUAAAAAAAAAAAAAAREAITEQQfBRYXGR4f/aAAgBAQABPyGjzaEdli7UwU0APCbBGDMeTLKTfdngQzAAoUAkFcfYVkWTDe/txhgeiHwYmkfN6f/aAAwDAQACAAMAAAAQcIuyH//EACERAAICAQMFAQAAAAAAAAAAAAERACFRMXHBEEFhgeHw/9oACAEDAQE/EAxGpfGQ6uKmfvEOgwBAkVlP4NtSSw4XEsK7MnCI94OjuKxdC974UBCoUadP/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARITEQ/9oACAECAQE/EFlN8hubLSYuQjzJjqZPn//EAB0QAQEAAgMBAQEAAAAAAAAAAAERACExQVFxkfH/2gAIAQEAAT8QAPZVqiespHWqWacIIArEvisd+Llqtn1GPf8AcpgIEdaGKV7eGR0EOv0FKJp1GTSidYekJQVACoQS6L1Mp7mlmT4nr+5LfSMOuCqa4dPmBCHGf//Z" />
+    </a>
+</div>
+<div class="clearfix">
+    <a class="mbfcicon" target="_blank" href="${site.u}">mediabiasfactcheck.com ${factual}</a>
+</div>`;
+
+    iDiv.innerHTML = table + toolbar;
     return iDiv;
   }
 
