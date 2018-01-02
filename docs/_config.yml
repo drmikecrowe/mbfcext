@@ -13,7 +13,7 @@ permalink:           pretty
 # Setup
 description:         'Homepage of the Official Media Bias/Fact Check Extension.'
 url:                 https://drmikecrowe.github.io/mbfcext/
-baseurl:             ''
+baseurl:             '/mbfcext'
 
 # About/contact
 author:
