@@ -35,6 +35,7 @@ class Source(BaseModel):
     MozRankURLRaw = FloatField()
     ExternalEquityLinks = IntegerField()
     DomainAuthority = FloatField()
+    Popularity = IntegerField()
     homepage = CharField(index=True)
     review = BooleanField()
     name = CharField(index=True)
@@ -64,6 +65,7 @@ class Source(BaseModel):
             "MozRankURLRaw": self.MozRankURLRaw,
             "ExternalEquityLinks": self.ExternalEquityLinks,
             "DomainAuthority": self.DomainAuthority,
+            "Popularity": self.Popularity,
             "homepage": self.homepage,
             "review": self.review,
             "name": self.name,

@@ -33,6 +33,7 @@
         config.collapse_search   = config.collapse_search   || '._5x46' + config.not;
         config.ellipses_search   = config.ellipses_search   || '.ellipsis' + config.not;
         config.profile_search    = config.profile_search    || 'a.profileLink' + config.not;
+        config.tagline_search    = config.tagline_search    || 'mbs ' + config.not;
         loaded                   = true;
         process();
       }
@@ -136,7 +137,17 @@
     return hDiv;
   }
 
-  function getReportDiv(site, count) {
+  function toM(num) {
+    if (num > 1000000) {
+      return `${Math.round(num/1000000)}M`;
+    }
+    if (num > 1000) {
+      return `${Math.round(num/1000)}K`;
+    }
+    return num;
+  }
+
+  function getReportDiv(site, count, tagsearch) {
     var iDiv  = document.createElement('div');
     iDiv.className = 'mbfcext ' + config.marker;
     iDiv.id        = "mbfcext" + count;
@@ -144,34 +155,80 @@
     var mtype        = site.b.toLowerCase().replace(" ", "-");
     var master_style = "mbfc-" + mtype;
 
+    var external_link = `&nbsp;<i class="fa fa-external-link"></i>`;
+
     var toolbar = `
-<div id="mbfctt${count}" class="" style="display:none">
-    <button class="myButton2 mbfc-right-spacer toolbar-button1-${count}">Ignore ${site.n}</button><span class="spacer">&nbsp;</span>
-    <button class="myButton2 toolbar-button3-${count}">Options</button>
-    <button style="float: right;" class="myButton2 toolbar-button2-${count}">Say Thanks</button>
-</div>`;
+<tr id="mbfctt${count}" class="mbfc-td-text" style="display:none">
+    <td colspan="5">
+      <button class="mbfc-right-spacer toolbar-button1-${count}">Ignore ${site.n}</button><span class="spacer">&nbsp;</span>
+      <button class="toolbar-button3-${count}">Options</button>
+      <button style="float: right;" class="toolbar-button2-${count}">Say Thanks</button>
+    </td>
+</tr>`;
 
-    var factual = site.r && site.r > "" ? (" -- factual reporting: " + site.r) : "";
+    var bias_link = `<a target="_blank" href="${site.u}"><span class="mbfc-td-text">${config.biases[site.b].name.replace(/ Bias(ed)?/, "")}${external_link}</span></a>`;
+    var drop_down = `
+<div class="mbfc-drop-down">
+    <i class="fa fa-cog" aria-hidden="true" onclick="el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='table-row'; } else { el.style.display='none'; }"></i>
+</div>    
+`;
 
-    var table   = `
-<div class="mbfc-config content-option${count} toolbar-home ">
-    <i class="fa fa-cog" aria-hidden="true" onclick="el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='block'; } else { el.style.display='none'; }"></i>
-</div>
-<div class="mbfc-table">
-    <div class="mbfc-element ${master_style} mbfc-table-${mtype}">
-        <a target="_blank" href="${site.u}">${config.biases[site.b].name.replace(/ Bias(ed)?/, "")}</a>
-    </div>
-</div>
-<div class="mbfc-url">
-    <a class="mbfcicon" target="_blank" href="${site.u}">
-        <img width="20" height="20" title="" alt="" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD//gATQ3JlYXRlZCB3aXRoIEdJTVD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAAUABQDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABgUH/8QAGQEAAgMBAAAAAAAAAAAAAAAAAgMBBAUA/9oADAMBAAIQAxAAAAHf1XKBKqEoJX1xAO1R+ZSZUO9LSR//xAAbEAACAgMBAAAAAAAAAAAAAAADBAIFAAEUFf/aAAgBAQABBQIt0Lp9FWOxE0WDSRIvCpjsRoleaueNsA1bGbpM/8QAHREAAgICAwEAAAAAAAAAAAAAAQIAEQMhBBIxEP/aAAgBAwEBPwFcLUDXsKMN1GHUzFyVA3GdWb25yGHbUuA/P//EABoRAQEAAgMAAAAAAAAAAAAAAAEAAhESICH/2gAIAQIBAT8B5FsicGBsDzp//8QAJRAAAgEDAQgDAAAAAAAAAAAAAQIDABESMQQQEyEiI1FhcZGh/9oACAEBAAY/ApYusmPkQBrVn2iONvDOBV1OQ8ipI4kXuKXV8dD7/Klz7fDYjO33SIfkVkoF/dGOVEKHUW3f/8QAIBAAAgIBAwUAAAAAAAAAAAAAAREAITEQQfBRYXGR4f/aAAgBAQABPyGjzaEdli7UwU0APCbBGDMeTLKTfdngQzAAoUAkFcfYVkWTDe/txhgeiHwYmkfN6f/aAAwDAQACAAMAAAAQcIuyH//EACERAAICAQMFAQAAAAAAAAAAAAERACFRMXHBEEFhgeHw/9oACAEDAQE/EAxGpfGQ6uKmfvEOgwBAkVlP4NtSSw4XEsK7MnCI94OjuKxdC974UBCoUadP/8QAGREBAQEBAQEAAAAAAAAAAAAAAQARITEQ/9oACAECAQE/EFlN8hubLSYuQjzJjqZPn//EAB0QAQEAAgMBAQEAAAAAAAAAAAERACExQVFxkfH/2gAIAQEAAT8QAPZVqiespHWqWacIIArEvisd+Llqtn1GPf8AcpgIEdaGKV7eGR0EOv0FKJp1GTSidYekJQVACoQS6L1Mp7mlmT4nr+5LfSMOuCqa4dPmBCHGf//Z" />
-    </a>
-</div>
-<div class="clearfix">
-    <a class="mbfcicon" target="_blank" href="${site.u}">mediabiasfactcheck.com ${factual}</a>
-</div>`;
+    var details = [];
+    if (site.r > '') {
+      details.push(`<a title="Open MediaBiasFactCheck.com for ${site.name}" target="_blank" href="${site.u}">Factually: ${site.r}${external_link}</a>`);
+    }
+    details.push(`<a title="This takes you to moz.com to define 'Link Equity' that we use to rank sites" href="https://moz.com/learn/seo/what-is-link-equity">References</a>: ${toM(site.L)}`);
+    details.push(`<span title="Within MBFC sites, this site has ${site.P}% higher number of external equity links than other sites">Popularity: ${site.P}%</span>`);
+    if (tagsearch && site.b !== 'satire') {
+      details.push(`<a title="Search factualsearch.news for '${tagsearch}'" target="_blank" href="https://factualsearch.news/#gsc.tab=0&gsc.q=${encodeURIComponent(tagsearch)}">Search ${external_link}</a> `);
+    } else {
+      details.push(`<a title="Open MediaBiasFactCheck.com for ${site.name}" target="_blank" href="${site.u}">MBFC Details${external_link}</a>`);
+    }
 
-    iDiv.innerHTML = table + toolbar;
+    var table, tr;
+
+    switch (site.b) {
+      case "satire":
+      case "conspiracy":
+      case "pro-science":
+        tr = ` <td colspan="5" class="mbfc-td mbfc-td-${site.b}">${bias_link}</td> `;
+        break;
+      default:
+        var tdl  = (site.b==="left"         ? bias_link : "&nbsp;"),
+            tdlc = (site.b==="left-center"  ? bias_link : "&nbsp;"),
+            tdc  = (site.b==="center"       ? bias_link : "&nbsp;"),
+            tdrc = (site.b==="right-center" ? bias_link : "&nbsp;"),
+            tdr  = (site.b==="right"        ? bias_link : "&nbsp;");
+
+        tr = `
+    <td class="mbfc-td mbfc-td-left">${tdl}</td>  
+    <td class="mbfc-td mbfc-td-left-center">${tdlc}</td>  
+    <td class="mbfc-td mbfc-td-center">${tdc}</td>  
+    <td class="mbfc-td mbfc-td-right-center">${tdrc}</td>  
+    <td class="mbfc-td mbfc-td-right">${tdr}</td>  
+`;
+        break;
+    }
+
+    details = details.join(", &nbsp;");
+
+    table = `
+<div class="">
+    <table class="mbfc-table-table" cellpadding="0" border="0">
+        <tbody>
+          <tr>
+              ${tr}      
+          </tr>
+          <tr>
+              <td class="mbfc-td" colspan="5">${drop_down}<span class="mbfc-td-text">${details}</span></td>
+          </tr>
+          ${toolbar}
+      </tbody>
+    </table>
+</div>    
+`;
+
+    iDiv.innerHTML = table;
     return iDiv;
   }
 
@@ -243,10 +300,10 @@
     }
   }
 
-  function inject(parent, site, user_content, collapsable) {
+  function inject(parent, site, user_content, collapsable, tagsearch) {
     reportSite(site);
     if (!collapsable) {
-      var iDiv = getReportDiv(site, count);
+      var iDiv = getReportDiv(site, count, tagsearch);
       parent.appendChild(iDiv);
       addButtons(site.n, count);
     } else {
@@ -255,7 +312,7 @@
         hideElement(el, count);
       });
       hideElement(collapsable, count);
-      var iDiv = getReportDiv(site, count);
+      var iDiv = getReportDiv(site, count, tagsearch);
       var hDiv = getHiddenDiv(site, count);
       parent.appendChild(hDiv);
       parent.appendChild(iDiv);
@@ -314,12 +371,21 @@
       }
       var collapse = true;
       sites.forEach(function (s) {
-        collapse = collapse && config.collapse[s.bias];    // Do we collapse either one?
+        collapse = collapse && config.collapse[s.b];    // Do we collapse either one?
       });
       var site = sites[0];   // ellipses is highest priority
+      if (site.r === 'MIXED' && config.collapse.mixed) {
+        collapse = true;
+      }
       var user_content = top_node.querySelectorAll('.mtm, .userContent');
       var collapsable = collapse ? top_node.parentNode.querySelector('.commentable_item') : null;
-      inject(top_node, site, user_content, collapsable);
+      var tagsearch = top_node.querySelectorAll('.mbs > a');
+      if (tagsearch && tagsearch.length > 0) {
+        tagsearch = tagsearch[0].text;
+      } else {
+        tagsearch = null;
+      }
+      inject(top_node, site, user_content, collapsable, tagsearch);
     });
   }
 

@@ -5,6 +5,7 @@ import csv
 from unidecode import unidecode
 
 from Source import Source
+from Source import db
 
 
 def get_domains(where, label):
@@ -68,7 +69,9 @@ tsv_hosts = {}
 table_hosts = {}
 max_labels = 1
 
-skeys = ["name", "bias", "facebook_url", "homepage", "url", "reporting", "Links", "MozRankURL"]
+skeys = ["name", "bias", "facebook_url", "homepage", "url", "reporting", "Links", "MozRankURL", "Popularity"]
+
+db.execute_sql("CALL update_popularity()")
 
 for source in Source.select().where((Source.complete == 1) & (Source.review == 0)):
     item = source.toJSON()
@@ -88,7 +91,7 @@ for source in Source.select().where((Source.complete == 1) & (Source.review == 0
         if item['complete']:
             item['review'] = False
             item['error'] = False
-        if item['domain'] == None or item['domain'] == 'null' or item['domain'].find("mediabiasfactcheck.com") > -1:
+        if item['domain'] == None or item['domain'] == 'null':
             item['review'] = True
         else:
             item['review'] = False
@@ -124,6 +127,36 @@ for source in Source.select().where((Source.complete == 1) & (Source.review == 0
         #     print(repr(item))
         continue
 
+if "mediabiasfactcheck.com" not in sources:
+    sources_all["mediabiasfactcheck.com"] = {
+        "DomainAuthority": 45.9069,
+        "ExternalEquityLinks": 11496,
+        "HTTPStatusCode": 301,
+        "Links": 1,
+        "MozRankURL": 5.32185,
+        "MozRankURLRaw": 1.60866e-10,
+        "Timelastcrawled": 1505684836,
+        "bias": "center",
+        "complete": True,
+        "crawled_at": False,
+        "details": "",
+        "domain": "mediabiasfactcheck.com",
+        "domains": "",
+        "error": False,
+        "facebook_url": "https://www.facebook.com/mediabiasfactcheck/",
+        "homepage": "http://mediabiasfactcheck.com/",
+        "name": "Media Bias/Fact Check",
+        "notes": "",
+        "ranked": True,
+        "raw": "",
+        "reporting": "VERY HIGH",
+        "review": True,
+        "review_details": "",
+        "text": "",
+        "updated_at": False,
+        "url": "http://mediabiasfactcheck.com/independent-journal-review/"
+    }
+    
 todo = {
     "sources-all.json":    sources_all,
     "sources.json":        sources,

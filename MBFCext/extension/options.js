@@ -5,7 +5,49 @@ chrome.options.opts.title = 'Section';
 chrome.options.opts.about = '<p>This extension is open-source, and is based here: <a href="https://github.com/drmikecrowe/mbfcext">Github Project Page</a></p>';
 
 chrome.options.addTab('Introduction', [
-  {type: 'html', html: '<h3>Official Media Bias/Fact Check Extension</h3><p>Thank you for installing the <a href="https://drmikecrowe.github.io/mbfcext/">Official Media Bias/Fact Check Extension</a>!  We appreciate you becoming part of our community.</p><p>Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources.</p><h3>Release notes for version 1.0.13</h3><p>We are very excited to announce a new feature:  <strong><em>Collapsable News</em></strong><br/><ul><li>1. Click on the "Collapse" section on the left</li><li>2. Choose which news categories to collapse in your feed</li><li>3. Revel in the reduction in stress from your extreme FB friends</li></ul></p><h3>We Need Your Help!</h3><p>If you like this extension, please help us out:</p><ul><li>Give us a favorable review in the <a href="https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh" target="_blank">Chrome Web Store</a>.  This will help grow our users</li><li>Please tell your friends.  If you would like to share on Facebook, <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh">click here now</a>.</li></ul>'}
+  {type: 'html', html: `
+<h3>Official Media Bias/Fact Check Extension</h3><p>Thank you for installing the&nbsp;<a href="https://drmikecrowe.github.io/mbfcext/">Official Media Bias/Fact Check Extension</a>! &nbsp;We appreciate you becoming part
+    of our community.</p><p>Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every
+    day. Don’t be fooled by Fake News sources.</p><h3>Release notes for version 1.0.15</h3>
+<div>What's new this release:</div>
+<div><br></div>
+<div>Now showing more detailed information:&nbsp;<br>
+    <ul>
+        <li>1. Reporting: The reporting analysis by <a href="https://mediabiasfactcheck.com">Media Bias/Fact Check</a></li>
+        <li>2. References: This is <a href="https://moz.com/learn/seo/what-is-link-equity">Moz's Link equity</a>, once colloquially referred to 
+            with the awful term &quot;link juice,&quot; is a search engine ranking factor based on the idea that certain links pass value and authority 
+            from one page to another. This value is dependent on a number of factors, such as the linking page's authority, topical relevance, 
+            HTTP status, and more. Links that pass equity are one of many signals that Google and other search engines use to determine a page's 
+            rankings in the SERPs.  Moz's Link Equity analysis.  </li>
+        <li>3. Popularity: Of the 2000+ MBFC sites, this indicates the where this site falls in the continuum of sites analyzed.  Sites with few 
+            References (Link Equity) are close to 0% in popularity.  Sites with 3M References are at 100%.  This percentage should help you determine 
+            how seriously to take the site.
+        </li>
+        <li>4. Search:  This link opens a new window at our sister site <a href="https://factualsearch.news">https://factualsearch.news</a> and 
+            tries to search for the tagline.  It should help you start your research into a specific topic and it's accuracy.
+        </li>
+    </ul>
+    <div>New Features:</div>
+</div>
+<div>
+    <ul>
+        <li>5.  Now allow collapsing "Mixed" factual reporting sources</li>
+    </ul>
+</div><h3>Release notes for version 1.0.13</h3><p>We are very excited to announce a new feature: &nbsp;<strong><em>Collapsable News</em></strong><br></p>
+<ul>
+    <li>1. Click on the "Collapse" section on the left</li>
+    <li>2. Choose which news categories to collapse in your feed</li>
+    <li>3. Revel in the reduction in stress from your extreme FB friends</li>
+</ul><br><h3>We Need Your Help!</h3><p>If you like this extension, please help us out:</p>
+<ul>
+    <li>Give us a favorable review in the <a href="https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh" target="_blank">Chrome Web Store</a>. &nbsp;This will help grow our
+        users
+    </li>
+    <li>Please tell your friends. &nbsp;If you would like to share on Facebook, <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A//chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh">click here now</a>.
+    </li>
+</ul>  
+`}
 ]);
 
 chrome.options.addTab('Collapse', 'Collapse Inappropriate Stories', [
@@ -79,6 +121,14 @@ chrome.options.addTab('Collapse', 'Collapse Inappropriate Stories', [
     {value: 'show', desc: 'Show Questionable Sources'},
     {value: 'hide', desc: 'Hide Questionable Sources'},
   ],
+    desc: 'A questionable source exhibits any of the following: extreme bias, overt propaganda, poor or no sourcing to credible information and&#x2F;or is fake news. Fake News is the deliberate attempt to publish hoaxes and&#x2F;or disinformation for the purpose of profit or influence (Learn More). Sources listed in the Questionable Category may be very untrustworthy and should be fact checked on a per article basis. '
+  },
+  {type: 'h3', desc: 'Mixed Factual Reporting (We recommend collapsing)'},
+  {
+    name: 'collapse-mixed', type: 'select', default: 'show', options: [
+      {value: 'show', desc: 'Show Mixed Factual-reporting Sources'},
+      {value: 'hide', desc: 'Hide Mixed Factual-reporting Sources'},
+    ],
     desc: 'A questionable source exhibits any of the following: extreme bias, overt propaganda, poor or no sourcing to credible information and&#x2F;or is fake news. Fake News is the deliberate attempt to publish hoaxes and&#x2F;or disinformation for the purpose of profit or influence (Learn More). Sources listed in the Questionable Category may be very untrustworthy and should be fact checked on a per article basis. '
   },
 

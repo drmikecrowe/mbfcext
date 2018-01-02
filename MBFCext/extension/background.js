@@ -14,7 +14,7 @@ var config       = {
 };
 var tabs         = null;
 var dirty        = true;
-var force_remote = true;
+var force_remote = false;
 
 var base = "https://drmikecrowe.github.io/mbfcext/revised/";
 
@@ -90,13 +90,6 @@ function ChromePromise() {
 
 const chromep = new ChromePromise({chrome: chrome});
 
-function log() {
-  if (!verbose) {
-    return;
-  }
-  console.log(Array.prototype.slice.call(arguments));
-}
-
 function getFile(type) {
   return new Promise(function (resolve, reject) {
     var xhr                = new XMLHttpRequest();
@@ -111,7 +104,7 @@ function getFile(type) {
         var obj         = {}
         obj[type]       = js;
         obj['expires2'] = date.getTime();
-        log(type + ' ' + Object.keys(js).length + ' items retrieved from server, saving to local storage with expires of ', date);
+        verbose && console.log(type + ' ' + Object.keys(js).length + ' items retrieved from server, saving to local storage with expires of ', date);
         chromep.storage.local.set(obj)
           .then(function () {
             return resolve(js)
@@ -134,7 +127,7 @@ function getStorage(type) {
   return chromep.storage.local.get(type)
     .then(function (dict) {
       if (typeof dict == 'object') {
-        log(type + ' config: ' + Object.keys(dict).length + ' items retrieved from storage');
+        verbose && console.log(type + ' config: ' + Object.keys(dict).length + ' items retrieved from storage');
         if (!type) {
           return dict     // getting all settings
         }
@@ -157,14 +150,14 @@ function getStorageOrFile(type) {
           future.setDate(future.getHours() + 12);
           var stored_time = dict.expires2 || 0;
           if (!force_remote && (stored_time >= now.getTime() && stored_time <= future.getTime())) {
-            log('Using ' + type + ' from local storage');
+            verbose && console.log('Using ' + type + ' from local storage');
             return dict[type];
           } else {
-            log(type + ' is old, getting new one');
+            verbose && console.log(type + ' is old, getting new one');
           }
         }
       }
-      log(type + ' not in local storage, requesting up-to-date version')
+      verbose && console.log(type + ' not in local storage, requesting up-to-date version')
       return getFile(type);
     });
 }
@@ -180,19 +173,19 @@ function save_mbfc() {
 }
 
 function report(a, b, c, d, e) {
-  log('REPORTING: ', a, b, c, d, e);
+  verbose && console.log('REPORTING: ', a, b, c, d, e);
   if (allowed) {
     if (verbose) {
-      log('Skipping reporting in dev mode');
+      verbose && console.log('Skipping reporting in dev mode');
       return;
     }
     if (window.ga) {
       ga(a, b, c, d, e);
     } else {
-      log('NO ga LOADED');
+      verbose && console.log('NO ga LOADED');
     }
   } else {
-    log('REPORTING not allowed');
+    verbose && console.log('REPORTING not allowed');
   }
 }
 
@@ -220,13 +213,13 @@ function setupGoogleAnalytics(dict) {
   }
   loaded = true;
   if (!dict['privacy_settings.mbfcanalytics_disabled']) {
-    log('Loading analytics');
+    verbose && console.log('Loading analytics');
     allowed = true;
     if (!verbose) {
       addGoogleAnalytics();
     }
   } else {
-    log('Analytics disabled');
+    verbose && console.log('Analytics disabled');
   }
 }
 
@@ -239,12 +232,15 @@ function loadSettings() {
     chromep.storage.sync.get(),
     getStorageOrFile('config'),
   ];
-  log('Loading settings');
+  verbose && console.log('Loading settings');
   return Promise.all(todo)
     .then(function (parts) {
-      log('Settings retrieved, processing');
+      verbose && console.log('Settings retrieved, processing');
       Object.assign(config.sites, parts[0] || {});
       Object.assign(config.biases, parts[1] || {});
+      if (!config.biases["left-center"]) {
+        config.biases["left-center"] = config.biases["leftcenter"];
+      }
       Object.assign(config.aliases, parts[2] || {});
       Object.assign(config.hiddenSites, parts[3] || {});
       Object.keys(parts[4]).forEach(function (key) {
@@ -265,7 +261,7 @@ function loadSettings() {
       return config;
     })
     .catch(function (err) {
-      log('ERROR: ', err);
+      verbose && console.log('ERROR: ', err);
     })
 }
 
@@ -281,7 +277,7 @@ function setCollapsed(dict) {
   Object.keys(dict).forEach(function (key) {
     if (key.startsWith("collapse.")) {
       config.collapse[key.substring(18)] = (dict[key] == "hide");
-      log('Collapsing ' + key.substring(18));
+      verbose && console.log('Collapsing ' + key.substring(18));
     }
   });
 }
@@ -294,7 +290,7 @@ function loadCollapsedOnly() {
 }
 
 function resetIgnored() {
-  log('Resetting ignored');
+  verbose && console.log('Resetting ignored');
   report('send', 'event', 'reset', 'shown');
   config.hiddenSites = {};
   return chromep.storage.local.set({mbfchidden: config.hiddenSites})
@@ -305,7 +301,7 @@ function resetIgnored() {
 
 chrome.storage.onChanged.addListener(function (changes) {
   dirty = true;
-  log('CHANGES: ', changes);
+  verbose && console.log('CHANGES: ', changes);
   if (changes['ignored_sites.reset_ignored'] && changes['ignored_sites.reset_ignored'].newValue) {
     resetIgnored();
   }
@@ -314,7 +310,7 @@ chrome.storage.onChanged.addListener(function (changes) {
 
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   if (request.method == "setup") {
-    log('Sending configuration');
+    verbose && console.log('Sending configuration');
     sendResponse({data: config});
     dirty = false;
   } else if (request.method == "resetIgnored") {
@@ -323,9 +319,9 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         sendResponse({data: config.hiddenSites, dirty: dirty});
       });
   } else if (request.method == "showOptions") {
-    log('Showing options');
+    verbose && console.log('Showing options');
     chrome.runtime.openOptionsPage(function (param) {
-      log('PARAM: ', param);
+      verbose && console.log('PARAM: ', param);
     })
   } else if (request.method == "startThanks") {
     //TODO: New options page
@@ -350,7 +346,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     config.hiddenSites[request.site] = true;
     chromep.storage.local.set({mbfchidden: config.hiddenSites, dirty: dirty})
       .then(function () {
-        log('Resetting hidden to: ', config.hiddenSites);
+        verbose && console.log('Resetting hidden to: ', config.hiddenSites);
         sendResponse({data: config.hiddenSites, dirty: dirty});
       });
   } else {

@@ -12,6 +12,21 @@ comments: true
 
 Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources.
 
+### Release notes for version 1.0.15
+
+What's new this release:
+
+Now showing more detailed information: 
+
+* Reporting: The reporting analysis by [Media Bias/Fact Check](https://mediabiasfactcheck.com)
+* References: This is [Moz's Link equity](https://moz.com/learn/seo/what-is-link-equity), once colloquially referred to with the awful term "link juice," is a search engine ranking factor based on the idea that certain links pass value and authority from one page to another. This value is dependent on a number of factors, such as the linking page's authority, topical relevance, HTTP status, and more. Links that pass equity are one of many signals that Google and other search engines use to determine a page's rankings in the SERPs.  Moz's Link Equity analysis.  
+* Popularity: Of the 2000+ MBFC sites, this indicates the where this site falls in the continuum of sites analyzed.  Sites with few References (Link Equity) are close to 0% in popularity.  Sites with 3M References are at 100%.  This percentage should help you determine how seriously to take the site.
+* Search:  This link opens a new window at our sister site [https://factualsearch.news](https://factualsearch.news) and tries to search for the tagline.  It should help you start your research into a specific topic and it's accuracy.
+        
+New Features:
+
+* Now allow collapsing "Mixed" factual reporting sources
+
 ### Release notes for version 1.0.14
 
 Bug fixes 
