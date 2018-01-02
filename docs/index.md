@@ -12,7 +12,9 @@ comments: true
 
 Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources.
 
-### Release notes for version 1.0.15
+### Release notes for version 1.0.15 (Currently in BETA)
+
+[To help test, follow these instructions]({{ site.baseurl }}/beta)
 
 What's new this release:
 
