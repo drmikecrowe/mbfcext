@@ -145,10 +145,11 @@ class ParseMbfc(scrapy.Spider):
                     self.complete(source)
                     yield source
                     continue
-                if source.complete and not source.review:
-                    self.logger.info('Already processed %s -- skipping', source.url)
-                    yield None
-                    continue
+                # if source.complete and not source.review:
+                #     self.logger.info('Already processed %s -- skipping', source.url)
+                #     yield None
+                #     continue
+                #TODO: Add a test here to do it more intelligently
             except KeyError:
                 pass
             except Exception as ex:
