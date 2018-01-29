@@ -30,7 +30,7 @@ client = Mozscape(config.get('Moz', 'username'), config.get('Moz', 'password'))
 
 db.execute_sql("UPDATE `source` SET ranked = 1 WHERE (Timelastcrawled >= UNIX_TIMESTAMP(DATE_ADD(NOW(), INTERVAL -365 DAY)))")
 db.execute_sql("UPDATE `source` SET ranked = 0 WHERE (Timelastcrawled < UNIX_TIMESTAMP(DATE_ADD(NOW(), INTERVAL -365 DAY)))")
-db.execute_sql("UPDATE `source` SET ranked = 0 WHERE (Links = 0 AND Timelastcrawled < UNIX_TIMESTAMP(DATE_ADD(NOW(), INTERVAL -30 DAY)))")
+db.execute_sql("UPDATE `source` SET ranked = 0 WHERE (Links = 0)")
 
 count = 0
 
@@ -67,8 +67,8 @@ def get_rank(toquery):
 
 
 todo = []
-total = Source.select().where(Source.ranked == 0).count()
-for s in Source.select().where(Source.ranked == 0):
+total = Source.select().where((Source.ranked == 0) & (Source.error == 0)).count()
+for s in Source.select().where((Source.ranked == 0) & (Source.error == 0)):
     todo.append(s.domain)
     if len(todo) >= 10:
         get_rank(todo)

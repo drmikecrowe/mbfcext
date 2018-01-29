@@ -41,6 +41,7 @@ class MbfcCrawlerSpiderMiddleware(object):
 
         # Should return either None or an iterable of Response, dict
         # or Item objects.
+        spider.logger.error('My Exception %s' % repr(exception))
         pass
 
     def process_start_requests(self, start_requests, spider):

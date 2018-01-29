@@ -2,11 +2,21 @@
 import datetime
 import re
 from urlparse import urlparse
+import socket
+import json
+import os
 
 import scrapy
+from scrapy import signals
 
 from Source import Source
+from Source import db
 from Source import create_or_update_source
+
+from scrapy.spidermiddlewares.httperror import HttpError
+from scrapy.exceptions import IgnoreRequest
+from twisted.internet.error import DNSLookupError
+from twisted.internet.error import TimeoutError, TCPTimedOutError
 
 try:
     from mbfc_crawler.items import MbfcCrawlerItem
@@ -35,25 +45,29 @@ facebook_ignore = [
     "facebook.com/pages/Left",
     "facebook.com/pages/New",
     "facebook.com/pages/The",
-    "facebook.com/plugins",
-    "facebook.com/plugins/like.php?app",
-    "facebook.com/plugins/like.php?href",
-    "facebook.com/plugins/likebox.php?href",
-    "facebook.com/plugins/page.php?href",
     "facebook.com/profile.php?id",
     "facebook.com/share.php?u",
-    "facebook.com/sharer",
-    "facebook.com/sharer.php?s",
-    "facebook.com/sharer.php?u",
-    "facebook.com/sharer/sharer.php?u",
-    "facebook.com/tr?ev",
-    "facebook.com/tr?id",
-    "facebook.com/v2.6/plugins/page.php?adapt",
 ]
 
-review = [
-    'https://mediabiasfactcheck.com/msnbc/'
+facebook_ignore_prefixes = [
+    "facebook.com/plugins",
+    "facebook.com/sharer",
+    "facebook.com/tr?",
+    "facebook.com/v2.6",
 ]
+for pattern in facebook_ignore_prefixes:
+    db.execute_sql("UPDATE source SET facebook_url='' WHERE facebook_url LIKE '%%" + pattern + "%%'")
+
+REVIEW_FILE="/home/mcrowe/Programming/Personal/show_media_bias/my_crawler/review.json"
+review = json.load(open(REVIEW_FILE, "r"))
+for i in range(len(review)):
+    key = review[i]
+    source = Source.get(domain=str(key))
+    if source:
+        review[i] = source.url
+    else:
+        bk = 1
+dns_lookup = []
 
 override = {
     'https://mediabiasfactcheck.com/cato-institute/':                 'cato.org',
@@ -97,7 +111,19 @@ def parse_url(url):
     return obj
 
 
+def check_dns(domain):
+    try:
+        if domain not in dns_lookup:
+            socket.gethostbyname(domain)
+            dns_lookup.append(domain)
+        return True
+    except Exception:
+        return False
+
+
 class ParseMbfc(scrapy.Spider):
+    reviewing = False
+
     def complete(self, item):
         if type(item) == Source:
             item.complete = True
@@ -122,12 +148,49 @@ class ParseMbfc(scrapy.Spider):
             item['crawled_at'] = datetime.datetime.now()
             create_or_update_source(dict(item))
 
-    def errorback(self, response):
-        sources = Source.get_or_create(domain=response.request.meta['domain'])
-        source = sources[0]
-        source.error = True
-        self.complete(source)
-        self.logger.error('URL Invalid, flagging: %s', response.request.url)
+    def get_domain(self, request):
+        try:
+            domain = request.meta['domain']
+        except KeyError:
+            domain = request.meta['item']['domain']
+        return domain
+
+    def errorback(self, failure):
+        flag = False
+
+        if failure.check(HttpError):
+            # these exceptions come from HttpError spider middleware
+            # you can get the non-200 response
+            response = failure.value.response
+            request = response.request
+            self.logger.error('HttpError on %s', response.url)
+
+        elif failure.check(DNSLookupError):
+            # this is the original request
+            request = failure.request
+            self.logger.error('DNSLookupError on %s', request.url)
+            flag = True
+
+        elif failure.check(TimeoutError, TCPTimedOutError):
+            request = failure.request
+            self.logger.error('TimeoutError on %s', request.url)
+
+        elif failure.check(IgnoreRequest):
+            request = failure.request
+            self.logger.info('Ignored %s', request.url)
+
+        else:
+            self.logger.error(repr(failure))
+            request = failure.request
+            flag = True
+
+        if flag:
+            domain = self.get_domain(request)
+            sources = Source.get_or_create(domain=domain)
+            source = sources[0]
+            source.error = True
+            self.complete(source)
+            self.logger.error('URL Invalid, flagging: %s', request.url)
 
     def parse(self, response):
         reviewed = 0
@@ -140,11 +203,11 @@ class ParseMbfc(scrapy.Spider):
             try:
                 sources = Source.get_or_create(url=str(url))
                 source = sources[0]
-                if source.error:
-                    self.logger.info('Error %s -- skipping', response.url)
-                    self.complete(source)
-                    yield source
-                    continue
+                # if source.error:
+                #     self.logger.info('Error %s -- skipping', response.url)
+                #     self.complete(source)
+                #     yield source
+                #     continue
                 # if source.complete and not source.review:
                 #     self.logger.info('Already processed %s -- skipping', source.url)
                 #     yield None
@@ -154,6 +217,15 @@ class ParseMbfc(scrapy.Spider):
                 pass
             except Exception as ex:
                 pass
+
+            # If we have review items in the list, then only crawl those pages
+            if self.reviewing or len(review) > 0:
+                self.reviewing = True
+                if url not in review:
+                    yield None
+                    continue
+                del review[review.index(url)]
+
             item = MbfcCrawlerItem()
             item['url'] = url
             item['bias'] = response.meta['bias']
@@ -253,11 +325,18 @@ class ParseMbfc(scrapy.Spider):
                 yield item
                 continue
 
+            if not check_dns(item['domain']):
+                item['error'] = True
+                self.logger.error('No DNS entry found for %s' % item['domain'])
+                self.complete(item)
+                yield item
+                continue
+
             # if len(dict(item).keys()) < 7 and source.bias != 'satire':
             #     source.review = True
             #     source.review_details = 'Not enough information'
 
-            if item['facebook_url']:
+            if (item['facebook_url'] and item['facebook_url'] > '') or item['reporting'] == 'FAKE':
                 self.complete(item)
                 yield item
                 continue
@@ -271,7 +350,32 @@ class ParseMbfc(scrapy.Spider):
         fburls = response.css('body').re('facebook.com\/[a-zA-Z0-9/(\.\?)?]+')
         for fburl in fburls:
             if fburl and not fburl in facebook_ignore and len(fburl) > 14:
+                ignore = False
+                for test in facebook_ignore_prefixes:
+                    if fburl.startswith(test):
+                        ignore = True
+                if ignore:
+                    continue
                 item['facebook_url'] = 'https://www.' + fburl
                 break
         self.complete(item)
         yield item
+
+    @classmethod
+    def from_crawler(cls, crawler, *args, **kwargs):
+        spider = super(ParseMbfc, cls).from_crawler(crawler, *args, **kwargs)
+        crawler.signals.connect(spider.spider_closed, signal=signals.spider_closed)
+        return spider
+
+    def spider_closed(self, reason):
+        for key in review:
+            if key > "":
+                self.logger.error('Flagging URL as an error (not found): %s', key)
+                sources = Source.get_or_create(domain=key)
+                source = sources[0]
+                source.error = True
+                source.complete = True
+                source.crawled_at = datetime.datetime.now()
+                source.save()
+            del review[review.index(key)]
+        json.dump(review, open(REVIEW_FILE, "wb"))

@@ -42,7 +42,7 @@ class Source(BaseModel):
     review_details = CharField()
     crawled_at = TimestampField()
     updated_at = TimestampField()
-    
+
     def toJSON(self):
         return {
             "domain": self.domain,
@@ -99,13 +99,13 @@ def create_or_update_source(js):
     domains = js['domains'] if 'domains' in js and js['domains'] else ''
 
     rankings = js['rankings'] if 'rankings' in js and js['rankings'] else {}
-    Links = rankings['Links'] if 'Links' in rankings and rankings['Links'] else True
-    MozRankURL = rankings['MozRank: URL'] if 'MozRank: URL' in rankings and rankings['MozRank: URL'] else True
-    MozRankURLRaw = rankings['MozRank: URL Raw'] if 'MozRank: URL Raw' in rankings and rankings['MozRank: URL Raw'] else True
-    DomainAuthority = rankings['Domain Authority'] if 'Domain Authority' in rankings and rankings['Domain Authority'] else True
-    HTTPStatusCode = rankings['HTTP Status Code'] if 'HTTP Status Code' in rankings and rankings['HTTP Status Code'] else True
-    ExternalEquityLinks = rankings['External Equity Links'] if 'External Equity Links' in rankings and rankings['External Equity Links'] else True
-    Timelastcrawled = rankings['Time last crawled'] if 'Time last crawled' in rankings and rankings['Time last crawled'] else True
+    Links = rankings['Links'] if 'Links' in rankings and rankings['Links'] else 0
+    MozRankURL = rankings['MozRank: URL'] if 'MozRank: URL' in rankings and rankings['MozRank: URL'] else 0
+    MozRankURLRaw = rankings['MozRank: URL Raw'] if 'MozRank: URL Raw' in rankings and rankings['MozRank: URL Raw'] else 0
+    DomainAuthority = rankings['Domain Authority'] if 'Domain Authority' in rankings and rankings['Domain Authority'] else 0
+    HTTPStatusCode = rankings['HTTP Status Code'] if 'HTTP Status Code' in rankings and rankings['HTTP Status Code'] else 0
+    ExternalEquityLinks = rankings['External Equity Links'] if 'External Equity Links' in rankings and rankings['External Equity Links'] else 0
+    Timelastcrawled = rankings['Time last crawled'] if 'Time last crawled' in rankings and rankings['Time last crawled'] else 0
 
     try:
         with db.atomic():
@@ -157,17 +157,9 @@ def create_or_update_source(js):
             print(domain + ': reporting changed from ' + repr(source.reporting) + ' -> ' + repr(reporting))
             source.reporting = reporting
             dirty = True
-        if source.ranked != ranked:
-            print(domain + ': ranked changed from ' + repr(source.ranked) + ' -> ' + repr(ranked))
-            source.ranked = ranked
-            dirty = True
         if source.name != name:
             print(domain + ': name changed from ' + repr(source.name) + ' -> ' + repr(name))
             source.name = name
-            dirty = True
-        if source.Links != Links:
-            print(domain + ': Links changed from ' + repr(source.Links) + ' -> ' + repr(Links))
-            source.Links = Links
             dirty = True
         if source.url != url:
             print(domain + ': url changed from ' + repr(source.url) + ' -> ' + repr(url))
