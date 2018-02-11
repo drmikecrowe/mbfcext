@@ -165,10 +165,10 @@ function getStorageOrFile(type) {
 function save_mbfc() {
   config.sites["mediabiasfactcheck.com"] = {
     "id":       "-1",
-    "name":     "Media Bias Fact Check",
-    "homepage": "https://mediabiasfactcheck.com/",
-    "url":      "https://mediabiasfactcheck.com/",
-    "bias":     "center"
+    "n":     "Media Bias Fact Check",
+    "h": "https://mediabiasfactcheck.com/",
+    "u":      "https://mediabiasfactcheck.com/",
+    "b":     "center"
   };
 }
 
