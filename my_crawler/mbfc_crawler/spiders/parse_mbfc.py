@@ -304,7 +304,7 @@ class ParseMbfc(scrapy.Spider):
                 obj = parse_url(urls[0])
                 item['homepage'] = obj["homepage"]
                 item['domain'] = obj["domain"]
-                item['url'] = urls[0]
+                item['url'] = response.url
                 item['review'] = False
             else:
                 urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', re.sub('<[^<]+?>', '', item['text']))
@@ -312,7 +312,7 @@ class ParseMbfc(scrapy.Spider):
                     obj = parse_url(urls[0])
                     item['homepage'] = obj["homepage"]
                     item['domain'] = obj["domain"]
-                    item['url'] = urls[0]
+                    item['url'] = response.url
                     item['review'] = False
                 else:
                     item['review'] = True
