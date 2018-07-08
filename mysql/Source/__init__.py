@@ -6,7 +6,7 @@ from peewee import *
 config = ConfigParser.ConfigParser()
 config.readfp(open('../.credentials.ini'))
 
-db = MySQLDatabase(config.get('MySQL', 'table'), host=config.get('MySQL', 'host'), user=config.get('MySQL', 'username'), password=config.get('MySQL', 'password'), port=3306)
+db = MySQLDatabase(config.get('MySQL', 'table'), host=config.get('MySQL', 'host'), user=config.get('MySQL', 'username'), password=config.get('MySQL', 'password'), port=13306)
 
 
 class BaseModel(Model):

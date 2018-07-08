@@ -3,7 +3,7 @@ import os
 import json
 from peewee import *
 
-db = MySQLDatabase("mbfcdata", host='172.17.0.1', user='root', password='zipit', port=3306)
+db = MySQLDatabase("mbfcdata", host='172.17.0.1', user='root', password='zipit', port=13306)
 
 
 class BaseModel(Model):
