@@ -2,9 +2,11 @@ import datetime
 import ConfigParser
 from peewee import *
 
+import os 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
 config = ConfigParser.ConfigParser()
-config.readfp(open('../.credentials.ini'))
+config.readfp(open(dir_path + '/../.credentials.ini'))
 
 db = MySQLDatabase(config.get('MySQL', 'table'), host=config.get('MySQL', 'host'), user=config.get('MySQL', 'username'), password=config.get('MySQL', 'password'), port=13306)
 

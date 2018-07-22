@@ -8,6 +8,9 @@ from mozscape import Mozscape
 from Source import Source
 from Source import db
 
+import os 
+dir_path = os.path.dirname(os.path.realpath(__file__))
+
 keys = {
     # "ut": "Title",		                  # The title of the page, if available
     # "uu": "Canonical URL",		          # The canonical form of the URL
@@ -24,7 +27,7 @@ keys = {
 }
 
 config = ConfigParser.ConfigParser()
-config.readfp(open('.credentials.ini'))
+config.readfp(open(dir_path + '/.credentials.ini'))
 
 client = Mozscape(config.get('Moz', 'username'), config.get('Moz', 'password'))
 
@@ -67,8 +70,8 @@ def get_rank(toquery):
 
 
 todo = []
-total = Source.select().where((Source.ranked == 0) & (Source.error == 0)).count()
-for s in Source.select().where((Source.ranked == 0) & (Source.error == 0)):
+total = Source.select().where((Source.ranked == 0) & (Source.error == 0) & (Source.domain > '')).count()
+for s in Source.select().where((Source.ranked == 0) & (Source.error == 0) & (Source.domain > '')):
     todo.append(s.domain)
     if len(todo) >= 10:
         get_rank(todo)
