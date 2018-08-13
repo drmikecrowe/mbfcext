@@ -24,3 +24,7 @@ my_crawler/shelf.dat
 venv/
 filtered_search
 process/valid.export
+.vscode
+docker-compose.yml
+etc/
+volumes/
