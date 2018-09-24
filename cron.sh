@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 cd /home/mcrowe/Programming/Personal/show_media_bias/
+docker-compose up -d
 source venv/bin/activate
 
 function log {
@@ -48,3 +49,4 @@ if [ -f valid.export ]; then
     git commit -a -m"Automated update"
     git push
 fi
+docker-compose down
