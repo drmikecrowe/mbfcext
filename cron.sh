@@ -1,8 +1,8 @@
 #!/bin/bash -e
 
 cd /home/mcrowe/Programming/Personal/show_media_bias/
-docker-compose up -d
 source venv/bin/activate
+docker-compose up -d
 
 function log {
     echo " "
@@ -44,6 +44,8 @@ process
 # comment out
 
 if [ -f valid.export ]; then
+    echo "Push to github???"
+    read a
     cp *.json ../docs/revised
     cd ..
     git commit -a -m"Automated update"

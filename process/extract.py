@@ -71,7 +71,7 @@ max_labels = 1
 
 skeys = ["name", "bias", "facebook_url", "homepage", "url", "reporting", "Links", "MozRankURL", "Popularity"]
 
-db.execute_sql("CALL update_popularity()")
+db.execute_sql("UPDATE `source` INNER JOIN ( SELECT id, domain, url, ExternalEquityLinks, ROUND(100 * ((SELECT COUNT(*) FROM `source` as s2 WHERE s2.ExternalEquityLinks < `source`.`ExternalEquityLinks`))/(SELECT COUNT(*) FROM `source`), 0) AS Popularity FROM `source`) AS t ON `source`.id=t.id SET `source`.Popularity = t.Popularity")
 
 for source in Source.select().where((Source.complete == 1) & (Source.review == 0)):
     item = source.toJSON()

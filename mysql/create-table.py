@@ -3,7 +3,7 @@ import os
 import json
 from peewee import *
 
-db = MySQLDatabase("mbfcdata", host='172.17.0.1', user='root', password='zipit', port=13306)
+db = MySQLDatabase("mbfcdata", host='172.17.0.1', user='root', password='crowe', port=13306)
 
 
 class BaseModel(Model):
@@ -32,10 +32,14 @@ class Source(BaseModel):
     MozRankURLRaw = FloatField()
     ExternalEquityLinks = IntegerField()
     DomainAuthority = FloatField()
+    Popularity = IntegerField()
     homepage = CharField(index=True)
     review = BooleanField()
     name = CharField(index=True)
     review_details = CharField()
+    crawled_at = TimestampField()
+    updated_at = TimestampField()
+
 
 
 db.create_tables([Source])
