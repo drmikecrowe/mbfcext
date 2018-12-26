@@ -2,6 +2,7 @@
 
 cd /home/mcrowe/Programming/Personal/show_media_bias/
 source venv/bin/activate
+docker stop $(docker ps -aq)
 docker-compose up -d
 
 function log {
@@ -44,8 +45,6 @@ process
 # comment out
 
 if [ -f valid.export ]; then
-    echo "Push to github???"
-    read a
     cp *.json ../docs/revised
     cd ..
     git commit -a -m"Automated update"
