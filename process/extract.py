@@ -1,6 +1,7 @@
 import json
 import os
 import csv
+import datetime
 
 from unidecode import unidecode
 
@@ -181,8 +182,9 @@ for k in todo:
 
 sources = {}
 hosts = {}
-baseline = (((Source.complete == 1) & (Source.review == 0) & (
-    Source.reporting << ["HIGH", "VERY HIGH"]) & (Source.Links > 1000)) | (Source.domain == "mediabiasfactcheck.com"))
+baseline = ((
+    (Source.complete == 1) & (Source.review == 0) & (
+    Source.reporting.in_(["HIGH", "VERY HIGH"])) & (Source.Links > 1000)) | (Source.domain == "mediabiasfactcheck.com"))
 
 domains = get_domains(baseline, "factual-reporting")
 sources["factual-reporting"] = add_sources(
@@ -190,21 +192,21 @@ sources["factual-reporting"] = add_sources(
 hosts["factual-reporting"] = domains
 
 domains = get_domains(baseline & (
-    Source.bias << ["left-center", "right-center", "center"]), "mostly-center")
+    Source.bias.in_(["left-center", "right-center", "center"])), "mostly-center")
 sources["mostly-center"] = add_sources(
     "mostly-center", "Left-Center, Least and Right-Center Biased Sources with Highly Factual Reporting", domains)
 hosts["mostly-center"] = domains
 add_hosts("mostly-center", domains)
 
 domains = get_domains(baseline & (
-    Source.bias << ["left", "left-center"]), "left-leaning")
+    Source.bias.in_(["left", "left-center"])), "left-leaning")
 sources["left-leaning"] = add_sources(
     "left-leaning", "Left, Left-Center and Least Biased Sources with Highly Factual Reporting", domains)
 hosts["left-leaning"] = domains
 add_hosts("left-leaning", domains)
 
 domains = get_domains(baseline & (
-    Source.bias << ["right", "right-center"]), "right-leaning")
+    Source.bias.in_(["right", "right-center"])), "right-leaning")
 sources["right-leaning"] = add_sources(
     "right-leaning", "Right, Right-Center and Least Biased Sources with Highly Factual Reporting", domains)
 hosts["right-leaning"] = domains
@@ -221,12 +223,27 @@ for bias in biases:
     add_hosts(bias + "-only", domains)
 
 hosts = []
-js = []
+js = {
+    "bias_list": {},
+    "urls": {}
+}
 for key in sorted(table_hosts.keys()):
-    js.append(table_hosts[key])
+    for label in table_hosts[key]["labels"]:
+        if not label in js["bias_list"]:
+            js["bias_list"][label] = {
+                "count": 0,
+                "data": []
+            }
+        js["bias_list"][label]["data"].append(key)
+        js["bias_list"][label]["count"] += 1
+    js["urls"][key] = table_hosts[key]
+
+now = datetime.datetime.now().isoformat()[:10]
+js["asOf"] = now
+
 open("GCS/hosts.json", "w").write(json.dumps(js, encoding="latin1"))
 
-with open("GCS/annotations-new.tsv", "w") as fp:
+with open("GCS/annotations-%s.tsv" % now, "w") as fp:
     writer = csv.writer(fp, delimiter="\t")
     writer.writerow(["URL"] + ["Label"] * max_labels + ["A=MBFCLink", "Score"])
     for key in tsv_hosts:
