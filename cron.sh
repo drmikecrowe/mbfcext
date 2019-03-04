@@ -15,6 +15,8 @@ function log {
 function crawl {
     cd /home/mcrowe/Programming/Personal/show_media_bias/my_crawler/mbfc_crawler
     scrapy crawl getsource
+    cd /home/mcrowe/Programming/Personal/show_media_bias
+    python news_crawler/run.py
 }
 
 function process {
