@@ -51,7 +51,7 @@ def add_sources(key, title, domains):
         "gcse": "",
     }
 
-
+all_labels = []
 def add_hosts(label, hosts):
     global tsv_hosts, max_labels, sources
     for host in hosts:
@@ -64,6 +64,8 @@ def add_hosts(label, hosts):
                 "A=MBFCLink": table_hosts[host]["mbfc_url"],
             }
         tsv_hosts[host]["labels"].append(label)   
+        if not label in all_labels:
+            all_labels.append(label)
         if host == "mediabiasfactcheck.com" and "mbfc-only" not in tsv_hosts[host]["labels"]:
             tsv_hosts[host]["labels"].append("mbfc-only")         
         max_labels = max(max_labels, len(tsv_hosts[host]["labels"]))
@@ -243,15 +245,30 @@ js["asOf"] = now
 
 open("GCS/hosts.json", "w").write(json.dumps(js, encoding="latin1"))
 
-with open("GCS/annotations-%s.tsv" % now, "w") as fp:
+if not os.path.exists("GCS/%s" % now):
+    os.mkdir("GCS/%s" % now)
+
+with open("GCS/%s/annotations-%s.tsv" % (now, now), "w") as fp:
     writer = csv.writer(fp, delimiter="\t")
     writer.writerow(["URL"] + ["Label"] * max_labels + ["A=MBFCLink", "Score"])
     for key in tsv_hosts:
         host = tsv_hosts[key]
-        now = len(host["labels"])
-        if now < max_labels:
-            host["labels"] += [""] * (max_labels - now)
+        lcount = len(host["labels"])
+        if lcount < max_labels:
+            host["labels"] += [""] * (max_labels - lcount)
         writer.writerow([host["url"]] + host["labels"] + [host["A=MBFCLink"], host["Score"]])
+
+engines = json.load(open("engines.json", "r"))
+
+for label in engines:
+    engine = engines[label]
+    parts = engine["gcs"].split(":")
+    with open("GCS/%s/%s-hosts-%s.tsv" % (now, label, now), "w") as hp:
+        for key in tsv_hosts:
+            host = tsv_hosts[key]
+            if not label in host["labels"]:
+                continue
+            hp.write("%s\n" % host["url"])
 
 with open("GCS/urls.txt", "w") as fp:
     writer = csv.writer(fp, delimiter="\t")
