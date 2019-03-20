@@ -72,7 +72,8 @@ path: "/%s"
 date: "%s"
 title: "%s"
 original: "%s"  
-mbfc_news: true
+news: true
+layout: 'news
 ---
 
 %s
