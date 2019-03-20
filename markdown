@@ -1,1 +1,1 @@
-../fns-gatsby/src/content/mbfc_news/
+../fns-gatsby/src/content/news/

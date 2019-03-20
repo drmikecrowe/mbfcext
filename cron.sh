@@ -1,5 +1,6 @@
 #!/bin/bash -e
-
+set -x
+set -e 
 cd /home/mcrowe/Programming/Personal/show_media_bias/
 source venv/bin/activate
 docker stop $(docker ps -aq)
@@ -13,8 +14,8 @@ function log {
 }
 
 function crawl {
-    cd /home/mcrowe/Programming/Personal/show_media_bias/my_crawler/mbfc_crawler
-    scrapy crawl getsource
+    # cd /home/mcrowe/Programming/Personal/show_media_bias/my_crawler/mbfc_crawler
+    # scrapy crawl getsource
     cd /home/mcrowe/Programming/Personal/show_media_bias
     python news_crawler/run.py
 }
