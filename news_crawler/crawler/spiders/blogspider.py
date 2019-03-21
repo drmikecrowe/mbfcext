@@ -73,7 +73,6 @@ date: "%s"
 title: "%s"
 original: "%s"  
 news: true
-layout: 'news
 ---
 
 %s
