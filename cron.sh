@@ -51,5 +51,12 @@ if [ -f valid.export ]; then
     cd ..
     git commit -a -m"Automated update"
     git push
+
+    pushd /home/mcrowe/Programming/Personal/fns-gatsby
+    git commit -a -m"Automated update"
+    git push
+    npm run build
+    npm run deploy -- -y
+    popd 
 fi
 docker-compose down
