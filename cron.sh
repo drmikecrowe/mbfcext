@@ -53,6 +53,7 @@ if [ -f valid.export ]; then
     git push
 
     pushd /home/mcrowe/Programming/Personal/fns-gatsby
+    git add -A
     git commit -a -m"Automated update"
     git push
     npm run build
