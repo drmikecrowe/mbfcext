@@ -4,15 +4,26 @@ title: Homepage
 comments: true
 ---
 
-## Want to help beta test the next version?
-
-[Click Here]({{ site.baseurl }}/beta)
-
 ## Official Media Bias/Fact Check Extension
 
 Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources.
 
-### Release notes for version 1.0.15 (Currently in BETA)
+## Release notes for version 2.0 (Currently in BETA)
+
+### Now Showing Bias Icon for Reported Sites
+
+* Browse to a site reviewed by Media Bias/Fact Check and the extension icon will now change to the bias of the site
+* If you have collapsed the site in settings, that icon will flash to get your attention
+
+### Twitter Support! 
+
+* [Twitter](https://twitter.com) feed is now annotated with a basic MBFC review for reported site.  Please let us know what you think via a comment in the [Chrome Web Store](https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh)
+
+## Want to help beta test the next version?
+
+[Click Here]({{ site.baseurl }}/beta)
+
+### Release notes for version 1.0.15 
 
 [To help test, follow these instructions]({{ site.baseurl }}/beta)
 
