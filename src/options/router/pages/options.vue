@@ -162,7 +162,7 @@ export default class Options extends Vue {
   }
   .field-wrap {
     display: flex;
-    flex: 0 1 400px;
+    flex: 0 1 300px;
     .wrapper {
       width: 100%;
     }

@@ -35,7 +35,7 @@ const webpackConfig = {
   entry: {
     background: resolve("src/background/index.ts"),
     contentscript: resolve("src/contentscript/index.ts"),
-    options: resolve("src/options/index.ts"),
+    options: [resolve("src/options/index.ts"), resolve(`src/assets/${target}-options.css`)],
     popup: resolve("src/popup/index.ts"),
   },
   output: {
