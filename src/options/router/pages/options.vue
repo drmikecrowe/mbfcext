@@ -1,5 +1,5 @@
 <template>
-  <form class="w-full">
+  <form class="w-full" id="optionsStorage">
     <vue-form-generator :schema="schema" :model="model" :options="formOptions"> </vue-form-generator>
   </form>
 </template>
@@ -7,11 +7,25 @@
 <script lang="ts">
 import Vue from "vue";
 import Component from "vue-class-component";
+import OptionsSync from "webext-options-sync";
+
+const log = require("debug")("ext:options");
+
+const simpleSetup = {
+  defaults: {
+    name: "John Doe",
+    password: "J0hnD03!x4",
+    email: "john.doe@gmail.com",
+    status: true,
+  },
+  migrations: [OptionsSync.migrations.removeUnused],
+  logging: true,
+};
+
+const optionsStorage = new OptionsSync(simpleSetup);
 
 import VueFormGenerator from "vue-form-generator/dist/vfg-core.js";
 Vue.use(VueFormGenerator);
-
-const log = require("debug")("ext:popup");
 
 const baseClasses = {
   styleClasses: "flex items-center mb-6",
@@ -29,25 +43,26 @@ const checkboxClasses = {
   ...baseClasses,
 };
 
-const selectClasses = {
-  fieldClasses: "form-select w-2/3 mt-1 block w-full align-middle",
-  ...baseClasses,
-};
-
-const model = {
-  id: 1,
-  name: "John Doe",
-  password: "J0hnD03!x4",
-  skills: ["Javascript", "VueJS"],
-  email: "john.doe@gmail.com",
-  status: true,
-};
-
 @Component
 export default class Options extends Vue {
+  model: any = {};
+
+  async loadOptions(): Promise<any> {
+    const options = await optionsStorage.getAll();
+    log(`Options retrieved in loadOptions: `, options);
+    this.model = options;
+    return this.model;
+  }
+
+  mounted() {
+    log(`Linking to form`);
+    optionsStorage.syncForm("#optionsStorage");
+  }
+
   data() {
+    this.loadOptions().then(m => log(`Model now: `, m));
     return {
-      model,
+      model: this.model,
       schema: {
         groups: [
           {
@@ -56,18 +71,10 @@ export default class Options extends Vue {
               {
                 type: "input",
                 inputType: "text",
-                label: "ID (disabled text field)",
-                model: "id",
-                readonly: true,
-                disabled: true,
-                ...inputClasses,
-              },
-              {
-                type: "input",
-                inputType: "text",
                 label: "Name",
                 model: "name",
-                id: "user_name",
+                id: "name",
+                inputName: "name",
                 placeholder: "Your name",
                 featured: true,
                 required: true,
@@ -78,6 +85,8 @@ export default class Options extends Vue {
                 inputType: "email",
                 label: "E-mail",
                 model: "email",
+                id: "email",
+                inputName: "email",
                 placeholder: "User's e-mail address",
                 ...inputClasses,
               },
@@ -86,6 +95,7 @@ export default class Options extends Vue {
                 inputType: "password",
                 label: "Password",
                 model: "password",
+                inputName: "password",
                 min: 6,
                 required: true,
                 hint: "Minimum 6 characters",
@@ -98,16 +108,10 @@ export default class Options extends Vue {
             legend: "Skills & Status",
             fields: [
               {
-                type: "select",
-                label: "Skills",
-                model: "skills",
-                values: ["Javascript", "VueJS", "CSS3", "HTML5"],
-                ...selectClasses,
-              },
-              {
                 type: "checkbox",
                 label: "Status",
                 model: "status",
+                inputName: "status",
                 default: true,
                 ...checkboxClasses,
               },
