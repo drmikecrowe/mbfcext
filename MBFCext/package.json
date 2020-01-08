@@ -1,6 +1,6 @@
 {
   "name": "mbfc-chrome-extension",
-  "version": "2.0.8",
+  "version": "2.1.0",
   "description": "Facebook News Biases",
   "scripts": {
     "build": "NODE_ENV=production webpack",
