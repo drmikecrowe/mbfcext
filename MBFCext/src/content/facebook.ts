@@ -102,11 +102,6 @@ export class Facebook extends Filter {
         if (site.r > "") {
             details.push(`<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${site.u}">Factually: ${site.r}${external_link}</a>`);
         }
-        details.push(
-            `<a title="This takes you to moz.com to define 'Link Equity' that we use to rank sites" href="https://moz.com/learn/seo/what-is-link-equity">References</a>: ${toM(
-                site.L,
-            )}`,
-        );
         details.push(`<span title="Within MBFC sites, this site has ${site.P}% higher number of external equity links than other sites">Popularity: ${site.P}%</span>`);
         if (tagsearch && site.b !== "satire") {
             details.push(
