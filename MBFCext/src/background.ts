@@ -147,6 +147,8 @@ class LoadSettingsProcessor {
   static getInstance() {
     if (!LoadSettingsProcessor.instance) {
       LoadSettingsProcessor.instance = new LoadSettingsProcessor();
+      chromep.storage.local.get().then(js => log(js));
+      chromep.storage.sync.get().then(js => log(js));
     }
     return LoadSettingsProcessor.instance;
   }
