@@ -10893,7 +10893,7 @@
         "p": "/"
     },
     "geopoliticsalert.com": {
-        "b": "left-center",
+        "b": "left",
         "d": "geopoliticsalert.com",
         "f": "https://facebook.com/geopoliticsalert",
         "t": "https://twitter.com/gpworldnews",
@@ -10902,7 +10902,7 @@
         "L": "49192",
         "n": "Geopolitics Alert",
         "P": "50",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/geopolitics-alert/",
         "p": "/"
     },
@@ -15643,7 +15643,7 @@
         "p": "/"
     },
     "listverse.com": {
-        "b": "center",
+        "b": "right-center",
         "d": "listverse.com",
         "f": "https://facebook.com/top10lists",
         "h": "https://listverse.com",
@@ -15651,7 +15651,7 @@
         "L": "115248",
         "n": "ListVerse",
         "P": "62",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/listverse/",
         "p": "/"
     },
@@ -16512,7 +16512,7 @@
         "p": "/"
     },
     "en.mehrnews.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "en.mehrnews.com",
         "f": "https://facebook.com/mehrnewscom",
         "t": "https://twitter.com/mehrnewscom",
@@ -25519,7 +25519,7 @@
         "p": "/"
     },
     "tasnimnews.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "tasnimnews.com",
         "f": "https://facebook.com/tasnimnews.english",
         "t": "https://twitter.com/tasnimnews_fa",
@@ -29455,7 +29455,7 @@
         "p": "/"
     },
     "tehrantimes.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "tehrantimes.com",
         "f": "https://facebook.com/tehrantimes79",
         "t": "https://twitter.com/tehrantimes79",
@@ -36396,6 +36396,78 @@
         "P": "0",
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/ajuanews-com/",
+        "p": "/"
+    },
+    "finnishnews.fi": {
+        "b": "left",
+        "d": "finnishnews.fi",
+        "h": "https://finnishnews.fi",
+        "M": "0",
+        "L": "0",
+        "n": "Finnish News",
+        "P": "0",
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/finnish-news/",
+        "p": "/"
+    },
+    "theflipside.io": {
+        "b": "center",
+        "d": "theflipside.io",
+        "h": "https://theflipside.io",
+        "M": "0",
+        "L": "0",
+        "n": "The Flip Side",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-flip-side/",
+        "p": "/"
+    },
+    "asiannews.it": {
+        "b": "right",
+        "d": "asiannews.it",
+        "h": "https://asiannews.it",
+        "M": "0",
+        "L": "0",
+        "n": "AsianNews.it",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/asiannews-it/",
+        "p": "/"
+    },
+    "christiantoday.com": {
+        "b": "right",
+        "d": "christiantoday.com",
+        "h": "https://christiantoday.com",
+        "M": "0",
+        "L": "0",
+        "n": "Christian Today",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/christian-today/",
+        "p": "/"
+    },
+    "evil.news": {
+        "b": "fake-news",
+        "d": "evil.news",
+        "h": "https://evil.news",
+        "M": "0",
+        "L": "0",
+        "n": "Evil.News",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/evil-news/",
+        "p": "/"
+    },
+    "china.org.cn": {
+        "b": "left",
+        "d": "china.org.cn",
+        "h": "https://china.org.cn",
+        "M": "0",
+        "L": "0",
+        "n": "China Internet Information Center",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/china-internet-information-center/",
         "p": "/"
     }
 }
