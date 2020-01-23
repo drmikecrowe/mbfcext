@@ -11432,7 +11432,7 @@
         "t": "metrouk",
         "n": "Metro UK",
         "P": "78",
-        "r": "MF",
+        "r": "M",
         "u": "metro-uk"
     },
     "medusamagazine.com": {
@@ -14324,7 +14324,7 @@
         "u": "philadelphia-inquirer"
     },
     "pjmedia.com": {
-        "b": "R",
+        "b": "FN",
         "d": "pjmedia.com",
         "f": "pjmedia",
         "t": "pjmedia_com",
@@ -15012,7 +15012,7 @@
         "u": "psychology-today"
     },
     "project-syndicate.org": {
-        "b": "C",
+        "b": "LC",
         "d": "project-syndicate.org",
         "f": "projectsyndicate",
         "t": "prosyn",
@@ -16176,13 +16176,13 @@
         "u": "russian-news-agency-tass"
     },
     "russia-insider.com": {
-        "b": "R",
+        "b": "FN",
         "d": "russia-insider.com",
         "f": "russiainsider",
         "t": "russiainsider",
         "n": "Russia Insider",
         "P": "56",
-        "r": "M",
+        "r": "L",
         "u": "russia-insider"
     },
     "rollingstone.com": {
@@ -25501,5 +25501,45 @@
         "P": "0",
         "r": "L",
         "u": "the-union-journal"
+    },
+    "newsservis.com": {
+        "b": "FN",
+        "d": "http://newsservis.com",
+        "n": "Newsservis.com",
+        "P": "0",
+        "r": "VL",
+        "u": "newsservis-com"
+    },
+    "nationalfile.com": {
+        "b": "CP",
+        "d": "nationalfile.com",
+        "n": "National File",
+        "P": "0",
+        "r": "L",
+        "u": "national-file"
+    },
+    "thepoliticalbrief.com": {
+        "b": "FN",
+        "d": "thepoliticalbrief.com",
+        "n": "ThePoliticalBrief.com",
+        "P": "0",
+        "r": "VL",
+        "u": "thepoliticalbrief-com"
+    },
+    "waynedupree.com": {
+        "b": "FN",
+        "d": "waynedupree.com",
+        "n": "WayneDupree.com",
+        "P": "0",
+        "r": "L",
+        "u": "waynedupree-com"
+    },
+    "1010wins.radio.com": {
+        "b": "C",
+        "d": "1010wins.radio.com",
+        "n": "1010 WINS AM",
+        "P": "0",
+        "r": "H",
+        "u": "1010-wins-am"
     }
 }

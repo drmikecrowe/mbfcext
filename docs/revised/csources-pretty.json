@@ -16368,7 +16368,7 @@
         "L": "5053603",
         "n": "Metro UK",
         "P": "78",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/metro-uk/",
         "p": "/"
     },
@@ -20505,7 +20505,7 @@
         "p": "/"
     },
     "pjmedia.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "pjmedia.com",
         "f": "https://facebook.com/pjmedia",
         "t": "https://twitter.com/pjmedia_com",
@@ -21493,7 +21493,7 @@
         "p": "/"
     },
     "project-syndicate.org": {
-        "b": "center",
+        "b": "left-center",
         "d": "project-syndicate.org",
         "f": "https://facebook.com/projectsyndicate",
         "t": "https://twitter.com/prosyn",
@@ -23169,7 +23169,7 @@
         "p": "/"
     },
     "russia-insider.com": {
-        "b": "right-center",
+        "b": "fake-news",
         "d": "russia-insider.com",
         "f": "https://facebook.com/russiainsider",
         "t": "https://twitter.com/russiainsider",
@@ -23178,7 +23178,7 @@
         "L": "50634",
         "n": "Russia Insider",
         "P": "56",
-        "r": "MIXED",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/russia-insider/",
         "p": "/"
     },
@@ -36648,6 +36648,66 @@
         "P": "0",
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/the-union-journal/",
+        "p": "/"
+    },
+    "newsservis.com": {
+        "b": "fake-news",
+        "d": "http://newsservis.com/",
+        "h": "https://http://newsservis.com/",
+        "M": "0",
+        "L": "0",
+        "n": "Newsservis.com",
+        "P": "0",
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/newsservis-com/",
+        "p": "/"
+    },
+    "nationalfile.com": {
+        "b": "conspiracy",
+        "d": "nationalfile.com",
+        "h": "https://nationalfile.com",
+        "M": "0",
+        "L": "0",
+        "n": "National File",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/national-file/",
+        "p": "/"
+    },
+    "thepoliticalbrief.com": {
+        "b": "fake-news",
+        "d": "thepoliticalbrief.com",
+        "h": "https://thepoliticalbrief.com",
+        "M": "0",
+        "L": "0",
+        "n": "ThePoliticalBrief.com",
+        "P": "0",
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/thepoliticalbrief-com/",
+        "p": "/"
+    },
+    "waynedupree.com": {
+        "b": "fake-news",
+        "d": "waynedupree.com",
+        "h": "https://waynedupree.com",
+        "M": "0",
+        "L": "0",
+        "n": "WayneDupree.com",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/waynedupree-com/",
+        "p": "/"
+    },
+    "1010wins.radio.com": {
+        "b": "center",
+        "d": "1010wins.radio.com",
+        "h": "https://1010wins.radio.com",
+        "M": "0",
+        "L": "0",
+        "n": "1010 WINS AM",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/1010-wins-am/",
         "p": "/"
     }
 }
