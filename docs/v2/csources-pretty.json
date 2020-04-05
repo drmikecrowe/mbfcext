@@ -812,7 +812,7 @@
         "t": "aaf",
         "n": "American Action Forum",
         "P": "38",
-        "r": "H",
+        "r": "MF",
         "u": "american-action-forum"
     },
     "amny.com": {
@@ -1028,7 +1028,7 @@
         "t": "afpc",
         "n": "American Foreign Policy council",
         "P": "56",
-        "r": "H",
+        "r": "MF",
         "u": "american-foreign-policy-council"
     },
     "sites.agu.org": {
@@ -1693,7 +1693,7 @@
         "t": "ani",
         "n": "Asian News International",
         "P": "67",
-        "r": "MF",
+        "r": "M",
         "u": "asian-news-international-ani"
     },
     "tucson.com": {
@@ -2159,7 +2159,7 @@
         "t": "bigleaguepol",
         "n": "Big League Politics",
         "P": "73",
-        "r": "M",
+        "r": "L",
         "u": "big-league-politics"
     },
     "bigbluevision.org": {
@@ -4635,7 +4635,7 @@
         "d": "counterpunch.org",
         "n": "CounterPunch",
         "P": "93",
-        "r": "H",
+        "r": "MF",
         "u": "counterpunch"
     },
     "counterpsyops.com": {
@@ -5355,7 +5355,7 @@
         "d": "deadstate.org",
         "f": "deadstate.org",
         "t": "deadstatetweets",
-        "n": "Dead State",
+        "n": "DeadState",
         "P": "33",
         "r": "H",
         "u": "dead-state"
@@ -5504,7 +5504,7 @@
         "u": "democracy-guardian"
     },
     "deepleftfield.info": {
-        "b": "L",
+        "b": "FN",
         "d": "deepleftfield.info",
         "n": "Deep Left Field",
         "P": "22",
@@ -6010,7 +6010,7 @@
         "u": "earthnews-conservative-news"
     },
     "earth.columbia.edu": {
-        "b": "C",
+        "b": "LC",
         "d": "earth.columbia.edu",
         "f": "earthinstitute",
         "n": "Earth Institute",
@@ -6068,7 +6068,7 @@
         "d": "educate-yourself.org",
         "n": "Educate Yourself",
         "P": "56",
-        "r": "L",
+        "r": "VL",
         "u": "educate-yourself"
     },
     "educateinspirechange.org": {
@@ -6623,7 +6623,7 @@
         "t": "examinecom",
         "n": "Examine.com",
         "P": "48",
-        "r": "H",
+        "r": "VH",
         "u": "examine-com"
     },
     "factswanted.com": {
@@ -6796,12 +6796,12 @@
         "r": "H",
         "u": "feminist-current"
     },
-    "federalnewsradio.com": {
+    "federalnewsnetwork.com": {
         "b": "C",
-        "d": "federalnewsradio.com",
+        "d": "federalnewsnetwork.com",
         "f": "fednewsnetwork",
         "t": "federalnewsnet",
-        "n": "Federal News Radio",
+        "n": "Federal News Network",
         "P": "61",
         "r": "H",
         "u": "federal-news-radio"
@@ -7251,7 +7251,7 @@
         "f": "fprinews",
         "n": "Foreign Policy Research Institute",
         "P": "57",
-        "r": "VH",
+        "r": "MF",
         "u": "foreign-policy-research-institute"
     },
     "fee.org": {
@@ -7653,9 +7653,9 @@
         "r": "M",
         "u": "get-religion"
     },
-    "futureinamerica.com": {
+    "ourfutureinamerica.org": {
         "b": "R",
-        "d": "futureinamerica.com",
+        "d": "ourfutureinamerica.org",
         "f": "futureinamerica",
         "n": "Future in America",
         "P": "0",
@@ -7706,7 +7706,7 @@
         "t": "geologytime",
         "n": "Geology In",
         "P": "32",
-        "r": "VL",
+        "r": "M",
         "u": "geology-in"
     },
     "gatestoneinstitute.org": {
@@ -7989,7 +7989,7 @@
     "gopocalypse.org": {
         "b": "L",
         "d": "gopocalypse.org",
-        "n": "GOPOPALPYSE",
+        "n": "GOPOCALPYSE",
         "P": "26",
         "r": "M",
         "u": "gopocalypse"
@@ -8091,7 +8091,7 @@
         "u": "goodnewsnetwork"
     },
     "govexec.com": {
-        "b": "C",
+        "b": "LC",
         "d": "govexec.com",
         "f": "governmentexecutive",
         "t": "govexec",
@@ -8252,7 +8252,7 @@
         "u": "grist"
     },
     "group30.org": {
-        "b": "R",
+        "b": "C",
         "d": "group30.org",
         "n": "Group of Thirty",
         "P": "26",
@@ -8272,7 +8272,7 @@
         "d": "greenvillegazette.com",
         "n": "Greenville Gazette",
         "P": "20",
-        "r": "H",
+        "r": "L",
         "u": "greenville-gazette"
     },
     "govtrack.us": {
@@ -8296,7 +8296,7 @@
         "u": "the-hartford-courant"
     },
     "harvardpolitics.com": {
-        "b": "C",
+        "b": "LC",
         "d": "harvardpolitics.com",
         "n": "Harvard Political Review",
         "P": "27",
@@ -9266,7 +9266,7 @@
         "u": "independent-sentinel"
     },
     "indystar.com": {
-        "b": "LC",
+        "b": "C",
         "d": "indystar.com",
         "f": "indianapolis.star",
         "t": "indystar",
@@ -9440,7 +9440,7 @@
         "d": "informedowners.com",
         "n": "Informed Owners",
         "P": "16",
-        "r": "L",
+        "r": "VL",
         "u": "informed-owners"
     },
     "ips-dc.org": {
@@ -10086,7 +10086,7 @@
         "d": "justfacts.com",
         "n": "Just Facts",
         "P": "35",
-        "r": "VH",
+        "r": "MF",
         "u": "just-facts"
     },
     "justfactsdaily.com": {
@@ -10178,7 +10178,7 @@
         "f": "helvidius",
         "n": "Journal Politics and Society",
         "P": "27",
-        "r": "H",
+        "r": "VH",
         "u": "journal-of-politics-and-society"
     },
     "kansaspolicy.org": {
@@ -10235,7 +10235,7 @@
         "t": "judicialnetwork",
         "n": "Judicial Crisis Network",
         "P": "99",
-        "r": "H",
+        "r": "M",
         "u": "judicial-crisis-network"
     },
     "junkscience.com": {
@@ -11141,13 +11141,13 @@
         "u": "manhattan-institute-for-policy-research"
     },
     "maplight.org": {
-        "b": "C",
+        "b": "LC",
         "d": "maplight.org",
         "f": "maplight",
         "t": "maplight",
         "n": "Maplight",
         "P": "74",
-        "r": "VH",
+        "r": "H",
         "u": "maplight"
     },
     "mainebeacon.com": {
@@ -12035,7 +12035,7 @@
         "t": "nbcnews",
         "n": "MSNBC",
         "P": "99",
-        "r": "MF",
+        "r": "M",
         "u": "msnbc"
     },
     "msn.com": {
@@ -12339,7 +12339,7 @@
         "u": "national-geographic"
     },
     "home.nra.org": {
-        "b": "R",
+        "b": "FN",
         "d": "home.nra.org",
         "f": "nra",
         "t": "nra",
@@ -12349,13 +12349,13 @@
         "u": "national-rifle-association-nra"
     },
     "nrdc.org": {
-        "b": "LC",
+        "b": "L",
         "d": "nrdc.org",
         "f": "nrdc.org",
         "t": "nrdc",
         "n": "Natural Resources Defense Council",
         "P": "82",
-        "r": "H",
+        "r": "MF",
         "u": "natural-resources-defense-council"
     },
     "naturalcuresnotmedicine.info": {
@@ -12512,7 +12512,7 @@
         "t": "healthranger",
         "n": "Natural News",
         "P": "85",
-        "r": "L",
+        "r": "VL",
         "u": "natural-news"
     },
     "naturalsociety.com": {
@@ -12594,11 +12594,11 @@
         "u": "nc-policy-watch"
     },
     "newamerica.org": {
-        "b": "C",
+        "b": "LC",
         "d": "newamerica.org",
         "f": "newamerica",
         "t": "newamerica",
-        "n": "New America Foundation",
+        "n": "New America",
         "P": "81",
         "r": "H",
         "u": "new-america"
@@ -13983,13 +13983,13 @@
         "u": "pacific-pundit"
     },
     "panampost.com": {
-        "b": "LC",
+        "b": "R",
         "d": "panampost.com",
         "f": "panampost",
         "t": "panampost",
         "n": "PanAm Post",
         "P": "43",
-        "r": "H",
+        "r": "M",
         "u": "panam-post"
     },
     "pastemagazine.com": {
@@ -15474,7 +15474,7 @@
         "t": "rcinvestigates",
         "n": "Real Clear Investigations",
         "P": "49",
-        "r": "M",
+        "r": "MF",
         "u": "real-clear-investigations"
     },
     "realjewnews.com": {
@@ -15566,7 +15566,7 @@
         "t": "realclearnews",
         "n": "Real Clear Politics",
         "P": "96",
-        "r": "M",
+        "r": "MF",
         "u": "real-clear-politics"
     },
     "realclimate.org": {
@@ -16339,9 +16339,9 @@
         "r": "H",
         "u": "san-diego-union-tribune"
     },
-    "mysanantonio.com": {
+    "expressnews.com": {
         "b": "LC",
-        "d": "mysanantonio.com",
+        "d": "expressnews.com",
         "f": "sanantonioexpressnews",
         "t": "mysa",
         "n": "San Antonio Express",
@@ -17108,7 +17108,7 @@
         "t": "spacedotcom",
         "n": "Space.com",
         "P": "96",
-        "r": "VH",
+        "r": "H",
         "u": "space-com"
     },
     "southafricatoday.net": {
@@ -17595,12 +17595,12 @@
         "u": "sunday-sport"
     },
     "sunlightfoundation.com": {
-        "b": "C",
+        "b": "LC",
         "d": "sunlightfoundation.com",
         "f": "sunlightfoundation",
         "n": "Sunlight Foundation",
         "P": "86",
-        "r": "VH",
+        "r": "H",
         "u": "sunlight-foundation"
     },
     "swampdrain.com": {
@@ -17639,13 +17639,13 @@
         "u": "sure-news"
     },
     "swarajyamag.com": {
-        "b": "R",
+        "b": "FN",
         "d": "swarajyamag.com",
         "f": "swarajyamag",
         "t": "swarajyamag",
         "n": "Swarajya",
         "P": "41",
-        "r": "H",
+        "r": "L",
         "u": "swarajya"
     },
     "studentnewsdaily.com": {
@@ -18179,7 +18179,7 @@
         "d": "americanindependent.com",
         "n": "The American Independent Institute",
         "P": "70",
-        "r": "H",
+        "r": "MF",
         "u": "american-independent-institute"
     },
     "theaware.net": {
@@ -18522,7 +18522,7 @@
         "t": "thedailybanter",
         "n": "The Daily Banter",
         "P": "65",
-        "r": "H",
+        "r": "M",
         "u": "the-daily-banter"
     },
     "thedailymire.com": {
@@ -19945,6 +19945,14 @@
         "r": "H",
         "u": "the-pantagraph"
     },
+    ".thepolitics.online": {
+        "b": "FN",
+        "d": ".thepolitics.online",
+        "n": "The Politics Online",
+        "P": "0",
+        "r": "L",
+        "u": "the-politics-online"
+    },
     "thepeoplestruth.com": {
         "b": "FN",
         "d": "thepeoplestruth.com",
@@ -20244,7 +20252,7 @@
         "t": "trscoop",
         "n": "The Right Scoop",
         "P": "80",
-        "r": "H",
+        "r": "M",
         "u": "the-right-scoop"
     },
     "theresurgent.com": {
@@ -21291,7 +21299,7 @@
         "u": "toronto-star"
     },
     "treehugger.com": {
-        "b": "PS",
+        "b": "L",
         "d": "treehugger.com",
         "f": "treehugger",
         "t": "treehugger",
@@ -22183,7 +22191,7 @@
         "d": "usanetwork.info",
         "n": "USAnetwork.info",
         "P": "11",
-        "r": "L",
+        "r": "VL",
         "u": "usanetwork-info"
     },
     "usafirstinformation.com": {
@@ -22539,7 +22547,7 @@
         "t": "washtimes",
         "n": "Washington Times",
         "P": "94",
-        "r": "H",
+        "r": "M",
         "u": "washington-times"
     },
     "wallstreetonparade.com": {
@@ -22929,7 +22937,7 @@
         "d": "wikipedia.org",
         "n": "Wikipedia",
         "P": "100",
-        "r": "H",
+        "r": "MF",
         "u": "wikipedia"
     },
     "sungazette.com": {
@@ -24357,7 +24365,7 @@
         "d": "southernpatriotnews.com",
         "n": "Southern Patriot News",
         "P": "0",
-        "r": "M",
+        "r": "MF",
         "u": "southern-patriot-news"
     },
     "africacheck.org": {
@@ -25541,5 +25549,475 @@
         "P": "0",
         "r": "H",
         "u": "1010-wins-am"
+    },
+    "americasnewssource.com": {
+        "b": "FN",
+        "d": "americasnewssource.com",
+        "n": "America's News Source",
+        "P": "0",
+        "r": "VL",
+        "u": "americas-news-source"
+    },
+    "firstcoastnews.com": {
+        "b": "C",
+        "d": "firstcoastnews.com",
+        "n": "First Coast News",
+        "P": "0",
+        "r": "MF",
+        "u": "first-coast-news"
+    },
+    "ecology.news": {
+        "b": "CP",
+        "d": "ecology.news",
+        "n": "Ecology News",
+        "P": "0",
+        "r": "VL",
+        "u": "ecology-news"
+    },
+    "thebeardedpatriot.com": {
+        "b": "FN",
+        "d": "thebeardedpatriot.com",
+        "n": "The Bearded Patriot",
+        "P": "0",
+        "r": "L",
+        "u": "the-bearded-patriot"
+    },
+    "realclimatescience.com": {
+        "b": "CP",
+        "d": "realclimatescience.com",
+        "n": "Real Climate Science",
+        "P": "0",
+        "r": "L",
+        "u": "real-climate-science"
+    },
+    "dmlnews.com": {
+        "b": "R",
+        "d": "dmlnews.com",
+        "n": "DML News",
+        "P": "0",
+        "r": "M",
+        "u": "dml-news"
+    },
+    "wehuntedthemammoth.com": {
+        "b": "L",
+        "d": "wehuntedthemammoth.com",
+        "n": "We Hunted the Mammoth",
+        "P": "0",
+        "r": "H",
+        "u": "we-hunted-the-mammoth"
+    },
+    "austindailyherald.com": {
+        "b": "LC",
+        "d": "austindailyherald.com",
+        "n": "Austin Daily Herald",
+        "P": "0",
+        "r": "H",
+        "u": "austin-daily-herald-minnesota"
+    },
+    "msmlies.com": {
+        "b": "FN",
+        "d": "msmlies.com",
+        "n": "MSMLies.com",
+        "P": "0",
+        "r": "M",
+        "u": "msmlies-com"
+    },
+    "lamag.com": {
+        "b": "LC",
+        "d": "lamag.com",
+        "n": "Los Angeles Magazine",
+        "P": "0",
+        "r": "H",
+        "u": "los-angeles-magazine"
+    },
+    "citylab.com": {
+        "b": "LC",
+        "d": "citylab.com",
+        "n": "CityLab",
+        "P": "0",
+        "r": "H",
+        "u": "citylab"
+    },
+    "heraldonline.com": {
+        "b": "LC",
+        "d": "heraldonline.com",
+        "n": "Rock Hill Herald",
+        "P": "0",
+        "r": "H",
+        "u": "rock-hill-herald"
+    },
+    "issues.org": {
+        "b": "PS",
+        "d": "issues.org",
+        "n": "Issues in Science and Technology",
+        "P": "0",
+        "r": "H",
+        "u": "issues-in-science-and-technology"
+    },
+    "courier-tribune.com": {
+        "b": "C",
+        "d": "courier-tribune.com",
+        "n": "Asheboro Courier-Tribune",
+        "P": "0",
+        "r": "H",
+        "u": "asheboro-courier-tribune"
+    },
+    "tri-cityherald.com": {
+        "b": "C",
+        "d": "tri-cityherald.com",
+        "n": "Tri-City Herald",
+        "P": "0",
+        "r": "H",
+        "u": "tri-city-herald"
+    },
+    "thoughtcatalog.com": {
+        "b": "CP",
+        "d": "thoughtcatalog.com",
+        "n": "Thought Catalog",
+        "P": "0",
+        "r": "M",
+        "u": "thought-catalog"
+    },
+    "oneangrygamer.net": {
+        "b": "R",
+        "d": "oneangrygamer.net",
+        "n": "One Angry Gamer",
+        "P": "0",
+        "r": "M",
+        "u": "one-angry-gamer"
+    },
+    "gnews.org": {
+        "b": "FN",
+        "d": "gnews.org",
+        "n": "Gnews",
+        "P": "0",
+        "r": "L",
+        "u": "gnews"
+    },
+    "americansarepissed.com": {
+        "b": "FN",
+        "d": "americansarepissed.com",
+        "n": "Americans Are Pissed",
+        "P": "0",
+        "r": "L",
+        "u": "americans-are-pissed"
+    },
+    "fox35orlando.com": {
+        "b": "C",
+        "d": "fox35orlando.com",
+        "n": "WOFL Fox 35 Orlando",
+        "P": "0",
+        "r": "H",
+        "u": "wofl-fox-35-orlando"
+    },
+    "sonsof1776.com": {
+        "b": "FN",
+        "d": "sonsof1776.com",
+        "n": "Sons of 1776",
+        "P": "0",
+        "r": "L",
+        "u": "sons-of-1776"
+    },
+    "laconiadailysun.com": {
+        "b": "LC",
+        "d": "laconiadailysun.com",
+        "n": "Laconia Daily Sun",
+        "P": "0",
+        "r": "H",
+        "u": "laconia-daily-sun"
+    },
+    "thebeltwayreport.com": {
+        "b": "FN",
+        "d": "thebeltwayreport.com",
+        "n": "The Beltway Report",
+        "P": "0",
+        "r": "M",
+        "u": "the-beltway-report"
+    },
+    "westernmassnews.com": {
+        "b": "LC",
+        "d": "westernmassnews.com",
+        "n": "Western Mass News",
+        "P": "0",
+        "r": "H",
+        "u": "western-mass-news"
+    },
+    "americasvoice.org": {
+        "b": "L",
+        "d": "americasvoice.org",
+        "n": "America's Voice",
+        "P": "0",
+        "r": "MF",
+        "u": "americas-voice"
+    },
+    "worldstarhiphop.com": {
+        "b": "FN",
+        "d": "worldstarhiphop.com",
+        "n": "WorldStarHipHop",
+        "P": "0",
+        "r": "M",
+        "u": "worldstarhiphop"
+    },
+    "navytimes.com": {
+        "b": "C",
+        "d": "navytimes.com",
+        "n": "Navy Times",
+        "P": "0",
+        "r": "H",
+        "u": "navy-times"
+    },
+    "laweekly.com": {
+        "b": "L",
+        "d": "laweekly.com",
+        "n": "LA Weekly",
+        "P": "0",
+        "r": "M",
+        "u": "la-weekly"
+    },
+    "thestreet.com": {
+        "b": "R",
+        "d": "thestreet.com",
+        "n": "TheStreet",
+        "P": "0",
+        "r": "H",
+        "u": "thestreet"
+    },
+    "conservativeammo.com": {
+        "b": "FN",
+        "d": "conservativeammo.com",
+        "n": "Conservative Ammo",
+        "P": "0",
+        "r": "L",
+        "u": "conservative-ammo"
+    },
+    "sanluisobispo.com": {
+        "b": "LC",
+        "d": "sanluisobispo.com",
+        "n": "San Luis Obispo Tribune",
+        "P": "0",
+        "r": "H",
+        "u": "san-luis-obispo-tribune"
+    },
+    "rawconservativeopinions.com": {
+        "b": "FN",
+        "d": "rawconservativeopinions.com",
+        "n": "Raw Conservative Opinions",
+        "P": "0",
+        "r": "M",
+        "u": "raw-conservative-opinions"
+    },
+    "nhregister.com": {
+        "b": "LC",
+        "d": "nhregister.com",
+        "n": "New Haven Register",
+        "P": "0",
+        "r": "H",
+        "u": "new-haven-register"
+    },
+    "wsaz.com": {
+        "b": "C",
+        "d": "wsaz.com",
+        "n": "WSAZ News Channel",
+        "P": "0",
+        "r": "H",
+        "u": "wsaz-news-channel"
+    },
+    "emerging-europe.com": {
+        "b": "LC",
+        "d": "emerging-europe.com",
+        "n": "Emerging Europe",
+        "P": "0",
+        "r": "MF",
+        "u": "emerging-europe"
+    },
+    "shondaland.com": {
+        "b": "L",
+        "d": "shondaland.com",
+        "n": "Shondaland",
+        "P": "0",
+        "r": "MF",
+        "u": "shondaland"
+    },
+    "prevention.com": {
+        "b": "CP",
+        "d": "prevention.com",
+        "n": "Prevention Magazine",
+        "P": "0",
+        "r": "M",
+        "u": "prevention-magazine"
+    },
+    "dailytorch.com": {
+        "b": "R",
+        "d": "http://dailytorch.com",
+        "n": "Daily Torch",
+        "P": "0",
+        "r": "MF",
+        "u": "daily-torch"
+    },
+    "trumptrainnews.com": {
+        "b": "FN",
+        "d": "trumptrainnews.com",
+        "n": "Trump Train News",
+        "P": "0",
+        "r": "M",
+        "u": "trump-train-news"
+    },
+    "coloradosun.com": {
+        "b": "LC",
+        "d": "coloradosun.com",
+        "n": "The Colorado Sun",
+        "P": "0",
+        "r": "H",
+        "u": "the-colorado-sun"
+    },
+    "independentmail.com": {
+        "b": "C",
+        "d": "independentmail.com",
+        "n": "Anderson Independent Mail",
+        "P": "0",
+        "r": "H",
+        "u": "anderson-independent-mail"
+    },
+    "thedispatch.com": {
+        "b": "R",
+        "d": "thedispatch.com",
+        "n": "The Dispatch",
+        "P": "0",
+        "r": "H",
+        "u": "the-dispatch"
+    },
+    "worldometers.info": {
+        "b": "C",
+        "d": "worldometers.info",
+        "n": "Worldometers",
+        "P": "0",
+        "r": "H",
+        "u": "worldometer"
+    },
+    "bustatroll.org": {
+        "b": "S",
+        "d": "bustatroll.org",
+        "n": "Bustatroll.org",
+        "P": "0",
+        "u": "bustatroll-org"
+    },
+    "greenmedinfo.com": {
+        "b": "CP",
+        "d": "greenmedinfo.com",
+        "n": "GreenMedInfo",
+        "P": "0",
+        "r": "L",
+        "u": "greenmedinfo"
+    },
+    "3ccorp.net": {
+        "b": "FN",
+        "d": "3ccorp.net",
+        "n": "3CCorp.net",
+        "P": "0",
+        "r": "L",
+        "u": "3ccorp-net"
+    },
+    "covidtracking.com": {
+        "b": "C",
+        "d": "covidtracking.com",
+        "n": "Covid Tracking Project",
+        "P": "0",
+        "r": "H",
+        "u": "the-covid-tracking-project"
+    },
+    "coronavirus.gov": {
+        "b": "C",
+        "d": "coronavirus.gov",
+        "n": "coronavirus.gov",
+        "P": "0",
+        "r": "H",
+        "u": "coronavirus-gov"
+    },
+    "thecity.nyc": {
+        "b": "LC",
+        "d": "thecity.nyc",
+        "n": "The City",
+        "P": "0",
+        "r": "H",
+        "u": "the-city"
+    },
+    "yc.news": {
+        "b": "FN",
+        "d": "yc.news",
+        "n": "YourContent",
+        "P": "0",
+        "r": "M",
+        "u": "yourcontent"
+    },
+    "buzzsawpolitics.com": {
+        "b": "R",
+        "d": "buzzsawpolitics.com",
+        "n": "Buzzsaw Politics",
+        "P": "0",
+        "r": "MF",
+        "u": "buzzsaw-politics"
+    },
+    "abc12.com": {
+        "b": "C",
+        "d": "abc12.com",
+        "n": "ABC12/WJRT-TV",
+        "P": [],
+        "r": "H",
+        "u": "abc12-news-wjrt"
+    },
+    "toofab.com": {
+        "b": "FN",
+        "d": "toofab.com",
+        "n": "TooFab",
+        "P": [],
+        "r": "M",
+        "u": "toofab"
+    },
+    "conservativepapers.com": {
+        "b": "FN",
+        "d": "conservativepapers.com",
+        "n": "The Conservative Papers",
+        "P": [],
+        "r": "M",
+        "u": "the-conservative-papers"
+    },
+    "disrn.com": {
+        "b": "R",
+        "d": "disrn.com",
+        "n": "Disrn",
+        "P": [],
+        "r": "M",
+        "u": "disrn"
+    },
+    "healio.com": {
+        "b": "PS",
+        "d": "healio.com",
+        "n": "Healio",
+        "P": [],
+        "r": "H",
+        "u": "healio"
+    },
+    "grunge.com": {
+        "b": "FN",
+        "d": "grunge.com",
+        "n": "Grunge.com",
+        "P": [],
+        "r": "M",
+        "u": "grunge"
+    },
+    "thelist.com": {
+        "b": "LC",
+        "d": "thelist.com",
+        "n": "The List",
+        "P": [],
+        "r": "M",
+        "u": "the-list"
+    },
+    "usaisonline.com": {
+        "b": "FN",
+        "d": "usaisonline.com",
+        "n": "USA is Online",
+        "P": [],
+        "u": "usa-is-online"
     }
 }
