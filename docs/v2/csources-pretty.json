@@ -2376,7 +2376,7 @@
         "t": "bpc_bipartisan",
         "n": "Bipartisan Policy Center",
         "P": "47",
-        "r": "H",
+        "r": "MF",
         "u": "bipartisan-policy-center"
     },
     "us.blastingnews.com": {
@@ -7910,6 +7910,14 @@
         "r": "H",
         "u": "global-voices"
     },
+    "ghost.report": {
+        "b": "FN",
+        "d": "ghost.report",
+        "n": "Ghost.Report",
+        "P": "0",
+        "r": "M",
+        "u": "ghost-report"
+    },
     "globalintegrity.org": {
         "b": "C",
         "d": "globalintegrity.org",
@@ -11213,7 +11221,7 @@
         "t": "mackinaccenter",
         "n": "Mackinac Center for Public Policy",
         "P": "94",
-        "r": "H",
+        "r": "MF",
         "u": "mackinac-center-for-public-policy"
     },
     "magapill.com": {
@@ -19118,7 +19126,7 @@
         "t": "guardian",
         "n": "The Guardian",
         "P": "99",
-        "r": "H",
+        "r": "MF",
         "u": "the-guardian"
     },
     "newsite.thehindu.com": {
@@ -26019,5 +26027,29 @@
         "n": "USA is Online",
         "P": [],
         "u": "usa-is-online"
+    },
+    "fox29.com": {
+        "b": "C",
+        "d": "fox29.com",
+        "n": "WTXF-TV Fox 29",
+        "P": [],
+        "r": "H",
+        "u": "wtxf-tv-fox-29"
+    },
+    "insider.com": {
+        "b": "LC",
+        "d": "insider.com",
+        "n": "Insider",
+        "P": [],
+        "r": "H",
+        "u": "insider"
+    },
+    "news9.com": {
+        "b": "C",
+        "d": "news9.com",
+        "n": "KWTV-News9",
+        "P": [],
+        "r": "H",
+        "u": "kwtv-news9"
     }
 }

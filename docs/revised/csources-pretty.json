@@ -3401,7 +3401,7 @@
         "L": "26318",
         "n": "Bipartisan Policy Center",
         "P": "47",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/bipartisan-policy-center/",
         "p": "/"
     },
@@ -11327,6 +11327,18 @@
         "u": "https://mediabiasfactcheck.com/global-voices/",
         "p": "/"
     },
+    "ghost.report": {
+        "b": "fake-news",
+        "d": "ghost.report/",
+        "h": "https://ghost.report/",
+        "M": "0",
+        "L": "0",
+        "n": "Ghost.Report",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/ghost-report/",
+        "p": "/"
+    },
     "globalintegrity.org": {
         "b": "center",
         "d": "globalintegrity.org",
@@ -16053,7 +16065,7 @@
         "L": "4079199",
         "n": "Mackinac Center for Public Policy",
         "P": "94",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/mackinac-center-for-public-policy/",
         "p": "/"
     },
@@ -27386,7 +27398,7 @@
         "L": "8715772",
         "n": "The Guardian",
         "P": "99",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-guardian/",
         "p": "/"
     },
@@ -37426,6 +37438,42 @@
         "n": "USA is Online",
         "P": [],
         "u": "https://mediabiasfactcheck.com/usa-is-online/",
+        "p": "/"
+    },
+    "fox29.com": {
+        "b": "center",
+        "d": "fox29.com",
+        "h": "https://fox29.com",
+        "M": [],
+        "L": [],
+        "n": "WTXF-TV Fox 29",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wtxf-tv-fox-29/",
+        "p": "/"
+    },
+    "insider.com": {
+        "b": "left-center",
+        "d": "insider.com",
+        "h": "https://insider.com",
+        "M": [],
+        "L": [],
+        "n": "Insider",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/insider/",
+        "p": "/"
+    },
+    "news9.com": {
+        "b": "center",
+        "d": "news9.com",
+        "h": "https://news9.com",
+        "M": [],
+        "L": [],
+        "n": "KWTV-News9",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kwtv-news9/",
         "p": "/"
     }
 }
