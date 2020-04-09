@@ -8,24 +8,13 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 import OptionsSync from "webext-options-sync";
-
-const log = require("debug")("ext:options");
-
-const simpleSetup = {
-  defaults: {
-    name: "John Doe",
-    password: "J0hnD03!x4",
-    email: "john.doe@gmail.com",
-    status: true,
-  },
-  migrations: [OptionsSync.migrations.removeUnused],
-  logging: true,
-};
-
-const optionsStorage = new OptionsSync(simpleSetup);
-
+import { DefaultFormOptions, IFormOptions } from "@/utils";
 import VueFormGenerator from "vue-form-generator/dist/vfg-core.js";
 Vue.use(VueFormGenerator);
+
+const MyOptions = new OptionsSync({ defaults: DefaultFormOptions as any });
+
+const log = require("debug")("ext:options");
 
 const baseClasses = {
   styleClasses: "flex items-center mb-6",
@@ -45,10 +34,10 @@ const checkboxClasses = {
 
 @Component
 export default class Options extends Vue {
-  model: any = {};
+  model: IFormOptions = DefaultFormOptions;
 
   async loadOptions(): Promise<any> {
-    const options = await optionsStorage.getAll();
+    const options = await MyOptions.getAll();
     log(`Options retrieved in loadOptions: `, options);
     this.model = options;
     return this.model;
@@ -56,7 +45,7 @@ export default class Options extends Vue {
 
   mounted() {
     log(`Linking to form`);
-    optionsStorage.syncForm("#optionsStorage");
+    MyOptions.syncForm("#optionsStorage");
   }
 
   data() {
@@ -66,53 +55,137 @@ export default class Options extends Vue {
       schema: {
         groups: [
           {
-            legend: "User Details",
+            legend: "Privacy Settings",
             fields: [
               {
-                type: "input",
-                inputType: "text",
-                label: "Name",
-                model: "name",
-                id: "name",
-                inputName: "name",
-                placeholder: "Your name",
-                featured: true,
-                required: true,
-                ...inputClasses,
-              },
-              {
-                type: "input",
-                inputType: "email",
-                label: "E-mail",
-                model: "email",
-                id: "email",
-                inputName: "email",
-                placeholder: "User's e-mail address",
-                ...inputClasses,
-              },
-              {
-                type: "input",
-                inputType: "password",
-                label: "Password",
-                model: "password",
-                inputName: "password",
-                min: 6,
-                required: true,
-                hint: "Minimum 6 characters",
-                validator: "string",
-                ...inputClasses,
+                type: "checkbox",
+                label: "Disable anonymous usage reporting",
+                model: "mbfcAnalytics",
+                inputName: "mbfcAnalytics",
+                default: false,
+                featured: false,
+                hint: `<label> This extension may collect <b>anonymous</b> usage data to help improve the extension. The events are: </label>
+                <ul>
+                  <li class="show-list">Domains that are NOT rated by <a href="https://mediabiasfactcheck.com" target="_blank">Media Bias Fact Check</a>. Highly viewed, unranked sites will be recommended for analysis</li>
+                  <li class="show-list">Site ratings shown, such as LEFT, LEFT-CENTER, LEAST, RIGHT-CENTER, RIGHT</li>
+                  <li class="show-list">Getting more details from <a href="https://mediabiasfactcheck.com" target="_blank">Media Bias Fact Check</a> on a site</li>
+                  <li class="show-list">Searching a site using <a href="https://factualsearch.news" target="_blank">factualsearch.news</a> on a topic</li>
+                  <li class="show-list">Sites that are ignored</li></ul>`,
+                ...checkboxClasses,
               },
             ],
           },
           {
-            legend: "Skills & Status",
+            legend: "Section Collapse",
             fields: [
               {
                 type: "checkbox",
-                label: "Status",
-                model: "status",
-                inputName: "status",
-                default: true,
+                label: "Left Bias",
+                help: "(You should check this)",
+                model: "collapseLeft",
+                inputName: "collapseLeft",
+                default: false,
+                featured: true,
+                hint:
+                  "Left Bias media sources are moderately to strongly biased toward liberal causes through story selection and&#x2F;or political affiliation.  They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage liberal causes. Some sources in this category may be untrustworthy.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Left-Center Bias ",
+                model: "collapseLeftCenter",
+                inputName: "collapseLeftCenter",
+                default: false,
+                hint:
+                  "Left-Center media sources have a slight to moderate liberal bias.  They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor liberal causes.  These sources are generally trustworthy for information, but may require further investigation.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Least Biased ",
+                model: "collapseCenter",
+                inputName: "collapseCenter",
+                default: false,
+                hint:
+                  "Least Biased/Center media sources have minimal bias and use very few loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes).  The reporting is factual and usually sourced.  These are the most credible media sources.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Right-Center Bias ",
+                model: "collapseRightCenter",
+                inputName: "collapseRightCenter",
+                default: false,
+                hint:
+                  "Right-Center media sources are slightly to moderately conservative in bias. They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor conservative causes. These sources are generally trustworthy for information, but may require further investigation.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Right Bias",
+                help: "(You should check this)",
+                model: "collapseRight",
+                inputName: "collapseRight",
+                default: false,
+                featured: true,
+                hint:
+                  "Right Bias media sources are moderately to strongly biased toward conservative causes through story selection and&#x2F;or political affiliation. They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage conservative causes. Some sources in this category may be untrustworthy.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Pro-Science ",
+                model: "collapseProScience",
+                inputName: "collapseProScience",
+                default: false,
+                hint:
+                  "Pro-Science media sources consist of legitimate science or are evidence based through the use of credible scientific sourcing.  Legitimate science follows the scientific method, is unbiased and does not use emotional words.  These sources also respect the consensus of experts in the given scientific field and strive to publish peer reviewed science. Some sources in this category may have a slight political bias, but adhere to scientific principles.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Conspiracy-Pseudoscience",
+                help: "(You should check this)",
+                model: "collapseConspiracy",
+                inputName: "collapseConspiracy",
+                default: false,
+                featured: true,
+                hint:
+                  "Sources in the Conspiracy-Pseudoscience category “may” publish unverifiable information that is “not always” supported by evidence. These sources “may” be untrustworthy for credible&#x2F;verifiable information, therefore fact checking and further investigation is recommended on a per article basis when obtaining information from these sources.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Satire ",
+                model: "collapseSatire",
+                inputName: "collapseSatire",
+                default: false,
+                hint:
+                  "Satire media sources exclusively use humor, irony, exaggeration, or ridicule to expose and criticize people’s stupidity or vices, particularly in the context of contemporary politics and other topical issues. Primarily these sources are clear that they are satire and do not attempt to deceive.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Questionable Sources/Fake News",
+                help: "(You should check this)",
+                model: "collapseFakeNews",
+                inputName: "collapseFakeNews",
+                default: false,
+                featured: true,
+                hint:
+                  "Questionable Sources/Fake News media source exhibits any of the following: extreme bias, overt propaganda, poor or no sourcing to credible information and&#x2F;or is fake news. Fake News is the deliberate attempt to publish hoaxes and&#x2F;or disinformation for the purpose of profit or influence (Learn More). Sources listed in the Questionable Category may be very untrustworthy and should be fact checked on a per article basis.",
+                ...checkboxClasses,
+              },
+              {
+                type: "checkbox",
+                label: "Mixed Factual Reporting",
+                help: "(You should check this)",
+                model: "collapseMixed",
+                inputName: "collapseMixed",
+                default: false,
+                featured: true,
+                hint:
+                  "Mixed Factual Reporting media sources have a track record of publishing false stories, and should be treated used with caution.",
                 ...checkboxClasses,
               },
             ],
@@ -166,7 +239,7 @@ export default class Options extends Vue {
   }
   .field-wrap {
     display: flex;
-    flex: 0 1 300px;
+    flex: 0 1 400px;
     .wrapper {
       width: 100%;
     }
@@ -181,8 +254,15 @@ export default class Options extends Vue {
   }
   .hint {
     flex: 1 1 100%;
-    text-align: right;
+    text-align: justify;
     font-style: italic;
   }
+}
+.form-checkbox {
+  border-color: darkgray;
+}
+.show-list {
+  list-style-type: disc !important;
+  margin-left: 30px;
 }
 </style>

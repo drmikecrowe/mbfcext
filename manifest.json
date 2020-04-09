@@ -1,36 +1,50 @@
 {
+  "short_name": "MBFCext",
   "name": "__MSG_appName__",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "0.0.1",
+  "author": "Mike Crowe",
+  "version": "3.0.0",
+  "version_name": "Release 3.0.0",
   "manifest_version": 2,
-  "icons": {
-    "16": "icons/icon-16.png",
-    "128": "icons/icon-128.png"
-  },
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
   "background": {
     "scripts": ["scripts/background.js"]
   },
-  "permissions": ["alarms", "tabs", "storage", "https://www.yahoo.com/*"],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon128.png",
+    "default_popup": "popup.html",
+    "default_title": "MBFC"
+  },
+  "permissions": [
+    "alarms",
+    "*://facebook.com/*",
+    "*://*.facebook.com/*",
+    "*://twitter.com/*",
+    "*://*.twitter.com/*",
+    "storage",
+    "tabs"
+  ],
   "options_ui": {
     "page": "options.html"
   },
   "content_scripts": [
     {
-      "matches": ["https://www.yahoo.com/*"],
+      "matches": ["*://facebook.com/*", "*://*.facebook.com/*"],
+      "run_at": "document_start",
       "js": ["scripts/contentscript.js"],
-      "css": [],
-      "run_at": "document_end",
-      "all_frames": false
+      "css": ["css/svg-with-js.min.css", "css/facebook.css"]
+    },
+    {
+      "matches": ["*://twitter.com/*", "*://*.twitter.com/*"],
+      "run_at": "document_start",
+      "js": ["scripts/contentscript.js"],
+      "css": ["css/svg-with-js.min.css", "css/twitter.css"]
     }
   ],
-  "browser_action": {
-    "default_icon": {
-      "19": "icons/icon-19.png",
-      "38": "icons/icon-38.png"
-    },
-    "default_title": "Extension Boilerplate",
-    "default_popup": "popup.html"
-  },
-  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  "web_accessible_resources": ["images/*", "css/*", "icons/*"]
 }

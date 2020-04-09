@@ -15,16 +15,9 @@
       "@/*": ["src/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
-    "types": ["chrome", "node"],
+    "types": ["chrome", "node", "google.analytics"],
     "noImplicitAny": false
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "src/**/*.md",
-    "tests/**/*.ts",
-    "tests/**/*.tsx"
-  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.md", "tests/**/*.ts", "tests/**/*.tsx"],
   "exclude": ["node_modules"]
 }

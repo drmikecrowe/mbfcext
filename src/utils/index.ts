@@ -1,6 +1,12 @@
 import { browser } from "webextension-polyfill-ts";
 import get from "lodash/get";
 
+export * from "./options";
+export * from "./sites";
+export * from "./utils";
+export * from "./constants";
+export * from "./filters";
+
 const log = require("debug")("ext:utils");
 
 export async function getSettings(item: string | null = null, deflt: any = {}) {

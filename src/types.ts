@@ -23,7 +23,7 @@ const apis = [
   "tabs",
   "webNavigation",
   "webRequest",
-  "windows"
+  "windows",
 ] as Array<keyof Extension>;
 
 export class Extension {

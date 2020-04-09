@@ -39,6 +39,7 @@ module.exports = merge(webpackConfig, {
       vue$: "vue/dist/vue.esm.js",
     },
   },
+  watch: true,
   devServer: {
     stats: "minimal",
     quiet: true,

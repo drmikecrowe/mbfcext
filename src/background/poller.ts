@@ -29,7 +29,6 @@ export class Poller {
       ext.runtime.onMessage.addListener((request, sender) =>
         Poller.instance.runtimeOnMessage(request, sender)
       );
-      ext.storage.onChanged.addListener(() => Poller.instance.storageOnChanged());
 
       ext.alarms.getAll(alarms => {
         for (let alarm of alarms) {
@@ -85,18 +84,6 @@ export class Poller {
     if (request.type == "refresh") {
       log(`Manual Refresh fired.`);
       return this.startRequest();
-    }
-  }
-
-  async storageOnChanged() {
-    let [minutes, alarmMinutes] = await Promise.all([
-      await getPollMinutes(),
-      await getStorage("alarmMinutes", 0)
-    ]);
-    if (`${minutes}` !== `${alarmMinutes}`) {
-      await this.ext.alarms.clearAll();
-      this.scheduleRequest();
-      this.scheduleWatchdog();
     }
   }
 
