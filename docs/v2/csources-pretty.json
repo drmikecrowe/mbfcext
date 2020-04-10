@@ -8422,9 +8422,9 @@
         "r": "H",
         "u": "guns-com"
     },
-    "en.hawarnews.com": {
+    "en.hawarnews.org": {
         "b": "FN",
-        "d": "en.hawarnews.com",
+        "d": "https://en.hawarnews.org",
         "n": "Hawar News Agancy",
         "P": "36",
         "r": "L",
@@ -26051,5 +26051,21 @@
         "P": [],
         "r": "H",
         "u": "kwtv-news9"
+    },
+    "pjstar.com": {
+        "b": "C",
+        "d": "pjstar.com",
+        "n": "Peoria Journal Star",
+        "P": [],
+        "r": "H",
+        "u": "peoria-journal-star"
+    },
+    "law360.com": {
+        "b": "C",
+        "d": "law360.com",
+        "n": "Law360",
+        "P": [],
+        "r": "H",
+        "u": "law360"
     }
 }

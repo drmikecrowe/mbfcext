@@ -12063,10 +12063,10 @@
         "u": "https://mediabiasfactcheck.com/guns-com/",
         "p": "/"
     },
-    "en.hawarnews.com": {
+    "en.hawarnews.org": {
         "b": "fake-news",
-        "d": "en.hawarnews.com",
-        "h": "https://en.hawarnews.com",
+        "d": "https://en.hawarnews.org/",
+        "h": "https://https://en.hawarnews.org/",
         "M": "41",
         "L": "4643",
         "n": "Hawar News Agancy",
@@ -37474,6 +37474,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/kwtv-news9/",
+        "p": "/"
+    },
+    "pjstar.com": {
+        "b": "center",
+        "d": "pjstar.com",
+        "h": "https://pjstar.com",
+        "M": [],
+        "L": [],
+        "n": "Peoria Journal Star",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/peoria-journal-star/",
+        "p": "/"
+    },
+    "law360.com": {
+        "b": "center",
+        "d": "law360.com",
+        "h": "https://law360.com",
+        "M": [],
+        "L": [],
+        "n": "Law360",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/law360/",
         "p": "/"
     }
 }
