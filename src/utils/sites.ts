@@ -133,7 +133,7 @@ const getCombined = async (): Promise<any> => {
 };
 
 export const cachedGetCombined = cache.function(getCombined, {
-  expiration: 1,
+  maxAge: 1,
   cacheKey: () => "combined",
 });
 

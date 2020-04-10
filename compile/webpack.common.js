@@ -34,7 +34,8 @@ function resolve(dir) {
 const webpackConfig = {
   entry: {
     background: resolve("src/background/index.ts"),
-    contentscript: resolve("src/contentscript/index.ts"),
+    facebook: resolve("src/contentscript/facebook.ts"),
+    twitter: resolve("src/contentscript/twitter.ts"),
     options: [resolve("src/options/index.ts"), resolve(`src/assets/${target}-options.css`)],
     popup: resolve("src/popup/index.ts"),
   },
@@ -117,7 +118,7 @@ const webpackConfig = {
       "process.env": require(`../env/${environment}.env`),
     }),
   ],
-  stats: "minimal"
+  stats: "minimal",
 };
 
 module.exports = {
