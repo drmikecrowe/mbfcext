@@ -5680,7 +5680,7 @@
         "L": "30024580",
         "n": "CNN",
         "P": "100",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/cnn/",
         "p": "/"
     },
@@ -6767,7 +6767,7 @@
         "L": "49262",
         "n": "Crooked Media",
         "P": "54",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/crooked-media/",
         "p": "/"
     },
@@ -11419,6 +11419,18 @@
         "u": "https://mediabiasfactcheck.com/governing-magazine/",
         "p": "/"
     },
+    "gop.com": {
+        "b": "fake-news",
+        "d": "gop.com",
+        "h": "https://gop.com",
+        "M": "0",
+        "L": "0",
+        "n": "Republican National Committee (RNC)",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/gop-com/",
+        "p": "/"
+    },
     "g-a-i.org": {
         "b": "right",
         "d": "g-a-i.org",
@@ -15166,7 +15178,7 @@
         "L": "4931398",
         "n": "Lead Stories",
         "P": "97",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/lead-stories/",
         "p": "/"
     },
@@ -15948,7 +15960,7 @@
         "p": "/"
     },
     "manhattan-institute.org": {
-        "b": "right-center",
+        "b": "right",
         "d": "manhattan-institute.org",
         "f": "https://facebook.com/manhattaninst",
         "t": "https://twitter.com/manhattaninst",
@@ -15957,7 +15969,7 @@
         "L": "161862",
         "n": "Manhattan Institute for Policy Research",
         "P": "69",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/manhattan-institute-for-policy-research/",
         "p": "/"
     },
@@ -17024,7 +17036,7 @@
         "p": "/"
     },
     "montrealgazette.com": {
-        "b": "left-center",
+        "b": "right-center",
         "d": "montrealgazette.com",
         "f": "https://facebook.com/montrealgazette",
         "t": "https://twitter.com/mtlgazette",
@@ -19281,7 +19293,7 @@
         "L": "1232859",
         "n": "NTD.TV (New Tang Dynasty)",
         "P": "90",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/ntd-tv-new-tang-dynasty/",
         "p": "/"
     },
@@ -19657,7 +19669,7 @@
         "p": "/"
     },
     "ocregister.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "ocregister.com",
         "f": "https://facebook.com/ocregister",
         "t": "https://twitter.com/ocregister",
@@ -25515,7 +25527,7 @@
         "p": "/"
     },
     "taiwannews.com.tw": {
-        "b": "center",
+        "b": "left-center",
         "d": "taiwannews.com.tw",
         "f": "https://facebook.com/taiwannews.en",
         "t": "https://twitter.com/taiwannews886",
@@ -25524,7 +25536,7 @@
         "L": "31545",
         "n": "Taiwan News",
         "P": "46",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/taiwan-news/",
         "p": "/"
     },
@@ -32318,7 +32330,7 @@
         "p": "/"
     },
     "washingtontimes.com": {
-        "b": "right-center",
+        "b": "fake-news",
         "d": "washingtontimes.com",
         "f": "https://facebook.com/thewashingtontimes",
         "t": "https://twitter.com/washtimes",
@@ -37498,6 +37510,54 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/law360/",
+        "p": "/"
+    },
+    "viralcocaine.com": {
+        "b": "fake-news",
+        "d": "viralcocaine.com",
+        "h": "https://viralcocaine.com",
+        "M": [],
+        "L": [],
+        "n": "Viral Cocaine",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/viral-cocaine/",
+        "p": "/"
+    },
+    "democrats.org": {
+        "b": "fake-news",
+        "d": "democrats.org",
+        "h": "https://democrats.org",
+        "M": [],
+        "L": [],
+        "n": "Democratic National Committee (DNC)",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/democratic-national-committee-dnc/",
+        "p": "/"
+    },
+    "techstartups.com": {
+        "b": "center",
+        "d": "techstartups.com",
+        "h": "https://techstartups.com",
+        "M": [],
+        "L": [],
+        "n": "TechStartups",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/techstartups/",
+        "p": "/"
+    },
+    "justthenews.com": {
+        "b": "right",
+        "d": "justthenews.com",
+        "h": "https://justthenews.com",
+        "M": [],
+        "L": [],
+        "n": "Just The News",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/just-the-news/",
         "p": "/"
     }
 }

@@ -3976,7 +3976,7 @@
         "t": "cnn",
         "n": "CNN",
         "P": "100",
-        "r": "MF",
+        "r": "M",
         "u": "cnn"
     },
     "cnn.com.de": {
@@ -4731,7 +4731,7 @@
         "t": "crookedmedia",
         "n": "Crooked Media",
         "P": "54",
-        "r": "H",
+        "r": "MF",
         "u": "crooked-media"
     },
     "creationwiki.org": {
@@ -7974,6 +7974,14 @@
         "r": "H",
         "u": "governing-magazine"
     },
+    "gop.com": {
+        "b": "FN",
+        "d": "gop.com",
+        "n": "Republican National Committee (RNC)",
+        "P": "0",
+        "r": "M",
+        "u": "gop-com"
+    },
     "g-a-i.org": {
         "b": "R",
         "d": "g-a-i.org",
@@ -10594,7 +10602,7 @@
         "t": "leadstoriescom",
         "n": "Lead Stories",
         "P": "97",
-        "r": "H",
+        "r": "VH",
         "u": "lead-stories"
     },
     "lexingtoninstitute.org": {
@@ -11145,7 +11153,7 @@
         "t": "manhattaninst",
         "n": "Manhattan Institute for Policy Research",
         "P": "69",
-        "r": "H",
+        "r": "M",
         "u": "manhattan-institute-for-policy-research"
     },
     "maplight.org": {
@@ -11895,7 +11903,7 @@
         "u": "molad-center-renewal-israeli-democracy"
     },
     "montrealgazette.com": {
-        "b": "LC",
+        "b": "R",
         "d": "montrealgazette.com",
         "f": "montrealgazette",
         "t": "mtlgazette",
@@ -13469,7 +13477,7 @@
         "d": "ntd.tv",
         "n": "NTD.TV (New Tang Dynasty)",
         "P": "90",
-        "r": "H",
+        "r": "M",
         "u": "ntd-tv-new-tang-dynasty"
     },
     "northkoreatimes.com": {
@@ -13732,7 +13740,7 @@
         "u": "oneindia"
     },
     "ocregister.com": {
-        "b": "R",
+        "b": "C",
         "d": "ocregister.com",
         "f": "ocregister",
         "t": "ocregister",
@@ -17814,13 +17822,13 @@
         "u": "taipei-times"
     },
     "taiwannews.com.tw": {
-        "b": "C",
+        "b": "LC",
         "d": "taiwannews.com.tw",
         "f": "taiwannews.en",
         "t": "taiwannews886",
         "n": "Taiwan News",
         "P": "46",
-        "r": "H",
+        "r": "MF",
         "u": "taiwan-news"
     },
     "talkingpointsmemo.com": {
@@ -22549,7 +22557,7 @@
         "u": "washington-examiner"
     },
     "washingtontimes.com": {
-        "b": "R",
+        "b": "FN",
         "d": "washingtontimes.com",
         "f": "thewashingtontimes",
         "t": "washtimes",
@@ -26067,5 +26075,37 @@
         "P": [],
         "r": "H",
         "u": "law360"
+    },
+    "viralcocaine.com": {
+        "b": "FN",
+        "d": "viralcocaine.com",
+        "n": "Viral Cocaine",
+        "P": [],
+        "r": "L",
+        "u": "viral-cocaine"
+    },
+    "democrats.org": {
+        "b": "FN",
+        "d": "democrats.org",
+        "n": "Democratic National Committee (DNC)",
+        "P": [],
+        "r": "M",
+        "u": "democratic-national-committee-dnc"
+    },
+    "techstartups.com": {
+        "b": "C",
+        "d": "techstartups.com",
+        "n": "TechStartups",
+        "P": [],
+        "r": "MF",
+        "u": "techstartups"
+    },
+    "justthenews.com": {
+        "b": "R",
+        "d": "justthenews.com",
+        "n": "Just The News",
+        "P": [],
+        "r": "H",
+        "u": "just-the-news"
     }
 }
