@@ -32875,7 +32875,7 @@
         "L": "2365184",
         "n": "WION (World is One News)",
         "P": "90",
-        "r": "MIXED",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/wion-world-one-news/",
         "p": "/"
     },
@@ -37558,6 +37558,18 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/just-the-news/",
+        "p": "/"
+    },
+    "worldhealth.net": {
+        "b": "conspiracy",
+        "d": "worldhealth.net",
+        "h": "https://worldhealth.net",
+        "M": [],
+        "L": [],
+        "n": "WorldHealth.Net",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/worldhealth-net/",
         "p": "/"
     }
 }

@@ -22935,7 +22935,7 @@
         "t": "wionews",
         "n": "WION (World is One News)",
         "P": "90",
-        "r": "M",
+        "r": "MF",
         "u": "wion-world-one-news"
     },
     "whowhatwhy.org": {
@@ -26107,5 +26107,13 @@
         "P": [],
         "r": "H",
         "u": "just-the-news"
+    },
+    "worldhealth.net": {
+        "b": "CP",
+        "d": "worldhealth.net",
+        "n": "WorldHealth.Net",
+        "P": [],
+        "r": "L",
+        "u": "worldhealth-net"
     }
 }
