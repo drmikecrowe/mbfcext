@@ -6,8 +6,8 @@ import { SourcesProcessor } from "./sources";
 import { OptionsProcessor } from "./options";
 import { isDevMode } from "@/utils";
 // import { GoogleAnalytics } from "@/utils/google-analytics";
-// import { MessageProcessor } from "./messages";
-// import { TabProcessor } from "./tabs";
+import { MessageProcessor } from "./messages";
+import { TabProcessor } from "./tabs";
 
 async function polling() {
   // Use this function for periodic background polling
@@ -27,8 +27,8 @@ async function polling() {
   console.log(opt);
   Poller.getInstance(polling);
   // GoogleAnalytics.getInstance();
-  // TabProcessor.getInstance();
-  // MessageProcessor.getInstance();
+  TabProcessor.getInstance();
+  MessageProcessor.getInstance();
 })().catch((err) => {
   console.error(err);
 });

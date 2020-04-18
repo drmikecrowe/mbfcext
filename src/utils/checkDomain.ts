@@ -1,5 +1,5 @@
 export {};
-const log = debug("mbfc:utils:checkDomain");
+const log = require("debug")("mbfc:utils:checkDomain");
 
 import { get } from "lodash";
 import debug from "debug";
@@ -54,7 +54,7 @@ export const checkDomain = (domain: string, path: string, config: IConfig, sourc
     } else if (config.hiddenSites[d] === false) {
       ret.collapse = false;
     }
-    // log(ret);
+    log(ret);
     return !!ret.site;
   };
 
