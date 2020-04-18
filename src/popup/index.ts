@@ -1,3 +1,5 @@
+export {}
+const log = require('debug')('mbfc:popup:index');
 import Vue from "vue";
 
 require("@/utils/config/webextension-polyfill");

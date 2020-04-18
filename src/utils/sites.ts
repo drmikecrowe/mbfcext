@@ -1,7 +1,8 @@
+export {};
+const log = require("debug")("mbfc:utils:sites");
 import storageCache from "webext-storage-cache";
 import { StorageArea } from "@spadin/webextension-storage";
-import { COMBINED } from "./constants";
-import { isDevMode } from "./utils";
+import { isDevMode, COMBINED } from ".";
 import { fetch as fetchPolyfill } from "whatwg-fetch";
 
 import cache from "webext-storage-cache";

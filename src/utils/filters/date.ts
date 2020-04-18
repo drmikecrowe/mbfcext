@@ -1,3 +1,5 @@
+export {}
+const log = require('debug')('mbfc:utils:filters:date');
 import get from "lodash/get";
 
 export default value => {

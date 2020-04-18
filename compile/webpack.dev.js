@@ -9,7 +9,7 @@ const FriendlyErrorsWebpackPlugin = require("friendly-errors-webpack-plugin");
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = merge(webpackConfig, {
-  devtool: "inline-source-map",
+  devtool: "inline-ssource-map",
   mode: "development",
   plugins: [
     new FriendlyErrorsWebpackPlugin(),
@@ -18,6 +18,7 @@ module.exports = merge(webpackConfig, {
       entries: {
         background: "background",
         extensionPage: ["popup", "options"],
+        contentScript: ["facebook", "twitter"],
       },
     }),
     // new DashboardPlugin(),
@@ -25,8 +26,9 @@ module.exports = merge(webpackConfig, {
     // new BundleAnalyzerPlugin()
   ],
   output: {
-    devtoolModuleFilenameTemplate: info => {
+    devtoolModuleFilenameTemplate: (info) => {
       let $filename = "sources://" + info.resourcePath;
+      // console.log(info);
       if ((info.resourcePath.match(/\.vue$/) && !info.query.match(/type=script/)) || `${info.moduleId}` !== ``) {
         $filename = "webpack-generated:///" + info.resourcePath + "?" + info.hash;
       }
@@ -44,6 +46,9 @@ module.exports = merge(webpackConfig, {
     stats: "minimal",
     quiet: true,
     watchContentBase: true,
+    watchOptions: {
+      poll: true,
+    },
     disableHostCheck: true,
   },
 });

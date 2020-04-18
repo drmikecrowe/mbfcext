@@ -1,3 +1,5 @@
+export {}
+const log = require('debug')('mbfc:options:router:routes');
 import Options from "./pages/options.vue";
 import About from "./pages/about.vue";
 import ReleaseNotes from "./pages/release-notes.vue";

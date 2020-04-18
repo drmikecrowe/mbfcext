@@ -1,3 +1,5 @@
+export {}
+const log = require('debug')('mbfc:setup:font-awesome');
 import Vue from "vue";
 
 // ** Include Font Awesome Icons here ** //
