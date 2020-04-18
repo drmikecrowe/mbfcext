@@ -28,7 +28,7 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 import get from "lodash/get";
-import { getStorage, getSettings } from "@/utils";
+import { storage } from "@/utils";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons/faAngleDoubleRight";
@@ -54,7 +54,7 @@ export default class Popup extends Vue {
   }
 
   async updateData() {
-    const [lastRun] = await Promise.all([getStorage("lastRun", 0)]);
+    const lastRun = await storage.lastRun.get();
     if (lastRun) {
       this.lastRun = lastRun;
     }
