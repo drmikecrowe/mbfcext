@@ -97,7 +97,7 @@ export class TabListener {
           this.site = site;
           this.collapse = collapse;
           const bias = b ? sources.biases[b] : null;
-          const reporting = r ? config.reporting[r] : null;
+          const reporting = r ? sources.reporting[r] : null;
           return { site, bias, reporting };
         }
       }

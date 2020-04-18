@@ -5,8 +5,6 @@ import { StorageArea } from "@spadin/webextension-storage";
 import { IConfig } from "@/utils/definitions";
 
 const config: IConfig = {
-  aliases: {},
-  reporting: {},
   hiddenSites: {},
   collapse: {},
   unknown: {},

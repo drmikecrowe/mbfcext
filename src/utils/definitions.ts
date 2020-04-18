@@ -4,13 +4,32 @@ const log = require("debug")("mbfc:utils:definitions");
 export type TDomain = string;
 export type TFacebookUrl = string;
 export type THost = string;
-export type TMozRankUrl = number;
-export type TMozLinks = number;
-export type TMozPopularity = number;
+export type TPopularity = number;
 export type TSource = string;
 export type TReporting = string;
 export type TUrl = string;
 export type TPath = string;
+
+export enum ERporting {
+  HIGH = "H",
+  LOW = "L",
+  MIXED = "M",
+  MOSTLY_FACTUAL = "MF",
+  VERY_HIGH = "VH",
+  VERY_LOW = "VL",
+}
+
+export const enum EBiases {
+  CENTER = "C",
+  CONSPIRACY = "CP",
+  FAKE_NEWS = "FN",
+  LEFT = "L",
+  LEFT_CENTER = "LC",
+  PRO_SCIENCE = "PS",
+  RIGHT = "R",
+  RIGHT_CENTER = "RC",
+  SATIRE = "S",
+}
 
 export interface ISource {
   /**
@@ -74,7 +93,6 @@ export interface IReporting {
 }
 
 export interface IConfig {
-  reporting: Record<string, IReporting>;
   hiddenSites: Record<string, boolean>;
   collapse: any;
   unknown: Record<string, boolean>;
@@ -86,6 +104,7 @@ export interface IConfig {
 export interface ISources {
   sources: Record<string, ISource>;
   aliases: Record<string, string>;
+  reporting: Record<string, IReporting>;
   biases: Record<string, IBias>;
   fb_pages: Record<string, string>;
   tw_pages: Record<string, string>;

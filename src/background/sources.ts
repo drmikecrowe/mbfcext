@@ -10,6 +10,8 @@ export class SourcesProcessor {
   retrievingPromise: Promise<ISources> | undefined;
   sources: ISources = {
     sources: {},
+    aliases: {},
+    reporting: {},
     biases: {},
     fb_pages: {},
     tw_pages: {},
@@ -50,21 +52,24 @@ export class SourcesProcessor {
         self.sources.biases["left-center"] = self.sources.biases["leftcenter"];
       }
       log("Extracting facebook and twitter domains");
-      Object.keys(self.sources).forEach((domain) => {
-        let fb = self.sources[domain].f;
+      Object.keys(self.sources.sources).forEach((domain) => {
+        let fb = self.sources.sources[domain].f;
         if (fb && fb > "") {
+          if (fb.indexOf("?") > -1) fb = fb.split("?")[0];
           if (!fb.endsWith("/")) {
             fb += "/";
           }
           self.sources.fb_pages[fb] = domain;
         }
-        let tw = self.sources[domain].t;
+        let tw = self.sources.sources[domain].t;
         if (tw && tw > "") {
           const matches = /(https?:\/\/twitter.com\/[^\/]*)/.exec(tw);
           if (matches && matches[1]) {
             const href = matches[1].toLowerCase();
             log("HREF: ", href);
             self.sources.tw_pages[href] = domain;
+          } else {
+            self.sources.tw_pages[`https://twitter.com/${tw}`] = domain;
           }
         }
       });

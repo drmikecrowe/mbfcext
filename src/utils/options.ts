@@ -2,7 +2,7 @@ export {};
 const log = require("debug")("mbfc:utils:options");
 
 import OptionsSync from "webext-options-sync";
-import { ERporting, EBiases } from "./sites";
+import { ERporting, EBiases } from "@/utils/definitions";
 
 export interface IFormOptions {
   collapseLeft: boolean;
