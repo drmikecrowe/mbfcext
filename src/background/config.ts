@@ -17,6 +17,10 @@ browser.runtime.onInstalled.addListener(async (details) => {
   });
 });
 
+browser.storage.onChanged.addListener(async (details) => {
+  console.log(details);
+});
+
 export const getConfig = (): Promise<IConfig> => {
   return storage.get();
 };

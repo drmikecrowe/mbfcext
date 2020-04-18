@@ -20,7 +20,11 @@ async function polling() {
 
 (async () => {
   isDevMode();
-  await Promise.all([SourcesProcessor.getInstance().getConfig(), OptionsProcessor.getInstance().getOptions()]);
+  const [src, opt] = await Promise.all([
+    SourcesProcessor.getInstance().getConfig(),
+    OptionsProcessor.getInstance().getOptions(),
+  ]);
+  console.log(opt);
   Poller.getInstance(polling);
   // GoogleAnalytics.getInstance();
   // TabProcessor.getInstance();

@@ -1,4 +1,4 @@
-export {}
+export {};
 const log = require("debug")("mbfc:utils:google-analytics");
 
 import { GA } from "./constants";
@@ -15,6 +15,7 @@ export class GoogleAnalytics {
   static getInstance() {
     if (!GoogleAnalytics.instance) {
       GoogleAnalytics.instance = new GoogleAnalytics();
+      log("GoogleAnalytics initialized");
       galite("create", GA, "auto");
     }
     return GoogleAnalytics.instance;

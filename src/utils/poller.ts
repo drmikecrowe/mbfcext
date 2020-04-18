@@ -17,6 +17,7 @@ export class Poller {
   static getInstance(pollFn?: Function) {
     if (!Poller.instance) {
       Poller.instance = new Poller();
+      log("Poller initialized");
       Poller.instance.pollFunction = pollFn;
 
       browser.runtime.onInstalled.addListener(() => Poller.instance.runtimeOnInstalled());

@@ -22,6 +22,7 @@ export class SourcesProcessor {
   static getInstance() {
     if (!SourcesProcessor.instance) {
       SourcesProcessor.instance = new SourcesProcessor();
+      log("SourcesProcessor initialized");
     }
     return SourcesProcessor.instance;
   }

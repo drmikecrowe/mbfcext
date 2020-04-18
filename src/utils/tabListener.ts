@@ -76,6 +76,7 @@ export class TabListener {
   static getInstance() {
     if (!TabListener.instance) {
       TabListener.instance = new TabListener();
+      log("TabListener initialized");
     }
     return TabListener.instance;
   }

@@ -13,6 +13,7 @@ export class OptionsProcessor {
   static getInstance() {
     if (!OptionsProcessor.instance) {
       OptionsProcessor.instance = new OptionsProcessor();
+      log("OptionsProcessor initialized");
       // ... any one time initialization goes here ...
     }
     return OptionsProcessor.instance;
