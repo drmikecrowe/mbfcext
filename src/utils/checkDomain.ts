@@ -60,7 +60,7 @@ export const checkDomain = (domain: string, path: string, config: IConfig, sourc
 
   if (_check(`${domain}${path}`, false, false)) return ret;
   if (_check(domain, false, false)) return ret;
-  if (_check(config.aliases[domain], true, false)) return ret;
+  if (_check(sources.aliases[domain], true, false)) return ret;
   var elements = domain.split(".");
   var next_domain = elements.pop();
   next_domain = elements.pop() + "." + next_domain;

@@ -74,7 +74,6 @@ export interface IReporting {
 }
 
 export interface IConfig {
-  aliases: Record<string, string>;
   reporting: Record<string, IReporting>;
   hiddenSites: Record<string, boolean>;
   collapse: any;
@@ -86,6 +85,7 @@ export interface IConfig {
 
 export interface ISources {
   sources: Record<string, ISource>;
+  aliases: Record<string, string>;
   biases: Record<string, IBias>;
   fb_pages: Record<string, string>;
   tw_pages: Record<string, string>;

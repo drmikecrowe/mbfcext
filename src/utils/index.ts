@@ -18,7 +18,7 @@ export async function getPollMinutes(): Promise<number> {
 export const isDevMode = (): boolean => {
   const devMode = !browser.runtime || !("update_url" in browser.runtime.getManifest());
   if (devMode) {
-    localStorage.debug = "ext*";
+    localStorage.debug = "mbfc:*";
   }
   return devMode;
 };

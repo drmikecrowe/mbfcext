@@ -1,5 +1,6 @@
-export {}
-const log = require('debug')('mbfc:options:index');
+export {};
+const log = require("debug")("mbfc:options:index");
+
 import Vue from "vue";
 
 require("@/setup/webextension-polyfill");
@@ -19,5 +20,5 @@ Vue.component("app", App);
 new Vue({
   el: "#app",
   router,
-  render: h => h(App),
+  render: (h) => h(App),
 });

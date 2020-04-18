@@ -4,6 +4,7 @@ const log = require("debug")("mbfc:background:sources");
 import { fetch as fetchPolyfill } from "whatwg-fetch";
 import { ISources } from "@/utils/definitions";
 import { COMBINED } from "@/utils";
+import { keys } from "lodash";
 
 export class SourcesProcessor {
   retrievingPromise: Promise<ISources> | undefined;
@@ -24,7 +25,7 @@ export class SourcesProcessor {
   }
 
   async getConfig(): Promise<ISources> {
-    if (this.sources.loaded) return this.sources;
+    if (this.isConfigLoaded()) return this.sources;
     if (!this.retrievingPromise) this.retrievingPromise = this.retrieveRemote();
     return this.retrievingPromise;
   }
@@ -42,8 +43,8 @@ export class SourcesProcessor {
       if (!combined) return self.sources;
       log("Settings retrieved, processing");
       Object.keys(combined).forEach((key) => {
-        log(`Retrieved ${key}: `, combined[key]);
-        //Object.assign(self.sources[key], combined[key])
+        log(`Retrieved ${key} with ${keys(combined[key]).length} entries`);
+        Object.assign(self.sources[key], combined[key]);
       });
       if (!self.sources.biases["left-center"]) {
         self.sources.biases["left-center"] = self.sources.biases["leftcenter"];
