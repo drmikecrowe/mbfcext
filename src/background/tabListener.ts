@@ -2,17 +2,22 @@ export {};
 const log = require("debug")("mbfc:utils:tabListener");
 
 import { words, capitalize } from "lodash";
-import { getDomain } from "./getDomain";
-import { checkDomain } from "./checkDomain";
-import { ISource, IBias, IReporting } from "./definitions";
+import { getDomain } from "../utils/getDomain";
+import { checkDomain } from "../utils/checkDomain";
+import { ISource, IBias, IReporting } from "../utils/definitions";
 import { getConfig } from "@/background/config";
 import { SourcesProcessor } from "@/background/sources";
 import { browser } from "webextension-polyfill-ts";
+import { ShowSiteMessage } from "../utils/messages";
+import { MessageProcessor } from "./messages";
 
 interface IDetails {
   site: ISource | null;
   bias: IBias | null;
   reporting: IReporting | null;
+  isAlias: boolean | null;
+  isBase: boolean | null;
+  collapsed: boolean | null;
 }
 
 const colorMap = {
@@ -72,6 +77,7 @@ export class TabListener {
   private icon: string | undefined;
   private site;
   private lastTab;
+  private messagePort;
 
   static getInstance() {
     if (!TabListener.instance) {
@@ -82,7 +88,7 @@ export class TabListener {
   }
 
   async details(tab): Promise<IDetails> {
-    const none = { site: null, bias: null, reporting: null };
+    const none = { site: null, bias: null, reporting: null, isAlias: false, isBase: false, collapsed: false };
     const [config, sources] = await Promise.all([getConfig(), SourcesProcessor.getInstance().getConfig()]);
     const { domain, path } = getDomain(tab.url);
     if (domain) {
@@ -99,7 +105,14 @@ export class TabListener {
           this.collapse = collapse;
           const bias = b ? sources.biases[b] : null;
           const reporting = r ? sources.reporting[r] : null;
-          return { site, bias, reporting };
+          return {
+            site,
+            bias,
+            reporting,
+            isAlias: parsed_domain.alias,
+            isBase: parsed_domain.baseUrl,
+            collapsed: collapse,
+          };
         }
       }
     }
@@ -129,7 +142,7 @@ export class TabListener {
     log(`Listener activated for tab: `, tab.url, tab.active);
     if (tab.url !== undefined && tab.active) {
       (async () => {
-        const { site } = await this.details(tab);
+        const { site, isAlias, isBase, collapsed } = await this.details(tab);
         let icon;
         if (this.interval) clearInterval(this.interval);
         this.interval = undefined;
@@ -140,8 +153,10 @@ export class TabListener {
             icon = undefined;
           }
         }
-        if (icon) {
+        if (icon && site) {
           this.lastTab = tab.id;
+          const msg = new ShowSiteMessage(site, !!isAlias, !!isBase, !!collapsed);
+          MessageProcessor.getInstance().processMessage(msg);
           log(`Icon: ${icon}`);
           this.icon = icon;
           this.site = site;

@@ -1,34 +1,22 @@
 const log = require("debug")("mbfc:utils:messages:StartThanksMessage");
-import debug from "debug";
-import { isDevMode } from "@/utils/utils";
-import { HandlerCallbackType, IEmptyMessageRequest } from ".";
-import { browser } from "webextension-polyfill-ts";
 
-isDevMode();
+import { get } from "lodash-es";
+import { ISource } from "@/utils/definitions";
 
-const StartThanksMessageMethod = "StartThanks";
+const StartThanksMessageMethod = "StartThanksMessage";
+
+export type HandlerStartThanksCallback = (response: StartThanksMessage) => void;
 
 export class StartThanksMessage {
-  constructor(fn: HandlerCallbackType) {
-    log(`Initializing ${StartThanksMessageMethod}`);
-    browser.runtime.onMessage.addListener(async (request: IEmptyMessageRequest, sender) => {
-      if (request.method === StartThanksMessageMethod) {
-        log(`Received ${StartThanksMessageMethod}Message`);
-        const result: any = await fn(request);
-        return result;
-      }
-    });
+  public method = StartThanksMessageMethod;
+
+  static check(request: any, fn: HandlerStartThanksCallback) {
+    if (get(request, "method") === StartThanksMessageMethod) {
+      return fn(request);
+    }
   }
 
-  static async SendMessage(): Promise<void> {
-    try {
-      log(`Sending $1`);
-      const params: IEmptyMessageRequest = {
-        method: StartThanksMessageMethod,
-      };
-      return new Promise((resolve) => browser.runtime.sendMessage(params, resolve));
-    } catch (err) {
-      console.log(err);
-    }
+  constructor() {
+    this.method = StartThanksMessageMethod;
   }
 }

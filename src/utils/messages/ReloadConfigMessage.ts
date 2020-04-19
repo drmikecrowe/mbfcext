@@ -1,34 +1,22 @@
 const log = require("debug")("mbfc:utils:messages:ReloadConfigMessage");
-import debug from "debug";
-import { isDevMode } from "@/utils/utils";
-import { HandlerCallbackType, IEmptyMessageRequest } from ".";
-import { browser } from "webextension-polyfill-ts";
 
-isDevMode();
+import { get } from "lodash-es";
+import { ISource } from "@/utils/definitions";
 
-const ReloadConfigMessageMethod = "ReloadConfig";
+const ReloadConfigMessageMethod = "ReloadConfigMessage";
+
+export type HandlerReloadConfigCallback = (response: ReloadConfigMessage) => void;
 
 export class ReloadConfigMessage {
-  constructor(fn: HandlerCallbackType) {
-    log(`Initializing ${ReloadConfigMessageMethod}`);
-    browser.runtime.onMessage.addListener(async (request: IEmptyMessageRequest, sender) => {
-      if (request.method === ReloadConfigMessageMethod) {
-        log(`Received ${ReloadConfigMessageMethod}Message`);
-        const result: any = await fn(request);
-        return result;
-      }
-    });
+  public method = ReloadConfigMessageMethod;
+
+  static check(request: any, fn: HandlerReloadConfigCallback) {
+    if (get(request, "method") === ReloadConfigMessageMethod) {
+      return fn(request);
+    }
   }
 
-  static async SendMessage(): Promise<void> {
-    try {
-      log(`Sending $1`);
-      const params: IEmptyMessageRequest = {
-        method: ReloadConfigMessageMethod,
-      };
-      return new Promise((resolve) => browser.runtime.sendMessage(params, resolve));
-    } catch (err) {
-      console.log(err);
-    }
+  constructor() {
+    this.method = ReloadConfigMessageMethod;
   }
 }

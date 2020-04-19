@@ -1,7 +1,7 @@
 const log = require("debug")("mbfc:background:tabs");
-import { TabListener } from "@/utils/tabListener";
+import { TabListener } from "./tabListener";
 import { getCurrentTab } from "@/utils/getCurrentTab";
-import browser from "webextension-polyfill";
+import { browser } from "webextension-polyfill-ts";
 
 export class TabProcessor {
   private static instance: TabProcessor;
@@ -19,9 +19,10 @@ export class TabProcessor {
       });
 
       log(`Initializing onActivated for tab listener`);
-      browser.tabs.onActivated.addListener((ids) => {
+      browser.tabs.onActivated.addListener(async (ids) => {
         log(`Activating tab listener for tab ${ids.tabId}`);
-        browser.tabs.get(ids.tabId, tabListener.listen);
+        let tab = await browser.tabs.get(ids.tabId);
+        tabListener.listen(tab);
       });
 
       let lastTabId: number | undefined = undefined;

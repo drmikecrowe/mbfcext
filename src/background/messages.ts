@@ -12,71 +12,78 @@ import {
   ReportUnknownMessage,
   AssociateSiteMessage,
   ShowSiteMessage,
-  IReportUnknownRequest,
-  IAssociateSiteRequest,
-  IShowSiteRequest,
-  IHideSiteRequest,
+  IEmptyMessageRequest,
 } from "@/utils/messages";
 import { SourcesProcessor } from "./sources";
 import { GoogleAnalytics } from "@/utils/google-analytics";
 
 export class MessageProcessor {
   private static instance: MessageProcessor;
+  portFromCS: any;
+
   private constructor() {
-    // do something construct...
+    browser.runtime.onConnect.addListener(this.connected);
   }
+
   static getInstance() {
     if (!MessageProcessor.instance) {
       MessageProcessor.instance = new MessageProcessor();
       log("MessageProcessor initialized");
-
-      new GetConfigMessage(async (message: any) => {
-        return await storage.get();
-      });
-
-      new ResetIgnoredMessage(async (message: any) => {
-        await resetIgnored();
-      });
-
-      new ReloadConfigMessage(async (message: any) => {
-        await SourcesProcessor.getInstance().retrieveRemote();
-      });
-
-      new ShowOptionsMessage((message: any) => {
-        browser.runtime.openOptionsPage();
-      });
-
-      new StartThanksMessage((message: any) => {
-        GoogleAnalytics.getInstance().report("thanks", "shown");
-        // TODO
-      });
-
-      new ReportUnknownMessage((request: IReportUnknownRequest) => {
-        GoogleAnalytics.getInstance().reportUnknown(request.domain);
-      });
-
-      new AssociateSiteMessage((request: IAssociateSiteRequest) => {
-        GoogleAnalytics.getInstance().report("associatedSite", request.source.u, request.fb_url);
-      });
-
-      new ShowSiteMessage((request: IShowSiteRequest) => {
-        GoogleAnalytics.getInstance().reportSite(request.source, request.isAlias, request.isBase, request.isCollapsed);
-      });
-
-      new HideSiteMessage(async (request: IHideSiteRequest) => {
-        const hiddenSites = await storage.hiddenSites.get();
-        hiddenSites[request.domain] = !hiddenSites[request.domain];
-        const action = hiddenSites[request.domain] ? "hide" : "show";
-        GoogleAnalytics.getInstance().report(action, "site", request.domain);
-        await storage.hiddenSites.set(hiddenSites);
-
-        // TODO: How do we do this now?
-        // chromep.storage.local.set({ mbfchidden: config.hiddenSites }).then(function () {
-        //   log("Resetting hidden to: ", config.hiddenSites);
-        // });
-        // return config.hiddenSites[request.domain];
-      });
     }
     return MessageProcessor.instance;
+  }
+
+  connected(p) {
+    log(`MessageProcessor connected: `, p);
+    this.portFromCS = p;
+    this.portFromCS.onMessage.addListener((m: any) => {
+      log("In background script, received message from content script");
+      MessageProcessor.getInstance().processMessage(m);
+    });
+  }
+
+  processMessage(request: any) {
+    GetConfigMessage.check(request, async (response) => {
+      return await storage.get();
+    });
+    ResetIgnoredMessage.check(request, async (response) => {
+      await resetIgnored();
+    });
+    ReloadConfigMessage.check(request, async (response) => {
+      await SourcesProcessor.getInstance().retrieveRemote();
+    });
+    ShowOptionsMessage.check(request, (response) => {
+      browser.runtime.openOptionsPage();
+    });
+    StartThanksMessage.check(request, (response) => {
+      GoogleAnalytics.getInstance().report("thanks", "shown");
+      // TODO
+    });
+    ReportUnknownMessage.check(request, (response) => {
+      GoogleAnalytics.getInstance().reportUnknown(request.domain);
+    });
+    AssociateSiteMessage.check(request, (response) => {
+      GoogleAnalytics.getInstance().report("associatedSite", request.source.u, request.fb_url);
+    });
+    HideSiteMessage.check(request, async (response) => {
+      const hiddenSites = await storage.hiddenSites.get();
+      hiddenSites[request.domain] = !hiddenSites[request.domain];
+      const action = hiddenSites[request.domain] ? "hide" : "show";
+      GoogleAnalytics.getInstance().report(action, "site", request.domain);
+      await storage.hiddenSites.set(hiddenSites);
+      // TODO: How do we do this now?
+      // chromep.storage.local.set({ mbfchidden: config.hiddenSites }).then(function () {
+      //   log("Resetting hidden to: ", config.hiddenSites);
+      // });
+      // return config.hiddenSites[request.domain];
+    });
+    ShowSiteMessage.check(request, (response) => {
+      GoogleAnalytics.getInstance().reportSite(
+        response.source,
+        response.isAlias,
+        response.isBase,
+        response.isCollapsed,
+      );
+    });
   }
 }

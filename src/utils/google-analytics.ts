@@ -50,12 +50,11 @@ export class GoogleAnalytics {
 
   reportSite(source: ISource, isAlias: boolean, isBase: boolean, isCollapsed: boolean, isOmnibar?: boolean) {
     if (!source) return;
-    if (ga) {
-      ga("set", "isAlias", !!isAlias);
-      ga("set", "isBase", !!isBase);
-      ga("set", "collapsed", !!isCollapsed);
-      ga("set", "omnibar", !!isOmnibar);
-    }
+
+    this.report("set", "isAlias", !!isAlias);
+    this.report("set", "isBase", !!isBase);
+    this.report("set", "collapsed", !!isCollapsed);
+    this.report("set", "omnibar", !!isOmnibar);
     this.report("site", "shown", source.d);
     this.report("bias", "shown", source.b);
   }
