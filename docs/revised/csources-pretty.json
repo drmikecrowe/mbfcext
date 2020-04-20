@@ -12825,6 +12825,18 @@
         "u": "https://mediabiasfactcheck.com/honolulu-star-advertiser/",
         "p": "/"
     },
+    "ihavethetruth.com": {
+        "b": "fake-news",
+        "d": "ihavethetruth.com/",
+        "h": "https://ihavethetruth.com/",
+        "M": "0",
+        "L": "0",
+        "n": "I have the Truth",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/i-have-the-truth/",
+        "p": "/"
+    },
     "humanium.org": {
         "b": "left-center",
         "d": "humanium.org",
@@ -16115,6 +16127,18 @@
         "P": "24",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/maga-daily-report/",
+        "p": "/"
+    },
+    "malaysia-today.net": {
+        "b": "right-center",
+        "d": "malaysia-today.net",
+        "h": "https://malaysia-today.net",
+        "M": "0",
+        "L": "0",
+        "n": "Malaysia Today",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/malaysia-today/",
         "p": "/"
     },
     "mediatrackers.org": {
@@ -20129,7 +20153,7 @@
         "L": "125062",
         "n": "Pacific Research Institute",
         "P": "66",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/pacific-research-institute/",
         "p": "/"
     },
@@ -37570,6 +37594,78 @@
         "P": [],
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/worldhealth-net/",
+        "p": "/"
+    },
+    "thespectator.info": {
+        "b": "fake-news",
+        "d": "thespectator.info",
+        "h": "https://thespectator.info",
+        "M": [],
+        "L": [],
+        "n": "TheSpectator.info",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/thespectator-info/",
+        "p": "/"
+    },
+    "inc.com": {
+        "b": "center",
+        "d": "inc.com",
+        "h": "https://inc.com",
+        "M": [],
+        "L": [],
+        "n": "Inc. Magazine",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/inc-magazine/",
+        "p": "/"
+    },
+    "indexmundi.com": {
+        "b": "center",
+        "d": "indexmundi.com",
+        "h": "https://indexmundi.com",
+        "M": [],
+        "L": [],
+        "n": "IndexMundi",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/indexmundi/",
+        "p": "/"
+    },
+    "flagandcross.com": {
+        "b": "fake-news",
+        "d": "flagandcross.com",
+        "h": "https://flagandcross.com",
+        "M": [],
+        "L": [],
+        "n": "Flag & Cross",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/flag-cross/",
+        "p": "/"
+    },
+    "healthfeedback.org": {
+        "b": "pro-science",
+        "d": "healthfeedback.org",
+        "h": "https://healthfeedback.org",
+        "M": [],
+        "L": [],
+        "n": "Health Feedback",
+        "P": [],
+        "r": "VERY HIGH",
+        "u": "https://mediabiasfactcheck.com/health-feedback/",
+        "p": "/"
+    },
+    "sciencefeedback.co": {
+        "b": "pro-science",
+        "d": "sciencefeedback.co",
+        "h": "https://sciencefeedback.co",
+        "M": [],
+        "L": [],
+        "n": "Science Feedback",
+        "P": [],
+        "r": "VERY HIGH",
+        "u": "https://mediabiasfactcheck.com/science-feedback/",
         "p": "/"
     }
 }

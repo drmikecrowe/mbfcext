@@ -8956,6 +8956,14 @@
         "r": "H",
         "u": "honolulu-star-advertiser"
     },
+    "ihavethetruth.com": {
+        "b": "FN",
+        "d": "ihavethetruth.com",
+        "n": "I have the Truth",
+        "P": "0",
+        "r": "L",
+        "u": "i-have-the-truth"
+    },
     "humanium.org": {
         "b": "LC",
         "d": "humanium.org",
@@ -11255,6 +11263,14 @@
         "P": "24",
         "r": "M",
         "u": "maga-daily-report"
+    },
+    "malaysia-today.net": {
+        "b": "R",
+        "d": "malaysia-today.net",
+        "n": "Malaysia Today",
+        "P": "0",
+        "r": "M",
+        "u": "malaysia-today"
     },
     "mediatrackers.org": {
         "b": "R",
@@ -14061,7 +14077,7 @@
         "f": "none",
         "n": "Pacific Research Institute",
         "P": "66",
-        "r": "H",
+        "r": "M",
         "u": "pacific-research-institute"
     },
     "patch.com": {
@@ -26115,5 +26131,53 @@
         "P": [],
         "r": "L",
         "u": "worldhealth-net"
+    },
+    "thespectator.info": {
+        "b": "FN",
+        "d": "thespectator.info",
+        "n": "TheSpectator.info",
+        "P": [],
+        "r": "VL",
+        "u": "thespectator-info"
+    },
+    "inc.com": {
+        "b": "C",
+        "d": "inc.com",
+        "n": "Inc. Magazine",
+        "P": [],
+        "r": "H",
+        "u": "inc-magazine"
+    },
+    "indexmundi.com": {
+        "b": "C",
+        "d": "indexmundi.com",
+        "n": "IndexMundi",
+        "P": [],
+        "r": "H",
+        "u": "indexmundi"
+    },
+    "flagandcross.com": {
+        "b": "FN",
+        "d": "flagandcross.com",
+        "n": "Flag & Cross",
+        "P": [],
+        "r": "M",
+        "u": "flag-cross"
+    },
+    "healthfeedback.org": {
+        "b": "PS",
+        "d": "healthfeedback.org",
+        "n": "Health Feedback",
+        "P": [],
+        "r": "VH",
+        "u": "health-feedback"
+    },
+    "sciencefeedback.co": {
+        "b": "PS",
+        "d": "sciencefeedback.co",
+        "n": "Science Feedback",
+        "P": [],
+        "r": "VH",
+        "u": "science-feedback"
     }
 }
