@@ -13512,7 +13512,7 @@
         "t": "npr",
         "n": "NPR",
         "P": "99",
-        "r": "H",
+        "r": "VH",
         "u": "npr"
     },
     "npcdaily.com": {
@@ -26179,5 +26179,21 @@
         "P": [],
         "r": "VH",
         "u": "science-feedback"
+    },
+    "9news.com": {
+        "b": "C",
+        "d": "9news.com",
+        "n": "9News - KUSA",
+        "P": [],
+        "r": "H",
+        "u": "9news-kusa"
+    },
+    "news-herald.com": {
+        "b": "R",
+        "d": "news-herald.com",
+        "n": "Willoughby News-Herald",
+        "P": [],
+        "r": "H",
+        "u": "willoughby-news-herald"
     }
 }

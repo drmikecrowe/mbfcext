@@ -19344,7 +19344,7 @@
         "L": "10213049",
         "n": "NPR",
         "P": "99",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/npr/",
         "p": "/"
     },
@@ -37666,6 +37666,30 @@
         "P": [],
         "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/science-feedback/",
+        "p": "/"
+    },
+    "9news.com": {
+        "b": "center",
+        "d": "9news.com",
+        "h": "https://9news.com",
+        "M": [],
+        "L": [],
+        "n": "9News - KUSA",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/9news-kusa/",
+        "p": "/"
+    },
+    "news-herald.com": {
+        "b": "right-center",
+        "d": "news-herald.com",
+        "h": "https://news-herald.com",
+        "M": [],
+        "L": [],
+        "n": "Willoughby News-Herald",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/willoughby-news-herald/",
         "p": "/"
     }
 }
