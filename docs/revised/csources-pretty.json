@@ -13246,7 +13246,7 @@
         "L": "52315",
         "n": "Independent Women's Forum",
         "P": "42",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/independent-womens-forum-iwf/",
         "p": "/"
     },
@@ -27467,7 +27467,7 @@
         "p": "/"
     },
     "thehill.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "thehill.com",
         "f": "https://facebook.com/thehill",
         "t": "https://twitter.com/thehill",
@@ -37690,6 +37690,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/willoughby-news-herald/",
+        "p": "/"
+    },
+    "healthyandnaturalworld.com": {
+        "b": "conspiracy",
+        "d": "healthyandnaturalworld.com",
+        "h": "https://healthyandnaturalworld.com",
+        "M": [],
+        "L": [],
+        "n": "Healthy and Natural World",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/healthy-and-natural-world/",
+        "p": "/"
+    },
+    "nwfdailynews.com": {
+        "b": "center",
+        "d": "nwfdailynews.com",
+        "h": "https://nwfdailynews.com",
+        "M": [],
+        "L": [],
+        "n": "Northwest Florida Daily News",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/northwest-florida-daily-news/",
         "p": "/"
     }
 }

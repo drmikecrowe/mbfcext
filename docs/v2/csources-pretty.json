@@ -9250,7 +9250,7 @@
         "t": "iwf",
         "n": "Independent Women's Forum",
         "P": "42",
-        "r": "H",
+        "r": "MF",
         "u": "independent-womens-forum-iwf"
     },
     "influencewatch.org": {
@@ -19174,7 +19174,7 @@
         "u": "the-globe-and-mail"
     },
     "thehill.com": {
-        "b": "R",
+        "b": "C",
         "d": "thehill.com",
         "f": "thehill",
         "t": "thehill",
@@ -26195,5 +26195,21 @@
         "P": [],
         "r": "H",
         "u": "willoughby-news-herald"
+    },
+    "healthyandnaturalworld.com": {
+        "b": "CP",
+        "d": "healthyandnaturalworld.com",
+        "n": "Healthy and Natural World",
+        "P": [],
+        "r": "M",
+        "u": "healthy-and-natural-world"
+    },
+    "nwfdailynews.com": {
+        "b": "C",
+        "d": "nwfdailynews.com",
+        "n": "Northwest Florida Daily News",
+        "P": [],
+        "r": "H",
+        "u": "northwest-florida-daily-news"
     }
 }
