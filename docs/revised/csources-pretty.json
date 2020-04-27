@@ -12717,18 +12717,16 @@
         "p": "/"
     },
     "hoover.org": {
-        "b": "right-center",
-        "d": "hoover.org",
-        "f": "https://facebook.com/hooverinststanford",
-        "t": "https://twitter.com/hooverinst",
-        "h": "https://hoover.org",
-        "M": "61",
-        "L": "284742",
-        "n": "Hoover Institution",
-        "P": "75",
+        "b": "right",
+        "d": "http://www.hoover.org/publications/policy-review",
+        "h": "https://http://www.hoover.org/publications/policy-review",
+        "M": "0",
+        "L": "0",
+        "n": "Policy Review",
+        "P": "0",
         "r": "HIGH",
-        "u": "https://mediabiasfactcheck.com/hoover-institution/",
-        "p": "/"
+        "u": "https://mediabiasfactcheck.com/policy-review/",
+        "p": "/publications/policy-review"
     },
     "honestreporting.com": {
         "b": "right-center",
@@ -21267,7 +21265,7 @@
         "p": "/"
     },
     "private-eye.co.uk": {
-        "b": "satire",
+        "b": "left-center",
         "d": "private-eye.co.uk",
         "f": "https://facebook.com/privateeyenews",
         "t": "https://twitter.com/privateeyenews",
@@ -21276,6 +21274,7 @@
         "L": "315003",
         "n": "Private Eye",
         "P": "65",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/private-eye/",
         "p": "/"
     },
@@ -22062,7 +22061,7 @@
         "L": "190441",
         "n": "Real Clear Defense",
         "P": "68",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/real-clear-defense/",
         "p": "/"
     },
@@ -22635,7 +22634,7 @@
         "L": "450329",
         "n": "Rense",
         "P": "80",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/rense/",
         "p": "/"
     },
@@ -22938,6 +22937,18 @@
         "P": "43",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/revolution-news/",
+        "p": "/"
+    },
+    "richmond.com": {
+        "b": "right-center",
+        "d": "richmond.com",
+        "h": "https://richmond.com",
+        "M": "0",
+        "L": "0",
+        "n": "Richmond Times-Dispatch",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/richmond-times-dispatch/",
         "p": "/"
     },
     "rewire.news": {
@@ -37714,6 +37725,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/northwest-florida-daily-news/",
+        "p": "/"
+    },
+    "childrenshealthdefense.org": {
+        "b": "conspiracy",
+        "d": "childrenshealthdefense.org",
+        "h": "https://childrenshealthdefense.org",
+        "M": [],
+        "L": [],
+        "n": "Children's Health Defense",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/childrens-health-defense/",
+        "p": "/"
+    },
+    "zdnet.com": {
+        "b": "center",
+        "d": "zdnet.com",
+        "h": "https://zdnet.com",
+        "M": [],
+        "L": [],
+        "n": "ZDNet",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/zdnet/",
         "p": "/"
     }
 }

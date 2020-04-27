@@ -8881,13 +8881,12 @@
     },
     "hoover.org": {
         "b": "R",
-        "d": "hoover.org",
-        "f": "hooverinststanford",
-        "t": "hooverinst",
-        "n": "Hoover Institution",
-        "P": "75",
+        "d": "http://www.hoover.org/publications/policy-review",
+        "n": "Policy Review",
+        "P": "0",
         "r": "H",
-        "u": "hoover-institution"
+        "u": "policy-review",
+        "p": "/publications/policy-review"
     },
     "honestreporting.com": {
         "b": "R",
@@ -14854,12 +14853,13 @@
         "u": "pravda-report"
     },
     "private-eye.co.uk": {
-        "b": "S",
+        "b": "LC",
         "d": "private-eye.co.uk",
         "f": "privateeyenews",
         "t": "privateeyenews",
         "n": "Private Eye",
         "P": "65",
+        "r": "M",
         "u": "private-eye"
     },
     "presstv.com": {
@@ -15406,7 +15406,7 @@
         "t": "rcdefense",
         "n": "Real Clear Defense",
         "P": "68",
-        "r": "H",
+        "r": "MF",
         "u": "real-clear-defense"
     },
     "readersupportednews.org": {
@@ -15803,7 +15803,7 @@
         "f": "crimnaljoetalk100",
         "n": "Rense",
         "P": "80",
-        "r": "L",
+        "r": "VL",
         "u": "rense"
     },
     "renewamerica.com": {
@@ -16014,6 +16014,14 @@
         "P": "43",
         "r": "H",
         "u": "revolution-news"
+    },
+    "richmond.com": {
+        "b": "R",
+        "d": "richmond.com",
+        "n": "Richmond Times-Dispatch",
+        "P": "0",
+        "r": "H",
+        "u": "richmond-times-dispatch"
     },
     "rewire.news": {
         "b": "L",
@@ -26211,5 +26219,21 @@
         "P": [],
         "r": "H",
         "u": "northwest-florida-daily-news"
+    },
+    "childrenshealthdefense.org": {
+        "b": "CP",
+        "d": "childrenshealthdefense.org",
+        "n": "Children's Health Defense",
+        "P": [],
+        "r": "L",
+        "u": "childrens-health-defense"
+    },
+    "zdnet.com": {
+        "b": "C",
+        "d": "zdnet.com",
+        "n": "ZDNet",
+        "P": [],
+        "r": "H",
+        "u": "zdnet"
     }
 }
