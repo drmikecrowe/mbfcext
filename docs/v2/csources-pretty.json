@@ -17132,7 +17132,7 @@
         "u": "truth-revolt"
     },
     "sun-sentinel.com": {
-        "b": "R",
+        "b": "C",
         "d": "sun-sentinel.com",
         "f": "sunsentinel",
         "t": "sunsentinel",
@@ -17279,6 +17279,14 @@
         "P": "64",
         "r": "H",
         "u": "special-broadcasting-service-sbs"
+    },
+    "stltoday.com": {
+        "b": "LC",
+        "d": "stltoday.com",
+        "n": "St. Louis Post-Dispatch",
+        "P": "0",
+        "r": "H",
+        "u": "st-louis-post-dispatch"
     },
     "spiegel.de": {
         "b": "LC",
@@ -19688,7 +19696,7 @@
         "f": "thenationalpulse",
         "n": "The National Pulse",
         "P": "19",
-        "r": "L",
+        "r": "M",
         "u": "the-national-pulse"
     },
     "nation.com.pk": {
@@ -26235,5 +26243,21 @@
         "P": [],
         "r": "H",
         "u": "zdnet"
+    },
+    "pandemic.news": {
+        "b": "CP",
+        "d": "pandemic.news",
+        "n": "Pandemic News",
+        "P": [],
+        "r": "VL",
+        "u": "pandemic-news"
+    },
+    "stfnreport.com": {
+        "b": "FN",
+        "d": "stfnreport.com",
+        "n": "Stranger than Fiction News",
+        "P": [],
+        "r": "M",
+        "u": "stranger-than-fiction-news"
     }
 }

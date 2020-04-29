@@ -24536,7 +24536,7 @@
         "p": "/"
     },
     "sun-sentinel.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "sun-sentinel.com",
         "f": "https://facebook.com/sunsentinel",
         "t": "https://twitter.com/sunsentinel",
@@ -24746,6 +24746,18 @@
         "P": "64",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/special-broadcasting-service-sbs/",
+        "p": "/"
+    },
+    "stltoday.com": {
+        "b": "left-center",
+        "d": "stltoday.com",
+        "h": "https://stltoday.com",
+        "M": "0",
+        "L": "0",
+        "n": "St. Louis Post-Dispatch",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/st-louis-post-dispatch/",
         "p": "/"
     },
     "spiegel.de": {
@@ -28199,7 +28211,7 @@
         "L": "80",
         "n": "The National Pulse",
         "P": "19",
-        "r": "LOW",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-national-pulse/",
         "p": "/"
     },
@@ -37749,6 +37761,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/zdnet/",
+        "p": "/"
+    },
+    "pandemic.news": {
+        "b": "conspiracy",
+        "d": "pandemic.news",
+        "h": "https://pandemic.news",
+        "M": [],
+        "L": [],
+        "n": "Pandemic News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/pandemic-news/",
+        "p": "/"
+    },
+    "stfnreport.com": {
+        "b": "fake-news",
+        "d": "stfnreport.com/",
+        "h": "https://stfnreport.com/",
+        "M": [],
+        "L": [],
+        "n": "Stranger than Fiction News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/stranger-than-fiction-news/",
         "p": "/"
     }
 }
