@@ -25207,7 +25207,7 @@
         "p": "/"
     },
     "statesmanjournal.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "statesmanjournal.com",
         "f": "https://facebook.com/statesmanjournal",
         "t": "https://twitter.com/salem_statesman",
@@ -37785,6 +37785,18 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/stranger-than-fiction-news/",
+        "p": "/"
+    },
+    "ktuu.com": {
+        "b": "center",
+        "d": "ktuu.com",
+        "h": "https://ktuu.com",
+        "M": [],
+        "L": [],
+        "n": "KTUU-TV",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/ktuu-tv/",
         "p": "/"
     }
 }

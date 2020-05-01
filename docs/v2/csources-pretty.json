@@ -17599,7 +17599,7 @@
         "u": "state-fort-daily"
     },
     "statesmanjournal.com": {
-        "b": "R",
+        "b": "C",
         "d": "statesmanjournal.com",
         "f": "statesmanjournal",
         "t": "salem_statesman",
@@ -26259,5 +26259,13 @@
         "P": [],
         "r": "M",
         "u": "stranger-than-fiction-news"
+    },
+    "ktuu.com": {
+        "b": "C",
+        "d": "ktuu.com",
+        "n": "KTUU-TV",
+        "P": [],
+        "r": "H",
+        "u": "ktuu-tv"
     }
 }
