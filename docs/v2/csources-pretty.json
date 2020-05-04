@@ -18659,7 +18659,7 @@
         "d": "courier-journal.com",
         "f": "courierjournal",
         "t": "courierjournal",
-        "n": "The Courier-Journal",
+        "n": "Louisville Courier-Journal",
         "P": "68",
         "r": "H",
         "u": "the-courier-journal"
@@ -26267,5 +26267,21 @@
         "P": [],
         "r": "H",
         "u": "ktuu-tv"
+    },
+    "vaccineimpact.com": {
+        "b": "CP",
+        "d": "vaccineimpact.com",
+        "n": "Vaccine Impact",
+        "P": [],
+        "r": "L",
+        "u": "vaccine-impact"
+    },
+    "phillyvoice.com": {
+        "b": "LC",
+        "d": "phillyvoice.com",
+        "n": "Philly Voice",
+        "P": [],
+        "r": "H",
+        "u": "philly-voice"
     }
 }

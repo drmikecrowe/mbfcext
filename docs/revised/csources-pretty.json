@@ -26730,7 +26730,7 @@
         "h": "https://courier-journal.com",
         "M": "63",
         "L": "1028462",
-        "n": "The Courier-Journal",
+        "n": "Louisville Courier-Journal",
         "P": "68",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/the-courier-journal/",
@@ -37797,6 +37797,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/ktuu-tv/",
+        "p": "/"
+    },
+    "vaccineimpact.com": {
+        "b": "conspiracy",
+        "d": "vaccineimpact.com",
+        "h": "https://vaccineimpact.com",
+        "M": [],
+        "L": [],
+        "n": "Vaccine Impact",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/vaccine-impact/",
+        "p": "/"
+    },
+    "phillyvoice.com": {
+        "b": "left-center",
+        "d": "phillyvoice.com",
+        "h": "https://phillyvoice.com",
+        "M": [],
+        "L": [],
+        "n": "Philly Voice",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/philly-voice/",
         "p": "/"
     }
 }
