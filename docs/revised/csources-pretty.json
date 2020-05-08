@@ -7316,7 +7316,7 @@
         "h": "https://dailysabah.com",
         "M": "58",
         "L": "935599",
-        "n": "Daily Sabah",
+        "n": "Sabah",
         "P": "87",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/daily-sabah/",
@@ -12904,7 +12904,7 @@
         "p": "/"
     },
     "hurriyetdailynews.com": {
-        "b": "left-center",
+        "b": "right",
         "d": "hurriyetdailynews.com",
         "f": "https://facebook.com/hurriyetdailynews",
         "t": "https://twitter.com/hdner",
@@ -12913,7 +12913,7 @@
         "L": "2400729",
         "n": "Hurriyet Daily News",
         "P": "92",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/hurriyet-daily-news/",
         "p": "/"
     },
@@ -23076,7 +23076,7 @@
         "L": "661998",
         "n": "Right Wing Watch",
         "P": "85",
-        "r": "MOSTLY FACTUAL",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/right-wing-watch/",
         "p": "/"
     },
@@ -34673,7 +34673,7 @@
         "L": "318891",
         "n": "Las Vegas Sun",
         "P": "69",
-        "r": "MOSTLY FACTUAL",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/las-vegas-sun/",
         "p": "/"
     },
@@ -37821,6 +37821,54 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/philly-voice/",
+        "p": "/"
+    },
+    "fibrohealthnews.com": {
+        "b": "fake-news",
+        "d": "fibrohealthnews.com",
+        "h": "https://fibrohealthnews.com",
+        "M": [],
+        "L": [],
+        "n": "Washington News Press",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/washington-news-press/",
+        "p": "/"
+    },
+    "azfamily.com": {
+        "b": "center",
+        "d": "azfamily.com",
+        "h": "https://azfamily.com",
+        "M": [],
+        "L": [],
+        "n": "azfamily.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/azfamily-com/",
+        "p": "/"
+    },
+    "hurriyet.com.tr": {
+        "b": "right",
+        "d": "hurriyet.com.tr",
+        "h": "https://hurriyet.com.tr",
+        "M": [],
+        "L": [],
+        "n": "Hurriyet",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/hurriyet/",
+        "p": "/"
+    },
+    "milliyet.com.tr": {
+        "b": "right",
+        "d": "milliyet.com.tr",
+        "h": "https://milliyet.com.tr",
+        "M": [],
+        "L": [],
+        "n": "Milliyet",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/milliyet/",
         "p": "/"
     }
 }

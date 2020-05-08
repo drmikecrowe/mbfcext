@@ -5112,7 +5112,7 @@
         "d": "dailysabah.com",
         "f": "dailysabah",
         "t": "dailysabah",
-        "n": "Daily Sabah",
+        "n": "Sabah",
         "P": "87",
         "r": "M",
         "u": "daily-sabah"
@@ -9012,13 +9012,13 @@
         "u": "human-progress"
     },
     "hurriyetdailynews.com": {
-        "b": "LC",
+        "b": "R",
         "d": "hurriyetdailynews.com",
         "f": "hurriyetdailynews",
         "t": "hdner",
         "n": "Hurriyet Daily News",
         "P": "92",
-        "r": "H",
+        "r": "M",
         "u": "hurriyet-daily-news"
     },
     "imowired.com": {
@@ -16109,7 +16109,7 @@
         "t": "rightwingwatch",
         "n": "Right Wing Watch",
         "P": "85",
-        "r": "MF",
+        "r": "H",
         "u": "right-wing-watch"
     },
     "rockcitytimes.com": {
@@ -24166,7 +24166,7 @@
         "f": "lasvegassun",
         "n": "Las Vegas Sun",
         "P": "69",
-        "r": "MF",
+        "r": "H",
         "u": "las-vegas-sun"
     },
     "everytown.org": {
@@ -26283,5 +26283,37 @@
         "P": [],
         "r": "H",
         "u": "philly-voice"
+    },
+    "fibrohealthnews.com": {
+        "b": "FN",
+        "d": "fibrohealthnews.com",
+        "n": "Washington News Press",
+        "P": [],
+        "r": "VL",
+        "u": "washington-news-press"
+    },
+    "azfamily.com": {
+        "b": "C",
+        "d": "azfamily.com",
+        "n": "azfamily.com",
+        "P": [],
+        "r": "H",
+        "u": "azfamily-com"
+    },
+    "hurriyet.com.tr": {
+        "b": "R",
+        "d": "hurriyet.com.tr",
+        "n": "Hurriyet",
+        "P": [],
+        "r": "M",
+        "u": "hurriyet"
+    },
+    "milliyet.com.tr": {
+        "b": "R",
+        "d": "milliyet.com.tr",
+        "n": "Milliyet",
+        "P": [],
+        "r": "M",
+        "u": "milliyet"
     }
 }
