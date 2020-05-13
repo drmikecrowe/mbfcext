@@ -5625,7 +5625,7 @@
         "L": "7081",
         "n": "Climate Feedback",
         "P": "37",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/climate-feedback/",
         "p": "/"
     },
@@ -19541,7 +19541,7 @@
         "p": "/"
     },
     "oann.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "oann.com",
         "f": "https://facebook.com/oneamericanewsnetwork",
         "t": "https://twitter.com/oann",
@@ -27457,7 +27457,7 @@
         "L": "8715772",
         "n": "The Guardian",
         "P": "99",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-guardian/",
         "p": "/"
     },
@@ -27596,6 +27596,18 @@
         "u": "https://mediabiasfactcheck.com/the-intercept/",
         "p": "/"
     },
+    "jamestown.org": {
+        "b": "center",
+        "d": "jamestown.org",
+        "h": "https://jamestown.org",
+        "M": "0",
+        "L": "0",
+        "n": "The Jamestown Foundation",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-jamestown-foundation/",
+        "p": "/"
+    },
     "indianexpress.com": {
         "b": "center",
         "d": "indianexpress.com",
@@ -27725,9 +27737,9 @@
         "h": "https://independent.org",
         "M": "59",
         "L": "296661",
-        "n": "The Independent Review",
+        "n": "The Independent Institute",
         "P": "74",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-independent-review/",
         "p": "/"
     },
@@ -37675,7 +37687,7 @@
         "L": [],
         "n": "Health Feedback",
         "P": [],
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/health-feedback/",
         "p": "/"
     },
@@ -37687,7 +37699,7 @@
         "L": [],
         "n": "Science Feedback",
         "P": [],
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/science-feedback/",
         "p": "/"
     },
@@ -37869,6 +37881,90 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/milliyet/",
+        "p": "/"
+    },
+    "bringmethenews.com": {
+        "b": "center",
+        "d": "bringmethenews.com",
+        "h": "https://bringmethenews.com",
+        "M": [],
+        "L": [],
+        "n": "Bring Me The News",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/bring-me-the-news/",
+        "p": "/"
+    },
+    "thehighwire.com": {
+        "b": "conspiracy",
+        "d": "thehighwire.com",
+        "h": "https://thehighwire.com",
+        "M": [],
+        "L": [],
+        "n": "The Highwire",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/the-highwire/",
+        "p": "/"
+    },
+    "24ur.com": {
+        "b": "center",
+        "d": "24ur.com",
+        "h": "https://24ur.com",
+        "M": [],
+        "L": [],
+        "n": "24ur.com",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/24ur-com/",
+        "p": "/"
+    },
+    "americadaily.com": {
+        "b": "fake-news",
+        "d": "americadaily.com",
+        "h": "https://americadaily.com",
+        "M": [],
+        "L": [],
+        "n": "America Daily",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/america-daily/",
+        "p": "/"
+    },
+    "ad.nl": {
+        "b": "center",
+        "d": "ad.nl",
+        "h": "https://ad.nl",
+        "M": [],
+        "L": [],
+        "n": "Algemeen Dagblad",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/algemeen-dagblad/",
+        "p": "/"
+    },
+    "corriere.it": {
+        "b": "center",
+        "d": "corriere.it",
+        "h": "https://corriere.it",
+        "M": [],
+        "L": [],
+        "n": "Corriere della Sera",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/corriere-della-sera/",
+        "p": "/"
+    },
+    "bild.de": {
+        "b": "right-center",
+        "d": "bild.de",
+        "h": "https://bild.de",
+        "M": [],
+        "L": [],
+        "n": "Bild",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/bild/",
         "p": "/"
     }
 }

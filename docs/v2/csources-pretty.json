@@ -3937,7 +3937,7 @@
         "t": "climatefdbk",
         "n": "Climate Feedback",
         "P": "37",
-        "r": "VH",
+        "r": "H",
         "u": "climate-feedback"
     },
     "codepink.org": {
@@ -13649,7 +13649,7 @@
         "u": "offended-america"
     },
     "oann.com": {
-        "b": "R",
+        "b": "FN",
         "d": "oann.com",
         "f": "oneamericanewsnetwork",
         "t": "oann",
@@ -19166,7 +19166,7 @@
         "t": "guardian",
         "n": "The Guardian",
         "P": "99",
-        "r": "MF",
+        "r": "M",
         "u": "the-guardian"
     },
     "newsite.thehindu.com": {
@@ -19264,6 +19264,14 @@
         "r": "H",
         "u": "the-intercept"
     },
+    "jamestown.org": {
+        "b": "C",
+        "d": "jamestown.org",
+        "n": "The Jamestown Foundation",
+        "P": "0",
+        "r": "H",
+        "u": "the-jamestown-foundation"
+    },
     "indianexpress.com": {
         "b": "C",
         "d": "indianexpress.com",
@@ -19354,9 +19362,9 @@
         "d": "independent.org",
         "f": "independentinstitute",
         "t": "independentinst",
-        "n": "The Independent Review",
+        "n": "The Independent Institute",
         "P": "74",
-        "r": "H",
+        "r": "MF",
         "u": "the-independent-review"
     },
     "thejakartapost.com": {
@@ -26185,7 +26193,7 @@
         "d": "healthfeedback.org",
         "n": "Health Feedback",
         "P": [],
-        "r": "VH",
+        "r": "H",
         "u": "health-feedback"
     },
     "sciencefeedback.co": {
@@ -26193,7 +26201,7 @@
         "d": "sciencefeedback.co",
         "n": "Science Feedback",
         "P": [],
-        "r": "VH",
+        "r": "H",
         "u": "science-feedback"
     },
     "9news.com": {
@@ -26315,5 +26323,61 @@
         "P": [],
         "r": "M",
         "u": "milliyet"
+    },
+    "bringmethenews.com": {
+        "b": "C",
+        "d": "bringmethenews.com",
+        "n": "Bring Me The News",
+        "P": [],
+        "r": "H",
+        "u": "bring-me-the-news"
+    },
+    "thehighwire.com": {
+        "b": "CP",
+        "d": "thehighwire.com",
+        "n": "The Highwire",
+        "P": [],
+        "r": "L",
+        "u": "the-highwire"
+    },
+    "24ur.com": {
+        "b": "C",
+        "d": "24ur.com",
+        "n": "24ur.com",
+        "P": [],
+        "r": "MF",
+        "u": "24ur-com"
+    },
+    "americadaily.com": {
+        "b": "FN",
+        "d": "americadaily.com",
+        "n": "America Daily",
+        "P": [],
+        "r": "M",
+        "u": "america-daily"
+    },
+    "ad.nl": {
+        "b": "C",
+        "d": "ad.nl",
+        "n": "Algemeen Dagblad",
+        "P": [],
+        "r": "H",
+        "u": "algemeen-dagblad"
+    },
+    "corriere.it": {
+        "b": "C",
+        "d": "corriere.it",
+        "n": "Corriere della Sera",
+        "P": [],
+        "r": "H",
+        "u": "corriere-della-sera"
+    },
+    "bild.de": {
+        "b": "R",
+        "d": "bild.de",
+        "n": "Bild",
+        "P": [],
+        "r": "M",
+        "u": "bild"
     }
 }
