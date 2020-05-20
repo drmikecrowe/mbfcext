@@ -4912,7 +4912,7 @@
         "t": "thedailybeast",
         "n": "Daily Beast",
         "P": "93",
-        "r": "H",
+        "r": "MF",
         "u": "daily-beast"
     },
     "dailybuzzlive.com": {
@@ -8998,7 +8998,7 @@
         "f": "huffpost",
         "n": "Huffington Post",
         "P": "99",
-        "r": "MF",
+        "r": "M",
         "u": "huffington-post"
     },
     "humanprogress.org": {
@@ -10101,7 +10101,7 @@
         "t": "jezebel",
         "n": "Jezebel",
         "P": "99",
-        "r": "M",
+        "r": "H",
         "u": "jezebel"
     },
     "justfacts.com": {
@@ -19161,13 +19161,12 @@
     },
     "theguardian.com": {
         "b": "LC",
-        "d": "theguardian.com",
-        "f": "theguardian",
-        "t": "guardian",
-        "n": "The Guardian",
-        "P": "99",
+        "d": "https://www.theguardian.com/observer",
+        "n": "The Observer (UK)",
+        "P": "0",
         "r": "M",
-        "u": "the-guardian"
+        "u": "the-observer",
+        "p": "/observer"
     },
     "newsite.thehindu.com": {
         "b": "LC",
@@ -19977,7 +19976,7 @@
         "b": "S",
         "d": "politicalgarbagechute.com",
         "f": "politicalgarbagechute",
-        "n": "The Politcal Garbage Chute",
+        "n": "The Political Garbage Chute",
         "P": "46",
         "u": "the-political-garbage-chute"
     },
@@ -26379,5 +26378,101 @@
         "P": [],
         "r": "M",
         "u": "bild"
+    },
+    "aceshowbiz.com": {
+        "b": "LC",
+        "d": "aceshowbiz.com",
+        "n": "AceShowbiz (ASB)",
+        "P": [],
+        "r": "M",
+        "u": "aceshowbiz-asb"
+    },
+    "chinaafricaproject.com": {
+        "b": "LC",
+        "d": "chinaafricaproject.com",
+        "n": "China Africa Project",
+        "P": [],
+        "r": "H",
+        "u": "the-china-africa-project-cap"
+    },
+    "basnews.com": {
+        "b": "FN",
+        "d": "basnews.com",
+        "n": "Basnews Agency",
+        "P": [],
+        "r": "M",
+        "u": "basnews-agency"
+    },
+    "righterway.com": {
+        "b": "FN",
+        "d": "righterway.com",
+        "n": "Righter WAy",
+        "P": [],
+        "r": "L",
+        "u": "righter-way"
+    },
+    "channelnewsasia.com": {
+        "b": "C",
+        "d": "channelnewsasia.com",
+        "n": "Channel News Asia - CNA",
+        "P": [],
+        "r": "H",
+        "u": "channel-news-asia-cna"
+    },
+    "ktva.com": {
+        "b": "C",
+        "d": "ktva.com",
+        "n": "KTVA 11",
+        "P": [],
+        "r": "H",
+        "u": "ktva-11"
+    },
+    "shafaaq.com": {
+        "b": "FN",
+        "d": "shafaaq.com",
+        "n": "Shafaq News",
+        "P": [],
+        "r": "M",
+        "u": "shafaq-news"
+    },
+    "americanconservativemedia.com": {
+        "b": "FN",
+        "d": "americanconservativemedia.com",
+        "n": "American Conservative Media",
+        "P": [],
+        "r": "M",
+        "u": "american-conservative-media"
+    },
+    "crikey.com.au": {
+        "b": "L",
+        "d": "crikey.com.au",
+        "n": "Crikey",
+        "P": [],
+        "r": "H",
+        "u": "crikey"
+    },
+    "perezhilton.com": {
+        "b": "FN",
+        "d": "perezhilton.com",
+        "n": "Perez Hilton",
+        "P": [],
+        "r": "M",
+        "u": "perez-hilton"
+    },
+    "welt.de": {
+        "b": "R",
+        "d": "welt.de",
+        "n": "Die Welt",
+        "P": [],
+        "r": "H",
+        "u": "die-welt"
+    },
+    "ilgiornale.it": {
+        "b": "R",
+        "d": "ilgiornale.it",
+        "n": "Il Giornale",
+        "P": [],
+        "r": "M",
+        "u": "il-giornale"
     }
 }
