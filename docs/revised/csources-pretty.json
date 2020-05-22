@@ -29588,7 +29588,7 @@
         "p": "/"
     },
     "tennessean.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "tennessean.com",
         "f": "https://facebook.com/tennessean",
         "t": "https://twitter.com/tennessean",
@@ -38107,6 +38107,54 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/il-giornale/",
+        "p": "/"
+    },
+    "bleacherreport.com": {
+        "b": "left-center",
+        "d": "bleacherreport.com",
+        "h": "https://bleacherreport.com",
+        "M": [],
+        "L": [],
+        "n": "Bleacher Report",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/bleacher-report/",
+        "p": "/"
+    },
+    "refinery29.com": {
+        "b": "left",
+        "d": "refinery29.com",
+        "h": "https://refinery29.com",
+        "M": [],
+        "L": [],
+        "n": "Refinery29",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/refinery29/",
+        "p": "/"
+    },
+    "swprs.org": {
+        "b": "conspiracy",
+        "d": "swprs.org",
+        "h": "https://swprs.org",
+        "M": [],
+        "L": [],
+        "n": "Swiss Policy Research",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/swiss-policy-research/",
+        "p": "/"
+    },
+    "nst.com.my": {
+        "b": "center",
+        "d": "nst.com.my",
+        "h": "https://nst.com.my",
+        "M": [],
+        "L": [],
+        "n": "New Straits Times",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/new-straits-times/",
         "p": "/"
     }
 }

@@ -20657,7 +20657,7 @@
         "u": "the-times-and-democrat"
     },
     "tennessean.com": {
-        "b": "R",
+        "b": "C",
         "d": "tennessean.com",
         "f": "tennessean",
         "t": "tennessean",
@@ -26474,5 +26474,37 @@
         "P": [],
         "r": "M",
         "u": "il-giornale"
+    },
+    "bleacherreport.com": {
+        "b": "LC",
+        "d": "bleacherreport.com",
+        "n": "Bleacher Report",
+        "P": [],
+        "r": "MF",
+        "u": "bleacher-report"
+    },
+    "refinery29.com": {
+        "b": "L",
+        "d": "refinery29.com",
+        "n": "Refinery29",
+        "P": [],
+        "r": "MF",
+        "u": "refinery29"
+    },
+    "swprs.org": {
+        "b": "CP",
+        "d": "swprs.org",
+        "n": "Swiss Policy Research",
+        "P": [],
+        "r": "M",
+        "u": "swiss-policy-research"
+    },
+    "nst.com.my": {
+        "b": "C",
+        "d": "nst.com.my",
+        "n": "New Straits Times",
+        "P": [],
+        "r": "MF",
+        "u": "new-straits-times"
     }
 }
