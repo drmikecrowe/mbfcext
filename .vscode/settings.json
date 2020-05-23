@@ -1,19 +1,22 @@
 {
-  "typescript.tsdk": "./node_modules/typescript/lib",
-  "files.eol": "\n",
-  "json.schemas": [
-    {
-      "fileMatch": ["/manifest.json"],
-      "url": "http://json.schemastore.org/chrome-manifest"
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.eol": "\n",
+    "json.schemas": [
+        {
+            "fileMatch": ["/manifest.json"],
+            "url": "http://json.schemastore.org/chrome-manifest"
+        }
+    ],
+    "prettier.trailingComma": "all",
+    "prettier.packageManager": "pnpm",
+    "prettier.printWidth": 120,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.scss": "stylus"
     }
-  ],
-  "prettier.trailingComma": "all",
-  "prettier.packageManager": "pnpm",
-  "prettier.printWidth": 120,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "files.associations": {
-    "*.scss": "stylus"
-  }
 }

@@ -3,22 +3,23 @@ const log = require("debug")("mbfc:utils:index");
 
 import { browser } from "webextension-polyfill-ts";
 
-export * from "./options";
-// export * from "./sites";
-export * from "./utils";
+export * from "webextension-polyfill-ts";
+export * from "./checkDomain";
 export * from "./constants";
-// export * from "./filters";
+export * from "./definitions";
+export * from "./getCurrentTab";
+export * from "./getDomain";
+export * from "./google-analytics";
+export * from "./messages";
+export * from "./poller";
 export * from "./storage";
-
-export async function getPollMinutes(): Promise<number> {
-  let minutes = 60;
-  return minutes;
-}
+export * from "./utils";
 
 export const isDevMode = (): boolean => {
-  const devMode = !browser.runtime || !("update_url" in browser.runtime.getManifest());
-  if (devMode) {
-    localStorage.debug = "mbfc:*";
-  }
-  return devMode;
+    const devMode =
+        !browser.runtime || !("update_url" in browser.runtime.getManifest());
+    if (devMode) {
+        localStorage.debug = "mbfc:*";
+    }
+    return devMode;
 };

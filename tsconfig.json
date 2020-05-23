@@ -1,23 +1,31 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "strict": true,
-    "jsx": "preserve",
-    "importHelpers": true,
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "jsx": "preserve",
+        "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "paths": {
+            "*": ["./src/*"]
+        },
+        "rootDir": ".",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es6",
+        "types": ["chrome", "node", "google.analytics"]
     },
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
-    "types": ["chrome", "node", "google.analytics"],
-    "noImplicitAny": false
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.md", "tests/**/*.ts", "tests/**/*.tsx"],
-  "exclude": ["node_modules"]
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue",
+        "src/**/*.md",
+        "tests/**/*.ts",
+        "tests/**/*.tsx"
+    ],
+    "exclude": ["node_modules"]
 }

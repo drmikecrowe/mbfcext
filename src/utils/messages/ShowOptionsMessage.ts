@@ -1,22 +1,18 @@
-const log = require("debug")("mbfc:utils:messages:ShowOptionsMessage");
-
 import { get } from "lodash-es";
-import { ISource } from "@/utils/definitions";
+import { BrowserMessage, HandleMessageCallback } from ".";
 
 const ShowOptionsMessageMethod = "ShowOptionsMessage";
 
-export type HandlerShowOptionsCallback = (response: ShowOptionsMessage) => void;
-
 export class ShowOptionsMessage {
-  public method = ShowOptionsMessageMethod;
+    public method = ShowOptionsMessageMethod;
 
-  static check(request: any, fn: HandlerShowOptionsCallback) {
-    if (get(request, "method") === ShowOptionsMessageMethod) {
-      return fn(request);
+    static check(request: BrowserMessage, fn: HandleMessageCallback): void {
+        if (get(request, "method") === ShowOptionsMessageMethod) {
+            return fn(request);
+        }
     }
-  }
 
-  constructor() {
-    this.method = ShowOptionsMessageMethod;
-  }
+    constructor() {
+        this.method = ShowOptionsMessageMethod;
+    }
 }

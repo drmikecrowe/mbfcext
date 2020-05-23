@@ -1,19 +1,17 @@
 import { get } from "lodash-es";
+import { BrowserMessage, HandleMessageCallback } from ".";
 
 const ResetIgnoredMessageMethod = "ResetIgnoredMessage";
-
-export type HandlerResetIgnoredCallback = (response: ResetIgnoredMessage) => void;
-
 export class ResetIgnoredMessage {
-  public method = ResetIgnoredMessageMethod;
+    public method = ResetIgnoredMessageMethod;
 
-  static check(request: any, fn: HandlerResetIgnoredCallback) {
-    if (get(request, "method") === ResetIgnoredMessageMethod) {
-      return fn(request);
+    static check(request: BrowserMessage, fn: HandleMessageCallback): void {
+        if (get(request, "method") === ResetIgnoredMessageMethod) {
+            return fn(request);
+        }
     }
-  }
 
-  constructor() {
-    this.method = ResetIgnoredMessageMethod;
-  }
+    constructor() {
+        this.method = ResetIgnoredMessageMethod;
+    }
 }

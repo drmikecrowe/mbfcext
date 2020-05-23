@@ -1,19 +1,18 @@
 import { get } from "lodash-es";
+import { BrowserMessage, HandleMessageCallback } from ".";
 
 const GetConfigMessageMethod = "GetConfigMessage";
 
-export type HandlerGetConfigCallback = (response: GetConfigMessage) => void;
-
 export class GetConfigMessage {
-  public method = GetConfigMessageMethod;
+    public method = GetConfigMessageMethod;
 
-  static check(request: any, fn: HandlerGetConfigCallback) {
-    if (get(request, "method") === GetConfigMessageMethod) {
-      return fn(request);
+    static check(request: BrowserMessage, fn: HandleMessageCallback): void {
+        if (get(request, "method") === GetConfigMessageMethod) {
+            return fn(request);
+        }
     }
-  }
 
-  constructor() {
-    this.method = GetConfigMessageMethod;
-  }
+    constructor() {
+        this.method = GetConfigMessageMethod;
+    }
 }

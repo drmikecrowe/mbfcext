@@ -17,114 +17,125 @@ const environment = process.env.NODE_ENV || "development";
 
 const manifestTemplate = JSON.parse(fs.readFileSync(resolve(`/manifest.json`)));
 const manifestOptions = {
-  firefox: {
-    applications: {
-      gecko: {
-        id: pkgJson.name + "@mozilla.org",
-      },
+    firefox: {
+        applications: {
+            gecko: {
+                id: pkgJson.name + "@mozilla.org",
+            },
+        },
     },
-  },
 };
-const manifest = Object.assign({}, manifestTemplate, target === "firefox" ? manifestOptions.firefox : {});
+const manifest = Object.assign(
+    {},
+    manifestTemplate,
+    target === "firefox" ? manifestOptions.firefox : {}
+);
 
 function resolve(dir) {
-  return path.join(__dirname, "..", dir);
+    return path.join(__dirname, "..", dir);
 }
 
 const webpackConfig = {
-  entry: {
-    background: resolve("src/background/index.ts"),
-    facebook: resolve("src/contentscript/facebook.ts"),
-    twitter: resolve("src/contentscript/twitter.ts"),
-    options: [resolve("src/options/index.ts"), resolve(`src/assets/${target}-options.css`)],
-    popup: resolve("src/popup/index.ts"),
-  },
-  output: {
-    path: resolve(`build/${target}`),
-    filename: "scripts/[name].js",
-  },
-  optimization: {
-    splitChunks: false,
-  },
-  resolve: {
-    extensions: [".js", ".ts", ".tsx", ".json", ".sass", ".scss", ".vue"],
-    modules: [resolve("src"), resolve("node_modules")],
-    alias: {
-      src: resolve("src"),
-      lodash: "lodash-es",
-    },
-    plugins: [
-      new TsconfigPathsPlugin({
-        configFile: resolve("/tsconfig.json"),
-        extensions: [".ts", ".tsx", ".js", ".vue"],
-      }),
-    ],
-  },
-  module: {
-    rules: [
-      {
-        test: /\.vue$/,
-        use: "vue-loader",
-      },
-      // Super thanks to https://stackoverflow.com/a/55234989
-      {
-        test: /\.tsx?$/,
-        loader: "ts-loader",
-        exclude: /node_modules/,
-        options: {
-          transpileOnly: isDev,
-          appendTsSuffixTo: [/\.vue$/],
-        },
-      },
-      {
-        test: /\.s?[ac]ss$/,
-        use: ["style-loader", "css-loader", "postcss-sass-loader"],
-      },
-      {
-        test: /\.md$/,
-        use: [
-          {
-            loader: "html-loader",
-          },
-          {
-            loader: "markdown-loader",
-            options: {
-              /* your options here */
-            },
-          },
+    entry: {
+        background: resolve("src/background/index.ts"),
+        facebook: resolve("src/contentscript/facebook.ts"),
+        twitter: resolve("src/contentscript/twitter.ts"),
+        options: [
+            resolve("src/options/index.ts"),
+            resolve(`src/assets/${target}-options.css`),
         ],
-      },
-    ],
-  },
-  resolve: {
-    extensions: [".ts", ".tsx", ".js", ".vue"],
-    plugins: [
-      new TsconfigPathsPlugin({
-        configFile: resolve("/tsconfig.json"),
-        extensions: [".ts", ".tsx", ".js", ".vue"],
-      }),
-    ],
-    alias: {
-      lodash: "lodash-es",
+        popup: resolve("src/popup/index.ts"),
     },
-  },
-  plugins: [
-    require("tailwindcss"),
-    new VueLoaderPlugin(),
-    new CopyWepbackPlugin([{ from: resolve("public"), to: resolve(`build/${target}`) }]),
-    new GenerateJsonPlugin(`manifest.json`, manifest),
-    new MiniCssExtractPlugin(),
-    new webpack.DefinePlugin({
-      "process.env": require(`../env/${environment}.env`),
-    }),
-  ],
-  stats: "minimal",
+    output: {
+        path: resolve(`build/${target}`),
+        filename: "scripts/[name].js",
+    },
+    optimization: {
+        splitChunks: false,
+    },
+    resolve: {
+        extensions: [".js", ".ts", ".tsx", ".json", ".sass", ".scss", ".vue"],
+        modules: [resolve("src"), resolve("node_modules")],
+        alias: {
+            src: resolve("src"),
+            lodash: "lodash-es",
+        },
+        plugins: [
+            new TsconfigPathsPlugin({
+                configFile: resolve("/tsconfig.json"),
+                extensions: [".ts", ".tsx", ".js", ".vue"],
+            }),
+        ],
+    },
+    module: {
+        rules: [
+            {
+                test: /\.vue$/,
+                use: "vue-loader",
+            },
+            // Super thanks to https://stackoverflow.com/a/55234989
+            {
+                test: /\.tsx?$/,
+                loader: "ts-loader",
+                exclude: /node_modules/,
+                options: {
+                    transpileOnly: isDev,
+                    appendTsSuffixTo: [/\.vue$/],
+                },
+            },
+            {
+                test: /\.s?[ac]ss$/,
+                use: ["style-loader", "css-loader", "postcss-sass-loader"],
+            },
+            {
+                test: /\.md$/,
+                use: [
+                    {
+                        loader: "html-loader",
+                    },
+                    {
+                        loader: "markdown-loader",
+                        options: {
+                            /* your options here */
+                        },
+                    },
+                ],
+            },
+        ],
+    },
+    resolve: {
+        extensions: [".ts", ".tsx", ".js", ".vue"],
+        plugins: [
+            new TsconfigPathsPlugin({
+                configFile: resolve("/tsconfig.json"),
+                extensions: [".ts", ".tsx", ".js", ".vue"],
+            }),
+        ],
+        alias: {
+            lodash: "lodash-es",
+        },
+    },
+    plugins: [
+        require("tailwindcss"),
+        new VueLoaderPlugin(),
+        new CopyWepbackPlugin({
+            patterns: [
+                { from: resolve("public"), to: resolve(`build/${target}`) },
+            ],
+        }),
+        new GenerateJsonPlugin(`manifest.json`, manifest),
+        new MiniCssExtractPlugin(),
+        new webpack.DefinePlugin({
+            "process.env": require(`../env/${environment}.env`),
+        }),
+    ],
+    stats: "minimal",
 };
 
 module.exports = {
-  manifest,
-  resolve,
-  webpackConfig,
-  target,
-  pkgJson,
+    manifest,
+    resolve,
+    webpackConfig,
+    target,
+    pkgJson,
 };

@@ -1,34 +1,29 @@
 export {};
 const log = require("debug")("mbfc:background:index");
 
-import { Poller } from "@/utils/poller";
 import { SourcesProcessor } from "./sources";
-import { OptionsProcessor } from "./options";
-import { isDevMode } from "@/utils";
-// import { GoogleAnalytics } from "@/utils/google-analytics";
+import { isDevMode, GoogleAnalytics, storage, Poller } from "utils";
 import { MessageProcessor } from "./messages";
 import { TabProcessor } from "./tabs";
 
 async function polling() {
-  // Use this function for periodic background polling
-  const i = SourcesProcessor.getInstance();
-  if (i.isConfigLoaded()) {
-    log(`Polling`);
-    i.retrieveRemote();
-  }
+    // Use this function for periodic background polling
+    const i = SourcesProcessor.getInstance();
+    if (i.areSourcesLoaded()) {
+        log(`Polling`);
+        i.retrieveRemote();
+    }
 }
 
 (async () => {
-  isDevMode();
-  const [src, opt] = await Promise.all([
-    SourcesProcessor.getInstance().getConfig(),
-    OptionsProcessor.getInstance().getOptions(),
-  ]);
-  console.log(opt);
-  Poller.getInstance(polling);
-  // GoogleAnalytics.getInstance();
-  TabProcessor.getInstance();
-  MessageProcessor.getInstance();
+    isDevMode();
+    await SourcesProcessor.getInstance().getSources();
+    Poller.getInstance(polling);
+    GoogleAnalytics.getInstance();
+    TabProcessor.getInstance();
+    MessageProcessor.getInstance();
+
+    // TODO: Here we need to watch storage and send the message when options change
 })().catch((err) => {
-  console.error(err);
+    console.error(err);
 });

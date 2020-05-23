@@ -1,29 +1,18 @@
-const log = require("debug")("mbfc:contentscript:facebook");
-
 import { browser } from "webextension-polyfill-ts";
-import { ShowSiteMessage } from "@/utils/messages";
+import { GetConfigMessage } from "utils/messages";
+import { isDevMode } from "utils";
+
+isDevMode();
+const log = require("debug")("mbfc:contentscript:facebook");
 
 log(`Loaded into facebook page`);
 
-var myPort = browser.runtime.connect(browser.runtime.id);
-myPort.postMessage(
-  new ShowSiteMessage(
-    {
-      b: "S",
-      d: "yahoo.com",
-      f: "yahoo",
-      t: "yahoo",
-      n: "The Onion",
-      P: 99,
-      u: "the-onion",
-      h: "",
-      L: 1,
-      M: 1,
-      r: "M",
-      p: "",
-    },
-    false,
-    false,
-    false,
-  ),
-);
+(async () => {
+    const myPort = browser.runtime.connect(browser.runtime.id);
+    myPort.onMessage.addListener((response: any, port: any) => {
+        log("response: ", response);
+    });
+    await myPort.postMessage(new GetConfigMessage());
+})().catch((err) => {
+    //next(err)
+});

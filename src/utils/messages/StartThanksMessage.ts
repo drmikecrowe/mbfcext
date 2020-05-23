@@ -1,22 +1,18 @@
-const log = require("debug")("mbfc:utils:messages:StartThanksMessage");
-
 import { get } from "lodash-es";
-import { ISource } from "@/utils/definitions";
+import { BrowserMessage, HandleMessageCallback } from ".";
 
 const StartThanksMessageMethod = "StartThanksMessage";
 
-export type HandlerStartThanksCallback = (response: StartThanksMessage) => void;
-
 export class StartThanksMessage {
-  public method = StartThanksMessageMethod;
+    public method = StartThanksMessageMethod;
 
-  static check(request: any, fn: HandlerStartThanksCallback) {
-    if (get(request, "method") === StartThanksMessageMethod) {
-      return fn(request);
+    static check(request: BrowserMessage, fn: HandleMessageCallback): void {
+        if (get(request, "method") === StartThanksMessageMethod) {
+            return fn(request);
+        }
     }
-  }
 
-  constructor() {
-    this.method = StartThanksMessageMethod;
-  }
+    constructor() {
+        this.method = StartThanksMessageMethod;
+    }
 }
