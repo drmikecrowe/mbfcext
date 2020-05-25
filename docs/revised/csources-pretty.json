@@ -21252,7 +21252,7 @@
         "p": "/"
     },
     "pravdareport.com": {
-        "b": "left",
+        "b": "fake-news",
         "d": "pravdareport.com",
         "f": "https://facebook.com/english.pravda",
         "h": "https://pravdareport.com",
@@ -21260,7 +21260,7 @@
         "L": "1086966",
         "n": "Pravda Report",
         "P": "87",
-        "r": "MIXED",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/pravda-report/",
         "p": "/"
     },
@@ -35823,7 +35823,7 @@
         "p": "/"
     },
     "trendingpolitics.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "trendingpolitics.com",
         "h": "https://trendingpolitics.com",
         "M": "0",
@@ -38155,6 +38155,54 @@
         "P": [],
         "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/new-straits-times/",
+        "p": "/"
+    },
+    "goop.com": {
+        "b": "conspiracy",
+        "d": "goop.com",
+        "h": "https://goop.com",
+        "M": [],
+        "L": [],
+        "n": "Goop.com",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/goop/",
+        "p": "/"
+    },
+    "thelancet.com": {
+        "b": "pro-science",
+        "d": "thelancet.com",
+        "h": "https://thelancet.com",
+        "M": [],
+        "L": [],
+        "n": "The Lancet",
+        "P": [],
+        "r": "VERY HIGH",
+        "u": "https://mediabiasfactcheck.com/the-lancet/",
+        "p": "/"
+    },
+    "rushlimbaugh.com": {
+        "b": "fake-news",
+        "d": "rushlimbaugh.com",
+        "h": "https://rushlimbaugh.com",
+        "M": [],
+        "L": [],
+        "n": "RushLimbaugh.com",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/rushlimbaugh-com/",
+        "p": "/"
+    },
+    "bossip.com": {
+        "b": "fake-news",
+        "d": "bossip.com",
+        "h": "https://bossip.com",
+        "M": [],
+        "L": [],
+        "n": "Bossip",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/bossip/",
         "p": "/"
     }
 }

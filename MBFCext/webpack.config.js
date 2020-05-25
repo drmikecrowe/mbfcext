@@ -43,7 +43,7 @@ var options = {
     twitter: path.join(__dirname, "src", "inject-twitter.ts")
   },
   output: {
-    path: path.join(__dirname, "build"),
+    path: path.join(__dirname, "build/chrome"),
     filename: "[name].bundle.js"
   },
   module: {

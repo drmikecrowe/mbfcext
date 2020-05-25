@@ -1,11 +1,11 @@
 {
-  "name": "Media Bias and Fact Check Extension",
   "short_name": "MBFCext",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
   "author": "Mike Crowe",
-  "version": "2.1.2",
-  "version_name": "Release 2.1.2",
+  "version": "3.0.0",
   "manifest_version": 2,
-  "description": "Show Media Bias / Fact Check ratings for Facebook, Twitter and news websites as you browse",
   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
   "background": {
     "page": "background.html"

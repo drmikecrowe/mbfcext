@@ -14844,12 +14844,12 @@
         "u": "progressive-liberal"
     },
     "pravdareport.com": {
-        "b": "L",
+        "b": "FN",
         "d": "pravdareport.com",
         "f": "english.pravda",
         "n": "Pravda Report",
         "P": "87",
-        "r": "M",
+        "r": "VL",
         "u": "pravda-report"
     },
     "private-eye.co.uk": {
@@ -24952,7 +24952,7 @@
         "u": "fosters-daily-democrat"
     },
     "trendingpolitics.com": {
-        "b": "R",
+        "b": "FN",
         "d": "trendingpolitics.com",
         "n": "Trending Politics",
         "P": "0",
@@ -26506,5 +26506,37 @@
         "P": [],
         "r": "MF",
         "u": "new-straits-times"
+    },
+    "goop.com": {
+        "b": "CP",
+        "d": "goop.com",
+        "n": "Goop.com",
+        "P": [],
+        "r": "L",
+        "u": "goop"
+    },
+    "thelancet.com": {
+        "b": "PS",
+        "d": "thelancet.com",
+        "n": "The Lancet",
+        "P": [],
+        "r": "VH",
+        "u": "the-lancet"
+    },
+    "rushlimbaugh.com": {
+        "b": "FN",
+        "d": "rushlimbaugh.com",
+        "n": "RushLimbaugh.com",
+        "P": [],
+        "r": "L",
+        "u": "rushlimbaugh-com"
+    },
+    "bossip.com": {
+        "b": "FN",
+        "d": "bossip.com",
+        "n": "Bossip",
+        "P": [],
+        "r": "M",
+        "u": "bossip"
     }
 }
