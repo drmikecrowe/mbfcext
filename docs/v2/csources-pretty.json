@@ -9949,7 +9949,7 @@
         "u": "joe-for-america"
     },
     "japantoday.com": {
-        "b": "R",
+        "b": "LC",
         "d": "japantoday.com",
         "f": "japantoday",
         "t": "summary",
@@ -26538,5 +26538,21 @@
         "P": [],
         "r": "M",
         "u": "bossip"
+    },
+    "ruptly.tv": {
+        "b": "FN",
+        "d": "ruptly.tv",
+        "n": "Ruptly",
+        "P": [],
+        "r": "M",
+        "u": "ruptly"
+    },
+    "yomiuri.co.jp": {
+        "b": "R",
+        "d": "yomiuri.co.jp",
+        "n": "The Yomiuri Shimbun",
+        "P": [],
+        "r": "H",
+        "u": "the-yomiuri-shimbun"
     }
 }

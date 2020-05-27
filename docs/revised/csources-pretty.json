@@ -14241,7 +14241,7 @@
         "p": "/"
     },
     "japantoday.com": {
-        "b": "right-center",
+        "b": "left-center",
         "d": "japantoday.com",
         "f": "https://facebook.com/japantoday",
         "t": "https://twitter.com/summary",
@@ -38203,6 +38203,30 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/bossip/",
+        "p": "/"
+    },
+    "ruptly.tv": {
+        "b": "fake-news",
+        "d": "ruptly.tv",
+        "h": "https://ruptly.tv",
+        "M": [],
+        "L": [],
+        "n": "Ruptly",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/ruptly/",
+        "p": "/"
+    },
+    "yomiuri.co.jp": {
+        "b": "right-center",
+        "d": "yomiuri.co.jp",
+        "h": "https://yomiuri.co.jp",
+        "M": [],
+        "L": [],
+        "n": "The Yomiuri Shimbun",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-yomiuri-shimbun/",
         "p": "/"
     }
 }
