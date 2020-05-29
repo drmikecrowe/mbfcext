@@ -643,12 +643,10 @@
     "adn.com": {
         "b": "LC",
         "d": "adn.com",
-        "f": "anchoragedailynews",
-        "t": "adndotcom",
-        "n": "Alaska Dispatch News",
-        "P": "69",
+        "n": "Anchorage Daily News",
+        "P": [],
         "r": "H",
-        "u": "alaska-dispatch-news"
+        "u": "anchorage-daily-news"
     },
     "abqjournal.com": {
         "b": "R",
@@ -10329,7 +10327,7 @@
         "d": "ledevoir.com",
         "f": "ledevoir",
         "t": "ledevoir",
-        "n": "La Devoir",
+        "n": "Le Devoir",
         "P": "72",
         "r": "H",
         "u": "le-devoir"
@@ -10527,6 +10525,14 @@
         "P": "37",
         "r": "L",
         "u": "left-action"
+    },
+    "learnprogress.org": {
+        "b": "FN",
+        "d": "learnprogress.org",
+        "n": "Learn Progress",
+        "P": "0",
+        "r": "L",
+        "u": "learn-progress"
     },
     "lawandcrime.com": {
         "b": "LC",
@@ -13275,13 +13281,12 @@
         "u": "nk-news"
     },
     "nhk.or.jp": {
-        "b": "C",
-        "d": "www3.nhk.or.jp",
-        "t": "nhk",
-        "n": "NHK World",
-        "P": "56",
+        "b": "R",
+        "d": "nhk.or.jp",
+        "n": "NHK-Nippon Hoso Kyokai",
+        "P": [],
         "r": "H",
-        "u": "nhk-world"
+        "u": "nhk-nippon-hoso-kyokai"
     },
     "nextbigfuture.com": {
         "b": "PS",
@@ -14076,7 +14081,7 @@
         "f": "none",
         "n": "Pacific Research Institute",
         "P": "66",
-        "r": "M",
+        "r": "MF",
         "u": "pacific-research-institute"
     },
     "patch.com": {
@@ -19545,12 +19550,12 @@
         "u": "the-ledger"
     },
     "theconservativetreehouse.com": {
-        "b": "R",
+        "b": "FN",
         "d": "theconservativetreehouse.com",
         "t": "thelastrefuge2",
         "n": "The Last Refuge",
         "P": "85",
-        "r": "M",
+        "r": "L",
         "u": "the-last-refuge"
     },
     "thelily.com": {
@@ -26554,5 +26559,21 @@
         "P": [],
         "r": "H",
         "u": "the-yomiuri-shimbun"
+    },
+    "viralhatch.com": {
+        "b": "FN",
+        "d": "viralhatch.com",
+        "n": "Viral Hatch",
+        "P": [],
+        "r": "L",
+        "u": "viral-hatch"
+    },
+    "agweb.com": {
+        "b": "C",
+        "d": "agweb.com",
+        "n": "AgWeb",
+        "P": [],
+        "r": "H",
+        "u": "agweb"
     }
 }

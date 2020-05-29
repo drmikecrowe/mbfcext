@@ -919,15 +919,13 @@
     "adn.com": {
         "b": "left-center",
         "d": "adn.com",
-        "f": "https://facebook.com/anchoragedailynews",
-        "t": "https://twitter.com/adndotcom",
         "h": "https://adn.com",
-        "M": "64",
-        "L": "290439",
-        "n": "Alaska Dispatch News",
-        "P": "69",
+        "M": [],
+        "L": [],
+        "n": "Anchorage Daily News",
+        "P": [],
         "r": "HIGH",
-        "u": "https://mediabiasfactcheck.com/alaska-dispatch-news/",
+        "u": "https://mediabiasfactcheck.com/anchorage-daily-news/",
         "p": "/"
     },
     "abqjournal.com": {
@@ -14788,7 +14786,7 @@
         "h": "https://ledevoir.com",
         "M": "62",
         "L": "708767",
-        "n": "La Devoir",
+        "n": "Le Devoir",
         "P": "72",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/le-devoir/",
@@ -15070,6 +15068,18 @@
         "P": "37",
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/left-action/",
+        "p": "/"
+    },
+    "learnprogress.org": {
+        "b": "fake-news",
+        "d": "learnprogress.org",
+        "h": "https://learnprogress.org",
+        "M": "0",
+        "L": "0",
+        "n": "Learn Progress",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/learn-progress/",
         "p": "/"
     },
     "lawandcrime.com": {
@@ -18999,16 +19009,15 @@
         "p": "/"
     },
     "nhk.or.jp": {
-        "b": "center",
-        "d": "www3.nhk.or.jp",
-        "t": "https://twitter.com/nhk",
-        "h": "https://www3.nhk.or.jp",
-        "M": "65",
-        "L": "54121",
-        "n": "NHK World",
-        "P": "56",
+        "b": "right-center",
+        "d": "nhk.or.jp",
+        "h": "https://nhk.or.jp",
+        "M": [],
+        "L": [],
+        "n": "NHK-Nippon Hoso Kyokai",
+        "P": [],
         "r": "HIGH",
-        "u": "https://mediabiasfactcheck.com/nhk-world/",
+        "u": "https://mediabiasfactcheck.com/nhk-nippon-hoso-kyokai/",
         "p": "/"
     },
     "nextbigfuture.com": {
@@ -20151,7 +20160,7 @@
         "L": "125062",
         "n": "Pacific Research Institute",
         "P": "66",
-        "r": "MIXED",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/pacific-research-institute/",
         "p": "/"
     },
@@ -27996,7 +28005,7 @@
         "p": "/"
     },
     "theconservativetreehouse.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "theconservativetreehouse.com",
         "t": "https://twitter.com/thelastrefuge2",
         "h": "https://theconservativetreehouse.com",
@@ -28004,7 +28013,7 @@
         "L": "633408",
         "n": "The Last Refuge",
         "P": "85",
-        "r": "MIXED",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/the-last-refuge/",
         "p": "/"
     },
@@ -38227,6 +38236,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/the-yomiuri-shimbun/",
+        "p": "/"
+    },
+    "viralhatch.com": {
+        "b": "fake-news",
+        "d": "viralhatch.com",
+        "h": "https://viralhatch.com",
+        "M": [],
+        "L": [],
+        "n": "Viral Hatch",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/viral-hatch/",
+        "p": "/"
+    },
+    "agweb.com": {
+        "b": "center",
+        "d": "agweb.com",
+        "h": "https://agweb.com",
+        "M": [],
+        "L": [],
+        "n": "AgWeb",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/agweb/",
         "p": "/"
     }
 }
