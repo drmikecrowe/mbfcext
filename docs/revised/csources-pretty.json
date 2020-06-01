@@ -10916,12 +10916,12 @@
         "u": "https://mediabiasfactcheck.com/geopolitics-alert/",
         "p": "/"
     },
-    "pamelageller.com": {
+    "gellerreport.com": {
         "b": "fake-news",
-        "d": "pamelageller.com",
+        "d": "gellerreport.com",
         "f": "https://facebook.com/pamelageller",
         "t": "https://twitter.com/pamelageller",
-        "h": "https://pamelageller.com",
+        "h": "https://gellerreport.com",
         "M": "53",
         "L": "355909",
         "n": "Geller Report",
@@ -15148,6 +15148,18 @@
         "u": "https://mediabiasfactcheck.com/left-foot-forward/",
         "p": "/"
     },
+    "leftwingnation.com": {
+        "b": "left",
+        "d": "leftwingnation.com",
+        "h": "https://leftwingnation.com",
+        "M": "0",
+        "L": "0",
+        "n": "Left Wing Nation",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/left-wing-nation/",
+        "p": "/"
+    },
     "lawfareblog.com": {
         "b": "center",
         "d": "lawfareblog.com",
@@ -15407,6 +15419,18 @@
         "P": "16",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/liberal-examiner/",
+        "p": "/"
+    },
+    "liberalplug.com": {
+        "b": "fake-news",
+        "d": "liberalplug.com/",
+        "h": "https://liberalplug.com/",
+        "M": "0",
+        "L": "0",
+        "n": "Liberal Plug",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/liberal-plug/",
         "p": "/"
     },
     "libcom.org": {
@@ -28071,12 +28095,12 @@
         "u": "https://mediabiasfactcheck.com/the-libertarian-republic/",
         "p": "/"
     },
-    "themindunleashed.org": {
+    "themindunleashed.com": {
         "b": "conspiracy",
-        "d": "themindunleashed.org",
+        "d": "themindunleashed.com",
         "f": "https://facebook.com/themindunleashed",
         "t": "https://twitter.com/unleashmind",
-        "h": "https://themindunleashed.org",
+        "h": "https://themindunleashed.com",
         "M": "52",
         "L": "62541",
         "n": "The Mind Unleashed",
@@ -30119,6 +30143,18 @@
         "P": "90",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/zdf-zweites-deutsches-fernsehen/",
+        "p": "/"
+    },
+    "thewashingtonstandard.com": {
+        "b": "fake-news",
+        "d": "thewashingtonstandard.com",
+        "h": "https://thewashingtonstandard.com",
+        "M": "0",
+        "L": "0",
+        "n": "The Washington Standard",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/the-washington-standard/",
         "p": "/"
     },
     "wcfcourier.com": {
@@ -33671,6 +33707,18 @@
         "P": "96",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/zero-hedge/",
+        "p": "/"
+    },
+    "summit.news": {
+        "b": "fake-news",
+        "d": "summit.news",
+        "h": "https://summit.news",
+        "M": "0",
+        "L": "0",
+        "n": "Summit News",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/summit-news/",
         "p": "/"
     },
     "rgj.com": {
@@ -38260,6 +38308,66 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/agweb/",
+        "p": "/"
+    },
+    "medicalmedium.com": {
+        "b": "conspiracy",
+        "d": "medicalmedium.com",
+        "h": "https://medicalmedium.com",
+        "M": [],
+        "L": [],
+        "n": "Medical Medium",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/medical-medium/",
+        "p": "/"
+    },
+    "iharare.com": {
+        "b": "fake-news",
+        "d": "iharare.com",
+        "h": "https://iharare.com",
+        "M": [],
+        "L": [],
+        "n": "iHarare",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/iharare/",
+        "p": "/"
+    },
+    "hannity.com": {
+        "b": "fake-news",
+        "d": "hannity.com",
+        "h": "https://hannity.com",
+        "M": [],
+        "L": [],
+        "n": "Hannity.com",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/hannity-com/",
+        "p": "/"
+    },
+    "rfi.fr": {
+        "b": "center",
+        "d": "rfi.fr",
+        "h": "https://rfi.fr",
+        "M": [],
+        "L": [],
+        "n": "RFI - Radio France Interntionale",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/rfi-radio-france-internationale/",
+        "p": "/"
+    },
+    "mb.com.ph": {
+        "b": "left-center",
+        "d": "mb.com.ph",
+        "h": "https://mb.com.ph",
+        "M": [],
+        "L": [],
+        "n": "Manila Bulletin",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/manila-bulletin/",
         "p": "/"
     }
 }

@@ -7623,9 +7623,9 @@
         "r": "M",
         "u": "geopolitics-alert"
     },
-    "pamelageller.com": {
+    "gellerreport.com": {
         "b": "FN",
-        "d": "pamelageller.com",
+        "d": "gellerreport.com",
         "f": "pamelageller",
         "t": "pamelageller",
         "n": "Geller Report",
@@ -10580,6 +10580,14 @@
         "r": "H",
         "u": "left-foot-forward"
     },
+    "leftwingnation.com": {
+        "b": "L",
+        "d": "leftwingnation.com",
+        "n": "Left Wing Nation",
+        "P": "0",
+        "r": "H",
+        "u": "left-wing-nation"
+    },
     "lawfareblog.com": {
         "b": "C",
         "d": "lawfareblog.com",
@@ -10760,6 +10768,14 @@
         "P": "16",
         "r": "M",
         "u": "liberal-examiner"
+    },
+    "liberalplug.com": {
+        "b": "FN",
+        "d": "liberalplug.com",
+        "n": "Liberal Plug",
+        "P": "0",
+        "r": "L",
+        "u": "liberal-plug"
     },
     "libcom.org": {
         "b": "L",
@@ -19596,9 +19612,9 @@
         "r": "H",
         "u": "the-libertarian-republic"
     },
-    "themindunleashed.org": {
+    "themindunleashed.com": {
         "b": "CP",
-        "d": "themindunleashed.org",
+        "d": "themindunleashed.com",
         "f": "themindunleashed",
         "t": "unleashmind",
         "n": "The Mind Unleashed",
@@ -21025,6 +21041,14 @@
         "P": "90",
         "r": "H",
         "u": "zdf-zweites-deutsches-fernsehen"
+    },
+    "thewashingtonstandard.com": {
+        "b": "FN",
+        "d": "thewashingtonstandard.com",
+        "n": "The Washington Standard",
+        "P": "0",
+        "r": "L",
+        "u": "the-washington-standard"
     },
     "wcfcourier.com": {
         "b": "C",
@@ -23489,6 +23513,14 @@
         "P": "96",
         "r": "M",
         "u": "zero-hedge"
+    },
+    "summit.news": {
+        "b": "FN",
+        "d": "summit.news",
+        "n": "Summit News",
+        "P": "0",
+        "r": "L",
+        "u": "summit-news"
     },
     "rgj.com": {
         "b": "LC",
@@ -26575,5 +26607,45 @@
         "P": [],
         "r": "H",
         "u": "agweb"
+    },
+    "medicalmedium.com": {
+        "b": "CP",
+        "d": "medicalmedium.com",
+        "n": "Medical Medium",
+        "P": [],
+        "r": "L",
+        "u": "medical-medium"
+    },
+    "iharare.com": {
+        "b": "FN",
+        "d": "iharare.com",
+        "n": "iHarare",
+        "P": [],
+        "r": "M",
+        "u": "iharare"
+    },
+    "hannity.com": {
+        "b": "FN",
+        "d": "hannity.com",
+        "n": "Hannity.com",
+        "P": [],
+        "r": "L",
+        "u": "hannity-com"
+    },
+    "rfi.fr": {
+        "b": "C",
+        "d": "rfi.fr",
+        "n": "RFI - Radio France Interntionale",
+        "P": [],
+        "r": "MF",
+        "u": "rfi-radio-france-internationale"
+    },
+    "mb.com.ph": {
+        "b": "LC",
+        "d": "mb.com.ph",
+        "n": "Manila Bulletin",
+        "P": [],
+        "r": "M",
+        "u": "manila-bulletin"
     }
 }
