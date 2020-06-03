@@ -2290,6 +2290,14 @@
         "r": "H",
         "u": "black-lives-matter"
     },
+    "sunherald.com": {
+        "b": "C",
+        "d": "sunherald.com",
+        "n": "Biloxi Sun Herald",
+        "P": "0",
+        "r": "H",
+        "u": "biloxi-sun-herald"
+    },
     "birminghammail.co.uk": {
         "b": "LC",
         "d": "birminghammail.co.uk",
@@ -3935,7 +3943,7 @@
         "t": "climatefdbk",
         "n": "Climate Feedback",
         "P": "37",
-        "r": "H",
+        "r": "VH",
         "u": "climate-feedback"
     },
     "codepink.org": {
@@ -11240,7 +11248,7 @@
         "d": "manilatimes.net",
         "n": "Manila Times",
         "P": "67",
-        "r": "H",
+        "r": "M",
         "u": "the-manila-times"
     },
     "madamericannetwork.com": {
@@ -14798,6 +14806,14 @@
         "P": "97",
         "r": "M",
         "u": "power-line"
+    },
+    "postbulletin.com": {
+        "b": "R",
+        "d": "postbulletin.com",
+        "n": "Post-Bulletin",
+        "P": "0",
+        "r": "H",
+        "u": "post-bulletin"
     },
     "poynter.org": {
         "b": "C",
@@ -26229,7 +26245,7 @@
         "d": "healthfeedback.org",
         "n": "Health Feedback",
         "P": [],
-        "r": "H",
+        "r": "VH",
         "u": "health-feedback"
     },
     "sciencefeedback.co": {
@@ -26237,7 +26253,7 @@
         "d": "sciencefeedback.co",
         "n": "Science Feedback",
         "P": [],
-        "r": "H",
+        "r": "VH",
         "u": "science-feedback"
     },
     "9news.com": {
@@ -26647,5 +26663,21 @@
         "P": [],
         "r": "M",
         "u": "manila-bulletin"
+    },
+    "kstp.com": {
+        "b": "C",
+        "d": "kstp.com",
+        "n": "KSTP-TV",
+        "P": [],
+        "r": "H",
+        "u": "kstp-tv"
+    },
+    "kiro7.com": {
+        "b": "C",
+        "d": "kiro7.com",
+        "n": "KIRO 7",
+        "P": [],
+        "r": "H",
+        "u": "kiro-7"
     }
 }

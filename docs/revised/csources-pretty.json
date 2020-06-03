@@ -3280,6 +3280,18 @@
         "u": "https://mediabiasfactcheck.com/black-lives-matter/",
         "p": "/"
     },
+    "sunherald.com": {
+        "b": "center",
+        "d": "sunherald.com",
+        "h": "https://sunherald.com",
+        "M": "0",
+        "L": "0",
+        "n": "Biloxi Sun Herald",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/biloxi-sun-herald/",
+        "p": "/"
+    },
     "birminghammail.co.uk": {
         "b": "left-center",
         "d": "birminghammail.co.uk",
@@ -5623,7 +5635,7 @@
         "L": "7081",
         "n": "Climate Feedback",
         "P": "37",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/climate-feedback/",
         "p": "/"
     },
@@ -16095,7 +16107,7 @@
         "L": "426113",
         "n": "Manila Times",
         "P": "67",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-manila-times/",
         "p": "/"
     },
@@ -21189,6 +21201,18 @@
         "P": "97",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/power-line/",
+        "p": "/"
+    },
+    "postbulletin.com": {
+        "b": "right-center",
+        "d": "postbulletin.com",
+        "h": "https://postbulletin.com",
+        "M": "0",
+        "L": "0",
+        "n": "Post-Bulletin",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/post-bulletin/",
         "p": "/"
     },
     "poynter.org": {
@@ -37742,7 +37766,7 @@
         "L": [],
         "n": "Health Feedback",
         "P": [],
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/health-feedback/",
         "p": "/"
     },
@@ -37754,7 +37778,7 @@
         "L": [],
         "n": "Science Feedback",
         "P": [],
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/science-feedback/",
         "p": "/"
     },
@@ -38368,6 +38392,30 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/manila-bulletin/",
+        "p": "/"
+    },
+    "kstp.com": {
+        "b": "center",
+        "d": "kstp.com",
+        "h": "https://kstp.com",
+        "M": [],
+        "L": [],
+        "n": "KSTP-TV",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kstp-tv/",
+        "p": "/"
+    },
+    "kiro7.com": {
+        "b": "center",
+        "d": "kiro7.com",
+        "h": "https://kiro7.com",
+        "M": [],
+        "L": [],
+        "n": "KIRO 7",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kiro-7/",
         "p": "/"
     }
 }
