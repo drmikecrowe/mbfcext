@@ -727,14 +727,14 @@
         "p": "/"
     },
     "english.alarabiya.net": {
-        "b": "center",
+        "b": "fake-news",
         "d": "english.alarabiya.net",
         "h": "https://english.alarabiya.net",
         "M": "62",
         "L": "3542107",
         "n": "Al Arabiya",
         "P": "95",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/al-arabiya/",
         "p": "/"
     },
@@ -15265,6 +15265,18 @@
         "P": "51",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/liberals-unite-samuel-warde/",
+        "p": "/"
+    },
+    "liberalsociety.com": {
+        "b": "fake-news",
+        "d": "liberalsociety.com",
+        "h": "https://liberalsociety.com",
+        "M": "0",
+        "L": "0",
+        "n": "Liberal Society",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/liberal-society/",
         "p": "/"
     },
     "lgbtqnation.com": {
@@ -33886,7 +33898,7 @@
         "L": "15020",
         "n": "America Rising PAC",
         "P": "43",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/america-rising-pac/",
         "p": "/"
     },
@@ -38416,6 +38428,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/kiro-7/",
+        "p": "/"
+    },
+    "wctrib.com": {
+        "b": "right-center",
+        "d": "wctrib.com",
+        "h": "https://wctrib.com",
+        "M": [],
+        "L": [],
+        "n": "West Central Tribune",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/west-central-tribune/",
+        "p": "/"
+    },
+    "lancasteronline.com": {
+        "b": "center",
+        "d": "lancasteronline.com",
+        "h": "https://lancasteronline.com",
+        "M": [],
+        "L": [],
+        "n": "LNP - LancasterOnline",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/lnp-lancasteronline/",
         "p": "/"
     }
 }

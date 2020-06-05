@@ -507,11 +507,11 @@
         "u": "al-hayat"
     },
     "english.alarabiya.net": {
-        "b": "C",
+        "b": "FN",
         "d": "english.alarabiya.net",
         "n": "Al Arabiya",
         "P": "95",
-        "r": "H",
+        "r": "M",
         "u": "al-arabiya"
     },
     "albawaba.com": {
@@ -10662,6 +10662,14 @@
         "P": "51",
         "r": "H",
         "u": "liberals-unite-samuel-warde"
+    },
+    "liberalsociety.com": {
+        "b": "FN",
+        "d": "liberalsociety.com",
+        "n": "Liberal Society",
+        "P": "0",
+        "r": "L",
+        "u": "liberal-society"
     },
     "lgbtqnation.com": {
         "b": "L",
@@ -23632,7 +23640,7 @@
         "d": "https://americarisingpac.org",
         "n": "America Rising PAC",
         "P": "43",
-        "r": "H",
+        "r": "M",
         "u": "america-rising-pac"
     },
     "ansa.it": {
@@ -26679,5 +26687,21 @@
         "P": [],
         "r": "H",
         "u": "kiro-7"
+    },
+    "wctrib.com": {
+        "b": "R",
+        "d": "wctrib.com",
+        "n": "West Central Tribune",
+        "P": [],
+        "r": "H",
+        "u": "west-central-tribune"
+    },
+    "lancasteronline.com": {
+        "b": "C",
+        "d": "lancasteronline.com",
+        "n": "LNP - LancasterOnline",
+        "P": [],
+        "r": "H",
+        "u": "lnp-lancasteronline"
     }
 }
