@@ -2140,7 +2140,7 @@
         "p": "/"
     },
     "arabnews.com": {
-        "b": "right-center",
+        "b": "fake-news",
         "d": "arabnews.com",
         "f": "https://facebook.com/thearabnews",
         "t": "https://twitter.com/arab_news",
@@ -2149,7 +2149,7 @@
         "L": "1115389",
         "n": "Arab News",
         "P": "87",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/arab-news/",
         "p": "/"
     },
@@ -15512,6 +15512,18 @@
         "u": "https://mediabiasfactcheck.com/lifespa/",
         "p": "/"
     },
+    "libertywritersnews.com": {
+        "b": "fake-news",
+        "d": "libertywritersnews.com/",
+        "h": "https://libertywritersnews.com/",
+        "M": "0",
+        "L": "0",
+        "n": "Liberty Writers News",
+        "P": "0",
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/liberty-writers-news/",
+        "p": "/"
+    },
     "libertyvideos.org": {
         "b": "conspiracy",
         "d": "libertyvideos.org",
@@ -15588,6 +15600,18 @@
         "P": "56",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/liberty-headlines/",
+        "p": "/"
+    },
+    "libertyunyielding.com": {
+        "b": "right",
+        "d": "libertyunyielding.com",
+        "h": "https://libertyunyielding.com",
+        "M": "0",
+        "L": "0",
+        "n": "Liberty Unyielding",
+        "P": "0",
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/liberty-unyielding/",
         "p": "/"
     },
     "lifeandabout.com": {
@@ -16000,6 +16024,18 @@
         "u": "https://mediabiasfactcheck.com/marketwatch/",
         "p": "/"
     },
+    "lubbockonline.com": {
+        "b": "right-center",
+        "d": "lubbockonline.com",
+        "h": "https://lubbockonline.com",
+        "M": "0",
+        "L": "0",
+        "n": "Lubbock Avalanche Journal",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/lubbock-avalanche-journal/",
+        "p": "/"
+    },
     "lyincomey.com": {
         "b": "right",
         "d": "lyincomey.com",
@@ -16109,6 +16145,18 @@
         "P": "73",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/manchester-union-leader/",
+        "p": "/"
+    },
+    "magavoter.com": {
+        "b": "fake-news",
+        "d": "magavoter.com",
+        "h": "https://magavoter.com",
+        "M": "0",
+        "L": "0",
+        "n": "MAGAVoter.com",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/magavoter-com/",
         "p": "/"
     },
     "manilatimes.net": {
@@ -18463,7 +18511,7 @@
         "L": "162",
         "n": "New Revolution Now",
         "P": "24",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/new-revolution-now/",
         "p": "/"
     },
@@ -23812,7 +23860,7 @@
         "L": "353717",
         "n": "Saudi Gazette",
         "P": "54",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/saudi-gazette/",
         "p": "/"
     },
@@ -27792,7 +27840,7 @@
         "L": "8236344",
         "n": "The Independent",
         "P": "98",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-independent/",
         "p": "/"
     },
@@ -38452,6 +38500,54 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/lnp-lancasteronline/",
+        "p": "/"
+    },
+    "thinkinghumanity.com": {
+        "b": "conspiracy",
+        "d": "thinkinghumanity.com",
+        "h": "https://thinkinghumanity.com",
+        "M": [],
+        "L": [],
+        "n": "Thinking Humanity",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/thinking-humanity/",
+        "p": "/"
+    },
+    "deutschland.de": {
+        "b": "right-center",
+        "d": "deutschland.de",
+        "h": "https://deutschland.de",
+        "M": [],
+        "L": [],
+        "n": "Deutschland.de",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/deutschland-de/",
+        "p": "/"
+    },
+    "berliner-zeitung.de": {
+        "b": "left-center",
+        "d": "berliner-zeitung.de",
+        "h": "https://berliner-zeitung.de",
+        "M": [],
+        "L": [],
+        "n": "Berliner Zeitung",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/berliner-zeitung/",
+        "p": "/"
+    },
+    "herb.co": {
+        "b": "conspiracy",
+        "d": "herb.co",
+        "h": "https://herb.co",
+        "M": [],
+        "L": [],
+        "n": "Herb",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/herb/",
         "p": "/"
     }
 }

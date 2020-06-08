@@ -1492,13 +1492,13 @@
         "u": "anti-war"
     },
     "arabnews.com": {
-        "b": "R",
+        "b": "FN",
         "d": "arabnews.com",
         "f": "thearabnews",
         "t": "arab_news",
         "n": "Arab News",
         "P": "87",
-        "r": "H",
+        "r": "M",
         "u": "arab-news"
     },
     "anthropocenemagazine.org": {
@@ -10832,6 +10832,14 @@
         "r": "L",
         "u": "lifespa"
     },
+    "libertywritersnews.com": {
+        "b": "FN",
+        "d": "libertywritersnews.com",
+        "n": "Liberty Writers News",
+        "P": "0",
+        "r": "VL",
+        "u": "liberty-writers-news"
+    },
     "libertyvideos.org": {
         "b": "CP",
         "d": "libertyvideos.org",
@@ -10885,6 +10893,14 @@
         "P": "56",
         "r": "M",
         "u": "liberty-headlines"
+    },
+    "libertyunyielding.com": {
+        "b": "R",
+        "d": "libertyunyielding.com",
+        "n": "Liberty Unyielding",
+        "P": "0",
+        "r": "MF",
+        "u": "liberty-unyielding"
     },
     "lifeandabout.com": {
         "b": "R",
@@ -11172,6 +11188,14 @@
         "r": "H",
         "u": "marketwatch"
     },
+    "lubbockonline.com": {
+        "b": "R",
+        "d": "lubbockonline.com",
+        "n": "Lubbock Avalanche Journal",
+        "P": "0",
+        "r": "H",
+        "u": "lubbock-avalanche-journal"
+    },
     "lyincomey.com": {
         "b": "R",
         "d": "lyincomey.com",
@@ -11250,6 +11274,14 @@
         "P": "73",
         "r": "H",
         "u": "manchester-union-leader"
+    },
+    "magavoter.com": {
+        "b": "FN",
+        "d": "magavoter.com",
+        "n": "MAGAVoter.com",
+        "P": "0",
+        "r": "L",
+        "u": "magavoter-com"
     },
     "manilatimes.net": {
         "b": "R",
@@ -12900,7 +12932,7 @@
         "d": "newrevolutionnow.org",
         "n": "New Revolution Now",
         "P": "24",
-        "r": "H",
+        "r": "M",
         "u": "new-revolution-now"
     },
     "newmatilda.com": {
@@ -16621,7 +16653,7 @@
         "t": "saudi_gazette",
         "n": "Saudi Gazette",
         "P": "54",
-        "r": "H",
+        "r": "M",
         "u": "saudi-gazette"
     },
     "thestarphoenix.com": {
@@ -19398,7 +19430,7 @@
         "f": "theindependentonline",
         "n": "The Independent",
         "P": "98",
-        "r": "H",
+        "r": "MF",
         "u": "the-independent"
     },
     "independent.org": {
@@ -26703,5 +26735,37 @@
         "P": [],
         "r": "H",
         "u": "lnp-lancasteronline"
+    },
+    "thinkinghumanity.com": {
+        "b": "CP",
+        "d": "thinkinghumanity.com",
+        "n": "Thinking Humanity",
+        "P": [],
+        "r": "L",
+        "u": "thinking-humanity"
+    },
+    "deutschland.de": {
+        "b": "R",
+        "d": "deutschland.de",
+        "n": "Deutschland.de",
+        "P": [],
+        "r": "MF",
+        "u": "deutschland-de"
+    },
+    "berliner-zeitung.de": {
+        "b": "LC",
+        "d": "berliner-zeitung.de",
+        "n": "Berliner Zeitung",
+        "P": [],
+        "r": "MF",
+        "u": "berliner-zeitung"
+    },
+    "herb.co": {
+        "b": "CP",
+        "d": "herb.co",
+        "n": "Herb",
+        "P": [],
+        "r": "M",
+        "u": "herb"
     }
 }
