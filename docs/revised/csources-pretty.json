@@ -809,16 +809,16 @@
         "p": "/"
     },
     "eng.majalla.com": {
-        "b": "center",
+        "b": "fake-news",
         "d": "eng.majalla.com",
         "f": "https://facebook.com/the.majalla",
         "t": "https://twitter.com/the_majalla",
         "h": "https://eng.majalla.com",
         "M": "40",
         "L": "4378",
-        "n": "Al Majalla",
+        "n": "The Majalla",
         "P": "22",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/al-majalla/",
         "p": "/"
     },
@@ -19396,7 +19396,7 @@
         "L": "1933951",
         "n": "Novinite",
         "P": "79",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/novinite/",
         "p": "/"
     },
@@ -38548,6 +38548,30 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/herb/",
+        "p": "/"
+    },
+    "toddstarnes.com": {
+        "b": "fake-news",
+        "d": "toddstarnes.com",
+        "h": "https://toddstarnes.com",
+        "M": [],
+        "L": [],
+        "n": "ToddStarnes.com",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/toddstarnes-com/",
+        "p": "/"
+    },
+    "trendingviews.co": {
+        "b": "right",
+        "d": "trendingviews.co",
+        "h": "https://trendingviews.co",
+        "M": [],
+        "L": [],
+        "n": "Trending Views",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/trending-views/",
         "p": "/"
     }
 }

@@ -565,13 +565,13 @@
         "u": "al-monitor"
     },
     "eng.majalla.com": {
-        "b": "C",
+        "b": "FN",
         "d": "eng.majalla.com",
         "f": "the.majalla",
         "t": "the_majalla",
-        "n": "Al Majalla",
+        "n": "The Majalla",
         "P": "22",
-        "r": "H",
+        "r": "M",
         "u": "al-majalla"
     },
     "al.com": {
@@ -13545,7 +13545,7 @@
         "t": "novinite_com",
         "n": "Novinite",
         "P": "79",
-        "r": "H",
+        "r": "MF",
         "u": "novinite"
     },
     "noscomunicamos.com": {
@@ -26767,5 +26767,21 @@
         "P": [],
         "r": "M",
         "u": "herb"
+    },
+    "toddstarnes.com": {
+        "b": "FN",
+        "d": "toddstarnes.com",
+        "n": "ToddStarnes.com",
+        "P": [],
+        "r": "M",
+        "u": "toddstarnes-com"
+    },
+    "trendingviews.co": {
+        "b": "R",
+        "d": "trendingviews.co",
+        "n": "Trending Views",
+        "P": [],
+        "r": "M",
+        "u": "trending-views"
     }
 }
