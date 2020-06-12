@@ -2217,11 +2217,11 @@
         "u": "berkshire-eagle"
     },
     "bjreview.com": {
-        "b": "LC",
+        "b": "FN",
         "d": "bjreview.com",
         "n": "Beijing Review",
         "P": "72",
-        "r": "H",
+        "r": "M",
         "u": "beijing-review"
     },
     "bigthink.com": {
@@ -2287,7 +2287,7 @@
         "f": "blacklivesmatter",
         "n": "Black Lives Matter",
         "P": "64",
-        "r": "H",
+        "r": "MF",
         "u": "black-lives-matter"
     },
     "sunherald.com": {
@@ -3194,13 +3194,14 @@
         "r": "H",
         "u": "center-for-media-and-democracy"
     },
-    "america.cgtn.com": {
-        "b": "LC",
-        "d": "america.cgtn.com",
-        "n": "China Global Television Network",
+    "english.cctv.com": {
+        "b": "FN",
+        "d": "english.cctv.com",
+        "f": "cgtnamerica",
+        "n": "CCTV International",
         "P": "37",
         "r": "M",
-        "u": "china-global-television-network-cgtn"
+        "u": "cctv-america"
     },
     "populardemocracy.org": {
         "b": "LC",
@@ -3434,6 +3435,14 @@
         "P": "75",
         "r": "M",
         "u": "charisma-news"
+    },
+    "america.cgtn.com": {
+        "b": "LC",
+        "d": "america.cgtn.com",
+        "n": "China Global Television Network",
+        "P": "37",
+        "r": "M",
+        "u": "china-global-television-network-cgtn"
     },
     "cdc.gov": {
         "b": "PS",
@@ -3879,7 +3888,7 @@
         "t": "cnbc",
         "n": "CNBC",
         "P": "95",
-        "r": "H",
+        "r": "MF",
         "u": "cnbc"
     },
     "coasttocoastam.com": {
@@ -6569,7 +6578,7 @@
         "u": "ethics-public-policy-center-eppc"
     },
     "eurasiareview.com": {
-        "b": "C",
+        "b": "LC",
         "d": "eurasiareview.com",
         "f": "eurasiareview",
         "t": "eurasiareview",
@@ -23159,7 +23168,7 @@
         "d": "who.int",
         "n": "World Health Organization",
         "P": "98",
-        "r": "VH",
+        "r": "H",
         "u": "world-health-organization-who"
     },
     "worldpolicy.org": {
@@ -26783,5 +26792,21 @@
         "P": [],
         "r": "M",
         "u": "trending-views"
+    },
+    "faithit.com": {
+        "b": "CP",
+        "d": "faithit.com",
+        "n": "FaithIt",
+        "P": [],
+        "r": "M",
+        "u": "faithit"
+    },
+    "patriotreport.com": {
+        "b": "FN",
+        "d": "patriotreport.com",
+        "n": "Patriot Post",
+        "P": [],
+        "r": "L",
+        "u": "patriot-report"
     }
 }

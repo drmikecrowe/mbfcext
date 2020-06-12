@@ -3175,14 +3175,14 @@
         "p": "/"
     },
     "bjreview.com": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "bjreview.com",
         "h": "https://bjreview.com",
         "M": "44",
         "L": "200277",
         "n": "Beijing Review",
         "P": "72",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/beijing-review/",
         "p": "/"
     },
@@ -3276,7 +3276,7 @@
         "L": "107304",
         "n": "Black Lives Matter",
         "P": "64",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/black-lives-matter/",
         "p": "/"
     },
@@ -4568,16 +4568,17 @@
         "u": "https://mediabiasfactcheck.com/center-for-media-and-democracy/",
         "p": "/"
     },
-    "america.cgtn.com": {
-        "b": "left-center",
-        "d": "america.cgtn.com/",
-        "h": "https://america.cgtn.com/",
+    "english.cctv.com": {
+        "b": "fake-news",
+        "d": "english.cctv.com",
+        "f": "https://facebook.com/cgtnamerica",
+        "h": "https://english.cctv.com",
         "M": "51",
         "L": "5833",
-        "n": "China Global Television Network",
+        "n": "CCTV International",
         "P": "37",
         "r": "MIXED",
-        "u": "https://mediabiasfactcheck.com/china-global-television-network-cgtn/",
+        "u": "https://mediabiasfactcheck.com/cctv-america/",
         "p": "/"
     },
     "populardemocracy.org": {
@@ -4906,6 +4907,18 @@
         "P": "75",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/charisma-news/",
+        "p": "/"
+    },
+    "america.cgtn.com": {
+        "b": "left-center",
+        "d": "america.cgtn.com/",
+        "h": "https://america.cgtn.com/",
+        "M": "51",
+        "L": "5833",
+        "n": "China Global Television Network",
+        "P": "37",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/china-global-television-network-cgtn/",
         "p": "/"
     },
     "cdc.gov": {
@@ -5543,7 +5556,7 @@
         "L": "3538689",
         "n": "CNBC",
         "P": "95",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/cnbc/",
         "p": "/"
     },
@@ -9402,7 +9415,7 @@
         "p": "/"
     },
     "eurasiareview.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "eurasiareview.com",
         "f": "https://facebook.com/eurasiareview",
         "t": "https://twitter.com/eurasiareview",
@@ -21117,7 +21130,7 @@
         "p": "/"
     },
     "politisite.com": {
-        "b": "right",
+        "b": "right-center",
         "d": "politisite.com",
         "h": "https://politisite.com",
         "M": "38",
@@ -33205,7 +33218,7 @@
         "L": "5669868",
         "n": "World Health Organization",
         "P": "98",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/world-health-organization-who/",
         "p": "/"
     },
@@ -38572,6 +38585,30 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/trending-views/",
+        "p": "/"
+    },
+    "faithit.com": {
+        "b": "conspiracy",
+        "d": "faithit.com",
+        "h": "https://faithit.com",
+        "M": [],
+        "L": [],
+        "n": "FaithIt",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/faithit/",
+        "p": "/"
+    },
+    "patriotreport.com": {
+        "b": "fake-news",
+        "d": "patriotreport.com",
+        "h": "https://patriotreport.com",
+        "M": [],
+        "L": [],
+        "n": "Patriot Post",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/patriot-report/",
         "p": "/"
     }
 }
