@@ -5929,7 +5929,7 @@
         "t": "dutchdailynews",
         "n": "Dutch Daily News",
         "P": "34",
-        "r": "H",
+        "r": "MF",
         "u": "dutch-daily-news"
     },
     "ewao.com": {
@@ -6430,7 +6430,7 @@
         "u": "end-time-headlines"
     },
     "eurasiagroup.net": {
-        "b": "C",
+        "b": "LC",
         "d": "eurasiagroup.net",
         "f": "none",
         "t": "eurasiagroup",
@@ -6548,7 +6548,7 @@
         "t": "euractiv",
         "n": "EurActiv",
         "P": "78",
-        "r": "M",
+        "r": "H",
         "u": "euractiv"
     },
     "everynewshere.com": {
@@ -6578,7 +6578,7 @@
         "u": "ethics-public-policy-center-eppc"
     },
     "eurasiareview.com": {
-        "b": "LC",
+        "b": "C",
         "d": "eurasiareview.com",
         "f": "eurasiareview",
         "t": "eurasiareview",
@@ -12960,7 +12960,7 @@
         "t": "new_europe",
         "n": "New Europe",
         "P": "49",
-        "r": "VH",
+        "r": "H",
         "u": "new-europe"
     },
     "newmoderate.com": {
@@ -26808,5 +26808,13 @@
         "P": [],
         "r": "L",
         "u": "patriot-report"
+    },
+    "innerstrength.zone": {
+        "b": "FN",
+        "d": "innerstrength.zone",
+        "n": "Inner Strength Zone",
+        "P": [],
+        "r": "M",
+        "u": "inner-strength-zone"
     }
 }

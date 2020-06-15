@@ -8485,7 +8485,7 @@
         "L": "3221",
         "n": "Dutch Daily News",
         "P": "34",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/dutch-daily-news/",
         "p": "/"
     },
@@ -9203,7 +9203,7 @@
         "p": "/"
     },
     "eurasiagroup.net": {
-        "b": "center",
+        "b": "left-center",
         "d": "eurasiagroup.net",
         "f": "https://facebook.com/none",
         "t": "https://twitter.com/eurasiagroup",
@@ -9372,7 +9372,7 @@
         "L": "705485",
         "n": "EurActiv",
         "P": "78",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/euractiv/",
         "p": "/"
     },
@@ -9415,7 +9415,7 @@
         "p": "/"
     },
     "eurasiareview.com": {
-        "b": "left-center",
+        "b": "center",
         "d": "eurasiareview.com",
         "f": "https://facebook.com/eurasiareview",
         "t": "https://twitter.com/eurasiareview",
@@ -18551,7 +18551,7 @@
         "L": "140898",
         "n": "New Europe",
         "P": "49",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/new-europe/",
         "p": "/"
     },
@@ -38609,6 +38609,18 @@
         "P": [],
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/patriot-report/",
+        "p": "/"
+    },
+    "innerstrength.zone": {
+        "b": "fake-news",
+        "d": "innerstrength.zone",
+        "h": "https://innerstrength.zone",
+        "M": [],
+        "L": [],
+        "n": "Inner Strength Zone",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/inner-strength-zone/",
         "p": "/"
     }
 }
