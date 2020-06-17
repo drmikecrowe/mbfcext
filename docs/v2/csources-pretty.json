@@ -6276,13 +6276,13 @@
         "u": "electronic-intifada"
     },
     "emirates247.com": {
-        "b": "LC",
+        "b": "FN",
         "d": "emirates247.com",
         "f": "emirates247",
         "t": "emirates247",
         "n": "Emirates 24/7",
         "P": "89",
-        "r": "H",
+        "r": "M",
         "u": "emirates-247"
     },
     "empirenews.net": {
@@ -26816,5 +26816,29 @@
         "P": [],
         "r": "M",
         "u": "inner-strength-zone"
+    },
+    "organicconsumers.org": {
+        "b": "CP",
+        "d": "organicconsumers.org",
+        "n": "Organic Consumers Association",
+        "P": [],
+        "r": "L",
+        "u": "organic-consumers-association"
+    },
+    "healthdata.org": {
+        "b": "PS",
+        "d": "healthdata.org",
+        "n": "Institute for Health Metrics and Evaluation (IHME)",
+        "P": [],
+        "r": "H",
+        "u": "institute-for-health-metrics-and-evaluation-healthdata-org"
+    },
+    "delo.si": {
+        "b": "LC",
+        "d": "delo.si",
+        "n": "Delo",
+        "P": [],
+        "r": "MF",
+        "u": "delo"
     }
 }

@@ -8981,7 +8981,7 @@
         "p": "/"
     },
     "emirates247.com": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "emirates247.com",
         "f": "https://facebook.com/emirates247",
         "t": "https://twitter.com/emirates247",
@@ -8990,7 +8990,7 @@
         "L": "1251662",
         "n": "Emirates 24/7",
         "P": "89",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/emirates-247/",
         "p": "/"
     },
@@ -38621,6 +38621,42 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/inner-strength-zone/",
+        "p": "/"
+    },
+    "organicconsumers.org": {
+        "b": "conspiracy",
+        "d": "organicconsumers.org",
+        "h": "https://organicconsumers.org",
+        "M": [],
+        "L": [],
+        "n": "Organic Consumers Association",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/organic-consumers-association/",
+        "p": "/"
+    },
+    "healthdata.org": {
+        "b": "pro-science",
+        "d": "healthdata.org",
+        "h": "https://healthdata.org",
+        "M": [],
+        "L": [],
+        "n": "Institute for Health Metrics and Evaluation (IHME)",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/institute-for-health-metrics-and-evaluation-healthdata-org/",
+        "p": "/"
+    },
+    "delo.si": {
+        "b": "left-center",
+        "d": "delo.si",
+        "h": "https://delo.si",
+        "M": [],
+        "L": [],
+        "n": "Delo",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/delo/",
         "p": "/"
     }
 }
