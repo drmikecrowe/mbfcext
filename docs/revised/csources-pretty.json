@@ -739,7 +739,7 @@
         "p": "/"
     },
     "albawaba.com": {
-        "b": "center",
+        "b": "fake-news",
         "d": "albawaba.com",
         "f": "https://facebook.com/albawabanews",
         "t": "https://twitter.com/albawabaenglish",
@@ -748,7 +748,7 @@
         "L": "1063901",
         "n": "Al Bawaba",
         "P": "78",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/al-bawaba/",
         "p": "/"
     },
@@ -11883,7 +11883,7 @@
         "L": "224300",
         "n": "Guardian Liberty Voice",
         "P": "45",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/guardian-liberty-voice/",
         "p": "/"
     },
@@ -12153,7 +12153,7 @@
         "p": "/"
     },
     "gulfnews.com": {
-        "b": "right-center",
+        "b": "fake-news",
         "d": "gulfnews.com",
         "f": "https://facebook.com/gulfnews.uae",
         "h": "https://gulfnews.com",
@@ -12161,7 +12161,7 @@
         "L": "991254",
         "n": "Gulf News",
         "P": "82",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/gulf-news/",
         "p": "/"
     },
@@ -12600,7 +12600,7 @@
         "L": "2262714",
         "n": "Herald Sun (AUS)",
         "P": "94",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/herald-sun/",
         "p": "/"
     },
@@ -26534,10 +26534,10 @@
         "u": "https://mediabiasfactcheck.com/the-chaser/",
         "p": "/"
     },
-    "chinapost.com.tw": {
+    "chinapost.nownews.com": {
         "b": "center",
-        "d": "chinapost.com.tw",
-        "h": "https://chinapost.com.tw",
+        "d": "chinapost.nownews.com/",
+        "h": "https://chinapost.nownews.com/",
         "M": "59",
         "L": "902351",
         "n": "The China Post",
@@ -33806,6 +33806,18 @@
         "u": "https://mediabiasfactcheck.com/zero-hedge/",
         "p": "/"
     },
+    "dailycamera.com": {
+        "b": "center",
+        "d": "dailycamera.com",
+        "h": "https://dailycamera.com",
+        "M": "0",
+        "L": "0",
+        "n": "Daily Camera",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/daily-camera/",
+        "p": "/"
+    },
     "summit.news": {
         "b": "fake-news",
         "d": "summit.news",
@@ -38657,6 +38669,114 @@
         "P": [],
         "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/delo/",
+        "p": "/"
+    },
+    "clarionledger.com": {
+        "b": "left-center",
+        "d": "clarionledger.com",
+        "h": "https://clarionledger.com",
+        "M": [],
+        "L": [],
+        "n": "Clarion Ledger",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/clarion-ledger/",
+        "p": "/"
+    },
+    "rocketnews.com": {
+        "b": "left-center",
+        "d": "rocketnews.com",
+        "h": "https://rocketnews.com",
+        "M": [],
+        "L": [],
+        "n": "RocketNews",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/rocketnews/",
+        "p": "/"
+    },
+    "nordicmonitor.com": {
+        "b": "fake-news",
+        "d": "nordicmonitor.com",
+        "h": "https://nordicmonitor.com",
+        "M": [],
+        "L": [],
+        "n": "Nordic Monitor",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/nordic-monitor/",
+        "p": "/"
+    },
+    "sohu.com": {
+        "b": "fake-news",
+        "d": "sohu.com",
+        "h": "https://sohu.com",
+        "M": [],
+        "L": [],
+        "n": "Sohu,com",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/sohu-com/",
+        "p": "/"
+    },
+    "blackamericaweb.com": {
+        "b": "left",
+        "d": "blackamericaweb.com",
+        "h": "https://blackamericaweb.com",
+        "M": [],
+        "L": [],
+        "n": "Black America Web",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/black-america-web/",
+        "p": "/"
+    },
+    "arte.tv": {
+        "b": "left-center",
+        "d": "arte.tv",
+        "h": "https://arte.tv",
+        "M": [],
+        "L": [],
+        "n": "ARTE",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/arte/",
+        "p": "/"
+    },
+    "blackmainstreet.net": {
+        "b": "left",
+        "d": "blackmainstreet.net",
+        "h": "https://blackmainstreet.net",
+        "M": [],
+        "L": [],
+        "n": "Black Main Street",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/black-main-street/",
+        "p": "/"
+    },
+    "davidharrisjr.com": {
+        "b": "fake-news",
+        "d": "davidharrisjr.com",
+        "h": "https://davidharrisjr.com",
+        "M": [],
+        "L": [],
+        "n": "DavidHarrisJr.com",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/davidharrisjr-com/",
+        "p": "/"
+    },
+    "fabiosa.com": {
+        "b": "conspiracy",
+        "d": "fabiosa.com",
+        "h": "https://fabiosa.com",
+        "M": [],
+        "L": [],
+        "n": "Fabiosa",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/fabiosa/",
         "p": "/"
     }
 }

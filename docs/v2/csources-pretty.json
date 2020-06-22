@@ -515,13 +515,13 @@
         "u": "al-arabiya"
     },
     "albawaba.com": {
-        "b": "C",
+        "b": "FN",
         "d": "albawaba.com",
         "f": "albawabanews",
         "t": "albawabaenglish",
         "n": "Al Bawaba",
         "P": "78",
-        "r": "H",
+        "r": "M",
         "u": "al-bawaba"
     },
     "almasdarnews.com": {
@@ -8295,7 +8295,7 @@
         "d": "guardianlv.com",
         "n": "Guardian Liberty Voice",
         "P": "45",
-        "r": "H",
+        "r": "MF",
         "u": "guardian-liberty-voice"
     },
     "greenvillegazette.com": {
@@ -8484,12 +8484,12 @@
         "u": "gun-violence-archive"
     },
     "gulfnews.com": {
-        "b": "R",
+        "b": "FN",
         "d": "gulfnews.com",
         "f": "gulfnews.uae",
         "n": "Gulf News",
         "P": "82",
-        "r": "H",
+        "r": "M",
         "u": "gulf-news"
     },
     "health.com": {
@@ -8796,7 +8796,7 @@
         "t": "theheraldsun",
         "n": "Herald Sun (AUS)",
         "P": "94",
-        "r": "H",
+        "r": "MF",
         "u": "herald-sun"
     },
     "alexanderhiggins.com": {
@@ -18518,9 +18518,9 @@
         "P": "42",
         "u": "the-chaser"
     },
-    "chinapost.com.tw": {
+    "chinapost.nownews.com": {
         "b": "C",
-        "d": "chinapost.com.tw",
+        "d": "chinapost.nownews.com",
         "n": "The China Post",
         "P": "74",
         "r": "H",
@@ -23579,6 +23579,14 @@
         "r": "M",
         "u": "zero-hedge"
     },
+    "dailycamera.com": {
+        "b": "C",
+        "d": "dailycamera.com",
+        "n": "Daily Camera",
+        "P": "0",
+        "r": "H",
+        "u": "daily-camera"
+    },
     "summit.news": {
         "b": "FN",
         "d": "summit.news",
@@ -26840,5 +26848,77 @@
         "P": [],
         "r": "MF",
         "u": "delo"
+    },
+    "clarionledger.com": {
+        "b": "LC",
+        "d": "clarionledger.com",
+        "n": "Clarion Ledger",
+        "P": [],
+        "r": "H",
+        "u": "clarion-ledger"
+    },
+    "rocketnews.com": {
+        "b": "LC",
+        "d": "rocketnews.com",
+        "n": "RocketNews",
+        "P": [],
+        "r": "M",
+        "u": "rocketnews"
+    },
+    "nordicmonitor.com": {
+        "b": "FN",
+        "d": "nordicmonitor.com",
+        "n": "Nordic Monitor",
+        "P": [],
+        "r": "M",
+        "u": "nordic-monitor"
+    },
+    "sohu.com": {
+        "b": "FN",
+        "d": "sohu.com",
+        "n": "Sohu,com",
+        "P": [],
+        "r": "M",
+        "u": "sohu-com"
+    },
+    "blackamericaweb.com": {
+        "b": "L",
+        "d": "blackamericaweb.com",
+        "n": "Black America Web",
+        "P": [],
+        "r": "MF",
+        "u": "black-america-web"
+    },
+    "arte.tv": {
+        "b": "LC",
+        "d": "arte.tv",
+        "n": "ARTE",
+        "P": [],
+        "r": "MF",
+        "u": "arte"
+    },
+    "blackmainstreet.net": {
+        "b": "L",
+        "d": "blackmainstreet.net",
+        "n": "Black Main Street",
+        "P": [],
+        "r": "MF",
+        "u": "black-main-street"
+    },
+    "davidharrisjr.com": {
+        "b": "FN",
+        "d": "davidharrisjr.com",
+        "n": "DavidHarrisJr.com",
+        "P": [],
+        "r": "L",
+        "u": "davidharrisjr-com"
+    },
+    "fabiosa.com": {
+        "b": "CP",
+        "d": "fabiosa.com",
+        "n": "Fabiosa",
+        "P": [],
+        "r": "M",
+        "u": "fabiosa"
     }
 }
