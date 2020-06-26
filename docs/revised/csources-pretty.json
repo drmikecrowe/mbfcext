@@ -3042,16 +3042,16 @@
         "p": "/"
     },
     "facebook.com": {
-        "b": "fake-news",
-        "d": "https://www.facebook.com/conservativepoliticstoday/",
-        "h": "https://https://www.facebook.com/conservativepoliticstoday/",
-        "M": "64",
-        "L": "4",
-        "n": "Conservative Politics Today",
-        "P": "11",
-        "r": "LOW",
-        "u": "https://mediabiasfactcheck.com/conservative-politics-today/",
-        "p": "/conservativepoliticstoday/"
+        "b": "left-center",
+        "d": "facebook.com/news",
+        "h": "https://facebook.com/news",
+        "M": [],
+        "L": [],
+        "n": "Facebook News",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/facebook-news/",
+        "p": "/news"
     },
     "belfercenter.org": {
         "b": "center",
@@ -10079,7 +10079,7 @@
         "h": "https://financialexpress.com",
         "M": "64",
         "L": "3073880",
-        "n": "Financal Express",
+        "n": "Financial Express",
         "P": "94",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/financial-express/",
@@ -10158,7 +10158,7 @@
         "h": "https://ft.com",
         "M": "77",
         "L": "6923493",
-        "n": "Financal Times",
+        "n": "Financial Times",
         "P": "97",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/financial-times/",
@@ -13402,16 +13402,16 @@
         "u": "https://mediabiasfactcheck.com/infogalactic/",
         "p": "/"
     },
-    "ijr.com": {
-        "b": "right",
-        "d": "ijr.com",
+    "ijr.org": {
+        "b": "center",
+        "d": "ijr.org",
         "f": "https://facebook.com/theijr",
-        "h": "https://ijr.com",
+        "h": "https://ijr.org",
         "M": "54",
         "L": "307407",
         "n": "Independent Journal Review",
         "P": "72",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/independent-journal-review/",
         "p": "/"
     },
@@ -17313,6 +17313,18 @@
         "u": "https://mediabiasfactcheck.com/mother-nature-network/",
         "p": "/"
     },
+    "nationonenews.com": {
+        "b": "fake-news",
+        "d": "nationonenews.com/",
+        "h": "https://nationonenews.com/",
+        "M": "0",
+        "L": "0",
+        "n": "Nation One News",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/nation-one-news/",
+        "p": "/"
+    },
     "myrightamerica.com": {
         "b": "fake-news",
         "d": "myrightamerica.com",
@@ -17647,7 +17659,7 @@
         "p": "/"
     },
     "naacp.org": {
-        "b": "left-center",
+        "b": "left",
         "d": "naacp.org",
         "f": "https://facebook.com/naacp",
         "t": "https://twitter.com/naacp",
@@ -28276,7 +28288,7 @@
         "p": "/"
     },
     "thenational.ae": {
-        "b": "right-center",
+        "b": "fake-news",
         "d": "thenational.ae",
         "f": "https://facebook.com/thenational.ae",
         "t": "https://twitter.com/thenationaluae",
@@ -28285,7 +28297,7 @@
         "L": "577766",
         "n": "The National (UAE)",
         "P": "75",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-national-uae/",
         "p": "/"
     },
@@ -38777,6 +38789,54 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/fabiosa/",
+        "p": "/"
+    },
+    "kqed.org": {
+        "b": "left-center",
+        "d": "kqed.org",
+        "h": "https://kqed.org",
+        "M": [],
+        "L": [],
+        "n": "KQED",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kqed/",
+        "p": "/"
+    },
+    "scoperatings.com": {
+        "b": "right-center",
+        "d": "scoperatings.com",
+        "h": "https://scoperatings.com",
+        "M": [],
+        "L": [],
+        "n": "Scope Ratings",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/scope-ratings/",
+        "p": "/"
+    },
+    "fitchratings.com": {
+        "b": "right-center",
+        "d": "fitchratings.com",
+        "h": "https://fitchratings.com",
+        "M": [],
+        "L": [],
+        "n": "Fitch Ratings",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/fitch-ratings/",
+        "p": "/"
+    },
+    "elle.com": {
+        "b": "left",
+        "d": "elle.com",
+        "h": "https://elle.com",
+        "M": [],
+        "L": [],
+        "n": "Elle Magazine",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/elle-magazine/",
         "p": "/"
     }
 }

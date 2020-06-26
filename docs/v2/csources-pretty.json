@@ -2123,13 +2123,13 @@
         "u": "belleville-news-democrat"
     },
     "facebook.com": {
-        "b": "FN",
-        "d": "https://www.facebook.com/conservativepoliticstoday",
-        "n": "Conservative Politics Today",
-        "P": "11",
-        "r": "L",
-        "u": "conservative-politics-today",
-        "p": "/conservativepoliticstoday"
+        "b": "LC",
+        "d": "facebook.com/news",
+        "n": "Facebook News",
+        "P": [],
+        "r": "MF",
+        "u": "facebook-news",
+        "p": "/news"
     },
     "belfercenter.org": {
         "b": "C",
@@ -7039,7 +7039,7 @@
         "d": "financialexpress.com",
         "f": "thefinancialexpress",
         "t": "febdonline",
-        "n": "Financal Express",
+        "n": "Financial Express",
         "P": "94",
         "r": "H",
         "u": "financial-express"
@@ -7094,7 +7094,7 @@
         "b": "C",
         "d": "ft.com",
         "t": "financialtimes",
-        "n": "Financal Times",
+        "n": "Financial Times",
         "P": "97",
         "r": "H",
         "u": "financial-times"
@@ -9358,13 +9358,13 @@
         "r": "L",
         "u": "infogalactic"
     },
-    "ijr.com": {
-        "b": "R",
-        "d": "ijr.com",
+    "ijr.org": {
+        "b": "C",
+        "d": "ijr.org",
         "f": "theijr",
         "n": "Independent Journal Review",
         "P": "72",
-        "r": "H",
+        "r": "MF",
         "u": "independent-journal-review"
     },
     "independentsciencenews.org": {
@@ -12093,6 +12093,14 @@
         "r": "H",
         "u": "mother-nature-network"
     },
+    "nationonenews.com": {
+        "b": "FN",
+        "d": "nationonenews.com",
+        "n": "Nation One News",
+        "P": "0",
+        "r": "L",
+        "u": "nation-one-news"
+    },
     "myrightamerica.com": {
         "b": "FN",
         "d": "myrightamerica.com",
@@ -12327,7 +12335,7 @@
         "u": "national-economics-editorial"
     },
     "naacp.org": {
-        "b": "LC",
+        "b": "L",
         "d": "naacp.org",
         "f": "naacp",
         "t": "naacp",
@@ -19737,13 +19745,13 @@
         "u": "the-new-arab"
     },
     "thenational.ae": {
-        "b": "R",
+        "b": "FN",
         "d": "thenational.ae",
         "f": "thenational.ae",
         "t": "thenationaluae",
         "n": "The National (UAE)",
         "P": "75",
-        "r": "H",
+        "r": "M",
         "u": "the-national-uae"
     },
     "modbee.com": {
@@ -26920,5 +26928,37 @@
         "P": [],
         "r": "M",
         "u": "fabiosa"
+    },
+    "kqed.org": {
+        "b": "LC",
+        "d": "kqed.org",
+        "n": "KQED",
+        "P": [],
+        "r": "H",
+        "u": "kqed"
+    },
+    "scoperatings.com": {
+        "b": "R",
+        "d": "scoperatings.com",
+        "n": "Scope Ratings",
+        "P": [],
+        "r": "MF",
+        "u": "scope-ratings"
+    },
+    "fitchratings.com": {
+        "b": "R",
+        "d": "fitchratings.com",
+        "n": "Fitch Ratings",
+        "P": [],
+        "r": "H",
+        "u": "fitch-ratings"
+    },
+    "elle.com": {
+        "b": "L",
+        "d": "elle.com",
+        "n": "Elle Magazine",
+        "P": [],
+        "r": "MF",
+        "u": "elle-magazine"
     }
 }
