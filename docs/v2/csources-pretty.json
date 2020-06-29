@@ -497,13 +497,13 @@
         "u": "akkadian-times"
     },
     "alhayat.com": {
-        "b": "LC",
+        "b": "FN",
         "d": "alhayat.com",
         "f": "alhayatdaily",
         "t": "alhayatdaily",
         "n": "Al-Hayat",
         "P": "79",
-        "r": "H",
+        "r": "M",
         "u": "al-hayat"
     },
     "english.alarabiya.net": {
@@ -9113,9 +9113,9 @@
         "d": "icenews.is",
         "f": "icenews",
         "t": "icenews",
-        "n": "Ice News",
+        "n": "IceNews",
         "P": "44",
-        "r": "H",
+        "r": "MF",
         "u": "ice-news"
     },
     "ilovenativeamericans.us": {
@@ -12731,6 +12731,14 @@
         "r": "L",
         "u": "neon-nettle"
     },
+    "nbc.com.co": {
+        "b": "FN",
+        "d": "nbc.com.co",
+        "n": "NBC.com.co",
+        "P": "0",
+        "r": "VL",
+        "u": "nbc-com-co"
+    },
     "newbostonpost.com": {
         "b": "R",
         "d": "newbostonpost.com",
@@ -16206,6 +16214,14 @@
         "r": "H",
         "u": "right-wing-watch"
     },
+    "rightwingtribune.com": {
+        "b": "FN",
+        "d": "rightwingtribune.com",
+        "n": "Right Wing Tribune",
+        "P": "0",
+        "r": "L",
+        "u": "right-wing-tribune"
+    },
     "rockcitytimes.com": {
         "b": "S",
         "d": "rockcitytimes.com",
@@ -16330,12 +16346,12 @@
         "u": "rolling-stone"
     },
     "rudaw.net": {
-        "b": "LC",
+        "b": "FN",
         "d": "rudaw.net",
         "f": "rudawenglish",
         "n": "Rudaw",
         "P": "48",
-        "r": "H",
+        "r": "M",
         "u": "rudaw"
     },
     "sandiegofreepress.org": {
@@ -18640,6 +18656,14 @@
         "r": "H",
         "u": "the-century-foundation"
     },
+    "theconservativeopinion.com": {
+        "b": "R",
+        "d": "theconservativeopinion.com",
+        "n": "The Conservative Opinion",
+        "P": "0",
+        "r": "M",
+        "u": "conservative-opinion"
+    },
     "thecommonsenseshow.com": {
         "b": "CP",
         "d": "thecommonsenseshow.com",
@@ -19344,7 +19368,7 @@
         "t": "jerusalem_post",
         "n": "Jerusalem Post",
         "P": "95",
-        "r": "H",
+        "r": "MF",
         "u": "the-jerusalem-post"
     },
     "theintercept.com": {
@@ -26960,5 +26984,29 @@
         "P": [],
         "r": "MF",
         "u": "elle-magazine"
+    },
+    "philadelphia.cbslocal.com": {
+        "b": "C",
+        "d": "philadelphia.cbslocal.com",
+        "n": "CBS Philly (KYW-TV)",
+        "P": [],
+        "r": "H",
+        "u": "cbs-philly-kyw-tv"
+    },
+    "westonaprice.org": {
+        "b": "CP",
+        "d": "westonaprice.org",
+        "n": "Weston A. Price Foundation",
+        "P": [],
+        "r": "L",
+        "u": "weston-a-price-foundation"
+    },
+    "blacknews.com": {
+        "b": "FN",
+        "d": "blacknews.com",
+        "n": "BlackNews.com",
+        "P": [],
+        "r": "M",
+        "u": "blacknews-com"
     }
 }

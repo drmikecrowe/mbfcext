@@ -713,7 +713,7 @@
         "p": "/"
     },
     "alhayat.com": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "alhayat.com",
         "f": "https://facebook.com/alhayatdaily",
         "t": "https://twitter.com/alhayatdaily",
@@ -722,7 +722,7 @@
         "L": "376686",
         "n": "Al-Hayat",
         "P": "79",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/al-hayat/",
         "p": "/"
     },
@@ -13052,9 +13052,9 @@
         "h": "https://icenews.is",
         "M": "50",
         "L": "52458",
-        "n": "Ice News",
+        "n": "IceNews",
         "P": "44",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/ice-news/",
         "p": "/"
     },
@@ -18223,6 +18223,18 @@
         "u": "https://mediabiasfactcheck.com/neon-nettle/",
         "p": "/"
     },
+    "nbc.com.co": {
+        "b": "fake-news",
+        "d": "nbc.com.co",
+        "h": "https://nbc.com.co",
+        "M": "0",
+        "L": "0",
+        "n": "NBC.com.co",
+        "P": "0",
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/nbc-com-co/",
+        "p": "/"
+    },
     "newbostonpost.com": {
         "b": "right",
         "d": "newbostonpost.com",
@@ -23222,6 +23234,18 @@
         "u": "https://mediabiasfactcheck.com/right-wing-watch/",
         "p": "/"
     },
+    "rightwingtribune.com": {
+        "b": "fake-news",
+        "d": "rightwingtribune.com",
+        "h": "https://rightwingtribune.com",
+        "M": "0",
+        "L": "0",
+        "n": "Right Wing Tribune",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/right-wing-tribune/",
+        "p": "/"
+    },
     "rockcitytimes.com": {
         "b": "satire",
         "d": "rockcitytimes.com",
@@ -23398,7 +23422,7 @@
         "p": "/"
     },
     "rudaw.net": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "rudaw.net",
         "f": "https://facebook.com/rudawenglish",
         "h": "https://rudaw.net",
@@ -23406,7 +23430,7 @@
         "L": "24887",
         "n": "Rudaw",
         "P": "48",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/rudaw/",
         "p": "/"
     },
@@ -26708,6 +26732,18 @@
         "u": "https://mediabiasfactcheck.com/the-century-foundation/",
         "p": "/"
     },
+    "theconservativeopinion.com": {
+        "b": "right",
+        "d": "theconservativeopinion.com",
+        "h": "https://theconservativeopinion.com",
+        "M": "0",
+        "L": "0",
+        "n": "The Conservative Opinion",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/conservative-opinion/",
+        "p": "/"
+    },
     "thecommonsenseshow.com": {
         "b": "conspiracy",
         "d": "thecommonsenseshow.com",
@@ -27718,7 +27754,7 @@
         "L": "3400640",
         "n": "Jerusalem Post",
         "P": "95",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-jerusalem-post/",
         "p": "/"
     },
@@ -38837,6 +38873,42 @@
         "P": [],
         "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/elle-magazine/",
+        "p": "/"
+    },
+    "philadelphia.cbslocal.com": {
+        "b": "center",
+        "d": "philadelphia.cbslocal.com",
+        "h": "https://philadelphia.cbslocal.com",
+        "M": [],
+        "L": [],
+        "n": "CBS Philly (KYW-TV)",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/cbs-philly-kyw-tv/",
+        "p": "/"
+    },
+    "westonaprice.org": {
+        "b": "conspiracy",
+        "d": "westonaprice.org",
+        "h": "https://westonaprice.org",
+        "M": [],
+        "L": [],
+        "n": "Weston A. Price Foundation",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/weston-a-price-foundation/",
+        "p": "/"
+    },
+    "blacknews.com": {
+        "b": "fake-news",
+        "d": "blacknews.com",
+        "h": "https://blacknews.com",
+        "M": [],
+        "L": [],
+        "n": "BlackNews.com",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/blacknews-com/",
         "p": "/"
     }
 }
