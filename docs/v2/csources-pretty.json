@@ -3437,7 +3437,7 @@
         "u": "charisma-news"
     },
     "america.cgtn.com": {
-        "b": "LC",
+        "b": "FN",
         "d": "america.cgtn.com",
         "n": "China Global Television Network",
         "P": "37",
@@ -7694,7 +7694,7 @@
         "t": "gbtimes",
         "n": "GBTimes",
         "P": "64",
-        "r": "H",
+        "r": "M",
         "u": "gbtimes"
     },
     "fwdnow.com": {
@@ -9594,7 +9594,7 @@
         "f": "crisisgroup",
         "n": "International Crisis Group",
         "P": "78",
-        "r": "H",
+        "r": "VH",
         "u": "international-crisis-group"
     },
     "iop.org": {
@@ -9887,7 +9887,7 @@
         "t": "independent_ie",
         "n": "Irish Independent",
         "P": "73",
-        "r": "H",
+        "r": "MF",
         "u": "irish-independent"
     },
     "investors.com": {
@@ -13024,7 +13024,7 @@
         "u": "news-feed-hunter"
     },
     "kfor.com": {
-        "b": "LC",
+        "b": "C",
         "d": "kfor.com",
         "f": "kfor4",
         "t": "kfor",
@@ -19939,7 +19939,7 @@
         "t": "thenextweb",
         "n": "The Next Web (TNW)",
         "P": "91",
-        "r": "H",
+        "r": "M",
         "u": "the-next-web"
     },
     "thenewstribune.com": {
@@ -27008,5 +27008,45 @@
         "P": [],
         "r": "M",
         "u": "blacknews-com"
+    },
+    "breakingchristiannews.com": {
+        "b": "FN",
+        "d": "breakingchristiannews.com",
+        "n": "Breaking Christian News",
+        "P": [],
+        "r": "L",
+        "u": "breaking-christian-news"
+    },
+    "aapsonline.org": {
+        "b": "FN",
+        "d": "aapsonline.org",
+        "n": "Association of American Physicians and Surgeons (AAPS)",
+        "P": [],
+        "r": "L",
+        "u": "association-of-american-physicians-and-surgeons-aaps"
+    },
+    "thejeffreylord.com": {
+        "b": "R",
+        "d": "thejeffreylord.com",
+        "n": "Thejeffreylord.com",
+        "P": [],
+        "r": "MF",
+        "u": "thejeffreylord-com"
+    },
+    "fayobserver.com": {
+        "b": "C",
+        "d": "fayobserver.com",
+        "n": "Fayetteville Observer",
+        "P": [],
+        "r": "H",
+        "u": "fayetteville-observer"
+    },
+    "nwaonline.com": {
+        "b": "R",
+        "d": "nwaonline.com",
+        "n": "Northwest Arkansas Democrat-Gazette",
+        "P": [],
+        "r": "H",
+        "u": "northwest-arkansas-democrat-gazette"
     }
 }

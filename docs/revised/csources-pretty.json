@@ -4910,7 +4910,7 @@
         "p": "/"
     },
     "america.cgtn.com": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "america.cgtn.com/",
         "h": "https://america.cgtn.com/",
         "M": "51",
@@ -11018,7 +11018,7 @@
         "L": "112884",
         "n": "GBTimes",
         "P": "64",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/gbtimes/",
         "p": "/"
     },
@@ -13737,7 +13737,7 @@
         "L": "312267",
         "n": "International Crisis Group",
         "P": "78",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/international-crisis-group/",
         "p": "/"
     },
@@ -14154,7 +14154,7 @@
         "L": "1159348",
         "n": "Irish Independent",
         "P": "73",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/irish-independent/",
         "p": "/"
     },
@@ -18644,7 +18644,7 @@
         "p": "/"
     },
     "kfor.com": {
-        "b": "left-center",
+        "b": "center",
         "d": "kfor.com",
         "f": "https://facebook.com/kfor4",
         "t": "https://twitter.com/kfor",
@@ -28569,7 +28569,7 @@
         "L": "1685446",
         "n": "The Next Web (TNW)",
         "P": "91",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-next-web/",
         "p": "/"
     },
@@ -38909,6 +38909,66 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/blacknews-com/",
+        "p": "/"
+    },
+    "breakingchristiannews.com": {
+        "b": "fake-news",
+        "d": "breakingchristiannews.com",
+        "h": "https://breakingchristiannews.com",
+        "M": [],
+        "L": [],
+        "n": "Breaking Christian News",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/breaking-christian-news/",
+        "p": "/"
+    },
+    "aapsonline.org": {
+        "b": "fake-news",
+        "d": "aapsonline.org",
+        "h": "https://aapsonline.org",
+        "M": [],
+        "L": [],
+        "n": "Association of American Physicians and Surgeons (AAPS)",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/association-of-american-physicians-and-surgeons-aaps/",
+        "p": "/"
+    },
+    "thejeffreylord.com": {
+        "b": "right",
+        "d": "thejeffreylord.com",
+        "h": "https://thejeffreylord.com",
+        "M": [],
+        "L": [],
+        "n": "Thejeffreylord.com",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/thejeffreylord-com/",
+        "p": "/"
+    },
+    "fayobserver.com": {
+        "b": "center",
+        "d": "fayobserver.com",
+        "h": "https://fayobserver.com",
+        "M": [],
+        "L": [],
+        "n": "Fayetteville Observer",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/fayetteville-observer/",
+        "p": "/"
+    },
+    "nwaonline.com": {
+        "b": "right-center",
+        "d": "nwaonline.com",
+        "h": "https://nwaonline.com",
+        "M": [],
+        "L": [],
+        "n": "Northwest Arkansas Democrat-Gazette",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/northwest-arkansas-democrat-gazette/",
         "p": "/"
     }
 }
