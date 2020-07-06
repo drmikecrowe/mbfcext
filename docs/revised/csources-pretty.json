@@ -2511,14 +2511,14 @@
         "p": "/"
     },
     "afr.com": {
-        "b": "center",
+        "b": "right-center",
         "d": "afr.com",
         "f": "https://facebook.com/financialreview",
         "t": "https://twitter.com/financialreview",
         "h": "https://afr.com",
         "M": "64",
         "L": "3438778",
-        "n": "The Australian Finacial Review",
+        "n": "The Australian Financial Review",
         "P": "95",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/the-australian-financial-review/",
@@ -16280,7 +16280,7 @@
         "L": "1228074",
         "n": "Mayo Clinic",
         "P": "86",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/mayo-clinic/",
         "p": "/"
     },
@@ -20060,6 +20060,18 @@
         "u": "https://mediabiasfactcheck.com/opendemocracy/",
         "p": "/"
     },
+    "ourvoiceny.com": {
+        "b": "left",
+        "d": "ourvoiceny.com",
+        "h": "https://ourvoiceny.com",
+        "M": "0",
+        "L": "0",
+        "n": "Our Voice NY",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/our-voice-ny/",
+        "p": "/"
+    },
     "outsidethebeltway.com": {
         "b": "left-center",
         "d": "outsidethebeltway.com",
@@ -20095,7 +20107,7 @@
         "L": "171850",
         "n": "Oyez Project",
         "P": "71",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/oyez-project/",
         "p": "/"
     },
@@ -30959,7 +30971,7 @@
         "p": "/"
     },
     "truththeory.com": {
-        "b": "conspiracy",
+        "b": "left",
         "d": "truththeory.com",
         "f": "https://facebook.com/truththeory",
         "t": "https://twitter.com/truththeorycom",
@@ -30968,7 +30980,7 @@
         "L": "92390",
         "n": "Truth Theory",
         "P": "62",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/truth-theory/",
         "p": "/"
     },
@@ -38969,6 +38981,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/northwest-arkansas-democrat-gazette/",
+        "p": "/"
+    },
+    "breakingwide.com": {
+        "b": "fake-news",
+        "d": "breakingwide.com",
+        "h": "https://breakingwide.com",
+        "M": [],
+        "L": [],
+        "n": "Breaking Wide",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/breaking-wide/",
+        "p": "/"
+    },
+    "recordnet.com": {
+        "b": "center",
+        "d": "recordnet.com",
+        "h": "https://recordnet.com",
+        "M": [],
+        "L": [],
+        "n": "The Record (Stockton)",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-record-stockton/",
         "p": "/"
     }
 }

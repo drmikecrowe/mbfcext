@@ -1751,11 +1751,11 @@
         "u": "autistic-self-advocacy-network"
     },
     "afr.com": {
-        "b": "C",
+        "b": "R",
         "d": "afr.com",
         "f": "financialreview",
         "t": "financialreview",
-        "n": "The Australian Finacial Review",
+        "n": "The Australian Financial Review",
         "P": "95",
         "r": "H",
         "u": "the-australian-financial-review"
@@ -11365,7 +11365,7 @@
         "t": "mayoclinic",
         "n": "Mayo Clinic",
         "P": "86",
-        "r": "VH",
+        "r": "H",
         "u": "mayo-clinic"
     },
     "medicalxpress.com": {
@@ -14008,6 +14008,14 @@
         "r": "H",
         "u": "opendemocracy"
     },
+    "ourvoiceny.com": {
+        "b": "L",
+        "d": "ourvoiceny.com",
+        "n": "Our Voice NY",
+        "P": "0",
+        "r": "H",
+        "u": "our-voice-ny"
+    },
     "outsidethebeltway.com": {
         "b": "LC",
         "d": "outsidethebeltway.com",
@@ -14032,7 +14040,7 @@
         "d": "oyez.org",
         "n": "Oyez Project",
         "P": "71",
-        "r": "H",
+        "r": "VH",
         "u": "oyez-project"
     },
     "patriotbeacon.com": {
@@ -21608,13 +21616,13 @@
         "u": "truth-bang"
     },
     "truththeory.com": {
-        "b": "CP",
+        "b": "L",
         "d": "truththeory.com",
         "f": "truththeory",
         "t": "truththeorycom",
         "n": "Truth Theory",
         "P": "62",
-        "r": "M",
+        "r": "H",
         "u": "truth-theory"
     },
     "truthinmedia.com": {
@@ -27048,5 +27056,21 @@
         "P": [],
         "r": "H",
         "u": "northwest-arkansas-democrat-gazette"
+    },
+    "breakingwide.com": {
+        "b": "FN",
+        "d": "breakingwide.com",
+        "n": "Breaking Wide",
+        "P": [],
+        "r": "M",
+        "u": "breaking-wide"
+    },
+    "recordnet.com": {
+        "b": "C",
+        "d": "recordnet.com",
+        "n": "The Record (Stockton)",
+        "P": [],
+        "r": "H",
+        "u": "the-record-stockton"
     }
 }
