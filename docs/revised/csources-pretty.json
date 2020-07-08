@@ -3041,17 +3041,18 @@
         "u": "https://mediabiasfactcheck.com/belleville-news-democrat/",
         "p": "/"
     },
-    "facebook.com": {
-        "b": "left-center",
-        "d": "facebook.com/news",
-        "h": "https://facebook.com/news",
-        "M": [],
-        "L": [],
-        "n": "Facebook News",
-        "P": [],
-        "r": "MOSTLY FACTUAL",
-        "u": "https://mediabiasfactcheck.com/facebook-news/",
-        "p": "/news"
+    "beingliberal.org": {
+        "b": "left",
+        "d": "beingliberal.org",
+        "f": "https://facebook.com/beingliberal.org",
+        "h": "https://beingliberal.org",
+        "M": "59",
+        "L": "0",
+        "n": "Being Liberal",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/being-liberal/",
+        "p": "/"
     },
     "belfercenter.org": {
         "b": "center",
@@ -17972,7 +17973,7 @@
         "h": "https://naturalcures.com",
         "M": "42",
         "L": "2173",
-        "n": "Natural Cures",
+        "n": "NaturalCures.com",
         "P": "31",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/natural-cures/",
@@ -20631,7 +20632,7 @@
         "L": "298706",
         "n": "Philippine Daily Inquirer",
         "P": "76",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/philippine-daily-inquirer/",
         "p": "/"
     },
@@ -35081,6 +35082,18 @@
         "u": "https://mediabiasfactcheck.com/learntherisk-org/",
         "p": "/"
     },
+    "facebook.com": {
+        "b": "left-center",
+        "d": "facebook.com/news",
+        "h": "https://facebook.com/news",
+        "M": [],
+        "L": [],
+        "n": "Facebook News",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/facebook-news/",
+        "p": "/news"
+    },
     "globalrealnews.com": {
         "b": "left-center",
         "d": "globalrealnews.com",
@@ -39005,6 +39018,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/the-record-stockton/",
+        "p": "/"
+    },
+    "wtae.com": {
+        "b": "center",
+        "d": "wtae.com",
+        "h": "https://wtae.com",
+        "M": [],
+        "L": [],
+        "n": "WTAE Pittsburgh's Action News",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wtae-pittsburghs-action-news-4",
+        "p": "/"
+    },
+    "ama-assn.org": {
+        "b": "pro-science",
+        "d": "ama-assn.org",
+        "h": "https://ama-assn.org",
+        "M": [],
+        "L": [],
+        "n": "American Medical Association (AMA)",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/american-medical-association-ama/",
         "p": "/"
     }
 }

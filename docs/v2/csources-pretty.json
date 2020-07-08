@@ -2122,14 +2122,14 @@
         "r": "H",
         "u": "belleville-news-democrat"
     },
-    "facebook.com": {
-        "b": "LC",
-        "d": "facebook.com/news",
-        "n": "Facebook News",
-        "P": [],
-        "r": "MF",
-        "u": "facebook-news",
-        "p": "/news"
+    "beingliberal.org": {
+        "b": "L",
+        "d": "beingliberal.org",
+        "f": "beingliberal.org",
+        "n": "Being Liberal",
+        "P": "0",
+        "r": "M",
+        "u": "being-liberal"
     },
     "belfercenter.org": {
         "b": "C",
@@ -12553,7 +12553,7 @@
         "b": "CP",
         "d": "naturalcures.com",
         "f": "naturalcuresinc",
-        "n": "Natural Cures",
+        "n": "NaturalCures.com",
         "P": "31",
         "r": "M",
         "u": "natural-cures"
@@ -14404,7 +14404,7 @@
         "f": "inquirerdotnet",
         "n": "Philippine Daily Inquirer",
         "P": "76",
-        "r": "H",
+        "r": "M",
         "u": "philippine-daily-inquirer"
     },
     "pmnightlynews.com": {
@@ -24442,6 +24442,15 @@
         "r": "VL",
         "u": "learntherisk-org"
     },
+    "facebook.com": {
+        "b": "LC",
+        "d": "facebook.com/news",
+        "n": "Facebook News",
+        "P": [],
+        "r": "MF",
+        "u": "facebook-news",
+        "p": "/news"
+    },
     "globalrealnews.com": {
         "b": "LC",
         "d": "globalrealnews.com",
@@ -27072,5 +27081,21 @@
         "P": [],
         "r": "H",
         "u": "the-record-stockton"
+    },
+    "wtae.com": {
+        "b": "C",
+        "d": "wtae.com",
+        "n": "WTAE Pittsburgh's Action News",
+        "P": [],
+        "r": "H",
+        "u": "wtae-pittsburghs-action-news-4"
+    },
+    "ama-assn.org": {
+        "b": "PS",
+        "d": "ama-assn.org",
+        "n": "American Medical Association (AMA)",
+        "P": [],
+        "r": "H",
+        "u": "american-medical-association-ama"
     }
 }
