@@ -18286,7 +18286,7 @@
         "L": "96797",
         "n": "Nautilus Magazine",
         "P": "63",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/nautilus-magazine/",
         "p": "/"
     },
@@ -18510,7 +18510,7 @@
         "L": "76211",
         "n": "New Politics Magazine",
         "P": "60",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/new-politics-magazine/",
         "p": "/"
     },
@@ -20811,6 +20811,18 @@
         "P": "13",
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/police-times/",
+        "p": "/"
+    },
+    "polipace.com": {
+        "b": "fake-news",
+        "d": "polipace.com/",
+        "h": "https://polipace.com/",
+        "M": "0",
+        "L": "0",
+        "n": "Polipace",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/polipace/",
         "p": "/"
     },
     "post-gazette.com": {
@@ -28249,7 +28261,7 @@
         "L": "61834",
         "n": "The Libertarian Republic",
         "P": "49",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-libertarian-republic/",
         "p": "/"
     },
@@ -39042,6 +39054,18 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/american-medical-association-ama/",
+        "p": "/"
+    },
+    "abc7chicago.com": {
+        "b": "center",
+        "d": "abc7chicago.com",
+        "h": "https://abc7chicago.com",
+        "M": [],
+        "L": [],
+        "n": "ABC7chicago.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/abc7chicago-com/",
         "p": "/"
     }
 }

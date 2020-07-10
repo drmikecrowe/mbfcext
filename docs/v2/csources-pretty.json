@@ -12774,7 +12774,7 @@
         "t": "nautilusmag",
         "n": "Nautilus Magazine",
         "P": "63",
-        "r": "VH",
+        "r": "H",
         "u": "nautilus-magazine"
     },
     "theneed2know.com": {
@@ -12930,7 +12930,7 @@
         "t": "newpoliticsmag",
         "n": "New Politics Magazine",
         "P": "60",
-        "r": "H",
+        "r": "MF",
         "u": "new-politics-magazine"
     },
     "nydailynews.com": {
@@ -14531,6 +14531,14 @@
         "P": "13",
         "r": "L",
         "u": "police-times"
+    },
+    "polipace.com": {
+        "b": "FN",
+        "d": "polipace.com",
+        "n": "Polipace",
+        "P": "0",
+        "r": "M",
+        "u": "polipace"
     },
     "post-gazette.com": {
         "b": "R",
@@ -19714,7 +19722,7 @@
         "t": "thelibrepublic",
         "n": "The Libertarian Republic",
         "P": "49",
-        "r": "H",
+        "r": "MF",
         "u": "the-libertarian-republic"
     },
     "themindunleashed.com": {
@@ -27097,5 +27105,13 @@
         "P": [],
         "r": "H",
         "u": "american-medical-association-ama"
+    },
+    "abc7chicago.com": {
+        "b": "C",
+        "d": "abc7chicago.com",
+        "n": "ABC7chicago.com",
+        "P": [],
+        "r": "H",
+        "u": "abc7chicago-com"
     }
 }
