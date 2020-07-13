@@ -19362,13 +19362,14 @@
         "p": "/"
     },
     "now8news.com": {
-        "b": "satire",
+        "b": "fake-news",
         "d": "now8news.com",
         "h": "https://now8news.com",
         "M": "40",
         "L": "1007",
         "n": "Now8News",
         "P": "26",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/now8news/",
         "p": "/"
     },
@@ -19542,13 +19543,14 @@
         "p": "/"
     },
     "notallowedto.com": {
-        "b": "satire",
+        "b": "fake-news",
         "d": "notallowedto.com",
         "h": "https://notallowedto.com",
         "M": "40",
         "L": "3585",
         "n": "Not Allowed to",
         "P": "27",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/not-allowed-to/",
         "p": "/"
     },
@@ -21118,7 +21120,7 @@
         "L": "1414091",
         "n": "Portland Tribune",
         "P": "89",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/portland-tribune/",
         "p": "/"
     },
@@ -33393,9 +33395,9 @@
         "h": "https://wnd.com",
         "M": "67",
         "L": "2549525",
-        "n": "World Net Daily",
+        "n": "World Net Daily (WND)",
         "P": "94",
-        "r": "MIXED",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/world-net-daily-wnd/",
         "p": "/"
     },
@@ -39066,6 +39068,90 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/abc7chicago-com/",
+        "p": "/"
+    },
+    "technocracy.news": {
+        "b": "conspiracy",
+        "d": "technocracy.news",
+        "h": "https://technocracy.news",
+        "M": [],
+        "L": [],
+        "n": "Technocracy.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/technocracy-news/",
+        "p": "/"
+    },
+    "biodefense.com": {
+        "b": "conspiracy",
+        "d": "biodefense.com",
+        "h": "https://biodefense.com",
+        "M": [],
+        "L": [],
+        "n": "BioDefense",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/biodefense/",
+        "p": "/"
+    },
+    "bugout.news": {
+        "b": "conspiracy",
+        "d": "bugout.news",
+        "h": "https://bugout.news",
+        "M": [],
+        "L": [],
+        "n": "Bugout.news",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/bugout-news/",
+        "p": "/"
+    },
+    "cancer.news": {
+        "b": "conspiracy",
+        "d": "cancer.news",
+        "h": "https://cancer.news",
+        "M": [],
+        "L": [],
+        "n": "Cancer.news",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/cancer-news/",
+        "p": "/"
+    },
+    "campusinsanity.com": {
+        "b": "conspiracy",
+        "d": "campusinsanity.com",
+        "h": "https://campusinsanity.com",
+        "M": [],
+        "L": [],
+        "n": "CampusInsanity.com",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/campusinsanity-com/",
+        "p": "/"
+    },
+    "reporterherald.com": {
+        "b": "center",
+        "d": "reporterherald.com",
+        "h": "https://reporterherald.com",
+        "M": [],
+        "L": [],
+        "n": "Loveland Reporter-Herald",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/loveland-reporter-herald/",
+        "p": "/"
+    },
+    "chlorellafactor.com": {
+        "b": "conspiracy",
+        "d": "chlorellafactor.com",
+        "h": "https://chlorellafactor.com",
+        "M": [],
+        "L": [],
+        "n": "ChlorellaFactor.com",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/chlorellafactor-com/",
         "p": "/"
     }
 }

@@ -13521,10 +13521,11 @@
         "u": "nmws-us"
     },
     "now8news.com": {
-        "b": "S",
+        "b": "FN",
         "d": "now8news.com",
         "n": "Now8News",
         "P": "26",
+        "r": "VL",
         "u": "now8news"
     },
     "north99.org": {
@@ -13645,10 +13646,11 @@
         "u": "now-magazine"
     },
     "notallowedto.com": {
-        "b": "S",
+        "b": "FN",
         "d": "notallowedto.com",
         "n": "Not Allowed to",
         "P": "27",
+        "r": "L",
         "u": "not-allowed-to"
     },
     "nowtheendbegins.com": {
@@ -14742,7 +14744,7 @@
         "t": "theportlandtrib",
         "n": "Portland Tribune",
         "P": "89",
-        "r": "M",
+        "r": "H",
         "u": "portland-tribune"
     },
     "pressherald.com": {
@@ -23286,9 +23288,9 @@
         "b": "FN",
         "d": "wnd.com",
         "f": "none",
-        "n": "World Net Daily",
+        "n": "World Net Daily (WND)",
         "P": "94",
-        "r": "M",
+        "r": "L",
         "u": "world-net-daily-wnd"
     },
     "worldpoliticsreview.com": {
@@ -27113,5 +27115,61 @@
         "P": [],
         "r": "H",
         "u": "abc7chicago-com"
+    },
+    "technocracy.news": {
+        "b": "CP",
+        "d": "technocracy.news",
+        "n": "Technocracy.News",
+        "P": [],
+        "r": "VL",
+        "u": "technocracy-news"
+    },
+    "biodefense.com": {
+        "b": "CP",
+        "d": "biodefense.com",
+        "n": "BioDefense",
+        "P": [],
+        "r": "VL",
+        "u": "biodefense"
+    },
+    "bugout.news": {
+        "b": "CP",
+        "d": "bugout.news",
+        "n": "Bugout.news",
+        "P": [],
+        "r": "VL",
+        "u": "bugout-news"
+    },
+    "cancer.news": {
+        "b": "CP",
+        "d": "cancer.news",
+        "n": "Cancer.news",
+        "P": [],
+        "r": "VL",
+        "u": "cancer-news"
+    },
+    "campusinsanity.com": {
+        "b": "CP",
+        "d": "campusinsanity.com",
+        "n": "CampusInsanity.com",
+        "P": [],
+        "r": "VL",
+        "u": "campusinsanity-com"
+    },
+    "reporterherald.com": {
+        "b": "C",
+        "d": "reporterherald.com",
+        "n": "Loveland Reporter-Herald",
+        "P": [],
+        "r": "H",
+        "u": "loveland-reporter-herald"
+    },
+    "chlorellafactor.com": {
+        "b": "CP",
+        "d": "chlorellafactor.com",
+        "n": "ChlorellaFactor.com",
+        "P": [],
+        "r": "VL",
+        "u": "chlorellafactor-com"
     }
 }
