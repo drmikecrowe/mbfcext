@@ -13916,11 +13916,11 @@
         "u": "https://mediabiasfactcheck.com/international-renewable-energy-agency-irena/",
         "p": "/"
     },
-    "freemedia.at": {
+    "ipi.media": {
         "b": "center",
-        "d": "freemedia.at",
+        "d": "ipi.media/",
         "f": "https://facebook.com/globalfreemedia",
-        "h": "https://freemedia.at",
+        "h": "https://ipi.media/",
         "M": "54",
         "L": "18429",
         "n": "International Press Institute",
@@ -35096,17 +35096,17 @@
         "u": "https://mediabiasfactcheck.com/learntherisk-org/",
         "p": "/"
     },
-    "facebook.com": {
-        "b": "left-center",
-        "d": "facebook.com/news",
-        "h": "https://facebook.com/news",
-        "M": [],
-        "L": [],
-        "n": "Facebook News",
-        "P": [],
-        "r": "MOSTLY FACTUAL",
-        "u": "https://mediabiasfactcheck.com/facebook-news/",
-        "p": "/news"
+    "conservativepoliticstoday": {
+        "b": "fake-news",
+        "d": "conservativepoliticstoday",
+        "h": "https://conservativepoliticstoday",
+        "M": "64",
+        "L": "4",
+        "n": "Conservative Politics Today",
+        "P": "11",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/conservative-politics-today/",
+        "p": "/"
     },
     "globalrealnews.com": {
         "b": "left-center",
@@ -37866,7 +37866,7 @@
         "L": [],
         "n": "Just The News",
         "P": [],
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/just-the-news/",
         "p": "/"
     },
@@ -38878,6 +38878,18 @@
         "u": "https://mediabiasfactcheck.com/kqed/",
         "p": "/"
     },
+    "facebook.com": {
+        "b": "left-center",
+        "d": "facebook.com/news",
+        "h": "https://facebook.com/news",
+        "M": [],
+        "L": [],
+        "n": "Facebook News",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/facebook-news/",
+        "p": "/news"
+    },
     "scoperatings.com": {
         "b": "right-center",
         "d": "scoperatings.com",
@@ -39152,6 +39164,91 @@
         "P": [],
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/chlorellafactor-com/",
+        "p": "/"
+    },
+    "femalista.com": {
+        "b": "fake-news",
+        "d": "femalista.com",
+        "h": "https://femalista.com",
+        "M": [],
+        "L": [],
+        "n": "Femalista",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/femalista/",
+        "p": "/"
+    },
+    "gucmakale.com": {
+        "b": "fake-news",
+        "d": "gucmakale.com",
+        "h": "https://gucmakale.com",
+        "M": [],
+        "L": [],
+        "n": "Gucmakale.com",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/gucmakale-com/",
+        "p": "/"
+    },
+    "womensrightsnews": {
+        "b": "fake-news",
+        "d": "womensrightsnews/",
+        "f": "http://facebook.com/womensrightsnews/",
+        "h": "https://womensrightsnews/",
+        "M": [],
+        "L": [],
+        "n": "Women's Rights News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/womens-rights-news/",
+        "p": "/"
+    },
+    "thestar.com.my": {
+        "b": "right",
+        "d": "thestar.com.my",
+        "h": "https://thestar.com.my",
+        "M": [],
+        "L": [],
+        "n": "The Star (Malaysia)",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/the-star-malaysia/",
+        "p": "/"
+    },
+    "lifesitenews.com": {
+        "b": "right",
+        "d": "lifesitenews.com/",
+        "h": "https://lifesitenews.com/",
+        "M": [],
+        "L": [],
+        "n": "Life Site News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/life-site-news/",
+        "p": "/"
+    },
+    "nrlc.org": {
+        "b": "fake-news",
+        "d": "nrlc.org",
+        "h": "https://nrlc.org",
+        "M": [],
+        "L": [],
+        "n": "National Right to Life Committee",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/national-right-to-life-committee-nrlc/",
+        "p": "/"
+    },
+    "nationalrighttolifenews.org": {
+        "b": "fake-news",
+        "d": "nationalrighttolifenews.org",
+        "h": "https://nationalrighttolifenews.org",
+        "M": [],
+        "L": [],
+        "n": "NRL News Today",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/nrl-news-today/",
         "p": "/"
     }
 }

@@ -9719,9 +9719,9 @@
         "r": "VH",
         "u": "international-renewable-energy-agency-irena"
     },
-    "freemedia.at": {
+    "ipi.media": {
         "b": "C",
-        "d": "freemedia.at",
+        "d": "ipi.media",
         "f": "globalfreemedia",
         "n": "International Press Institute",
         "P": "45",
@@ -24452,14 +24452,13 @@
         "r": "VL",
         "u": "learntherisk-org"
     },
-    "facebook.com": {
-        "b": "LC",
-        "d": "facebook.com/news",
-        "n": "Facebook News",
-        "P": [],
-        "r": "MF",
-        "u": "facebook-news",
-        "p": "/news"
+    "conservativepoliticstoday": {
+        "b": "FN",
+        "d": "conservativepoliticstoday",
+        "n": "Conservative Politics Today",
+        "P": "11",
+        "r": "L",
+        "u": "conservative-politics-today"
     },
     "globalrealnews.com": {
         "b": "LC",
@@ -26313,7 +26312,7 @@
         "d": "justthenews.com",
         "n": "Just The News",
         "P": [],
-        "r": "H",
+        "r": "M",
         "u": "just-the-news"
     },
     "worldhealth.net": {
@@ -26988,6 +26987,15 @@
         "r": "H",
         "u": "kqed"
     },
+    "facebook.com": {
+        "b": "LC",
+        "d": "facebook.com/news",
+        "n": "Facebook News",
+        "P": [],
+        "r": "MF",
+        "u": "facebook-news",
+        "p": "/news"
+    },
     "scoperatings.com": {
         "b": "R",
         "d": "scoperatings.com",
@@ -27171,5 +27179,62 @@
         "P": [],
         "r": "VL",
         "u": "chlorellafactor-com"
+    },
+    "femalista.com": {
+        "b": "FN",
+        "d": "femalista.com",
+        "n": "Femalista",
+        "P": [],
+        "r": "M",
+        "u": "femalista"
+    },
+    "gucmakale.com": {
+        "b": "FN",
+        "d": "gucmakale.com",
+        "n": "Gucmakale.com",
+        "P": [],
+        "r": "M",
+        "u": "gucmakale-com"
+    },
+    "womensrightsnews": {
+        "b": "FN",
+        "d": "womensrightsnews",
+        "f": "http://facebook.com/womensrightsnews",
+        "n": "Women's Rights News",
+        "P": [],
+        "r": "M",
+        "u": "womens-rights-news"
+    },
+    "thestar.com.my": {
+        "b": "R",
+        "d": "thestar.com.my",
+        "n": "The Star (Malaysia)",
+        "P": [],
+        "r": "M",
+        "u": "the-star-malaysia"
+    },
+    "lifesitenews.com": {
+        "b": "R",
+        "d": "lifesitenews.com",
+        "n": "Life Site News",
+        "P": [],
+        "r": "M",
+        "u": "life-site-news"
+    },
+    "nrlc.org": {
+        "b": "FN",
+        "d": "nrlc.org",
+        "n": "National Right to Life Committee",
+        "P": [],
+        "r": "L",
+        "u": "national-right-to-life-committee-nrlc"
+    },
+    "nationalrighttolifenews.org": {
+        "b": "FN",
+        "d": "nationalrighttolifenews.org",
+        "n": "NRL News Today",
+        "P": [],
+        "r": "L",
+        "u": "nrl-news-today"
     }
 }
