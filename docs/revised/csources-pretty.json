@@ -21388,7 +21388,7 @@
         "L": "2071789",
         "n": "Prison Planet",
         "P": "93",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/prison-planet/",
         "p": "/"
     },
@@ -39249,6 +39249,42 @@
         "P": [],
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/nrl-news-today/",
+        "p": "/"
+    },
+    "ekirikas.com": {
+        "b": "right-center",
+        "d": "ekirikas.com",
+        "h": "https://ekirikas.com",
+        "M": [],
+        "L": [],
+        "n": "Ethnikos Kyrix",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/ethnikos-kyrix/",
+        "p": "/"
+    },
+    "thenationalherald.com": {
+        "b": "right",
+        "d": "thenationalherald.com",
+        "h": "https://thenationalherald.com",
+        "M": [],
+        "L": [],
+        "n": "The National Herald",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/the-national-herald-tnh/",
+        "p": "/"
+    },
+    "climate.news": {
+        "b": "fake-news",
+        "d": "climate.news",
+        "h": "https://climate.news",
+        "M": [],
+        "L": [],
+        "n": "Climate.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/climate-news/",
         "p": "/"
     }
 }

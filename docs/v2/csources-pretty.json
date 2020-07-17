@@ -14932,7 +14932,7 @@
         "t": "prisonplanet",
         "n": "Prison Planet",
         "P": "93",
-        "r": "L",
+        "r": "VL",
         "u": "prison-planet"
     },
     "prepareforchange.net": {
@@ -27236,5 +27236,29 @@
         "P": [],
         "r": "L",
         "u": "nrl-news-today"
+    },
+    "ekirikas.com": {
+        "b": "R",
+        "d": "ekirikas.com",
+        "n": "Ethnikos Kyrix",
+        "P": [],
+        "r": "M",
+        "u": "ethnikos-kyrix"
+    },
+    "thenationalherald.com": {
+        "b": "R",
+        "d": "thenationalherald.com",
+        "n": "The National Herald",
+        "P": [],
+        "r": "M",
+        "u": "the-national-herald-tnh"
+    },
+    "climate.news": {
+        "b": "FN",
+        "d": "climate.news",
+        "n": "Climate.News",
+        "P": [],
+        "r": "VL",
+        "u": "climate-news"
     }
 }
