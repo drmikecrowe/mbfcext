@@ -3527,9 +3527,9 @@
         "h": "https://bluelivesmatter.blue",
         "M": "45",
         "L": "5480",
-        "n": "Blue Lives Matter",
+        "n": "Blue Lives Matter (Police Tribune)",
         "P": "37",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/blue-lives-matter/",
         "p": "/"
     },
@@ -4515,17 +4515,15 @@
     },
     "cato.org": {
         "b": "right-center",
-        "d": "cato.org",
-        "f": "https://facebook.com/catoinstitute",
-        "t": "https://twitter.com/catoinstitute",
-        "h": "https://cato.org",
-        "M": "68",
-        "L": "1787395",
-        "n": "Cato Institute",
-        "P": "92",
+        "d": "cato.org/regulation",
+        "h": "https://cato.org/regulation",
+        "M": "0",
+        "L": "0",
+        "n": "Regulation Magazine",
+        "P": "0",
         "r": "HIGH",
-        "u": "https://mediabiasfactcheck.com/cato-institute/",
-        "p": "/"
+        "u": "https://mediabiasfactcheck.com/regulation-magazine/",
+        "p": "/regulation"
     },
     "americanprogress.org": {
         "b": "left",
@@ -7880,7 +7878,7 @@
         "L": "1842376",
         "n": "Deccan Chronicle",
         "P": "88",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/deccan-chronicle/",
         "p": "/"
     },
@@ -10005,7 +10003,7 @@
         "p": "/"
     },
     "firstpost.com": {
-        "b": "left",
+        "b": "right-center",
         "d": "firstpost.com",
         "f": "https://facebook.com/firstpostin",
         "t": "https://twitter.com/firstpost",
@@ -10014,7 +10012,7 @@
         "L": "5496571",
         "n": "First Post",
         "P": "94",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/first-post/",
         "p": "/"
     },
@@ -10073,7 +10071,7 @@
         "p": "/"
     },
     "financialexpress.com": {
-        "b": "center",
+        "b": "right-center",
         "d": "financialexpress.com",
         "f": "https://facebook.com/thefinancialexpress",
         "t": "https://twitter.com/febdonline",
@@ -10082,7 +10080,7 @@
         "L": "3073880",
         "n": "Financial Express",
         "P": "94",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/financial-express/",
         "p": "/"
     },
@@ -13231,16 +13229,16 @@
         "u": "https://mediabiasfactcheck.com/in-these-times/",
         "p": "/"
     },
-    "indiatoday.intoday.in": {
-        "b": "center",
-        "d": "indiatoday.intoday.in",
+    "indiatoday.in": {
+        "b": "right-center",
+        "d": "indiatoday.in",
         "f": "https://facebook.com/indiatoday",
-        "h": "https://indiatoday.intoday.in",
+        "h": "https://indiatoday.in",
         "M": "63",
         "L": "889956",
         "n": "India Today",
         "P": "64",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/india-today/",
         "p": "/"
     },
@@ -16120,7 +16118,7 @@
         "p": "/"
     },
     "macleans.ca": {
-        "b": "right-center",
+        "b": "left-center",
         "d": "macleans.ca",
         "f": "https://facebook.com/macleans",
         "t": "https://twitter.com/macleans",
@@ -20799,7 +20797,7 @@
         "L": "317147",
         "n": "PinkNews",
         "P": "71",
-        "r": "MOSTLY FACTUAL",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/pink-news/",
         "p": "/"
     },
@@ -22004,7 +22002,7 @@
         "L": "702358",
         "n": "Public Library of Science",
         "P": "76",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/public-library-science-plos/",
         "p": "/"
     },
@@ -22044,7 +22042,7 @@
         "L": "130660",
         "n": "Public Policy Polling",
         "P": "66",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/public-policy-polling-ppp/",
         "p": "/"
     },
@@ -22672,6 +22670,18 @@
         "P": "11",
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/red-politics/",
+        "p": "/"
+    },
+    "regated.com": {
+        "b": "right",
+        "d": "regated.com",
+        "h": "https://regated.com",
+        "M": "0",
+        "L": "0",
+        "n": "Regated News",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/regated-news/",
         "p": "/"
     },
     "redoubtnews.com": {
@@ -23768,7 +23778,7 @@
         "L": "201103",
         "n": "Science Based Medicine",
         "P": "73",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/science-based-medicine/",
         "p": "/"
     },
@@ -24631,7 +24641,7 @@
         "L": "21084",
         "n": "Skeptiko",
         "P": "46",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/skeptiko/",
         "p": "/"
     },
@@ -24806,7 +24816,7 @@
         "L": "176673",
         "n": "SourceWatch",
         "P": "70",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/sourcewatch/",
         "p": "/"
     },
@@ -26264,7 +26274,7 @@
         "L": "6474571",
         "n": "The Australian",
         "P": "98",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-australian/",
         "p": "/"
     },
@@ -27416,7 +27426,7 @@
         "p": "/"
     },
     "economictimes.indiatimes.com": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "economictimes.indiatimes.com",
         "f": "https://facebook.com/economictimes",
         "h": "https://economictimes.indiatimes.com",
@@ -27424,7 +27434,7 @@
         "L": "6991444",
         "n": "The Economic Times",
         "P": "96",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-economic-times/",
         "p": "/"
     },
@@ -27664,17 +27674,17 @@
         "u": "https://mediabiasfactcheck.com/the-observer/",
         "p": "/observer"
     },
-    "newsite.thehindu.com": {
+    "thehindu.com": {
         "b": "left-center",
-        "d": "newsite.thehindu.com",
+        "d": "thehindu.com",
         "f": "https://facebook.com/thehindu",
         "t": "https://twitter.com/the_hindu",
-        "h": "https://newsite.thehindu.com",
+        "h": "https://thehindu.com",
         "M": "45",
         "L": "6",
         "n": "The Hindu",
         "P": "13",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-hindu/",
         "p": "/"
     },
@@ -27812,7 +27822,7 @@
         "p": "/"
     },
     "indianexpress.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "indianexpress.com",
         "f": "https://facebook.com/indianexpress",
         "t": "https://twitter.com/the indian express",
@@ -27821,7 +27831,7 @@
         "L": "3386775",
         "n": "The Indian Express",
         "P": "92",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-indian-express/",
         "p": "/"
     },
@@ -27928,7 +27938,7 @@
         "L": "8236344",
         "n": "The Independent",
         "P": "98",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-independent/",
         "p": "/"
     },
@@ -27947,7 +27957,7 @@
         "p": "/"
     },
     "thejakartapost.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "thejakartapost.com",
         "f": "https://facebook.com/jakpost",
         "t": "https://twitter.com/jakpost",
@@ -27956,7 +27966,7 @@
         "L": "2227115",
         "n": "The Jakarta Post",
         "P": "93",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-jakarta-post/",
         "p": "/"
     },
@@ -29971,7 +29981,7 @@
         "L": "10788866",
         "n": "The Times of India",
         "P": "98",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/times-of-india/",
         "p": "/"
     },
@@ -31590,7 +31600,7 @@
         "L": "7794",
         "n": "Unity News Network",
         "P": "21",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/unity-news-network/",
         "p": "/"
     },
@@ -35796,7 +35806,7 @@
         "L": "7525",
         "n": "World Population Review",
         "P": "37",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/world-population-review/",
         "p": "/"
     },
@@ -39285,6 +39295,150 @@
         "P": [],
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/climate-news/",
+        "p": "/"
+    },
+    "protothema.gr": {
+        "b": "fake-news",
+        "d": "protothema.gr",
+        "h": "https://protothema.gr",
+        "M": [],
+        "L": [],
+        "n": "Proto Thema",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/proto-thema/",
+        "p": "/"
+    },
+    "collapse.news": {
+        "b": "conspiracy",
+        "d": "collapse.news",
+        "h": "https://collapse.news",
+        "M": [],
+        "L": [],
+        "n": "Collapse.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/collapse-news/",
+        "p": "/"
+    },
+    "tovima.gr": {
+        "b": "right-center",
+        "d": "tovima.gr",
+        "h": "https://tovima.gr",
+        "M": [],
+        "L": [],
+        "n": "To Vima",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/to-vima/",
+        "p": "/"
+    },
+    "iefimerida.gr": {
+        "b": "right-center",
+        "d": "iefimerida.gr",
+        "h": "https://iefimerida.gr",
+        "M": [],
+        "L": [],
+        "n": "iefimerida.gr",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/iefimerida-gr/",
+        "p": "/"
+    },
+    "consumerwellness.org": {
+        "b": "conspiracy",
+        "d": "consumerwellness.org",
+        "h": "https://consumerwellness.org",
+        "M": [],
+        "L": [],
+        "n": "Consumer Wellness Center",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/consumer-wellness-center/",
+        "p": "/"
+    },
+    "counterthink.com": {
+        "b": "conspiracy",
+        "d": "counterthink.com",
+        "h": "https://counterthink.com",
+        "M": [],
+        "L": [],
+        "n": "CounterThink.com",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/counterthink-com/",
+        "p": "/"
+    },
+    "food.news": {
+        "b": "conspiracy",
+        "d": "food.news/",
+        "h": "https://food.news/",
+        "M": [],
+        "L": [],
+        "n": "Food.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/food-news/",
+        "p": "/"
+    },
+    "kompas.com": {
+        "b": "center",
+        "d": "kompas.com",
+        "h": "https://kompas.com",
+        "M": [],
+        "L": [],
+        "n": "Kompas.com",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/kompas-com/",
+        "p": "/"
+    },
+    "tribunnews.com": {
+        "b": "right-center",
+        "d": "tribunnews.com",
+        "h": "https://tribunnews.com",
+        "M": [],
+        "L": [],
+        "n": "TRIBUNnews.com",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/tribunnews-com/",
+        "p": "/"
+    },
+    "freedom.news": {
+        "b": "conspiracy",
+        "d": "freedom.news",
+        "h": "https://freedom.news",
+        "M": [],
+        "L": [],
+        "n": "Freedom.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/freedom-news/",
+        "p": "/"
+    },
+    "detik.com": {
+        "b": "center",
+        "d": "detik.com",
+        "h": "https://detik.com",
+        "M": [],
+        "L": [],
+        "n": "Detik.com",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/detik-com/",
+        "p": "/"
+    },
+    "tut.by": {
+        "b": "center",
+        "d": "tut.by",
+        "h": "https://tut.by",
+        "M": [],
+        "L": [],
+        "n": "Tut.by",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/tut-by/",
         "p": "/"
     }
 }

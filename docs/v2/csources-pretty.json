@@ -2461,9 +2461,9 @@
         "d": "bluelivesmatter.blue",
         "f": "bluematters",
         "t": "bluelivesmtr",
-        "n": "Blue Lives Matter",
+        "n": "Blue Lives Matter (Police Tribune)",
         "P": "37",
-        "r": "H",
+        "r": "M",
         "u": "blue-lives-matter"
     },
     "boingboing.net": {
@@ -3156,13 +3156,12 @@
     },
     "cato.org": {
         "b": "R",
-        "d": "cato.org",
-        "f": "catoinstitute",
-        "t": "catoinstitute",
-        "n": "Cato Institute",
-        "P": "92",
+        "d": "cato.org/regulation",
+        "n": "Regulation Magazine",
+        "P": "0",
         "r": "H",
-        "u": "cato-institute"
+        "u": "regulation-magazine",
+        "p": "/regulation"
     },
     "americanprogress.org": {
         "b": "L",
@@ -5507,7 +5506,7 @@
         "t": "deccanchronicle",
         "n": "Deccan Chronicle",
         "P": "88",
-        "r": "H",
+        "r": "MF",
         "u": "deccan-chronicle"
     },
     "democracyguardian.com": {
@@ -6987,13 +6986,13 @@
         "u": "fifth-column-news"
     },
     "firstpost.com": {
-        "b": "L",
+        "b": "R",
         "d": "firstpost.com",
         "f": "firstpostin",
         "t": "firstpost",
         "n": "First Post",
         "P": "94",
-        "r": "H",
+        "r": "MF",
         "u": "first-post"
     },
     "fmobserver.com": {
@@ -7035,13 +7034,13 @@
         "u": "flex-mag"
     },
     "financialexpress.com": {
-        "b": "C",
+        "b": "R",
         "d": "financialexpress.com",
         "f": "thefinancialexpress",
         "t": "febdonline",
         "n": "Financial Express",
         "P": "94",
-        "r": "H",
+        "r": "M",
         "u": "financial-express"
     },
     "fightforthefuture.org": {
@@ -9238,13 +9237,13 @@
         "r": "MF",
         "u": "in-these-times"
     },
-    "indiatoday.intoday.in": {
-        "b": "C",
-        "d": "indiatoday.intoday.in",
+    "indiatoday.in": {
+        "b": "R",
+        "d": "indiatoday.in",
         "f": "indiatoday",
         "n": "India Today",
         "P": "64",
-        "r": "H",
+        "r": "M",
         "u": "india-today"
     },
     "independentaustralia.net": {
@@ -11255,7 +11254,7 @@
         "u": "maine-beacon"
     },
     "macleans.ca": {
-        "b": "R",
+        "b": "LC",
         "d": "macleans.ca",
         "f": "macleans",
         "t": "macleans",
@@ -14523,7 +14522,7 @@
         "t": "pinknews",
         "n": "PinkNews",
         "P": "71",
-        "r": "MF",
+        "r": "H",
         "u": "pink-news"
     },
     "timespolice.com": {
@@ -15360,7 +15359,7 @@
         "d": "plos.org",
         "n": "Public Library of Science",
         "P": "76",
-        "r": "VH",
+        "r": "H",
         "u": "public-library-science-plos"
     },
     "ncbi.nlm.nih.gov": {
@@ -15388,7 +15387,7 @@
         "t": "ncpolicywatch",
         "n": "Public Policy Polling",
         "P": "66",
-        "r": "VH",
+        "r": "H",
         "u": "public-policy-polling-ppp"
     },
     "prri.org": {
@@ -15824,6 +15823,14 @@
         "P": "11",
         "r": "L",
         "u": "red-politics"
+    },
+    "regated.com": {
+        "b": "R",
+        "d": "regated.com",
+        "n": "Regated News",
+        "P": "0",
+        "r": "M",
+        "u": "regated-news"
     },
     "redoubtnews.com": {
         "b": "CP",
@@ -16588,7 +16595,7 @@
         "f": "sciencebasedmed",
         "n": "Science Based Medicine",
         "P": "73",
-        "r": "H",
+        "r": "VH",
         "u": "science-based-medicine"
     },
     "scicentral.com": {
@@ -17191,7 +17198,7 @@
         "t": "skeptiko",
         "n": "Skeptiko",
         "P": "46",
-        "r": "L",
+        "r": "VL",
         "u": "skeptiko"
     },
     "simpleorganicmedicine.com": {
@@ -17314,7 +17321,7 @@
         "t": "prwatch",
         "n": "SourceWatch",
         "P": "70",
-        "r": "H",
+        "r": "MF",
         "u": "sourcewatch"
     },
     "space.news": {
@@ -18328,7 +18335,7 @@
         "t": "australian",
         "n": "The Australian",
         "P": "98",
-        "r": "H",
+        "r": "MF",
         "u": "the-australian"
     },
     "auburnpub.com": {
@@ -19131,12 +19138,12 @@
         "u": "european-council-foreign-relations-ecfr"
     },
     "economictimes.indiatimes.com": {
-        "b": "LC",
+        "b": "FN",
         "d": "economictimes.indiatimes.com",
         "f": "economictimes",
         "n": "The Economic Times",
         "P": "96",
-        "r": "H",
+        "r": "M",
         "u": "the-economic-times"
     },
     "theforbiddenknowledge.com": {
@@ -19304,14 +19311,14 @@
         "u": "the-observer",
         "p": "/observer"
     },
-    "newsite.thehindu.com": {
+    "thehindu.com": {
         "b": "LC",
-        "d": "newsite.thehindu.com",
+        "d": "thehindu.com",
         "f": "thehindu",
         "t": "the_hindu",
         "n": "The Hindu",
         "P": "13",
-        "r": "H",
+        "r": "MF",
         "u": "the-hindu"
     },
     "theglobeandmail.com": {
@@ -19408,13 +19415,13 @@
         "u": "the-jamestown-foundation"
     },
     "indianexpress.com": {
-        "b": "C",
+        "b": "LC",
         "d": "indianexpress.com",
         "f": "indianexpress",
         "t": "the indian express",
         "n": "The Indian Express",
         "P": "92",
-        "r": "H",
+        "r": "M",
         "u": "the-indian-express"
     },
     "theintellectualist.co": {
@@ -19489,7 +19496,7 @@
         "f": "theindependentonline",
         "n": "The Independent",
         "P": "98",
-        "r": "MF",
+        "r": "M",
         "u": "the-independent"
     },
     "independent.org": {
@@ -19503,13 +19510,13 @@
         "u": "the-independent-review"
     },
     "thejakartapost.com": {
-        "b": "C",
+        "b": "LC",
         "d": "thejakartapost.com",
         "f": "jakpost",
         "t": "jakpost",
         "n": "The Jakarta Post",
         "P": "93",
-        "r": "H",
+        "r": "MF",
         "u": "the-jakarta-post"
     },
     "indypendent.org": {
@@ -20916,7 +20923,7 @@
         "f": "timesofindia",
         "n": "The Times of India",
         "P": "98",
-        "r": "H",
+        "r": "MF",
         "u": "times-of-india"
     },
     "smh.com.au": {
@@ -22043,7 +22050,7 @@
         "t": "unitynewsnet",
         "n": "Unity News Network",
         "P": "21",
-        "r": "M",
+        "r": "H",
         "u": "unity-news-network"
     },
     "unicornriot.ninja": {
@@ -24933,7 +24940,7 @@
         "d": "worldpopulationreview.com",
         "n": "World Population Review",
         "P": "37",
-        "r": "H",
+        "r": "MF",
         "u": "world-population-review"
     },
     "leicestermercury.co.uk": {
@@ -27260,5 +27267,101 @@
         "P": [],
         "r": "VL",
         "u": "climate-news"
+    },
+    "protothema.gr": {
+        "b": "FN",
+        "d": "protothema.gr",
+        "n": "Proto Thema",
+        "P": [],
+        "r": "M",
+        "u": "proto-thema"
+    },
+    "collapse.news": {
+        "b": "CP",
+        "d": "collapse.news",
+        "n": "Collapse.News",
+        "P": [],
+        "r": "VL",
+        "u": "collapse-news"
+    },
+    "tovima.gr": {
+        "b": "R",
+        "d": "tovima.gr",
+        "n": "To Vima",
+        "P": [],
+        "r": "M",
+        "u": "to-vima"
+    },
+    "iefimerida.gr": {
+        "b": "R",
+        "d": "iefimerida.gr",
+        "n": "iefimerida.gr",
+        "P": [],
+        "r": "M",
+        "u": "iefimerida-gr"
+    },
+    "consumerwellness.org": {
+        "b": "CP",
+        "d": "consumerwellness.org",
+        "n": "Consumer Wellness Center",
+        "P": [],
+        "r": "VL",
+        "u": "consumer-wellness-center"
+    },
+    "counterthink.com": {
+        "b": "CP",
+        "d": "counterthink.com",
+        "n": "CounterThink.com",
+        "P": [],
+        "r": "VL",
+        "u": "counterthink-com"
+    },
+    "food.news": {
+        "b": "CP",
+        "d": "food.news",
+        "n": "Food.News",
+        "P": [],
+        "r": "VL",
+        "u": "food-news"
+    },
+    "kompas.com": {
+        "b": "C",
+        "d": "kompas.com",
+        "n": "Kompas.com",
+        "P": [],
+        "r": "MF",
+        "u": "kompas-com"
+    },
+    "tribunnews.com": {
+        "b": "R",
+        "d": "tribunnews.com",
+        "n": "TRIBUNnews.com",
+        "P": [],
+        "r": "M",
+        "u": "tribunnews-com"
+    },
+    "freedom.news": {
+        "b": "CP",
+        "d": "freedom.news",
+        "n": "Freedom.News",
+        "P": [],
+        "r": "VL",
+        "u": "freedom-news"
+    },
+    "detik.com": {
+        "b": "C",
+        "d": "detik.com",
+        "n": "Detik.com",
+        "P": [],
+        "r": "MF",
+        "u": "detik-com"
+    },
+    "tut.by": {
+        "b": "C",
+        "d": "tut.by",
+        "n": "Tut.by",
+        "P": [],
+        "r": "MF",
+        "u": "tut-by"
     }
 }
