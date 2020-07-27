@@ -10200,13 +10200,13 @@
         "u": "justice-denied"
     },
     "daily.jstor.org": {
-        "b": "C",
+        "b": "LC",
         "d": "daily.jstor.org",
         "f": "jstordaily",
         "t": "jstor_daily",
         "n": "Jstor Daily",
         "P": "53",
-        "r": "VH",
+        "r": "H",
         "u": "jstore-daily"
     },
     "helvidius.org": {
@@ -15375,10 +15375,10 @@
     "redrocktribune.com": {
         "b": "FN",
         "d": "redrocktribune.com",
-        "n": "Qpolitical",
-        "P": "20",
-        "r": "M",
-        "u": "red-rock-daily-news"
+        "n": "Red Rock Daily News",
+        "P": "0",
+        "r": "L",
+        "u": "right-side-news"
     },
     "publicpolicypolling.com": {
         "b": "C",
@@ -15485,7 +15485,7 @@
         "d": "rawprogressive.com",
         "n": "Raw Progressive",
         "P": "13",
-        "r": "H",
+        "r": "M",
         "u": "raw-progressive"
     },
     "rand.org": {
@@ -15755,7 +15755,7 @@
         "t": "realclearrelig",
         "n": "RealClearReligion",
         "P": "79",
-        "r": "H",
+        "r": "MF",
         "u": "realclearreligion"
     },
     "redcountry.us": {
@@ -17266,6 +17266,14 @@
         "r": "L",
         "u": "truth-revolt"
     },
+    "southfront.org": {
+        "b": "CP",
+        "d": "southfront.org",
+        "n": "Southfront",
+        "P": "0",
+        "r": "L",
+        "u": "south-front"
+    },
     "sun-sentinel.com": {
         "b": "C",
         "d": "sun-sentinel.com",
@@ -18335,7 +18343,7 @@
         "t": "australian",
         "n": "The Australian",
         "P": "98",
-        "r": "MF",
+        "r": "M",
         "u": "the-australian"
     },
     "auburnpub.com": {
@@ -18568,11 +18576,11 @@
         "u": "the-chaser"
     },
     "chinapost.nownews.com": {
-        "b": "C",
+        "b": "LC",
         "d": "chinapost.nownews.com",
         "n": "The China Post",
         "P": "74",
-        "r": "H",
+        "r": "MF",
         "u": "the-china-post"
     },
     "climaterealityproject.org": {
@@ -27363,5 +27371,53 @@
         "P": [],
         "r": "MF",
         "u": "tut-by"
+    },
+    "geoengineering.news": {
+        "b": "CP",
+        "d": "geoengineering.news",
+        "n": "Geoengineering.News",
+        "P": [],
+        "r": "VL",
+        "u": "geoengineering-news"
+    },
+    "kcra.com": {
+        "b": "C",
+        "d": "kcra.com",
+        "n": "KCRA 3",
+        "P": [],
+        "r": "H",
+        "u": "kcra-3"
+    },
+    "vibe.com": {
+        "b": "LC",
+        "d": "vibe.com",
+        "n": "Vibe",
+        "P": [],
+        "r": "M",
+        "u": "vibe"
+    },
+    "gmo.new": {
+        "b": "CP",
+        "d": "gmo.new",
+        "n": "GMO.News",
+        "P": [],
+        "r": "VL",
+        "u": "gmo-news"
+    },
+    "thefreedomtimes.com": {
+        "b": "FN",
+        "d": "thefreedomtimes.com",
+        "n": "The Freedom Times",
+        "P": [],
+        "r": "L",
+        "u": "the-freedom-times"
+    },
+    "healingfoodreference.com": {
+        "b": "CP",
+        "d": "healingfoodreference.com",
+        "n": "Healing Food Reference",
+        "P": [],
+        "r": "VL",
+        "u": "healing-food-reference"
     }
 }

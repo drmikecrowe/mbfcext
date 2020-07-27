@@ -14604,7 +14604,7 @@
         "p": "/"
     },
     "daily.jstor.org": {
-        "b": "center",
+        "b": "left-center",
         "d": "daily.jstor.org",
         "f": "https://facebook.com/jstordaily",
         "t": "https://twitter.com/jstor_daily",
@@ -14613,7 +14613,7 @@
         "L": "71837",
         "n": "Jstor Daily",
         "P": "53",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/jstore-daily/",
         "p": "/"
     },
@@ -22024,12 +22024,12 @@
         "b": "fake-news",
         "d": "redrocktribune.com",
         "h": "https://redrocktribune.com",
-        "M": "27",
-        "L": "75",
-        "n": "Qpolitical",
-        "P": "20",
-        "r": "MIXED",
-        "u": "https://mediabiasfactcheck.com/red-rock-daily-news/",
+        "M": "0",
+        "L": "0",
+        "n": "Red Rock Daily News",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/right-side-news/",
         "p": "/"
     },
     "publicpolicypolling.com": {
@@ -22184,7 +22184,7 @@
         "L": "5",
         "n": "Raw Progressive",
         "P": "13",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/raw-progressive/",
         "p": "/"
     },
@@ -22570,7 +22570,7 @@
         "L": "377841",
         "n": "RealClearReligion",
         "P": "79",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/realclearreligion/",
         "p": "/"
     },
@@ -24738,6 +24738,18 @@
         "u": "https://mediabiasfactcheck.com/truth-revolt/",
         "p": "/"
     },
+    "southfront.org": {
+        "b": "conspiracy",
+        "d": "southfront.org",
+        "h": "https://southfront.org",
+        "M": "0",
+        "L": "0",
+        "n": "Southfront",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/south-front/",
+        "p": "/"
+    },
     "sun-sentinel.com": {
         "b": "center",
         "d": "sun-sentinel.com",
@@ -26274,7 +26286,7 @@
         "L": "6474571",
         "n": "The Australian",
         "P": "98",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-australian/",
         "p": "/"
     },
@@ -26608,14 +26620,14 @@
         "p": "/"
     },
     "chinapost.nownews.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "chinapost.nownews.com/",
         "h": "https://chinapost.nownews.com/",
         "M": "59",
         "L": "902351",
         "n": "The China Post",
         "P": "74",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-china-post/",
         "p": "/"
     },
@@ -39439,6 +39451,78 @@
         "P": [],
         "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/tut-by/",
+        "p": "/"
+    },
+    "geoengineering.news": {
+        "b": "conspiracy",
+        "d": "geoengineering.news",
+        "h": "https://geoengineering.news",
+        "M": [],
+        "L": [],
+        "n": "Geoengineering.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/geoengineering-news/",
+        "p": "/"
+    },
+    "kcra.com": {
+        "b": "center",
+        "d": "kcra.com",
+        "h": "https://kcra.com",
+        "M": [],
+        "L": [],
+        "n": "KCRA 3",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kcra-3/",
+        "p": "/"
+    },
+    "vibe.com": {
+        "b": "left-center",
+        "d": "vibe.com",
+        "h": "https://vibe.com",
+        "M": [],
+        "L": [],
+        "n": "Vibe",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/vibe/",
+        "p": "/"
+    },
+    "gmo.new": {
+        "b": "conspiracy",
+        "d": "gmo.new",
+        "h": "https://gmo.new",
+        "M": [],
+        "L": [],
+        "n": "GMO.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/gmo-news/",
+        "p": "/"
+    },
+    "thefreedomtimes.com": {
+        "b": "fake-news",
+        "d": "thefreedomtimes.com",
+        "h": "https://thefreedomtimes.com",
+        "M": [],
+        "L": [],
+        "n": "The Freedom Times",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/the-freedom-times/",
+        "p": "/"
+    },
+    "healingfoodreference.com": {
+        "b": "conspiracy",
+        "d": "healingfoodreference.com",
+        "h": "https://healingfoodreference.com",
+        "M": [],
+        "L": [],
+        "n": "Healing Food Reference",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/healing-food-reference/",
         "p": "/"
     }
 }
