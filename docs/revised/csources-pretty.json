@@ -4082,13 +4082,13 @@
     },
     "californiaglobe.com": {
         "b": "right-center",
-        "d": "https://californiaglobe.com/",
-        "h": "https://https://californiaglobe.com/",
+        "d": "californiaglobe.com/",
+        "h": "https://californiaglobe.com/",
         "M": "38",
         "L": "917",
         "n": "California Globe",
         "P": "29",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/california-globe/",
         "p": "/"
     },
@@ -12898,11 +12898,11 @@
         "u": "https://mediabiasfactcheck.com/houston-chronicle/",
         "p": "/"
     },
-    "huffingtonpost.com": {
+    "huffpost.com": {
         "b": "left",
-        "d": "huffingtonpost.com",
+        "d": "huffpost.com",
         "f": "https://facebook.com/huffpost",
-        "h": "https://huffingtonpost.com",
+        "h": "https://huffpost.com",
         "M": "82",
         "L": "15441793",
         "n": "Huffington Post",
@@ -22623,6 +22623,18 @@
         "u": "https://mediabiasfactcheck.com/red-state-watcher/",
         "p": "/"
     },
+    "redstatejournalist.com": {
+        "b": "fake-news",
+        "d": "redstatejournalist.com",
+        "h": "https://redstatejournalist.com",
+        "M": "0",
+        "L": "0",
+        "n": "Red State Journalist",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/red-state-journalist/",
+        "p": "/"
+    },
     "redpeople.us": {
         "b": "fake-news",
         "d": "redpeople.us",
@@ -25937,7 +25949,7 @@
         "p": "/"
     },
     "teapartypatriots.org": {
-        "b": "right",
+        "b": "fake-news",
         "d": "teapartypatriots.org",
         "f": "https://facebook.com/teapartypatriots",
         "t": "https://twitter.com/tppatriots",
@@ -25946,7 +25958,7 @@
         "L": "255856",
         "n": "Tea Party Patriots",
         "P": "75",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/tea-party-patriots/",
         "p": "/"
     },
@@ -39523,6 +39535,54 @@
         "P": [],
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/healing-food-reference/",
+        "p": "/"
+    },
+    "caixinglobal.com": {
+        "b": "fake-news",
+        "d": "caixinglobal.com",
+        "h": "https://caixinglobal.com",
+        "M": [],
+        "L": [],
+        "n": "Caixin Global",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/caixin-global/",
+        "p": "/"
+    },
+    "health.news": {
+        "b": "conspiracy",
+        "d": "health.news",
+        "h": "https://health.news",
+        "M": [],
+        "L": [],
+        "n": "Health.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/health-news/",
+        "p": "/"
+    },
+    "elmundo.es": {
+        "b": "right-center",
+        "d": "elmundo.es",
+        "h": "https://elmundo.es",
+        "M": [],
+        "L": [],
+        "n": "El Mundo",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/el-mundo/",
+        "p": "/"
+    },
+    "americasfrontlinedoctors.com": {
+        "b": "conspiracy",
+        "d": "americasfrontlinedoctors.com",
+        "h": "https://americasfrontlinedoctors.com",
+        "M": [],
+        "L": [],
+        "n": "America's Frontline Doctors",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/americas-frontline-doctors/",
         "p": "/"
     }
 }

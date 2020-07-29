@@ -2851,10 +2851,10 @@
     },
     "californiaglobe.com": {
         "b": "R",
-        "d": "https://californiaglobe.com",
+        "d": "californiaglobe.com",
         "n": "California Globe",
         "P": "29",
-        "r": "H",
+        "r": "M",
         "u": "california-globe"
     },
     "callthecops.net": {
@@ -9006,9 +9006,9 @@
         "r": "H",
         "u": "houston-chronicle"
     },
-    "huffingtonpost.com": {
+    "huffpost.com": {
         "b": "L",
-        "d": "huffingtonpost.com",
+        "d": "huffpost.com",
         "f": "huffpost",
         "n": "Huffington Post",
         "P": "99",
@@ -15791,6 +15791,14 @@
         "r": "L",
         "u": "red-state-watcher"
     },
+    "redstatejournalist.com": {
+        "b": "FN",
+        "d": "redstatejournalist.com",
+        "n": "Red State Journalist",
+        "P": "0",
+        "r": "L",
+        "u": "red-state-journalist"
+    },
     "redpeople.us": {
         "b": "FN",
         "d": "redpeople.us",
@@ -18101,13 +18109,13 @@
         "u": "tharawat-magazine"
     },
     "teapartypatriots.org": {
-        "b": "R",
+        "b": "FN",
         "d": "teapartypatriots.org",
         "f": "teapartypatriots",
         "t": "tppatriots",
         "n": "Tea Party Patriots",
         "P": "75",
-        "r": "H",
+        "r": "M",
         "u": "tea-party-patriots"
     },
     "aip.org": {
@@ -27419,5 +27427,37 @@
         "P": [],
         "r": "VL",
         "u": "healing-food-reference"
+    },
+    "caixinglobal.com": {
+        "b": "FN",
+        "d": "caixinglobal.com",
+        "n": "Caixin Global",
+        "P": [],
+        "r": "M",
+        "u": "caixin-global"
+    },
+    "health.news": {
+        "b": "CP",
+        "d": "health.news",
+        "n": "Health.News",
+        "P": [],
+        "r": "VL",
+        "u": "health-news"
+    },
+    "elmundo.es": {
+        "b": "R",
+        "d": "elmundo.es",
+        "n": "El Mundo",
+        "P": [],
+        "r": "MF",
+        "u": "el-mundo"
+    },
+    "americasfrontlinedoctors.com": {
+        "b": "CP",
+        "d": "americasfrontlinedoctors.com",
+        "n": "America's Frontline Doctors",
+        "P": [],
+        "r": "L",
+        "u": "americas-frontline-doctors"
     }
 }
