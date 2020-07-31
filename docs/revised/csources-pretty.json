@@ -4485,18 +4485,18 @@
         "u": "https://mediabiasfactcheck.com/center-for-a-new-american-security/",
         "p": "/"
     },
-    "trueactivist.com": {
+    "cis.org": {
         "b": "fake-news",
-        "d": "trueactivist.com",
+        "d": "cis.org",
         "f": "https://facebook.com/trueactivist",
         "t": "https://twitter.com/trueactivist",
-        "h": "https://trueactivist.com",
+        "h": "https://cis.org",
         "M": "57",
         "L": "87933",
         "n": "Center for Immigration Studies",
         "P": "61",
         "r": "LOW",
-        "u": "https://mediabiasfactcheck.com/true-activist/",
+        "u": "https://mediabiasfactcheck.com/center-for-immigration-studies-cis/",
         "p": "/"
     },
     "centerforinquiry.org": {
@@ -4760,7 +4760,7 @@
         "p": "/"
     },
     "chicagoreporter.com": {
-        "b": "left-center",
+        "b": "left",
         "d": "chicagoreporter.com",
         "f": "https://facebook.com/thechicagoreporter",
         "t": "https://twitter.com/chicagoreporter",
@@ -19693,7 +19693,7 @@
         "L": "315564",
         "n": "One America News Network",
         "P": "74",
-        "r": "MIXED",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/one-america-news-network/",
         "p": "/"
     },
@@ -22941,7 +22941,7 @@
         "L": "2173",
         "n": "Republicans Suck",
         "P": "29",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/republicans-suck/",
         "p": "/"
     },
@@ -23018,7 +23018,7 @@
         "h": "https://rsf.org",
         "M": "61",
         "L": "612163",
-        "n": "Reporter Without Borders",
+        "n": "Reporters Without Borders",
         "P": "85",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/reporters-without-borders/",
@@ -26814,7 +26814,7 @@
         "L": "72667",
         "n": "The Common Sense Show",
         "P": "58",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/the-common-sense-show/",
         "p": "/"
     },
@@ -26931,7 +26931,7 @@
         "L": "6439",
         "n": "The Daily Buzz",
         "P": "31",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-daily-buzz/",
         "p": "/"
     },
@@ -33911,7 +33911,7 @@
         "L": "3484604",
         "n": "Zerohedge",
         "P": "96",
-        "r": "MIXED",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/zero-hedge/",
         "p": "/"
     },
@@ -39583,6 +39583,30 @@
         "P": [],
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/americas-frontline-doctors/",
+        "p": "/"
+    },
+    "inforos.ru": {
+        "b": "fake-news",
+        "d": "inforos.ru",
+        "h": "https://inforos.ru",
+        "M": [],
+        "L": [],
+        "n": "InfoRos.ru",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/inforos/",
+        "p": "/"
+    },
+    "healthranger.com": {
+        "b": "conspiracy",
+        "d": "healthranger.com",
+        "h": "https://healthranger.com",
+        "M": [],
+        "L": [],
+        "n": "The Health Ranger",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/the-health-ranger/",
         "p": "/"
     }
 }

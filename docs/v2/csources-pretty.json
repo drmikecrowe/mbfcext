@@ -3134,15 +3134,15 @@
         "r": "H",
         "u": "center-for-a-new-american-security"
     },
-    "trueactivist.com": {
+    "cis.org": {
         "b": "FN",
-        "d": "trueactivist.com",
+        "d": "cis.org",
         "f": "trueactivist",
         "t": "trueactivist",
         "n": "Center for Immigration Studies",
         "P": "61",
         "r": "L",
-        "u": "true-activist"
+        "u": "center-for-immigration-studies-cis"
     },
     "centerforinquiry.org": {
         "b": "LC",
@@ -3330,7 +3330,7 @@
         "u": "chicago-reader"
     },
     "chicagoreporter.com": {
-        "b": "LC",
+        "b": "L",
         "d": "chicagoreporter.com",
         "f": "thechicagoreporter",
         "t": "chicagoreporter",
@@ -13750,7 +13750,7 @@
         "t": "oann",
         "n": "One America News Network",
         "P": "74",
-        "r": "M",
+        "r": "L",
         "u": "one-america-news-network"
     },
     "observeronline.news": {
@@ -16010,7 +16010,7 @@
         "f": "repubssuck",
         "n": "Republicans Suck",
         "P": "29",
-        "r": "H",
+        "r": "M",
         "u": "republicans-suck"
     },
     "resistancemedia.org": {
@@ -16063,7 +16063,7 @@
         "d": "rsf.org",
         "f": "reporterssansfrontieres",
         "t": "rsf_nordafrique",
-        "n": "Reporter Without Borders",
+        "n": "Reporters Without Borders",
         "P": "85",
         "r": "H",
         "u": "reporters-without-borders"
@@ -18711,7 +18711,7 @@
         "t": "davehodgescss",
         "n": "The Common Sense Show",
         "P": "58",
-        "r": "L",
+        "r": "VL",
         "u": "the-common-sense-show"
     },
     "theconservativenut.gop": {
@@ -18792,7 +18792,7 @@
         "f": "jegtheme",
         "n": "The Daily Buzz",
         "P": "31",
-        "r": "H",
+        "r": "M",
         "u": "the-daily-buzz"
     },
     "thedailydefender.com": {
@@ -23649,7 +23649,7 @@
         "d": "zerohedge.com",
         "n": "Zerohedge",
         "P": "96",
-        "r": "M",
+        "r": "L",
         "u": "zero-hedge"
     },
     "dailycamera.com": {
@@ -27459,5 +27459,21 @@
         "P": [],
         "r": "L",
         "u": "americas-frontline-doctors"
+    },
+    "inforos.ru": {
+        "b": "FN",
+        "d": "inforos.ru",
+        "n": "InfoRos.ru",
+        "P": [],
+        "r": "L",
+        "u": "inforos"
+    },
+    "healthranger.com": {
+        "b": "CP",
+        "d": "healthranger.com",
+        "n": "The Health Ranger",
+        "P": [],
+        "r": "VL",
+        "u": "the-health-ranger"
     }
 }
