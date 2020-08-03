@@ -6218,13 +6218,13 @@
         "u": "egyptian-streets"
     },
     "ecowatch.com": {
-        "b": "CP",
+        "b": "L",
         "d": "ecowatch.com",
         "f": "ecowatch",
         "t": "ecowatch",
         "n": "Ecowatch",
         "P": "68",
-        "r": "M",
+        "r": "H",
         "u": "ecowatch"
     },
     "econewsmedia.org": {
@@ -8702,7 +8702,7 @@
         "t": "httweets",
         "n": "Hindustan Times",
         "P": "98",
-        "r": "H",
+        "r": "MF",
         "u": "hindustan-times"
     },
     "hollywoodreporter.com": {
@@ -16077,6 +16077,14 @@
         "r": "M",
         "u": "resilience-post-carbon-institute"
     },
+    "resistancereport.com": {
+        "b": "FN",
+        "d": "resistancereport.com",
+        "n": "Resistance Report",
+        "P": "0",
+        "r": "M",
+        "u": "resistance-report"
+    },
     "revealnews.org": {
         "b": "LC",
         "d": "revealnews.org",
@@ -16168,6 +16176,14 @@
         "r": "H",
         "u": "rewire"
     },
+    "reverepress.com": {
+        "b": "L",
+        "d": "reverepress.com",
+        "n": "Revere Press",
+        "P": "0",
+        "r": "H",
+        "u": "revere-press"
+    },
     "restoreamericanglory.com": {
         "b": "R",
         "d": "restoreamericanglory.com",
@@ -16181,7 +16197,7 @@
         "d": "reverbpress.news",
         "n": "Reverb Press",
         "P": "43",
-        "r": "M",
+        "r": "H",
         "u": "reverb-press"
     },
     "revolutionradio.org": {
@@ -17426,7 +17442,7 @@
     "sbs.com.au": {
         "b": "LC",
         "d": "sbs.com.au",
-        "n": "Special Broadcasting Service",
+        "n": "Special Broadcasting Service (SBS)",
         "P": "64",
         "r": "H",
         "u": "special-broadcasting-service-sbs"
@@ -19404,13 +19420,12 @@
     },
     "jpost.com": {
         "b": "R",
-        "d": "jpost.com",
-        "f": "thejerusalempost",
-        "t": "jerusalem_post",
-        "n": "Jerusalem Post",
-        "P": "95",
-        "r": "MF",
-        "u": "the-jerusalem-post"
+        "d": "jpost.com/jerusalem-report",
+        "n": "The Jerusalem Report",
+        "P": "0",
+        "r": "H",
+        "u": "the-jerusalem-report",
+        "p": "/jerusalem-report"
     },
     "theintercept.com": {
         "b": "LC",
@@ -19780,7 +19795,7 @@
         "u": "the-national-patriot"
     },
     "themonthly.com.au": {
-        "b": "LC",
+        "b": "L",
         "d": "themonthly.com.au",
         "f": "themonthly",
         "t": "themonthly",
@@ -20026,7 +20041,7 @@
         "t": "thenewsmexico",
         "n": "The News (Mexico City)",
         "P": "84",
-        "r": "H",
+        "r": "MF",
         "u": "the-news-mexico-city"
     },
     "thenewsnerd.com": {
@@ -20939,7 +20954,7 @@
         "f": "timesofindia",
         "n": "The Times of India",
         "P": "98",
-        "r": "MF",
+        "r": "M",
         "u": "times-of-india"
     },
     "smh.com.au": {
@@ -21262,7 +21277,7 @@
         "t": "thewire_in",
         "n": "The Wire - India",
         "P": "55",
-        "r": "H",
+        "r": "MF",
         "u": "the-wire-india"
     },
     "wilderness.org": {
@@ -21991,7 +22006,7 @@
         "b": "PS",
         "d": "understandrealitythroughscience.blogspot.com",
         "f": "thom.raff",
-        "n": "Understanding Reality Through Science",
+        "n": "Understand Reality Through Science",
         "P": "15",
         "r": "H",
         "u": "understand-reality-through-science"
@@ -27475,5 +27490,61 @@
         "P": [],
         "r": "VL",
         "u": "the-health-ranger"
+    },
+    "actionnewsjax.com": {
+        "b": "C",
+        "d": "actionnewsjax.com",
+        "n": "ActionNewsJax.com",
+        "P": [],
+        "r": "H",
+        "u": "actionnewsjax-com"
+    },
+    "healthrangerreport.com": {
+        "b": "CP",
+        "d": "healthrangerreport.com",
+        "n": "Health Ranger Report",
+        "P": [],
+        "r": "VL",
+        "u": "health-ranger-report"
+    },
+    "wusa9.com": {
+        "b": "C",
+        "d": "wusa9.com",
+        "n": "WUSA9.com",
+        "P": [],
+        "r": "H",
+        "u": "wusa9-com"
+    },
+    "outragedpatriot.com": {
+        "b": "FN",
+        "d": "outragedpatriot.com",
+        "n": "Outraged Patriot",
+        "P": [],
+        "r": "L",
+        "u": "outraged-patriot"
+    },
+    "citynews1130.com": {
+        "b": "LC",
+        "d": "citynews1130.com",
+        "n": "News1130 & City News",
+        "P": [],
+        "r": "H",
+        "u": "news1130-city-news"
+    },
+    "herbreference.com": {
+        "b": "CP",
+        "d": "herbreference.com",
+        "n": "Herbreference.com",
+        "P": [],
+        "r": "VL",
+        "u": "herbreference-com"
+    },
+    "sciencetimes.com": {
+        "b": "FN",
+        "d": "sciencetimes.com",
+        "n": "The Science Times",
+        "P": [],
+        "r": "M",
+        "u": "the-science-times"
     }
 }

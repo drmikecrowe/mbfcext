@@ -8899,7 +8899,7 @@
         "p": "/"
     },
     "ecowatch.com": {
-        "b": "conspiracy",
+        "b": "left",
         "d": "ecowatch.com",
         "f": "https://facebook.com/ecowatch",
         "t": "https://twitter.com/ecowatch",
@@ -8908,7 +8908,7 @@
         "L": "196317",
         "n": "Ecowatch",
         "P": "68",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/ecowatch/",
         "p": "/"
     },
@@ -12466,7 +12466,7 @@
         "L": "7372177",
         "n": "Hindustan Times",
         "P": "98",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/hindustan-times/",
         "p": "/"
     },
@@ -23037,6 +23037,18 @@
         "u": "https://mediabiasfactcheck.com/resilience-post-carbon-institute/",
         "p": "/"
     },
+    "resistancereport.com": {
+        "b": "fake-news",
+        "d": "resistancereport.com",
+        "h": "https://resistancereport.com",
+        "M": "0",
+        "L": "0",
+        "n": "Resistance Report",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/resistance-report/",
+        "p": "/"
+    },
     "revealnews.org": {
         "b": "left-center",
         "d": "revealnews.org",
@@ -23168,6 +23180,18 @@
         "u": "https://mediabiasfactcheck.com/rewire/",
         "p": "/"
     },
+    "reverepress.com": {
+        "b": "left",
+        "d": "reverepress.com",
+        "h": "https://reverepress.com",
+        "M": "0",
+        "L": "0",
+        "n": "Revere Press",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/revere-press/",
+        "p": "/"
+    },
     "restoreamericanglory.com": {
         "b": "right",
         "d": "restoreamericanglory.com",
@@ -23188,7 +23212,7 @@
         "L": "37244",
         "n": "Reverb Press",
         "P": "43",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/reverb-press/",
         "p": "/"
     },
@@ -24969,7 +24993,7 @@
         "h": "https://sbs.com.au",
         "M": "66",
         "L": "1071987",
-        "n": "Special Broadcasting Service",
+        "n": "Special Broadcasting Service (SBS)",
         "P": "64",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/special-broadcasting-service-sbs/",
@@ -27807,17 +27831,15 @@
     },
     "jpost.com": {
         "b": "right-center",
-        "d": "jpost.com",
-        "f": "https://facebook.com/thejerusalempost",
-        "t": "https://twitter.com/jerusalem_post",
-        "h": "https://jpost.com",
-        "M": "70",
-        "L": "3400640",
-        "n": "Jerusalem Post",
-        "P": "95",
-        "r": "MOSTLY FACTUAL",
-        "u": "https://mediabiasfactcheck.com/the-jerusalem-post/",
-        "p": "/"
+        "d": "jpost.com/jerusalem-report",
+        "h": "https://jpost.com/jerusalem-report",
+        "M": "0",
+        "L": "0",
+        "n": "The Jerusalem Report",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-jerusalem-report/",
+        "p": "/jerusalem-report"
     },
     "theintercept.com": {
         "b": "left-center",
@@ -28343,7 +28365,7 @@
         "p": "/"
     },
     "themonthly.com.au": {
-        "b": "left-center",
+        "b": "left",
         "d": "themonthly.com.au",
         "f": "https://facebook.com/themonthly",
         "t": "https://twitter.com/themonthly",
@@ -28696,7 +28718,7 @@
         "L": "640733",
         "n": "The News (Mexico City)",
         "P": "84",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-news-mexico-city/",
         "p": "/"
     },
@@ -30005,7 +30027,7 @@
         "L": "10788866",
         "n": "The Times of India",
         "P": "98",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/times-of-india/",
         "p": "/"
     },
@@ -30468,7 +30490,7 @@
         "L": "207101",
         "n": "The Wire - India",
         "P": "55",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-wire-india/",
         "p": "/"
     },
@@ -31517,7 +31539,7 @@
         "h": "https://understandrealitythroughscience.blogspot.com",
         "M": "14",
         "L": "577",
-        "n": "Understanding Reality Through Science",
+        "n": "Understand Reality Through Science",
         "P": "15",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/understand-reality-through-science/",
@@ -39607,6 +39629,90 @@
         "P": [],
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/the-health-ranger/",
+        "p": "/"
+    },
+    "actionnewsjax.com": {
+        "b": "center",
+        "d": "actionnewsjax.com",
+        "h": "https://actionnewsjax.com",
+        "M": [],
+        "L": [],
+        "n": "ActionNewsJax.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/actionnewsjax-com/",
+        "p": "/"
+    },
+    "healthrangerreport.com": {
+        "b": "conspiracy",
+        "d": "healthrangerreport.com",
+        "h": "https://healthrangerreport.com",
+        "M": [],
+        "L": [],
+        "n": "Health Ranger Report",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/health-ranger-report/",
+        "p": "/"
+    },
+    "wusa9.com": {
+        "b": "center",
+        "d": "wusa9.com",
+        "h": "https://wusa9.com",
+        "M": [],
+        "L": [],
+        "n": "WUSA9.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wusa9-com/",
+        "p": "/"
+    },
+    "outragedpatriot.com": {
+        "b": "fake-news",
+        "d": "outragedpatriot.com",
+        "h": "https://outragedpatriot.com",
+        "M": [],
+        "L": [],
+        "n": "Outraged Patriot",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/outraged-patriot/",
+        "p": "/"
+    },
+    "citynews1130.com": {
+        "b": "left-center",
+        "d": "citynews1130.com",
+        "h": "https://citynews1130.com",
+        "M": [],
+        "L": [],
+        "n": "News1130 & City News",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/news1130-city-news/",
+        "p": "/"
+    },
+    "herbreference.com": {
+        "b": "conspiracy",
+        "d": "herbreference.com",
+        "h": "https://herbreference.com",
+        "M": [],
+        "L": [],
+        "n": "Herbreference.com",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/herbreference-com/",
+        "p": "/"
+    },
+    "sciencetimes.com": {
+        "b": "fake-news",
+        "d": "sciencetimes.com",
+        "h": "https://sciencetimes.com",
+        "M": [],
+        "L": [],
+        "n": "The Science Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/the-science-times/",
         "p": "/"
     }
 }
