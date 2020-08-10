@@ -1488,7 +1488,7 @@
         "t": "antiwarcom",
         "n": "Anti-War",
         "P": "85",
-        "r": "M",
+        "r": "MF",
         "u": "anti-war"
     },
     "arabnews.com": {
@@ -1512,12 +1512,12 @@
         "u": "conservation-magazine"
     },
     "anonews.co": {
-        "b": "CP",
+        "b": "FN",
         "d": "anonews.co",
         "f": "anonews.co",
-        "n": "Anonymous",
+        "n": "Anonymous News",
         "P": "44",
-        "r": "L",
+        "r": "M",
         "u": "anonymous"
     },
     "aranews.net": {
@@ -3699,7 +3699,7 @@
         "t": "taxjustice",
         "n": "Citizens for Tax Justice",
         "P": "42",
-        "r": "H",
+        "r": "MF",
         "u": "citizens-for-tax-justice"
     },
     "judithcurry.com": {
@@ -8702,7 +8702,7 @@
         "t": "httweets",
         "n": "Hindustan Times",
         "P": "98",
-        "r": "MF",
+        "r": "M",
         "u": "hindustan-times"
     },
     "hollywoodreporter.com": {
@@ -16142,13 +16142,14 @@
         "r": "H",
         "u": "retraction-watch"
     },
-    "southjerseymechanic.com": {
+    "rightwingnews.com": {
         "b": "FN",
-        "d": "southjerseymechanic.com",
-        "n": "Right Wing News",
-        "P": "11",
+        "d": "rightwingnews.com",
+        "t": "johnhawkinsrwn",
+        "n": "Right Side News",
+        "P": "93",
         "r": "L",
-        "u": "south-jersey-mechanic-trump-news"
+        "u": "right-wing-news"
     },
     "revolution-news.com": {
         "b": "L",
@@ -16236,15 +16237,6 @@
         "r": "L",
         "u": "right-alerts"
     },
-    "rightwingnews.com": {
-        "b": "FN",
-        "d": "rightwingnews.com",
-        "t": "johnhawkinsrwn",
-        "n": "Right Side News",
-        "P": "93",
-        "r": "L",
-        "u": "right-wing-news"
-    },
     "rightweb.irc-online.org": {
         "b": "LC",
         "d": "rightweb.irc-online.org",
@@ -16271,6 +16263,14 @@
         "r": "L",
         "u": "right-wing-tribune"
     },
+    "riverbender.com": {
+        "b": "C",
+        "d": "riverbender.com",
+        "n": "RiverBender.com",
+        "P": "0",
+        "r": "H",
+        "u": "riverbender-com"
+    },
     "rockcitytimes.com": {
         "b": "S",
         "d": "rockcitytimes.com",
@@ -16294,7 +16294,7 @@
         "t": "ringoffireradio",
         "n": "Ring of Fire",
         "P": "65",
-        "r": "H",
+        "r": "M",
         "u": "ring-of-fire"
     },
     "rollcall.com": {
@@ -16373,6 +16373,13 @@
         "P": "79",
         "r": "M",
         "u": "russian-news-agency-tass"
+    },
+    "rilenews.com": {
+        "b": "S",
+        "d": "rilenews.com",
+        "n": "Rile News",
+        "P": "0",
+        "u": "rile-news"
     },
     "russia-insider.com": {
         "b": "FN",
@@ -21319,6 +21326,14 @@
         "r": "M",
         "u": "thewrap"
     },
+    "timescolonist.com": {
+        "b": "LC",
+        "d": "timescolonist.com",
+        "n": "Times Colonist",
+        "P": "0",
+        "r": "H",
+        "u": "times-colonist"
+    },
     "tnonline.com": {
         "b": "R",
         "d": "tnonline.com",
@@ -22498,7 +22513,7 @@
         "t": "veteranstoday",
         "n": "Veterans Today",
         "P": "89",
-        "r": "M",
+        "r": "VL",
         "u": "veterans-today"
     },
     "vermontindependent.org": {
@@ -22942,11 +22957,11 @@
         "u": "weasel-zippers"
     },
     "whatstheharm.net": {
-        "b": "PS",
+        "b": "FN",
         "d": "whatstheharm.net",
         "n": "What's the Harm",
         "P": "56",
-        "r": "H",
+        "r": "M",
         "u": "whats-the-harm"
     },
     "wgntv.com": {
@@ -22962,9 +22977,9 @@
     "anonhq.com": {
         "b": "CP",
         "d": "anonhq.com",
-        "n": "We are Anonymous",
+        "n": "We are Anonymous/AnonHQ",
         "P": "43",
-        "r": "L",
+        "r": "VL",
         "u": "we-are-anonymous"
     },
     "westernfreepress.com": {
@@ -23332,7 +23347,7 @@
         "u": "world-net-daily-wnd"
     },
     "worldpoliticsreview.com": {
-        "b": "C",
+        "b": "LC",
         "d": "worldpoliticsreview.com",
         "f": "worldpoliticsreview",
         "t": "wpreview",
@@ -27546,5 +27561,84 @@
         "P": [],
         "r": "M",
         "u": "the-science-times"
+    },
+    "womenarehuman.com": {
+        "b": "FN",
+        "d": "womenarehuman.com",
+        "n": "Women are Human",
+        "P": [],
+        "r": "M",
+        "u": "women-are-human"
+    },
+    "edmontonexaminer.com": {
+        "b": "R",
+        "d": "edmontonexaminer.com",
+        "n": "Edmonton Examiner",
+        "P": [],
+        "r": "MF",
+        "u": "edmonton-examiner"
+    },
+    "ingredients.news": {
+        "b": "CP",
+        "d": "ingredients.news",
+        "n": "Ingredients.News",
+        "P": [],
+        "r": "VL",
+        "u": "ingredients-news"
+    },
+    "diepresse.com": {
+        "b": "R",
+        "d": "diepresse.com",
+        "n": "Die Presse",
+        "P": [],
+        "r": "H",
+        "u": "die-presse"
+    },
+    "today.com": {
+        "b": "LC",
+        "d": "today.com",
+        "n": "Today.com",
+        "P": [],
+        "r": "MF",
+        "u": "today-com"
+    },
+    "lincolnproject.us": {
+        "b": "LC",
+        "d": "lincolnproject.us",
+        "n": "The Lincoln Project",
+        "P": [],
+        "r": "M",
+        "u": "the-lincoln-project"
+    },
+    "liberty.news": {
+        "b": "CP",
+        "d": "liberty.news",
+        "n": "Liberty.News",
+        "P": [],
+        "r": "VL",
+        "u": "liberty-news-2"
+    },
+    "floridapolitics.com": {
+        "b": "C",
+        "d": "floridapolitics.com",
+        "n": "Florida Politics",
+        "P": [],
+        "r": "H",
+        "u": "florida-politics"
+    },
+    "themideastbeast.com": {
+        "b": "S",
+        "d": "themideastbeast.com",
+        "n": "The Mideast Bast",
+        "P": [],
+        "u": "the-mideast-beast"
+    },
+    "boldprogressives.org": {
+        "b": "L",
+        "d": "boldprogressives.org",
+        "n": "Progressive Change Campaign Committee",
+        "P": [],
+        "r": "M",
+        "u": "progressive-change-campaign-committee"
     }
 }

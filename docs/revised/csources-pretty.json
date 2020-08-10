@@ -2135,7 +2135,7 @@
         "L": "657561",
         "n": "Anti-War",
         "P": "85",
-        "r": "MIXED",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/anti-war/",
         "p": "/"
     },
@@ -2168,15 +2168,15 @@
         "p": "/"
     },
     "anonews.co": {
-        "b": "conspiracy",
+        "b": "fake-news",
         "d": "anonews.co",
         "f": "https://facebook.com/anonews.co",
         "h": "https://anonews.co",
         "M": "47",
         "L": "16864",
-        "n": "Anonymous",
+        "n": "Anonymous News",
         "P": "44",
-        "r": "LOW",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/anonymous/",
         "p": "/"
     },
@@ -5287,7 +5287,7 @@
         "L": "11946",
         "n": "Citizens for Tax Justice",
         "P": "42",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/citizens-for-tax-justice/",
         "p": "/"
     },
@@ -12466,7 +12466,7 @@
         "L": "7372177",
         "n": "Hindustan Times",
         "P": "98",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/hindustan-times/",
         "p": "/"
     },
@@ -23130,16 +23130,17 @@
         "u": "https://mediabiasfactcheck.com/retraction-watch/",
         "p": "/"
     },
-    "southjerseymechanic.com": {
+    "rightwingnews.com": {
         "b": "fake-news",
-        "d": "southjerseymechanic.com",
-        "h": "https://southjerseymechanic.com",
-        "M": "5",
-        "L": "1",
-        "n": "Right Wing News",
-        "P": "11",
+        "d": "rightwingnews.com",
+        "t": "https://twitter.com/johnhawkinsrwn",
+        "h": "https://rightwingnews.com",
+        "M": "56",
+        "L": "2109646",
+        "n": "Right Side News",
+        "P": "93",
         "r": "LOW",
-        "u": "https://mediabiasfactcheck.com/south-jersey-mechanic-trump-news/",
+        "u": "https://mediabiasfactcheck.com/right-wing-news/",
         "p": "/"
     },
     "revolution-news.com": {
@@ -23268,19 +23269,6 @@
         "u": "https://mediabiasfactcheck.com/right-alerts/",
         "p": "/"
     },
-    "rightwingnews.com": {
-        "b": "fake-news",
-        "d": "rightwingnews.com",
-        "t": "https://twitter.com/johnhawkinsrwn",
-        "h": "https://rightwingnews.com",
-        "M": "56",
-        "L": "2109646",
-        "n": "Right Side News",
-        "P": "93",
-        "r": "LOW",
-        "u": "https://mediabiasfactcheck.com/right-wing-news/",
-        "p": "/"
-    },
     "rightweb.irc-online.org": {
         "b": "left-center",
         "d": "rightweb.irc-online.org",
@@ -23319,6 +23307,18 @@
         "u": "https://mediabiasfactcheck.com/right-wing-tribune/",
         "p": "/"
     },
+    "riverbender.com": {
+        "b": "center",
+        "d": "riverbender.com/",
+        "h": "https://riverbender.com/",
+        "M": "0",
+        "L": "0",
+        "n": "RiverBender.com",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/riverbender-com/",
+        "p": "/"
+    },
     "rockcitytimes.com": {
         "b": "satire",
         "d": "rockcitytimes.com",
@@ -23353,7 +23353,7 @@
         "L": "164019",
         "n": "Ring of Fire",
         "P": "65",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/ring-of-fire/",
         "p": "/"
     },
@@ -23464,6 +23464,17 @@
         "P": "79",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
+        "p": "/"
+    },
+    "rilenews.com": {
+        "b": "satire",
+        "d": "rilenews.com",
+        "h": "https://rilenews.com",
+        "M": "0",
+        "L": "0",
+        "n": "Rile News",
+        "P": "0",
+        "u": "https://mediabiasfactcheck.com/rile-news/",
         "p": "/"
     },
     "russia-insider.com": {
@@ -30549,6 +30560,18 @@
         "u": "https://mediabiasfactcheck.com/thewrap/",
         "p": "/"
     },
+    "timescolonist.com": {
+        "b": "left-center",
+        "d": "timescolonist.com",
+        "h": "https://timescolonist.com",
+        "M": "0",
+        "L": "0",
+        "n": "Times Colonist",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/times-colonist/",
+        "p": "/"
+    },
     "tnonline.com": {
         "b": "right-center",
         "d": "tnonline.com",
@@ -32259,7 +32282,7 @@
         "L": "1021158",
         "n": "Veterans Today",
         "P": "89",
-        "r": "MIXED",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/veterans-today/",
         "p": "/"
     },
@@ -32896,14 +32919,14 @@
         "p": "/"
     },
     "whatstheharm.net": {
-        "b": "pro-science",
+        "b": "fake-news",
         "d": "whatstheharm.net",
         "h": "https://whatstheharm.net",
         "M": "51",
         "L": "70553",
         "n": "What's the Harm",
         "P": "56",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/whats-the-harm/",
         "p": "/"
     },
@@ -32927,9 +32950,9 @@
         "h": "https://anonhq.com",
         "M": "53",
         "L": "43612",
-        "n": "We are Anonymous",
+        "n": "We are Anonymous/AnonHQ",
         "P": "43",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/we-are-anonymous/",
         "p": "/"
     },
@@ -33458,7 +33481,7 @@
         "p": "/"
     },
     "worldpoliticsreview.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "worldpoliticsreview.com",
         "f": "https://facebook.com/worldpoliticsreview",
         "t": "https://twitter.com/wpreview",
@@ -39713,6 +39736,125 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-science-times/",
+        "p": "/"
+    },
+    "womenarehuman.com": {
+        "b": "fake-news",
+        "d": "womenarehuman.com",
+        "h": "https://womenarehuman.com",
+        "M": [],
+        "L": [],
+        "n": "Women are Human",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/women-are-human/",
+        "p": "/"
+    },
+    "edmontonexaminer.com": {
+        "b": "right-center",
+        "d": "edmontonexaminer.com",
+        "h": "https://edmontonexaminer.com",
+        "M": [],
+        "L": [],
+        "n": "Edmonton Examiner",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/edmonton-examiner/",
+        "p": "/"
+    },
+    "ingredients.news": {
+        "b": "conspiracy",
+        "d": "ingredients.news",
+        "h": "https://ingredients.news",
+        "M": [],
+        "L": [],
+        "n": "Ingredients.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/ingredients-news/",
+        "p": "/"
+    },
+    "diepresse.com": {
+        "b": "right-center",
+        "d": "diepresse.com",
+        "h": "https://diepresse.com",
+        "M": [],
+        "L": [],
+        "n": "Die Presse",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/die-presse/",
+        "p": "/"
+    },
+    "today.com": {
+        "b": "left-center",
+        "d": "today.com",
+        "h": "https://today.com",
+        "M": [],
+        "L": [],
+        "n": "Today.com",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/today-com/",
+        "p": "/"
+    },
+    "lincolnproject.us": {
+        "b": "left-center",
+        "d": "lincolnproject.us",
+        "h": "https://lincolnproject.us",
+        "M": [],
+        "L": [],
+        "n": "The Lincoln Project",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/the-lincoln-project/",
+        "p": "/"
+    },
+    "liberty.news": {
+        "b": "conspiracy",
+        "d": "liberty.news",
+        "h": "https://liberty.news",
+        "M": [],
+        "L": [],
+        "n": "Liberty.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/liberty-news-2/",
+        "p": "/"
+    },
+    "floridapolitics.com": {
+        "b": "center",
+        "d": "floridapolitics.com",
+        "h": "https://floridapolitics.com",
+        "M": [],
+        "L": [],
+        "n": "Florida Politics",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/florida-politics/",
+        "p": "/"
+    },
+    "themideastbeast.com": {
+        "b": "satire",
+        "d": "themideastbeast.com",
+        "h": "https://themideastbeast.com",
+        "M": [],
+        "L": [],
+        "n": "The Mideast Bast",
+        "P": [],
+        "u": "https://mediabiasfactcheck.com/the-mideast-beast/",
+        "p": "/"
+    },
+    "boldprogressives.org": {
+        "b": "left",
+        "d": "boldprogressives.org",
+        "h": "https://boldprogressives.org",
+        "M": [],
+        "L": [],
+        "n": "Progressive Change Campaign Committee",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/progressive-change-campaign-committee/",
         "p": "/"
     }
 }
