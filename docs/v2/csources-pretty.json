@@ -4164,7 +4164,7 @@
         "u": "commentary-magazine"
     },
     "crfb.org": {
-        "b": "C",
+        "b": "R",
         "d": "crfb.org",
         "f": "budgethawks",
         "t": "budgethawks",
@@ -8739,7 +8739,7 @@
         "t": "businessline",
         "n": "Hindu Business Line",
         "P": "88",
-        "r": "H",
+        "r": "M",
         "u": "the-hindu-business-line"
     },
     "hillreporter.com": {
@@ -9527,6 +9527,14 @@
         "P": "29",
         "r": "H",
         "u": "institute-for-middle-east-understanding-imeu"
+    },
+    "icr.org": {
+        "b": "CP",
+        "d": "icr.org",
+        "n": "Institute for Creation Research",
+        "P": "0",
+        "r": "VL",
+        "u": "institute-for-creation-research-icr"
     },
     "insidesources.com": {
         "b": "R",
@@ -11672,7 +11680,7 @@
         "u": "medscape"
     },
     "metabunk.org": {
-        "b": "C",
+        "b": "PS",
         "d": "metabunk.org",
         "f": "bee.kay.1004837",
         "n": "Metabunk",
@@ -12984,7 +12992,7 @@
         "f": "https://www.facebook.com/group.php?gid",
         "n": "New Moderate",
         "P": "49",
-        "r": "H",
+        "r": "M",
         "u": "new-moderate"
     },
     "newromantimes.com": {
@@ -16892,7 +16900,7 @@
         "t": "scoopwhoop",
         "n": "ScoopWhoop",
         "P": "36",
-        "r": "H",
+        "r": "M",
         "u": "scoopwhoop"
     },
     "scroll.in": {
@@ -16902,7 +16910,7 @@
         "t": "scroll_in",
         "n": "Scroll.in",
         "P": "59",
-        "r": "H",
+        "r": "MF",
         "u": "scroll-in"
     },
     "sciencenews.org": {
@@ -16995,6 +17003,14 @@
         "P": "90",
         "r": "H",
         "u": "sfgate"
+    },
+    "seventeen.com": {
+        "b": "L",
+        "d": "seventeen.com",
+        "n": "Seventeen",
+        "P": "0",
+        "r": "H",
+        "u": "seventeen"
     },
     "sickchirpse.com": {
         "b": "FN",
@@ -17343,6 +17359,14 @@
         "r": "H",
         "u": "socialist-standard"
     },
+    "southbendtribune.com": {
+        "b": "C",
+        "d": "southbendtribune.com",
+        "n": "South Bend Tribune",
+        "P": "0",
+        "r": "H",
+        "u": "south-bend-tribune"
+    },
     "sojo.net": {
         "b": "LC",
         "d": "sojo.net",
@@ -17427,6 +17451,14 @@
         "r": "H",
         "u": "socialistworker-org"
     },
+    "speakgov.com": {
+        "b": "FN",
+        "d": "speakgov.com",
+        "n": "SpeakGov.com",
+        "P": "0",
+        "r": "L",
+        "u": "speakgov-com"
+    },
     "scmp.com": {
         "b": "LC",
         "d": "scmp.com",
@@ -17453,6 +17485,14 @@
         "P": "64",
         "r": "H",
         "u": "special-broadcasting-service-sbs"
+    },
+    "spinzon.com": {
+        "b": "FN",
+        "d": "spinzon.com",
+        "n": "Spinzon",
+        "P": "0",
+        "r": "L",
+        "u": "spinzon"
     },
     "stltoday.com": {
         "b": "LC",
@@ -22068,7 +22108,7 @@
         "t": "ucsusa",
         "n": "Union of Concerned Scientists",
         "P": "80",
-        "r": "H",
+        "r": "MF",
         "u": "union-of-concerned-scientists"
     },
     "uproxx.com": {
@@ -27640,5 +27680,85 @@
         "P": [],
         "r": "M",
         "u": "progressive-change-campaign-committee"
+    },
+    "kenoshanews.com": {
+        "b": "LC",
+        "d": "kenoshanews.com",
+        "n": "Kenosha News",
+        "P": [],
+        "r": "H",
+        "u": "kenosha-news"
+    },
+    "libtards.news": {
+        "b": "CP",
+        "d": "https://libtards.news",
+        "n": "Libtards.News",
+        "P": [],
+        "r": "VL",
+        "u": "libtards-news"
+    },
+    "issuesinsights.com": {
+        "b": "R",
+        "d": "issuesinsights.com",
+        "n": "Issues & Insights",
+        "P": [],
+        "r": "M",
+        "u": "issues-insights"
+    },
+    "meidastouch.com": {
+        "b": "L",
+        "d": "meidastouch.com",
+        "n": "MeidasTouch",
+        "P": [],
+        "r": "M",
+        "u": "meidastouch"
+    },
+    "patriots4truth.org": {
+        "b": "CP",
+        "d": "patriots4truth.org",
+        "n": "Patriots For Truth",
+        "P": [],
+        "r": "VL",
+        "u": "patriots-for-truth"
+    },
+    "nationalsecurity.news": {
+        "b": "CP",
+        "d": "nationalsecurity.news",
+        "n": "NationalSecurity.News",
+        "P": [],
+        "r": "VL",
+        "u": "nationalsecurity-news"
+    },
+    "katu.com": {
+        "b": "R",
+        "d": "katu.com",
+        "n": "KATU2",
+        "P": [],
+        "r": "H",
+        "u": "katu2"
+    },
+    "americanpeopledaily.com": {
+        "b": "FN",
+        "d": "americanpeopledaily.com",
+        "n": "American People Daily",
+        "P": [],
+        "r": "L",
+        "u": "american-people-daily"
+    },
+    "breakingfirst.com": {
+        "b": "FN",
+        "d": "breakingfirst.com",
+        "n": "Breaking First",
+        "P": [],
+        "r": "L",
+        "u": "breaking-first"
+    },
+    "naturalmedicine.news": {
+        "b": "CP",
+        "d": "naturalmedicine.news",
+        "n": "NaturalMedicine.News",
+        "P": [],
+        "r": "VL",
+        "u": "naturalmedicine-news"
     }
 }

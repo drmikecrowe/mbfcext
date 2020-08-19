@@ -5949,7 +5949,7 @@
         "p": "/"
     },
     "crfb.org": {
-        "b": "center",
+        "b": "right-center",
         "d": "crfb.org",
         "f": "https://facebook.com/budgethawks",
         "t": "https://twitter.com/budgethawks",
@@ -12519,7 +12519,7 @@
         "L": "1154965",
         "n": "Hindu Business Line",
         "P": "88",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-hindu-business-line/",
         "p": "/"
     },
@@ -13642,6 +13642,18 @@
         "P": "29",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/institute-for-middle-east-understanding-imeu/",
+        "p": "/"
+    },
+    "icr.org": {
+        "b": "conspiracy",
+        "d": "icr.org",
+        "h": "https://icr.org",
+        "M": "0",
+        "L": "0",
+        "n": "Institute for Creation Research",
+        "P": "0",
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/institute-for-creation-research-icr/",
         "p": "/"
     },
     "insidesources.com": {
@@ -16716,7 +16728,7 @@
         "p": "/"
     },
     "metabunk.org": {
-        "b": "center",
+        "b": "pro-science",
         "d": "metabunk.org",
         "f": "https://facebook.com/bee.kay.1004837",
         "h": "https://metabunk.org",
@@ -18587,7 +18599,7 @@
         "L": "27297",
         "n": "New Moderate",
         "P": "49",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/new-moderate/",
         "p": "/"
     },
@@ -24207,7 +24219,7 @@
         "L": "9223",
         "n": "ScoopWhoop",
         "P": "36",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/scoopwhoop/",
         "p": "/"
     },
@@ -24221,7 +24233,7 @@
         "L": "430289",
         "n": "Scroll.in",
         "P": "59",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/scroll-in/",
         "p": "/"
     },
@@ -24354,6 +24366,18 @@
         "P": "90",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/sfgate/",
+        "p": "/"
+    },
+    "seventeen.com": {
+        "b": "left",
+        "d": "seventeen.com",
+        "h": "https://seventeen.com",
+        "M": "0",
+        "L": "0",
+        "n": "Seventeen",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/seventeen/",
         "p": "/"
     },
     "sickchirpse.com": {
@@ -24851,6 +24875,18 @@
         "u": "https://mediabiasfactcheck.com/socialist-standard/",
         "p": "/"
     },
+    "southbendtribune.com": {
+        "b": "center",
+        "d": "southbendtribune.com/",
+        "h": "https://southbendtribune.com/",
+        "M": "0",
+        "L": "0",
+        "n": "South Bend Tribune",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/south-bend-tribune/",
+        "p": "/"
+    },
     "sojo.net": {
         "b": "left-center",
         "d": "sojo.net",
@@ -24971,6 +25007,18 @@
         "u": "https://mediabiasfactcheck.com/socialistworker-org/",
         "p": "/"
     },
+    "speakgov.com": {
+        "b": "fake-news",
+        "d": "speakgov.com",
+        "h": "https://speakgov.com",
+        "M": "0",
+        "L": "0",
+        "n": "SpeakGov.com",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/speakgov-com/",
+        "p": "/"
+    },
     "scmp.com": {
         "b": "left-center",
         "d": "scmp.com",
@@ -25008,6 +25056,18 @@
         "P": "64",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/special-broadcasting-service-sbs/",
+        "p": "/"
+    },
+    "spinzon.com": {
+        "b": "fake-news",
+        "d": "spinzon.com",
+        "h": "https://spinzon.com",
+        "M": "0",
+        "L": "0",
+        "n": "Spinzon",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/spinzon/",
         "p": "/"
     },
     "stltoday.com": {
@@ -31629,7 +31689,7 @@
         "L": "390052",
         "n": "Union of Concerned Scientists",
         "P": "80",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/union-of-concerned-scientists/",
         "p": "/"
     },
@@ -39855,6 +39915,126 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/progressive-change-campaign-committee/",
+        "p": "/"
+    },
+    "kenoshanews.com": {
+        "b": "left-center",
+        "d": "kenoshanews.com",
+        "h": "https://kenoshanews.com",
+        "M": [],
+        "L": [],
+        "n": "Kenosha News",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kenosha-news/",
+        "p": "/"
+    },
+    "libtards.news": {
+        "b": "conspiracy",
+        "d": "https://libtards.news/",
+        "h": "https://https://libtards.news/",
+        "M": [],
+        "L": [],
+        "n": "Libtards.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/libtards-news/",
+        "p": "/"
+    },
+    "issuesinsights.com": {
+        "b": "right",
+        "d": "issuesinsights.com",
+        "h": "https://issuesinsights.com",
+        "M": [],
+        "L": [],
+        "n": "Issues & Insights",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/issues-insights/",
+        "p": "/"
+    },
+    "meidastouch.com": {
+        "b": "left",
+        "d": "meidastouch.com",
+        "h": "https://meidastouch.com",
+        "M": [],
+        "L": [],
+        "n": "MeidasTouch",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/meidastouch/",
+        "p": "/"
+    },
+    "patriots4truth.org": {
+        "b": "conspiracy",
+        "d": "patriots4truth.org",
+        "h": "https://patriots4truth.org",
+        "M": [],
+        "L": [],
+        "n": "Patriots For Truth",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/patriots-for-truth/",
+        "p": "/"
+    },
+    "nationalsecurity.news": {
+        "b": "conspiracy",
+        "d": "nationalsecurity.news",
+        "h": "https://nationalsecurity.news",
+        "M": [],
+        "L": [],
+        "n": "NationalSecurity.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/nationalsecurity-news/",
+        "p": "/"
+    },
+    "katu.com": {
+        "b": "right-center",
+        "d": "katu.com",
+        "h": "https://katu.com",
+        "M": [],
+        "L": [],
+        "n": "KATU2",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/katu2/",
+        "p": "/"
+    },
+    "americanpeopledaily.com": {
+        "b": "fake-news",
+        "d": "americanpeopledaily.com",
+        "h": "https://americanpeopledaily.com",
+        "M": [],
+        "L": [],
+        "n": "American People Daily",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/american-people-daily/",
+        "p": "/"
+    },
+    "breakingfirst.com": {
+        "b": "fake-news",
+        "d": "breakingfirst.com",
+        "h": "https://breakingfirst.com",
+        "M": [],
+        "L": [],
+        "n": "Breaking First",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/breaking-first/",
+        "p": "/"
+    },
+    "naturalmedicine.news": {
+        "b": "conspiracy",
+        "d": "naturalmedicine.news",
+        "h": "https://naturalmedicine.news",
+        "M": [],
+        "L": [],
+        "n": "NaturalMedicine.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/naturalmedicine-news/",
         "p": "/"
     }
 }
