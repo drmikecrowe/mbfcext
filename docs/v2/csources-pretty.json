@@ -1374,7 +1374,7 @@
         "d": "angrywhitemen.org",
         "n": "Angry White Men",
         "P": "51",
-        "r": "H",
+        "r": "M",
         "u": "angry-white-men"
     },
     "ammoland.com": {
@@ -6967,7 +6967,7 @@
         "u": "florida-sun-post"
     },
     "jacksonville.com": {
-        "b": "R",
+        "b": "C",
         "d": "jacksonville.com",
         "f": "fltimesunion",
         "t": "jaxdotcom",
@@ -17673,7 +17673,7 @@
     "stateofthenation2012.com": {
         "b": "FN",
         "d": "stateofthenation2012.com",
-        "n": "State of the Nation 2012",
+        "n": "State of the Nation",
         "P": "51",
         "r": "L",
         "u": "state-of-the-union-2012"
@@ -21665,7 +21665,7 @@
         "u": "trt-world"
     },
     "townhall.com": {
-        "b": "R",
+        "b": "FN",
         "d": "townhall.com",
         "f": "townhallcom",
         "t": "townhallcom",
@@ -27760,5 +27760,21 @@
         "P": [],
         "r": "VL",
         "u": "naturalmedicine-news"
+    },
+    "gaia.com": {
+        "b": "CP",
+        "d": "gaia.com",
+        "n": "Gaia",
+        "P": [],
+        "r": "L",
+        "u": "gaia"
+    },
+    "wfmz.com": {
+        "b": "C",
+        "d": "wfmz.com",
+        "n": "WFMZ",
+        "P": [],
+        "r": "H",
+        "u": "wfmz"
     }
 }

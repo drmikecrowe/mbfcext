@@ -768,10 +768,10 @@
     },
     "beaconjournal.com": {
         "b": "left-center",
-        "d": "beaconjournal.com/",
+        "d": "beaconjournal.com",
         "f": "https://facebook.com/akronbeaconjournal",
         "t": "https://twitter.com/beaconjournaldotcom",
-        "h": "https://beaconjournal.com/",
+        "h": "https://beaconjournal.com",
         "M": "39",
         "L": "360",
         "n": "Akron Beacon Journal",
@@ -1973,7 +1973,7 @@
         "L": "31454",
         "n": "Angry White Men",
         "P": "51",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/angry-white-men/",
         "p": "/"
     },
@@ -9976,7 +9976,7 @@
         "p": "/"
     },
     "jacksonville.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "jacksonville.com",
         "f": "https://facebook.com/fltimesunion",
         "t": "https://twitter.com/jaxdotcom",
@@ -25328,7 +25328,7 @@
         "h": "https://stateofthenation2012.com",
         "M": "49",
         "L": "53781",
-        "n": "State of the Nation 2012",
+        "n": "State of the Nation",
         "P": "51",
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/state-of-the-union-2012/",
@@ -31047,7 +31047,7 @@
         "p": "/"
     },
     "townhall.com": {
-        "b": "right",
+        "b": "fake-news",
         "d": "townhall.com",
         "f": "https://facebook.com/townhallcom",
         "t": "https://twitter.com/townhallcom",
@@ -40035,6 +40035,30 @@
         "P": [],
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/naturalmedicine-news/",
+        "p": "/"
+    },
+    "gaia.com": {
+        "b": "conspiracy",
+        "d": "gaia.com",
+        "h": "https://gaia.com",
+        "M": [],
+        "L": [],
+        "n": "Gaia",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/gaia/",
+        "p": "/"
+    },
+    "wfmz.com": {
+        "b": "center",
+        "d": "wfmz.com",
+        "h": "https://wfmz.com",
+        "M": [],
+        "L": [],
+        "n": "WFMZ",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wfmz/",
         "p": "/"
     }
 }
