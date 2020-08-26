@@ -3712,13 +3712,13 @@
         "u": "climate-etc"
     },
     "legitgov.org": {
-        "b": "LC",
+        "b": "CP",
         "d": "legitgov.org",
         "f": "citizensforlegitimategovernment",
         "t": "legitgov",
         "n": "Citizens for Legitimate Government",
         "P": "92",
-        "r": "H",
+        "r": "M",
         "u": "citizens-for-legitimate-government-clg-news"
     },
     "climatechangedispatch.com": {
@@ -17839,6 +17839,22 @@
         "P": "28",
         "u": "stubhill-news"
     },
+    "syriahr.com": {
+        "b": "LC",
+        "d": "syriahr.com",
+        "n": "Syrian Observatory for Human Rights (SOHR)",
+        "P": "0",
+        "r": "H",
+        "u": "syrian-observatory-for-human-rights-sohr"
+    },
+    "syrianews.cc": {
+        "b": "FN",
+        "d": "syrianews.cc",
+        "n": "Syria News",
+        "P": "0",
+        "r": "L",
+        "u": "http://mediabiasfactcheck.com/syria-news"
+    },
     "sustainablepulse.com": {
         "b": "CP",
         "d": "sustainablepulse.com",
@@ -17954,6 +17970,14 @@
         "P": "22",
         "r": "L",
         "u": "subject-politics"
+    },
+    "supremepatriot.com": {
+        "b": "FN",
+        "d": "supremepatriot.com",
+        "n": "Supreme Patriot",
+        "P": "0",
+        "r": "L",
+        "u": "supreme-patriot"
     },
     "swissinfo.ch": {
         "b": "LC",
@@ -21182,7 +21206,7 @@
         "t": "thetyee",
         "n": "The Tyee",
         "P": "74",
-        "r": "H",
+        "r": "MF",
         "u": "the-tyee"
     },
     "washingtonfeed.com": {
@@ -27776,5 +27800,53 @@
         "P": [],
         "r": "H",
         "u": "wfmz"
+    },
+    "naturalnewsblogs.com": {
+        "b": "CP",
+        "d": "naturalnewsblogs.com",
+        "n": "NaturalNewsBlogs",
+        "P": [],
+        "r": "VL",
+        "u": "naturalnewsblogs"
+    },
+    "ncse.ngo": {
+        "b": "PS",
+        "d": "ncse.ngo",
+        "n": "National Center for Science (NCSE)",
+        "P": [],
+        "r": "VH",
+        "u": "national-center-for-science-education-ncse"
+    },
+    "turnto23.com": {
+        "b": "C",
+        "d": "turnto23.com",
+        "n": "KERO TV - 23ABC",
+        "P": [],
+        "r": "H",
+        "u": "kero-23abc"
+    },
+    "ieee.org": {
+        "b": "PS",
+        "d": "ieee.org",
+        "n": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "P": [],
+        "r": "VH",
+        "u": "institute-of-electrical-and-electronics-engineers-ieee"
+    },
+    "naturalnewsradio.com": {
+        "b": "CP",
+        "d": "naturalnewsradio.com",
+        "n": "Natural News Radio",
+        "P": [],
+        "r": "VL",
+        "u": "natural-news-radio"
+    },
+    "newsbreak.com": {
+        "b": "LC",
+        "d": "newsbreak.com",
+        "n": "News Break",
+        "P": [],
+        "r": "MF",
+        "u": "news-break"
     }
 }

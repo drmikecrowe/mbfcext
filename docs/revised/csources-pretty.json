@@ -5305,7 +5305,7 @@
         "p": "/"
     },
     "legitgov.org": {
-        "b": "left-center",
+        "b": "conspiracy",
         "d": "legitgov.org",
         "f": "https://facebook.com/citizensforlegitimategovernment",
         "t": "https://twitter.com/legitgov",
@@ -5314,7 +5314,7 @@
         "L": "1704548",
         "n": "Citizens for Legitimate Government",
         "P": "92",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/citizens-for-legitimate-government-clg-news/",
         "p": "/"
     },
@@ -25567,6 +25567,30 @@
         "u": "https://mediabiasfactcheck.com/stubhill-news/",
         "p": "/"
     },
+    "syriahr.com": {
+        "b": "left-center",
+        "d": "syriahr.com",
+        "h": "https://syriahr.com",
+        "M": "0",
+        "L": "0",
+        "n": "Syrian Observatory for Human Rights (SOHR)",
+        "P": "0",
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/syrian-observatory-for-human-rights-sohr/",
+        "p": "/"
+    },
+    "syrianews.cc": {
+        "b": "fake-news",
+        "d": "syrianews.cc",
+        "h": "https://syrianews.cc",
+        "M": "0",
+        "L": "0",
+        "n": "Syria News",
+        "P": "0",
+        "r": "LOW",
+        "u": "http://mediabiasfactcheck.com/syria-news/",
+        "p": "/"
+    },
     "sustainablepulse.com": {
         "b": "conspiracy",
         "d": "sustainablepulse.com",
@@ -25733,6 +25757,18 @@
         "P": "22",
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/subject-politics/",
+        "p": "/"
+    },
+    "supremepatriot.com": {
+        "b": "fake-news",
+        "d": "supremepatriot.com",
+        "h": "https://supremepatriot.com",
+        "M": "0",
+        "L": "0",
+        "n": "Supreme Patriot",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/supreme-patriot/",
         "p": "/"
     },
     "swissinfo.ch": {
@@ -30359,7 +30395,7 @@
         "L": "277313",
         "n": "The Tyee",
         "P": "74",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-tyee/",
         "p": "/"
     },
@@ -40059,6 +40095,78 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/wfmz/",
+        "p": "/"
+    },
+    "naturalnewsblogs.com": {
+        "b": "conspiracy",
+        "d": "naturalnewsblogs.com",
+        "h": "https://naturalnewsblogs.com",
+        "M": [],
+        "L": [],
+        "n": "NaturalNewsBlogs",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/naturalnewsblogs/",
+        "p": "/"
+    },
+    "ncse.ngo": {
+        "b": "pro-science",
+        "d": "ncse.ngo",
+        "h": "https://ncse.ngo",
+        "M": [],
+        "L": [],
+        "n": "National Center for Science (NCSE)",
+        "P": [],
+        "r": "VERY HIGH",
+        "u": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/",
+        "p": "/"
+    },
+    "turnto23.com": {
+        "b": "center",
+        "d": "turnto23.com",
+        "h": "https://turnto23.com",
+        "M": [],
+        "L": [],
+        "n": "KERO TV - 23ABC",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kero-23abc/",
+        "p": "/"
+    },
+    "ieee.org": {
+        "b": "pro-science",
+        "d": "ieee.org",
+        "h": "https://ieee.org",
+        "M": [],
+        "L": [],
+        "n": "Institute of Electrical and Electronics Engineers (IEEE)",
+        "P": [],
+        "r": "VERY HIGH",
+        "u": "https://mediabiasfactcheck.com/institute-of-electrical-and-electronics-engineers-ieee/",
+        "p": "/"
+    },
+    "naturalnewsradio.com": {
+        "b": "conspiracy",
+        "d": "naturalnewsradio.com",
+        "h": "https://naturalnewsradio.com",
+        "M": [],
+        "L": [],
+        "n": "Natural News Radio",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/natural-news-radio/",
+        "p": "/"
+    },
+    "newsbreak.com": {
+        "b": "left-center",
+        "d": "newsbreak.com",
+        "h": "https://newsbreak.com",
+        "M": [],
+        "L": [],
+        "n": "News Break",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/news-break/",
         "p": "/"
     }
 }
