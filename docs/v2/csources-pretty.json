@@ -18569,6 +18569,14 @@
         "r": "M",
         "u": "the-california-republican"
     },
+    "buffalochronicle.com": {
+        "b": "FN",
+        "d": "buffalochronicle.com",
+        "n": "The Buffalo Chronicle",
+        "P": "0",
+        "r": "M",
+        "u": "the-buffalo-chronicle"
+    },
     "theblaze.com": {
         "b": "R",
         "d": "theblaze.com",
@@ -25576,7 +25584,7 @@
         "d": "copblock.org",
         "n": "Cop Block",
         "P": "0",
-        "r": "H",
+        "r": "M",
         "u": "cop-block"
     },
     "rightandfree.com": {
@@ -27848,5 +27856,37 @@
         "P": [],
         "r": "MF",
         "u": "news-break"
+    },
+    "naturalpedia.com": {
+        "b": "CP",
+        "d": "naturalpedia.com",
+        "n": "NaturalPedia.com",
+        "P": [],
+        "r": "VL",
+        "u": "naturalpedia-com"
+    },
+    "uniteamericafirst.com": {
+        "b": "FN",
+        "d": "uniteamericafirst.com",
+        "n": "Unite America First",
+        "P": [],
+        "r": "L",
+        "u": "unite-america-first"
+    },
+    "nutrientreference.com": {
+        "b": "CP",
+        "d": "nutrientreference.com",
+        "n": "NutrientReference.com",
+        "P": [],
+        "r": "VL",
+        "u": "nutrientreference-com"
+    },
+    "nj1015.com": {
+        "b": "R",
+        "d": "nj1015.com",
+        "n": "NJ1015.com",
+        "P": [],
+        "r": "H",
+        "u": "nj1015-com"
     }
 }

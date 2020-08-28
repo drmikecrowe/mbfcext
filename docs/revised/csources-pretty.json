@@ -26617,6 +26617,18 @@
         "u": "https://mediabiasfactcheck.com/the-california-republican/",
         "p": "/"
     },
+    "buffalochronicle.com": {
+        "b": "fake-news",
+        "d": "buffalochronicle.com",
+        "h": "https://buffalochronicle.com",
+        "M": "0",
+        "L": "0",
+        "n": "The Buffalo Chronicle",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/the-buffalo-chronicle/",
+        "p": "/"
+    },
     "theblaze.com": {
         "b": "right",
         "d": "theblaze.com",
@@ -36760,7 +36772,7 @@
         "L": "0",
         "n": "Cop Block",
         "P": "0",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/cop-block/",
         "p": "/"
     },
@@ -40167,6 +40179,54 @@
         "P": [],
         "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/news-break/",
+        "p": "/"
+    },
+    "naturalpedia.com": {
+        "b": "conspiracy",
+        "d": "naturalpedia.com",
+        "h": "https://naturalpedia.com",
+        "M": [],
+        "L": [],
+        "n": "NaturalPedia.com",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/naturalpedia-com/",
+        "p": "/"
+    },
+    "uniteamericafirst.com": {
+        "b": "fake-news",
+        "d": "uniteamericafirst.com",
+        "h": "https://uniteamericafirst.com",
+        "M": [],
+        "L": [],
+        "n": "Unite America First",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/unite-america-first/",
+        "p": "/"
+    },
+    "nutrientreference.com": {
+        "b": "conspiracy",
+        "d": "nutrientreference.com",
+        "h": "https://nutrientreference.com",
+        "M": [],
+        "L": [],
+        "n": "NutrientReference.com",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/nutrientreference-com/",
+        "p": "/"
+    },
+    "nj1015.com": {
+        "b": "right-center",
+        "d": "nj1015.com",
+        "h": "https://nj1015.com",
+        "M": [],
+        "L": [],
+        "n": "NJ1015.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/nj1015-com/",
         "p": "/"
     }
 }
