@@ -7068,6 +7068,18 @@
         "u": "https://mediabiasfactcheck.com/daily-buzz-live/",
         "p": "/"
     },
+    "dailykos.com": {
+        "b": "left",
+        "d": "dailykos.com",
+        "h": "https://dailykos.com",
+        "M": "0",
+        "L": "0",
+        "n": "Daily Kos",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/daily-kos/",
+        "p": "/"
+    },
     "dailydot.com": {
         "b": "left",
         "d": "dailydot.com",
@@ -13665,7 +13677,7 @@
         "L": "3525",
         "n": "InsideSources",
         "P": "34",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/insidesources/",
         "p": "/"
     },
@@ -18534,7 +18546,7 @@
         "L": "3686344",
         "n": "New York Daily News",
         "P": "94",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/new-york-daily-news/",
         "p": "/"
     },
@@ -23281,13 +23293,13 @@
         "u": "https://mediabiasfactcheck.com/right-alerts/",
         "p": "/"
     },
-    "rightweb.irc-online.org": {
+    "militarist-monitor.org": {
         "b": "left-center",
-        "d": "rightweb.irc-online.org",
-        "h": "https://rightweb.irc-online.org",
+        "d": "militarist-monitor.org",
+        "h": "https://militarist-monitor.org",
         "M": "49",
         "L": "33867",
-        "n": "Right Web",
+        "n": "Militarist Monitor",
         "P": "51",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/right-web/",
@@ -26518,7 +26530,7 @@
         "h": "https://awazetribune.com",
         "M": "21",
         "L": "995",
-        "n": "The Awaze Trubune",
+        "n": "The Awaze Tribune",
         "P": "20",
         "u": "https://mediabiasfactcheck.com/the-awaze-tribune/",
         "p": "/"
@@ -40227,6 +40239,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/nj1015-com/",
+        "p": "/"
+    },
+    "abc.es": {
+        "b": "right-center",
+        "d": "abc.es",
+        "h": "https://abc.es",
+        "M": [],
+        "L": [],
+        "n": "ABC (Spain)",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/abc-spain/",
+        "p": "/"
+    },
+    "pollution.news": {
+        "b": "conspiracy",
+        "d": "pollution.news/",
+        "h": "https://pollution.news/",
+        "M": [],
+        "L": [],
+        "n": "Pollution.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/pollution-news/",
         "p": "/"
     }
 }

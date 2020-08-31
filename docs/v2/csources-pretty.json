@@ -4939,6 +4939,14 @@
         "r": "VL",
         "u": "daily-buzz-live"
     },
+    "dailykos.com": {
+        "b": "L",
+        "d": "dailykos.com",
+        "n": "Daily Kos",
+        "P": "0",
+        "r": "M",
+        "u": "daily-kos"
+    },
     "dailydot.com": {
         "b": "L",
         "d": "dailydot.com",
@@ -9542,7 +9550,7 @@
         "f": "insidesources",
         "n": "InsideSources",
         "P": "34",
-        "r": "H",
+        "r": "MF",
         "u": "insidesources"
     },
     "insideedition.com": {
@@ -12947,7 +12955,7 @@
         "t": "nydailynews",
         "n": "New York Daily News",
         "P": "94",
-        "r": "M",
+        "r": "H",
         "u": "new-york-daily-news"
     },
     "newleftreview.org": {
@@ -16245,10 +16253,10 @@
         "r": "L",
         "u": "right-alerts"
     },
-    "rightweb.irc-online.org": {
+    "militarist-monitor.org": {
         "b": "LC",
-        "d": "rightweb.irc-online.org",
-        "n": "Right Web",
+        "d": "militarist-monitor.org",
+        "n": "Militarist Monitor",
         "P": "51",
         "r": "H",
         "u": "right-web"
@@ -18499,7 +18507,7 @@
         "b": "S",
         "d": "awazetribune.com",
         "f": "awaze",
-        "n": "The Awaze Trubune",
+        "n": "The Awaze Tribune",
         "P": "20",
         "u": "the-awaze-tribune"
     },
@@ -27888,5 +27896,21 @@
         "P": [],
         "r": "H",
         "u": "nj1015-com"
+    },
+    "abc.es": {
+        "b": "R",
+        "d": "abc.es",
+        "n": "ABC (Spain)",
+        "P": [],
+        "r": "H",
+        "u": "abc-spain"
+    },
+    "pollution.news": {
+        "b": "CP",
+        "d": "pollution.news",
+        "n": "Pollution.News",
+        "P": [],
+        "r": "VL",
+        "u": "pollution-news"
     }
 }
