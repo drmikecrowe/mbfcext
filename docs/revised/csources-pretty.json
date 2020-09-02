@@ -40264,5 +40264,29 @@
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/pollution-news/",
         "p": "/"
+    },
+    "bitchute.com": {
+        "b": "fake-news",
+        "d": "bitchute.com",
+        "h": "https://bitchute.com",
+        "M": [],
+        "L": [],
+        "n": "BitChute",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/bitchute/",
+        "p": "/"
+    },
+    "peacedata.net": {
+        "b": "fake-news",
+        "d": "peacedata.net",
+        "h": "https://peacedata.net",
+        "M": [],
+        "L": [],
+        "n": "PeaceData",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/peacedata/",
+        "p": "/"
     }
 }
