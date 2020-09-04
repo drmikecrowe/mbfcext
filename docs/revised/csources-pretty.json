@@ -17653,6 +17653,18 @@
         "u": "https://mediabiasfactcheck.com/national-observer-canada/",
         "p": "/"
     },
+    "nationalpolicy.institute": {
+        "b": "fake-news",
+        "d": "nationalpolicy.institute",
+        "h": "https://nationalpolicy.institute",
+        "M": "0",
+        "L": "0",
+        "n": "National Policy Institute",
+        "P": "0",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/national-policy-institute/",
+        "p": "/"
+    },
     "nih.gov": {
         "b": "pro-science",
         "d": "nih.gov",
@@ -40287,6 +40299,18 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/peacedata/",
+        "p": "/"
+    },
+    "science.news": {
+        "b": "conspiracy",
+        "d": "science.news",
+        "h": "https://science.news",
+        "M": [],
+        "L": [],
+        "n": "Science.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/science-news-2/",
         "p": "/"
     }
 }

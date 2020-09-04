@@ -12329,6 +12329,14 @@
         "r": "H",
         "u": "national-observer-canada"
     },
+    "nationalpolicy.institute": {
+        "b": "FN",
+        "d": "nationalpolicy.institute",
+        "n": "National Policy Institute",
+        "P": "0",
+        "r": "L",
+        "u": "national-policy-institute"
+    },
     "nih.gov": {
         "b": "PS",
         "d": "nih.gov",
@@ -27928,5 +27936,13 @@
         "P": [],
         "r": "M",
         "u": "peacedata"
+    },
+    "science.news": {
+        "b": "CP",
+        "d": "science.news",
+        "n": "Science.News",
+        "P": [],
+        "r": "VL",
+        "u": "science-news-2"
     }
 }
