@@ -10065,7 +10065,7 @@
         "L": "136766",
         "n": "FitsNews",
         "P": "62",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/fitsnews/",
         "p": "/"
     },
@@ -19222,7 +19222,7 @@
         "L": "1945353",
         "n": "NewsNow UK",
         "P": "66",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/newsnow-uk/",
         "p": "/"
     },
@@ -20681,7 +20681,7 @@
         "L": "36",
         "n": "PM Nightly News",
         "P": "20",
-        "r": "LOW",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/pm-nightly-news/",
         "p": "/"
     },
@@ -22222,6 +22222,18 @@
         "P": "13",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/raw-progressive/",
+        "p": "/"
+    },
+    "rare.us": {
+        "b": "center",
+        "d": "rare.us",
+        "h": "https://rare.us",
+        "M": "0",
+        "L": "0",
+        "n": "Rare News",
+        "P": "0",
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/rare-news/",
         "p": "/"
     },
     "rand.org": {
@@ -40311,6 +40323,54 @@
         "P": [],
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/science-news-2/",
+        "p": "/"
+    },
+    "stamfordadvocate.com": {
+        "b": "left-center",
+        "d": "stamfordadvocate.com",
+        "h": "https://stamfordadvocate.com",
+        "M": [],
+        "L": [],
+        "n": "Stamford Advocate",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/stamford-advocate/",
+        "p": "/"
+    },
+    "agdaily.com": {
+        "b": "center",
+        "d": "agdaily.com",
+        "h": "https://agdaily.com",
+        "M": [],
+        "L": [],
+        "n": "AgDaily",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/agdaily/",
+        "p": "/"
+    },
+    "talknetwork.com": {
+        "b": "conspiracy",
+        "d": "talknetwork.com",
+        "h": "https://talknetwork.com",
+        "M": [],
+        "L": [],
+        "n": "TalkNetwork.com",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/talknetwork-com/",
+        "p": "/"
+    },
+    "fool.com": {
+        "b": "left-center",
+        "d": "fool.com",
+        "h": "https://fool.com",
+        "M": [],
+        "L": [],
+        "n": "The Motley Fool",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-motley-fool/",
         "p": "/"
     }
 }

@@ -7029,7 +7029,7 @@
         "t": "fitsnews",
         "n": "FitsNews",
         "P": "62",
-        "r": "H",
+        "r": "MF",
         "u": "fitsnews"
     },
     "usafortrumponline.com": {
@@ -13423,7 +13423,7 @@
         "d": "newsnow.co.uk",
         "n": "NewsNow UK",
         "P": "66",
-        "r": "H",
+        "r": "M",
         "u": "newsnow-uk"
     },
     "newsone.com": {
@@ -14438,7 +14438,7 @@
         "f": "pmnightlynews",
         "n": "PM Nightly News",
         "P": "20",
-        "r": "L",
+        "r": "M",
         "u": "pm-nightly-news"
     },
     "poconorecord.com": {
@@ -15511,6 +15511,14 @@
         "P": "13",
         "r": "M",
         "u": "raw-progressive"
+    },
+    "rare.us": {
+        "b": "C",
+        "d": "rare.us",
+        "n": "Rare News",
+        "P": "0",
+        "r": "MF",
+        "u": "rare-news"
     },
     "rand.org": {
         "b": "C",
@@ -27944,5 +27952,37 @@
         "P": [],
         "r": "VL",
         "u": "science-news-2"
+    },
+    "stamfordadvocate.com": {
+        "b": "LC",
+        "d": "stamfordadvocate.com",
+        "n": "Stamford Advocate",
+        "P": [],
+        "r": "H",
+        "u": "stamford-advocate"
+    },
+    "agdaily.com": {
+        "b": "C",
+        "d": "agdaily.com",
+        "n": "AgDaily",
+        "P": [],
+        "r": "H",
+        "u": "agdaily"
+    },
+    "talknetwork.com": {
+        "b": "CP",
+        "d": "talknetwork.com",
+        "n": "TalkNetwork.com",
+        "P": [],
+        "r": "VL",
+        "u": "talknetwork-com"
+    },
+    "fool.com": {
+        "b": "LC",
+        "d": "fool.com",
+        "n": "The Motley Fool",
+        "P": [],
+        "r": "H",
+        "u": "the-motley-fool"
     }
 }
