@@ -22477,9 +22477,9 @@
     "vaccines.news": {
         "b": "CP",
         "d": "vaccines.news",
-        "n": "Vaccine News",
+        "n": "Vaccines News",
         "P": "37",
-        "r": "L",
+        "r": "VL",
         "u": "vaccines-news"
     },
     "vaccinesrevealed.com": {
@@ -27984,5 +27984,21 @@
         "P": [],
         "r": "H",
         "u": "the-motley-fool"
+    },
+    "donaldjtrump.com": {
+        "b": "R",
+        "d": "donaldjtrump.com",
+        "n": "DonaldJTrump.com",
+        "P": [],
+        "r": "M",
+        "u": "donaldjtrump-com"
+    },
+    "joebiden.com": {
+        "b": "L",
+        "d": "joebiden.com",
+        "n": "JoeBiden.com",
+        "P": [],
+        "r": "MF",
+        "u": "joebiden-com"
     }
 }

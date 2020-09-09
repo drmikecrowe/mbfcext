@@ -32234,9 +32234,9 @@
         "h": "https://vaccines.news",
         "M": "46",
         "L": "8008",
-        "n": "Vaccine News",
+        "n": "Vaccines News",
         "P": "37",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/vaccines-news/",
         "p": "/"
     },
@@ -40371,6 +40371,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/the-motley-fool/",
+        "p": "/"
+    },
+    "donaldjtrump.com": {
+        "b": "right",
+        "d": "donaldjtrump.com",
+        "h": "https://donaldjtrump.com",
+        "M": [],
+        "L": [],
+        "n": "DonaldJTrump.com",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/donaldjtrump-com/",
+        "p": "/"
+    },
+    "joebiden.com": {
+        "b": "left",
+        "d": "joebiden.com",
+        "h": "https://joebiden.com",
+        "M": [],
+        "L": [],
+        "n": "JoeBiden.com",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/joebiden-com/",
         "p": "/"
     }
 }
