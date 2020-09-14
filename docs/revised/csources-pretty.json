@@ -40408,5 +40408,65 @@
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/supplementreference-com/",
         "p": "/"
+    },
+    "theminnesotasun.com": {
+        "b": "right",
+        "d": "theminnesotasun.com",
+        "h": "https://theminnesotasun.com",
+        "M": [],
+        "L": [],
+        "n": "Minnesota Sun",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/minnesota-sun/",
+        "p": "/"
+    },
+    "electroverse.net": {
+        "b": "conspiracy",
+        "d": "electroverse.net",
+        "h": "https://electroverse.net",
+        "M": [],
+        "L": [],
+        "n": "Electroverse",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/electroverse/",
+        "p": "/"
+    },
+    "12newsnow.com": {
+        "b": "center",
+        "d": "12newsnow.com",
+        "h": "https://12newsnow.com",
+        "M": [],
+        "L": [],
+        "n": "KBMT - 12NewsNow",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kbmt-12newsnow/",
+        "p": "/"
+    },
+    "11alive.com": {
+        "b": "center",
+        "d": "11alive.com",
+        "h": "https://11alive.com",
+        "M": [],
+        "L": [],
+        "n": "WXIA - 11alive.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wxia-11alive-com/",
+        "p": "/"
+    },
+    "13newsnow.com": {
+        "b": "center",
+        "d": "13newsnow.com",
+        "h": "https://13newsnow.com",
+        "M": [],
+        "L": [],
+        "n": "WVEC - 13NewsNow.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wvec-13newsnow/",
+        "p": "/"
     }
 }

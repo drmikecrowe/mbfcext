@@ -5,7 +5,7 @@ var webpack = require("webpack"),
     NODE_ENV: process.env.NODE_ENV || "development",
     PORT: process.env.PORT || 3000
   },
-  CleanWebpackPlugin = require("clean-webpack-plugin"),
+  {CleanWebpackPlugin} = require("clean-webpack-plugin"),
   CopyWebpackPlugin = require("copy-webpack-plugin"),
   HtmlWebpackPlugin = require("html-webpack-plugin"),
   WriteFilePlugin = require("write-file-webpack-plugin"),
@@ -76,7 +76,7 @@ var options = {
   },
   plugins: [
     // clean the build folder
-    new CleanWebpackPlugin(["build"]),
+    new CleanWebpackPlugin(),
     // expose and write the allowed env vars on the compiled bundle
     new webpack.EnvironmentPlugin(["NODE_ENV"]),
     new CopyWebpackPlugin([
