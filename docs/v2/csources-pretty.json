@@ -14667,7 +14667,7 @@
         "t": "tpinsidr",
         "n": "Political Insider",
         "P": "35",
-        "r": "M",
+        "r": "L",
         "u": "political-insider"
     },
     "politicalsitenews.com": {
@@ -26845,7 +26845,7 @@
         "d": "rushlimbaugh.com",
         "n": "RushLimbaugh.com",
         "P": [],
-        "r": "L",
+        "r": "VL",
         "u": "rushlimbaugh-com"
     },
     "bossip.com": {
@@ -28048,5 +28048,13 @@
         "P": [],
         "r": "H",
         "u": "wvec-13newsnow"
+    },
+    "ncnewsonline.com": {
+        "b": "LC",
+        "d": "ncnewsonline.com",
+        "n": "New Castle News",
+        "P": [],
+        "r": "H",
+        "u": "new-castle-news"
     }
 }

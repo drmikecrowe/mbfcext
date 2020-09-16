@@ -21010,7 +21010,7 @@
         "L": "29664",
         "n": "Political Insider",
         "P": "35",
-        "r": "MIXED",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/political-insider/",
         "p": "/"
     },
@@ -38665,7 +38665,7 @@
         "L": [],
         "n": "RushLimbaugh.com",
         "P": [],
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/rushlimbaugh-com/",
         "p": "/"
     },
@@ -40467,6 +40467,18 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/wvec-13newsnow/",
+        "p": "/"
+    },
+    "ncnewsonline.com": {
+        "b": "left-center",
+        "d": "ncnewsonline.com",
+        "h": "https://ncnewsonline.com",
+        "M": [],
+        "L": [],
+        "n": "New Castle News",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/new-castle-news/",
         "p": "/"
     }
 }
