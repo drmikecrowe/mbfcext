@@ -2315,7 +2315,7 @@
         "t": "blkagendareport",
         "n": "Black Agenda Report",
         "P": "68",
-        "r": "H",
+        "r": "MF",
         "u": "black-agenda-report"
     },
     "blingnews.com": {
@@ -2796,7 +2796,7 @@
         "d": "campaignlifecoalition.com",
         "f": "campaignlifecoalition",
         "t": "campaignlife",
-        "n": "Campign Life Coalition",
+        "n": "Campaign Life Coalition",
         "P": "38",
         "r": "M",
         "u": "campaign-life-coalition"
@@ -18783,7 +18783,7 @@
         "t": "conversationus",
         "n": "The Conversation",
         "P": "84",
-        "r": "H",
+        "r": "VH",
         "u": "the-conversation"
     },
     "conservativewoman.co.uk": {
@@ -28056,5 +28056,21 @@
         "P": [],
         "r": "H",
         "u": "new-castle-news"
+    },
+    "torontotoday.net": {
+        "b": "FN",
+        "d": "torontotoday.net",
+        "n": "Toronto Today",
+        "P": [],
+        "r": "L",
+        "u": "toronto-today"
+    },
+    "idahostatejournal.com": {
+        "b": "R",
+        "d": "idahostatejournal.com",
+        "n": "Idaho State Journal",
+        "P": [],
+        "r": "H",
+        "u": "idaho-state-journal"
     }
 }

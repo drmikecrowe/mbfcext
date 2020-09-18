@@ -3317,7 +3317,7 @@
         "L": "170916",
         "n": "Black Agenda Report",
         "P": "68",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/black-agenda-report/",
         "p": "/"
     },
@@ -4006,7 +4006,7 @@
         "h": "https://campaignlifecoalition.com",
         "M": "45",
         "L": "7318",
-        "n": "Campign Life Coalition",
+        "n": "Campaign Life Coalition",
         "P": "38",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/campaign-life-coalition/",
@@ -26926,7 +26926,7 @@
         "L": "592753",
         "n": "The Conversation",
         "P": "84",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/the-conversation/",
         "p": "/"
     },
@@ -40479,6 +40479,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/new-castle-news/",
+        "p": "/"
+    },
+    "torontotoday.net": {
+        "b": "fake-news",
+        "d": "torontotoday.net",
+        "h": "https://torontotoday.net",
+        "M": [],
+        "L": [],
+        "n": "Toronto Today",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/toronto-today/",
+        "p": "/"
+    },
+    "idahostatejournal.com": {
+        "b": "right-center",
+        "d": "idahostatejournal.com",
+        "h": "https://idahostatejournal.com",
+        "M": [],
+        "L": [],
+        "n": "Idaho State Journal",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/idaho-state-journal/",
         "p": "/"
     }
 }
