@@ -6548,7 +6548,7 @@
         "L": "945281",
         "n": "Cosmopolitan",
         "P": "85",
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/cosmopolitan/",
         "p": "/"
     },
@@ -40503,6 +40503,42 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/idaho-state-journal/",
+        "p": "/"
+    },
+    "pittsburgh.cbslocal.com": {
+        "b": "center",
+        "d": "pittsburgh.cbslocal.com",
+        "h": "https://pittsburgh.cbslocal.com",
+        "M": [],
+        "L": [],
+        "n": "KDKA - CBS Pittsburgh",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/kdka-cbs-pittsburgh/",
+        "p": "/"
+    },
+    "newschannel5.com": {
+        "b": "center",
+        "d": "newschannel5.com",
+        "h": "https://newschannel5.com",
+        "M": [],
+        "L": [],
+        "n": "WTVF - NewsChannel5",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wtvf-newschannel5/",
+        "p": "/"
+    },
+    "wcax.com": {
+        "b": "center",
+        "d": "wcax.com",
+        "h": "https://wcax.com",
+        "M": [],
+        "L": [],
+        "n": "WCAX3",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wcax3/",
         "p": "/"
     }
 }

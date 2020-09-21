@@ -4576,7 +4576,7 @@
         "t": "cosmopolitan",
         "n": "Cosmopolitan",
         "P": "85",
-        "r": "MF",
+        "r": "M",
         "u": "cosmopolitan"
     },
     "countercurrentnews.com": {
@@ -28072,5 +28072,29 @@
         "P": [],
         "r": "H",
         "u": "idaho-state-journal"
+    },
+    "pittsburgh.cbslocal.com": {
+        "b": "C",
+        "d": "pittsburgh.cbslocal.com",
+        "n": "KDKA - CBS Pittsburgh",
+        "P": [],
+        "r": "H",
+        "u": "kdka-cbs-pittsburgh"
+    },
+    "newschannel5.com": {
+        "b": "C",
+        "d": "newschannel5.com",
+        "n": "WTVF - NewsChannel5",
+        "P": [],
+        "r": "H",
+        "u": "wtvf-newschannel5"
+    },
+    "wcax.com": {
+        "b": "C",
+        "d": "wcax.com",
+        "n": "WCAX3",
+        "P": [],
+        "r": "H",
+        "u": "wcax3"
     }
 }
