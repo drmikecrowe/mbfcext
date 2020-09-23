@@ -15675,7 +15675,7 @@
         "t": "realclearpolicy",
         "n": "Real Clear Policy",
         "P": "75",
-        "r": "H",
+        "r": "MF",
         "u": "real-clear-policy"
     },
     "realtimepolitics.com": {
@@ -28096,5 +28096,21 @@
         "P": [],
         "r": "H",
         "u": "wcax3"
+    },
+    "revolver.news": {
+        "b": "FN",
+        "d": "revolver.news",
+        "n": "Revolver.News",
+        "P": [],
+        "r": "M",
+        "u": "revolver-news"
+    },
+    "nationalistreview.net": {
+        "b": "FN",
+        "d": "nationalistreview.net",
+        "n": "The Nationalist Review",
+        "P": [],
+        "r": "L",
+        "u": "the-nationalist-review"
     }
 }

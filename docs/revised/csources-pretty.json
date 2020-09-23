@@ -22458,7 +22458,7 @@
         "L": "266065",
         "n": "Real Clear Policy",
         "P": "75",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/real-clear-policy/",
         "p": "/"
     },
@@ -40539,6 +40539,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/wcax3/",
+        "p": "/"
+    },
+    "revolver.news": {
+        "b": "fake-news",
+        "d": "revolver.news",
+        "h": "https://revolver.news",
+        "M": [],
+        "L": [],
+        "n": "Revolver.News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/revolver-news/",
+        "p": "/"
+    },
+    "nationalistreview.net": {
+        "b": "fake-news",
+        "d": "nationalistreview.net",
+        "h": "https://nationalistreview.net",
+        "M": [],
+        "L": [],
+        "n": "The Nationalist Review",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/the-nationalist-review/",
         "p": "/"
     }
 }
