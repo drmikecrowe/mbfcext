@@ -7649,10 +7649,10 @@
         "u": "https://mediabiasfactcheck.com/de-volkskrant/",
         "p": "/"
     },
-    "thedcgazette.com": {
+    "dcgazette.com": {
         "b": "fake-news",
-        "d": "thedcgazette.com",
-        "h": "https://thedcgazette.com",
+        "d": "dcgazette.com",
+        "h": "https://dcgazette.com",
         "M": "27",
         "L": "35",
         "n": "DC Gazette",
@@ -8686,7 +8686,7 @@
         "p": "/"
     },
     "drudgereport.com": {
-        "b": "fake-news",
+        "b": "right-center",
         "d": "drudgereport.com",
         "t": "https://twitter.com/drudge_report",
         "h": "https://drudgereport.com",
@@ -8694,7 +8694,7 @@
         "L": "5523022",
         "n": "Drudge Report",
         "P": "98",
-        "r": "LOW",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/drudge-report/",
         "p": "/"
     },
@@ -10111,14 +10111,14 @@
         "p": "/"
     },
     "filmingcops.com": {
-        "b": "left",
+        "b": "fake-news",
         "d": "filmingcops.com",
         "h": "https://filmingcops.com",
         "M": "43",
         "L": "19078",
         "n": "Filming Cops",
         "P": "41",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/filming-cops/",
         "p": "/"
     },
@@ -14695,7 +14695,7 @@
         "p": "/"
     },
     "kmov.com": {
-        "b": "left-center",
+        "b": "center",
         "d": "kmov.com",
         "f": "https://facebook.com/kmovstlouis",
         "t": "https://twitter.com/kmov",
@@ -36610,14 +36610,14 @@
         "p": "/"
     },
     "bdnews24.com": {
-        "b": "center",
+        "b": "fake-news",
         "d": "bdnews24.com",
         "h": "https://bdnews24.com",
         "M": "0",
         "L": "0",
         "n": "BDNews24",
         "P": "0",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/bdnews24/",
         "p": "/"
     },
@@ -40563,6 +40563,102 @@
         "P": [],
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/the-nationalist-review/",
+        "p": "/"
+    },
+    "leavenworthtimes.com": {
+        "b": "left-center",
+        "d": "leavenworthtimes.com",
+        "h": "https://leavenworthtimes.com",
+        "M": [],
+        "L": [],
+        "n": "Leavenworth Times",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/leavenworth-times/",
+        "p": "/"
+    },
+    "clickondetroit.com": {
+        "b": "center",
+        "d": "clickondetroit.com",
+        "h": "https://clickondetroit.com",
+        "M": [],
+        "L": [],
+        "n": "WDIV - ClickOnDetroit",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wdiv-clickondetrioit/",
+        "p": "/"
+    },
+    "dnyuz.com": {
+        "b": "fake-news",
+        "d": "dnyuz.com",
+        "h": "https://dnyuz.com",
+        "M": [],
+        "L": [],
+        "n": "Dnyuz",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/dnyuz/",
+        "p": "/"
+    },
+    "commercialappeal.com": {
+        "b": "center",
+        "d": "commercialappeal.com",
+        "h": "https://commercialappeal.com",
+        "M": [],
+        "L": [],
+        "n": "Memphis Commercial Appeal",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/memphis-commercial-appeal/",
+        "p": "/"
+    },
+    "myfox8.com": {
+        "b": "center",
+        "d": "myfox8.com",
+        "h": "https://myfox8.com",
+        "M": [],
+        "L": [],
+        "n": "WGHP - Fox8",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wghp-fox8/",
+        "p": "/"
+    },
+    "eldiariony.com": {
+        "b": "left-center",
+        "d": "eldiariony.com",
+        "h": "https://eldiariony.com",
+        "M": [],
+        "L": [],
+        "n": "El Diario NY",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/el-diario-ny/",
+        "p": "/"
+    },
+    "washingtonspectator.org": {
+        "b": "left",
+        "d": "washingtonspectator.org",
+        "h": "https://washingtonspectator.org",
+        "M": [],
+        "L": [],
+        "n": "The Washington Spectator",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-washington-spectator/",
+        "p": "/"
+    },
+    "newscentermaine.com": {
+        "b": "left-center",
+        "d": "newscentermaine.com",
+        "h": "https://newscentermaine.com",
+        "M": [],
+        "L": [],
+        "n": "NewsCenterMaine.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/newscentermaine-com/",
         "p": "/"
     }
 }

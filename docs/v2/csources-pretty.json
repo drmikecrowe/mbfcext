@@ -5344,9 +5344,9 @@
         "r": "H",
         "u": "de-volkskrant"
     },
-    "thedcgazette.com": {
+    "dcgazette.com": {
         "b": "FN",
-        "d": "thedcgazette.com",
+        "d": "dcgazette.com",
         "n": "DC Gazette",
         "P": "20",
         "r": "L",
@@ -6069,12 +6069,12 @@
         "u": "duh-progressive"
     },
     "drudgereport.com": {
-        "b": "FN",
+        "b": "R",
         "d": "drudgereport.com",
         "t": "drudge_report",
         "n": "Drudge Report",
         "P": "98",
-        "r": "L",
+        "r": "M",
         "u": "drudge-report"
     },
     "dw.com": {
@@ -7062,11 +7062,11 @@
         "u": "fight-for-the-future"
     },
     "filmingcops.com": {
-        "b": "L",
+        "b": "FN",
         "d": "filmingcops.com",
         "n": "Filming Cops",
         "P": "41",
-        "r": "H",
+        "r": "M",
         "u": "filming-cops"
     },
     "flashnewscorner.com": {
@@ -10263,7 +10263,7 @@
         "u": "journal-gazette-times-courier"
     },
     "kmov.com": {
-        "b": "LC",
+        "b": "C",
         "d": "kmov.com",
         "f": "kmovstlouis",
         "t": "kmov",
@@ -25477,11 +25477,11 @@
         "u": "de-telegraaf"
     },
     "bdnews24.com": {
-        "b": "C",
+        "b": "FN",
         "d": "bdnews24.com",
         "n": "BDNews24",
         "P": "0",
-        "r": "H",
+        "r": "M",
         "u": "bdnews24"
     },
     "psychcentral.com": {
@@ -28112,5 +28112,69 @@
         "P": [],
         "r": "L",
         "u": "the-nationalist-review"
+    },
+    "leavenworthtimes.com": {
+        "b": "LC",
+        "d": "leavenworthtimes.com",
+        "n": "Leavenworth Times",
+        "P": [],
+        "r": "H",
+        "u": "leavenworth-times"
+    },
+    "clickondetroit.com": {
+        "b": "C",
+        "d": "clickondetroit.com",
+        "n": "WDIV - ClickOnDetroit",
+        "P": [],
+        "r": "H",
+        "u": "wdiv-clickondetrioit"
+    },
+    "dnyuz.com": {
+        "b": "FN",
+        "d": "dnyuz.com",
+        "n": "Dnyuz",
+        "P": [],
+        "r": "M",
+        "u": "dnyuz"
+    },
+    "commercialappeal.com": {
+        "b": "C",
+        "d": "commercialappeal.com",
+        "n": "Memphis Commercial Appeal",
+        "P": [],
+        "r": "H",
+        "u": "memphis-commercial-appeal"
+    },
+    "myfox8.com": {
+        "b": "C",
+        "d": "myfox8.com",
+        "n": "WGHP - Fox8",
+        "P": [],
+        "r": "H",
+        "u": "wghp-fox8"
+    },
+    "eldiariony.com": {
+        "b": "LC",
+        "d": "eldiariony.com",
+        "n": "El Diario NY",
+        "P": [],
+        "r": "H",
+        "u": "el-diario-ny"
+    },
+    "washingtonspectator.org": {
+        "b": "L",
+        "d": "washingtonspectator.org",
+        "n": "The Washington Spectator",
+        "P": [],
+        "r": "H",
+        "u": "the-washington-spectator"
+    },
+    "newscentermaine.com": {
+        "b": "LC",
+        "d": "newscentermaine.com",
+        "n": "NewsCenterMaine.com",
+        "P": [],
+        "r": "H",
+        "u": "newscentermaine-com"
     }
 }
