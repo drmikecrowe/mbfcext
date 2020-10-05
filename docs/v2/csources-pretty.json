@@ -8917,7 +8917,7 @@
         "t": "honestreporting",
         "n": "Honest Reporting",
         "P": "71",
-        "r": "H",
+        "r": "MF",
         "u": "honest-reporting"
     },
     "huzlers.com": {
@@ -22445,7 +22445,7 @@
         "t": "usasupreme",
         "n": "USA Supreme",
         "P": "39",
-        "r": "L",
+        "r": "VL",
         "u": "usa-supreme"
     },
     "usnews.com": {
@@ -26390,6 +26390,7 @@
         "d": "usaisonline.com",
         "n": "USA is Online",
         "P": [],
+        "r": "VL",
         "u": "usa-is-online"
     },
     "fox29.com": {
@@ -28176,5 +28177,13 @@
         "P": [],
         "r": "H",
         "u": "newscentermaine-com"
+    },
+    "mytwintiers.com": {
+        "b": "C",
+        "d": "https://www.mytwintiers.com",
+        "n": "WETM - MyTwinTiers.com",
+        "P": [],
+        "r": "H",
+        "u": "wetm"
     }
 }

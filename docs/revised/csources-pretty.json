@@ -12772,7 +12772,7 @@
         "L": "208671",
         "n": "Honest Reporting",
         "P": "71",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/honest-reporting/",
         "p": "/"
     },
@@ -32186,7 +32186,7 @@
         "L": "17277",
         "n": "USA Supreme",
         "P": "39",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/usa-supreme/",
         "p": "/"
     },
@@ -37982,6 +37982,7 @@
         "L": [],
         "n": "USA is Online",
         "P": [],
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/usa-is-online/",
         "p": "/"
     },
@@ -40659,6 +40660,18 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/newscentermaine-com/",
+        "p": "/"
+    },
+    "mytwintiers.com": {
+        "b": "center",
+        "d": "https://www.mytwintiers.com/",
+        "h": "https://https://www.mytwintiers.com/",
+        "M": [],
+        "L": [],
+        "n": "WETM - MyTwinTiers.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wetm/",
         "p": "/"
     }
 }
