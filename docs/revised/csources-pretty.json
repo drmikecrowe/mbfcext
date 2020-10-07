@@ -21068,7 +21068,7 @@
         "p": "/"
     },
     "politico.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "politico.com",
         "f": "https://facebook.com/politico",
         "t": "https://twitter.com/politico",
@@ -40672,6 +40672,18 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/wetm/",
+        "p": "/"
+    },
+    "idahopress.com": {
+        "b": "left-center",
+        "d": "idahopress.com",
+        "h": "https://idahopress.com",
+        "M": [],
+        "L": [],
+        "n": "Idaho Press-Tribune",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/idaho-press-tribune/",
         "p": "/"
     }
 }

@@ -14708,7 +14708,7 @@
         "u": "political-storm"
     },
     "politico.com": {
-        "b": "C",
+        "b": "LC",
         "d": "politico.com",
         "f": "politico",
         "t": "politico",
@@ -28185,5 +28185,13 @@
         "P": [],
         "r": "H",
         "u": "wetm"
+    },
+    "idahopress.com": {
+        "b": "LC",
+        "d": "idahopress.com",
+        "n": "Idaho Press-Tribune",
+        "P": [],
+        "r": "H",
+        "u": "idaho-press-tribune"
     }
 }
