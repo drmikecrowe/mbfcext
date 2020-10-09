@@ -8892,7 +8892,7 @@
         "u": "hudson-institute"
     },
     "howstuffworks.com": {
-        "b": "PS",
+        "b": "C",
         "d": "howstuffworks.com",
         "f": "howstuffworks",
         "t": "howstuffworks",
@@ -28193,5 +28193,21 @@
         "P": [],
         "r": "H",
         "u": "idaho-press-tribune"
+    },
+    "glitch.news": {
+        "b": "CP",
+        "d": "glitch.news",
+        "n": "Glitch.News",
+        "P": [],
+        "r": "VL",
+        "u": "glitch-news"
+    },
+    "abc7ny.com": {
+        "b": "C",
+        "d": "abc7ny.com",
+        "n": "ABC7 New York",
+        "P": [],
+        "r": "H",
+        "u": "abc7-new-york"
     }
 }

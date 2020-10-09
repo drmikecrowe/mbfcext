@@ -12737,7 +12737,7 @@
         "p": "/"
     },
     "howstuffworks.com": {
-        "b": "pro-science",
+        "b": "center",
         "d": "howstuffworks.com",
         "f": "https://facebook.com/howstuffworks",
         "t": "https://twitter.com/howstuffworks",
@@ -40684,6 +40684,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/idaho-press-tribune/",
+        "p": "/"
+    },
+    "glitch.news": {
+        "b": "conspiracy",
+        "d": "glitch.news",
+        "h": "https://glitch.news",
+        "M": [],
+        "L": [],
+        "n": "Glitch.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/glitch-news/",
+        "p": "/"
+    },
+    "abc7ny.com": {
+        "b": "center",
+        "d": "abc7ny.com",
+        "h": "https://abc7ny.com",
+        "M": [],
+        "L": [],
+        "n": "ABC7 New York",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/abc7-new-york/",
         "p": "/"
     }
 }
