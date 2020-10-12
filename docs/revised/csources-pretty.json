@@ -40709,5 +40709,41 @@
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/abc7-new-york/",
         "p": "/"
+    },
+    "mininggazette.com": {
+        "b": "right-center",
+        "d": "mininggazette.com",
+        "h": "https://mininggazette.com",
+        "M": [],
+        "L": [],
+        "n": "Daily Mining Gazette",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/daily-mining-gazette/",
+        "p": "/"
+    },
+    "espn.com": {
+        "b": "left-center",
+        "d": "espn.com",
+        "h": "https://espn.com",
+        "M": [],
+        "L": [],
+        "n": "ESPN",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/espn/",
+        "p": "/"
+    },
+    "lancastercourier.com": {
+        "b": "fake-news",
+        "d": "lancastercourier.com",
+        "h": "https://lancastercourier.com",
+        "M": [],
+        "L": [],
+        "n": "Lancaster Courier",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/lancaster-courier/",
+        "p": "/"
     }
 }

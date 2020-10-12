@@ -28209,5 +28209,29 @@
         "P": [],
         "r": "H",
         "u": "abc7-new-york"
+    },
+    "mininggazette.com": {
+        "b": "RC",
+        "d": "mininggazette.com",
+        "n": "Daily Mining Gazette",
+        "P": [],
+        "r": "H",
+        "u": "daily-mining-gazette"
+    },
+    "espn.com": {
+        "b": "LC",
+        "d": "espn.com",
+        "n": "ESPN",
+        "P": [],
+        "r": "H",
+        "u": "espn"
+    },
+    "lancastercourier.com": {
+        "b": "FN",
+        "d": "lancastercourier.com",
+        "n": "Lancaster Courier",
+        "P": [],
+        "r": "M",
+        "u": "lancaster-courier"
     }
 }
