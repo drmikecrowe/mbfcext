@@ -13517,14 +13517,15 @@
         "r": "M",
         "u": "newsmax"
     },
-    "nextnewsnetwork.com": {
+    "youtube.com": {
         "b": "R",
-        "d": "nextnewsnetwork.com",
+        "d": "youtube.com/nextnewsnetwork",
         "f": "nextnewsnet",
         "n": "Next News Network",
         "P": "46",
         "r": "M",
-        "u": "next-news-network"
+        "u": "next-news-network",
+        "p": "/nextnewsnetwork"
     },
     "newslogue.com": {
         "b": "L",
@@ -14415,13 +14416,14 @@
         "r": "L",
         "u": "plymouth-patriot-post"
     },
-    "photographyisnotacrime.com": {
+    "newsmaven.io": {
         "b": "L",
-        "d": "photographyisnotacrime.com",
+        "d": "newsmaven.io/pinacnews",
         "n": "PINAC",
         "P": "76",
         "r": "H",
-        "u": "pinac"
+        "u": "pinac",
+        "p": "/pinacnews"
     },
     "inquirer.net": {
         "b": "LC",
@@ -28233,5 +28235,45 @@
         "P": [],
         "r": "M",
         "u": "lancaster-courier"
+    },
+    "koamnewsnow.com": {
+        "b": "C",
+        "d": "koamnewsnow.com",
+        "n": "KOAM News Now",
+        "P": [],
+        "r": "H",
+        "u": "koam-news-now"
+    },
+    "tbdailynews.com": {
+        "b": "FN",
+        "d": "tbdailynews.com",
+        "n": "TB Daily News",
+        "P": [],
+        "r": "M",
+        "u": "tb-daily-news"
+    },
+    "newsfactsnetwork.com": {
+        "b": "C",
+        "d": "newsfactsnetwork.com",
+        "n": "News Facts Network (NFN)",
+        "P": [],
+        "r": "VH",
+        "u": "news-facts-network-nfn"
+    },
+    "winnipegfreepress.com": {
+        "b": "C",
+        "d": "winnipegfreepress.com",
+        "n": "Winnipeg Free Press",
+        "P": [],
+        "r": "H",
+        "u": "winnipeg-free-press"
+    },
+    "djhjmedia.com": {
+        "b": "FN",
+        "d": "djhjmedia.com",
+        "n": "DJHJ Media",
+        "P": [],
+        "r": "L",
+        "u": "djhj-media"
     }
 }

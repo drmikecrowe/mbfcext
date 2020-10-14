@@ -19357,18 +19357,18 @@
         "u": "https://mediabiasfactcheck.com/newsmax/",
         "p": "/"
     },
-    "nextnewsnetwork.com": {
+    "youtube.com": {
         "b": "right",
-        "d": "nextnewsnetwork.com",
+        "d": "youtube.com/nextnewsnetwork",
         "f": "https://facebook.com/nextnewsnet",
-        "h": "https://nextnewsnetwork.com",
+        "h": "https://youtube.com/nextnewsnetwork",
         "M": "43",
         "L": "46441",
         "n": "Next News Network",
         "P": "46",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/next-news-network/",
-        "p": "/"
+        "p": "/nextnewsnetwork"
     },
     "newslogue.com": {
         "b": "left",
@@ -20647,17 +20647,17 @@
         "u": "https://mediabiasfactcheck.com/plymouth-patriot-post/",
         "p": "/"
     },
-    "photographyisnotacrime.com": {
+    "newsmaven.io": {
         "b": "left",
-        "d": "photographyisnotacrime.com",
-        "h": "https://photographyisnotacrime.com",
+        "d": "newsmaven.io/pinacnews",
+        "h": "https://newsmaven.io/pinacnews",
         "M": "50",
         "L": "253369",
         "n": "PINAC",
         "P": "76",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/pinac/",
-        "p": "/"
+        "p": "/pinacnews"
     },
     "inquirer.net": {
         "b": "left-center",
@@ -40744,6 +40744,66 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/lancaster-courier/",
+        "p": "/"
+    },
+    "koamnewsnow.com": {
+        "b": "center",
+        "d": "koamnewsnow.com",
+        "h": "https://koamnewsnow.com",
+        "M": [],
+        "L": [],
+        "n": "KOAM News Now",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/koam-news-now/",
+        "p": "/"
+    },
+    "tbdailynews.com": {
+        "b": "fake-news",
+        "d": "tbdailynews.com",
+        "h": "https://tbdailynews.com",
+        "M": [],
+        "L": [],
+        "n": "TB Daily News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/tb-daily-news/",
+        "p": "/"
+    },
+    "newsfactsnetwork.com": {
+        "b": "center",
+        "d": "newsfactsnetwork.com",
+        "h": "https://newsfactsnetwork.com",
+        "M": [],
+        "L": [],
+        "n": "News Facts Network (NFN)",
+        "P": [],
+        "r": "VERY HIGH",
+        "u": "https://mediabiasfactcheck.com/news-facts-network-nfn/",
+        "p": "/"
+    },
+    "winnipegfreepress.com": {
+        "b": "center",
+        "d": "winnipegfreepress.com",
+        "h": "https://winnipegfreepress.com",
+        "M": [],
+        "L": [],
+        "n": "Winnipeg Free Press",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/winnipeg-free-press/",
+        "p": "/"
+    },
+    "djhjmedia.com": {
+        "b": "fake-news",
+        "d": "djhjmedia.com",
+        "h": "https://djhjmedia.com",
+        "M": [],
+        "L": [],
+        "n": "DJHJ Media",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/djhj-media/",
         "p": "/"
     }
 }
