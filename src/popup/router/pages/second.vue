@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto">
-    <h1>I'm another vue component with id={{ id }}</h1>
-  </div>
+    <div class="container mx-auto">
+        <h1>I'm another vue component with id={{ id }}</h1>
+    </div>
 </template>
 
 <script lang="ts">
@@ -18,14 +18,14 @@ const log = require("debug")("mbfc:issues");
 
 @Component
 export default class Issues extends Vue {
-  list: any[] = [];
+    list: any[] = [];
 
-  data() {
-    const id = get(this, "$router.currentRoute.query.id");
-    return {
-      id,
-    };
-  }
+    data() {
+        const id = get(this, "$router.currentRoute.query.id");
+        return {
+            id,
+        };
+    }
 }
 </script>
 

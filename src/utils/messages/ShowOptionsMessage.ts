@@ -1,18 +1,33 @@
-import { get } from "lodash-es";
-import { BrowserMessage, HandleMessageCallback } from ".";
+import debug from "debug";
+const log = debug("mbfc:messages:ShowOptionsMessage");
+
+import { browser, Runtime } from "webextension-polyfill-ts";
 
 const ShowOptionsMessageMethod = "ShowOptionsMessage";
 
 export class ShowOptionsMessage {
-    public method = ShowOptionsMessageMethod;
+    static method = ShowOptionsMessageMethod;
 
-    static check(request: BrowserMessage, fn: HandleMessageCallback): void {
-        if (get(request, "method") === ShowOptionsMessageMethod) {
-            return fn(request);
-        }
+    static async check(request: any, port: Runtime.Port): Promise<void> {
+        try {
+            const { method } = request;
+            if (method === ShowOptionsMessage.method) {
+                const msg = new ShowOptionsMessage();
+                return msg.processMessage(port);
+            }
+        } catch (err) {}
+        return Promise.resolve();
     }
 
-    constructor() {
-        this.method = ShowOptionsMessageMethod;
+    async processMessage(port: Runtime.Port): Promise<void> {
+        browser.runtime.openOptionsPage();
+        log(`Sending message ShowOptionsMessage response`, "OK");
+        port.postMessage("OK");
+    }
+
+    async sendMessage(): Promise<void> {
+        browser.runtime.sendMessage({
+            method: ShowOptionsMessage.method,
+        });
     }
 }

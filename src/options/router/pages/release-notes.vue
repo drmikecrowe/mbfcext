@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto text-base">
-    <div v-html="rawHtml"></div>
-  </div>
+    <div class="container mx-auto text-base">
+        <div v-html="rawHtml"></div>
+    </div>
 </template>
 
 <script lang="ts">
@@ -12,34 +12,34 @@ const ReleaseNotesText = require("./markdown/ReleaseNotes.md");
 
 @Component
 export default class ReleaseNotes extends Vue {
-  data() {
-    return {
-      rawHtml: ReleaseNotesText,
-    };
-  }
+    data() {
+        return {
+            rawHtml: ReleaseNotesText,
+        };
+    }
 }
 </script>
 
 <style>
 p {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 900;
 }
 
 h2 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
 h3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 </style>

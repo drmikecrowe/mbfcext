@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:utils:google-analytics");
+export {}
+const log = require('debug')('mbfc:utils:google-analytics');
 
 import { GA } from "./constants";
 import galite from "ga-lite";
@@ -28,7 +28,7 @@ export class GoogleAnalytics {
     ) {
         if (eventAction !== "set")
             log("REPORTING: ", eventAction, eventLabel, eventValue);
-        let gaAllowed = await storage.mbfcAnalytics.get();
+        const gaAllowed = await storage.mbfcAnalytics.get();
         if (gaAllowed) {
             if (isDevMode()) {
                 return;
@@ -42,7 +42,7 @@ export class GoogleAnalytics {
     async reportUnknown(domain: string) {
         const allowed = await storage.mbfcAnalytics.get();
         if (!allowed) return;
-        let unknown = await storage.unknown.get();
+        const unknown = await storage.unknown.get();
         if (!unknown[domain]) {
             unknown[domain] = true;
             await storage.unknown.set(unknown);

@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:options:index");
+export {}
+const log = require('debug')('mbfc:options:index');
 
 import Vue from "vue";
 
@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "development" && process.env.DEVTOOLS) {
 // ** Start Vue here ** //
 import App from "./app.vue";
 import router from "./router";
-Vue.component("app", App);
+Vue.component("App", App);
 new Vue({
     el: "#app",
     router,

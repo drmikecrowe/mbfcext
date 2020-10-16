@@ -1,18 +1,34 @@
-import { get } from "lodash-es";
-import { BrowserMessage, HandleMessageCallback } from ".";
+import { SourcesProcessor } from "background/sources";
+import debug from "debug";
+const log = debug("mbfc:messages:ReloadConfigMessage");
+
+import { browser, Runtime } from "webextension-polyfill-ts";
 
 const ReloadConfigMessageMethod = "ReloadConfigMessage";
 
 export class ReloadConfigMessage {
-    public method = ReloadConfigMessageMethod;
+    static method = ReloadConfigMessageMethod;
 
-    static check(request: BrowserMessage, fn: HandleMessageCallback): void {
-        if (get(request, "method") === ReloadConfigMessageMethod) {
-            return fn(request);
-        }
+    static async check(request: any, port: Runtime.Port): Promise<void> {
+        try {
+            const { method } = request;
+            if (method === ReloadConfigMessage.method) {
+                const msg = new ReloadConfigMessage();
+                return msg.processMessage(port);
+            }
+        } catch (err) {}
+        return Promise.resolve();
     }
 
-    constructor() {
-        this.method = ReloadConfigMessageMethod;
+    async processMessage(port: Runtime.Port): Promise<void> {
+        const sources = await SourcesProcessor.getInstance().retrieveRemote();
+        log(`Sending message ReloadConfigMessage response`, sources);
+        port.postMessage(sources);
+    }
+
+    async sendMessage(): Promise<void> {
+        browser.runtime.sendMessage({
+            method: ReloadConfigMessage.method,
+        });
     }
 }

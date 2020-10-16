@@ -21,7 +21,7 @@ export class TabProcessor {
             log(`Initializing onActivated for tab listener`);
             browser.tabs.onActivated.addListener(async (ids) => {
                 // log(`Activating tab listener for tab ${ids.tabId}`);
-                let tab = await browser.tabs.get(ids.tabId);
+                const tab = await browser.tabs.get(ids.tabId);
                 tabListener.listen(tab);
             });
 

@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:utils:definitions");
+export {}
+const log = require('debug')('mbfc:utils:definitions');
 
 export type TDomain = string;
 export type TFacebookUrl = string;

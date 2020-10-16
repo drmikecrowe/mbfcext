@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto text-base">
-    <div v-html="rawHtml"></div>
-  </div>
+    <div class="container mx-auto text-base">
+        <div v-html="rawHtml"></div>
+    </div>
 </template>
 
 <script lang="ts">
@@ -12,11 +12,11 @@ const AboutText = require("./markdown/About.md");
 
 @Component
 export default class About extends Vue {
-  data() {
-    return {
-      rawHtml: AboutText,
-    };
-  }
+    data() {
+        return {
+            rawHtml: AboutText,
+        };
+    }
 }
 </script>
 

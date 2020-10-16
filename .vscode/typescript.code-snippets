@@ -15,6 +15,14 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "Case": {
+    "prefix": "cse",
+    "body": [
+        "case $1Method:",
+        "    return new $1($0).handle();"
+    ],
+    "description": "Case"
+  },
   "Create debug log": {
     "prefix": "rdebug",
     "body": ["const log = require('debug')('ext:$TM_FILENAME_BASE');", ""],

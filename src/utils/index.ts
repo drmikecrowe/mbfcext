@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:utils:index");
+export {}
+const log = require('debug')('mbfc:utils:index');
 
 import { browser } from "webextension-polyfill-ts";
 

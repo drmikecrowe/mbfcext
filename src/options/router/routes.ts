@@ -5,21 +5,21 @@ import About from "./pages/about.vue";
 import ReleaseNotes from "./pages/release-notes.vue";
 
 export default [
-  {
-    name: "Options",
-    path: "/",
-    component: Options,
-  },
-  {
-    name: "Release Notes",
-    path: "/release-notes",
-    component: ReleaseNotes,
-    props: true,
-  },
-  {
-    name: "About",
-    path: "/about",
-    component: About,
-    props: true,
-  },
+    {
+        name: "Options",
+        path: "/",
+        component: Options,
+    },
+    {
+        name: "Release Notes",
+        path: "/release-notes",
+        component: ReleaseNotes,
+        props: true,
+    },
+    {
+        name: "About",
+        path: "/about",
+        component: About,
+        props: true,
+    },
 ];

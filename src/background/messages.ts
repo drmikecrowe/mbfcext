@@ -1,6 +1,6 @@
-const log = require("debug")("mbfc:background:messages");
+import debug from "debug";
+const log = debug("mbfc:background:messages");
 
-import { get } from "lodash-es";
 import {
     browser,
     HideSiteMessage,
@@ -13,16 +13,14 @@ import {
     AssociateSiteMessage,
     ShowSiteMessage,
     UpdatedConfigMessage,
-    GoogleAnalytics,
-    storage,
     BrowserMessage,
 } from "utils";
-import { SourcesProcessor } from "./sources";
+import { Runtime } from "webextension-polyfill-ts";
 
 export class MessageProcessor {
     private static instance: MessageProcessor;
 
-    static getInstance() {
+    static getInstance(): MessageProcessor {
         if (!MessageProcessor.instance) {
             MessageProcessor.instance = new MessageProcessor();
             log("MessageProcessor initialized");
@@ -33,71 +31,28 @@ export class MessageProcessor {
                         "In background script, received message from content script",
                         m
                     );
-                    MessageProcessor.getInstance().processMessage(m, port);
+                    MessageProcessor.getInstance()
+                        .processMessage(m, port)
+                        .then(() => log("Done"));
                 });
             });
         }
         return MessageProcessor.instance;
     }
 
-    processMessage(request: BrowserMessage, port: any = null): void {
-        GetConfigMessage.check(request, async () => {
-            const [src, opt] = await Promise.all([
-                SourcesProcessor.getInstance().getSources(),
-                storage.collapse.get(),
-            ]);
-            const postMessage = get(port, "postMessage", () => {});
-            postMessage(new UpdatedConfigMessage(opt, src));
-        });
-        ResetIgnoredMessage.check(request, async () => {
-            await storage.hiddenSites.set({});
-        });
-        ReloadConfigMessage.check(request, async () => {
-            const sources = await SourcesProcessor.getInstance().retrieveRemote();
-            const postMessage = get(port, "postMessage", () => {});
-            postMessage(sources);
-        });
-        ShowOptionsMessage.check(request, () => {
-            browser.runtime.openOptionsPage();
-        });
-        StartThanksMessage.check(request, () => {
-            GoogleAnalytics.getInstance().report("thanks", "shown");
-            // TODO
-        });
-        ReportUnknownMessage.check(request, () => {
-            const rum: ReportUnknownMessage = request;
-            GoogleAnalytics.getInstance().reportUnknown(rum.domain);
-        });
-        AssociateSiteMessage.check(request, () => {
-            GoogleAnalytics.getInstance().report(
-                "associatedSite",
-                request.source.u,
-                request.fb_url
-            );
-        });
-        HideSiteMessage.check(request, async () => {
-            const hiddenSites = await storage.hiddenSites.get();
-            hiddenSites[request.domain] = !hiddenSites[request.domain];
-            const action = hiddenSites[request.domain] ? "hide" : "show";
-            GoogleAnalytics.getInstance().report(
-                action,
-                "site",
-                request.domain
-            );
-            await storage.hiddenSites.set(hiddenSites);
-            // TODO: How do we do this now?
-            // chromep.storage.local.set({ mbfchidden: config.hiddenSites }).then(function () {
-            //   log("Resetting hidden to: ", config.hiddenSites);
-            // });
-            // return config.hiddenSites[request.domain];
-        });
-        ShowSiteMessage.check(request, (response) => {
-            GoogleAnalytics.getInstance().reportSite(
-                response.source,
-                response.isAlias,
-                response.isBase,
-                response.isCollapsed
-            );
-        });
+    async processMessage(
+        request: BrowserMessage,
+        port: Runtime.Port
+    ): Promise<void> {
+        await AssociateSiteMessage.check(request, port);
+        await GetConfigMessage.check(request, port);
+        await HideSiteMessage.check(request, port);
+        await ReloadConfigMessage.check(request, port);
+        await ReportUnknownMessage.check(request, port);
+        await ResetIgnoredMessage.check(request, port);
+        await ShowOptionsMessage.check(request, port);
+        await ShowSiteMessage.check(request, port);
+        await StartThanksMessage.check(request, port);
+        await UpdatedConfigMessage.check(request, port);
     }
 }

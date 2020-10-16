@@ -1,0 +1,9 @@
+node_modules
+temp
+.tmp
+dist
+.sass-cache
+.DS_Store
+build
+compile
+resources

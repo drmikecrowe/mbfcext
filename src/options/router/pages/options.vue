@@ -1,5 +1,5 @@
 <template>
-    <form class="w-full" id="optionsStorage">
+    <form id="optionsStorage" class="w-full">
         <vue-form-generator
             :schema="schema"
             :model="model"

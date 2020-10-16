@@ -1,7 +1,7 @@
 export {};
 const log = require("debug")("mbfc:background:storage");
 
-import { StorageArea } from "@spadin/webextension-storage";
+import { StorageArea } from "./StorageArea";
 
 export enum ERporting {
     HIGH = "H",
@@ -44,9 +44,9 @@ export const DefaultFormOptions: IFormOptions = {
     collapseRightCenter: false,
     collapseRight: false,
     collapseProScience: false,
-    collapseConspiracy: false,
+    collapseConspiracy: true,
     collapseSatire: false,
-    collapseFakeNews: false,
+    collapseFakeNews: true,
     collapseMixed: false,
 };
 
@@ -95,7 +95,7 @@ export interface IConfig {
 
 const configDefaults: IConfig = {
     hiddenSites: {},
-    collapse: {},
+    collapse: DefaultFormOptions,
     unknown: {},
     lastRun: 0,
     firstrun: true,

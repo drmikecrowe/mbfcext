@@ -2,7 +2,12 @@
     "editor.codeActionsOnSave": {
         "source.fixAll": true
     },
-    "typescript.tsdk": "./node_modules/typescript/lib",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "*.scss": "stylus"
+    },
     "files.eol": "\n",
     "json.schemas": [
         {
@@ -10,13 +15,28 @@
             "url": "http://json.schemastore.org/chrome-manifest"
         }
     ],
-    "prettier.trailingComma": "all",
+    "npm.bin": "pnpm",
+    "npm.packageManager": "pnpm",
     "prettier.packageManager": "pnpm",
+    "jest.autoEnable": false,
     "prettier.printWidth": 120,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "files.associations": {
-        "*.scss": "stylus"
-    }
+    "prettier.trailingComma": "all",
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#65c89b",
+      "activityBar.activeBorder": "#945bc4",
+      "activityBar.background": "#65c89b",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#945bc4",
+      "activityBarBadge.foreground": "#e7e7e7",
+      "statusBar.background": "#42b883",
+      "statusBar.foreground": "#15202b",
+      "statusBarItem.hoverBackground": "#359268",
+      "titleBar.activeBackground": "#42b883",
+      "titleBar.activeForeground": "#15202b",
+      "titleBar.inactiveBackground": "#42b88399",
+      "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#42b883"
 }

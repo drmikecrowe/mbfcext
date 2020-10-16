@@ -1,10 +1,8 @@
-export {};
-const log = require("debug")("mbfc:utils:checkDomain");
+import debug from "debug";
+const log = debug("mbfc:utils:checkDomain");
 
 import { get } from "lodash";
-import { isDevMode, ISource, ISources, IConfig } from "utils";
-
-isDevMode();
+import { ISource, ISources, IConfig } from "utils";
 
 export interface ICheckDomain {
     final_domain: string;
@@ -48,7 +46,7 @@ export const checkDomain = (
             if (collapse[bias]) {
                 ret.collapse = true;
             }
-            if (reporting.toUpperCase() === "MIXED" && collapse.mixed) {
+            if (reporting.toUpperCase().startsWith("M") && collapse.mixed) {
                 ret.collapse = true;
             }
         }
@@ -65,8 +63,8 @@ export const checkDomain = (
     if (_check(`${domain}${path}`, false, false)) return ret;
     if (_check(domain, false, false)) return ret;
     if (_check(sources.aliases[domain], true, false)) return ret;
-    var elements = domain.split(".");
-    var next_domain = elements.pop();
+    const elements = domain.split(".");
+    let next_domain = elements.pop();
     next_domain = elements.pop() + "." + next_domain;
     if (_check(next_domain, false, true)) return ret;
     ret.unknown = true;

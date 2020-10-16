@@ -2,7 +2,7 @@
     <div class="container mx-auto p-2 centered">
         <div class="absolute top-0 right-0">
             <div class="p-1">
-                <a href="#" @click="options" title="Configuration">
+                <a href="#" title="Configuration" @click="options">
                     <font-awesome-icon class="float-right" icon="cog" />
                 </a>
             </div>
@@ -48,9 +48,9 @@ const log = require("debug")("mbfc:popup");
 
 @Component
 export default class Popup extends Vue {
-    lastRun: number = 0;
-    pollsPerDay: number = 0;
-    polling: boolean = false;
+    lastRun = 0;
+    pollsPerDay = 0;
+    polling = false;
 
     data() {
         this.updateData().then(() => {

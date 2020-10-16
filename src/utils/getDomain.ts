@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:utils:getDomain");
+export {}
+const log = require('debug')('mbfc:utils:getDomain');
 
 export const getDomain = (url: string) => {
     let hn, p;

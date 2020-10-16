@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:background:sources");
+import debug from "debug";
+const log = debug("mbfc:background:sources");
 
 import { fetch as fetchPolyfill } from "whatwg-fetch";
 import { ISources } from "utils/definitions";
@@ -19,7 +19,7 @@ export class SourcesProcessor {
     };
     private static instance: SourcesProcessor;
 
-    static getInstance() {
+    static getInstance(): SourcesProcessor {
         if (!SourcesProcessor.instance) {
             SourcesProcessor.instance = new SourcesProcessor();
             log("SourcesProcessor initialized");
@@ -42,7 +42,7 @@ export class SourcesProcessor {
         const self = this;
         try {
             const res = await fetchPolyfill(COMBINED);
-            let combined = await res.json();
+            const combined = await res.json();
             log("Combined: ", combined);
             if (!combined) return self.sources;
             log("Settings retrieved, processing");
@@ -68,7 +68,7 @@ export class SourcesProcessor {
                     }
                     self.sources.fb_pages[fb] = domain;
                 }
-                let tw = self.sources.sources[domain].t;
+                const tw = self.sources.sources[domain].t;
                 if (tw && tw > "") {
                     const matches = /(https?:\/\/twitter.com\/[^\/]*)/.exec(tw);
                     if (matches && matches[1]) {

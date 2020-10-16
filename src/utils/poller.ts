@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:utils:poller");
+export {}
+const log = require('debug')('mbfc:utils:poller');
 
 import { Alarms } from "webextension-polyfill-ts";
 import { storage } from "utils";
@@ -35,7 +35,7 @@ export class Poller {
 
             (async () => {
                 const alarms = await browser.alarms.getAll();
-                for (let alarm of alarms) {
+                for (const alarm of alarms) {
                     log(
                         `${alarm.name} is present with period of ${alarm.periodInMinutes} minutes and fire at`,
                         date(alarm.scheduledTime)

@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:utils:tabListener");
+import debug from "debug";
+const log = debug("mbfc:background:tabListener");
 
 import { words, capitalize } from "lodash";
 import {
@@ -13,7 +13,6 @@ import {
     ShowSiteMessage,
 } from "utils";
 import { SourcesProcessor } from "background/sources";
-import { MessageProcessor } from "./messages";
 
 interface IDetails {
     site: ISource | null;
@@ -46,13 +45,12 @@ const firstLetter = (text) => {
 };
 
 const draw = (text, color, backColor) => {
-    var canvas = document.createElement("canvas"); // Create the canvas
+    const canvas = document.createElement("canvas"); // Create the canvas
     canvas.width = 19;
     canvas.height = 19;
     let left = 10;
-    let top = 12;
 
-    var context = canvas.getContext("2d");
+    const context = canvas.getContext("2d");
     if (!context) return;
     if (backColor === "white") {
         context.fillStyle = color;
@@ -90,7 +88,7 @@ export class TabListener {
         return TabListener.instance;
     }
 
-    async details(tab): Promise<IDetails> {
+    async details(tab: any): Promise<IDetails> {
         const none = {
             site: null,
             bias: null,
@@ -106,7 +104,6 @@ export class TabListener {
         ]);
         const { domain, path } = getDomain(tab.url);
         if (domain) {
-            let icon = null;
             if (domain.indexOf("facebook.com") === -1) {
                 const parsed_domain = checkDomain(
                     domain,
@@ -154,8 +151,7 @@ export class TabListener {
         }
     };
 
-    listen = (tab) => {
-        const self = this;
+    listen = (tab: any): void => {
         if (!tab) return;
         if (!tab.url.startsWith("http")) {
             // log(`Not listening for tab ${tab.url}`);
@@ -171,7 +167,7 @@ export class TabListener {
                 if (this.interval) clearInterval(this.interval);
                 this.interval = undefined;
                 if (site) {
-                    icon = firstLetter(site.b);
+                    icon = site.b;
                     if (icon && !colorMap[icon]) {
                         log(`No colorMap for icon ${icon} from `, site);
                         icon = undefined;
@@ -179,13 +175,6 @@ export class TabListener {
                 }
                 if (icon && site) {
                     this.lastTab = tab.id;
-                    const msg = new ShowSiteMessage(
-                        site,
-                        !!isAlias,
-                        !!isBase,
-                        !!collapsed
-                    );
-                    MessageProcessor.getInstance().processMessage(msg);
                     log(`Icon: ${icon}`);
                     this.icon = icon;
                     this.site = site;

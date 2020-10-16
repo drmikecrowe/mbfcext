@@ -17,6 +17,7 @@ async function polling() {
 
 (async () => {
     isDevMode();
+    await storage.initDefaults();
     await SourcesProcessor.getInstance().getSources();
     Poller.getInstance(polling);
     GoogleAnalytics.getInstance();

@@ -1,18 +1,32 @@
-import { get } from "lodash-es";
-import { BrowserMessage, HandleMessageCallback } from ".";
+import debug from "debug";
+const log = debug("mbfc:messages:StartThanksMessage");
+
+import { browser, Runtime } from "webextension-polyfill-ts";
 
 const StartThanksMessageMethod = "StartThanksMessage";
 
 export class StartThanksMessage {
-    public method = StartThanksMessageMethod;
+    static method = StartThanksMessageMethod;
 
-    static check(request: BrowserMessage, fn: HandleMessageCallback): void {
-        if (get(request, "method") === StartThanksMessageMethod) {
-            return fn(request);
-        }
+    static async check(request: any, port: Runtime.Port): Promise<void> {
+        try {
+            const { method } = request;
+            if (method === StartThanksMessage.method) {
+                const msg = new StartThanksMessage();
+                return msg.processMessage(port);
+            }
+        } catch (err) {}
+        return Promise.resolve();
     }
 
-    constructor() {
-        this.method = StartThanksMessageMethod;
+    async processMessage(port: Runtime.Port): Promise<void> {
+        log(`Sending message StartThanksMessage response`, "OK");
+        port.postMessage("OK");
+    }
+
+    async sendMessage(): Promise<void> {
+        browser.runtime.sendMessage({
+            method: StartThanksMessage.method,
+        });
     }
 }

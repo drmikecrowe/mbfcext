@@ -1,5 +1,5 @@
-export {};
-const log = require("debug")("mbfc:tailwind:theme");
+export {}
+const log = require('debug')('mbfc:tailwind:theme');
 // import { TSelect } from "vue-tailwind/src/themes/default";
 
 // const TSelect = {
