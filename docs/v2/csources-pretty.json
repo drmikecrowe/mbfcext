@@ -13517,15 +13517,14 @@
         "r": "M",
         "u": "newsmax"
     },
-    "youtube.com": {
-        "b": "R",
-        "d": "youtube.com/nextnewsnetwork",
+    "nextnewsnetwork": {
+        "b": "FN",
+        "d": "/nextnewsnetwork",
         "f": "nextnewsnet",
         "n": "Next News Network",
         "P": "46",
         "r": "M",
-        "u": "next-news-network",
-        "p": "/nextnewsnetwork"
+        "u": "next-news-network"
     },
     "newslogue.com": {
         "b": "L",
@@ -15885,7 +15884,7 @@
         "u": "redoubt-news"
     },
     "valleynewslive.com": {
-        "b": "RC",
+        "b": "C",
         "d": "valleynewslive.com",
         "f": "valleynewslive",
         "t": "valleynewslive",

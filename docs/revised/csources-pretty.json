@@ -19357,18 +19357,18 @@
         "u": "https://mediabiasfactcheck.com/newsmax/",
         "p": "/"
     },
-    "youtube.com": {
-        "b": "right",
-        "d": "youtube.com/nextnewsnetwork",
+    "nextnewsnetwork": {
+        "b": "fake-news",
+        "d": "/nextnewsnetwork",
         "f": "https://facebook.com/nextnewsnet",
-        "h": "https://youtube.com/nextnewsnetwork",
+        "h": "https:///nextnewsnetwork",
         "M": "43",
         "L": "46441",
         "n": "Next News Network",
         "P": "46",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/next-news-network/",
-        "p": "/nextnewsnetwork"
+        "p": "/"
     },
     "newslogue.com": {
         "b": "left",
@@ -22759,7 +22759,7 @@
         "p": "/"
     },
     "valleynewslive.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "valleynewslive.com",
         "f": "https://facebook.com/valleynewslive",
         "t": "https://twitter.com/valleynewslive",
