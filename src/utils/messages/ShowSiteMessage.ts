@@ -1,13 +1,9 @@
-import debug from "debug";
-import { GoogleAnalytics, ISource } from "..";
-const log = debug("mbfc:messages:ShowSiteMessage");
-
-import { browser, Runtime } from "webextension-polyfill-ts";
-
-const ShowSiteMessageMethod = "ShowSiteMessage";
+import { GoogleAnalytics, ISource, messageUtil } from "..";
+import { logger } from "utils";
+const log = logger("mbfc:messages:ShowSiteMessage");
 
 export class ShowSiteMessage {
-    static method = ShowSiteMessageMethod;
+    static method = "ShowSiteMessageMethod";
     public source: ISource;
     public isAlias: boolean;
     public isBase: boolean;
@@ -25,42 +21,41 @@ export class ShowSiteMessage {
         this.isCollapsed = isCollapsed;
     }
 
-    static async check(request: any, port: Runtime.Port): Promise<void> {
-        try {
-            const { method, source, isAlias, isBase, isCollapsed } = request;
-            if (method === ShowSiteMessage.method) {
+    static listen() {
+        messageUtil.receive(ShowSiteMessage.method, (request) => {
+            try {
+                const { source, isAlias, isBase, isCollapsed } = request;
                 const msg = new ShowSiteMessage(
                     source,
                     isAlias,
                     isBase,
                     isCollapsed
                 );
-                return msg.processMessage(port);
-            }
-        } catch (err) {}
-        return Promise.resolve();
+                return msg.processMessage();
+            } catch (err) {}
+        });
     }
 
-    async processMessage(port?: Runtime.Port): Promise<void> {
+    async processMessage(): Promise<void> {
+        log(`Processing ShowSiteMessage`);
         GoogleAnalytics.getInstance().reportSite(
             this.source,
             this.isAlias,
             this.isBase,
             this.isCollapsed
         );
-        if (port) {
-            log(`Sending message ShowSiteMessage response`, "OK");
-            port.postMessage("OK");
-        }
     }
 
-    async sendMessage(): Promise<void> {
-        browser.runtime.sendMessage({
-            method: ShowSiteMessage.method,
+    async sendMessage(toSelf = false): Promise<void> {
+        const params = {
             source: this.source,
             isAlias: this.isAlias,
             isBase: this.isBase,
             isCollapsed: this.isCollapsed,
-        });
+        };
+        if (toSelf) {
+            messageUtil.sendSelf(ShowSiteMessage.method, params);
+        }
+        messageUtil.send(ShowSiteMessage.method, params);
     }
 }

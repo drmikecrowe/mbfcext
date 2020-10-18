@@ -1,5 +1,3 @@
-export {}
-const log = require('debug')('mbfc:popup:router:routes');
 import Popup from "./pages/popup.vue";
 import Second from "./pages/second.vue";
 

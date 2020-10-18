@@ -1,20 +1,20 @@
-export {}
-const log = require('debug')('mbfc:utils:poller');
+import { ConfigHandler, DateFilter, logger } from "utils";
+import { Alarms, browser } from "webextension-polyfill-ts";
+import { StorageHandler } from "utils/StorageHandler";
+const log = logger("mbfc:utils:poller");
 
-import { Alarms } from "webextension-polyfill-ts";
-import { storage } from "utils";
-import { browser } from "webextension-polyfill-ts";
-import date from "utils/filters/date";
-
-const OPTIONS_FIRST_RUN = true;
+type PollFunction = () => void;
 
 export class Poller {
     private static instance: Poller;
-    private pollFunction: Function | undefined;
+    private pollFunction: PollFunction | undefined;
+    private storage: StorageHandler;
 
-    private constructor() {}
+    constructor() {
+        this.storage = StorageHandler.getInstance();
+    }
 
-    static getInstance(pollFn?: Function) {
+    static getInstance(pollFn?: PollFunction) {
         if (!Poller.instance) {
             Poller.instance = new Poller();
             log("Poller initialized");
@@ -38,7 +38,7 @@ export class Poller {
                 for (const alarm of alarms) {
                     log(
                         `${alarm.name} is present with period of ${alarm.periodInMinutes} minutes and fire at`,
-                        date(alarm.scheduledTime)
+                        DateFilter(alarm.scheduledTime)
                     );
                 }
             })().catch((err) => {
@@ -49,15 +49,10 @@ export class Poller {
     }
 
     async runtimeOnInstalled() {
+        await StorageHandler.getInstance().getConfig();
         log("onInstalled....");
         this.scheduleRequest();
         this.scheduleWatchdog();
-        const firstrun = await storage.firstrun.get();
-        log(`Installed.  firstrun=${firstrun}`);
-        if (firstrun) {
-            await storage.firstrun.set(false);
-            if (OPTIONS_FIRST_RUN) browser.runtime.openOptionsPage();
-        }
     }
 
     async alarmsOnAlarm(alarm: Alarms.Alarm) {
@@ -92,9 +87,13 @@ export class Poller {
 
     // schedule a new fetch every 30 minutes
     async scheduleRequest() {
-        const minutes = await storage.pollMinutes.get();
-        log(`schedule refresh alarm to ${minutes} minutes...`);
-        browser.alarms.create("refresh", { periodInMinutes: minutes });
+        const _config = ConfigHandler.getInstance().config;
+        if (_config.isErr()) return;
+        const config = _config.value;
+        log(`schedule refresh alarm to ${config.pollMinutes} minutes...`);
+        browser.alarms.create("refresh", {
+            periodInMinutes: config.pollMinutes,
+        });
     }
 
     // schedule a watchdog check every 5 minutes
@@ -105,10 +104,15 @@ export class Poller {
 
     // fetch data and save to local storage
     async startRequest() {
+        const _config = ConfigHandler.getInstance().config;
+        if (_config.isErr()) return;
+        const config = _config.value;
+
         if (typeof this.pollFunction === "function") {
             log("polling extensions...");
             await this.pollFunction();
         }
-        await storage.lastRun.set(Date.now());
+        config.lastRun = Date.now();
+        await this.storage.update(config);
     }
 }

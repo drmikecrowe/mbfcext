@@ -1,5 +1,3 @@
-export {}
-const log = require('debug')('mbfc:shims-tsx.d');
 import Vue, { VNode } from "vue";
 
 declare global {

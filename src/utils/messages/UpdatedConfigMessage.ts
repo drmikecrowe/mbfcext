@@ -1,42 +1,28 @@
-import { ISources, IConfig } from "..";
-import debug from "debug";
-const log = debug("mbfc:messages:UpdatedConfigMessage");
-
-import { browser, Runtime } from "webextension-polyfill-ts";
-
-const UpdatedConfigMessageMethod = "UpdatedConfigMessage";
+import { ConfigHandler, IConfig, logger, messageUtil } from "utils";
+const log = logger("mbfc:messages:UpdatedConfigMessage");
 
 export class UpdatedConfigMessage {
-    static method = UpdatedConfigMessageMethod;
+    static method = "UpdatedConfigMessageMethod";
     public config: IConfig;
-    public sources: ISources;
 
-    constructor(config: IConfig, sources: ISources) {
+    constructor(config: IConfig) {
         this.config = config;
-        this.sources = sources;
     }
 
-    static async check(request: any, port: Runtime.Port): Promise<void> {
-        try {
-            const { method, config, sources } = request;
-            if (method === UpdatedConfigMessage.method) {
-                const msg = new UpdatedConfigMessage(config, sources);
-                return msg.processMessage(port);
-            }
-        } catch (err) {}
-        return Promise.resolve();
+    static async update(): Promise<void> {
+        const _config = ConfigHandler.getInstance().config;
+        if (_config.isErr()) return;
+        const cfg = _config.value;
+        log(`Sending UpdatedConfigMessage`);
+        const msg = new UpdatedConfigMessage(cfg);
+        await msg.sendMessage(true);
     }
 
-    async processMessage(port: Runtime.Port): Promise<void> {
-        log(`Sending message UpdatedConfigMessage response`, "OK");
-        port.postMessage("OK");
-    }
-
-    async sendMessage(): Promise<void> {
-        browser.runtime.sendMessage({
-            method: UpdatedConfigMessage.method,
-            config: this.config,
-            sources: this.sources,
-        });
+    async sendMessage(toSelf = false): Promise<void> {
+        log(`Sending UpdatedConfigMessage `, this.config);
+        if (toSelf) {
+            messageUtil.sendSelf(UpdatedConfigMessage.method, this.config);
+        }
+        messageUtil.send(UpdatedConfigMessage.method, this.config);
     }
 }

@@ -1,16 +1,18 @@
-export {}
-const log = require('debug')('mbfc:utils:google-analytics');
-
-import { GA } from "./constants";
 import galite from "ga-lite";
-import { storage, isDevMode } from "utils";
-import { ISource } from "./definitions";
+import {
+    ConfigHandler,
+    GA,
+    IConfig,
+    isDevMode,
+    ISource,
+    logger,
+    StorageHandler,
+} from "utils";
+const log = logger("mbfc:utils:google-analytics");
 
 export class GoogleAnalytics {
     private static instance: GoogleAnalytics;
-    private constructor() {
-        // do something construct...
-    }
+
     static getInstance() {
         if (!GoogleAnalytics.instance) {
             GoogleAnalytics.instance = new GoogleAnalytics();
@@ -19,35 +21,36 @@ export class GoogleAnalytics {
         }
         return GoogleAnalytics.instance;
     }
-    //someMethod() { }
 
-    async report(
+    private config(): IConfig | undefined {
+        const _config = ConfigHandler.getInstance().config;
+        if (_config.isErr()) return;
+        return _config.value;
+    }
+
+    private allowed(): boolean {
+        const config = this.config();
+        if (config) return !config.mbfcBlockAnalytics;
+        return false;
+    }
+
+    private async report(
         eventAction,
         eventLabel: string | undefined = undefined,
         eventValue: any | undefined = undefined
     ) {
-        if (eventAction !== "set")
-            log("REPORTING: ", eventAction, eventLabel, eventValue);
-        const gaAllowed = await storage.mbfcAnalytics.get();
-        if (gaAllowed) {
+        let msg = "Sending";
+        if (this.allowed()) {
             if (isDevMode()) {
-                return;
+                msg = "DevMode, skipping";
+            } else {
+                msg = "Sending";
+                galite("send", "event", eventAction, eventLabel, eventValue);
             }
-            galite("send", "event", eventAction, eventLabel, eventValue);
         } else {
-            log("REPORTING not allowed");
+            msg = "not allowed";
         }
-    }
-
-    async reportUnknown(domain: string) {
-        const allowed = await storage.mbfcAnalytics.get();
-        if (!allowed) return;
-        const unknown = await storage.unknown.get();
-        if (!unknown[domain]) {
-            unknown[domain] = true;
-            await storage.unknown.set(unknown);
-            this.report("site", "unknown", domain);
-        }
+        log("REPORTING ", msg, eventAction, eventLabel, eventValue);
     }
 
     reportSite(
@@ -65,5 +68,23 @@ export class GoogleAnalytics {
         this.report("set", "omnibar", !!isOmnibar);
         this.report("site", "shown", source.d);
         this.report("bias", "shown", source.b);
+    }
+
+    reportUnknown(domain: string) {
+        const config = this.config();
+        if (!config) return;
+        if (!config.unknown[domain]) {
+            config.unknown[domain] = true;
+            this.report("site", "unknown", domain);
+            return StorageHandler.getInstance().update(config);
+        }
+    }
+
+    reportAssociated(url: string, fb_url: string) {
+        this.report("associated", "set", `${url}=${fb_url}`);
+    }
+
+    reportHidingSite(action: string, domain: string) {
+        this.report("hidingSite", action, domain);
     }
 }

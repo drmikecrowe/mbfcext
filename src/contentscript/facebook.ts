@@ -1,23 +1,12 @@
-const log = require("debug")("mbfc:contentscript:facebook");
+import { isDevMode, logger, messageUtil, UpdatedConfigMessage } from "utils";
 
-import { browser } from "webextension-polyfill-ts";
-import { GetConfigMessage } from "utils/messages";
-import { isDevMode } from "utils";
-
-log(`Loaded into facebook page`);
+const log = logger("mbfc:contentscript:facebook");
 
 (async () => {
-    function messageReceived(message) {
-        log(message);
-    }
-
-    // browser.runtime.onMessage.addListener(messageReceived);
-    // const myPort = browser.runtime.connect(browser.runtime.id);
-    // myPort.onMessage.addListener(async (response: any) => {
-    //     log("OnMessage: ", response);
-    // });
-    const cfg = await new GetConfigMessage().sendMessage();
-    log(`Got config: `, cfg);
+    log(`Loaded into Facebook...`);
+    messageUtil.receive(UpdatedConfigMessage.method, (p1, p2) => {
+        log("Got message: ", p1, p2);
+    });
 })().catch((err) => {
     console.error(err);
     if (isDevMode()) debugger;

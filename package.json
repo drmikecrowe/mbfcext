@@ -4,7 +4,8 @@
     "url": "https://github.com/drmikecrowe/mbfcext/issues"
   },
   "dependencies": {
-    "eslint-plugin-node": "^11.1.0"
+    "eslint-plugin-node": "^11.1.0",
+    "neverthrow": "^2.7.1"
   },
   "description": "Curate Facebook with MBFC news categorizations",
   "devDependencies": {
@@ -120,7 +121,6 @@
     "vue-template-compiler": "^2.6.12",
     "webext-options-sync": "^2.0.0",
     "webext-storage-cache": "^4.1.1",
-    "webextension-polyfill": "^0.6.0",
     "webextension-polyfill-ts": "^0.19.0",
     "webpack": "^4.44.1",
     "webpack-bundle-analyzer": "^3.8.0",

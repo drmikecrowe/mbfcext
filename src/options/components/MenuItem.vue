@@ -34,8 +34,6 @@ import Component from "vue-class-component";
 
 import DynamicLink from "./DynamicLink.vue";
 
-const debug = require("debug")("mbfc:MenuItem");
-
 @Component({
     props: {
         option: {

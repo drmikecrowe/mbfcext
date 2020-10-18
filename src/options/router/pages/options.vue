@@ -13,13 +13,13 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 import OptionsSync from "webext-options-sync";
-import { DefaultFormOptions, IFormOptions } from "utils";
+import { DefaultCollapse, Collapse, logger } from "utils";
 import VueFormGenerator from "vue-form-generator/dist/vfg-core.js";
 Vue.use(VueFormGenerator);
 
-const MyOptions = new OptionsSync({ defaults: DefaultFormOptions as any });
+const MyOptions = new OptionsSync({ defaults: DefaultCollapse as any });
 
-const log = require("debug")("mbfc:options");
+const log = logger("mbfc:vue:options");
 
 const baseClasses = {
     styleClasses: "flex items-center mb-6",
@@ -39,7 +39,7 @@ const checkboxClasses = {
 
 @Component
 export default class Options extends Vue {
-    model: IFormOptions = DefaultFormOptions;
+    model: Collapse = DefaultCollapse;
 
     async loadOptions(): Promise<any> {
         const options = await MyOptions.getAll();
@@ -60,35 +60,14 @@ export default class Options extends Vue {
             schema: {
                 groups: [
                     {
-                        legend: "Privacy Settings",
-                        fields: [
-                            {
-                                type: "checkbox",
-                                label: "Disable anonymous usage reporting",
-                                model: "mbfcAnalytics",
-                                inputName: "mbfcAnalytics",
-                                default: false,
-                                featured: false,
-                                hint: `<label> This extension may collect <b>anonymous</b> usage data to help improve the extension. The events are: </label>
-                <ul>
-                  <li class="show-list">Domains that are NOT rated by <a href="https://mediabiasfactcheck.com" target="_blank">Media Bias Fact Check</a>. Highly viewed, unranked sites will be recommended for analysis</li>
-                  <li class="show-list">Site ratings shown, such as LEFT, LEFT-CENTER, LEAST, RIGHT-CENTER, RIGHT</li>
-                  <li class="show-list">Getting more details from <a href="https://mediabiasfactcheck.com" target="_blank">Media Bias Fact Check</a> on a site</li>
-                  <li class="show-list">Searching a site using <a href="https://factualsearch.news" target="_blank">factualsearch.news</a> on a topic</li>
-                  <li class="show-list">Sites that are ignored</li></ul>`,
-                                ...checkboxClasses,
-                            },
-                        ],
-                    },
-                    {
                         legend: "Section Collapse",
                         fields: [
                             {
                                 type: "checkbox",
                                 label: "Left Bias",
                                 help: "(You should check this)",
-                                model: "collapseLeft",
-                                inputName: "collapseLeft",
+                                model: "collapse.collapseLeft",
+                                inputName: "collapse.collapseLeft",
                                 default: false,
                                 featured: true,
                                 hint:
@@ -98,8 +77,8 @@ export default class Options extends Vue {
                             {
                                 type: "checkbox",
                                 label: "Left-Center Bias ",
-                                model: "collapseLeftCenter",
-                                inputName: "collapseLeftCenter",
+                                model: "collapse.collapseLeftCenter",
+                                inputName: "collapse.collapseLeftCenter",
                                 default: false,
                                 hint:
                                     "Left-Center media sources have a slight to moderate liberal bias.  They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor liberal causes.  These sources are generally trustworthy for information, but may require further investigation.",
@@ -108,8 +87,8 @@ export default class Options extends Vue {
                             {
                                 type: "checkbox",
                                 label: "Least Biased ",
-                                model: "collapseCenter",
-                                inputName: "collapseCenter",
+                                model: "collapse.collapseCenter",
+                                inputName: "collapse.collapseCenter",
                                 default: false,
                                 hint:
                                     "Least Biased/Center media sources have minimal bias and use very few loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes).  The reporting is factual and usually sourced.  These are the most credible media sources.",
@@ -118,8 +97,8 @@ export default class Options extends Vue {
                             {
                                 type: "checkbox",
                                 label: "Right-Center Bias ",
-                                model: "collapseRightCenter",
-                                inputName: "collapseRightCenter",
+                                model: "collapse.collapseRightCenter",
+                                inputName: "collapse.collapseRightCenter",
                                 default: false,
                                 hint:
                                     "Right-Center media sources are slightly to moderately conservative in bias. They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor conservative causes. These sources are generally trustworthy for information, but may require further investigation.",
@@ -129,8 +108,8 @@ export default class Options extends Vue {
                                 type: "checkbox",
                                 label: "Right Bias",
                                 help: "(You should check this)",
-                                model: "collapseRight",
-                                inputName: "collapseRight",
+                                model: "collapse.collapseRight",
+                                inputName: "collapse.collapseRight",
                                 default: false,
                                 featured: true,
                                 hint:
@@ -140,8 +119,8 @@ export default class Options extends Vue {
                             {
                                 type: "checkbox",
                                 label: "Pro-Science ",
-                                model: "collapseProScience",
-                                inputName: "collapseProScience",
+                                model: "collapse.collapseProScience",
+                                inputName: "collapse.collapseProScience",
                                 default: false,
                                 hint:
                                     "Pro-Science media sources consist of legitimate science or are evidence based through the use of credible scientific sourcing.  Legitimate science follows the scientific method, is unbiased and does not use emotional words.  These sources also respect the consensus of experts in the given scientific field and strive to publish peer reviewed science. Some sources in this category may have a slight political bias, but adhere to scientific principles.",
@@ -151,8 +130,8 @@ export default class Options extends Vue {
                                 type: "checkbox",
                                 label: "Conspiracy-Pseudoscience",
                                 help: "(You should check this)",
-                                model: "collapseConspiracy",
-                                inputName: "collapseConspiracy",
+                                model: "collapse.collapseConspiracy",
+                                inputName: "collapse.collapseConspiracy",
                                 default: false,
                                 featured: true,
                                 hint:
@@ -162,8 +141,8 @@ export default class Options extends Vue {
                             {
                                 type: "checkbox",
                                 label: "Satire ",
-                                model: "collapseSatire",
-                                inputName: "collapseSatire",
+                                model: "collapse.collapseSatire",
+                                inputName: "collapse.collapseSatire",
                                 default: false,
                                 hint:
                                     "Satire media sources exclusively use humor, irony, exaggeration, or ridicule to expose and criticize people’s stupidity or vices, particularly in the context of contemporary politics and other topical issues. Primarily these sources are clear that they are satire and do not attempt to deceive.",
@@ -173,8 +152,8 @@ export default class Options extends Vue {
                                 type: "checkbox",
                                 label: "Questionable Sources/Fake News",
                                 help: "(You should check this)",
-                                model: "collapseFakeNews",
-                                inputName: "collapseFakeNews",
+                                model: "collapse.collapseFakeNews",
+                                inputName: "collapse.collapseFakeNews",
                                 default: false,
                                 featured: true,
                                 hint:
@@ -185,12 +164,34 @@ export default class Options extends Vue {
                                 type: "checkbox",
                                 label: "Mixed Factual Reporting",
                                 help: "(You should check this)",
-                                model: "collapseMixed",
-                                inputName: "collapseMixed",
+                                model: "collapse.collapseMixed",
+                                inputName: "collapse.collapseMixed",
                                 default: false,
                                 featured: true,
                                 hint:
                                     "Mixed Factual Reporting media sources have a track record of publishing false stories, and should be treated used with caution.",
+                                ...checkboxClasses,
+                            },
+                        ],
+                    },
+                    {
+                        legend: "Privacy Settings",
+                        fields: [
+                            {
+                                type: "checkbox",
+                                label: "Disable anonymous usage reporting",
+                                model: "mbfcBlockAnalytics",
+                                inputName: "mbfcBlockAnalytics",
+                                default: false,
+                                featured: false,
+                                hint: `<label> This extension may collect <b>anonymous</b> usage data to help improve the extension. The events are: </label>
+                                    <ul>
+                                    <li class="show-list">Domains that are NOT rated by <a href="https://mediabiasfactcheck.com" target="_blank">Media Bias Fact Check</a>. Highly viewed, unranked sites will be recommended for analysis</li>
+                                    <li class="show-list">Site ratings shown, such as LEFT, LEFT-CENTER, LEAST, RIGHT-CENTER, RIGHT</li>
+                                    <li class="show-list">Getting more details from <a href="https://mediabiasfactcheck.com" target="_blank">Media Bias Fact Check</a> on a site</li>
+                                    <li class="show-list">Searching a site using <a href="https://factualsearch.news" target="_blank">factualsearch.news</a> on a topic</li>
+                                    <li class="show-list">Sites that are ignored</li>
+                                    </ul>`,
                                 ...checkboxClasses,
                             },
                         ],

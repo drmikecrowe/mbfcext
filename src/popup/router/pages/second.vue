@@ -14,8 +14,6 @@ import { faExternalLinkSquareAlt } from "@fortawesome/free-solid-svg-icons/faExt
 import { faAngleDoubleLeft } from "@fortawesome/free-solid-svg-icons/faAngleDoubleLeft";
 library.add(faAngleDoubleLeft, faExternalLinkSquareAlt);
 
-const log = require("debug")("mbfc:issues");
-
 @Component
 export default class Issues extends Vue {
     list: any[] = [];

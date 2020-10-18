@@ -1,49 +1,48 @@
-import { browser, Runtime } from "webextension-polyfill-ts";
-
-import debug from "debug";
-import { storage, GoogleAnalytics } from "utils";
-const log = debug("mbfc:messages:HideSiteMessage");
-
-const HideSiteMessageMethod = "HideSiteMessage";
+import { GoogleAnalytics, messageUtil, StorageHandler } from "utils";
+import { UpdatedConfigMessage } from "utils";
+import { logger } from "utils";
+import { ConfigHandler } from "utils/ConfigHandler";
+const log = logger("mbfc:messages:HideSiteMessage");
 
 export class HideSiteMessage {
-    static method = HideSiteMessageMethod;
+    static method = "HideSiteMessageMethod";
     public domain: string;
 
     constructor(domain: string) {
         this.domain = domain;
     }
-
-    static async check(request: any, port: Runtime.Port): Promise<void> {
-        try {
-            const { method, domain } = request;
-            if (method === HideSiteMessage.method) {
+    static listen() {
+        messageUtil.receive(HideSiteMessage.method, (request) => {
+            try {
+                const { domain } = request;
                 const msg = new HideSiteMessage(domain);
-                return msg.processMessage(port);
-            }
-        } catch (err) {}
-        return Promise.resolve();
-    }
-
-    async processMessage(port: Runtime.Port): Promise<void> {
-        const hiddenSites = await storage.hiddenSites.get();
-        hiddenSites[this.domain] = !hiddenSites[this.domain];
-        const action = hiddenSites[this.domain] ? "hide" : "show";
-        GoogleAnalytics.getInstance().report(action, "site", this.domain);
-        await storage.hiddenSites.set(hiddenSites);
-        // TODO: How do we do this now?
-        // chromep.storage.local.set({ mbfchidden: config.hiddenSites }).then(function () {
-        //   log("Resetting hidden to: ", config.hiddenSites);
-        // });
-        // return config.hiddenSites[request.domain];
-        log(`Sending message HideSiteMessage response`, "OK");
-        port.postMessage("OK");
-    }
-
-    async sendMessage(): Promise<void> {
-        browser.runtime.sendMessage({
-            method: HideSiteMessage.method,
-            domain: this.domain,
+                msg.processMessage();
+            } catch (err) {}
         });
+    }
+
+    async processMessage(): Promise<void> {
+        log(`Processing HideSiteMessage`);
+        const storage = StorageHandler.getInstance();
+        const _config = ConfigHandler.getInstance().config;
+        if (_config.isErr()) return;
+        const config = _config.value;
+        config.hiddenSites[this.domain] = !config.hiddenSites[this.domain];
+        const action = config.hiddenSites[this.domain] ? "hide" : "show";
+        GoogleAnalytics.getInstance().reportHidingSite(action, this.domain);
+        await Promise.all([
+            storage.update(config),
+            UpdatedConfigMessage.update(),
+        ]);
+    }
+
+    async sendMessage(toSelf = false): Promise<void> {
+        const params = {
+            domain: this.domain,
+        };
+        if (toSelf) {
+            messageUtil.sendSelf(HideSiteMessage.method, params);
+        }
+        messageUtil.send(HideSiteMessage.method, params);
     }
 }

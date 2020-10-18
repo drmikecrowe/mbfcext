@@ -1,38 +1,34 @@
-import { browser, Runtime } from "webextension-polyfill-ts";
-import debug from "debug";
-import { SourcesProcessor } from "background/sources";
 import { UpdatedConfigMessage } from ".";
-import { storage } from "../storage";
-const log = debug("mbfc:messages:GetConfigMessage");
-
-const GetConfigMessageMethod = "GetConfigMessage";
+import { messageUtil } from "utils";
+import { logger } from "utils";
+const log = logger("mbfc:messages:GetConfigMessage");
 
 export class GetConfigMessage {
-    static method = GetConfigMessageMethod;
+    static method = "GetConfigMessageMethod";
+    public collapse;
+    public;
 
-    static async check(request: any, port: Runtime.Port): Promise<void> {
-        try {
-            const { method } = request;
-            if (method === GetConfigMessage.method) {
+    static listen() {
+        messageUtil.receive(GetConfigMessage.method, () => {
+            try {
                 const msg = new GetConfigMessage();
-                return msg.processMessage(port);
-            }
-        } catch (err) {}
+                msg.processMessage();
+            } catch (err) {}
+        });
+
         return Promise.resolve();
     }
 
-    async processMessage(port: Runtime.Port): Promise<void> {
-        const [src, opt] = await Promise.all([
-            SourcesProcessor.getInstance().getSources(),
-            storage.collapse.get(),
-        ]);
-        log(`Sending message UpdatedConfigMessage response`, opt, src);
-        port.postMessage(new UpdatedConfigMessage(opt, src));
+    async processMessage(): Promise<void> {
+        log(`Processing GetConfigMessage`);
+        await UpdatedConfigMessage.update();
     }
 
-    async sendMessage(): Promise<void> {
-        browser.runtime.sendMessage({
-            method: GetConfigMessage.method,
-        });
+    async sendMessage(toSelf = false): Promise<void> {
+        log(`Sending GetConfigMessage`);
+        if (toSelf) {
+            messageUtil.sendSelf(GetConfigMessage.method, {});
+        }
+        messageUtil.send(GetConfigMessage.method, {});
     }
 }

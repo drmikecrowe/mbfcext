@@ -1,33 +1,29 @@
-import debug from "debug";
-const log = debug("mbfc:messages:ShowOptionsMessage");
-
-import { browser, Runtime } from "webextension-polyfill-ts";
-
-const ShowOptionsMessageMethod = "ShowOptionsMessage";
+import { browser } from "webextension-polyfill-ts";
+import { messageUtil } from ".";
+import { logger } from "utils";
+const log = logger("mbfc:messages:ShowOptionsMessage");
 
 export class ShowOptionsMessage {
-    static method = ShowOptionsMessageMethod;
+    static method = "ShowOptionsMessageMethod";
 
-    static async check(request: any, port: Runtime.Port): Promise<void> {
-        try {
-            const { method } = request;
-            if (method === ShowOptionsMessage.method) {
+    static listen() {
+        messageUtil.receive(ShowOptionsMessage.method, () => {
+            try {
                 const msg = new ShowOptionsMessage();
-                return msg.processMessage(port);
-            }
-        } catch (err) {}
-        return Promise.resolve();
-    }
-
-    async processMessage(port: Runtime.Port): Promise<void> {
-        browser.runtime.openOptionsPage();
-        log(`Sending message ShowOptionsMessage response`, "OK");
-        port.postMessage("OK");
-    }
-
-    async sendMessage(): Promise<void> {
-        browser.runtime.sendMessage({
-            method: ShowOptionsMessage.method,
+                return msg.processMessage();
+            } catch (err) {}
         });
+    }
+
+    async processMessage(): Promise<void> {
+        log(`Processing ShowOptionsMessage`);
+        browser.runtime.openOptionsPage();
+    }
+
+    async sendMessage(toSelf = false): Promise<void> {
+        if (toSelf) {
+            messageUtil.sendSelf(ShowOptionsMessage.method, {});
+        }
+        messageUtil.send(ShowOptionsMessage.method, {});
     }
 }

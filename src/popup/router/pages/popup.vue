@@ -26,7 +26,7 @@
             <span
                 class="absolute bottom-0 right-0 px-2 shadow font-sans text-xs"
             >
-                As of: {{ lastRun | date }}
+                As of: {{ lastRunDate }}
             </span>
         </div>
     </div>
@@ -36,7 +36,7 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 import get from "lodash/get";
-import { storage } from "utils";
+import { browser, ConfigHandler, DateFilter, logger } from "utils";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons/faAngleDoubleRight";
@@ -44,11 +44,11 @@ import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 
 library.add(faAngleDoubleRight, faCog);
 
-const log = require("debug")("mbfc:popup");
+const log = logger("mbfc:vue:popup");
 
 @Component
 export default class Popup extends Vue {
-    lastRun = 0;
+    lastRunDate = "";
     pollsPerDay = 0;
     polling = false;
 
@@ -57,18 +57,21 @@ export default class Popup extends Vue {
             log(`Updated data`);
         });
         return {
-            lastRun: 0,
+            lastRunDate: "",
         };
     }
 
     async updateData() {
-        const lastRun = await storage.lastRun.get();
+        const _config = ConfigHandler.getInstance().config;
+        if (_config.isErr()) return;
+        const config = _config.value;
+        const lastRun = config.lastRun;
         if (lastRun) {
-            this.lastRun = lastRun;
+            this.lastRunDate = DateFilter(lastRun);
         }
     }
     async options() {
-        chrome.runtime.openOptionsPage();
+        browser.runtime.openOptionsPage();
     }
 }
 </script>

@@ -1,5 +1,3 @@
-export {}
-const log = require('debug')('mbfc:options:router:index');
 import Vue from "vue";
 import VueRouter from "vue-router";
 import routes from "./routes";

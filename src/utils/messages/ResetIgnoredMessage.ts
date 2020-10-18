@@ -1,34 +1,31 @@
-import debug from "debug";
-import { storage } from "..";
-const log = debug("mbfc:messages:ResetIgnoredMessage");
-
-import { browser, Runtime } from "webextension-polyfill-ts";
-
-const ResetIgnoredMessageMethod = "ResetIgnoredMessage";
+import { ConfigHandler, logger, messageUtil, StorageHandler } from "utils";
+const log = logger("mbfc:messages:ResetIgnoredMessage");
 
 export class ResetIgnoredMessage {
-    static method = ResetIgnoredMessageMethod;
+    static method = "ResetIgnoredMessageMethod";
 
-    static async check(request: any, port: Runtime.Port): Promise<void> {
-        try {
-            const { method } = request;
-            if (method === ResetIgnoredMessage.method) {
+    static listen() {
+        messageUtil.receive(ResetIgnoredMessage.method, () => {
+            try {
                 const msg = new ResetIgnoredMessage();
-                return msg.processMessage(port);
-            }
-        } catch (err) {}
-        return Promise.resolve();
-    }
-
-    async processMessage(port: Runtime.Port): Promise<void> {
-        await storage.hiddenSites.set({});
-        log(`Sending message ResetIgnoredMessage response`, "OK");
-        port.postMessage("OK");
-    }
-
-    async sendMessage(): Promise<void> {
-        browser.runtime.sendMessage({
-            method: ResetIgnoredMessage.method,
+                return msg.processMessage();
+            } catch (err) {}
         });
+    }
+
+    async processMessage(): Promise<void> {
+        log(`Processing ResetIgnoredMessage`);
+        const _config = ConfigHandler.getInstance().config;
+        if (_config.isErr()) return;
+        const config = _config.value;
+        config.hiddenSites = {};
+        await StorageHandler.getInstance().update(config);
+    }
+
+    async sendMessage(toSelf = false): Promise<void> {
+        if (toSelf) {
+            messageUtil.sendSelf(ResetIgnoredMessage.method, {});
+        }
+        messageUtil.send(ResetIgnoredMessage.method, {});
     }
 }

@@ -1,40 +1,38 @@
-import debug from "debug";
+import { messageUtil } from "utils";
 import { GoogleAnalytics } from "../google-analytics";
-const log = debug("mbfc:messages:ReportUnknownMessage");
-
-import { browser, Runtime } from "webextension-polyfill-ts";
-
-const ReportUnknownMessageMethod = "ReportUnknownMessage";
+import { logger } from "utils";
+const log = logger("mbfc:messages:ReportUnknownMessage");
 
 export class ReportUnknownMessage {
-    static method = ReportUnknownMessageMethod;
+    static method = "ReportUnknownMessageMethod";
     public domain = "";
 
     constructor(domain: string) {
         this.domain = domain;
     }
 
-    static async check(request: any, port: Runtime.Port): Promise<void> {
-        try {
-            const { method, domain } = request;
-            if (method === ReportUnknownMessage.method) {
+    static listen() {
+        messageUtil.receive(ReportUnknownMessage.method, (request) => {
+            try {
+                const { domain } = request;
                 const msg = new ReportUnknownMessage(domain);
-                return msg.processMessage(port);
-            }
-        } catch (err) {}
-        return Promise.resolve();
-    }
-
-    async processMessage(port: Runtime.Port): Promise<void> {
-        GoogleAnalytics.getInstance().reportUnknown(this.domain);
-        log(`Sending message ReportUnknownMessage response`, "OK");
-        port.postMessage("OK");
-    }
-
-    async sendMessage(): Promise<void> {
-        browser.runtime.sendMessage({
-            method: ReportUnknownMessage.method,
-            domain: this.domain,
+                return msg.processMessage();
+            } catch (err) {}
         });
+    }
+
+    async processMessage(): Promise<void> {
+        log(`Processing ReportUnknownMessage`);
+        GoogleAnalytics.getInstance().reportUnknown(this.domain);
+    }
+
+    async sendMessage(toSelf = false): Promise<void> {
+        const params = {
+            domain: this.domain,
+        };
+        if (toSelf) {
+            messageUtil.sendSelf(ReportUnknownMessage.method, params);
+        }
+        messageUtil.send(ReportUnknownMessage.method, params);
     }
 }

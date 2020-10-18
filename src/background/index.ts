@@ -1,10 +1,17 @@
-export {};
-const log = require("debug")("mbfc:background:index");
-
-import { SourcesProcessor } from "./sources";
-import { isDevMode, GoogleAnalytics, storage, Poller } from "utils";
-import { MessageProcessor } from "./messages";
-import { TabProcessor } from "./tabs";
+import {
+    GoogleAnalytics,
+    isDevMode,
+    logger,
+    Poller,
+    StorageHandler,
+} from "utils";
+import { MessageProcessor } from "./MessageProcessor";
+import { SourcesProcessor } from "./SourcesProcessor";
+import { TabListener } from "./TabListener";
+import { SourcesHandler } from "utils/SourcesHandler";
+import { ConfigHandler } from "utils/ConfigHandler";
+import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+const log = logger("mbfc:background:index");
 
 async function polling() {
     // Use this function for periodic background polling
@@ -17,13 +24,15 @@ async function polling() {
 
 (async () => {
     isDevMode();
-    await storage.initDefaults();
-    await SourcesProcessor.getInstance().getSources();
+    SourcesHandler.getInstance();
+    ConfigHandler.getInstance();
+    await StorageHandler.getInstance().getConfig();
+    MessageProcessor.getInstance();
+    TabListener.getInstance();
     Poller.getInstance(polling);
     GoogleAnalytics.getInstance();
-    TabProcessor.getInstance();
-    MessageProcessor.getInstance();
-
+    await UpdatedConfigMessage.update();
+    await SourcesProcessor.getInstance().getSources();
     // TODO: Here we need to watch storage and send the message when options change
 })().catch((err) => {
     console.error(err);

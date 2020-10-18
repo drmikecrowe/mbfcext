@@ -1,8 +1,6 @@
-export {}
-const log = require('debug')('mbfc:utils:filters:date');
 import get from "lodash/get";
 
-export default (value) => {
+export const DateFilter = (value) => {
     const date = new Date(value);
     const locale = get(
         window,

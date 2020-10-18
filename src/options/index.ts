@@ -1,10 +1,6 @@
-export {}
-const log = require('debug')('mbfc:options:index');
-
 import Vue from "vue";
 
 require("setup/webextension-polyfill");
-require("setup/config");
 require("setup/font-awesome");
 require("setup/filters");
 require("tailwind");

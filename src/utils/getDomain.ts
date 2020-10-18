@@ -1,5 +1,5 @@
-export {}
-const log = require('debug')('mbfc:utils:getDomain');
+import { logger } from "utils";
+const log = logger("mbfc:utils:getDomain");
 
 export const getDomain = (url: string) => {
     let hn, p;
@@ -9,7 +9,7 @@ export const getDomain = (url: string) => {
         if (hn) hn = hn.match(/(www[0-9]?\.)?(.+)/i)[2];
         p = new URL(url).pathname;
     } catch (e) {
-        // Invalid URL
+        log(e);
     }
     return { domain: hn, path: p };
 };

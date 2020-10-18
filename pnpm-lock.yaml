@@ -1,5 +1,6 @@
 dependencies:
   eslint-plugin-node: 11.1.0_eslint@7.8.1
+  neverthrow: 2.7.1
 devDependencies:
   '@fortawesome/fontawesome-free': 5.14.0
   '@fortawesome/fontawesome-svg-core': 1.2.30
@@ -113,7 +114,6 @@ devDependencies:
   vue-template-compiler: 2.6.12
   webext-options-sync: 2.0.0
   webext-storage-cache: 4.1.1
-  webextension-polyfill: 0.6.0
   webextension-polyfill-ts: 0.19.0
   webpack: 4.44.1_7d74d9f6ceb0e540c1e44d9709220c58
   webpack-bundle-analyzer: 3.8.0
@@ -9764,6 +9764,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-C2kC4K+G2QnNQFXUIxTQvqmrdSIzGTX1ZRKeDW6ChmvPRw8rTkTEJzbEQHiHy06d36PCl/yMOCjquCRV8SpSQw==
+  /neverthrow/2.7.1:
+    dev: false
+    resolution:
+      integrity: sha512-tk7vBuxlBcVU6GIXrAOpez2ZpvJxVW1xl2OjVufdVd87g61SjvekY0VBOuTh1EdUf6/gbgQcQujpxXlap0bQ0A==
   /nice-try/1.0.5:
     dev: true
     resolution:
@@ -14951,6 +14955,7 @@ specifiers:
   markdown-loader: ^5.1.0
   mini-css-extract-plugin: ^0.11.1
   minimist: ^1.2.5
+  neverthrow: ^2.7.1
   node-sass: ^4.14.1
   npm-git-install: ^0.3.0
   ora: ^5.1.0
@@ -14990,7 +14995,6 @@ specifiers:
   vue-template-compiler: ^2.6.12
   webext-options-sync: ^2.0.0
   webext-storage-cache: ^4.1.1
-  webextension-polyfill: ^0.6.0
   webextension-polyfill-ts: ^0.19.0
   webpack: ^4.44.1
   webpack-bundle-analyzer: ^3.8.0
