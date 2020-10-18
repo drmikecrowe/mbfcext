@@ -80,7 +80,7 @@ export const StorageToOptions = {
     [EBiases.LEFT_CENTER]: "collapseLeftCenter",
     [EBiases.CENTER]: "collapseCenter",
     [EBiases.RIGHT_CENTER]: "collapseRightCenter",
-    [EBiases.RIGHT_CENTER]: "collapseRight",
+    [EBiases.RIGHT]: "collapseRight",
     [EBiases.PRO_SCIENCE]: "collapseProScience",
     [EBiases.CONSPIRACY]: "collapseConspiracy",
     [EBiases.SATIRE]: "collapseSatire",

@@ -103,7 +103,10 @@ export class TabListener {
     }
 
     public updateBadge() {
-        if (this.interval) clearInterval(this.interval);
+        if (this.interval) {
+            clearInterval(this.interval);
+            this.interval = 0;
+        }
         browser.tabs.query({ active: true }).then((tabs) => {
             for (const tab of tabs) {
                 if (tab && tab.url && !tab.incognito) {

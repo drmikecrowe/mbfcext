@@ -1,7 +1,7 @@
 import { get } from "lodash";
 import { err, ok, Result } from "neverthrow";
 import { ConfigHandler, ISource, SourcesHandler } from "utils";
-import { StorageToOptions } from "utils/StorageHandler";
+import { StorageToOptions, ERporting } from "utils/StorageHandler";
 
 export interface ICheckDomain {
     final_domain: string;
@@ -51,7 +51,10 @@ export const checkDomain = (
             if (config.collapse[biasKey]) {
                 ret.collapse = true;
             }
-            if (reporting.startsWith("M") && config.collapse.collapseMixed) {
+            if (
+                reporting === ERporting.MIXED &&
+                config.collapse.collapseMixed
+            ) {
                 ret.collapse = true;
             }
         }
