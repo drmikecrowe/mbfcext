@@ -13,7 +13,6 @@ export class UpdatedConfigMessage {
         const _config = ConfigHandler.getInstance().config;
         if (_config.isErr()) return;
         const cfg = _config.value;
-        log(`Sending UpdatedConfigMessage`);
         const msg = new UpdatedConfigMessage(cfg);
         await msg.sendMessage(true);
     }
@@ -23,6 +22,6 @@ export class UpdatedConfigMessage {
         if (toSelf) {
             messageUtil.sendSelf(UpdatedConfigMessage.method, this.config);
         }
-        messageUtil.send(UpdatedConfigMessage.method, this.config);
+        messageUtil.send(UpdatedConfigMessage.method, this.config, log);
     }
 }

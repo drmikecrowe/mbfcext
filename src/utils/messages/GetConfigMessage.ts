@@ -1,12 +1,14 @@
-import { UpdatedConfigMessage } from ".";
-import { messageUtil } from "utils";
-import { logger } from "utils";
+import {
+    logger,
+    messageUtil,
+    UpdatedConfigMessage,
+    UpdatedSourcesMessage,
+} from "utils";
 const log = logger("mbfc:messages:GetConfigMessage");
 
 export class GetConfigMessage {
     static method = "GetConfigMessageMethod";
     public collapse;
-    public;
 
     static listen() {
         messageUtil.receive(GetConfigMessage.method, () => {
@@ -22,6 +24,7 @@ export class GetConfigMessage {
     async processMessage(): Promise<void> {
         log(`Processing GetConfigMessage`);
         await UpdatedConfigMessage.update();
+        await UpdatedSourcesMessage.update();
     }
 
     async sendMessage(toSelf = false): Promise<void> {
