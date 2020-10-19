@@ -14,12 +14,12 @@ export default {
 
 <style lang="scss" scoped>
 body {
-    width: 785px;
-    height: 585px;
+    width: 400px;
+    height: 200px;
 }
 
 .popup {
-    width: 785px;
-    height: 585px;
+    width: 400px;
+    height: 200px;
 }
 </style>

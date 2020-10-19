@@ -1,4 +1,5 @@
 import { browser, checkDomain, getDomain, logger } from "utils";
+import { getCurrentTab, getSiteFromUrl } from "utils/tabUtils";
 const log = logger("mbfc:background:TabListener");
 
 const colorMap = {
@@ -69,56 +70,45 @@ export class TabListener {
         });
     }
 
-    async updateTab(tab: any): Promise<boolean> {
-        const { domain, path } = getDomain(tab.url);
-        if (domain) {
-            if (domain.indexOf("facebook.com") === -1) {
-                const parsed_domain = checkDomain(domain, path);
-                if (parsed_domain.isErr()) return false;
-                const { site, collapse } = parsed_domain.value;
-                if (site && site.b) {
-                    const icon = site.b;
-                    if (!colorMap[site.b]) {
-                        log(`No colorMap for icon ${site.b} from `, site);
-                        return false;
-                    }
-                    let inverse = false;
-                    TabListener.show(icon, inverse);
-                    if (collapse) {
-                        log(`Icon: ${icon}, flashing`, parsed_domain);
-                        this.interval = setInterval(() => {
-                            inverse = !inverse;
-                            TabListener.show(icon, inverse);
-                        }, 1000) as any;
-                    } else {
-                        log(`Icon: ${icon}`, parsed_domain);
-                    }
-                    return true;
-                } else {
-                    log(`No site or no bias`, parsed_domain);
-                }
+    updateTab(tab: any): boolean {
+        const parsed_domain = getSiteFromUrl(tab.url);
+        if (parsed_domain.isErr()) return false;
+        const { site, collapse } = parsed_domain.value;
+        if (site && site.b) {
+            const icon = site.b;
+            if (!colorMap[site.b]) {
+                log(`No colorMap for icon ${site.b} from `, site);
+                return false;
             }
+            let inverse = false;
+            TabListener.show(icon, inverse);
+            if (collapse) {
+                log(`Icon: ${icon}, flashing`, parsed_domain);
+                this.interval = setInterval(() => {
+                    inverse = !inverse;
+                    TabListener.show(icon, inverse);
+                }, 1000) as any;
+            } else {
+                log(`Icon: ${icon}`, parsed_domain);
+            }
+            return true;
+        } else {
         }
         return false;
     }
 
-    public updateBadge() {
+    public async updateBadge() {
         if (this.interval) {
             clearInterval(this.interval);
             this.interval = 0;
         }
-        browser.tabs.query({ active: true }).then((tabs) => {
-            for (const tab of tabs) {
-                if (tab && tab.url && !tab.incognito) {
-                    this.updateTab(tab).then((found) => {
-                        if (!found) {
-                            browser.browserAction.setIcon({
-                                path: "icons/icon48.png",
-                            });
-                        }
-                    });
-                }
+        const tab = await getCurrentTab();
+        if (tab && tab.url && !tab.incognito) {
+            if (!this.updateTab(tab)) {
+                browser.browserAction.setIcon({
+                    path: "icons/icon48.png",
+                });
             }
-        });
+        }
     }
 }

@@ -33,3 +33,4 @@ export * from "./utils";
 export * from "./SourcesHandler";
 export * from "./ConfigHandler";
 export * from "./filters";
+export * from "./tabUtils";

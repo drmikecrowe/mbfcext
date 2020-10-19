@@ -30,6 +30,18 @@ export const enum EBiases {
     SATIRE = "S",
 }
 
+export const biasNameToShort = {
+    L: "left",
+    LC: "left-center",
+    C: "center",
+    RC: "right-center",
+    R: "right",
+    PS: "pro-science",
+    CP: "conspiracy",
+    S: "satire",
+    FN: "fake-news",
+};
+
 export interface Collapse {
     collapseLeft: boolean;
     collapseLeftCenter: boolean;
