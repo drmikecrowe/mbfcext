@@ -6671,7 +6671,7 @@
         "d": "factcheck.org",
         "f": "factcheck.org",
         "t": "factcheckdotorg",
-        "n": "Fact Check",
+        "n": "FactCheck.org",
         "P": "88",
         "r": "VH",
         "u": "factcheck"
@@ -15912,11 +15912,11 @@
         "u": "red-state-disaster"
     },
     "redorbit.com": {
-        "b": "PS",
+        "b": "FN",
         "d": "redorbit.com",
         "n": "Red Orbit",
         "P": "64",
-        "r": "H",
+        "r": "M",
         "u": "redorbit"
     },
     "reductress.com": {
@@ -16200,12 +16200,12 @@
         "r": "H",
         "u": "richmond-times-dispatch"
     },
-    "rewire.news": {
+    "rewirenewsgroup.com": {
         "b": "L",
-        "d": "rewire.news",
+        "d": "rewirenewsgroup.com",
         "f": "rewire.news",
         "t": "rewire_news",
-        "n": "ReWire.news",
+        "n": "ReWire News Group",
         "P": "75",
         "r": "H",
         "u": "rewire"
@@ -16945,7 +16945,7 @@
         "t": "sciencenews",
         "n": "Science News",
         "P": "82",
-        "r": "H",
+        "r": "VH",
         "u": "science-news"
     },
     "sciencemag.org": {
@@ -21993,7 +21993,7 @@
         "d": "twisted.news",
         "n": "Twisted News",
         "P": "30",
-        "r": "L",
+        "r": "VL",
         "u": "twisted-news"
     },
     "tpusa.com": {
@@ -28274,5 +28274,45 @@
         "P": [],
         "r": "L",
         "u": "djhj-media"
+    },
+    "thecut.com": {
+        "b": "L",
+        "d": "thecut.com",
+        "n": "The Cut",
+        "P": [],
+        "r": "MF",
+        "u": "the-cut"
+    },
+    "skynews.com.au": {
+        "b": "R",
+        "d": "skynews.com.au",
+        "n": "Sky News Australia",
+        "P": [],
+        "r": "M",
+        "u": "sky-news-australia"
+    },
+    "thefulcrum.us": {
+        "b": "LC",
+        "d": "thefulcrum.us",
+        "n": "The Fulcrum",
+        "P": [],
+        "r": "MF",
+        "u": "the-fulcrum"
+    },
+    "wbtv.com": {
+        "b": "C",
+        "d": "wbtv.com",
+        "n": "WBTV",
+        "P": [],
+        "r": "H",
+        "u": "wbtv"
+    },
+    "wfmynews2.com": {
+        "b": "C",
+        "d": "wfmynews2.com",
+        "n": "WFMYnews2.com",
+        "P": [],
+        "r": "H",
+        "u": "wfmynews2-com"
     }
 }

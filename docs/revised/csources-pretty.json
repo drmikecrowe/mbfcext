@@ -9551,7 +9551,7 @@
         "h": "https://factcheck.org",
         "M": "67",
         "L": "1026991",
-        "n": "Fact Check",
+        "n": "FactCheck.org",
         "P": "88",
         "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/factcheck/",
@@ -22799,14 +22799,14 @@
         "p": "/"
     },
     "redorbit.com": {
-        "b": "pro-science",
+        "b": "fake-news",
         "d": "redorbit.com",
         "h": "https://redorbit.com",
         "M": "61",
         "L": "140062",
         "n": "Red Orbit",
         "P": "64",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/redorbit/",
         "p": "/"
     },
@@ -23215,15 +23215,15 @@
         "u": "https://mediabiasfactcheck.com/richmond-times-dispatch/",
         "p": "/"
     },
-    "rewire.news": {
+    "rewirenewsgroup.com": {
         "b": "left",
-        "d": "rewire.news",
+        "d": "rewirenewsgroup.com",
         "f": "https://facebook.com/rewire.news",
         "t": "https://twitter.com/rewire_news",
-        "h": "https://rewire.news",
+        "h": "https://rewirenewsgroup.com",
         "M": "51",
         "L": "245087",
-        "n": "ReWire.news",
+        "n": "ReWire News Group",
         "P": "75",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/rewire/",
@@ -24283,7 +24283,7 @@
         "L": "471063",
         "n": "Science News",
         "P": "82",
-        "r": "HIGH",
+        "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/science-news/",
         "p": "/"
     },
@@ -31525,7 +31525,7 @@
         "L": "10366",
         "n": "Twisted News",
         "P": "30",
-        "r": "LOW",
+        "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/twisted-news/",
         "p": "/"
     },
@@ -40804,6 +40804,66 @@
         "P": [],
         "r": "LOW",
         "u": "https://mediabiasfactcheck.com/djhj-media/",
+        "p": "/"
+    },
+    "thecut.com": {
+        "b": "left",
+        "d": "thecut.com",
+        "h": "https://thecut.com",
+        "M": [],
+        "L": [],
+        "n": "The Cut",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/the-cut/",
+        "p": "/"
+    },
+    "skynews.com.au": {
+        "b": "right",
+        "d": "skynews.com.au",
+        "h": "https://skynews.com.au",
+        "M": [],
+        "L": [],
+        "n": "Sky News Australia",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/sky-news-australia/",
+        "p": "/"
+    },
+    "thefulcrum.us": {
+        "b": "left-center",
+        "d": "thefulcrum.us",
+        "h": "https://thefulcrum.us",
+        "M": [],
+        "L": [],
+        "n": "The Fulcrum",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/the-fulcrum/",
+        "p": "/"
+    },
+    "wbtv.com": {
+        "b": "center",
+        "d": "wbtv.com",
+        "h": "https://wbtv.com",
+        "M": [],
+        "L": [],
+        "n": "WBTV",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wbtv/",
+        "p": "/"
+    },
+    "wfmynews2.com": {
+        "b": "center",
+        "d": "wfmynews2.com",
+        "h": "https://wfmynews2.com",
+        "M": [],
+        "L": [],
+        "n": "WFMYnews2.com",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wfmynews2-com/",
         "p": "/"
     }
 }
