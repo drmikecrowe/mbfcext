@@ -16913,7 +16913,7 @@
         "d": "seeker.com",
         "f": "seekermedia",
         "t": "seeker",
-        "n": "Seeker Daily",
+        "n": "Seeker",
         "P": "61",
         "r": "H",
         "u": "seeker-daily"
@@ -28314,5 +28314,61 @@
         "P": [],
         "r": "H",
         "u": "wfmynews2-com"
+    },
+    "metricmedianews.com": {
+        "b": "FN",
+        "d": "metricmedianews.com",
+        "n": "Metric Media",
+        "P": [],
+        "r": "M",
+        "u": "metric-media"
+    },
+    "auburntimes.com": {
+        "b": "FN",
+        "d": "auburntimes.com",
+        "n": "Auburn Times",
+        "P": [],
+        "r": "H",
+        "u": "auburn-times"
+    },
+    "baldwintimes.com": {
+        "b": "FN",
+        "d": "baldwintimes.com",
+        "n": "Baldwin Times",
+        "P": [],
+        "r": "M",
+        "u": "baldwin-times"
+    },
+    "decaturtimes.com": {
+        "b": "FN",
+        "d": "decaturtimes.com",
+        "n": "Decatur Times",
+        "P": [],
+        "r": "M",
+        "u": "decatur-times"
+    },
+    "ecalabamanews.com": {
+        "b": "FN",
+        "d": "ecalabamanews.com",
+        "n": "East Central Alabama News",
+        "P": [],
+        "r": "M",
+        "u": "east-central-alabama-news"
+    },
+    "gadsdentoday.com": {
+        "b": "FN",
+        "d": "gadsdentoday.com",
+        "n": "Gadsden Today",
+        "P": [],
+        "r": "M",
+        "u": "gadsden-today"
+    },
+    "huntsvilleleader.com": {
+        "b": "FN",
+        "d": "huntsvilleleader.com",
+        "n": "Huntsville Leader",
+        "P": [],
+        "r": "M",
+        "u": "huntsville-leader"
     }
 }
