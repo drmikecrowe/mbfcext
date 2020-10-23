@@ -26,7 +26,8 @@
         "src/**/*.vue",
         "src/**/*.md",
         "tests/**/*.ts",
-        "tests/**/*.tsx"
+        "tests/**/*.tsx",
+        "src/contentscript/content/twitter.ts"
     ],
     "exclude": ["node_modules"]
 }

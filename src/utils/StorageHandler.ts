@@ -161,7 +161,7 @@ export class StorageHandler {
         this.optionsStorage = new OptionsSync({
             defaults: configToOptions(configDefaults),
         });
-        browser.storage.onChanged.addListener(this.onChanged);
+        browser.storage.onChanged.addListener(StorageHandler.onChanged);
     }
 
     static getInstance() {
@@ -171,9 +171,10 @@ export class StorageHandler {
         return StorageHandler.instance;
     }
 
-    private async onChanged() {
+    private static async onChanged() {
         log(`Storage changed!`);
-        const opt = await this.optionsStorage.getAll();
+        const so = StorageHandler.getInstance();
+        const opt = await so.optionsStorage.getAll();
         const config = optionsToConfig(opt);
         const msg = new UpdatedConfigMessage(config);
         msg.sendMessage(true);

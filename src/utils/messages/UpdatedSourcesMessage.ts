@@ -24,6 +24,6 @@ export class UpdatedSourcesMessage {
         if (toSelf) {
             messageUtil.sendSelf(UpdatedSourcesMessage.method, this.sources);
         }
-        messageUtil.send(UpdatedSourcesMessage.method, this.sources);
+        await messageUtil.send(UpdatedSourcesMessage.method, this.sources);
     }
 }

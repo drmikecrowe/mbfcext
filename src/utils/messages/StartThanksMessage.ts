@@ -26,6 +26,6 @@ export class StartThanksMessage {
         if (toSelf) {
             messageUtil.sendSelf(StartThanksMessage.method, {});
         }
-        messageUtil.send(StartThanksMessage.method, {});
+        await messageUtil.send(StartThanksMessage.method, {});
     }
 }

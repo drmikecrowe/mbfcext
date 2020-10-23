@@ -26,6 +26,6 @@ export class ResetIgnoredMessage {
         if (toSelf) {
             messageUtil.sendSelf(ResetIgnoredMessage.method, {});
         }
-        messageUtil.send(ResetIgnoredMessage.method, {});
+        await messageUtil.send(ResetIgnoredMessage.method, {});
     }
 }

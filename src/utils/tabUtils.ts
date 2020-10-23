@@ -19,11 +19,15 @@ export async function getCurrentTab(): Promise<Tabs.Tab> {
 }
 
 export const getSiteFromUrl = (url: string): Result<ICheckDomain, null> => {
-    const { domain, path } = getDomain(url);
-    if (domain) {
-        if (domain.indexOf("facebook.com") === -1) {
-            return checkDomain(domain, path);
+    try {
+        const { domain, path } = getDomain(url);
+        if (domain) {
+            if (domain.indexOf("facebook.com") === -1) {
+                return checkDomain(domain, path);
+            }
         }
+    } catch (err) {
+        // ignore
     }
     return err(null);
 };

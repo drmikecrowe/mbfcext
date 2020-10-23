@@ -33,6 +33,6 @@ export class ReportUnknownMessage {
         if (toSelf) {
             messageUtil.sendSelf(ReportUnknownMessage.method, params);
         }
-        messageUtil.send(ReportUnknownMessage.method, params);
+        await messageUtil.send(ReportUnknownMessage.method, params);
     }
 }

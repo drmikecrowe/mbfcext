@@ -32,6 +32,6 @@ export class GetConfigMessage {
         if (toSelf) {
             messageUtil.sendSelf(GetConfigMessage.method, {});
         }
-        messageUtil.send(GetConfigMessage.method, {});
+        await messageUtil.send(GetConfigMessage.method, {});
     }
 }

@@ -22,6 +22,6 @@ export class UpdatedConfigMessage {
         if (toSelf) {
             messageUtil.sendSelf(UpdatedConfigMessage.method, this.config);
         }
-        messageUtil.send(UpdatedConfigMessage.method, this.config, log);
+        await messageUtil.send(UpdatedConfigMessage.method, this.config);
     }
 }

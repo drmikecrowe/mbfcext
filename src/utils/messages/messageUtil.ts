@@ -44,22 +44,27 @@ function getCallbacksList(name: string) {
     return (callbacksMap[name] = []);
 }
 
-const noop = () => undefined;
-
 export const messageUtil = {
-    send(name: string, params?: any, callback?: (value: any) => any) {
+    send(name: string, params?: any): Promise<any> {
         const data = {
             action: name,
             params,
         };
-        const promise = browser.runtime.sendMessage(data);
-        if (callback) promise.then(callback);
-        promise.catch(noop);
+        const promises: Promise<any>[] = [];
+        const elog = (e: Error) => {
+            log(`Error sending ${name}`, e);
+        };
+        const handle = (promise: Promise<any>) => {
+            promises.push(promise.then(cb).catch(elog));
+        };
+        const cb = () => {
+            log(`Sending ${name} complete`);
+        };
+        handle(browser.runtime.sendMessage(data));
         contentScriptTabs.forEach((tabId) => {
-            const promise = browser.tabs.sendMessage(tabId, data);
-            if (callback) promise.then(callback);
-            promise.catch(noop);
+            handle(browser.tabs.sendMessage(tabId, data));
         });
+        return Promise.all(promises).then(cb).catch(elog);
     },
     sendSelf(name: string, params: any) {
         if (callbacksMap) {

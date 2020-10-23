@@ -22,7 +22,7 @@ async function polling() {
     }
 }
 
-(async () => {
+const main = async () => {
     isDevMode();
     SourcesHandler.getInstance();
     ConfigHandler.getInstance();
@@ -33,7 +33,10 @@ async function polling() {
     GoogleAnalytics.getInstance();
     await UpdatedConfigMessage.update();
     await SourcesProcessor.getInstance().getSources();
-    // TODO: Here we need to watch storage and send the message when options change
-})().catch((err) => {
-    console.error(err);
-});
+};
+
+// while (true) {
+main()
+    .then(() => log("Main exited!"))
+    .catch((e) => console.error(e));
+// }

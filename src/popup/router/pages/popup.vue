@@ -99,9 +99,7 @@ export default class Popup extends Vue {
         if (parsed_domain.isErr()) return false;
         const { site } = parsed_domain.value;
         if (!site) return;
-        const { name, description, url } = sources.biases[
-            biasNameToShort[site.b]
-        ];
+        const { name, description } = sources.biases[biasNameToShort[site.b]];
         this.bias = name;
         this.biasDescription = description;
         this.mbfcLink = `https://mediabiasfactcheck.com/${site.u}`;

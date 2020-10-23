@@ -24,6 +24,6 @@ export class ShowOptionsMessage {
         if (toSelf) {
             messageUtil.sendSelf(ShowOptionsMessage.method, {});
         }
-        messageUtil.send(ShowOptionsMessage.method, {});
+        await messageUtil.send(ShowOptionsMessage.method, {});
     }
 }

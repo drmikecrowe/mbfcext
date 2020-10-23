@@ -43,6 +43,6 @@ export class AssociateSiteMessage {
         if (toSelf) {
             messageUtil.sendSelf(AssociateSiteMessage.method, params);
         }
-        messageUtil.send(AssociateSiteMessage.method, params);
+        await messageUtil.send(AssociateSiteMessage.method, params);
     }
 }

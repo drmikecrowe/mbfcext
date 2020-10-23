@@ -1,6 +1,7 @@
 import { keys } from "lodash";
 import { COMBINED, ISources, logger, UpdatedSourcesMessage } from "utils";
 import { fetch as fetchPolyfill } from "whatwg-fetch";
+import { getDomain } from "utils/getDomain";
 const log = logger("mbfc:background:sources");
 
 export class SourcesProcessor {
@@ -40,25 +41,21 @@ export class SourcesProcessor {
         Object.assign(this.sources[key], val);
     }
 
-    updateDomain(domain: string) {
-        let fb = this.sources.sources[domain].f;
+    updateDomain(d: string) {
+        let fb = this.sources.sources[d].f;
         if (fb && fb > "") {
             if (fb.indexOf("?") > -1) fb = fb.split("?")[0];
-            if (!fb.endsWith("/")) {
-                fb += "/";
-            }
-            this.sources.fb_pages[fb] = domain;
+            const { path } = getDomain(`https://facebook.com/${fb}`);
+            this.sources.fb_pages[path] = d;
         }
-        const tw = this.sources.sources[domain].t;
+        let tw = this.sources.sources[d].t;
         if (tw && tw > "") {
             const matches = /(https?:\/\/twitter.com\/[^/]*)/.exec(tw);
             if (matches && matches[1]) {
-                const href = matches[1].toLowerCase();
-                log("HREF: ", href);
-                this.sources.tw_pages[href] = domain;
-            } else {
-                this.sources.tw_pages[`https://twitter.com/${tw}`] = domain;
+                tw = matches[1].toLowerCase();
             }
+            const { path } = getDomain(`https://twitter.com/${fb}`);
+            this.sources.tw_pages[path] = d;
         }
     }
 

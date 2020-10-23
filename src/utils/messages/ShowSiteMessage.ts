@@ -56,6 +56,6 @@ export class ShowSiteMessage {
         if (toSelf) {
             messageUtil.sendSelf(ShowSiteMessage.method, params);
         }
-        messageUtil.send(ShowSiteMessage.method, params);
+        await messageUtil.send(ShowSiteMessage.method, params);
     }
 }

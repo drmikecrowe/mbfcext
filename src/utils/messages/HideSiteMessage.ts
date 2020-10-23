@@ -43,6 +43,6 @@ export class HideSiteMessage {
         if (toSelf) {
             messageUtil.sendSelf(HideSiteMessage.method, params);
         }
-        messageUtil.send(HideSiteMessage.method, params);
+        await messageUtil.send(HideSiteMessage.method, params);
     }
 }
