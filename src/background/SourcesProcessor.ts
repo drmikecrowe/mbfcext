@@ -54,7 +54,7 @@ export class SourcesProcessor {
             if (matches && matches[1]) {
                 tw = matches[1].toLowerCase();
             }
-            const { path } = getDomain(`https://twitter.com/${fb}`);
+            const { path } = getDomain(`https://twitter.com/${tw}`);
             this.sources.tw_pages[path] = d;
         }
     }

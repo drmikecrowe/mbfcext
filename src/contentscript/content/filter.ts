@@ -17,6 +17,12 @@ import { messageUtil } from "utils/messages/messageUtil";
 import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
 import { SourcesHandler } from "utils/SourcesHandler";
 
+export const MBFC = "mbfc";
+export const C_URL = "https://mediabiasfactcheck.com/";
+export const C_FOUND = `${MBFC}-found`;
+export const C_NOT = `:not(.${C_FOUND})`;
+export const C_REPORT_DIV = `${MBFC}-report-div`;
+
 isDevMode();
 const log = debug("mbfc:filter");
 
@@ -34,20 +40,37 @@ export class Filter {
         messageUtil.receive(UpdatedConfigMessage.method, () => {
             this.config = ConfigHandler.getInstance().config;
             this.loaded = this.config.isOk() && this.sources.isOk();
-            this.process();
+            this.process([]);
         });
         messageUtil.receive(UpdatedSourcesMessage.method, () => {
             this.sources = SourcesHandler.getInstance().sources;
             this.loaded = this.config.isOk() && this.sources.isOk();
-            this.process();
+            this.process([]);
         });
         log(`MutationObserver started`);
+
         const observer = new MutationObserver((mutations) => {
             mutations.forEach((mutation) => {
-                const newNodes = mutation.addedNodes;
-                if (newNodes !== null) {
-                    this.process();
-                }
+                const parents: Element[] = [];
+
+                const handleNodes = (newNodes: NodeList) => {
+                    if (newNodes !== null) {
+                        newNodes.forEach((n) => {
+                            const p = n.parentElement;
+                            if (!p) return;
+                            if (p.id.startsWith("mount")) return;
+                            if (p.tagName === "DIV") {
+                                if (parents.filter((pe) => pe !== p))
+                                    parents.push(p);
+                            }
+                        });
+                    }
+                };
+
+                handleNodes(mutation.addedNodes);
+                this.cleanMbfcNodes(mutation.removedNodes);
+                handleNodes(mutation.removedNodes);
+                if (parents.length) this.process(parents);
             });
         });
 
@@ -59,7 +82,36 @@ export class Filter {
         });
     }
 
-    process() {
+    cleanMbfcNodes(qn: NodeList | Element[]) {
+        qn.forEach((qne) => {
+            const e: Element = qne as Element;
+            if (!e.querySelectorAll) return;
+            if (!e.querySelector(`.${MBFC}`)) return;
+            if (e.tagName === "MBFC") {
+                if (e.parentElement) this.cleanMbfcNodes([e.parentElement]);
+                e.remove();
+            } else {
+                e.querySelectorAll(MBFC).forEach((mbfc) => {
+                    mbfc.remove();
+                });
+                e.querySelectorAll(`.${MBFC}`).forEach((p) => {
+                    p.classList.forEach((cls) => {
+                        if (cls.startsWith(MBFC)) p.classList.remove(cls);
+                    });
+                });
+            }
+        });
+    }
+
+    addClasses(e: Element, cls: string[]) {
+        cls.forEach((c) => {
+            if (!e.classList.contains(c)) e.classList.add(c);
+        });
+        if (!e.classList.contains(MBFC)) e.classList.add(MBFC);
+    }
+
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    process(_parents: Element[]) {
         throw new Error("Must be overloaded");
     }
 
@@ -75,14 +127,16 @@ export class Filter {
     }
 
     hideElement(el, count) {
-        if (el && el.parentNode) {
-            if (el.classList.value.indexOf("userContent") == -1) {
-                el = el.parentNode;
-            }
-            const hide_class = "mbfcelh" + count;
-            el.classList.add("mbfc-el-hidden");
-            el.classList.add(hide_class);
+        if (el) {
+            const hide_class = `${MBFC}elh` + count;
+            this.addClasses(el, [hide_class]);
             el.style.display = "none";
+        }
+    }
+
+    showElement(el) {
+        if (el) {
+            el.style.display = "inherit";
         }
     }
 
@@ -90,7 +144,7 @@ export class Filter {
         this.openRequestedPopup();
     }
 
-    async ignoreButton(text, count) {
+    ignoreButton(text, count) {
         if (this.config.isErr()) return;
         const button = document.getElementById(`toolbar-button1-${count}`);
         if (!button) return;
@@ -103,6 +157,11 @@ export class Filter {
         if (el) {
             el.style.display = hide ? "none" : "inherit";
         }
+        const domain_class = `${MBFC}-${domain.replace(".", "-")}`;
+        document.querySelectorAll(`.${domain_class}`).forEach((e) => {
+            if (hide) this.hideElement(e, count);
+            else this.showElement(e);
+        });
     }
 
     reportSite(

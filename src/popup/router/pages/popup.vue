@@ -27,7 +27,7 @@ import Vue from "vue";
 import Component from "vue-class-component";
 import get from "lodash/get";
 import {
-    biasNameToShort,
+    biasShortToName,
     ConfigHandler,
     GetConfigMessage,
     getCurrentTab,
@@ -99,7 +99,7 @@ export default class Popup extends Vue {
         if (parsed_domain.isErr()) return false;
         const { site } = parsed_domain.value;
         if (!site) return;
-        const { name, description } = sources.biases[biasNameToShort[site.b]];
+        const { name, description } = sources.biases[biasShortToName[site.b]];
         this.bias = name;
         this.biasDescription = description;
         this.mbfcLink = `https://mediabiasfactcheck.com/${site.u}`;

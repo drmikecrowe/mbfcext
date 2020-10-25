@@ -1,5 +1,5 @@
 import { Result, err } from "neverthrow";
-import { browser, checkDomain, getDomain, ICheckDomain } from "utils";
+import { browser, checkDomain, getDomain, CheckDomainResults } from "utils";
 import { Tabs } from "webextension-polyfill-ts";
 
 export async function getCurrentTab(): Promise<Tabs.Tab> {
@@ -18,7 +18,9 @@ export async function getCurrentTab(): Promise<Tabs.Tab> {
     });
 }
 
-export const getSiteFromUrl = (url: string): Result<ICheckDomain, null> => {
+export const getSiteFromUrl = (
+    url: string
+): Result<CheckDomainResults, null> => {
     try {
         const { domain, path } = getDomain(url);
         if (domain) {

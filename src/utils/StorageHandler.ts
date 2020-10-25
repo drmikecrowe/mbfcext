@@ -30,7 +30,7 @@ export const enum EBiases {
     SATIRE = "S",
 }
 
-export const biasNameToShort = {
+export const biasShortToName = {
     L: "left",
     LC: "left-center",
     C: "center",
@@ -40,6 +40,15 @@ export const biasNameToShort = {
     CP: "conspiracy",
     S: "satire",
     FN: "fake-news",
+};
+
+export const reportingShortToName = {
+    H: "HIGH",
+    L: "LOW",
+    M: "MIXED",
+    MF: "MOSTLY_FACTUAL",
+    VH: "VERY_HIGH",
+    VL: "VERY_LOW",
 };
 
 export interface Collapse {
@@ -148,7 +157,12 @@ const configToOptions = (obj: any): Options => {
 const optionsToConfig = (obj: Options): IConfig => {
     const cfg: IConfig = configDefaults;
     for (const [key, val] of Object.entries(obj)) {
-        set(cfg, key, val);
+        const parts = key.split(".");
+        const category = parts.shift();
+        if (!category) continue;
+        const keys = [category];
+        if (parts.length) keys.push(parts.join("."));
+        set(cfg, keys, val);
     }
     return cfg;
 };

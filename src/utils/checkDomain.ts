@@ -3,7 +3,7 @@ import { err, ok, Result } from "neverthrow";
 import { ConfigHandler, ISource, SourcesHandler } from "utils";
 import { StorageToOptions, ERporting } from "utils/StorageHandler";
 
-export interface ICheckDomain {
+export interface CheckDomainResults {
     final_domain: string;
     alias: boolean;
     baseUrl: boolean;
@@ -16,8 +16,8 @@ export interface ICheckDomain {
 export const checkDomain = (
     domain: string,
     path: string
-): Result<ICheckDomain, null> => {
-    const ret: ICheckDomain = {
+): Result<CheckDomainResults, null> => {
+    const ret: CheckDomainResults = {
         final_domain: domain,
         alias: false,
         baseUrl: false,
