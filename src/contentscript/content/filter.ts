@@ -22,6 +22,7 @@ export const C_URL = "https://mediabiasfactcheck.com/";
 export const C_FOUND = `${MBFC}-found`;
 export const C_NOT = `:not(.${C_FOUND})`;
 export const C_REPORT_DIV = `${MBFC}-report-div`;
+export const C_PARENT = `${MBFC}-parent`;
 
 isDevMode();
 const log = debug("mbfc:filter");
@@ -127,7 +128,7 @@ export class Filter {
     }
 
     hideElement(el, count) {
-        if (el) {
+        if (el && el.tagName !== "MBFC") {
             const hide_class = `${MBFC}elh` + count;
             this.addClasses(el, [hide_class]);
             el.style.display = "none";
@@ -157,7 +158,7 @@ export class Filter {
         if (el) {
             el.style.display = hide ? "none" : "inherit";
         }
-        const domain_class = `${MBFC}-${domain.replace(".", "-")}`;
+        const domain_class = `${MBFC}-${domain.replace(/\./g, "-")}`;
         document.querySelectorAll(`.${domain_class}`).forEach((e) => {
             if (hide) this.hideElement(e, count);
             else this.showElement(e);

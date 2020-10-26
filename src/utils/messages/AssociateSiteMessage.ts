@@ -28,7 +28,9 @@ export class AssociateSiteMessage {
     }
 
     async processMessage(): Promise<void> {
-        log(`Processing AssociateSiteMessage`);
+        log(
+            `Processing AssociateSiteMessage ${this.source.u} = ${this.fb_url}`
+        );
         GoogleAnalytics.getInstance().reportAssociated(
             this.source.u,
             this.fb_url

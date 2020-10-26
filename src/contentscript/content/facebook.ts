@@ -24,7 +24,7 @@ const log = logger("mbfc:facebook");
 const QS_DATA_NODE_SEARCH = `div[data-pagelet^="FeedUnit"]`;
 const QS_TITLE_SEARCH = `a[role='link'] span[dir='auto'] > span > span[dir='auto']${C_NOT}`;
 const QS_OBJECT_SEARCH = `a > div > object[type='nested/pressable']${C_NOT}`;
-const QS_DOMAIN_SEARCH = `a[role='link'] > div > div > div > div > span[dir='auto'] > span[class]${C_NOT}`;
+const QS_DOMAIN_SEARCH = `a[role='link'] > div > div > div > div > span[dir='auto'] > span[class]`;
 const QS_ARTICLES = `[role="article"]`;
 const QS_PROCESSED_SEARCH = ":scope > mbfc";
 
@@ -115,16 +115,14 @@ export class Facebook extends Filter {
         const hide = get(config, site.d) || collapse;
         const prompt = hide ? "show" : "hide";
 
-        const toolbar = `<div class="mbfc-td-padding">
+        const toolbar = `<div>
             <button id="toolbar-button1-${count}" class="mbfc-drop-down mbfc-button-success mbfc-right-spacer toolbar-button1-${count}" data-domain="${site.d}" data-collapse="${prompt}">Always ${prompt} ${site.n}</button><span class="spacer">&nbsp;</span>
             <button class="mbfc-drop-down mbfc-button-warning toolbar-button3-${count}">Reset Hidden Sites</button>
             <button style="float: right;" class="mbfc-drop-down mbfc-button-secondary toolbar-button2-${count}">Say Thanks</button>
         </div>`;
 
         const bias_display = biases[mtype].name.replace(/ Bias(ed)?/, "");
-        const bias_link = `<a target="_blank" href=${C_URL}${site.u}>
-            <span class="mbfc-td-text">${bias_display}${external_link}</span>
-        </a>`;
+        const bias_link = `<span class="mbfc-td-text">${bias_display}`;
 
         const details: string[] = [];
         if (site.r > "") {
@@ -177,11 +175,11 @@ export class Facebook extends Filter {
 
         const buildOtherColumns = () => {
             return `
-                <td width="20%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
-                <td width="20%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
-                <td width="20%" class="mbfc-td mbfc-td-${mtype}">${bias_link}</td>
-                <td width="20%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
-                <td width="20%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+                <td width="60%" class="mbfc-td mbfc-td-${mtype}">${bias_link}</td>
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
             `;
         };
 
@@ -190,6 +188,7 @@ export class Facebook extends Filter {
         switch (biasShortToName[site.b]) {
             case "satire":
             case "conspiracy":
+            case "fake-news":
             case "pro-science":
                 columns = buildOtherColumns();
                 break;
@@ -387,27 +386,39 @@ export class Facebook extends Filter {
         };
 
         domain_nodes.forEach((dn) => {
+            const ready = !!dn.domain && !!dn.domain.site;
+            const have_fburl = !!dn.fb_path;
+
             const pobj_nodes = object_nodes.filter(
                 (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
             );
             // Here we are flagging object_nodes that we are aware of that shouldn't be processed again
             pobj_nodes.forEach((on) => {
-                const res = this.getDomainFromFb(on);
-                if (res.isOk()) {
-                    on.used = true;
-                    if (!dn.domain?.site) {
-                        dn.domain = res.value;
-                    }
-                } else if (dn.domain && dn.domain.site && on.fb_path) {
-                    // This might be a new FB page we don't know about yet
-                    on.used = true;
-                    // TODO: Limit this to one send
-                    new AssociateSiteMessage(
-                        dn.domain.site,
-                        on.fb_path
-                    ).sendMessage();
-                }
+                on.used = true;
             });
+            const on = pobj_nodes.shift();
+            if (on && (!ready || !have_fburl)) {
+                const res = this.getDomainFromFb(on);
+                let ndomain: CheckDomainResults | undefined;
+                if (res.isOk()) {
+                    ndomain = res.value;
+                    log(`Found ${ndomain.final_domain} from ${on.fb_path}`);
+                }
+                if (ndomain) {
+                    if (!ready) dn.domain = ndomain;
+                    if (
+                        dn.domain &&
+                        dn.domain.site &&
+                        !have_fburl &&
+                        on.fb_path
+                    ) {
+                        new AssociateSiteMessage(
+                            dn.domain.site,
+                            on.fb_path
+                        ).sendMessage();
+                    }
+                }
+            }
             addBlock(dn);
         });
 
@@ -454,6 +465,9 @@ export class Facebook extends Filter {
         if (!story.domain || !story.domain.site) {
             return;
         }
+        if (story.parent.querySelector(MBFC)) {
+            return;
+        }
         const { site, collapse } = story.domain;
         const iDiv = this.getReportDiv(
             site,
@@ -473,7 +487,7 @@ export class Facebook extends Filter {
         story.parent.appendChild(hDiv);
         this.count++;
         const domain_class = `${MBFC}-${story.domain.final_domain.replace(
-            ".",
+            /\./g,
             "-"
         )}`;
         this.addClasses(story.story, [domain_class]);

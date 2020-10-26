@@ -1,7 +1,9 @@
 import { get } from "lodash";
 import { err, ok, Result } from "neverthrow";
-import { ConfigHandler, ISource, SourcesHandler } from "utils";
+import { ConfigHandler, ISource, logger, SourcesHandler } from "utils";
 import { StorageToOptions, ERporting } from "utils/StorageHandler";
+
+const log = logger("mbfc:utils:checkDomain");
 
 export interface CheckDomainResults {
     final_domain: string;
@@ -12,6 +14,8 @@ export interface CheckDomainResults {
     unknown: boolean;
     site: ISource | null;
 }
+
+const logged: Record<string, boolean> = {};
 
 export const checkDomain = (
     domain: string,
@@ -63,6 +67,10 @@ export const checkDomain = (
             ret.collapse = true;
         } else if (config.hiddenSites[d] === false) {
             ret.collapse = false;
+        }
+        if (ret.site && !logged[d]) {
+            logged[d] = true;
+            log(ret);
         }
         // log(ret);
         return !!ret.site;
