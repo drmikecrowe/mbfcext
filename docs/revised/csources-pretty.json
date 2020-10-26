@@ -24114,7 +24114,7 @@
         "p": "/"
     },
     "secureamericanow.org": {
-        "b": "right",
+        "b": "fake-news",
         "d": "secureamericanow.org",
         "f": "https://facebook.com/secureamericanow",
         "h": "https://secureamericanow.org",
@@ -26878,7 +26878,7 @@
         "p": "/"
     },
     "chronicle.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "chronicle.com",
         "f": "https://facebook.com/chronicle.of.higher.education",
         "h": "https://chronicle.com",
@@ -28795,6 +28795,18 @@
         "P": "25",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/the-ohio-star/",
+        "p": "/"
+    },
+    "newobserveronline.com": {
+        "b": "fake-news",
+        "d": "newobserveronline.com",
+        "h": "https://newobserveronline.com",
+        "M": "0",
+        "L": "0",
+        "n": "The New Observer",
+        "P": "0",
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/the-new-observer/",
         "p": "/"
     },
     "thenextweb.com": {
@@ -40948,6 +40960,54 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/huntsville-leader/",
+        "p": "/"
+    },
+    "zenith.news": {
+        "b": "fake-news",
+        "d": "zenith.news",
+        "h": "https://zenith.news",
+        "M": [],
+        "L": [],
+        "n": "Zenith News",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/zenith-news/",
+        "p": "/"
+    },
+    "jeffersonreporter.com": {
+        "b": "fake-news",
+        "d": "jeffersonreporter.com",
+        "h": "https://jeffersonreporter.com",
+        "M": [],
+        "L": [],
+        "n": "Jefferson Reporter",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/jefferson-reporter/",
+        "p": "/"
+    },
+    "mobilecourant.com": {
+        "b": "fake-news",
+        "d": "mobilecourant.com",
+        "h": "https://mobilecourant.com",
+        "M": [],
+        "L": [],
+        "n": "Mobile Courant",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/mobile-courant/",
+        "p": "/"
+    },
+    "nealabamanews.com": {
+        "b": "fake-news",
+        "d": "nealabamanews.com",
+        "h": "https://nealabamanews.com",
+        "M": [],
+        "L": [],
+        "n": "NE Alabama Courant",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/ne-alabama-news/",
         "p": "/"
     }
 }

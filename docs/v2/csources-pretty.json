@@ -16827,7 +16827,7 @@
         "u": "scientific-american"
     },
     "secureamericanow.org": {
-        "b": "R",
+        "b": "FN",
         "d": "secureamericanow.org",
         "f": "secureamericanow",
         "n": "Secure America Now",
@@ -18751,7 +18751,7 @@
         "u": "the-citizen-press"
     },
     "chronicle.com": {
-        "b": "C",
+        "b": "LC",
         "d": "chronicle.com",
         "f": "chronicle.of.higher.education",
         "n": "The Chronicle of Higher Education",
@@ -20091,6 +20091,14 @@
         "P": "25",
         "r": "M",
         "u": "the-ohio-star"
+    },
+    "newobserveronline.com": {
+        "b": "FN",
+        "d": "newobserveronline.com",
+        "n": "The New Observer",
+        "P": "0",
+        "r": "VL",
+        "u": "the-new-observer"
     },
     "thenextweb.com": {
         "b": "LC",
@@ -28370,5 +28378,37 @@
         "P": [],
         "r": "M",
         "u": "huntsville-leader"
+    },
+    "zenith.news": {
+        "b": "FN",
+        "d": "zenith.news",
+        "n": "Zenith News",
+        "P": [],
+        "r": "L",
+        "u": "zenith-news"
+    },
+    "jeffersonreporter.com": {
+        "b": "FN",
+        "d": "jeffersonreporter.com",
+        "n": "Jefferson Reporter",
+        "P": [],
+        "r": "M",
+        "u": "jefferson-reporter"
+    },
+    "mobilecourant.com": {
+        "b": "FN",
+        "d": "mobilecourant.com",
+        "n": "Mobile Courant",
+        "P": [],
+        "r": "M",
+        "u": "mobile-courant"
+    },
+    "nealabamanews.com": {
+        "b": "FN",
+        "d": "nealabamanews.com",
+        "n": "NE Alabama Courant",
+        "P": [],
+        "r": "M",
+        "u": "ne-alabama-news"
     }
 }
