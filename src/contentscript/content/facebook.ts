@@ -130,10 +130,7 @@ export class Facebook extends Filter {
         if (site.r > "") {
             const reporting_obj = reporting[reportingShortToName[site.r]];
             if (!isEmpty(reporting_obj)) {
-                const reporting_text = reporting_obj.pretty;
-                details.push(
-                    `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${C_URL}${site.u}">Factually: ${reporting_text}${external_link}</a>`
-                );
+                details.push(`Factually ${reporting_obj.pretty}`);
             }
         }
         details.push(
@@ -143,13 +140,14 @@ export class Facebook extends Filter {
             details.push(
                 `<a title="Search factualsearch.news for '${tagsearch}'" target="_blank" href="https://factualsearch.news/#gsc.tab=0&fns.type=mostly-center&gsc.q=${encodeURIComponent(
                     tagsearch
-                )}">Search ${external_link}</a> `
-            );
-        } else {
-            details.push(
-                `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${C_URL}${site.u}">MBFC Details${external_link}</a>`
+                )}">Research this subject ${external_link}</a> `
             );
         }
+        details.push(
+            `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${C_URL}${site.u}">
+                See MBFC's report ${external_link}
+            </a>`
+        );
 
         const cog = icon(faAngleDoubleDown, {
             attributes: {
