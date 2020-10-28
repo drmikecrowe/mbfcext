@@ -1,10 +1,20 @@
+import { icon } from "@fortawesome/fontawesome-svg-core";
+import { faEye } from "@fortawesome/free-regular-svg-icons/faEye";
+import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons/faAngleDoubleDown";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import debug from "debug";
-import { Result } from "neverthrow";
+import { get, isEmpty } from "lodash";
+import { err, ok, Result } from "neverthrow";
 import {
+    AssociateSiteMessage,
+    biasShortToName,
+    CheckDomainResults,
+    getSiteFromUrl,
     HideSiteMessage,
     IConfig,
     isDevMode,
     ISources,
+    reportingShortToName,
     ReportUnknownMessage,
     ResetIgnoredMessage,
     ShowSiteMessage,
@@ -20,9 +30,32 @@ import { SourcesHandler } from "utils/SourcesHandler";
 export const MBFC = "mbfc";
 export const C_URL = "https://mediabiasfactcheck.com/";
 export const C_FOUND = `${MBFC}-found`;
-export const C_NOT = `:not(.${C_FOUND})`;
 export const C_REPORT_DIV = `${MBFC}-report-div`;
 export const C_PARENT = `${MBFC}-parent`;
+export const QS_PROCESSED_SEARCH = ":scope > mbfc";
+
+export interface Story {
+    domain?: CheckDomainResults;
+    parent: Element;
+    top: Element;
+    story: Element;
+    source?: Element;
+    comments: Element;
+    count: number;
+    tagsearch?: string;
+    ignored: boolean;
+}
+
+export interface ElementList {
+    domain?: CheckDomainResults;
+    items: Element[];
+    block?: Element;
+    object?: Element;
+    domain_span?: Element;
+    title_span?: Element;
+    sm_path?: string;
+    used: boolean;
+}
 
 isDevMode();
 const log = debug("mbfc:filter");
@@ -33,6 +66,7 @@ export class Filter {
     unknown: any = {};
     loaded = false;
     windowObjectReference: Window | null = null;
+    count = 0;
 
     constructor() {
         log(`Class Filter started`);
@@ -108,7 +142,6 @@ export class Filter {
         cls.forEach((c) => {
             if (!e.classList.contains(c)) e.classList.add(c);
         });
-        if (!e.classList.contains(MBFC)) e.classList.add(MBFC);
     }
 
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -182,6 +215,29 @@ export class Filter {
         new ResetIgnoredMessage().sendMessage();
     }
 
+    reportAssociated(source: ISource, domain: string) {
+        new AssociateSiteMessage(source, domain).sendMessage();
+    }
+
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    getDomainNode(e: Element, top_node: Element): Result<ElementList, null> {
+        throw new Error("Must be overridden");
+    }
+
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    getObjectNode(e: Element, top_node: Element): Result<ElementList, null> {
+        throw new Error("Must be overridden");
+    }
+
+    mergeNodes(
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        domain_nodes: ElementList[], // Valid stories where we know the domain
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        object_nodes: ElementList[] // Possible stories that might match domain_nodes, but may be new ones too
+    ): Story[] {
+        throw new Error("Must be overridden");
+    }
+
     openRequestedPopup() {
         new StartThanksMessage().sendMessage();
         this.windowObjectReference = window.open(
@@ -225,5 +281,282 @@ export class Filter {
                 );
             }
         );
+    }
+
+    getHiddenDiv(site: ISource, count: number, collapse: boolean) {
+        const hDiv = document.createElement("mbfc");
+        hDiv.className = `mbfcext ${C_FOUND}`;
+        hDiv.id = `mbfcext-hide-${count}`;
+
+        const span_id = `mbfcspan${count}`;
+        const icon_id = `mbfcicon${count}`;
+        const hide_class = `mbfc mbfc-hide-ctrl mbfc-hide-ctrl${count}`;
+        const iconHtml = icon(faEye, {
+            attributes: {
+                id: icon_id,
+                "aria-hidden": "true",
+            },
+        }).html;
+        const inlineCode = `var count=${count};Array.prototype.filter.call(document.getElementsByClassName('${MBFC}elh'+count),function(e){if(e&&e.style){var t=document.getElementById('mbfcspan'+count),s=document.getElementById('mbfcicon'+count);'none'==e.style.display?(e.style.display='block',s.classList.remove('fa-eye'),s.classList.add('fa-eye-slash'),t.textContent=' Hide'):(e.style.display='none',s.classList.remove('fa-eye-slash'),s.classList.add('fa-eye'),t.textContent=' Show')}});"`;
+        const hide = `<div
+                class="${hide_class}"
+                style="cursor: pointer"
+                onclick="${inlineCode}">
+                ${iconHtml}
+                <span id="${span_id}"> ${
+            collapse ? "Show Anyway" : "Hide this story"
+        }</span>
+            </div>`;
+        hDiv.innerHTML = hide;
+        return hDiv;
+    }
+
+    getReportDiv(site, count, tagsearch, collapse): Result<Element, null> {
+        if (this.config.isErr() || this.sources.isErr()) return err(null);
+        const config = this.config.value;
+        const biases = this.sources.value.biases;
+        const reporting = this.sources.value.reporting;
+
+        const iDiv = document.createElement("mbfc");
+        iDiv.className = `mbfcext ${C_FOUND} ${C_REPORT_DIV}`;
+        iDiv.id = `mbfcext${count}`;
+
+        const mtype = biasShortToName[site.b];
+
+        const external_link = `&nbsp;${icon(faExternalLinkAlt).html}`;
+
+        const hide = get(config, site.d) || collapse;
+        const prompt = hide ? "show" : "hide";
+
+        const toolbar = `<div>
+            <button id="toolbar-button1-${count}" class="mbfc-drop-down mbfc-button-success mbfc-right-spacer toolbar-button1-${count}" data-domain="${site.d}" data-collapse="${prompt}">Always ${prompt} ${site.n}</button><span class="spacer">&nbsp;</span>
+            <button class="mbfc-drop-down mbfc-button-warning toolbar-button3-${count}">Reset Hidden Sites</button>
+            <button style="float: right;" class="mbfc-drop-down mbfc-button-secondary toolbar-button2-${count}">Say Thanks</button>
+        </div>`;
+
+        const bias_display = biases[mtype].name.replace(/ Bias(ed)?/, "");
+        const bias_link = `<span class="mbfc-td-text">${bias_display}`;
+
+        const details: string[] = [];
+        if (site.r > "") {
+            const reporting_obj = reporting[reportingShortToName[site.r]];
+            if (!isEmpty(reporting_obj)) {
+                details.push(`Factually ${reporting_obj.pretty}`);
+            }
+        }
+        details.push(
+            `<span title="Within MBFC sites, this site has ${site.P}% higher number of external equity links than other sites">Popularity: ${site.P}%</span>`
+        );
+        if (tagsearch && mtype !== "satire") {
+            details.push(
+                `<a title="Search factualsearch.news for '${tagsearch}'" target="_blank" href="https://factualsearch.news/#gsc.tab=0&fns.type=mostly-center&gsc.q=${encodeURIComponent(
+                    tagsearch
+                )}">Research this subject ${external_link}</a> `
+            );
+        }
+        details.push(
+            `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${C_URL}${site.u}">
+                See MBFC's report ${external_link}
+            </a>`
+        );
+
+        const cog = icon(faAngleDoubleDown, {
+            attributes: {
+                "aria-hidden": "true",
+            },
+        }).html;
+        const inline_code = `el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='table-row'; } else { el.style.display='none'; }`;
+        const drop_down = `<td width="20px" align="center"><div
+            class="mbfc-drop-down"
+            onclick="${inline_code}">${cog}</div></td>`;
+
+        const buildNormalColumns = () => {
+            const tdl = mtype === "left" ? bias_link : "&nbsp;";
+            const tdlc = mtype === "left-center" ? bias_link : "&nbsp;";
+            const tdc = mtype === "center" ? bias_link : "&nbsp;";
+            const tdrc = mtype === "right-center" ? bias_link : "&nbsp;";
+            const tdr = mtype === "right" ? bias_link : "&nbsp;";
+
+            return `
+                <td width="20%" class="mbfc-td mbfc-td-left">${tdl}</td>
+                <td width="20%" class="mbfc-td mbfc-td-left-center">${tdlc}</td>
+                <td width="20%" class="mbfc-td mbfc-td-center">${tdc}</td>
+                <td width="20%" class="mbfc-td mbfc-td-right-center">${tdrc}</td>
+                <td width="20%" class="mbfc-td mbfc-td-right">${tdr}</td>
+            `;
+        };
+
+        const buildOtherColumns = () => {
+            return `
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+                <td width="60%" class="mbfc-td mbfc-td-${mtype}">${bias_link}</td>
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+                <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
+            `;
+        };
+
+        let columns;
+
+        switch (biasShortToName[site.b]) {
+            case "satire":
+            case "conspiracy":
+            case "fake-news":
+            case "pro-science":
+                columns = buildOtherColumns();
+                break;
+            default:
+                columns = buildNormalColumns();
+                break;
+        }
+
+        const details_contents = `<div class="mbfc-td mbfc-td-text">
+            ${details.join(", &nbsp;")}
+        </div>`;
+
+        const table = `
+<div class="">
+    <table class="mbfc-table-table" cellpadding="0" border="0">
+        <tbody>
+            <tr>
+                ${columns}${drop_down}
+            </tr>
+            <tr id="mbfctt${count}" class="mbfc-td-text" style="display:none">
+                <td colspan="6">
+                    ${toolbar}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center">
+                    ${details_contents}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+`;
+
+        iDiv.innerHTML = table;
+        return ok(iDiv);
+    }
+
+    inject(story: Story) {
+        if (!story.domain || !story.domain.site) {
+            return;
+        }
+        if (story.parent.querySelector(MBFC)) {
+            return;
+        }
+        const { site, collapse } = story.domain;
+        const iDiv = this.getReportDiv(
+            site,
+            this.count,
+            story.tagsearch,
+            collapse
+        );
+        if (iDiv.isErr()) {
+            log("ERROR: iDiv empty");
+            return;
+        }
+        this.addClasses(story.comments, [C_FOUND]);
+        story.parent.insertBefore(iDiv.value, story.comments);
+        story.count = this.count;
+        this.addButtons(site.n, this.count);
+        const hDiv = this.getHiddenDiv(site, this.count, collapse);
+        story.parent.appendChild(hDiv);
+        this.count++;
+        const domain_class = `${MBFC}-${story.domain.final_domain.replace(
+            /\./g,
+            "-"
+        )}`;
+        this.addClasses(story.story, [domain_class, `${MBFC}-inject-story`]);
+        let sib = story.parent.querySelector("mbfc")?.nextSibling;
+        while (sib) {
+            if (sib && ["DIV", "MBFC"].indexOf((sib as Element).tagName) > -1)
+                this.addClasses(sib as Element, [
+                    domain_class,
+                    `${MBFC}-hide-sib`,
+                ]);
+            sib = sib.nextSibling;
+        }
+        if (collapse) {
+            story.parent.querySelectorAll(`.${domain_class}`).forEach((e) => {
+                this.hideElement(e, story.count);
+            });
+        }
+    }
+
+    getResults(e: Element, top_node: Element): ElementList {
+        const results: ElementList = {
+            items: [e],
+            used: false,
+        };
+        let t = e.parentElement;
+        while (t && t !== top_node) {
+            results.items.unshift(t);
+            t = t?.parentElement;
+        }
+        return results;
+    }
+
+    getDomainFromString(
+        el: ElementList,
+        search: Record<string, string>
+    ): Result<CheckDomainResults, null> {
+        if (el.sm_path && search[el.sm_path]) {
+            const domain = search[el.sm_path];
+            const url = `https://${domain}`.toLowerCase();
+            return getSiteFromUrl(url);
+        }
+        return err(null);
+    }
+
+    getStoryNodes(
+        nodes: Element[],
+        qs_articles: string,
+        qs_domain_search: string,
+        qs_object_search?: string
+    ): Result<Story[], null> {
+        try {
+            const results: Story[] = [];
+            if (this.sources.isOk()) {
+                nodes.forEach((node) => {
+                    node.querySelectorAll(qs_articles).forEach((top_node) => {
+                        const domain_nodes: ElementList[] = [];
+                        const object_nodes: ElementList[] = [];
+                        Array.from(
+                            top_node.querySelectorAll(qs_domain_search)
+                        ).forEach((e) => {
+                            const res = this.getDomainNode(e, top_node);
+                            if (res.isOk()) {
+                                domain_nodes.push(res.value);
+                            }
+                        });
+                        if (qs_object_search) {
+                            Array.from(
+                                top_node.querySelectorAll(qs_object_search)
+                            ).forEach((e) => {
+                                const res = this.getObjectNode(e, top_node);
+                                if (res.isOk()) {
+                                    object_nodes.push(res.value);
+                                }
+                            });
+                        }
+                        if (domain_nodes.length + object_nodes.length > 0) {
+                            const stories = this.mergeNodes(
+                                domain_nodes,
+                                object_nodes
+                            );
+                            results.push(...stories);
+                        }
+                    });
+                });
+            }
+            return ok(results);
+        } catch (err) {
+            // ignore
+            if (isDevMode()) debugger;
+        }
+        return err(null);
     }
 }
