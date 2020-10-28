@@ -3607,10 +3607,10 @@
         "u": "chinook-observer"
     },
     "cincinnati.com": {
-        "b": "RC",
+        "b": "C",
         "d": "cincinnati.com",
         "f": "enquirer",
-        "n": "Cinncinati Equirer",
+        "n": "Cinncinati Enquirer",
         "P": "88",
         "r": "H",
         "u": "cincinnati-enquirer"
@@ -4385,12 +4385,10 @@
     "westernjournal.com": {
         "b": "FN",
         "d": "westernjournal.com",
-        "f": "westernjournal",
-        "t": "westjournalism",
-        "n": "Conservative Tribune",
-        "P": "78",
-        "r": "VL",
-        "u": "conservative-tribune"
+        "n": "Western Journal",
+        "P": "0",
+        "r": "M",
+        "u": "western-journalism"
     },
     "conservativereview.com": {
         "b": "R",
@@ -28410,5 +28408,29 @@
         "P": [],
         "r": "M",
         "u": "ne-alabama-news"
+    },
+    "registerguard.com": {
+        "b": "LC",
+        "d": "registerguard.com",
+        "n": "Eugene Register-Guard",
+        "P": [],
+        "r": "H",
+        "u": "eugene-register-guard"
+    },
+    "northbirminghamtimes.com": {
+        "b": "FN",
+        "d": "northbirminghamtimes.com",
+        "n": "North Birmingham Times",
+        "P": [],
+        "r": "M",
+        "u": "north-birmingham-times"
+    },
+    "eugenics.news": {
+        "b": "CP",
+        "d": "eugenics.news",
+        "n": "Eugenics.News",
+        "P": [],
+        "r": "VL",
+        "u": "eugenics-news"
     }
 }

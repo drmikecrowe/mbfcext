@@ -5156,13 +5156,13 @@
         "p": "/"
     },
     "cincinnati.com": {
-        "b": "right-center",
+        "b": "center",
         "d": "cincinnati.com",
         "f": "https://facebook.com/enquirer",
         "h": "https://cincinnati.com",
         "M": "63",
         "L": "1124449",
-        "n": "Cinncinati Equirer",
+        "n": "Cinncinati Enquirer",
         "P": "88",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/cincinnati-enquirer/",
@@ -6270,15 +6270,13 @@
     "westernjournal.com": {
         "b": "fake-news",
         "d": "westernjournal.com",
-        "f": "https://facebook.com/westernjournal",
-        "t": "https://twitter.com/westjournalism",
         "h": "https://westernjournal.com",
-        "M": "51",
-        "L": "377084",
-        "n": "Conservative Tribune",
-        "P": "78",
-        "r": "VERY LOW",
-        "u": "https://mediabiasfactcheck.com/conservative-tribune/",
+        "M": "0",
+        "L": "0",
+        "n": "Western Journal",
+        "P": "0",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/western-journalism/",
         "p": "/"
     },
     "conservativereview.com": {
@@ -41008,6 +41006,42 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/ne-alabama-news/",
+        "p": "/"
+    },
+    "registerguard.com": {
+        "b": "left-center",
+        "d": "registerguard.com",
+        "h": "https://registerguard.com",
+        "M": [],
+        "L": [],
+        "n": "Eugene Register-Guard",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/eugene-register-guard/",
+        "p": "/"
+    },
+    "northbirminghamtimes.com": {
+        "b": "fake-news",
+        "d": "northbirminghamtimes.com",
+        "h": "https://northbirminghamtimes.com",
+        "M": [],
+        "L": [],
+        "n": "North Birmingham Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/north-birmingham-times/",
+        "p": "/"
+    },
+    "eugenics.news": {
+        "b": "conspiracy",
+        "d": "eugenics.news",
+        "h": "https://eugenics.news",
+        "M": [],
+        "L": [],
+        "n": "Eugenics.News",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/eugenics-news/",
         "p": "/"
     }
 }
