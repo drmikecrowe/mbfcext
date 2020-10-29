@@ -180,6 +180,7 @@ export class Facebook extends Filter {
                     ignored: false,
                 };
             }
+            story.report = story.comments;
             if (dn.title_span && dn.title_span.textContent)
                 story.tagsearch = dn.title_span.textContent;
             results.push(story);

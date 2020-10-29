@@ -65,10 +65,10 @@ export class Twitter extends Filter {
         let offset = 0;
         let found = true;
         const lst = Object.values(el_lists);
-        while (!found) {
-            const node = lst[0][offset];
-            for (let i = 0; i < 4; i++) {
-                found = found && node === lst[i][offset];
+        while (found) {
+            const node = lst[0].items[offset];
+            for (let i = 1; i < 4; i++) {
+                found = found && node === lst[i].items[offset];
             }
             if (!found) break;
             offset++;
@@ -105,30 +105,22 @@ export class Twitter extends Filter {
                 // if (isDevMode()) debugger;
                 return;
             }
-            if (isDevMode()) debugger;
+            this.addClasses(dn.block, [`${MBFC}-domain-block`]);
+            // if (isDevMode()) debugger;
             let story: Story;
-            if (dn.block.children.length === 3) {
-                story = {
-                    domain: dn.domain,
-                    parent: dn.block,
-                    top: dn.block.children[0],
-                    story: dn.block.children[1],
-                    comments: dn.block.children[2],
-                    count: -1,
-                    ignored: false,
-                };
-            } else {
-                story = {
-                    domain: dn.domain,
-                    parent: dn.block,
-                    top: dn.block.children[0],
-                    source: dn.block.children[1],
-                    story: dn.block.children[2],
-                    comments: dn.block.children[3],
-                    count: -1,
-                    ignored: false,
-                };
-            }
+            story = {
+                domain: dn.domain,
+                parent: dn.block,
+                top: dn.block.children[0],
+                story: dn.block.children[1],
+                comments: dn.block.children[2],
+                count: -1,
+                ignored: false,
+            };
+            story.report = story.top;
+            this.addClasses(story.top, [`${MBFC}-story-top`]);
+            this.addClasses(story.story, [`${MBFC}-story-story`]);
+            this.addClasses(story.comments, [`${MBFC}-story-comments`]);
             if (dn.title_span && dn.title_span.textContent)
                 story.tagsearch = dn.title_span.textContent;
             results.push(story);

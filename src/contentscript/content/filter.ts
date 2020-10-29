@@ -37,6 +37,7 @@ export const QS_PROCESSED_SEARCH = ":scope > mbfc";
 export interface Story {
     domain?: CheckDomainResults;
     parent: Element;
+    report?: Element;
     top: Element;
     story: Element;
     source?: Element;
@@ -459,7 +460,7 @@ export class Filter {
             return;
         }
         this.addClasses(story.comments, [C_FOUND]);
-        story.parent.insertBefore(iDiv.value, story.comments);
+        if (story.report) story.parent.insertBefore(iDiv.value, story.report);
         story.count = this.count;
         this.addButtons(site.n, this.count);
         const hDiv = this.getHiddenDiv(site, this.count, collapse);

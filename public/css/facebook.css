@@ -1,9 +1,7 @@
 .mbfc-table {
-    /* float: left; */
     width: 100%;
 }
 .mbfc-table-table {
-    /* float: left; */
     width: 100%;
     display: table;
     border-spacing: 0px !important;
@@ -72,7 +70,6 @@
 }
 
 .mbfc-drop-down {
-    /* float: left; */
     cursor: pointer;
     padding: 0 5px 0 5px;
 }
@@ -160,7 +157,6 @@
     font-weight: bold;
     font-size: x-small;
     text-transform: uppercase;
-    /* float: left; */
     width: 100%;
     margin: auto;
     text-align: left;
