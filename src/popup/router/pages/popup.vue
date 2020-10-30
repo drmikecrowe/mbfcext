@@ -10,11 +10,26 @@
 
         <div class="clearfix"></div>
         <div class="pt-3">
-            <div>
+            <div v-if="rated">
                 <h1 class="p-0 pb-2">{{ bias }}</h1>
                 <p>{{ biasDescription }}</p>
                 <a :href="mbfcLink" target="_blank" class="pt-2">
                     Read the Media Bias/Fact Check detailed report&nbsp;
+                    <font-awesome-icon icon="angle-double-right" size="lg" />
+                </a>
+            </div>
+            <div v-else>
+                <h1 class="p-0 pb-2">Not a rated site</h1>
+                <p>
+                    Feel free to view the full list of site rating and bias
+                    analysis at the
+                </p>
+                <a
+                    href="https://mediabiasfactcheck.com"
+                    target="_blank"
+                    class="pt-2"
+                >
+                    Media Bias/Fact Check Website &nbsp;
                     <font-awesome-icon icon="angle-double-right" size="lg" />
                 </a>
             </div>
@@ -28,6 +43,7 @@ import Component from "vue-class-component";
 import get from "lodash/get";
 import {
     biasShortToName,
+    browser,
     ConfigHandler,
     GetConfigMessage,
     getCurrentTab,
@@ -54,6 +70,7 @@ export default class Popup extends Vue {
     bias = "";
     biasDescription = "";
     mbfcLink = "";
+    rated = false;
 
     data() {
         this.updateData().then(() => {
@@ -89,24 +106,34 @@ export default class Popup extends Vue {
     async updateData() {
         ConfigHandler.getInstance();
         SourcesHandler.getInstance();
-        const [cfg, sources, tab] = await Promise.all([
+        const [_cfg, sources, res] = await Promise.all([
             this.getConfig(),
             this.getSource(),
             getCurrentTab(),
         ]);
-        if (!tab || !tab.url) return;
+        const tab = res.isOk() ? res.value : null;
+        if (!tab || !tab.url) {
+            log(`Error: No tab returned`);
+            return;
+        }
         const parsed_domain = getSiteFromUrl(tab.url);
-        if (parsed_domain.isErr()) return false;
+        if (parsed_domain.isErr()) {
+            log(`Error: Can't parse domain`);
+            return;
+        }
         const { site } = parsed_domain.value;
-        if (!site) return;
+        if (!site) {
+            log(`Error: No site returned`);
+            return;
+        }
         const { name, description } = sources.biases[biasShortToName[site.b]];
         this.bias = name;
         this.biasDescription = description;
         this.mbfcLink = `https://mediabiasfactcheck.com/${site.u}`;
+        this.rated = true;
     }
     async options() {
-        // browser.runtime.openOptionsPage();
-        await this.updateData();
+        browser.runtime.openOptionsPage();
     }
 }
 </script>

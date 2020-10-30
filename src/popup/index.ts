@@ -5,8 +5,6 @@ require("setup/font-awesome");
 require("setup/filters");
 require("tailwind");
 
-// TODO
-
 if (process.env.NODE_ENV === "development" && process.env.DEVTOOLS) {
     const devtools = require("@vue/devtools");
     devtools.connect();

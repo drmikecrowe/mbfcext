@@ -1,9 +1,10 @@
-import { Result, err } from "neverthrow";
+import { Result, ok, err } from "neverthrow";
 import { browser, checkDomain, getDomain, CheckDomainResults } from "utils";
 import { Tabs } from "webextension-polyfill-ts";
 import { SourcesHandler } from "utils/SourcesHandler";
+import { isDevMode } from "utils/index";
 
-export async function getCurrentTab(): Promise<Tabs.Tab> {
+export async function getCurrentTab(): Promise<Result<Tabs.Tab, null>> {
     return new Promise((resolve) => {
         (async () => {
             const queryInfo = {
@@ -11,8 +12,15 @@ export async function getCurrentTab(): Promise<Tabs.Tab> {
                 currentWindow: true,
             };
 
-            const tabs = await browser.tabs.query(queryInfo);
-            resolve(tabs[0]);
+            const [tabs, wind] = await Promise.all([
+                browser.tabs.query(queryInfo),
+                browser.windows.getLastFocused(),
+            ]);
+            for (const tab of tabs) {
+                if (tab.windowId === wind.id) return resolve(ok(tab));
+            }
+            if (isDevMode() && tabs.length) return resolve(ok(tabs[0]));
+            resolve(err(null));
         })().catch((err) => {
             console.error(err);
         });
