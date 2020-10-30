@@ -1,5 +1,5 @@
 import { Result, ok, err } from "neverthrow";
-import { CheckDomainResults, getSiteFromUrl, isDevMode, logger } from "utils";
+import { isDevMode, logger } from "utils";
 import {
     C_FOUND,
     ElementList,
@@ -16,7 +16,7 @@ const QS_DATA_NODE_SEARCH = `div[aria-label*="Timeline:"]`;
 const QS_ARTICLES = `article`;
 const QS_DOMAIN_SEARCH = '[data-testid="tweet"]';
 const QS_TITLE_SEARCH = `a[role='link'] > div > div > div > span span`;
-// const QS_TWITTER_HANDLE = `${QS_ARTICLES} a[aria-haspopup="false"]`;
+const QS_TWITTER_HANDLE = `${QS_ARTICLES} a[role="link"][href^="/"]`;
 // const QS_RETWEET = `${QS_ARTICLES} a[target='_blank'] svg`;
 
 export class Twitter extends Filter {
@@ -36,18 +36,10 @@ export class Twitter extends Filter {
         return Twitter.instance;
     }
 
-    getDomainFromTwitter(el: ElementList): Result<CheckDomainResults, null> {
-        if (this.sources.isOk()) {
-            return this.getDomainFromString(el, this.sources.value.tw_pages);
-        }
-        return err(null);
-    }
-
-    getDomainNode(e: Element, top_node: Element): Result<ElementList, null> {
-        this.addClasses(e, [C_FOUND, `${MBFC}-domain-search`]);
+    getTwitterResults(top_node: Element): ElementList | null {
         const span_nodes = top_node.querySelectorAll(QS_TITLE_SEARCH);
         if (!span_nodes || span_nodes.length !== 4) {
-            return err(null);
+            return null;
         }
         /**  Need 4 spans
          *      1. header
@@ -74,24 +66,54 @@ export class Twitter extends Filter {
             offset++;
         }
 
-        const result = el_lists.domain_span;
-        result.block = result.items[offset];
-        this.addClasses(result.block, [C_FOUND, `${MBFC}-top`]);
+        const el_list = el_lists.domain_span;
+        el_list.block = el_list.items[offset];
+        this.addClasses(el_list.block, [C_FOUND, `${MBFC}-top`]);
+        return el_list;
+    }
 
-        if (result.block?.querySelector(QS_PROCESSED_SEARCH)) {
+    getDomainNode(e: Element, top_node: Element): Result<ElementList, null> {
+        if (!this.sources.isOk()) {
+            return err(null);
+        }
+        this.addClasses(e, [C_FOUND, `${MBFC}-domain-search`]);
+        const el_list = this.getTwitterResults(top_node);
+        if (!el_list || el_list.block?.querySelector(QS_PROCESSED_SEARCH)) {
+            return err(null);
+        }
+        const span_nodes = top_node.querySelectorAll(QS_TITLE_SEARCH);
+        if (!span_nodes || span_nodes.length !== 4) {
             return err(null);
         }
         const se = span_nodes[3];
         let text;
         if (se && se.textContent) {
             text = se.textContent.toLowerCase().split(" ")[0];
-            const res = getSiteFromUrl(text);
-            if (res.isOk()) {
-                result.domain = res.value;
-                result.domain_span = se;
-            }
+            this.findDomain(el_list, se, text);
         }
-        return ok(result);
+        return ok(el_list);
+    }
+
+    getObjectNode(e: Element, top_node: Element): Result<ElementList, null> {
+        if (!this.sources.isOk()) {
+            return err(null);
+        }
+        this.addClasses(e, [C_FOUND, `${MBFC}-object-search`]);
+        const el_list = this.getTwitterResults(top_node);
+        if (!el_list || el_list.block?.querySelector(QS_PROCESSED_SEARCH)) {
+            return err(null);
+        }
+        const span_nodes = top_node.querySelectorAll(QS_TITLE_SEARCH);
+        if (!span_nodes || span_nodes.length !== 4) {
+            return err(null);
+        }
+        const se = span_nodes[3];
+        let text;
+        if (se && se.textContent) {
+            text = se.textContent.toLowerCase().split(" ")[0];
+            this.findDomain(el_list, se, text);
+        }
+        return ok(el_list);
     }
 
     mergeNodes(
@@ -102,31 +124,37 @@ export class Twitter extends Filter {
 
         const addBlock = (dn: ElementList) => {
             if (!dn.block) {
-                // if (isDevMode()) debugger;
                 return;
             }
             this.addClasses(dn.block, [`${MBFC}-domain-block`]);
-            // if (isDevMode()) debugger;
-            let story: Story;
-            story = {
+            const story: Story = {
                 domain: dn.domain,
                 parent: dn.block,
-                top: dn.block.children[0],
-                story: dn.block.children[1],
-                comments: dn.block.children[2],
+                hides: [],
                 count: -1,
                 ignored: false,
             };
-            story.report = story.top;
-            this.addClasses(story.top, [`${MBFC}-story-top`]);
-            this.addClasses(story.story, [`${MBFC}-story-story`]);
-            this.addClasses(story.comments, [`${MBFC}-story-comments`]);
+            Array.from(dn.block.children).forEach((e) => {
+                if (e.children.length === 0) return;
+                if (!story.top) story.top = e;
+                else {
+                    if (!story.report) story.report = e;
+                    story.hides.push(e);
+                }
+            });
             if (dn.title_span && dn.title_span.textContent)
                 story.tagsearch = dn.title_span.textContent;
             results.push(story);
         };
 
         domain_nodes.forEach((dn) => {
+            const pobj_nodes = object_nodes.filter(
+                (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
+            );
+            // Here we are flagging object_nodes that we are aware of that shouldn't be processed again
+            pobj_nodes.forEach((on) => {
+                on.used = true;
+            });
             // const ready = !!dn.domain && !!dn.domain.site;
             // const have_fburl = !!dn.sm_path;
 
@@ -166,11 +194,7 @@ export class Twitter extends Filter {
         object_nodes
             .filter((on) => !on.used)
             .forEach((on) => {
-                const res = this.getDomainFromTwitter(on);
-                if (res.isOk()) {
-                    on.domain = res.value;
-                    addBlock(on);
-                }
+                addBlock(on);
             });
         return results;
     }
@@ -183,12 +207,14 @@ export class Twitter extends Filter {
         const stories = this.getStoryNodes(
             nodes,
             QS_ARTICLES,
-            QS_DOMAIN_SEARCH
+            QS_DOMAIN_SEARCH,
+            QS_TWITTER_HANDLE
         );
         if (stories.isErr()) return;
         stories.value.forEach((story) => {
             if (story.ignored) return;
-            this.inject(story);
+            if (story.domain) story.domain.collapse = false;
+            this.inject(story, true);
         });
     }
 }

@@ -1,13 +1,5 @@
-import { get } from "lodash";
 import { err, ok, Result } from "neverthrow";
-import {
-    isDevMode,
-    AssociateSiteMessage,
-    getDomain,
-    logger,
-    CheckDomainResults,
-    getSiteFromUrl,
-} from "utils";
+import { isDevMode, AssociateSiteMessage, logger } from "utils";
 import {
     C_FOUND,
     ElementList,
@@ -58,42 +50,7 @@ export class Facebook extends Filter {
         return all.divCount > 3 && all.divCount <= 5 && all.otherCount == 0;
     }
 
-    getDomainFromFacebook(el: ElementList): Result<CheckDomainResults, null> {
-        if (this.sources.isOk()) {
-            return this.getDomainFromString(el, this.sources.value.fb_pages);
-        }
-        return err(null);
-    }
-
-    getDomainNode(e: Element, top_node: Element): Result<ElementList, null> {
-        if (!this.sources.isOk()) {
-            return err(null);
-        }
-        this.addClasses(e, [C_FOUND, `${MBFC}-domain-search`]);
-        let text;
-        if (e && e.textContent) {
-            text = e.textContent.toLowerCase().split(" ")[0];
-        }
-        const el_list = this.getResults(e, top_node);
-        let res = getSiteFromUrl(text);
-        if (res.isErr()) {
-            // Here we see if the domain span is a plain-text link rather than a domain name
-            const pe = e.parentElement?.parentElement;
-            if (!pe) return err(null);
-            const href = get(pe, "href");
-            if (href && href.startsWith("https://www.facebook")) {
-                const { path } = getDomain(href);
-                if (path === "/") {
-                    if (isDevMode()) debugger;
-                    return err(null);
-                }
-                el_list.sm_path = path.toLowerCase();
-                res = this.getDomainFromFacebook(el_list);
-                if (res.isErr()) {
-                    return err(null);
-                }
-            }
-        }
+    findBlock(el_list: ElementList) {
         let count = 0;
         let found = false;
         for (let i = el_list.items.length - 1; i >= 0; i--) {
@@ -109,11 +66,23 @@ export class Facebook extends Filter {
             }
             count++;
         }
+    }
+
+    getDomainNode(e: Element, top_node: Element): Result<ElementList, null> {
+        if (!this.sources.isOk()) {
+            return err(null);
+        }
+        this.addClasses(e, [C_FOUND, `${MBFC}-domain-search`]);
+        const el_list = this.getResults(e, top_node);
+        this.findBlock(el_list);
         if (el_list.block?.querySelector(QS_PROCESSED_SEARCH)) {
             return err(null);
         }
-        if (res.isOk()) el_list.domain = res.value;
-        el_list.domain_span = e;
+        if (e && e.textContent) {
+            const text = e.textContent.toLowerCase().split(" ")[0];
+            this.findDomain(el_list, e, text);
+            if (el_list.domain) el_list.domain_span = e;
+        }
         return ok(el_list);
     }
 
@@ -124,26 +93,14 @@ export class Facebook extends Filter {
         this.addClasses(e, [C_FOUND, `${MBFC}-object-search`]);
         const pe = e.parentElement?.parentElement;
         if (!pe) return err(null);
-        const href = get(pe, "href");
-        if (!href || !href.startsWith("http")) return err(null);
-        const { domain, path } = getDomain(href);
-        if (path === "/") {
-            if (isDevMode()) debugger;
+        const el_list = this.getResults(pe, top_node);
+        this.findBlock(el_list);
+        if (el_list.block?.querySelector(QS_PROCESSED_SEARCH)) {
             return err(null);
         }
-        const el = this.getResults(pe, top_node);
-        if (el.block?.querySelector(QS_PROCESSED_SEARCH)) {
-            return err(null);
-        }
-        if (domain.toLowerCase().indexOf("facebook") === -1) {
-            if (isDevMode()) debugger;
-            return err(null);
-        }
-        // DEBUG HERE
-        el.object = pe;
-        el.sm_path = path.toLowerCase();
-        el.object = pe;
-        return ok(el);
+        this.findDomain(el_list, pe);
+        if (el_list.domain) el_list.object = pe;
+        return ok(el_list);
     }
 
     mergeNodes(
@@ -154,42 +111,30 @@ export class Facebook extends Filter {
 
         const addBlock = (dn: ElementList) => {
             if (!dn.block) {
-                // debugger;
                 return;
             }
-            let story: Story;
-            if (dn.block.children.length === 3) {
-                story = {
-                    domain: dn.domain,
-                    parent: dn.block,
-                    top: dn.block.children[0],
-                    story: dn.block.children[1],
-                    comments: dn.block.children[2],
-                    count: -1,
-                    ignored: false,
-                };
-            } else {
-                story = {
-                    domain: dn.domain,
-                    parent: dn.block,
-                    top: dn.block.children[0],
-                    source: dn.block.children[1],
-                    story: dn.block.children[2],
-                    comments: dn.block.children[3],
-                    count: -1,
-                    ignored: false,
-                };
-            }
-            story.report = story.comments;
+            this.addClasses(dn.block, [`${MBFC}-domain-block`]);
+            const story: Story = {
+                domain: dn.domain,
+                parent: dn.block,
+                hides: [],
+                count: -1,
+                ignored: false,
+            };
+            Array.from(dn.block.children).forEach((e) => {
+                if (e.children.length === 0) return;
+                if (!story.top) story.top = e;
+                else {
+                    if (!story.report) story.report = e;
+                    story.hides.push(e);
+                }
+            });
             if (dn.title_span && dn.title_span.textContent)
                 story.tagsearch = dn.title_span.textContent;
             results.push(story);
         };
 
         domain_nodes.forEach((dn) => {
-            const ready = !!dn.domain && !!dn.domain.site;
-            const have_fburl = !!dn.sm_path;
-
             const pobj_nodes = object_nodes.filter(
                 (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
             );
@@ -198,26 +143,17 @@ export class Facebook extends Filter {
                 on.used = true;
             });
             const on = pobj_nodes.shift();
-            if (on && (!ready || !have_fburl)) {
-                const res = this.getDomainFromFacebook(on);
-                let ndomain: CheckDomainResults | undefined;
-                if (res.isOk()) {
-                    ndomain = res.value;
-                    log(`Found ${ndomain.final_domain} from ${on.sm_path}`);
+            if (on && on.domain) {
+                if (dn.domain?.site && on.internal_url && !dn.domain?.site.f) {
+                    debugger;
+                    new AssociateSiteMessage(
+                        dn.domain.site,
+                        on?.internal_url
+                    ).sendMessage();
                 }
-                if (ndomain) {
-                    if (!ready) dn.domain = ndomain;
-                    if (
-                        dn.domain &&
-                        dn.domain.site &&
-                        !have_fburl &&
-                        on.sm_path
-                    ) {
-                        new AssociateSiteMessage(
-                            dn.domain.site,
-                            on.sm_path
-                        ).sendMessage();
-                    }
+                if (!dn.domain) {
+                    log(`Using ${on.domain.final_domain}`);
+                    dn.domain = on.domain;
                 }
             }
             addBlock(dn);
@@ -226,11 +162,7 @@ export class Facebook extends Filter {
         object_nodes
             .filter((on) => !on.used)
             .forEach((on) => {
-                const res = this.getDomainFromFacebook(on);
-                if (res.isOk()) {
-                    on.domain = res.value;
-                    addBlock(on);
-                }
+                addBlock(on);
             });
         return results;
     }

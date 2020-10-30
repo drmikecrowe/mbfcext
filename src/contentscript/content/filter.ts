@@ -38,10 +38,8 @@ export interface Story {
     domain?: CheckDomainResults;
     parent: Element;
     report?: Element;
-    top: Element;
-    story: Element;
-    source?: Element;
-    comments: Element;
+    top?: Element;
+    hides: Element[];
     count: number;
     tagsearch?: string;
     ignored: boolean;
@@ -54,8 +52,8 @@ export interface ElementList {
     object?: Element;
     domain_span?: Element;
     title_span?: Element;
-    sm_path?: string;
     used: boolean;
+    internal_url?: string;
 }
 
 isDevMode();
@@ -161,10 +159,12 @@ export class Filter {
         }
     }
 
-    hideElement(el, count) {
+    storyClass(count: number): string {
+        return `${MBFC}-story-${count}`;
+    }
+
+    hideElement(el) {
         if (el && el.tagName !== "MBFC") {
-            const hide_class = `${MBFC}elh` + count;
-            this.addClasses(el, [hide_class]);
             el.style.display = "none";
         }
     }
@@ -193,10 +193,10 @@ export class Filter {
             el.style.display = hide ? "none" : "inherit";
         }
         const domain_class = `${MBFC}-${domain.replace(/\./g, "-")}`;
-        document.querySelectorAll(`.${domain_class}`).forEach((e) => {
-            if (hide) this.hideElement(e, count);
-            else this.showElement(e);
-        });
+        if (hide)
+            document.querySelectorAll(`.${domain_class}`).forEach((e) => {
+                this.hideElement(e);
+            });
     }
 
     reportSite(
@@ -284,35 +284,85 @@ export class Filter {
         );
     }
 
+    findDomain(el_list: ElementList, e?: Element, text_input?: string) {
+        if (text_input) {
+            const text = text_input.toLowerCase().split(" ")[0];
+            if (text.indexOf(".") > -1) {
+                const res = getSiteFromUrl(text);
+                if (res.isOk()) {
+                    el_list.domain = res.value;
+                    return;
+                }
+            }
+        }
+        if (!e) return;
+        // Here we see if the domain span is a plain-text link rather than a domain name
+        const pe = e.parentElement?.parentElement;
+        if (pe) {
+            const href = get(pe, "href");
+            if (href) {
+                this.findDomain(el_list, undefined, href);
+                if (el_list.domain) {
+                    el_list.internal_url = text_input;
+                }
+            }
+        }
+    }
+
     getHiddenDiv(site: ISource, count: number, collapse: boolean) {
         const hDiv = document.createElement("mbfc");
         hDiv.className = `mbfcext ${C_FOUND}`;
         hDiv.id = `mbfcext-hide-${count}`;
 
-        const span_id = `mbfcspan${count}`;
-        const icon_id = `mbfcicon${count}`;
-        const hide_class = `mbfc mbfc-hide-ctrl mbfc-hide-ctrl${count}`;
+        const story_class = this.storyClass(count);
+        const span_id = `${story_class}-span`;
+        const icon_id = `${story_class}-icon`;
+        const hide_classes = `mbfc mbfc-hide-ctrl mbfc-hide-ctrl${count}`;
         const iconHtml = icon(faEye, {
             attributes: {
                 id: icon_id,
                 "aria-hidden": "true",
             },
         }).html;
-        const inlineCode = `var count=${count};Array.prototype.filter.call(document.getElementsByClassName('${MBFC}elh'+count),function(e){if(e&&e.style){var t=document.getElementById('mbfcspan'+count),s=document.getElementById('mbfcicon'+count);'none'==e.style.display?(e.style.display='block',s.classList.remove('fa-eye'),s.classList.add('fa-eye-slash'),t.textContent=' Hide'):(e.style.display='none',s.classList.remove('fa-eye-slash'),s.classList.add('fa-eye'),t.textContent=' Show')}});"`;
-        const hide = `<div
-                class="${hide_class}"
+        const inlineCode = `
+            var icon=document.getElementById('${icon_id}'),
+                span=document.getElementById('${span_id}');
+            Array.from(document.getElementsByClassName('${story_class}')).forEach(function(e) {
+                if(e && e.style) {
+                    if (e.style.display === 'none') {
+                        e.style.display = 'block';
+                        icon.classList.remove('fa-eye');
+                        icon.classList.add('fa-eye-slash');
+                        span.textContent=' Hide'
+                    } else {
+                        e.style.display = 'none';
+                        icon.classList.remove('fa-eye-slash');
+                        icon.classList.add('fa-eye');
+                        span.textContent=' Show'
+                    }
+                }
+            });
+        `;
+        const hide = collapse
+            ? `<div
+                class="${hide_classes}"
                 style="cursor: pointer"
                 onclick="${inlineCode}">
                 ${iconHtml}
-                <span id="${span_id}"> ${
-            collapse ? "Show Anyway" : "Hide this story"
-        }</span>
-            </div>`;
+                <span id="${span_id}"> Show Anyway</span>
+            </div>`
+            : "";
         hDiv.innerHTML = hide;
         return hDiv;
     }
 
-    getReportDiv(site, count, tagsearch, collapse): Result<Element, null> {
+    getReportDiv(
+        site,
+        count,
+        tagsearch,
+        collapse,
+        embed = false
+    ): Result<Element, null> {
         if (this.config.isErr() || this.sources.isErr()) return err(null);
         const config = this.config.value;
         const biases = this.sources.value.biases;
@@ -367,7 +417,9 @@ export class Filter {
             },
         }).html;
         const inline_code = `el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='table-row'; } else { el.style.display='none'; }`;
-        const drop_down = `<td width="20px" align="center"><div
+        const drop_down = embed
+            ? ""
+            : `<td width="20px" align="center"><div
             class="mbfc-drop-down"
             onclick="${inline_code}">${cog}</div></td>`;
 
@@ -441,52 +493,6 @@ export class Filter {
         return ok(iDiv);
     }
 
-    inject(story: Story) {
-        if (!story.domain || !story.domain.site) {
-            return;
-        }
-        if (story.parent.querySelector(MBFC)) {
-            return;
-        }
-        const { site, collapse } = story.domain;
-        const iDiv = this.getReportDiv(
-            site,
-            this.count,
-            story.tagsearch,
-            collapse
-        );
-        if (iDiv.isErr()) {
-            log("ERROR: iDiv empty");
-            return;
-        }
-        this.addClasses(story.comments, [C_FOUND]);
-        if (story.report) story.parent.insertBefore(iDiv.value, story.report);
-        story.count = this.count;
-        this.addButtons(site.n, this.count);
-        const hDiv = this.getHiddenDiv(site, this.count, collapse);
-        story.parent.appendChild(hDiv);
-        this.count++;
-        const domain_class = `${MBFC}-${story.domain.final_domain.replace(
-            /\./g,
-            "-"
-        )}`;
-        this.addClasses(story.story, [domain_class, `${MBFC}-inject-story`]);
-        let sib = story.parent.querySelector("mbfc")?.nextSibling;
-        while (sib) {
-            if (sib && ["DIV", "MBFC"].indexOf((sib as Element).tagName) > -1)
-                this.addClasses(sib as Element, [
-                    domain_class,
-                    `${MBFC}-hide-sib`,
-                ]);
-            sib = sib.nextSibling;
-        }
-        if (collapse) {
-            story.parent.querySelectorAll(`.${domain_class}`).forEach((e) => {
-                this.hideElement(e, story.count);
-            });
-        }
-    }
-
     getResults(e: Element, top_node: Element): ElementList {
         const results: ElementList = {
             items: [e],
@@ -498,18 +504,6 @@ export class Filter {
             t = t?.parentElement;
         }
         return results;
-    }
-
-    getDomainFromString(
-        el: ElementList,
-        search: Record<string, string>
-    ): Result<CheckDomainResults, null> {
-        if (el.sm_path && search[el.sm_path]) {
-            const domain = search[el.sm_path];
-            const url = `https://${domain}`.toLowerCase();
-            return getSiteFromUrl(url);
-        }
-        return err(null);
     }
 
     getStoryNodes(
@@ -559,5 +553,49 @@ export class Filter {
             if (isDevMode()) debugger;
         }
         return err(null);
+    }
+
+    inject(story: Story, embed = false) {
+        if (!story.domain || !story.domain.site) {
+            return;
+        }
+        if (story.parent.querySelector(MBFC)) {
+            return;
+        }
+        story.count = this.count++;
+        const { site, collapse } = story.domain;
+        const iDiv = this.getReportDiv(
+            site,
+            story.count,
+            story.tagsearch,
+            collapse,
+            embed
+        );
+        if (iDiv.isErr()) {
+            log("ERROR: iDiv empty");
+            return;
+        }
+        if (story.report) story.parent.insertBefore(iDiv.value, story.report);
+        this.addButtons(site.n, story.count);
+        const hDiv = this.getHiddenDiv(site, story.count, collapse);
+        story.parent.appendChild(hDiv);
+        const domain_class = `${MBFC}-${story.domain.final_domain.replace(
+            /\./g,
+            "-"
+        )}`;
+        story.hides.forEach((e) => {
+            this.addClasses(e, [domain_class, this.storyClass(story.count)]);
+        });
+        if (collapse) {
+            story.hides.forEach((e) => {
+                this.hideElement(e);
+            });
+        }
+        this.reportSite(
+            story.domain.site,
+            story.domain.alias,
+            story.domain.baseUrl,
+            collapse
+        );
     }
 }
