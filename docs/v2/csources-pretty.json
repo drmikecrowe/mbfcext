@@ -1457,7 +1457,7 @@
         "d": "archaeology.org",
         "f": "archaeologymag",
         "t": "archaeologymag",
-        "n": "Archaelogy Magazine",
+        "n": "Archaeology Magazine",
         "P": "66",
         "r": "VH",
         "u": "archaeology-magazine"
@@ -21361,7 +21361,7 @@
         "u": "the-washington-reporter"
     },
     "thisisthezerohour.com": {
-        "b": "LC",
+        "b": "L",
         "d": "thisisthezerohour.com",
         "f": "zerohourrj",
         "t": "rjeskow",
@@ -21744,7 +21744,7 @@
         "t": "tlrd",
         "n": "Towleroad",
         "P": "88",
-        "r": "M",
+        "r": "H",
         "u": "towleroad"
     },
     "transparency.org": {
@@ -28432,5 +28432,29 @@
         "P": [],
         "r": "VL",
         "u": "eugenics-news"
+    },
+    "democracyjournal.org": {
+        "b": "L",
+        "d": "democracyjournal.org",
+        "n": "Democracy Journal",
+        "P": [],
+        "r": "H",
+        "u": "democracy-journal"
+    },
+    "riverregiontimes.com": {
+        "b": "FN",
+        "d": "riverregiontimes.com",
+        "n": "River Region Times",
+        "P": [],
+        "r": "M",
+        "u": "river-region-times"
+    },
+    "shoalstoday.com": {
+        "b": "FN",
+        "d": "shoalstoday.com",
+        "n": "Shoals Today",
+        "P": [],
+        "r": "M",
+        "u": "shoals-today"
     }
 }

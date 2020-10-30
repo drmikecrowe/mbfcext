@@ -2092,7 +2092,7 @@
         "h": "https://archaeology.org",
         "M": "60",
         "L": "151111",
-        "n": "Archaelogy Magazine",
+        "n": "Archaeology Magazine",
         "P": "66",
         "r": "VERY HIGH",
         "u": "https://mediabiasfactcheck.com/archaeology-magazine/",
@@ -30618,7 +30618,7 @@
         "p": "/"
     },
     "thisisthezerohour.com": {
-        "b": "left-center",
+        "b": "left",
         "d": "thisisthezerohour.com",
         "f": "https://facebook.com/zerohourrj",
         "t": "https://twitter.com/rjeskow",
@@ -31164,7 +31164,7 @@
         "L": "1078262",
         "n": "Towleroad",
         "P": "88",
-        "r": "MIXED",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/towleroad/",
         "p": "/"
     },
@@ -41042,6 +41042,42 @@
         "P": [],
         "r": "VERY LOW",
         "u": "https://mediabiasfactcheck.com/eugenics-news/",
+        "p": "/"
+    },
+    "democracyjournal.org": {
+        "b": "left",
+        "d": "democracyjournal.org",
+        "h": "https://democracyjournal.org",
+        "M": [],
+        "L": [],
+        "n": "Democracy Journal",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/democracy-journal/",
+        "p": "/"
+    },
+    "riverregiontimes.com": {
+        "b": "fake-news",
+        "d": "riverregiontimes.com",
+        "h": "https://riverregiontimes.com",
+        "M": [],
+        "L": [],
+        "n": "River Region Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/river-region-times/",
+        "p": "/"
+    },
+    "shoalstoday.com": {
+        "b": "fake-news",
+        "d": "shoalstoday.com",
+        "h": "https://shoalstoday.com",
+        "M": [],
+        "L": [],
+        "n": "Shoals Today",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/shoals-today/",
         "p": "/"
     }
 }
