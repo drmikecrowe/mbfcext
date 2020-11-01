@@ -8,7 +8,7 @@ const ExtensionReloader = require("webpack-extension-reloader");
 const FriendlyErrorsWebpackPlugin = require("friendly-errors-webpack-plugin");
 
 module.exports = merge(webpackConfig, {
-    devtool: "inline-source-map",
+    // devtool: "inline-source-map",
     mode: "development",
     plugins: [
         new FriendlyErrorsWebpackPlugin(),

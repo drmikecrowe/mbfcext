@@ -60,20 +60,10 @@ const webpackConfig = {
     optimization: {
         splitChunks: false,
     },
-    resolve: {
-        extensions: [".js", ".ts", ".tsx", ".json", ".sass", ".scss", ".vue"],
-        modules: [resolve("src"), resolve("node_modules")],
-        alias: {
-            src: resolve("src"),
-            lodash: "lodash-es",
-        },
-        plugins: [
-            new TsconfigPathsPlugin({
-                configFile: resolve("/tsconfig.json"),
-                extensions: [".ts", ".tsx", ".js", ".vue"],
-            }),
-        ],
-    },
+    // resolve: {
+    //     extensions: [".js", ".ts", ".tsx", ".json", ".sass", ".scss", ".vue"],
+    //     modules: [resolve("src"), resolve("node_modules")],
+    // },
     module: {
         rules: [
             {
@@ -140,6 +130,7 @@ const webpackConfig = {
             }),
         ],
         alias: {
+            src: resolve("src"),
             lodash: "lodash-es",
         },
     },
