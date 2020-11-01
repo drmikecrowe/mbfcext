@@ -8,6 +8,7 @@ const {
 const ZipPlugin = require("zip-webpack-plugin");
 
 const config = merge(webpackConfig, {
+    devtool: "none",
     mode: "production",
     resolve: {
         alias: {

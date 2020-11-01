@@ -11,8 +11,11 @@ const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const VueLoaderPlugin = require("vue-loader").VueLoaderPlugin;
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
     .BundleAnalyzerPlugin;
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 const isDev = process.env.NODE_ENV === "development";
+
+const postcssPresetEnv = require("postcss-preset-env");
 
 const target = process.env.TARGET || "chrome";
 const environment = process.env.NODE_ENV || "development";
@@ -40,6 +43,7 @@ function resolve(dir) {
 }
 
 const webpackConfig = {
+    node: false,
     entry: {
         background: resolve("src/background/index.ts"),
         facebook: resolve("src/contentscript/facebook.ts"),
@@ -60,22 +64,18 @@ const webpackConfig = {
     optimization: {
         splitChunks: false,
     },
-    // resolve: {
-    //     extensions: [".js", ".ts", ".tsx", ".json", ".sass", ".scss", ".vue"],
-    //     modules: [resolve("src"), resolve("node_modules")],
-    // },
     module: {
         rules: [
             {
                 test: /\.vue$/,
                 loader: "vue-loader",
-                // `vue-loader` options goes here
                 options: {
-                    // ...
-                    postcss: [require("postcss-cssnext")()],
+                    postcss: [postcssPresetEnv({ stage: 4 })],
+                    loaders: {
+                        ts: "babel-loader!ts-loader",
+                    },
                 },
             },
-            // Super thanks to https://stackoverflow.com/a/55234989
             {
                 test: /\.tsx?$/,
                 loader: "ts-loader",
@@ -150,6 +150,10 @@ const webpackConfig = {
             analyzerMode: "static",
             reportFilename: "/tmp/report.html",
         }),
+        new webpack.DefinePlugin({
+            global: "window", // Placeholder for global used in any node_modules
+        }),
+        new ForkTsCheckerWebpackPlugin(),
     ],
     // stats: "minimal",
 };
