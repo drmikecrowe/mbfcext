@@ -9,6 +9,8 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const GenerateJsonPlugin = require("generate-json-webpack-plugin");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const VueLoaderPlugin = require("vue-loader").VueLoaderPlugin;
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+    .BundleAnalyzerPlugin;
 
 const isDev = process.env.NODE_ENV === "development";
 
@@ -16,6 +18,7 @@ const target = process.env.TARGET || "chrome";
 const environment = process.env.NODE_ENV || "development";
 
 const manifestTemplate = JSON.parse(fs.readFileSync(resolve(`/manifest.json`)));
+
 const manifestOptions = {
     firefox: {
         applications: {
@@ -25,6 +28,7 @@ const manifestOptions = {
         },
     },
 };
+
 const manifest = Object.assign(
     {},
     manifestTemplate,
@@ -44,7 +48,10 @@ const webpackConfig = {
             resolve("src/options/index.ts"),
             resolve(`src/assets/${target}-options.css`),
         ],
-        popup: resolve("src/popup/index.ts"),
+        popup: [
+            resolve("src/popup/index.ts"),
+            resolve(`src/assets/${target}-popup.css`),
+        ],
     },
     output: {
         path: resolve(`build/${target}`),
@@ -71,7 +78,12 @@ const webpackConfig = {
         rules: [
             {
                 test: /\.vue$/,
-                use: "vue-loader",
+                loader: "vue-loader",
+                // `vue-loader` options goes here
+                options: {
+                    // ...
+                    postcss: [require("postcss-cssnext")()],
+                },
             },
             // Super thanks to https://stackoverflow.com/a/55234989
             {
@@ -85,7 +97,23 @@ const webpackConfig = {
             },
             {
                 test: /\.s?[ac]ss$/,
-                use: ["style-loader", "css-loader", "postcss-sass-loader"],
+                use: [
+                    "vue-style-loader",
+                    "style-loader",
+                    { loader: "css-loader", options: { importLoaders: 2 } },
+                    {
+                        loader: "postcss-loader",
+                        options: {
+                            postcssOptions: {
+                                config: "postcss.config.js",
+                            },
+                        },
+                    },
+                    {
+                        loader: "sass-loader",
+                        options: { sourceMap: true },
+                    },
+                ],
             },
             {
                 test: /\.md$/,
@@ -116,7 +144,6 @@ const webpackConfig = {
         },
     },
     plugins: [
-        require("tailwindcss"),
         new VueLoaderPlugin(),
         new CopyWepbackPlugin({
             patterns: [
@@ -128,8 +155,12 @@ const webpackConfig = {
         new webpack.DefinePlugin({
             "process.env": require(`../env/${environment}.env`),
         }),
+        new BundleAnalyzerPlugin({
+            analyzerMode: "static",
+            reportFilename: "/tmp/report.html",
+        }),
     ],
-    stats: "minimal",
+    // stats: "minimal",
 };
 
 module.exports = {

@@ -5,10 +5,10 @@ require("setup/font-awesome");
 require("setup/filters");
 require("tailwind");
 
-if (process.env.NODE_ENV === "development" && process.env.DEVTOOLS) {
-    const devtools = require("@vue/devtools");
-    devtools.connect();
-}
+// if (process.env.NODE_ENV === "development" && process.env.DEVTOOLS) {
+//     const devtools = require("@vue/devtools");
+//     devtools.connect();
+// }
 
 // ** Start Vue here ** //
 import App from "./app.vue";

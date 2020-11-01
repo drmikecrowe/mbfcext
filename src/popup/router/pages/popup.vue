@@ -12,7 +12,7 @@
         <div class="pt-3">
             <div v-if="rated">
                 <h1 class="p-0 pb-2">{{ bias }}</h1>
-                <p>{{ biasDescription }}</p>
+                <p class="text-sm">{{ biasDescription }}</p>
                 <a :href="mbfcLink" target="_blank" class="pt-2">
                     Read the Media Bias/Fact Check detailed report&nbsp;
                     <font-awesome-icon icon="angle-double-right" size="lg" />

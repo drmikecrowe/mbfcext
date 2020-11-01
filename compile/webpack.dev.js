@@ -6,10 +6,9 @@ const WriteFilePlugin = require("write-file-webpack-plugin");
 const ExtensionReloader = require("webpack-extension-reloader");
 // const DashboardPlugin = require("webpack-dashboard/plugin");
 const FriendlyErrorsWebpackPlugin = require("friendly-errors-webpack-plugin");
-// const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = merge(webpackConfig, {
-    devtool: "inline-ssource-map",
+    devtool: "inline-source-map",
     mode: "development",
     plugins: [
         new FriendlyErrorsWebpackPlugin(),
@@ -23,7 +22,6 @@ module.exports = merge(webpackConfig, {
         }),
         // new DashboardPlugin(),
         new WriteFilePlugin(),
-        // new BundleAnalyzerPlugin()
     ],
     output: {
         devtoolModuleFilenameTemplate: (info) => {
@@ -52,8 +50,8 @@ module.exports = merge(webpackConfig, {
     },
     watch: true,
     devServer: {
-        stats: "minimal",
-        quiet: true,
+        // stats: "minimal",
+        // quiet: true,
         watchContentBase: true,
         watchOptions: {
             poll: true,

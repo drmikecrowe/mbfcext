@@ -1,9 +1,9 @@
-import { icon } from "@fortawesome/fontawesome-svg-core";
+import { icon } from "@fortawesome/fontawesome-svg-core/";
 import { faEye } from "@fortawesome/free-regular-svg-icons/faEye";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons/faAngleDoubleDown";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import debug from "debug";
-import { get, isEmpty } from "lodash";
+import { get, isEmpty } from "lodash-es";
 import { err, ok, Result } from "neverthrow";
 import {
     AssociateSiteMessage,

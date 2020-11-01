@@ -1,6 +1,10 @@
 // tailwind.config.js
 module.exports = {
     important: true,
+    future: {
+        removeDeprecatedGapUtilities: true,
+        purgeLayersByDefault: true,
+    },
     theme: {
         customForms: (theme) => ({
             default: {

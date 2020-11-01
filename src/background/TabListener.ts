@@ -1,4 +1,4 @@
-import { zip } from "lodash";
+import { zip } from "lodash-es";
 import { browser, checkDomain, getDomain, logger } from "utils";
 import { getCurrentTab, getSiteFromUrl } from "utils/tabUtils";
 const log = logger("mbfc:background:TabListener");

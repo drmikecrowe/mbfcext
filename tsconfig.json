@@ -12,7 +12,8 @@
         "moduleResolution": "node",
         "noImplicitAny": false,
         "paths": {
-            "*": ["./src/*"]
+            "*": ["./src/*"],
+            "lodash/*": ["node_modules/@types/lodash-es/*"]
         },
         "rootDir": ".",
         "sourceMap": true,

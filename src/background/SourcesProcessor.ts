@@ -1,4 +1,4 @@
-import { keys } from "lodash";
+import { keys } from "lodash-es";
 import { COMBINED, ISources, logger, UpdatedSourcesMessage } from "utils";
 import { fetch as fetchPolyfill } from "whatwg-fetch";
 import { getDomain } from "utils/getDomain";

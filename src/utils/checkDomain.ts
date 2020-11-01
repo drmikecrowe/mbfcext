@@ -1,4 +1,4 @@
-import { get } from "lodash";
+import { get } from "lodash-es";
 import { err, ok, Result } from "neverthrow";
 import { ConfigHandler, ISource, logger, SourcesHandler } from "utils";
 import { StorageToOptions, ERporting } from "utils/StorageHandler";
