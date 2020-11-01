@@ -1,6 +1,4 @@
-const debug = require("debug")("webpack:dev");
-const inspect = require("util").inspect;
-const merge = require("webpack-merge");
+const { merge } = require("webpack-merge");
 const { resolve, webpackConfig } = require("./webpack.common.js");
 const WriteFilePlugin = require("write-file-webpack-plugin");
 const ExtensionReloader = require("webpack-extension-reloader");

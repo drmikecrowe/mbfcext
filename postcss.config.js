@@ -1,3 +1,5 @@
+const postcssPresetEnv = require("postcss-preset-env");
+
 const purgecss = require("@fullhuman/postcss-purgecss")({
     content: ["./public/**/*.html", "./src/**/*.vue"],
     defaultExtractor: (content) => {
@@ -22,23 +24,7 @@ module.exports = {
     plugins: [
         require("postcss-import"),
         require("tailwindcss"),
-        require("autoprefixer"),
-        require("cssnano")({
-            preset: "default",
-        }),
+        postcssPresetEnv({ stage: 1 }),
         ...[purgecss],
-        // purgecss({
-        //   content: [
-        //     "./public/**/*.html",
-        //     "./public/**/*.css",
-        //     "./src/**/*.vue",
-        //     "./src/**/*.html",
-        //     "./src/**/*.css",
-        //     "./src/**/*.scss",
-        //     "./src/**/*.sass",
-        //     "./src/**/*.ts",
-        //   ],
-        //   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-        // }),
     ],
 };

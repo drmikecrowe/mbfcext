@@ -12,10 +12,9 @@ const VueLoaderPlugin = require("vue-loader").VueLoaderPlugin;
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
     .BundleAnalyzerPlugin;
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+const postcssPresetEnv = require("postcss-preset-env");
 
 const isDev = process.env.NODE_ENV === "development";
-
-const postcssPresetEnv = require("postcss-preset-env");
 
 const target = process.env.TARGET || "chrome";
 const environment = process.env.NODE_ENV || "development";
@@ -68,11 +67,11 @@ const webpackConfig = {
         rules: [
             {
                 test: /\.vue$/,
+                exclude: /node_modules/,
                 loader: "vue-loader",
                 options: {
-                    postcss: [postcssPresetEnv({ stage: 4 })],
                     loaders: {
-                        ts: "babel-loader!ts-loader",
+                        scss: "vue-style-loader!css-loader!sass-loader",
                     },
                 },
             },
