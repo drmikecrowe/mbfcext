@@ -9,8 +9,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const GenerateJsonPlugin = require("generate-json-webpack-plugin");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const VueLoaderPlugin = require("vue-loader").VueLoaderPlugin;
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-    .BundleAnalyzerPlugin;
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 const isDev = process.env.NODE_ENV === "development";
@@ -69,12 +67,12 @@ const webpackConfig = {
             {
                 test: /\.vue$/,
                 loader: "vue-loader",
-                options: {
-                    postcss: [postcssPresetEnv({ stage: 4 })],
-                    loaders: {
-                        ts: "babel-loader!ts-loader",
-                    },
-                },
+                // options: {
+                //     postcss: [postcssPresetEnv({ stage: 4 })],
+                //     loaders: {
+                //         ts: "babel-loader!ts-loader",
+                //     },
+                // },
             },
             {
                 test: /\.tsx?$/,
@@ -119,6 +117,10 @@ const webpackConfig = {
                     },
                 ],
             },
+            {
+                test: /\.(svg|eot|woff|woff2|ttf)$/,
+                use: ["file-loader"],
+            },
         ],
     },
     resolve: {
@@ -145,12 +147,6 @@ const webpackConfig = {
         new MiniCssExtractPlugin(),
         new webpack.DefinePlugin({
             "process.env": require(`../env/${environment}.env`),
-        }),
-        new BundleAnalyzerPlugin({
-            analyzerMode: "static",
-            reportFilename: "/tmp/report.html",
-        }),
-        new webpack.DefinePlugin({
             global: "window", // Placeholder for global used in any node_modules
         }),
         new ForkTsCheckerWebpackPlugin(),
