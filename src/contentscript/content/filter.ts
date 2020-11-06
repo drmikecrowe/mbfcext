@@ -1,9 +1,7 @@
-import { icon } from "@fortawesome/fontawesome-svg-core/";
-import { faEye } from "@fortawesome/free-regular-svg-icons/faEye";
-import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons/faAngleDoubleDown";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import debug from "debug";
-import { get, isEmpty } from "lodash-es";
+import get from "lodash/get";
+import set from "lodash/set";
+import isEmpty from "lodash/isEmpty";
 import { err, ok, Result } from "neverthrow";
 import {
     AssociateSiteMessage,
@@ -26,6 +24,9 @@ import { ISource } from "utils/definitions";
 import { messageUtil } from "utils/messages/messageUtil";
 import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
 import { SourcesHandler } from "utils/SourcesHandler";
+import { icon, faEye } from "setup/font-awesome";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
+import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons/faAngleDoubleDown";
 
 export const MBFC = "mbfc";
 export const C_URL = "https://mediabiasfactcheck.com/";
@@ -318,12 +319,7 @@ export class Filter {
         const span_id = `${story_class}-span`;
         const icon_id = `${story_class}-icon`;
         const hide_classes = `mbfc mbfc-hide-ctrl mbfc-hide-ctrl${count}`;
-        const iconHtml = icon(faEye, {
-            attributes: {
-                id: icon_id,
-                "aria-hidden": "true",
-            },
-        }).html;
+        const iconHtml = icon(faEye).html;
         const inlineCode = `
             var icon=document.getElementById('${icon_id}'),
                 span=document.getElementById('${span_id}');
@@ -352,7 +348,7 @@ export class Filter {
                 <span id="${span_id}"> Show Anyway</span>
             </div>`
             : "";
-        hDiv.innerHTML = hide;
+        set(hDiv, "innerHTML", hide);
         return hDiv;
     }
 
@@ -374,7 +370,8 @@ export class Filter {
 
         const mtype = biasShortToName[site.b];
 
-        const external_link = `&nbsp;${icon(faExternalLinkAlt).html}`;
+        const iconHtml = icon(faExternalLinkAlt).html;
+        const external_link = `&nbsp;${iconHtml}`;
 
         const hide = get(config, site.d) || collapse;
         const prompt = hide ? "show" : "hide";
@@ -411,11 +408,7 @@ export class Filter {
             </a>`
         );
 
-        const cog = icon(faAngleDoubleDown, {
-            attributes: {
-                "aria-hidden": "true",
-            },
-        }).html;
+        const cog = icon(faAngleDoubleDown).html;
         const inline_code = `el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='table-row'; } else { el.style.display='none'; }`;
         const drop_down = embed
             ? ""
@@ -489,7 +482,7 @@ export class Filter {
 </div>
 `;
 
-        iDiv.innerHTML = table;
+        set(iDiv, "innerHTML", table);
         return ok(iDiv);
     }
 

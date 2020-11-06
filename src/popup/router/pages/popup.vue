@@ -3,7 +3,10 @@
         <div class="absolute top-0 right-0">
             <div class="p-1">
                 <a href="#" title="Configuration" @click="options">
-                    <font-awesome-icon class="float-right" icon="cog" />
+                    <FontAwesomeIcon
+                        class="float-right"
+                        :icon="faCog.iconName"
+                    />
                 </a>
             </div>
         </div>
@@ -15,7 +18,10 @@
                 <p class="text-sm">{{ biasDescription }}</p>
                 <a :href="mbfcLink" target="_blank" class="pt-2">
                     Read the Media Bias/Fact Check detailed report&nbsp;
-                    <font-awesome-icon icon="angle-double-right" size="lg" />
+                    <FontAwesomeIcon
+                        :icon="faAngleDoubleRight.iconName"
+                        size="lg"
+                    />
                 </a>
             </div>
             <div v-else>
@@ -30,7 +36,7 @@
                     class="pt-2"
                 >
                     Media Bias/Fact Check Website &nbsp;
-                    <font-awesome-icon icon="angle-double-right" size="lg" />
+                    <FontAwesomeIcon icon="{faAngleDoubleRight}" size="lg" />
                 </a>
             </div>
         </div>
@@ -40,7 +46,6 @@
 <script lang="ts">
 import Vue from "vue";
 import Component from "vue-class-component";
-import get from "lodash/get";
 import {
     biasShortToName,
     browser,
@@ -56,12 +61,7 @@ import {
     UpdatedConfigMessage,
     UpdatedSourcesMessage,
 } from "utils";
-
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons/faAngleDoubleRight";
-import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
-
-library.add(faAngleDoubleRight, faCog);
+import { faCog, faAngleDoubleRight } from "setup/font-awesome";
 
 const log = logger("mbfc:vue:popup");
 
@@ -71,6 +71,8 @@ export default class Popup extends Vue {
     biasDescription = "";
     mbfcLink = "";
     rated = false;
+    faCog = faCog;
+    faAngleDoubleRight = faAngleDoubleRight;
 
     data() {
         this.updateData().then(() => {

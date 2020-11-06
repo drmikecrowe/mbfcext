@@ -1,4 +1,4 @@
-import { set } from "lodash-es";
+import set from "lodash/set";
 import OptionsSync, { Options } from "webext-options-sync";
 import {
     browser,

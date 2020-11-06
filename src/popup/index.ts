@@ -1,9 +1,12 @@
+import { FontAwesomeIcon } from "setup/font-awesome";
 import Vue from "vue";
 
 require("setup/webextension-polyfill");
 require("setup/font-awesome");
 require("setup/filters");
 require("tailwind");
+
+Vue.component("FontAwesomeIcon", FontAwesomeIcon);
 
 // if (process.env.NODE_ENV === "development" && process.env.DEVTOOLS) {
 //     const devtools = require("@vue/devtools");
