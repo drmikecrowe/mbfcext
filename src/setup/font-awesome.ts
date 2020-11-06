@@ -1,10 +1,24 @@
-import Vue from "vue";
-
-// ** Include Font Awesome Icons here ** //
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-
-Vue.component("FontAwesomeIcon", FontAwesomeIcon);
-
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { icon, library } from "@fortawesome/fontawesome-svg-core";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
-library.add(faCog);
+import { faEye } from "@fortawesome/free-regular-svg-icons/faEye";
+import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons/faAngleDoubleDown";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
+import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons/faAngleDoubleRight";
+library.add(
+    faCog,
+    faEye,
+    faAngleDoubleDown,
+    faExternalLinkAlt,
+    faAngleDoubleRight
+);
+
+export {
+    icon,
+    faCog,
+    faEye,
+    faAngleDoubleDown,
+    faExternalLinkAlt,
+    faAngleDoubleRight,
+    FontAwesomeIcon,
+};

@@ -15,7 +15,10 @@ import Component from "vue-class-component";
 import OptionsSync from "webext-options-sync";
 import { DefaultCollapse, Collapse, logger } from "utils";
 import VueFormGenerator from "vue-form-generator/dist/vfg-core.js";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
 Vue.use(VueFormGenerator);
+Vue.component("FontAwesomeIcon", FontAwesomeIcon);
 
 const MyOptions = new OptionsSync({ defaults: DefaultCollapse as any });
 

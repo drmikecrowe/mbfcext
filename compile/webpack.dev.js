@@ -2,8 +2,10 @@ const { merge } = require("webpack-merge");
 const { resolve, webpackConfig } = require("./webpack.common.js");
 const WriteFilePlugin = require("write-file-webpack-plugin");
 const ExtensionReloader = require("webpack-extension-reloader");
-// const DashboardPlugin = require("webpack-dashboard/plugin");
+const DashboardPlugin = require("webpack-dashboard/plugin");
 const FriendlyErrorsWebpackPlugin = require("friendly-errors-webpack-plugin");
+
+var dashboard = new DashboardPlugin();
 
 module.exports = merge(webpackConfig, {
     // devtool: "inline-source-map",
@@ -18,7 +20,7 @@ module.exports = merge(webpackConfig, {
                 contentScript: ["facebook", "twitter"],
             },
         }),
-        // new DashboardPlugin(),
+        new DashboardPlugin(dashboard.setData),
         new WriteFilePlugin(),
     ],
     output: {
@@ -49,7 +51,7 @@ module.exports = merge(webpackConfig, {
     watch: true,
     devServer: {
         // stats: "minimal",
-        // quiet: true,
+        quiet: true,
         watchContentBase: true,
         watchOptions: {
             poll: true,

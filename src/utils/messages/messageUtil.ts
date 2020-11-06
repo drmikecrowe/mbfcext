@@ -5,7 +5,7 @@ import { logger } from "utils";
  * @see https://github.com/Lusito/forget-me-not
  */
 import { browser, Runtime } from "webextension-polyfill-ts";
-import { get } from "lodash-es";
+import get from "lodash/get";
 const log = logger("mbfc:messages");
 
 // This file contains communication helpers
