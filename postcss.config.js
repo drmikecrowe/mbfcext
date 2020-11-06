@@ -23,7 +23,7 @@ module.exports = {
     syntax: "postcss-scss",
     plugins: [
         require("postcss-import"),
-        require("tailwindcss"),
+        require("tailwindcss")(__dirname + "/tailwind.conf.js"),
         postcssPresetEnv({ stage: 1 }),
         ...[purgecss],
     ],
