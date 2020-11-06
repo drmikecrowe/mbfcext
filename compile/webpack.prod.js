@@ -7,9 +7,9 @@ const {
 } = require("./webpack.common.js");
 const webpack = require("webpack");
 const TerserPlugin = require("terser-webpack-plugin");
-const ZipPlugin = require("zip-webpack-plugin");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
     .BundleAnalyzerPlugin;
+const FileManagerPlugin = require("filemanager-webpack-plugin");
 
 const config = merge(webpackConfig, {
     devtool: false,
@@ -21,17 +21,21 @@ const config = merge(webpackConfig, {
     plugins: [
         new BundleAnalyzerPlugin({
             analyzerMode: "static",
+            generateStatsFile: true,
             reportFilename: "/tmp/report.html",
         }),
-        new ZipPlugin({
-            path: resolve("build"),
-            filename: `${target}-${pkgJson.name}-${pkgJson.version}.zip`,
+        new FileManagerPlugin({
+            events: {
+                onEnd: {
+                    archive: [
+                        {
+                            source: `build/${target}/`,
+                            destination: `build/${target}-${pkgJson.name}-${pkgJson.version}.zip`,
+                        },
+                    ],
+                },
+            },
         }),
-        // new webpack.LoaderOptionsPlugin({
-        //     minimize: true,
-        //     debug: false,
-        // }),
-        // new TerserPlugin(),
     ],
 });
 
