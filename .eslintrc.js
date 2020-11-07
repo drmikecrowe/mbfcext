@@ -1,32 +1,41 @@
 module.exports = {
-    root: true,
     env: {
         browser: true,
         es6: true,
         node: true,
     },
     extends: [
-        "eslint:recommended",
-        // typescript
+        // 'eslint:recommended',
+        // // typescript
+        // 'plugin:@typescript-eslint/eslint-recommended',
+        // 'plugin:@typescript-eslint/recommended',
+        // // vue
+        // // "plugin:vue/vue3-recommended",
+        // // "@vue/prettier",
+        // // "@vue/prettier/@typescript-eslint",
+        // // prettier
+        // 'prettier/@typescript-eslint', // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
+        // 'plugin:prettier/recommended', // Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
+        // also
+
+        "plugin:react/recommended",
+        "airbnb",
+        "plugin:prettier/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
-        // vue
-        "plugin:vue/vue3-recommended",
-        "@vue/prettier",
-        "@vue/prettier/@typescript-eslint",
-        // prettier
-        "prettier/@typescript-eslint", // Uses eslint-config-prettier to disable ESLint rules from @typescript-eslint/eslint-plugin that would conflict with prettier
-        "plugin:prettier/recommended", // Enables eslint-plugin-prettier and eslint-config-prettier. This will display prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
     ],
-    // parser: "@typescript-eslint/parser",
-    parser: "vue-eslint-parser",
+    parser: "@typescript-eslint/parser",
+    // parser: "vue-eslint-parser",
     parserOptions: {
         parser: "@typescript-eslint/parser",
-        //     project: "tsconfig.json",
-        //     ecmaVersion: 2018,
-        //     sourceType: "module",
+        // project: 'tsconfig.json',
+        ecmaVersion: 2018,
+        sourceType: "module",
+        ecmaFeatures: {
+            jsx: true,
+        },
     },
-    plugins: ["@typescript-eslint"],
+    plugins: ["@typescript-eslint", "react", "local"],
     rules: {
         "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
         "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
@@ -109,7 +118,7 @@ module.exports = {
         // '@typescript-eslint/unified-signatures': 'error',
         // 'arrow-parens': ['off', 'always'],
         // 'brace-style': ['off', 'off'],
-        // camelcase: 'error',
+        camelcase: "off",
         // 'comma-dangle': 'off',
         // complexity: 'off',
         // 'constructor-super': 'error',
@@ -132,6 +141,9 @@ module.exports = {
         // 'import/no-extraneous-dependencies': 'off',
         // 'import/no-internal-modules': 'off',
         // 'import/order': 'off',
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "import/prefer-default-export": "off",
         // 'jsdoc/check-alignment': 'error',
         // 'jsdoc/check-indentation': 'error',
         // 'jsdoc/newline-after-description': 'error',
@@ -148,6 +160,87 @@ module.exports = {
         // 'no-duplicate-case': 'error',
         // 'no-duplicate-imports': 'error',
         "no-empty": "off",
-        "vue/component-tags-order": "off",
+        // "vue/component-tags-order": "off",
+
+        // test
+
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+
+        // final?
+        "react/jsx-boolean-value": "error",
+        "react/jsx-closing-bracket-location": "error",
+        "react/jsx-closing-tag-location": "error",
+        "react/jsx-curly-brace-presence": "error",
+        "react/jsx-curly-newline": "error",
+        "react/jsx-curly-spacing": "error",
+        "react/jsx-equals-spacing": "error",
+        "react/jsx-first-prop-new-line": "error",
+        "react/jsx-fragments": "error",
+        "react/jsx-max-props-per-line": "error",
+        "react/jsx-no-useless-fragment": "error",
+        "react/jsx-one-expression-per-line": "error",
+        "react/jsx-props-no-multi-spaces": "error",
+        "react/jsx-sort-props": "error",
+        "react/jsx-tag-spacing": "error",
+        "react/no-unknown-property": "off",
+        "react/jsx-wrap-multilines": [
+            "error",
+            {
+                declaration: "parens-new-line",
+                assignment: "parens-new-line",
+                return: "parens-new-line",
+                arrow: "ignore",
+                condition: "ignore",
+                logical: "ignore",
+                prop: "ignore",
+            },
+        ],
+
+        // malevic
+        "react/prop-types": "off",
+        "react/jsx-indent-props": [2, 4],
+        "react/jsx-indent": [2, 4],
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [
+            1,
+            { extensions: [".js", ".jsx", ".ts", ".tsx"] },
+        ],
+        "jsx-quotes": ["error", "prefer-double"],
+    },
+
+    overrides: [
+        {
+            files: ["**/*.tsx"],
+            rules: {
+                "local/jsx-uses-m-pragma": "error",
+                "local/jsx-uses-vars": "error",
+            },
+        },
+    ],
+
+    settings: {
+        react: {
+            createClass: "createReactClass", // Regex for Component Factory to use,
+            // default to "createReactClass"
+            pragma: "React", // Pragma to use, default to "React"
+            fragment: "Fragment", // Fragment to use (may be a property of <pragma>), default to "Fragment"
+            version: "16.0", // React version. "detect" automatically picks the version you have installed.
+            // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
+            // default to latest and warns if missing
+            // It will default to "detect" in the future
+            flowVersion: "0.53", // Flow version
+        },
+        propWrapperFunctions: [
+            // The names of any function used to wrap propTypes, e.g. `forbidExtraProps`. If this isn't set, any propTypes wrapped in a function will be skipped.
+            "forbidExtraProps",
+            { property: "freeze", object: "Object" },
+            { property: "myFavoriteWrapper" },
+        ],
+        linkComponents: [
+            // Components used as alternatives to <a> for linking, eg. <Link to={ url } />
+            "Hyperlink",
+            { name: "Link", linkAttribute: "to" },
+        ],
     },
 };

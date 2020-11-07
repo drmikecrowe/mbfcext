@@ -1,16 +1,18 @@
+const webpack = require("webpack");
 const { merge } = require("webpack-merge");
-const { resolve, webpackConfig } = require("./webpack.common.js");
+const { webpackConfig } = require("./webpack.common.js");
 const WriteFilePlugin = require("write-file-webpack-plugin");
 const ExtensionReloader = require("webpack-extension-reloader");
-const DashboardPlugin = require("webpack-dashboard/plugin");
 const FriendlyErrorsWebpackPlugin = require("friendly-errors-webpack-plugin");
 
-var dashboard = new DashboardPlugin();
-
 module.exports = merge(webpackConfig, {
-    // devtool: "inline-source-map",
+    devtool: "eval-source-map",
     mode: "development",
     plugins: [
+        new webpack.EnvironmentPlugin({
+            NODE_ENV: "development",
+            DEBUG: "mbfc",
+        }),
         new FriendlyErrorsWebpackPlugin(),
         new ExtensionReloader({
             reloadPage: true, // Force the reload of the page also
@@ -20,28 +22,27 @@ module.exports = merge(webpackConfig, {
                 contentScript: ["facebook", "twitter"],
             },
         }),
-        new DashboardPlugin(dashboard.setData),
         new WriteFilePlugin(),
     ],
     output: {
-        devtoolModuleFilenameTemplate: (info) => {
-            let $filename = "sources://" + info.resourcePath;
-            // console.log(info);
-            if (
-                (info.resourcePath.match(/\.vue$/) &&
-                    !info.query.match(/type=script/)) ||
-                `${info.moduleId}` !== ``
-            ) {
-                $filename =
-                    "webpack-generated:///" +
-                    info.resourcePath +
-                    "?" +
-                    info.hash;
-            }
-            return $filename;
-        },
-        devtoolFallbackModuleFilenameTemplate:
-            "webpack:///[resource-path]?[hash]",
+        // devtoolModuleFilenameTemplate: (info) => {
+        //     let $filename = "sources://" + info.resourcePath;
+        //     console.log(info);
+        //     if (
+        //         (info.resourcePath.match(/\.vue$/) &&
+        //             !info.query.match(/type=script/)) ||
+        //         `${info.moduleId}` !== ``
+        //     ) {
+        //         $filename =
+        //             "webpack-generated:///" +
+        //             info.resourcePath +
+        //             "?" +
+        //             info.hash;
+        //     }
+        //     return $filename;
+        // },
+        // devtoolFallbackModuleFilenameTemplate:
+        //     "webpack:///[resource-path]?[hash]",
     },
     resolve: {
         alias: {

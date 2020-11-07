@@ -32,7 +32,13 @@ const manifestOptions = {
 const manifest = Object.assign(
     {},
     manifestTemplate,
-    target === "firefox" ? manifestOptions.firefox : {}
+    target === "firefox" ? manifestOptions.firefox : {},
+    environment === "development"
+        ? {
+              content_security_policy:
+                  "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
+          }
+        : {}
 );
 
 function resolve(dir) {
@@ -41,17 +47,25 @@ function resolve(dir) {
 
 const webpackConfig = {
     node: false,
+    resolve: {
+        fallback: {
+            global: false,
+        },
+    },
+    target: "web",
     entry: {
         background: resolve("src/background/index.ts"),
         facebook: resolve("src/contentscript/facebook.ts"),
         twitter: resolve("src/contentscript/twitter.ts"),
         options: [
             resolve("src/options/index.ts"),
-            resolve(`src/assets/${target}-options.css`),
+            resolve(`src/assets/options.scss`),
+            resolve(`src/assets/${target}-options.scss`),
         ],
         popup: [
             resolve("src/popup/index.ts"),
-            resolve(`src/assets/${target}-popup.css`),
+            resolve(`src/assets/popup.scss`),
+            resolve(`src/assets/${target}-popup.scss`),
         ],
     },
     output: {
@@ -124,7 +138,7 @@ const webpackConfig = {
         ],
     },
     resolve: {
-        extensions: [".ts", ".tsx", ".js", ".vue"],
+        extensions: [".ts", ".tsx", ".js", ".vue", ".mjs"],
         plugins: [
             new TsconfigPathsPlugin({
                 configFile: resolve("/tsconfig.json"),

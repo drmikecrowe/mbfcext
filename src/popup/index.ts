@@ -1,24 +1,5 @@
-import { FontAwesomeIcon } from "setup/font-awesome";
-import Vue from "vue";
+import "utils";
+import "setup/webextension-polyfill";
+import "setup/filters";
 
-require("setup/webextension-polyfill");
-require("setup/font-awesome");
-require("setup/filters");
-require("tailwind");
-
-Vue.component("FontAwesomeIcon", FontAwesomeIcon);
-
-// if (process.env.NODE_ENV === "development" && process.env.DEVTOOLS) {
-//     const devtools = require("@vue/devtools");
-//     devtools.connect();
-// }
-
-// ** Start Vue here ** //
-import App from "./app.vue";
-import router from "./router";
-Vue.component("App", App);
-new Vue({
-    el: "#app",
-    router,
-    render: (h) => h(App),
-});
+import "./popup";
