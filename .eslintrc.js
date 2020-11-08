@@ -161,6 +161,9 @@ module.exports = {
         // 'no-duplicate-imports': 'error',
         "no-empty": "off",
         // "vue/component-tags-order": "off",
+        "import/no-extraneous-dependencies": "off",
+        "class-methods-use-this": "off",
+        "lines-between-class-members": "off",
 
         // test
 
@@ -209,6 +212,7 @@ module.exports = {
         "jsx-quotes": ["error", "prefer-double"],
     },
 
+    // malevic
     overrides: [
         {
             files: ["**/*.tsx"],

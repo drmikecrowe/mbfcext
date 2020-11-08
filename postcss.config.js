@@ -1,7 +1,8 @@
+/* eslint-disable global-require */
 const postcssPresetEnv = require("postcss-preset-env");
 
 const purgecss = require("@fullhuman/postcss-purgecss")({
-    content: ["./public/**/*.html", "./src/**/*.vue"],
+    content: ["./public/**/*.html", "./src/**/*.tsx"],
     defaultExtractor: (content) => {
         const contentWithoutStyleBlocks = content.replace(
             /<style[^]+?<\/style>/gi,
@@ -19,11 +20,12 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
         /^router-link(|-exact)-active$/,
     ],
 });
+
 module.exports = {
     syntax: "postcss-scss",
     plugins: [
         require("postcss-import"),
-        require("tailwindcss")(__dirname + "/tailwind.conf.js"),
+        require("tailwindcss")(`${__dirname}/tailwind.conf.js`),
         postcssPresetEnv({ stage: 1 }),
         ...[purgecss],
     ],

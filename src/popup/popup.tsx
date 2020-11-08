@@ -1,4 +1,4 @@
-import "tailwind";
+import "assets/tailwind.scss";
 import { m } from "malevic";
 import { sync } from "malevic/dom";
 import { browser, Button, Icon } from "utils";

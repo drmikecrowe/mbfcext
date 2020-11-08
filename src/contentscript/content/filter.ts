@@ -189,7 +189,7 @@ export class Filter {
         log(domain, button.attributes["data-collapse"].value, hide);
         log(`Ignoring ${text}/${domain}`);
         new HideSiteMessage(domain).sendMessage();
-        const el = document.getElementById("mbfcext" + count);
+        const el = document.getElementById(`mbfcext${count}`);
         if (el) {
             el.style.display = hide ? "none" : "inherit";
         }
@@ -251,7 +251,7 @@ export class Filter {
 
     addButtons(text, count) {
         this.waitForElementToDisplay(
-            ".toolbar-button1-" + count,
+            `.toolbar-button1-${count}`,
             500,
             (button) => {
                 button.addEventListener(
@@ -262,7 +262,7 @@ export class Filter {
             }
         );
         this.waitForElementToDisplay(
-            ".toolbar-button2-" + count,
+            `.toolbar-button2-${count}`,
             500,
             (button) => {
                 button.addEventListener(
@@ -273,7 +273,7 @@ export class Filter {
             }
         );
         this.waitForElementToDisplay(
-            ".toolbar-button3-" + count,
+            `.toolbar-button3-${count}`,
             500,
             (button) => {
                 button.addEventListener(
@@ -361,8 +361,8 @@ export class Filter {
     ): Result<Element, null> {
         if (this.config.isErr() || this.sources.isErr()) return err(null);
         const config = this.config.value;
-        const biases = this.sources.value.biases;
-        const reporting = this.sources.value.reporting;
+        const { biases } = this.sources.value;
+        const { reporting } = this.sources.value;
 
         const iDiv = document.createElement("mbfc");
         iDiv.className = `mbfcext ${C_FOUND} ${C_REPORT_DIV}`;
