@@ -28,9 +28,11 @@ const tabs = [
     },
 ];
 
-const Tab = ({ forId, text, icon, activeTab, activate }): Element => {
+const Tab = ({ forId, text, icon, activate }): Element => {
+    const { next, getStore, leave } = getContext();
+    const store = getStore({ currentTab: tabs[0].id });
     const id = `tab-${forId}`;
-    const active = activeTab === forId;
+    const active = store.currentTab === forId;
     const baseClasses =
         "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal";
     const activeClasses = "text-white bg-blue-600";
@@ -38,6 +40,8 @@ const Tab = ({ forId, text, icon, activeTab, activate }): Element => {
     const cls = `${baseClasses} ${active ? activeClasses : inactiveClasses}`;
     const { node } = getContext();
     const e = document.getElementById(id);
+    console.log("node", node);
+    console.log("e", e);
     if (node && e) {
         const toRemove = active
             ? inactiveClasses.split(" ")
@@ -47,10 +51,14 @@ const Tab = ({ forId, text, icon, activeTab, activate }): Element => {
             : inactiveClasses.split(" ");
         toRemove.forEach((c) => e.children[0].classList.remove(c));
         toAdd.forEach((c) => e.children[0].classList.add(c));
-        return e;
+        return leave();
     }
     return (
-        <li class="-mb-px mr-2 last:mr-0 flex-auto text-center" id={id}>
+        <li
+            key={id}
+            class="-mb-px mr-2 last:mr-0 flex-auto text-center"
+            id={id}
+        >
             <a class={cls} href="#" onclick={activate}>
                 {icon}
                 &nbsp;
@@ -71,8 +79,7 @@ const TabContent = ({ id, activeTab }, ...children) => {
 
 const Tabs = () => {
     const context = getContext();
-    const { getStore } = context;
-    const store = getStore({ currentTab: tabs[0].id });
+    const store = context.getStore({ currentTab: tabs[0].id });
     return (
         <div class="flex flex-wrap" id="tabs-id">
             <div class="w-full">
@@ -83,7 +90,6 @@ const Tabs = () => {
                                 store.currentTab = tab.id;
                                 context.refresh();
                             }}
-                            activeTab={store.currentTab}
                             forId={tab.id}
                             icon={tab.icon}
                             text={tab.name}
