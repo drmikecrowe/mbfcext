@@ -1,5 +1,10 @@
 import { m } from "malevic";
 
+const AboutText = require("./About.md");
+
 export const About = (): Element => {
-    return <h1>About!</h1>;
+    const parser = new DOMParser();
+    const newNode = parser.parseFromString(AboutText, "text/html");
+
+    return <div>{newNode.body.firstElementChild}</div>;
 };

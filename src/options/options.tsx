@@ -11,56 +11,46 @@ const tabs = [
     {
         id: "settings",
         name: "Settings",
-        icon: <Icon icon={faCog} />,
+        icon: faCog,
         component: <Config />,
     },
     {
         id: "release-notes",
         name: "Release Notes",
-        icon: <Icon icon={faCog} />,
+        icon: faCog,
         component: <ReleaseNotes />,
     },
     {
         id: "about",
         name: "About",
-        icon: <Icon icon={faCog} />,
+        icon: faCog,
         component: <About />,
     },
 ];
 
-const Tab = ({ forId, text, icon, activate }): Element => {
-    const { next, getStore, leave } = getContext();
-    const store = getStore({ currentTab: tabs[0].id });
-    const id = `tab-${forId}`;
-    const active = store.currentTab === forId;
+const Tab = ({ forId, text, icon, activate, activeTab }): Element => {
+    const { node } = getContext();
+    const tabId = `tab-${forId}`;
+    const aId = `a-${forId}`;
+    const active = activeTab === forId;
     const baseClasses =
         "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal";
-    const activeClasses = "text-white bg-blue-600";
-    const inactiveClasses = "text-blue-600 bg-white";
+    const activeClasses = `${baseClasses} text-white bg-blue-600`;
+    const inactiveClasses = `${baseClasses} text-blue-600 bg-white`;
     const cls = `${baseClasses} ${active ? activeClasses : inactiveClasses}`;
-    const { node } = getContext();
-    const e = document.getElementById(id);
-    console.log("node", node);
-    console.log("e", e);
-    if (node && e) {
-        const toRemove = active
-            ? inactiveClasses.split(" ")
-            : activeClasses.split(" ");
-        const toAdd = active
-            ? activeClasses.split(" ")
-            : inactiveClasses.split(" ");
-        toRemove.forEach((c) => e.children[0].classList.remove(c));
-        toAdd.forEach((c) => e.children[0].classList.add(c));
-        return leave();
+    if (node) {
+        const a: Element = node.children[0];
+        a.childNodes.forEach((c) => a.removeChild(c));
     }
+    console.log(activeTab, tabId, cls);
     return (
         <li
-            key={id}
+            key={tabId}
             class="-mb-px mr-2 last:mr-0 flex-auto text-center"
-            id={id}
+            id={tabId}
         >
-            <a class={cls} href="#" onclick={activate}>
-                {icon}
+            <a key={aId} class={cls} href="#" onclick={activate}>
+                <Icon icon={icon} />
                 &nbsp;
                 {text}
             </a>
@@ -90,6 +80,7 @@ const Tabs = () => {
                                 store.currentTab = tab.id;
                                 context.refresh();
                             }}
+                            activeTab={store.currentTab}
                             forId={tab.id}
                             icon={tab.icon}
                             text={tab.name}
