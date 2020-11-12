@@ -42,7 +42,6 @@ const Tab = ({ forId, text, icon, activate, activeTab }): Element => {
         const a: Element = node.children[0];
         a.childNodes.forEach((c) => a.removeChild(c));
     }
-    console.log(activeTab, tabId, cls);
     return (
         <li
             key={tabId}
