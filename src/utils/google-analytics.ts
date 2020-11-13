@@ -8,6 +8,7 @@ import {
     logger,
     StorageHandler,
 } from "utils";
+
 const log = logger("mbfc:utils:google-analytics");
 
 export class GoogleAnalytics {

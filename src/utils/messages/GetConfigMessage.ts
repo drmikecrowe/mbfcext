@@ -4,6 +4,7 @@ import {
     UpdatedConfigMessage,
     UpdatedSourcesMessage,
 } from "utils";
+
 const log = logger("mbfc:messages:GetConfigMessage");
 
 export class GetConfigMessage {

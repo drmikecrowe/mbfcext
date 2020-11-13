@@ -37,7 +37,10 @@ const manifest = Object.assign(
               content_security_policy:
                   "script-src 'self' 'unsafe-eval' https://www.google-analytics.com; object-src 'self'",
           }
-        : {}
+        : {
+              content_security_policy:
+                  "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+          }
 );
 
 function resolve(dir) {
@@ -133,7 +136,6 @@ const webpackConfig = {
         ],
         alias: {
             src: resolve("src"),
-            lodash: "lodash-es",
         },
     },
     plugins: [

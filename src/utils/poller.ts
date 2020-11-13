@@ -1,6 +1,7 @@
-import { ConfigHandler, DateFilter, logger } from "utils";
+import { ConfigHandler, logger } from "utils";
 import { Alarms, browser } from "webextension-polyfill-ts";
 import { StorageHandler } from "utils/StorageHandler";
+
 const log = logger("mbfc:utils:poller");
 
 type PollFunction = () => void;
@@ -33,17 +34,17 @@ export class Poller {
                 Poller.instance.runtimeOnMessage(request, sender)
             );
 
-            (async () => {
-                const alarms = await browser.alarms.getAll();
-                for (const alarm of alarms) {
-                    log(
-                        `${alarm.name} is present with period of ${alarm.periodInMinutes} minutes and fire at`,
-                        DateFilter(alarm.scheduledTime)
-                    );
-                }
-            })().catch((err) => {
-                console.error(err);
-            });
+            // (async () => {
+            //     const alarms = await browser.alarms.getAll();
+            //     for (const alarm of alarms) {
+            //         log(
+            //             `${alarm.name} is present with period of ${alarm.periodInMinutes} minutes and fire at`,
+            //             DateFilter(alarm.scheduledTime)
+            //         );
+            //     }
+            // })().catch((err) => {
+            //     console.error(err);
+            // });
         }
         return Poller.instance;
     }
@@ -58,8 +59,8 @@ export class Poller {
     async alarmsOnAlarm(alarm: Alarms.Alarm) {
         // if watchdog is triggered, check whether refresh alarm is there
         if (alarm && alarm.name === "watchdog") {
-            const alarm = await browser.alarms.get("refresh");
-            if (alarm) {
+            const alm = await browser.alarms.get("refresh");
+            if (alm) {
                 log("Refresh alarm exists.");
             } else {
                 // if it is not there, start a new request and reschedule refresh alarm
@@ -79,17 +80,18 @@ export class Poller {
     }
 
     runtimeOnMessage(request: any, sender: any): Promise<any> | void {
-        if (request.type == "refresh") {
+        if (request.type === "refresh") {
             log(`Manual Refresh fired.`);
             return this.startRequest();
         }
+        return Promise.resolve();
     }
 
     // schedule a new fetch every 30 minutes
     async scheduleRequest() {
-        const _config = ConfigHandler.getInstance().config;
-        if (_config.isErr()) return;
-        const config = _config.value;
+        const cfg = ConfigHandler.getInstance().config;
+        if (cfg.isErr()) return;
+        const config = cfg.value;
         log(`schedule refresh alarm to ${config.pollMinutes} minutes...`);
         browser.alarms.create("refresh", {
             periodInMinutes: config.pollMinutes,
@@ -104,9 +106,9 @@ export class Poller {
 
     // fetch data and save to local storage
     async startRequest() {
-        const _config = ConfigHandler.getInstance().config;
-        if (_config.isErr()) return;
-        const config = _config.value;
+        const cfg = ConfigHandler.getInstance().config;
+        if (cfg.isErr()) return;
+        const config = cfg.value;
 
         if (typeof this.pollFunction === "function") {
             log("polling extensions...");

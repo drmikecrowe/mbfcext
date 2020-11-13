@@ -1,6 +1,7 @@
 import { err, ok, Result } from "neverthrow";
 import { ISources, logger } from "utils";
 import { messageUtil, UpdatedSourcesMessage } from "./messages";
+
 const log = logger("mbfc:utils:SourcesHandler");
 
 export class SourcesHandler {

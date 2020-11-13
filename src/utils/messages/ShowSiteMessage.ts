@@ -1,5 +1,6 @@
-import { GoogleAnalytics, ISource, messageUtil } from "..";
 import { logger } from "utils";
+import { GoogleAnalytics, ISource, messageUtil } from "..";
+
 const log = logger("mbfc:messages:ShowSiteMessage");
 
 export class ShowSiteMessage {

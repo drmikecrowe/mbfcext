@@ -9,6 +9,7 @@ import {
     ShowSiteMessage,
     StartThanksMessage,
 } from "utils";
+
 const log = logger("mbfc:background:messages");
 
 export class MessageProcessor {

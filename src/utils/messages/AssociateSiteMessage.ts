@@ -1,8 +1,7 @@
-import { ISource } from "../definitions";
-import { GoogleAnalytics } from "utils";
+import { GoogleAnalytics, messageUtil, logger } from "utils";
 
-import { messageUtil } from "utils";
-import { logger } from "utils";
+import { ISource } from "../definitions";
+
 const log = logger("mbfc:messages:AssociateSiteMessage");
 
 export class AssociateSiteMessage {

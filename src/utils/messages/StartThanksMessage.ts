@@ -1,6 +1,7 @@
+import { GoogleAnalytics, logger } from "utils";
+
 import { messageUtil } from ".";
-import { GoogleAnalytics } from "utils";
-import { logger } from "utils";
+
 const log = logger("mbfc:messages:StartThanksMessage");
 
 export class StartThanksMessage {

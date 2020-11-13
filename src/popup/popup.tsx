@@ -1,8 +1,8 @@
 import "assets/tailwind.scss";
 import { m } from "malevic";
 import { sync } from "malevic/dom";
-import { browser, Button, Icon } from "utils";
-import { faCog, faAngleDoubleRight } from "setup/font-awesome";
+import { browser, Button } from "utils";
+import { faCog, faAngleDoubleRight } from "utils/elements/font-awesome";
 import { InfoHandler } from "./InfoHandler";
 
 function Rated({ bias, biasDescription, mbfcLink }) {
@@ -12,7 +12,7 @@ function Rated({ bias, biasDescription, mbfcLink }) {
             <p class="text-sm">{biasDescription}</p>
             <a class="pt-2" href={mbfcLink} rel="noreferrer" target="_blank">
                 Read the Media Bias/Fact Check detailed report&nbsp;
-                <Icon icon={faAngleDoubleRight} />
+                <faAngleDoubleRight />
             </a>
         </div>
     );
@@ -33,7 +33,7 @@ function Unrated() {
                 target="_blank"
             >
                 Media Bias/Fact Check Website &nbsp;
-                <Icon icon={faAngleDoubleRight} />
+                <faAngleDoubleRight />
             </a>
         </div>
     );
@@ -54,7 +54,7 @@ const main = async () => {
                         <Button
                             handler={() => browser.runtime.openOptionsPage()}
                         >
-                            <Icon icon={faCog} />
+                            <faCog />
                         </Button>
                     </div>
                 </div>

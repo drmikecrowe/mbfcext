@@ -1,14 +1,13 @@
 {
   "name": "facebook-media-bias-and-fact-check-extension",
   "description": "Curate Facebook with MBFC news categorizations",
-  "version": "3.0.0",
+  "version": "3.0.0=alpha1",
   "author": "Mike Crowe <drmikecrowe@gmail.com>",
   "browserslist": [
     "last 2 versions",
     "> 1%"
   ],
   "bugs": "https://github.com/drmikecrowe/mbfcext/issues",
-  "dependencies": {},
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
@@ -103,6 +102,7 @@
     "terser-webpack-plugin": "^5.0.3",
     "ts-json-schema-generator": "^0.77.0",
     "ts-loader": "^8.0.9",
+    "ts-node": "^9.0.0",
     "tsconfig-paths-webpack-plugin": "^3.3.0",
     "tslib": "^2.0.3",
     "typescript": "~4.0.5",
@@ -139,7 +139,7 @@
     "dist": "npm run lint && cross-env NODE_ENV=production npm run chrome:prod && cross-env NODE_ENV=production npm run opera:prod && cross-env NODE_ENV=production npm run firefox:prod",
     "firefox:dev": "cross-env TARGET=firefox npm run webpack:dev",
     "firefox:prod": "cross-env TARGET=firefox npm run webpack",
-    "lint": "eslint --ext .ts,.js .",
+    "lint": "eslint --ext .ts,.js src/",
     "lint:fix": "prettier-eslint \"$(pwd)/src/**/*.ts*\" \"$(pwd)/src/**/*.css\" --write",
     "opera:dev": "cross-env TARGET=opera npm run webpack:dev",
     "opera:prod": "cross-env TARGET=opera npm run webpack",
@@ -148,5 +148,8 @@
     "webpack": "rimraf build/${TARGET} && node --trace-deprecation ./node_modules/webpack/bin/webpack.js --config compile/webpack.prod.js",
     "webpack:dev": "node $NODE_DEBUG ./node_modules/webpack/bin/webpack.js --config compile/webpack.dev.js --watch",
     "webpack:dev:dashboard": "webpack-dashboard -- npm run webpack:dev"
+  },
+  "lint-staged": {
+    "*.{ts,js}": "eslint --cache --fix"
   }
 }

@@ -13,8 +13,7 @@
         "moduleResolution": "node",
         "noImplicitAny": false,
         "paths": {
-            "*": ["./src/*"],
-            "lodash/*": ["node_modules/@types/lodash-es/*"]
+            "*": ["./src/*"]
         },
         "rootDir": ".",
         "sourceMap": true,

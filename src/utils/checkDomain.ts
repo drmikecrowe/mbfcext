@@ -81,7 +81,7 @@ export const checkDomain = (
     if (_check(sources.aliases[domain], true, false)) return ok(ret);
     const elements = domain.split(".");
     let next_domain = elements.pop();
-    next_domain = elements.pop() + "." + next_domain;
+    next_domain = `${elements.pop()}.${next_domain}`;
     if (_check(next_domain, false, true)) return ok(ret);
     ret.unknown = true;
     return ok(ret);

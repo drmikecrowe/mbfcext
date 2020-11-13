@@ -1,4 +1,5 @@
 import { ConfigHandler, IConfig, logger, messageUtil } from "utils";
+
 const log = logger("mbfc:messages:UpdatedConfigMessage");
 
 export class UpdatedConfigMessage {

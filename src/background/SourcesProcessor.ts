@@ -2,6 +2,7 @@ import keys from "lodash/keys";
 import { COMBINED, ISources, logger, UpdatedSourcesMessage } from "utils";
 import { fetch as fetchPolyfill } from "whatwg-fetch";
 import { getDomain } from "utils/getDomain";
+
 const log = logger("mbfc:background:sources");
 
 export class SourcesProcessor {
@@ -70,9 +71,9 @@ export class SourcesProcessor {
                 this.setSource(key, combined[key])
             );
             if (!this.sources.biases["left-center"]) {
-                this.sources.biases["left-center"] = this.sources.biases[
-                    "leftcenter"
-                ];
+                this.sources.biases[
+                    "left-center"
+                ] = this.sources.biases.leftcenter;
             }
             log("Extracting facebook and twitter domains");
             Object.keys(this.sources.sources).forEach((domain) =>

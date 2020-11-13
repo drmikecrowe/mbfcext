@@ -24,9 +24,11 @@ import { ISource } from "utils/definitions";
 import { messageUtil } from "utils/messages/messageUtil";
 import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
 import { SourcesHandler } from "utils/SourcesHandler";
-import { icon, faEye } from "setup/font-awesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
-import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons/faAngleDoubleDown";
+import {
+    faAngleDoubleDown,
+    faExternalLinkAlt,
+    faEye,
+} from "utils/elements/font-awesome";
 
 export const MBFC = "mbfc";
 export const C_URL = "https://mediabiasfactcheck.com/";
@@ -166,13 +168,13 @@ export class Filter {
 
     hideElement(el) {
         if (el && el.tagName !== "MBFC") {
-            el.style.display = "none";
+            set(el, "style.display", "none");
         }
     }
 
     showElement(el) {
         if (el) {
-            el.style.display = "inherit";
+            set(el, "style.display", "inherit");
         }
     }
 
@@ -243,7 +245,7 @@ export class Filter {
     openRequestedPopup() {
         new StartThanksMessage().sendMessage();
         this.windowObjectReference = window.open(
-            "https://patreon.com/solvedbymike",
+            "https://paypal.me/drmikecrowe",
             "DescriptiveWindowName",
             "resizable,scrollbars,status"
         );
@@ -291,7 +293,7 @@ export class Filter {
             if (text.indexOf(".") > -1) {
                 const res = getSiteFromUrl(text);
                 if (res.isOk()) {
-                    el_list.domain = res.value;
+                    set(el_list, "domain", res.value);
                     return;
                 }
             }
@@ -304,7 +306,7 @@ export class Filter {
             if (href) {
                 this.findDomain(el_list, undefined, href);
                 if (el_list.domain) {
-                    el_list.internal_url = text_input;
+                    set(el_list, "internal_url", text_input);
                 }
             }
         }
@@ -319,7 +321,6 @@ export class Filter {
         const span_id = `${story_class}-span`;
         const icon_id = `${story_class}-icon`;
         const hide_classes = `mbfc mbfc-hide-ctrl mbfc-hide-ctrl${count}`;
-        const iconHtml = icon(faEye).html;
         const inlineCode = `
             var icon=document.getElementById('${icon_id}'),
                 span=document.getElementById('${span_id}');
@@ -344,7 +345,7 @@ export class Filter {
                 class="${hide_classes}"
                 style="cursor: pointer"
                 onclick="${inlineCode}">
-                ${iconHtml}
+                ${faEye}
                 <span id="${span_id}"> Show Anyway</span>
             </div>`
             : "";
@@ -370,8 +371,7 @@ export class Filter {
 
         const mtype = biasShortToName[site.b];
 
-        const iconHtml = icon(faExternalLinkAlt).html;
-        const external_link = `&nbsp;${iconHtml}`;
+        const external_link = `&nbsp;${faExternalLinkAlt}`;
 
         const hide = get(config, site.d) || collapse;
         const prompt = hide ? "show" : "hide";
@@ -379,7 +379,7 @@ export class Filter {
         const toolbar = `<div>
             <button id="toolbar-button1-${count}" class="mbfc-drop-down mbfc-button-success mbfc-right-spacer toolbar-button1-${count}" data-domain="${site.d}" data-collapse="${prompt}">Always ${prompt} ${site.n}</button><span class="spacer">&nbsp;</span>
             <button class="mbfc-drop-down mbfc-button-warning toolbar-button3-${count}">Reset Hidden Sites</button>
-            <button style="float: right;" class="mbfc-drop-down mbfc-button-secondary toolbar-button2-${count}">Say Thanks</button>
+            <button style="float: right; margin-right: 20px;" class="mbfc-drop-down mbfc-button-secondary toolbar-button2-${count}">Say Thanks</button>
         </div>`;
 
         const bias_display = biases[mtype].name.replace(/ Bias(ed)?/, "");
@@ -408,13 +408,12 @@ export class Filter {
             </a>`
         );
 
-        const cog = icon(faAngleDoubleDown).html;
         const inline_code = `el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='table-row'; } else { el.style.display='none'; }`;
         const drop_down = embed
             ? ""
             : `<td width="20px" align="center"><div
             class="mbfc-drop-down"
-            onclick="${inline_code}">${cog}</div></td>`;
+            onclick="${inline_code}">${faAngleDoubleDown}</div></td>`;
 
         const buildNormalColumns = () => {
             const tdl = mtype === "left" ? bias_link : "&nbsp;";
@@ -541,7 +540,7 @@ export class Filter {
                 });
             }
             return ok(results);
-        } catch (err) {
+        } catch (err1) {
             // ignore
             if (isDevMode()) debugger;
         }
@@ -555,7 +554,8 @@ export class Filter {
         if (story.parent.querySelector(MBFC)) {
             return;
         }
-        story.count = this.count++;
+        set(story, "count", this.count);
+        this.count += 1;
         const { site, collapse } = story.domain;
         const iDiv = this.getReportDiv(
             site,

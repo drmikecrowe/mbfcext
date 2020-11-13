@@ -1,4 +1,5 @@
 import { ConfigHandler, logger, messageUtil, StorageHandler } from "utils";
+
 const log = logger("mbfc:messages:ResetIgnoredMessage");
 
 export class ResetIgnoredMessage {

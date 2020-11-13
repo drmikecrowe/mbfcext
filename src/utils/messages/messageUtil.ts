@@ -6,6 +6,7 @@ import { logger } from "utils";
  */
 import { browser, Runtime } from "webextension-polyfill-ts";
 import get from "lodash/get";
+
 const log = logger("mbfc:messages");
 
 // This file contains communication helpers

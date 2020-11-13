@@ -13,5 +13,5 @@ export const DateFilter = (value) => {
         year: "numeric",
         hour: "2-digit",
         minute: "2-digit",
-    }); //if you want, you can change locale date string
+    }); // if you want, you can change locale date string
 };

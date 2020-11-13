@@ -1,6 +1,6 @@
-import { messageUtil } from "utils";
+import { messageUtil, logger } from "utils";
 import { GoogleAnalytics } from "../google-analytics";
-import { logger } from "utils";
+
 const log = logger("mbfc:messages:ReportUnknownMessage");
 
 export class ReportUnknownMessage {

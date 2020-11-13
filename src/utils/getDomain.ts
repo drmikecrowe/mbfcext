@@ -2,10 +2,11 @@
 // const log = logger("mbfc:utils:getDomain");
 
 export const getDomain = (url: string) => {
-    let hn, p;
+    let hn;
+    let p;
     try {
         if (url.indexOf(".") > -1) {
-            if (!url.startsWith("http")) url = "https://" + url;
+            if (!url.startsWith("http")) url = `https://${url}`;
             hn = new URL(url).hostname;
             if (hn) hn = hn.match(/(www[0-9]?\.)?(.+)/i)[2];
             p = new URL(url).pathname;

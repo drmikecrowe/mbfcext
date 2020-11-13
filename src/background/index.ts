@@ -5,12 +5,13 @@ import {
     Poller,
     StorageHandler,
 } from "utils";
-import { MessageProcessor } from "./MessageProcessor";
-import { SourcesProcessor } from "./SourcesProcessor";
-import { TabListener } from "./TabListener";
 import { SourcesHandler } from "utils/SourcesHandler";
 import { ConfigHandler } from "utils/ConfigHandler";
 import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+import { MessageProcessor } from "./MessageProcessor";
+import { SourcesProcessor } from "./SourcesProcessor";
+import { TabListener } from "./TabListener";
+
 const log = logger("mbfc:background:index");
 
 async function polling() {

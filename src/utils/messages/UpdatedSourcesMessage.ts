@@ -1,8 +1,9 @@
-import { ISources, messageUtil } from "..";
 import { logger } from "utils";
-const log = logger("mbfc:messages:UpdatedSourcesMessage");
 
 import { SourcesProcessor } from "background/SourcesProcessor";
+import { ISources, messageUtil } from "..";
+
+const log = logger("mbfc:messages:UpdatedSourcesMessage");
 
 export class UpdatedSourcesMessage {
     static method = "UpdatedSourcesMessageMethod";

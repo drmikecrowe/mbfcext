@@ -7,8 +7,8 @@ const {
 } = require("./webpack.common.js");
 const webpack = require("webpack");
 const TerserPlugin = require("terser-webpack-plugin");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-    .BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+//     .BundleAnalyzerPlugin;
 const FileManagerPlugin = require("filemanager-webpack-plugin");
 
 const config = merge(webpackConfig, {
@@ -19,11 +19,11 @@ const config = merge(webpackConfig, {
         minimize: false,
     },
     plugins: [
-        new BundleAnalyzerPlugin({
-            analyzerMode: "static",
-            generateStatsFile: true,
-            reportFilename: "/tmp/report.html",
-        }),
+        // new BundleAnalyzerPlugin({
+        //     analyzerMode: "static",
+        //     generateStatsFile: true,
+        //     reportFilename: "/tmp/report.html",
+        // }),
         new FileManagerPlugin({
             events: {
                 onEnd: {
