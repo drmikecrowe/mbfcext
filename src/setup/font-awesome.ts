@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { icon, library, dom } from "@fortawesome/fontawesome-svg-core";
 import { faCog } from "@fortawesome/free-solid-svg-icons/faCog";
 import { faEye } from "@fortawesome/free-regular-svg-icons/faEye";
+import { faBook } from "@fortawesome/free-solid-svg-icons/faBook";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons/faAngleDoubleDown";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons/faAngleDoubleRight";
@@ -9,6 +9,7 @@ import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons/faAngleDou
 library.add(
     faCog,
     faEye,
+    faBook,
     faAngleDoubleDown,
     faExternalLinkAlt,
     faAngleDoubleRight
@@ -19,8 +20,8 @@ export {
     icon,
     faCog,
     faEye,
+    faBook,
     faAngleDoubleDown,
     faExternalLinkAlt,
     faAngleDoubleRight,
-    FontAwesomeIcon,
 };

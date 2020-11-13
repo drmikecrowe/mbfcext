@@ -1,30 +1,23 @@
 import "assets/tailwind.scss";
 import { m } from "malevic";
 import { sync, getContext } from "malevic/umd/dom";
-import { faCog } from "setup/font-awesome";
+import { faBook, faCog } from "setup/font-awesome";
 import { Icon } from "utils";
 import { Config } from "./config";
 import { ReleaseNotes } from "./releaseNotes";
-import { About } from "./about";
 
 const tabs = [
+    {
+        id: "release-notes",
+        name: "Release Notes",
+        icon: faBook,
+        component: <ReleaseNotes />,
+    },
     {
         id: "settings",
         name: "Settings",
         icon: faCog,
         component: <Config />,
-    },
-    {
-        id: "release-notes",
-        name: "Release Notes",
-        icon: faCog,
-        component: <ReleaseNotes />,
-    },
-    {
-        id: "about",
-        name: "About",
-        icon: faCog,
-        component: <About />,
     },
 ];
 
@@ -68,7 +61,8 @@ const TabContent = ({ id, activeTab }, ...children) => {
 
 const Tabs = () => {
     const context = getContext();
-    const store = context.getStore({ currentTab: tabs[0].id });
+    const { getStore } = context;
+    const store = getStore({ currentTab: tabs[0].id });
     return (
         <div class="flex flex-wrap" id="tabs-id">
             <div class="w-full">

@@ -8,7 +8,6 @@ const CopyWepbackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const GenerateJsonPlugin = require("generate-json-webpack-plugin");
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
-const VueLoaderPlugin = require("vue-loader").VueLoaderPlugin;
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const postcssPresetEnv = require("postcss-preset-env");
 
@@ -78,29 +77,16 @@ const webpackConfig = {
     module: {
         rules: [
             {
-                test: /\.vue$/,
-                exclude: /node_modules/,
-                loader: "vue-loader",
-                // options: {
-                //     postcss: [postcssPresetEnv({ stage: 4 })],
-                //     loaders: {
-                //         ts: "babel-loader!ts-loader",
-                //     },
-                // },
-            },
-            {
                 test: /\.tsx?$/,
                 loader: "ts-loader",
                 exclude: /node_modules/,
                 options: {
                     transpileOnly: isDev,
-                    appendTsSuffixTo: [/\.vue$/],
                 },
             },
             {
                 test: /\.s?[ac]ss$/,
                 use: [
-                    "vue-style-loader",
                     "style-loader",
                     { loader: "css-loader", options: { importLoaders: 2 } },
                     {
@@ -138,11 +124,11 @@ const webpackConfig = {
         ],
     },
     resolve: {
-        extensions: [".ts", ".tsx", ".js", ".vue", ".mjs"],
+        extensions: [".ts", ".tsx", ".js", ".mjs"],
         plugins: [
             new TsconfigPathsPlugin({
                 configFile: resolve("/tsconfig.json"),
-                extensions: [".ts", ".tsx", ".js", ".vue"],
+                extensions: [".ts", ".tsx", ".js"],
             }),
         ],
         alias: {
@@ -151,7 +137,6 @@ const webpackConfig = {
         },
     },
     plugins: [
-        new VueLoaderPlugin(),
         new CopyWepbackPlugin({
             patterns: [
                 { from: resolve("public"), to: resolve(`build/${target}`) },

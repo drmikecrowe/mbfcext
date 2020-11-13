@@ -44,11 +44,6 @@ module.exports = merge(webpackConfig, {
         // devtoolFallbackModuleFilenameTemplate:
         //     "webpack:///[resource-path]?[hash]",
     },
-    resolve: {
-        alias: {
-            vue$: "vue/dist/vue.esm.js",
-        },
-    },
     watch: true,
     devServer: {
         // stats: "minimal",
