@@ -1,0 +1,10 @@
+{
+  "marker": "mbfcfound",
+  "not": ":not(.mbfcfound)",
+  "data_node_search": "[role=\"article\"] ._1dwg:not(.mbfcfound)",
+  "ellipse_placement": "._3x-2:not(.mbfcfound)",
+  "fb_page_search": "._5x46 a.lfloat._ohe:not(.mbfcfound)",
+  "collapse_search": "._5x46:not(.mbfcfound)",
+  "ellipses_search": ".ellipsis:not(.mbfcfound)",
+  "profile_search": "a.profileLink:not(.mbfcfound)"
+}

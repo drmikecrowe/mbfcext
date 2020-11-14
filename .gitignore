@@ -1,8 +1,32 @@
-node_modules
-temp
-.tmp
-dist
-.sass-cache
-.DS_Store
-build
-.eslintcache
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+MBFCext.sublime-*
+MBFCext*zip
+git-old
+my_crawler/*.json
+my_crawler/.scrapy
+MBFCext/extension/aliases.json
+MBFCext/extension/biases.json
+MBFCext/extension/config.json
+MBFCext/extension/sources.json
+*.pyc
+my_crawler/shelf.dat
+/docs/_site/
+.credentials
+.credentials.ini
+venv/
+filtered_search
+process/valid.export
+.vscode
+docker-compose.yml
+etc/
+volumes/
+old/
+node_modules/
