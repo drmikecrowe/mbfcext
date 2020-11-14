@@ -8,27 +8,28 @@ disqus: mbfcext
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 
 # Setup
-description:         'Homepage of the Official Media Bias/Fact Check Extension.'
-url:                 https://drmikecrowe.github.io/mbfcext/
-baseurl:             '/mbfcext'
+description: "Homepage of the Official Media Bias/Fact Check Extension."
+url: https://drmikecrowe.github.io/mbfcext/
+baseurl: "/mbfcext"
 
 # About/contact
 author:
-  name:              Mike Crowe
-  url:               https://github.com/drmikecrowe
-  email:             drmikecrowe@gmail.com
+    name: Mike Crowe
+    url: https://github.com/drmikecrowe
+    email: drmikecrowe@gmail.com
 
 github:
-  repo:           https://github.com/drmikecrowe/mbfcext
+    repo: https://github.com/drmikecrowe/mbfcext
 # Custom vars
-version:             1.0.0
+version: 3.0.0
 
 pages_list:
-  "Beta!": 'https://drmikecrowe.github.io/mbfcext/beta'
+    "Release Notes": releases.md
+    "Beta!": "https://drmikecrowe.github.io/mbfcext/beta"
 
 extension_list:
-  "Production Extension": https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh
-  "Beta Extension": https://chrome.google.com/webstore/detail/betaofficial-media-biasfa/janhmnkcmhhbkachkhmchiidolkpeafm
+    "Production Extension": https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh
+    "Beta Extension": https://chrome.google.com/webstore/detail/betaofficial-media-biasfa/janhmnkcmhhbkachkhmchiidolkpeafm
