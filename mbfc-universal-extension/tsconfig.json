@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "jsx": "react",
+        "jsxFactory": "m",
+        "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "paths": {
+            "*": ["./src/*"]
+        },
+        "rootDir": ".",
+        "sourceMap": true,
+        "strict": true,
+        "target": "es6",
+        "types": ["chrome", "node", "google.analytics"]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/**/*.md",
+        "tests/**/*.ts",
+        "tests/**/*.tsx",
+        "src/contentscript/content/twitter.ts"
+    ],
+    "exclude": ["node_modules"]
+}
