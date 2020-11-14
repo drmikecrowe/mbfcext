@@ -19,7 +19,7 @@ If you like this extension, please help us out:
 
 ## Privacy
 
-This extension may collect **anonymous** usage data to help improve the results provided. The events are:</label>
+This extension may collect **anonymous** usage data to help improve the results provided. The events are:
 
 - Domains that are NOT rated by [Media Bias Fact Check](https://mediabiasfactcheck.com). Highly viewed, unranked sites will be recommended for analysis
 - Site ratings shown, such as LEFT, LEFT-CENTER, LEAST, RIGHT-CENTER, RIGHT

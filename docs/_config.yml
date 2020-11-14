@@ -27,7 +27,7 @@ github:
 version: 3.0.0
 
 pages_list:
-    "Release Notes": releases.md
+    "Release Notes": /mbfcext/releases
     "Beta!": "https://drmikecrowe.github.io/mbfcext/beta"
 
 extension_list:
