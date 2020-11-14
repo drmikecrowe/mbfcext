@@ -1,7 +1,7 @@
 {
   "name": "facebook-media-bias-and-fact-check-extension",
   "description": "Curate Facebook with MBFC news categorizations",
-  "version": "3.0.0=alpha1",
+  "version": "3.0.0-alpha1",
   "author": "Mike Crowe <drmikecrowe@gmail.com>",
   "browserslist": [
     "last 2 versions",
@@ -102,7 +102,6 @@
     "terser-webpack-plugin": "^5.0.3",
     "ts-json-schema-generator": "^0.77.0",
     "ts-loader": "^8.0.9",
-    "ts-node": "^9.0.0",
     "tsconfig-paths-webpack-plugin": "^3.3.0",
     "tslib": "^2.0.3",
     "typescript": "~4.0.5",
@@ -110,7 +109,7 @@
     "webext-storage-cache": "^4.1.1",
     "webextension-polyfill-ts": "^0.21.0",
     "webpack": "^5.4.0",
-    "webpack-bundle-analyzer": "^3.9.0",
+    "webpack-bundle-analyzer": "^4",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-extension-reloader": "^1.1.4",
@@ -151,5 +150,6 @@
   },
   "lint-staged": {
     "*.{ts,js}": "eslint --cache --fix"
-  }
+  },
+  "dependencies": {}
 }
