@@ -1,4 +1,8 @@
-# PRIVACY NOTICE
+---
+layout: default
+title: Privacy Notice
+comments: false
+---
 
 **Last updated November 14, 2020**
 
