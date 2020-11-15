@@ -1,5 +1,4 @@
 title: Official Media Bias/Fact Check Extension
-tagline: Homepage
 markdown: kramdown
 layout: default
 comments: true
@@ -27,8 +26,10 @@ github:
 version: 3.0.0
 
 pages_list:
+    "Home": /mbfcext/
     "Release Notes": /mbfcext/releases/
     "Privacy Policy": /mbfcext/privacy/
+    "Terms and Conditions": /mbfcext/terms/
     
 
 extension_list:
