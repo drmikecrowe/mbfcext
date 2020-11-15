@@ -130,5 +130,3 @@ Contact Us
 ==========
 
 If you have any questions about these Terms and Conditions, You can submit an issue at [our github repository](https://github.com/drmikecrowe/mbfcext)
-
-*   By visiting this page on our website: [https://github.com/drmikecrowe/mbfcext](https://github.com/drmikecrowe/mbfcext)
