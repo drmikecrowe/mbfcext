@@ -123,33 +123,29 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged-save": {
+  "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
-      "eslint --fix",
-      "jest --coverage --findRelatedTests",
+      "pnpm run lint:fix",
       "git add"
     ]
   },
   "repository": "EmailThis/extension-boilerplate",
   "scripts": {
-    "build": "npm run chrome:prod && npm run opera:prod && npm run firefox:prod",
+    "build": "npm run lint && npm run chrome:prod && npm run opera:prod && npm run firefox:prod",
     "chrome:dev": "cross-env TARGET=chrome npm run webpack:dev",
-    "chrome:prod": "cross-env TARGET=chrome npm run webpack",
-    "dist": "npm run lint && cross-env NODE_ENV=production npm run chrome:prod && cross-env NODE_ENV=production npm run opera:prod && cross-env NODE_ENV=production npm run firefox:prod",
+    "chrome:prod": "cross-env NODE_ENV=production TARGET=chrome npm run webpack",
     "firefox:dev": "cross-env TARGET=firefox npm run webpack:dev",
-    "firefox:prod": "cross-env TARGET=firefox npm run webpack",
-    "lint": "eslint --ext .ts,.js src/",
-    "lint:fix": "prettier-eslint \"$(pwd)/src/**/*.ts*\" \"$(pwd)/src/**/*.css\" --write",
+    "firefox:prod": "cross-env NODE_ENV=production TARGET=firefox npm run webpack",
+    "lint": "eslint --cache --ext .ts,.tsx src/",
+    "lint:fix": "prettier-eslint \"$(pwd)/src/**/*.ts\" \"$(pwd)/src/**/*.tsx\" \"$(pwd)/src/**/*.scss\" \"$(pwd)/src/**/*.md\" \"$(pwd)/src/**/*.css\" --write",
     "opera:dev": "cross-env TARGET=opera npm run webpack:dev",
-    "opera:prod": "cross-env TARGET=opera npm run webpack",
+    "opera:prod": "cross-env NODE_ENV=production TARGET=opera npm run webpack",
     "preinstall": "node -e \"if (process.env.npm_execpath.indexOf('pnpm') === -1) { console.log('\u001b[31mPlease use pnpm for installing\u001b[0m'); process.exit(1); }\"",
     "update-versions": "export VERSION=$(jq -r .version package.json) && jq \".version=\\\"$VERSION\\\"\" src/manifest.json | jq \".version_name=\\\"Release $VERSION\\\"\" > manifest.new && mv manifest.new src/manifest.json && git add src/manifest.json && git commit -m\"Release $VERSION\"; exit 0",
     "webpack": "rimraf build/${TARGET} && node --trace-deprecation ./node_modules/webpack/bin/webpack.js --config compile/webpack.prod.js",
     "webpack:dev": "node $NODE_DEBUG ./node_modules/webpack/bin/webpack.js --config compile/webpack.dev.js --watch",
-    "webpack:dev:dashboard": "webpack-dashboard -- npm run webpack:dev"
-  },
-  "lint-staged": {
-    "*.{ts,js}": "eslint --cache --fix"
-  },
-  "dependencies": {}
+    "webpack:dev:dashboard": "webpack-dashboard -- npm run webpack:dev",
+    "format": "prettier --loglevel warn --write \"**/*.{ts,js,css,md}\"",
+    "posttest": "npm run format"
+  }
 }

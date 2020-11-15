@@ -23,15 +23,15 @@ export * from "./UpdatedConfigMessage";
 export * from "./UpdatedSourcesMessage";
 
 export type BrowserMessage =
-    | AssociateSiteMessage
-    | GetConfigMessage
-    | HideSiteMessage
-    | ReportUnknownMessage
-    | ResetIgnoredMessage
-    | ShowOptionsMessage
-    | ShowSiteMessage
-    | StartThanksMessage
-    | UpdatedConfigMessage
-    | UpdatedSourcesMessage;
+  | AssociateSiteMessage
+  | GetConfigMessage
+  | HideSiteMessage
+  | ReportUnknownMessage
+  | ResetIgnoredMessage
+  | ShowOptionsMessage
+  | ShowSiteMessage
+  | StartThanksMessage
+  | UpdatedConfigMessage
+  | UpdatedSourcesMessage;
 
 export type HandleMessageCallback = (response: BrowserMessage) => void;

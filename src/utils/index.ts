@@ -1,27 +1,27 @@
 import { browser } from "webextension-polyfill-ts";
 
 export const devMode =
-    process.env.NODE_ENV === "development" ||
-    !browser.runtime ||
-    !("update_url" in browser.runtime.getManifest());
+  process.env.NODE_ENV === "development" ||
+  !browser.runtime ||
+  !("update_url" in browser.runtime.getManifest());
 
 if (devMode) {
-    localStorage.debug = "mbfc:*";
+  localStorage.debug = "mbfc:*";
 }
 
 // eslint-disable-next-line import/first
 import { debug } from "debug";
 
 export const isDevMode = (): boolean => {
-    return devMode;
+  return devMode;
 };
 
 export const logger = (namespace: string) => {
-    const log = debug(namespace);
-    if (devMode) {
-        return console.log; // hack until I can get it to work
-    }
-    return log;
+  const log = debug(namespace);
+  if (devMode) {
+    return console.log; // hack until I can get it to work
+  }
+  return log;
 };
 
 export * from "webextension-polyfill-ts";

@@ -1,3 +1,3 @@
 export interface IEmptyMessageRequest {
-    method: string;
+  method: string;
 }

@@ -1,1 +1,1 @@
-../../../../docs/releases.md
+../../../docs/releases.md

@@ -1,32 +1,32 @@
 @import "./tailwind.scss";
 
 .fixed-panel {
-    min-height: 300px;
+  min-height: 300px;
 }
 
 h1 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 900;
 }
 
 h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
 h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .form-checkbox {
-    border-color: darkgray;
+  border-color: darkgray;
 }
 
 .show-list {
-    list-style-type: disc !important;
-    margin-left: 30px;
+  list-style-type: disc !important;
+  margin-left: 30px;
 }
