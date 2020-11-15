@@ -28,7 +28,7 @@ version: 3.0.0
 
 pages_list:
     "Release Notes": /mbfcext/releases/
-    "Privacy Policy": "/mbfcext/privacy"
+    "Privacy Policy": /mbfcext/privacy/
     
 
 extension_list:
