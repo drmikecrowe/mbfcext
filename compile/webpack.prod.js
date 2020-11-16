@@ -1,14 +1,32 @@
 const { merge } = require("webpack-merge");
-const {
-    resolve,
-    webpackConfig,
-    target,
-    pkgJson,
-} = require("./webpack.common.js");
-const webpack = require("webpack");
+const { webpackConfig, target, pkgJson } = require("./webpack.common.js");
+const FileManagerPlugin = require("filemanager-webpack-plugin");
+
+const plugins = [
+    new FileManagerPlugin({
+        events: {
+            onEnd: {
+                archive: [
+                    {
+                        source: `build/${target}/`,
+                        destination: `build/${target}-${pkgJson.name}-${pkgJson.version}.zip`,
+                    },
+                ],
+            },
+        },
+    }),
+];
+
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 //     .BundleAnalyzerPlugin;
-const FileManagerPlugin = require("filemanager-webpack-plugin");
+
+// plugins.push(
+//     new BundleAnalyzerPlugin({
+//         analyzerMode: "static",
+//         generateStatsFile: true,
+//         reportFilename: `/tmp/report-${target}.html`,
+//     })
+// );
 
 const config = merge(webpackConfig, {
     devtool: false,
@@ -17,25 +35,7 @@ const config = merge(webpackConfig, {
         usedExports: true,
         minimize: true,
     },
-    plugins: [
-        // new BundleAnalyzerPlugin({
-        //     analyzerMode: "static",
-        //     generateStatsFile: true,
-        //     reportFilename: `/tmp/report-${target}.html`,
-        // }),
-        new FileManagerPlugin({
-            events: {
-                onEnd: {
-                    archive: [
-                        {
-                            source: `build/${target}/`,
-                            destination: `build/${target}-${pkgJson.name}-${pkgJson.version}.zip`,
-                        },
-                    ],
-                },
-            },
-        }),
-    ],
+    plugins,
 });
 
 module.exports = config;
