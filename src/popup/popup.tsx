@@ -41,7 +41,6 @@ function Unrated() {
 const main = async () => {
   const popup = InfoHandler.getInstance();
   await popup.updateData();
-
   const e = document.getElementById("app") as Element;
 
   sync(

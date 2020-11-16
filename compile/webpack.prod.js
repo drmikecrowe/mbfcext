@@ -1,21 +1,21 @@
 const { merge } = require("webpack-merge");
 const { webpackConfig, target, pkgJson } = require("./webpack.common.js");
-const FileManagerPlugin = require("filemanager-webpack-plugin");
+// const FileManagerPlugin = require("filemanager-webpack-plugin");
 
-const plugins = [
-    new FileManagerPlugin({
-        events: {
-            onEnd: {
-                archive: [
-                    {
-                        source: `build/${target}/`,
-                        destination: `build/${target}-${pkgJson.name}-${pkgJson.version}.zip`,
-                    },
-                ],
-            },
-        },
-    }),
-];
+// const plugins = [
+//   new FileManagerPlugin({
+//     events: {
+//       onEnd: {
+//         archive: [
+//           {
+//             source: `build/${target}/`,
+//             destination: `build/${target}-${pkgJson.name}-${pkgJson.version}.zip`,
+//           },
+//         ],
+//       },
+//     },
+//   }),
+// ];
 
 // const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
 //     .BundleAnalyzerPlugin;
@@ -29,13 +29,15 @@ const plugins = [
 // );
 
 const config = merge(webpackConfig, {
-    devtool: false,
-    mode: "production",
-    optimization: {
-        usedExports: true,
-        minimize: true,
-    },
-    plugins,
+  devtool: false,
+  node: {
+    global: false,
+  },
+  mode: "production",
+  optimization: {
+    usedExports: true,
+    minimize: true,
+  },
 });
 
 module.exports = config;

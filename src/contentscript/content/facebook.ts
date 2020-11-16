@@ -146,7 +146,6 @@ export class Facebook extends Filter {
       const on = pobj_nodes.shift();
       if (on && on.domain) {
         if (dn.domain?.site && on.internal_url && !dn.domain?.site.f) {
-          debugger;
           new AssociateSiteMessage(
             dn.domain.site,
             on?.internal_url
