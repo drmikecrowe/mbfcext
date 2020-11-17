@@ -5,23 +5,6 @@ const fs = require("fs");
 const zip = require("bestzip");
 const pkg = require("../package.json");
 
-const zipDir = async (target) => {
-  return new Promise((resolve, reject) => {
-    zip({
-      source: `build/${target}`,
-      destination: `build/${target}-${pkg.name}-${pkg.version}.zip`,
-    })
-      .then(function () {
-        console.log("all done!");
-        resolve();
-      })
-      .catch(function (err) {
-        console.error(err.stack);
-        reject(err);
-      });
-  });
-};
-
 const BUNDLE_DIR = process.env.BUNDLE_DIR || path.join(__dirname, "../build");
 const targets = ["chrome", "firefox", "opera"];
 const bundles = [
@@ -58,6 +41,25 @@ const removeEvals = (file) => {
         resolve();
       });
     });
+  });
+};
+
+const zipDir = async (target) => {
+  return new Promise((resolve, reject) => {
+    zip({
+      source: `.`,
+      cwd: `build/${target}`,
+      destination:
+        process.cwd() + `/build/${target}-${pkg.name}-${pkg.version}.zip`,
+    })
+      .then(function () {
+        console.log("all done!");
+        resolve();
+      })
+      .catch(function (err) {
+        console.error(err.stack);
+        reject(err);
+      });
   });
 };
 

@@ -15,7 +15,7 @@
 
 ### Twitter Support!
 
-- [Twitter](https://twitter.com) feed is now annotated with a basic MBFC review for reported site. Please let us know what you think via a comment in the [Chrome Web Store](https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh)
+- [Twitter](https://twitter.com) feed is now annotated with a basic MBFC review for reported site.
 
 ## Release notes for version 1.0.15
 
