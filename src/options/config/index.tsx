@@ -33,7 +33,7 @@ const groups = [
         help: "(You should check this)",
         model: "collapse.collapseLeft",
         inputName: "collapse.collapseLeft",
-        default: true,
+        default: false,
         hint:
           "Left Bias media sources are moderately to strongly biased toward liberal causes through story selection and/or political affiliation.  They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage liberal causes. Some sources in this category may be untrustworthy.",
         ...checkboxClasses,
@@ -74,7 +74,7 @@ const groups = [
         help: "(You should check this)",
         model: "collapse.collapseRight",
         inputName: "collapse.collapseRight",
-        default: true,
+        default: false,
         hint:
           "Right Bias media sources are moderately to strongly biased toward conservative causes through story selection and/or political affiliation. They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage conservative causes. Some sources in this category may be untrustworthy.",
         ...checkboxClasses,
@@ -95,7 +95,7 @@ const groups = [
         help: "(You should check this)",
         model: "collapse.collapseConspiracy",
         inputName: "collapse.collapseConspiracy",
-        default: true,
+        default: false,
         hint:
           "Sources in the Conspiracy-Pseudoscience category “may” publish unverifiable information that is “not always” supported by evidence. These sources “may” be untrustworthy for credible/verifiable information, therefore fact checking and further investigation is recommended on a per article basis when obtaining information from these sources.",
         ...checkboxClasses,
@@ -116,7 +116,7 @@ const groups = [
         help: "(You should check this)",
         model: "collapse.collapseFakeNews",
         inputName: "collapse.collapseFakeNews",
-        default: true,
+        default: false,
         hint:
           "Questionable Sources/Fake News media source exhibits any of the following: extreme bias, overt propaganda, poor or no sourcing to credible information and/or is fake news. Fake News is the deliberate attempt to publish hoaxes and/or disinformation for the purpose of profit or influence (Learn More). Sources listed in the Questionable Category may be very untrustworthy and should be fact checked on a per article basis.",
         ...checkboxClasses,
@@ -127,7 +127,7 @@ const groups = [
         help: "(You should check this)",
         model: "collapse.collapseMixed",
         inputName: "collapse.collapseMixed",
-        default: true,
+        default: false,
         hint:
           "Mixed Factual Reporting media sources have a track record of publishing false stories, and should be treated used with caution.",
         ...checkboxClasses,
