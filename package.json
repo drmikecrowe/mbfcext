@@ -1,7 +1,7 @@
 {
   "name": "facebook-media-bias-and-fact-check-extension",
   "description": "Curate Facebook with MBFC news categorizations",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": "Mike Crowe <drmikecrowe@gmail.com>",
   "browserslist": [
     "last 2 versions",
