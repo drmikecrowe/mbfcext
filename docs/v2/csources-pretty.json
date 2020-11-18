@@ -2268,7 +2268,7 @@
         "d": "bloomberg.com",
         "n": "Bloomberg",
         "P": "99",
-        "r": "M",
+        "r": "MF",
         "u": "bloomberg"
     },
     "bitchmedia.org": {
@@ -4981,7 +4981,7 @@
         "t": "daily_express",
         "n": "Daily Express",
         "P": "88",
-        "r": "H",
+        "r": "M",
         "u": "daily-express"
     },
     "dailymail.co.uk": {
@@ -9002,9 +9002,9 @@
         "r": "L",
         "u": "i-hate-the-media"
     },
-    "houstonchronicle.com": {
+    "chron.com": {
         "b": "LC",
-        "d": "houstonchronicle.com",
+        "d": "chron.com",
         "f": "chroncom",
         "t": "houstonchron",
         "n": "Houston Chronicle",
@@ -13506,7 +13506,7 @@
         "u": "newsy"
     },
     "newsmax.com": {
-        "b": "R",
+        "b": "FN",
         "d": "newsmax.com",
         "f": "newsmax",
         "t": "newsmax",
@@ -15150,7 +15150,7 @@
         "u": "project-purge"
     },
     "projectveritas.com": {
-        "b": "R",
+        "b": "FN",
         "d": "projectveritas.com",
         "f": "projectveritas",
         "t": "project_veritas",
@@ -19225,7 +19225,7 @@
         "u": "the-fiscal-times"
     },
     "theepochtimes.com": {
-        "b": "R",
+        "b": "FN",
         "d": "theepochtimes.com",
         "f": "epochtimes",
         "t": "epochtimes",
@@ -19530,13 +19530,13 @@
         "p": "/jerusalem-report"
     },
     "theintercept.com": {
-        "b": "LC",
+        "b": "L",
         "d": "theintercept.com",
         "f": "theinterceptflm",
         "t": "theintercept",
         "n": "The Intercept",
         "P": "89",
-        "r": "H",
+        "r": "MF",
         "u": "the-intercept"
     },
     "jamestown.org": {
@@ -20136,6 +20136,14 @@
         "r": "H",
         "u": "the-news-international"
     },
+    "thenewyorkevening.com": {
+        "b": "FN",
+        "d": "thenewyorkevening.com",
+        "n": "The New York Evening",
+        "P": "0",
+        "r": "VL",
+        "u": "the-new-york-evening"
+    },
     "newlypress.com": {
         "b": "R",
         "d": "newlypress.com",
@@ -20534,7 +20542,7 @@
         "t": "tpostmillennial",
         "n": "The Post Millennial",
         "P": "35",
-        "r": "MF",
+        "r": "M",
         "u": "the-post-millennial"
     },
     "syracuse.com": {
@@ -21001,7 +21009,7 @@
     },
     "thetrumpmedia.com": {
         "b": "FN",
-        "d": "http://www.thetrumpmedia.com",
+        "d": "thetrumpmedia.com",
         "n": "The Trump Media",
         "P": "11",
         "r": "L",
@@ -21409,6 +21417,14 @@
         "P": "92",
         "r": "H",
         "u": "the-week"
+    },
+    "thebreakingnews.com": {
+        "b": "FN",
+        "d": "thebreakingnews.com",
+        "n": "TheBreakingNews",
+        "P": "0",
+        "r": "L",
+        "u": "thebreakingnews"
     },
     "thejournal.ie": {
         "b": "C",
@@ -22037,7 +22053,7 @@
         "t": "tvwnews",
         "n": "TVW Washington State",
         "P": "91",
-        "r": "H",
+        "r": "VH",
         "u": "tvw-washington-state"
     },
     "truthout.org": {
@@ -22203,7 +22219,7 @@
         "u": "unity-news-network"
     },
     "unicornriot.ninja": {
-        "b": "LC",
+        "b": "L",
         "d": "unicornriot.ninja",
         "f": "unicornriot.ninja",
         "t": "ur_ninja",
@@ -22474,7 +22490,7 @@
         "u": "utah-public-radio-upr"
     },
     "ussanews.com": {
-        "b": "R",
+        "b": "FN",
         "d": "ussanews.com",
         "n": "USSA News",
         "P": "29",
@@ -22683,7 +22699,7 @@
         "t": "vice",
         "n": "Vice News",
         "P": "87",
-        "r": "H",
+        "r": "MF",
         "u": "vice-news"
     },
     "verafiles.org": {
@@ -26457,11 +26473,11 @@
         "u": "democratic-national-committee-dnc"
     },
     "techstartups.com": {
-        "b": "C",
+        "b": "FN",
         "d": "techstartups.com",
         "n": "TechStartups",
         "P": [],
-        "r": "MF",
+        "r": "M",
         "u": "techstartups"
     },
     "justthenews.com": {
@@ -27538,9 +27554,9 @@
         "r": "M",
         "u": "vibe"
     },
-    "gmo.new": {
+    "gmo.news": {
         "b": "CP",
-        "d": "gmo.new",
+        "d": "gmo.news",
         "n": "GMO.News",
         "P": [],
         "r": "VL",
@@ -28456,5 +28472,421 @@
         "P": [],
         "r": "M",
         "u": "shoals-today"
+    },
+    "nejm.org": {
+        "b": "PS",
+        "d": "nejm.org",
+        "n": "New England Journal of Medicine (NEJM)",
+        "P": [],
+        "r": "VH",
+        "u": "new-england-journal-of-medicine-nejm"
+    },
+    "southalabamatimes.com": {
+        "b": "FN",
+        "d": "southalabamatimes.com",
+        "n": "South Alabama Times",
+        "P": [],
+        "r": "M",
+        "u": "south-alabama-times"
+    },
+    "southbirminghamtimes.com": {
+        "b": "FN",
+        "d": "southbirminghamtimes.com",
+        "n": "South Birmingham Times",
+        "P": [],
+        "r": "M",
+        "u": "south-birmingham-times"
+    },
+    "tuscaloosaleader.com": {
+        "b": "FN",
+        "d": "tuscaloosaleader.com",
+        "n": "Tuscaloosa Leader",
+        "P": [],
+        "r": "M",
+        "u": "tuscaloosa-leader"
+    },
+    "wcalabamanews.com": {
+        "b": "FN",
+        "d": "wcalabamanews.com",
+        "n": "West Central Alabama News",
+        "P": [],
+        "r": "M",
+        "u": "west-central-alabama-news"
+    },
+    "wiregrasstimes.com": {
+        "b": "FN",
+        "d": "wiregrasstimes.com",
+        "n": "Wiregrass Times",
+        "P": [],
+        "r": "M",
+        "u": "wiregrass-times"
+    },
+    "yellowhammertimes.com": {
+        "b": "FN",
+        "d": "yellowhammertimes.com",
+        "n": "Yellowhammer Times",
+        "P": [],
+        "r": "M",
+        "u": "yellowhammer-times"
+    },
+    "newsnationnow.com": {
+        "b": "C",
+        "d": "newsnationnow.com",
+        "n": "NewsNation",
+        "P": [],
+        "r": "H",
+        "u": "newsnation"
+    },
+    "interioralaskanews.com": {
+        "b": "FN",
+        "d": "interioralaskanews.com",
+        "n": "Interior Alaska News",
+        "P": [],
+        "r": "M",
+        "u": "interior-alaska-news"
+    },
+    "denvergazette.com": {
+        "b": "RC",
+        "d": "denvergazette.com",
+        "n": "Denver Gazette",
+        "P": [],
+        "r": "H",
+        "u": "denver-gazette"
+    },
+    "lastfrontiernews.com": {
+        "b": "FN",
+        "d": "lastfrontiernews.com",
+        "n": "Last Frontier News",
+        "P": [],
+        "r": "M",
+        "u": "last-frontier-news"
+    },
+    "604now.com": {
+        "b": "LC",
+        "d": "604now.com",
+        "n": "604 Now",
+        "P": [],
+        "r": "MF",
+        "u": "604-now"
+    },
+    "matsutimes.com": {
+        "b": "FN",
+        "d": "matsutimes.com",
+        "n": "Mat-Su Times",
+        "P": [],
+        "r": "M",
+        "u": "mat-su-times"
+    },
+    "northalaskanews.com": {
+        "b": "FN",
+        "d": "northalaskanews.com",
+        "n": "North Alaska News",
+        "P": [],
+        "r": "M",
+        "u": "north-alaska-news"
+    },
+    "votefraud.news": {
+        "b": "CP",
+        "d": "votefraud.news",
+        "n": "VoteFraud.News",
+        "P": [],
+        "r": "VL",
+        "u": "votefraud-news"
+    },
+    "leftcult.com": {
+        "b": "CP",
+        "d": "leftcult.com",
+        "n": "LeftCult",
+        "P": [],
+        "r": "VL",
+        "u": "leftcult"
+    },
+    "joebiden.news": {
+        "b": "CP",
+        "d": "joebiden.news",
+        "n": "JoeBiden.News",
+        "P": [],
+        "r": "VL",
+        "u": "joebiden-news"
+    },
+    "treason.news": {
+        "b": "CP",
+        "d": "treason.news",
+        "n": "Treason.News",
+        "P": [],
+        "r": "VL",
+        "u": "treason-news"
+    },
+    "scalaskanews.com": {
+        "b": "FN",
+        "d": "scalaskanews.com",
+        "n": "SC Alaska News",
+        "P": [],
+        "r": "M",
+        "u": "sc-alaska-news"
+    },
+    "npr.news": {
+        "b": "CP",
+        "d": "npr.news",
+        "n": "NPR.News",
+        "P": [],
+        "r": "VL",
+        "u": "npr-news-natural-news"
+    },
+    "theconservativecentral.com": {
+        "b": "FN",
+        "d": "theconservativecentral.com",
+        "n": "The Conservative Central",
+        "P": [],
+        "r": "L",
+        "u": "the-conservative-central"
+    },
+    "sealaskanews.com": {
+        "b": "FN",
+        "d": "sealaskanews.com",
+        "n": "SE Alaska News",
+        "P": [],
+        "r": "M",
+        "u": "se-alaska-news"
+    },
+    "dcist.com": {
+        "b": "LC",
+        "d": "dcist.com",
+        "n": "DCist",
+        "P": [],
+        "r": "H",
+        "u": "dcist"
+    },
+    "swalaskanews.com": {
+        "b": "FN",
+        "d": "swalaskanews.com",
+        "n": "SW Alaska News",
+        "P": [],
+        "r": "M",
+        "u": "sw-alaska-news"
+    },
+    "wamu.org": {
+        "b": "LC",
+        "d": "wamu.org",
+        "n": "WAMU-FM",
+        "P": [],
+        "r": "H",
+        "u": "wamu-fm"
+    },
+    "coconinonews.com": {
+        "b": "FN",
+        "d": "coconinonews.com",
+        "n": "Coconino News",
+        "P": [],
+        "r": "M",
+        "u": "coconino-news"
+    },
+    "eastarizonanews.com": {
+        "b": "FN",
+        "d": "eastarizonanews.com",
+        "n": "East Arizona News",
+        "P": [],
+        "r": "M",
+        "u": "east-arizona-news"
+    },
+    "mycentraljersey.com": {
+        "b": "LC",
+        "d": "mycentraljersey.com",
+        "n": "MyCentralJersey.com",
+        "P": [],
+        "r": "H",
+        "u": "mycentraljersey-com"
+    },
+    "grandcanyontimes.com": {
+        "b": "FN",
+        "d": "grandcanyontimes.com",
+        "n": "Grand Canyon Times",
+        "P": [],
+        "r": "M",
+        "u": "grand-canyon-times"
+    },
+    "parler.com": {
+        "b": "FN",
+        "d": "parler.com",
+        "n": "Parler",
+        "P": [],
+        "r": "L",
+        "u": "parler"
+    },
+    "mohavetoday.com": {
+        "b": "FN",
+        "d": "mohavetoday.com",
+        "n": "Mohave Today",
+        "P": [],
+        "r": "M",
+        "u": "mohave-today"
+    },
+    "objectivist.co": {
+        "b": "FN",
+        "d": "objectivist.co",
+        "n": "Objectivist",
+        "P": [],
+        "r": "M",
+        "u": "objectivist"
+    },
+    "nevalleytimes.com": {
+        "b": "FN",
+        "d": "nevalleytimes.com",
+        "n": "NE Valley Times",
+        "P": [],
+        "r": "M",
+        "u": "ne-valley-times"
+    },
+    "banned.video": {
+        "b": "CP",
+        "d": "banned.video",
+        "n": "Banned.Video",
+        "P": [],
+        "r": "VL",
+        "u": "banned-video"
+    },
+    "northpimanews.com": {
+        "b": "FN",
+        "d": "northpimanews.com",
+        "n": "North Pima News",
+        "P": [],
+        "r": "M",
+        "u": "north-pima-news"
+    },
+    "79days.news": {
+        "b": "CP",
+        "d": "https://79days.news",
+        "n": "79Days.News",
+        "P": [],
+        "r": "VL",
+        "u": "79days-news"
+    },
+    "nwvalleytimes.com": {
+        "b": "FN",
+        "d": "nwvalleytimes.com",
+        "n": "NW Valley Times",
+        "P": [],
+        "r": "M",
+        "u": "nw-valley-times"
+    },
+    "kitv.com": {
+        "b": "C",
+        "d": "kitv.com",
+        "n": "KITV",
+        "P": [],
+        "r": "H",
+        "u": "kitv"
+    },
+    "phxreporter.com": {
+        "b": "FN",
+        "d": "phxreporter.com",
+        "n": "PHX Reporter",
+        "P": [],
+        "r": "M",
+        "u": "phx-reporter"
+    },
+    "mauinews.com": {
+        "b": "LC",
+        "d": "mauinews.com",
+        "n": "The Maui News",
+        "P": [],
+        "r": "H",
+        "u": "the-maui-news"
+    },
+    "everylegalvote.com": {
+        "b": "FN",
+        "d": "everylegalvote.com",
+        "n": "Every Legal Vote",
+        "P": [],
+        "r": "L",
+        "u": "every-legal-vote"
+    },
+    "pinaltoday.com": {
+        "b": "FN",
+        "d": "pinaltoday.com",
+        "n": "Pinal Today",
+        "P": [],
+        "r": "M",
+        "u": "pinal-today"
+    },
+    "searizonanews.com": {
+        "b": "FN",
+        "d": "searizonanews.com",
+        "n": "SE Arizona News",
+        "P": [],
+        "r": "M",
+        "u": "se-arizona-news"
+    },
+    "presscorp.org": {
+        "b": "FN",
+        "d": "presscorp.org",
+        "n": "Press Corp",
+        "P": [],
+        "r": "M",
+        "u": "press-corp"
+    },
+    "swarizonanews.com": {
+        "b": "FN",
+        "d": "swarizonanews.com",
+        "n": "SW Arizona News",
+        "P": [],
+        "r": "M",
+        "u": "sw-arizona-news"
+    },
+    "join1440.com": {
+        "b": "C",
+        "d": "join1440.com",
+        "n": "1440 Newsletter",
+        "P": [],
+        "r": "H",
+        "u": "1440-newsletter"
+    },
+    "swvalleytimes.com": {
+        "b": "FN",
+        "d": "swvalleytimes.com",
+        "n": "SW Valley Times",
+        "P": [],
+        "r": "M",
+        "u": "sw-valley-times"
+    },
+    "tucsonstandard.com": {
+        "b": "FN",
+        "d": "tucsonstandard.com",
+        "n": "Tucson Standard",
+        "P": [],
+        "r": "M",
+        "u": "tucson-standard"
+    },
+    "yavapainews.com": {
+        "b": "FN",
+        "d": "yavapainews.com",
+        "n": "Yavapai News",
+        "P": [],
+        "r": "M",
+        "u": "yavapai-news"
+    },
+    "bentontimes.com": {
+        "b": "FN",
+        "d": "bentontimes.com",
+        "n": "Benton Times",
+        "P": [],
+        "r": "M",
+        "u": "benton-times"
+    },
+    "distributednews.com": {
+        "b": "CP",
+        "d": "distributednews.com",
+        "n": "Distributed News",
+        "P": [],
+        "r": "VL",
+        "u": "distributed-news"
+    },
+    "eastlittlerocktimes.com": {
+        "b": "FN",
+        "d": "eastlittlerocktimes.com",
+        "n": "East Little Rock Times",
+        "P": [],
+        "r": "M",
+        "u": "east-little-rock-times"
     }
 }

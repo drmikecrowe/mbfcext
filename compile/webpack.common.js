@@ -3,6 +3,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 const pkgJson = require("../package.json");
+const { version } = pkgJson;
 
 const CopyWepbackPlugin = require("copy-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -30,6 +31,7 @@ const manifestOptions = {
 
 const manifest = Object.assign(
   {},
+  { version },
   manifestTemplate,
   target === "firefox" ? manifestOptions.firefox : {},
   environment === "development"

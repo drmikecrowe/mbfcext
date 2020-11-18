@@ -1,48 +1,47 @@
 {
-    "short_name": "MBFCext",
-    "name": "__MSG_appName__",
-    "description": "__MSG_appDesc__",
-    "default_locale": "en",
-    "author": "Mike Crowe",
-    "version": "3.0.0",
-    "manifest_version": 2,
-    "background": {
-        "scripts": ["scripts/background.js"]
+  "short_name": "MBFCext",
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "author": "Mike Crowe",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon128.png",
+    "default_popup": "popup.html",
+    "default_title": "MBFC"
+  },
+  "permissions": [
+    "alarms",
+    "*://facebook.com/*",
+    "*://*.facebook.com/*",
+    "*://twitter.com/*",
+    "*://*.twitter.com/*",
+    "storage",
+    "tabs"
+  ],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://facebook.com/*", "*://*.facebook.com/*"],
+      "run_at": "document_start",
+      "js": ["scripts/facebook.js"],
+      "css": ["css/svg-with-js.min.css", "css/facebook.css"]
     },
-    "icons": {
-        "48": "icons/icon48.png",
-        "128": "icons/icon128.png"
-    },
-    "browser_action": {
-        "default_icon": "icons/icon128.png",
-        "default_popup": "popup.html",
-        "default_title": "MBFC"
-    },
-    "permissions": [
-        "alarms",
-        "*://facebook.com/*",
-        "*://*.facebook.com/*",
-        "*://twitter.com/*",
-        "*://*.twitter.com/*",
-        "storage",
-        "tabs"
-    ],
-    "options_ui": {
-        "page": "options.html"
-    },
-    "content_scripts": [
-        {
-            "matches": ["*://facebook.com/*", "*://*.facebook.com/*"],
-            "run_at": "document_start",
-            "js": ["scripts/facebook.js"],
-            "css": ["css/svg-with-js.min.css", "css/facebook.css"]
-        },
-        {
-            "matches": ["*://twitter.com/*", "*://*.twitter.com/*"],
-            "run_at": "document_start",
-            "js": ["scripts/twitter.js"],
-            "css": ["css/svg-with-js.min.css", "css/twitter.css"]
-        }
-    ],
-    "web_accessible_resources": ["images/*", "css/*", "icons/*"]
+    {
+      "matches": ["*://twitter.com/*", "*://*.twitter.com/*"],
+      "run_at": "document_start",
+      "js": ["scripts/twitter.js"],
+      "css": ["css/svg-with-js.min.css", "css/twitter.css"]
+    }
+  ],
+  "web_accessible_resources": ["images/*", "css/*", "icons/*"]
 }
