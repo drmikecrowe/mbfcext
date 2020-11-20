@@ -1459,7 +1459,7 @@
         "t": "archaeologymag",
         "n": "Archaeology Magazine",
         "P": "66",
-        "r": "VH",
+        "r": "H",
         "u": "archaeology-magazine"
     },
     "antifascistnews.net": {
@@ -2235,7 +2235,7 @@
         "u": "big-think"
     },
     "bellingcat.com": {
-        "b": "C",
+        "b": "LC",
         "d": "bellingcat.com",
         "t": "bellingcat",
         "n": "Bellingcat",
@@ -2669,13 +2669,13 @@
         "u": "buffalo-news"
     },
     "thebulletin.org": {
-        "b": "C",
+        "b": "LC",
         "d": "thebulletin.org",
         "f": "bulletinoftheatomicscientists",
         "t": "bulletinatomic",
         "n": "Bulletin of Atomic Scientists",
         "P": "70",
-        "r": "VH",
+        "r": "H",
         "u": "bulletin-of-the-atomic-scientists"
     },
     "breitbartunmasked.com": {
@@ -3823,7 +3823,7 @@
         "u": "clarion-project"
     },
     "cityandstateny.com": {
-        "b": "C",
+        "b": "LC",
         "d": "cityandstateny.com",
         "f": "cityandstateny",
         "t": "cityandstateny",
@@ -10145,7 +10145,7 @@
         "d": "justfactsdaily.com",
         "n": "Just Facts Daily",
         "P": "39",
-        "r": "H",
+        "r": "M",
         "u": "just-facts-daily"
     },
     "kansascity.com": {
@@ -14428,7 +14428,7 @@
         "f": "inquirerdotnet",
         "n": "Philippine Daily Inquirer",
         "P": "76",
-        "r": "M",
+        "r": "MF",
         "u": "philippine-daily-inquirer"
     },
     "pmnightlynews.com": {
@@ -20671,7 +20671,7 @@
         "t": "theroot",
         "n": "The Root",
         "P": "99",
-        "r": "H",
+        "r": "MF",
         "u": "the-root"
     },
     "thesaturdaypaper.com.au": {
@@ -22717,7 +22717,7 @@
         "t": "verywell",
         "n": "VeryWell",
         "P": "46",
-        "r": "VH",
+        "r": "H",
         "u": "verywell"
     },
     "en.radiovaticana.va": {
@@ -28888,5 +28888,53 @@
         "P": [],
         "r": "M",
         "u": "east-little-rock-times"
+    },
+    "wpxi.com": {
+        "b": "C",
+        "d": "wpxi.com",
+        "n": "WPXI",
+        "P": [],
+        "r": "H",
+        "u": "wpxi"
+    },
+    "fayettevillestandard.com": {
+        "b": "FN",
+        "d": "fayettevillestandard.com",
+        "n": "Fayetteville Standard",
+        "P": [],
+        "r": "M",
+        "u": "fayetteville-standard"
+    },
+    "verywellfamily.com": {
+        "b": "PS",
+        "d": "verywellfamily.com",
+        "n": "VeryWell Family",
+        "P": [],
+        "r": "H",
+        "u": "verywell-family"
+    },
+    "fortsmithtimes.com": {
+        "b": "FN",
+        "d": "fortsmithtimes.com",
+        "n": "Fort Smith Times",
+        "P": [],
+        "r": "M",
+        "u": "fort-smith-times"
+    },
+    "ktvu.com": {
+        "b": "C",
+        "d": "ktvu.com",
+        "n": "KTVU Fox 2",
+        "P": [],
+        "r": "H",
+        "u": "ktvu-fox-2"
+    },
+    "hotspringstimes.com": {
+        "b": "FN",
+        "d": "hotspringstimes.com",
+        "n": "Hot Springs Times",
+        "P": [],
+        "r": "M",
+        "u": "hot-springs-times"
     }
 }

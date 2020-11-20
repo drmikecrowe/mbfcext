@@ -2094,7 +2094,7 @@
         "L": "151111",
         "n": "Archaeology Magazine",
         "P": "66",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/archaeology-magazine/",
         "p": "/"
     },
@@ -3202,7 +3202,7 @@
         "p": "/"
     },
     "bellingcat.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "bellingcat.com",
         "t": "https://twitter.com/bellingcat",
         "h": "https://bellingcat.com",
@@ -3824,7 +3824,7 @@
         "p": "/"
     },
     "thebulletin.org": {
-        "b": "center",
+        "b": "left-center",
         "d": "thebulletin.org",
         "f": "https://facebook.com/bulletinoftheatomicscientists",
         "t": "https://twitter.com/bulletinatomic",
@@ -3833,7 +3833,7 @@
         "L": "181001",
         "n": "Bulletin of Atomic Scientists",
         "P": "70",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/bulletin-of-the-atomic-scientists/",
         "p": "/"
     },
@@ -5464,7 +5464,7 @@
         "p": "/"
     },
     "cityandstateny.com": {
-        "b": "center",
+        "b": "left-center",
         "d": "cityandstateny.com",
         "f": "https://facebook.com/cityandstateny",
         "t": "https://twitter.com/cityandstateny",
@@ -14528,7 +14528,7 @@
         "L": "16950",
         "n": "Just Facts Daily",
         "P": "39",
-        "r": "HIGH",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/just-facts-daily/",
         "p": "/"
     },
@@ -20666,7 +20666,7 @@
         "L": "298706",
         "n": "Philippine Daily Inquirer",
         "P": "76",
-        "r": "MIXED",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/philippine-daily-inquirer/",
         "p": "/"
     },
@@ -29631,7 +29631,7 @@
         "L": "10043862",
         "n": "The Root",
         "P": "99",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/the-root/",
         "p": "/"
     },
@@ -32581,7 +32581,7 @@
         "L": "19366",
         "n": "VeryWell",
         "P": "46",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/verywell/",
         "p": "/"
     },
@@ -41726,6 +41726,78 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/east-little-rock-times/",
+        "p": "/"
+    },
+    "wpxi.com": {
+        "b": "center",
+        "d": "wpxi.com",
+        "h": "https://wpxi.com",
+        "M": [],
+        "L": [],
+        "n": "WPXI",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/wpxi/",
+        "p": "/"
+    },
+    "fayettevillestandard.com": {
+        "b": "fake-news",
+        "d": "fayettevillestandard.com",
+        "h": "https://fayettevillestandard.com",
+        "M": [],
+        "L": [],
+        "n": "Fayetteville Standard",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/fayetteville-standard/",
+        "p": "/"
+    },
+    "verywellfamily.com": {
+        "b": "pro-science",
+        "d": "verywellfamily.com",
+        "h": "https://verywellfamily.com",
+        "M": [],
+        "L": [],
+        "n": "VeryWell Family",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/verywell-family/",
+        "p": "/"
+    },
+    "fortsmithtimes.com": {
+        "b": "fake-news",
+        "d": "fortsmithtimes.com",
+        "h": "https://fortsmithtimes.com",
+        "M": [],
+        "L": [],
+        "n": "Fort Smith Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/fort-smith-times/",
+        "p": "/"
+    },
+    "ktvu.com": {
+        "b": "center",
+        "d": "ktvu.com",
+        "h": "https://ktvu.com",
+        "M": [],
+        "L": [],
+        "n": "KTVU Fox 2",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/ktvu-fox-2/",
+        "p": "/"
+    },
+    "hotspringstimes.com": {
+        "b": "fake-news",
+        "d": "hotspringstimes.com",
+        "h": "https://hotspringstimes.com",
+        "M": [],
+        "L": [],
+        "n": "Hot Springs Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/hot-springs-times/",
         "p": "/"
     }
 }
