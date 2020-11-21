@@ -9811,7 +9811,7 @@
         "L": "343289",
         "n": "Federation of American Scientists",
         "P": "75",
-        "r": "VERY HIGH",
+        "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/federation-of-american-scientists-fas/",
         "p": "/"
     },
@@ -24585,6 +24585,18 @@
         "P": "50",
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/skeptical-raptor/",
+        "p": "/"
+    },
+    "skepticalinquirer.org": {
+        "b": "pro-science",
+        "d": "skepticalinquirer.org",
+        "h": "https://skepticalinquirer.org",
+        "M": "0",
+        "L": "0",
+        "n": "Skeptical Inquirer",
+        "P": "0",
+        "r": "VERY HIGH",
+        "u": "https://mediabiasfactcheck.com/skeptical-inquirer/",
         "p": "/"
     },
     "simplepolitics.co.uk": {

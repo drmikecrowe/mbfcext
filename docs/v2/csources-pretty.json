@@ -6851,7 +6851,7 @@
         "t": "fascientists",
         "n": "Federation of American Scientists",
         "P": "75",
-        "r": "VH",
+        "r": "H",
         "u": "federation-of-american-scientists-fas"
     },
     "fastcompany.com": {
@@ -17155,6 +17155,14 @@
         "P": "50",
         "r": "M",
         "u": "skeptical-raptor"
+    },
+    "skepticalinquirer.org": {
+        "b": "PS",
+        "d": "skepticalinquirer.org",
+        "n": "Skeptical Inquirer",
+        "P": "0",
+        "r": "VH",
+        "u": "skeptical-inquirer"
     },
     "simplepolitics.co.uk": {
         "b": "C",
