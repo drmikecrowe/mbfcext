@@ -13515,9 +13515,9 @@
         "r": "M",
         "u": "newsmax"
     },
-    "nextnewsnetwork": {
+    "nextnewsnetwork.com": {
         "b": "FN",
-        "d": "/nextnewsnetwork",
+        "d": "nextnewsnetwork.com",
         "f": "nextnewsnet",
         "n": "Next News Network",
         "P": "46",
@@ -21435,7 +21435,7 @@
         "u": "thebreakingnews"
     },
     "thejournal.ie": {
-        "b": "C",
+        "b": "LC",
         "d": "thejournal.ie",
         "f": "thejournal.ie",
         "n": "TheJournal.ie",
@@ -28944,5 +28944,37 @@
         "P": [],
         "r": "M",
         "u": "hot-springs-times"
+    },
+    "hoodsite.com": {
+        "b": "FN",
+        "d": "hoodsite.com",
+        "n": "Hoodsite",
+        "P": [],
+        "r": "M",
+        "u": "hoodsite"
+    },
+    "jonesborotimes.com": {
+        "b": "FN",
+        "d": "jonesborotimes.com",
+        "n": "Jonesboro Times",
+        "P": [],
+        "r": "M",
+        "u": "jonesboro-times"
+    },
+    "thelibertyloft.com": {
+        "b": "R",
+        "d": "thelibertyloft.com",
+        "n": "The Liberty Loft",
+        "P": [],
+        "r": "M",
+        "u": "the-liberty-loft"
+    },
+    "lowedeltanews.com": {
+        "b": "FN",
+        "d": "lowedeltanews.com",
+        "n": "Lowe Delta News",
+        "P": [],
+        "r": "M",
+        "u": "lowe-delta-news"
     }
 }

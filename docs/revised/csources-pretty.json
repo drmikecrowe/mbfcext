@@ -19355,11 +19355,11 @@
         "u": "https://mediabiasfactcheck.com/newsmax/",
         "p": "/"
     },
-    "nextnewsnetwork": {
+    "nextnewsnetwork.com": {
         "b": "fake-news",
-        "d": "/nextnewsnetwork",
+        "d": "nextnewsnetwork.com",
         "f": "https://facebook.com/nextnewsnet",
-        "h": "https:///nextnewsnetwork",
+        "h": "https://nextnewsnetwork.com",
         "M": "43",
         "L": "46441",
         "n": "Next News Network",
@@ -30724,7 +30724,7 @@
         "p": "/"
     },
     "thejournal.ie": {
-        "b": "center",
+        "b": "left-center",
         "d": "thejournal.ie",
         "f": "https://facebook.com/thejournal.ie",
         "h": "https://thejournal.ie",
@@ -41810,6 +41810,54 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/hot-springs-times/",
+        "p": "/"
+    },
+    "hoodsite.com": {
+        "b": "fake-news",
+        "d": "hoodsite.com",
+        "h": "https://hoodsite.com",
+        "M": [],
+        "L": [],
+        "n": "Hoodsite",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/hoodsite/",
+        "p": "/"
+    },
+    "jonesborotimes.com": {
+        "b": "fake-news",
+        "d": "jonesborotimes.com",
+        "h": "https://jonesborotimes.com",
+        "M": [],
+        "L": [],
+        "n": "Jonesboro Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/jonesboro-times/",
+        "p": "/"
+    },
+    "thelibertyloft.com": {
+        "b": "right",
+        "d": "thelibertyloft.com",
+        "h": "https://thelibertyloft.com",
+        "M": [],
+        "L": [],
+        "n": "The Liberty Loft",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/the-liberty-loft/",
+        "p": "/"
+    },
+    "lowedeltanews.com": {
+        "b": "fake-news",
+        "d": "lowedeltanews.com",
+        "h": "https://lowedeltanews.com",
+        "M": [],
+        "L": [],
+        "n": "Lowe Delta News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/lowe-delta-news/",
         "p": "/"
     }
 }
