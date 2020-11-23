@@ -41859,5 +41859,53 @@
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/lowe-delta-news/",
         "p": "/"
+    },
+    "ketv.com": {
+        "b": "center",
+        "d": "ketv.com",
+        "h": "https://ketv.com",
+        "M": [],
+        "L": [],
+        "n": "KETV",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/ketv/",
+        "p": "/"
+    },
+    "naturalstatenews.com": {
+        "b": "fake-news",
+        "d": "naturalstatenews.com",
+        "h": "https://naturalstatenews.com",
+        "M": [],
+        "L": [],
+        "n": "Natural State News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/natural-state-news/",
+        "p": "/"
+    },
+    "ncarkansasnews.com": {
+        "b": "fake-news",
+        "d": "ncarkansasnews.com",
+        "h": "https://ncarkansasnews.com",
+        "M": [],
+        "L": [],
+        "n": "North Central Arkansas News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/north-central-arkansas-news/",
+        "p": "/"
+    },
+    "northlittlerocktimes.com": {
+        "b": "fake-news",
+        "d": "northlittlerocktimes.com",
+        "h": "https://northlittlerocktimes.com",
+        "M": [],
+        "L": [],
+        "n": "North Little Rock Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/north-little-rock-times/",
+        "p": "/"
     }
 }
