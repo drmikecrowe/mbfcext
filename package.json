@@ -1,12 +1,15 @@
 {
-  "name": "facebook-media-bias-and-fact-check-extension",
-  "description": "Curate Facebook with MBFC news categorizations",
+  "name": "media-bias-and-fact-check-extension",
+  "description": "Curate Facebook/Twitter with MBFC news categorizations",
   "version": "3.0.2",
   "author": "Mike Crowe <drmikecrowe@gmail.com>",
   "browserslist": [
     "last 2 versions",
     "> 1%"
   ],
+  "engines": {
+    "node": "12.14.0"
+  },
   "bugs": "https://github.com/drmikecrowe/mbfcext/issues",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
