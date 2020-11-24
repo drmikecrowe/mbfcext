@@ -1056,7 +1056,7 @@
         "t": "aier",
         "n": "American Institute for Economic Research",
         "P": "31",
-        "r": "H",
+        "r": "MF",
         "u": "american-institute-for-economic-research"
     },
     "americanflavor.news": {
@@ -29008,5 +29008,21 @@
         "P": [],
         "r": "M",
         "u": "north-little-rock-times"
+    },
+    "conservativetoday.org": {
+        "b": "FN",
+        "d": "conservativetoday.org",
+        "n": "Conservatives Today",
+        "P": [],
+        "r": "L",
+        "u": "conservatives-today"
+    },
+    "nwarkansasnews.com": {
+        "b": "FN",
+        "d": "nwarkansasnews.com",
+        "n": "NW Arkansas News",
+        "P": [],
+        "r": "M",
+        "u": "nw-arkansas-news"
     }
 }

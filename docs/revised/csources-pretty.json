@@ -1511,7 +1511,7 @@
         "L": "4815",
         "n": "American Institute for Economic Research",
         "P": "31",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/american-institute-for-economic-research/",
         "p": "/"
     },
@@ -15130,10 +15130,10 @@
     },
     "lawandcrime.com": {
         "b": "left-center",
-        "d": "lawandcrime.com/",
+        "d": "lawandcrime.com",
         "f": "https://facebook.com/lawandcrime",
         "t": "https://twitter.com/lawcrimenetwork",
-        "h": "https://lawandcrime.com/",
+        "h": "https://lawandcrime.com",
         "M": "49",
         "L": "310395",
         "n": "Law & Crime",
@@ -41906,6 +41906,30 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/north-little-rock-times/",
+        "p": "/"
+    },
+    "conservativetoday.org": {
+        "b": "fake-news",
+        "d": "conservativetoday.org",
+        "h": "https://conservativetoday.org",
+        "M": [],
+        "L": [],
+        "n": "Conservatives Today",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/conservatives-today/",
+        "p": "/"
+    },
+    "nwarkansasnews.com": {
+        "b": "fake-news",
+        "d": "nwarkansasnews.com",
+        "h": "https://nwarkansasnews.com",
+        "M": [],
+        "L": [],
+        "n": "NW Arkansas News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/nw-arkansas-news/",
         "p": "/"
     }
 }
