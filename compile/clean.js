@@ -6,7 +6,7 @@ const zip = require("bestzip");
 const pkg = require("../package.json");
 
 const BUNDLE_DIR = process.env.BUNDLE_DIR || path.join(__dirname, "../build");
-const targets = ["chrome", "firefox", "opera"];
+const targets = ["chrome", "firefox"];
 const bundles = [
   "scripts/background.js",
   "scripts/facebook.js",
