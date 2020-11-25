@@ -434,7 +434,7 @@ export class Filter {
         break;
     }
 
-    const details_contents = `<div class="mbfc-td mbfc-td-text">
+    const details_contents = `<div class="mbfc-details mbfc-td mbfc-td-text">
             ${details.join(", &nbsp;")}
         </div>`;
 
