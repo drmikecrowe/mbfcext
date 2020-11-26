@@ -122,22 +122,31 @@ export class Facebook extends Filter {
         count: -1,
         ignored: false,
       };
-      Array.from(dn.block.children).forEach((e) => {
+      const ch = Array.from(dn.block.children);
+      const look_for = ch.length - 1;
+      ch.forEach((e, i) => {
         if (e.children.length === 0) return;
         if (!story.top) story.top = e;
         else {
-          if (!story.report) story.report = e;
+          if (i === look_for && !story.report) story.report = e;
           story.hides.push(e);
         }
       });
       if (dn.title_span && dn.title_span.textContent)
         story.tagsearch = dn.title_span.textContent;
+      let found = false;
+      results.forEach((result, index) => {
+        if (result.parent.isSameNode(story.parent)) {
+          found = true;
+          results[index] = story;
+        }
+      });
       results.push(story);
     };
 
     domain_nodes.forEach((dn) => {
       const pobj_nodes = object_nodes.filter(
-        (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
+        (on) => on.block && dn.block && on.block?.isSameNode(dn.block) // Is this the object_node for this block?
       );
       // Here we are flagging object_nodes that we are aware of that shouldn't be processed again
       pobj_nodes.forEach((on) => {
@@ -151,10 +160,8 @@ export class Facebook extends Filter {
             on?.internal_url
           ).sendMessage();
         }
-        if (!dn.domain) {
-          log(`Using ${on.domain.final_domain}`);
-          dn.domain = on.domain;
-        }
+        log(`Using ${on.domain.final_domain}`);
+        dn.domain = on.domain;
       }
       addBlock(dn);
     });
