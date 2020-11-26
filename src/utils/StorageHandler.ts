@@ -47,9 +47,9 @@ export const reportingShortToName = {
   H: "HIGH",
   L: "LOW",
   M: "MIXED",
-  MF: "MOSTLY_FACTUAL",
-  VH: "VERY_HIGH",
-  VL: "VERY_LOW",
+  MF: "MOSTLY FACTUAL",
+  VH: "VERY HIGH",
+  VL: "VERY LOW",
 };
 
 export interface Collapse {
