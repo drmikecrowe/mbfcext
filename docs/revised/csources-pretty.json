@@ -14408,7 +14408,7 @@
         "h": "https://janes.com",
         "M": "64",
         "L": "508081",
-        "n": "Janes 360",
+        "n": "Janes Information Group",
         "P": "83",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/ihs-janes-360/",
@@ -26690,7 +26690,7 @@
         "p": "/"
     },
     "theblacksphere.net": {
-        "b": "right",
+        "b": "fake-news",
         "d": "theblacksphere.net",
         "f": "https://facebook.com/theblacksphere.net",
         "t": "https://twitter.com/theblacksphere",
@@ -40253,14 +40253,14 @@
         "p": "/"
     },
     "newsbreak.com": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "newsbreak.com",
         "h": "https://newsbreak.com",
         "M": [],
         "L": [],
         "n": "News Break",
         "P": [],
-        "r": "MOSTLY FACTUAL",
+        "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/news-break/",
         "p": "/"
     },
@@ -41930,6 +41930,66 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/nw-arkansas-news/",
+        "p": "/"
+    },
+    "thedonald.win": {
+        "b": "fake-news",
+        "d": "thedonald.win",
+        "h": "https://thedonald.win",
+        "M": [],
+        "L": [],
+        "n": "TheDonald.Win",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/thedonald-win/",
+        "p": "/"
+    },
+    "pulaskitimes.com": {
+        "b": "fake-news",
+        "d": "pulaskitimes.com",
+        "h": "https://pulaskitimes.com",
+        "M": [],
+        "L": [],
+        "n": "Pulaski Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/pulaski-times/",
+        "p": "/"
+    },
+    "populist.press": {
+        "b": "fake-news",
+        "d": "populist.press",
+        "h": "https://populist.press",
+        "M": [],
+        "L": [],
+        "n": "Populist.Press",
+        "P": [],
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/populist-press/",
+        "p": "/"
+    },
+    "swarkansastimes.com": {
+        "b": "fake-news",
+        "d": "swarkansastimes.com",
+        "h": "https://swarkansastimes.com",
+        "M": [],
+        "L": [],
+        "n": "SW Arkansas Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/sw-arkansas-times/",
+        "p": "/"
+    },
+    "hereistheevidence.com": {
+        "b": "fake-news",
+        "d": "hereistheevidence.com",
+        "h": "https://hereistheevidence.com",
+        "M": [],
+        "L": [],
+        "n": "Here is the Evidence",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/here-is-the-evidence/",
         "p": "/"
     }
 }

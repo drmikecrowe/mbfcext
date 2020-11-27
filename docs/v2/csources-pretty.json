@@ -10061,7 +10061,7 @@
         "d": "janes.com",
         "f": "janesbyihsmarkit",
         "t": "janesintel",
-        "n": "Janes 360",
+        "n": "Janes Information Group",
         "P": "83",
         "r": "H",
         "u": "ihs-janes-360"
@@ -18619,7 +18619,7 @@
         "u": "the-blaze"
     },
     "theblacksphere.net": {
-        "b": "R",
+        "b": "FN",
         "d": "theblacksphere.net",
         "f": "theblacksphere.net",
         "t": "theblacksphere",
@@ -27906,11 +27906,11 @@
         "u": "natural-news-radio"
     },
     "newsbreak.com": {
-        "b": "LC",
+        "b": "FN",
         "d": "newsbreak.com",
         "n": "News Break",
         "P": [],
-        "r": "MF",
+        "r": "M",
         "u": "news-break"
     },
     "naturalpedia.com": {
@@ -29024,5 +29024,45 @@
         "P": [],
         "r": "M",
         "u": "nw-arkansas-news"
+    },
+    "thedonald.win": {
+        "b": "FN",
+        "d": "thedonald.win",
+        "n": "TheDonald.Win",
+        "P": [],
+        "r": "L",
+        "u": "thedonald-win"
+    },
+    "pulaskitimes.com": {
+        "b": "FN",
+        "d": "pulaskitimes.com",
+        "n": "Pulaski Times",
+        "P": [],
+        "r": "M",
+        "u": "pulaski-times"
+    },
+    "populist.press": {
+        "b": "FN",
+        "d": "populist.press",
+        "n": "Populist.Press",
+        "P": [],
+        "r": "L",
+        "u": "populist-press"
+    },
+    "swarkansastimes.com": {
+        "b": "FN",
+        "d": "swarkansastimes.com",
+        "n": "SW Arkansas Times",
+        "P": [],
+        "r": "M",
+        "u": "sw-arkansas-times"
+    },
+    "hereistheevidence.com": {
+        "b": "FN",
+        "d": "hereistheevidence.com",
+        "n": "Here is the Evidence",
+        "P": [],
+        "r": "M",
+        "u": "here-is-the-evidence"
     }
 }
