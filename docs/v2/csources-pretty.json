@@ -17729,7 +17729,7 @@
         "b": "LC",
         "d": "stopfake.org",
         "f": "stopfakeukraine",
-        "n": "Stop Fake",
+        "n": "StopFake",
         "P": "54",
         "r": "H",
         "u": "stopfake"
@@ -29064,5 +29064,61 @@
         "P": [],
         "r": "M",
         "u": "here-is-the-evidence"
+    },
+    "upperdeltanews.com": {
+        "b": "FN",
+        "d": "upperdeltanews.com",
+        "n": "Upper Delta News",
+        "P": [],
+        "r": "M",
+        "u": "upper-delta-news"
+    },
+    "columbian.com": {
+        "b": "C",
+        "d": "columbian.com",
+        "n": "The Columbian",
+        "P": [],
+        "r": "H",
+        "u": "the-columbian"
+    },
+    "antelopevalleytoday.com": {
+        "b": "FN",
+        "d": "antelopevalleytoday.com",
+        "n": "Antelope Valley Today",
+        "P": [],
+        "r": "M",
+        "u": "antelope-valley-today"
+    },
+    "censor.net": {
+        "b": "LC",
+        "d": "censor.net",
+        "n": "Censor.NET",
+        "P": [],
+        "r": "MF",
+        "u": "censor-net"
+    },
+    "centraloctimes.com": {
+        "b": "FN",
+        "d": "centraloctimes.com",
+        "n": "Central OC Times",
+        "P": [],
+        "r": "M",
+        "u": "central-oc-times"
+    },
+    "pravda.com.ua": {
+        "b": "LC",
+        "d": "pravda.com.ua",
+        "n": "Ukrayinska Pravda (The Ukrainian Truth)",
+        "P": [],
+        "r": "MF",
+        "u": "ukrayinska-pravda-the-ukrainian-truth"
+    },
+    "chicotimes.com": {
+        "b": "FN",
+        "d": "chicotimes.com",
+        "n": "Chico Times",
+        "P": [],
+        "r": "M",
+        "u": "chico-times"
     }
 }
