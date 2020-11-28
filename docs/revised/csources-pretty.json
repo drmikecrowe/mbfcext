@@ -27877,15 +27877,17 @@
     },
     "theguardian.com": {
         "b": "left-center",
-        "d": "https://www.theguardian.com/observer",
-        "h": "https://https://www.theguardian.com/observer",
-        "M": "0",
-        "L": "0",
-        "n": "The Observer (UK)",
-        "P": "0",
+        "d": "theguardian.com",
+        "f": "https://facebook.com/theguardian",
+        "t": "https://twitter.com/guardian",
+        "h": "https://theguardian.com",
+        "M": "79",
+        "L": "8715772",
+        "n": "The Guardian",
+        "P": "99",
         "r": "MIXED",
-        "u": "https://mediabiasfactcheck.com/the-observer/",
-        "p": "/observer"
+        "u": "https://mediabiasfactcheck.com/the-guardian/",
+        "p": "/"
     },
     "thehindu.com": {
         "b": "left-center",

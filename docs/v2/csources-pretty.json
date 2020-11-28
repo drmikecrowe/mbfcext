@@ -19446,12 +19446,13 @@
     },
     "theguardian.com": {
         "b": "LC",
-        "d": "https://www.theguardian.com/observer",
-        "n": "The Observer (UK)",
-        "P": "0",
+        "d": "theguardian.com",
+        "f": "theguardian",
+        "t": "guardian",
+        "n": "The Guardian",
+        "P": "99",
         "r": "M",
-        "u": "the-observer",
-        "p": "/observer"
+        "u": "the-guardian"
     },
     "thehindu.com": {
         "b": "LC",
