@@ -42077,5 +42077,29 @@
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/chico-times/",
         "p": "/"
+    },
+    "conservativematrix.com": {
+        "b": "fake-news",
+        "d": "conservativematrix.com",
+        "h": "https://conservativematrix.com",
+        "M": [],
+        "L": [],
+        "n": "Conservative Matrix",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/conservative-matrix/",
+        "p": "/"
+    },
+    "coachellatoday.com": {
+        "b": "fake-news",
+        "d": "coachellatoday.com",
+        "h": "https://coachellatoday.com",
+        "M": [],
+        "L": [],
+        "n": "Coachella Today",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/coachella-today/",
+        "p": "/"
     }
 }
