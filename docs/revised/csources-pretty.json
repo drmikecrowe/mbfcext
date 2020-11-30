@@ -42101,5 +42101,29 @@
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/coachella-today/",
         "p": "/"
+    },
+    "thehealthyamerican.org": {
+        "b": "conspiracy",
+        "d": "thehealthyamerican.org",
+        "h": "https://thehealthyamerican.org",
+        "M": [],
+        "L": [],
+        "n": "The Healthy American",
+        "P": [],
+        "r": "VERY LOW",
+        "u": "https://mediabiasfactcheck.com/the-healthy-american/",
+        "p": "/"
+    },
+    "eastalamedanews.com": {
+        "b": "fake-news",
+        "d": "eastalamedanews.com",
+        "h": "https://eastalamedanews.com",
+        "M": [],
+        "L": [],
+        "n": "East Alameda News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/east-alameda-news/",
+        "p": "/"
     }
 }
