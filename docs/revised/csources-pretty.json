@@ -42125,5 +42125,29 @@
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/east-alameda-news/",
         "p": "/"
+    },
+    "eastcontracostanews.com": {
+        "b": "fake-news",
+        "d": "eastcontracostanews.com",
+        "h": "https://eastcontracostanews.com",
+        "M": [],
+        "L": [],
+        "n": "East Contra Costa News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/east-contra-costa-news/",
+        "p": "/"
+    },
+    "dominionpost.com": {
+        "b": "left-center",
+        "d": "dominionpost.com",
+        "h": "https://dominionpost.com",
+        "M": [],
+        "L": [],
+        "n": "The Dominion Post",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/the-dominion-post/",
+        "p": "/"
     }
 }
