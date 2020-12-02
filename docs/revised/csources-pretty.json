@@ -23656,7 +23656,7 @@
         "L": "2970380",
         "n": "Salon",
         "P": "95",
-        "r": "HIGH",
+        "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/salon/",
         "p": "/"
     },
@@ -42148,6 +42148,30 @@
         "P": [],
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/the-dominion-post/",
+        "p": "/"
+    },
+    "eastsandiegonews.com": {
+        "b": "fake-news",
+        "d": "eastsandiegonews.com",
+        "h": "https://eastsandiegonews.com",
+        "M": [],
+        "L": [],
+        "n": "East San Diego News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/east-san-diego-news/",
+        "p": "/"
+    },
+    "hln.be": {
+        "b": "right-center",
+        "d": "hln.be",
+        "h": "https://hln.be",
+        "M": [],
+        "L": [],
+        "n": "Het Laatste Nieuws (HLN)",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/het-laatste-nieuws-hln/",
         "p": "/"
     }
 }

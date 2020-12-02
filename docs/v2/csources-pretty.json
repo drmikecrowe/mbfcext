@@ -16506,7 +16506,7 @@
         "t": "salon",
         "n": "Salon",
         "P": "95",
-        "r": "H",
+        "r": "MF",
         "u": "salon"
     },
     "independent.com": {
@@ -29169,5 +29169,21 @@
         "P": [],
         "r": "H",
         "u": "the-dominion-post"
+    },
+    "eastsandiegonews.com": {
+        "b": "FN",
+        "d": "eastsandiegonews.com",
+        "n": "East San Diego News",
+        "P": [],
+        "r": "M",
+        "u": "east-san-diego-news"
+    },
+    "hln.be": {
+        "b": "RC",
+        "d": "hln.be",
+        "n": "Het Laatste Nieuws (HLN)",
+        "P": [],
+        "r": "MF",
+        "u": "het-laatste-nieuws-hln"
     }
 }
