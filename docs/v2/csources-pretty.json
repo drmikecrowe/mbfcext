@@ -21,6 +21,7 @@
         "b": "CP",
         "d": "21stcenturywire.com",
         "f": "21wire.tv",
+        "t": "21wire",
         "n": "21st Century Wire",
         "P": "79",
         "r": "M",
@@ -9922,12 +9923,12 @@
         "r": "L",
         "u": "iowa-climate-science-education"
     },
-    "irinnews.org": {
+    "thenewhumanitarian.org": {
         "b": "LC",
-        "d": "irinnews.org",
+        "d": "thenewhumanitarian.org",
         "f": "newhumanitarian",
         "t": "newhumanitarian",
-        "n": "IRIN News",
+        "n": "The New Humanitarian",
         "P": "81",
         "r": "H",
         "u": "irin-news"
@@ -11009,7 +11010,7 @@
         "t": "libertyhangout",
         "n": "Liberty Hangout",
         "P": "51",
-        "r": "M",
+        "r": "L",
         "u": "liberty-hangout"
     },
     "louderwithcrowder.com": {
@@ -29185,5 +29186,37 @@
         "P": [],
         "r": "MF",
         "u": "het-laatste-nieuws-hln"
+    },
+    "eastsbvtimes.com": {
+        "b": "FN",
+        "d": "eastsbvtimes.com",
+        "n": "East SBV Times",
+        "P": [],
+        "r": "M",
+        "u": "east-sbv-times"
+    },
+    "lesoir.be": {
+        "b": "C",
+        "d": "lesoir.be",
+        "n": "Le Soir",
+        "P": [],
+        "r": "H",
+        "u": "le-soir"
+    },
+    "lalibre.be": {
+        "b": "C",
+        "d": "lalibre.be",
+        "n": "La Libre",
+        "P": [],
+        "r": "H",
+        "u": "la-libre"
+    },
+    "eastsfvtoday.com": {
+        "b": "FN",
+        "d": "eastsfvtoday.com",
+        "n": "East SFV Today",
+        "P": [],
+        "r": "M",
+        "u": "east-sfv-news"
     }
 }

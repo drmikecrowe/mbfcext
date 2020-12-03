@@ -29,6 +29,7 @@
         "b": "conspiracy",
         "d": "21stcenturywire.com",
         "f": "https://facebook.com/21wire.tv",
+        "t": "https://twitter.com/21wire/",
         "h": "https://21stcenturywire.com",
         "M": "53",
         "L": "332291",
@@ -14206,15 +14207,15 @@
         "u": "https://mediabiasfactcheck.com/iowa-climate-science-education/",
         "p": "/"
     },
-    "irinnews.org": {
+    "thenewhumanitarian.org": {
         "b": "left-center",
-        "d": "irinnews.org",
+        "d": "thenewhumanitarian.org",
         "f": "https://facebook.com/newhumanitarian",
         "t": "https://twitter.com/newhumanitarian",
-        "h": "https://irinnews.org",
+        "h": "https://thenewhumanitarian.org",
         "M": "61",
         "L": "423225",
-        "n": "IRIN News",
+        "n": "The New Humanitarian",
         "P": "81",
         "r": "HIGH",
         "u": "https://mediabiasfactcheck.com/irin-news/",
@@ -15772,7 +15773,7 @@
         "L": "38183",
         "n": "Liberty Hangout",
         "P": "51",
-        "r": "MIXED",
+        "r": "LOW",
         "u": "https://mediabiasfactcheck.com/liberty-hangout/",
         "p": "/"
     },
@@ -42172,6 +42173,54 @@
         "P": [],
         "r": "MOSTLY FACTUAL",
         "u": "https://mediabiasfactcheck.com/het-laatste-nieuws-hln/",
+        "p": "/"
+    },
+    "eastsbvtimes.com": {
+        "b": "fake-news",
+        "d": "eastsbvtimes.com",
+        "h": "https://eastsbvtimes.com",
+        "M": [],
+        "L": [],
+        "n": "East SBV Times",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/east-sbv-times/",
+        "p": "/"
+    },
+    "lesoir.be": {
+        "b": "center",
+        "d": "lesoir.be",
+        "h": "https://lesoir.be",
+        "M": [],
+        "L": [],
+        "n": "Le Soir",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/le-soir/",
+        "p": "/"
+    },
+    "lalibre.be": {
+        "b": "center",
+        "d": "lalibre.be",
+        "h": "https://lalibre.be",
+        "M": [],
+        "L": [],
+        "n": "La Libre",
+        "P": [],
+        "r": "HIGH",
+        "u": "https://mediabiasfactcheck.com/la-libre/",
+        "p": "/"
+    },
+    "eastsfvtoday.com": {
+        "b": "fake-news",
+        "d": "eastsfvtoday.com",
+        "h": "https://eastsfvtoday.com",
+        "M": [],
+        "L": [],
+        "n": "East SFV Today",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/east-sfv-news/",
         "p": "/"
     }
 }
