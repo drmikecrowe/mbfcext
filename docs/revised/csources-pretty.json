@@ -42222,5 +42222,29 @@
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/east-sfv-news/",
         "p": "/"
+    },
+    "thefirsttv.com": {
+        "b": "right",
+        "d": "thefirsttv.com",
+        "h": "https://thefirsttv.com",
+        "M": [],
+        "L": [],
+        "n": "The First TV",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/the-first-tv/",
+        "p": "/"
+    },
+    "eastsierranews.com": {
+        "b": "fake-news",
+        "d": "eastsierranews.com",
+        "h": "https://eastsierranews.com",
+        "M": [],
+        "L": [],
+        "n": "East Sierra News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/east-sierra-news/",
+        "p": "/"
     }
 }
