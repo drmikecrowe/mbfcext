@@ -3855,7 +3855,7 @@
     },
     "columbusfreepress.com": {
         "b": "L",
-        "d": "https://columbusfreepress.com",
+        "d": "columbusfreepress.com",
         "n": "Columbus Free Press",
         "P": "32",
         "r": "M",
@@ -4351,7 +4351,7 @@
     },
     "conservativearmy88.com": {
         "b": "FN",
-        "d": "http://conservativearmy88.com",
+        "d": "conservativearmy88.com",
         "n": "Conservative Army",
         "P": "21",
         "r": "L",
@@ -8453,7 +8453,7 @@
     },
     "en.hawarnews.org": {
         "b": "FN",
-        "d": "https://en.hawarnews.org",
+        "d": "en.hawarnews.org",
         "n": "Hawar News Agancy",
         "P": "36",
         "r": "L",
@@ -8902,7 +8902,7 @@
     },
     "hoover.org": {
         "b": "R",
-        "d": "http://www.hoover.org/publications/policy-review",
+        "d": "hoover.org/publications/policy-review",
         "n": "Policy Review",
         "P": "0",
         "r": "H",
@@ -12088,11 +12088,11 @@
         "u": "mosaic"
     },
     "monthlyreview.org": {
-        "b": "LC",
+        "b": "L",
         "d": "monthlyreview.org",
         "f": "monthly.review.magazine",
         "t": "monthly_review",
-        "n": "Monthy Review",
+        "n": "Monthly Review",
         "P": "82",
         "r": "H",
         "u": "monthly-review"
@@ -12902,15 +12902,6 @@
         "r": "H",
         "u": "new-internationalist"
     },
-    "nymag.com": {
-        "b": "L",
-        "d": "nymag.com",
-        "t": "nymag",
-        "n": "New York Magazine",
-        "P": "96",
-        "r": "H",
-        "u": "new-york-magazine"
-    },
     "newhumanist.org.uk": {
         "b": "PS",
         "d": "newhumanist.org.uk",
@@ -12983,7 +12974,7 @@
         "u": "new-revolution-now"
     },
     "newmatilda.com": {
-        "b": "LC",
+        "b": "L",
         "d": "newmatilda.com",
         "t": "newmatilda",
         "n": "New Matilda",
@@ -14338,7 +14329,7 @@
         "t": "pbs",
         "n": "PBS News Hour",
         "P": "99",
-        "r": "VH",
+        "r": "H",
         "u": "pbs-news-hour"
     },
     "piie.com": {
@@ -15871,6 +15862,14 @@
         "P": "0",
         "r": "M",
         "u": "regated-news"
+    },
+    "redstate.com": {
+        "b": "FN",
+        "d": "redstate.com",
+        "n": "RedState",
+        "P": "0",
+        "r": "M",
+        "u": "red-state"
     },
     "redoubtnews.com": {
         "b": "CP",
@@ -17543,9 +17542,9 @@
         "r": "H",
         "u": "spiegel-online"
     },
-    "sportspickle.com(function(w,d,s,i)": {
+    "sportspickle.com(function(w,d,s,i": {
         "b": "S",
-        "d": "sportspickle.com(function(w,d,s,i)",
+        "d": "sportspickle.com(function(w,d,s,i",
         "n": "Sports Pickle",
         "P": "0",
         "u": "sports-pickle"
@@ -18641,7 +18640,7 @@
     },
     "thebulwark.com": {
         "b": "RC",
-        "d": "https://thebulwark.com",
+        "d": "thebulwark.com",
         "n": "The Bulwark",
         "P": "61",
         "r": "H",
@@ -20302,9 +20301,9 @@
         "r": "H",
         "u": "the-pantagraph"
     },
-    ".thepolitics.online": {
+    "thepolitics.online": {
         "b": "FN",
-        "d": ".thepolitics.online",
+        "d": "thepolitics.online",
         "n": "The Politics Online",
         "P": "0",
         "r": "L",
@@ -20511,7 +20510,6 @@
     "theracketreport.com": {
         "b": "S",
         "d": "theracketreport.com",
-        "f": "http://fb.com",
         "n": "The Racket Report",
         "P": "23",
         "u": "the-racket-report"
@@ -23811,6 +23809,14 @@
         "r": "L",
         "u": "zero-hedge"
     },
+    "statista.com": {
+        "b": "C",
+        "d": "statista.com",
+        "n": "Statista",
+        "P": "0",
+        "r": "H",
+        "u": "statista"
+    },
     "dailycamera.com": {
         "b": "C",
         "d": "dailycamera.com",
@@ -23829,7 +23835,7 @@
     },
     "rgj.com": {
         "b": "LC",
-        "d": "https://www.rgj.com",
+        "d": "rgj.com",
         "n": "Reno Gazette Journal",
         "P": "57",
         "r": "H",
@@ -23837,7 +23843,7 @@
     },
     "albertaviews.ca": {
         "b": "LC",
-        "d": "https://albertaviews.ca",
+        "d": "albertaviews.ca",
         "n": "Alberta Views",
         "P": "25",
         "r": "H",
@@ -23855,7 +23861,7 @@
     },
     "thedodo.com": {
         "b": "L",
-        "d": "https://www.thedodo.com",
+        "d": "thedodo.com",
         "n": "The Dodo",
         "P": "56",
         "r": "M",
@@ -23863,7 +23869,7 @@
     },
     "readfrontier.org": {
         "b": "LC",
-        "d": "https://www.readfrontier.org",
+        "d": "readfrontier.org",
         "n": "The Frontier",
         "P": "36",
         "r": "H",
@@ -23871,14 +23877,14 @@
     },
     "thereisnews.com": {
         "b": "S",
-        "d": "https://thereisnews.com",
+        "d": "thereisnews.com",
         "n": "There is News",
         "P": "28",
         "u": "there-is-news-satire-spain-bias"
     },
     "americatalks.com": {
         "b": "FN",
-        "d": "https://americatalks.com",
+        "d": "americatalks.com",
         "n": "America Talks with David Zublick",
         "P": "35",
         "r": "VL",
@@ -23886,7 +23892,7 @@
     },
     "greatamericanrepublic.com": {
         "b": "FN",
-        "d": "https://greatamericanrepublic.com",
+        "d": "greatamericanrepublic.com",
         "n": "Great American Republic",
         "P": "58",
         "r": "L",
@@ -23894,7 +23900,7 @@
     },
     "politicalstate.org": {
         "b": "FN",
-        "d": "https://politicalstate.org",
+        "d": "politicalstate.org",
         "n": "Political State",
         "P": "23",
         "r": "M",
@@ -23902,7 +23908,7 @@
     },
     "americansfortruth.com": {
         "b": "FN",
-        "d": "https://americansfortruth.com",
+        "d": "americansfortruth.com",
         "n": "Americans for Truth",
         "P": "62",
         "r": "VL",
@@ -23910,7 +23916,7 @@
     },
     "amac.us": {
         "b": "R",
-        "d": "https://amac.us",
+        "d": "amac.us",
         "n": "AMAC (Association of Mature American Citizens)",
         "P": "40",
         "r": "M",
@@ -23918,7 +23924,7 @@
     },
     "americarisingpac.org": {
         "b": "R",
-        "d": "https://americarisingpac.org",
+        "d": "americarisingpac.org",
         "n": "America Rising PAC",
         "P": "43",
         "r": "M",
@@ -23926,7 +23932,7 @@
     },
     "ansa.it": {
         "b": "C",
-        "d": "http://www.ansa.it",
+        "d": "ansa.it",
         "n": "Agenzia Nazionale Stampa Associata (ANSA)",
         "P": "97",
         "r": "H",
@@ -23944,7 +23950,7 @@
     },
     "blackeyepolitics.com": {
         "b": "FN",
-        "d": "https://blackeyepolitics.com",
+        "d": "blackeyepolitics.com",
         "n": "Black Eye Politics",
         "P": "28",
         "r": "L",
@@ -23962,7 +23968,7 @@
     },
     "thrillist.com": {
         "b": "LC",
-        "d": "https://www.thrillist.com",
+        "d": "thrillist.com",
         "n": "Thrillist",
         "P": "54",
         "r": "H",
@@ -23970,7 +23976,7 @@
     },
     "egypttoday.com": {
         "b": "R",
-        "d": "https://www.egypttoday.com",
+        "d": "egypttoday.com",
         "n": "Egypt Today",
         "P": "66",
         "r": "M",
@@ -23978,7 +23984,7 @@
     },
     "cloverchronicle.com": {
         "b": "FN",
-        "d": "https://cloverchronicle.com",
+        "d": "cloverchronicle.com",
         "n": "Clover Chronicle",
         "P": "29",
         "r": "L",
@@ -23986,7 +23992,7 @@
     },
     "billionbibles.org": {
         "b": "FN",
-        "d": "http://www.billionbibles.org",
+        "d": "billionbibles.org",
         "n": "BillionBibles.org",
         "P": "22",
         "r": "VL",
@@ -23994,7 +24000,7 @@
     },
     "uslibertywire.com": {
         "b": "FN",
-        "d": "https://uslibertywire.com",
+        "d": "uslibertywire.com",
         "n": "US Liberty Wire",
         "P": "28",
         "r": "L",
@@ -24002,7 +24008,7 @@
     },
     "inforum.com": {
         "b": "RC",
-        "d": "https://www.inforum.com",
+        "d": "inforum.com",
         "n": "Inforum (The Forum of Fargo-Moorhead)",
         "P": "75",
         "r": "H",
@@ -24010,7 +24016,7 @@
     },
     "survivalblog.com": {
         "b": "FN",
-        "d": "https://survivalblog.com",
+        "d": "survivalblog.com",
         "n": "SurvivalBlog.com",
         "P": "83",
         "r": "L",
@@ -24018,7 +24024,7 @@
     },
     "checkpointasia.net": {
         "b": "FN",
-        "d": "https://www.checkpointasia.net",
+        "d": "checkpointasia.net",
         "n": "Checkpoint Asia",
         "P": "41",
         "r": "L",
@@ -24026,7 +24032,7 @@
     },
     "yaleglobal.yale.edu": {
         "b": "LC",
-        "d": "https://yaleglobal.yale.edu",
+        "d": "yaleglobal.yale.edu",
         "n": "YaleGlobal Online",
         "P": "54",
         "r": "VH",
@@ -24034,7 +24040,7 @@
     },
     "everydayhealth.com": {
         "b": "PS",
-        "d": "https://www.everydayhealth.com",
+        "d": "everydayhealth.com",
         "n": "Everyday Health",
         "P": "98",
         "r": "H",
@@ -24042,7 +24048,7 @@
     },
     "wacotrib.com": {
         "b": "C",
-        "d": "https://www.wacotrib.com",
+        "d": "wacotrib.com",
         "n": "Waco Tribune-Herald",
         "P": "52",
         "r": "H",
@@ -24050,7 +24056,7 @@
     },
     "diply.com": {
         "b": "LC",
-        "d": "https://diply.com",
+        "d": "diply.com",
         "n": "Diply",
         "P": "50",
         "r": "M",
@@ -24058,7 +24064,7 @@
     },
     "tmz.com": {
         "b": "LC",
-        "d": "https://www.tmz.com",
+        "d": "tmz.com",
         "n": "TMZ",
         "P": "98",
         "r": "M",
@@ -24066,7 +24072,7 @@
     },
     "thebrunswicknews.com": {
         "b": "RC",
-        "d": "https://thebrunswicknews.com",
+        "d": "thebrunswicknews.com",
         "n": "The Brunswick News",
         "P": "41",
         "r": "H",
@@ -24074,7 +24080,7 @@
     },
     "worldaffairsbrief.com": {
         "b": "CP",
-        "d": "https://www.worldaffairsbrief.com",
+        "d": "worldaffairsbrief.com",
         "n": "World Affairs Brief",
         "P": "51",
         "r": "VL",
@@ -24082,7 +24088,7 @@
     },
     "cc.org": {
         "b": "R",
-        "d": "http://www.cc.org",
+        "d": "cc.org",
         "n": "Christian Coalition of America",
         "P": "53",
         "r": "M",
@@ -24090,7 +24096,7 @@
     },
     "lmtonline.com": {
         "b": "RC",
-        "d": "https://www.lmtonline.com",
+        "d": "lmtonline.com",
         "n": "Laredo Morning Times",
         "P": "45",
         "r": "H",
@@ -24098,7 +24104,7 @@
     },
     "freedomalliance.org": {
         "b": "RC",
-        "d": "https://freedomalliance.org",
+        "d": "freedomalliance.org",
         "n": "Freedom Alliance",
         "P": "42",
         "r": "H",
@@ -24106,7 +24112,7 @@
     },
     "yankeeinstitute.org": {
         "b": "RC",
-        "d": "https://yankeeinstitute.org",
+        "d": "yankeeinstitute.org",
         "n": "Yankee Institute for Public Policy",
         "P": "49",
         "r": "H",
@@ -24114,7 +24120,7 @@
     },
     "bleepingcomputer.com": {
         "b": "C",
-        "d": "https://www.bleepingcomputer.com",
+        "d": "bleepingcomputer.com",
         "n": "Bleeping Computer",
         "P": "61",
         "r": "H",
@@ -24132,7 +24138,7 @@
     },
     "dailyo.in": {
         "b": "RC",
-        "d": "https://www.dailyo.in",
+        "d": "dailyo.in",
         "n": "DailyO",
         "P": "87",
         "r": "M",
@@ -24140,7 +24146,7 @@
     },
     "apa.org": {
         "b": "PS",
-        "d": "https://www.apa.org",
+        "d": "apa.org",
         "n": "American Psychological Association",
         "P": "80",
         "r": "VH",
@@ -24148,7 +24154,7 @@
     },
     "middleamericandemocrat.com": {
         "b": "FN",
-        "d": "https://middleamericandemocrat.com",
+        "d": "middleamericandemocrat.com",
         "n": "Middle American Democrat",
         "P": "0",
         "r": "M",
@@ -24156,14 +24162,14 @@
     },
     "imao.us": {
         "b": "S",
-        "d": "https://www.imao.us",
+        "d": "imao.us",
         "n": "IMAO (In My Arrogant Opinion)",
         "P": "91",
         "u": "imao-in-my-arrogant-opinion"
     },
     "ccn.com": {
         "b": "RC",
-        "d": "https://www.ccn.com",
+        "d": "ccn.com",
         "n": "CCN Markets",
         "P": "80",
         "r": "H",
@@ -24171,7 +24177,7 @@
     },
     "deshabhimani.com": {
         "b": "L",
-        "d": "https://www.deshabhimani.com",
+        "d": "deshabhimani.com",
         "n": "Deshabhimani",
         "P": "93",
         "r": "M",
@@ -24188,7 +24194,7 @@
     },
     "anh-usa.org": {
         "b": "CP",
-        "d": "https://anh-usa.org",
+        "d": "anh-usa.org",
         "n": "Alliance for Natural Health (ANH-USA)",
         "P": "69",
         "r": "M",
@@ -24196,7 +24202,7 @@
     },
     "lcsun-news.com": {
         "b": "C",
-        "d": "https://www.lcsun-news.com",
+        "d": "lcsun-news.com",
         "n": "Las Cruces Sun-News",
         "P": "51",
         "r": "H",
@@ -24204,7 +24210,7 @@
     },
     "lansingstatejournal.com": {
         "b": "C",
-        "d": "https://www.lansingstatejournal.com",
+        "d": "lansingstatejournal.com",
         "n": "Lansing State Journal",
         "P": "86",
         "r": "H",
@@ -24212,7 +24218,7 @@
     },
     "ncsl.org": {
         "b": "C",
-        "d": "http://www.ncsl.org",
+        "d": "ncsl.org",
         "n": "National Conference of State Legislatures (NCSL)",
         "P": "83",
         "r": "H",
@@ -24220,7 +24226,7 @@
     },
     "armscontrol.org": {
         "b": "LC",
-        "d": "https://www.armscontrol.org",
+        "d": "armscontrol.org",
         "n": "Arms Control Association",
         "P": "52",
         "r": "H",
@@ -24228,7 +24234,7 @@
     },
     "thewashingtonpundit.com": {
         "b": "FN",
-        "d": "https://thewashingtonpundit.com",
+        "d": "thewashingtonpundit.com",
         "n": "Washington Pundit",
         "P": "22",
         "r": "L",
@@ -24236,7 +24242,7 @@
     },
     "hanfordsentinel.com": {
         "b": "C",
-        "d": "https://hanfordsentinel.com",
+        "d": "hanfordsentinel.com",
         "n": "Hanford Sentinel",
         "P": "39",
         "r": "H",
@@ -24244,7 +24250,7 @@
     },
     "yournewsnet.com": {
         "b": "C",
-        "d": "http://yournewsnet.com",
+        "d": "yournewsnet.com",
         "n": "NewsNet (YourNewsNet.com)",
         "P": "40",
         "r": "H",
@@ -24252,14 +24258,14 @@
     },
     "wokennews.com": {
         "b": "S",
-        "d": "https://wokennews.com",
+        "d": "wokennews.com",
         "n": "Woken News Network",
         "P": "18",
         "u": "woken-news-network"
     },
     "updateamerica.com": {
         "b": "R",
-        "d": "https://www.updateamerica.com",
+        "d": "updateamerica.com",
         "n": "Update America",
         "P": "57",
         "r": "M",
@@ -24276,7 +24282,7 @@
     },
     "catchnews.com": {
         "b": "LC",
-        "d": "http://www.catchnews.com",
+        "d": "catchnews.com",
         "n": "Catch News",
         "P": "89",
         "r": "MF",
@@ -24284,7 +24290,7 @@
     },
     "reedcooper.net": {
         "b": "FN",
-        "d": "https://www.reedcooper.net",
+        "d": "reedcooper.net",
         "n": "Reed Cooper News",
         "P": "15",
         "r": "L",
@@ -24292,7 +24298,7 @@
     },
     "lucianne.com": {
         "b": "FN",
-        "d": "https://www.lucianne.com",
+        "d": "lucianne.com",
         "n": "Lucianne.com",
         "P": "91",
         "r": "M",
@@ -24300,7 +24306,7 @@
     },
     "ew.com": {
         "b": "LC",
-        "d": "https://ew.com",
+        "d": "ew.com",
         "n": "Entertainment Weekly",
         "P": "92",
         "r": "H",
@@ -24308,7 +24314,7 @@
     },
     "change.org": {
         "b": "L",
-        "d": "https://www.change.org",
+        "d": "change.org",
         "n": "Change.org",
         "P": "89",
         "r": "H",
@@ -24316,7 +24322,7 @@
     },
     "thenation.com": {
         "b": "L",
-        "d": "https://www.thenation.com",
+        "d": "thenation.com",
         "n": "The Nation",
         "P": "96",
         "r": "H",
@@ -24380,7 +24386,7 @@
     },
     "legorafi.fr": {
         "b": "S",
-        "d": "http://www.legorafi.fr",
+        "d": "legorafi.fr",
         "n": "Le Gorafi",
         "P": "66",
         "u": "le-gorafi"
@@ -24452,14 +24458,14 @@
     },
     "alternativelyfacts.com": {
         "b": "S",
-        "d": "http://www.alternativelyfacts.com",
+        "d": "alternativelyfacts.com",
         "n": "Alternative Facts",
         "P": "47",
         "u": "alternative-facts"
     },
     "sourcepolitics.com": {
         "b": "L",
-        "d": "https://www.sourcepolitics.com",
+        "d": "sourcepolitics.com",
         "n": "Source Politics",
         "P": "26",
         "r": "M",
@@ -24546,7 +24552,7 @@
     },
     "moonbattery.com": {
         "b": "FN",
-        "d": "https://moonbattery.com",
+        "d": "moonbattery.com",
         "n": "MoonBattery",
         "P": "89",
         "r": "L",
@@ -24628,7 +24634,7 @@
     },
     "learntherisk.org": {
         "b": "CP",
-        "d": "https://www.learntherisk.org",
+        "d": "learntherisk.org",
         "n": "LearnTheRisk.org",
         "P": "34",
         "r": "VL",
@@ -24689,7 +24695,7 @@
     },
     "longwarjournal.org": {
         "b": "RC",
-        "d": "https://www.longwarjournal.org",
+        "d": "longwarjournal.org",
         "n": "FDD's Long War Journal",
         "P": "89",
         "r": "H",
@@ -24867,7 +24873,7 @@
     },
     "gop.gov": {
         "b": "FN",
-        "d": "https://www.gop.gov",
+        "d": "gop.gov",
         "n": "GOP.gov",
         "P": "61",
         "r": "M",
@@ -25352,7 +25358,7 @@
     },
     "headtopics.com": {
         "b": "FN",
-        "d": "https://headtopics.com",
+        "d": "headtopics.com",
         "n": "Head Topics",
         "P": "0",
         "r": "M",
@@ -25487,7 +25493,7 @@
     },
     "focustaiwan.tw": {
         "b": "LC",
-        "d": "http://focustaiwan.tw",
+        "d": "focustaiwan.tw",
         "n": "Central News Agency (CNA) / Focus Taiwan",
         "P": "0",
         "r": "H",
@@ -25917,7 +25923,7 @@
     },
     "newsservis.com": {
         "b": "FN",
-        "d": "http://newsservis.com",
+        "d": "newsservis.com",
         "n": "Newsservis.com",
         "P": "0",
         "r": "VL",
@@ -26253,7 +26259,7 @@
     },
     "dailytorch.com": {
         "b": "R",
-        "d": "http://dailytorch.com",
+        "d": "dailytorch.com",
         "n": "Daily Torch",
         "P": "0",
         "r": "MF",
@@ -27781,7 +27787,7 @@
     },
     "libtards.news": {
         "b": "CP",
-        "d": "https://libtards.news",
+        "d": "libtards.news",
         "n": "Libtards.News",
         "P": [],
         "r": "VL",
@@ -28213,7 +28219,7 @@
     },
     "mytwintiers.com": {
         "b": "C",
-        "d": "https://www.mytwintiers.com",
+        "d": "mytwintiers.com",
         "n": "WETM - MyTwinTiers.com",
         "P": [],
         "r": "H",
@@ -28765,7 +28771,7 @@
     },
     "79days.news": {
         "b": "CP",
-        "d": "https://79days.news",
+        "d": "79days.news",
         "n": "79Days.News",
         "P": [],
         "r": "VL",
@@ -29234,5 +29240,37 @@
         "P": [],
         "r": "M",
         "u": "east-sierra-news"
+    },
+    "eastventuranews.com": {
+        "b": "FN",
+        "d": "eastventuranews.com",
+        "n": "News Ventura News",
+        "P": [],
+        "r": "M",
+        "u": "east-ventura-news"
+    },
+    "fresnoleader.com": {
+        "b": "FN",
+        "d": "fresnoleader.com",
+        "n": "Fresno Leader",
+        "P": [],
+        "r": "M",
+        "u": "fresno-leader"
+    },
+    "dailyposter.com": {
+        "b": "L",
+        "d": "dailyposter.com",
+        "n": "The Daily Poster",
+        "P": [],
+        "r": "H",
+        "u": "the-daily-poster"
+    },
+    "goldcountrytoday.com": {
+        "b": "FN",
+        "d": "goldcountrytoday.com",
+        "n": "Gold Country Today",
+        "P": [],
+        "r": "M",
+        "u": "gold-country-today"
     }
 }
