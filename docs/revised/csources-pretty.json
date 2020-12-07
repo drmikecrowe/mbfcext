@@ -754,7 +754,7 @@
         "p": "/"
     },
     "almasdarnews.com": {
-        "b": "left-center",
+        "b": "fake-news",
         "d": "almasdarnews.com",
         "f": "https://facebook.com/thearabsource",
         "t": "https://twitter.com/thearabsource",
@@ -22046,12 +22046,12 @@
         "b": "fake-news",
         "d": "redrocktribune.com",
         "h": "https://redrocktribune.com",
-        "M": "0",
-        "L": "0",
-        "n": "Red Rock Daily News",
-        "P": "0",
-        "r": "LOW",
-        "u": "https://mediabiasfactcheck.com/right-side-news/",
+        "M": "27",
+        "L": "75",
+        "n": "Qpolitical",
+        "P": "20",
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/red-rock-daily-news/",
         "p": "/"
     },
     "publicpolicypolling.com": {
@@ -22820,6 +22820,19 @@
         "u": "https://mediabiasfactcheck.com/reductress/",
         "p": "/"
     },
+    "rightsidenews.com": {
+        "b": "fake-news",
+        "d": "https://rightsidenews.com/",
+        "t": "https://twitter.com/johnhawkinsrwn",
+        "h": "https://https://rightsidenews.com/",
+        "M": "56",
+        "L": "2109646",
+        "n": "Right Side News",
+        "P": "93",
+        "r": "LOW",
+        "u": "https://mediabiasfactcheck.com/right-side-news/",
+        "p": "/"
+    },
     "rrtribune.com": {
         "b": "fake-news",
         "d": "rrtribune.com",
@@ -23176,17 +23189,16 @@
         "u": "https://mediabiasfactcheck.com/retraction-watch/",
         "p": "/"
     },
-    "rightwingnews.com": {
+    "southjerseymechanic.com": {
         "b": "fake-news",
-        "d": "rightwingnews.com",
-        "t": "https://twitter.com/johnhawkinsrwn",
-        "h": "https://rightwingnews.com",
-        "M": "56",
-        "L": "2109646",
-        "n": "Right Side News",
-        "P": "93",
+        "d": "http://southjerseymechanic.com/",
+        "h": "https://http://southjerseymechanic.com/",
+        "M": "5",
+        "L": "1",
+        "n": "Right Wing News",
+        "P": "11",
         "r": "LOW",
-        "u": "https://mediabiasfactcheck.com/right-wing-news/",
+        "u": "https://mediabiasfactcheck.com/south-jersey-mechanic-trump-news/",
         "p": "/"
     },
     "revolution-news.com": {
@@ -42303,6 +42315,54 @@
         "P": [],
         "r": "MIXED",
         "u": "https://mediabiasfactcheck.com/gold-country-today/",
+        "p": "/"
+    },
+    "knewz.com": {
+        "b": "right-center",
+        "d": "knewz.com",
+        "h": "https://knewz.com",
+        "M": [],
+        "L": [],
+        "n": "Knewz",
+        "P": [],
+        "r": "MOSTLY FACTUAL",
+        "u": "https://mediabiasfactcheck.com/knewz/",
+        "p": "/"
+    },
+    "goldenstatetoday.com": {
+        "b": "fake-news",
+        "d": "goldenstatetoday.com",
+        "h": "https://goldenstatetoday.com",
+        "M": [],
+        "L": [],
+        "n": "Golden State Today",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/golden-state-today/",
+        "p": "/"
+    },
+    "english.almanar.com.lb": {
+        "b": "fake-news",
+        "d": "english.almanar.com.lb",
+        "h": "https://english.almanar.com.lb",
+        "M": [],
+        "L": [],
+        "n": "Al Manar",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/al-manar/",
+        "p": "/"
+    },
+    "imperialcanews.com": {
+        "b": "fake-news",
+        "d": "imperialcanews.com",
+        "h": "https://imperialcanews.com",
+        "M": [],
+        "L": [],
+        "n": "Imperial CA News",
+        "P": [],
+        "r": "MIXED",
+        "u": "https://mediabiasfactcheck.com/imperial-ca-news/",
         "p": "/"
     }
 }

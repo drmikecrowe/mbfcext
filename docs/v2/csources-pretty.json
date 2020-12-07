@@ -526,7 +526,7 @@
         "u": "al-bawaba"
     },
     "almasdarnews.com": {
-        "b": "LC",
+        "b": "FN",
         "d": "almasdarnews.com",
         "f": "thearabsource",
         "t": "thearabsource",
@@ -15390,10 +15390,10 @@
     "redrocktribune.com": {
         "b": "FN",
         "d": "redrocktribune.com",
-        "n": "Red Rock Daily News",
-        "P": "0",
-        "r": "L",
-        "u": "right-side-news"
+        "n": "Qpolitical",
+        "P": "20",
+        "r": "M",
+        "u": "red-rock-daily-news"
     },
     "publicpolicypolling.com": {
         "b": "C",
@@ -15925,6 +15925,15 @@
         "P": "36",
         "u": "reductress"
     },
+    "rightsidenews.com": {
+        "b": "FN",
+        "d": "https://rightsidenews.com",
+        "t": "johnhawkinsrwn",
+        "n": "Right Side News",
+        "P": "93",
+        "r": "L",
+        "u": "right-side-news"
+    },
     "rrtribune.com": {
         "b": "FN",
         "d": "rrtribune.com",
@@ -16173,14 +16182,13 @@
         "r": "H",
         "u": "retraction-watch"
     },
-    "rightwingnews.com": {
+    "southjerseymechanic.com": {
         "b": "FN",
-        "d": "rightwingnews.com",
-        "t": "johnhawkinsrwn",
-        "n": "Right Side News",
-        "P": "93",
+        "d": "http://southjerseymechanic.com",
+        "n": "Right Wing News",
+        "P": "11",
         "r": "L",
-        "u": "right-wing-news"
+        "u": "south-jersey-mechanic-trump-news"
     },
     "revolution-news.com": {
         "b": "L",
@@ -29272,5 +29280,37 @@
         "P": [],
         "r": "M",
         "u": "gold-country-today"
+    },
+    "knewz.com": {
+        "b": "RC",
+        "d": "knewz.com",
+        "n": "Knewz",
+        "P": [],
+        "r": "MF",
+        "u": "knewz"
+    },
+    "goldenstatetoday.com": {
+        "b": "FN",
+        "d": "goldenstatetoday.com",
+        "n": "Golden State Today",
+        "P": [],
+        "r": "M",
+        "u": "golden-state-today"
+    },
+    "english.almanar.com.lb": {
+        "b": "FN",
+        "d": "english.almanar.com.lb",
+        "n": "Al Manar",
+        "P": [],
+        "r": "M",
+        "u": "al-manar"
+    },
+    "imperialcanews.com": {
+        "b": "FN",
+        "d": "imperialcanews.com",
+        "n": "Imperial CA News",
+        "P": [],
+        "r": "M",
+        "u": "imperial-ca-news"
     }
 }
