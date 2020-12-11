@@ -86,6 +86,13 @@
     "r": "MF",
     "u": "24ur-com"
   },
+  "24wpn.com": {
+    "b": "FN",
+    "d": "24wpn.com",
+    "n": "WorldPolitics News",
+    "r": "L",
+    "u": "worldpolitics-news"
+  },
   "2ndvote.com": {
     "P": "28",
     "b": "R",
@@ -9939,6 +9946,13 @@
     "t": "geologytime",
     "u": "geology-in"
   },
+  "geopol.institute": {
+    "b": "FN",
+    "d": "geopol.institute",
+    "n": "National Policy Institute",
+    "r": "L",
+    "u": "national-policy-institute"
+  },
   "geopolitics.co": {
     "P": "53",
     "b": "CP",
@@ -13093,6 +13107,13 @@
     "r": "H",
     "u": "katu2"
   },
+  "kcna.kp": {
+    "b": "FN",
+    "d": "kcna.kp",
+    "n": "Korean Central News Agency",
+    "r": "VL",
+    "u": "korean-central-news-agency"
+  },
   "kcra.com": {
     "b": "C",
     "d": "kcra.com",
@@ -13417,6 +13438,20 @@
     "n": "Lady Liberty News",
     "r": "L",
     "u": "lady-liberty-news"
+  },
+  "laharbornews.com": {
+    "b": "FN",
+    "d": "laharbornews.com",
+    "n": "LA Harbor News",
+    "r": "M",
+    "u": "la-harbor-news"
+  },
+  "laketahoesun.com": {
+    "b": "FN",
+    "d": "laketahoesun.com",
+    "n": "Lake Tahoe Sun",
+    "r": "M",
+    "u": "lake-tahoe-sun"
   },
   "lalibre.be": {
     "b": "C",
@@ -15158,6 +15193,13 @@
     "r": "M",
     "u": "milliyet"
   },
+  "milo.yiannopoulos.net": {
+    "b": "FN",
+    "d": "milo.yiannopoulos.net",
+    "n": "MILO",
+    "r": "M",
+    "u": "milo-news"
+  },
   "mindbodygreen.com": {
     "P": "68",
     "b": "CP",
@@ -15794,13 +15836,6 @@
     "r": "H",
     "t": "natobserver",
     "u": "national-observer-canada"
-  },
-  "nationalpolicy.institute": {
-    "b": "FN",
-    "d": "nationalpolicy.institute",
-    "n": "National Policy Institute",
-    "r": "L",
-    "u": "national-policy-institute"
   },
   "nationalpost.com": {
     "P": "91",
@@ -16674,6 +16709,13 @@
     "r": "H",
     "u": "wtvf-newschannel5"
   },
+  "newschicken.com": {
+    "b": "FN",
+    "d": "newschicken.com",
+    "n": "News Chicken",
+    "r": "L",
+    "u": "news-chicken"
+  },
   "newscientist.com": {
     "P": "98",
     "b": "PS",
@@ -16774,10 +16816,10 @@
   },
   "newsheist.com": {
     "P": "19",
-    "b": "RC",
+    "b": "FN",
     "d": "newsheist.com",
     "n": "News Heist",
-    "r": "M",
+    "r": "L",
     "u": "news-heist"
   },
   "newshounds.us": {
@@ -17928,6 +17970,13 @@
     "t": "ottawasuncom",
     "u": "ottawa-sun"
   },
+  "oureyeonislam.com": {
+    "b": "FN",
+    "d": "oureyeonislam.com",
+    "n": "Our Eye on Islam",
+    "r": "L",
+    "u": "our-eye-on-islam"
+  },
   "ourfutureinamerica.org": {
     "b": "R",
     "d": "ourfutureinamerica.org",
@@ -18244,6 +18293,13 @@
     "n": "Patriot Fires",
     "r": "L",
     "u": "patriot-fires"
+  },
+  "patriothangout.com": {
+    "b": "FN",
+    "d": "patriothangout.com",
+    "n": "Patriot Hangout",
+    "r": "L",
+    "u": "patriot-hangout"
   },
   "patrioticexpress.com": {
     "P": "14",
@@ -18956,7 +19012,7 @@
     "d": "polygraph.info",
     "f": "polygraphinfo",
     "n": "Polygraph.info",
-    "r": "VH",
+    "r": "H",
     "t": "someaccount",
     "u": "polygraph-info"
   },
@@ -19323,6 +19379,13 @@
     "r": "L",
     "u": "prntly"
   },
+  "proamericanews.com": {
+    "b": "FN",
+    "d": "proamericanews.com",
+    "n": "Pro-America News",
+    "r": "L",
+    "u": "pro-america-news"
+  },
   "procon.org": {
     "P": "59",
     "b": "C",
@@ -19503,6 +19566,13 @@
     "n": "Pro Trump News",
     "r": "L",
     "u": "pro-trump-news"
+  },
+  "proud-patriots.com": {
+    "b": "FN",
+    "d": "proud-patriots.com",
+    "n": "Proud Patriots",
+    "r": "L",
+    "u": "proud-patriots"
   },
   "proudcons.com": {
     "P": "19",
@@ -20191,14 +20261,6 @@
     "r": "L",
     "u": "red-politics"
   },
-  "redrocktribune.com": {
-    "P": "20",
-    "b": "FN",
-    "d": "redrocktribune.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "red-rock-daily-news"
-  },
   "redstate.com": {
     "b": "FN",
     "d": "redstate.com",
@@ -20765,15 +20827,6 @@
     "r": "L",
     "t": "theofficial_rwn",
     "u": "right-wing-news-rightwing-news"
-  },
-  "rightwingnews.com": {
-    "P": "93",
-    "b": "FN",
-    "d": "rightwingnews.com",
-    "n": "Right Side News",
-    "r": "L",
-    "t": "johnhawkinsrwn",
-    "u": "right-wing-news"
   },
   "rightwingtribune.com": {
     "b": "FN",
@@ -23640,6 +23693,13 @@
     "t": "theblaze",
     "u": "the-blaze"
   },
+  "thebostontribune.com": {
+    "b": "FN",
+    "d": "thebostontribune.com",
+    "n": "The Boston Tribune",
+    "r": "L",
+    "u": "the-boston-tribune"
+  },
   "thebreakingnews.com": {
     "b": "FN",
     "d": "thebreakingnews.com",
@@ -25584,6 +25644,13 @@
     "t": "verge",
     "u": "the-verge"
   },
+  "theviralpatriot.com": {
+    "b": "FN",
+    "d": "theviralpatriot.com",
+    "n": "Viral Patriot",
+    "r": "L",
+    "u": "viral-patriot"
+  },
   "thewalrus.ca": {
     "P": "55",
     "b": "L",
@@ -25922,6 +25989,13 @@
     "n": "Today.com",
     "r": "MF",
     "u": "today-com"
+  },
+  "todaydispatch.com": {
+    "b": "FN",
+    "d": "todaydispatch.com",
+    "n": "Today Dispatch",
+    "r": "L",
+    "u": "today-dispatch"
   },
   "todayifoundout.com": {
     "P": "60",
@@ -26676,6 +26750,13 @@
     "t": "unitynewsnet",
     "u": "unity-news-network"
   },
+  "universepolitics.com": {
+    "b": "FN",
+    "d": "universepolitics.com",
+    "n": "Universe Politics",
+    "r": "L",
+    "u": "universe-politics"
+  },
   "universetoday.com": {
     "P": "82",
     "b": "PS",
@@ -26802,6 +26883,13 @@
     "n": "The USA Conservative",
     "r": "L",
     "u": "the-usa-conservative"
+  },
+  "usa-television.com": {
+    "b": "FN",
+    "d": "usa-television.com",
+    "n": "USA Television",
+    "r": "VL",
+    "u": "usa-television"
   },
   "usaconservativereport.com": {
     "P": "14",
