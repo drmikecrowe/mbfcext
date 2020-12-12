@@ -13655,6 +13655,13 @@
     "t": "lawfare",
     "u": "lawfare-blog"
   },
+  "laxleader.com": {
+    "b": "FN",
+    "d": "laxleader.com",
+    "n": "LAX Leader",
+    "r": "M",
+    "u": "lax-leader"
+  },
   "lbc.co.uk": {
     "P": "50",
     "b": "RC",
@@ -14609,6 +14616,20 @@
     "n": "Marginal Revolution",
     "r": "H",
     "u": "marginal-revolution"
+  },
+  "mariettatimes.com": {
+    "b": "C",
+    "d": "mariettatimes.com",
+    "n": "The Marietta Times",
+    "r": "H",
+    "u": "the-marietta-times"
+  },
+  "marinleader.com": {
+    "b": "FN",
+    "d": "marinleader.com",
+    "n": "Marin Leader",
+    "r": "M",
+    "u": "marin-leader"
   },
   "marketwatch.com": {
     "P": "98",
@@ -18717,11 +18738,11 @@
   },
   "pogo.org": {
     "P": "51",
-    "b": "C",
+    "b": "LC",
     "d": "pogo.org",
     "f": "pogo.org",
     "n": "Project on Government Insight",
-    "r": "VH",
+    "r": "H",
     "t": "pogoblog",
     "u": "project-on-government-oversight"
   },
@@ -19722,11 +19743,11 @@
   },
   "punchingbagpost.com": {
     "P": "25",
-    "b": "RC",
+    "b": "R",
     "d": "punchingbagpost.com",
     "f": "punchingbagpost",
     "n": "Punching Bag Post",
-    "r": "H",
+    "r": "M",
     "u": "punchingbag-post"
   },
   "puppetstringnews.com": {
@@ -20260,6 +20281,14 @@
     "n": "Red Politics",
     "r": "L",
     "u": "red-politics"
+  },
+  "redrocktribune.com": {
+    "P": "20",
+    "b": "FN",
+    "d": "redrocktribune.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "red-rock-daily-news"
   },
   "redstate.com": {
     "b": "FN",
@@ -20827,6 +20856,15 @@
     "r": "L",
     "t": "theofficial_rwn",
     "u": "right-wing-news-rightwing-news"
+  },
+  "rightwingnews.com": {
+    "P": "93",
+    "b": "FN",
+    "d": "rightwingnews.com",
+    "n": "Right Side News",
+    "r": "L",
+    "t": "johnhawkinsrwn",
+    "u": "right-wing-news"
   },
   "rightwingtribune.com": {
     "b": "FN",
@@ -28475,6 +28513,13 @@
     "n": "WorldCrunch",
     "r": "H",
     "u": "worldcrunch"
+  },
+  "worlddoctorsalliance.com": {
+    "b": "CP",
+    "d": "worlddoctorsalliance.com",
+    "n": "World Doctors Alliance",
+    "r": "VL",
+    "u": "world-doctors-alliance"
   },
   "worldhealth.net": {
     "b": "CP",
