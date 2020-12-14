@@ -15028,6 +15028,13 @@
     "t": "mercatus",
     "u": "mercatus-center"
   },
+  "mercedtimes.com": {
+    "b": "FN",
+    "d": "mercedtimes.com",
+    "n": "Merced Times",
+    "r": "M",
+    "u": "merced-times"
+  },
   "mercola.com": {
     "P": "77",
     "b": "CP",
@@ -15384,6 +15391,13 @@
     "r": "H",
     "t": "mondoweiss",
     "u": "mondoweiss"
+  },
+  "montereytimes.com": {
+    "b": "FN",
+    "d": "montereytimes.com",
+    "n": "Monterey Times",
+    "r": "M",
+    "u": "monterey-times"
   },
   "monthlyreview.org": {
     "P": "82",
@@ -16105,6 +16119,13 @@
     "r": "VL",
     "u": "nbc-com-co"
   },
+  "nbclosangeles.com": {
+    "b": "FN",
+    "d": "nbclosangeles.com",
+    "n": "NBC Los Angeles - KNBC",
+    "r": "H",
+    "u": "nbc-los-angeles-knbc"
+  },
   "nbcnews.com": {
     "P": "97",
     "b": "LC",
@@ -16227,6 +16248,13 @@
     "r": "M",
     "u": "ne-alabama-news"
   },
+  "necalinews.com": {
+    "b": "FN",
+    "d": "necalinews.com",
+    "n": "NE Cali News",
+    "r": "M",
+    "u": "ne-cali-news"
+  },
   "necn.com": {
     "P": "52",
     "b": "LC",
@@ -16263,6 +16291,13 @@
     "r": "L",
     "t": "neonnettle",
     "u": "neon-nettle"
+  },
+  "nesacramentonews.com": {
+    "b": "FN",
+    "d": "nesacramentonews.com",
+    "n": "NE Sacramento News",
+    "r": "M",
+    "u": "ne-sacramento-news"
   },
   "neurosciencenews.com": {
     "P": "53",
@@ -17726,6 +17761,13 @@
     "r": "H",
     "t": "ocweekly",
     "u": "oc-weekly"
+  },
+  "off-guardian.org": {
+    "b": "CP",
+    "d": "off-guardian.org",
+    "n": "OffGuardian",
+    "r": "M",
+    "u": "offguardian"
   },
   "offendedamerica.com": {
     "P": "24",
@@ -22346,7 +22388,7 @@
     "b": "RC",
     "d": "spectator.us",
     "n": "The Spectator (USA)",
-    "r": "H",
+    "r": "MF",
     "u": "the-spectator-usa"
   },
   "spectrumreport.com": {
@@ -28396,6 +28438,13 @@
     "d": "witscience.org",
     "n": "Wyoming Institute of Technology",
     "u": "wyoming-institute-of-technology-wit"
+  },
+  "wmur.com": {
+    "b": "C",
+    "d": "wmur.com",
+    "n": "WMUR9",
+    "r": "H",
+    "u": "wmur9"
   },
   "wn.com": {
     "P": "91",
