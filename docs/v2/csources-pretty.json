@@ -3541,6 +3541,13 @@
     "t": "cspan",
     "u": "c-span"
   },
+  "c2cjournal.ca": {
+    "b": "R",
+    "d": "c2cjournal.ca",
+    "n": "C2C Journal",
+    "r": "MF",
+    "u": "c2c-journal"
+  },
   "c4ads.org": {
     "P": "31",
     "b": "LC",
@@ -7780,6 +7787,13 @@
     "t": "ecowatch",
     "u": "ecowatch"
   },
+  "ecuavisa.com": {
+    "b": "RC",
+    "d": "ecuavisa.com",
+    "n": "Ecuavisa",
+    "r": "M",
+    "u": "ecuavisa"
+  },
   "edge.org": {
     "P": "85",
     "b": "PS",
@@ -9919,6 +9933,13 @@
     "r": "H",
     "t": "geneticliteracy",
     "u": "genetic-literacy-project"
+  },
+  "genzconservative.com": {
+    "b": "FN",
+    "d": "genzconservative.com",
+    "n": "Gen Z Conservative",
+    "r": "M",
+    "u": "gen-z-conservative"
   },
   "geoengineering.news": {
     "b": "CP",
@@ -17309,6 +17330,20 @@
     "r": "M",
     "u": "north-birmingham-times"
   },
+  "northcoastcanews.com": {
+    "b": "FN",
+    "d": "northcoastcanews.com",
+    "n": "North Coast California News",
+    "r": "M",
+    "u": "north-coast-california-news"
+  },
+  "northinlandnews.com": {
+    "b": "FN",
+    "d": "northinlandnews.com",
+    "n": "North Inland News",
+    "r": "M",
+    "u": "north-inland-news"
+  },
   "northjersey.com": {
     "P": "71",
     "b": "LC",
@@ -17335,12 +17370,33 @@
     "r": "M",
     "u": "north-little-rock-times"
   },
+  "northoctimes.com": {
+    "b": "FN",
+    "d": "northoctimes.com",
+    "n": "North OC Times",
+    "r": "M",
+    "u": "north-oc-times"
+  },
   "northpimanews.com": {
     "b": "FN",
     "d": "northpimanews.com",
     "n": "North Pima News",
     "r": "M",
     "u": "north-pima-news"
+  },
+  "northsactoday.com": {
+    "b": "FN",
+    "d": "northsactoday.com",
+    "n": "North Sacramento Today",
+    "r": "M",
+    "u": "north-sacramento-today"
+  },
+  "northsfvtoday.com": {
+    "b": "FN",
+    "d": "northsfvtoday.com",
+    "n": "North SFV Today",
+    "r": "M",
+    "u": "north-sfv-today"
   },
   "nos.nl": {
     "P": "83",
@@ -21540,7 +21596,7 @@
     "d": "scoopnest.com",
     "f": "scoopnesteng",
     "n": "Scoopnest",
-    "r": "H",
+    "r": "M",
     "u": "scoopnest"
   },
   "scoopwhoop.com": {
