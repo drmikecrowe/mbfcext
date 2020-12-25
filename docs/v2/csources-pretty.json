@@ -7646,6 +7646,13 @@
     "r": "M",
     "u": "east-contra-costa-news"
   },
+  "eastidahonews.com": {
+    "b": "C",
+    "d": "eastidahonews.com",
+    "n": "East Idaho News",
+    "r": "H",
+    "u": "east-idaho-news"
+  },
   "eastlittlerocktimes.com": {
     "b": "FN",
     "d": "eastlittlerocktimes.com",
@@ -15772,6 +15779,13 @@
     "r": "VL",
     "u": "national-alliance"
   },
+  "nation.africa": {
+    "b": "LC",
+    "d": "nation.africa",
+    "n": "Daily Nation",
+    "r": "M",
+    "u": "the-daily-nation"
+  },
   "nation.com.pk": {
     "P": "93",
     "b": "RC",
@@ -15949,15 +15963,6 @@
     "n": "National Vanguard",
     "r": "VL",
     "u": "national-vanguard"
-  },
-  "nationinstitute.org": {
-    "P": "55",
-    "b": "LC",
-    "d": "nationinstitute.org",
-    "f": "typemediacenter",
-    "n": "The Nation Institute",
-    "r": "H",
-    "u": "the-nation-institute"
   },
   "nationmaster.com": {
     "P": "80",
@@ -19170,6 +19175,13 @@
     "t": "someaccount",
     "u": "polygraph-info"
   },
+  "pomonavalleynews.com": {
+    "b": "FN",
+    "d": "pomonavalleynews.com",
+    "n": "Pomona Valley News",
+    "r": "M",
+    "u": "pomona-valley-news"
+  },
   "pop.org": {
     "b": "FN",
     "d": "pop.org",
@@ -20344,6 +20356,13 @@
     "n": "Red Country - Conservative News",
     "r": "L",
     "u": "red-country-conservative-news"
+  },
+  "reddingtoday.com": {
+    "b": "FN",
+    "d": "reddingtoday.com",
+    "n": "Redding Today",
+    "r": "M",
+    "u": "redding-today"
   },
   "redflagnews.com": {
     "P": "71",
@@ -22617,6 +22636,13 @@
     "t": "standardex",
     "u": "utah-standard-examiner"
   },
+  "standardmedia.co.ke": {
+    "b": "RC",
+    "d": "standardmedia.co.ke",
+    "n": "The Standard",
+    "r": "M",
+    "u": "the-standard-kenya"
+  },
   "standpointmag.co.uk": {
     "P": "73",
     "b": "R",
@@ -24606,7 +24632,7 @@
   },
   "thehumanist.com": {
     "P": "58",
-    "b": "C",
+    "b": "LC",
     "d": "thehumanist.com",
     "f": "americanhumanist",
     "n": "The Humanist Magazine",
@@ -25502,7 +25528,7 @@
   },
   "thesmokinggun.com": {
     "P": "90",
-    "b": "RC",
+    "b": "C",
     "d": "thesmokinggun.com",
     "f": "thesmokinggun",
     "n": "The Smoking Gun",
@@ -26748,6 +26774,15 @@
     "r": "M",
     "t": "twitchyteam",
     "u": "twitchy"
+  },
+  "typemediacenter.org": {
+    "P": "55",
+    "b": "LC",
+    "d": "typemediacenter.org",
+    "f": "typemediacenter",
+    "n": "Type Media Center",
+    "r": "H",
+    "u": "the-nation-institute"
   },
   "tytnetwork.com": {
     "P": "47",
@@ -28529,6 +28564,13 @@
     "d": "witscience.org",
     "n": "Wyoming Institute of Technology",
     "u": "wyoming-institute-of-technology-wit"
+  },
+  "wlos.com": {
+    "b": "RC",
+    "d": "wlos.com",
+    "n": "WLOS (ABC13News)",
+    "r": "H",
+    "u": "wlos-abc13news"
   },
   "wmur.com": {
     "b": "C",
