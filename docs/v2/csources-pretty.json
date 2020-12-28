@@ -3806,7 +3806,7 @@
     "d": "capoliticalreview.com",
     "f": "capoliticalreview",
     "n": "California Political Review",
-    "r": "H",
+    "r": "MF",
     "u": "california-political-review"
   },
   "carbonated.tv": {
@@ -8111,11 +8111,11 @@
   },
   "en.mercopress.com": {
     "P": "66",
-    "b": "C",
+    "b": "FN",
     "d": "en.mercopress.com",
     "f": "mercopress",
     "n": "Mercopress",
-    "r": "H",
+    "r": "M",
     "t": "mercopressnews",
     "u": "mercopress"
   },
@@ -18578,6 +18578,13 @@
     "r": "L",
     "u": "pc-must-die-news"
   },
+  "pdmj.org": {
+    "b": "CP",
+    "d": "pdmj.org",
+    "n": "Primary Doctor Medical Journal",
+    "r": "VL",
+    "u": "primary-doctor-medical-journal"
+  },
   "pe.com": {
     "P": "76",
     "b": "RC",
@@ -20507,6 +20514,13 @@
     "r": "L",
     "u": "red-white-and-right"
   },
+  "redwoodempirenews.com": {
+    "b": "FN",
+    "d": "redwoodempirenews.com",
+    "n": "Redwood Empire News",
+    "r": "M",
+    "u": "redwood-empire-news"
+  },
   "redyouth.org": {
     "P": "34",
     "b": "L",
@@ -21239,6 +21253,13 @@
     "r": "H",
     "u": "sacramento-bee"
   },
+  "sacramentostandard.com": {
+    "b": "FN",
+    "d": "sacramentostandard.com",
+    "n": "Sacramento Standard",
+    "r": "M",
+    "u": "sacramento-standard"
+  },
   "salon.com": {
     "P": "95",
     "b": "L",
@@ -21838,6 +21859,13 @@
     "n": "Seventeen",
     "r": "H",
     "u": "seventeen"
+  },
+  "sfbayview.com": {
+    "b": "L",
+    "d": "sfbayview.com",
+    "n": "San Francisco Bay View",
+    "r": "MF",
+    "u": "san-francisco-bay-view"
   },
   "sfchronicle.com": {
     "P": "91",
