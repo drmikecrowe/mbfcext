@@ -4748,7 +4748,7 @@
     "u": "conservative-byte"
   },
   "conservativedailynews.com": {
-    "b": "R",
+    "b": "FN",
     "d": "conservativedailynews.com",
     "f": "conservativedailynews",
     "n": "Conservative Daily News",
@@ -13723,6 +13723,13 @@
     "t": "mercnews",
     "u": "san-jose-mercury-news"
   },
+  "merica1st.com": {
+    "b": "FN",
+    "d": "merica1st.com",
+    "n": "Council of Conservative Citizens",
+    "r": "L",
+    "u": "council-of-concerned-citizens"
+  },
   "merionwest.com": {
     "b": "C",
     "d": "merionwest.com",
@@ -15622,6 +15629,13 @@
     "r": "H",
     "u": "next-observer"
   },
+  "nfrw.org": {
+    "b": "R",
+    "d": "nfrw.org",
+    "n": "National Federation of Republican Women (NFRW)",
+    "r": "M",
+    "u": "national-federation-of-republican-women"
+  },
   "nhk.or.jp": {
     "b": "RC",
     "d": "nhk.or.jp",
@@ -15881,6 +15895,13 @@
     "n": "NoTricksZone",
     "r": "L",
     "u": "notrickszone"
+  },
+  "notthebee.com": {
+    "b": "R",
+    "d": "notthebee.com",
+    "n": "Not the Bee",
+    "r": "H",
+    "u": "not-the-bee"
   },
   "nottnews.com": {
     "b": "S",
@@ -19025,6 +19046,13 @@
     "t": "radiofreeasia",
     "u": "radio-free-asia"
   },
+  "rfangle.com": {
+    "b": "FN",
+    "d": "rfangle.com",
+    "n": "The RFAngle",
+    "r": "M",
+    "u": "the-rfangle"
+  },
   "rferl.org": {
     "b": "C",
     "d": "rferl.org",
@@ -19421,6 +19449,20 @@
     "r": "M",
     "u": "san-francisco-sun"
   },
+  "sanjoaquintimes.com": {
+    "b": "FN",
+    "d": "sanjoaquintimes.com",
+    "n": "San Joaquin Times",
+    "r": "M",
+    "u": "san-joaquin-times"
+  },
+  "sanjosestandard.com": {
+    "b": "FN",
+    "d": "sanjosestandard.com",
+    "n": "San Jose Standard",
+    "r": "M",
+    "u": "san-jose-standard"
+  },
   "sanluisobispo.com": {
     "b": "LC",
     "d": "sanluisobispo.com",
@@ -19436,6 +19478,27 @@
     "r": "H",
     "t": "sanmarcosrecord",
     "u": "san-marcos-daily-record"
+  },
+  "sanmateosun.com": {
+    "b": "FN",
+    "d": "sanmateosun.com",
+    "n": "San Mateo Sun",
+    "r": "M",
+    "u": "san-mateo-sun"
+  },
+  "santaclaratoday.com": {
+    "b": "FN",
+    "d": "santaclaratoday.com",
+    "n": "Santa Clara Today",
+    "r": "M",
+    "u": "santa-clara-today"
+  },
+  "santacruzstandard.com": {
+    "b": "FN",
+    "d": "santacruzstandard.com",
+    "n": "Santa Cruz Standard",
+    "r": "M",
+    "u": "santa-cruz-standard"
   },
   "santamariatimes.com": {
     "b": "C",
@@ -19876,6 +19939,13 @@
     "r": "H",
     "t": "seeker",
     "u": "seeker-daily"
+  },
+  "selatimes.com": {
+    "b": "FN",
+    "d": "selatimes.com",
+    "n": "SE LA Times",
+    "r": "M",
+    "u": "se-la-times"
   },
   "sentencingproject.org": {
     "b": "LC",
