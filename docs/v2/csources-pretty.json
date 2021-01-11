@@ -23,12 +23,26 @@
     "t": "10newsdotone",
     "u": "10news-one"
   },
+  "10tv.com": {
+    "b": "C",
+    "d": "10tv.com",
+    "n": "WBNS-TV (10tv.com)",
+    "r": "H",
+    "u": "wbns-tv-10tv-com"
+  },
   "11alive.com": {
     "b": "C",
     "d": "11alive.com",
     "n": "WXIA - 11alive.com",
     "r": "H",
     "u": "wxia-11alive-com"
+  },
+  "12minutos.com": {
+    "b": "FN",
+    "d": "12minutos.com",
+    "n": "12minutos.com",
+    "r": "L",
+    "u": "12minutos-com"
   },
   "12news.com": {
     "b": "C",
@@ -134,6 +148,13 @@
     "r": "H",
     "t": "680news",
     "u": "680-news"
+  },
+  "70news.wordpress.com": {
+    "b": "FN",
+    "d": "70news.wordpress.com",
+    "n": "70 news",
+    "r": "L",
+    "u": "70-news"
   },
   "71republic.com": {
     "b": "RC",
@@ -644,7 +665,7 @@
     "d": "africanews.com",
     "f": "africanews.channel",
     "n": "Africa News",
-    "r": "H",
+    "r": "MF",
     "t": "africanews",
     "u": "africa-news"
   },
@@ -6536,7 +6557,7 @@
     "d": "digg.com",
     "f": "digg",
     "n": "Digg",
-    "r": "H",
+    "r": "MF",
     "t": "digg",
     "u": "digg"
   },
@@ -7606,7 +7627,7 @@
     "u": "eurekaalert"
   },
   "euronews.com": {
-    "b": "C",
+    "b": "LC",
     "d": "euronews.com",
     "f": "euronews",
     "n": "Euronews",
@@ -7683,7 +7704,7 @@
     "b": "CP",
     "d": "evolutionnews.org",
     "f": "discoverycsc",
-    "n": "Evolution News and Views",
+    "n": "Evolution News and Science Today",
     "r": "L",
     "u": "evolution-news-and-views"
   },
@@ -8079,7 +8100,7 @@
     "b": "LC",
     "d": "feministfrequency.com",
     "f": "femfreq",
-    "n": "Feminst Frequency",
+    "n": "Feminist Frequency",
     "r": "H",
     "u": "feminist-frequency"
   },
@@ -14723,6 +14744,13 @@
     "t": "nbcnewyork",
     "u": "nbcnewyork-com"
   },
+  "nbcwashington.com": {
+    "b": "LC",
+    "d": "nbcwashington.com",
+    "n": "WRC-TV NBCWashington",
+    "r": "H",
+    "u": "wrc-tv-nbc-washington"
+  },
   "nber.org": {
     "b": "C",
     "d": "nber.org",
@@ -15498,6 +15526,13 @@
     "r": "VL",
     "t": "yournewswire",
     "u": "news-punch"
+  },
+  "newsready.com": {
+    "b": "FN",
+    "d": "newsready.com",
+    "n": "NewsReady",
+    "r": "M",
+    "u": "newsready"
   },
   "newsrescue.com": {
     "b": "RC",
@@ -17613,6 +17648,12 @@
     "t": "poststar",
     "u": "the-post-star"
   },
+  "potatriotsunite.com": {
+    "b": "S",
+    "d": "potatriotsunite.com",
+    "n": "Potatriots Unite",
+    "u": "potatriots-unite"
+  },
   "powderedwigsociety.com": {
     "b": "FN",
     "d": "powderedwigsociety.com",
@@ -18213,6 +18254,13 @@
     "r": "H",
     "u": "rabble-ca"
   },
+  "radio.com": {
+    "b": "C",
+    "d": "radio.com",
+    "n": "Radio.com",
+    "r": "H",
+    "u": "radio-com"
+  },
   "rand.org": {
     "b": "C",
     "d": "rand.org",
@@ -18479,6 +18527,13 @@
     "f": "rhobbusjd",
     "n": "Real News Right Now",
     "u": "real-news-right-now"
+  },
+  "realrawnews.com": {
+    "b": "FN",
+    "d": "realrawnews.com",
+    "n": "Real Raw News",
+    "r": "VL",
+    "u": "real-raw-news"
   },
   "realtimepolitics.com": {
     "b": "FN",
@@ -20013,6 +20068,13 @@
     "r": "M",
     "u": "san-francisco-globe"
   },
+  "sfvtoday.com": {
+    "b": "FN",
+    "d": "sfvtoday.com",
+    "n": "SFV Today",
+    "r": "M",
+    "u": "sfv-today"
+  },
   "sgtreport.com": {
     "b": "CP",
     "d": "sgtreport.com",
@@ -20021,6 +20083,13 @@
     "r": "L",
     "t": "sgtreport",
     "u": "sgt-report"
+  },
+  "sgvstandard.com": {
+    "b": "FN",
+    "d": "sgvstandard.com",
+    "n": "SGV Standard",
+    "r": "M",
+    "u": "sgv-standard"
   },
   "shadowproof.com": {
     "b": "L",
@@ -20306,6 +20375,13 @@
     "t": "slate",
     "u": "slate"
   },
+  "sloreporter.com": {
+    "b": "FN",
+    "d": "sloreporter.com",
+    "n": "SLO Reporter",
+    "r": "M",
+    "u": "slo-reporter"
+  },
   "sltrib.com": {
     "b": "LC",
     "d": "sltrib.com",
@@ -20364,6 +20440,13 @@
     "r": "H",
     "t": "snopes",
     "u": "snopes"
+  },
+  "snopes.news": {
+    "b": "CP",
+    "d": "snopes.news",
+    "n": "Snopes.News",
+    "r": "VL",
+    "u": "snopes-news"
   },
   "soas.ac.uk": {
     "b": "C",
@@ -20424,6 +20507,13 @@
     "r": "H",
     "t": "sojourners",
     "u": "sojourners-soho"
+  },
+  "solanosun.com": {
+    "b": "FN",
+    "d": "solanosun.com",
+    "n": "Solono Sun",
+    "r": "M",
+    "u": "solono-sun"
   },
   "sonorannews.com": {
     "b": "R",
@@ -20489,6 +20579,27 @@
     "r": "M",
     "u": "south-alabama-times"
   },
+  "southalamedanews.com": {
+    "b": "FN",
+    "d": "southalamedanews.com",
+    "n": "South Alameda News",
+    "r": "M",
+    "u": "south-alameda-news"
+  },
+  "southbayleader.com": {
+    "b": "FN",
+    "d": "southbayleader.com",
+    "n": "South Bay Reader",
+    "r": "M",
+    "u": "south-bay-leader"
+  },
+  "southbaysdnews.com": {
+    "b": "FN",
+    "d": "southbaysdnews.com",
+    "n": "South Bay SD News",
+    "r": "M",
+    "u": "south-bay-sd-news"
+  },
   "southbendtribune.com": {
     "b": "C",
     "d": "southbendtribune.com",
@@ -20531,6 +20642,13 @@
     "n": "Right Wing News",
     "r": "L",
     "u": "south-jersey-mechanic-trump-news"
+  },
+  "southoctimes.com": {
+    "b": "FN",
+    "d": "southoctimes.com",
+    "n": "South OC Times",
+    "r": "M",
+    "u": "south-oc-times"
   },
   "space.com": {
     "b": "PS",
@@ -20647,9 +20765,9 @@
     "t": "spokesmanreview",
     "u": "the-spokesman-review"
   },
-  "sportspickle.com(function(w,d,s,i": {
+  "sportspickle.com": {
     "b": "S",
-    "d": "sportspickle.com(function(w,d,s,i",
+    "d": "sportspickle.com",
     "n": "Sports Pickle",
     "u": "sports-pickle"
   },
@@ -25749,6 +25867,13 @@
     "r": "H",
     "u": "die-welt"
   },
+  "weny.com": {
+    "b": "C",
+    "d": "weny.com",
+    "n": "WENY News",
+    "r": "H",
+    "u": "weny-news"
+  },
   "westernfreepress.com": {
     "b": "R",
     "d": "westernfreepress.com",
@@ -26048,7 +26173,7 @@
     "d": "wionews.com",
     "f": "wionews",
     "n": "WION (World is One News)",
-    "r": "MF",
+    "r": "M",
     "t": "wionews",
     "u": "wion-world-one-news"
   },
