@@ -1932,6 +1932,13 @@
     "n": "Atomic Monkey",
     "u": "atomic-monkey"
   },
+  "attackthesystem.com": {
+    "b": "L",
+    "d": "attackthesystem.com",
+    "n": "Attack the System",
+    "r": "M",
+    "u": "attack-the-system"
+  },
   "attn.com": {
     "b": "LC",
     "d": "attn.com",
@@ -20650,6 +20657,13 @@
     "r": "M",
     "u": "south-oc-times"
   },
+  "southsactoday.com": {
+    "b": "FN",
+    "d": "southsactoday.com",
+    "n": "South Sacramento Today",
+    "r": "M",
+    "u": "south-sacramento-today"
+  },
   "space.com": {
     "b": "PS",
     "d": "space.com",
@@ -22034,7 +22048,7 @@
     "d": "thecanary.co",
     "f": "thecanaryuk",
     "n": "The Canary (UK)",
-    "r": "H",
+    "r": "MF",
     "t": "thecanaryuk",
     "u": "the-canary-uk"
   },
