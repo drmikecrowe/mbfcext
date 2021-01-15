@@ -4684,6 +4684,13 @@
     "t": "commonwealthfnd",
     "u": "commonwealth-fund"
   },
+  "complex.com": {
+    "b": "LC",
+    "d": "complex.com",
+    "n": "Complex",
+    "r": "MF",
+    "u": "complex"
+  },
   "concernedwomen.org": {
     "b": "FN",
     "d": "concernedwomen.org",
@@ -8560,11 +8567,11 @@
     "r": "H",
     "u": "france-info"
   },
-  "franklincenterhq.org": {
+  "franklinnews.org": {
     "b": "RC",
-    "d": "franklincenterhq.org",
+    "d": "franklinnews.org",
     "f": "franklincenterhq",
-    "n": "Franklin Center for Government and Public Integrity",
+    "n": "Franklin News Foundation",
     "r": "M",
     "t": "franklincenter",
     "u": "franklin-center-for-government-and-public-integrity"
@@ -8724,6 +8731,15 @@
     "n": "Free Patriot Post",
     "r": "L",
     "u": "free-patriot-post"
+  },
+  "freepress.net": {
+    "b": "LC",
+    "d": "freepress.net",
+    "f": "freepress.org",
+    "n": "Free Press",
+    "r": "H",
+    "t": "freepressorg",
+    "u": "free-press"
   },
   "freepress.org": {
     "b": "L",
@@ -14711,6 +14727,13 @@
     "r": "H",
     "t": "nautilusmag",
     "u": "nautilus-magazine"
+  },
+  "navarroreport.com": {
+    "b": "FN",
+    "d": "navarroreport.com",
+    "n": "Navarro Report",
+    "r": "L",
+    "u": "navarro-report"
   },
   "navytimes.com": {
     "b": "C",
