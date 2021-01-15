@@ -1,5 +1,11 @@
 # Official Media Bias/Fact Check Extension
 
+## Build Instructions
+
+See [BUILD.md](BUILD.md) documentation
+
+## Introduction
+
 Thank you for installing the [Official Media Bias/Fact Check Extension](https://drmikecrowe.github.io/mbfcext/)!  We appreciate you installing our extension!
 
 Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources. This extension is completely open source, and the source code is hosted [here](https://drmikecrowe.github.io/mbfcext/).
