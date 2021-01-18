@@ -8862,6 +8862,16 @@
     "t": "frontiersin",
     "u": "frontiers"
   },
+  "frontiersin.org/journals/psychology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/psychology",
+    "f": "frontiersin",
+    "n": "Frontiers in Psychology",
+    "p": "/journals/psychology",
+    "r": "H",
+    "t": "frontiersin",
+    "u": "frontiers-in-psychology"
+  },
   "frontpagelive.com": {
     "b": "L",
     "d": "frontpagelive.com",
@@ -9279,6 +9289,13 @@
     "r": "H",
     "u": "global-risk-insights-gri"
   },
+  "globalskywatch.com": {
+    "b": "CP",
+    "d": "globalskywatch.com",
+    "n": "Global Skywatch",
+    "r": "L",
+    "u": "global-skywatch"
+  },
   "globalslaveryindex.org": {
     "b": "C",
     "d": "globalslaveryindex.org",
@@ -9513,7 +9530,7 @@
     "d": "govtrack.us",
     "f": "govtrack",
     "n": "GovTrack",
-    "r": "VH",
+    "r": "H",
     "t": "govtrack",
     "u": "govtrack"
   },
@@ -11766,15 +11783,6 @@
     "r": "H",
     "t": "jordantimes",
     "u": "the-jordan-times"
-  },
-  "journal.frontiersin.org": {
-    "b": "PS",
-    "d": "journal.frontiersin.org",
-    "f": "frontiersin",
-    "n": "Frontiers in Psychology",
-    "r": "VH",
-    "t": "frontiersin",
-    "u": "frontiers-in-psychology"
   },
   "journalgazette.net": {
     "b": "C",
@@ -15627,11 +15635,11 @@
     "u": "newswars"
   },
   "newsweek.com": {
-    "b": "L",
+    "b": "LC",
     "d": "newsweek.com",
     "f": "newsweek",
     "n": "Newsweek",
-    "r": "M",
+    "r": "MF",
     "u": "newsweek"
   },
   "newswithviews.com": {
@@ -19449,6 +19457,13 @@
     "r": "H",
     "u": "sacramento-bee"
   },
+  "sacramento.cbslocal.com": {
+    "b": "LC",
+    "d": "sacramento.cbslocal.com",
+    "n": "KOVR - CBS Sacramento",
+    "r": "H",
+    "u": "kovr-cbs-sacramento"
+  },
   "sacramentostandard.com": {
     "b": "FN",
     "d": "sacramentostandard.com",
@@ -20687,6 +20702,20 @@
     "r": "M",
     "u": "south-sacramento-today"
   },
+  "southsfbaynews.com": {
+    "b": "FN",
+    "d": "southsfbaynews.com",
+    "n": "South SF Bay News",
+    "r": "M",
+    "u": "south-sf-bay-news"
+  },
+  "southsfvtoday.com": {
+    "b": "FN",
+    "d": "southsfvtoday.com",
+    "n": "South SFV Today",
+    "r": "M",
+    "u": "south-sfv-today"
+  },
   "space.com": {
     "b": "PS",
     "d": "space.com",
@@ -21882,7 +21911,7 @@
     "d": "theamericanconservative.com",
     "f": "the.american.conservative",
     "n": "The American Conservative",
-    "r": "H",
+    "r": "MF",
     "t": "amconmag",
     "u": "the-american-conservative"
   },
