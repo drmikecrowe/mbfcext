@@ -7,6 +7,7 @@ import {
   AssociateSiteMessage,
   biasShortToName,
   CheckDomainResults,
+  EBiases,
   getSiteFromUrl,
   HideSiteMessage,
   IConfig,
@@ -29,6 +30,7 @@ import {
   faExternalLinkAlt,
   faEye,
 } from "utils/elements/font-awesome";
+import { reverse } from "lodash";
 
 export const MBFC = "mbfc";
 export const C_URL = "https://mediabiasfactcheck.com/";
@@ -348,8 +350,6 @@ export class Filter {
     iDiv.className = `mbfcext ${C_FOUND} ${C_REPORT_DIV}`;
     iDiv.id = `mbfcext${count}`;
 
-    const mtype = biasShortToName[site.b];
-
     const external_link = `&nbsp;${faExternalLinkAlt}`;
 
     const hide = get(config, site.d) || collapse;
@@ -422,11 +422,11 @@ export class Filter {
 
     let columns;
 
-    switch (biasShortToName[site.b]) {
-      case "satire":
-      case "conspiracy":
-      case "fake-news":
-      case "pro-science":
+    switch (site.b) {
+      case EBiases.Satire:
+      case EBiases["Conspiracy/Pseudoscience"]:
+      case EBiases["Fake News"]:
+      case EBiases["Pro-Science"]:
         columns = buildOtherColumns();
         break;
       default:

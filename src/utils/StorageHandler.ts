@@ -10,27 +10,6 @@ import {
 
 const log = logger("mbfc:utils:StorageHandler");
 
-export enum ERporting {
-  HIGH = "H",
-  LOW = "L",
-  MIXED = "M",
-  MOSTLY_FACTUAL = "MF",
-  VERY_HIGH = "VH",
-  VERY_LOW = "VL",
-}
-
-export const enum EBiases {
-  CENTER = "C",
-  CONSPIRACY = "CP",
-  FAKE_NEWS = "FN",
-  LEFT = "L",
-  LEFT_CENTER = "LC",
-  PRO_SCIENCE = "PS",
-  RIGHT = "R",
-  RIGHT_CENTER = "RC",
-  SATIRE = "S",
-}
-
 export const biasShortToName = {
   L: "left",
   LC: "left-center",
@@ -85,28 +64,28 @@ export interface IOptions {
 }
 
 export const OptionsToStorage = {
-  collapseLeft: EBiases.LEFT,
-  collapseLeftCenter: EBiases.LEFT_CENTER,
-  collapseCenter: EBiases.CENTER,
-  collapseRightCenter: EBiases.RIGHT_CENTER,
-  collapseRight: EBiases.RIGHT_CENTER,
-  collapseProScience: EBiases.PRO_SCIENCE,
-  collapseConspiracy: EBiases.CONSPIRACY,
-  collapseSatire: EBiases.SATIRE,
-  collapseFakeNews: EBiases.FAKE_NEWS,
+  collapseLeft: EBiases.Left,
+  collapseLeftCenter: EBiases["Left Center"],
+  collapseCenter: EBiases.Center,
+  collapseRightCenter: EBiases["Right Center"],
+  collapseRight: EBiases.Right,
+  collapseProScience: EBiases["Pro-Science"],
+  collapseConspiracy: EBiases["Conspiracy/Pseudoscience"],
+  collapseSatire: EBiases.Satire,
+  collapseFakeNews: EBiases["Fake News"],
   collapseMixed: "M",
 };
 
 export const StorageToOptions = {
-  [EBiases.LEFT]: "collapseLeft",
-  [EBiases.LEFT_CENTER]: "collapseLeftCenter",
-  [EBiases.CENTER]: "collapseCenter",
-  [EBiases.RIGHT_CENTER]: "collapseRightCenter",
-  [EBiases.RIGHT]: "collapseRight",
-  [EBiases.PRO_SCIENCE]: "collapseProScience",
-  [EBiases.CONSPIRACY]: "collapseConspiracy",
-  [EBiases.SATIRE]: "collapseSatire",
-  [EBiases.FAKE_NEWS]: "collapseFakeNews",
+  [EBiases.Left]: "collapseLeft",
+  [EBiases["Left Center"]]: "collapseLeftCenter",
+  [EBiases.Center]: "collapseCenter",
+  [EBiases["Right Center"]]: "collapseRightCenter",
+  [EBiases.Right]: "collapseRight",
+  [EBiases["Pro-Science"]]: "collapseProScience",
+  [EBiases["Conspiracy/Pseudoscience"]]: "collapseConspiracy",
+  [EBiases.Satire]: "collapseSatire",
+  [EBiases["Fake News"]]: "collapseFakeNews",
   M: "collapseMixed",
 };
 

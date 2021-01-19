@@ -55,7 +55,7 @@ export const checkDomain = (
       if (config.collapse[biasKey]) {
         ret.collapse = true;
       }
-      if (reporting === ERporting.MIXED && config.collapse.collapseMixed) {
+      if (reporting === ERporting.Mixed && config.collapse.collapseMixed) {
         ret.collapse = true;
       }
     }

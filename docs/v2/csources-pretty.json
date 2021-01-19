@@ -2002,7 +2002,7 @@
     "d": "autismspeaks.org",
     "f": "autismspeaks",
     "n": "Autism Speaks",
-    "r": "MF",
+    "r": "M",
     "t": "autismspeaks",
     "u": "autism-speaks"
   },
@@ -2769,15 +2769,6 @@
     "n": "Blue Informer",
     "r": "L",
     "u": "blue-informer"
-  },
-  "bluelivesmatter.blue": {
-    "b": "R",
-    "d": "bluelivesmatter.blue",
-    "f": "bluematters",
-    "n": "Blue Lives Matter (Police Tribune)",
-    "r": "M",
-    "t": "bluelivesmtr",
-    "u": "blue-lives-matter"
   },
   "bluenationreview.com": {
     "b": "L",
@@ -11784,6 +11775,13 @@
     "t": "jordantimes",
     "u": "the-jordan-times"
   },
+  "journal-news.net": {
+    "b": "RC",
+    "d": "journal-news.net",
+    "n": "The Journal (West Virginia)",
+    "r": "H",
+    "u": "the-journal-west-virginia"
+  },
   "journalgazette.net": {
     "b": "C",
     "d": "journalgazette.net",
@@ -17285,6 +17283,15 @@
     "t": "pogoblog",
     "u": "project-on-government-oversight"
   },
+  "policetribune.com": {
+    "b": "R",
+    "d": "policetribune.com",
+    "f": "bluematters",
+    "n": "Blue Lives Matter (Police Tribune)",
+    "r": "M",
+    "t": "bluelivesmtr",
+    "u": "blue-lives-matter"
+  },
   "policyed.org": {
     "b": "RC",
     "d": "policyed.org",
@@ -20715,6 +20722,13 @@
     "n": "South SFV Today",
     "r": "M",
     "u": "south-sfv-today"
+  },
+  "southsgvnews.com": {
+    "b": "FN",
+    "d": "southsgvnews.com",
+    "n": "South SGV News",
+    "r": "M",
+    "u": "south-sgv-news"
   },
   "space.com": {
     "b": "PS",
