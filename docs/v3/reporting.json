@@ -1,0 +1,20 @@
+{
+    "VERY HIGH": {
+        "pretty": "Very-High"
+    },
+    "HIGH": {
+        "pretty": "High"
+    },
+    "MOSTLY FACTUAL": {
+        "pretty": "Mostly-Factual"
+    },
+    "MIXED": {
+        "pretty": "Mixed"
+    },
+    "LOW": {
+        "pretty": "Low"
+    },
+    "VERY LOW": {
+        "pretty": "Very-Low"
+    }
+}
