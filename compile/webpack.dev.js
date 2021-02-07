@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const { merge } = require("webpack-merge");
 const { webpackConfig } = require("./webpack.common.js");
 const WriteFilePlugin = require("write-file-webpack-plugin");
-const ExtensionReloader = require("webpack-extension-reloader");
+const ExtensionReloader = require("@drmikecrowe/webpack-extension-reloaderv5");
 
 module.exports = merge(webpackConfig, {
   devtool: "eval-source-map",
