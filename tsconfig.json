@@ -5,6 +5,7 @@
         "baseUrl": ".",
         "esModuleInterop": true,
         "experimentalDecorators": true,
+        "resolveJsonModule": true,
         "importHelpers": true,
         "jsx": "react",
         "jsxFactory": "m",

@@ -5,8 +5,8 @@ module.exports = {
     node: true,
   },
   extends: [
-    // 'eslint:recommended',
-    // // typescript
+    // "eslint:recommended",
+    // // typesript
     // 'plugin:@typescript-eslint/eslint-recommended',
     // 'plugin:@typescript-eslint/recommended',
     // // vue
@@ -19,7 +19,6 @@ module.exports = {
     // also
 
     "plugin:react/recommended",
-    "airbnb",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",

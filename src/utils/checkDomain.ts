@@ -1,7 +1,8 @@
-import get from "lodash/get";
+import { get, has } from "lodash-es";
 import { err, ok, Result } from "neverthrow";
 import { ConfigHandler, ISource, logger, SourcesHandler } from "utils";
-import { StorageToOptions, ERporting } from "utils/StorageHandler";
+import { EBiasesKey, EReportingKeys } from "utils/definitions";
+import { StorageToOptions } from "utils/StorageHandler";
 
 const log = logger("mbfc:utils:checkDomain");
 
@@ -49,20 +50,19 @@ export const checkDomain = (
       ret.unknown = false;
       ret.alias = isAlias;
       ret.baseUrl = isBase;
-      const bias = get(ret, "site.b");
-      const biasKey = get(StorageToOptions, bias);
-      const reporting = get(ret, "site.r", "").toUpperCase();
-      if (config.collapse[biasKey]) {
+      const bias: EBiasesKey = get(ret, "site.b", "");
+      const reporting: EReportingKeys = get(ret, "site.r", "");
+      if (config.collapse[StorageToOptions[bias]]) {
         ret.collapse = true;
       }
-      if (reporting === ERporting.MIXED && config.collapse.collapseMixed) {
+      if (reporting === "M" && config.collapse.collapseMixed) {
         ret.collapse = true;
       }
     }
     if (config.hiddenSites[d]) {
       ret.hidden = true;
       ret.collapse = true;
-    } else if (config.hiddenSites[d] === false) {
+    } else if (has(config.hiddenSites, d) && config.hiddenSites[d] === false) {
       ret.collapse = false;
     }
     if (ret.site && !logged[d]) {

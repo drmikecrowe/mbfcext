@@ -1,17 +1,23 @@
-import keys from "lodash/keys";
 import { COMBINED, ISources, logger, UpdatedSourcesMessage } from "utils";
 import { fetch as fetchPolyfill } from "whatwg-fetch";
 import { getDomain } from "utils/getDomain";
+import { ICombined } from "utils/definitions";
+import { keys } from "lodash-es";
+import { version } from "assets/latest.json";
 
 const log = logger("mbfc:background:sources");
 
 export class SourcesProcessor {
   retrievingPromise: Promise<ISources> | undefined;
   sources: ISources = {
+    version: 0,
+    date: "",
     sources: {},
     aliases: {},
     reporting: {},
     biases: {},
+    traffic: {} as any,
+    credibility: {} as any,
     fb_pages: {},
     tw_pages: {},
     loaded: false,
@@ -33,7 +39,7 @@ export class SourcesProcessor {
   }
 
   areSourcesLoaded(): boolean {
-    return this.sources.loaded;
+    return this.sources.version >= version && this.sources.loaded;
   }
 
   setSource(key: string, val: any) {
@@ -62,21 +68,19 @@ export class SourcesProcessor {
   async retrieveRemote(): Promise<ISources> {
     try {
       const res = await fetchPolyfill(COMBINED);
-      const combined = await res.json();
-      log("Combined: ", combined);
+      const combined: ICombined = await res.json();
+      console.log(
+        `Loaded combined data ${combined.version} from ${combined.date}`
+      );
       if (!combined) return this.sources;
       log("Settings retrieved, processing");
       Object.keys(combined).forEach((key) =>
         this.setSource(key, combined[key])
       );
-      if (!this.sources.biases["left-center"]) {
-        this.sources.biases["left-center"] = this.sources.biases.leftcenter;
-      }
       log("Extracting facebook and twitter domains");
       Object.keys(this.sources.sources).forEach((domain) =>
         this.updateDomain(domain)
       );
-      log(this.sources.tw_pages as any);
       this.sources.loaded = true;
       const msg = new UpdatedSourcesMessage(this.sources);
       await msg.sendMessage(true);

@@ -1,4 +1,4 @@
-import get from "lodash/get";
+import { get } from "lodash-es";
 
 export const DateFilter = (value) => {
   const date = new Date(value);

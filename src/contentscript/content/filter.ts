@@ -1,7 +1,5 @@
 import debug from "debug";
-import get from "lodash/get";
-import set from "lodash/set";
-import isEmpty from "lodash/isEmpty";
+import { get, isEmpty, set } from "lodash-es";
 import { err, ok, Result } from "neverthrow";
 import {
   AssociateSiteMessage,
@@ -21,14 +19,14 @@ import {
 } from "utils";
 import { ConfigHandler } from "utils/ConfigHandler";
 import { ISource } from "utils/definitions";
-import { messageUtil } from "utils/messages/messageUtil";
-import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
-import { SourcesHandler } from "utils/SourcesHandler";
 import {
   faAngleDoubleDown,
   faExternalLinkAlt,
   faEye,
 } from "utils/elements/font-awesome";
+import { messageUtil } from "utils/messages/messageUtil";
+import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+import { SourcesHandler } from "utils/SourcesHandler";
 
 export const MBFC = "mbfc";
 export const C_URL = "https://mediabiasfactcheck.com/";
@@ -186,18 +184,22 @@ export class Filter {
     const button = document.getElementById(`toolbar-button1-${count}`);
     if (!button) return;
     const domain = button.attributes["data-domain"].value;
-    const hide = button.attributes["data-collapse"].value !== "show";
-    log(domain, button.attributes["data-collapse"].value, hide);
+    const collapse = button.attributes["data-collapse"].value !== "show";
+    log(domain, button.attributes["data-collapse"].value, collapse);
     log(`Ignoring ${text}/${domain}`);
-    new HideSiteMessage(domain).sendMessage();
+    new HideSiteMessage(domain, collapse).sendMessage();
     const el = document.getElementById(`mbfcext${count}`);
     if (el) {
-      el.style.display = hide ? "none" : "inherit";
+      el.style.display = collapse ? "none" : "inherit";
     }
     const domain_class = `${MBFC}-${domain.replace(/\./g, "-")}`;
-    if (hide)
+    if (collapse)
       document.querySelectorAll(`.${domain_class}`).forEach((e) => {
         this.hideElement(e);
+      });
+    else
+      document.querySelectorAll(`.${domain_class}`).forEach((e) => {
+        this.showElement(e);
       });
   }
 

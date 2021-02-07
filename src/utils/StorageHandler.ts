@@ -1,6 +1,7 @@
 /* eslint-disable no-shadow */
-import set from "lodash/set";
+import { set, invert } from "lodash-es";
 import OptionsSync, { Options } from "webext-options-sync";
+import { EBiases, EReporting, EBiasesKey } from "utils/definitions";
 import {
   browser,
   OPTIONS_FIRST_RUN,
@@ -9,27 +10,6 @@ import {
 } from "utils";
 
 const log = logger("mbfc:utils:StorageHandler");
-
-export enum ERporting {
-  HIGH = "H",
-  LOW = "L",
-  MIXED = "M",
-  MOSTLY_FACTUAL = "MF",
-  VERY_HIGH = "VH",
-  VERY_LOW = "VL",
-}
-
-export const enum EBiases {
-  CENTER = "C",
-  CONSPIRACY = "CP",
-  FAKE_NEWS = "FN",
-  LEFT = "L",
-  LEFT_CENTER = "LC",
-  PRO_SCIENCE = "PS",
-  RIGHT = "R",
-  RIGHT_CENTER = "RC",
-  SATIRE = "S",
-}
 
 export const biasShortToName = {
   L: "left",
@@ -79,34 +59,34 @@ export const DefaultCollapse: Collapse = {
 };
 
 export interface IOptions {
-  collapse: Record<ERporting, boolean>;
+  collapse: Record<EReporting, boolean>;
   hideSites: Record<string, boolean>;
   showSites: Record<string, boolean>;
 }
 
-export const OptionsToStorage = {
-  collapseLeft: EBiases.LEFT,
-  collapseLeftCenter: EBiases.LEFT_CENTER,
-  collapseCenter: EBiases.CENTER,
-  collapseRightCenter: EBiases.RIGHT_CENTER,
-  collapseRight: EBiases.RIGHT_CENTER,
-  collapseProScience: EBiases.PRO_SCIENCE,
-  collapseConspiracy: EBiases.CONSPIRACY,
-  collapseSatire: EBiases.SATIRE,
-  collapseFakeNews: EBiases.FAKE_NEWS,
+export const OptionsToStorage: Record<never, EBiasesKey & "M"> = {
+  collapseLeft: "L",
+  collapseLeftCenter: "LC",
+  collapseCenter: "C",
+  collapseRightCenter: "RC",
+  collapseRight: "R",
+  collapseProScience: "PS",
+  collapseConspiracy: "CP",
+  collapseSatire: "S",
+  collapseFakeNews: "FN",
   collapseMixed: "M",
 };
 
 export const StorageToOptions = {
-  [EBiases.LEFT]: "collapseLeft",
-  [EBiases.LEFT_CENTER]: "collapseLeftCenter",
-  [EBiases.CENTER]: "collapseCenter",
-  [EBiases.RIGHT_CENTER]: "collapseRightCenter",
-  [EBiases.RIGHT]: "collapseRight",
-  [EBiases.PRO_SCIENCE]: "collapseProScience",
-  [EBiases.CONSPIRACY]: "collapseConspiracy",
-  [EBiases.SATIRE]: "collapseSatire",
-  [EBiases.FAKE_NEWS]: "collapseFakeNews",
+  L: "collapseLeft",
+  LC: "collapseLeftCenter",
+  C: "collapseCenter",
+  RC: "collapseRightCenter",
+  R: "collapseRight",
+  PS: "collapseProScience",
+  CP: "collapseConspiracy",
+  S: "collapseSatire",
+  FN: "collapseFakeNews",
   M: "collapseMixed",
 };
 
