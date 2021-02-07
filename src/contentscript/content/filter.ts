@@ -186,21 +186,43 @@ export class Filter {
     const domain = button.attributes["data-domain"].value;
     const collapse = button.attributes["data-collapse"].value !== "show";
     log(domain, button.attributes["data-collapse"].value, collapse);
-    log(`Ignoring ${text}/${domain}`);
+    const which = collapse ? "hiding" : "showing";
+    log(`Always ${which} ${text}/${domain}`);
     new HideSiteMessage(domain, collapse).sendMessage();
     const el = document.getElementById(`mbfcext${count}`);
     if (el) {
       el.style.display = collapse ? "none" : "inherit";
     }
     const domain_class = `${MBFC}-${domain.replace(/\./g, "-")}`;
-    if (collapse)
+    if (collapse) {
       document.querySelectorAll(`.${domain_class}`).forEach((e) => {
         this.hideElement(e);
       });
-    else
+      document
+        .querySelectorAll(`button[data-domain="${domain}"]`)
+        .forEach((e) => {
+          e.setAttribute("data-collapse", "show");
+          e.innerHTML = e.innerHTML.replace("hide", "show");
+        });
+    } else {
       document.querySelectorAll(`.${domain_class}`).forEach((e) => {
         this.showElement(e);
       });
+      document
+        .querySelectorAll(`button[data-domain="${domain}"]`)
+        .forEach((e) => {
+          e.setAttribute("data-collapse", "hide");
+          e.innerHTML = e.innerHTML.replace("show", "hide");
+        });
+    }
+    alert(`Always ${which} ${text}/${domain}`);
+    const el2 = document.getElementById(`mbfctt${count}`);
+    if (!el2) return;
+    if (el2.style.display == "none") {
+      el2.style.display = "table-row";
+    } else {
+      el2.style.display = "none";
+    }
   }
 
   reportSite(
@@ -218,6 +240,7 @@ export class Filter {
 
   resetIgnored() {
     new ResetIgnoredMessage().sendMessage();
+    alert(`OK, reset. You can now begin to hide/show individual sites`);
   }
 
   reportAssociated(source: ISource, domain: string) {
