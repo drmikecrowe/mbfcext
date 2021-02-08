@@ -7,7 +7,7 @@ const MyOptions = new OptionsSync({ defaults: DefaultCollapse as any });
 const log = logger("mbfc:options");
 
 const baseClasses = {
-  styleClasses: "mb-12",
+  styleClasses: "mb-4",
   labelClasses: "block font-bold mr-2",
 };
 
@@ -18,7 +18,7 @@ const inputClasses = {
 };
 
 const checkboxClasses = {
-  fieldClasses: "form-checkbox",
+  fieldClasses: "form-checkbox border",
   ...baseClasses,
 };
 

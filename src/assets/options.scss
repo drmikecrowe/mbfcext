@@ -24,9 +24,14 @@ h3 {
 
 .form-checkbox {
   border-color: darkgray;
+  border-width: 1px;
 }
 
 .show-list {
   list-style-type: disc !important;
   margin-left: 30px;
+}
+
+.tab-content {
+  font-family: "Arial Narrow", Arial, sans-serif;
 }
