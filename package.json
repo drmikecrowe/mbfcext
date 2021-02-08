@@ -1,7 +1,7 @@
 {
   "name": "media-bias-fact-check",
   "description": "Curate Facebook/Twitter with MBFC news categorizations",
-  "version": "3.0.7",
+  "version": "3.1.0",
   "author": "Mike Crowe <drmikecrowe@gmail.com>",
   "license": "MIT",
   "browserslist": [
@@ -130,7 +130,7 @@
   },
   "repository": "EmailThis/extension-boilerplate",
   "scripts": {
-    "build": "pnpm run lint && pnpm run chrome:prod && pnpm run firefox:prod && node compile/clean.js",
+    "build": "pnpm run chrome:prod && pnpm run firefox:prod && node compile/clean.js",
     "chrome:dev": "cross-env TARGET=chrome pnpm run webpack:dev",
     "chrome:prod": "cross-env NODE_ENV=production TARGET=chrome pnpm run webpack",
     "firefox:dev": "cross-env TARGET=firefox pnpm run webpack:dev",
