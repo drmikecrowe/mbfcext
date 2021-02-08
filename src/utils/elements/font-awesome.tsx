@@ -13,7 +13,7 @@ export const faAngleDoubleDown =
   '<img src="https://icongr.am/fontawesome/angle-double-down.svg?size=16" alt="faAngleDoubleDown" height="10px" />';
 
 export const faExternalLinkAlt =
-  '<img src="https://icongr.am/fontawesome/external-link.svg?size=16" alt="faExternalLinkAlt" height="10px" />';
+  '<img src="https://icongr.am/fontawesome/external-link.svg?size=16" alt="faExternalLinkAlt" height="10px" style="position: relative;top: 2px;" />';
 
 export const faAngleDoubleRight =
   '<img src="https://icongr.am/fontawesome/angle-double-right.svg?size=16" alt="faAngleDoubleRight" height="10px" />';

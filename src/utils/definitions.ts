@@ -41,6 +41,14 @@ export enum EReporting {
 }
 export type EReportingKeys = keyof typeof EReporting;
 
+export enum EReportingText {
+  "H" = "Highly Factual",
+  "L" = "Low Factuality",
+  "M" = "Mixed Factuality",
+  "MF" = "Mostly Factual",
+  "VH" = "Very High Factuality",
+  "VL" = "Very Low Factuality",
+}
 /**
   H|High Credibility
   M|Medium Credibility

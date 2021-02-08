@@ -58,12 +58,6 @@ export const DefaultCollapse: Collapse = {
   collapseMixed: false,
 };
 
-export interface IOptions {
-  collapse: Record<EReporting, boolean>;
-  hideSites: Record<string, boolean>;
-  showSites: Record<string, boolean>;
-}
-
 export const OptionsToStorage: Record<never, EBiasesKey & "M"> = {
   collapseLeft: "L",
   collapseLeftCenter: "LC",

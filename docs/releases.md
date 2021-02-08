@@ -1,5 +1,11 @@
 # Official Media Bias/Fact Check Extension Release Notes
 
+## Release notes for version 3.1
+
+- Adding support for Credibility and Traffic
+- Fixing issue with hiding/showing a site permanently
+- Adding version number to config
+
 ## Release notes for version 3.0
 
 - Now support the new Facebook layout

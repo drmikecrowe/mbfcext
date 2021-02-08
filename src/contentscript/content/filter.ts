@@ -1,5 +1,5 @@
 import debug from "debug";
-import { get, isEmpty, set } from "lodash-es";
+import { get, has, isEmpty, set } from "lodash-es";
 import { err, ok, Result } from "neverthrow";
 import {
   AssociateSiteMessage,
@@ -18,7 +18,12 @@ import {
   UpdatedSourcesMessage,
 } from "utils";
 import { ConfigHandler } from "utils/ConfigHandler";
-import { ISource } from "utils/definitions";
+import {
+  ISource,
+  EReportingText,
+  ECredibility,
+  ETraffic,
+} from "utils/definitions";
 import {
   faAngleDoubleDown,
   faExternalLinkAlt,
@@ -391,24 +396,29 @@ export class Filter {
 
     const details: string[] = [];
     if (site.r > "") {
-      const reporting_obj = reporting[reportingShortToName[site.r]];
-      if (!isEmpty(reporting_obj)) {
-        details.push(`Factually ${reporting_obj.pretty}`);
+      if (has(EReportingText, site.r)) {
+        details.push(EReportingText[site.r]);
       }
     }
+    if (site.c > "" && site.c !== "NA") {
+      details.push(ECredibility[site.c]);
+    }
+    if (site.a > "" && site.a !== "N") {
+      details.push(ETraffic[site.a]);
+    }
     details.push(
-      `<span title="Within MBFC sites, this site has ${site.P}% higher number of external equity links than other sites">Popularity: ${site.P}%</span>`
+      `<span title="Within our rated sites, this site has ${site.P}% higher number of sites linking to it than other sites">Links: ${site.P}%</span>`
     );
     if (tagsearch && mtype !== "satire") {
       details.push(
         `<a title="Search factualsearch.news for '${tagsearch}'" target="_blank" href="https://factualsearch.news/#gsc.tab=0&fns.type=mostly-center&gsc.q=${encodeURIComponent(
           tagsearch
-        )}">Research this subject ${external_link}</a> `
+        )}">Research ${external_link}</a> `
       );
     }
     details.push(
       `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${C_URL}${site.u}">
-                See MBFC's report ${external_link}
+                MBFC's ${external_link}
             </a>`
     );
 
