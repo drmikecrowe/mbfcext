@@ -1,6 +1,6 @@
 const { merge } = require("webpack-merge");
 const { webpackConfig, target, pkgJson } = require("./webpack.common.js");
-const webpack  = require('webpack');
+const webpack = require("webpack");
 
 // const FileManagerPlugin = require("filemanager-webpack-plugin");
 
@@ -39,7 +39,7 @@ const config = merge(webpackConfig, {
   mode: "production",
   optimization: {
     usedExports: true,
-    minimize: false,
+    minimize: true,
   },
   plugins: [
     new webpack.optimize.LimitChunkCountPlugin({

@@ -2,7 +2,7 @@ import { COMBINED, ISources, logger, UpdatedSourcesMessage } from "utils";
 import { fetch as fetchPolyfill } from "whatwg-fetch";
 import { getDomain } from "utils/getDomain";
 import { ICombined } from "utils/definitions";
-import { keys } from "lodash-es";
+import { keys } from "lodash";
 import { version } from "assets/latest.json";
 
 const log = logger("mbfc:background:sources");

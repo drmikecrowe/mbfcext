@@ -1,5 +1,5 @@
 /* eslint-disable no-shadow */
-import { set, invert } from "lodash-es";
+import { set, invert } from "lodash";
 import OptionsSync, { Options } from "webext-options-sync";
 import { EBiases, EReporting, EBiasesKey } from "utils/definitions";
 import {

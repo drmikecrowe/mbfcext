@@ -1,5 +1,5 @@
 import debug from "debug";
-import { get, has, isEmpty, set } from "lodash-es";
+import { get, has, isEmpty, set } from "lodash";
 import { err, ok, Result } from "neverthrow";
 import {
   AssociateSiteMessage,

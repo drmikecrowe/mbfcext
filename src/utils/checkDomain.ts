@@ -1,4 +1,4 @@
-import { get, has } from "lodash-es";
+import { get, has } from "lodash";
 import { err, ok, Result } from "neverthrow";
 import { ConfigHandler, ISource, logger, SourcesHandler } from "utils";
 import { EBiasesKey, EReportingKeys } from "utils/definitions";
