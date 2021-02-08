@@ -207,7 +207,7 @@ export class Filter {
         .querySelectorAll(`button[data-domain="${domain}"]`)
         .forEach((e) => {
           e.setAttribute("data-collapse", "show");
-          e.innerHTML = e.innerHTML.replace("hide", "show");
+          e.textContent = e.textContent?.replace("hide", "show") || "";
         });
     } else {
       document.querySelectorAll(`.${domain_class}`).forEach((e) => {
@@ -217,7 +217,7 @@ export class Filter {
         .querySelectorAll(`button[data-domain="${domain}"]`)
         .forEach((e) => {
           e.setAttribute("data-collapse", "hide");
-          e.innerHTML = e.innerHTML.replace("show", "hide");
+          e.textContent = e.textContent?.replace("show", "hide") || "";
         });
     }
     alert(`Always ${which} ${text}/${domain}`);

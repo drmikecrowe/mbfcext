@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import { m } from "malevic";
 import { Collapse, DefaultCollapse, logger } from "utils";
 import OptionsSync from "webext-options-sync";

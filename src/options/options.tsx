@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import "assets/tailwind.scss";
 import { m } from "malevic";
 import { sync, getContext } from "malevic/umd/dom";

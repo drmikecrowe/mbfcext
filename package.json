@@ -130,7 +130,7 @@
   },
   "repository": "EmailThis/extension-boilerplate",
   "scripts": {
-    "build": "pnpm run chrome:prod && pnpm run firefox:prod && node compile/clean.js",
+    "build": "pnpm run lint && pnpm run chrome:prod && pnpm run firefox:prod && node compile/clean.js",
     "chrome:dev": "cross-env TARGET=chrome pnpm run webpack:dev",
     "chrome:prod": "cross-env NODE_ENV=production TARGET=chrome pnpm run webpack",
     "firefox:dev": "cross-env TARGET=firefox pnpm run webpack:dev",

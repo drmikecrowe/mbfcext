@@ -9,7 +9,6 @@ if (devMode) {
   localStorage.debug = "mbfc:*";
 }
 
-// eslint-disable-next-line import/first
 import { debug } from "debug";
 
 export const isDevMode = (): boolean => {

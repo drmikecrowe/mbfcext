@@ -181,11 +181,11 @@ module.exports = {
     "react/jsx-equals-spacing": "error",
     "react/jsx-first-prop-new-line": "error",
     "react/jsx-fragments": "error",
-    "react/jsx-max-props-per-line": "error",
+    "react/jsx-max-props-per-line": "off",
     "react/jsx-no-useless-fragment": "error",
-    "react/jsx-one-expression-per-line": "error",
+    "react/jsx-one-expression-per-line": "off",
     "react/jsx-props-no-multi-spaces": "error",
-    "react/jsx-sort-props": "error",
+    "react/jsx-sort-props": "off",
     "react/jsx-tag-spacing": "error",
     "react/no-unknown-property": "off",
     "react/jsx-wrap-multilines": [
@@ -202,6 +202,7 @@ module.exports = {
     ],
 
     // malevic
+    "react/jsx-key": "off",
     "react/prop-types": "off",
     "react/jsx-indent-props": [2, 2],
     "react/jsx-indent": [2, 2],
