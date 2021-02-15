@@ -18836,7 +18836,7 @@
     "d": "mediaite.com",
     "f": "mediaite",
     "n": "Mediaite",
-    "r": "H",
+    "r": "MF",
     "t": "mediaite",
     "u": "https://mediabiasfactcheck.com/mediaite/",
     "P": 84,
@@ -25351,16 +25351,6 @@
     "c": "H",
     "a": "M"
   },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N"
-  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -27863,6 +27853,15 @@
     "c": "H",
     "a": "L"
   },
+  "sedenvernews.com": {
+    "b": "FN",
+    "d": "sedenvernews.com",
+    "n": "SE Denver News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-denver-news/",
+    "c": "NA",
+    "a": "N"
+  },
   "seeker.com": {
     "b": "PS",
     "d": "seeker.com",
@@ -28927,7 +28926,7 @@
     "b": "L",
     "d": "splcenter.org",
     "f": "SPLCenter",
-    "n": "Southern Poverty Law Center",
+    "n": "Southern Poverty Law Center (SPLC)",
     "r": "H",
     "t": "splcenter",
     "u": "https://mediabiasfactcheck.com/southern-poverty-law-center/",
