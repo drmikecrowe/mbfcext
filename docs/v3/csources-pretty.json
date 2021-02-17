@@ -21839,7 +21839,7 @@
     "n": "NHK World-Japan",
     "p": "/nhkworld",
     "r": "H",
-    "t": "nhk",
+    "t": "NHKWORLD_News",
     "u": "https://mediabiasfactcheck.com/nhk-world/",
     "P": 49,
     "c": "H",
@@ -22697,7 +22697,7 @@
     "a": "M"
   },
   "ocregister.com": {
-    "b": "C",
+    "b": "RC",
     "d": "ocregister.com",
     "f": "ocregister",
     "n": "Orange County Register",
@@ -30598,6 +30598,15 @@
     "u": "https://mediabiasfactcheck.com/the-beltway-report/",
     "P": 20,
     "c": "L",
+    "a": "N"
+  },
+  "thebl.com": {
+    "b": "FN",
+    "d": "thebl.com",
+    "n": "The BL",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-bl/",
+    "c": "NA",
     "a": "N"
   },
   "theblacksphere.net": {
