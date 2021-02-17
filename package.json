@@ -132,7 +132,7 @@
   "scripts": {
     "prebuild": "pnpm run update-versions",
     "build": "pnpm run lint && pnpm run chrome:prod && pnpm run firefox:prod && node compile/clean.js",
-    "postbuild": "git push && git push --tags && wget https://github.com/drmikecrowe/mbfcext/archive/$VERSION.zip -P build/$VERSION.zip",
+    "postbuild": "git push && git push --tags && sleep 5 && wget https://github.com/drmikecrowe/mbfcext/archive/v$(jq -r .version package.json).zip -P build/",
     "chrome:dev": "cross-env TARGET=chrome pnpm run webpack:dev",
     "chrome:prod": "cross-env NODE_ENV=production TARGET=chrome pnpm run webpack",
     "firefox:dev": "cross-env TARGET=firefox pnpm run webpack:dev",
