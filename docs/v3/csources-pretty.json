@@ -717,6 +717,15 @@
     "c": "L",
     "a": "N"
   },
+  "additudemag.com": {
+    "b": "PS",
+    "d": "additudemag.com",
+    "n": "ADDitude Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/additude-magazine/",
+    "c": "H",
+    "a": "M"
+  },
   "adelaidenow.com.au": {
     "b": "R",
     "d": "adelaidenow.com.au",
@@ -2745,7 +2754,7 @@
     "b": "FN",
     "d": "auburntimes.com",
     "n": "Auburn Times",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/auburn-times/",
     "P": 7,
     "c": "L",
@@ -6620,6 +6629,15 @@
     "P": 32,
     "c": "L",
     "a": "N"
+  },
+  "conservativebeaver.com": {
+    "b": "FN",
+    "d": "conservativebeaver.com",
+    "n": "Conservative Beaver",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/conservative-beaver/",
+    "c": "L",
+    "a": "M"
   },
   "conservativebyte.com": {
     "b": "FN",
@@ -11053,11 +11071,11 @@
     "b": "R",
     "d": "fakehatecrimes.org",
     "n": "Fake Hate Crimes",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/fake-hate-crimes/",
     "P": 44,
     "c": "M",
-    "a": "N"
+    "a": "L"
   },
   "fakenewscodex.com": {
     "b": "C",
@@ -11081,15 +11099,15 @@
     "a": "N"
   },
   "familysurvivalheadlines.com": {
-    "b": "CP",
+    "b": "FN",
     "d": "familysurvivalheadlines.com",
     "f": "TheUndergroundWorldNews",
     "n": "Family Survival Headlines",
-    "r": "L",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/family-survival-headlines/",
     "P": 25,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "farleftwatch.com": {
     "b": "R",
@@ -28746,6 +28764,15 @@
     "c": "L",
     "a": "M"
   },
+  "southjeffconews.com": {
+    "b": "FN",
+    "d": "southjeffconews.com",
+    "n": "South Jefferson County News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-jefferson-county-news/",
+    "c": "L",
+    "a": "L"
+  },
   "southjerseymechanic.com": {
     "b": "FN",
     "d": "southjerseymechanic.com",
@@ -28966,6 +28993,15 @@
     "P": 60,
     "c": "NA",
     "a": "N"
+  },
+  "springstimes.com": {
+    "b": "FN",
+    "d": "springstimes.com",
+    "n": "Spring Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/spring-times/",
+    "c": "L",
+    "a": "L"
   },
   "sputniknews.com": {
     "b": "FN",
@@ -29342,8 +29378,8 @@
     "n": "Stopping Socialism",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/stopping-socialism/",
-    "c": "NA",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "stormcloudsgathering.com": {
     "b": "CP",
@@ -30606,8 +30642,8 @@
     "n": "The BL",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/the-bl/",
-    "c": "NA",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "theblacksphere.net": {
     "b": "FN",
