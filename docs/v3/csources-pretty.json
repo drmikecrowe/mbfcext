@@ -1213,6 +1213,15 @@
     "c": "L",
     "a": "M"
   },
+  "albertapressleader.ca": {
+    "b": "R",
+    "d": "albertapressleader.ca",
+    "n": "Alberta Press Leader",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/alberta-press-leader/",
+    "c": "M",
+    "a": "L"
+  },
   "albertaviews.ca": {
     "b": "LC",
     "d": "albertaviews.ca",
@@ -3313,6 +3322,15 @@
     "c": "L",
     "a": "N"
   },
+  "benzinga.com": {
+    "b": "C",
+    "d": "benzinga.com",
+    "n": "Benzinga",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/benzinga/",
+    "c": "H",
+    "a": "H"
+  },
   "berkeleyside.com": {
     "b": "LC",
     "d": "berkeleyside.com",
@@ -4263,6 +4281,15 @@
     "P": 55,
     "c": "H",
     "a": "M"
+  },
+  "bridgeporttimes.com": {
+    "b": "FN",
+    "d": "bridgeporttimes.com",
+    "n": "Bridgeport Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/bridgeport-times/",
+    "c": "L",
+    "a": "L"
   },
   "brightside.me": {
     "b": "CP",
@@ -6977,6 +7004,15 @@
     "P": 55,
     "c": "M",
     "a": "N"
+  },
+  "constitutionstatenews.com": {
+    "b": "FN",
+    "d": "constitutionstatenews.com",
+    "n": "Constitution State News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/constitution-state-news/",
+    "c": "L",
+    "a": "L"
   },
   "consumerist.com": {
     "b": "C",
@@ -11698,13 +11734,13 @@
     "a": "H"
   },
   "foreignpolicyi.org": {
-    "b": "RC",
+    "b": "FN",
     "d": "foreignpolicyi.org",
     "n": "Foreign Policy Initiative",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/foreign-policy-initiative/",
     "P": 60,
-    "c": "H",
+    "c": "L",
     "a": "L"
   },
   "foreignpolicyjournal.com": {
@@ -29748,6 +29784,15 @@
     "P": 5,
     "c": "L",
     "a": "N"
+  },
+  "swcoloradonews.com": {
+    "b": "FN",
+    "d": "swcoloradonews.com",
+    "n": "SW Colorado News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-colorado-news/",
+    "c": "L",
+    "a": "L"
   },
   "swedishwire.com": {
     "b": "C",
