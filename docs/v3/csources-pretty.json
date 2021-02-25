@@ -1656,6 +1656,15 @@
     "c": "L",
     "a": "N"
   },
+  "americanexperiment.org": {
+    "b": "R",
+    "d": "americanexperiment.org",
+    "n": "Center of the American Experiment",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/center-of-the-american-experiment/",
+    "c": "M",
+    "a": "L"
+  },
   "americanfirearms.org": {
     "b": "RC",
     "d": "americanfirearms.org",
@@ -7406,6 +7415,15 @@
     "P": 81,
     "c": "NA",
     "a": "H"
+  },
+  "crainsdetroit.com": {
+    "b": "C",
+    "d": "crainsdetroit.com",
+    "n": "Crains Detroit",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/crains-detroit/",
+    "c": "H",
+    "a": "M"
   },
   "creambmp.com": {
     "b": "S",
@@ -15678,7 +15696,7 @@
     "u": "https://mediabiasfactcheck.com/the-interpreter-magazine/",
     "P": 55,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "inthesetimes.com": {
     "b": "L",
@@ -20543,6 +20561,15 @@
     "c": "H",
     "a": "M"
   },
+  "naugatucktimes.com": {
+    "b": "FN",
+    "d": "naugatucktimes.com",
+    "n": "Naugutuck Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/naugatuck-times/",
+    "c": "L",
+    "a": "L"
+  },
   "nautil.us": {
     "b": "PS",
     "d": "nautil.us",
@@ -20683,15 +20710,15 @@
     "a": "L"
   },
   "ncpolicywatch.com": {
-    "b": "LC",
+    "b": "L",
     "d": "ncpolicywatch.com",
     "f": "ncpolicywatch",
     "n": "NC Policy Watch",
-    "r": "H",
+    "r": "MF",
     "t": "ncpolicywatch",
     "u": "https://mediabiasfactcheck.com/nc-policy-watch/",
     "P": 61,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "ncscooper.com": {
@@ -20775,6 +20802,15 @@
     "u": "https://mediabiasfactcheck.com/ne-colorado-news/",
     "c": "NA",
     "a": "N"
+  },
+  "neconnnews.com": {
+    "b": "FN",
+    "d": "neconnnews.com",
+    "n": "NE Connecticut News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-connecticut-news/",
+    "c": "L",
+    "a": "L"
   },
   "needtoknow.news": {
     "b": "CP",
@@ -21073,7 +21109,7 @@
     "u": "https://mediabiasfactcheck.com/new-revolution-now/",
     "P": 22,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "newromantimes.com": {
     "b": "S",
@@ -21562,12 +21598,12 @@
     "d": "newsinsideout.com",
     "f": "TrueTubeNews",
     "n": "News Inside Out",
-    "r": "M",
+    "r": "L",
     "t": "newsinsideout",
     "u": "https://mediabiasfactcheck.com/newsinsideout-com/",
     "P": 42,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "newsline.com": {
     "b": "RC",
