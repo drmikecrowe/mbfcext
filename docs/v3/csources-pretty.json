@@ -30,7 +30,7 @@
     "u": "https://mediabiasfactcheck.com/10news-one/",
     "P": 27,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "10tv.com": {
     "b": "C",
@@ -59,7 +59,7 @@
     "u": "https://mediabiasfactcheck.com/12minutos-com/",
     "P": 32,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "12news.com": {
     "b": "C",
@@ -120,7 +120,7 @@
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/247-news-media/",
     "P": 12,
-    "c": "L",
+    "c": "NA",
     "a": "N"
   },
   "247wallst.com": {
@@ -160,7 +160,7 @@
     "t": "2ndvote",
     "u": "https://mediabiasfactcheck.com/2ndvote/",
     "P": 39,
-    "c": "L",
+    "c": "M",
     "a": "L"
   },
   "369news.net": {
@@ -1569,6 +1569,15 @@
     "P": 77,
     "c": "H",
     "a": "M"
+  },
+  "americamaxnews.com": {
+    "b": "FN",
+    "d": "americamaxnews.com",
+    "n": "America Max News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/america-max-news/",
+    "c": "L",
+    "a": "L"
   },
   "americanactionforum.org": {
     "b": "RC",
