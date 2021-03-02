@@ -172,7 +172,7 @@
     "u": "https://mediabiasfactcheck.com/369news/",
     "P": 34,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "38north.org": {
     "b": "C",
@@ -216,16 +216,6 @@
     "P": 72,
     "c": "H",
     "a": "M"
-  },
-  "70news.wordpress.com": {
-    "b": "FN",
-    "d": "70news.wordpress.com",
-    "n": "70 news",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/70-news/",
-    "P": 39,
-    "c": "L",
-    "a": "N"
   },
   "71republic.com": {
     "b": "RC",
@@ -442,7 +432,7 @@
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/abcnews-us-com/",
     "P": 20,
-    "c": "L",
+    "c": "NA",
     "a": "N"
   },
   "abcnews.go.com": {
@@ -464,8 +454,17 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/abel-danger/",
     "P": 36,
-    "c": "L",
+    "c": "NA",
     "a": "N"
+  },
+  "abort73.com": {
+    "b": "R",
+    "d": "abort73.com",
+    "n": "Abort73",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/abort73/",
+    "c": "M",
+    "a": "L"
   },
   "abovethelaw.com": {
     "b": "LC",
@@ -542,7 +541,7 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/acculturated/",
     "P": 48,
-    "c": "M",
+    "c": "NA",
     "a": "N"
   },
   "aceflashman.wordpress.com": {
@@ -2602,7 +2601,7 @@
     "r": "L",
     "u": "https://mediabiasfactcheck.com/a-sheep-no-more/",
     "P": 39,
-    "c": "L",
+    "c": "NA",
     "a": "N"
   },
   "asia-pacificresearch.com": {
@@ -11896,6 +11895,15 @@
     "P": 53,
     "c": "H",
     "a": "L"
+  },
+  "fourstateshomepage.com": {
+    "b": "C",
+    "d": "fourstateshomepage.com",
+    "n": "FourstatesHomepage.com",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fourstateshomepage-com/",
+    "c": "H",
+    "a": "M"
   },
   "fox29.com": {
     "b": "C",
@@ -21779,8 +21787,8 @@
     "t": "NewsRescue",
     "u": "https://mediabiasfactcheck.com/news-rescue/",
     "P": 55,
-    "c": "H",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "newsservis.com": {
     "b": "FN",
@@ -30457,7 +30465,7 @@
     "t": "teleSURtv",
     "u": "https://mediabiasfactcheck.com/telesur/",
     "P": 88,
-    "c": "M",
+    "c": "L",
     "a": "M"
   },
   "tennessean.com": {
