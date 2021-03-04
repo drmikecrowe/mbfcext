@@ -26463,7 +26463,7 @@
     "u": "https://mediabiasfactcheck.com/reporters-lab/",
     "P": 50,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "represent.us": {
     "b": "C",
@@ -28508,16 +28508,16 @@
     "a": "M"
   },
   "skepticink.com": {
-    "b": "PS",
+    "b": "FN",
     "d": "skepticink.com",
     "f": "None",
     "n": "SkepticInk",
-    "r": "H",
+    "r": "M",
     "t": "skepticink",
     "u": "https://mediabiasfactcheck.com/skeptic-ink/",
     "P": 40,
-    "c": "H",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "skeptics.com.au": {
     "b": "PS",
@@ -29934,6 +29934,15 @@
     "n": "SW Colorado News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/sw-colorado-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "swconnnews.com": {
+    "b": "FN",
+    "d": "swconnnews.com",
+    "n": "SW Connecticut News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-connecticut-news/",
     "c": "L",
     "a": "L"
   },
