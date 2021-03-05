@@ -531,7 +531,7 @@
     "u": "https://mediabiasfactcheck.com/accuracy-in-academia-aia/",
     "P": 53,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "acculturated.com": {
     "b": "R",
@@ -640,6 +640,16 @@
     "P": 59,
     "c": "L",
     "a": "N"
+  },
+  "actionnews3.com": {
+    "b": "FN",
+    "d": "actionnews3.com",
+    "n": "Action News 3",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/action-news-3/",
+    "P": 22,
+    "c": "L",
+    "a": "L"
   },
   "actionnewsjax.com": {
     "b": "C",
@@ -1044,7 +1054,7 @@
     "u": "https://mediabiasfactcheck.com/accuracy-in-media-aim/",
     "P": 75,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "aim4truth.org": {
     "b": "CP",
@@ -17401,7 +17411,7 @@
     "u": "https://mediabiasfactcheck.com/acn-latitudes/",
     "P": 35,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "lavendermagazine.com": {
     "b": "L",
@@ -18176,7 +18186,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/life-site-news/",
     "P": 77,
-    "c": "M",
+    "c": "L",
     "a": "M"
   },
   "lifespa.com": {
@@ -36863,6 +36873,15 @@
     "P": 3,
     "c": "L",
     "a": "N"
+  },
+  "wishtv.com": {
+    "b": "LC",
+    "d": "wishtv.com",
+    "n": "WISH-TV",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wish-tv/",
+    "c": "H",
+    "a": "M"
   },
   "witscience.org": {
     "b": "S",
