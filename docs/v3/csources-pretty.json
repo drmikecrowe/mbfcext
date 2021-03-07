@@ -629,7 +629,7 @@
     "u": "https://mediabiasfactcheck.com/act-tv/",
     "P": 35,
     "c": "M",
-    "a": "N"
+    "a": "L"
   },
   "acting-man.com": {
     "b": "R",
@@ -805,6 +805,15 @@
     "c": "H",
     "a": "M"
   },
+  "adweek.com": {
+    "b": "C",
+    "d": "adweek.com",
+    "n": "Adweek",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/adweek/",
+    "c": "H",
+    "a": "M"
+  },
   "ae911truth.org": {
     "b": "CP",
     "d": "ae911truth.org",
@@ -856,10 +865,10 @@
     "b": "LC",
     "d": "affinitymagazine.us",
     "n": "Affinity Magazine",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/affinity-magazine/",
     "P": 49,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "afj.org": {
@@ -2898,7 +2907,7 @@
     "b": "CP",
     "d": "awdnews.com",
     "f": "Awdnews",
-    "n": "ADW News",
+    "n": "Awd News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/adw-news/",
     "P": 47,
@@ -11565,6 +11574,15 @@
     "c": "H",
     "a": "H"
   },
+  "firststatetimes.com": {
+    "b": "FN",
+    "d": "firststatetimes.com",
+    "n": "First State Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/first-state-times/",
+    "c": "L",
+    "a": "L"
+  },
   "firstthings.com": {
     "b": "R",
     "d": "firstthings.com",
@@ -16819,6 +16837,15 @@
     "c": "H",
     "a": "M"
   },
+  "kentcountytoday.com": {
+    "b": "FN",
+    "d": "kentcountytoday.com",
+    "n": "Kent County Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kent-county-today/",
+    "c": "L",
+    "a": "L"
+  },
   "kentucky.com": {
     "b": "LC",
     "d": "kentucky.com",
@@ -19109,6 +19136,15 @@
     "P": 97,
     "c": "H",
     "a": "H"
+  },
+  "medpagetoday.com": {
+    "b": "PS",
+    "d": "medpagetoday.com",
+    "n": "Medpage Today",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/medpage-today/",
+    "c": "H",
+    "a": "M"
   },
   "medscape.com": {
     "b": "PS",
