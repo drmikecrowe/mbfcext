@@ -515,11 +515,11 @@
     "d": "ac2news.com",
     "f": "AgainstCronyCapitalism",
     "n": "Against Crony Capitalism",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/against-crony-capitialism/",
     "P": 30,
-    "c": "H",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "academia.org": {
     "b": "R",
@@ -954,6 +954,15 @@
     "c": "H",
     "a": "M"
   },
+  "aftonbladet.se": {
+    "b": "L",
+    "d": "aftonbladet.se",
+    "n": "Aftonbladet",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/aftonbladet/",
+    "c": "M",
+    "a": "H"
+  },
   "agdaily.com": {
     "b": "C",
     "d": "agdaily.com",
@@ -974,7 +983,7 @@
     "u": "https://mediabiasfactcheck.com/age-of-autism/",
     "P": 67,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "ageofshitlords.com": {
     "b": "FN",
@@ -10349,16 +10358,16 @@
     "a": "M"
   },
   "en.bbarta24.net": {
-    "b": "C",
+    "b": "FN",
     "d": "en.bbarta24.net",
     "f": "bbarta24.net",
     "n": "Bbarta24",
-    "r": "H",
+    "r": "M",
     "t": "Bbarta24Info",
     "u": "https://mediabiasfactcheck.com/bbarta24/",
     "P": 21,
-    "c": "H",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "en.hawarnews.org": {
     "b": "FN",
@@ -16803,6 +16812,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kcra-3/",
     "P": 61,
+    "c": "H",
+    "a": "M"
+  },
+  "kctv5.com": {
+    "b": "C",
+    "d": "kctv5.com",
+    "n": "KCTV5",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kctv5/",
     "c": "H",
     "a": "M"
   },
@@ -29163,7 +29181,7 @@
     "b": "LC",
     "d": "spiegel.de",
     "f": "spiegelonline",
-    "n": "Spiegel Online",
+    "n": "Spiegel Online (Der Spiegel)",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/spiegel-online/",
     "P": 96,
