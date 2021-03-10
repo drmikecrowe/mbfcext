@@ -1104,6 +1104,15 @@
     "c": "H",
     "a": "L"
   },
+  "airforcetimes.com": {
+    "b": "C",
+    "d": "airforcetimes.com",
+    "n": "Air Force Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/air-force-times/",
+    "c": "H",
+    "a": "M"
+  },
   "airspacemag.com": {
     "b": "PS",
     "d": "airspacemag.com",
@@ -1167,7 +1176,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/akkadian-times/",
     "P": 14,
-    "c": "H",
+    "c": "NA",
     "a": "N"
   },
   "al-monitor.com": {
@@ -1247,6 +1256,15 @@
     "P": 32,
     "c": "H",
     "a": "N"
+  },
+  "aldianews.com": {
+    "b": "L",
+    "d": "aldianews.com",
+    "n": "Al DIA",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/al-dia/",
+    "c": "M",
+    "a": "M"
   },
   "alec.org": {
     "b": "R",
@@ -14658,8 +14676,8 @@
     "t": "HumanEvents",
     "u": "https://mediabiasfactcheck.com/human-events/",
     "P": 77,
-    "c": "L",
-    "a": "L"
+    "c": "M",
+    "a": "M"
   },
   "humanium.org": {
     "b": "LC",
@@ -29044,6 +29062,15 @@
     "c": "L",
     "a": "N"
   },
+  "southnewcastlenews.com": {
+    "b": "FN",
+    "d": "southnewcastlenews.com",
+    "n": "South News Castle News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-new-castle-news/",
+    "c": "L",
+    "a": "L"
+  },
   "southoctimes.com": {
     "b": "FN",
     "d": "southoctimes.com",
@@ -29931,6 +29958,15 @@
     "r": "L",
     "u": "https://mediabiasfactcheck.com/survivalblog-com/",
     "P": 71,
+    "c": "L",
+    "a": "L"
+  },
+  "sussexreview.com": {
+    "b": "FN",
+    "d": "sussexreview.com",
+    "n": "Sussex Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sussex-review/",
     "c": "L",
     "a": "L"
   },
@@ -33509,6 +33545,15 @@
     "c": "H",
     "a": "M"
   },
+  "thewhim.com": {
+    "b": "C",
+    "d": "thewhim.com",
+    "n": "The Whim",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-whim/",
+    "c": "H",
+    "a": "L"
+  },
   "thewire.in": {
     "b": "LC",
     "d": "thewire.in",
@@ -36398,6 +36443,15 @@
     "c": "L",
     "a": "N"
   },
+  "welovetrump.com": {
+    "b": "FN",
+    "d": "welovetrump.com",
+    "n": "We Love Trump",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/we-love-trump/",
+    "c": "L",
+    "a": "M"
+  },
   "welt.de": {
     "b": "RC",
     "d": "welt.de",
@@ -36618,7 +36672,7 @@
     "a": "M"
   },
   "wgntv.com": {
-    "b": "LC",
+    "b": "C",
     "d": "wgntv.com",
     "f": "wgnnews",
     "n": "WGN News",
