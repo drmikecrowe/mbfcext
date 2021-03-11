@@ -632,14 +632,14 @@
     "a": "L"
   },
   "acting-man.com": {
-    "b": "R",
+    "b": "FN",
     "d": "acting-man.com",
     "n": "Acting Man",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/acting-man/",
     "P": 59,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "actionnews3.com": {
     "b": "FN",
@@ -2193,7 +2193,7 @@
     "u": "https://mediabiasfactcheck.com/alternative-media-television-amtv/",
     "P": 45,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "analyzingamerica.org": {
     "b": "FN",
@@ -21710,6 +21710,15 @@
     "c": "L",
     "a": "L"
   },
+  "newshourfirst.com": {
+    "b": "FN",
+    "d": "newshourfirst.com",
+    "n": "News Hour First",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/news-hour-first/",
+    "c": "L",
+    "a": "L"
+  },
   "newsinsideout.com": {
     "b": "CP",
     "d": "newsinsideout.com",
@@ -26097,8 +26106,8 @@
     "n": "Real Raw News",
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/real-raw-news/",
-    "c": "NA",
-    "a": "N"
+    "c": "L",
+    "a": "M"
   },
   "realtimepolitics.com": {
     "b": "FN",
@@ -35958,11 +35967,11 @@
     "d": "votevets.org",
     "f": "votevets",
     "n": "Vote Vets",
-    "r": "H",
+    "r": "M",
     "t": "votevets",
     "u": "https://mediabiasfactcheck.com/votevets-org/",
     "P": 62,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "vox.com": {
