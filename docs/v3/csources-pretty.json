@@ -4311,6 +4311,15 @@
     "c": "H",
     "a": "M"
   },
+  "brevardsun.com": {
+    "b": "FN",
+    "d": "brevardsun.com",
+    "n": "Brevard Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/brevard-sun/",
+    "c": "L",
+    "a": "L"
+  },
   "brexitcentral.com": {
     "b": "R",
     "d": "brexitcentral.com",
@@ -5261,6 +5270,15 @@
     "t": "securefreedom",
     "u": "https://mediabiasfactcheck.com/center-for-security-policy/",
     "P": 70,
+    "c": "L",
+    "a": "L"
+  },
+  "centralbrowardnews.com": {
+    "b": "FN",
+    "d": "centralbrowardnews.com",
+    "n": "Central Broward News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-broward-news/",
     "c": "L",
     "a": "L"
   },
@@ -7171,6 +7189,15 @@
     "P": 71,
     "c": "L",
     "a": "M"
+  },
+  "corona-transition.org": {
+    "b": "FN",
+    "d": "corona-transition.org",
+    "n": "Corona Transition",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/corona-transition/",
+    "c": "L",
+    "a": "L"
   },
   "coronavirus.gov": {
     "b": "C",
@@ -30982,7 +31009,7 @@
     "a": "L"
   },
   "theblaze.com": {
-    "b": "R",
+    "b": "FN",
     "d": "theblaze.com",
     "f": "theblaze",
     "n": "The Blaze",
@@ -30990,7 +31017,7 @@
     "t": "theblaze",
     "u": "https://mediabiasfactcheck.com/the-blaze/",
     "P": 88,
-    "c": "M",
+    "c": "L",
     "a": "H"
   },
   "thebostontribune.com": {
@@ -31553,14 +31580,14 @@
     "a": "N"
   },
   "thefederalist.com": {
-    "b": "R",
+    "b": "FN",
     "d": "thefederalist.com",
     "f": "fdrlst",
     "n": "The Federalist",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/the-federalist/",
     "P": 75,
-    "c": "M",
+    "c": "L",
     "a": "H"
   },
   "thefederalistpapers.org": {
