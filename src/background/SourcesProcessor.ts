@@ -51,16 +51,16 @@ export class SourcesProcessor {
     let fb: string | undefined = this.sources.sources[d].f;
     if (fb && fb > "") {
       if (fb.indexOf("?") > -1) fb = fb.split("?").pop();
-      const { path } = getDomain(`https://facebook.com/${fb}`);
+      const { path } = getDomain(`https://facebook.com/${fb.toLowerCase()}`);
       this.sources.fb_pages[path] = d;
     }
     let tw = this.sources.sources[d].t;
     if (tw && tw > "") {
       const matches = /(https?:\/\/twitter.com\/[^/]*)/.exec(tw);
       if (matches && matches[1]) {
-        tw = matches[1].toLowerCase();
+        tw = matches[1];
       }
-      const { path } = getDomain(`https://twitter.com/${tw}`);
+      const { path } = getDomain(`https://twitter.com/${tw.toLowerCase()}`);
       this.sources.tw_pages[path] = d;
     }
   }
