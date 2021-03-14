@@ -16,7 +16,8 @@ const QS_DATA_NODE_SEARCH = `div[aria-label*="Timeline:"]`;
 const QS_ARTICLES = `article`;
 const QS_DOMAIN_SEARCH = '[data-testid="tweet"]';
 const QS_TITLE_SEARCH = `a[role='link'] > div > div > div > span span`;
-const QS_TWITTER_HANDLE = `${QS_ARTICLES} a[role="link"][href^="/"]`;
+const QS_HANDLE_SEARCH = `a[role="link"][href^="/"]`;
+const QS_TWITTER_HANDLE = `${QS_ARTICLES} ${QS_HANDLE_SEARCH}`;
 // const QS_RETWEET = `${QS_ARTICLES} a[target='_blank'] svg`;
 
 export class Twitter extends Filter {
@@ -103,14 +104,19 @@ export class Twitter extends Filter {
     if (!el_list || el_list.block?.querySelector(QS_PROCESSED_SEARCH)) {
       return err(null);
     }
-    const span_nodes = top_node.querySelectorAll(QS_TITLE_SEARCH);
-    if (!span_nodes || span_nodes.length !== 4) {
+    const span_nodes = top_node.querySelectorAll(QS_HANDLE_SEARCH);
+    if (!span_nodes || span_nodes.length !== 6) {
       return err(null);
     }
-    const se = span_nodes[3];
+    const se = span_nodes[1];
     let text;
     if (se && se.textContent) {
-      text = se.textContent.toLowerCase().split(" ").pop();
+      try {
+        const at: any = se.attributes;
+        text = `https://twitter.com${at.href.value}`;
+      } catch (e) {
+        text = se.textContent.toLowerCase().split(" ").pop();
+      }
       this.findDomain(el_list, se, text);
     }
     return ok(el_list);
@@ -147,7 +153,7 @@ export class Twitter extends Filter {
       results.push(story);
     };
 
-    domain_nodes.forEach((dn) => {
+    object_nodes.forEach((dn) => {
       const pobj_nodes = object_nodes.filter(
         (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
       );
@@ -156,43 +162,10 @@ export class Twitter extends Filter {
         // eslint-disable-next-line no-param-reassign
         on.used = true;
       });
-      // const ready = !!dn.domain && !!dn.domain.site;
-      // const have_fburl = !!dn.sm_path;
-
-      // const pobj_nodes = object_nodes.filter(
-      //     (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
-      // );
-      // // Here we are flagging object_nodes that we are aware of that shouldn't be processed again
-      // pobj_nodes.forEach((on) => {
-      //     on.used = true;
-      // });
-      // const on = pobj_nodes.shift();
-      // if (on && (!ready || !have_fburl)) {
-      //     const res = this.getDomainFromFb(on);
-      //     let ndomain: CheckDomainResults | undefined;
-      //     if (res.isOk()) {
-      //         ndomain = res.value;
-      //         log(`Found ${ndomain.final_domain} from ${on.sm_path}`);
-      //     }
-      //     if (ndomain) {
-      //         if (!ready) dn.domain = ndomain;
-      //         if (
-      //             dn.domain &&
-      //             dn.domain.site &&
-      //             !have_fburl &&
-      //             on.sm_path
-      //         ) {
-      //             new AssociateSiteMessage(
-      //                 dn.domain.site,
-      //                 on.sm_path
-      //             ).sendMessage();
-      //         }
-      //     }
-      // }
       addBlock(dn);
     });
 
-    object_nodes
+    domain_nodes
       .filter((on) => !on.used)
       .forEach((on) => {
         addBlock(on);
