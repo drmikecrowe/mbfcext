@@ -60,7 +60,7 @@ export class Twitter extends Filter {
     const lst = Object.values(el_lists);
     while (found) {
       const node = lst[0].items[offset];
-      for (let i = 1; i < 4; i++) {
+      for (let i = 3; i >= 0; i--) {
         found = found && node === lst[i].items[offset];
       }
       if (!found) break;
@@ -153,7 +153,7 @@ export class Twitter extends Filter {
       results.push(story);
     };
 
-    object_nodes.forEach((dn) => {
+    domain_nodes.forEach((dn) => {
       const pobj_nodes = object_nodes.filter(
         (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
       );
@@ -165,7 +165,7 @@ export class Twitter extends Filter {
       addBlock(dn);
     });
 
-    domain_nodes
+    object_nodes
       .filter((on) => !on.used)
       .forEach((on) => {
         addBlock(on);

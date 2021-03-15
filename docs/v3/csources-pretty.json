@@ -21403,7 +21403,7 @@
     "b": "C",
     "d": "news.sky.com",
     "f": "skynews",
-    "n": "Sky News",
+    "n": "Sky News UK",
     "r": "H",
     "t": "skynews",
     "u": "https://mediabiasfactcheck.com/sky-news/",
@@ -22107,6 +22107,7 @@
     "d": "nhk.or.jp",
     "n": "NHK-Nippon Hoso Kyokai",
     "r": "H",
+    "t": "nhk",
     "u": "https://mediabiasfactcheck.com/nhk-nippon-hoso-kyokai/",
     "P": 69,
     "c": "H",
@@ -22556,7 +22557,7 @@
     "a": "M"
   },
   "nowthisnews.com": {
-    "b": "L",
+    "b": "FN",
     "d": "nowthisnews.com",
     "f": "NowThisNews",
     "n": "NowThisNews",
@@ -22564,7 +22565,7 @@
     "t": "nowthisnews",
     "u": "https://mediabiasfactcheck.com/nowthis-news/",
     "P": 68,
-    "c": "M",
+    "c": "L",
     "a": "M"
   },
   "nowtoronto.com": {
