@@ -60,6 +60,7 @@ export interface ElementList {
   title_span?: Element;
   used: boolean;
   internal_url?: string;
+  is_twitter_handle: boolean;
 }
 
 isDevMode();
@@ -416,8 +417,9 @@ export class Filter {
         )}">Research ${external_link}</a> `
       );
     }
+    const mbfc_url = site.u.startsWith("https") ? site.u : `${C_URL}${site.u}`;
     details.push(
-      `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${C_URL}${site.u}">
+      `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${mbfc_url}">
                 MBFC's ${external_link}
             </a>`
     );
@@ -503,6 +505,7 @@ export class Filter {
     const results: ElementList = {
       items: [e],
       used: false,
+      is_twitter_handle: false,
     };
     let t = e.parentElement;
     while (t && t !== top_node) {
@@ -552,6 +555,7 @@ export class Filter {
       }
       return ok(results);
     } catch (err1) {
+      console.log(err1);
       // ignore
       if (isDevMode()) debugger;
     }

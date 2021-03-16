@@ -17,7 +17,6 @@ const QS_ARTICLES = `article`;
 const QS_DOMAIN_SEARCH = '[data-testid="tweet"]';
 const QS_TITLE_SEARCH = `a[role='link'] > div > div > div > span span`;
 const QS_HANDLE_SEARCH = `a[role="link"][href^="/"]`;
-const QS_TWITTER_HANDLE = `${QS_ARTICLES} ${QS_HANDLE_SEARCH}`;
 // const QS_RETWEET = `${QS_ARTICLES} a[target='_blank'] svg`;
 
 export class Twitter extends Filter {
@@ -38,9 +37,14 @@ export class Twitter extends Filter {
   }
 
   getTwitterResults(top_node: Element): ElementList | null {
-    const span_nodes = top_node.querySelectorAll(QS_TITLE_SEARCH);
+    let finding_domain = true;
+    let span_nodes = top_node.querySelectorAll(QS_TITLE_SEARCH);
     if (!span_nodes || span_nodes.length !== 4) {
-      return null;
+      span_nodes = top_node.querySelectorAll(QS_HANDLE_SEARCH);
+      if (!span_nodes || span_nodes.length < 3) {
+        return null;
+      }
+      finding_domain = false;
     }
     /**  Need 4 spans
      *      1. header
@@ -49,26 +53,30 @@ export class Twitter extends Filter {
      *      4. Domain
      */
 
-    const el_lists = {
-      header: this.getResults(span_nodes[0], top_node),
-      title_span: this.getResults(span_nodes[1], top_node),
-      title: this.getResults(span_nodes[2], top_node),
-      domain_span: this.getResults(span_nodes[3], top_node),
-    };
-    let offset = 0;
-    let found = true;
-    const lst = Object.values(el_lists);
-    while (found) {
-      const node = lst[0].items[offset];
-      for (let i = 3; i >= 0; i--) {
-        found = found && node === lst[i].items[offset];
+    const check = span_nodes.length > 3 ? 3 : span_nodes.length;
+    const lst: ElementList[] = Array.from(span_nodes).map((span_node) =>
+      this.getResults(span_node, top_node)
+    );
+    const founds: Record<number, number> = {};
+    for (let i = 1; i < lst.length; i++) {
+      const bs = lst[i].items.map((item, j) => item === lst[0].items[j]);
+      founds[i] = 0;
+      while (bs.length) {
+        const b = bs.shift();
+        if (b) founds[i]++;
+        else break;
       }
-      if (!found) break;
-      offset++;
     }
 
-    const el_list = el_lists.domain_span;
-    el_list.block = el_list.items[offset];
+    if (finding_domain) {
+      const el_list = lst[check];
+      if (!el_list) return null;
+      el_list.block = el_list.items[founds[check]];
+      this.addClasses(el_list.block, [C_FOUND, `${MBFC}-top`]);
+      return el_list;
+    }
+    const el_list = lst[1];
+    el_list.block = el_list.items[founds[1]];
     this.addClasses(el_list.block, [C_FOUND, `${MBFC}-top`]);
     return el_list;
   }
@@ -105,7 +113,7 @@ export class Twitter extends Filter {
       return err(null);
     }
     const span_nodes = top_node.querySelectorAll(QS_HANDLE_SEARCH);
-    if (!span_nodes || span_nodes.length !== 6) {
+    if (!span_nodes || span_nodes.length <= 1) {
       return err(null);
     }
     const se = span_nodes[1];
@@ -114,7 +122,11 @@ export class Twitter extends Filter {
       try {
         const at: any = se.attributes;
         text = `https://twitter.com${at.href.value}`;
+        el_list.is_twitter_handle = true;
       } catch (e) {
+        if (span_nodes.length !== 6) {
+          return err(null);
+        }
         text = se.textContent.toLowerCase().split(" ").pop();
       }
       this.findDomain(el_list, se, text);
@@ -128,33 +140,42 @@ export class Twitter extends Filter {
   ): Story[] {
     const results: Story[] = [];
 
-    const addBlock = (dn: ElementList) => {
-      if (!dn.block) {
+    const addBlock = (el: ElementList) => {
+      if (!el.block) {
         return;
       }
-      this.addClasses(dn.block, [`${MBFC}-domain-block`]);
+      this.addClasses(el.block, [`${MBFC}-domain-block`]);
       const story: Story = {
-        domain: dn.domain,
-        parent: dn.block,
+        domain: el.domain,
+        parent: el.block,
         hides: [],
         count: -1,
         ignored: false,
       };
-      Array.from(dn.block.children).forEach((e) => {
+      Array.from(el.block.children).forEach((e) => {
         if (e.children.length === 0) return;
         if (!story.top) story.top = e;
         else {
-          if (!story.report) story.report = e;
           story.hides.push(e);
         }
       });
-      if (dn.title_span && dn.title_span.textContent)
-        story.tagsearch = dn.title_span.textContent;
+      const children = el.block.children;
+      if (!story.report) {
+        if (!el.is_twitter_handle) {
+          story.report = children[children.length - 1];
+        } else {
+          story.report = children[1];
+        }
+      }
+      if (el.title_span && el.title_span.textContent)
+        story.tagsearch = el.title_span.textContent;
       results.push(story);
     };
 
-    domain_nodes.forEach((dn) => {
-      const pobj_nodes = object_nodes.filter(
+    const order = [domain_nodes, object_nodes];
+
+    order[0].forEach((dn) => {
+      const pobj_nodes = order[1].filter(
         (on) => !on.used && on.block === dn.block // Is this the object_node for this block?
       );
       // Here we are flagging object_nodes that we are aware of that shouldn't be processed again
@@ -165,7 +186,7 @@ export class Twitter extends Filter {
       addBlock(dn);
     });
 
-    object_nodes
+    order[1]
       .filter((on) => !on.used)
       .forEach((on) => {
         addBlock(on);
@@ -182,7 +203,7 @@ export class Twitter extends Filter {
       nodes,
       QS_ARTICLES,
       QS_DOMAIN_SEARCH,
-      QS_TWITTER_HANDLE
+      QS_HANDLE_SEARCH
     );
     if (stories.isErr()) return;
     stories.value.forEach((story) => {

@@ -1,5 +1,10 @@
 # Official Media Bias/Fact Check Extension Release Notes
 
+## Release notes for version 3.2  
+
+- Improving Twitter article detection 
+- Placing MBFC insert below image if we use the Twitter handle, and under the article if we use the article domain
+
 ## Release notes for version 3.1
 
 - Adding support for Credibility and Traffic
