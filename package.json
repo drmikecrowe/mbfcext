@@ -142,7 +142,7 @@
     "opera:dev": "cross-env TARGET=opera pnpm run webpack:dev",
     "opera:prod": "cross-env NODE_ENV=production TARGET=opera pnpm run webpack",
     "preinstall": "node -e \"if (process.env.npm_execpath.indexOf('pnpm') === -1) { console.log('\u001b[31mPlease use pnpm for installing\u001b[0m'); process.exit(1); }\"",
-    "update-versions": "export VERSION=$(jq -r .version package.json) && jq \".version=\\\"$VERSION\\\"\" src/manifest.json | jq \".version_name=\\\"Release $VERSION\\\"\" > manifest.new && mv manifest.new src/manifest.json && git add src/manifest.json && git commit -m\"Release $VERSION\"; exit 0",
+    "update-versions": "export VERSION=$(jq -r .version package.json) && jq \".version=\\\"$VERSION\\\"\" manifest.json | jq \".version_name=\\\"Release $VERSION\\\"\" > manifest.new && mv manifest.new src/manifest.json && git add src/manifest.json && git commit -m\"Release $VERSION\"; exit 0",
     "update-sources": "cp -R ../mbfc-mirror/src/release/v3/* docs/v3/ -R && cp -R ../mbfc-mirror/src/release/v3/latest.json src/assets -R",
     "prewebpack": "rimraf build/${TARGET} && pnpm run update-sources",
     "prewebpack:dev": "pnpm run update-sources",
