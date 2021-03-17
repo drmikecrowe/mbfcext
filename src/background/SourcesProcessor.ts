@@ -1,72 +1,19 @@
-import { COMBINED, ISources, logger, UpdatedSourcesMessage } from "utils";
+import { COMBINED } from "utils/constants";
+import { ICombined, ISources } from "utils/definitions";
+import { logger } from "utils/logger";
+import { UpdatedSourcesMessage } from "utils/messages";
 import { fetch as fetchPolyfill } from "whatwg-fetch";
-import { getDomain } from "utils/getDomain";
-import { ICombined } from "utils/definitions";
-import { keys } from "lodash";
-import { version } from "assets/latest.json";
+import { BaseSourcesProcessor } from "./BaseSourcesProcessor";
 
 const log = logger("mbfc:background:sources");
 
-export class SourcesProcessor {
+export class SourcesProcessor extends BaseSourcesProcessor {
   retrievingPromise: Promise<ISources> | undefined;
-  sources: ISources = {
-    version: 0,
-    date: "",
-    sources: {},
-    aliases: {},
-    reporting: {},
-    biases: {},
-    traffic: {} as any,
-    credibility: {} as any,
-    fb_pages: {},
-    tw_pages: {},
-    loaded: false,
-  };
-  private static instance: SourcesProcessor;
-
-  static getInstance(): SourcesProcessor {
-    if (!SourcesProcessor.instance) {
-      SourcesProcessor.instance = new SourcesProcessor();
-      log("SourcesProcessor initialized");
-    }
-    return SourcesProcessor.instance;
-  }
 
   async getSources(): Promise<ISources> {
     if (this.areSourcesLoaded()) return this.sources;
     if (!this.retrievingPromise) this.retrievingPromise = this.retrieveRemote();
     return this.retrievingPromise;
-  }
-
-  areSourcesLoaded(): boolean {
-    return this.sources.version >= version && this.sources.loaded;
-  }
-
-  setSource(key: string, val: any) {
-    log(`Retrieved ${key} with ${keys(val).length} entries`);
-    Object.assign(this.sources[key], val);
-  }
-
-  updateDomain(d: string) {
-    let fb: string | undefined = this.sources.sources[d].f;
-    if (fb && fb > "") {
-      if (fb.indexOf("?") > -1) fb = fb.split("?").pop();
-      if (fb && fb > "") {
-        const { path } = getDomain(`https://facebook.com/${fb.toLowerCase()}`);
-        this.sources.fb_pages[path] = d;
-      }
-    }
-    let tw = this.sources.sources[d].t;
-    if (tw && tw > "") {
-      const matches = /(https?:\/\/twitter.com\/[^/]*)/.exec(tw);
-      if (matches && matches[1]) {
-        tw = matches[1];
-      }
-      if (tw && tw > "") {
-        const { path } = getDomain(`https://twitter.com/${tw.toLowerCase()}`);
-        this.sources.tw_pages[path] = d;
-      }
-    }
   }
 
   async retrieveRemote(): Promise<ISources> {
@@ -77,15 +24,7 @@ export class SourcesProcessor {
         `Loaded combined data ${combined.version} from ${combined.date}`
       );
       if (!combined) return this.sources;
-      log("Settings retrieved, processing");
-      Object.keys(combined).forEach((key) =>
-        this.setSource(key, combined[key])
-      );
-      log("Extracting facebook and twitter domains");
-      Object.keys(this.sources.sources).forEach((domain) =>
-        this.updateDomain(domain)
-      );
-      this.sources.loaded = true;
+      this.initializeCombined(combined);
       const msg = new UpdatedSourcesMessage(this.sources);
       await msg.sendMessage(true);
     } catch (err) {

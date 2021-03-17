@@ -146,6 +146,7 @@ export interface ICombined {
 }
 
 export interface ISources extends ICombined {
+  subdomains: Record<string, Record<string, ISource>>;
   fb_pages: Record<string, string>;
   tw_pages: Record<string, string>;
   loaded: boolean;

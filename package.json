@@ -31,6 +31,7 @@
     "@types/eslint-plugin-prettier": "^3.1.0",
     "@types/generate-json-webpack-plugin": "^0.3.2",
     "@types/google.analytics": "0.0.41",
+    "@types/jest": "^26.0.20",
     "@types/lodash": "^4",
     "@types/mini-css-extract-plugin": "^1.2.2",
     "@types/minimist": "^1.2.1",
@@ -100,6 +101,7 @@
     "style-loader": "^2.0.0",
     "tailwindcss": "^2.0.2",
     "terser-webpack-plugin": "^5.1.1",
+    "ts-jest": "^26.5.3",
     "ts-json-schema-generator": "^0.84.0",
     "ts-loader": "^8.0.15",
     "tsconfig-paths-webpack-plugin": "^3.3.0",
@@ -130,7 +132,7 @@
   },
   "repository": "EmailThis/extension-boilerplate",
   "scripts": {
-    "prebuild": "pnpm run update-versions && rm build/chrome -rf && rm build/firefox -rf",
+    "prebuild": "pnpm run update-versions && rm build/chrome build/firefox -rf",
     "build": "pnpm run lint && pnpm run chrome:prod && pnpm run firefox:prod && node compile/clean.js",
     "postbuild": "git push && git push --tags && sleep 5 && wget https://github.com/drmikecrowe/mbfcext/archive/v$(jq -r .version package.json).zip -P build/",
     "chrome:dev": "cross-env TARGET=chrome pnpm run webpack:dev",
@@ -149,6 +151,13 @@
     "webpack": "node ./node_modules/webpack/bin/webpack.js --config compile/webpack.prod.js",
     "webpack:dev": "node --trace-deprecation $NODE_DEBUG ./node_modules/webpack/bin/webpack.js --config compile/webpack.dev.js --watch",
     "format": "prettier --loglevel warn --write \"**/*.{ts,js,css,md}\"",
-    "posttest": "pnpm run format"
+    "posttest": "pnpm run format",
+    "test:jest": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test": "npm run test:jest --"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19"
   }
 }

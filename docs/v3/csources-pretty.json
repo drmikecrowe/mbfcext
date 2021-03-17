@@ -9884,6 +9884,15 @@
     "c": "L",
     "a": "N"
   },
+  "eastpanhandlenews.com": {
+    "b": "FN",
+    "d": "eastpanhandlenews.com",
+    "n": "East Panhandle News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-panhandle-news/",
+    "c": "L",
+    "a": "L"
+  },
   "eastsandiegonews.com": {
     "b": "FN",
     "d": "eastsandiegonews.com",
@@ -22694,14 +22703,14 @@
     "a": "H"
   },
   "ntd.tv": {
-    "b": "RC",
+    "b": "FN",
     "d": "ntd.tv",
     "n": "NTD.TV (New Tang Dynasty)",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/ntd-tv-new-tang-dynasty/",
     "P": 58,
     "c": "L",
-    "a": "N"
+    "a": "M"
   },
   "ntknetwork.com": {
     "b": "R",
@@ -33368,6 +33377,24 @@
     "P": 65,
     "c": "H",
     "a": "L"
+  },
+  "thetruedefender.com": {
+    "b": "FN",
+    "d": "thetruedefender.com",
+    "n": "The True Defender",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-true-defender/",
+    "c": "L",
+    "a": "M"
+  },
+  "thetruereporter.com": {
+    "b": "FN",
+    "d": "thetruereporter.com",
+    "n": "The True Reporter",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-true-reporter/",
+    "c": "L",
+    "a": "M"
   },
   "thetrumpet.com": {
     "b": "CP",
