@@ -1,8 +1,10 @@
-import { Result, ok, err } from "neverthrow";
-import { browser, checkDomain, getDomain, CheckDomainResults } from "utils";
-import { Tabs } from "webextension-polyfill-ts";
+import { err, ok, Result } from "neverthrow";
 import { SourcesHandler } from "utils/SourcesHandler";
-import { isDevMode } from "utils/index";
+import { browser, Tabs } from "webextension-polyfill-ts";
+
+import { checkDomain, CheckDomainResults } from "./checkDomain";
+import { getDomain } from "./getDomain";
+import { isDevMode } from "./logger";
 
 export async function getCurrentTab(): Promise<Result<Tabs.Tab, null>> {
   return new Promise((resolve) => {

@@ -1,6 +1,9 @@
 import { err, ok, Result } from "neverthrow";
-import { ISources, logger } from "utils";
-import { messageUtil, UpdatedSourcesMessage } from "./messages";
+
+import { ISources } from "./definitions";
+import { logger } from "./logger";
+import { messageUtil } from "./messages/messageUtil";
+import { UpdatedSourcesMessage } from "./messages/UpdatedSourcesMessage";
 
 const log = logger("mbfc:utils:SourcesHandler");
 

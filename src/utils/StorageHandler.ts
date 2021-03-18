@@ -1,13 +1,12 @@
 /* eslint-disable no-shadow */
-import { set, invert } from "lodash";
+import { set } from "lodash";
+import { browser } from "utils/browser";
+import { OPTIONS_FIRST_RUN } from "utils/constants";
+import { EBiasesKey } from "utils/definitions";
+import { logger } from "utils/logger";
 import OptionsSync, { Options } from "webext-options-sync";
-import { EBiases, EReporting, EBiasesKey } from "utils/definitions";
-import {
-  browser,
-  OPTIONS_FIRST_RUN,
-  UpdatedConfigMessage,
-  logger,
-} from "utils";
+
+import { UpdatedConfigMessage } from "./messages/UpdatedConfigMessage";
 
 const log = logger("mbfc:utils:StorageHandler");
 

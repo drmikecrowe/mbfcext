@@ -1,4 +1,7 @@
-import { ConfigHandler, logger, messageUtil, StorageHandler } from "utils";
+import { ConfigHandler } from "../ConfigHandler";
+import { logger } from "../logger";
+import { StorageHandler } from "../StorageHandler";
+import { messageUtil } from "./messageUtil";
 
 const log = logger("mbfc:messages:ResetIgnoredMessage");
 

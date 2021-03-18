@@ -1,6 +1,8 @@
-import { ConfigHandler, logger } from "utils";
-import { Alarms, browser } from "webextension-polyfill-ts";
 import { StorageHandler } from "utils/StorageHandler";
+import { Alarms, browser } from "webextension-polyfill-ts";
+
+import { ConfigHandler } from "./ConfigHandler";
+import { logger } from "./logger";
 
 const log = logger("mbfc:utils:poller");
 

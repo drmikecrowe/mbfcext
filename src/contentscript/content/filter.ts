@@ -1,28 +1,13 @@
 import debug from "debug";
-import { get, has, isEmpty, set } from "lodash";
+import { get, has, set } from "lodash";
 import { err, ok, Result } from "neverthrow";
-import {
-  AssociateSiteMessage,
-  biasShortToName,
-  CheckDomainResults,
-  getSiteFromUrl,
-  HideSiteMessage,
-  IConfig,
-  isDevMode,
-  ISources,
-  reportingShortToName,
-  ReportUnknownMessage,
-  ResetIgnoredMessage,
-  ShowSiteMessage,
-  StartThanksMessage,
-  UpdatedSourcesMessage,
-} from "utils";
 import { ConfigHandler } from "utils/ConfigHandler";
 import {
-  ISource,
-  EReportingText,
   ECredibility,
+  EReportingText,
   ETraffic,
+  ISource,
+  ISources,
 } from "utils/definitions";
 import {
   faAngleDoubleDown,
@@ -32,6 +17,17 @@ import {
 import { messageUtil } from "utils/messages/messageUtil";
 import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
 import { SourcesHandler } from "utils/SourcesHandler";
+import { CheckDomainResults } from "../../utils/checkDomain";
+import { isDevMode } from "../../utils/logger";
+import { AssociateSiteMessage } from "../../utils/messages/AssociateSiteMessage";
+import { HideSiteMessage } from "../../utils/messages/HideSiteMessage";
+import { ReportUnknownMessage } from "../../utils/messages/ReportUnknownMessage";
+import { ResetIgnoredMessage } from "../../utils/messages/ResetIgnoredMessage";
+import { ShowSiteMessage } from "../../utils/messages/ShowSiteMessage";
+import { StartThanksMessage } from "../../utils/messages/StartThanksMessage";
+import { UpdatedSourcesMessage } from "../../utils/messages/UpdatedSourcesMessage";
+import { biasShortToName, IConfig } from "../../utils/StorageHandler";
+import { getSiteFromUrl } from "../../utils/tabUtils";
 
 export const MBFC = "mbfc";
 export const C_URL = "https://mediabiasfactcheck.com/";

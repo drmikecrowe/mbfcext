@@ -1,5 +1,6 @@
-import { browser, logger } from "utils";
 import { getCurrentTab, getSiteFromUrl } from "utils/tabUtils";
+import { browser } from "webextension-polyfill-ts";
+import { logger } from "../utils/logger";
 
 const log = logger("mbfc:background:TabListener");
 

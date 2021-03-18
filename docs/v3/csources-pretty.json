@@ -2874,7 +2874,7 @@
     "u": "https://mediabiasfactcheck.com/autistic-self-advocacy-network/",
     "P": 64,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "autostraddle.com": {
     "b": "L",
@@ -3031,18 +3031,6 @@
     "P": 68,
     "c": "NA",
     "a": "H"
-  },
-  "backchannel.com": {
-    "b": "LC",
-    "d": "backchannel.com",
-    "f": "backchnnl",
-    "n": "BackChannel",
-    "r": "H",
-    "t": "markrobsf",
-    "u": "https://mediabiasfactcheck.com/backchannel/",
-    "P": 55,
-    "c": "H",
-    "a": "N"
   },
   "backroombuzz.com": {
     "b": "FN",
@@ -4332,10 +4320,10 @@
     "a": "N"
   },
   "bridgemi.com": {
-    "b": "C",
+    "b": "LC",
     "d": "bridgemi.com",
     "f": "BridgeMichigan",
-    "n": "Bridge Magazine",
+    "n": "Bridge Michigan",
     "r": "H",
     "t": "BridgeMichigan",
     "u": "https://mediabiasfactcheck.com/bridge-magazine/",
@@ -6193,7 +6181,7 @@
     "d": "climatecentral.org",
     "f": "climatecentral",
     "n": "Climate Central",
-    "r": "VH",
+    "r": "H",
     "t": "climatecentral",
     "u": "https://mediabiasfactcheck.com/climate-central/",
     "P": 79,
@@ -9942,6 +9930,15 @@
     "P": 4,
     "c": "L",
     "a": "N"
+  },
+  "eastvolusianews.com": {
+    "b": "FN",
+    "d": "eastvolusianews.com",
+    "n": "East Volusia News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-volusia-news/",
+    "c": "L",
+    "a": "L"
   },
   "ebar.com": {
     "b": "L",
@@ -35859,13 +35856,11 @@
     "a": "M"
   },
   "viralcocaine.com": {
-    "b": "FN",
+    "b": "S",
     "d": "viralcocaine.com",
-    "n": "Viral Cocaine",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/viral-cocaine/",
-    "P": 40,
-    "c": "L",
+    "n": "Celebtricity",
+    "u": "https://mediabiasfactcheck.com/celebtricity/",
+    "c": "NA",
     "a": "N"
   },
   "viralcords.com": {
@@ -36267,7 +36262,7 @@
     "d": "washingtonpost.com",
     "f": "washingtonpost",
     "n": "Washington Post",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/washington-post/",
     "P": 98,
     "c": "H",
@@ -37087,6 +37082,19 @@
     "t": "wired",
     "u": "https://mediabiasfactcheck.com/wired-magazine/",
     "P": 97,
+    "c": "H",
+    "a": "H"
+  },
+  "wired.com/category/backchannel": {
+    "b": "LC",
+    "d": "wired.com/category/backchannel",
+    "f": "backchnnl",
+    "n": "BackChannel",
+    "p": "/category/backchannel",
+    "r": "H",
+    "t": "markrobsf",
+    "u": "https://mediabiasfactcheck.com/backchannel/",
+    "P": 55,
     "c": "H",
     "a": "H"
   },

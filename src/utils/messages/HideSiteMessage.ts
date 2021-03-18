@@ -1,12 +1,10 @@
-import {
-  GoogleAnalytics,
-  messageUtil,
-  StorageHandler,
-  UpdatedConfigMessage,
-  logger,
-} from "utils";
-
 import { ConfigHandler } from "utils/ConfigHandler";
+
+import { GoogleAnalytics } from "../google-analytics";
+import { logger } from "../logger";
+import { StorageHandler } from "../StorageHandler";
+import { messageUtil } from "./messageUtil";
+import { UpdatedConfigMessage } from "./UpdatedConfigMessage";
 
 const log = logger("mbfc:messages:HideSiteMessage");
 

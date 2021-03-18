@@ -9,19 +9,6 @@ import { StartThanksMessage } from "./StartThanksMessage";
 import { UpdatedConfigMessage } from "./UpdatedConfigMessage";
 import { UpdatedSourcesMessage } from "./UpdatedSourcesMessage";
 
-export * from "./AssociateSiteMessage";
-export * from "./common";
-export * from "./GetConfigMessage";
-export * from "./HideSiteMessage";
-export * from "./messageUtil";
-export * from "./ReportUnknownMessage";
-export * from "./ResetIgnoredMessage";
-export * from "./ShowOptionsMessage";
-export * from "./ShowSiteMessage";
-export * from "./StartThanksMessage";
-export * from "./UpdatedConfigMessage";
-export * from "./UpdatedSourcesMessage";
-
 export type BrowserMessage =
   | AssociateSiteMessage
   | GetConfigMessage

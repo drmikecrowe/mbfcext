@@ -1,13 +1,10 @@
 import galite from "ga-lite";
-import {
-  ConfigHandler,
-  GA,
-  IConfig,
-  isDevMode,
-  ISource,
-  logger,
-  StorageHandler,
-} from "utils";
+
+import { ConfigHandler } from "./ConfigHandler";
+import { GA } from "./constants";
+import { ISource } from "./definitions";
+import { isDevMode, logger } from "./logger";
+import { IConfig, StorageHandler } from "./StorageHandler";
 
 const log = logger("mbfc:utils:google-analytics");
 

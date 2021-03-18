@@ -1,8 +1,10 @@
 import { get, has } from "lodash";
 import { err, ok, Result } from "neverthrow";
-import { ConfigHandler, ISource, logger, SourcesHandler } from "utils";
-import { EBiasesKey, EReportingKeys } from "utils/definitions";
+import { EBiasesKey, EReportingKeys, ISource } from "utils/definitions";
 import { StorageToOptions } from "utils/StorageHandler";
+import { logger } from "utils/logger";
+import { SourcesHandler } from "./SourcesHandler";
+import { ConfigHandler } from "./ConfigHandler";
 
 const log = logger("mbfc:utils:checkDomain");
 
@@ -36,11 +38,17 @@ export const checkDomain = (
   }
 
   const s = SourcesHandler.getInstance().sources;
-  if (s.isErr()) return err(null);
+  if (s.isErr()) {
+    console.warn("No Sources");
+    return err(null);
+  }
   const sources = s.value;
 
   const c = ConfigHandler.getInstance().config;
-  if (c.isErr()) return err(null);
+  if (c.isErr()) {
+    console.log("No config");
+    return err(null);
+  }
   const config = c.value;
 
   const ch = (d: string, isAlias: boolean, isBase: boolean) => {

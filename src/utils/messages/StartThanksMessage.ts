@@ -1,6 +1,5 @@
-import { GoogleAnalytics, logger } from "utils";
-
-import { messageUtil } from ".";
+import { logger } from "../logger";
+import { messageUtil } from "./messageUtil";
 
 const log = logger("mbfc:messages:StartThanksMessage");
 

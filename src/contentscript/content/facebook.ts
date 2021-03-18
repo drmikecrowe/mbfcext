@@ -1,6 +1,7 @@
 /* eslint-disable no-param-reassign */
 import { err, ok, Result } from "neverthrow";
-import { isDevMode, AssociateSiteMessage, logger } from "utils";
+import { isDevMode, logger } from "../../utils/logger";
+import { AssociateSiteMessage } from "../../utils/messages/AssociateSiteMessage";
 import {
   C_FOUND,
   ElementList,

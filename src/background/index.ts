@@ -1,16 +1,13 @@
-import {
-  GoogleAnalytics,
-  isDevMode,
-  logger,
-  Poller,
-  StorageHandler,
-} from "utils";
 import { SourcesHandler } from "utils/SourcesHandler";
 import { ConfigHandler } from "utils/ConfigHandler";
 import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
 import { MessageProcessor } from "./MessageProcessor";
 import { SourcesProcessor } from "./SourcesProcessor";
 import { TabListener } from "./TabListener";
+import { GoogleAnalytics } from "../utils/google-analytics";
+import { logger, isDevMode } from "../utils/logger";
+import { Poller } from "../utils/poller";
+import { StorageHandler } from "../utils/StorageHandler";
 
 const log = logger("mbfc:background:index");
 

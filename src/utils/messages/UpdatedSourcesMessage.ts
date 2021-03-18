@@ -1,7 +1,8 @@
-import { logger } from "utils";
-
 import { SourcesProcessor } from "background/SourcesProcessor";
-import { ISources, messageUtil } from "..";
+
+import { ISources } from "../definitions";
+import { logger } from "../logger";
+import { messageUtil } from "./messageUtil";
 
 const log = logger("mbfc:messages:UpdatedSourcesMessage");
 

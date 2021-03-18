@@ -1,17 +1,13 @@
-import {
-  biasShortToName,
-  ConfigHandler,
-  GetConfigMessage,
-  getCurrentTab,
-  getSiteFromUrl,
-  IConfig,
-  ISources,
-  logger,
-  messageUtil,
-  SourcesHandler,
-  UpdatedConfigMessage,
-  UpdatedSourcesMessage,
-} from "utils";
+import { ConfigHandler } from "../utils/ConfigHandler";
+import { ISources } from "../utils/definitions";
+import { logger } from "../utils/logger";
+import { GetConfigMessage } from "../utils/messages/GetConfigMessage";
+import { messageUtil } from "../utils/messages/messageUtil";
+import { UpdatedConfigMessage } from "../utils/messages/UpdatedConfigMessage";
+import { UpdatedSourcesMessage } from "../utils/messages/UpdatedSourcesMessage";
+import { SourcesHandler } from "../utils/SourcesHandler";
+import { biasShortToName, IConfig } from "../utils/StorageHandler";
+import { getCurrentTab, getSiteFromUrl } from "../utils/tabUtils";
 
 const log = logger("mbfc:popup:InfoHandler");
 // const { log } = console;

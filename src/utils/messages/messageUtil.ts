@@ -1,4 +1,3 @@
-import { logger } from "utils";
 /**
  * License: zlib/libpng
  * @author Santo Pfingsten
@@ -6,6 +5,7 @@ import { logger } from "utils";
  */
 import { browser, Runtime } from "webextension-polyfill-ts";
 import { get } from "lodash";
+import { logger } from "../logger";
 
 const log = logger("mbfc:messages");
 

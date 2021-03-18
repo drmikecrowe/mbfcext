@@ -1,6 +1,8 @@
 import { m } from "malevic";
-import { Collapse, DefaultCollapse, logger } from "utils";
 import OptionsSync from "webext-options-sync";
+
+import { logger } from "../../utils/logger";
+import { Collapse, DefaultCollapse } from "../../utils/StorageHandler";
 
 const MyOptions = new OptionsSync({ defaults: DefaultCollapse as any });
 
