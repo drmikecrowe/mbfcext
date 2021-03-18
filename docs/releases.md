@@ -1,8 +1,13 @@
 # Official Media Bias/Fact Check Extension Release Notes
 
-## Release notes for version 3.2  
+## Release notes for version 3.2.1
 
-- Improving Twitter article detection 
+- Fixing finding subdomains such as nhk.or.jp/nhkworld/article..
+- Adding jest test frameworks
+
+## Release notes for version 3.2
+
+- Improving Twitter article detection
 - Placing MBFC insert below image if we use the Twitter handle, and under the article if we use the article domain
 
 ## Release notes for version 3.1
