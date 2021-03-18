@@ -1,6 +1,6 @@
 import { err, ok, Result } from "neverthrow";
 
-import { isDevMode, logger } from "../../utils/logger";
+import { isDevMode, logger } from "utils/logger";
 import {
   C_FOUND,
   ElementList,

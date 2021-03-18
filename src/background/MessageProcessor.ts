@@ -1,12 +1,12 @@
-import { logger } from "../utils/logger";
-import { AssociateSiteMessage } from "../utils/messages/AssociateSiteMessage";
-import { GetConfigMessage } from "../utils/messages/GetConfigMessage";
-import { HideSiteMessage } from "../utils/messages/HideSiteMessage";
-import { ReportUnknownMessage } from "../utils/messages/ReportUnknownMessage";
-import { ResetIgnoredMessage } from "../utils/messages/ResetIgnoredMessage";
-import { ShowOptionsMessage } from "../utils/messages/ShowOptionsMessage";
-import { ShowSiteMessage } from "../utils/messages/ShowSiteMessage";
-import { StartThanksMessage } from "../utils/messages/StartThanksMessage";
+import { logger } from "utils/logger";
+import { AssociateSiteMessage } from "utils/messages/AssociateSiteMessage";
+import { GetConfigMessage } from "utils/messages/GetConfigMessage";
+import { HideSiteMessage } from "utils/messages/HideSiteMessage";
+import { ReportUnknownMessage } from "utils/messages/ReportUnknownMessage";
+import { ResetIgnoredMessage } from "utils/messages/ResetIgnoredMessage";
+import { ShowOptionsMessage } from "utils/messages/ShowOptionsMessage";
+import { ShowSiteMessage } from "utils/messages/ShowSiteMessage";
+import { StartThanksMessage } from "utils/messages/StartThanksMessage";
 
 const log = logger("mbfc:background:messages");
 

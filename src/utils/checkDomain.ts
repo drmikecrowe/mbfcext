@@ -1,10 +1,10 @@
 import { get, has } from "lodash";
 import { err, ok, Result } from "neverthrow";
 import { EBiasesKey, EReportingKeys, ISource } from "utils/definitions";
-import { StorageToOptions } from "utils/StorageHandler";
+import { StorageToOptions } from "utils/definitions";
 import { logger } from "utils/logger";
-import { SourcesHandler } from "./SourcesHandler";
-import { ConfigHandler } from "./ConfigHandler";
+import { SourcesHandler } from "utils/SourcesHandler";
+import { ConfigHandler } from "utils/ConfigHandler";
 
 const log = logger("mbfc:utils:checkDomain");
 
@@ -39,14 +39,14 @@ export const checkDomain = (
 
   const s = SourcesHandler.getInstance().sources;
   if (s.isErr()) {
-    console.warn("No Sources");
+    log("No sources");
     return err(null);
   }
   const sources = s.value;
 
   const c = ConfigHandler.getInstance().config;
   if (c.isErr()) {
-    console.log("No config");
+    log("No config");
     return err(null);
   }
   const config = c.value;
@@ -82,6 +82,21 @@ export const checkDomain = (
   };
 
   if (ch(`${domain}${path}`, false, false)) return ok(ret);
+  for (const sd in sources.subdomains) {
+    const sdk = Object.keys(sources.subdomains[sd]);
+    if (sdk.length > 1) {
+      if (sdk[0] === "/") {
+        // Check this last
+        sdk.shift();
+        sdk.push("/");
+      }
+      for (const start of sdk) {
+        if (path && path.startsWith(start)) {
+          if (ch(`${domain}${start}`, false, false)) return ok(ret);
+        }
+      }
+    }
+  }
   if (ch(domain, false, false)) return ok(ret);
   if (ch(sources.aliases[domain], true, false)) return ok(ret);
   const elements = domain.split(".");

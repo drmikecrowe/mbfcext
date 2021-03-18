@@ -1,7 +1,7 @@
 import { logger } from "utils/logger";
 import { browser } from "webextension-polyfill-ts";
 
-import { messageUtil } from "./messageUtil";
+import { messageUtil } from "utils/messages/messageUtil";
 
 const log = logger("mbfc:messages:ShowOptionsMessage");
 

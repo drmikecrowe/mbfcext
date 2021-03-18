@@ -2,86 +2,13 @@
 import { set } from "lodash";
 import { browser } from "utils/browser";
 import { OPTIONS_FIRST_RUN } from "utils/constants";
-import { EBiasesKey } from "utils/definitions";
 import { logger } from "utils/logger";
 import OptionsSync, { Options } from "webext-options-sync";
 
-import { UpdatedConfigMessage } from "./messages/UpdatedConfigMessage";
+import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+import { Collapse, DefaultCollapse } from "utils/definitions";
 
 const log = logger("mbfc:utils:StorageHandler");
-
-export const biasShortToName = {
-  L: "left",
-  LC: "left-center",
-  C: "center",
-  RC: "right-center",
-  R: "right",
-  PS: "pro-science",
-  CP: "conspiracy",
-  S: "satire",
-  FN: "fake-news",
-};
-
-export const reportingShortToName = {
-  H: "HIGH",
-  L: "LOW",
-  M: "MIXED",
-  MF: "MOSTLY FACTUAL",
-  VH: "VERY HIGH",
-  VL: "VERY LOW",
-};
-
-export interface Collapse {
-  collapseLeft: boolean;
-  collapseLeftCenter: boolean;
-  collapseCenter: boolean;
-  collapseRightCenter: boolean;
-  collapseRight: boolean;
-  collapseProScience: boolean;
-  collapseConspiracy: boolean;
-  collapseSatire: boolean;
-  collapseFakeNews: boolean;
-  collapseMixed: boolean;
-}
-
-export const DefaultCollapse: Collapse = {
-  collapseLeft: false,
-  collapseLeftCenter: false,
-  collapseCenter: false,
-  collapseRightCenter: false,
-  collapseRight: false,
-  collapseProScience: false,
-  collapseConspiracy: true,
-  collapseSatire: false,
-  collapseFakeNews: true,
-  collapseMixed: false,
-};
-
-export const OptionsToStorage: Record<never, EBiasesKey & "M"> = {
-  collapseLeft: "L",
-  collapseLeftCenter: "LC",
-  collapseCenter: "C",
-  collapseRightCenter: "RC",
-  collapseRight: "R",
-  collapseProScience: "PS",
-  collapseConspiracy: "CP",
-  collapseSatire: "S",
-  collapseFakeNews: "FN",
-  collapseMixed: "M",
-};
-
-export const StorageToOptions = {
-  L: "collapseLeft",
-  LC: "collapseLeftCenter",
-  C: "collapseCenter",
-  RC: "collapseRightCenter",
-  R: "collapseRight",
-  PS: "collapseProScience",
-  CP: "collapseConspiracy",
-  S: "collapseSatire",
-  FN: "collapseFakeNews",
-  M: "collapseMixed",
-};
 
 export type HiddenSites = Record<string, boolean>;
 export type UnknownSites = Record<string, boolean>;

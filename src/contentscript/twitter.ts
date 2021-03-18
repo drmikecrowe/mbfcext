@@ -1,11 +1,11 @@
 import { Twitter } from "contentscript/content/twitter";
 
-import { ConfigHandler } from "../utils/ConfigHandler";
-import { isDevMode, logger } from "../utils/logger";
-import { GetConfigMessage } from "../utils/messages/GetConfigMessage";
-import { messageUtil } from "../utils/messages/messageUtil";
-import { UpdatedConfigMessage } from "../utils/messages/UpdatedConfigMessage";
-import { SourcesHandler } from "../utils/SourcesHandler";
+import { ConfigHandler } from "utils/ConfigHandler";
+import { isDevMode, logger } from "utils/logger";
+import { GetConfigMessage } from "utils/messages/GetConfigMessage";
+import { messageUtil } from "utils/messages/messageUtil";
+import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+import { SourcesHandler } from "utils/SourcesHandler";
 
 const log = logger("mbfc:contentscript:twitter");
 

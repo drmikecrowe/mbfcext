@@ -1,3 +1,1 @@
-import "utils";
-
 import "./popup";

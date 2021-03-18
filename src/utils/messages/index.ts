@@ -1,13 +1,13 @@
-import { AssociateSiteMessage } from "./AssociateSiteMessage";
-import { GetConfigMessage } from "./GetConfigMessage";
-import { HideSiteMessage } from "./HideSiteMessage";
-import { ReportUnknownMessage } from "./ReportUnknownMessage";
-import { ResetIgnoredMessage } from "./ResetIgnoredMessage";
-import { ShowOptionsMessage } from "./ShowOptionsMessage";
-import { ShowSiteMessage } from "./ShowSiteMessage";
-import { StartThanksMessage } from "./StartThanksMessage";
-import { UpdatedConfigMessage } from "./UpdatedConfigMessage";
-import { UpdatedSourcesMessage } from "./UpdatedSourcesMessage";
+import { AssociateSiteMessage } from "utils/messages/AssociateSiteMessage";
+import { GetConfigMessage } from "utils/messages/GetConfigMessage";
+import { HideSiteMessage } from "utils/messages/HideSiteMessage";
+import { ReportUnknownMessage } from "utils/messages/ReportUnknownMessage";
+import { ResetIgnoredMessage } from "utils/messages/ResetIgnoredMessage";
+import { ShowOptionsMessage } from "utils/messages/ShowOptionsMessage";
+import { ShowSiteMessage } from "utils/messages/ShowSiteMessage";
+import { StartThanksMessage } from "utils/messages/StartThanksMessage";
+import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+import { UpdatedSourcesMessage } from "utils/messages/UpdatedSourcesMessage";
 
 export type BrowserMessage =
   | AssociateSiteMessage

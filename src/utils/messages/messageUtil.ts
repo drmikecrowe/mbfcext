@@ -5,7 +5,7 @@
  */
 import { browser, Runtime } from "webextension-polyfill-ts";
 import { get } from "lodash";
-import { logger } from "../logger";
+import { logger } from "utils/logger";
 
 const log = logger("mbfc:messages");
 

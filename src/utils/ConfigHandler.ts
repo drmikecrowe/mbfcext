@@ -1,9 +1,9 @@
 import { err, ok, Result } from "neverthrow";
 
-import { logger } from "./logger";
-import { messageUtil } from "./messages/messageUtil";
-import { UpdatedConfigMessage } from "./messages/UpdatedConfigMessage";
-import { IConfig } from "./StorageHandler";
+import { logger } from "utils/logger";
+import { messageUtil } from "utils/messages/messageUtil";
+import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+import { IConfig } from "utils/StorageHandler";
 
 const log = logger("mbfc:utils:ConfigHandler");
 

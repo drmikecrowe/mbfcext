@@ -1,5 +1,5 @@
-import { logger } from "../logger";
-import { messageUtil } from "./messageUtil";
+import { logger } from "utils/logger";
+import { messageUtil } from "utils/messages/messageUtil";
 
 const log = logger("mbfc:messages:StartThanksMessage");
 

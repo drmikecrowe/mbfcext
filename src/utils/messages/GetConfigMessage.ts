@@ -1,7 +1,7 @@
-import { logger } from "../logger";
-import { messageUtil } from "./messageUtil";
-import { UpdatedConfigMessage } from "./UpdatedConfigMessage";
-import { UpdatedSourcesMessage } from "./UpdatedSourcesMessage";
+import { logger } from "utils/logger";
+import { messageUtil } from "utils/messages/messageUtil";
+import { UpdatedConfigMessage } from "utils/messages/UpdatedConfigMessage";
+import { UpdatedSourcesMessage } from "utils/messages/UpdatedSourcesMessage";
 
 const log = logger("mbfc:messages:GetConfigMessage");
 

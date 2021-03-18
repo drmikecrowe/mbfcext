@@ -3,7 +3,7 @@ import { m } from "malevic";
 import { sync } from "malevic/dom";
 import { browser } from "webextension-polyfill-ts";
 
-import { Button } from "../utils/elements/Button";
+import { Button } from "utils/elements/Button";
 import { InfoHandler } from "./InfoHandler";
 
 function Rated({ bias, biasDescription, mbfcLink }) {

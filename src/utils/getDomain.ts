@@ -10,8 +10,8 @@ export const getDomain = (u: string) => {
       if (!url.startsWith("http")) url = `https://${url}`;
       hn = new URL(url).hostname;
       // eslint-disable-next-line prefer-destructuring
-      if (hn) hn = hn.match(/(www[0-9]?\.)?(.+)/i)[2];
-      p = new URL(url).pathname;
+      if (hn) hn = hn.match(/(www[0-9]?\.)?(.+)/i)[2].toLowerCase();
+      p = new URL(url).pathname.toLowerCase();
       if (p.indexOf("?") > -1) p = p.split("?").pop();
       if (p.endsWith("/")) p = p.slice(0, p.length - 1);
     }
