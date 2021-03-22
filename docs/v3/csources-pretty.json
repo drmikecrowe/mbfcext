@@ -8687,18 +8687,6 @@
     "c": "H",
     "a": "M"
   },
-  "deathandtaxesmag.com": {
-    "b": "L",
-    "d": "deathandtaxesmag.com",
-    "f": "spin",
-    "n": "DeathandTaxes",
-    "r": "H",
-    "t": "spin",
-    "u": "https://mediabiasfactcheck.com/deathandtaxes/",
-    "P": 66,
-    "c": "H",
-    "a": "N"
-  },
   "debatepost.com": {
     "b": "R",
     "d": "debatepost.com",
@@ -14383,6 +14371,15 @@
     "c": "L",
     "a": "L"
   },
+  "hernandoreporter.com": {
+    "b": "FN",
+    "d": "hernandoreporter.com",
+    "n": "Hernando Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hernando-reporter/",
+    "c": "L",
+    "a": "L"
+  },
   "heterodoxacademy.org": {
     "b": "RC",
     "d": "heterodoxacademy.org",
@@ -16056,7 +16053,7 @@
     "d": "irena.org",
     "f": "irena.org?ref",
     "n": "International Renewable Energy Agency",
-    "r": "VH",
+    "r": "H",
     "t": "IRENA",
     "u": "https://mediabiasfactcheck.com/international-renewable-energy-agency-irena/",
     "P": 77,
@@ -16991,6 +16988,15 @@
     "c": "H",
     "a": "M"
   },
+  "keywestreporter.com": {
+    "b": "FN",
+    "d": "keywestreporter.com",
+    "n": "Key West Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/key-west-reporter/",
+    "c": "L",
+    "a": "L"
+  },
   "kff.org": {
     "b": "C",
     "d": "kff.org",
@@ -17831,11 +17837,11 @@
     "b": "LC",
     "d": "leftjustified.com",
     "n": "Left Justified",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/left-justified/",
     "P": 24,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "leftoverrights.com": {
     "b": "L",
@@ -18843,6 +18849,15 @@
     "P": 55,
     "c": "M",
     "a": "M"
+  },
+  "manateereview.com": {
+    "b": "FN",
+    "d": "manateereview.com",
+    "n": "Manatee Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/manatee-review/",
+    "c": "L",
+    "a": "L"
   },
   "manhattan-institute.org": {
     "b": "R",
@@ -21446,7 +21461,7 @@
     "u": "https://mediabiasfactcheck.com/harvard-gazette/",
     "P": 71,
     "c": "H",
-    "a": "H"
+    "a": "M"
   },
   "news.mongabay.com": {
     "b": "LC",
@@ -21547,6 +21562,15 @@
     "P": 21,
     "c": "M",
     "a": "N"
+  },
+  "newsandsentinel.com": {
+    "b": "RC",
+    "d": "newsandsentinel.com",
+    "n": "Parkersburg News and Sentinel",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/parkersburg-news-and-sentinel/",
+    "c": "H",
+    "a": "L"
   },
   "newsandstoriesfromusa.com": {
     "b": "FN",
@@ -24410,6 +24434,18 @@
     "c": "H",
     "a": "N"
   },
+  "polinews.org": {
+    "b": "L",
+    "d": "polinews.org",
+    "f": "dctribunemedia",
+    "n": "Political Tribune (Formerly DC Tribune)",
+    "r": "M",
+    "t": "PoliTribune",
+    "u": "https://mediabiasfactcheck.com/dc-tribune/",
+    "P": 28,
+    "c": "L",
+    "a": "N"
+  },
   "polipace.com": {
     "b": "FN",
     "d": "polipace.com",
@@ -24536,18 +24572,6 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/political-state/",
     "P": 11,
-    "c": "L",
-    "a": "N"
-  },
-  "politicaltribune.org": {
-    "b": "L",
-    "d": "politicaltribune.org",
-    "f": "dctribunemedia",
-    "n": "Political Tribune (Formerly DC Tribune)",
-    "r": "M",
-    "t": "PoliTribune",
-    "u": "https://mediabiasfactcheck.com/dc-tribune/",
-    "P": 28,
     "c": "L",
     "a": "N"
   },
@@ -27208,6 +27232,15 @@
     "c": "H",
     "a": "M"
   },
+  "rocanews.com": {
+    "b": "C",
+    "d": "rocanews.com",
+    "n": "RocaNews",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/rocanews/",
+    "c": "M",
+    "a": "L"
+  },
   "rockcitytimes.com": {
     "b": "S",
     "d": "rockcitytimes.com",
@@ -29331,6 +29364,28 @@
     "u": "https://mediabiasfactcheck.com/spiked-magazine/",
     "P": 56,
     "c": "M",
+    "a": "M"
+  },
+  "spin.com": {
+    "b": "LC",
+    "d": "spin.com",
+    "n": "Spin (Magazine)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/spin-magazine/",
+    "c": "H",
+    "a": "M"
+  },
+  "spin.com/death-and-taxes": {
+    "b": "LC",
+    "d": "spin.com/death-and-taxes",
+    "f": "spin",
+    "n": "DeathandTaxes",
+    "p": "/death-and-taxes",
+    "r": "H",
+    "t": "spin",
+    "u": "https://mediabiasfactcheck.com/deathandtaxes/",
+    "P": 66,
+    "c": "H",
     "a": "M"
   },
   "spinzon.com": {
