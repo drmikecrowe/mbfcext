@@ -8097,16 +8097,6 @@
     "c": "H",
     "a": "M"
   },
-  "dailynewsbin.com": {
-    "b": "L",
-    "d": "dailynewsbin.com",
-    "n": "Daily Newsbin",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
-    "P": 34,
-    "c": "L",
-    "a": "N"
-  },
   "dailynorthwestern.com": {
     "b": "C",
     "d": "dailynorthwestern.com",
@@ -12242,13 +12232,12 @@
     "a": "N"
   },
   "freedomcrossroads.com": {
-    "b": "R",
+    "b": "S",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Cross Roads",
-    "r": "M",
+    "n": "Freedon Crossroads",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 21,
-    "c": "L",
+    "P": 10,
+    "c": "NA",
     "a": "N"
   },
   "freedomdaily.com": {
@@ -18325,14 +18314,14 @@
     "a": "H"
   },
   "lifenews.com": {
-    "b": "R",
+    "b": "FN",
     "d": "lifenews.com",
     "f": "LifeNews",
     "n": "Life News",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/life-news/",
     "P": 65,
-    "c": "M",
+    "c": "L",
     "a": "M"
   },
   "lifesitenews.com": {
@@ -22920,8 +22909,8 @@
     "t": "nymag",
     "u": "https://mediabiasfactcheck.com/new-york-magazine/",
     "P": 96,
-    "c": "NA",
-    "a": "N"
+    "c": "H",
+    "a": "H"
   },
   "nypost.com": {
     "b": "RC",
@@ -25742,6 +25731,16 @@
     "c": "H",
     "a": "M"
   },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N"
+  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -26417,7 +26416,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/red-state/",
     "P": 83,
-    "c": "L",
+    "c": "M",
     "a": "H"
   },
   "redstatedisaster.com": {
