@@ -8097,6 +8097,16 @@
     "c": "H",
     "a": "M"
   },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "L",
+    "a": "N"
+  },
   "dailynorthwestern.com": {
     "b": "C",
     "d": "dailynorthwestern.com",
@@ -9031,6 +9041,15 @@
     "P": 71,
     "c": "H",
     "a": "L"
+  },
+  "denver.cbslocal.com": {
+    "b": "LC",
+    "d": "denver.cbslocal.com",
+    "n": "KCNC-TV - CBS Denver",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcnc-tv-cbs-denver/",
+    "c": "H",
+    "a": "H"
   },
   "denvercitywire.com": {
     "b": "FN",
@@ -12232,12 +12251,13 @@
     "a": "N"
   },
   "freedomcrossroads.com": {
-    "b": "S",
+    "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedon Crossroads",
+    "n": "Freedom Cross Roads",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
-    "c": "NA",
+    "P": 21,
+    "c": "L",
     "a": "N"
   },
   "freedomdaily.com": {
@@ -19548,6 +19568,15 @@
     "c": "H",
     "a": "M"
   },
+  "miamicourant.com": {
+    "b": "FN",
+    "d": "miamicourant.com",
+    "n": "Miami Courant",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/miami-courant/",
+    "c": "L",
+    "a": "L"
+  },
   "miamiherald.com": {
     "b": "LC",
     "d": "miamiherald.com",
@@ -20306,6 +20335,15 @@
     "P": 80,
     "c": "H",
     "a": "M"
+  },
+  "naplesstandard.com": {
+    "b": "FN",
+    "d": "naplesstandard.com",
+    "n": "Naples Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/naples-standard/",
+    "c": "L",
+    "a": "L"
   },
   "nasa.gov": {
     "b": "PS",
@@ -25731,16 +25769,6 @@
     "c": "H",
     "a": "M"
   },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N"
-  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -26977,7 +27005,7 @@
     "u": "https://mediabiasfactcheck.com/revolver-news/",
     "P": 30,
     "c": "L",
-    "a": "N"
+    "a": "M"
   },
   "rewirenewsgroup.com": {
     "b": "L",
@@ -34846,8 +34874,8 @@
     "t": "TheYoungTurks",
     "u": "https://mediabiasfactcheck.com/the-young-turks/",
     "P": 64,
-    "c": "M",
-    "a": "N"
+    "c": "H",
+    "a": "H"
   },
   "uawire.org": {
     "b": "LC",
