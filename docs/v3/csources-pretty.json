@@ -18445,14 +18445,14 @@
     "a": "M"
   },
   "liveleak.com": {
-    "b": "LC",
+    "b": "FN",
     "d": "liveleak.com",
     "f": "liveleak.official",
     "n": "Live Leak",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/liveleak/",
     "P": 90,
-    "c": "M",
+    "c": "L",
     "a": "H"
   },
   "livescience.com": {
@@ -25769,6 +25769,16 @@
     "c": "H",
     "a": "M"
   },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N"
+  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -27936,7 +27946,7 @@
     "d": "sciencedaily.com",
     "f": "sciencedaily",
     "n": "Science Daily",
-    "r": "VH",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/science-daily/",
     "P": 96,
     "c": "H",
