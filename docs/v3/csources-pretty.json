@@ -4546,9 +4546,9 @@
     "c": "H",
     "a": "H"
   },
-  "buzzfeednews.com": {
+  "buzzfeed.com": {
     "b": "LC",
-    "d": "buzzfeednews.com",
+    "d": "buzzfeed.com",
     "f": "BuzzFeedNews",
     "n": "Buzzfeed",
     "r": "M",
@@ -4556,6 +4556,15 @@
     "u": "https://mediabiasfactcheck.com/buzzfeed/",
     "P": 75,
     "c": "M",
+    "a": "H"
+  },
+  "buzzfeednews.com": {
+    "b": "LC",
+    "d": "buzzfeednews.com",
+    "n": "Buzzfeed News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/buzzfeed-news/",
+    "c": "H",
     "a": "H"
   },
   "buzzsawpolitics.com": {
@@ -19096,17 +19105,6 @@
     "c": "L",
     "a": "N"
   },
-  "mediabiasfactcheck.com": {
-    "b": "C",
-    "d": "mediabiasfactcheck.com",
-    "f": "mediabiasfactcheck",
-    "n": "Media Bias/Fact Check",
-    "r": "VH",
-    "t": "MBFC_News",
-    "P": 57,
-    "c": "NA",
-    "a": "N"
-  },
   "mediacircus.com": {
     "b": "R",
     "d": "mediacircus.com",
@@ -25769,16 +25767,6 @@
     "c": "H",
     "a": "M"
   },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N"
-  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -29479,6 +29467,15 @@
     "P": 60,
     "c": "NA",
     "a": "N"
+  },
+  "spotlightpa.org": {
+    "b": "C",
+    "d": "spotlightpa.org",
+    "n": "Spotlight PA",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/spotlight-pa/",
+    "c": "H",
+    "a": "L"
   },
   "springstimes.com": {
     "b": "FN",
@@ -35975,11 +35972,13 @@
     "a": "M"
   },
   "viralcocaine.com": {
-    "b": "S",
+    "b": "FN",
     "d": "viralcocaine.com",
-    "n": "Celebtricity",
-    "u": "https://mediabiasfactcheck.com/celebtricity/",
-    "c": "NA",
+    "n": "Viral Cocaine",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/viral-cocaine/",
+    "P": 40,
+    "c": "L",
     "a": "N"
   },
   "viralcords.com": {
