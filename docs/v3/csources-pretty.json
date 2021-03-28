@@ -4961,7 +4961,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/the-california-republican/",
     "P": 34,
-    "c": "L",
+    "c": "M",
     "a": "N"
   },
   "caribbeanlifenews.com": {
@@ -14300,6 +14300,15 @@
     "c": "H",
     "a": "L"
   },
+  "heraldscotland.com": {
+    "b": "LC",
+    "d": "heraldscotland.com",
+    "n": "The Glasgow Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-herald-scotland/",
+    "c": "H",
+    "a": "H"
+  },
   "heraldsun.com": {
     "b": "C",
     "d": "heraldsun.com",
@@ -19490,11 +19499,11 @@
     "d": "merryjane.com",
     "f": "merryjane",
     "n": "Merry Jane",
-    "r": "H",
+    "r": "M",
     "t": "merryjane",
     "u": "https://mediabiasfactcheck.com/merry-jane/",
     "P": 69,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "metabunk.org": {
@@ -19898,15 +19907,15 @@
     "a": "N"
   },
   "mondoweiss.net": {
-    "b": "L",
+    "b": "FN",
     "d": "mondoweiss.net",
     "f": "mondoweiss",
     "n": "Mondoweiss",
-    "r": "H",
+    "r": "M",
     "t": "mondoweiss",
     "u": "https://mediabiasfactcheck.com/mondoweiss/",
     "P": 77,
-    "c": "H",
+    "c": "L",
     "a": "L"
   },
   "montereytimes.com": {
@@ -20805,6 +20814,15 @@
     "c": "H",
     "a": "M"
   },
+  "naturecoasttimes.com": {
+    "b": "FN",
+    "d": "naturecoasttimes.com",
+    "n": "Nature Coast Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nature-coast-times/",
+    "c": "L",
+    "a": "L"
+  },
   "naugatucktimes.com": {
     "b": "FN",
     "d": "naugatucktimes.com",
@@ -20908,7 +20926,7 @@
     "u": "https://mediabiasfactcheck.com/national-bureau-of-economic-research-nber/",
     "P": 85,
     "c": "H",
-    "a": "M"
+    "a": "L"
   },
   "ncarkansasnews.com": {
     "b": "FN",
@@ -20942,6 +20960,15 @@
     "P": 89,
     "c": "H",
     "a": "H"
+  },
+  "ncfloridanews.com": {
+    "b": "FN",
+    "d": "ncfloridanews.com",
+    "n": "NC Florida News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nc-florida-news/",
+    "c": "L",
+    "a": "L"
   },
   "ncnewsonline.com": {
     "b": "LC",
@@ -21065,6 +21092,15 @@
     "t": "need2knowdigest",
     "u": "https://mediabiasfactcheck.com/need-to-know/",
     "P": 46,
+    "c": "L",
+    "a": "L"
+  },
+  "nefloridanews.com": {
+    "b": "FN",
+    "d": "nefloridanews.com",
+    "n": "NE Florida News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-journal/",
     "c": "L",
     "a": "L"
   },
