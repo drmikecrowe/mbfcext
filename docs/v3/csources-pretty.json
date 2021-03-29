@@ -1518,6 +1518,15 @@
     "c": "H",
     "a": "N"
   },
+  "altrighttv.com": {
+    "b": "FN",
+    "d": "altrighttv.com",
+    "n": "Alt-Right TV",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/alt-right-tv/",
+    "c": "L",
+    "a": "L"
+  },
   "ama-assn.org": {
     "b": "PS",
     "d": "ama-assn.org",
@@ -20441,7 +20450,7 @@
     "u": "https://mediabiasfactcheck.com/national-economics-editorial/",
     "P": 30,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "nationalenquirer.com": {
     "b": "FN",
@@ -21196,11 +21205,11 @@
     "d": "newamericannews.com",
     "f": "Newamericannews",
     "n": "New American News",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/new-american-news/",
     "P": 22,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "newatlas.com": {
     "b": "PS",
@@ -22455,6 +22464,15 @@
     "c": "L",
     "a": "N"
   },
+  "northbrowardnews.com": {
+    "b": "FN",
+    "d": "northbrowardnews.com",
+    "n": "North Broward News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-broward-news/",
+    "c": "L",
+    "a": "L"
+  },
   "northcoastcanews.com": {
     "b": "FN",
     "d": "northcoastcanews.com",
@@ -23307,7 +23325,7 @@
     "t": "opednews",
     "u": "https://mediabiasfactcheck.com/opednews-oen/",
     "P": 75,
-    "c": "L",
+    "c": "M",
     "a": "L"
   },
   "opendemocracy.net": {
@@ -23637,11 +23655,11 @@
     "d": "overpassesforamerica.com",
     "f": "OverpassesForAmerica2",
     "n": "Overpasses for America",
-    "r": "L",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/overpasses-for-america/",
     "P": 49,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "oye.news": {
     "b": "CP",
@@ -29571,7 +29589,7 @@
     "d": "standard.co.uk",
     "f": "eveningstandard",
     "n": "London Evening Standard",
-    "r": "H",
+    "r": "MF",
     "t": "standardnews",
     "u": "https://mediabiasfactcheck.com/london-evening-standard/",
     "P": 93,
