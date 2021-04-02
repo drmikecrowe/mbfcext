@@ -101,6 +101,15 @@
     "c": "H",
     "a": "N"
   },
+  "19thnews.org": {
+    "b": "L",
+    "d": "19thnews.org",
+    "n": "The 19th News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-19th-news/",
+    "c": "H",
+    "a": "M"
+  },
   "21stcenturywire.com": {
     "b": "CP",
     "d": "21stcenturywire.com",
@@ -4348,6 +4357,15 @@
     "u": "https://mediabiasfactcheck.com/bridgeport-times/",
     "c": "L",
     "a": "L"
+  },
+  "brighteon.com": {
+    "b": "CP",
+    "d": "brighteon.com",
+    "n": "Brighteon",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/brighteon/",
+    "c": "L",
+    "a": "H"
   },
   "brightside.me": {
     "b": "CP",
@@ -10282,7 +10300,7 @@
     "u": "https://mediabiasfactcheck.com/elisabeth-parker/",
     "P": 21,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "elitedaily.com": {
     "b": "L",
@@ -11305,7 +11323,7 @@
     "u": "https://mediabiasfactcheck.com/the-fake-news-codex/",
     "P": 26,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "familysecuritymatters.org": {
     "b": "R",
@@ -18603,7 +18621,7 @@
     "u": "https://mediabiasfactcheck.com/loonwatch/",
     "P": 66,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "losangeles.cbslocal.com": {
     "b": "LC",
@@ -20745,7 +20763,7 @@
     "u": "https://mediabiasfactcheck.com/natural-news/",
     "P": 89,
     "c": "L",
-    "a": "H"
+    "a": "M"
   },
   "naturalnewsblogs.com": {
     "b": "CP",
@@ -22525,6 +22543,15 @@
     "c": "L",
     "a": "N"
   },
+  "northlaketimes.com": {
+    "b": "FN",
+    "d": "northlaketimes.com",
+    "n": "North Lake Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-lake-times/",
+    "c": "L",
+    "a": "L"
+  },
   "northlittlerocktimes.com": {
     "b": "FN",
     "d": "northlittlerocktimes.com",
@@ -22534,6 +22561,15 @@
     "P": 3,
     "c": "L",
     "a": "N"
+  },
+  "northmianews.com": {
+    "b": "FN",
+    "d": "northmianews.com",
+    "n": "North Miami-Dade News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-miami-dade-news/",
+    "c": "L",
+    "a": "L"
   },
   "northnewcastlenews.com": {
     "b": "FN",
@@ -22553,6 +22589,15 @@
     "P": 4,
     "c": "L",
     "a": "N"
+  },
+  "northorlandonews.com": {
+    "b": "FN",
+    "d": "northorlandonews.com",
+    "n": "North Orlando News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-orlando-news/",
+    "c": "L",
+    "a": "L"
   },
   "northpimanews.com": {
     "b": "FN",
@@ -22879,13 +22924,13 @@
     "b": "CP",
     "d": "nvic.org",
     "f": "national.vaccine.information.center",
-    "n": "National Vaccine Information Institute",
+    "n": "National Vaccine Information Center",
     "r": "L",
     "t": "NVICLoeDown",
     "u": "https://mediabiasfactcheck.com/national-vaccine-information-center-nvic/",
     "P": 74,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "nwaonline.com": {
     "b": "RC",
@@ -23088,7 +23133,7 @@
     "u": "https://mediabiasfactcheck.com/the-observatory/",
     "P": 52,
     "c": "H",
-    "a": "H"
+    "a": "L"
   },
   "observer.com": {
     "b": "RC",
@@ -27208,7 +27253,7 @@
     "u": "https://mediabiasfactcheck.com/right-smarts/",
     "P": 29,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "rightwing.news": {
     "b": "FN",
@@ -27328,7 +27373,7 @@
     "u": "https://mediabiasfactcheck.com/rock-city-times/",
     "P": 33,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "rocketnews.com": {
     "b": "LC",
@@ -33689,6 +33734,15 @@
     "P": 6,
     "c": "L",
     "a": "N"
+  },
+  "thevaccinereaction.org": {
+    "b": "CP",
+    "d": "thevaccinereaction.org",
+    "n": "The Vaccine Reaction",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-vaccine-reaction/",
+    "c": "L",
+    "a": "L"
   },
   "thevarsity.ca": {
     "b": "LC",
