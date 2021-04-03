@@ -4195,6 +4195,15 @@
     "c": "H",
     "a": "N"
   },
+  "brandnewtube.com": {
+    "b": "CP",
+    "d": "brandnewtube.com",
+    "n": "Brand New Tube",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/brand-new-tube/",
+    "c": "L",
+    "a": "H"
+  },
   "breaking911.com": {
     "b": "FN",
     "d": "breaking911.com",
@@ -11766,6 +11775,15 @@
     "P": 92,
     "c": "H",
     "a": "H"
+  },
+  "fl24.net": {
+    "b": "FN",
+    "d": "fl24.net",
+    "n": "FL24.net",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/fl24-net/",
+    "c": "L",
+    "a": "L"
   },
   "flagandcross.com": {
     "b": "FN",
@@ -22599,6 +22617,24 @@
     "c": "L",
     "a": "L"
   },
+  "northpalmbeachtoday.com": {
+    "b": "FN",
+    "d": "northpalmbeachtoday.com",
+    "n": "North Palm Beach Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-palm-beach-today/",
+    "c": "L",
+    "a": "L"
+  },
+  "northpanhandlenews.com": {
+    "b": "FN",
+    "d": "northpanhandlenews.com",
+    "n": "North Panhandle News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-panhandle-news/",
+    "c": "L",
+    "a": "L"
+  },
   "northpimanews.com": {
     "b": "FN",
     "d": "northpimanews.com",
@@ -26298,11 +26334,11 @@
     "b": "CP",
     "d": "realjewnews.com",
     "n": "Real Jew News",
-    "r": "L",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/real-jew-news/",
     "P": 46,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "realmofhistory.com": {
     "b": "PS",
@@ -27939,10 +27975,10 @@
     "d": "scarymommy.com",
     "f": "thescarymommy",
     "n": "Scary Mommy",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/scary-mommy/",
     "P": 82,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "scconnnews.com": {
@@ -29103,7 +29139,7 @@
     "d": "sofrep.com",
     "f": "officialnewsrep",
     "n": "SOFREP",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/sofrep/",
     "P": 62,
     "c": "H",
@@ -30179,7 +30215,7 @@
     "u": "https://mediabiasfactcheck.com/sunday-sport/",
     "P": 25,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "sungazette.com": {
     "b": "RC",
