@@ -800,7 +800,7 @@
     "u": "https://mediabiasfactcheck.com/the-adobo-chronicles/",
     "P": 42,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "advocate.com": {
     "b": "L",
@@ -2773,7 +2773,7 @@
     "u": "https://mediabiasfactcheck.com/the-atlanta-banana/",
     "P": 28,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "atomicmonkey.wordpress.com": {
     "b": "S",
@@ -7996,6 +7996,15 @@
     "P": 88,
     "c": "H",
     "a": "H"
+  },
+  "dailyexpose.co.uk": {
+    "b": "CP",
+    "d": "dailyexpose.co.uk",
+    "n": "The Daily Expose",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/the-daily-expose/",
+    "c": "L",
+    "a": "L"
   },
   "dailygazette.com": {
     "b": "C",
@@ -22654,6 +22663,15 @@
     "c": "L",
     "a": "N"
   },
+  "northpinellasnews.com": {
+    "b": "FN",
+    "d": "northpinellasnews.com",
+    "n": "North Pinellas News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-pinellas-news/",
+    "c": "L",
+    "a": "L"
+  },
   "northsactoday.com": {
     "b": "FN",
     "d": "northsactoday.com",
@@ -23201,6 +23219,15 @@
     "c": "NA",
     "a": "N"
   },
+  "ocalastandard.com": {
+    "b": "FN",
+    "d": "ocalastandard.com",
+    "n": "Ocala Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ocala-standard/",
+    "c": "L",
+    "a": "L"
+  },
   "occupy.com": {
     "b": "L",
     "d": "occupy.com",
@@ -23326,6 +23353,15 @@
     "P": 85,
     "c": "H",
     "a": "H"
+  },
+  "okeechobeetimes.com": {
+    "b": "FN",
+    "d": "okeechobeetimes.com",
+    "n": "Okeechobee Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/okeechobee-times/",
+    "c": "L",
+    "a": "L"
   },
   "oklahoman.com": {
     "b": "RC",
@@ -23584,6 +23620,15 @@
     "P": 91,
     "c": "H",
     "a": "H"
+  },
+  "orlandostandard.com": {
+    "b": "FN",
+    "d": "orlandostandard.com",
+    "n": "Orlando Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/orlando-standard/",
+    "c": "L",
+    "a": "L"
   },
   "other98.com": {
     "b": "FN",
