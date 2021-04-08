@@ -15638,6 +15638,14 @@
     "c": "H",
     "a": "H"
   },
+  "infobattle.org": {
+    "b": "S",
+    "d": "infobattle.org",
+    "n": "InfoBattle",
+    "u": "https://mediabiasfactcheck.com/infobattle/",
+    "c": "NA",
+    "a": "L"
+  },
   "infogalactic.com": {
     "b": "FN",
     "d": "infogalactic.com",
@@ -23915,6 +23923,15 @@
     "c": "H",
     "a": "M"
   },
+  "palmcoasttimes.com": {
+    "b": "FN",
+    "d": "palmcoasttimes.com",
+    "n": "Palm Coast Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/palm-coast-times/",
+    "c": "L",
+    "a": "L"
+  },
   "palmerreport.com": {
     "b": "L",
     "d": "palmerreport.com",
@@ -23938,6 +23955,15 @@
     "P": 66,
     "c": "H",
     "a": "M"
+  },
+  "panamacityreporter.com": {
+    "b": "FN",
+    "d": "panamacityreporter.com",
+    "n": "Panama City Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/panama-city-reporter/",
+    "c": "L",
+    "a": "L"
   },
   "panampost.com": {
     "b": "R",
@@ -33641,6 +33667,15 @@
     "t": "thetandd",
     "u": "https://mediabiasfactcheck.com/the-times-and-democrat/",
     "P": 66,
+    "c": "H",
+    "a": "M"
+  },
+  "thetexan.news": {
+    "b": "R",
+    "d": "thetexan.news",
+    "n": "The Texan",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-texan/",
     "c": "H",
     "a": "M"
   },
