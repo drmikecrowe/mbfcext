@@ -20135,13 +20135,13 @@
     "b": "R",
     "d": "mrc.org",
     "f": "mediaresearchcenter",
-    "n": "Media Research Center (MRC",
+    "n": "Media Research Center (MRC)",
     "r": "M",
     "t": "theMRC",
     "u": "https://mediabiasfactcheck.com/media-research-center-mrc/",
     "P": 72,
-    "c": "L",
-    "a": "L"
+    "c": "M",
+    "a": "M"
   },
   "mrcblog.com": {
     "b": "FN",
@@ -24029,6 +24029,15 @@
     "P": 57,
     "c": "L",
     "a": "H"
+  },
+  "pascoreporter.com": {
+    "b": "FN",
+    "d": "pascoreporter.com",
+    "n": "Pasco Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pasco-reporter/",
+    "c": "L",
+    "a": "L"
   },
   "pastemagazine.com": {
     "b": "L",
@@ -31818,6 +31827,15 @@
     "P": 69,
     "c": "L",
     "a": "N"
+  },
+  "thedailystar.com": {
+    "b": "LC",
+    "d": "thedailystar.com",
+    "n": "The Daily Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-daily-star/",
+    "c": "H",
+    "a": "L"
   },
   "thedailyvox.co.za": {
     "b": "L",
