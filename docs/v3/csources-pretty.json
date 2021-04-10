@@ -6271,12 +6271,12 @@
     "d": "climaterealityproject.org",
     "f": "climatereality",
     "n": "The Climate Reality Project",
-    "r": "H",
+    "r": "MF",
     "t": "climatereality",
     "u": "https://mediabiasfactcheck.com/the-climate-reality-project/",
     "P": 76,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "climatesciencewatch.org": {
     "b": "PS",
@@ -7984,7 +7984,7 @@
     "u": "https://mediabiasfactcheck.com/the-daily-discord/",
     "P": 26,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "dailydot.com": {
     "b": "L",
@@ -8489,7 +8489,7 @@
     "u": "https://mediabiasfactcheck.com/the-dandy-goat/",
     "P": 29,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "dangerous.com": {
     "b": "R",
@@ -24343,6 +24343,15 @@
     "c": "H",
     "a": "H"
   },
+  "pensacolatimes.com": {
+    "b": "FN",
+    "d": "pensacolatimes.com",
+    "n": "Pensacola Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pensacola-times/",
+    "c": "L",
+    "a": "L"
+  },
   "people.com": {
     "b": "L",
     "d": "people.com",
@@ -24520,6 +24529,15 @@
     "P": 2,
     "c": "L",
     "a": "N"
+  },
+  "pinellastimes.com": {
+    "b": "FN",
+    "d": "pinellastimes.com",
+    "n": "Pinellas Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pinellas-times/",
+    "c": "L",
+    "a": "L"
   },
   "pinknews.co.uk": {
     "b": "L",
@@ -31477,7 +31495,7 @@
     "a": "M"
   },
   "thebureauinvestigates.com": {
-    "b": "C",
+    "b": "LC",
     "d": "thebureauinvestigates.com",
     "f": "thebureauinvestigates",
     "n": "The Bureau of Investigative Journalism",
@@ -31486,7 +31504,7 @@
     "u": "https://mediabiasfactcheck.com/the-bureau-of-investigative-journalism/",
     "P": 78,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "theburningspear.com": {
     "b": "L",
@@ -36719,7 +36737,7 @@
     "u": "https://mediabiasfactcheck.com/waterford-whispers-news/",
     "P": 54,
     "c": "NA",
-    "a": "M"
+    "a": "L"
   },
   "wattsupwiththat.com": {
     "b": "CP",
