@@ -15106,15 +15106,15 @@
     "a": "N"
   },
   "iflscience.com": {
-    "b": "CP",
+    "b": "LC",
     "d": "iflscience.com",
     "f": "IFeakingLoveScience",
     "n": "IFL Science",
-    "r": "M",
+    "r": "MF",
     "t": "IFLScience",
     "u": "https://mediabiasfactcheck.com/ifl-science/",
     "P": 78,
-    "c": "L",
+    "c": "H",
     "a": "H"
   },
   "ifstudies.org": {
@@ -27993,6 +27993,15 @@
     "P": 45,
     "c": "H",
     "a": "M"
+  },
+  "sarasotareview.com": {
+    "b": "FN",
+    "d": "sarasotareview.com",
+    "n": "Sarasota Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sarasota-review/",
+    "c": "L",
+    "a": "L"
   },
   "satiratribune.com": {
     "b": "S",
