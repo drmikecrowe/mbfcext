@@ -3881,17 +3881,6 @@
     "c": "L",
     "a": "N"
   },
-  "bloodandsoil.org": {
-    "b": "FN",
-    "d": "bloodandsoil.org",
-    "n": "Vanguard America",
-    "r": "L",
-    "t": "PatriotFront_",
-    "u": "https://mediabiasfactcheck.com/vanguard-america/",
-    "P": 38,
-    "c": "L",
-    "a": "N"
-  },
   "bloomberg.com": {
     "b": "LC",
     "d": "bloomberg.com",
@@ -8417,7 +8406,7 @@
     "a": "N"
   },
   "dailywire.com": {
-    "b": "R",
+    "b": "FN",
     "d": "dailywire.com",
     "f": "DailyWire",
     "n": "The Daily Wire",
@@ -8425,7 +8414,7 @@
     "t": "realDailyWire",
     "u": "https://mediabiasfactcheck.com/the-daily-wire/",
     "P": 78,
-    "c": "M",
+    "c": "L",
     "a": "H"
   },
   "dailyworldinformation.com": {
@@ -18617,6 +18606,15 @@
     "c": "H",
     "a": "M"
   },
+  "logically.ai": {
+    "b": "C",
+    "d": "logically.ai",
+    "n": "Logically",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/logically/",
+    "c": "H",
+    "a": "M"
+  },
   "lohud.com": {
     "b": "LC",
     "d": "lohud.com",
@@ -24143,6 +24141,17 @@
     "P": 21,
     "c": "L",
     "a": "N"
+  },
+  "patriotfront.us": {
+    "b": "FN",
+    "d": "patriotfront.us",
+    "n": "Vanguard America",
+    "r": "VL",
+    "t": "PatriotFront_",
+    "u": "https://mediabiasfactcheck.com/vanguard-america/",
+    "P": 38,
+    "c": "L",
+    "a": "L"
   },
   "patriothangout.com": {
     "b": "FN",
@@ -34922,7 +34931,7 @@
     "a": "N"
   },
   "truthbetold.news": {
-    "b": "C",
+    "b": "LC",
     "d": "truthbetold.news",
     "f": "TruthBeToldHU",
     "n": "Truth Be Told",
@@ -34930,7 +34939,7 @@
     "u": "https://mediabiasfactcheck.com/truth-be-told/",
     "P": 26,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "truthbrary.org": {
     "b": "S",
@@ -36607,7 +36616,7 @@
     "a": "L"
   },
   "wallstreetonparade.com": {
-    "b": "L",
+    "b": "LC",
     "d": "wallstreetonparade.com",
     "n": "Wall Street on Parade",
     "r": "H",
@@ -37843,14 +37852,14 @@
     "a": "H"
   },
   "worldpress.org": {
-    "b": "C",
+    "b": "LC",
     "d": "worldpress.org",
     "n": "World Press Review",
-    "r": "VH",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/world-press-review/",
     "P": 50,
-    "c": "H",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "worldsocialism.org": {
     "b": "L",
