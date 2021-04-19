@@ -9808,7 +9808,7 @@
     "u": "https://mediabiasfactcheck.com/earth-magazine/",
     "P": 56,
     "c": "H",
-    "a": "L"
+    "a": "N"
   },
   "earthnews2016.com": {
     "b": "FN",
@@ -29540,6 +29540,24 @@
     "c": "L",
     "a": "N"
   },
+  "southlaketoday.com": {
+    "b": "FN",
+    "d": "southlaketoday.com",
+    "n": "Sotuh Lake Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/national-catholic-register/",
+    "c": "L",
+    "a": "L"
+  },
+  "southmianews.com": {
+    "b": "FN",
+    "d": "southmianews.com",
+    "n": "South Miami-Dade News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-miami-dade-news/",
+    "c": "L",
+    "a": "L"
+  },
   "southnewcastlenews.com": {
     "b": "FN",
     "d": "southnewcastlenews.com",
@@ -37913,6 +37931,15 @@
     "P": 61,
     "c": "H",
     "a": "N"
+  },
+  "wral.com": {
+    "b": "LC",
+    "d": "wral.com",
+    "n": "WRAL",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wral/",
+    "c": "H",
+    "a": "M"
   },
   "wri.org": {
     "b": "LC",
