@@ -2096,6 +2096,15 @@
     "c": "H",
     "a": "L"
   },
+  "americasvoice.news": {
+    "b": "R",
+    "d": "americasvoice.news",
+    "n": "Real America's Voice",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/real-americas-voice/",
+    "c": "M",
+    "a": "H"
+  },
   "americasvoice.org": {
     "b": "L",
     "d": "americasvoice.org",
@@ -17201,6 +17210,15 @@
     "c": "L",
     "a": "N"
   },
+  "knopnews2.com": {
+    "b": "C",
+    "d": "knopnews2.com",
+    "n": "KNOP-TV",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/knop-tv/",
+    "c": "H",
+    "a": "M"
+  },
   "knowherenews.com": {
     "b": "C",
     "d": "knowherenews.com",
@@ -18765,6 +18783,15 @@
     "u": "https://mediabiasfactcheck.com/lucianne-com/",
     "P": 66,
     "c": "L",
+    "a": "M"
+  },
+  "lung.org": {
+    "b": "PS",
+    "d": "lung.org",
+    "n": "American Lung Association",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/american-lung-association/",
+    "c": "H",
     "a": "M"
   },
   "lyincomey.com": {
@@ -29575,6 +29602,33 @@
     "u": "https://mediabiasfactcheck.com/south-oc-times/",
     "c": "NA",
     "a": "N"
+  },
+  "southorlandonews.com": {
+    "b": "FN",
+    "d": "southorlandonews.com",
+    "n": "South Orlando News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-orlando-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "southpalmbeachtoday.com": {
+    "b": "FN",
+    "d": "southpalmbeachtoday.com",
+    "n": "South Palm Beach Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-palm-beach-today/",
+    "c": "L",
+    "a": "L"
+  },
+  "southpinellastimes.com": {
+    "b": "FN",
+    "d": "southpinellastimes.com",
+    "n": "South Pinellas Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-pinellas-times/",
+    "c": "L",
+    "a": "L"
   },
   "southsactoday.com": {
     "b": "FN",
