@@ -7306,15 +7306,15 @@
     "a": "M"
   },
   "councilforthenationalinterest.org": {
-    "b": "LC",
+    "b": "FN",
     "d": "councilforthenationalinterest.org",
     "n": "Council for the National Interest",
-    "r": "H",
+    "r": "M",
     "t": "fixMidEpolicy",
     "u": "https://mediabiasfactcheck.com/council-for-the-national-interest/",
     "P": 42,
-    "c": "H",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "countable.us": {
     "b": "C",
@@ -12475,7 +12475,7 @@
     "a": "N"
   },
   "freewestmedia.com": {
-    "b": "R",
+    "b": "FN",
     "d": "freewestmedia.com",
     "f": "Free",
     "n": "Free West Media",
@@ -23579,16 +23579,16 @@
     "a": "N"
   },
   "openthegovernment.org": {
-    "b": "C",
+    "b": "LC",
     "d": "openthegovernment.org",
     "f": "OpenTheGov",
     "n": "Open the Government",
-    "r": "H",
+    "r": "MF",
     "t": "OpenTheGov",
     "u": "https://mediabiasfactcheck.com/open-the-government/",
     "P": 57,
-    "c": "H",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "opposingviews.com": {
     "b": "LC",
@@ -30291,6 +30291,15 @@
     "c": "M",
     "a": "L"
   },
+  "stpetestandard.com": {
+    "b": "FN",
+    "d": "stpetestandard.com",
+    "n": "St. Pete Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-pete-standard/",
+    "c": "L",
+    "a": "L"
+  },
   "straitstimes.com": {
     "b": "RC",
     "d": "straitstimes.com",
@@ -30445,6 +30454,15 @@
     "P": 52,
     "c": "L",
     "a": "M"
+  },
+  "sumtertimes.com": {
+    "b": "FN",
+    "d": "sumtertimes.com",
+    "n": "Sumter Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wbay-action-2-news/",
+    "c": "L",
+    "a": "L"
   },
   "sun-sentinel.com": {
     "b": "C",
