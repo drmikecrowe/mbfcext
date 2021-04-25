@@ -1696,6 +1696,15 @@
     "c": "L",
     "a": "N"
   },
+  "americanconservativemovement.com": {
+    "b": "FN",
+    "d": "americanconservativemovement.com",
+    "n": "American Conservative Movement (ACM)",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/american-conservative-movement-acm/",
+    "c": "L",
+    "a": "L"
+  },
   "americandailynews.org": {
     "b": "R",
     "d": "americandailynews.org",
@@ -18546,6 +18555,15 @@
     "c": "H",
     "a": "L"
   },
+  "littlethings.com": {
+    "b": "CP",
+    "d": "littlethings.com",
+    "n": "LittleThings",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/littlethings/",
+    "c": "L",
+    "a": "M"
+  },
   "liveaction.org": {
     "b": "CP",
     "d": "liveaction.org",
@@ -22527,13 +22545,13 @@
     "a": "M"
   },
   "noqreport.com": {
-    "b": "R",
+    "b": "FN",
     "d": "noqreport.com",
     "n": "NOQ Report",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/noq-report/",
     "P": 49,
-    "c": "M",
+    "c": "L",
     "a": "M"
   },
   "nordicmonitor.com": {
