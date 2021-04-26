@@ -26743,7 +26743,7 @@
     "u": "https://mediabiasfactcheck.com/redoubt-news/",
     "P": 39,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "redpeople.us": {
     "b": "FN",
@@ -30405,12 +30405,12 @@
     "b": "RC",
     "d": "studentnewsdaily.com",
     "f": "StudentNewsDaily",
-    "n": "Student Daily News",
-    "r": "H",
+    "n": "Student News Daily",
+    "r": "MF",
     "t": "StudentNewsD",
     "u": "https://mediabiasfactcheck.com/student-daily-news/",
     "P": 58,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "studionewsnetwork.com": {
@@ -30545,6 +30545,15 @@
     "P": 80,
     "c": "H",
     "a": "N"
+  },
+  "sunshinesentinel.com": {
+    "b": "FN",
+    "d": "sunshinesentinel.com",
+    "n": "Sunshine Sentinel",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sunshine-sentinel/",
+    "c": "L",
+    "a": "L"
   },
   "supplementreference.com": {
     "b": "CP",
@@ -30757,7 +30766,7 @@
     "b": "LC",
     "d": "syriahr.com",
     "n": "Syrian Observatory for Human Rights (SOHR)",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/syrian-observatory-for-human-rights-sohr/",
     "P": 51,
     "c": "H",
@@ -30872,6 +30881,15 @@
     "P": 79,
     "c": "H",
     "a": "M"
+  },
+  "tallahasseesun.com": {
+    "b": "FN",
+    "d": "tallahasseesun.com",
+    "n": "Tallahassee Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tallahassee-sun/",
+    "c": "L",
+    "a": "L"
   },
   "tampabay.com": {
     "b": "LC",
