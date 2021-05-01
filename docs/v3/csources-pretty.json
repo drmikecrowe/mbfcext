@@ -1439,7 +1439,7 @@
     "u": "https://mediabiasfactcheck.com/alt-market/",
     "P": 59,
     "c": "L",
-    "a": "L"
+    "a": "N"
   },
   "alternative-science.com": {
     "b": "S",
@@ -3661,6 +3661,15 @@
     "c": "H",
     "a": "H"
   },
+  "biospace.com": {
+    "b": "PS",
+    "d": "biospace.com",
+    "n": "BioSpace",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/biospace/",
+    "c": "H",
+    "a": "M"
+  },
   "bipartisanpolicy.org": {
     "b": "RC",
     "d": "bipartisanpolicy.org",
@@ -3832,10 +3841,10 @@
     "d": "blacklivesmatter.com",
     "f": "BlackLivesMatter",
     "n": "Black Lives Matter",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/black-lives-matter/",
     "P": 83,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "blackmainstreet.net": {
@@ -4640,7 +4649,7 @@
     "u": "https://mediabiasfactcheck.com/c2c-journal/",
     "P": 39,
     "c": "M",
-    "a": "N"
+    "a": "L"
   },
   "c4ads.org": {
     "b": "LC",
@@ -12222,6 +12231,15 @@
     "c": "NA",
     "a": "N"
   },
+  "frankspeech.com": {
+    "b": "FN",
+    "d": "frankspeech.com",
+    "n": "Frank Speech",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/frank-speech-mike-lindell/",
+    "c": "L",
+    "a": "L"
+  },
   "fraserinstitute.org": {
     "b": "RC",
     "d": "fraserinstitute.org",
@@ -12774,7 +12792,7 @@
     "u": "https://mediabiasfactcheck.com/gallup/",
     "P": 89,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "gao.gov": {
     "b": "C",
@@ -25084,7 +25102,7 @@
     "a": "M"
   },
   "politifact.com": {
-    "b": "C",
+    "b": "LC",
     "d": "politifact.com",
     "f": "politifact",
     "n": "Politifact",
@@ -26135,6 +26153,16 @@
     "c": "H",
     "a": "M"
   },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N"
+  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -26606,12 +26634,11 @@
     "a": "N"
   },
   "realrawnews.com": {
-    "b": "FN",
+    "b": "S",
     "d": "realrawnews.com",
     "n": "Real Raw News",
-    "r": "VL",
     "u": "https://mediabiasfactcheck.com/real-raw-news/",
-    "c": "L",
+    "c": "NA",
     "a": "M"
   },
   "realtimepolitics.com": {
@@ -31967,11 +31994,11 @@
     "d": "thedailybeast.com",
     "f": "thedailybeast",
     "n": "Daily Beast",
-    "r": "MF",
+    "r": "M",
     "t": "thedailybeast",
     "u": "https://mediabiasfactcheck.com/daily-beast/",
     "P": 81,
-    "c": "H",
+    "c": "M",
     "a": "H"
   },
   "thedailybell.com": {
@@ -34829,6 +34856,15 @@
     "c": "L",
     "a": "N"
   },
+  "treasurecoastsun.com": {
+    "b": "FN",
+    "d": "treasurecoastsun.com",
+    "n": "Treasure Coast Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/treasure-coast-sun/",
+    "c": "L",
+    "a": "L"
+  },
   "treehugger.com": {
     "b": "L",
     "d": "treehugger.com",
@@ -36597,7 +36633,7 @@
     "t": "vocativ",
     "u": "https://mediabiasfactcheck.com/vocativ/",
     "P": 67,
-    "c": "H",
+    "c": "NA",
     "a": "L"
   },
   "voiceofamericatv.com": {
@@ -36945,12 +36981,12 @@
     "b": "PS",
     "d": "watchers.news",
     "f": "The-Watchers-255517537825098",
-    "n": "The Wachers",
-    "r": "VH",
+    "n": "The Watchers",
+    "r": "MF",
     "t": "TheWatchers_",
     "u": "https://mediabiasfactcheck.com/the-watchers/",
     "P": 58,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "waterfordwhispersnews.com": {
@@ -37280,6 +37316,15 @@
     "P": 23,
     "c": "L",
     "a": "N"
+  },
+  "westflnews.com": {
+    "b": "FN",
+    "d": "westflnews.com",
+    "n": "West Florida News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-florida-news/",
+    "c": "L",
+    "a": "L"
   },
   "westlatimes.com": {
     "b": "FN",
