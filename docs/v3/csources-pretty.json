@@ -2685,7 +2685,7 @@
     "u": "https://mediabiasfactcheck.com/asia-pacific-research/",
     "P": 35,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "asiancorrespondent.com": {
     "b": "LC",
@@ -4768,6 +4768,15 @@
     "P": 30,
     "c": "NA",
     "a": "N"
+  },
+  "calltoactivism.com": {
+    "b": "L",
+    "d": "calltoactivism.com",
+    "n": "Call to Activism",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/call-to-activism/",
+    "c": "M",
+    "a": "H"
   },
   "calwatchdog.com": {
     "b": "LC",
@@ -26152,16 +26161,6 @@
     "P": 76,
     "c": "H",
     "a": "M"
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N"
   },
   "quackwatch.org": {
     "b": "PS",
