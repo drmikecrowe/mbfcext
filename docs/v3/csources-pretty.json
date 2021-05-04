@@ -1235,6 +1235,15 @@
     "c": "H",
     "a": "M"
   },
+  "albanystandard.com": {
+    "b": "FN",
+    "d": "albanystandard.com",
+    "n": "Albany Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/albany-standard/",
+    "c": "L",
+    "a": "L"
+  },
   "albawaba.com": {
     "b": "FN",
     "d": "albawaba.com",
@@ -6552,6 +6561,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-colorado-sun/",
     "P": 58,
+    "c": "H",
+    "a": "M"
+  },
+  "colorlines.com": {
+    "b": "L",
+    "d": "colorlines.com",
+    "n": "ColorLines",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/colorlines/",
     "c": "H",
     "a": "M"
   },
@@ -21041,6 +21059,15 @@
     "c": "L",
     "a": "N"
   },
+  "nbc11news.com": {
+    "b": "C",
+    "d": "nbc11news.com",
+    "n": "11 News - KKCO",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/11-news-kkco/",
+    "c": "L",
+    "a": "L"
+  },
   "nbclosangeles.com": {
     "b": "LC",
     "d": "nbclosangeles.com",
@@ -26161,16 +26188,6 @@
     "P": 76,
     "c": "H",
     "a": "M"
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N"
   },
   "quackwatch.org": {
     "b": "PS",
@@ -37418,6 +37435,15 @@
     "u": "https://mediabiasfactcheck.com/west-ventura-news/",
     "c": "NA",
     "a": "N"
+  },
+  "westvolusianews.com": {
+    "b": "FN",
+    "d": "westvolusianews.com",
+    "n": "West Volusia News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-volusia-news/",
+    "c": "L",
+    "a": "L"
   },
   "westword.com": {
     "b": "LC",
