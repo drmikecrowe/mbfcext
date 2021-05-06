@@ -2567,6 +2567,15 @@
     "c": "H",
     "a": "M"
   },
+  "arirang.com": {
+    "b": "C",
+    "d": "arirang.com",
+    "n": "Arirang",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/arirang/",
+    "c": "H",
+    "a": "H"
+  },
   "arizonadailyindependent.com": {
     "b": "R",
     "d": "arizonadailyindependent.com",
@@ -2809,6 +2818,15 @@
     "u": "https://mediabiasfactcheck.com/the-atlanta-banana/",
     "P": 28,
     "c": "NA",
+    "a": "L"
+  },
+  "atlstandard.com": {
+    "b": "FN",
+    "d": "atlstandard.com",
+    "n": "ATL Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/atl-standard/",
+    "c": "L",
     "a": "L"
   },
   "atomicmonkey.wordpress.com": {
@@ -11482,6 +11500,15 @@
     "c": "H",
     "a": "M"
   },
+  "faz.net": {
+    "b": "RC",
+    "d": "faz.net",
+    "n": "Frankfurter Allgemeine Zeitung (FAZ)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/frankfurter-allgemeine-zeitung-faz/",
+    "c": "H",
+    "a": "H"
+  },
   "federalistnation.com": {
     "b": "FN",
     "d": "federalistnation.com",
@@ -17432,6 +17459,15 @@
     "c": "NA",
     "a": "N"
   },
+  "ksnblocal4.com": {
+    "b": "C",
+    "d": "ksnblocal4.com",
+    "n": "KSNB Channel 4",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ksnb-channel-4/",
+    "c": "H",
+    "a": "M"
+  },
   "kstp.com": {
     "b": "C",
     "d": "kstp.com",
@@ -20264,8 +20300,8 @@
     "t": "theMRC",
     "u": "https://mediabiasfactcheck.com/media-research-center-mrc/",
     "P": 72,
-    "c": "M",
-    "a": "M"
+    "c": "L",
+    "a": "L"
   },
   "mrcblog.com": {
     "b": "FN",
