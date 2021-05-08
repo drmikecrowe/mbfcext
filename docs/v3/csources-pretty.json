@@ -2736,6 +2736,15 @@
     "c": "L",
     "a": "N"
   },
+  "askingangels.com": {
+    "b": "CP",
+    "d": "askingangels.com",
+    "n": "AskingAngels",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/askingangels-com/",
+    "c": "L",
+    "a": "L"
+  },
   "assassinationscience.com": {
     "b": "CP",
     "d": "assassinationscience.com",
@@ -5394,6 +5403,15 @@
     "c": "NA",
     "a": "N"
   },
+  "centralgeorgianews.com": {
+    "b": "FN",
+    "d": "centralgeorgianews.com",
+    "n": "Central Georgia News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-georgia-news/",
+    "c": "L",
+    "a": "L"
+  },
   "centraloctimes.com": {
     "b": "FN",
     "d": "centraloctimes.com",
@@ -6479,6 +6497,15 @@
     "P": 4,
     "c": "L",
     "a": "N"
+  },
+  "coastalganews.com": {
+    "b": "FN",
+    "d": "coastalganews.com",
+    "n": "Coastal GA News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/coastal-ga-news/",
+    "c": "L",
+    "a": "L"
   },
   "coasttocoastam.com": {
     "b": "CP",
@@ -21522,6 +21549,15 @@
     "c": "H",
     "a": "L"
   },
+  "newideal.aynrand.org": {
+    "b": "RC",
+    "d": "newideal.aynrand.org",
+    "n": "Ayn Rand Institute",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ayn-rand-institute/",
+    "c": "M",
+    "a": "M"
+  },
   "newint.org": {
     "b": "L",
     "d": "newint.org",
@@ -33723,7 +33759,7 @@
     "a": "N"
   },
   "therightscoop.com": {
-    "b": "R",
+    "b": "FN",
     "d": "therightscoop.com",
     "f": "trscoop",
     "n": "The Right Scoop",
@@ -33731,7 +33767,7 @@
     "t": "trscoop",
     "u": "https://mediabiasfactcheck.com/the-right-scoop/",
     "P": 70,
-    "c": "M",
+    "c": "L",
     "a": "M"
   },
   "therightstuff.biz": {
@@ -38325,6 +38361,15 @@
     "P": 85,
     "c": "H",
     "a": "H"
+  },
+  "wtvy.com": {
+    "b": "C",
+    "d": "wtvy.com",
+    "n": "WTVY Channel 4",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtvy-news4/",
+    "c": "H",
+    "a": "M"
   },
   "wusa9.com": {
     "b": "C",
