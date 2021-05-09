@@ -3515,6 +3515,15 @@
     "c": "L",
     "a": "N"
   },
+  "bestlifeonline.com": {
+    "b": "C",
+    "d": "bestlifeonline.com",
+    "n": "BestLife",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bestlife/",
+    "c": "H",
+    "a": "H"
+  },
   "betootaadvocate.com": {
     "b": "S",
     "d": "betootaadvocate.com",
@@ -5057,6 +5066,15 @@
     "c": "H",
     "a": "N"
   },
+  "carbonbrief.org": {
+    "b": "PS",
+    "d": "carbonbrief.org",
+    "n": "Carbon Brief",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/carbon-brief/",
+    "c": "H",
+    "a": "M"
+  },
   "care2.com": {
     "b": "L",
     "d": "care2.com",
@@ -6519,6 +6537,15 @@
     "c": "L",
     "a": "M"
   },
+  "cobbreporter.com": {
+    "b": "FN",
+    "d": "cobbreporter.com",
+    "n": "Cobb Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cobb-reporter/",
+    "c": "L",
+    "a": "L"
+  },
   "cochrane.org": {
     "b": "PS",
     "d": "cochrane.org",
@@ -7742,7 +7769,7 @@
     "u": "https://mediabiasfactcheck.com/crimethinc/",
     "P": 68,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "crisisgroup.org": {
     "b": "LC",
@@ -8468,16 +8495,16 @@
     "a": "L"
   },
   "dailysurge.com": {
-    "b": "R",
+    "b": "FN",
     "d": "dailysurge.com",
     "f": "DailySurge",
     "n": "Daily Surge",
-    "r": "M",
+    "r": "L",
     "t": "jasonmattera",
     "u": "https://mediabiasfactcheck.com/daily-surge/",
     "P": 36,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "dailytarheel.com": {
     "b": "LC",
@@ -17596,6 +17623,15 @@
     "t": "kutv2news",
     "u": "https://mediabiasfactcheck.com/kutv-salt-lake-city/",
     "P": 72,
+    "c": "H",
+    "a": "M"
+  },
+  "kxii.com": {
+    "b": "C",
+    "d": "kxii.com",
+    "n": "KXII News12",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kxii-news12/",
     "c": "H",
     "a": "M"
   },
