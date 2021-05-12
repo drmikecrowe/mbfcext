@@ -1911,6 +1911,15 @@
     "c": "L",
     "a": "N"
   },
+  "americanpolicy.org": {
+    "b": "CP",
+    "d": "americanpolicy.org",
+    "n": "American Policy Center",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/american-policy-center/",
+    "c": "L",
+    "a": "L"
+  },
   "americanpressinstitute.org": {
     "b": "C",
     "d": "americanpressinstitute.org",
@@ -6995,6 +7004,15 @@
     "c": "L",
     "a": "N"
   },
+  "conservativehome.com": {
+    "b": "RC",
+    "d": "conservativehome.com",
+    "n": "Conservative Home",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/conservative-home/",
+    "c": "H",
+    "a": "M"
+  },
   "conservativehq.com": {
     "b": "R",
     "d": "conservativehq.com",
@@ -9065,6 +9083,15 @@
     "c": "L",
     "a": "N"
   },
+  "dekalbganews.com": {
+    "b": "FN",
+    "d": "dekalbganews.com",
+    "n": "Dekalb Ga News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dekalb-ga-news/",
+    "c": "NA",
+    "a": "N"
+  },
   "delawareonline.com": {
     "b": "LC",
     "d": "delawareonline.com",
@@ -9660,14 +9687,14 @@
     "a": "L"
   },
   "donaldjtrump.com": {
-    "b": "R",
+    "b": "FN",
     "d": "donaldjtrump.com",
-    "n": "DonaldJTrump.com",
-    "r": "M",
+    "n": "From the Desk of Donald J. Trump",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/donaldjtrump-com/",
     "P": 75,
-    "c": "M",
-    "a": "H"
+    "c": "L",
+    "a": "M"
   },
   "donaldtrumpnews.co": {
     "b": "FN",
@@ -10165,6 +10192,15 @@
     "u": "https://mediabiasfactcheck.com/european-council-foreign-relations-ecfr/",
     "P": 72,
     "c": "H",
+    "a": "L"
+  },
+  "ecgeorgianews.com": {
+    "b": "FN",
+    "d": "ecgeorgianews.com",
+    "n": "EC Georgia News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ec-georgia-news/",
+    "c": "L",
     "a": "L"
   },
   "ecology.news": {
@@ -21891,6 +21927,15 @@
     "c": "H",
     "a": "H"
   },
+  "news18.com": {
+    "b": "FN",
+    "d": "news18.com",
+    "n": "News18 - India",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/news18/",
+    "c": "L",
+    "a": "H"
+  },
   "news24.com": {
     "b": "C",
     "d": "news24.com",
@@ -27833,6 +27878,17 @@
     "c": "L",
     "a": "N"
   },
+  "rogerstone.tv": {
+    "b": "FN",
+    "d": "rogerstone.tv",
+    "f": "StoneColdTruth",
+    "n": "Stone Cold Truth",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/stone-cold-truth/",
+    "P": 60,
+    "c": "L",
+    "a": "N"
+  },
   "rollcall.com": {
     "b": "C",
     "d": "rollcall.com",
@@ -30441,17 +30497,6 @@
     "u": "https://mediabiasfactcheck.com/stocks-news-daily/",
     "P": 4,
     "c": "H",
-    "a": "N"
-  },
-  "stonecoldtruth.com": {
-    "b": "FN",
-    "d": "stonecoldtruth.com",
-    "f": "StoneColdTruth",
-    "n": "Stone Cold Truth",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/stone-cold-truth/",
-    "P": 60,
-    "c": "L",
     "a": "N"
   },
   "stopfake.org": {
@@ -34998,6 +35043,15 @@
     "c": "H",
     "a": "M"
   },
+  "transparentcalifornia.com": {
+    "b": "RC",
+    "d": "transparentcalifornia.com",
+    "n": "Transparent California",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/transparent-california/",
+    "c": "H",
+    "a": "M"
+  },
   "treason.news": {
     "b": "CP",
     "d": "treason.news",
@@ -38446,6 +38500,15 @@
     "u": "https://mediabiasfactcheck.com/christian-broadcasting-network-cbn/",
     "P": 76,
     "c": "L",
+    "a": "M"
+  },
+  "wyomingnewsnow.tv": {
+    "b": "C",
+    "d": "wyomingnewsnow.tv",
+    "n": "KGWN - Wyoming News Now",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kgwn-wyoming-news-now/",
+    "c": "H",
     "a": "M"
   },
   "x22report.com": {
