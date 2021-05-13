@@ -27878,17 +27878,6 @@
     "c": "L",
     "a": "N"
   },
-  "rogerstone.tv": {
-    "b": "FN",
-    "d": "rogerstone.tv",
-    "f": "StoneColdTruth",
-    "n": "Stone Cold Truth",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/stone-cold-truth/",
-    "P": 60,
-    "c": "L",
-    "a": "N"
-  },
   "rollcall.com": {
     "b": "C",
     "d": "rollcall.com",
@@ -30497,6 +30486,17 @@
     "u": "https://mediabiasfactcheck.com/stocks-news-daily/",
     "P": 4,
     "c": "H",
+    "a": "N"
+  },
+  "stonecoldtruth.com": {
+    "b": "FN",
+    "d": "stonecoldtruth.com",
+    "f": "StoneColdTruth",
+    "n": "Stone Cold Truth",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/stone-cold-truth/",
+    "P": 60,
+    "c": "L",
     "a": "N"
   },
   "stopfake.org": {
