@@ -11794,7 +11794,7 @@
     "u": "https://mediabiasfactcheck.com/fifth-estate/",
     "P": 41,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "fightforthefuture.org": {
     "b": "LC",
@@ -13159,6 +13159,15 @@
     "c": "L",
     "a": "N"
   },
+  "georgiamountainnews.com": {
+    "b": "FN",
+    "d": "georgiamountainnews.com",
+    "n": "Georgia Mountain News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/georgia-mountain-news/",
+    "c": "L",
+    "a": "L"
+  },
   "getcancerremedies.com": {
     "b": "CP",
     "d": "getcancerremedies.com",
@@ -13245,6 +13254,15 @@
     "P": 96,
     "c": "H",
     "a": "H"
+  },
+  "glaad.org": {
+    "b": "L",
+    "d": "glaad.org",
+    "n": "GLAAD",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/glaad/",
+    "c": "H",
+    "a": "M"
   },
   "glamour.com": {
     "b": "LC",
@@ -19076,6 +19094,15 @@
     "c": "H",
     "a": "M"
   },
+  "macontimes.com": {
+    "b": "FN",
+    "d": "macontimes.com",
+    "n": "Macon Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/macon-times/",
+    "c": "L",
+    "a": "L"
+  },
   "madamericannetwork.com": {
     "b": "FN",
     "d": "madamericannetwork.com",
@@ -21315,6 +21342,15 @@
     "n": "NC Florida News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/nc-florida-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "ncgeorgianews.com": {
+    "b": "FN",
+    "d": "ncgeorgianews.com",
+    "n": "NC Georgia News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nc-georgia-news/",
     "c": "L",
     "a": "L"
   },
@@ -26305,6 +26341,15 @@
     "P": 56,
     "c": "H",
     "a": "N"
+  },
+  "punchbowl.news": {
+    "b": "C",
+    "d": "punchbowl.news",
+    "n": "Punchbowl News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/punchbowl-news/",
+    "c": "H",
+    "a": "M"
   },
   "punchingbagpost.com": {
     "b": "R",
@@ -33883,7 +33928,7 @@
     "u": "https://mediabiasfactcheck.com/the-root/",
     "P": 85,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "therundownlive.com": {
     "b": "CP",
@@ -38360,6 +38405,15 @@
     "n": "WRAL",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wral/",
+    "c": "H",
+    "a": "M"
+  },
+  "wrdw.com": {
+    "b": "C",
+    "d": "wrdw.com",
+    "n": "WRDW - News 12",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wrdw-news-12/",
     "c": "H",
     "a": "M"
   },
