@@ -8409,6 +8409,15 @@
     "c": "H",
     "a": "M"
   },
+  "dailyreckoning.com": {
+    "b": "R",
+    "d": "dailyreckoning.com",
+    "n": "Daily Reckoning",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-reckoning/",
+    "c": "M",
+    "a": "M"
+  },
   "dailyrecord.co.uk": {
     "b": "L",
     "d": "dailyrecord.co.uk",
@@ -12335,11 +12344,11 @@
     "d": "fpri.org",
     "f": "FPRInews",
     "n": "Foreign Policy Research Institute",
-    "r": "MF",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/foreign-policy-research-institute/",
     "P": 67,
-    "c": "M",
-    "a": "L"
+    "c": "H",
+    "a": "M"
   },
   "france24-tv.com": {
     "b": "FN",
@@ -12519,6 +12528,15 @@
     "P": 46,
     "c": "L",
     "a": "N"
+  },
+  "freedomfirstnetwork.com": {
+    "b": "FN",
+    "d": "freedomfirstnetwork.com",
+    "n": "Freedom First Network",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/freedom-first-network/",
+    "c": "L",
+    "a": "L"
   },
   "freedomhouse.org": {
     "b": "RC",
@@ -22903,6 +22921,15 @@
     "c": "L",
     "a": "N"
   },
+  "northfultontoday.com": {
+    "b": "FN",
+    "d": "northfultontoday.com",
+    "n": "North Fulton Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-fulton-today/",
+    "c": "L",
+    "a": "L"
+  },
   "northinlandnews.com": {
     "b": "FN",
     "d": "northinlandnews.com",
@@ -24300,7 +24327,7 @@
     "u": "https://mediabiasfactcheck.com/palmer-report/",
     "P": 56,
     "c": "M",
-    "a": "H"
+    "a": "M"
   },
   "pamplinmedia.com": {
     "b": "LC",
@@ -29539,7 +29566,7 @@
     "u": "https://mediabiasfactcheck.com/smartnews/",
     "P": 59,
     "c": "M",
-    "a": "M"
+    "a": "H"
   },
   "smh.com.au": {
     "b": "LC",
@@ -30427,7 +30454,7 @@
     "a": "H"
   },
   "statnews.com": {
-    "b": "C",
+    "b": "LC",
     "d": "statnews.com",
     "f": "statnews",
     "n": "STAT (News)",
@@ -35747,8 +35774,8 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/unbiased-america/",
     "P": 17,
-    "c": "L",
-    "a": "N"
+    "c": "M",
+    "a": "M"
   },
   "unclesamsmisguidedchildren.com": {
     "b": "FN",
@@ -38397,6 +38424,15 @@
     "P": 61,
     "c": "L",
     "a": "L"
+  },
+  "wowt.com": {
+    "b": "C",
+    "d": "wowt.com",
+    "n": "WOWT 6 News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wowt-6-news/",
+    "c": "H",
+    "a": "M"
   },
   "wpxi.com": {
     "b": "C",
