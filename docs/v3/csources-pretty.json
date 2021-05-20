@@ -12455,6 +12455,15 @@
     "c": "L",
     "a": "N"
   },
+  "free-speechfront.info": {
+    "b": "FN",
+    "d": "free-speechfront.info",
+    "n": "Free-Speech Front",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/free-speech-front/",
+    "c": "L",
+    "a": "L"
+  },
   "freebeacon.com": {
     "b": "R",
     "d": "freebeacon.com",
@@ -22930,6 +22939,15 @@
     "c": "L",
     "a": "L"
   },
+  "northgwinnettnews.com": {
+    "b": "FN",
+    "d": "northgwinnettnews.com",
+    "n": "North Gwinnett News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-gwinnett-news/",
+    "c": "L",
+    "a": "L"
+  },
   "northinlandnews.com": {
     "b": "FN",
     "d": "northinlandnews.com",
@@ -24779,6 +24797,15 @@
     "c": "L",
     "a": "M"
   },
+  "personalinterpretation.com": {
+    "b": "FN",
+    "d": "personalinterpretation.com",
+    "n": "Personal Interpretation",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/personal-interpretation/",
+    "c": "L",
+    "a": "L"
+  },
   "personalliberty.com": {
     "b": "FN",
     "d": "personalliberty.com",
@@ -25137,6 +25164,15 @@
     "c": "L",
     "a": "N"
   },
+  "political-discussion.com": {
+    "b": "FN",
+    "d": "political-discussion.com",
+    "n": "PoliticalDiscussion",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/politicaldiscussion/",
+    "c": "L",
+    "a": "L"
+  },
   "politicalblindspot.com": {
     "b": "CP",
     "d": "politicalblindspot.com",
@@ -25347,7 +25383,7 @@
     "u": "https://mediabiasfactcheck.com/free-speech-time/",
     "P": 11,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "politicsthatwork.com": {
     "b": "LC",
@@ -30094,6 +30130,15 @@
     "c": "H",
     "a": "N"
   },
+  "speech-point.com": {
+    "b": "FN",
+    "d": "speech-point.com",
+    "n": "Speech Point",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/speech-point/",
+    "c": "L",
+    "a": "L"
+  },
   "speisa.com": {
     "b": "FN",
     "d": "speisa.com",
@@ -30887,6 +30932,15 @@
     "P": 19,
     "c": "L",
     "a": "N"
+  },
+  "supportisraelnow.com": {
+    "b": "FN",
+    "d": "supportisraelnow.com",
+    "n": "Support Israel Now",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/support-israel-now/",
+    "c": "L",
+    "a": "L"
   },
   "supremepatriot.com": {
     "b": "FN",
@@ -33747,7 +33801,7 @@
     "u": "https://mediabiasfactcheck.com/the-politics-online/",
     "P": 13,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "thepostemail.com": {
     "b": "R",
@@ -33857,6 +33911,15 @@
     "P": 42,
     "c": "L",
     "a": "N"
+  },
+  "theredelephants.com": {
+    "b": "FN",
+    "d": "theredelephants.com",
+    "n": "The Red Elephants",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/the-red-elephants/",
+    "c": "L",
+    "a": "M"
   },
   "theredshtick.com": {
     "b": "S",
@@ -34372,6 +34435,15 @@
     "P": 66,
     "c": "L",
     "a": "M"
+  },
+  "thetruthvoice.net": {
+    "b": "FN",
+    "d": "thetruthvoice.net",
+    "n": "The Truth Voice",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-truth-voice/",
+    "c": "L",
+    "a": "L"
   },
   "thetyee.ca": {
     "b": "LC",
@@ -37357,6 +37429,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/west-central-tribune/",
     "P": 49,
+    "c": "H",
+    "a": "M"
+  },
+  "wctv.tv": {
+    "b": "C",
+    "d": "wctv.tv",
+    "n": "WCTV Eyewitness News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wctv-eyewitness-news/",
     "c": "H",
     "a": "M"
   },
