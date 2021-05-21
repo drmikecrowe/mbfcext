@@ -18201,11 +18201,11 @@
     "d": "leftfootforward.org",
     "f": "None",
     "n": "Left Foot Forward",
-    "r": "H",
+    "r": "M",
     "t": "leftfootfwd",
     "u": "https://mediabiasfactcheck.com/left-foot-forward/",
     "P": 64,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "leftjustified.com": {
@@ -18492,11 +18492,11 @@
     "d": "liberationnews.org",
     "f": "pslweb",
     "n": "Liberation News",
-    "r": "H",
+    "r": "MF",
     "t": "pslweb",
     "u": "https://mediabiasfactcheck.com/liberation-news/",
     "P": 50,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "libertarianism.org": {
@@ -23425,6 +23425,15 @@
     "P": 7,
     "c": "L",
     "a": "N"
+  },
+  "nwatlantanews.com": {
+    "b": "FN",
+    "d": "nwatlantanews.com",
+    "n": "NW Atlanta News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-atlanta-news/",
+    "c": "L",
+    "a": "L"
   },
   "nwconnnews.com": {
     "b": "FN",
