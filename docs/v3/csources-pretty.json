@@ -3363,6 +3363,15 @@
     "c": "L",
     "a": "N"
   },
+  "beckernews.com": {
+    "b": "FN",
+    "d": "beckernews.com",
+    "n": "Becker News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/becker-news/",
+    "c": "L",
+    "a": "M"
+  },
   "beforeitsnews.com": {
     "b": "FN",
     "d": "beforeitsnews.com",
@@ -15495,7 +15504,7 @@
     "d": "illinoispolicy.org",
     "f": "illinoispolicy",
     "n": "Illinois Policy Institute",
-    "r": "H",
+    "r": "MF",
     "t": "illinoispolicy",
     "u": "https://mediabiasfactcheck.com/illinois-policy-institute/",
     "P": 59,
@@ -19532,11 +19541,11 @@
     "b": "CP",
     "d": "mediafactwatch.com",
     "n": "Media Fact Watch",
-    "r": "M",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/media-fact-watch/",
     "P": 36,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "mediafiledc.com": {
     "b": "LC",
