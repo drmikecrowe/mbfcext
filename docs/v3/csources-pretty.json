@@ -20494,7 +20494,7 @@
     "u": "https://mediabiasfactcheck.com/ms-magazine/",
     "P": 74,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "msmlies.com": {
     "b": "FN",
@@ -20926,7 +20926,7 @@
     "b": "LC",
     "d": "nationalnewswatch.com",
     "n": "National Newswatch",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/national-newswatch/",
     "P": 59,
     "c": "H",
@@ -22855,7 +22855,7 @@
     "u": "https://mediabiasfactcheck.com/no-labels/",
     "P": 64,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "noozhawk.com": {
     "b": "C",
@@ -23462,6 +23462,15 @@
     "P": 53,
     "c": "H",
     "a": "M"
+  },
+  "nwgeorgianews.com": {
+    "b": "FN",
+    "d": "nwgeorgianews.com",
+    "n": "NW Georgia News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-georgia-news/",
+    "c": "L",
+    "a": "L"
   },
   "nwitimes.com": {
     "b": "C",
@@ -38017,6 +38026,15 @@
     "P": 48,
     "c": "L",
     "a": "N"
+  },
+  "wibw.com": {
+    "b": "C",
+    "d": "wibw.com",
+    "n": "13 News - WIBW",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/13-news-wibw/",
+    "c": "H",
+    "a": "M"
   },
   "wikiislam.net": {
     "b": "FN",
