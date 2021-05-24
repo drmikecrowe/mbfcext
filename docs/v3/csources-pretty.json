@@ -2754,6 +2754,15 @@
     "c": "L",
     "a": "L"
   },
+  "aspeninstitute.org": {
+    "b": "LC",
+    "d": "aspeninstitute.org",
+    "n": "Aspen Institute",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/aspen-institute/",
+    "c": "H",
+    "a": "M"
+  },
   "assassinationscience.com": {
     "b": "CP",
     "d": "assassinationscience.com",
@@ -16940,6 +16949,15 @@
     "c": "NA",
     "a": "N"
   },
+  "journaldemontreal.com": {
+    "b": "R",
+    "d": "journaldemontreal.com",
+    "n": "Le Journal de Montreal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/le-journal-de-montreal/",
+    "c": "H",
+    "a": "H"
+  },
   "journalgazette.net": {
     "b": "C",
     "d": "journalgazette.net",
@@ -25813,6 +25831,15 @@
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/pravda-report/",
     "P": 59,
+    "c": "L",
+    "a": "L"
+  },
+  "preachtreetimes.com": {
+    "b": "FN",
+    "d": "preachtreetimes.com",
+    "n": "Peach Tree Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/peach-tree-times/",
     "c": "L",
     "a": "L"
   },
@@ -37555,6 +37582,15 @@
     "P": 7,
     "c": "L",
     "a": "N"
+  },
+  "wect.com": {
+    "b": "C",
+    "d": "wect.com",
+    "n": "WECT News 6",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wect-news-6/",
+    "c": "H",
+    "a": "M"
   },
   "weeklystandard.com": {
     "b": "R",
