@@ -101,6 +101,15 @@
     "c": "H",
     "a": "N"
   },
+  "19fortyfive.com": {
+    "b": "RC",
+    "d": "19fortyfive.com",
+    "n": "1945 - 19fortyfive",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/1945-19fortyfive-com/",
+    "c": "H",
+    "a": "M"
+  },
   "19thnews.org": {
     "b": "L",
     "d": "19thnews.org",
@@ -1975,6 +1984,15 @@
     "c": "H",
     "a": "N"
   },
+  "americanpurpose.com": {
+    "b": "LC",
+    "d": "americanpurpose.com",
+    "n": "American Purpose",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/american-purpose/",
+    "c": "H",
+    "a": "M"
+  },
   "americansarepissed.com": {
     "b": "FN",
     "d": "americansarepissed.com",
@@ -3426,11 +3444,11 @@
     "a": "N"
   },
   "belfercenter.org": {
-    "b": "C",
+    "b": "LC",
     "d": "belfercenter.org",
     "f": "belfercenter",
     "n": "Belfer Center for Science and International Affairs",
-    "r": "VH",
+    "r": "H",
     "t": "BelferCenter",
     "u": "https://mediabiasfactcheck.com/the-belfer-center-for-science-and-international-affairs/",
     "P": 63,
@@ -6117,7 +6135,7 @@
     "d": "city-journal.org",
     "f": "CityJournal",
     "n": "City Journal",
-    "r": "H",
+    "r": "MF",
     "t": "cityjournal",
     "u": "https://mediabiasfactcheck.com/city-journal/",
     "P": 74,
@@ -8561,7 +8579,7 @@
     "u": "https://mediabiasfactcheck.com/the-daily-tarheel/",
     "P": 69,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "dailytelegraph.com.au": {
     "b": "R",
@@ -13503,6 +13521,15 @@
     "c": "L",
     "a": "N"
   },
+  "gmanetwork.com": {
+    "b": "LC",
+    "d": "gmanetwork.com",
+    "n": "GMA Network",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gma-network-bias/",
+    "c": "M",
+    "a": "H"
+  },
   "gmo.news": {
     "b": "CP",
     "d": "gmo.news",
@@ -16249,6 +16276,15 @@
     "c": "H",
     "a": "N"
   },
+  "investing.com": {
+    "b": "C",
+    "d": "investing.com",
+    "n": "Investing.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/investing-com/",
+    "c": "M",
+    "a": "H"
+  },
   "investmentwatchblog.com": {
     "b": "CP",
     "d": "investmentwatchblog.com",
@@ -17731,6 +17767,15 @@
     "t": "kutv2news",
     "u": "https://mediabiasfactcheck.com/kutv-salt-lake-city/",
     "P": 72,
+    "c": "H",
+    "a": "M"
+  },
+  "kwqc.com": {
+    "b": "C",
+    "d": "kwqc.com",
+    "n": "KWQC News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kwqc-news/",
     "c": "H",
     "a": "M"
   },
@@ -21301,6 +21346,15 @@
     "u": "https://mediabiasfactcheck.com/11-news-kkco/",
     "c": "L",
     "a": "L"
+  },
+  "nbc15.com": {
+    "b": "C",
+    "d": "nbc15.com",
+    "n": "WMTV News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wmtv-news/",
+    "c": "H",
+    "a": "M"
   },
   "nbclosangeles.com": {
     "b": "LC",
@@ -26663,15 +26717,15 @@
     "a": "M"
   },
   "rappler.com": {
-    "b": "L",
+    "b": "LC",
     "d": "rappler.com",
     "f": "rapplerdotcom",
     "n": "Rappler",
-    "r": "M",
+    "r": "H",
     "t": "rapplerdotcom",
     "u": "https://mediabiasfactcheck.com/rappler/",
     "P": 86,
-    "c": "M",
+    "c": "H",
     "a": "H"
   },
   "rapturenewsnetwork.com": {
@@ -28073,6 +28127,15 @@
     "c": "H",
     "a": "H"
   },
+  "romereporter.com": {
+    "b": "FN",
+    "d": "romereporter.com",
+    "n": "Rome Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/rome-reporter/",
+    "c": "L",
+    "a": "L"
+  },
   "ronpaulinstitute.org": {
     "b": "R",
     "d": "ronpaulinstitute.org",
@@ -28469,6 +28532,15 @@
     "c": "H",
     "a": "M"
   },
+  "santeplusmag.com": {
+    "b": "CP",
+    "d": "santeplusmag.com",
+    "n": "Sante Plus Magazine",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/sante-plus-magazine/",
+    "c": "L",
+    "a": "M"
+  },
   "sapiens.org": {
     "b": "LC",
     "d": "sapiens.org",
@@ -28529,6 +28601,15 @@
     "P": 66,
     "c": "H",
     "a": "M"
+  },
+  "savannastandard.com": {
+    "b": "FN",
+    "d": "savannastandard.com",
+    "n": "Savannah Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/savannah-standard/",
+    "c": "L",
+    "a": "L"
   },
   "savejersey.com": {
     "b": "R",
@@ -29380,7 +29461,7 @@
     "b": "FN",
     "d": "shtfplan.com",
     "n": "SHTFplan.com",
-    "r": "M",
+    "r": "L",
     "t": "SHTFPlan",
     "u": "https://mediabiasfactcheck.com/shtfplan-com/",
     "P": 73,
@@ -29703,7 +29784,7 @@
     "a": "N"
   },
   "snopes.com": {
-    "b": "C",
+    "b": "LC",
     "d": "snopes.com",
     "f": "snopes",
     "n": "Snopes",
@@ -31221,7 +31302,7 @@
     "u": "http://mediabiasfactcheck.com/syria-news/",
     "P": 39,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "tabletmag.com": {
     "b": "LC",
@@ -31982,7 +32063,7 @@
     "a": "N"
   },
   "thebaffler.com": {
-    "b": "LC",
+    "b": "L",
     "d": "thebaffler.com",
     "f": "TheBafflerMagazine",
     "n": "The Baffler",
@@ -36070,11 +36151,11 @@
     "d": "universitybusiness.com",
     "f": "universitybusiness",
     "n": "University Business",
-    "r": "H",
+    "r": "M",
     "t": "universitybiz",
     "u": "https://mediabiasfactcheck.com/university-business/",
     "P": 61,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "unwatch.org": {
@@ -37539,6 +37620,15 @@
     "u": "https://mediabiasfactcheck.com/weasel-zippers/",
     "P": 67,
     "c": "M",
+    "a": "M"
+  },
+  "weau.com": {
+    "b": "C",
+    "d": "weau.com",
+    "n": "WEAU 13 News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/weau-13-news/",
+    "c": "H",
     "a": "M"
   },
   "web.randi.org": {
