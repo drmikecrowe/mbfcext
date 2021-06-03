@@ -19378,8 +19378,8 @@
     "t": "ManhattanInst",
     "u": "https://mediabiasfactcheck.com/manhattan-institute-for-policy-research/",
     "P": 76,
-    "c": "L",
-    "a": "L"
+    "c": "M",
+    "a": "M"
   },
   "manilatimes.net": {
     "b": "RC",
@@ -38394,6 +38394,15 @@
     "c": "H",
     "a": "M"
   },
+  "witn.com": {
+    "b": "C",
+    "d": "witn.com",
+    "n": "WITN News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/witn-news/",
+    "c": "H",
+    "a": "M"
+  },
   "witscience.org": {
     "b": "S",
     "d": "witscience.org",
@@ -38444,6 +38453,18 @@
     "u": "https://mediabiasfactcheck.com/world-net-daily-wnd/",
     "P": 81,
     "c": "L",
+    "a": "M"
+  },
+  "wng.org": {
+    "b": "R",
+    "d": "wng.org",
+    "f": "WORLD.Magazine",
+    "n": "World Magazine",
+    "r": "M",
+    "t": "WORLD_mag",
+    "u": "https://mediabiasfactcheck.com/world-magazine/",
+    "P": 81,
+    "c": "M",
     "a": "M"
   },
   "wnyc.org": {
@@ -38520,18 +38541,6 @@
     "P": 72,
     "c": "H",
     "a": "L"
-  },
-  "world.wng.org": {
-    "b": "R",
-    "d": "world.wng.org",
-    "f": "WORLD.Magazine",
-    "n": "World Magazine",
-    "r": "M",
-    "t": "WORLD_mag",
-    "u": "https://mediabiasfactcheck.com/world-magazine/",
-    "P": 81,
-    "c": "M",
-    "a": "M"
   },
   "worldaffairsbrief.com": {
     "b": "CP",
