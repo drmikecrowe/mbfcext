@@ -7551,12 +7551,12 @@
     "d": "countercurrents.org",
     "f": "countercurrents",
     "n": "CounterCurrents.org",
-    "r": "H",
+    "r": "MF",
     "t": "Countercurrents",
     "u": "https://mediabiasfactcheck.com/countercurrents-org/",
     "P": 67,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "counterpropa.com": {
     "b": "CP",
@@ -28832,6 +28832,15 @@
     "c": "H",
     "a": "N"
   },
+  "sciencedirect.com": {
+    "b": "PS",
+    "d": "sciencedirect.com",
+    "n": "ScienceDirect",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/sciencedirect/",
+    "c": "H",
+    "a": "H"
+  },
   "sciencefactz.com": {
     "b": "CP",
     "d": "sciencefactz.com",
@@ -31568,7 +31577,7 @@
     "u": "https://mediabiasfactcheck.com/canadian-taxpayers-federation/",
     "P": 55,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "taxpolicycenter.org": {
     "b": "LC",
@@ -36059,6 +36068,15 @@
     "c": "L",
     "a": "L"
   },
+  "uncoverdc.com": {
+    "b": "FN",
+    "d": "uncoverdc.com",
+    "n": "UncoverDC",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/uncoverdc/",
+    "c": "L",
+    "a": "M"
+  },
   "undark.org": {
     "b": "C",
     "d": "undark.org",
@@ -36230,8 +36248,8 @@
     "t": "unwatch",
     "u": "https://mediabiasfactcheck.com/un-watch/",
     "P": 68,
-    "c": "L",
-    "a": "N"
+    "c": "H",
+    "a": "M"
   },
   "unz.com": {
     "b": "FN",
@@ -38471,6 +38489,15 @@
     "u": "https://mediabiasfactcheck.com/world-net-daily-wnd/",
     "P": 81,
     "c": "L",
+    "a": "M"
+  },
+  "wndu.com": {
+    "b": "C",
+    "d": "wndu.com",
+    "n": "WNDU News Now",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wndu-news-now/",
+    "c": "H",
     "a": "M"
   },
   "wng.org": {
