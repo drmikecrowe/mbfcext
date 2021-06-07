@@ -7132,6 +7132,15 @@
     "c": "L",
     "a": "N"
   },
+  "conservativeplaylist.com": {
+    "b": "FN",
+    "d": "conservativeplaylist.com",
+    "n": "Conservative Playlist",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/conservative-playlist/",
+    "c": "L",
+    "a": "M"
+  },
   "conservativepoliticstoday": {
     "b": "FN",
     "n": "Conservative Politics Today",
@@ -17190,8 +17199,8 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/just-facts/",
     "P": 44,
-    "c": "M",
-    "a": "L"
+    "c": "H",
+    "a": "M"
   },
   "justfactsdaily.com": {
     "b": "RC",
@@ -30132,6 +30141,15 @@
     "c": "L",
     "a": "M"
   },
+  "southfultontoday.com": {
+    "b": "FN",
+    "d": "southfultontoday.com",
+    "n": "South Fulton Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-fulton-today/",
+    "c": "L",
+    "a": "L"
+  },
   "southjeffconews.com": {
     "b": "FN",
     "d": "southjeffconews.com",
@@ -32944,7 +32962,7 @@
     "d": "thegatewaypundit.com",
     "f": "gatewaypundit",
     "n": "The Gateway Pundit",
-    "r": "L",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/the-gateway-pundit/",
     "P": 79,
     "c": "L",
