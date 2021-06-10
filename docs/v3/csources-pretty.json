@@ -734,12 +734,12 @@
     "a": "N"
   },
   "additudemag.com": {
-    "b": "PS",
+    "b": "CP",
     "d": "additudemag.com",
     "n": "ADDitude Magazine",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/additude-magazine/",
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "adelaidenow.com.au": {
@@ -791,7 +791,7 @@
     "a": "M"
   },
   "adn.com": {
-    "b": "LC",
+    "b": "C",
     "d": "adn.com",
     "n": "Anchorage Daily News",
     "r": "H",
@@ -4748,6 +4748,16 @@
     "P": 92,
     "c": "H",
     "a": "H"
+  },
+  "c-span.org/series/?washingtonjournal": {
+    "b": "C",
+    "d": "c-span.org/series",
+    "n": "Washington Journal (C-Span)",
+    "p": "/series",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/washington-journal/",
+    "c": "H",
+    "a": "M"
   },
   "c2cjournal.ca": {
     "b": "R",
@@ -14051,6 +14061,15 @@
     "c": "H",
     "a": "N"
   },
+  "ground.news": {
+    "b": "C",
+    "d": "ground.news",
+    "n": "Ground News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/ground-news/",
+    "c": "H",
+    "a": "H"
+  },
   "group30.org": {
     "b": "C",
     "d": "group30.org",
@@ -21380,7 +21399,7 @@
     "n": "11 News - KKCO",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/11-news-kkco/",
-    "c": "L",
+    "c": "H",
     "a": "L"
   },
   "nbc15.com": {
@@ -30156,6 +30175,15 @@
     "n": "South Georgia Times",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/south-georgia-times/",
+    "c": "L",
+    "a": "L"
+  },
+  "southgwinnettnews.com": {
+    "b": "FN",
+    "d": "southgwinnettnews.com",
+    "n": "South Gwinnett News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-gwinnett-news/",
     "c": "L",
     "a": "L"
   },
