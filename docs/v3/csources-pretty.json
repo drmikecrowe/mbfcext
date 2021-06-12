@@ -12565,12 +12565,12 @@
     "d": "freedomainradio.com",
     "f": "None",
     "n": "Freedomain Radio",
-    "r": "M",
+    "r": "L",
     "t": "freedomainradio",
     "u": "https://mediabiasfactcheck.com/freedomain-radio/",
     "P": 55,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "freedomalliance.org": {
     "b": "RC",
@@ -27379,6 +27379,15 @@
     "c": "NA",
     "a": "M"
   },
+  "redvoicemedia.com": {
+    "b": "FN",
+    "d": "redvoicemedia.com",
+    "n": "Red Voice Media",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/red-voice-media/",
+    "c": "L",
+    "a": "M"
+  },
   "redwhiteandright.com": {
     "b": "FN",
     "d": "redwhiteandright.com",
@@ -38190,6 +38199,15 @@
     "c": "L",
     "a": "M"
   },
+  "whatregistrater.com": {
+    "b": "FN",
+    "d": "whatregistrater.com",
+    "n": "WhatRegistrater.com (Fake Fox News)",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/whatregistrater-com-fake-fox-news/",
+    "c": "L",
+    "a": "L"
+  },
   "whatstheharm.net": {
     "b": "FN",
     "d": "whatstheharm.net",
@@ -38886,6 +38904,15 @@
     "t": "worldresources",
     "u": "https://mediabiasfactcheck.com/world-resources-institute-wri/",
     "P": 89,
+    "c": "H",
+    "a": "M"
+  },
+  "wsaw.com": {
+    "b": "C",
+    "d": "wsaw.com",
+    "n": "WSAW-TV",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wsaw-tv/",
     "c": "H",
     "a": "M"
   },
