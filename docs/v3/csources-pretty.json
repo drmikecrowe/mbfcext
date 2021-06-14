@@ -2763,6 +2763,17 @@
     "c": "L",
     "a": "N"
   },
+  "asiatimes.com": {
+    "b": "C",
+    "d": "asiatimes.com",
+    "f": "asiatimesonline",
+    "n": "Asia Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/asia-times/",
+    "P": 84,
+    "c": "H",
+    "a": "H"
+  },
   "askingangels.com": {
     "b": "CP",
     "d": "askingangels.com",
@@ -2810,17 +2821,6 @@
     "u": "https://mediabiasfactcheck.com/athens-reporter/",
     "c": "L",
     "a": "L"
-  },
-  "atimes.com": {
-    "b": "C",
-    "d": "atimes.com",
-    "f": "asiatimesonline",
-    "n": "Asia Times",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/asia-times/",
-    "P": 84,
-    "c": "H",
-    "a": "N"
   },
   "atlantablackstar.com": {
     "b": "LC",
@@ -38322,6 +38322,15 @@
     "n": "13 News - WIBW",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/13-news-wibw/",
+    "c": "H",
+    "a": "M"
+  },
+  "wifr.com": {
+    "b": "C",
+    "d": "wifr.com",
+    "n": "23WIFR News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/23wifr-news/",
     "c": "H",
     "a": "M"
   },
