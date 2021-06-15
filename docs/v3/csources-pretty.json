@@ -22399,7 +22399,7 @@
     "u": "https://mediabiasfactcheck.com/news-facts-network-nfn/",
     "P": 9,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "newsfeedhunter.com": {
     "b": "FN",
@@ -31617,6 +31617,15 @@
     "c": "L",
     "a": "M"
   },
+  "tatumreport.com": {
+    "b": "R",
+    "d": "tatumreport.com",
+    "n": "Tatum Report",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tatum-report/",
+    "c": "M",
+    "a": "M"
+  },
   "taxfoundation.org": {
     "b": "RC",
     "d": "taxfoundation.org",
@@ -33752,6 +33761,14 @@
     "P": 31,
     "c": "H",
     "a": "N"
+  },
+  "theneedling.com": {
+    "b": "S",
+    "d": "theneedling.com",
+    "n": "The Needling",
+    "u": "https://mediabiasfactcheck.com/the-needling/",
+    "c": "NA",
+    "a": "L"
   },
   "theness.com": {
     "b": "PS",
@@ -37481,6 +37498,15 @@
     "c": "H",
     "a": "M"
   },
+  "warnerrobinstoday.com": {
+    "b": "FN",
+    "d": "warnerrobinstoday.com",
+    "n": "Warner Robins Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/warner-robins-today/",
+    "c": "L",
+    "a": "L"
+  },
   "warontherocks.com": {
     "b": "C",
     "d": "warontherocks.com",
@@ -38360,10 +38386,10 @@
     "b": "C",
     "d": "wikipedia.org",
     "n": "Wikipedia",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/wikipedia/",
     "P": 97,
-    "c": "H",
+    "c": "M",
     "a": "H"
   },
   "wikispooks.com": {
