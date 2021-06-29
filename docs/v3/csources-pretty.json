@@ -2560,6 +2560,15 @@
     "c": "L",
     "a": "M"
   },
+  "appledaily.com": {
+    "b": "RC",
+    "d": "appledaily.com",
+    "n": "Apple Daily",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/apple-daily/",
+    "c": "H",
+    "a": "H"
+  },
   "aps.org": {
     "b": "PS",
     "d": "aps.org",
@@ -4260,6 +4269,15 @@
     "c": "M",
     "a": "M"
   },
+  "boisecitywire.com": {
+    "b": "FN",
+    "d": "boisecitywire.com",
+    "n": "Boise City Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/boise-city-wire/",
+    "c": "L",
+    "a": "L"
+  },
   "boldprogressives.org": {
     "b": "L",
     "d": "boldprogressives.org",
@@ -5463,6 +5481,15 @@
     "P": 86,
     "c": "H",
     "a": "M"
+  },
+  "cdareporter.com": {
+    "b": "FN",
+    "d": "cdareporter.com",
+    "n": "CDA Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cda-reporter/",
+    "c": "L",
+    "a": "L"
   },
   "cdc.gov": {
     "b": "PS",
@@ -16728,12 +16755,12 @@
     "d": "israelnationalnews.com",
     "f": "IsraelNationalNews",
     "n": "Arutz Sheva (Israel National News)",
-    "r": "H",
+    "r": "M",
     "t": "ArutzSheva_En",
     "u": "https://mediabiasfactcheck.com/arutz-sheva-israel-national-news/",
     "P": 85,
-    "c": "H",
-    "a": "M"
+    "c": "M",
+    "a": "H"
   },
   "israelvideonetwork.com": {
     "b": "FN",
@@ -22966,6 +22993,15 @@
     "P": 78,
     "c": "H",
     "a": "M"
+  },
+  "newyork.cbslocal.com": {
+    "b": "LC",
+    "d": "newyork.cbslocal.com",
+    "n": "CBS New York",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cbs-new-york-wcbs-tv-wlny-tv/",
+    "c": "H",
+    "a": "H"
   },
   "newyorker.com": {
     "b": "L",
