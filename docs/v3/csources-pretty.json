@@ -4257,6 +4257,15 @@
     "c": "H",
     "a": "M"
   },
+  "bnr.nl": {
+    "b": "RC",
+    "d": "bnr.nl",
+    "n": "BNR NewsRadio",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bnr-newsradio/",
+    "c": "H",
+    "a": "M"
+  },
   "boingboing.net": {
     "b": "L",
     "d": "boingboing.net",
@@ -5629,6 +5638,15 @@
     "c": "L",
     "a": "L"
   },
+  "centralidahotimes.com": {
+    "b": "FN",
+    "d": "centralidahotimes.com",
+    "n": "Central Idaho Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-idaho-times/",
+    "c": "L",
+    "a": "L"
+  },
   "centraloctimes.com": {
     "b": "FN",
     "d": "centraloctimes.com",
@@ -5801,6 +5819,15 @@
     "P": 71,
     "c": "H",
     "a": "M"
+  },
+  "chicago.cbslocal.com": {
+    "b": "LC",
+    "d": "chicago.cbslocal.com",
+    "n": "WBBM - CBS Chicago",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbbm-cbs-chicago/",
+    "c": "H",
+    "a": "H"
   },
   "chicago.suntimes.com": {
     "b": "LC",
@@ -10296,6 +10323,15 @@
     "c": "H",
     "a": "N"
   },
+  "eastidahotimes.com": {
+    "b": "FN",
+    "d": "eastidahotimes.com",
+    "n": "East Idaho Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-idaho-times/",
+    "c": "L",
+    "a": "L"
+  },
   "eastlittlerocktimes.com": {
     "b": "FN",
     "d": "eastlittlerocktimes.com",
@@ -10647,6 +10683,15 @@
     "P": 38,
     "c": "L",
     "a": "L"
+  },
+  "eldiario.es": {
+    "b": "LC",
+    "d": "eldiario.es",
+    "n": "elDiario.es",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eldiario-es/",
+    "c": "H",
+    "a": "H"
   },
   "eldiariony.com": {
     "b": "LC",
@@ -11104,6 +11149,15 @@
     "u": "https://mediabiasfactcheck.com/cctv-america/",
     "P": 84,
     "c": "L",
+    "a": "H"
+  },
+  "english.chosun.com": {
+    "b": "RC",
+    "d": "english.chosun.com",
+    "n": "The Chosun Ilbo",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-chosun-ilbo/",
+    "c": "M",
     "a": "H"
   },
   "enhlive.com": {
@@ -22558,12 +22612,12 @@
     "d": "newscientist.com",
     "f": "newscientist",
     "n": "New Scientist",
-    "r": "H",
+    "r": "VH",
     "t": "newscientist",
     "u": "https://mediabiasfactcheck.com/new-scientist/",
     "P": 95,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "newsconservative.com": {
     "b": "FN",
@@ -29493,7 +29547,7 @@
     "u": "https://mediabiasfactcheck.com/secure-america-now/",
     "P": 32,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "securingdemocracy.gmfus.org": {
     "b": "C",
