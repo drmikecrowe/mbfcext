@@ -7236,9 +7236,9 @@
     "c": "H",
     "a": "M"
   },
-  "conservativehq.com": {
+  "conservativehq.org": {
     "b": "R",
-    "d": "conservativehq.com",
+    "d": "conservativehq.org",
     "f": "ConservativeHQ",
     "n": "Conservative HQ",
     "r": "M",
@@ -9376,7 +9376,7 @@
     "u": "https://mediabiasfactcheck.com/democracy-21/",
     "P": 53,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "democracychronicles.org": {
     "b": "L",
@@ -9653,6 +9653,15 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/detik-com/",
     "P": 93,
+    "c": "H",
+    "a": "H"
+  },
+  "detroit.cbslocal.com": {
+    "b": "LC",
+    "d": "detroit.cbslocal.com",
+    "n": "WWJ - CBS Detroit",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wwj-cbs-detroit/",
     "c": "H",
     "a": "H"
   },
@@ -9980,16 +9989,16 @@
     "c": "L",
     "a": "N"
   },
-  "dpa-international.com": {
+  "dpa.com": {
     "b": "C",
-    "d": "dpa-international.com",
+    "d": "dpa.com",
     "n": "DPA German Press Agency",
     "r": "H",
     "t": "dpa_intl",
     "u": "https://mediabiasfactcheck.com/dpa-german-press-agency/",
     "P": 59,
     "c": "H",
-    "a": "L"
+    "a": "H"
   },
   "drainingtheswamp.info": {
     "b": "FN",
@@ -10240,7 +10249,7 @@
     "u": "https://mediabiasfactcheck.com/earthpulse-press/",
     "P": 53,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "earthsky.org": {
     "b": "PS",
@@ -10450,6 +10459,15 @@
     "n": "EC Georgia News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/ec-georgia-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "echocheck.org": {
+    "b": "FN",
+    "d": "echocheck.org",
+    "n": "Echo Check",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/echo-check/",
     "c": "L",
     "a": "L"
   },
@@ -11083,7 +11101,7 @@
     "u": "https://mediabiasfactcheck.com/energy-citizens/",
     "P": 41,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "eng.majalla.com": {
     "b": "FN",
@@ -11312,6 +11330,15 @@
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/eurekaalert/",
     "P": 90,
+    "c": "H",
+    "a": "M"
+  },
+  "euromaidanpress.com": {
+    "b": "LC",
+    "d": "euromaidanpress.com",
+    "n": "Euromaidan Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/euromaiden-press/",
     "c": "H",
     "a": "M"
   },
@@ -13352,6 +13379,15 @@
     "P": 67,
     "c": "L",
     "a": "M"
+  },
+  "gemstatewire.com": {
+    "b": "FN",
+    "d": "gemstatewire.com",
+    "n": "Gem State Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gem-state-wire/",
+    "c": "L",
+    "a": "L"
   },
   "genengnews.com": {
     "b": "PS",
@@ -17370,7 +17406,7 @@
     "u": "https://mediabiasfactcheck.com/milwaukee-journal-sentinel/",
     "P": 88,
     "c": "H",
-    "a": "H"
+    "a": "M"
   },
   "jstor.org": {
     "b": "PS",
@@ -18137,6 +18173,15 @@
     "P": 44,
     "c": "H",
     "a": "L"
+  },
+  "ladepeche.fr": {
+    "b": "LC",
+    "d": "ladepeche.fr",
+    "n": "La Dépêche du Midi",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/la-depeche-du-midi/",
+    "c": "H",
+    "a": "H"
   },
   "ladiesofliberty.net": {
     "b": "S",
@@ -19635,6 +19680,15 @@
     "P": 69,
     "c": "H",
     "a": "M"
+  },
+  "magicvalleytimes.com": {
+    "b": "FN",
+    "d": "magicvalleytimes.com",
+    "n": "Magic Valley Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/magic-valley-times/",
+    "c": "L",
+    "a": "L"
   },
   "mainebeacon.com": {
     "b": "LC",
@@ -24508,7 +24562,7 @@
     "u": "https://mediabiasfactcheck.com/the-other-98/",
     "P": 58,
     "c": "L",
-    "a": "N"
+    "a": "M"
   },
   "ottawacitizen.com": {
     "b": "RC",
@@ -26952,6 +27006,16 @@
     "c": "H",
     "a": "M"
   },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N"
+  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -28813,6 +28877,15 @@
     "P": 53,
     "c": "L",
     "a": "N"
+  },
+  "sanfrancisco.cbslocal.com": {
+    "b": "LC",
+    "d": "sanfrancisco.cbslocal.com",
+    "n": "KPIX - CBS San Francisco",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kpix-cbs-san-francisco/",
+    "c": "H",
+    "a": "H"
   },
   "sanfransun.com": {
     "b": "FN",
@@ -32816,6 +32889,15 @@
     "u": "https://mediabiasfactcheck.com/the-college-fix/",
     "P": 66,
     "c": "M",
+    "a": "M"
+  },
+  "thecoloradoherald.com": {
+    "b": "FN",
+    "d": "thecoloradoherald.com",
+    "n": "The Colorado Herald",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-colorado-herald/",
+    "c": "L",
     "a": "M"
   },
   "thecommonsenseshow.com": {
