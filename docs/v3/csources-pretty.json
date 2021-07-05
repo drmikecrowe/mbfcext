@@ -2560,6 +2560,16 @@
     "c": "L",
     "a": "M"
   },
+  "apple.com/apple-news": {
+    "b": "LC",
+    "d": "apple.com/apple-news",
+    "n": "Apple News",
+    "p": "/apple-news",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/apple-news-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "appledaily.com": {
     "b": "RC",
     "d": "appledaily.com",
@@ -7485,6 +7495,15 @@
     "P": 59,
     "c": "L",
     "a": "N"
+  },
+  "constative.com": {
+    "b": "FN",
+    "d": "constative.com",
+    "n": "Constative",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/constative-bias/",
+    "c": "L",
+    "a": "H"
   },
   "constitutioncenter.org": {
     "b": "C",
@@ -13539,6 +13558,15 @@
     "c": "L",
     "a": "L"
   },
+  "gettr.com": {
+    "b": "FN",
+    "d": "gettr.com",
+    "n": "GETTR",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/gettr/",
+    "c": "L",
+    "a": "H"
+  },
   "ghionjournal.com": {
     "b": "L",
     "d": "ghionjournal.com",
@@ -18117,13 +18145,13 @@
     "a": "M"
   },
   "kusi.com": {
-    "b": "C",
+    "b": "RC",
     "d": "kusi.com",
     "n": "KUSI-TV",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/kusi-tv/",
-    "c": "NA",
-    "a": "N"
+    "c": "H",
+    "a": "M"
   },
   "kutv.com": {
     "b": "RC",
@@ -18622,6 +18650,15 @@
     "c": "H",
     "a": "H"
   },
+  "lefigaro.fr": {
+    "b": "RC",
+    "d": "lefigaro.fr",
+    "n": "Le Figaro",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/le-figaro-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "leftaction.com": {
     "b": "FN",
     "d": "leftaction.com",
@@ -18780,6 +18817,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/leicester-mercury/",
     "P": 54,
+    "c": "H",
+    "a": "H"
+  },
+  "lemonde.fr": {
+    "b": "LC",
+    "d": "lemonde.fr",
+    "n": "Le Monde",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/le-monde-bias/",
     "c": "H",
     "a": "H"
   },
@@ -23438,6 +23484,15 @@
     "n": "North Gwinnett News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-gwinnett-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "northidahotimes.com": {
+    "b": "LC",
+    "d": "northidahotimes.com",
+    "n": "North Idaho Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-idaho-times/",
     "c": "L",
     "a": "L"
   },
