@@ -17667,6 +17667,15 @@
     "c": "NA",
     "a": "N"
   },
+  "kcgr.com": {
+    "b": "C",
+    "d": "kcgr.com",
+    "n": "KCGR News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcrg-news/",
+    "c": "H",
+    "a": "H"
+  },
   "kcna.kp": {
     "b": "FN",
     "d": "kcna.kp",
@@ -25660,6 +25669,15 @@
     "c": "H",
     "a": "M"
   },
+  "pocatellotimes.com": {
+    "b": "FN",
+    "d": "pocatellotimes.com",
+    "n": "Pocatello Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pocatello-times/",
+    "c": "L",
+    "a": "L"
+  },
   "poconorecord.com": {
     "b": "C",
     "d": "poconorecord.com",
@@ -27060,6 +27078,16 @@
     "P": 76,
     "c": "H",
     "a": "M"
+  },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N"
   },
   "quackwatch.org": {
     "b": "PS",
@@ -29582,6 +29610,15 @@
     "u": "https://mediabiasfactcheck.com/se-atlanta-news/",
     "c": "L",
     "a": "L"
+  },
+  "seattle.cbslocal.com": {
+    "b": "LC",
+    "d": "seattle.cbslocal.com",
+    "n": "CBS Seattle - CW 11",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cbs-seattle-cw-11-bias/",
+    "c": "H",
+    "a": "H"
   },
   "seattlepi.com": {
     "b": "LC",
