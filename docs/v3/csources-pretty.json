@@ -1664,6 +1664,15 @@
     "c": "L",
     "a": "N"
   },
+  "americafirstpolicy.com": {
+    "b": "R",
+    "d": "americafirstpolicy.com",
+    "n": "The America First Policy Institute",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-america-first-policy-institute-afpi-bias/",
+    "c": "M",
+    "a": "L"
+  },
   "americamagazine.org": {
     "b": "LC",
     "d": "americamagazine.org",
@@ -7907,6 +7916,15 @@
     "c": "H",
     "a": "L"
   },
+  "cpi.org": {
+    "b": "R",
+    "d": "cpi.org",
+    "n": "Conservative Partnership Institute",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/conservative-partnership-institute/",
+    "c": "M",
+    "a": "L"
+  },
   "cpj.org": {
     "b": "C",
     "d": "cpj.org",
@@ -13823,7 +13841,7 @@
     "u": "https://mediabiasfactcheck.com/globe-magazine/",
     "P": 60,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "globetoday.com": {
     "b": "L",
@@ -15118,18 +15136,6 @@
     "c": "L",
     "a": "M"
   },
-  "highline.huffingtonpost.com": {
-    "b": "LC",
-    "d": "highline.huffingtonpost.com",
-    "f": "HuffingtonPost",
-    "n": "Highline",
-    "r": "H",
-    "t": "highline",
-    "u": "https://mediabiasfactcheck.com/highline/",
-    "P": 69,
-    "c": "H",
-    "a": "M"
-  },
   "hillarybeattrump.org": {
     "b": "S",
     "d": "hillarybeattrump.org",
@@ -15458,6 +15464,19 @@
     "P": 76,
     "c": "M",
     "a": "H"
+  },
+  "huffpost.com/highline": {
+    "b": "LC",
+    "d": "huffpost.com/highline",
+    "f": "HuffingtonPost",
+    "n": "Highline",
+    "p": "/highline",
+    "r": "H",
+    "t": "highline",
+    "u": "https://mediabiasfactcheck.com/highline/",
+    "P": 69,
+    "c": "H",
+    "a": "L"
   },
   "humanevents.com": {
     "b": "R",
@@ -16713,7 +16732,7 @@
     "a": "L"
   },
   "ipatriot.com": {
-    "b": "R",
+    "b": "FN",
     "d": "ipatriot.com",
     "f": "ipatriot",
     "n": "iPatriot",
@@ -16722,7 +16741,7 @@
     "u": "https://mediabiasfactcheck.com/ipatriot/",
     "P": 50,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "ipcc.ch": {
     "b": "PS",
@@ -17918,7 +17937,7 @@
     "u": "https://mediabiasfactcheck.com/knights-templar-international/",
     "P": 35,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "knopnews2.com": {
     "b": "C",
@@ -18433,7 +18452,7 @@
     "u": "https://mediabiasfactcheck.com/latin-times/",
     "P": 61,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "latitudes.org": {
     "b": "CP",
@@ -18976,7 +18995,7 @@
     "u": "https://mediabiasfactcheck.com/liberal-mountain/",
     "P": 22,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "liberalplug.com": {
     "b": "FN",
@@ -20055,7 +20074,7 @@
     "u": "https://mediabiasfactcheck.com/media-circus/",
     "P": 25,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "mediaequalizer.com": {
     "b": "R",
@@ -20111,6 +20130,15 @@
     "P": 87,
     "c": "H",
     "a": "M"
+  },
+  "mediapart.fr": {
+    "b": "LC",
+    "d": "mediapart.fr",
+    "n": "Mediapart",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mediapart-bias-credibility/",
+    "c": "H",
+    "a": "H"
   },
   "mediaroots.org": {
     "b": "CP",
@@ -36015,6 +36043,15 @@
     "n": "Treasure Coast Sun",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/treasure-coast-sun/",
+    "c": "L",
+    "a": "L"
+  },
+  "treasurevalleytimes.com": {
+    "b": "FN",
+    "d": "treasurevalleytimes.com",
+    "n": "Treasure Valley Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/treasure-valley-times/",
     "c": "L",
     "a": "L"
   },
