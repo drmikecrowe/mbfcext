@@ -8599,7 +8599,7 @@
     "d": "dailyhive.com",
     "f": "dailyhivevancouver",
     "n": "The Daily Hive",
-    "r": "H",
+    "r": "MF",
     "t": "DailyHiveVan",
     "u": "https://mediabiasfactcheck.com/daily-hive/",
     "P": 72,
@@ -9426,6 +9426,15 @@
     "P": 33,
     "c": "L",
     "a": "N"
+  },
+  "defendingtherepublic.org": {
+    "b": "FN",
+    "d": "defendingtherepublic.org",
+    "n": "Defending the Republic",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/defending-the-republic-bias/",
+    "c": "L",
+    "a": "M"
   },
   "defensenews.com": {
     "b": "C",
@@ -10291,11 +10300,11 @@
     "d": "dutchreview.com",
     "f": "Dutchreview",
     "n": "Dutch Review",
-    "r": "M",
+    "r": "MF",
     "t": "Dutchreviewing",
     "u": "https://mediabiasfactcheck.com/dutch-review/",
     "P": 47,
-    "c": "M",
+    "c": "H",
     "a": "M"
   },
   "duvaltimes.com": {
@@ -10853,11 +10862,11 @@
     "d": "egbertowillies.com",
     "f": "egbertowillies",
     "n": "Egberto Willies",
-    "r": "M",
+    "r": "H",
     "t": "egbertowillies",
     "u": "https://mediabiasfactcheck.com/egbertowillies/",
     "P": 54,
-    "c": "L",
+    "c": "H",
     "a": "L"
   },
   "egyptianstreets.com": {
@@ -10869,7 +10878,7 @@
     "t": "EgyptianStreets",
     "u": "https://mediabiasfactcheck.com/egyptian-streets/",
     "P": 58,
-    "c": "L",
+    "c": "M",
     "a": "L"
   },
   "egypttoday.com": {
@@ -17315,6 +17324,15 @@
     "c": "H",
     "a": "M"
   },
+  "jalopnik.com": {
+    "b": "LC",
+    "d": "jalopnik.com",
+    "n": "Jalopnik",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jalopnik-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "jamestown.org": {
     "b": "C",
     "d": "jamestown.org",
@@ -23461,7 +23479,7 @@
     "d": "newsweek.com",
     "f": "Newsweek",
     "n": "Newsweek",
-    "r": "MF",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/newsweek/",
     "P": 82,
     "c": "H",
