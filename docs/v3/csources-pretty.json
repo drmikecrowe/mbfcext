@@ -4120,7 +4120,7 @@
     "u": "https://mediabiasfactcheck.com/black-pigeon-speaks/",
     "P": 39,
     "c": "L",
-    "a": "N"
+    "a": "M"
   },
   "bleacherreport.com": {
     "b": "LC",
@@ -22345,6 +22345,15 @@
     "c": "L",
     "a": "L"
   },
+  "nebraska.tv": {
+    "b": "RC",
+    "d": "nebraska.tv",
+    "n": "KWNB - NTV ABC",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kwnb-ntv-abc-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "necalinews.com": {
     "b": "FN",
     "d": "necalinews.com",
@@ -25417,11 +25426,11 @@
     "d": "patheos.com",
     "f": "Patheos",
     "n": "Patheos",
-    "r": "H",
+    "r": "M",
     "t": "Patheos",
     "u": "https://mediabiasfactcheck.com/patheos/",
     "P": 83,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "patribotics.blog": {
