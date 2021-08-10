@@ -10824,6 +10824,15 @@
     "c": "H",
     "a": "M"
   },
+  "edp24.co.uk": {
+    "b": "C",
+    "d": "edp24.co.uk",
+    "n": "Eastern Daily Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eastern-daily-press-uk-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "educate-yourself.org": {
     "b": "CP",
     "d": "educate-yourself.org",
@@ -20287,6 +20296,17 @@
     "u": "https://mediabiasfactcheck.com/political-storm/",
     "P": 42,
     "c": "H",
+    "a": "L"
+  },
+  "mavenroundtable.io/theintellectualist": {
+    "b": "L",
+    "d": "mavenroundtable.io/theintellectualist",
+    "n": "The Intellectualist",
+    "p": "/theintellectualist",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-intellectualist/",
+    "P": 33,
+    "c": "M",
     "a": "L"
   },
   "mayoclinic.org": {
@@ -34218,16 +34238,6 @@
     "c": "H",
     "a": "N"
   },
-  "theintellectualist.co": {
-    "b": "L",
-    "d": "theintellectualist.co",
-    "n": "The Intellectualist",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/the-intellectualist/",
-    "P": 33,
-    "c": "H",
-    "a": "N"
-  },
   "theintercept.com": {
     "b": "L",
     "d": "theintercept.com",
@@ -36201,7 +36211,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/tmz/",
     "P": 96,
-    "c": "M",
+    "c": "L",
     "a": "H"
   },
   "tnonline.com": {
