@@ -10901,15 +10901,15 @@
     "a": "M"
   },
   "ejinsight.com": {
-    "b": "C",
+    "b": "LC",
     "d": "ejinsight.com",
     "f": "ejinsight",
     "n": "EJ Insight",
-    "r": "H",
+    "r": "M",
     "t": "EJInsightHK",
     "u": "https://mediabiasfactcheck.com/ej-insight-eji/",
     "P": 59,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "ekirikas.com": {
@@ -11791,7 +11791,7 @@
     "u": "https://mediabiasfactcheck.com/exposing-the-truth/",
     "P": 36,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "express.co.uk": {
     "b": "R",
@@ -12771,7 +12771,7 @@
     "u": "https://mediabiasfactcheck.com/fortnightly-review/",
     "P": 40,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "fortsmithtimes.com": {
     "b": "FN",
@@ -13568,14 +13568,14 @@
     "a": "M"
   },
   "gaystarnews.com": {
-    "b": "LC",
+    "b": "L",
     "d": "gaystarnews.com",
     "f": "GayStarNews?utm",
     "n": "Gay Star News",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/gay-star-news/",
     "P": 74,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "gazette.com": {
@@ -16171,6 +16171,15 @@
     "c": "H",
     "a": "M"
   },
+  "illinoisvalleytimes.com": {
+    "b": "FN",
+    "d": "illinoisvalleytimes.com",
+    "n": "Illinois Valley Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/illinois-valley-times-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "illuminati-news.com": {
     "b": "CP",
     "d": "illuminati-news.com",
@@ -17103,6 +17112,15 @@
     "u": "https://mediabiasfactcheck.com/the-irish-examiner/",
     "c": "H",
     "a": "H"
+  },
+  "irishsentinel.com": {
+    "b": "CP",
+    "d": "irishsentinel.com",
+    "n": "Irish Sentinel",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/irish-sentinel-bias/",
+    "c": "L",
+    "a": "L"
   },
   "irishtimes.com": {
     "b": "LC",
