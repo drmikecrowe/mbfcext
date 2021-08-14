@@ -11217,7 +11217,7 @@
     "u": "https://mediabiasfactcheck.com/hawar-news-agency/",
     "P": 9,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "en.mehrnews.com": {
     "b": "FN",
@@ -14292,7 +14292,7 @@
     "d": "gopusa.com",
     "f": "gopusa",
     "n": "GOPUSA",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/gopusa/",
     "P": 64,
     "c": "M",
@@ -14555,7 +14555,7 @@
     "u": "https://mediabiasfactcheck.com/greentech-media/",
     "P": 77,
     "c": "H",
-    "a": "M"
+    "a": "L"
   },
   "greenvillegazette.com": {
     "b": "L",
@@ -19625,7 +19625,7 @@
     "d": "limacharlienews.com",
     "f": "limacharlienews",
     "n": "Lima Charlie News",
-    "r": "VH",
+    "r": "H",
     "t": "LimaCharlieNews",
     "u": "https://mediabiasfactcheck.com/lima-charlie-news/",
     "P": 38,
@@ -28612,6 +28612,15 @@
     "c": "L",
     "a": "N"
   },
+  "resistthemainstream.org": {
+    "b": "FN",
+    "d": "resistthemainstream.org",
+    "n": "Resist the Mainstream",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/resist-the-mainstream-bias/",
+    "c": "L",
+    "a": "M"
+  },
   "resourcegovernance.org": {
     "b": "LC",
     "d": "resourcegovernance.org",
@@ -30799,7 +30808,7 @@
     "d": "snopes.com",
     "f": "snopes",
     "n": "Snopes",
-    "r": "H",
+    "r": "MF",
     "t": "snopes",
     "u": "https://mediabiasfactcheck.com/snopes/",
     "P": 94,
