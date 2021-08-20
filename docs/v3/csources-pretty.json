@@ -4383,6 +4383,15 @@
     "c": "L",
     "a": "N"
   },
+  "borderreport.com": {
+    "b": "C",
+    "d": "borderreport.com",
+    "n": "BorderReport",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/borderreport-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "bossip.com": {
     "b": "FN",
     "d": "bossip.com",
@@ -18081,6 +18090,15 @@
     "c": "H",
     "a": "N"
   },
+  "kendallcountytimes.com": {
+    "b": "FN",
+    "d": "kendallcountytimes.com",
+    "n": "Kendall County Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kendall-county-times/",
+    "c": "L",
+    "a": "L"
+  },
   "kenoshanews.com": {
     "b": "LC",
     "d": "kenoshanews.com",
@@ -20899,6 +20917,15 @@
     "P": 61,
     "c": "H",
     "a": "M"
+  },
+  "miami.cbslocal.com": {
+    "b": "LC",
+    "d": "miami.cbslocal.com",
+    "n": "WFOR - CBS Miami",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wfor-cbs-miami/",
+    "c": "H",
+    "a": "H"
   },
   "miamicourant.com": {
     "b": "FN",
@@ -26010,6 +26037,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kdka-cbs-pittsburgh/",
     "P": 82,
+    "c": "H",
+    "a": "H"
+  },
+  "pix11.com": {
+    "b": "C",
+    "d": "pix11.com",
+    "n": "WPIX 11",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wpix-11-bias/",
     "c": "H",
     "a": "H"
   },
@@ -39344,7 +39380,7 @@
     "u": "https://mediabiasfactcheck.com/1600-daily/",
     "P": 66,
     "c": "H",
-    "a": "H"
+    "a": "N"
   },
   "whitehouse.news": {
     "b": "CP",
@@ -40384,7 +40420,7 @@
     "u": "https://mediabiasfactcheck.com/national-youth-rights-association/",
     "P": 51,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "yubasuttertimes.com": {
     "b": "FN",
