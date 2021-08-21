@@ -9648,7 +9648,7 @@
     "u": "https://mediabiasfactcheck.com/democratic-underground/",
     "P": 80,
     "c": "M",
-    "a": "M"
+    "a": "H"
   },
   "democrats.org": {
     "b": "FN",
@@ -18651,6 +18651,15 @@
     "c": "L",
     "a": "N"
   },
+  "lakecountygazette.com": {
+    "b": "FN",
+    "d": "lakecountygazette.com",
+    "n": "Lake County Gazette",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lake-county-gazette-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "laketahoesun.com": {
     "b": "FN",
     "d": "laketahoesun.com",
@@ -20032,6 +20041,15 @@
     "P": 79,
     "c": "H",
     "a": "M"
+  },
+  "maconreporter.com": {
+    "b": "FN",
+    "d": "maconreporter.com",
+    "n": "Macon Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/macon-reporter-bias/",
+    "c": "L",
+    "a": "L"
   },
   "macontimes.com": {
     "b": "FN",
@@ -22457,7 +22475,7 @@
     "a": "N"
   },
   "necn.com": {
-    "b": "LC",
+    "b": "C",
     "d": "necn.com",
     "f": "necntv",
     "n": "New England Cable News (NECN)",
@@ -22674,7 +22692,7 @@
     "u": "https://mediabiasfactcheck.com/new-humanist/",
     "P": 56,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "newideal.aynrand.org": {
     "b": "RC",
@@ -24803,6 +24821,15 @@
     "c": "H",
     "a": "H"
   },
+  "okcfox.com": {
+    "b": "RC",
+    "d": "okcfox.com",
+    "n": "KOKH - Fox 25",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kokh-fox-25/",
+    "c": "H",
+    "a": "M"
+  },
   "okeechobeetimes.com": {
     "b": "FN",
     "d": "okeechobeetimes.com",
@@ -25019,7 +25046,7 @@
     "u": "https://mediabiasfactcheck.com/opslens/",
     "P": 33,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "order-order.com": {
     "b": "R",
@@ -25927,6 +25954,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/philly-voice/",
     "P": 60,
+    "c": "H",
+    "a": "M"
+  },
+  "phl17.com": {
+    "b": "C",
+    "d": "phl17.com",
+    "n": "WPHL 17",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wphl-17-bias/",
     "c": "H",
     "a": "M"
   },
@@ -32558,6 +32594,15 @@
     "u": "https://mediabiasfactcheck.com/tallahassee-sun/",
     "c": "L",
     "a": "L"
+  },
+  "tampa.cbslocal.com": {
+    "b": "LC",
+    "d": "tampa.cbslocal.com",
+    "n": "WTOG - CBS Tampa",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtog-cbs-tampa/",
+    "c": "H",
+    "a": "H"
   },
   "tampabay.com": {
     "b": "LC",
