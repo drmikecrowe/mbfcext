@@ -18260,6 +18260,15 @@
     "c": "H",
     "a": "M"
   },
+  "kmph.com": {
+    "b": "RC",
+    "d": "kmph.com",
+    "n": "KMPH - Fox 26",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kmph-fox-26/",
+    "c": "H",
+    "a": "M"
+  },
   "knewz.com": {
     "b": "RC",
     "d": "knewz.com",
@@ -20445,6 +20454,15 @@
     "P": 83,
     "c": "H",
     "a": "M"
+  },
+  "mchenrytimes.com": {
+    "b": "FN",
+    "d": "mchenrytimes.com",
+    "n": "McHenry Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mchenry-times/",
+    "c": "L",
+    "a": "L"
   },
   "mcsweeneys.net": {
     "b": "S",
@@ -26683,7 +26701,7 @@
     "d": "popularresistance.org",
     "f": "None",
     "n": "Popular Resistance",
-    "r": "H",
+    "r": "MF",
     "t": "PopResistance",
     "u": "https://mediabiasfactcheck.com/popular-resistance/",
     "P": 64,
@@ -27210,7 +27228,7 @@
     "u": "https://mediabiasfactcheck.com/project-censored/",
     "P": 58,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "projectpurge.com": {
     "b": "FN",
