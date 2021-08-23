@@ -5805,6 +5805,15 @@
     "c": "H",
     "a": "M"
   },
+  "chalkbeat.org": {
+    "b": "LC",
+    "d": "chalkbeat.org",
+    "n": "Chalkbeat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/chalkbeat-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "chambanasun.com": {
     "b": "FN",
     "d": "chambanasun.com",
@@ -6683,7 +6692,7 @@
     "u": "https://mediabiasfactcheck.com/climate-change-dispatch/",
     "P": 42,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "climatedepot.com": {
     "b": "CP",
@@ -23475,6 +23484,15 @@
     "c": "H",
     "a": "M"
   },
+  "newspress.com": {
+    "b": "R",
+    "d": "newspress.com",
+    "n": "Santa Barbara News-Press",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/santa-barbara-news-press/",
+    "c": "M",
+    "a": "M"
+  },
   "newsprocession.com": {
     "b": "FN",
     "d": "newsprocession.com",
@@ -27979,6 +27997,15 @@
     "c": "H",
     "a": "M"
   },
+  "realclearmarkets.com": {
+    "b": "RC",
+    "d": "realclearmarkets.com",
+    "n": "RealClearMarkets",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/realclearmarkets-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "realclearpolicy.com": {
     "b": "RC",
     "d": "realclearpolicy.com",
@@ -28036,7 +28063,7 @@
     "u": "https://mediabiasfactcheck.com/realclimate/",
     "P": 81,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "realclimatescience.com": {
     "b": "CP",
