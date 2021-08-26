@@ -2922,6 +2922,15 @@
     "c": "L",
     "a": "L"
   },
+  "atlanta.cbslocal.com": {
+    "b": "LC",
+    "d": "atlanta.cbslocal.com",
+    "n": "WUPA - CBS Atlanta",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wupa-cbs-atlanta/",
+    "c": "H",
+    "a": "H"
+  },
   "atlantablackstar.com": {
     "b": "LC",
     "d": "atlantablackstar.com",
@@ -31412,11 +31421,11 @@
     "b": "CP",
     "d": "space.news",
     "n": "Space.News",
-    "r": "M",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/space-news/",
     "P": 38,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "speakgov.com": {
     "b": "FN",
