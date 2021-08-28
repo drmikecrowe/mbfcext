@@ -3065,6 +3065,17 @@
     "c": "L",
     "a": "N"
   },
+  "augustachronicle.com": {
+    "b": "LC",
+    "d": "augustachronicle.com",
+    "f": "TheAugustaChronicle",
+    "n": "The Augusta Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-augusta-chronicle/",
+    "P": 75,
+    "c": "H",
+    "a": "M"
+  },
   "austinchronicle.com": {
     "b": "L",
     "d": "austinchronicle.com",
@@ -6260,17 +6271,6 @@
     "P": 78,
     "c": "H",
     "a": "H"
-  },
-  "chronicle.augusta.com": {
-    "b": "RC",
-    "d": "chronicle.augusta.com",
-    "f": "TheAugustaChronicle",
-    "n": "The Augusta Chronicle",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/the-augusta-chronicle/",
-    "P": 75,
-    "c": "H",
-    "a": "M"
   },
   "chronicle.com": {
     "b": "LC",
@@ -20223,6 +20223,15 @@
     "c": "H",
     "a": "H"
   },
+  "mainstreamfakemedia.com": {
+    "b": "FN",
+    "d": "mainstreamfakemedia.com",
+    "n": "Mainstream Fake Media",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/mainstream-fake-media-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "makeuseof.com": {
     "b": "C",
     "d": "makeuseof.com",
@@ -20965,6 +20974,15 @@
     "P": 81,
     "c": "H",
     "a": "M"
+  },
+  "metroeastsun.com": {
+    "b": "FN",
+    "d": "metroeastsun.com",
+    "n": "Metro East Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/metro-east-sun/",
+    "c": "L",
+    "a": "L"
   },
   "metrowestdailynews.com": {
     "b": "C",
@@ -30933,6 +30951,15 @@
     "c": "H",
     "a": "H"
   },
+  "smirkingchimp.com": {
+    "b": "L",
+    "d": "smirkingchimp.com",
+    "n": "Smirking Chimp",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/smirking-chimp/",
+    "c": "M",
+    "a": "M"
+  },
   "smithsonianmag.com": {
     "b": "PS",
     "d": "smithsonianmag.com",
@@ -32001,7 +32028,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/stocks-news-daily/",
     "P": 4,
-    "c": "H",
+    "c": "NA",
     "a": "N"
   },
   "stonecoldtruth.com": {
@@ -33516,7 +33543,7 @@
     "u": "https://mediabiasfactcheck.com/the-burning-spear/",
     "P": 33,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "thecanadianpress.com": {
     "b": "C",
@@ -39793,6 +39820,15 @@
     "P": 33,
     "c": "NA",
     "a": "N"
+  },
+  "wjactv.com": {
+    "b": "RC",
+    "d": "wjactv.com",
+    "n": "WJAC - NBC 6",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wjac-nbc-6-bias/",
+    "c": "H",
+    "a": "M"
   },
   "wjhg.com": {
     "b": "C",
