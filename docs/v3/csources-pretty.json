@@ -1273,7 +1273,7 @@
     "d": "alaraby.co.uk",
     "f": "AlAraby.en",
     "n": "The New Arab",
-    "r": "H",
+    "r": "MF",
     "t": "alaraby_ar",
     "u": "https://mediabiasfactcheck.com/the-new-arab/",
     "P": 70,
@@ -7298,7 +7298,7 @@
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/conservative-beaver/",
     "c": "L",
-    "a": "M"
+    "a": "L"
   },
   "conservativebyte.com": {
     "b": "FN",
@@ -8509,6 +8509,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/daily-camera/",
     "P": 58,
+    "c": "H",
+    "a": "M"
+  },
+  "dailycitizen.news": {
+    "b": "LC",
+    "d": "dailycitizen.news",
+    "n": "The Daily Citizen (Dalton)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/daily-citizen-dalton/",
     "c": "H",
     "a": "M"
   },
@@ -21915,6 +21924,15 @@
     "c": "H",
     "a": "H"
   },
+  "nationalinsiders.com": {
+    "b": "FN",
+    "d": "nationalinsiders.com",
+    "n": "National Insiders",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/national-insiders-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "nationalinterest.org": {
     "b": "RC",
     "d": "nationalinterest.org",
@@ -31732,7 +31750,7 @@
     "a": "H"
   },
   "standard.net": {
-    "b": "C",
+    "b": "RC",
     "d": "standard.net",
     "f": "standardexaminer",
     "n": "Utah Standard-Examiner",
@@ -33611,7 +33629,7 @@
     "u": "https://mediabiasfactcheck.com/the-cipher-brief/",
     "P": 55,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "thecitizen.org.au": {
     "b": "LC",
@@ -35370,7 +35388,7 @@
     "u": "https://mediabiasfactcheck.com/the-rantidote/",
     "P": 12,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "therealnews.com": {
     "b": "L",
