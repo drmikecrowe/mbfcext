@@ -3330,6 +3330,15 @@
     "c": "H",
     "a": "H"
   },
+  "baltimore.cbslocal.com": {
+    "b": "LC",
+    "d": "baltimore.cbslocal.com",
+    "n": "WJZ - CBS Baltimore",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wjz-cbs-baltimore-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "baltimoresun.com": {
     "b": "LC",
     "d": "baltimoresun.com",
@@ -18506,6 +18515,15 @@
     "c": "H",
     "a": "M"
   },
+  "kron4.com": {
+    "b": "C",
+    "d": "kron4.com",
+    "n": "KRON 4",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kron-4-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "ksl.com": {
     "b": "C",
     "d": "ksl.com",
@@ -24056,6 +24074,15 @@
     "P": 4,
     "c": "L",
     "a": "N"
+  },
+  "northcooknews.com": {
+    "b": "FN",
+    "d": "northcooknews.com",
+    "n": "North Cook News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-cook-news/",
+    "c": "L",
+    "a": "L"
   },
   "northfultontoday.com": {
     "b": "FN",
@@ -34151,8 +34178,8 @@
     "t": "Flasqueeze",
     "u": "https://mediabiasfactcheck.com/the-florida-squeeze/",
     "P": 30,
-    "c": "L",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "theforbiddenknowledge.com": {
     "b": "CP",
