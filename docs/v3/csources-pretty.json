@@ -13574,7 +13574,7 @@
     "a": "M"
   },
   "gainesville.com": {
-    "b": "C",
+    "b": "LC",
     "d": "gainesville.com",
     "f": "GainesvilleSun",
     "n": "Gainesville Sun",
@@ -16903,7 +16903,7 @@
     "a": "N"
   },
   "international.thenewslens.com": {
-    "b": "RC",
+    "b": "LC",
     "d": "international.thenewslens.com",
     "f": "tnl4international",
     "n": "The News Lens",
@@ -23839,6 +23839,15 @@
     "c": "L",
     "a": "N"
   },
+  "ngo-monitor.org": {
+    "b": "R",
+    "d": "ngo-monitor.org",
+    "n": "NGO Monitor",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ngo-monitor-bias/",
+    "c": "M",
+    "a": "L"
+  },
   "nhk.or.jp": {
     "b": "RC",
     "d": "nhk.or.jp",
@@ -24081,6 +24090,15 @@
     "n": "North Cook News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-cook-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "northegyptnews.com": {
+    "b": "FN",
+    "d": "northegyptnews.com",
+    "n": "North Egypt News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-egypt-news-bias/",
     "c": "L",
     "a": "L"
   },
@@ -34968,7 +34986,7 @@
     "u": "https://mediabiasfactcheck.com/the-national-patriot/",
     "P": 49,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "thenationalpulse.com": {
     "b": "FN",
