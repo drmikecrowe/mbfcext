@@ -25609,7 +25609,7 @@
     "a": "L"
   },
   "pantagraph.com": {
-    "b": "C",
+    "b": "RC",
     "d": "pantagraph.com",
     "f": "pantagraph",
     "n": "The Pantagraph",
@@ -35595,7 +35595,7 @@
     "u": "https://mediabiasfactcheck.com/the-saturday-paper/",
     "P": 57,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "thesciencepost.com": {
     "b": "S",
@@ -35758,8 +35758,8 @@
     "t": "grantstern",
     "u": "https://mediabiasfactcheck.com/the-stern-facts/",
     "P": 32,
-    "c": "L",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "thestranger.com": {
     "b": "LC",
@@ -37211,7 +37211,7 @@
     "u": "https://mediabiasfactcheck.com/truth-uncensored/",
     "P": 36,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "tucson.com": {
     "b": "LC",
@@ -39899,6 +39899,15 @@
     "n": "WJHG News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wjhg-news/",
+    "c": "H",
+    "a": "M"
+  },
+  "wjla.com": {
+    "b": "RC",
+    "d": "wjla.com",
+    "n": "WJLA - ABC 7",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wjla-abc-7-bias/",
     "c": "H",
     "a": "M"
   },
