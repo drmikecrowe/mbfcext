@@ -24662,6 +24662,15 @@
     "c": "L",
     "a": "L"
   },
+  "nwillinoisnews.com": {
+    "b": "FN",
+    "d": "nwillinoisnews.com",
+    "n": "NW Illinois News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-illinois-news-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "nwitimes.com": {
     "b": "C",
     "d": "nwitimes.com",
@@ -37500,7 +37509,7 @@
     "u": "https://mediabiasfactcheck.com/understanding-the-threat/",
     "P": 35,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "understandrealitythroughscience.blogspot.com": {
     "b": "PS",
@@ -38191,11 +38200,11 @@
     "b": "CP",
     "d": "vaccinesrevealed.com",
     "n": "Vaccines Revealed",
-    "r": "L",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/vaccines-revealed/",
     "P": 41,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "vactruth.com": {
     "b": "CP",
@@ -38225,7 +38234,7 @@
     "d": "valuewalk.com",
     "f": "valuewalk",
     "n": "ValueWalk",
-    "r": "H",
+    "r": "MF",
     "t": "valuewalk",
     "u": "https://mediabiasfactcheck.com/valuewalk/",
     "P": 79,
