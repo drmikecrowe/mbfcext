@@ -1052,6 +1052,18 @@
     "c": "H",
     "a": "M"
   },
+  "agu.org": {
+    "b": "PS",
+    "d": "agu.org",
+    "f": "AmericanGeophysicalUnion",
+    "n": "American Geophysical Union (AGU)",
+    "r": "VH",
+    "t": "theAGU",
+    "u": "https://mediabiasfactcheck.com/american-geophysical-union-agu/",
+    "P": 75,
+    "c": "H",
+    "a": "M"
+  },
   "agweb.com": {
     "b": "C",
     "d": "agweb.com",
@@ -3296,6 +3308,15 @@
     "P": 21,
     "c": "L",
     "a": "N"
+  },
+  "bakersfieldnow.com": {
+    "b": "RC",
+    "d": "bakersfieldnow.com",
+    "n": "KBAK - Bakersfield Now",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kbak-bakersfield-now/",
+    "c": "H",
+    "a": "M"
   },
   "baldwintimes.com": {
     "b": "FN",
@@ -30866,18 +30887,6 @@
     "c": "H",
     "a": "M"
   },
-  "sites.agu.org": {
-    "b": "PS",
-    "d": "sites.agu.org",
-    "f": "AmericanGeophysicalUnion",
-    "n": "American Geophysical Union (AGU)",
-    "r": "VH",
-    "t": "theAGU",
-    "u": "https://mediabiasfactcheck.com/american-geophysical-union-agu/",
-    "P": 75,
-    "c": "H",
-    "a": "M"
-  },
   "skepdic.com": {
     "b": "PS",
     "d": "skepdic.com",
@@ -40097,12 +40106,12 @@
     "d": "workers.org",
     "f": "WorkersWorldParty",
     "n": "Workers World",
-    "r": "H",
+    "r": "M",
     "t": "workersworld",
     "u": "https://mediabiasfactcheck.com/workers-world/",
     "P": 72,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "worldaffairsbrief.com": {
     "b": "CP",
