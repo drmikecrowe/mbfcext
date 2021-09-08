@@ -16226,16 +16226,16 @@
     "c": "L",
     "a": "N"
   },
-  "ijr.org": {
-    "b": "C",
-    "d": "ijr.org",
+  "ijr.com": {
+    "b": "R",
+    "d": "ijr.com",
     "f": "theijr",
     "n": "Independent Journal Review",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/independent-journal-review/",
     "P": 75,
-    "c": "M",
-    "a": "L"
+    "c": "H",
+    "a": "M"
   },
   "ilgiornale.it": {
     "b": "RC",
@@ -19932,6 +19932,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/laredo-morning-times-bias-credibility-rating/",
     "P": 70,
+    "c": "H",
+    "a": "M"
+  },
+  "localdvm.com": {
+    "b": "C",
+    "d": "localdvm.com",
+    "n": "WDVM - DCW 50",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdvm-dcw-50/",
     "c": "H",
     "a": "M"
   },
@@ -26079,6 +26088,15 @@
     "P": 95,
     "c": "H",
     "a": "H"
+  },
+  "peoriastandard.com": {
+    "b": "FN",
+    "d": "peoriastandard.com",
+    "n": "Peoria Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/peoria-standard/",
+    "c": "L",
+    "a": "L"
   },
   "perezhilton.com": {
     "b": "FN",
