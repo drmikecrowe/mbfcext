@@ -2642,6 +2642,15 @@
     "c": "H",
     "a": "N"
   },
+  "aptnnews.ca": {
+    "b": "LC",
+    "d": "aptnnews.ca",
+    "n": "APTN National News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/aptn-news/",
+    "c": "H",
+    "a": "M"
+  },
   "arabnews.com": {
     "b": "FN",
     "d": "arabnews.com",
@@ -8905,11 +8914,11 @@
     "d": "dailyrecord.co.uk",
     "f": "TheScottishDailyRecord",
     "n": "Daily Record (Scotland)",
-    "r": "M",
+    "r": "MF",
     "t": "Daily_Record",
     "u": "https://mediabiasfactcheck.com/daily-record-scotland/",
     "P": 91,
-    "c": "M",
+    "c": "H",
     "a": "H"
   },
   "dailyrecord.com": {
@@ -34109,6 +34118,15 @@
     "c": "L",
     "a": "N"
   },
+  "thedesertreview.com": {
+    "b": "FN",
+    "d": "thedesertreview.com",
+    "n": "The Desert Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-desert-review-bias/",
+    "c": "L",
+    "a": "M"
+  },
   "thediplomat.com": {
     "b": "C",
     "d": "thediplomat.com",
@@ -39708,6 +39726,15 @@
     "P": 25,
     "c": "H",
     "a": "N"
+  },
+  "whnt.com": {
+    "b": "C",
+    "d": "whnt.com",
+    "n": "WHNT News 19",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whnt-news-19/",
+    "c": "H",
+    "a": "M"
   },
   "who.int": {
     "b": "PS",
