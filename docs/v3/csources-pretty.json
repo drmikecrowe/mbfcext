@@ -1924,7 +1924,7 @@
     "a": "M"
   },
   "americanmilitarynews.com": {
-    "b": "C",
+    "b": "RC",
     "d": "americanmilitarynews.com",
     "f": "AmericanMilitaryNews",
     "n": "American Military News",
@@ -12565,7 +12565,7 @@
     "a": "L"
   },
   "firstinfreedomdaily.com": {
-    "b": "R",
+    "b": "FN",
     "d": "firstinfreedomdaily.com",
     "f": "FIFdaily",
     "n": "First in Freedom Daily",
@@ -12574,7 +12574,7 @@
     "u": "https://mediabiasfactcheck.com/first-freedom-daily/",
     "P": 29,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "firstpost.com": {
     "b": "RC",
@@ -13007,6 +13007,15 @@
     "c": "M",
     "a": "H"
   },
+  "foxreno.com": {
+    "b": "RC",
+    "d": "foxreno.com",
+    "n": "KRXI - Fox 11",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/krxi-fox-11/",
+    "c": "H",
+    "a": "M"
+  },
   "fpif.org": {
     "b": "LC",
     "d": "fpif.org",
@@ -13206,7 +13215,7 @@
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
     "P": 21,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "freedomdaily.com": {
     "b": "FN",
@@ -33250,7 +33259,7 @@
     "u": "https://mediabiasfactcheck.com/the-tennessean/",
     "P": 68,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "tennesseestar.com": {
     "b": "R",
