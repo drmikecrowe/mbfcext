@@ -13936,10 +13936,10 @@
     "d": "getreligion.org",
     "f": "783855012",
     "n": "Get Religion",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/get-religion/",
     "P": 65,
-    "c": "L",
+    "c": "M",
     "a": "L"
   },
   "gettr.com": {
@@ -23072,6 +23072,15 @@
     "c": "NA",
     "a": "N"
   },
+  "news-medical.net": {
+    "b": "PS",
+    "d": "news-medical.net",
+    "n": "News-Medical.net",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/news-medical-net-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "news.abs-cbn.com": {
     "b": "C",
     "d": "news.abs-cbn.com",
@@ -27924,6 +27933,15 @@
     "P": 63,
     "c": "L",
     "a": "M"
+  },
+  "quincyreporter.com": {
+    "b": "FN",
+    "d": "quincyreporter.com",
+    "n": "Quincy Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/quincy-reporter/",
+    "c": "L",
+    "a": "L"
   },
   "qz.com": {
     "b": "LC",
@@ -40043,6 +40061,15 @@
     "n": "WJLA - ABC 7",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wjla-abc-7-bias/",
+    "c": "H",
+    "a": "M"
+  },
+  "wkrg.com": {
+    "b": "C",
+    "d": "wkrg.com",
+    "n": "WKRG News 5",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wkrg-news-5-bias/",
     "c": "H",
     "a": "M"
   },
