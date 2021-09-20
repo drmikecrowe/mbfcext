@@ -3829,6 +3829,15 @@
     "c": "L",
     "a": "N"
   },
+  "bigcountryhomepage.com": {
+    "b": "C",
+    "d": "bigcountryhomepage.com",
+    "n": "KTAB - Abilene News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktab-abilene-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "biggovernment.news": {
     "b": "CP",
     "d": "biggovernment.news",
@@ -8019,6 +8028,15 @@
     "P": 39,
     "c": "L",
     "a": "N"
+  },
+  "countryliving.com": {
+    "b": "C",
+    "d": "countryliving.com",
+    "n": "Country Living",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/country-living/",
+    "c": "H",
+    "a": "H"
   },
   "courant.com": {
     "b": "LC",
@@ -13053,6 +13071,15 @@
     "c": "H",
     "a": "M"
   },
+  "foxsanantonio.com": {
+    "b": "RC",
+    "d": "foxsanantonio.com",
+    "n": "KABB - Fox 29",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kabb-fox-29-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "fpif.org": {
     "b": "LC",
     "d": "fpif.org",
@@ -15364,7 +15391,7 @@
     "u": "https://mediabiasfactcheck.com/hello-christian/",
     "P": 30,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "helsinkitimes.fi": {
     "b": "LC",
@@ -17643,11 +17670,11 @@
     "b": "CP",
     "d": "jesus-is-savior.com",
     "n": "Jesus is Savior",
-    "r": "L",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/jesus-is-savior/",
     "P": 66,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "jesusdaily.com": {
     "b": "CP",
@@ -18634,10 +18661,10 @@
     "d": "koreaherald.com",
     "f": "thekoreaherald",
     "n": "Korean Herald",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/korean-herald/",
     "P": 89,
-    "c": "M",
+    "c": "H",
     "a": "M"
   },
   "koreatimes.co.kr": {
@@ -20094,7 +20121,7 @@
     "u": "https://mediabiasfactcheck.com/london-web-news/",
     "P": 24,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "loneconservative.com": {
     "b": "R",
@@ -20804,6 +20831,15 @@
     "u": "https://mediabiasfactcheck.com/mediapart-bias-credibility/",
     "c": "H",
     "a": "H"
+  },
+  "mediapost.com": {
+    "b": "C",
+    "d": "mediapost.com",
+    "n": "MediaPost",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mediapost-bias/",
+    "c": "H",
+    "a": "M"
   },
   "mediaroots.org": {
     "b": "CP",
@@ -21550,7 +21586,7 @@
     "u": "https://mediabiasfactcheck.com/molad-center-renewal-israeli-democracy/",
     "P": 33,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "molonlabemedia.com": {
     "b": "FN",
@@ -21807,6 +21843,15 @@
     "P": 69,
     "c": "H",
     "a": "M"
+  },
+  "munciereporter.com": {
+    "b": "FN",
+    "d": "munciereporter.com",
+    "n": "Miuncie Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/muncie-reporter/",
+    "c": "L",
+    "a": "L"
   },
   "muncievoice.com": {
     "b": "LC",
@@ -22670,6 +22715,15 @@
     "n": "NC Georgia News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/nc-georgia-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "ncindiananews.com": {
+    "b": "FN",
+    "d": "ncindiananews.com",
+    "n": "NC Indiana News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nc-indiana-news/",
     "c": "L",
     "a": "L"
   },
@@ -23685,10 +23739,10 @@
     "b": "C",
     "d": "newslookup.com",
     "n": "News Lookup",
-    "r": "VH",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/news-lookup/",
     "P": 56,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "newsmaven.io/pinacnews": {
@@ -36530,15 +36584,16 @@
     "c": "M",
     "a": "H"
   },
-  "thieme.de": {
+  "thieme-connect.com/products/ejournals/journal/10.1055/s-00034926": {
     "b": "CP",
-    "d": "thieme.de",
+    "d": "thieme-connect.com/products/ejournals/journal/10.1055/s-00034926",
     "n": "Homeopathy Journal",
+    "p": "/products/ejournals/journal/10.1055/s-00034926",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/homeopathy-journal/",
     "P": 46,
-    "c": "L",
-    "a": "M"
+    "c": "M",
+    "a": "L"
   },
   "thinkamericana.com": {
     "b": "FN",
