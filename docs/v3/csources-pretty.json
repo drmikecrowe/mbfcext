@@ -1083,7 +1083,7 @@
     "u": "https://mediabiasfactcheck.com/american-herald-tribune/",
     "P": 52,
     "c": "L",
-    "a": "L"
+    "a": "N"
   },
   "ahvalnews.com": {
     "b": "LC",
@@ -18224,6 +18224,15 @@
     "c": "H",
     "a": "M"
   },
+  "katv.com": {
+    "b": "RC",
+    "d": "katv.com",
+    "n": "KATV - Little Rock News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/katv-little-rock-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "kauaisun.com": {
     "b": "FN",
     "d": "kauaisun.com",
@@ -22879,6 +22888,15 @@
     "c": "L",
     "a": "L"
   },
+  "neindiananews.com": {
+    "b": "FN",
+    "d": "neindiananews.com",
+    "n": "NE Indiana News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-indiana-news/",
+    "c": "L",
+    "a": "L"
+  },
   "nejm.org": {
     "b": "PS",
     "d": "nejm.org",
@@ -24381,6 +24399,15 @@
     "n": "North Idaho Times",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-idaho-times/",
+    "c": "L",
+    "a": "L"
+  },
+  "northindynews.com": {
+    "b": "FN",
+    "d": "northindynews.com",
+    "n": "North Indy News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-indy-news/",
     "c": "L",
     "a": "L"
   },
@@ -27457,15 +27484,12 @@
     "c": "L",
     "a": "N"
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L"
   },
