@@ -8676,15 +8676,6 @@
     "c": "H",
     "a": "H"
   },
-  "dailyexpose.co.uk": {
-    "b": "CP",
-    "d": "dailyexpose.co.uk",
-    "n": "The Daily Expose",
-    "r": "VL",
-    "u": "https://mediabiasfactcheck.com/the-daily-expose/",
-    "c": "L",
-    "a": "L"
-  },
   "dailygazette.com": {
     "b": "C",
     "d": "dailygazette.com",
@@ -34503,6 +34494,15 @@
     "c": "L",
     "a": "N"
   },
+  "theexpose.uk": {
+    "b": "CP",
+    "d": "theexpose.uk",
+    "n": "The Daily Expose",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/the-daily-expose/",
+    "c": "L",
+    "a": "L"
+  },
   "thefederalist.com": {
     "b": "FN",
     "d": "thefederalist.com",
@@ -39327,6 +39327,15 @@
     "P": 77,
     "c": "L",
     "a": "H"
+  },
+  "watchdogreport.org": {
+    "b": "R",
+    "d": "watchdogreport.org",
+    "n": "Watchdog Report",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/watchdog-report/",
+    "c": "L",
+    "a": "L"
   },
   "watchers.news": {
     "b": "PS",
