@@ -213,6 +213,15 @@
     "c": "L",
     "a": "N"
   },
+  "5newsonline.com": {
+    "b": "C",
+    "d": "5newsonline.com",
+    "n": "KFSM Fort Smith-Fayetteville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kfsm-fort-smith-fayetteville-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "604now.com": {
     "b": "LC",
     "d": "604now.com",
@@ -6344,18 +6353,6 @@
     "P": 53,
     "c": "NA",
     "a": "N"
-  },
-  "chron.com": {
-    "b": "LC",
-    "d": "chron.com",
-    "f": "chroncom",
-    "n": "Houston Chronicle",
-    "r": "H",
-    "t": "houstonchron",
-    "u": "https://mediabiasfactcheck.com/houston-chronicle/",
-    "P": 78,
-    "c": "H",
-    "a": "H"
   },
   "chronicle.com": {
     "b": "LC",
@@ -15832,6 +15829,18 @@
     "c": "H",
     "a": "H"
   },
+  "houstonchronicle.com": {
+    "b": "LC",
+    "d": "houstonchronicle.com",
+    "f": "chroncom",
+    "n": "Houston Chronicle",
+    "r": "H",
+    "t": "houstonchron",
+    "u": "https://mediabiasfactcheck.com/houston-chronicle/",
+    "P": 78,
+    "c": "H",
+    "a": "H"
+  },
   "howstuffworks.com": {
     "b": "C",
     "d": "howstuffworks.com",
@@ -18082,6 +18091,16 @@
     "c": "H",
     "a": "M"
   },
+  "justfacts.votesmart.org": {
+    "b": "C",
+    "d": "justfacts.votesmart.org",
+    "n": "Vote Smart",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/votesmart/",
+    "P": 81,
+    "c": "H",
+    "a": "M"
+  },
   "justfactsdaily.com": {
     "b": "RC",
     "d": "justfactsdaily.com",
@@ -18627,6 +18646,15 @@
     "u": "https://mediabiasfactcheck.com/kokomo-standard-bias/",
     "c": "L",
     "a": "L"
+  },
+  "kold.com": {
+    "b": "C",
+    "d": "kold.com",
+    "n": "KOLd News 13",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kold-news-13/",
+    "c": "H",
+    "a": "M"
   },
   "kolotv.com": {
     "b": "C",
@@ -30802,6 +30830,15 @@
     "c": "L",
     "a": "L"
   },
+  "seindiananews.com": {
+    "b": "FN",
+    "d": "seindiananews.com",
+    "n": "SE Indiana News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-indiana-news/",
+    "c": "L",
+    "a": "L"
+  },
   "selatimes.com": {
     "b": "FN",
     "d": "selatimes.com",
@@ -31638,6 +31675,15 @@
     "c": "NA",
     "a": "N"
   },
+  "southbendtimes.com": {
+    "b": "FN",
+    "d": "southbendtimes.com",
+    "n": "South Bend Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-bend-times-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "southbendtribune.com": {
     "b": "C",
     "d": "southbendtribune.com",
@@ -31740,6 +31786,15 @@
     "n": "South Gwinnett News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/south-gwinnett-news/",
+    "c": "L",
+    "a": "L"
+  },
+  "southindynews.com": {
+    "b": "FN",
+    "d": "southindynews.com",
+    "n": "South Indy News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-indy-news-bias/",
     "c": "L",
     "a": "L"
   },
@@ -39045,16 +39100,6 @@
     "P": 29,
     "c": "L",
     "a": "N"
-  },
-  "votesmart.org": {
-    "b": "C",
-    "d": "votesmart.org",
-    "n": "Vote Smart",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/votesmart/",
-    "P": 81,
-    "c": "H",
-    "a": "M"
   },
   "votevets.org": {
     "b": "LC",
