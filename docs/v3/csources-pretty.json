@@ -18875,6 +18875,15 @@
     "c": "H",
     "a": "M"
   },
+  "kyma.com": {
+    "b": "C",
+    "d": "kyma.com",
+    "n": "KYMA - Yuma",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kyma-yuma-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "laconiadailysun.com": {
     "b": "LC",
     "d": "laconiadailysun.com",
@@ -28379,11 +28388,11 @@
     "d": "readingthepictures.org",
     "f": "BagNews?ref",
     "n": "Reading the Pictures",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/reading-the-pictures/",
     "P": 63,
-    "c": "H",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "readsludge.com": {
     "b": "L",
@@ -31740,6 +31749,15 @@
     "u": "https://mediabiasfactcheck.com/southend-news-network/",
     "P": 26,
     "c": "NA",
+    "a": "L"
+  },
+  "southernindianatoday.com": {
+    "b": "FN",
+    "d": "southernindianatoday.com",
+    "n": "Southern Indiana Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/southern-indiana-today-bias/",
+    "c": "L",
     "a": "L"
   },
   "southernpatriotnews.com": {
