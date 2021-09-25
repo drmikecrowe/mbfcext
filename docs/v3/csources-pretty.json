@@ -13429,7 +13429,7 @@
     "u": "https://mediabiasfactcheck.com/the-free-telegraph/",
     "P": 28,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "freewestmedia.com": {
     "b": "FN",
@@ -18782,6 +18782,15 @@
     "P": 81,
     "c": "H",
     "a": "H"
+  },
+  "ktul.com": {
+    "b": "RC",
+    "d": "ktul.com",
+    "n": "KTUL - Tulsa News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktul-tulsa-news/",
+    "c": "H",
+    "a": "M"
   },
   "ktva.com": {
     "b": "C",
@@ -31568,8 +31577,8 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/sonoran-news/",
     "P": 51,
-    "c": "L",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "sonsof1776.com": {
     "b": "FN",
@@ -34066,7 +34075,7 @@
     "u": "https://mediabiasfactcheck.com/the-canadian-press/",
     "P": 74,
     "c": "H",
-    "a": "L"
+    "a": "H"
   },
   "thecanary.co": {
     "b": "L",
@@ -34529,7 +34538,7 @@
     "t": "TheECJournal",
     "u": "https://mediabiasfactcheck.com/the-ec-journal/",
     "P": 16,
-    "c": "L",
+    "c": "NA",
     "a": "N"
   },
   "theepochtimes.com": {
@@ -35741,7 +35750,7 @@
     "u": "https://mediabiasfactcheck.com/the-outline/",
     "P": 69,
     "c": "H",
-    "a": "M"
+    "a": "L"
   },
   "thepatriotnation.net": {
     "b": "FN",
