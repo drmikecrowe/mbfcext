@@ -13008,6 +13008,15 @@
     "c": "H",
     "a": "M"
   },
+  "fox23maine.com": {
+    "b": "RC",
+    "d": "fox23maine.com",
+    "n": "WPFO - Portland News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wpfo-portland-news-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "fox29.com": {
     "b": "C",
     "d": "fox29.com",
@@ -13025,6 +13034,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wofl-fox-35-orlando/",
     "P": 56,
+    "c": "H",
+    "a": "M"
+  },
+  "fox40.com": {
+    "b": "C",
+    "d": "fox40.com",
+    "n": "KTXL - Sacramento News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktxl-sacramento-news/",
     "c": "H",
     "a": "M"
   },
@@ -13098,6 +13116,15 @@
     "u": "https://mediabiasfactcheck.com/foreign-policy-research-institute/",
     "P": 67,
     "c": "H",
+    "a": "M"
+  },
+  "fr24news.com": {
+    "b": "FN",
+    "d": "fr24news.com",
+    "n": "FR24 News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/fr24-news/",
+    "c": "L",
     "a": "M"
   },
   "france24-tv.com": {
@@ -18117,8 +18144,8 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/just-facts-daily/",
     "P": 34,
-    "c": "L",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "justicedenied.org": {
     "b": "C",
@@ -19942,10 +19969,10 @@
     "a": "M"
   },
   "lifesitenews.com": {
-    "b": "R",
+    "b": "FN",
     "d": "lifesitenews.com",
     "n": "Life Site News",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/life-site-news/",
     "P": 77,
     "c": "L",
@@ -35978,6 +36005,15 @@
     "c": "NA",
     "a": "L"
   },
+  "theregionnews.com": {
+    "b": "FN",
+    "d": "theregionnews.com",
+    "n": "The Region News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-region-news/",
+    "c": "L",
+    "a": "L"
+  },
   "thereisnews.com": {
     "b": "S",
     "d": "thereisnews.com",
@@ -39996,6 +40032,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wfmz/",
     "P": 57,
+    "c": "H",
+    "a": "M"
+  },
+  "wgme.com": {
+    "b": "RC",
+    "d": "wgme.com",
+    "n": "WGME - CBS 13",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wgme-cbs-13/",
     "c": "H",
     "a": "M"
   },
