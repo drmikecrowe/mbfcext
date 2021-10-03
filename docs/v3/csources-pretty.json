@@ -1458,7 +1458,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/allied-progress/",
     "P": 39,
-    "c": "H",
+    "c": "NA",
     "a": "N"
   },
   "allnewspipeline.com": {
@@ -1846,7 +1846,7 @@
     "u": "https://mediabiasfactcheck.com/american-firearms-institute/",
     "P": 33,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "americanflavor.news": {
     "b": "FN",
@@ -2254,6 +2254,15 @@
     "P": 40,
     "c": "L",
     "a": "N"
+  },
+  "amestoday.com": {
+    "b": "FN",
+    "d": "amestoday.com",
+    "n": "Ames Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ames-today-bias/",
+    "c": "L",
+    "a": "L"
   },
   "amgreatness.com": {
     "b": "R",
@@ -5652,6 +5661,15 @@
     "n": "WIAT - CBS 42",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wiat-cbs-42/",
+    "c": "H",
+    "a": "M"
+  },
+  "cbs6albany.com": {
+    "b": "RC",
+    "d": "cbs6albany.com",
+    "n": "WRGB - Albany",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wrgb-albany-bias/",
     "c": "H",
     "a": "M"
   },
@@ -15803,18 +15821,6 @@
     "c": "H",
     "a": "H"
   },
-  "host.madison.com": {
-    "b": "C",
-    "d": "host.madison.com",
-    "f": "WisconsinStateJournal",
-    "n": "Wisconsin State Journal",
-    "r": "H",
-    "t": "madisondotcom",
-    "u": "https://mediabiasfactcheck.com/wisconsin-state-journal/",
-    "P": 67,
-    "c": "H",
-    "a": "M"
-  },
   "hotair.com": {
     "b": "R",
     "d": "hotair.com",
@@ -18674,6 +18680,15 @@
     "c": "H",
     "a": "M"
   },
+  "koin.com": {
+    "b": "C",
+    "d": "koin.com",
+    "n": "KOIN -Portland",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/koin-portland/",
+    "c": "H",
+    "a": "M"
+  },
   "kokomostandard.com": {
     "b": "FN",
     "d": "kokomostandard.com",
@@ -20424,6 +20439,19 @@
     "P": 24,
     "c": "NA",
     "a": "L"
+  },
+  "madison.com/wsj": {
+    "b": "C",
+    "d": "madison.com/wsj",
+    "f": "WisconsinStateJournal",
+    "n": "Wisconsin State Journal",
+    "p": "/wsj",
+    "r": "H",
+    "t": "madisondotcom",
+    "u": "https://mediabiasfactcheck.com/wisconsin-state-journal/",
+    "P": 67,
+    "c": "H",
+    "a": "M"
   },
   "madworldnews.com": {
     "b": "FN",
