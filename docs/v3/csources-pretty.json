@@ -5715,7 +5715,7 @@
     "u": "https://mediabiasfactcheck.com/ccn-markets-bias-rating/",
     "P": 86,
     "c": "H",
-    "a": "M"
+    "a": "L"
   },
   "cdareporter.com": {
     "b": "FN",
@@ -5771,6 +5771,15 @@
     "P": 56,
     "c": "H",
     "a": "N"
+  },
+  "cedarrapidstoday.com": {
+    "b": "FN",
+    "d": "cedarrapidstoday.com",
+    "n": "Cedar Rapids Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cedar-rapids-today/",
+    "c": "L",
+    "a": "L"
   },
   "cei.org": {
     "b": "FN",
@@ -5870,6 +5879,14 @@
     "n": "Central Idaho Times",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/central-idaho-times/",
+    "c": "L",
+    "a": "L"
+  },
+  "centraliowatimes.com": {
+    "b": "FN",
+    "d": "centraliowatimes.com",
+    "n": "Central Iowa Times",
+    "u": "https://mediabiasfactcheck.com/central-iowa-times-bias/",
     "c": "L",
     "a": "L"
   },
@@ -6957,6 +6974,15 @@
     "u": "https://mediabiasfactcheck.com/cns-news/",
     "P": 79,
     "c": "L",
+    "a": "M"
+  },
+  "cnycentral.com": {
+    "b": "RC",
+    "d": "cnycentral.com",
+    "n": "WTVH - CNYCentral",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtvh-cnycentral-bias/",
+    "c": "H",
     "a": "M"
   },
   "coachellatoday.com": {
@@ -13061,6 +13087,15 @@
     "n": "KTXL - Sacramento News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/ktxl-sacramento-news/",
+    "c": "H",
+    "a": "M"
+  },
+  "fox46.com": {
+    "b": "C",
+    "d": "fox46.com",
+    "n": "WJZY - Charlotte",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wjzy-charlotte-bias/",
     "c": "H",
     "a": "M"
   },
