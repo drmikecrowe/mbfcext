@@ -1144,7 +1144,7 @@
     "b": "CP",
     "d": "aim4truth.org",
     "n": "American Intelligence Media",
-    "r": "M",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/american-intelligence-media/",
     "P": 44,
     "c": "L",
@@ -1922,11 +1922,11 @@
     "c": "L",
     "a": "L"
   },
-  "americanlibertyreport.com": {
-    "b": "R",
-    "d": "americanlibertyreport.com",
+  "americanlibertyemail.com": {
+    "b": "FN",
+    "d": "americanlibertyemail.com",
     "n": "American Liberty Report",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/american-liberty-report/",
     "P": 28,
     "c": "L",
@@ -5748,7 +5748,7 @@
     "u": "https://mediabiasfactcheck.com/center-democracy-technology/",
     "P": 83,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "ceasefiremagazine.co.uk": {
     "b": "L",
@@ -7143,7 +7143,7 @@
     "a": "M"
   },
   "columbiadailyherald.com": {
-    "b": "RC",
+    "b": "C",
     "d": "columbiadailyherald.com",
     "f": "ColumbiaDailyHerald",
     "n": "Columbia Daily Herald",
@@ -10435,6 +10435,15 @@
     "u": "https://mediabiasfactcheck.com/drugs-com/",
     "c": "NA",
     "a": "N"
+  },
+  "dubuquetimes.com": {
+    "b": "FN",
+    "d": "dubuquetimes.com",
+    "n": "Dubuque Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dubuque-times-bias/",
+    "c": "L",
+    "a": "L"
   },
   "duffelblog.com": {
     "b": "S",
@@ -39351,6 +39360,15 @@
     "P": 70,
     "c": "H",
     "a": "M"
+  },
+  "wagmtv.com": {
+    "b": "C",
+    "d": "wagmtv.com",
+    "n": "WAGM - Maine News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wagm-maine-news-bias/",
+    "c": "H",
+    "a": "L"
   },
   "wakeup-world.com": {
     "b": "CP",
