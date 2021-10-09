@@ -9623,7 +9623,7 @@
     "u": "https://mediabiasfactcheck.com/defend-europa/",
     "P": 33,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "defendingtherepublic.org": {
     "b": "FN",
@@ -10907,6 +10907,15 @@
     "c": "L",
     "a": "L"
   },
+  "eciowanews.com": {
+    "b": "FN",
+    "d": "eciowanews.com",
+    "n": "East Central Iowa News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-central-iowa-news-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "ecology.news": {
     "b": "CP",
     "d": "ecology.news",
@@ -11713,7 +11722,7 @@
     "u": "https://mediabiasfactcheck.com/escape-all-these-things/",
     "P": 49,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "espn.com": {
     "b": "LC",
@@ -18209,7 +18218,7 @@
     "u": "https://mediabiasfactcheck.com/climate-etc/",
     "P": 61,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "junkscience.com": {
     "b": "CP",
@@ -39377,6 +39386,15 @@
     "P": 88,
     "c": "H",
     "a": "H"
+  },
+  "wabi.tv": {
+    "b": "C",
+    "d": "wabi.tv",
+    "n": "WABI - Bangor News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wabi-bangor-news-bias",
+    "c": "H",
+    "a": "M"
   },
   "wacotrib.com": {
     "b": "C",
