@@ -6554,6 +6554,15 @@
     "c": "H",
     "a": "M"
   },
+  "citizensjournal.us": {
+    "b": "FN",
+    "d": "citizensjournal.us",
+    "n": "Citizens Journal",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/citizens-journal-bias/",
+    "c": "L",
+    "a": "M"
+  },
   "citizensunited.org": {
     "b": "R",
     "d": "citizensunited.org",
@@ -14627,6 +14636,15 @@
     "P": 70,
     "c": "L",
     "a": "N"
+  },
+  "gopdailybrief.com": {
+    "b": "FN",
+    "d": "gopdailybrief.com",
+    "n": "GOP Daily Brief",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gop-daily-brief-bias/",
+    "c": "L",
+    "a": "M"
   },
   "gopocalypse.org": {
     "b": "L",
@@ -26299,18 +26317,6 @@
     "c": "L",
     "a": "L"
   },
-  "patriotjournal.org": {
-    "b": "FN",
-    "d": "patriotjournal.org",
-    "f": "patriotjournal",
-    "n": "Patriot Journal",
-    "r": "M",
-    "t": "onlinepatriots",
-    "u": "https://mediabiasfactcheck.com/patriot-journal/",
-    "P": 36,
-    "c": "L",
-    "a": "L"
-  },
   "patriotnewsalerts.com": {
     "b": "R",
     "d": "patriotnewsalerts.com",
@@ -35951,6 +35957,18 @@
     "P": 69,
     "c": "H",
     "a": "L"
+  },
+  "thepatriotjournal.com": {
+    "b": "FN",
+    "d": "thepatriotjournal.com",
+    "f": "patriotjournal",
+    "n": "Patriot Journal",
+    "r": "M",
+    "t": "onlinepatriots",
+    "u": "https://mediabiasfactcheck.com/patriot-journal/",
+    "P": 36,
+    "c": "L",
+    "a": "M"
   },
   "thepatriotnation.net": {
     "b": "FN",
