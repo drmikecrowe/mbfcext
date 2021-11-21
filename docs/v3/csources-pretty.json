@@ -8769,6 +8769,15 @@
     "c": "H",
     "a": "M"
   },
+  "dagospia.com": {
+    "b": "FN",
+    "d": "dagospia.com",
+    "n": "Dagospia",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/dagospia-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "daily-chronicle.com": {
     "b": "C",
     "d": "daily-chronicle.com",
@@ -11132,6 +11141,15 @@
     "n": "East Central Iowa News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/east-central-iowa-news-bias/",
+    "c": "L",
+    "a": "L"
+  },
+  "eckansasnews.com": {
+    "b": "FN",
+    "d": "eckansasnews.com",
+    "n": "EC Kansas News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ec-kansas-news-bias/",
     "c": "L",
     "a": "L"
   },
@@ -28256,12 +28274,12 @@
     "d": "progressive.org",
     "f": "theprogressivemagazine",
     "n": "The Progressive",
-    "r": "H",
+    "r": "MF",
     "t": "theprogressive",
     "u": "https://mediabiasfactcheck.com/the-progressive/",
     "P": 74,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "progressivearmy.com": {
     "b": "L",
@@ -32222,6 +32240,15 @@
     "P": 37,
     "c": "L",
     "a": "N"
+  },
+  "snanews.de": {
+    "b": "FN",
+    "d": "snanews.de",
+    "n": "Sputnik News Agency - Germany",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/sputnik-news-agency-germany/",
+    "c": "L",
+    "a": "M"
   },
   "snopes.com": {
     "b": "LC",
@@ -41967,6 +41994,15 @@
     "c": "H",
     "a": "M"
   },
+  "wsfa.com": {
+    "b": "C",
+    "d": "wsfa.com",
+    "n": "WSFA - Montgomery",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wsfa-montgomery-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "wsj.com": {
     "b": "RC",
     "d": "wsj.com",
@@ -42076,6 +42112,15 @@
     "n": "WTVY Channel 4",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wtvy-news4/",
+    "c": "H",
+    "a": "M"
+  },
+  "wtwc40.com": {
+    "b": "RC",
+    "d": "wtwc40.com",
+    "n": "WTWC - Tallahassee News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtwc-tallahassee-news-bias/",
     "c": "H",
     "a": "M"
   },
