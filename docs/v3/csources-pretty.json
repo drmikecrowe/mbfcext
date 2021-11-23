@@ -12437,7 +12437,7 @@
     "a": "L"
   },
   "fairobserver.com": {
-    "b": "C",
+    "b": "LC",
     "d": "fairobserver.com",
     "f": "fairobserver",
     "n": "Fair Observer",
@@ -12445,7 +12445,7 @@
     "u": "https://mediabiasfactcheck.com/fair-observer/",
     "P": 63,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "fairus.org": {
     "b": "FN",
@@ -13523,6 +13523,15 @@
     "u": "https://mediabiasfactcheck.com/foreign-policy-research-institute/",
     "P": 67,
     "c": "H",
+    "a": "M"
+  },
+  "fr.sputniknews.com": {
+    "b": "FN",
+    "d": "fr.sputniknews.com",
+    "n": "Sputnik News Agency - France",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/sputnik-news-agency-france-bias/",
+    "c": "L",
     "a": "M"
   },
   "fr24news.com": {
@@ -16507,6 +16516,15 @@
     "c": "M",
     "a": "M"
   },
+  "hutchtoday.com": {
+    "b": "FN",
+    "d": "hutchtoday.com",
+    "n": "Hutch Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hutch-today-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "huzlers.com": {
     "b": "S",
     "d": "huzlers.com",
@@ -17951,6 +17969,15 @@
     "P": 39,
     "c": "L",
     "a": "L"
+  },
+  "it.sputniknews.com": {
+    "b": "FN",
+    "d": "it.sputniknews.com",
+    "n": "Sputnik News Agency - Italia",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/sputnik-news-agency-italia-bias/",
+    "c": "L",
+    "a": "M"
   },
   "itaglive.com": {
     "b": "FN",
@@ -21930,6 +21957,15 @@
     "c": "H",
     "a": "M"
   },
+  "micdroppolitics.com": {
+    "b": "FN",
+    "d": "micdroppolitics.com",
+    "n": "Mic Drop Politics",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/mic-drop-politics-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "middleamericandemocrat.com": {
     "b": "FN",
     "d": "middleamericandemocrat.com",
@@ -22547,6 +22583,15 @@
     "P": 5,
     "c": "L",
     "a": "N"
+  },
+  "mynbc15.com": {
+    "b": "RC",
+    "d": "mynbc15.com",
+    "n": "WPMI - Mobile News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wpmi-mobile-news/",
+    "c": "H",
+    "a": "M"
   },
   "mynewsguru.com": {
     "b": "FN",
@@ -27041,12 +27086,12 @@
     "d": "pfaw.org",
     "f": "peoplefor",
     "n": "People for the American Way (PFAW)",
-    "r": "H",
+    "r": "MF",
     "t": "peoplefor",
     "u": "https://mediabiasfactcheck.com/people-american-way-pfaw/",
     "P": 73,
-    "c": "H",
-    "a": "M"
+    "c": "M",
+    "a": "L"
   },
   "pgpf.org": {
     "b": "C",
@@ -40100,6 +40145,15 @@
     "c": "H",
     "a": "M"
   },
+  "waff.com": {
+    "b": "C",
+    "d": "waff.com",
+    "n": "WAFF - Huntsville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/waff-huntsville/",
+    "c": "H",
+    "a": "M"
+  },
   "wagmtv.com": {
     "b": "C",
     "d": "wagmtv.com",
@@ -41058,6 +41112,15 @@
     "n": "WGME - CBS 13",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wgme-cbs-13/",
+    "c": "H",
+    "a": "M"
+  },
+  "wgno.com": {
+    "b": "C",
+    "d": "wgno.com",
+    "n": "WGNO - New Orleans News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wgno-new-orleans-news-bias/",
     "c": "H",
     "a": "M"
   },
