@@ -7847,6 +7847,14 @@
     "c": "L",
     "a": "N"
   },
+  "conservativetears.com": {
+    "b": "S",
+    "d": "conservativetears.com",
+    "n": "Conservative Tears",
+    "u": "https://mediabiasfactcheck.com/conservative-tears/",
+    "c": "NA",
+    "a": "L"
+  },
   "conservativetoday.com": {
     "b": "R",
     "d": "conservativetoday.com",
@@ -12554,6 +12562,14 @@
     "P": 25,
     "c": "L",
     "a": "L"
+  },
+  "fark.com": {
+    "b": "S",
+    "d": "fark.com",
+    "n": "FARK.com",
+    "u": "https://mediabiasfactcheck.com/fark-com-bias/",
+    "c": "NA",
+    "a": "H"
   },
   "farleftwatch.com": {
     "b": "R",
@@ -22490,6 +22506,15 @@
     "P": 60,
     "c": "H",
     "a": "L"
+  },
+  "mtonews.com": {
+    "b": "FN",
+    "d": "mtonews.com",
+    "n": "MTO News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/mto-news-bias/",
+    "c": "L",
+    "a": "H"
   },
   "mtstandard.com": {
     "b": "C",
@@ -42005,6 +42030,15 @@
     "n": "WRDW - News 12",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wrdw-news-12/",
+    "c": "H",
+    "a": "M"
+  },
+  "wreg.com": {
+    "b": "C",
+    "d": "wreg.com",
+    "n": "WREG - Memphis",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wreg-memphis/",
     "c": "H",
     "a": "M"
   },
