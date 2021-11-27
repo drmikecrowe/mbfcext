@@ -391,6 +391,15 @@
     "c": "H",
     "a": "M"
   },
+  "aap.com.au": {
+    "b": "C",
+    "d": "aap.com.au",
+    "n": "Australian Associated Press (AAP)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/australian-associated-press-aap/",
+    "c": "H",
+    "a": "M"
+  },
   "aap.org": {
     "b": "PS",
     "d": "aap.org",
@@ -473,6 +482,15 @@
     "n": "WHTM - Harrisburg News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/whtm-harrisburg-news/",
+    "c": "H",
+    "a": "M"
+  },
+  "abc3340.com": {
+    "b": "RC",
+    "d": "abc3340.com",
+    "n": "WBMA - Birmingham News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbma-birmingham-news/",
     "c": "H",
     "a": "M"
   },
@@ -12094,11 +12112,11 @@
     "d": "eutimes.net",
     "f": "EUTimesNET",
     "n": "The European Union Times",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/the-european-union-times/",
     "P": 61,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "eveningharold.com": {
     "b": "S",
@@ -14507,7 +14525,7 @@
     "u": "https://mediabiasfactcheck.com/the-ghion-journal/",
     "P": 35,
     "c": "M",
-    "a": "N"
+    "a": "L"
   },
   "ghost.report": {
     "b": "FN",
@@ -18339,6 +18357,15 @@
     "P": 60,
     "c": "H",
     "a": "M"
+  },
+  "jocotoday.com": {
+    "b": "FN",
+    "d": "jocotoday.com",
+    "n": "Joco today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/joco-today-bias/",
+    "c": "L",
+    "a": "L"
   },
   "joebiden.com": {
     "b": "L",
@@ -24423,7 +24450,7 @@
     "u": "https://mediabiasfactcheck.com/newsguard/",
     "P": 63,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "newsheist.com": {
     "b": "FN",
@@ -39772,13 +39799,13 @@
     "b": "PS",
     "d": "verywell.com",
     "f": "verywell",
-    "n": "VeryWell",
+    "n": "VeryWell Health",
     "r": "H",
     "t": "verywell",
     "u": "https://mediabiasfactcheck.com/verywell/",
     "P": 56,
     "c": "H",
-    "a": "N"
+    "a": "H"
   },
   "verywellfamily.com": {
     "b": "PS",
@@ -41862,7 +41889,7 @@
     "u": "https://mediabiasfactcheck.com/world-doctors-alliance/",
     "P": 30,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "worldgreynews.com": {
     "b": "FN",
@@ -42111,6 +42138,15 @@
     "P": 97,
     "c": "H",
     "a": "H"
+  },
+  "wsmv.com": {
+    "b": "C",
+    "d": "wsmv.com",
+    "n": "WSMV - Nashville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wsmv-nashville-bias/",
+    "c": "H",
+    "a": "M"
   },
   "wspa.com": {
     "b": "C",
