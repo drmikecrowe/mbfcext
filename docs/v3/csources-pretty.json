@@ -3018,6 +3018,15 @@
     "c": "L",
     "a": "L"
   },
+  "asia.nikkei.com": {
+    "b": "RC",
+    "d": "asia.nikkei.com",
+    "n": "Nikkei Asian Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nikkei-asian-review/",
+    "c": "H",
+    "a": "H"
+  },
   "asiancorrespondent.com": {
     "b": "LC",
     "d": "asiancorrespondent.com",
@@ -13497,6 +13506,15 @@
     "c": "H",
     "a": "H"
   },
+  "foxchattanooga.com": {
+    "b": "RC",
+    "d": "foxchattanooga.com",
+    "n": "WTVC - Chattanooga",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtvc-chattanooga-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "foxnews.com": {
     "b": "R",
     "d": "foxnews.com",
@@ -20630,6 +20648,15 @@
     "n": "Litchfield Hills Today",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/litchfield-hills-today/",
+    "c": "L",
+    "a": "L"
+  },
+  "littleappletimes.com": {
+    "b": "FN",
+    "d": "littleappletimes.com",
+    "n": "Little Apple Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/little-apple-times-bias/",
     "c": "L",
     "a": "L"
   },
@@ -27958,7 +27985,7 @@
     "u": "https://mediabiasfactcheck.com/populist-press/",
     "P": 25,
     "c": "L",
-    "a": "N"
+    "a": "M"
   },
   "populistwire.com": {
     "b": "R",
@@ -34459,7 +34486,7 @@
     "u": "https://mediabiasfactcheck.com/techstartups/",
     "P": 47,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "techxplore.com": {
     "b": "PS",
@@ -36164,7 +36191,7 @@
     "u": "https://mediabiasfactcheck.com/the-liberty-beacon/",
     "P": 50,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "thelibertydaily.com": {
     "b": "FN",
@@ -40529,6 +40556,15 @@
     "u": "https://mediabiasfactcheck.com/waynedupree-com/",
     "P": 45,
     "c": "L",
+    "a": "M"
+  },
+  "wbko.com": {
+    "b": "C",
+    "d": "wbko.com",
+    "n": "WBKO - Bowling Green",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbko-bowling-green/",
+    "c": "H",
     "a": "M"
   },
   "wbng.com": {
