@@ -18910,7 +18910,7 @@
     "b": "C",
     "d": "kdvr.com",
     "n": "KDVR-TV",
-    "r": "MF",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/kdvr-tv/",
     "P": 77,
     "c": "H",
@@ -23537,6 +23537,15 @@
     "c": "L",
     "a": "L"
   },
+  "nckansasnews.com": {
+    "b": "FN",
+    "d": "nckansasnews.com",
+    "n": "NC Kansas News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nc-kansas-news-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "ncnewsonline.com": {
     "b": "LC",
     "d": "ncnewsonline.com",
@@ -27644,7 +27653,7 @@
     "u": "https://mediabiasfactcheck.com/political-mayhem-news/",
     "P": 25,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "politicalsitenews.com": {
     "b": "FN",
@@ -29771,7 +29780,7 @@
     "a": "M"
   },
   "relevantmagazine.com": {
-    "b": "C",
+    "b": "LC",
     "d": "relevantmagazine.com",
     "f": "relevant",
     "n": "Relevant Magazine",
@@ -29812,7 +29821,7 @@
     "u": "https://mediabiasfactcheck.com/remington-research-group/",
     "P": 39,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "remnantnewspaper.com": {
     "b": "FN",
@@ -30964,6 +30973,15 @@
     "P": 4,
     "c": "L",
     "a": "N"
+  },
+  "santafenewmexican.com": {
+    "b": "LC",
+    "d": "santafenewmexican.com",
+    "n": "The Santa Fe New Mexican",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/santa-fe-new-mexican/",
+    "c": "H",
+    "a": "M"
   },
   "santamariatimes.com": {
     "b": "C",
@@ -41973,6 +41991,15 @@
     "c": "L",
     "a": "L"
   },
+  "worldlifestyle.com": {
+    "b": "CP",
+    "d": "worldlifestyle.com",
+    "n": "World Lifestyle",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/world-lifestyle-bias/",
+    "c": "L",
+    "a": "H"
+  },
   "worldnewsdailyreport.com": {
     "b": "S",
     "d": "worldnewsdailyreport.com",
@@ -42375,8 +42402,8 @@
     "n": "Kalamazoo News - WWMT",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kalamazoo-news-wwmt/",
-    "c": "NA",
-    "a": "N"
+    "c": "H",
+    "a": "M"
   },
   "wwnytv.com": {
     "b": "C",
@@ -42395,6 +42422,15 @@
     "u": "https://mediabiasfactcheck.com/christian-broadcasting-network-cbn/",
     "P": 76,
     "c": "L",
+    "a": "M"
+  },
+  "wymt.com": {
+    "b": "C",
+    "d": "wymt.com",
+    "n": "WYMT - Eastern Kentucky News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wymt-eastern-kentucky-news-bias/",
+    "c": "H",
     "a": "M"
   },
   "wyomingnewsnow.tv": {
