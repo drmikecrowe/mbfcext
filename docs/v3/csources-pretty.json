@@ -10602,6 +10602,15 @@
     "c": "L",
     "a": "N"
   },
+  "dothaneagle.com": {
+    "b": "C",
+    "d": "dothaneagle.com",
+    "n": "Dothan Eagle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dothan-eagle-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "doubtfulnews.com": {
     "b": "PS",
     "d": "doubtfulnews.com",
@@ -13525,6 +13534,15 @@
     "c": "H",
     "a": "M"
   },
+  "foxlexington.com": {
+    "b": "RC",
+    "d": "foxlexington.com",
+    "n": "WDKY - Lexington News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdky-lexington-news/",
+    "c": "H",
+    "a": "L"
+  },
   "foxnews.com": {
     "b": "R",
     "d": "foxnews.com",
@@ -14210,6 +14228,15 @@
     "P": 52,
     "c": "L",
     "a": "N"
+  },
+  "gadsdentimes.com": {
+    "b": "LC",
+    "d": "gadsdentimes.com",
+    "n": "Gadsden Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/gadsden-times-bias/",
+    "c": "H",
+    "a": "M"
   },
   "gadsdentoday.com": {
     "b": "FN",
@@ -25674,9 +25701,9 @@
     "c": "H",
     "a": "H"
   },
-  "ntd.tv": {
+  "ntd.com": {
     "b": "FN",
-    "d": "ntd.tv",
+    "d": "ntd.com",
     "n": "NTD.TV (New Tang Dynasty)",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/ntd-tv-new-tang-dynasty/",
@@ -26544,10 +26571,10 @@
     "b": "R",
     "d": "outkick.com",
     "n": "OutKick",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/outkick/",
-    "c": "H",
-    "a": "M"
+    "c": "M",
+    "a": "H"
   },
   "outlook.monmouth.edu": {
     "b": "C",
@@ -42251,6 +42278,15 @@
     "t": "worldresources",
     "u": "https://mediabiasfactcheck.com/world-resources-institute-wri/",
     "P": 89,
+    "c": "H",
+    "a": "M"
+  },
+  "wric.com": {
+    "b": "C",
+    "d": "wric.com",
+    "n": "WRIC - Richmond News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wric-richmond-news-bias/",
     "c": "H",
     "a": "M"
   },
