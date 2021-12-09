@@ -786,6 +786,15 @@
     "c": "L",
     "a": "L"
   },
+  "actionnews5.com": {
+    "b": "C",
+    "d": "actionnews5.com",
+    "n": "WMC - Memphis News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wmc-memphis-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "actionnewsjax.com": {
     "b": "C",
     "d": "actionnewsjax.com",
@@ -5425,7 +5434,7 @@
     "u": "https://mediabiasfactcheck.com/campaign-for-liberty/",
     "P": 49,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "campaignlifecoalition.com": {
     "b": "R",
@@ -6749,12 +6758,12 @@
     "d": "citizensforethics.org",
     "f": "citizensforethics",
     "n": "Citizens for Responsibility and Ethics in Washington (CREW)",
-    "r": "H",
+    "r": "MF",
     "t": "CREWcrew",
     "u": "https://mediabiasfactcheck.com/citizens-responsibility-ethics-washington-crew/",
     "P": 75,
-    "c": "H",
-    "a": "M"
+    "c": "M",
+    "a": "L"
   },
   "citizensjournal.us": {
     "b": "FN",
@@ -7719,7 +7728,7 @@
     "u": "https://mediabiasfactcheck.com/conservative-free-press/",
     "P": 31,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "conservativehome.com": {
     "b": "RC",
@@ -7961,12 +7970,12 @@
     "d": "conspiracydailyupdate.com",
     "f": "conspiracydailyupdate",
     "n": "Conspiracy Daily Update",
-    "r": "L",
+    "r": "VL",
     "t": "bianhylandcdu",
     "u": "https://mediabiasfactcheck.com/conspiracy-daily-update/",
     "P": 35,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "conspiracyinquirer.com": {
     "b": "FN",
@@ -10367,7 +10376,7 @@
     "u": "https://mediabiasfactcheck.com/digital-journal/",
     "P": 85,
     "c": "H",
-    "a": "M"
+    "a": "L"
   },
   "diply.com": {
     "b": "LC",
