@@ -3823,12 +3823,12 @@
     "b": "RC",
     "d": "beinglibertarian.com",
     "n": "Being Libertarian",
-    "r": "MF",
+    "r": "M",
     "t": "beinlibertarian",
     "u": "https://mediabiasfactcheck.com/being-libertarian/",
     "P": 39,
     "c": "M",
-    "a": "N"
+    "a": "L"
   },
   "belfercenter.org": {
     "b": "LC",
@@ -25474,6 +25474,15 @@
     "P": 6,
     "c": "L",
     "a": "N"
+  },
+  "northwichitanews.com": {
+    "b": "FN",
+    "d": "northwichitanews.com",
+    "n": "North Wichita News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-wichita-news/",
+    "c": "L",
+    "a": "L"
   },
   "nos.nl": {
     "b": "RC",
