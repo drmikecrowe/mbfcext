@@ -100,6 +100,15 @@
     "c": "H",
     "a": "M"
   },
+  "14news.com": {
+    "b": "C",
+    "d": "14news.com",
+    "n": "WFIE - Evansville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wfie-evansville-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "180report.com": {
     "b": "C",
     "d": "180report.com",
@@ -12314,7 +12323,7 @@
     "u": "https://mediabiasfactcheck.com/exposing-government/",
     "P": 16,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "exposingtruth.com": {
     "b": "LC",
@@ -13202,7 +13211,7 @@
     "u": "https://mediabiasfactcheck.com/food-matters/",
     "P": 73,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "foodnavigator.com": {
     "b": "LC",
@@ -18655,11 +18664,11 @@
     "d": "juancole.com",
     "f": "informedcomment",
     "n": "Informed Comment (Juan Cole)",
-    "r": "H",
+    "r": "M",
     "t": "infcomment",
     "u": "https://mediabiasfactcheck.com/informed-comment/",
     "P": 79,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "judicialnetwork.com": {
@@ -20804,6 +20813,15 @@
     "c": "H",
     "a": "M"
   },
+  "local12.com": {
+    "b": "RC",
+    "d": "local12.com",
+    "n": "WKRC - Cincinnati",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wkrc-cincinnati-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "local21news.com": {
     "b": "RC",
     "d": "local21news.com",
@@ -22395,6 +22413,15 @@
     "P": 4,
     "c": "L",
     "a": "N"
+  },
+  "montgomeryadvertiser.com": {
+    "b": "LC",
+    "d": "montgomeryadvertiser.com",
+    "n": "Montgomery Advertiser",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/montgomery-advertiser-bias/",
+    "c": "H",
+    "a": "M"
   },
   "monthlyreview.org": {
     "b": "L",
@@ -25872,6 +25899,15 @@
     "c": "H",
     "a": "M"
   },
+  "nwkansasnews.com": {
+    "b": "FN",
+    "d": "nwkansasnews.com",
+    "n": "NW Kansas News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-kansas-news-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "nwlatimes.com": {
     "b": "FN",
     "d": "nwlatimes.com",
@@ -25981,6 +26017,15 @@
     "P": 1,
     "c": "L",
     "a": "N"
+  },
+  "oanews.com": {
+    "b": "C",
+    "d": "oanews.com",
+    "n": "Opelika Auburn News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/opelika-auburn-news/",
+    "c": "H",
+    "a": "M"
   },
   "oann.com": {
     "b": "FN",
@@ -26703,6 +26748,15 @@
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/pan-american-health-organization-paho/",
     "P": 85,
+    "c": "H",
+    "a": "M"
+  },
+  "pahomepage.com": {
+    "b": "C",
+    "d": "pahomepage.com",
+    "n": "WBRE/WYOU Eyewitness News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbre-wyou-eyewitness-news-bias/",
     "c": "H",
     "a": "M"
   },
@@ -34896,6 +34950,15 @@
     "c": "H",
     "a": "H"
   },
+  "thealternativedaily.com": {
+    "b": "CP",
+    "d": "thealternativedaily.com",
+    "n": "Alternative Daily",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/alternative-daily-bias/",
+    "c": "L",
+    "a": "M"
+  },
   "theamericancause.org": {
     "b": "R",
     "d": "theamericancause.org",
@@ -37367,6 +37430,14 @@
     "u": "https://mediabiasfactcheck.com/the-stern-facts/",
     "P": 32,
     "c": "M",
+    "a": "L"
+  },
+  "thestonkmarket.com": {
+    "b": "S",
+    "d": "thestonkmarket.com",
+    "n": "The Stonk Market",
+    "u": "https://mediabiasfactcheck.com/the-stonk-market-bias/",
+    "c": "NA",
     "a": "L"
   },
   "thestranger.com": {
@@ -42621,6 +42692,15 @@
     "P": 73,
     "c": "H",
     "a": "H"
+  },
+  "yaliberty.org": {
+    "b": "FN",
+    "d": "yaliberty.org",
+    "n": "Young Americans for Liberty",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/young-americans-for-liberty-bias/",
+    "c": "L",
+    "a": "L"
   },
   "yankeeinstitute.org": {
     "b": "RC",
