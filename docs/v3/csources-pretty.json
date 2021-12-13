@@ -7192,6 +7192,15 @@
     "c": "L",
     "a": "N"
   },
+  "cnnsofake.news": {
+    "b": "CP",
+    "d": "cnnsofake.news",
+    "n": "CNN So Fake News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/cnn-so-fake-news/",
+    "c": "L",
+    "a": "L"
+  },
   "cnntimes.online": {
     "b": "L",
     "d": "cnntimes.online",
@@ -9335,15 +9344,15 @@
     "c": "L",
     "a": "H"
   },
-  "dailystormer.name": {
+  "dailystormer.su": {
     "b": "FN",
-    "d": "dailystormer.name",
+    "d": "dailystormer.su",
     "n": "Daily Stormer",
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/daily-stormer/",
     "P": 49,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "dailysurge.com": {
     "b": "FN",
@@ -16165,6 +16174,15 @@
     "c": "L",
     "a": "M"
   },
+  "hightimes.com": {
+    "b": "L",
+    "d": "hightimes.com",
+    "n": "High Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/high-times-bias/",
+    "c": "M",
+    "a": "M"
+  },
   "hillarybeattrump.org": {
     "b": "S",
     "d": "hillarybeattrump.org",
@@ -18858,6 +18876,15 @@
     "c": "NA",
     "a": "N"
   },
+  "kark.com": {
+    "b": "C",
+    "d": "kark.com",
+    "n": "KARK - Little Rock",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kark-little-rock-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "katu.com": {
     "b": "RC",
     "d": "katu.com",
@@ -20576,7 +20603,7 @@
     "u": "https://mediabiasfactcheck.com/libtards-news/",
     "P": 37,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "lifeandabout.com": {
     "b": "R",
@@ -22194,6 +22221,15 @@
     "P": 48,
     "c": "L",
     "a": "N"
+  },
+  "milwaukeeindependent.com": {
+    "b": "L",
+    "d": "milwaukeeindependent.com",
+    "n": "Milwaukee Independent",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/milwaukee-independent/",
+    "c": "M",
+    "a": "L"
   },
   "mindbodygreen.com": {
     "b": "CP",
