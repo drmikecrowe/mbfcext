@@ -370,7 +370,7 @@
     "n": "America First Action SuperPAC",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/america-first-action-superpac/",
-    "c": "M",
+    "c": "L",
     "a": "L"
   },
   "aa.com.tr": {
@@ -1238,17 +1238,18 @@
     "c": "M",
     "a": "M"
   },
-  "aidc.org.za": {
+  "aidc.org.za/amandla-media": {
     "b": "L",
-    "d": "aidc.org.za",
+    "d": "aidc.org.za/amandla-media",
     "f": "amandlamedia",
     "n": "Amandla",
+    "p": "/amandla-media",
     "r": "H",
     "t": "AmandlaMedia",
     "u": "https://mediabiasfactcheck.com/amandla/",
     "P": 43,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "aier.org": {
     "b": "RC",
@@ -1803,7 +1804,7 @@
     "u": "https://mediabiasfactcheck.com/altnewsmedia-net/",
     "P": 28,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "altoday.com": {
     "b": "RC",
@@ -1879,13 +1880,13 @@
     "b": "L",
     "d": "americablog.com",
     "f": "AMERICAblog",
-    "n": "America Blog",
+    "n": "AmericaBlog",
     "r": "H",
     "t": "americablog",
     "u": "https://mediabiasfactcheck.com/americablog/",
     "P": 78,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "americadaily.com": {
     "b": "FN",
@@ -8812,11 +8813,11 @@
     "d": "creationwiki.org",
     "f": "nwcreationnetwork",
     "n": "CreationWiki",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/creationwiki/",
     "P": 47,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "credoaction.com": {
     "b": "LC",
@@ -19042,12 +19043,12 @@
     "a": "N"
   },
   "joerogan.com": {
-    "b": "LC",
+    "b": "FN",
     "d": "joerogan.com",
     "n": "The Joe Rogan Experience",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/the-joe-rogan-experience-bias/",
-    "c": "M",
+    "c": "L",
     "a": "H"
   },
   "join1440.com": {
@@ -29265,9 +29266,9 @@
     "c": "H",
     "a": "L"
   },
-  "presstv.com": {
+  "presstv.ir": {
     "b": "FN",
-    "d": "presstv.com",
+    "d": "presstv.ir",
     "f": "PRESSTV",
     "n": "Press TV",
     "r": "L",
@@ -41382,6 +41383,15 @@
     "c": "H",
     "a": "M"
   },
+  "visaliatimesdelta.com": {
+    "b": "LC",
+    "d": "visaliatimesdelta.com",
+    "n": "Visalia Times-Delta",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/visalia-times-delta-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "visiontimes.com": {
     "b": "FN",
     "d": "visiontimes.com",
@@ -41400,6 +41410,15 @@
     "P": 23,
     "c": "L",
     "a": "N"
+  },
+  "vladtv.com": {
+    "b": "LC",
+    "d": "vladtv.com",
+    "n": "VladTV",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/vladtv-bias/",
+    "c": "M",
+    "a": "H"
   },
   "voanews.com": {
     "b": "C",
