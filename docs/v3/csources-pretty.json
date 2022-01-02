@@ -2021,7 +2021,7 @@
     "u": "https://mediabiasfactcheck.com/american-digital-news/",
     "P": 30,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "americanewshub.com": {
     "b": "R",
@@ -10943,6 +10943,15 @@
     "c": "L",
     "a": "M"
   },
+  "doctors4covidethics.org": {
+    "b": "CP",
+    "d": "doctors4covidethics.org",
+    "n": "Doctors for Covid Ethics",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/doctors-for-covid-ethics/",
+    "c": "L",
+    "a": "L"
+  },
   "doctorswithoutborders.org": {
     "b": "C",
     "d": "doctorswithoutborders.org",
@@ -14136,7 +14145,7 @@
     "u": "https://mediabiasfactcheck.com/frank-mag/",
     "P": 32,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "frankspeech.com": {
     "b": "FN",
@@ -31581,6 +31590,15 @@
     "c": "L",
     "a": "M"
   },
+  "roguereview.net": {
+    "b": "FN",
+    "d": "roguereview.net",
+    "n": "Rogue Review",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/rogue-review-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "rollcall.com": {
     "b": "C",
     "d": "rollcall.com",
@@ -42120,6 +42138,15 @@
     "n": "WDBJ - Roanoke",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wdbj-roanoke/",
+    "c": "H",
+    "a": "M"
+  },
+  "wdtn.com": {
+    "b": "C",
+    "d": "wdtn.com",
+    "n": "WDTN - Dayton News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdtn-dayton-news-bias/",
     "c": "H",
     "a": "M"
   },
