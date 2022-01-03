@@ -22008,7 +22008,7 @@
     "b": "L",
     "d": "marxist.com",
     "n": "In Defence of Marxism",
-    "r": "H",
+    "r": "MF",
     "t": "marxistcom",
     "u": "https://mediabiasfactcheck.com/in-defence-of-marxism/",
     "P": 70,
@@ -24288,7 +24288,7 @@
     "u": "https://mediabiasfactcheck.com/national-centers-environmental-information-ncei/",
     "P": 89,
     "c": "H",
-    "a": "H"
+    "a": "M"
   },
   "ncfloridanews.com": {
     "b": "FN",
@@ -26983,7 +26983,7 @@
     "d": "oceana.org",
     "f": "oceana",
     "n": "Oceana",
-    "r": "VH",
+    "r": "H",
     "t": "Oceana",
     "u": "https://mediabiasfactcheck.com/oceana/",
     "P": 84,
@@ -40490,6 +40490,15 @@
     "t": "upi",
     "u": "https://mediabiasfactcheck.com/united-press-international-upi/",
     "P": 93,
+    "c": "H",
+    "a": "M"
+  },
+  "upnorthlive.com": {
+    "b": "RC",
+    "d": "upnorthlive.com",
+    "n": "WTOM - Lansing News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtom-lansing-news-bias/",
     "c": "H",
     "a": "M"
   },
