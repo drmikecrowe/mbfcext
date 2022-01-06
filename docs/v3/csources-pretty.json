@@ -173,8 +173,8 @@
     "n": "24/7 Wall St",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/24-7-wall-st/",
-    "c": "NA",
-    "a": "N"
+    "c": "H",
+    "a": "M"
   },
   "24jours.com": {
     "b": "FN",
@@ -273,8 +273,8 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/604-now/",
     "P": 46,
-    "c": "M",
-    "a": "L"
+    "c": "H",
+    "a": "M"
   },
   "71republic.com": {
     "b": "RC",
@@ -296,7 +296,7 @@
     "u": "https://mediabiasfactcheck.com/79days-news/",
     "P": 20,
     "c": "L",
-    "a": "N"
+    "a": "H"
   },
   "7news.com.au": {
     "b": "RC",
@@ -1078,13 +1078,13 @@
     "b": "R",
     "d": "afpc.org",
     "f": "americanforeignpolicycouncil",
-    "n": "American Foreign Policy council",
+    "n": "American Foreign Policy Council",
     "r": "MF",
     "t": "afpc",
     "u": "https://mediabiasfactcheck.com/american-foreign-policy-council/",
     "P": 54,
     "c": "M",
-    "a": "N"
+    "a": "L"
   },
   "afr.com": {
     "b": "RC",
@@ -1898,6 +1898,15 @@
     "c": "L",
     "a": "N"
   },
+  "americafans.com": {
+    "b": "FN",
+    "d": "americafans.com",
+    "n": "American Fans",
+    "r": "L",
+    "u": "http://mediabiasfactcheck.com/american-news/",
+    "c": "L",
+    "a": "N"
+  },
   "americafirstpolicy.com": {
     "b": "R",
     "d": "americafirstpolicy.com",
@@ -2069,7 +2078,7 @@
     "u": "https://mediabiasfactcheck.com/american-free-press/",
     "P": 70,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "americangulag.org": {
     "b": "FN",
@@ -2334,13 +2343,13 @@
     "b": "R",
     "d": "americansforprosperity.org",
     "f": "fightback",
-    "n": "American for Prosperity",
+    "n": "Americans for Prosperity",
     "r": "M",
     "t": "afphq",
     "u": "https://mediabiasfactcheck.com/americans-for-prosperity/",
     "P": 75,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "americansfortruth.com": {
     "b": "FN",
@@ -28981,7 +28990,7 @@
     "a": "N"
   },
   "populationconnection.org": {
-    "b": "LC",
+    "b": "L",
     "d": "populationconnection.org",
     "f": "PopulationConnection",
     "n": "Population Connection",
@@ -28990,7 +28999,7 @@
     "u": "https://mediabiasfactcheck.com/population-connection/",
     "P": 60,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "populist.press": {
     "b": "FN",
@@ -36302,6 +36311,15 @@
     "c": "H",
     "a": "L"
   },
+  "thecalifornian.com": {
+    "b": "LC",
+    "d": "thecalifornian.com",
+    "n": "The Salinas Californian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-salinas-californian-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "thecanadianpress.com": {
     "b": "C",
     "d": "thecanadianpress.com",
@@ -39309,13 +39327,13 @@
     "b": "RC",
     "d": "tnonline.com",
     "f": "tnlehighton",
-    "n": "Times News (Pennsylvania)",
+    "n": "Times-News (Pennsylvania)",
     "r": "H",
     "t": "times_news",
     "u": "https://mediabiasfactcheck.com/times-news-pennsylvania/",
     "P": 60,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "today.com": {
     "b": "LC",
@@ -41072,6 +41090,15 @@
     "P": 66,
     "c": "H",
     "a": "M"
+  },
+  "valleynewstoday.com": {
+    "b": "C",
+    "d": "valleynewstoday.com",
+    "n": "Shenandoah Valley News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/shenandoah-valley-news/",
+    "c": "H",
+    "a": "L"
   },
   "valuewalk.com": {
     "b": "RC",
