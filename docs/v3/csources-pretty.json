@@ -5749,9 +5749,9 @@
     "c": "L",
     "a": "M"
   },
-  "canadalandshow.com": {
+  "canadaland.com": {
     "b": "LC",
-    "d": "canadalandshow.com",
+    "d": "canadaland.com",
     "f": "canadalandshow",
     "n": "Canadaland",
     "r": "H",
@@ -5759,7 +5759,7 @@
     "u": "https://mediabiasfactcheck.com/canadaland/",
     "P": 50,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "canadiandimension.com": {
     "b": "L",
@@ -13841,6 +13841,15 @@
     "c": "H",
     "a": "M"
   },
+  "fox10tv.com": {
+    "b": "C",
+    "d": "fox10tv.com",
+    "n": "WALA - Mobile News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wala-mobile-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "fox11online.com": {
     "b": "RC",
     "d": "fox11online.com",
@@ -19696,6 +19705,15 @@
     "n": "Kaiser Health News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kaiser-health-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
+  "khon2.com": {
+    "b": "C",
+    "d": "khon2.com",
+    "n": "KHON - Honolulu News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/khon-honolulu-news-bias/",
     "c": "H",
     "a": "M"
   },
@@ -37001,6 +37019,15 @@
     "c": "L",
     "a": "L"
   },
+  "thegailygrind.com": {
+    "b": "L",
+    "d": "thegailygrind.com",
+    "n": "The Gaily Grind",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-gaily-grind-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "thegatewaypundit.com": {
     "b": "FN",
     "d": "thegatewaypundit.com",
@@ -38173,6 +38200,15 @@
     "P": 32,
     "c": "NA",
     "a": "N"
+  },
+  "theragingpatriot.org": {
+    "b": "FN",
+    "d": "theragingpatriot.org",
+    "n": "The Raging Patriot",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-raging-patriot-bias/",
+    "c": "L",
+    "a": "L"
   },
   "therantidote.com": {
     "b": "R",
@@ -39421,6 +39457,15 @@
     "P": 80,
     "c": "L",
     "a": "H"
+  },
+  "topekasun.com": {
+    "b": "FN",
+    "d": "topekasun.com",
+    "n": "Topeka Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/topeka-sun-bias/",
+    "c": "L",
+    "a": "L"
   },
   "topinfopost.com": {
     "b": "CP",
