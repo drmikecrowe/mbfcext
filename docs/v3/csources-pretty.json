@@ -3443,6 +3443,15 @@
     "c": "L",
     "a": "N"
   },
+  "audacy.com": {
+    "b": "C",
+    "d": "audacy.com",
+    "n": "Audacy",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/radio-com/",
+    "c": "H",
+    "a": "H"
+  },
   "audacy.com/1010wins": {
     "b": "C",
     "d": "audacy.com/1010wins",
@@ -7799,7 +7808,7 @@
     "u": "https://mediabiasfactcheck.com/commonweal-magazine/",
     "P": 65,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "commonwealthfund.org": {
     "b": "LC",
@@ -8809,7 +8818,7 @@
     "b": "CP",
     "d": "creation.com",
     "f": "creationministries",
-    "n": "Christian Ministries International",
+    "n": "Creation Ministries International",
     "r": "L",
     "t": "creationnews",
     "u": "https://mediabiasfactcheck.com/christian-ministries-international/",
@@ -12715,7 +12724,7 @@
     "d": "examine.com",
     "f": "Examinecom",
     "n": "Examine.com",
-    "r": "VH",
+    "r": "H",
     "t": "Examinecom",
     "u": "https://mediabiasfactcheck.com/examine-com/",
     "P": 76,
@@ -13948,6 +13957,15 @@
     "n": "WJZY - Charlotte",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wjzy-charlotte-bias/",
+    "c": "H",
+    "a": "M"
+  },
+  "fox47.com": {
+    "b": "RC",
+    "d": "fox47.com",
+    "n": "WMSN - Madison News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wmsn-madison-news-bias/",
     "c": "H",
     "a": "M"
   },
@@ -18295,7 +18313,7 @@
     "u": "https://mediabiasfactcheck.com/international-viewpoint/",
     "P": 51,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "interpretermag.com": {
     "b": "LC",
@@ -18395,6 +18413,15 @@
     "P": 86,
     "c": "M",
     "a": "H"
+  },
+  "investortimes.com": {
+    "b": "RC",
+    "d": "investortimes.com",
+    "n": "Investor Times",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/investor-times-bias/",
+    "c": "M",
+    "a": "L"
   },
   "iop.org": {
     "b": "PS",
@@ -18759,11 +18786,11 @@
     "d": "iwpr.org",
     "f": "IWPResearch",
     "n": "Institute for Women's Policy Research (IWPR)",
-    "r": "VH",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/institute-for-womens-policy-research-iwpr/",
     "P": 69,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "jacksonfreepress.com": {
     "b": "LC",
@@ -18951,7 +18978,7 @@
     "u": "https://mediabiasfactcheck.com/jewish-policy-center/",
     "P": 46,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "jewishpress.com": {
     "b": "RC",
@@ -20274,6 +20301,15 @@
     "P": 4,
     "c": "L",
     "a": "N"
+  },
+  "lajuntatribunedemocrat.com": {
+    "b": "LC",
+    "d": "lajuntatribunedemocrat.com",
+    "n": "La Junta Tribune-Democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/la-junta-tribune-democrat-bias/",
+    "c": "H",
+    "a": "L"
   },
   "lakecountygazette.com": {
     "b": "FN",
@@ -30031,15 +30067,6 @@
     "c": "H",
     "a": "L"
   },
-  "radio.com": {
-    "b": "C",
-    "d": "radio.com",
-    "n": "Radio.com",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/radio-com/",
-    "c": "H",
-    "a": "H"
-  },
   "radiotelevisionmarti.com": {
     "b": "LC",
     "d": "radiotelevisionmarti.com",
@@ -30177,6 +30204,15 @@
     "P": 73,
     "c": "H",
     "a": "M"
+  },
+  "ravallirepublic.com": {
+    "b": "C",
+    "d": "ravallirepublic.com",
+    "n": "Ravalli Republic",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ravalli-republic-bias/",
+    "c": "H",
+    "a": "L"
   },
   "rawconservativeopinions.com": {
     "b": "FN",
@@ -39035,7 +39071,7 @@
   "theworld.org": {
     "b": "LC",
     "d": "theworld.org",
-    "n": "Public Radio International (PRI)",
+    "n": "The World from PRX",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/public-radio-international-pri/",
     "c": "H",
@@ -39739,6 +39775,15 @@
     "P": 85,
     "c": "H",
     "a": "H"
+  },
+  "tribtown.com": {
+    "b": "RC",
+    "d": "tribtown.com",
+    "n": "The Seymour Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-seymour-tribune-bias/",
+    "c": "H",
+    "a": "M"
   },
   "tribunecontentagency.com": {
     "b": "C",
@@ -42920,6 +42965,15 @@
     "c": "H",
     "a": "H"
   },
+  "who13.com": {
+    "b": "C",
+    "d": "who13.com",
+    "n": "WHO - Des Moines News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/who-des-moines-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "whowhatwhy.org": {
     "b": "L",
     "d": "whowhatwhy.org",
@@ -42960,6 +43014,15 @@
     "u": "https://mediabiasfactcheck.com/13-news-wibw/",
     "c": "H",
     "a": "M"
+  },
+  "wichitastandard.com": {
+    "b": "FN",
+    "d": "wichitastandard.com",
+    "n": "Wichita Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wichita-standard-bias/",
+    "c": "L",
+    "a": "L"
   },
   "wifr.com": {
     "b": "C",
@@ -43292,6 +43355,15 @@
     "P": 71,
     "c": "H",
     "a": "N"
+  },
+  "wlox.com": {
+    "b": "C",
+    "d": "wlox.com",
+    "n": "WLOX - Biloxi News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wlox-biloxi-news-bias/",
+    "c": "H",
+    "a": "M"
   },
   "wmbfnews.com": {
     "b": "C",
