@@ -1,5 +1,5 @@
 import { getCurrentTab, getSiteFromUrl } from "utils/tabUtils";
-import { browser } from "webextension-polyfill-ts";
+import { browser, Tabs } from "webextension-polyfill-ts";
 import { logger } from "utils/logger";
 
 const log = logger("mbfc:background:TabListener");
@@ -19,7 +19,7 @@ const colorMap = {
 
 export class TabListener {
   private static instance: TabListener;
-  private interval: number | undefined;
+  private interval: Record<number, number> = {};
   private lastIcon = "";
 
   constructor() {
@@ -71,56 +71,58 @@ export class TabListener {
     return context.getImageData(0, 0, 19, 19);
   }
 
-  static show(icon: string, inverse: boolean) {
+  static show(icon: string, inverse: boolean, tabId: number) {
     const color = inverse ? colorMap[icon].backColor : colorMap[icon].color;
     const backColor = !inverse
       ? colorMap[icon].backColor
       : colorMap[icon].color;
     // log(`Showing icon ${icon}`);
-    browser.browserAction.setIcon({
+    browser.pageAction.setIcon({
+      tabId,
       imageData: TabListener.draw(icon, color, backColor),
     });
   }
 
-  showTab(icon: string, collapse: boolean) {
-    this.reset();
-    TabListener.show(icon, false);
+  showTab(icon: string, collapse: boolean, tabId: number) {
+    this.reset(tabId);
+    TabListener.show(icon, false, tabId);
     this.lastIcon = icon;
     if (collapse) {
       let inverse = false;
-      this.interval = setInterval(() => {
+      this.interval[tabId] = setInterval(() => {
         inverse = !inverse;
-        TabListener.show(icon, inverse);
+        TabListener.show(icon, inverse, tabId);
       }, 1000) as any;
     }
   }
 
-  reset(): boolean {
+  reset(tabId: number): boolean {
     this.lastIcon = "";
-    if (this.interval) {
-      clearInterval(this.interval);
-      this.interval = 0;
+    if (this.interval[tabId]) {
+      clearInterval(this.interval[tabId]);
+      delete this.interval[tabId];
     }
     return false;
   }
 
-  updateTab(tab: any): boolean {
+  updateTab(tab: Tabs.Tab): boolean {
+    if (!tab || !tab.url || !tab.id) return false;
     const parsed_domain = getSiteFromUrl(tab.url);
-    if (parsed_domain.isErr()) return this.reset();
+    if (parsed_domain.isErr()) return this.reset(tab.id);
     const { site, collapse } = parsed_domain.value;
     if (site && site.b) {
       const icon = site.b;
       if (icon !== this.lastIcon) {
         if (!colorMap[site.b]) {
           log(`No colorMap for icon ${site.b} from `, site);
-          return this.reset();
+          return this.reset(tab.id);
         }
-        this.showTab(icon, collapse);
+        this.showTab(icon, collapse, tab.id);
         log(`Icon: ${icon} ${collapse ? " flashing" : ""}`, parsed_domain);
       }
       return true;
     }
-    return this.reset();
+    return this.reset(tab.id);
   }
 
   public static resetIcon() {
