@@ -3,7 +3,7 @@
  * @author Santo Pfingsten
  * @see https://github.com/Lusito/forget-me-not
  */
-import { browser, Runtime } from "webextension-polyfill-ts";
+import browser, { Runtime } from "webextension-polyfill";
 import { get } from "lodash";
 import { logger } from "utils/logger";
 

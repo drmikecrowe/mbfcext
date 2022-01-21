@@ -1,6 +1,6 @@
 import { err, ok, Result } from "neverthrow";
 import { SourcesHandler } from "utils/SourcesHandler";
-import { browser, Tabs } from "webextension-polyfill-ts";
+import browser, { Tabs } from "webextension-polyfill";
 
 import { checkDomain, CheckDomainResults } from "utils/checkDomain";
 import { getDomain } from "utils/getDomain";

@@ -1,5 +1,7 @@
 dependencies:
+  '@types/webextension-polyfill': 0.8.2
   source-map-support: 0.5.21
+  webextension-polyfill: 0.8.0
 devDependencies:
   '@drmikecrowe/webpack-extension-reloaderv5': 1.2.2_webpack@5.66.0
   '@fortawesome/fontawesome-free': 5.15.4
@@ -8,7 +10,7 @@ devDependencies:
   '@fortawesome/free-regular-svg-icons': 5.15.4
   '@fortawesome/free-solid-svg-icons': 5.15.4
   '@fullhuman/postcss-purgecss': 3.1.3
-  '@spadin/webextension-storage': 1.0.5_webextension-polyfill-ts@0.24.0
+  '@spadin/webextension-storage': 1.0.5
   '@tailwindcss/custom-forms': 0.2.1_tailwindcss@2.2.19
   '@types/autoprefixer': 9.7.2
   '@types/chrome': 0.0.176
@@ -98,7 +100,6 @@ devDependencies:
   typescript: 4.5.4
   webext-options-sync: 2.0.1
   webext-storage-cache: 4.2.0
-  webextension-polyfill-ts: 0.24.0
   webpack: 5.66.0_webpack-cli@4.9.1
   webpack-bundle-analyzer: 4.1.0
   webpack-cli: 4.9.1_17f4b0808171e603c52d11b8515ba216
@@ -822,9 +823,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-MZPUxrmFubI36XS1DI3qmI0YdN1gks62JtFZvxR67ljjSNCeK6U08Zx4msEWOXuofgqUt6zPHSi1H9fbjR/NRA==
-  /@spadin/webextension-storage/1.0.5_webextension-polyfill-ts@0.24.0:
-    dependencies:
-      webextension-polyfill-ts: 0.24.0
+  /@spadin/webextension-storage/1.0.5:
     dev: true
     peerDependencies:
       webextension-polyfill-ts: ^0.9.0
@@ -1202,6 +1201,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-7npvPKV+jINLu1SpSYVWG8KvyJBhBa8tmzMMdDoVc2pWUYHN8KIXlPJhjJ4LT97c4dXJA2SHL/q6ADbDriZN+Q==
+  /@types/webextension-polyfill/0.8.2:
+    dev: false
+    resolution:
+      integrity: sha512-Pd+p5AQx6s78jr4gDC2p3vbw+uxP2DLLqE9iAJJpZ+OUqDm3txr6uN2wUBEwjVgZTNdBHPsxawGvPCTipF2s6w==
   /@types/webpack-bundle-analyzer/3.9.4:
     dependencies:
       '@types/webpack': 4.41.32
@@ -2115,7 +2118,7 @@ packages:
   /autoprefixer/9.8.6:
     dependencies:
       browserslist: 4.16.3
-      caniuse-lite: 1.0.30001185
+      caniuse-lite: 1.0.30001300
       colorette: 1.2.1
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -2389,7 +2392,7 @@ packages:
       integrity: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
   /browserslist/4.14.7:
     dependencies:
-      caniuse-lite: 1.0.30001157
+      caniuse-lite: 1.0.30001300
       colorette: 1.2.1
       electron-to-chromium: 1.3.595
       escalade: 3.1.1
@@ -2402,7 +2405,7 @@ packages:
       integrity: sha512-BSVRLCeG3Xt/j/1cCGj1019Wbty0H+Yvu2AOuZSuoaUWn3RatbL33Cxk+Q4jRMRAbOm0p7SLravLjpnT6s0vzQ==
   /browserslist/4.16.3:
     dependencies:
-      caniuse-lite: 1.0.30001185
+      caniuse-lite: 1.0.30001300
       colorette: 1.2.1
       electron-to-chromium: 1.3.657
       escalade: 3.1.1
@@ -2591,10 +2594,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==
-  /caniuse-lite/1.0.30001157:
+  /caniuse-lite/1.0.30001300:
     dev: true
     resolution:
-      integrity: sha512-gOerH9Wz2IRZ2ZPdMfBvyOi3cjaz4O4dgNwPGzx8EhqAs4+2IL/O+fJsbt+znSigujoZG8bVcIAUM/I/E5K3MA==
+      integrity: sha512-cVjiJHWGcNlJi8TZVKNMnvMid3Z3TTdDHmLDzlOdIiZq138Exvo0G+G0wTdVYolxKb4AYwC+38pxodiInVtJSA==
   /caniuse-lite/1.0.30001185:
     dev: true
     resolution:
@@ -9291,7 +9294,7 @@ packages:
     dependencies:
       autoprefixer: 9.8.6
       browserslist: 4.14.7
-      caniuse-lite: 1.0.30001157
+      caniuse-lite: 1.0.30001300
       css-blank-pseudo: 0.1.4
       css-has-pseudo: 0.10.0
       css-prefers-color-scheme: 3.1.1
@@ -11938,16 +11941,14 @@ packages:
     dev: true
     resolution:
       integrity: sha512-c3vwG6MiAoO9Ru6H6+/xbHDKSOhH3OwfhQe7d3chnlnOnpZFE76XoqrtoEktm8n/smpkI3GLbV3aBSNwjRFrow==
-  /webextension-polyfill-ts/0.24.0:
-    dependencies:
-      webextension-polyfill: 0.7.0
-    dev: true
-    resolution:
-      integrity: sha512-JUHpVzu8WeDVFsVeyzi1Hsd7N2ylKXMlQPAfpYGktzflzwFXlvqiA48UnaH5rmv/CTQEHI0T3qfK3wVBW6nbUA==
   /webextension-polyfill/0.7.0:
     dev: true
     resolution:
       integrity: sha512-su48BkMLxqzTTvPSE1eWxKToPS2Tv5DLGxKexLEVpwFd6Po6N8hhSLIvG6acPAg7qERoEaDL+Y5HQJeJeml5Aw==
+  /webextension-polyfill/0.8.0:
+    dev: false
+    resolution:
+      integrity: sha512-a19+DzlT6Kp9/UI+mF9XQopeZ+n2ussjhxHJ4/pmIGge9ijCDz7Gn93mNnjpZAk95T4Tae8iHZ6sSf869txqiQ==
   /webidl-conversions/5.0.0:
     dev: true
     engines:
@@ -12522,6 +12523,7 @@ specifiers:
   '@types/prop-types': ^15.7.4
   '@types/rimraf': ^3.0.2
   '@types/terser-webpack-plugin': ^5.0.4
+  '@types/webextension-polyfill': ^0.8.2
   '@types/webpack': ^4.41.32
   '@types/webpack-bundle-analyzer': ^3.9.4
   '@types/webpack-dev-server': ^3.11.6
@@ -12591,7 +12593,7 @@ specifiers:
   typescript: ~4.5.4
   webext-options-sync: ^2.0.1
   webext-storage-cache: ^4.2.0
-  webextension-polyfill-ts: ^0.24.0
+  webextension-polyfill: ^0.8.0
   webpack: ^5.66.0
   webpack-bundle-analyzer: ^4
   webpack-cli: ^4.9.1

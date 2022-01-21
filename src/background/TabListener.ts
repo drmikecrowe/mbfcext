@@ -1,5 +1,5 @@
 import { getCurrentTab, getSiteFromUrl } from "utils/tabUtils";
-import { browser, Tabs } from "webextension-polyfill-ts";
+import browser, { Action, Tabs } from "webextension-polyfill";
 import { logger } from "utils/logger";
 
 const log = logger("mbfc:background:TabListener");
@@ -38,7 +38,11 @@ export class TabListener {
     return TabListener.instance;
   }
 
-  static draw(text: string, color, backColor) {
+  static draw(
+    text: string,
+    color,
+    backColor
+  ): Action.SetIconDetailsType | null {
     const canvas = document.createElement("canvas"); // Create the canvas
     canvas.width = 19;
     canvas.height = 19;
@@ -47,7 +51,7 @@ export class TabListener {
     let font = 17;
 
     const context = canvas.getContext("2d");
-    if (!context) return;
+    if (!context) return null;
     if (backColor === "white") {
       context.fillStyle = color;
       context.fillRect(0, 0, 19, 19);
@@ -68,7 +72,11 @@ export class TabListener {
     context.textBaseline = "top";
     context.font = `${font}px sans-serif`;
     context.fillText(text, left, top);
-    return context.getImageData(0, 0, 19, 19);
+    return {
+      imageData: {
+        "19": context.getImageData(0, 0, 19, 19) as any,
+      },
+    };
   }
 
   static show(icon: string, inverse: boolean, tabId: number) {
@@ -77,10 +85,13 @@ export class TabListener {
       ? colorMap[icon].backColor
       : colorMap[icon].color;
     // log(`Showing icon ${icon}`);
-    browser.pageAction.setIcon({
-      tabId,
-      imageData: TabListener.draw(icon, color, backColor),
-    });
+    const imageData = TabListener.draw(icon, color, backColor);
+    if (imageData) {
+      browser.browserAction.setIcon({
+        tabId,
+        ...imageData,
+      });
+    }
   }
 
   showTab(icon: string, collapse: boolean, tabId: number) {
@@ -125,8 +136,9 @@ export class TabListener {
     return this.reset(tab.id);
   }
 
-  public static resetIcon() {
+  public static resetIcon(tabId: number) {
     browser.browserAction.setIcon({
+      tabId,
       path: "icons/icon48.png",
     });
   }
@@ -134,12 +146,13 @@ export class TabListener {
   public async updateBadge() {
     const res = await getCurrentTab();
     const tab = res.isOk() ? res.value : null;
-    if (tab && tab.url && !tab.incognito) {
+    if (tab && tab.url && tab.id && !tab.incognito) {
       if (!this.updateTab(tab)) {
-        TabListener.resetIcon();
+        TabListener.resetIcon(tab.id);
       }
     } else {
-      TabListener.resetIcon();
+      // TabListener.resetIcon(tab.id);
+      console.log(`ERROR: No tab, should I reset it completely??`);
     }
   }
 }

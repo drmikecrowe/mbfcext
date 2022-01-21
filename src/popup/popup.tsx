@@ -1,7 +1,7 @@
 import "assets/tailwind.scss";
 import { m } from "malevic";
 import { sync } from "malevic/dom";
-import { browser } from "webextension-polyfill-ts";
+import browser from "webextension-polyfill";
 
 import { Button } from "utils/elements/Button";
 import { InfoHandler } from "./InfoHandler";
