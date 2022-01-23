@@ -1,2 +1,2 @@
-import browser from "webextension-polyfill";
+import { browser } from "webextension-polyfill-ts";
 export { browser };

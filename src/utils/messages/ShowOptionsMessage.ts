@@ -1,5 +1,5 @@
 import { logger } from "utils/logger";
-import browser from "webextension-polyfill";
+import { browser } from "webextension-polyfill-ts";
 
 import { messageUtil } from "utils/messages/messageUtil";
 

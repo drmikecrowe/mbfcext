@@ -1,15 +1,25 @@
 import { err, ok, Result } from "neverthrow";
 import { SourcesHandler } from "utils/SourcesHandler";
-import browser, { Tabs } from "webextension-polyfill";
+import { browser, Tabs } from "webextension-polyfill-ts";
 
 import { checkDomain, CheckDomainResults } from "utils/checkDomain";
 import { getDomain } from "utils/getDomain";
 import { isDevMode } from "utils/logger";
 
+export async function getTabById(tabId: number): Promise<Result<Tabs.Tab, null>> {
+  try {
+    let tabInfo = await browser.tabs.get(tabId);
+    return ok(tabInfo)
+  } catch (error) {
+    console.error(error);
+  }
+  return err(null);
+}
+
 export async function getCurrentTab(): Promise<Result<Tabs.Tab, null>> {
   return new Promise((resolve) => {
     (async () => {
-      const queryInfo = {
+      const queryInfo: any = {
         active: true,
         currentWindow: true,
       };

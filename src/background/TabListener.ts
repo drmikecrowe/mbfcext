@@ -1,5 +1,5 @@
-import { getCurrentTab, getSiteFromUrl } from "utils/tabUtils";
-import browser, { Action, Tabs } from "webextension-polyfill";
+import { getCurrentTab, getSiteFromUrl, getTabById } from "utils/tabUtils";
+import { browser, Tabs, BrowserAction } from "webextension-polyfill-ts";
 import { logger } from "utils/logger";
 
 const log = logger("mbfc:background:TabListener");
@@ -21,6 +21,8 @@ export class TabListener {
   private static instance: TabListener;
   private interval: Record<number, number> = {};
   private lastIcon = "";
+  private static imageCache: Record<string, BrowserAction.SetIconDetailsType> =
+    {};
 
   constructor() {
     log(`Initializing onUpdated for tab listener`);
@@ -42,41 +44,45 @@ export class TabListener {
     text: string,
     color,
     backColor
-  ): Action.SetIconDetailsType | null {
-    const canvas = document.createElement("canvas"); // Create the canvas
-    canvas.width = 19;
-    canvas.height = 19;
-    let top = 2;
-    let left = 10;
-    let font = 17;
+  ): BrowserAction.SetIconDetailsType | null {
+    const key = `${text}-${color}-${backColor}`;
+    if (!(key in TabListener.imageCache)) {
+      const canvas = document.createElement("canvas"); // Create the canvas
+      canvas.width = 19;
+      canvas.height = 19;
+      let top = 2;
+      let left = 10;
+      let font = 17;
 
-    const context = canvas.getContext("2d");
-    if (!context) return null;
-    if (backColor === "white") {
+      const context = canvas.getContext("2d");
+      if (!context) return null;
+      if (backColor === "white") {
+        context.fillStyle = color;
+        context.fillRect(0, 0, 19, 19);
+        context.fillStyle = backColor;
+        context.fillRect(1, 1, 17, 17);
+        left -= 1;
+      } else {
+        context.fillStyle = backColor;
+        context.fillRect(0, 0, 19, 19);
+      }
+      if (text.length > 1) {
+        font = 14;
+        top = 4;
+      }
+
       context.fillStyle = color;
-      context.fillRect(0, 0, 19, 19);
-      context.fillStyle = backColor;
-      context.fillRect(1, 1, 17, 17);
-      left -= 1;
-    } else {
-      context.fillStyle = backColor;
-      context.fillRect(0, 0, 19, 19);
+      context.textAlign = "center";
+      context.textBaseline = "top";
+      context.font = `${font}px sans-serif`;
+      context.fillText(text, left, top);
+      TabListener.imageCache[key] = {
+        imageData: {
+          "19": context.getImageData(0, 0, 19, 19) as any,
+        },
+      };
     }
-    if (text.length > 1) {
-      font = 14;
-      top = 4;
-    }
-
-    context.fillStyle = color;
-    context.textAlign = "center";
-    context.textBaseline = "top";
-    context.font = `${font}px sans-serif`;
-    context.fillText(text, left, top);
-    return {
-      imageData: {
-        "19": context.getImageData(0, 0, 19, 19) as any,
-      },
-    };
+    return TabListener.imageCache[key];
   }
 
   static show(icon: string, inverse: boolean, tabId: number) {
@@ -84,7 +90,6 @@ export class TabListener {
     const backColor = !inverse
       ? colorMap[icon].backColor
       : colorMap[icon].color;
-    // log(`Showing icon ${icon}`);
     const imageData = TabListener.draw(icon, color, backColor);
     if (imageData) {
       browser.browserAction.setIcon({
@@ -101,8 +106,14 @@ export class TabListener {
     if (collapse) {
       let inverse = false;
       this.interval[tabId] = setInterval(() => {
-        inverse = !inverse;
-        TabListener.show(icon, inverse, tabId);
+        getTabById(tabId).then((res) => {
+          if (res.isOk()) {
+            inverse = !inverse;
+            TabListener.show(icon, inverse, tabId);
+          } else {
+            this.reset(tabId);
+          }
+        });
       }, 1000) as any;
     }
   }
@@ -143,16 +154,13 @@ export class TabListener {
     });
   }
 
-  public async updateBadge() {
+  public async updateBadge(): Promise<void> {
     const res = await getCurrentTab();
     const tab = res.isOk() ? res.value : null;
     if (tab && tab.url && tab.id && !tab.incognito) {
       if (!this.updateTab(tab)) {
         TabListener.resetIcon(tab.id);
       }
-    } else {
-      // TabListener.resetIcon(tab.id);
-      console.log(`ERROR: No tab, should I reset it completely??`);
     }
   }
 }

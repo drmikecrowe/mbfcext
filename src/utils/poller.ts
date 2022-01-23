@@ -1,5 +1,5 @@
 import { StorageHandler } from "utils/StorageHandler";
-import browser, { Alarms } from "webextension-polyfill";
+import { Alarms, browser } from "webextension-polyfill-ts";
 
 import { ConfigHandler } from "utils/ConfigHandler";
 import { logger } from "utils/logger";
