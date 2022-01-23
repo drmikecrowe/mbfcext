@@ -6684,6 +6684,15 @@
     "c": "L",
     "a": "N"
   },
+  "chieftain.com": {
+    "b": "LC",
+    "d": "chieftain.com",
+    "n": "Pueblo Chieftain",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pueblo-chieftain-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "childrenshealthdefense.org": {
     "b": "CP",
     "d": "childrenshealthdefense.org",
@@ -21233,6 +21242,15 @@
     "c": "L",
     "a": "N"
   },
+  "libertyplanets.com": {
+    "b": "CP",
+    "d": "libertyplanets.com",
+    "n": "Liberty Planet",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/liberty-planet-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "libertytalk.fm": {
     "b": "FN",
     "d": "libertytalk.fm",
@@ -25299,6 +25317,15 @@
     "c": "H",
     "a": "M"
   },
+  "newschannel20.com": {
+    "b": "RC",
+    "d": "newschannel20.com",
+    "n": "WICD - Champaign News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wicd-champaign-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "newschannel5.com": {
     "b": "C",
     "d": "newschannel5.com",
@@ -26592,7 +26619,7 @@
     "d": "npr.org",
     "f": "NPR",
     "n": "NPR",
-    "r": "VH",
+    "r": "H",
     "t": "NPR",
     "u": "https://mediabiasfactcheck.com/npr/",
     "P": 96,
@@ -33251,7 +33278,7 @@
     "u": "https://mediabiasfactcheck.com/shorenstein-center/",
     "P": 58,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "shreveporttimes.com": {
     "b": "C",
@@ -33358,7 +33385,7 @@
     "u": "https://mediabiasfactcheck.com/simple-politics/",
     "P": 24,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "singularityhub.com": {
     "b": "PS",
@@ -34253,12 +34280,12 @@
     "d": "spectrumreport.com",
     "f": "SpectrumReport",
     "n": "Spectrum Report",
-    "r": "H",
+    "r": "M",
     "t": "SpectrumReport",
     "u": "https://mediabiasfactcheck.com/spectrum-report/",
     "P": 21,
-    "c": "H",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "speech-point.com": {
     "b": "FN",
@@ -37625,6 +37652,15 @@
     "P": 51,
     "c": "H",
     "a": "M"
+  },
+  "thelogicofscience.com": {
+    "b": "PS",
+    "d": "thelogicofscience.com",
+    "n": "The Logic of Science",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-logic-of-science-bias/",
+    "c": "H",
+    "a": "L"
   },
   "thelondoneconomic.com": {
     "b": "L",
