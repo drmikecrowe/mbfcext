@@ -71,7 +71,7 @@
     "generate-json-webpack-plugin": "^2.0.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^5.5.0",
-    "husky": "^4.3.8",
+    "husky": "^7.0.0",
     "install": "^0.13.0",
     "jest": "^26.6.3",
     "jest-webextension-mock": "^3.7.19",
@@ -119,20 +119,14 @@
   "engines": {
     "node": ">=14"
   },
-  "homepage": "https://www.emailthis.me/extension-boilerplate",
-  "husky-save": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+  "homepage": "https://drmikecrowe.github.io/mbfcext/",
   "license": "MIT",
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
-      "pnpm run lint:fix",
-      "git add"
+      "pnpm run lint:fix"
     ]
   },
-  "repository": "EmailThis/extension-boilerplate",
+  "repository": "drmikecrowe/mbfcext",
   "scripts": {
     "build": "pnpm run lint && pnpm run chrome:prod && pnpm run firefox:prod && node compile/clean.js",
     "chrome:dev": "cross-env TARGET=chrome pnpm run webpack:dev",
@@ -146,6 +140,7 @@
     "opera:prod": "cross-env NODE_ENV=production TARGET=opera pnpm run webpack",
     "postbuild": "git push && git push --tags && sleep 5 && wget https://github.com/drmikecrowe/mbfcext/archive/v$(jq -r .version package.json).zip -P build/",
     "posttest": "pnpm run format",
+    "preversion": "pnpm run lint",
     "prebuild": "pnpm run update-versions && rm build/chrome build/firefox -rf",
     "preinstall": "node -e \"if (process.env.npm_execpath.indexOf('pnpm') === -1) { console.log('\u001b[31mPlease use pnpm for installing\u001b[0m'); process.exit(1); }\"",
     "prewebpack": "rimraf build/${TARGET} && pnpm run update-sources",
@@ -160,6 +155,7 @@
     "update-sources": "cp -R ../mbfc-mirror/src/release/v3/* docs/v3/ -R && cp -R ../mbfc-mirror/src/release/v3/latest.json src/assets -R",
     "update-versions": "export VERSION=$(jq -r .version package.json) && jq \".version=\\\"$VERSION\\\"\" manifest.json | jq \".version_name=\\\"Release $VERSION\\\"\" > manifest.new && mv manifest.new src/manifest.json && git add src/manifest.json && git commit -m\"Release $VERSION\"; exit 0",
     "webpack": "node ./node_modules/webpack/bin/webpack.js --config compile/webpack.prod.js",
-    "webpack:dev": "node --trace-deprecation $NODE_DEBUG ./node_modules/webpack/bin/webpack.js --config compile/webpack.dev.js --watch"
+    "webpack:dev": "node --trace-deprecation $NODE_DEBUG ./node_modules/webpack/bin/webpack.js --config compile/webpack.dev.js --watch",
+    "prepare": "husky install"
   }
 }

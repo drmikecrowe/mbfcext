@@ -6,10 +6,12 @@ import { checkDomain, CheckDomainResults } from "utils/checkDomain";
 import { getDomain } from "utils/getDomain";
 import { isDevMode } from "utils/logger";
 
-export async function getTabById(tabId: number): Promise<Result<Tabs.Tab, null>> {
+export async function getTabById(
+  tabId: number
+): Promise<Result<Tabs.Tab, null>> {
   try {
-    let tabInfo = await browser.tabs.get(tabId);
-    return ok(tabInfo)
+    const tabInfo = await browser.tabs.get(tabId);
+    return ok(tabInfo);
   } catch (error) {
     console.error(error);
   }

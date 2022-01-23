@@ -1,5 +1,9 @@
 # Official Media Bias/Fact Check Extension Release Notes
 
+## Release notes for version 3.3.0
+
+- Changing to browserAction to allow separate windows to have separate icons
+
 ## Release notes for version 3.2.1
 
 - Fixing finding subdomains such as nhk.or.jp/nhkworld/article..

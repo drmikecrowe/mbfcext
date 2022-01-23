@@ -35,8 +35,7 @@ const groups = [
         model: "collapse.collapseLeft",
         inputName: "collapse.collapseLeft",
         default: false,
-        hint:
-          "Left Bias media sources are moderately to strongly biased toward liberal causes through story selection and/or political affiliation.  They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage liberal causes. Some sources in this category may be untrustworthy.",
+        hint: "Left Bias media sources are moderately to strongly biased toward liberal causes through story selection and/or political affiliation.  They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage liberal causes. Some sources in this category may be untrustworthy.",
         ...checkboxClasses,
       },
       {
@@ -45,8 +44,7 @@ const groups = [
         model: "collapse.collapseLeftCenter",
         inputName: "collapse.collapseLeftCenter",
         default: false,
-        hint:
-          "Left-Center media sources have a slight to moderate liberal bias.  They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor liberal causes.  These sources are generally trustworthy for information, but may require further investigation.",
+        hint: "Left-Center media sources have a slight to moderate liberal bias.  They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor liberal causes.  These sources are generally trustworthy for information, but may require further investigation.",
         ...checkboxClasses,
       },
       {
@@ -55,8 +53,7 @@ const groups = [
         model: "collapse.collapseCenter",
         inputName: "collapse.collapseCenter",
         default: false,
-        hint:
-          "Least Biased/Center media sources have minimal bias and use very few loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes).  The reporting is factual and usually sourced.  These are the most credible media sources.",
+        hint: "Least Biased/Center media sources have minimal bias and use very few loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes).  The reporting is factual and usually sourced.  These are the most credible media sources.",
         ...checkboxClasses,
       },
       {
@@ -65,8 +62,7 @@ const groups = [
         model: "collapse.collapseRightCenter",
         inputName: "collapse.collapseRightCenter",
         default: false,
-        hint:
-          "Right-Center media sources are slightly to moderately conservative in bias. They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor conservative causes. These sources are generally trustworthy for information, but may require further investigation.",
+        hint: "Right-Center media sources are slightly to moderately conservative in bias. They often publish factual information that utilizes loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes) to favor conservative causes. These sources are generally trustworthy for information, but may require further investigation.",
         ...checkboxClasses,
       },
       {
@@ -76,8 +72,7 @@ const groups = [
         model: "collapse.collapseRight",
         inputName: "collapse.collapseRight",
         default: false,
-        hint:
-          "Right Bias media sources are moderately to strongly biased toward conservative causes through story selection and/or political affiliation. They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage conservative causes. Some sources in this category may be untrustworthy.",
+        hint: "Right Bias media sources are moderately to strongly biased toward conservative causes through story selection and/or political affiliation. They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage conservative causes. Some sources in this category may be untrustworthy.",
         ...checkboxClasses,
       },
       {
@@ -86,8 +81,7 @@ const groups = [
         model: "collapse.collapseProScience",
         inputName: "collapse.collapseProScience",
         default: false,
-        hint:
-          "Pro-Science media sources consist of legitimate science or are evidence based through the use of credible scientific sourcing.  Legitimate science follows the scientific method, is unbiased and does not use emotional words.  These sources also respect the consensus of experts in the given scientific field and strive to publish peer reviewed science. Some sources in this category may have a slight political bias, but adhere to scientific principles.",
+        hint: "Pro-Science media sources consist of legitimate science or are evidence based through the use of credible scientific sourcing.  Legitimate science follows the scientific method, is unbiased and does not use emotional words.  These sources also respect the consensus of experts in the given scientific field and strive to publish peer reviewed science. Some sources in this category may have a slight political bias, but adhere to scientific principles.",
         ...checkboxClasses,
       },
       {
@@ -97,8 +91,7 @@ const groups = [
         model: "collapse.collapseConspiracy",
         inputName: "collapse.collapseConspiracy",
         default: false,
-        hint:
-          "Sources in the Conspiracy-Pseudoscience category “may” publish unverifiable information that is “not always” supported by evidence. These sources “may” be untrustworthy for credible/verifiable information, therefore fact checking and further investigation is recommended on a per article basis when obtaining information from these sources.",
+        hint: "Sources in the Conspiracy-Pseudoscience category “may” publish unverifiable information that is “not always” supported by evidence. These sources “may” be untrustworthy for credible/verifiable information, therefore fact checking and further investigation is recommended on a per article basis when obtaining information from these sources.",
         ...checkboxClasses,
       },
       {
@@ -107,8 +100,7 @@ const groups = [
         model: "collapse.collapseSatire",
         inputName: "collapse.collapseSatire",
         default: false,
-        hint:
-          "Satire media sources exclusively use humor, irony, exaggeration, or ridicule to expose and criticize people’s stupidity or vices, particularly in the context of contemporary politics and other topical issues. Primarily these sources are clear that they are satire and do not attempt to deceive.",
+        hint: "Satire media sources exclusively use humor, irony, exaggeration, or ridicule to expose and criticize people’s stupidity or vices, particularly in the context of contemporary politics and other topical issues. Primarily these sources are clear that they are satire and do not attempt to deceive.",
         ...checkboxClasses,
       },
       {
@@ -118,8 +110,7 @@ const groups = [
         model: "collapse.collapseFakeNews",
         inputName: "collapse.collapseFakeNews",
         default: false,
-        hint:
-          "Questionable Sources/Fake News media source exhibits any of the following: extreme bias, overt propaganda, poor or no sourcing to credible information and/or is fake news. Fake News is the deliberate attempt to publish hoaxes and/or disinformation for the purpose of profit or influence (Learn More). Sources listed in the Questionable Category may be very untrustworthy and should be fact checked on a per article basis.",
+        hint: "Questionable Sources/Fake News media source exhibits any of the following: extreme bias, overt propaganda, poor or no sourcing to credible information and/or is fake news. Fake News is the deliberate attempt to publish hoaxes and/or disinformation for the purpose of profit or influence (Learn More). Sources listed in the Questionable Category may be very untrustworthy and should be fact checked on a per article basis.",
         ...checkboxClasses,
       },
       {
@@ -129,8 +120,7 @@ const groups = [
         model: "collapse.collapseMixed",
         inputName: "collapse.collapseMixed",
         default: false,
-        hint:
-          "Mixed Factual Reporting media sources have a track record of publishing false stories, and should be treated used with caution.",
+        hint: "Mixed Factual Reporting media sources have a track record of publishing false stories, and should be treated used with caution.",
         ...checkboxClasses,
       },
     ],
