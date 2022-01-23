@@ -1,5 +1,5 @@
-import { getCurrentTab, getSiteFromUrl } from "utils/tabUtils";
-import { browser } from "webextension-polyfill-ts";
+import { getCurrentTab, getSiteFromUrl, getTabById } from "utils/tabUtils";
+import { browser, Tabs, BrowserAction } from "webextension-polyfill-ts";
 import { logger } from "utils/logger";
 
 const log = logger("mbfc:background:TabListener");
@@ -19,8 +19,10 @@ const colorMap = {
 
 export class TabListener {
   private static instance: TabListener;
-  private interval: number | undefined;
+  private interval: Record<number, number> = {};
   private lastIcon = "";
+  private static imageCache: Record<string, BrowserAction.SetIconDetailsType> =
+    {};
 
   constructor() {
     log(`Initializing onUpdated for tab listener`);
@@ -38,106 +40,127 @@ export class TabListener {
     return TabListener.instance;
   }
 
-  static draw(text: string, color, backColor) {
-    const canvas = document.createElement("canvas"); // Create the canvas
-    canvas.width = 19;
-    canvas.height = 19;
-    let top = 2;
-    let left = 10;
-    let font = 17;
+  static draw(
+    text: string,
+    color,
+    backColor
+  ): BrowserAction.SetIconDetailsType | null {
+    const key = `${text}-${color}-${backColor}`;
+    if (!(key in TabListener.imageCache)) {
+      const canvas = document.createElement("canvas"); // Create the canvas
+      canvas.width = 19;
+      canvas.height = 19;
+      let top = 2;
+      let left = 10;
+      let font = 17;
 
-    const context = canvas.getContext("2d");
-    if (!context) return;
-    if (backColor === "white") {
+      const context = canvas.getContext("2d");
+      if (!context) return null;
+      if (backColor === "white") {
+        context.fillStyle = color;
+        context.fillRect(0, 0, 19, 19);
+        context.fillStyle = backColor;
+        context.fillRect(1, 1, 17, 17);
+        left -= 1;
+      } else {
+        context.fillStyle = backColor;
+        context.fillRect(0, 0, 19, 19);
+      }
+      if (text.length > 1) {
+        font = 14;
+        top = 4;
+      }
+
       context.fillStyle = color;
-      context.fillRect(0, 0, 19, 19);
-      context.fillStyle = backColor;
-      context.fillRect(1, 1, 17, 17);
-      left -= 1;
-    } else {
-      context.fillStyle = backColor;
-      context.fillRect(0, 0, 19, 19);
+      context.textAlign = "center";
+      context.textBaseline = "top";
+      context.font = `${font}px sans-serif`;
+      context.fillText(text, left, top);
+      TabListener.imageCache[key] = {
+        imageData: {
+          "19": context.getImageData(0, 0, 19, 19) as any,
+        },
+      };
     }
-    if (text.length > 1) {
-      font = 14;
-      top = 4;
-    }
-
-    context.fillStyle = color;
-    context.textAlign = "center";
-    context.textBaseline = "top";
-    context.font = `${font}px sans-serif`;
-    context.fillText(text, left, top);
-    return context.getImageData(0, 0, 19, 19);
+    return TabListener.imageCache[key];
   }
 
-  static show(icon: string, inverse: boolean) {
+  static show(icon: string, inverse: boolean, tabId: number) {
     const color = inverse ? colorMap[icon].backColor : colorMap[icon].color;
     const backColor = !inverse
       ? colorMap[icon].backColor
       : colorMap[icon].color;
-    // log(`Showing icon ${icon}`);
-    browser.browserAction.setIcon({
-      imageData: TabListener.draw(icon, color, backColor),
-    });
+    const imageData = TabListener.draw(icon, color, backColor);
+    if (imageData) {
+      browser.browserAction.setIcon({
+        tabId,
+        ...imageData,
+      });
+    }
   }
 
-  showTab(icon: string, collapse: boolean) {
-    this.reset();
-    TabListener.show(icon, false);
+  showTab(icon: string, collapse: boolean, tabId: number) {
+    this.reset(tabId);
+    TabListener.show(icon, false, tabId);
     this.lastIcon = icon;
     if (collapse) {
       let inverse = false;
-      this.interval = setInterval(() => {
-        inverse = !inverse;
-        TabListener.show(icon, inverse);
+      this.interval[tabId] = setInterval(() => {
+        getTabById(tabId).then((res) => {
+          if (res.isOk()) {
+            inverse = !inverse;
+            TabListener.show(icon, inverse, tabId);
+          } else {
+            this.reset(tabId);
+          }
+        });
       }, 1000) as any;
     }
   }
 
-  reset(): boolean {
+  reset(tabId: number): boolean {
     this.lastIcon = "";
-    if (this.interval) {
-      clearInterval(this.interval);
-      this.interval = 0;
+    if (this.interval[tabId]) {
+      clearInterval(this.interval[tabId]);
+      delete this.interval[tabId];
     }
     return false;
   }
 
-  updateTab(tab: any): boolean {
+  updateTab(tab: Tabs.Tab): boolean {
+    if (!tab || !tab.url || !tab.id) return false;
     const parsed_domain = getSiteFromUrl(tab.url);
-    if (parsed_domain.isErr()) return this.reset();
+    if (parsed_domain.isErr()) return this.reset(tab.id);
     const { site, collapse } = parsed_domain.value;
     if (site && site.b) {
       const icon = site.b;
       if (icon !== this.lastIcon) {
         if (!colorMap[site.b]) {
           log(`No colorMap for icon ${site.b} from `, site);
-          return this.reset();
+          return this.reset(tab.id);
         }
-        this.showTab(icon, collapse);
+        this.showTab(icon, collapse, tab.id);
         log(`Icon: ${icon} ${collapse ? " flashing" : ""}`, parsed_domain);
       }
       return true;
     }
-    return this.reset();
+    return this.reset(tab.id);
   }
 
-  public static resetIcon() {
+  public static resetIcon(tabId: number) {
     browser.browserAction.setIcon({
+      tabId,
       path: "icons/icon48.png",
     });
   }
 
-  public async updateBadge() {
+  public async updateBadge(): Promise<void> {
     const res = await getCurrentTab();
     const tab = res.isOk() ? res.value : null;
-    if (tab && tab.url && !tab.incognito) {
+    if (tab && tab.url && tab.id && !tab.incognito) {
       if (!this.updateTab(tab)) {
-        TabListener.resetIcon();
+        TabListener.resetIcon(tab.id);
       }
-    } else {
-      TabListener.resetIcon();
     }
   }
 }

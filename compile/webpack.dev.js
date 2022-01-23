@@ -2,7 +2,7 @@ const webpack = require("webpack");
 const { merge } = require("webpack-merge");
 const { webpackConfig } = require("./webpack.common.js");
 const WriteFilePlugin = require("write-file-webpack-plugin");
-const ExtensionReloader = require("@drmikecrowe/webpack-extension-reloaderv5");
+// const ExtensionReloader = require("@drmikecrowe/webpack-extension-reloaderv5");
 
 module.exports = merge(webpackConfig, {
   devtool: "eval-source-map",
@@ -12,14 +12,14 @@ module.exports = merge(webpackConfig, {
       NODE_ENV: "development",
       DEBUG: "mbfc",
     }),
-    new ExtensionReloader({
-      reloadPage: true, // Force the reload of the page also
-      entries: {
-        background: "background",
-        extensionPage: ["popup", "options"],
-        contentScript: ["facebook", "twitter"],
-      },
-    }),
+    // new ExtensionReloader({
+    //   reloadPage: true, // Force the reload of the page also
+    //   entries: {
+    //     background: "background",
+    //     extensionPage: ["popup", "options"],
+    //     contentScript: ["facebook", "twitter"],
+    //   },
+    // }),
     new WriteFilePlugin(),
   ],
   output: {

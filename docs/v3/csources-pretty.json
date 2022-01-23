@@ -6684,6 +6684,15 @@
     "c": "L",
     "a": "N"
   },
+  "chieftain.com": {
+    "b": "LC",
+    "d": "chieftain.com",
+    "n": "Pueblo Chieftain",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pueblo-chieftain-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "childrenshealthdefense.org": {
     "b": "CP",
     "d": "childrenshealthdefense.org",
@@ -20607,6 +20616,15 @@
     "c": "H",
     "a": "M"
   },
+  "lawliberty.org": {
+    "b": "R",
+    "d": "lawliberty.org",
+    "n": "Liberty & Law",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/law-liberty-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "lawrencereporter.com": {
     "b": "FN",
     "d": "lawrencereporter.com",
@@ -21223,6 +21241,15 @@
     "P": 45,
     "c": "L",
     "a": "N"
+  },
+  "libertyplanets.com": {
+    "b": "CP",
+    "d": "libertyplanets.com",
+    "n": "Liberty Planet",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/liberty-planet-bias/",
+    "c": "L",
+    "a": "L"
   },
   "libertytalk.fm": {
     "b": "FN",
@@ -25290,6 +25317,15 @@
     "c": "H",
     "a": "M"
   },
+  "newschannel20.com": {
+    "b": "RC",
+    "d": "newschannel20.com",
+    "n": "WICD - Champaign News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wicd-champaign-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "newschannel5.com": {
     "b": "C",
     "d": "newschannel5.com",
@@ -26583,7 +26619,7 @@
     "d": "npr.org",
     "f": "NPR",
     "n": "NPR",
-    "r": "VH",
+    "r": "H",
     "t": "NPR",
     "u": "https://mediabiasfactcheck.com/npr/",
     "P": 96,
@@ -31881,11 +31917,11 @@
     "d": "ruthinstitute.org",
     "f": "TheRuthInstitute",
     "n": "Ruth Institute",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/ruth-institute/",
     "P": 48,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "sacbee.com": {
     "b": "LC",
@@ -33242,7 +33278,7 @@
     "u": "https://mediabiasfactcheck.com/shorenstein-center/",
     "P": 58,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "shreveporttimes.com": {
     "b": "C",
@@ -33349,7 +33385,7 @@
     "u": "https://mediabiasfactcheck.com/simple-politics/",
     "P": 24,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "singularityhub.com": {
     "b": "PS",
@@ -34244,12 +34280,12 @@
     "d": "spectrumreport.com",
     "f": "SpectrumReport",
     "n": "Spectrum Report",
-    "r": "H",
+    "r": "M",
     "t": "SpectrumReport",
     "u": "https://mediabiasfactcheck.com/spectrum-report/",
     "P": 21,
-    "c": "H",
-    "a": "N"
+    "c": "L",
+    "a": "L"
   },
   "speech-point.com": {
     "b": "FN",
@@ -37616,6 +37652,15 @@
     "P": 51,
     "c": "H",
     "a": "M"
+  },
+  "thelogicofscience.com": {
+    "b": "PS",
+    "d": "thelogicofscience.com",
+    "n": "The Logic of Science",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-logic-of-science-bias/",
+    "c": "H",
+    "a": "L"
   },
   "thelondoneconomic.com": {
     "b": "L",
@@ -42276,6 +42321,15 @@
     "c": "H",
     "a": "M"
   },
+  "wdam.com": {
+    "b": "C",
+    "d": "wdam.com",
+    "n": "WDAM - Hattiesburg News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdam-hattiesburg-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "wdbj7.com": {
     "b": "C",
     "d": "wdbj7.com",
@@ -42314,6 +42368,15 @@
     "P": 64,
     "c": "L",
     "a": "L"
+  },
+  "wearegreenbay.com": {
+    "b": "C",
+    "d": "wearegreenbay.com",
+    "n": "WFRV - Green Bay News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wfrv-green-bay-news-bias/",
+    "c": "H",
+    "a": "M"
   },
   "wearethemighty.com": {
     "b": "C",
@@ -44080,6 +44143,15 @@
     "P": 76,
     "c": "L",
     "a": "M"
+  },
+  "wyandottetimes.com": {
+    "b": "FN",
+    "d": "wyandottetimes.com",
+    "n": "Wyandotte Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wyandotte-times-bias/",
+    "c": "L",
+    "a": "L"
   },
   "wymt.com": {
     "b": "C",
