@@ -1122,7 +1122,7 @@
     "a": "L"
   },
   "africanews.com": {
-    "b": "C",
+    "b": "LC",
     "d": "africanews.com",
     "f": "africanews.channel",
     "n": "Africa News",
@@ -2291,11 +2291,11 @@
     "d": "americanprogress.org",
     "f": "americanprogress",
     "n": "Center for American Progress",
-    "r": "MF",
+    "r": "M",
     "t": "amprog",
     "u": "https://mediabiasfactcheck.com/center-for-american-progress/",
     "P": 88,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "americanpublicmedia.org": {
@@ -2472,7 +2472,7 @@
     "u": "https://mediabiasfactcheck.com/americas-quarterly/",
     "P": 64,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "americasvoice.news": {
     "b": "R",
@@ -4690,6 +4690,15 @@
     "c": "L",
     "a": "N"
   },
+  "bluegrasstimes.com": {
+    "b": "FN",
+    "d": "bluegrasstimes.com",
+    "n": "Bluegrass Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bluegrass-times-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "blueinformer.com": {
     "b": "FN",
     "d": "blueinformer.com",
@@ -4987,6 +4996,15 @@
     "c": "M",
     "a": "M"
   },
+  "bowlinggreentoday.com": {
+    "b": "FN",
+    "d": "bowlinggreentoday.com",
+    "n": "Bowling Green Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/bowling-green-today-bias/",
+    "c": "L",
+    "a": "L"
+  },
   "bozemandailychronicle.com": {
     "b": "C",
     "d": "bozemandailychronicle.com",
@@ -5047,7 +5065,7 @@
     "u": "https://mediabiasfactcheck.com/breaking-burgh/",
     "P": 35,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "breakingchristiannews.com": {
     "b": "FN",
@@ -7176,7 +7194,7 @@
     "a": "M"
   },
   "cjonline.com": {
-    "b": "RC",
+    "b": "LC",
     "d": "cjonline.com",
     "f": "TopekaCapitalJournal",
     "n": "Topeka Capital-Journal",
@@ -7669,7 +7687,7 @@
     "t": "colombiareports",
     "u": "https://mediabiasfactcheck.com/columbia-reports/",
     "P": 74,
-    "c": "L",
+    "c": "M",
     "a": "L"
   },
   "coloradoan.com": {
@@ -8550,7 +8568,7 @@
     "d": "cosmosmagazine.com",
     "f": "CosmosMagazine",
     "n": "Cosmos Magazine",
-    "r": "VH",
+    "r": "H",
     "t": "CosmosMagazine",
     "u": "https://mediabiasfactcheck.com/cosmos-magazine/",
     "P": 79,
@@ -9416,6 +9434,15 @@
     "P": 16,
     "c": "L",
     "a": "N"
+  },
+  "dailyjournal.net": {
+    "b": "RC",
+    "d": "dailyjournal.net",
+    "n": "Franklin Daily Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/franklin-daily-journal-bias/",
+    "c": "H",
+    "a": "L"
   },
   "dailyjournalonline.com": {
     "b": "C",
@@ -10375,11 +10402,11 @@
     "b": "L",
     "d": "democracychronicles.org",
     "n": "Democracy Chronicles",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/democracy-chronicles/",
     "P": 36,
-    "c": "H",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "democracyguardian.com": {
     "b": "L",
@@ -13167,7 +13194,7 @@
     "a": "N"
   },
   "federalistpress.com": {
-    "b": "R",
+    "b": "FN",
     "d": "federalistpress.com",
     "f": "FederalistPress",
     "n": "Federalist Press",
@@ -13175,7 +13202,7 @@
     "u": "https://mediabiasfactcheck.com/federalist-press/",
     "P": 26,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "federalnewsnetwork.com": {
     "b": "C",
@@ -14050,6 +14077,15 @@
     "u": "https://mediabiasfactcheck.com/wtvc-chattanooga-bias/",
     "c": "H",
     "a": "M"
+  },
+  "foxillinois.com": {
+    "b": "RC",
+    "d": "foxillinois.com",
+    "n": "Foxillinois.com (WRSP - WCCU)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/foxillinois-com-wrsp-wccu/",
+    "c": "H",
+    "a": "L"
   },
   "foxlexington.com": {
     "b": "RC",
@@ -15839,6 +15875,15 @@
     "c": "H",
     "a": "M"
   },
+  "greenfieldreporter.com": {
+    "b": "RC",
+    "d": "greenfieldreporter.com",
+    "n": "Greenfield Daily Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/greenfield-daily-reporter-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "greenleft.org.au": {
     "b": "L",
     "d": "greenleft.org.au",
@@ -15913,6 +15958,15 @@
     "t": "greenvillenews",
     "u": "https://mediabiasfactcheck.com/greenville-news/",
     "P": 77,
+    "c": "H",
+    "a": "M"
+  },
+  "grid.news": {
+    "b": "LC",
+    "d": "grid.news",
+    "n": "Grid News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/grid-news/",
     "c": "H",
     "a": "M"
   },
@@ -16886,7 +16940,7 @@
     "u": "https://mediabiasfactcheck.com/hogg-watch/",
     "P": 25,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "hollywoodreporter.com": {
     "b": "LC",
@@ -17865,6 +17919,15 @@
     "P": 61,
     "c": "L",
     "a": "M"
+  },
+  "independenttribune.com": {
+    "b": "C",
+    "d": "independenttribune.com",
+    "n": "Concord Independent Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/concord-independent-tribune-bias/",
+    "c": "H",
+    "a": "L"
   },
   "indexmundi.com": {
     "b": "C",
@@ -19735,6 +19798,15 @@
     "c": "H",
     "a": "M"
   },
+  "kfvs12.com": {
+    "b": "C",
+    "d": "kfvs12.com",
+    "n": "KFVS - Cape Girardeau News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kfvs-cape-girardeau-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "kgns.tv": {
     "b": "C",
     "d": "kgns.tv",
@@ -20094,6 +20166,15 @@
     "u": "https://mediabiasfactcheck.com/ksl-tv/",
     "c": "NA",
     "a": "N"
+  },
+  "ksn.com": {
+    "b": "C",
+    "d": "ksn.com",
+    "n": "Wichita News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ksnw-wichita-news-bias/",
+    "c": "H",
+    "a": "M"
   },
   "ksnblocal4.com": {
     "b": "C",
@@ -22242,6 +22323,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/mcclatchydc/",
     "P": 83,
+    "c": "H",
+    "a": "M"
+  },
+  "mcdowellnews.com": {
+    "b": "C",
+    "d": "mcdowellnews.com",
+    "n": "McDowell News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mcdowell-news-bias/",
     "c": "H",
     "a": "M"
   },
@@ -26434,6 +26524,15 @@
     "u": "https://mediabiasfactcheck.com/north-wichita-news/",
     "c": "L",
     "a": "L"
+  },
+  "norwichbulletin.com": {
+    "b": "LC",
+    "d": "norwichbulletin.com",
+    "n": "Norwich Bulletin",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/norwich-bulletin-bias/",
+    "c": "H",
+    "a": "M"
   },
   "nos.nl": {
     "b": "RC",
@@ -31217,7 +31316,7 @@
     "u": "https://mediabiasfactcheck.com/resource-watch/",
     "P": 46,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "responsibletechnology.org": {
     "b": "CP",
@@ -31910,7 +32009,7 @@
     "u": "https://mediabiasfactcheck.com/russian-media-monitor/",
     "P": 30,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "ruthinstitute.org": {
     "b": "FN",
@@ -39261,11 +39360,11 @@
     "b": "CP",
     "d": "thoughtcrimeradio.net",
     "n": "Thought Crime Radio",
-    "r": "L",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/thought-crime-radio/",
     "P": 29,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "thrillist.com": {
     "b": "LC",
@@ -40370,11 +40469,11 @@
     "d": "tytnetwork.com",
     "f": "NickHanauer",
     "n": "Young Turks",
-    "r": "MF",
+    "r": "M",
     "t": "TheYoungTurks",
     "u": "https://mediabiasfactcheck.com/the-young-turks/",
     "P": 64,
-    "c": "H",
+    "c": "M",
     "a": "H"
   },
   "uawire.org": {
@@ -43270,7 +43369,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/winona-daily-news/",
     "c": "H",
-    "a": "M"
+    "a": "L"
   },
   "wionews.com": {
     "b": "C",
@@ -43415,6 +43514,15 @@
     "n": "WKYT News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wkyt-news/",
+    "c": "H",
+    "a": "M"
+  },
+  "wlbt.com": {
+    "b": "C",
+    "d": "wlbt.com",
+    "n": "WLBT - Jackson News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wlbt-jackson-news-bias/",
     "c": "H",
     "a": "M"
   },
