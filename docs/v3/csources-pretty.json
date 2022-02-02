@@ -11078,7 +11078,7 @@
     "u": "https://mediabiasfactcheck.com/downsizing-the-federal-government/",
     "P": 56,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "downtrend.com": {
     "b": "FN",
@@ -14407,12 +14407,12 @@
     "d": "freedomnews.org.uk",
     "f": "FreedomNews1886",
     "n": "Freedom News and Journal",
-    "r": "H",
+    "r": "MF",
     "t": "Freedom_Paper",
     "u": "https://mediabiasfactcheck.com/freedom-news-and-journal/",
     "P": 39,
-    "c": "H",
-    "a": "N"
+    "c": "M",
+    "a": "L"
   },
   "freedomnewsreport.com": {
     "b": "FN",
@@ -14497,15 +14497,15 @@
     "a": "L"
   },
   "freepress.org": {
-    "b": "LC",
+    "b": "L",
     "d": "freepress.org",
     "f": "freepress.org",
-    "n": "Free Press",
-    "r": "H",
+    "n": "FreePress.org",
+    "r": "MF",
     "t": "freepressorg",
     "u": "https://mediabiasfactcheck.com/free-press-2/",
     "P": 58,
-    "c": "H",
+    "c": "M",
     "a": "L"
   },
   "freerepublic.com": {
@@ -16551,11 +16551,11 @@
     "d": "healthyway.com",
     "f": "healthywaymedia",
     "n": "HealthyWay",
-    "r": "H",
+    "r": "MF",
     "t": "healthywaymedia",
     "u": "https://mediabiasfactcheck.com/healthyway/",
     "P": 46,
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "heartland.org": {
@@ -42947,6 +42947,15 @@
     "n": "WFXL - Albany GA",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wfxl-albany-ga/",
+    "c": "H",
+    "a": "M"
+  },
+  "wfxrtv.com": {
+    "b": "C",
+    "d": "wfxrtv.com",
+    "n": "WFXR - Roanoke News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wfxr-roanoke-news-bias/",
     "c": "H",
     "a": "M"
   },
