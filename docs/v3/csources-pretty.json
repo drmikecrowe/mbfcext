@@ -14930,9 +14930,9 @@
     "b": "R",
     "d": "gbnews.uk",
     "n": "GB News UK",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/gb-news-uk-bias/",
-    "c": "H",
+    "c": "M",
     "a": "M"
   },
   "gbtimes.com": {
@@ -17773,7 +17773,7 @@
     "u": "https://mediabiasfactcheck.com/institute-for-middle-east-understanding-imeu/",
     "P": 46,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "imowired.com": {
     "b": "FN",
@@ -19831,6 +19831,15 @@
     "n": "KHON - Honolulu News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/khon-honolulu-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
+  "khqa.com": {
+    "b": "RC",
+    "d": "khqa.com",
+    "n": "KHQA - Quincy News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/khqa-quincy-news-bias/",
     "c": "H",
     "a": "M"
   },
@@ -22084,9 +22093,9 @@
     "b": "LC",
     "d": "malaysiakini.com",
     "n": "Malaysiakini",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/malaysiakini/",
-    "c": "M",
+    "c": "H",
     "a": "H"
   },
   "manateereview.com": {
@@ -25436,6 +25445,15 @@
     "c": "L",
     "a": "N"
   },
+  "newschief.com": {
+    "b": "LC",
+    "d": "newschief.com",
+    "n": "Winter Haven News Chief",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/winter-haven-news-chief-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "newscientist.com": {
     "b": "PS",
     "d": "newscientist.com",
@@ -25512,7 +25530,7 @@
     "u": "https://mediabiasfactcheck.com/newser/",
     "P": 87,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "newsexaminer.net": {
     "b": "FN",
@@ -26117,12 +26135,12 @@
     "d": "nknews.org",
     "f": "nknewsorg",
     "n": "NK News",
-    "r": "H",
+    "r": "MF",
     "t": "nknewsorg",
     "u": "https://mediabiasfactcheck.com/nk-news/",
     "P": 77,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "nmws.us": {
     "b": "FN",
@@ -27804,7 +27822,7 @@
     "d": "paho.org",
     "f": "PAHOWHO",
     "n": "Pan American Health Organization",
-    "r": "VH",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/pan-american-health-organization-paho/",
     "P": 85,
     "c": "H",
@@ -28106,7 +28124,7 @@
     "u": "https://mediabiasfactcheck.com/patriotic-millionaires/",
     "P": 57,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "patrioticviralnews.com": {
     "b": "FN",
@@ -29465,7 +29483,7 @@
     "u": "https://mediabiasfactcheck.com/press-for-truth/",
     "P": 49,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "pressherald.com": {
     "b": "LC",
