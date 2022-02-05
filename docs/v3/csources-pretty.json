@@ -3780,15 +3780,15 @@
     "a": "H"
   },
   "bangkokpost.com": {
-    "b": "C",
+    "b": "RC",
     "d": "bangkokpost.com",
     "f": "bangkokpost",
     "n": "Bangkok Post",
-    "r": "H",
+    "r": "M",
     "t": "BangkokPostNews",
     "u": "https://mediabiasfactcheck.com/the-bangkok-post/",
     "P": 90,
-    "c": "H",
+    "c": "M",
     "a": "H"
   },
   "bangordailynews.com": {
@@ -3893,7 +3893,7 @@
     "a": "L"
   },
   "baxterbulletin.com": {
-    "b": "C",
+    "b": "LC",
     "d": "baxterbulletin.com",
     "f": "bulletin.newsroom",
     "n": "Baxter Bulletin",
@@ -3978,6 +3978,15 @@
     "P": 62,
     "c": "M",
     "a": "M"
+  },
+  "beavercreeknewscurrent.com": {
+    "b": "RC",
+    "d": "beavercreeknewscurrent.com",
+    "n": "Beavercreek News-Current",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/beavercreek-news-current-bias/",
+    "c": "H",
+    "a": "L"
   },
   "beaware.one": {
     "b": "FN",
@@ -16908,7 +16917,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-herald-journal-utah/",
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "hln.be": {
     "b": "RC",
@@ -20112,10 +20121,10 @@
     "b": "LC",
     "d": "koreatimes.co.kr",
     "n": "The Korea Times",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/the-korea-times/",
     "P": 89,
-    "c": "M",
+    "c": "H",
     "a": "M"
   },
   "kotaku.com": {
@@ -32361,7 +32370,7 @@
     "u": "https://mediabiasfactcheck.com/satire-v/",
     "P": 25,
     "c": "NA",
-    "a": "N"
+    "a": "L"
   },
   "saudigazette.com.sa": {
     "b": "LC",
@@ -33509,7 +33518,7 @@
     "d": "singularityhub.com",
     "f": "singularityhub",
     "n": "SingularityHub",
-    "r": "VH",
+    "r": "H",
     "t": "singularityhub",
     "u": "https://mediabiasfactcheck.com/singularityhub/",
     "P": 76,
@@ -35029,7 +35038,7 @@
     "u": "https://mediabiasfactcheck.com/strategypage/",
     "P": 70,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "stratfor.com": {
     "b": "C",
@@ -35522,14 +35531,14 @@
     "a": "M"
   },
   "syriana-analysis.com": {
-    "b": "L",
+    "b": "FN",
     "d": "syriana-analysis.com",
     "n": "Syriana Analysis",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/syriana-analysis/",
     "P": 22,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "syrianews.cc": {
     "b": "FN",
@@ -38152,12 +38161,12 @@
     "d": "thenextweb.com",
     "f": "thenextweb",
     "n": "The Next Web (TNW)",
-    "r": "M",
+    "r": "MF",
     "t": "thenextweb",
     "u": "https://mediabiasfactcheck.com/the-next-web/",
     "P": 94,
-    "c": "M",
-    "a": "H"
+    "c": "H",
+    "a": "M"
   },
   "theobjectivestandard.com": {
     "b": "RC",
@@ -38819,7 +38828,7 @@
     "u": "https://mediabiasfactcheck.com/the-strategy-bridge/",
     "P": 41,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "thestreet.com": {
     "b": "RC",
@@ -39480,11 +39489,11 @@
     "d": "timeslive.co.za",
     "f": "TimesLIVE",
     "n": "Times of South Africa",
-    "r": "M",
+    "r": "MF",
     "t": "TimesLIVE",
     "u": "https://mediabiasfactcheck.com/times-of-south-africa-times-live/",
     "P": 81,
-    "c": "M",
+    "c": "H",
     "a": "H"
   },
   "timesofindia.indiatimes.com": {
@@ -41434,7 +41443,7 @@
     "u": "https://mediabiasfactcheck.com/vaxxter/",
     "P": 44,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "vcstar.com": {
     "b": "LC",
