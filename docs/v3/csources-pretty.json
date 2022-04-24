@@ -11919,7 +11919,7 @@
     "u": "https://mediabiasfactcheck.com/east-little-rock-times/",
     "P": 3,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "eastlouisvillenews.com": {
     "b": "FN",
@@ -17718,16 +17718,6 @@
     "c": "L",
     "a": "L"
   },
-  "hoodsite.com": {
-    "b": "FN",
-    "d": "hoodsite.com",
-    "n": "Hoodsite",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/hoodsite/",
-    "P": 31,
-    "c": "L",
-    "a": "H"
-  },
   "hoosierstatetoday.com": {
     "b": "FN",
     "d": "hoosierstatetoday.com",
@@ -17808,7 +17798,7 @@
     "u": "https://mediabiasfactcheck.com/hot-springs-times/",
     "P": 3,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "housatonicvalleynews.com": {
     "b": "FN",
@@ -21206,7 +21196,7 @@
     "u": "https://mediabiasfactcheck.com/ktvu-fox-2/",
     "P": 59,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "kuow.org": {
     "b": "LC",
@@ -24289,6 +24279,15 @@
     "u": "https://mediabiasfactcheck.com/mises-daily/",
     "P": 86,
     "c": "M",
+    "a": "M"
+  },
+  "mississippitoday.org": {
+    "b": "LC",
+    "d": "mississippitoday.org",
+    "n": "Mississippi Today",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mississippi-today-bias/",
+    "c": "H",
     "a": "M"
   },
   "missoulian.com": {
@@ -31488,6 +31487,15 @@
     "P": 97,
     "c": "H",
     "a": "H"
+  },
+  "puck.news": {
+    "b": "LC",
+    "d": "puck.news",
+    "n": "Puck.News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/puck-news-bias/",
+    "c": "M",
+    "a": "M"
   },
   "pulaskitimes.com": {
     "b": "FN",
@@ -42552,6 +42560,17 @@
     "c": "L",
     "a": "N"
   },
+  "usacrime.com/hoodsite": {
+    "b": "FN",
+    "d": "usacrime.com/hoodsite",
+    "n": "Hoodsite-USA Crime",
+    "p": "/hoodsite",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hoodsite/",
+    "P": 31,
+    "c": "L",
+    "a": "M"
+  },
   "usadailypost.us": {
     "b": "FN",
     "d": "usadailypost.us",
@@ -45271,6 +45290,15 @@
     "c": "H",
     "a": "M"
   },
+  "wkyc.com": {
+    "b": "C",
+    "d": "wkyc.com",
+    "n": "WKYC - Cleveland News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wkyc-cleveland-news-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "wkyt.com": {
     "b": "C",
     "d": "wkyt.com",
@@ -46309,6 +46337,16 @@
     "n": "York News-Times",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/york-news-times-bias/",
+    "c": "H",
+    "a": "L"
+  },
+  "yorkregion.com/aurora-on": {
+    "b": "LC",
+    "d": "yorkregion.com/aurora-on",
+    "n": "Aurora Banner",
+    "p": "/aurora-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/aurora-banner-bias/",
     "c": "H",
     "a": "L"
   },
