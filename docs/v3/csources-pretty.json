@@ -2983,7 +2983,7 @@
     "d": "apnews.com",
     "f": "APNews",
     "n": "Associated Press",
-    "r": "VH",
+    "r": "H",
     "t": "ap",
     "u": "https://mediabiasfactcheck.com/associated-press/",
     "P": 95,
@@ -5798,6 +5798,15 @@
     "n": "C19hcq.com",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/c19hcq-com-bias/",
+    "c": "L",
+    "a": "L"
+  },
+  "c19ic.com": {
+    "b": "FN",
+    "d": "c19ic.com",
+    "n": "C19ic.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/c19ic-com-bias/",
     "c": "L",
     "a": "L"
   },
@@ -24365,6 +24374,15 @@
     "c": "L",
     "a": "L"
   },
+  "modernhealthcare.com": {
+    "b": "C",
+    "d": "modernhealthcare.com",
+    "n": "Modern Healthcare",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/modern-healthcare/",
+    "c": "H",
+    "a": "M"
+  },
   "modernliberals.com": {
     "b": "L",
     "d": "modernliberals.com",
@@ -25657,6 +25675,15 @@
     "P": 62,
     "c": "H",
     "a": "H"
+  },
+  "nbcnebraskascottsbluff.com": {
+    "b": "C",
+    "d": "nbcnebraskascottsbluff.com",
+    "n": "KNEP - Scottsbluff News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/knep-scottsbluff-news-bias/",
+    "c": "H",
+    "a": "L"
   },
   "nbcnews.com": {
     "b": "LC",
@@ -34638,6 +34665,15 @@
     "n": "SE Kansas News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/se-kansas-news-bias/",
+    "c": "L",
+    "a": "L"
+  },
+  "sekentuckynews.com": {
+    "b": "FN",
+    "d": "sekentuckynews.com",
+    "n": "SE Kentucky News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-kentucky-news-bias/",
     "c": "L",
     "a": "L"
   },
@@ -45892,6 +45928,15 @@
     "u": "https://mediabiasfactcheck.com/wsmv-nashville-bias/",
     "c": "H",
     "a": "M"
+  },
+  "wsoctv.com": {
+    "b": "C",
+    "d": "wsoctv.com",
+    "n": "WSOC - Charlotte News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wsoc-charlotte-news-bias/",
+    "c": "H",
+    "a": "H"
   },
   "wspa.com": {
     "b": "C",
