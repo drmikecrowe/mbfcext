@@ -4219,7 +4219,7 @@
     "u": "https://mediabiasfactcheck.com/benton-times/",
     "P": 3,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "benzinga.com": {
     "b": "C",
@@ -6451,6 +6451,15 @@
     "n": "WTTV - Indianapolis",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wttv-indianapolis-bias/",
+    "c": "H",
+    "a": "M"
+  },
+  "cbs4local.com": {
+    "b": "RC",
+    "d": "cbs4local.com",
+    "n": "KDBC -  El Paso News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kdbc-el-paso-news-bias/",
     "c": "H",
     "a": "M"
   },
@@ -30013,7 +30022,7 @@
     "u": "https://mediabiasfactcheck.com/pinal-today/",
     "P": 2,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "pinellastimes.com": {
     "b": "FN",
@@ -30944,7 +30953,7 @@
     "u": "https://mediabiasfactcheck.com/press-corp/",
     "P": 12,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "pressdemocrat.com": {
     "b": "LC",
@@ -34504,7 +34513,7 @@
     "u": "https://mediabiasfactcheck.com/se-arizona-news/",
     "P": 3,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "seatlantanews.com": {
     "b": "FN",
@@ -37000,7 +37009,7 @@
     "u": "https://mediabiasfactcheck.com/sw-arizona-news/",
     "P": 2,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "swarkansastimes.com": {
     "b": "FN",
@@ -37133,7 +37142,7 @@
     "u": "https://mediabiasfactcheck.com/sw-valley-times/",
     "P": 2,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "syracuse.com": {
     "b": "C",
@@ -40476,6 +40485,15 @@
     "c": "H",
     "a": "M"
   },
+  "thestarpress.com": {
+    "b": "LC",
+    "d": "thestarpress.com",
+    "n": "Muncie Star Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/muncie-star-press-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "thestate.com": {
     "b": "LC",
     "d": "thestate.com",
@@ -40754,6 +40772,16 @@
     "u": "https://mediabiasfactcheck.com/the-union-nevada-county-bias/",
     "c": "H",
     "a": "M"
+  },
+  "theunion.com/news/twi": {
+    "b": "C",
+    "d": "theunion.com/news/twi",
+    "n": "The Wildwood Independent",
+    "p": "/news/twi",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-wildwood-independent-bias/",
+    "c": "H",
+    "a": "L"
   },
   "theunionjournal.com": {
     "b": "FN",
@@ -42073,7 +42101,7 @@
     "u": "https://mediabiasfactcheck.com/tucson-standard/",
     "P": 4,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "tularetimes.com": {
     "b": "FN",
@@ -46301,7 +46329,7 @@
     "u": "https://mediabiasfactcheck.com/yavapai-news/",
     "P": 4,
     "c": "L",
-    "a": "N"
+    "a": "L"
   },
   "yc.news": {
     "b": "FN",
