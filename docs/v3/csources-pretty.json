@@ -4335,7 +4335,7 @@
     "u": "https://mediabiasfactcheck.com/boy-genius-report-bgr/",
     "P": 90,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "bigamericannews.com": {
     "b": "S",
@@ -5052,6 +5052,13 @@
     "c": "H",
     "a": "M"
   },
+  "borowitz-report": {
+    "b": "S",
+    "n": "Borowitz Report",
+    "u": "https://mediabiasfactcheck.com/borowitz-report/",
+    "c": "H",
+    "a": "H"
+  },
   "bossip.com": {
     "b": "FN",
     "d": "bossip.com",
@@ -5113,7 +5120,7 @@
     "u": "https://mediabiasfactcheck.com/boston-herald/",
     "P": 73,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "bostonreview.net": {
     "b": "L",
@@ -5125,7 +5132,7 @@
     "u": "https://mediabiasfactcheck.com/boston-review/",
     "P": 75,
     "c": "H",
-    "a": "L"
+    "a": "M"
   },
   "boulderleader.com": {
     "b": "FN",
@@ -5375,7 +5382,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/brief-news/",
     "c": "H",
-    "a": "L"
+    "a": "N"
   },
   "brighteon.com": {
     "b": "CP",
@@ -9125,6 +9132,15 @@
     "P": 77,
     "c": "H",
     "a": "M"
+  },
+  "courttv.com": {
+    "b": "C",
+    "d": "courttv.com",
+    "n": "CourtTV",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/courttv-bias/",
+    "c": "H",
+    "a": "H"
   },
   "covid.gov": {
     "b": "PS",
@@ -18114,7 +18130,7 @@
     "u": "https://mediabiasfactcheck.com/ice-news/",
     "P": 43,
     "c": "M",
-    "a": "N"
+    "a": "L"
   },
   "icij.org": {
     "b": "C",
@@ -21848,6 +21864,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/leavenworth-times/",
     "P": 43,
+    "c": "H",
+    "a": "L"
+  },
+  "lebanon-express.com": {
+    "b": "C",
+    "d": "lebanon-express.com",
+    "n": "Lebanon-Express",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lebanon-express-bias/",
     "c": "H",
     "a": "L"
   },
@@ -26130,6 +26155,15 @@
     "c": "L",
     "a": "L"
   },
+  "newarkpostonline.com": {
+    "b": "C",
+    "d": "newarkpostonline.com",
+    "n": "Newark Post",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newark-post-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "newatlas.com": {
     "b": "PS",
     "d": "newatlas.com",
@@ -27287,15 +27321,6 @@
     "t": "NewYorker",
     "u": "https://mediabiasfactcheck.com/new-yorker/",
     "P": 96,
-    "c": "H",
-    "a": "H"
-  },
-  "newyorker.com/humor/borowitz-report": {
-    "b": "S",
-    "d": "newyorker.com/humor/borowitz-report",
-    "n": "Borowitz Report",
-    "p": "/humor/borowitz-report",
-    "u": "https://mediabiasfactcheck.com/borowitz-report/",
     "c": "H",
     "a": "H"
   },
@@ -35089,6 +35114,16 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/southern-illinois-news-bias/",
     "c": "L",
+    "a": "L"
+  },
+  "simcoe.com/barrie-on": {
+    "b": "LC",
+    "d": "simcoe.com/barrie-on",
+    "n": "Barrie Advance",
+    "p": "/barrie-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/barrie-advance-bias/",
+    "c": "H",
     "a": "L"
   },
   "simpleorganicmedicine.com": {
@@ -45433,6 +45468,15 @@
     "n": "WLTX - Columbia News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wltx-columbia-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
+  "wmar2news.com": {
+    "b": "C",
+    "d": "wmar2news.com",
+    "n": "WMAR - Baltimore News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wmar-baltimore-news-bias/",
     "c": "H",
     "a": "M"
   },
