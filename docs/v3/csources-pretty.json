@@ -6145,6 +6145,15 @@
     "c": "H",
     "a": "M"
   },
+  "capecoralbreeze.com": {
+    "b": "C",
+    "d": "capecoralbreeze.com",
+    "n": "Cape Coral Breeze",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cape-coral-breeze-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "capitalandmain.com": {
     "b": "L",
     "d": "capitalandmain.com",
@@ -11131,7 +11140,7 @@
     "u": "https://mediabiasfactcheck.com/the-des-moines-register/",
     "P": 88,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "desmoinessun.com": {
     "b": "FN",
@@ -19387,7 +19396,7 @@
     "u": "https://mediabiasfactcheck.com/international-press-institute/",
     "P": 69,
     "c": "H",
-    "a": "N"
+    "a": "L"
   },
   "ipolitics.ca": {
     "b": "LC",
@@ -26552,17 +26561,6 @@
     "c": "H",
     "a": "H"
   },
-  "news.trust.org": {
-    "b": "LC",
-    "d": "news.trust.org",
-    "f": "Thomson.Reuters.Foundation.News",
-    "n": "Thomson Reuters Foundation",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/thomson-reuters-foundation/",
-    "P": 71,
-    "c": "H",
-    "a": "M"
-  },
   "news.yahoo.com": {
     "b": "LC",
     "d": "news.yahoo.com",
@@ -27466,6 +27464,15 @@
     "t": "NIH",
     "u": "https://mediabiasfactcheck.com/national-institutes-of-health-nih/",
     "P": 97,
+    "c": "H",
+    "a": "H"
+  },
+  "nine.com.au": {
+    "b": "RC",
+    "d": "nine.com.au",
+    "n": "Nine.com.au",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nine-com-au-bias/",
     "c": "H",
     "a": "H"
   },
@@ -41932,6 +41939,17 @@
     "c": "L",
     "a": "M"
   },
+  "trust.org": {
+    "b": "LC",
+    "d": "trust.org",
+    "f": "Thomson.Reuters.Foundation.News",
+    "n": "Thomson Reuters Foundation",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/thomson-reuters-foundation/",
+    "P": 71,
+    "c": "H",
+    "a": "M"
+  },
   "truthagainstthemachine.com": {
     "b": "L",
     "d": "truthagainstthemachine.com",
@@ -44969,6 +44987,15 @@
     "c": "L",
     "a": "N"
   },
+  "whio.com": {
+    "b": "C",
+    "d": "whio.com",
+    "n": "WHIO - Dayton News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whio-dayton-news-bias/",
+    "c": "H",
+    "a": "H"
+  },
   "whistleblower.org": {
     "b": "LC",
     "d": "whistleblower.org",
@@ -46122,6 +46149,15 @@
     "n": "WTOK",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wtok-tv/",
+    "c": "H",
+    "a": "M"
+  },
+  "wtol.com": {
+    "b": "C",
+    "d": "wtol.com",
+    "n": "WTOL - Toledo News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtol-toledo-news-bias/",
     "c": "H",
     "a": "M"
   },
