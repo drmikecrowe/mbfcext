@@ -12778,7 +12778,7 @@
     "u": "https://mediabiasfactcheck.com/mercopress/",
     "P": 69,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "en.metapedia.org": {
     "b": "FN",
@@ -20527,7 +20527,7 @@
     "u": "https://mediabiasfactcheck.com/korean-central-news-agency/",
     "P": 59,
     "c": "L",
-    "a": "L"
+    "a": "M"
   },
   "kcra.com": {
     "b": "C",
@@ -20757,6 +20757,15 @@
     "n": "KHQA - Quincy News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/khqa-quincy-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
+  "kimatv.com": {
+    "b": "RC",
+    "d": "kimatv.com",
+    "n": "KIMA - Yakima News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kima-yakima-news-bias/",
     "c": "H",
     "a": "M"
   },
