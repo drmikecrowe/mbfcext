@@ -5536,7 +5536,7 @@
     "a": "M"
   },
   "buffalonews.com": {
-    "b": "LC",
+    "b": "C",
     "d": "buffalonews.com",
     "f": "TheBuffaloNews",
     "n": "Buffalo News",
@@ -5545,7 +5545,7 @@
     "u": "https://mediabiasfactcheck.com/buffalo-news/",
     "P": 80,
     "c": "H",
-    "a": "M"
+    "a": "H"
   },
   "bugout.news": {
     "b": "CP",
@@ -5583,7 +5583,7 @@
     "n": "Burnett County Sentinel",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/burnett-county-sentinel/",
-    "c": "M",
+    "c": "H",
     "a": "L"
   },
   "burrardstreetjournal.com": {
@@ -5651,7 +5651,7 @@
     "u": "https://mediabiasfactcheck.com/bust-magazine/",
     "P": 80,
     "c": "M",
-    "a": "L"
+    "a": "M"
   },
   "bustatroll.org": {
     "b": "S",
@@ -29547,6 +29547,15 @@
     "c": "L",
     "a": "H"
   },
+  "parrysound.com": {
+    "b": "LC",
+    "d": "parrysound.com",
+    "n": "Parry Sound Beacon Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/parry-sound-beacon-star-bias/",
+    "c": "H",
+    "a": "L"
+  },
   "pascoreporter.com": {
     "b": "FN",
     "d": "pascoreporter.com",
@@ -46447,6 +46456,15 @@
     "c": "H",
     "a": "M"
   },
+  "wzzm13.com": {
+    "b": "C",
+    "d": "wzzm13.com",
+    "n": "WZZM - Grand Rapids News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wzzm-grand-rapids-news-bias/",
+    "c": "H",
+    "a": "M"
+  },
   "x22report.com": {
     "b": "CP",
     "d": "x22report.com",
@@ -46705,6 +46723,15 @@
     "u": "https://mediabiasfactcheck.com/your-news-wire/",
     "P": 70,
     "c": "L",
+    "a": "M"
+  },
+  "yoursun.com": {
+    "b": "C",
+    "d": "yoursun.com",
+    "n": "Port Charlotte Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/port-charlotte-sun-bias/",
+    "c": "H",
     "a": "M"
   },
   "youthradio.org": {
