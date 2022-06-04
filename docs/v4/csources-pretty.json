@@ -1047,6 +1047,16 @@
     "a": "M",
     "q": []
   },
+  "actionnewsnow.com": {
+    "b": "C",
+    "d": "actionnewsnow.com",
+    "n": "KHSL - Chico News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/khsl-chico-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "activistpost.com": {
     "b": "CP",
     "d": "activistpost.com",
@@ -7071,6 +7081,24 @@
       "PSE"
     ]
   },
+  "c19nitazoxanide.com": {
+    "b": "FN",
+    "d": "c19nitazoxanide.com",
+    "n": "c19nitazoxanide.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/c19nitazoxanide-com-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "c19ns.com": {
     "b": "FN",
     "d": "c19ns.com",
@@ -8265,11 +8293,11 @@
     "d": "cftni.org",
     "f": "cftni",
     "n": "Center for the National Interest",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/center-for-the-national-interest/",
     "P": 53,
-    "c": "H",
-    "a": "N",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "cgdev.org": {
@@ -17112,6 +17140,20 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "floridaparishnews.com": {
+    "b": "FN",
+    "d": "floridaparishnews.com",
+    "n": "Florida Parish News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/florida-parish-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "floridapolitics.com": {
     "b": "C",
@@ -35161,6 +35203,16 @@
     "a": "N",
     "q": []
   },
+  "ourquadcities.com": {
+    "b": "C",
+    "d": "ourquadcities.com",
+    "n": "WHBF - Quad Cities News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whbf-quad-cities-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "ourvoiceny.com": {
     "b": "L",
     "d": "ourvoiceny.com",
@@ -38254,6 +38306,17 @@
     "P": 76,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N",
     "q": []
   },
   "quackwatch.org": {
