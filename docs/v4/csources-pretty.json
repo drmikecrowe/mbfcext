@@ -7347,6 +7347,16 @@
     "a": "L",
     "q": []
   },
+  "cambridgetimes.ca": {
+    "b": "LC",
+    "d": "cambridgetimes.ca",
+    "n": "Cambridge Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cambridge-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "campaignforliberty.org": {
     "b": "RC",
     "d": "campaignforliberty.org",
@@ -24211,6 +24221,26 @@
     "a": "H",
     "q": []
   },
+  "journal-neo.org": {
+    "b": "FN",
+    "d": "journal-neo.org",
+    "n": "NEO - New Eastern Outlook",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/neo-new-eastern-outlook/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE",
+      "CEN"
+    ]
+  },
   "journal-news.net": {
     "b": "RC",
     "d": "journal-news.net",
@@ -26485,7 +26515,7 @@
     "q": []
   },
   "leavenworthtimes.com": {
-    "b": "LC",
+    "b": "RC",
     "d": "leavenworthtimes.com",
     "n": "Leavenworth Times",
     "r": "H",
@@ -38356,17 +38386,6 @@
     "P": 76,
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N",
     "q": []
   },
   "quackwatch.org": {
@@ -53448,7 +53467,7 @@
     "u": "https://mediabiasfactcheck.com/the-washington-spectator/",
     "P": 47,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "washingtontimes.com": {
