@@ -7960,6 +7960,18 @@
     "a": "H",
     "q": []
   },
+  "cbsnews.com/pittsburgh": {
+    "b": "LC",
+    "d": "cbsnews.com/pittsburgh",
+    "n": "KDKA - CBS Pittsburgh",
+    "p": "/pittsburgh",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kdka-cbs-pittsburgh/",
+    "P": 82,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "cc.org": {
     "b": "R",
     "d": "cc.org",
@@ -9343,6 +9355,16 @@
     "u": "https://mediabiasfactcheck.com/woio-cleveland-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "click2houston.com": {
+    "b": "C",
+    "d": "click2houston.com",
+    "n": "KPRC - Click2Houston",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kprc-click2houston-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "clickhole.com": {
@@ -15625,6 +15647,16 @@
     "P": 41,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "enewscourier.com": {
+    "b": "LC",
+    "d": "enewscourier.com",
+    "n": "Athens News Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/athens-news-courier-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "eng.majalla.com": {
@@ -24664,6 +24696,25 @@
     "a": "M",
     "q": []
   },
+  "katehon.com": {
+    "b": "FN",
+    "d": "katehon.com",
+    "n": "Katehon",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/katehon-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE",
+      "CEN"
+    ]
+  },
   "katu.com": {
     "b": "RC",
     "d": "katu.com",
@@ -25088,6 +25139,16 @@
     "u": "https://mediabiasfactcheck.com/khqa-quincy-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kiem-tv.com": {
+    "b": "C",
+    "d": "kiem-tv.com",
+    "n": "KIEM - Redwood News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kiem-redwood-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kimatv.com": {
@@ -36465,17 +36526,6 @@
     "a": "M",
     "q": []
   },
-  "pittsburgh.cbslocal.com": {
-    "b": "C",
-    "d": "pittsburgh.cbslocal.com",
-    "n": "KDKA - CBS Pittsburgh",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/kdka-cbs-pittsburgh/",
-    "P": 82,
-    "c": "H",
-    "a": "H",
-    "q": []
-  },
   "pix11.com": {
     "b": "C",
     "d": "pix11.com",
@@ -44855,7 +44905,7 @@
     "u": "https://mediabiasfactcheck.com/supplementreference-com/",
     "P": 19,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "supportisraelnow.com": {
@@ -45378,7 +45428,7 @@
     "u": "https://mediabiasfactcheck.com/talknetwork-com/",
     "P": 35,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "tallahassee.com": {
@@ -48247,6 +48297,16 @@
       "CEN"
     ]
   },
+  "thenationaldesk.com": {
+    "b": "RC",
+    "d": "thenationaldesk.com",
+    "n": "TND - The National Desk",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tnd-the-national-news-desk-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "thenationalherald.com": {
     "b": "R",
     "d": "thenationalherald.com",
@@ -50478,6 +50538,8 @@
     "q": [
       "PS",
       "FFC",
+      "FC",
+      "M",
       "FN"
     ]
   },
@@ -53717,12 +53779,12 @@
   "wcax.com": {
     "b": "C",
     "d": "wcax.com",
-    "n": "WCAX3",
+    "n": "WCAX - Burlington News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wcax3/",
     "P": 53,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "wcfcourier.com": {
