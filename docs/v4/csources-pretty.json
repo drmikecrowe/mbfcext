@@ -7125,6 +7125,23 @@
       "PSE"
     ]
   },
+  "c19pvpi.com": {
+    "b": "FN",
+    "d": "c19pvpi.com",
+    "n": "C19pvpi.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/c19pvpi-com-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "c19regn.com": {
     "b": "FN",
     "d": "c19regn.com",
@@ -8451,7 +8468,7 @@
     "u": "https://mediabiasfactcheck.com/charlotte-observer/",
     "P": 87,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "chaser.com.au": {
@@ -8475,7 +8492,15 @@
     "P": 33,
     "c": "L",
     "a": "N",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M"
+    ]
   },
   "checkyourfact.com": {
     "b": "RC",
@@ -21666,6 +21691,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/hot-springs-times/",
     "P": 3,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "houmathibodauxnews.com": {
+    "b": "FN",
+    "d": "houmathibodauxnews.com",
+    "n": "Houma Thibodaux News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/houma-thibodaux-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -34888,6 +34927,16 @@
     "a": "L",
     "q": []
   },
+  "ohiocapitaljournal.com": {
+    "b": "L",
+    "d": "ohiocapitaljournal.com",
+    "n": "Ohio Capital-Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/ohio-capital-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "oilandwaterdontmix.org": {
     "b": "LC",
     "d": "oilandwaterdontmix.org",
@@ -36151,7 +36200,14 @@
     "P": 30,
     "c": "L",
     "a": "N",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "M",
+      "CEN"
+    ]
   },
   "peacock-panache.com": {
     "b": "L",
@@ -41469,7 +41525,7 @@
     "u": "https://mediabiasfactcheck.com/science-news-2/",
     "P": 44,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "science.org": {
@@ -56161,6 +56217,16 @@
     "a": "M",
     "q": []
   },
+  "wthitv.com": {
+    "b": "C",
+    "d": "wthitv.com",
+    "n": "WTHI - Terre Haute News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wthi-terre-haute-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "wthr.com": {
     "b": "C",
     "d": "wthr.com",
@@ -56344,6 +56410,16 @@
     "n": "WVTM - Birmingham News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wvtm-birmingham-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wvva.com": {
+    "b": "C",
+    "d": "wvva.com",
+    "n": "WVVA -Bluefield News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wvva-bluefield-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
