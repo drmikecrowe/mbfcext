@@ -614,6 +614,16 @@
     "a": "M",
     "q": []
   },
+  "abc13.com": {
+    "b": "LC",
+    "d": "abc13.com",
+    "n": "KTRK - ABC13 - Houston",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktrk-abc13-houston-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "abc17news.com": {
     "b": "C",
     "d": "abc17news.com",
@@ -7965,6 +7975,17 @@
     "a": "N",
     "q": []
   },
+  "cbsnews.com/dfw": {
+    "b": "LC",
+    "d": "cbsnews.com/dfw",
+    "n": "KTVT - Dallas - Fort Worth News",
+    "p": "/dfw",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktvt-dallas-fort-worth-news-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "cbsnews.com/losangeles": {
     "b": "LC",
     "d": "cbsnews.com/losangeles",
@@ -12415,11 +12436,11 @@
     "b": "R",
     "d": "dailytorch.com",
     "n": "Daily Torch",
-    "r": "MF",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/daily-torch/",
     "P": 51,
-    "c": "M",
-    "a": "N",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "dailyusaupdate.com": {
@@ -17958,6 +17979,16 @@
     "a": "M",
     "q": []
   },
+  "foxrichmond.com": {
+    "b": "RC",
+    "d": "foxrichmond.com",
+    "n": "WRLH - Richmond News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wrlh-richmond-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "foxrochester.com": {
     "b": "RC",
     "d": "foxrochester.com",
@@ -22680,8 +22711,10 @@
       "C",
       "P",
       "PS",
+      "FFC",
       "FC",
-      "M"
+      "M",
+      "PSE"
     ]
   },
   "independenttribune.com": {
@@ -25058,6 +25091,16 @@
     "P": 58,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "keyt.com": {
+    "b": "C",
+    "d": "keyt.com",
+    "n": "KEYT - Santa Barbara News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/keyt-santa-barbara-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "keywestreporter.com": {
@@ -33332,7 +33375,7 @@
     "u": "https://mediabiasfactcheck.com/nj1015-com/",
     "P": 76,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "nknews.org": {
@@ -37198,7 +37241,7 @@
     "u": "https://mediabiasfactcheck.com/pollution-news/",
     "P": 36,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "polygon.com": {
@@ -37473,6 +37516,17 @@
     "n": "Idaho Fall Post Register",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/idaho-falls-post-register-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "postregister.com/star": {
+    "b": "C",
+    "d": "postregister.com/star",
+    "n": "The Jefferson Star",
+    "p": "/star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-jefferson-star-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -44851,6 +44905,16 @@
       "M"
     ]
   },
+  "summitdaily.com": {
+    "b": "C",
+    "d": "summitdaily.com",
+    "n": "Summit Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/summit-daily-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "sumtertimes.com": {
     "b": "FN",
     "d": "sumtertimes.com",
@@ -46527,6 +46591,24 @@
       "C",
       "P",
       "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
+  "thebluestateconservative.com": {
+    "b": "FN",
+    "d": "thebluestateconservative.com",
+    "n": "The Blue State Conservative",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-blue-state-conservative-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
       "FC",
       "M",
       "PSE"
@@ -54281,6 +54363,16 @@
     "u": "https://mediabiasfactcheck.com/weny-news/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "wesh.com": {
+    "b": "C",
+    "d": "wesh.com",
+    "n": "WESH - Orlando News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wesh-orlando-news-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "westatlantanews.com": {
