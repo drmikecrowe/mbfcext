@@ -715,6 +715,16 @@
     "a": "H",
     "q": []
   },
+  "abc7news.com": {
+    "b": "LC",
+    "d": "abc7news.com",
+    "n": "KGO - ABC7 News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kgo-abc7-news-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "abc7ny.com": {
     "b": "C",
     "d": "abc7ny.com",
@@ -1533,6 +1543,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/agerpres/",
     "P": 77,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "agriculture.com": {
+    "b": "LC",
+    "d": "agriculture.com",
+    "n": "Successful Farming Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/successful-farming-magazine-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -25288,6 +25308,16 @@
       "IM"
     ]
   },
+  "kesq.com": {
+    "b": "C",
+    "d": "kesq.com",
+    "n": "KESQ - Palm Springs News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kesq-palm-springs-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "ketv.com": {
     "b": "C",
     "d": "ketv.com",
@@ -26129,6 +26159,16 @@
     "P": 54,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "ktvl.com": {
+    "b": "RC",
+    "d": "ktvl.com",
+    "n": "KTVL - Medford News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktvl-medford-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "ktvq.com": {
@@ -38951,17 +38991,6 @@
     "a": "M",
     "q": []
   },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N",
-    "q": []
-  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -47808,6 +47837,16 @@
       "M"
     ]
   },
+  "thefencepost.com": {
+    "b": "C",
+    "d": "thefencepost.com",
+    "n": "The Fence Post",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-fence-post-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thefifthcolumnnews.com": {
     "b": "L",
     "d": "thefifthcolumnnews.com",
@@ -53361,6 +53400,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/verywell-family/",
     "P": 52,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "verywellmind.com": {
+    "b": "PS",
+    "d": "verywellmind.com",
+    "n": "VeryWell Mind",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/verywell-mind-bias/",
     "c": "H",
     "a": "H",
     "q": []
