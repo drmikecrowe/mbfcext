@@ -7830,6 +7830,16 @@
     "a": "L",
     "q": []
   },
+  "carrollconews.com": {
+    "b": "C",
+    "d": "carrollconews.com",
+    "n": "Carroll County News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/carroll-county-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "castanet.net": {
     "b": "C",
     "d": "castanet.net",
@@ -8188,6 +8198,17 @@
     "a": "N",
     "q": []
   },
+  "cecildaily.com/susquehanna_press": {
+    "b": "C",
+    "d": "cecildaily.com/susquehanna_press",
+    "n": "Susquehanna Press",
+    "p": "/susquehanna_press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/susquehanna-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ced.org": {
     "b": "C",
     "d": "ced.org",
@@ -8535,6 +8556,16 @@
     "u": "https://mediabiasfactcheck.com/change-org/",
     "P": 97,
     "c": "M",
+    "a": "H",
+    "q": []
+  },
+  "channel3000.com": {
+    "b": "C",
+    "d": "channel3000.com",
+    "n": "WISC - Madison News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wisc-madison-news-bias/",
+    "c": "H",
     "a": "H",
     "q": []
   },
@@ -14337,6 +14368,17 @@
     "a": "M",
     "q": []
   },
+  "durhamregion.com/clarington-on": {
+    "b": "LC",
+    "d": "durhamregion.com/clarington-on",
+    "n": "Clarington This Week",
+    "p": "/clarington-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/clarington-this-week-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "dutchdailynews.com": {
     "b": "LC",
     "d": "dutchdailynews.com",
@@ -16484,8 +16526,8 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/facebook-news/",
     "P": 54,
-    "c": "M",
-    "a": "N",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "factbox.tv": {
@@ -25439,6 +25481,16 @@
     "a": "M",
     "q": []
   },
+  "kgw.com": {
+    "b": "C",
+    "d": "kgw.com",
+    "n": "KGW - Portland News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kgw-portland-news-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "khaleejtimes.com": {
     "b": "RC",
     "d": "khaleejtimes.com",
@@ -25782,6 +25834,16 @@
     "a": "N",
     "q": []
   },
+  "koaa.com": {
+    "b": "C",
+    "d": "koaa.com",
+    "n": "KOAA - News5 - Pueblo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/koaa-news5-pueblo-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "koamnewsnow.com": {
     "b": "C",
     "d": "koamnewsnow.com",
@@ -25950,7 +26012,7 @@
   "kqed.org": {
     "b": "LC",
     "d": "kqed.org",
-    "n": "KQED",
+    "n": "KQED San Francisco",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kqed/",
     "P": 69,
@@ -31568,6 +31630,16 @@
     "a": "H",
     "q": []
   },
+  "nbcmiami.com": {
+    "b": "LC",
+    "d": "nbcmiami.com",
+    "n": "WTVJ - NBC 6 - Miami",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtvj-nbc-6-miami-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "nbcnebraskascottsbluff.com": {
     "b": "C",
     "d": "nbcnebraskascottsbluff.com",
@@ -32654,6 +32726,16 @@
     "a": "M",
     "q": []
   },
+  "news4jax.com": {
+    "b": "C",
+    "d": "news4jax.com",
+    "n": "WJXT - News4Jax",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wjxt-news4jax-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "news4sanantonio.com": {
     "b": "RC",
     "d": "news4sanantonio.com",
@@ -33469,6 +33551,16 @@
       "PSE"
     ]
   },
+  "newsvirginian.com": {
+    "b": "C",
+    "d": "newsvirginian.com",
+    "n": "The News Virginian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-news-virginian-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newswars.com": {
     "b": "FN",
     "d": "newswars.com",
@@ -33840,6 +33932,20 @@
     "a": "L",
     "q": []
   },
+  "nolareporter.com": {
+    "b": "FN",
+    "d": "nolareporter.com",
+    "n": "Nola Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nola-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nomorefakenews.com": {
     "b": "CP",
     "d": "nomorefakenews.com",
@@ -33927,6 +34033,16 @@
     "u": "https://mediabiasfactcheck.com/north99/",
     "P": 31,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "northacadiananews.com": {
+    "b": "FN",
+    "d": "northacadiananews.com",
+    "n": "North Acadiana News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-acadiana-news-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -34374,6 +34490,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-sgv-news/",
     "P": 6,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "northshorelanews.com": {
+    "b": "FN",
+    "d": "northshorelanews.com",
+    "n": "North Shore Louisiana News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-shore-louisiana-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -41470,6 +41600,16 @@
       "IM"
     ]
   },
+  "salina.com": {
+    "b": "LC",
+    "d": "salina.com",
+    "n": "Salina Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/salina-journal-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "salon.com": {
     "b": "L",
     "d": "salon.com",
@@ -42347,8 +42487,8 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/scope-ratings/",
     "P": 33,
-    "c": "M",
-    "a": "N",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "scorchedearthnews.com": {
@@ -52295,6 +52435,16 @@
     "P": 59,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "unionrecorder.com": {
+    "b": "LC",
+    "d": "unionrecorder.com",
+    "n": "Milledgeville Union-Recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/milledgeville-union-recorder-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "uniquewebmagazine.com": {
