@@ -6187,6 +6187,24 @@
     "a": "M",
     "q": []
   },
+  "bostonbroadside.com": {
+    "b": "FN",
+    "d": "bostonbroadside.com",
+    "n": "Boston Broadside",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/boston-broadside-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "bostonglobe.com": {
     "b": "LC",
     "d": "bostonglobe.com",
@@ -9594,7 +9612,7 @@
     "u": "https://mediabiasfactcheck.com/climate-action-tracker/",
     "P": 69,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "climatecentral.org": {
@@ -9688,7 +9706,7 @@
     "u": "https://mediabiasfactcheck.com/climate-science-and-policy-watch/",
     "P": 52,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "climatism.blog": {
@@ -9771,7 +9789,18 @@
     "P": 19,
     "c": "L",
     "a": "N",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PG",
+      "FN",
+      "IM"
+    ]
   },
   "cnn.com": {
     "b": "L",
@@ -9795,7 +9824,16 @@
     "P": 31,
     "c": "L",
     "a": "N",
-    "q": []
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "IM"
+    ]
   },
   "cnnsofake.news": {
     "b": "CP",
@@ -9830,6 +9868,7 @@
     "c": "L",
     "a": "M",
     "q": [
+      "C",
       "P",
       "FFC",
       "FC",
@@ -20970,6 +21009,16 @@
     "a": "H",
     "q": []
   },
+  "hawaiitribune-herald.com": {
+    "b": "LC",
+    "d": "hawaiitribune-herald.com",
+    "n": "Hawaii Tribune-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hawaii-tribune-herald-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "hawkeyereporter.com": {
     "b": "FN",
     "d": "hawkeyereporter.com",
@@ -24284,6 +24333,24 @@
     "a": "M",
     "q": []
   },
+  "jbs.org": {
+    "b": "FN",
+    "d": "jbs.org",
+    "n": "John Birch Society",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/john-birch-society-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H"
+    ]
+  },
   "jconline.com": {
     "b": "LC",
     "d": "jconline.com",
@@ -24829,7 +24896,7 @@
     "u": "https://mediabiasfactcheck.com/climate-etc/",
     "P": 61,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "junkscience.com": {
@@ -35144,6 +35211,21 @@
       "IM"
     ]
   },
+  "nwlouisiananews.com": {
+    "b": "FN",
+    "d": "nwlouisiananews.com",
+    "n": "NW Louisiana News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-louisiana-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "M",
+      "IM"
+    ]
+  },
   "nwriversidenews.com": {
     "b": "FN",
     "d": "nwriversidenews.com",
@@ -44886,7 +44968,7 @@
     "u": "https://mediabiasfactcheck.com/honolulu-star-advertiser/",
     "P": 83,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "stardem.com": {
@@ -53286,6 +53368,23 @@
     "a": "M",
     "q": []
   },
+  "vaccinepapers.org": {
+    "b": "CP",
+    "d": "vaccinepapers.org",
+    "n": "Vaccine Papers",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/vaccine-papers/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "vaccines.news": {
     "b": "CP",
     "d": "vaccines.news",
@@ -56435,6 +56534,16 @@
     "n": "WNDU News Now",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wndu-news-now/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wnem.com": {
+    "b": "C",
+    "d": "wnem.com",
+    "n": "WNEM - Bay City News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wnem-bay-city-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
