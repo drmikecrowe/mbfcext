@@ -7269,6 +7269,23 @@
       "PSE"
     ]
   },
+  "c19rmd.com": {
+    "b": "FN",
+    "d": "c19rmd.com",
+    "n": "C19rmd.com - Remdesivir",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/c19rmd-com-remdesivir-for-covid-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "c2cjournal.ca": {
     "b": "R",
     "d": "c2cjournal.ca",
@@ -22436,6 +22453,17 @@
     "a": "L",
     "q": []
   },
+  "idahopress.com/meridian": {
+    "b": "LC",
+    "d": "idahopress.com/meridian",
+    "n": "Meridian Press",
+    "p": "/meridian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/meridian-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "idahostatejournal.com": {
     "b": "RC",
     "d": "idahostatejournal.com",
@@ -36918,6 +36946,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "pelicanstatenews.com": {
+    "b": "FN",
+    "d": "pelicanstatenews.com",
+    "n": "Pelican State News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pelican-state-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "peninsuladailynews.com": {
     "b": "RC",
@@ -51975,6 +52017,28 @@
     "a": "N",
     "q": []
   },
+  "truthbasedmedia.com": {
+    "b": "FN",
+    "d": "truthbasedmedia.com",
+    "n": "Truth Based Media",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/truth-based-media-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PG",
+      "FN",
+      "PSE"
+    ]
+  },
   "truthbetold.news": {
     "b": "LC",
     "d": "truthbetold.news",
@@ -54141,6 +54205,16 @@
     "a": "M",
     "q": []
   },
+  "waaytv.com": {
+    "b": "C",
+    "d": "waaytv.com",
+    "n": "WAAY - Huntsville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/waay-huntsville-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "wabi.tv": {
     "b": "C",
     "d": "wabi.tv",
@@ -54307,6 +54381,16 @@
     "P": 76,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wane.com": {
+    "b": "C",
+    "d": "wane.com",
+    "n": "WANE - Fort Wayne News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wane-fort-wayne-news-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "wapt.com": {
@@ -56313,6 +56397,16 @@
     "a": "M",
     "q": []
   },
+  "wjcl.com": {
+    "b": "C",
+    "d": "wjcl.com",
+    "n": "WJCL - Savannah News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wjcl-savannah-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "wjhg.com": {
     "b": "C",
     "d": "wjhg.com",
@@ -56938,6 +57032,16 @@
     "n": "WOWT 6 News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wowt-6-news/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wpde.com": {
+    "b": "RC",
+    "d": "wpde.com",
+    "n": "WPDE - Florence News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wpde-florence-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
