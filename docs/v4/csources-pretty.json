@@ -654,6 +654,16 @@
     "a": "M",
     "q": []
   },
+  "abc30.com": {
+    "b": "LC",
+    "d": "abc30.com",
+    "n": "KFSN - ABC30 Fresno News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kfsn-abc30-fresno-news-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "abc3340.com": {
     "b": "RC",
     "d": "abc3340.com",
@@ -23400,7 +23410,7 @@
     "u": "https://mediabiasfactcheck.com/inner-strength-zone/",
     "P": 20,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "LT",
       "FC",
@@ -28182,6 +28192,16 @@
     "a": "M",
     "q": []
   },
+  "localnews8.com": {
+    "b": "C",
+    "d": "localnews8.com",
+    "n": "KIFI - Idaho Falls News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kifi-idaho-falls-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "localsyr.com": {
     "b": "C",
     "d": "localsyr.com",
@@ -30687,6 +30707,17 @@
     "u": "https://mediabiasfactcheck.com/wfff-burlington-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "mydailyfreedom.com": {
+    "b": "R",
+    "d": "mydailyfreedom.com",
+    "n": "My Daily Freedom",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/trending-views/",
+    "P": 47,
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "mydailyregister.com": {
@@ -36798,13 +36829,22 @@
   "patriotreport.com": {
     "b": "FN",
     "d": "patriotreport.com",
-    "n": "Patriot Post",
+    "n": "Patriot Report",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/patriot-report/",
     "P": 1,
     "c": "L",
     "a": "N",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "FN",
+      "PSE"
+    ]
   },
   "patriotretort.com": {
     "b": "R",
@@ -51659,17 +51699,6 @@
       "FFC"
     ]
   },
-  "trendingviews.co": {
-    "b": "R",
-    "d": "trendingviews.co",
-    "n": "Trending Views",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/trending-views/",
-    "P": 47,
-    "c": "M",
-    "a": "M",
-    "q": []
-  },
   "tri-cityherald.com": {
     "b": "C",
     "d": "tri-cityherald.com",
@@ -53243,6 +53272,16 @@
       "FN"
     ]
   },
+  "uscourts.gov": {
+    "b": "C",
+    "d": "uscourts.gov",
+    "n": "United States Courts (uscourts.gov)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/united-states-courts-uscourts-gov-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "ushealthyadvisor.com": {
     "b": "FN",
     "d": "ushealthyadvisor.com",
@@ -53491,6 +53530,16 @@
     "P": 60,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "vaildaily.com": {
+    "b": "C",
+    "d": "vaildaily.com",
+    "n": "Vail Daily",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vail-daily-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "valleycentral.com": {
@@ -56229,6 +56278,16 @@
       "PS",
       "H"
     ]
+  },
+  "winknews.com": {
+    "b": "C",
+    "d": "winknews.com",
+    "n": "WINK - Fort Myers News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wink-fort-myers-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "winningdemocrats.com": {
     "b": "FN",
