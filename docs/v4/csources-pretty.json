@@ -41300,6 +41300,20 @@
     "a": "L",
     "q": []
   },
+  "riverparishnews.com": {
+    "b": "FN",
+    "d": "riverparishnews.com",
+    "n": "River Parish News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/river-parish-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "riverregiontimes.com": {
     "b": "FN",
     "d": "riverregiontimes.com",
@@ -48403,6 +48417,16 @@
     "a": "M",
     "q": []
   },
+  "thegleaner.com": {
+    "b": "LC",
+    "d": "thegleaner.com",
+    "n": "Henderson Gleaner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/henderson-gleaner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "theglobeandmail.com": {
     "b": "RC",
     "d": "theglobeandmail.com",
@@ -53802,6 +53826,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/verywell-family/",
     "P": 52,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "verywellfit.com": {
+    "b": "PS",
+    "d": "verywellfit.com",
+    "n": "VeryWell Fit",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/verywell-fit-bias/",
     "c": "H",
     "a": "H",
     "q": []
