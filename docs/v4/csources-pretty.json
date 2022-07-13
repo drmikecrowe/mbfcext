@@ -2764,6 +2764,25 @@
     "a": "L",
     "q": []
   },
+  "americanpartisan.org": {
+    "b": "FN",
+    "d": "americanpartisan.org",
+    "n": "American Partisan",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/american-partisan-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "americanpatriotdaily.com": {
     "b": "FN",
     "d": "americanpatriotdaily.com",
@@ -26155,6 +26174,16 @@
     "a": "M",
     "q": []
   },
+  "kristv.com": {
+    "b": "C",
+    "d": "kristv.com",
+    "n": "KRIS 6 News - Corpus Christi",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kris-6-news-corpus-christi-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "kron4.com": {
     "b": "C",
     "d": "kron4.com",
@@ -41823,11 +41852,11 @@
     "d": "salon.com",
     "f": "salon",
     "n": "Salon",
-    "r": "MF",
+    "r": "M",
     "t": "Salon",
     "u": "https://mediabiasfactcheck.com/salon/",
     "P": 95,
-    "c": "H",
+    "c": "M",
     "a": "H",
     "q": []
   },
