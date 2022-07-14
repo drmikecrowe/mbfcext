@@ -5132,6 +5132,15 @@
     "a": "M",
     "q": []
   },
+  "bemidji pioneer": {
+    "b": "RC",
+    "n": "Bemidji Pioneer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bemidji-pioneer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bentontimes.com": {
     "b": "FN",
     "d": "bentontimes.com",
@@ -17532,6 +17541,16 @@
     "a": "N",
     "q": []
   },
+  "flippinonline.com": {
+    "b": "C",
+    "d": "flippinonline.com",
+    "n": "Mountaineer Echo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mountaineer-echo-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "floridaparishnews.com": {
     "b": "FN",
     "d": "floridaparishnews.com",
@@ -25733,7 +25752,7 @@
   "kiro7.com": {
     "b": "C",
     "d": "kiro7.com",
-    "n": "KIRO 7",
+    "n": "KIRO 7 - Seattle",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kiro-7/",
     "P": 60,
@@ -26292,7 +26311,7 @@
     "u": "https://mediabiasfactcheck.com/kstp-tv/",
     "P": 64,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "kswo.com": {
@@ -26515,6 +26534,16 @@
     "u": "https://mediabiasfactcheck.com/kxlf-butte-news-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "kxly.com": {
+    "b": "C",
+    "d": "kxly.com",
+    "n": "KXLY - Spokane News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kxly-spokane-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "kxxv.com": {
@@ -45124,6 +45153,16 @@
       "H"
     ]
   },
+  "starexponent.com": {
+    "b": "C",
+    "d": "starexponent.com",
+    "n": "Culpeper Star-Exponent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/culpeper-star-exponent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "starherald.com": {
     "b": "C",
     "d": "starherald.com",
@@ -50268,6 +50307,17 @@
     "a": "L",
     "q": []
   },
+  "thespec.com/local-dundas": {
+    "b": "LC",
+    "d": "thespec.com/local-dundas",
+    "n": "Dundas Star",
+    "p": "/local-dundas",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dundas-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thespectator.info": {
     "b": "FN",
     "d": "thespectator.info",
@@ -50989,7 +51039,7 @@
     "b": "CP",
     "d": "thinkinghumanity.com",
     "n": "Thinking Humanity",
-    "r": "L",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/thinking-humanity/",
     "P": 39,
     "c": "L",
@@ -52055,6 +52105,16 @@
     "P": 71,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "truth11.com": {
+    "b": "CP",
+    "d": "truth11.com",
+    "n": "Truth11.com",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/truth11-com-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "truthagainstthemachine.com": {
@@ -56010,6 +56070,16 @@
       "LT",
       "M"
     ]
+  },
+  "whec.com": {
+    "b": "C",
+    "d": "whec.com",
+    "n": "WHEC - Rochester News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whec-rochester-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "whio.com": {
     "b": "C",
