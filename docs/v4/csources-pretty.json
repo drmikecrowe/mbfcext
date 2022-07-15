@@ -30808,6 +30808,17 @@
     "a": "L",
     "q": []
   },
+  "myeasternshoremd.com/qa": {
+    "b": "C",
+    "d": "myeasternshoremd.com/qa",
+    "n": "Kent Island Bay Times",
+    "p": "/qa",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kent-island-bay-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "myfox28columbus.com": {
     "b": "RC",
     "d": "myfox28columbus.com",
@@ -31801,6 +31812,16 @@
     "u": "https://mediabiasfactcheck.com/kntv-nbc-bay-area-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "nbcboston.com": {
+    "b": "LC",
+    "d": "nbcboston.com",
+    "n": "WBTS - NBC 10 - Boston",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbts-nbc10-boston-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "nbcchicago.com": {
@@ -35752,11 +35773,11 @@
     "q": []
   },
   "oilprice.com": {
-    "b": "C",
+    "b": "RC",
     "d": "oilprice.com",
     "f": "oilpricenews",
     "n": "OilPrice",
-    "r": "H",
+    "r": "MF",
     "t": "oilandenergy",
     "u": "https://mediabiasfactcheck.com/oil-price/",
     "P": 85,
@@ -43463,6 +43484,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "shreveportreporter.com": {
+    "b": "FN",
+    "d": "shreveportreporter.com",
+    "n": "Shreveport Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/shreveport-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "shreveporttimes.com": {
     "b": "C",
