@@ -8247,6 +8247,18 @@
     "a": "H",
     "q": []
   },
+  "cdh2a.com": {
+    "b": "R",
+    "d": "cdh2a.com",
+    "f": "colddeadhands",
+    "n": "Cold Dead Hands",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cold-dead-hands/",
+    "P": 23,
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "cdt.org": {
     "b": "C",
     "d": "cdt.org",
@@ -8292,7 +8304,7 @@
     "u": "https://mediabiasfactcheck.com/committee-for-economic-development/",
     "P": 56,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "cedarrapidstoday.com": {
@@ -10047,18 +10059,6 @@
     "a": "L",
     "q": []
   },
-  "colddeadhands.us": {
-    "b": "R",
-    "d": "colddeadhands.us",
-    "f": "colddeadhands",
-    "n": "Cold Dead Hands",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/cold-dead-hands/",
-    "P": 23,
-    "c": "M",
-    "a": "L",
-    "q": []
-  },
   "collapse.news": {
     "b": "CP",
     "d": "collapse.news",
@@ -10204,7 +10204,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/comic-sands/",
     "c": "M",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "commdiginews.com": {
@@ -10228,7 +10228,7 @@
     "t": "Commentary",
     "u": "https://mediabiasfactcheck.com/commentary-magazine/",
     "P": 77,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -11523,7 +11523,7 @@
     "d": "cpj.org",
     "f": "Committee-to-Protect-Journalists",
     "n": "Committee to Protect Journalists",
-    "r": "VH",
+    "r": "H",
     "t": "pressfreedom",
     "u": "https://mediabiasfactcheck.com/committee-to-protect-journalists/",
     "P": 84,
@@ -11625,7 +11625,7 @@
     "d": "crfb.org",
     "f": "BudgetHawks",
     "n": "Committee for a Responsible Federal Buddget",
-    "r": "VH",
+    "r": "H",
     "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
     "P": 60,
@@ -20969,7 +20969,10 @@
       "C",
       "P",
       "PS",
-      "FFC"
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
     ]
   },
   "happy-foxie.com": {
@@ -23779,7 +23782,7 @@
     "u": "https://mediabiasfactcheck.com/committee-investigate-russia/",
     "P": 53,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "investing.com": {
@@ -25672,6 +25675,16 @@
     "u": "https://mediabiasfactcheck.com/khon-honolulu-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "khou.com": {
+    "b": "C",
+    "d": "khou.com",
+    "n": "KHOU - Houston News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/khou-houston-news-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "khqa.com": {
@@ -30524,6 +30537,16 @@
     "u": "https://mediabiasfactcheck.com/mothership-singapore/",
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "moultrieobserver.com": {
+    "b": "LC",
+    "d": "moultrieobserver.com",
+    "n": "Moultrie Observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/moultrie-observer-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "movingleft.com": {
@@ -57449,6 +57472,16 @@
     "P": 97,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "wsls.com": {
+    "b": "C",
+    "d": "wsls.com",
+    "n": "WSLS - 10 News - Roanoke",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wsls-10-news-roanoke-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "wsmv.com": {
