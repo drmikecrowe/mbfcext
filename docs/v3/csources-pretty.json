@@ -3367,6 +3367,16 @@
     "a": "M",
     "q": []
   },
+  "andalusiastarnews.com": {
+    "b": "RC",
+    "d": "andalusiastarnews.com",
+    "n": "Andalusia Star News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/andalusia-star-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "andersoninstitute.com": {
     "b": "CP",
     "d": "andersoninstitute.com",
@@ -7313,6 +7323,23 @@
     "n": "C19rmd.com - Remdesivir",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/c19rmd-com-remdesivir-for-covid-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
+  "c19sv.com": {
+    "b": "FN",
+    "d": "c19sv.com",
+    "n": "C19sv.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/c19sv-com-sotrovimab-for-covid-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -20758,6 +20785,16 @@
     "a": "L",
     "q": []
   },
+  "guardonline.com": {
+    "b": "RC",
+    "d": "guardonline.com",
+    "n": "Batesville Daily Guard",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/batesville-daily-guard-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "gucmakale.com": {
     "b": "FN",
     "d": "gucmakale.com",
@@ -24406,7 +24443,7 @@
     "u": "https://mediabiasfactcheck.com/japan-times/",
     "P": 93,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "japantoday.com": {
@@ -24754,6 +24791,16 @@
     "P": 25,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "jordanbpeterson.com": {
+    "b": "FN",
+    "d": "jordanbpeterson.com",
+    "n": "JordanBPeterson.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/jordanbpeterson-com-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "jordantimes.com": {
@@ -25522,6 +25569,16 @@
     "n": "KESQ - Palm Springs News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kesq-palm-springs-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "ketk.com": {
+    "b": "C",
+    "d": "ketk.com",
+    "n": "KETK - Jacksonville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ketk-jacksonville-texas-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -34031,7 +34088,7 @@
     "u": "https://mediabiasfactcheck.com/nhk-nippon-hoso-kyokai/",
     "P": 69,
     "c": "H",
-    "a": "N",
+    "a": "H",
     "q": []
   },
   "nhk.or.jp/nhkworld": {
@@ -46295,6 +46352,20 @@
       "IM"
     ]
   },
+  "swlouisiananews.com": {
+    "b": "FN",
+    "d": "swlouisiananews.com",
+    "n": "SW Louisiana News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-louisiana-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "swprs.org": {
     "b": "CP",
     "d": "swprs.org",
@@ -53046,6 +53117,16 @@
       "IM"
     ]
   },
+  "uppermichiganssource.com": {
+    "b": "C",
+    "d": "uppermichiganssource.com",
+    "n": "WLUC - Upper Peninsula News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wluc-upper-peninsula-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "upr.org": {
     "b": "LC",
     "d": "upr.org",
@@ -55950,6 +56031,16 @@
       "LT",
       "M"
     ]
+  },
+  "wevv.com": {
+    "b": "C",
+    "d": "wevv.com",
+    "n": "WEVV - Evansville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wevv-evansville-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "wfft.com": {
     "b": "C",
