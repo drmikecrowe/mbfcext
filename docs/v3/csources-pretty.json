@@ -10253,7 +10253,7 @@
     "u": "https://mediabiasfactcheck.com/communities-digital-news/",
     "P": 53,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "commentarymagazine.com": {
@@ -10371,11 +10371,12 @@
     "u": "https://mediabiasfactcheck.com/concerned-women-america/",
     "P": 64,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "P",
       "M",
-      "H"
+      "H",
+      "PSE"
     ]
   },
   "concordmonitor.com": {
@@ -10423,7 +10424,7 @@
     "u": "https://mediabiasfactcheck.com/congress-gov/",
     "P": 89,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "consciouslifenews.com": {
@@ -21894,6 +21895,17 @@
     "a": "M",
     "q": []
   },
+  "hjnews.com/preston": {
+    "b": "LC",
+    "d": "hjnews.com/preston",
+    "n": "Preston Citizen",
+    "p": "/preston",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/preston-citizen-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hln.be": {
     "b": "RC",
     "d": "hln.be",
@@ -25341,6 +25353,16 @@
     "u": "https://mediabiasfactcheck.com/kcbd-lubbock-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kcby.com": {
+    "b": "RC",
+    "d": "kcby.com",
+    "n": "KCBY - North Bend News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcby-north-bend-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kcci.com": {
@@ -45487,6 +45509,24 @@
       "M"
     ]
   },
+  "steadfastclash.com": {
+    "b": "FN",
+    "d": "steadfastclash.com",
+    "n": "Steadfast Clash",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/steadfast-clash-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "steadfastdaily.com": {
     "b": "R",
     "d": "steadfastdaily.com",
@@ -55659,6 +55699,20 @@
       "IM"
     ]
   },
+  "westbanklanews.com": {
+    "b": "FN",
+    "d": "westbanklanews.com",
+    "n": "Westbank Louisiana News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/westbank-louisiana-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "westcentralreporter.com": {
     "b": "FN",
     "d": "westcentralreporter.com",
@@ -56908,6 +56962,16 @@
     "n": "WLFI - Lafayette News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wlfi-lafayette-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wlky.com": {
+    "b": "C",
+    "d": "wlky.com",
+    "n": "WLKY - Louisville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wlky-louisville-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
