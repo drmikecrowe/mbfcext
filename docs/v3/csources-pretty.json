@@ -3929,6 +3929,16 @@
     "a": "M",
     "q": []
   },
+  "aroostooknews.com": {
+    "b": "FN",
+    "d": "aroostooknews.com",
+    "n": "Aroostook News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/aroostook-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "arstechnica.com": {
     "b": "C",
     "d": "arstechnica.com",
@@ -33716,6 +33726,16 @@
     "a": "M",
     "q": []
   },
+  "newspressnow.com": {
+    "b": "C",
+    "d": "newspressnow.com",
+    "n": "KNPN - News-Press Now",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/knpn-news-press-now-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "newsprocession.com": {
     "b": "FN",
     "d": "newsprocession.com",
@@ -36769,6 +36789,16 @@
     "P": 19,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "parkrecord.com": {
+    "b": "C",
+    "d": "parkrecord.com",
+    "n": "Park Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/park-record-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "parler.com": {
@@ -47378,6 +47408,16 @@
     "a": "H",
     "q": []
   },
+  "theadvertiser.com": {
+    "b": "LC",
+    "d": "theadvertiser.com",
+    "n": "Lafayette Daily Advertiser",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lafayette-daily-advertiser-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "theadvocates.org": {
     "b": "RC",
     "d": "theadvocates.org",
@@ -54128,19 +54168,6 @@
     "a": "N",
     "q": []
   },
-  "verywell.com": {
-    "b": "PS",
-    "d": "verywell.com",
-    "f": "verywell",
-    "n": "VeryWell Health",
-    "r": "H",
-    "t": "verywell",
-    "u": "https://mediabiasfactcheck.com/verywell/",
-    "P": 56,
-    "c": "H",
-    "a": "H",
-    "q": []
-  },
   "verywellfamily.com": {
     "b": "PS",
     "d": "verywellfamily.com",
@@ -54158,6 +54185,19 @@
     "n": "VeryWell Fit",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/verywell-fit-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "verywellhjealth.com": {
+    "b": "PS",
+    "d": "verywellhjealth.com",
+    "f": "verywell",
+    "n": "VeryWell Health",
+    "r": "H",
+    "t": "verywell",
+    "u": "https://mediabiasfactcheck.com/verywell/",
+    "P": 56,
     "c": "H",
     "a": "H",
     "q": []
@@ -54471,6 +54511,16 @@
     "P": 67,
     "c": "NA",
     "a": "L",
+    "q": []
+  },
+  "voice-online.co.uk": {
+    "b": "L",
+    "d": "voice-online.co.uk",
+    "n": "The Voice UK",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-voice-uk/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "voiceofamericatv.com": {
@@ -56253,6 +56303,16 @@
     "a": "M",
     "q": []
   },
+  "whatculture.com": {
+    "b": "C",
+    "d": "whatculture.com",
+    "n": "WhatCulture",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whatculture-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "whatdoesitmean.com": {
     "b": "CP",
     "d": "whatdoesitmean.com",
@@ -57471,6 +57531,16 @@
     "t": "WorldTruthTV",
     "u": "https://mediabiasfactcheck.com/world-truth-tv/",
     "P": 61,
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "worldviewweekend.com": {
+    "b": "CP",
+    "d": "worldviewweekend.com",
+    "n": "Worldview Weekend",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/worldview-weekend-bias/",
     "c": "L",
     "a": "L",
     "q": []
