@@ -2498,7 +2498,7 @@
     "u": "https://mediabiasfactcheck.com/american-conservative-media/",
     "P": 5,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "PS",
       "LT",
@@ -6360,6 +6360,16 @@
     "P": 56,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "brainerddispatch.cpm": {
+    "b": "RC",
+    "d": "brainerddispatch.cpm",
+    "n": "Brainerd Dispatch",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/brainerd-dispatch-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "bramptonguardian.com": {
@@ -26487,17 +26497,6 @@
     "a": "M",
     "q": []
   },
-  "ktva.com": {
-    "b": "C",
-    "d": "ktva.com",
-    "n": "KTVA 11",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/ktva-11/",
-    "P": 54,
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "ktvl.com": {
     "b": "RC",
     "d": "ktvl.com",
@@ -43481,15 +43480,15 @@
     "a": "L",
     "q": []
   },
-  "shafaaq.com": {
+  "shafaq.com": {
     "b": "FN",
-    "d": "shafaaq.com",
+    "d": "shafaq.com",
     "n": "Shafaq News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/shafaq-news/",
     "P": 44,
     "c": "L",
-    "a": "L",
+    "a": "M",
     "q": [
       "P",
       "PS",
@@ -46485,6 +46484,16 @@
       "FC",
       "IM"
     ]
+  },
+  "swvatoday.com": {
+    "b": "C",
+    "d": "swvatoday.com",
+    "n": "SWVA Today",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/swva-today-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "syracuse.com": {
     "b": "C",
@@ -50641,6 +50650,17 @@
     "P": 91,
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "thestar.com/local-east-gwillimbury": {
+    "b": "LC",
+    "d": "thestar.com/local-east-gwillimbury",
+    "n": "East Gwillimbury Express",
+    "p": "/local-east-gwillimbury",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/east-gwillimbury-express-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "thestar.com/local-milton": {
@@ -55440,6 +55460,16 @@
     "n": "WDBJ - Roanoke",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wdbj-roanoke/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wdio.com": {
+    "b": "C",
+    "d": "wdio.com",
+    "n": "WDIO - Duluth News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdio-duluth-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
