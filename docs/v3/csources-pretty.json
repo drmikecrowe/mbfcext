@@ -10586,6 +10586,16 @@
     "a": "H",
     "q": []
   },
+  "conservativebuzz.com": {
+    "b": "FN",
+    "d": "conservativebuzz.com",
+    "n": "Conservative Buzz",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-conservative-buzz/",
+    "c": "L",
+    "a": "N",
+    "q": []
+  },
   "conservativebyte.com": {
     "b": "FN",
     "d": "conservativebyte.com",
@@ -10622,7 +10632,8 @@
       "P",
       "PS",
       "FC",
-      "M"
+      "M",
+      "PSE"
     ]
   },
   "conservativedailypost.com": {
@@ -10634,7 +10645,7 @@
     "u": "https://mediabiasfactcheck.com/conservative-daily-post/",
     "P": 53,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -10644,15 +10655,15 @@
       "FN"
     ]
   },
-  "conservativefighters.com": {
+  "conservativefighters.co": {
     "b": "FN",
-    "d": "conservativefighters.com",
+    "d": "conservativefighters.co",
     "n": "Conservative Fighters",
-    "r": "L",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/conservative-fighters/",
     "P": 40,
-    "c": "L",
-    "a": "N",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "conservativefiringline.com": {
@@ -10660,7 +10671,7 @@
     "d": "conservativefiringline.com",
     "f": "ConservativeFiringLine",
     "n": "Conservative Firing Line",
-    "r": "M",
+    "r": "VL",
     "t": "co_firing_line",
     "u": "https://mediabiasfactcheck.com/conservative-firing-line/",
     "P": 47,
@@ -10670,8 +10681,12 @@
       "C",
       "P",
       "PS",
+      "LT",
+      "FFC",
       "FC",
-      "M"
+      "M",
+      "FN",
+      "PSE"
     ]
   },
   "conservativeflashnews.com": {
@@ -15745,6 +15760,16 @@
       "P",
       "CEN"
     ]
+  },
+  "emountainwave.com": {
+    "b": "C",
+    "d": "emountainwave.com",
+    "n": "Marshall Mountain Wave",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/marshall-mountain-wave-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "empireherald.com": {
     "b": "FN",
@@ -33110,6 +33135,16 @@
     "u": "https://mediabiasfactcheck.com/wews-news-5-cleveland/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "news8000.com": {
+    "b": "C",
+    "d": "news8000.com",
+    "n": "WKBT - La Crosse News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wkbt-la-crosse-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "news9.com": {
