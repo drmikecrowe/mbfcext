@@ -14362,6 +14362,20 @@
     "a": "N",
     "q": []
   },
+  "downeasttimes.com": {
+    "b": "FN",
+    "d": "downeasttimes.com",
+    "n": "Down East Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/down-east-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "downsizinggovernment.org": {
     "b": "RC",
     "d": "downsizinggovernment.org",
@@ -26309,6 +26323,16 @@
     "a": "M",
     "q": []
   },
+  "kpvi.com": {
+    "b": "C",
+    "d": "kpvi.com",
+    "n": "KPVI - Idaho Falls News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kpvi-idaho-falls-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "kqed.org": {
     "b": "LC",
     "d": "kqed.org",
@@ -30994,6 +31018,16 @@
     "P": 74,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "myfoxzone.com": {
+    "b": "C",
+    "d": "myfoxzone.com",
+    "n": "KIDY - Fox West Texas",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kidy-fox-west-texas-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "mygoogle.ca": {
@@ -37075,6 +37109,15 @@
     "u": "https://mediabiasfactcheck.com/patriot-news-daily/",
     "P": 31,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "patriotpartypress.com": {
+    "b": "S",
+    "d": "patriotpartypress.com",
+    "n": "Patriot Party Press",
+    "u": "https://mediabiasfactcheck.com/patriot-party-press-bias/",
+    "c": "NA",
     "a": "L",
     "q": []
   },
@@ -44296,6 +44339,17 @@
       "FC",
       "IM"
     ]
+  },
+  "somdnews.com/recorder": {
+    "b": "C",
+    "d": "somdnews.com/recorder",
+    "n": "Calvert Recorder",
+    "p": "/recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/calvert-recorder-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "sonorannews.com": {
     "b": "R",
@@ -51548,6 +51602,16 @@
     "P": 57,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "timesenterprise.com": {
+    "b": "LC",
+    "d": "timesenterprise.com",
+    "n": "Thomasville Times-Enterprise",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/thomasville-times-enterprise-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "timesfreepress.com": {
