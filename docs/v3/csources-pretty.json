@@ -6056,6 +6056,16 @@
     "a": "H",
     "q": []
   },
+  "bnc.tv": {
+    "b": "L",
+    "d": "bnc.tv",
+    "n": "BNC - Black News Channel",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bnc-black-news-channel-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "bnd.com": {
     "b": "C",
     "d": "bnd.com",
@@ -18305,6 +18315,16 @@
     "a": "H",
     "q": []
   },
+  "foxcarolina.com": {
+    "b": "C",
+    "d": "foxcarolina.com",
+    "n": "WHNS - Greenville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whns-greenville-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "foxchattanooga.com": {
     "b": "RC",
     "d": "foxchattanooga.com",
@@ -27649,6 +27669,20 @@
     "a": "L",
     "q": []
   },
+  "lewistontimes.com": {
+    "b": "FN",
+    "d": "lewistontimes.com",
+    "n": "Lewiston Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lewiston-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "lewrockwell.com": {
     "b": "FN",
     "d": "lewrockwell.com",
@@ -28919,6 +28953,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "mainebusinessdaily.com": {
+    "b": "FN",
+    "d": "mainebusinessdaily.com",
+    "n": "Maine Business Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/maine-business-daily-bias/",
+    "c": "H",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "mainichi.jp": {
     "b": "LC",
@@ -43642,6 +43690,16 @@
     "a": "L",
     "q": []
   },
+  "shawneedispatch.com": {
+    "b": "C",
+    "d": "shawneedispatch.com",
+    "n": "Shawnee Dispatch",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/shawnee-dispatch-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sheepkillers.com": {
     "b": "CP",
     "d": "sheepkillers.com",
@@ -51583,6 +51641,16 @@
     "a": "L",
     "q": []
   },
+  "times-standard.com": {
+    "b": "C",
+    "d": "times-standard.com",
+    "n": "Eureka Times-Standard",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eureka-times-standard-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "times.com.mx": {
     "b": "S",
     "d": "times.com.mx",
@@ -54398,6 +54466,16 @@
     "a": "M",
     "q": []
   },
+  "victoriabuzz.com": {
+    "b": "LC",
+    "d": "victoriabuzz.com",
+    "n": "Victoria Buzz",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/victoria-buzz-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "victorvalleytimes.com": {
     "b": "FN",
     "d": "victorvalleytimes.com",
@@ -54764,6 +54842,16 @@
     "P": 97,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "vtdigger.com": {
+    "b": "LC",
+    "d": "vtdigger.com",
+    "n": "VTDigger",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vtdigger-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "vulture.com": {
@@ -56083,6 +56171,16 @@
       "FC",
       "IM"
     ]
+  },
+  "westhawaiitoday.com": {
+    "b": "LC",
+    "d": "westhawaiitoday.com",
+    "n": "West Hawii Today",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/west-hawaii-today-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "westhillsboroughnews.com": {
     "b": "FN",
