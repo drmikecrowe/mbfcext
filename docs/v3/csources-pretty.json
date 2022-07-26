@@ -2369,7 +2369,7 @@
     "u": "https://mediabiasfactcheck.com/america-daily/",
     "P": 21,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "C",
       "LT",
@@ -7381,6 +7381,23 @@
       "PSE"
     ]
   },
+  "c19vitaminc.com": {
+    "b": "FN",
+    "d": "c19vitaminc.com",
+    "n": "C19VitaminC.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/c19vitaminc-com-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "c2cjournal.ca": {
     "b": "R",
     "d": "c2cjournal.ca",
@@ -9000,17 +9017,6 @@
     "a": "M",
     "q": []
   },
-  "chinaafricaproject.com": {
-    "b": "LC",
-    "d": "chinaafricaproject.com",
-    "n": "China Africa Project",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/the-china-africa-project-cap/",
-    "P": 40,
-    "c": "H",
-    "a": "L",
-    "q": []
-  },
   "chinadaily.com.cn": {
     "b": "FN",
     "d": "chinadaily.com.cn",
@@ -9035,6 +9041,17 @@
     "u": "https://mediabiasfactcheck.com/china-digital-times-cdt/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "chinaglobalsouth.com": {
+    "b": "LC",
+    "d": "chinaglobalsouth.com",
+    "n": "China Global South Project",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-china-africa-project-cap/",
+    "P": 40,
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "chinapost.nownews.com": {
@@ -11483,6 +11500,16 @@
     "P": 87,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "couriernews.com": {
+    "b": "RC",
+    "d": "couriernews.com",
+    "n": "Russellville Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/russellville-courier-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "courierpress.com": {
@@ -25224,6 +25251,16 @@
       "FFC"
     ]
   },
+  "kadn.com": {
+    "b": "C",
+    "d": "kadn.com",
+    "n": "KADN - Lafayette News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kadn-lafayette-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kagstv.com": {
     "b": "C",
     "d": "kagstv.com",
@@ -25562,6 +25599,16 @@
     "P": 36,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "keloland.com": {
+    "b": "C",
+    "d": "keloland.com",
+    "n": "KELO - Sioux Falls News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kelo-sioux-falls-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "kendallcountytimes.com": {
@@ -41488,7 +41535,7 @@
     "u": "https://mediabiasfactcheck.com/righter-way/",
     "P": 5,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
