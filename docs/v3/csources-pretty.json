@@ -4141,6 +4141,16 @@
     "a": "M",
     "q": []
   },
+  "atchisonglobenow.com": {
+    "b": "RC",
+    "d": "atchisonglobenow.com",
+    "n": "Atchison Daily Globe",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/atchison-daily-globe-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "athensmessemger.com": {
     "b": "C",
     "d": "athensmessemger.com",
@@ -17668,11 +17678,14 @@
     "c": "L",
     "a": "M",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
       "FFC",
-      "FC"
+      "FC",
+      "M",
+      "PSE"
     ]
   },
   "flake.news": {
@@ -42948,7 +42961,7 @@
     "u": "https://mediabiasfactcheck.com/science-feedback/",
     "P": 42,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "sciencehistory.org": {
@@ -54302,7 +54315,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/vancouver-times/",
     "c": "L",
-    "a": "L",
+    "a": "M",
     "q": [
       "PS",
       "LT",
