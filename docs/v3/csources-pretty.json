@@ -29062,6 +29062,20 @@
       "IM"
     ]
   },
+  "mainelakesnews.com": {
+    "b": "FN",
+    "d": "mainelakesnews.com",
+    "n": "Maine Lakes News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/maine-lakes-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "mainichi.jp": {
     "b": "LC",
     "d": "mainichi.jp",
@@ -39775,6 +39789,17 @@
     "a": "M",
     "q": []
   },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N",
+    "q": []
+  },
   "quackwatch.org": {
     "b": "PS",
     "d": "quackwatch.org",
@@ -48576,6 +48601,16 @@
     "a": "H",
     "q": []
   },
+  "thedenverchannel.com": {
+    "b": "C",
+    "d": "thedenverchannel.com",
+    "n": "KCDO - Denver News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcdo-denver-news-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "thedeplorablesociety.com": {
     "b": "FN",
     "d": "thedeplorablesociety.com",
@@ -50064,6 +50099,16 @@
     "P": 41,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "thenewsstar.com": {
+    "b": "LC",
+    "d": "thenewsstar.com",
+    "n": "Monroe News Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/monroe-news-star-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "thenewstribune.com": {
@@ -52870,6 +52915,25 @@
     "c": "M",
     "a": "M",
     "q": []
+  },
+  "truthpress.com": {
+    "b": "FN",
+    "d": "truthpress.com",
+    "n": "Truth Press",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/truth-press-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PG",
+      "PSE"
+    ]
   },
   "truthrevolt.org": {
     "b": "FN",
