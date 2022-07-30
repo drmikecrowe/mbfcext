@@ -10860,6 +10860,16 @@
     "a": "L",
     "q": []
   },
+  "conservativeoutfitters.com": {
+    "b": "FN",
+    "d": "conservativeoutfitters.com",
+    "n": "Conservative Outfitters",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/conservative-outfitters/",
+    "c": "L",
+    "a": "N",
+    "q": []
+  },
   "conservativepapers.com": {
     "b": "FN",
     "d": "conservativepapers.com",
@@ -10933,9 +10943,11 @@
       "C",
       "P",
       "PS",
+      "LT",
       "FFC",
       "FC",
-      "M"
+      "M",
+      "PSE"
     ]
   },
   "conservativereview.com": {
@@ -10949,6 +10961,16 @@
     "P": 63,
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "conservativeshere.com": {
+    "b": "R",
+    "d": "conservativeshere.com",
+    "n": "Conservatives Here",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/conservatives-here/",
+    "c": "L",
+    "a": "N",
     "q": []
   },
   "conservativespirit.com": {
@@ -10991,7 +11013,7 @@
     "u": "https://mediabiasfactcheck.com/conservative-today/",
     "P": 13,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "conservativetoday.org": {
@@ -11133,7 +11155,7 @@
     "u": "https://mediabiasfactcheck.com/constitution-project/",
     "P": 55,
     "c": "M",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "constitutionstatenews.com": {
@@ -15218,6 +15240,16 @@
       "PSE",
       "IM"
     ]
+  },
+  "echopress.com": {
+    "b": "RC",
+    "d": "echopress.com",
+    "n": "Alexandria Echo Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/alexandria-echo-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "ecindiananews.com": {
     "b": "FN",
@@ -26279,6 +26311,16 @@
     "a": "M",
     "q": []
   },
+  "kob.com": {
+    "b": "C",
+    "d": "kob.com",
+    "n": "KOB 4 Eyewitness News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kob-4-eyewitness-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "koco.com": {
     "b": "LC",
     "d": "koco.com",
@@ -31776,6 +31818,20 @@
       "H"
     ]
   },
+  "nationalzero.com": {
+    "b": "FN",
+    "d": "nationalzero.com",
+    "n": "National Zero",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/national-zero/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "LT",
+      "M"
+    ]
+  },
   "nationmaster.com": {
     "b": "C",
     "d": "nationmaster.com",
@@ -36430,6 +36486,17 @@
     "a": "L",
     "q": []
   },
+  "orangeville.com/erin-on-news": {
+    "b": "LC",
+    "d": "orangeville.com/erin-on-news",
+    "n": "Erin Advocate",
+    "p": "/erin-on-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/erin-advocate-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "order-order.com": {
     "b": "R",
     "d": "order-order.com",
@@ -39787,17 +39854,6 @@
     "P": 76,
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N",
     "q": []
   },
   "quackwatch.org": {
@@ -48906,6 +48962,16 @@
     "a": "N",
     "q": []
   },
+  "thefranklinnewspost.com": {
+    "b": "C",
+    "d": "thefranklinnewspost.com",
+    "n": "Franklin News-Post",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/franklin-news-post-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thefreedomtimes.com": {
     "b": "FN",
     "d": "thefreedomtimes.com",
@@ -50903,12 +50969,13 @@
     "u": "https://mediabiasfactcheck.com/thespectator-info/",
     "P": 23,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "P",
       "PS",
       "LT",
       "M",
+      "PG",
       "IM"
     ]
   },
@@ -56269,7 +56336,7 @@
     "u": "https://mediabiasfactcheck.com/conservative-tribune/",
     "P": 44,
     "c": "L",
-    "a": "H",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -58593,6 +58660,16 @@
     "P": 69,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "yaktrinews.com": {
+    "b": "C",
+    "d": "yaktrinews.com",
+    "n": "KAPP - Yakima News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kapp-yakima-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "yaleglobal.yale.edu": {
