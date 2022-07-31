@@ -25987,6 +25987,16 @@
     "a": "L",
     "q": []
   },
+  "kiiitv.com": {
+    "b": "C",
+    "d": "kiiitv.com",
+    "n": "KIII - Corpus Christi News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kiii-corpus-christi-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "kimatv.com": {
     "b": "RC",
     "d": "kimatv.com",
@@ -30309,6 +30319,20 @@
       "PS",
       "LT",
       "FC"
+    ]
+  },
+  "midcoasttoday.com": {
+    "b": "FN",
+    "d": "midcoasttoday.com",
+    "n": "Mid Coast Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mid-coast-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
     ]
   },
   "middleamericandemocrat.com": {
@@ -45705,6 +45729,16 @@
     "a": "L",
     "q": []
   },
+  "starheraldnews.com": {
+    "b": "C",
+    "d": "starheraldnews.com",
+    "n": "Pocahontas Star Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pocahontas-star-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "starpolitical.com": {
     "b": "R",
     "d": "starpolitical.com",
@@ -53431,6 +53465,16 @@
     "P": 56,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "unherd.com": {
+    "b": "RC",
+    "d": "unherd.com",
+    "n": "Unherd",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/unherd-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "unicornriot.ninja": {
