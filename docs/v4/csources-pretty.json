@@ -20930,7 +20930,7 @@
     "u": "https://mediabiasfactcheck.com/grunge/",
     "P": 54,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
       "M"
     ]
@@ -25309,11 +25309,13 @@
     "u": "https://mediabiasfactcheck.com/just-the-news/",
     "P": 52,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
       "C",
       "P",
-      "FFC"
+      "FFC",
+      "FC",
+      "M"
     ]
   },
   "kadn.com": {
@@ -37913,6 +37915,20 @@
       "IM"
     ]
   },
+  "pinestatenews.com": {
+    "b": "FN",
+    "d": "pinestatenews.com",
+    "n": "Pine State News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pine-state-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "pinknews.co.uk": {
     "b": "L",
     "d": "pinknews.co.uk",
@@ -49770,7 +49786,7 @@
     "b": "LC",
     "d": "thelist.com",
     "n": "The List",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/the-list/",
     "P": 63,
     "c": "M",
@@ -52208,6 +52224,16 @@
     "a": "L",
     "q": []
   },
+  "tonganoxiemirror.com": {
+    "b": "C",
+    "d": "tonganoxiemirror.com",
+    "n": "Tonganoxie Mirror",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tonganoxie-mirror-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "toofab.com": {
     "b": "FN",
     "d": "toofab.com",
@@ -53201,6 +53227,16 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/tut-by/",
     "P": 85,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "tvanouvelles.ca": {
+    "b": "LC",
+    "d": "tvanouvelles.ca",
+    "n": "TVA Nouvelles",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/tva-nouvelles-bias/",
     "c": "H",
     "a": "H",
     "q": []
@@ -54399,6 +54435,16 @@
     "n": "Vail Daily",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/vail-daily-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "valdostadailytimes.com": {
+    "b": "LC",
+    "d": "valdostadailytimes.com",
+    "n": "Valdosta Daily Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/valdosta-daily-times-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -57068,6 +57114,16 @@
     "u": "https://mediabiasfactcheck.com/wichita-standard-bias/",
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "wicz.com": {
+    "b": "C",
+    "d": "wicz.com",
+    "n": "WICZ - Binghamton News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wicz-binghamton-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "wifr.com": {
