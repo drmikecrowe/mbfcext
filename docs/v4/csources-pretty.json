@@ -4899,6 +4899,16 @@
     "a": "M",
     "q": []
   },
+  "azmirror.com": {
+    "b": "L",
+    "d": "azmirror.com",
+    "n": "Arizona Mirror",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/arizona-mirror-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "babnet.net": {
     "b": "C",
     "d": "babnet.net",
@@ -37484,6 +37494,20 @@
       "IM"
     ]
   },
+  "northmichigannews.com": {
+    "b": "FN",
+    "d": "northmichigannews.com",
+    "n": "North Michigan News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-michigan-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "northnewcastlenews.com": {
     "b": "FN",
     "d": "northnewcastlenews.com",
@@ -42621,17 +42645,6 @@
     "P": 76,
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N",
     "q": []
   },
   "quackwatch.org": {
@@ -59559,6 +59572,16 @@
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/james-randi-educational-foundation/",
     "P": 58,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "webcenterfairbanks.com": {
+    "b": "C",
+    "d": "webcenterfairbanks.com",
+    "n": "KTVF - Fairbanks News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktvf-fairbanks-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
