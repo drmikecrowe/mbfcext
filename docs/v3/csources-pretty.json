@@ -17781,7 +17781,7 @@
     "u": "https://mediabiasfactcheck.com/fact-checking-turkey/",
     "P": 21,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "P",
       "M"
@@ -17795,7 +17795,7 @@
     "u": "https://mediabiasfactcheck.com/factmyth/",
     "P": 39,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "factsandlogic.org": {
@@ -17845,7 +17845,7 @@
     "u": "https://mediabiasfactcheck.com/factwire-news-agency/",
     "P": 26,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "fair.org": {
@@ -17922,7 +17922,7 @@
     "u": "https://mediabiasfactcheck.com/fairvote/",
     "P": 75,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "faithfamilyamerica.com": {
@@ -17930,11 +17930,11 @@
     "d": "faithfamilyamerica.com",
     "f": "faithfamilyamerica",
     "n": "Faith Family America",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/faith-family-america/",
     "P": 32,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "faithit.com": {
@@ -17957,7 +17957,7 @@
     "u": "https://mediabiasfactcheck.com/faithpanda/",
     "P": 19,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "faithwire.com": {
@@ -18667,6 +18667,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/mountaineer-echo-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "floridadaily.com": {
+    "b": "R",
+    "d": "floridadaily.com",
+    "n": "Florida Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/florida-daily-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -23415,6 +23425,17 @@
     "p": "/abc_newspapers",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/anoka-county-union-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "hometownsource.com/sun_current": {
+    "b": "LC",
+    "d": "hometownsource.com/sun_current",
+    "n": "Bloomington-Richfield Sun Current",
+    "p": "/sun_current",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bloomington-richfield-sun-current-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -37858,6 +37879,20 @@
     "a": "H",
     "q": []
   },
+  "novitimes.com": {
+    "b": "FN",
+    "d": "novitimes.com",
+    "n": "Novi Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/novi-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "now8news.com": {
     "b": "FN",
     "d": "now8news.com",
@@ -46905,6 +46940,17 @@
     "P": 67,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "shawlocal.com/ogle-county-news": {
+    "b": "C",
+    "d": "shawlocal.com/ogle-county-news",
+    "n": "Forreston Journal",
+    "p": "/ogle-county-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/forreston-journal-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "shawlocal.com/sauk-valley": {
