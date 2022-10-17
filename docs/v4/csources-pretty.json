@@ -14273,6 +14273,15 @@
       "IM"
     ]
   },
+  "delawareohionews.com": {
+    "b": "S",
+    "d": "delawareohionews.com",
+    "n": "Delaware Ohio News",
+    "u": "https://mediabiasfactcheck.com/deleware-ohio-news-bias/",
+    "c": "NA",
+    "a": "L",
+    "q": []
+  },
   "delawareonline.com": {
     "b": "LC",
     "d": "delawareonline.com",
@@ -38775,6 +38784,22 @@
     "a": "L",
     "q": []
   },
+  "ohioindependent.com": {
+    "b": "FN",
+    "d": "ohioindependent.com",
+    "n": "The Ohio Independent",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-ohio-independent-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "oilandwaterdontmix.org": {
     "b": "LC",
     "d": "oilandwaterdontmix.org",
@@ -40926,6 +40951,25 @@
       "FC",
       "M",
       "H"
+    ]
+  },
+  "politicalanimalnews.com": {
+    "b": "FN",
+    "d": "politicalanimalnews.com",
+    "n": "Political Animal News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/political-animal-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE",
+      "IM"
     ]
   },
   "politicalblindspot.com": {
@@ -47343,6 +47387,16 @@
     "u": "https://mediabiasfactcheck.com/the-state-journal-register-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "sjnewsonline.com": {
+    "b": "C",
+    "d": "sjnewsonline.com",
+    "n": "St. John News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/st-john-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "skepdic.com": {
@@ -53834,6 +53888,17 @@
     "P": 9,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "thepeterboroughexaminer.com/local-kawartha-lakes": {
+    "b": "LC",
+    "d": "thepeterboroughexaminer.com/local-kawartha-lakes",
+    "n": "Kawartha Lakes This Week",
+    "p": "/local-kawartha-lakes",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kawartha-lakes-this-week-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "thepoliticalbrief.com": {
@@ -61505,6 +61570,16 @@
     "n": "WNYT - Albany News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wnyt-albany-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wogx.com": {
+    "b": "C",
+    "d": "wogx.com",
+    "n": "WOGX - Fox 51 - Gainesville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wogx-fox-51-gainesville-bias/",
     "c": "H",
     "a": "M",
     "q": []
