@@ -4670,6 +4670,21 @@
     "a": "M",
     "q": []
   },
+  "augustarichmondherald.com": {
+    "b": "FN",
+    "d": "augustarichmondherald.com",
+    "n": "Augusta-Richmond Herald",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/augusta-richmond-herald-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "austinchronicle.com": {
     "b": "L",
     "d": "austinchronicle.com",
@@ -38419,6 +38434,20 @@
       "IM"
     ]
   },
+  "nwwaynenews.com": {
+    "b": "FN",
+    "d": "nwwaynenews.com",
+    "n": "Northwest Wayne News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/northwest-wayne-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "ny1.com/nyc/all-boroughs": {
     "b": "C",
     "d": "ny1.com/nyc/all-boroughs",
@@ -43686,6 +43715,24 @@
       "C",
       "P",
       "PS",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
+  "redrightpatriot.com": {
+    "b": "FN",
+    "d": "redrightpatriot.com",
+    "n": "Red Right Patriot",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/red-right-patriot-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
       "FC",
       "M",
       "PSE"
