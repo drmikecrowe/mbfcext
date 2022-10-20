@@ -28338,6 +28338,16 @@
     "a": "M",
     "q": []
   },
+  "kttc.com": {
+    "b": "C",
+    "d": "kttc.com",
+    "n": "KTTC - Rochester News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kttc-rochester-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "ktul.com": {
     "b": "RC",
     "d": "ktul.com",
@@ -35366,6 +35376,16 @@
     "a": "L",
     "q": []
   },
+  "newhampshirebulletin.com": {
+    "b": "L",
+    "d": "newhampshirebulletin.com",
+    "n": "New Hampshire Bulletin",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/new-hampshire-bulletin-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newhumanist.org.uk": {
     "b": "PS",
     "d": "newhumanist.org.uk",
@@ -41470,6 +41490,20 @@
     "a": "L",
     "q": []
   },
+  "pontiactimes.com": {
+    "b": "FN",
+    "d": "pontiactimes.com",
+    "n": "Pontiac Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pontiac-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "pop.org": {
     "b": "FN",
     "d": "pop.org",
@@ -46832,6 +46866,16 @@
     "n": "Selma Times-Journal",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/selma-times-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "semafor.com": {
+    "b": "C",
+    "d": "semafor.com",
+    "n": "Semafor",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/semafor-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -61107,7 +61151,7 @@
     "u": "https://mediabiasfactcheck.com/wings-over-scotland/",
     "P": 53,
     "c": "L",
-    "a": "M",
+    "a": "N",
     "q": [
       "C",
       "P",
@@ -61722,7 +61766,7 @@
     "u": "https://mediabiasfactcheck.com/woke-sloth/",
     "P": 34,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "C",
       "P",
