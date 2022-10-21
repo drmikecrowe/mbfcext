@@ -18296,7 +18296,7 @@
     "u": "https://mediabiasfactcheck.com/fellowship-of-the-minds/",
     "P": 60,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "femalista.com": {
@@ -18336,7 +18336,7 @@
     "u": "https://mediabiasfactcheck.com/feminist-frequency/",
     "P": 65,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "feministing.com": {
@@ -18465,7 +18465,7 @@
     "u": "https://mediabiasfactcheck.com/filming-cops/",
     "P": 44,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -39549,6 +39549,16 @@
       "FC"
     ]
   },
+  "oxfordmail.co.uk": {
+    "b": "C",
+    "d": "oxfordmail.co.uk",
+    "n": "Oxford Mail",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/oxford-mail-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "oye.news": {
     "b": "CP",
     "d": "oye.news",
@@ -45018,6 +45028,16 @@
     "u": "https://mediabiasfactcheck.com/wroc-rochester-first-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "rochsent.com": {
+    "b": "RC",
+    "d": "rochsent.com",
+    "n": "Rochester Sentinel",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rochester-sentinel-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "rockcitytimes.com": {
@@ -62201,6 +62221,16 @@
     "u": "https://mediabiasfactcheck.com/wral/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "wrbl.com": {
+    "b": "C",
+    "d": "wrbl.com",
+    "n": "WRBL - Columbus News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wrbl-columbus-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "wrdw.com": {
