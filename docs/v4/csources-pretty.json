@@ -2079,6 +2079,17 @@
     "a": "L",
     "q": []
   },
+  "alexcityoutlook.com/news/dadeville": {
+    "b": "RC",
+    "d": "alexcityoutlook.com/news/dadeville",
+    "n": "Dadeville Record",
+    "p": "/news/dadeville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dadeville-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "algemeiner.com": {
     "b": "RC",
     "d": "algemeiner.com",
@@ -23495,6 +23506,17 @@
     "a": "L",
     "q": []
   },
+  "hometownsource.com/sun_post": {
+    "b": "LC",
+    "d": "hometownsource.com/sun_post",
+    "n": "Brooklyn Center Sun Post",
+    "p": "/sun_post",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/brooklyn-center-sun-post-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "homevaccineeducationnetwork.com": {
     "b": "CP",
     "d": "homevaccineeducationnetwork.com",
@@ -26936,7 +26958,7 @@
     ]
   },
   "kansas.com": {
-    "b": "RC",
+    "b": "C",
     "d": "kansas.com",
     "f": "wichitaeagle",
     "n": "Wichita Eagle",
@@ -30342,6 +30364,16 @@
     "a": "N",
     "q": []
   },
+  "livingstondaily.com": {
+    "b": "LC",
+    "d": "livingstondaily.com",
+    "n": "Livingston County Daily Press & Argus",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/livingston-county-daily-press-argus-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "livingstontoday.com": {
     "b": "FN",
     "d": "livingstontoday.com",
@@ -31561,6 +31593,17 @@
     "p": "/journal/adolescents",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/adolescents-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/arm": {
+    "b": "PS",
+    "d": "mdpi.com/journal/arm",
+    "n": "Advances in Respiratory Medicine",
+    "p": "/journal/arm",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/advances-on-respiratory-medicine-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -46777,6 +46820,20 @@
     "n": "SE Georgia News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/se-georgia-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "segrandrapids.com": {
+    "b": "FN",
+    "d": "segrandrapids.com",
+    "n": "SE Grand Rapids News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/se-grand-rapids-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
