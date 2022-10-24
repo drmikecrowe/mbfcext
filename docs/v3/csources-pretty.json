@@ -754,6 +754,16 @@
     "a": "M",
     "q": []
   },
+  "abc7.com": {
+    "b": "C",
+    "d": "abc7.com",
+    "n": "KABC - Los Angeles News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kabc-los-angeles-news-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "abc7amarillo.com": {
     "b": "RC",
     "d": "abc7amarillo.com",
@@ -7225,6 +7235,21 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "buckscountystandard.com": {
+    "b": "FN",
+    "d": "buckscountystandard.com",
+    "n": "Bucks County Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/bucks-county-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "budapestbeacon.com": {
     "b": "LC",
@@ -22638,6 +22663,16 @@
     "a": "M",
     "q": []
   },
+  "hdnews.net": {
+    "b": "C",
+    "d": "hdnews.net",
+    "n": "Hays Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hays-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "headlinennews.com": {
     "b": "S",
     "d": "headlinennews.com",
@@ -25239,6 +25274,17 @@
     "p": "/arnprior-on",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/arnprior-chronicle-guide-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "insideottawavalley.com/kemptville-on": {
+    "b": "LC",
+    "d": "insideottawavalley.com/kemptville-on",
+    "n": "Kemptville Advance",
+    "p": "/kemptville-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kemptville-advance-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -40213,6 +40259,24 @@
     "a": "L",
     "q": []
   },
+  "patriotnewsfeed.com": {
+    "b": "FN",
+    "d": "patriotnewsfeed.com",
+    "n": "Patriot Newsfeed",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/patriot-newsfeed-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "patriotpartypress.com": {
     "b": "S",
     "d": "patriotpartypress.com",
@@ -40502,6 +40566,21 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "pennsylvaniaindependent.com": {
+    "b": "FN",
+    "d": "pennsylvaniaindependent.com",
+    "n": "Pennsylvania Independent",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pennsylvania-independent-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "pensacolatimes.com": {
     "b": "FN",
@@ -47002,6 +47081,20 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "seoaklandnews.com": {
+    "b": "FN",
+    "d": "seoaklandnews.com",
+    "n": "SE Oakland News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-oakland-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "seventeen.com": {
     "b": "L",
@@ -53733,6 +53826,16 @@
       "CEN"
     ]
   },
+  "thenational.scot": {
+    "b": "LC",
+    "d": "thenational.scot",
+    "n": "The National - Scotland",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-national-scotland-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "thenationaldesk.com": {
     "b": "RC",
     "d": "thenationaldesk.com",
@@ -57481,6 +57584,24 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "unmuzzlednews.com": {
+    "b": "FN",
+    "d": "unmuzzlednews.com",
+    "n": "Unmuzzled News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/unmuzzled-news-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "M",
+      "PSE",
+      "IM"
+    ]
   },
   "unwatch.org": {
     "b": "R",
