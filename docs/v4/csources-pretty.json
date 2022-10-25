@@ -10768,6 +10768,16 @@
     "a": "H",
     "q": []
   },
+  "cochranetimes.com": {
+    "b": "RC",
+    "d": "cochranetimes.com",
+    "n": "Cochrane Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cochrane-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "coconinonews.com": {
     "b": "FN",
     "d": "coconinonews.com",
@@ -20351,6 +20361,17 @@
     "p": "/journals/aging-neuroscience",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-aging-neuroscience-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/agronomy": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/agronomy",
+    "n": "Frontiers in Agronomy",
+    "p": "/journals/agronomy",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-agronomy-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -37527,6 +37548,16 @@
       "IM"
     ]
   },
+  "northdeltareporter.com": {
+    "b": "LC",
+    "d": "northdeltareporter.com",
+    "n": "North Delta Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/north-delta-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "northdsmnews.com": {
     "b": "FN",
     "d": "northdsmnews.com",
@@ -43771,6 +43802,16 @@
       "LT",
       "M"
     ]
+  },
+  "redbluffdailynews.com": {
+    "b": "C",
+    "d": "redbluffdailynews.com",
+    "n": "Red Bluff Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/red-bluff-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "redcountry.us": {
     "b": "FN",
@@ -60602,7 +60643,7 @@
     "u": "https://mediabiasfactcheck.com/westmonster/",
     "P": 44,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "westoctimes.com": {
@@ -60946,7 +60987,7 @@
     "d": "whatdoesitmean.com",
     "f": "204288706256003",
     "n": "WhatDoesItMean",
-    "r": "L",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/whatdoesitmean/",
     "P": 71,
     "c": "L",
@@ -60954,15 +60995,25 @@
     "q": []
   },
   "whatfinger.com": {
-    "b": "R",
+    "b": "FN",
     "d": "whatfinger.com",
     "n": "Whatfinger",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/whatfinger/",
     "P": 48,
-    "c": "M",
-    "a": "H",
-    "q": []
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE"
+    ]
   },
   "whatmattersnews.com": {
     "b": "L",
@@ -61009,7 +61060,7 @@
     "u": "https://mediabiasfactcheck.com/whats-the-harm/",
     "P": 57,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "PS",
       "LT",
