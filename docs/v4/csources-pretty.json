@@ -13642,6 +13642,16 @@
     "a": "N",
     "q": []
   },
+  "dakotanewsnow.com": {
+    "b": "C",
+    "d": "dakotanewsnow.com",
+    "n": "KSFY - Sioux Falls News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ksfy-sioux-falls-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "dallasnews.com": {
     "b": "RC",
     "d": "dallasnews.com",
@@ -18679,7 +18689,7 @@
     "u": "https://mediabiasfactcheck.com/fitsnews/",
     "P": 47,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "fivethirtyeight.com": {
@@ -44368,6 +44378,16 @@
     "a": "L",
     "q": []
   },
+  "reporter.net": {
+    "b": "LC",
+    "d": "reporter.net",
+    "n": "Lebanon Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lebanon-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "reporterherald.com": {
     "b": "C",
     "d": "reporterherald.com",
@@ -46686,6 +46706,16 @@
     "a": "H",
     "q": []
   },
+  "scottsdale.org": {
+    "b": "C",
+    "d": "scottsdale.org",
+    "n": "Scottsdale Progress",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/scottsdale-progress-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "scotusblog.com": {
     "b": "C",
     "d": "scotusblog.com",
@@ -47454,6 +47484,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "shelbyreview.com": {
+    "b": "FN",
+    "d": "shelbyreview.com",
+    "n": "Shelby Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/shelby-review-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "shoalstoday.com": {
     "b": "FN",
@@ -60793,6 +60837,16 @@
     "u": "https://mediabiasfactcheck.com/wevv-evansville-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wfaa.com": {
+    "b": "C",
+    "d": "wfaa.com",
+    "n": "WFAA - Dallas News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wfaa-dallas-news-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "wfft.com": {
