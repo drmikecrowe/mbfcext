@@ -5189,6 +5189,16 @@
       "H"
     ]
   },
+  "barrheadnews.com": {
+    "b": "C",
+    "d": "barrheadnews.com",
+    "n": "Barrhead News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/barrhead-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "barrietoday.com": {
     "b": "LC",
     "d": "barrietoday.com",
@@ -23591,6 +23601,17 @@
     "u": "https://mediabiasfactcheck.com/brooklyn-center-sun-post-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "hometownsource.com/sun_thisweek": {
+    "b": "LC",
+    "d": "hometownsource.com/sun_thisweek",
+    "n": "Burnsville-Eagan Sun ThisWeek",
+    "p": "/sun_thisweek",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/burnsville-eagan-sun-thisweek-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "homevaccineeducationnetwork.com": {
@@ -47420,6 +47441,17 @@
     "a": "M",
     "q": []
   },
+  "shawlocal.com/mywebtimes": {
+    "b": "C",
+    "d": "shawlocal.com/mywebtimes",
+    "n": "The Times (Ottawa, illinois)",
+    "p": "/mywebtimes",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-times-ottawa-illinois-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "shawlocal.com/ogle-county-news": {
     "b": "C",
     "d": "shawlocal.com/ogle-county-news",
@@ -47495,12 +47527,36 @@
     "a": "L",
     "q": []
   },
+  "shelbynews.com": {
+    "b": "RC",
+    "d": "shelbynews.com",
+    "n": "Shelbyvill News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/shelbyville-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "shelbyreview.com": {
     "b": "FN",
     "d": "shelbyreview.com",
     "n": "Shelby Review",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/shelby-review-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "shiawasseetimes.com": {
+    "b": "FN",
+    "d": "shiawasseetimes.com",
+    "n": "Shiawassee Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/shiawassee-times-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -55643,6 +55699,16 @@
     "P": 82,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "thewetumpkaherald.com": {
+    "b": "RC",
+    "d": "thewetumpkaherald.com",
+    "n": "Wetumpka Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wetumpka-herald-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "thewhim.com": {
