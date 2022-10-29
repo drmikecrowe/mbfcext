@@ -18243,7 +18243,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/fort-bend-herald/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "fbnewscycle.com": {
@@ -19041,7 +19041,7 @@
     "u": "https://mediabiasfactcheck.com/forever-conscious/",
     "P": 57,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "fortnightlyreview.co.uk": {
@@ -19418,6 +19418,16 @@
     "u": "https://mediabiasfactcheck.com/wxin-fox59-indianapolis-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "fox5atlanta.com": {
+    "b": "C",
+    "d": "fox5atlanta.com",
+    "n": "WAGA - Fox 5 - Atlanta",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/waga-fox-5-atlanta-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "fox5dc.com": {
@@ -28366,6 +28376,16 @@
     "a": "H",
     "q": []
   },
+  "kshb.com": {
+    "b": "C",
+    "d": "kshb.com",
+    "n": "KSHB - Kansas City News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kshb-kansas-city-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "ksl.com": {
     "b": "C",
     "d": "ksl.com",
@@ -29678,6 +29698,16 @@
     "u": "https://mediabiasfactcheck.com/le-monde-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "lenconnect.com": {
+    "b": "LC",
+    "d": "lenconnect.com",
+    "n": "Adrian Daily Telegram",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/adrian-daily-telegram-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "lesmoutonsrebelles.com": {
@@ -31701,6 +31731,17 @@
     "p": "/journal/adolescents",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/adolescents-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/aerospace": {
+    "b": "PS",
+    "d": "mdpi.com/journal/aerospace",
+    "n": "Aerospace Journal",
+    "p": "/journal/aerospace",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/aerospace-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
