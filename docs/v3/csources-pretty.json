@@ -9197,6 +9197,21 @@
       "IM"
     ]
   },
+  "centralpatimes.com": {
+    "b": "FN",
+    "d": "centralpatimes.com",
+    "n": "Central Pennsylvania Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-pennsylvania-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "cepr.net": {
     "b": "LC",
     "d": "cepr.net",
@@ -13302,6 +13317,15 @@
     "P": 34,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "dailynewsreported.com": {
+    "b": "S",
+    "d": "dailynewsreported.com",
+    "n": "Daily News Reported",
+    "u": "https://mediabiasfactcheck.com/daily-news-reported-bias/",
+    "c": "NA",
+    "a": "L",
     "q": []
   },
   "dailynorthwestern.com": {
@@ -39562,6 +39586,16 @@
     "a": "M",
     "q": []
   },
+  "ottawaherald.com": {
+    "b": "C",
+    "d": "ottawaherald.com",
+    "n": "Ottawa Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ottawa-herald-kansas-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ottawasun.com": {
     "b": "RC",
     "d": "ottawasun.com",
@@ -44122,6 +44156,25 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "redstatenation.com": {
+    "b": "FN",
+    "d": "redstatenation.com",
+    "n": "Red State Nation",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/red-state-nation-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "redstatepundit.com": {
     "b": "FN",
@@ -48808,6 +48861,20 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "southkentnews.com": {
+    "b": "FN",
+    "d": "southkentnews.com",
+    "n": "South Kent news",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-kent-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "southlaketoday.com": {
     "b": "FN",
@@ -59763,15 +59830,18 @@
     "q": []
   },
   "washingtonsources.org": {
-    "b": "L",
+    "b": "FN",
     "d": "washingtonsources.org",
     "n": "Washington Sources",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/washington-sources/",
     "P": 29,
-    "c": "M",
+    "c": "L",
     "a": "L",
-    "q": []
+    "q": [
+      "LT",
+      "FFC"
+    ]
   },
   "washingtonspectator.org": {
     "b": "L",
@@ -61726,6 +61796,21 @@
       "IM"
     ]
   },
+  "wisconsinindependent.com": {
+    "b": "FN",
+    "d": "wisconsinindependent.com",
+    "n": "The Wisconsin Independent",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-wisconsin-independent-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "wishtv.com": {
     "b": "LC",
     "d": "wishtv.com",
@@ -63543,6 +63628,17 @@
     "p": "/georgina-on",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/georgina-advocate-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "yorkregion.com/markham-on": {
+    "b": "LC",
+    "d": "yorkregion.com/markham-on",
+    "n": "Markham Economist & Sun",
+    "p": "/markham-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/markham-economist-sun-bias/",
     "c": "H",
     "a": "L",
     "q": []
