@@ -14926,6 +14926,16 @@
     "a": "M",
     "q": []
   },
+  "devondispatch.ca": {
+    "b": "RC",
+    "d": "devondispatch.ca",
+    "n": "Devon Dispatch",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/devon-dispatch-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "dglobe.com": {
     "b": "RC",
     "d": "dglobe.com",
@@ -20426,6 +20436,17 @@
     "p": "/journals/agronomy",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-agronomy-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/allergy": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/allergy",
+    "n": "Frontiers in Allergy",
+    "p": "/journals/allergy",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-allergy-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -40624,6 +40645,16 @@
     "a": "M",
     "q": []
   },
+  "peacearchnews.com": {
+    "b": "LC",
+    "d": "peacearchnews.com",
+    "n": "Peace Arch News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/peace-arch-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "peacedata.net": {
     "b": "FN",
     "d": "peacedata.net",
@@ -40876,6 +40907,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/peterson-foundation/",
     "P": 66,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "pharostribune.com": {
+    "b": "LC",
+    "d": "pharostribune.com",
+    "n": "Pharos Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pharos-tribune-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -44005,6 +44046,16 @@
     "a": "N",
     "q": []
   },
+  "redlandsdailyfacts.com": {
+    "b": "C",
+    "d": "redlandsdailyfacts.com",
+    "n": "Redlands Daily Facts",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/redlands-daily-facts-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "redorbit.com": {
     "b": "FN",
     "d": "redorbit.com",
@@ -46841,6 +46892,16 @@
     "a": "L",
     "q": []
   },
+  "scottsdaleairpark.com": {
+    "b": "C",
+    "d": "scottsdaleairpark.com",
+    "n": "Scottdale Airpark News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/scottdale-airpark-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "scotusblog.com": {
     "b": "C",
     "d": "scotusblog.com",
@@ -48213,11 +48274,14 @@
     "c": "L",
     "a": "L",
     "q": [
+      "P",
       "PS",
       "LT",
       "FFC",
       "FC",
-      "M"
+      "M",
+      "FN",
+      "IM"
     ]
   },
   "smoloko.com": {
@@ -48924,6 +48988,20 @@
     "n": "South Miami-Dade News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/south-miami-dade-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "southmichigannews.com": {
+    "b": "FN",
+    "d": "southmichigannews.com",
+    "n": "South Michigan News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-michigan-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -59153,6 +59231,19 @@
     "a": "M",
     "q": []
   },
+  "vinnews.com": {
+    "b": "C",
+    "d": "vinnews.com",
+    "f": "vinnews",
+    "n": "Vos Iz Neias",
+    "r": "M",
+    "t": "vinnews",
+    "u": "https://mediabiasfactcheck.com/vos-iz-neias/",
+    "P": 63,
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "viralcocaine.com": {
     "b": "S",
     "d": "viralcocaine.com",
@@ -59385,19 +59476,6 @@
     "a": "H",
     "q": []
   },
-  "vosizneias.com": {
-    "b": "C",
-    "d": "vosizneias.com",
-    "f": "vinnews",
-    "n": "Vos Iz Neias",
-    "r": "M",
-    "t": "vinnews",
-    "u": "https://mediabiasfactcheck.com/vos-iz-neias/",
-    "P": 63,
-    "c": "M",
-    "a": "M",
-    "q": []
-  },
   "vote.us.org": {
     "b": "L",
     "d": "vote.us.org",
@@ -59568,7 +59646,7 @@
     "u": "https://mediabiasfactcheck.com/wake-up-world/",
     "P": 64,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "wakingtimes.com": {
@@ -59629,6 +59707,9 @@
       "C",
       "P",
       "PS",
+      "LT",
+      "FFC",
+      "FC",
       "M",
       "H"
     ]
@@ -59728,7 +59809,7 @@
     "u": "https://mediabiasfactcheck.com/washington-babylon/",
     "P": 36,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "washingtonblade.com": {
@@ -59826,7 +59907,7 @@
     "u": "https://mediabiasfactcheck.com/washington-press/",
     "P": 45,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "washingtonsources.org": {
@@ -61179,6 +61260,16 @@
     "P": 79,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "wgrz.com": {
+    "b": "C",
+    "d": "wgrz.com",
+    "n": "WGRZ - Buffalo News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wgrz-buffalo-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "wgxa.tv": {
