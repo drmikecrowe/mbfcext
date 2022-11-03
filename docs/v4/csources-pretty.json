@@ -5219,6 +5219,16 @@
     "a": "H",
     "q": []
   },
+  "barryanddistrictnews.co.uk": {
+    "b": "C",
+    "d": "barryanddistrictnews.co.uk",
+    "n": "Barry and District News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/barry-and-district-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "basnews.com": {
     "b": "FN",
     "d": "basnews.com",
@@ -7235,6 +7245,16 @@
     "a": "M",
     "q": []
   },
+  "bryantimes.com": {
+    "b": "RC",
+    "d": "bryantimes.com",
+    "n": "Bryan Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bryan-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bt.dk": {
     "b": "RC",
     "d": "bt.dk",
@@ -8124,6 +8144,17 @@
     "P": 57,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "cambridgeanalytica.org": {
+    "b": "R",
+    "d": "cambridgeanalytica.org",
+    "n": "Cambridge Analytica",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cambridge-analytica/",
+    "P": 42,
+    "c": "M",
+    "a": "N",
     "q": []
   },
   "cambridgetimes.ca": {
@@ -18838,6 +18869,16 @@
       "IM"
     ]
   },
+  "floridaphoenix.com": {
+    "b": "L",
+    "d": "floridaphoenix.com",
+    "n": "Florida Phoenix",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/florida-phoenix-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "floridapolitics.com": {
     "b": "C",
     "d": "floridapolitics.com",
@@ -20519,6 +20560,16 @@
     "P": 97,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "ftimes.com": {
+    "b": "RC",
+    "d": "ftimes.com",
+    "n": "Frankfort Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/frankfort-times-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "ftleavenworthlamp.com": {
@@ -23612,7 +23663,15 @@
     "P": 85,
     "c": "L",
     "a": "M",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M"
+    ]
   },
   "homelandsecuritynewswire.com": {
     "b": "C",
@@ -23634,6 +23693,17 @@
     "u": "https://mediabiasfactcheck.com/anoka-county-union-herald-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "hometownsource.com/caledonia": {
+    "b": "LC",
+    "d": "hometownsource.com/caledonia",
+    "n": "Caledonia Argus",
+    "p": "/caledonia",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/caledonia-argus-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "hometownsource.com/sun_current": {
@@ -27336,6 +27406,16 @@
     "P": 61,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "kcrw.com": {
+    "b": "LC",
+    "d": "kcrw.com",
+    "n": "KCRW - NPR - Santa Monica",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcrw-npr-santa-monica-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "kctv5.com": {
@@ -33888,6 +33968,16 @@
     "a": "L",
     "q": []
   },
+  "myhighplains.com": {
+    "b": "C",
+    "d": "myhighplains.com",
+    "n": "KAMR - Amarillo News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kamr-amarillo-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "mynbc15.com": {
     "b": "RC",
     "d": "mynbc15.com",
@@ -38087,6 +38177,16 @@
     "n": "North Tama Telegraph",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/north-tama-telegraph-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "northwestsignal.net": {
+    "b": "RC",
+    "d": "northwestsignal.net",
+    "n": "Northwest Signal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/northwest-signal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -49835,6 +49935,20 @@
     "a": "M",
     "q": []
   },
+  "stclairtoday.com": {
+    "b": "FN",
+    "d": "stclairtoday.com",
+    "n": "St. Clair Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-claire-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "steadfastandloyal.com": {
     "b": "FN",
     "d": "steadfastandloyal.com",
@@ -55897,6 +56011,17 @@
     "a": "L",
     "q": []
   },
+  "thewetumpkaherald.com/news/eclectic": {
+    "b": "RC",
+    "d": "thewetumpkaherald.com/news/eclectic",
+    "n": "Eclectic Observer",
+    "p": "/news/eclectic",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eclectic-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thewhim.com": {
     "b": "C",
     "d": "thewhim.com",
@@ -59323,7 +59448,7 @@
     "u": "https://mediabiasfactcheck.com/viral-title/",
     "P": 9,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "virginiamercury.com": {
@@ -59407,7 +59532,7 @@
     "t": "vocativ",
     "u": "https://mediabiasfactcheck.com/vocativ/",
     "P": 67,
-    "c": "NA",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -59442,7 +59567,7 @@
     "u": "https://mediabiasfactcheck.com/voice-of-europe/",
     "P": 53,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "C",
       "P",
