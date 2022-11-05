@@ -14312,18 +14312,6 @@
     "a": "L",
     "q": []
   },
-  "defenddemocracy.org": {
-    "b": "R",
-    "d": "defenddemocracy.org",
-    "f": "followFDD",
-    "n": "Foundation for Defense of Democracies",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/foundation-defense-democracies/",
-    "P": 67,
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "defendevropa.org": {
     "b": "FN",
     "d": "defendevropa.org",
@@ -18341,6 +18329,18 @@
     "a": "L",
     "q": []
   },
+  "fdd.org": {
+    "b": "R",
+    "d": "fdd.org",
+    "f": "followFDD",
+    "n": "Foundation for Defense of Democracies",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/foundation-defense-democracies/",
+    "P": 67,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "federalistnation.com": {
     "b": "FN",
     "d": "federalistnation.com",
@@ -18421,11 +18421,11 @@
     "d": "fee.org",
     "f": "feeonline",
     "n": "Foundation for Economic Education",
-    "r": "M",
+    "r": "MF",
     "t": "feeonline",
     "u": "https://mediabiasfactcheck.com/foundation-for-economic-education/",
     "P": 81,
-    "c": "M",
+    "c": "H",
     "a": "M",
     "q": []
   },
@@ -41782,7 +41782,7 @@
     "u": "https://mediabiasfactcheck.com/free-speech-time/",
     "P": 11,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "C",
       "P",
@@ -50137,6 +50137,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "stjoebentonharbor.com": {
+    "b": "FN",
+    "d": "stjoebentonharbor.com",
+    "n": "St. Joe-Benton Harbor News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-joe-benton-harbor-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "stltoday.com": {
     "b": "LC",
@@ -60784,6 +60798,16 @@
       "CEN"
     ]
   },
+  "wellingtondailynews.com": {
+    "b": "C",
+    "d": "wellingtondailynews.com",
+    "n": "Wellington Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wellington-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "wellnessachiever.net": {
     "b": "CP",
     "d": "wellnessachiever.net",
@@ -62076,6 +62100,20 @@
       "P",
       "LT",
       "M",
+      "IM"
+    ]
+  },
+  "wisconsinlaketimes.com": {
+    "b": "FN",
+    "d": "wisconsinlaketimes.com",
+    "n": "Wisconsin Lake Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wisconsin-lake-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
       "IM"
     ]
   },
