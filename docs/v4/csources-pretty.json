@@ -10951,6 +10951,16 @@
     "a": "M",
     "q": []
   },
+  "coloradotimesrecorder.com": {
+    "b": "L",
+    "d": "coloradotimesrecorder.com",
+    "n": "Colorado Times Recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/colorado-times-recorder-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "colorlines.com": {
     "b": "L",
     "d": "colorlines.com",
@@ -18538,7 +18548,7 @@
     "u": "https://mediabiasfactcheck.com/freedom-religion-foundation-ffrf/",
     "P": 76,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "fibrohealthnews.com": {
@@ -19997,7 +20007,7 @@
     "u": "https://mediabiasfactcheck.com/freedom-advocates-agenda-21/",
     "P": 52,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "freedomainradio.com": {
@@ -20021,7 +20031,7 @@
     "u": "https://mediabiasfactcheck.com/freedom-alliance-bias-rating/",
     "P": 52,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "freedomandprosperity.org": {
@@ -20508,6 +20518,17 @@
     "p": "/journals/allergy",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-allergy-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/amphibian-and-reptile-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/amphibian-and-reptile-science",
+    "n": "Frontier in Amphibian and Reptile Science",
+    "p": "/journals/amphibian-and-reptile-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-amphibian-and-reptile-science-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -50447,6 +50468,20 @@
     "a": "N",
     "q": []
   },
+  "sturgiscoldwaternews.com": {
+    "b": "FN",
+    "d": "sturgiscoldwaternews.com",
+    "n": "Sturgis-Coldwater News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sturgis-coldwater-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "subjectpolitics.com": {
     "b": "FN",
     "d": "subjectpolitics.com",
@@ -50670,6 +50705,16 @@
     "P": 31,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "surreynowleader.com": {
+    "b": "LC",
+    "d": "surreynowleader.com",
+    "n": "Surrey Now-Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/surrey-now-leader-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "survivalblog.com": {
@@ -56307,6 +56352,20 @@
     "a": "N",
     "q": []
   },
+  "thumbreporter.com": {
+    "b": "FN",
+    "d": "thumbreporter.com",
+    "n": "Thumb Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/thumb-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "thv11.com": {
     "b": "C",
     "d": "thv11.com",
@@ -57112,6 +57171,20 @@
     "a": "H",
     "q": []
   },
+  "tricitysun.com": {
+    "b": "FN",
+    "d": "tricitysun.com",
+    "n": "Tri-City Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tri-city-sun-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "triggerreset.net": {
     "b": "FN",
     "d": "triggerreset.net",
@@ -57863,6 +57936,16 @@
     "a": "M",
     "q": []
   },
+  "ukiahdailyjournal.com": {
+    "b": "C",
+    "d": "ukiahdailyjournal.com",
+    "n": "Ukiah Daily Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ukiah-daily-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "unbiasedamerica.com": {
     "b": "R",
     "d": "unbiasedamerica.com",
@@ -58182,6 +58265,20 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "upgazette.com": {
+    "b": "FN",
+    "d": "upgazette.com",
+    "n": "UP Gazette",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/up-gazette-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "upi.com": {
     "b": "C",
@@ -59990,6 +60087,20 @@
     "a": "M",
     "q": []
   },
+  "warrensun.com": {
+    "b": "FN",
+    "d": "warrensun.com",
+    "n": "The Warren Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-warren-sun-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "washingtonbabylon.com": {
     "b": "L",
     "d": "washingtonbabylon.com",
@@ -60178,6 +60289,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "waterfordtoday.com": {
+    "b": "FN",
+    "d": "waterfordtoday.com",
+    "n": "Waterford Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/waterford-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "waterfordwhispersnews.com": {
     "b": "S",
