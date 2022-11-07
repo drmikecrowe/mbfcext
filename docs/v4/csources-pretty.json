@@ -9686,6 +9686,17 @@
     "a": "M",
     "q": []
   },
+  "childrenshealthdefense.org/defender": {
+    "b": "CP",
+    "d": "childrenshealthdefense.org/defender",
+    "n": "The Defender",
+    "p": "/defender",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-defender-childrens-health-defense-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": []
+  },
   "china.org.cn": {
     "b": "L",
     "d": "china.org.cn",
@@ -19136,6 +19147,16 @@
     "u": "https://mediabiasfactcheck.com/forever-conscious/",
     "P": 57,
     "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "fortmcmurraytoday.com": {
+    "b": "RC",
+    "d": "fortmcmurraytoday.com",
+    "n": "Fort McMurray Today",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fort-mcmurray-today-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -40963,6 +40984,16 @@
       "IM"
     ]
   },
+  "peoriatimes.com": {
+    "b": "C",
+    "d": "peoriatimes.com",
+    "n": "Peoria Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/peoria-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "perezhilton.com": {
     "b": "FN",
     "d": "perezhilton.com",
@@ -44594,6 +44625,16 @@
     "a": "M",
     "q": []
   },
+  "religionandpolitics.com": {
+    "b": "LC",
+    "d": "religionandpolitics.com",
+    "n": "Religion & Politics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/religion-politics/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "religionmind.com": {
     "b": "CP",
     "d": "religionmind.com",
@@ -44783,9 +44824,9 @@
     "a": "L",
     "q": []
   },
-  "republicandaily.net": {
+  "republicandaily.com": {
     "b": "FN",
-    "d": "republicandaily.net",
+    "d": "republicandaily.com",
     "n": "Republican Daily",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/republican-daily-bias/",
@@ -57116,6 +57157,16 @@
     "a": "H",
     "q": []
   },
+  "tribstar.com": {
+    "b": "LC",
+    "d": "tribstar.com",
+    "n": "Terre Haute Tribune-Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/terre-haute-tribune-star/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tribtown.com": {
     "b": "RC",
     "d": "tribtown.com",
@@ -63145,6 +63196,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wpxi/",
     "P": 61,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wqad.com": {
+    "b": "C",
+    "d": "wqad.com",
+    "n": "WQAD - Moline News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wqad-moline-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
