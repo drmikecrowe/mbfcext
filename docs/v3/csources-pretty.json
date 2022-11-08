@@ -17145,21 +17145,6 @@
       "PSE"
     ]
   },
-  "en.radiovaticana.va": {
-    "b": "FN",
-    "d": "en.radiovaticana.va",
-    "f": "vaticannews",
-    "n": "Vatican Radio",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/vatican-radio/",
-    "P": 66,
-    "c": "L",
-    "a": "N",
-    "q": [
-      "P",
-      "PSE"
-    ]
-  },
   "en.wikinews.org": {
     "b": "C",
     "d": "en.wikinews.org",
@@ -21201,6 +21186,16 @@
       "FC",
       "IM"
     ]
+  },
+  "georgiarecorder.com": {
+    "b": "L",
+    "d": "georgiarecorder.com",
+    "n": "Georgia Recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/georgia-recorder-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "getcancerremedies.com": {
     "b": "CP",
@@ -28410,6 +28405,16 @@
     "P": 95,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "kotatv.com": {
+    "b": "C",
+    "d": "kotatv.com",
+    "n": "KOTA - Rapid City News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kota-rapid-city-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "kpic.com": {
@@ -50611,6 +50616,16 @@
     "a": "H",
     "q": []
   },
+  "suncommercial.com": {
+    "b": "RC",
+    "d": "suncommercial.com",
+    "n": "Vincennes Sun-Commerical",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vincennes-sun-commercial-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sundayinquirer.com": {
     "b": "FN",
     "d": "sundayinquirer.com",
@@ -59243,6 +59258,18 @@
     "a": "H",
     "q": []
   },
+  "vaticannews.va": {
+    "b": "RC",
+    "d": "vaticannews.va",
+    "f": "vaticannews",
+    "n": "Vatican Radio/News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vatican-radio/",
+    "P": 66,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "vaxopedia.org": {
     "b": "PS",
     "d": "vaxopedia.org",
@@ -60625,6 +60652,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "wcmichigannews.com": {
+    "b": "FN",
+    "d": "wcmichigannews.com",
+    "n": "West Central Michigan News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-central-michigan-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "wcpo.com": {
     "b": "C",
