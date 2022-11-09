@@ -16296,6 +16296,16 @@
       "IM"
     ]
   },
+  "echo-news.co.uk": {
+    "b": "C",
+    "d": "echo-news.co.uk",
+    "n": "Essex Echo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/essex-echo-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "echocheck.org": {
     "b": "FN",
     "d": "echocheck.org",
@@ -23761,6 +23771,17 @@
     "u": "https://mediabiasfactcheck.com/caledonia-argus-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "hometownsource.com/press_and_news": {
+    "b": "LC",
+    "d": "hometownsource.com/press_and_news",
+    "n": "Crow River News",
+    "p": "/press_and_news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/crow-river-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "hometownsource.com/sun_current": {
@@ -51306,6 +51327,16 @@
       "IM"
     ]
   },
+  "tallasseetribune.com": {
+    "b": "RC",
+    "d": "tallasseetribune.com",
+    "n": "Tallassee Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tallassee-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tamatoledonews.com": {
     "b": "C",
     "d": "tamatoledonews.com",
@@ -59081,7 +59112,7 @@
     "u": "https://mediabiasfactcheck.com/vaccines-news/",
     "P": 50,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "vaccinesafety.info": {
@@ -59114,7 +59145,7 @@
     "u": "https://mediabiasfactcheck.com/vactruth-com/",
     "P": 60,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "vaildaily.com": {
@@ -59214,7 +59245,7 @@
     "u": "https://mediabiasfactcheck.com/vancouver-sun/",
     "P": 93,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "vancouvertimes.org": {
@@ -60481,6 +60512,16 @@
     "a": "M",
     "q": []
   },
+  "wbhm.org": {
+    "b": "LC",
+    "d": "wbhm.org",
+    "n": "WBHM - NPR - Birmingham",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbhm-npr-birmingham-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "wbir.com": {
     "b": "C",
     "d": "wbir.com",
@@ -61283,6 +61324,20 @@
     "c": "M",
     "a": "M",
     "q": []
+  },
+  "westernwaynetoday.com": {
+    "b": "FN",
+    "d": "westernwaynetoday.com",
+    "n": "Western Wayne Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/western-wayne-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "westflnews.com": {
     "b": "FN",
