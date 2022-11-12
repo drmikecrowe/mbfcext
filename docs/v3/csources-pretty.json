@@ -3755,6 +3755,20 @@
     "a": "M",
     "q": []
   },
+  "anokatimes.com": {
+    "b": "FN",
+    "d": "anokatimes.com",
+    "n": "Anoka Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/anoka-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "anonews.co": {
     "b": "FN",
     "d": "anonews.co",
@@ -9147,6 +9161,25 @@
       "IM"
     ]
   },
+  "centralfloridapost.com": {
+    "b": "FN",
+    "d": "centralfloridapost.com",
+    "n": "Central Florida Post",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/central-florida-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "IM"
+    ]
+  },
   "centralgeorgianews.com": {
     "b": "FN",
     "d": "centralgeorgianews.com",
@@ -10818,6 +10851,21 @@
     "a": "M",
     "q": []
   },
+  "cobbnewsga.com": {
+    "b": "FN",
+    "d": "cobbnewsga.com",
+    "n": "Cobb News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cobb-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "cobbreporter.com": {
     "b": "FN",
     "d": "cobbreporter.com",
@@ -11167,6 +11215,16 @@
     "u": "https://mediabiasfactcheck.com/community-impact/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "comoxvalleyrecord.com": {
+    "b": "LC",
+    "d": "comoxvalleyrecord.com",
+    "n": "Comox Valley Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/comox-valley-record-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "complex.com": {
@@ -13747,6 +13805,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "dakotatimes.com": {
+    "b": "FN",
+    "d": "dakotatimes.com",
+    "n": "Dakota Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dakota-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "dallasnews.com": {
     "b": "RC",
@@ -20447,7 +20519,7 @@
     "u": "https://mediabiasfactcheck.com/friends-of-science/",
     "P": 44,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "frnewsreport.com": {
@@ -20494,7 +20566,7 @@
     "b": "PS",
     "d": "frontiersin.org",
     "f": "Frontiersin",
-    "n": "Frontiers",
+    "n": "Frontiers Media",
     "r": "MF",
     "t": "frontiersin",
     "u": "https://mediabiasfactcheck.com/frontiers/",
@@ -20569,6 +20641,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/analytical-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/analytical-science",
+    "n": "Frontiers in Analytical Science",
+    "p": "/journals/analytical-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-analytical-science/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -20602,8 +20685,8 @@
     "t": "frontpage_live",
     "u": "https://mediabiasfactcheck.com/front-page-live/",
     "P": 32,
-    "c": "H",
-    "a": "M",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "frontpagemag.com": {
@@ -26439,6 +26522,16 @@
     "a": "M",
     "q": []
   },
+  "jaxdailyrecord.com": {
+    "b": "C",
+    "d": "jaxdailyrecord.com",
+    "n": "Jacksonville Daily Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jacksonville-daily-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jbs.org": {
     "b": "FN",
     "d": "jbs.org",
@@ -28076,6 +28169,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kktv.com": {
     "b": "C",
@@ -48810,26 +48922,6 @@
     "a": "L",
     "q": []
   },
-  "sonsoflibertymedia.com": {
-    "b": "FN",
-    "d": "sonsoflibertymedia.com",
-    "n": "The Sons of Liberty Media",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "L",
-    "q": [
-      "C",
-      "P",
-      "PS",
-      "FFC",
-      "FC",
-      "M",
-      "H",
-      "FN",
-      "PSE"
-    ]
-  },
   "sootoday.com": {
     "b": "LC",
     "d": "sootoday.com",
@@ -56647,6 +56739,16 @@
     "u": "https://mediabiasfactcheck.com/times-headline/",
     "P": 22,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "timesheraldonline.com": {
+    "b": "C",
+    "d": "timesheraldonline.com",
+    "n": "Vallejo Times-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vallejo-times-herald/",
+    "c": "H",
     "a": "L",
     "q": []
   },
