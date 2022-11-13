@@ -36,6 +36,16 @@
     "a": "M",
     "q": []
   },
+  "1011np.com": {
+    "b": "C",
+    "d": "1011np.com",
+    "n": "KNPL - North Platte News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/knpl-north-platte-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "10news.one": {
     "b": "FN",
     "d": "10news.one",
@@ -2179,6 +2189,16 @@
     "u": "https://mediabiasfactcheck.com/alliance-for-science/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "alliednews.com": {
+    "b": "LC",
+    "d": "alliednews.com",
+    "n": "Grove City Allied News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bbc-science-focus-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "alliedprogress.org": {
@@ -16242,6 +16262,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/east-sierra-news/",
     "P": 4,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "easttwincities.com": {
+    "b": "FN",
+    "d": "easttwincities.com",
+    "n": "East Twin Cities",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-twin-cities-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -52457,6 +52491,16 @@
       "PSE"
     ]
   },
+  "thebeaumontnews.ca": {
+    "b": "RC",
+    "d": "thebeaumontnews.ca",
+    "n": "La Nouvelle Beaumont News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/la-nouvelle-beaumont-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thebeaverton.com": {
     "b": "S",
     "d": "thebeaverton.com",
@@ -61675,6 +61719,16 @@
       "IM"
     ]
   },
+  "westvalleyview.com": {
+    "b": "C",
+    "d": "westvalleyview.com",
+    "n": "West Valley View",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/west-valley-view-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "westventuranews.com": {
     "b": "FN",
     "d": "westventuranews.com",
@@ -63049,6 +63103,16 @@
       "LT",
       "M"
     ]
+  },
+  "wola.org": {
+    "b": "LC",
+    "d": "wola.org",
+    "n": "Washington Office on Latin America (WOLA)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/washington-office-on-latin-america-wola-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "womenarehuman.com": {
     "b": "FN",
