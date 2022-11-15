@@ -19747,6 +19747,16 @@
     "a": "M",
     "q": []
   },
+  "fox9.com": {
+    "b": "C",
+    "d": "fox9.com",
+    "n": "KMSP - Fox 9 - Minneapolis",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kmsp-fox-9-minneapolis-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "foxbaltimore.com": {
     "b": "RC",
     "d": "foxbaltimore.com",
@@ -23726,6 +23736,16 @@
     "P": 47,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "hillsdale.net": {
+    "b": "LC",
+    "d": "hillsdale.net",
+    "n": "Hillsdale Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hillsdale-daily-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "hilltimes.com": {
@@ -28867,6 +28887,16 @@
     "a": "H",
     "q": []
   },
+  "ktnv.com": {
+    "b": "C",
+    "d": "ktnv.com",
+    "n": "KTNV - Las Vegas News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktnv-las-vegas-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "ktre.com": {
     "b": "C",
     "d": "ktre.com",
@@ -32187,6 +32217,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/agrochemicals": {
+    "b": "PS",
+    "d": "mdpi.com/journal/agrochemicals",
+    "n": "Agrochemicals Journal",
+    "p": "/journal/agrochemicals",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/agrochemicals-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -33312,6 +33353,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "minneapolisreview.com": {
+    "b": "FN",
+    "d": "minneapolisreview.com",
+    "n": "Minneapolis Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/minneapolis-review-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "minnesota.cbslocal.com": {
     "b": "LC",
