@@ -11019,6 +11019,21 @@
     "a": "L",
     "q": []
   },
+  "colonews.com": {
+    "b": "FN",
+    "d": "colonews.com",
+    "n": "Columbus News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/columbus-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "coloradoan.com": {
     "b": "LC",
     "d": "coloradoan.com",
@@ -12511,6 +12526,16 @@
       "LT",
       "M"
     ]
+  },
+  "cowichanvalleycitizen.com": {
+    "b": "LC",
+    "d": "cowichanvalleycitizen.com",
+    "n": "Cowichan Valley Citizen",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cowichan-valley-citizen-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "cp24.com": {
     "b": "C",
@@ -20706,6 +20731,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/anesthesiology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/anesthesiology",
+    "n": "Frontiers in Anesthesiology",
+    "p": "/journals/anesthesiology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-anesthesiology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -22818,6 +22854,17 @@
     "n": "Hamburg Reporter",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/hamburg-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "hamiltonnews.com/hamiltonmountain-on": {
+    "b": "LC",
+    "d": "hamiltonnews.com/hamiltonmountain-on",
+    "n": "Hamilton Mountain News",
+    "p": "/hamiltonmountain-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hamilton-mountain-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -33496,6 +33543,20 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "mnbusinessdaily.com": {
+    "b": "FN",
+    "d": "mnbusinessdaily.com",
+    "n": "Minnesota Business Daily",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/minnesota-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "mnn.com": {
     "b": "LC",
@@ -53912,6 +53973,16 @@
     "a": "N",
     "q": []
   },
+  "thegraftonnews.com": {
+    "b": "C",
+    "d": "thegraftonnews.com",
+    "n": "Grafton News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/grafton-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thegrayzone.com": {
     "b": "FN",
     "d": "thegrayzone.com",
@@ -59073,7 +59144,7 @@
     "u": "https://mediabiasfactcheck.com/usa-spending/",
     "P": 78,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "usasupreme.com": {
@@ -59085,7 +59156,7 @@
     "u": "https://mediabiasfactcheck.com/usa-supreme/",
     "P": 35,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -62283,6 +62354,16 @@
     "P": 25,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "whittierdailynews.com": {
+    "b": "C",
+    "d": "whittierdailynews.com",
+    "n": "Whittier Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whittier-daily-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "whnt.com": {
