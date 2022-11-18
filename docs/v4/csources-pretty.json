@@ -2662,6 +2662,20 @@
     "a": "L",
     "q": []
   },
+  "americancatholictribune.com": {
+    "b": "FN",
+    "d": "americancatholictribune.com",
+    "n": "American Catholic Tribine",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/american-catholic-tribune-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "americanconsequences.com": {
     "b": "R",
     "d": "americanconsequences.com",
@@ -4951,6 +4965,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "azcatholictribune.com": {
+    "b": "FN",
+    "d": "azcatholictribune.com",
+    "n": "Catholic Tribune - Arizona",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/catholic-tribune-arizona-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "azcentral.com": {
     "b": "LC",
@@ -19002,6 +19030,21 @@
     "a": "N",
     "q": []
   },
+  "flcatholictribune.com": {
+    "b": "FN",
+    "d": "flcatholictribune.com",
+    "n": "Catholic Tribune - Florida",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/catholic-tribune-florida-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "PSE",
+      "IM"
+    ]
+  },
   "flippinonline.com": {
     "b": "C",
     "d": "flippinonline.com",
@@ -29979,6 +30022,16 @@
     "a": "H",
     "q": []
   },
+  "leducrep.com": {
+    "b": "RC",
+    "d": "leducrep.com",
+    "n": "Leduc Representatitve",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/leduc-representative-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "lefigaro.fr": {
     "b": "RC",
     "d": "lefigaro.fr",
@@ -33550,6 +33603,20 @@
     "n": "Minnesota Business Daily",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/minnesota-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "mncatholictribune.com": {
+    "b": "FN",
+    "d": "mncatholictribune.com",
+    "n": "Catholic Tribune - Minnesota",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/catholic-tribune-minnesota-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -40425,6 +40492,20 @@
     "a": "M",
     "q": []
   },
+  "pacatholictribune.com": {
+    "b": "FN",
+    "d": "pacatholictribune.com",
+    "n": "Catholic Tribune - Tribune",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/catholic-tribune-pennsylvania-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "pacificpundit.com": {
     "b": "FN",
     "d": "pacificpundit.com",
@@ -45345,6 +45426,16 @@
       "M",
       "IM"
     ]
+  },
+  "resolutesquare.com": {
+    "b": "L",
+    "d": "resolutesquare.com",
+    "n": "Resolute Square",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/resolute-square-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "resourcegovernance.org": {
     "b": "LC",
@@ -59007,7 +59098,7 @@
     "u": "https://mediabiasfactcheck.com/usa-hitman/",
     "P": 54,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "usainfront.com": {
@@ -62442,6 +62533,20 @@
     "a": "M",
     "q": []
   },
+  "wicatholictribune.com": {
+    "b": "FN",
+    "d": "wicatholictribune.com",
+    "n": "Catholic Tribune - Wisconsin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/catholic-tribune-wisconsin-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "wichitastandard.com": {
     "b": "FN",
     "d": "wichitastandard.com",
@@ -64727,6 +64832,17 @@
     "P": 70,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "yourobserver.com/longboat-key": {
+    "b": "C",
+    "d": "yourobserver.com/longboat-key",
+    "n": "Longboat Observer",
+    "p": "/longboat-key",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/longboat-observer-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "yoursun.com": {
