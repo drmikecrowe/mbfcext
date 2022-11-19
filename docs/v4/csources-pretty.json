@@ -2196,7 +2196,7 @@
     "d": "alliednews.com",
     "n": "Grove City Allied News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/bbc-science-focus-bias/",
+    "u": "https://mediabiasfactcheck.com/grove-city-allied-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -3661,6 +3661,15 @@
     "n": "Amdover Advertiser",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/andover-advertiser-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "andovertownsman.com": {
+    "b": "LC",
+    "d": "andovertownsman.com",
+    "n": "Andover Townsman",
+    "u": "https://mediabiasfactcheck.com/andover-townsman-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -20931,7 +20940,7 @@
     "b": "PS",
     "d": "futurism.com",
     "n": "Futurism",
-    "r": "H",
+    "r": "MF",
     "t": "futurism",
     "u": "https://mediabiasfactcheck.com/futurism/",
     "P": 83,
@@ -21101,8 +21110,10 @@
       "P",
       "PS",
       "LT",
+      "FFC",
       "FC",
-      "M"
+      "M",
+      "H"
     ]
   },
   "gawker.com": {
@@ -21232,7 +21243,7 @@
     "u": "https://mediabiasfactcheck.com/geek-com/",
     "P": 87,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "gellerreport.com": {
@@ -21249,9 +21260,13 @@
     "q": [
       "C",
       "P",
+      "PS",
       "FFC",
+      "FC",
+      "M",
       "H",
-      "FN"
+      "FN",
+      "PSE"
     ]
   },
   "gemstatewire.com": {
@@ -28426,6 +28441,16 @@
     "a": "M",
     "q": []
   },
+  "kmvt.com": {
+    "b": "C",
+    "d": "kmvt.com",
+    "n": "KMVT - Twin Falls News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kmvt-twin-falls-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "knewz.com": {
     "b": "RC",
     "d": "knewz.com",
@@ -29371,6 +29396,16 @@
     "P": 19,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "ladowntownnews.com": {
+    "b": "C",
+    "d": "ladowntownnews.com",
+    "n": "DT News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dt-news-la-downtown-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "ladylibertysnews.com": {
@@ -40279,7 +40314,7 @@
     "u": "https://mediabiasfactcheck.com/future-in-america/",
     "P": 10,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "ourhealthguides.com": {
@@ -47325,6 +47360,16 @@
     "P": 42,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "sciencefocus.com": {
+    "b": "PS",
+    "d": "sciencefocus.com",
+    "n": "BBC Science Focus",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bbc-science-focus-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "sciencehistory.org": {
