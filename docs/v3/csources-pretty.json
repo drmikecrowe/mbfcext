@@ -9601,6 +9601,16 @@
     "a": "M",
     "q": []
   },
+  "chathamhouse.org": {
+    "b": "C",
+    "d": "chathamhouse.org",
+    "n": "Chatham House",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/chatham-house-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "cheboygannews.com": {
     "b": "LC",
     "d": "cheboygannews.com",
@@ -21623,10 +21633,12 @@
     "u": "https://mediabiasfactcheck.com/ghost-report/",
     "P": 22,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
-      "P"
+      "P",
+      "FC",
+      "PSE"
     ]
   },
   "giffords.org": {
@@ -21766,7 +21778,7 @@
     "u": "https://mediabiasfactcheck.com/global-healing-center/",
     "P": 73,
     "c": "L",
-    "a": "N",
+    "a": "M",
     "q": []
   },
   "globalinfotoday.com": {
@@ -21790,7 +21802,7 @@
     "u": "https://mediabiasfactcheck.com/global-integrity/",
     "P": 56,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "globalnews.ca": {
@@ -21870,7 +21882,7 @@
     "u": "https://mediabiasfactcheck.com/global-slavery-index/",
     "P": 72,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "globaltimes.cn": {
@@ -21882,7 +21894,13 @@
     "P": 91,
     "c": "L",
     "a": "H",
-    "q": []
+    "q": [
+      "P",
+      "FFC",
+      "FC",
+      "M",
+      "CEN"
+    ]
   },
   "globalvoices.org": {
     "b": "L",
@@ -43465,19 +43483,6 @@
     "a": "H",
     "q": []
   },
-  "pri.org": {
-    "b": "LC",
-    "d": "pri.org",
-    "f": "publicradiointernational",
-    "n": "GlobalPost",
-    "r": "H",
-    "t": "pri",
-    "u": "https://mediabiasfactcheck.com/global-post/",
-    "P": 67,
-    "c": "H",
-    "a": "M",
-    "q": []
-  },
   "prideof-america.org": {
     "b": "FN",
     "d": "prideof-america.org",
@@ -57088,6 +57093,20 @@
     "n": "The World from PRX",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/public-radio-international-pri/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "theworld.org/programs/globalpost": {
+    "b": "LC",
+    "d": "theworld.org/programs/globalpost",
+    "f": "publicradiointernational",
+    "n": "GlobalPost",
+    "p": "/programs/globalpost",
+    "r": "H",
+    "t": "pri",
+    "u": "https://mediabiasfactcheck.com/global-post/",
+    "P": 67,
     "c": "H",
     "a": "M",
     "q": []
