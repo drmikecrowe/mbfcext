@@ -3379,6 +3379,16 @@
     "a": "N",
     "q": []
   },
+  "americustimesrecorder.com": {
+    "b": "RC",
+    "d": "americustimesrecorder.com",
+    "n": "Americus Times-Recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/americus-times-recorder-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "amestoday.com": {
     "b": "FN",
     "d": "amestoday.com",
@@ -34020,6 +34030,16 @@
     "a": "M",
     "q": []
   },
+  "monroenews.com": {
+    "b": "LC",
+    "d": "monroenews.com",
+    "n": "Monroe News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/monroe-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "monroereview.com": {
     "b": "FN",
     "d": "monroereview.com",
@@ -36946,6 +36966,16 @@
     "a": "H",
     "q": []
   },
+  "news.ycombinator.com": {
+    "b": "C",
+    "d": "news.ycombinator.com",
+    "n": "Hacker News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/hacker-news/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "news10.com": {
     "b": "C",
     "d": "news10.com",
@@ -39336,6 +39366,16 @@
       "FC",
       "M"
     ]
+  },
+  "nrc.nl": {
+    "b": "LC",
+    "d": "nrc.nl",
+    "n": "NRC",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nrc-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
   },
   "nrdc.org": {
     "b": "L",
@@ -48355,6 +48395,20 @@
     "a": "L",
     "q": []
   },
+  "seminnesotanews.com": {
+    "b": "FN",
+    "d": "seminnesotanews.com",
+    "n": "SE Minnesota News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-minnesota-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "sentencingproject.org": {
     "b": "LC",
     "d": "sentencingproject.org",
@@ -48678,6 +48732,17 @@
     "p": "/sauk-valley",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/sauk-valley-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "shawlocal.com/whiteside-news-sentinel": {
+    "b": "C",
+    "d": "shawlocal.com/whiteside-news-sentinel",
+    "n": "Whiteside News Sentinel",
+    "p": "/whiteside-news-sentinel",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whiteside-news-sentinel-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -58942,7 +59007,7 @@
     "u": "https://mediabiasfactcheck.com/uncle-sams-misguided-children/",
     "P": 43,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "C",
       "P",
@@ -59042,7 +59107,7 @@
     "u": "https://mediabiasfactcheck.com/understand-reality-through-science/",
     "P": 9,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "unep.org": {
@@ -59133,17 +59198,24 @@
     ]
   },
   "unitynewsnetwork.co.uk": {
-    "b": "R",
+    "b": "FN",
     "d": "unitynewsnetwork.co.uk",
     "f": "unitynewsnetwork",
     "n": "Unity News Network",
-    "r": "H",
+    "r": "M",
     "t": "UnityNewsNet",
     "u": "https://mediabiasfactcheck.com/unity-news-network/",
     "P": 29,
-    "c": "H",
+    "c": "L",
     "a": "L",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "universepolitics.com": {
     "b": "FN",
@@ -59238,7 +59310,7 @@
     "u": "https://mediabiasfactcheck.com/update-america/",
     "P": 25,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "upgazette.com": {
@@ -64702,6 +64774,16 @@
     "n": "WVAH - Charleston News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wvah-charleston-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "wvasfm.org": {
+    "b": "LC",
+    "d": "wvasfm.org",
+    "n": "WVAS - NPR - Montgomery",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wvas-npr-montgomery-bias/",
     "c": "H",
     "a": "L",
     "q": []
