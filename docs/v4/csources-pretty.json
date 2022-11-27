@@ -21082,7 +21082,7 @@
     "b": "R",
     "d": "g-a-i.org",
     "f": "GovernmentAccountabilityInstitute",
-    "n": "Government Accountablity Institute",
+    "n": "Government Accountability Institute",
     "r": "M",
     "t": "peterschweizer",
     "u": "https://mediabiasfactcheck.com/government-accountability-institute/",
@@ -22070,7 +22070,7 @@
     "u": "https://mediabiasfactcheck.com/godlike-productions/",
     "P": 70,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "goerie.com": {
@@ -22158,7 +22158,7 @@
     "u": "https://mediabiasfactcheck.com/good-magazine/",
     "P": 85,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "goodgopher.com": {
@@ -22169,9 +22169,15 @@
     "u": "https://mediabiasfactcheck.com/goodgopher/",
     "P": 46,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
       "FN",
       "PSE"
     ]
@@ -22244,20 +22250,6 @@
       "M"
     ]
   },
-  "gop.gov": {
-    "b": "FN",
-    "d": "gop.gov",
-    "n": "GOP.gov",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/gop-gov-house-republicans/",
-    "P": 70,
-    "c": "L",
-    "a": "L",
-    "q": [
-      "P",
-      "LT"
-    ]
-  },
   "gopdailybrief.com": {
     "b": "FN",
     "d": "gopdailybrief.com",
@@ -22285,16 +22277,23 @@
     "q": []
   },
   "gopusa.com": {
-    "b": "R",
+    "b": "FN",
     "d": "gopusa.com",
     "f": "gopusa",
     "n": "GOPUSA",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/gopusa/",
     "P": 64,
-    "c": "M",
-    "a": "M",
-    "q": []
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "goshennews.com": {
     "b": "LC",
@@ -22364,7 +22363,7 @@
     "u": "https://mediabiasfactcheck.com/government-executive/",
     "P": 75,
     "c": "H",
-    "a": "N",
+    "a": "M",
     "q": []
   },
   "govtrack.us": {
@@ -22388,7 +22387,7 @@
     "u": "https://mediabiasfactcheck.com/government-slaves/",
     "P": 32,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "gp.se": {
@@ -32568,6 +32567,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/ai": {
+    "b": "PS",
+    "d": "mdpi.com/journal/ai",
+    "n": "AI Journal",
+    "p": "/journal/ai",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/ai-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -34561,6 +34571,16 @@
     "a": "N",
     "q": []
   },
+  "my9nj.com": {
+    "b": "C",
+    "d": "my9nj.com",
+    "n": "WWOR - My9 - New Jersey",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wwor-my9-new-jersey-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "myarklamiss.com": {
     "b": "C",
     "d": "myarklamiss.com",
@@ -36530,6 +36550,16 @@
     "a": "L",
     "q": []
   },
+  "newhamburgindependent.ca": {
+    "b": "LC",
+    "d": "newhamburgindependent.ca",
+    "n": "New Hamburg Independent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/new-hamburg-independent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newhampshirebulletin.com": {
     "b": "L",
     "d": "newhampshirebulletin.com",
@@ -36875,7 +36905,7 @@
     "b": "LC",
     "d": "news.google.com",
     "n": "Google News",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/google-news/",
     "c": "H",
     "a": "H",
@@ -64502,6 +64532,16 @@
     "u": "https://mediabiasfactcheck.com/wsfa-montgomery-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wsfltv.com": {
+    "b": "C",
+    "d": "wsfltv.com",
+    "n": "WSFL - Miami News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wsfl-miami-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wsiltv.com": {
