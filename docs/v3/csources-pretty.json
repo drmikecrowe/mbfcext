@@ -4231,6 +4231,16 @@
       "IM"
     ]
   },
+  "arkansasadvocate.com": {
+    "b": "L",
+    "d": "arkansasadvocate.com",
+    "n": "Arkansas Advocate",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/arkansas-advocate-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "arkansasonline.com": {
     "b": "RC",
     "d": "arkansasonline.com",
@@ -5474,6 +5484,16 @@
       "PS",
       "CEN"
     ]
+  },
+  "bdtonline.com": {
+    "b": "LC",
+    "d": "bdtonline.com",
+    "n": "Bluefield Daily Telegraph",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bluefield-daily-telegraph-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "beachbroadcastnews.com": {
     "b": "FN",
@@ -17890,6 +17910,20 @@
     "a": "N",
     "q": []
   },
+  "everetttimes.com": {
+    "b": "FN",
+    "d": "everetttimes.com",
+    "n": "Everett Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/everett-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "M",
+      "IM"
+    ]
+  },
   "everycrsreport.com": {
     "b": "C",
     "d": "everycrsreport.com",
@@ -28540,6 +28574,16 @@
       "H",
       "PSE"
     ]
+  },
+  "kjct8.com": {
+    "b": "C",
+    "d": "kjct8.com",
+    "n": "KJCT - Grand Junction News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kjct-grand-junction-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "kktv.com": {
     "b": "C",
@@ -50046,6 +50090,20 @@
       "IM"
     ]
   },
+  "southhennepinnews.com": {
+    "b": "FN",
+    "d": "southhennepinnews.com",
+    "n": "South Hennepin News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-hennepin-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "southindynews.com": {
     "b": "FN",
     "d": "southindynews.com",
@@ -56256,6 +56314,16 @@
     "a": "M",
     "q": []
   },
+  "therighting.com": {
+    "b": "LC",
+    "d": "therighting.com",
+    "n": "TheRighting",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/therighting-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "therightists.com": {
     "b": "FN",
     "d": "therightists.com",
@@ -58968,7 +59036,7 @@
     "u": "https://mediabiasfactcheck.com/twisted-news/",
     "P": 36,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "twitchy.com": {
