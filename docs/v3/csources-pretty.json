@@ -8457,6 +8457,16 @@
     "a": "H",
     "q": []
   },
+  "canoncitydailyrecord.com": {
+    "b": "C",
+    "d": "canoncitydailyrecord.com",
+    "n": "Canon City Daily Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/canon-city-daily-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cap-news.com": {
     "b": "FN",
     "d": "cap-news.com",
@@ -29658,6 +29668,16 @@
     "a": "N",
     "q": []
   },
+  "ladysmithchronicle.com": {
+    "b": "LC",
+    "d": "ladysmithchronicle.com",
+    "n": "Ladysmith Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ladysmith-chronicle-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "lafayettereporter.com": {
     "b": "FN",
     "d": "lafayettereporter.com",
@@ -45076,6 +45096,24 @@
     "a": "M",
     "q": []
   },
+  "redacted.inc": {
+    "b": "FN",
+    "d": "redacted.inc",
+    "n": "Redacated",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/redacted-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "redalertpolitics.com": {
     "b": "R",
     "d": "redalertpolitics.com",
@@ -51083,6 +51121,20 @@
     "n": "St. Clair Today",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/st-claire-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "stcloudsun.com": {
+    "b": "FN",
+    "d": "stcloudsun.com",
+    "n": "St. Cloud Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-cloud-sun-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -58240,7 +58292,7 @@
     "b": "FN",
     "d": "trendingpolitics.com",
     "n": "Trending Politics",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/trending-politics/",
     "P": 41,
     "c": "L",
@@ -58249,7 +58301,11 @@
       "C",
       "P",
       "PS",
-      "FFC"
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
     ]
   },
   "tri-cityherald.com": {
@@ -61273,6 +61329,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wamu-fm/",
     "P": 76,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wandtv.com": {
+    "b": "C",
+    "d": "wandtv.com",
+    "n": "WAND - Decatur News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wand-decatur-news/",
     "c": "H",
     "a": "M",
     "q": []
@@ -65552,6 +65618,17 @@
     "p": "/longboat-key",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/longboat-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "yourobserver.com/sarasota": {
+    "b": "C",
+    "d": "yourobserver.com/sarasota",
+    "n": "Sarasota Observer",
+    "p": "/sarasota",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sarasota-observer-bias/",
     "c": "H",
     "a": "L",
     "q": []
