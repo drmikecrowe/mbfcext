@@ -4042,6 +4042,16 @@
     "a": "H",
     "q": []
   },
+  "apr.org": {
+    "b": "LC",
+    "d": "apr.org",
+    "n": "WQPR - NPR - Muscle Shoals",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wqpr-npr-muscle-shoals/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "aps.org": {
     "b": "PS",
     "d": "aps.org",
@@ -6979,7 +6989,7 @@
     "u": "https://mediabiasfactcheck.com/grasping-reality-hands-bradford-delong/",
     "P": 56,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "brainerddispatch.cpm": {
@@ -12306,6 +12316,16 @@
     "P": 71,
     "c": "L",
     "a": "M",
+    "q": []
+  },
+  "cordeledispatch.com": {
+    "b": "RC",
+    "d": "cordeledispatch.com",
+    "n": "Cordele Dispatch",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cordele-dispatch-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "corona-transition.org": {
@@ -22654,7 +22674,7 @@
     "u": "https://mediabiasfactcheck.com/great-falls-tribune/",
     "P": 73,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "greatlakeswire.com": {
@@ -22900,7 +22920,7 @@
     "u": "https://mediabiasfactcheck.com/group-of-thirty/",
     "P": 45,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "grundyreporter.com": {
@@ -33983,6 +34003,20 @@
     "u": "https://mediabiasfactcheck.com/mlive-michigan-booth-newspapers/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "mlive.com/grand-rapids-muskegon": {
+    "b": "RC",
+    "d": "mlive.com/grand-rapids-muskegon",
+    "f": "mlive",
+    "n": "Grand Rapids Press",
+    "p": "/grand-rapids-muskegon",
+    "r": "H",
+    "t": "mlive",
+    "u": "https://mediabiasfactcheck.com/grand-rapids-press/",
+    "P": 87,
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "mnbusinessdaily.com": {
@@ -50104,6 +50138,17 @@
       "IM"
     ]
   },
+  "southernminn.com/faribault_daily_news": {
+    "b": "LC",
+    "d": "southernminn.com/faribault_daily_news",
+    "n": "Faribualt Daily News",
+    "p": "/faribault_daily_news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/faribault-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "southernpatriotnews.com": {
     "b": "R",
     "d": "southernpatriotnews.com",
@@ -51448,6 +51493,20 @@
     "c": "L",
     "a": "M",
     "q": []
+  },
+  "stpaulreporter.com": {
+    "b": "FN",
+    "d": "stpaulreporter.com",
+    "n": "St. Paul Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-paul-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "stpete4peace.org": {
     "b": "L",
