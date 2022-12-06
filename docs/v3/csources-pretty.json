@@ -20013,6 +20013,16 @@
     "a": "M",
     "q": []
   },
+  "fox7austin.com": {
+    "b": "C",
+    "d": "fox7austin.com",
+    "n": "KTBC - Fox 7 - Austin",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktbc-fox-7-austin-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "fox8.com": {
     "b": "C",
     "d": "fox8.com",
@@ -32719,6 +32729,17 @@
     "p": "/journal/ai",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/ai-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/air": {
+    "b": "PS",
+    "d": "mdpi.com/journal/air",
+    "n": "Air Journal",
+    "p": "/journal/air",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/air-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -52254,6 +52275,20 @@
       "IM"
     ]
   },
+  "swminnesotatoday.com": {
+    "b": "FN",
+    "d": "swminnesotatoday.com",
+    "n": "SW Minnesota Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-minnesota-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "swprs.org": {
     "b": "CP",
     "d": "swprs.org",
@@ -57940,6 +57975,16 @@
     "P": 3,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "tmj4.com": {
+    "b": "C",
+    "d": "tmj4.com",
+    "n": "WTMJ - Milwaukee News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtmj-milwaukee-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "tmn.today": {
@@ -65630,6 +65675,17 @@
     "p": "/markham-on",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/markham-economist-sun-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "yorkregion.com/newmarket-on": {
+    "b": "LC",
+    "d": "yorkregion.com/newmarket-on",
+    "n": "Newmarket Era",
+    "p": "/newmarket-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newmarket-era-bias/",
     "c": "H",
     "a": "L",
     "q": []
