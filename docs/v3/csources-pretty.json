@@ -11129,6 +11129,16 @@
     "a": "L",
     "q": []
   },
+  "coldlakesun.com": {
+    "b": "RC",
+    "d": "coldlakesun.com",
+    "n": "Cold Lake Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cold-lake-sun-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "collapse.news": {
     "b": "CP",
     "d": "collapse.news",
@@ -44603,6 +44613,16 @@
     "a": "M",
     "q": []
   },
+  "rainylakegazette.com": {
+    "b": "C",
+    "d": "rainylakegazette.com",
+    "n": "Rainy Lake Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rainy-lake-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "rairfoundation.com": {
     "b": "FN",
     "d": "rairfoundation.com",
@@ -61946,6 +61966,19 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "wc minnesota news": {
+    "b": "FN",
+    "n": "WC Minnesota Newsa",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wc-minnesota-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "wcalabamanews.com": {
     "b": "FN",
