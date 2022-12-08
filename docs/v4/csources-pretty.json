@@ -3856,6 +3856,28 @@
     "a": "M",
     "q": []
   },
+  "anonymouswire.com": {
+    "b": "FN",
+    "d": "anonymouswire.com",
+    "n": "Anonymous Wire",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/anonymous-wire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PG",
+      "FN",
+      "PSE",
+      "IM"
+    ]
+  },
   "ansa.it": {
     "b": "C",
     "d": "ansa.it",
@@ -8730,6 +8752,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/carolina-public-press/",
     "P": 46,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "carriagetownenews.com": {
+    "b": "LC",
+    "d": "carriagetownenews.com",
+    "n": "Carriage Towne News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/carriage-towne-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -21045,6 +21077,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/antibiotics": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/antibiotics",
+    "n": "Frontiers in Antibiotics",
+    "p": "/journals/antibiotics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-antibiotics-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -25668,6 +25711,16 @@
     "P": 73,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "indianacapitalchronicle.com": {
+    "b": "L",
+    "d": "indianacapitalchronicle.com",
+    "n": "Indiana Capital Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/indiana-capital-chronicle-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "indianexpress.com": {
@@ -39898,6 +39951,21 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "nwlaketimes.com": {
+    "b": "FN",
+    "d": "nwlaketimes.com",
+    "n": "Northwest Lake Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/northwest-lake-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
       "IM"
     ]
   },
@@ -59105,6 +59173,17 @@
     "a": "M",
     "q": []
   },
+  "tucsonlocalmedia.com/deserttimes": {
+    "b": "C",
+    "d": "tucsonlocalmedia.com/deserttimes",
+    "n": "Tucson Desert Times",
+    "p": "/deserttimes",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tucson-desert-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tucsonlocalmedia.com/marana": {
     "b": "C",
     "d": "tucsonlocalmedia.com/marana",
@@ -62901,6 +62980,20 @@
     "n": "West SGV News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/west-sgv-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "westtwincities.com": {
+    "b": "FN",
+    "d": "westtwincities.com",
+    "n": "West Twin Cities",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-twin-cities-bias/",
     "c": "L",
     "a": "L",
     "q": [
