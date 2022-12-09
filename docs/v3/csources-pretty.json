@@ -13425,6 +13425,25 @@
     "a": "M",
     "q": []
   },
+  "dailycitizen.focusonthefamily.com": {
+    "b": "FN",
+    "d": "dailycitizen.focusonthefamily.com",
+    "n": "Daily Citizen (Focus on the Family)",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/daily-citizen-focus-on-the-family/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "dailycitizen.news": {
     "b": "LC",
     "d": "dailycitizen.news",
@@ -16763,6 +16782,20 @@
       "IM"
     ]
   },
+  "ecmissnews.com": {
+    "b": "FN",
+    "d": "ecmissnews.com",
+    "n": "EC Mississippi News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ec-mississippi-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "ecology.news": {
     "b": "CP",
     "d": "ecology.news",
@@ -19585,6 +19618,16 @@
     "n": "Fort McMurray Today",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/fort-mcmurray-today-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "fortmorgantimes.com": {
+    "b": "C",
+    "d": "fortmorgantimes.com",
+    "n": "Fort Morgan Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fort-morgan-times-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -24436,6 +24479,16 @@
     "p": "/sun_thisweek",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/burnsville-eagan-sun-thisweek-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "hometownstations.com": {
+    "b": "C",
+    "d": "hometownstations.com",
+    "n": "WLIO - Lima News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wlio-lima-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -29898,6 +29951,16 @@
       "FC",
       "IM"
     ]
+  },
+  "lakecowichangazette.com": {
+    "b": "LC",
+    "d": "lakecowichangazette.com",
+    "n": "Lake Cowichan Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lake-cowichan-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "lakegenevanews.net": {
     "b": "C",
@@ -41303,6 +41366,16 @@
     "a": "M",
     "q": []
   },
+  "palmcoastobserver.com": {
+    "b": "C",
+    "d": "palmcoastobserver.com",
+    "n": "Palm Coast Observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/palm-coast-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "palmcoasttimes.com": {
     "b": "FN",
     "d": "palmcoasttimes.com",
@@ -44123,7 +44196,7 @@
     "u": "https://mediabiasfactcheck.com/propublica/",
     "P": 91,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "prospect.org": {
