@@ -6864,6 +6864,16 @@
     "a": "L",
     "q": []
   },
+  "borehamwoodtimes.co.uk": {
+    "b": "C",
+    "d": "borehamwoodtimes.co.uk",
+    "n": "Borehamwood Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/borehamwood-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "borowitz-report": {
     "b": "S",
     "n": "Borowitz Report",
@@ -23175,7 +23185,7 @@
     "u": "https://mediabiasfactcheck.com/guns-com/",
     "P": 71,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "gunviolencearchive.org": {
@@ -23188,7 +23198,7 @@
     "u": "https://mediabiasfactcheck.com/gun-violence-archive/",
     "P": 79,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "guttmacher.org": {
@@ -23315,7 +23325,7 @@
     "b": "C",
     "d": "hanfordsentinel.com",
     "n": "Hanford Sentinel",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/hanford-sentinel-bias-rating/",
     "P": 63,
     "c": "H",
@@ -28360,6 +28370,16 @@
     "a": "M",
     "q": []
   },
+  "kentuckynewera.com": {
+    "b": "RC",
+    "d": "kentuckynewera.com",
+    "n": "Kentucky New Era",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kentucky-new-era-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "keprtv.com": {
     "b": "RC",
     "d": "keprtv.com",
@@ -29390,6 +29410,16 @@
     "n": "KSNB Channel 4",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/ksnb-channel-4/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "ksnt.com": {
+    "b": "C",
+    "d": "ksnt.com",
+    "n": "KSNT - Topeka News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ksnt-topeka-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -55101,7 +55131,7 @@
     "u": "https://mediabiasfactcheck.com/guardians-of-democracy/",
     "P": 31,
     "c": "M",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "thehardtimes.net": {
