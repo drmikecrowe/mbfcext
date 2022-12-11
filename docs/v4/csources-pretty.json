@@ -18246,6 +18246,16 @@
     "a": "M",
     "q": []
   },
+  "explainamerica.com": {
+    "b": "R",
+    "d": "explainamerica.com",
+    "n": "Explain America",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/explain-america-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "explainlife.com": {
     "b": "FN",
     "d": "explainlife.com",
@@ -22314,6 +22324,16 @@
     "a": "L",
     "q": []
   },
+  "godupdates.com": {
+    "b": "RC",
+    "d": "godupdates.com",
+    "n": "GodUpdates",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/godupdates-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "goerie.com": {
     "b": "C",
     "d": "goerie.com",
@@ -23075,6 +23095,20 @@
     "a": "H",
     "q": [
       "M"
+    ]
+  },
+  "gtrtimes.com": {
+    "b": "FN",
+    "d": "gtrtimes.com",
+    "n": "GTR Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gtr-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
     ]
   },
   "guampdn.com": {
@@ -24447,6 +24481,17 @@
     "u": "https://mediabiasfactcheck.com/caledonia-argus-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "hometownsource.com/forest_lake_times": {
+    "b": "LC",
+    "d": "hometownsource.com/forest_lake_times",
+    "n": "Forest Lake Times",
+    "p": "/forest_lake_times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/forest-lake-times-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "hometownsource.com/press_and_news": {
@@ -27316,7 +27361,7 @@
     "u": "https://mediabiasfactcheck.com/jezebel/",
     "P": 89,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "jihadica.com": {
@@ -29922,6 +29967,16 @@
       "FC",
       "IM"
     ]
+  },
+  "lagrangenews.com": {
+    "b": "RC",
+    "d": "lagrangenews.com",
+    "n": "LaGrange Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lagrange-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "lahainanews.com": {
     "b": "C",
@@ -38342,11 +38397,11 @@
     ]
   },
   "newsweek.com": {
-    "b": "LC",
+    "b": "RC",
     "d": "newsweek.com",
     "f": "Newsweek",
     "n": "Newsweek",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/newsweek/",
     "P": 82,
     "c": "H",
