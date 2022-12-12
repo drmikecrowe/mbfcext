@@ -1948,6 +1948,17 @@
     "a": "H",
     "q": []
   },
+  "al.com/huntsville": {
+    "b": "RC",
+    "d": "al.com/huntsville",
+    "n": "Huntsville Times",
+    "p": "/huntsville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/huntsville-times-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "alabamanow.com": {
     "b": "C",
     "d": "alabamanow.com",
@@ -29248,6 +29259,16 @@
     "a": "M",
     "q": []
   },
+  "kpax.com": {
+    "b": "C",
+    "d": "kpax.com",
+    "n": "KPAX - Missoula News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kpax-missoula-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "kpic.com": {
     "b": "RC",
     "d": "kpic.com",
@@ -32951,6 +32972,17 @@
     "p": "/journal/air",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/air-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/algorithms": {
+    "b": "PS",
+    "d": "mdpi.com/journal/algorithms",
+    "n": "Algorithms Journal",
+    "p": "/journal/algorithms",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/algorithms-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -49200,6 +49232,17 @@
     "a": "M",
     "q": []
   },
+  "shawlocal.com/midweek-news": {
+    "b": "C",
+    "d": "shawlocal.com/midweek-news",
+    "n": "The Midweek",
+    "p": "/midweek-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-midweek-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "shawlocal.com/mywebtimes": {
     "b": "C",
     "d": "shawlocal.com/mywebtimes",
@@ -50153,6 +50196,16 @@
     "u": "https://mediabiasfactcheck.com/sons-of-1776/",
     "P": 17,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "sooeveningnews.com": {
+    "b": "LC",
+    "d": "sooeveningnews.com",
+    "n": "The Sault News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-sault-news-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -52822,6 +52875,16 @@
     "P": 89,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "tampafp.com": {
+    "b": "R",
+    "d": "tampafp.com",
+    "n": "Tampa Free Press",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tampa-free-press-bias/",
+    "c": "M",
+    "a": "M",
     "q": []
   },
   "tamparepublic.com": {
