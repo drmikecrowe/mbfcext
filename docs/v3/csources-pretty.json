@@ -16096,6 +16096,17 @@
     "a": "M",
     "q": []
   },
+  "durhamregion.com/ajax-on": {
+    "b": "LC",
+    "d": "durhamregion.com/ajax-on",
+    "n": "Ajax News Advertiser",
+    "p": "/ajax-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ajax-news-advertiser-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "durhamregion.com/clarington-on": {
     "b": "LC",
     "d": "durhamregion.com/clarington-on",
@@ -20037,6 +20048,16 @@
     "u": "https://mediabiasfactcheck.com/wdaf-kansas-city-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "fox4news.com": {
+    "b": "C",
+    "d": "fox4news.com",
+    "n": "KDFW - Fox 4 - Dallas-Fort Worth",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kdfw-fox-4-dallas-fort-worth-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "fox4now.com": {
@@ -24301,6 +24322,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "hindstoday.com": {
+    "b": "FN",
+    "d": "hindstoday.com",
+    "n": "Hinds Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hinds-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "hindustantimes.com": {
     "b": "FN",
@@ -34589,15 +34624,22 @@
     ]
   },
   "moonofalabama.org": {
-    "b": "L",
+    "b": "FN",
     "d": "moonofalabama.org",
     "n": "Moon of Alabama",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/moon-of-alabama/",
     "P": 68,
-    "c": "M",
+    "c": "L",
     "a": "M",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M"
+    ]
   },
   "mooresvilletribune.com": {
     "b": "C",
@@ -49866,6 +49908,16 @@
     "P": 94,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "sleepyeyesnews.com": {
+    "b": "C",
+    "d": "sleepyeyesnews.com",
+    "n": "Sleepy Eye Herald-Dispatch",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sleepy-eye-herald-dispatch-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "sloreporter.com": {
