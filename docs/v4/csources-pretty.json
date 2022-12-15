@@ -9892,6 +9892,16 @@
     "a": "H",
     "q": []
   },
+  "chickashanews.com": {
+    "b": "LC",
+    "d": "chickashanews.com",
+    "n": "Chickasha Express-Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/chickasha-express-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "chicksonright.com": {
     "b": "R",
     "d": "chicksonright.com",
@@ -14438,6 +14448,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/dcist/",
     "P": 78,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "dcnewsnow.com": {
+    "b": "C",
+    "d": "dcnewsnow.com",
+    "n": "WDVM - DC News Now",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdvm-dcw-50/",
     "c": "H",
     "a": "M",
     "q": []
@@ -28122,6 +28142,16 @@
     "a": "L",
     "q": []
   },
+  "kansasreflector.com": {
+    "b": "L",
+    "d": "kansasreflector.com",
+    "n": "Kansas Reflector",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kansas-reflector-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kare11.com": {
     "b": "C",
     "d": "kare11.com",
@@ -31779,16 +31809,6 @@
     "a": "M",
     "q": []
   },
-  "localdvm.com": {
-    "b": "C",
-    "d": "localdvm.com",
-    "n": "WDVM - DCW 50",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/wdvm-dcw-50/",
-    "c": "H",
-    "a": "M",
-    "q": []
-  },
   "localmemphis.com": {
     "b": "C",
     "d": "localmemphis.com",
@@ -32336,6 +32356,20 @@
     "n": "Magic Valley Times",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/magic-valley-times/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "magnoliastatenews.com": {
+    "b": "FN",
+    "d": "magnoliastatenews.com",
+    "n": "Magnolia State News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/magnolia-state-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -59467,6 +59501,17 @@
     "a": "L",
     "q": []
   },
+  "tucsonlocalmedia.com/foothillsnews": {
+    "b": "C",
+    "d": "tucsonlocalmedia.com/foothillsnews",
+    "n": "Catalina Foothills News",
+    "p": "/foothillsnews",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/catalina-foothills-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tucsonlocalmedia.com/marana": {
     "b": "C",
     "d": "tucsonlocalmedia.com/marana",
@@ -65784,6 +65829,16 @@
     "n": "WYTV - Youngtown Ohio News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wytv-youngstown-ohio-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "wzmq19.com": {
+    "b": "C",
+    "d": "wzmq19.com",
+    "n": "WZMQ - Marquette News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wzmq-marquette-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
