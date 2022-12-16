@@ -21213,6 +21213,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/applied-mathematics-and-statistics": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/applied-mathematics-and-statistics",
+    "n": "Frontiers in Applied Mathematics and Statistics",
+    "p": "/journals/applied-mathematics-and-statistics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-applied-mathematics-and-statistics-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -34872,6 +34883,20 @@
     "a": "N",
     "q": []
   },
+  "msbusinessdaily.com": {
+    "b": "FN",
+    "d": "msbusinessdaily.com",
+    "n": "Mississippi Business Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mississippi-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "msmagazine.com": {
     "b": "L",
     "d": "msmagazine.com",
@@ -39190,6 +39215,21 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "northernwitimes.com": {
+    "b": "FN",
+    "d": "northernwitimes.com",
+    "n": "Northern Wisconsin Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/northern-wisconsin-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
       "IM"
     ]
   },
