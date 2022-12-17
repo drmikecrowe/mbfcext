@@ -23950,19 +23950,6 @@
       "FFC"
     ]
   },
-  "heatst.com": {
-    "b": "R",
-    "d": "heatst.com",
-    "f": "marketwatch",
-    "n": "Heat Street",
-    "r": "M",
-    "t": "marketwatch",
-    "u": "https://mediabiasfactcheck.com/heat-street/",
-    "P": 60,
-    "c": "M",
-    "a": "N",
-    "q": []
-  },
   "heavy.com": {
     "b": "LC",
     "d": "heavy.com",
@@ -24009,7 +23996,7 @@
     "u": "https://mediabiasfactcheck.com/hello-christian/",
     "P": 30,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "helsinkitimes.fi": {
@@ -24940,7 +24927,7 @@
     "u": "https://mediabiasfactcheck.com/health-sciences-institute/",
     "P": 58,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "hudson.org": {
@@ -32649,6 +32636,20 @@
     "a": "H",
     "q": []
   },
+  "marketwatch.com/entertainment?reflink=heatst": {
+    "b": "R",
+    "d": "marketwatch.com/entertainment",
+    "f": "marketwatch",
+    "n": "Heat Street",
+    "p": "/entertainment",
+    "r": "M",
+    "t": "marketwatch",
+    "u": "https://mediabiasfactcheck.com/heat-street/",
+    "P": 60,
+    "c": "M",
+    "a": "N",
+    "q": []
+  },
   "marshallnewsmessenger.com": {
     "b": "LC",
     "d": "marshallnewsmessenger.com",
@@ -34897,6 +34898,20 @@
       "IM"
     ]
   },
+  "msgulfnews.com": {
+    "b": "FN",
+    "d": "msgulfnews.com",
+    "n": "Mississippi Gulf News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mississippi-gulf-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "msmagazine.com": {
     "b": "L",
     "d": "msmagazine.com",
@@ -35523,6 +35538,16 @@
     "P": 78,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "nanaimobulletin.com": {
+    "b": "LC",
+    "d": "nanaimobulletin.com",
+    "n": "Nanaimo News Bulletin",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nanaimo-news-bulletin-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "nap-sack.org": {
@@ -41155,6 +41180,16 @@
       "FC",
       "IM"
     ]
+  },
+  "ormondbeachobserver.com": {
+    "b": "C",
+    "d": "ormondbeachobserver.com",
+    "n": "Ormond Beach Observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ormund-beach-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "orovillemr.com": {
     "b": "C",
@@ -58263,6 +58298,16 @@
     "a": "N",
     "q": []
   },
+  "timescall.com": {
+    "b": "C",
+    "d": "timescall.com",
+    "n": "Longmont Times-Call",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/longmont-times-call-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "timescolonist.com": {
     "b": "LC",
     "d": "timescolonist.com",
@@ -62639,6 +62684,16 @@
     "n": "WDIO - Duluth News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wdio-duluth-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wdrb.com": {
+    "b": "C",
+    "d": "wdrb.com",
+    "n": "WDRB - Louisville News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdrb-louisville-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
