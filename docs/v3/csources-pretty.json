@@ -7009,6 +7009,16 @@
     "a": "M",
     "q": []
   },
+  "bournemouthecho.co.uk": {
+    "b": "C",
+    "d": "bournemouthecho.co.uk",
+    "n": "Bournemouth Daily Echo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bournemouth-daily-echo-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "bowlinggreentoday.com": {
     "b": "FN",
     "d": "bowlinggreentoday.com",
@@ -12177,7 +12187,7 @@
     "q": []
   },
   "consortiumnews.com": {
-    "b": "LC",
+    "b": "L",
     "d": "consortiumnews.com",
     "n": "Consortium News",
     "r": "MF",
@@ -15446,6 +15456,16 @@
       "M",
       "PSE"
     ]
+  },
+  "diedsuddenly.info": {
+    "b": "CP",
+    "d": "diedsuddenly.info",
+    "n": "DiedSuddenly.info",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/diedsuddenly-info/",
+    "c": "L",
+    "a": "M",
+    "q": []
   },
   "diepresse.com": {
     "b": "RC",
@@ -24579,6 +24599,17 @@
     "a": "L",
     "q": []
   },
+  "hometownsource.com/stillwater_gazette": {
+    "b": "LC",
+    "d": "hometownsource.com/stillwater_gazette",
+    "n": "Stillwater Gazette",
+    "p": "/stillwater_gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stillwater-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hometownsource.com/sun_current": {
     "b": "LC",
     "d": "hometownsource.com/sun_current",
@@ -27015,6 +27046,22 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "itemfix.com": {
+    "b": "FN",
+    "d": "itemfix.com",
+    "f": "liveleak.official",
+    "n": "LiveLeak (ItemFix)",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/liveleak/",
+    "P": 90,
+    "c": "L",
+    "a": "M",
+    "q": [
+      "PS",
+      "LT",
+      "FC"
+    ]
   },
   "itep.org": {
     "b": "LC",
@@ -31657,22 +31704,6 @@
     "a": "M",
     "q": []
   },
-  "liveleak.com": {
-    "b": "FN",
-    "d": "liveleak.com",
-    "f": "liveleak.official",
-    "n": "Live Leak",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/liveleak/",
-    "P": 90,
-    "c": "L",
-    "a": "H",
-    "q": [
-      "PS",
-      "LT",
-      "FC"
-    ]
-  },
   "livemint.com": {
     "b": "C",
     "d": "livemint.com",
@@ -35768,7 +35799,7 @@
     "u": "https://mediabiasfactcheck.com/national-interest/",
     "P": 82,
     "c": "H",
-    "a": "H",
+    "a": "M",
     "q": []
   },
   "nationalistreview.net": {
@@ -37055,7 +37086,7 @@
     "u": "https://mediabiasfactcheck.com/new-atlas/",
     "P": 86,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "newbernsj.com": {
@@ -44674,6 +44705,16 @@
     "n": "Psyche",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/psyche-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "psychiatry.org": {
+    "b": "PS",
+    "d": "psychiatry.org",
+    "n": "American Psychiatric Association (APA)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/american-psychiatric-association/",
     "c": "H",
     "a": "M",
     "q": []
@@ -56757,6 +56798,16 @@
     "a": "M",
     "q": []
   },
+  "thepostsearchlight.com": {
+    "b": "RC",
+    "d": "thepostsearchlight.com",
+    "n": "Bainbridge Post-Searchlight",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bainbridge-post-searchlight-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thepremiumnews.com": {
     "b": "FN",
     "d": "thepremiumnews.com",
@@ -62027,6 +62078,16 @@
     "u": "https://mediabiasfactcheck.com/wane-fort-wayne-news-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "wapr.org": {
+    "b": "LC",
+    "d": "wapr.org",
+    "n": "WUAL - NPR - Tuscaloosa",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wual-npr-tuscaloosa/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wapt.com": {
