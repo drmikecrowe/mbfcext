@@ -1959,6 +1959,17 @@
     "a": "M",
     "q": []
   },
+  "al.com/mobile": {
+    "b": "RC",
+    "d": "al.com/mobile",
+    "n": "Mobile Press-Register",
+    "p": "/mobile",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mobile-press-register-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "alabamanow.com": {
     "b": "C",
     "d": "alabamanow.com",
@@ -33109,6 +33120,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/allergies": {
+    "b": "PS",
+    "d": "mdpi.com/journal/allergies",
+    "n": "Allergies Journal",
+    "p": "/journal/allergies",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/allergies-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -36666,6 +36688,20 @@
     "n": "NC Minnesota News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/nc-minnesota-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "ncmissnews.com": {
+    "b": "FN",
+    "d": "ncmissnews.com",
+    "n": "NC Mississippi News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nc-mississippi-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -49445,6 +49481,17 @@
     "a": "L",
     "q": []
   },
+  "shawlocal.com/morris-herald-news": {
+    "b": "C",
+    "d": "shawlocal.com/morris-herald-news",
+    "n": "Morris Herald-News",
+    "p": "/morris-herald-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/morris-herald-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "shawlocal.com/mywebtimes": {
     "b": "C",
     "d": "shawlocal.com/mywebtimes",
@@ -52253,6 +52300,16 @@
       "FC",
       "IM"
     ]
+  },
+  "sturgisjournal.com": {
+    "b": "LC",
+    "d": "sturgisjournal.com",
+    "n": "Sturgis Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sturgis-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "subjectpolitics.com": {
     "b": "FN",

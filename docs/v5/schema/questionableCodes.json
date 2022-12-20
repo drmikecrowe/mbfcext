@@ -1,0 +1,23 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/questionableCodes",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "questionable-codes",
+    "description": "Allowed enums for questionable",
+    "type": "string",
+    "enum": [
+        "NA",
+        "C",
+        "P",
+        "PS",
+        "LOT",
+        "FFC",
+        "FC",
+        "M",
+        "H",
+        "PG",
+        "FN",
+        "PSE",
+        "IM",
+        "CEN"
+    ]
+}

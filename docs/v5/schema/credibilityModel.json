@@ -1,0 +1,27 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/credibilityModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "credibility-model",
+    "description": "credibility-model model description",
+    "type": "object",
+    "properties": {
+        "credibility": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/credibilityEnums"
+        },
+        "code": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/credibilityCodes"
+        },
+        "name": {
+            "type": "string"
+        },
+        "pretty": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "credibility",
+        "code",
+        "name",
+        "pretty"
+    ]
+}

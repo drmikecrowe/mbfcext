@@ -1,0 +1,27 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/reportingModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "reporting-model",
+    "description": "reporting-model model description",
+    "type": "object",
+    "properties": {
+        "reporting": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/reportingEnums"
+        },
+        "code": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/reportingCodes"
+        },
+        "name": {
+            "type": "string"
+        },
+        "pretty": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "reporting",
+        "code",
+        "name",
+        "pretty"
+    ]
+}

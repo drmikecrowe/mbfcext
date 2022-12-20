@@ -1,0 +1,27 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/trafficModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "traffic-model",
+    "description": "traffic-model model description",
+    "type": "object",
+    "properties": {
+        "traffic": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/trafficEnums"
+        },
+        "code": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/trafficCodes"
+        },
+        "name": {
+            "type": "string"
+        },
+        "pretty": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "traffic",
+        "code",
+        "name",
+        "pretty"
+    ]
+}
