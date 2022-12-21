@@ -1,5 +1,4 @@
 import type { ReactElement } from "react"
-
 import FaBook from "../../components/fa/fa-book"
 import FaCog from "../../components/fa/fa-cog"
 

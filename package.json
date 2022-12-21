@@ -42,6 +42,10 @@
     "license": "MIT",
     "repository": "drmikecrowe/mbfcext",
     "manifest": {
+        "host_permissions": [
+            "*://facebook.com/*",
+            "*://*.facebook.com/*"
+        ],
         "permissions": [
             "alarms",
             "storage",

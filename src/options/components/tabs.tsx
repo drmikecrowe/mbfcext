@@ -1,13 +1,17 @@
 import { useStorage } from "@plasmohq/storage/hook"
+import { logger } from "../../utils/logger"
 
 import Tab from "./tab"
 import TabContent from "./tab-content"
+
+const log = logger("options:components:tabs")
 
 export default function Tabs({ tabs }) {
   let [currentTab, setCurrentTab] = useStorage("currentTab", tabs[0].id)
   if (!currentTab) {
     currentTab = tabs[0].id
     setCurrentTab(currentTab)
+    log(`Updating current tab to ${currentTab}`)
   }
   return (
     <div className="flex flex-wrap" id="tabs-id">
