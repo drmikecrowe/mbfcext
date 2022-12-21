@@ -16179,6 +16179,17 @@
     "a": "L",
     "q": []
   },
+  "durhamregion.com/pickering-on": {
+    "b": "LC",
+    "d": "durhamregion.com/pickering-on",
+    "n": "Pickering News Advertiser",
+    "p": "/pickering-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pickering-news-advertiser-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "dutchdailynews.com": {
     "b": "LC",
     "d": "dutchdailynews.com",
@@ -19937,6 +19948,16 @@
     "u": "https://mediabiasfactcheck.com/wpfo-portland-news-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "fox26houston.com": {
+    "b": "C",
+    "d": "fox26houston.com",
+    "n": "KRIV - Fox 26 - Houston",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kriv-fox-26-houston-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "fox28media.com": {
@@ -27977,7 +27998,7 @@
     "u": "https://mediabiasfactcheck.com/just-facts/",
     "P": 44,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "justfacts.votesmart.org": {
@@ -34319,17 +34340,26 @@
     "q": []
   },
   "mintpressnews.com": {
-    "b": "LC",
+    "b": "FN",
     "d": "mintpressnews.com",
     "f": "None",
     "n": "Mint Press News",
-    "r": "M",
+    "r": "L",
     "t": "MintPressNews",
     "u": "https://mediabiasfactcheck.com/mint-press-news/",
     "P": 67,
-    "c": "M",
+    "c": "L",
     "a": "M",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "mirror.co.uk": {
     "b": "LC",
@@ -36987,6 +37017,16 @@
       "FC",
       "IM"
     ]
+  },
+  "nemissnews.com": {
+    "b": "FN",
+    "d": "nemissnews.com",
+    "n": "NE Mississippi News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-mississippi-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
   },
   "neonnettle.com": {
     "b": "CP",
@@ -43378,6 +43418,16 @@
     "a": "N",
     "q": []
   },
+  "politics.co.uk": {
+    "b": "LC",
+    "d": "politics.co.uk",
+    "n": "Politics.co.uk",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/politics-co-uk-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "politicslive.net": {
     "b": "FN",
     "d": "politicslive.net",
@@ -47156,6 +47206,16 @@
     "P": 42,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "riverfronttimes.com": {
+    "b": "L",
+    "d": "riverfronttimes.com",
+    "n": "St. Louis Riverfront Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/st-louis-riverfront-times-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "riverparishnews.com": {
@@ -65734,6 +65794,16 @@
     "u": "https://mediabiasfactcheck.com/wthr-indianapolis-news-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "wtkr.com": {
+    "b": "C",
+    "d": "wtkr.com",
+    "n": "WTKR - Norfolk News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtkr-norfolk-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "wtnh.com": {
