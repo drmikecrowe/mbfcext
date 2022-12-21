@@ -1,7 +1,7 @@
 import type { ReactElement } from "react"
 
-import FaBook from "./book"
-import FaCog from "./cog"
+import FaBook from "../../components/fa/fa-book"
+import FaCog from "../../components/fa/fa-cog"
 
 export interface TabDef {
   id: string
