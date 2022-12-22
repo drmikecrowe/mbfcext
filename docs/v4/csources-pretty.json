@@ -10585,6 +10585,16 @@
     "a": "L",
     "q": []
   },
+  "claremoreprogress.com": {
+    "b": "LC",
+    "d": "claremoreprogress.com",
+    "n": "Claremore Daily Progress",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/claremore-daily-progress-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "clarin.com": {
     "b": "RC",
     "d": "clarin.com",
@@ -12386,6 +12396,16 @@
     "P": 53,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "cookcountynews-herald.com": {
+    "b": "C",
+    "d": "cookcountynews-herald.com",
+    "n": "Cook County News-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cook-county-news-herald-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "cookpolitical.com": {
@@ -18667,6 +18687,16 @@
       "M",
       "H"
     ]
+  },
+  "fairviewpost.com": {
+    "b": "RC",
+    "d": "fairviewpost.com",
+    "n": "Fairview Post",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fairview-post-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "fairvote.org": {
     "b": "LC",
@@ -24968,7 +24998,7 @@
     "u": "https://mediabiasfactcheck.com/human-rights-watch/",
     "P": 92,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "hs.fi": {
@@ -40443,6 +40473,20 @@
     "n": "NW Minnesota News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/nw-minnesota-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "nwmissnews.com": {
+    "b": "FN",
+    "d": "nwmissnews.com",
+    "n": "NW Mississippi News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-mississippi-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -59800,6 +59844,16 @@
       "FC",
       "IM"
     ]
+  },
+  "tucsonweekly.com": {
+    "b": "C",
+    "d": "tucsonweekly.com",
+    "n": "Tucson Weekly",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tucson-weekly-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "tularetimes.com": {
     "b": "FN",
