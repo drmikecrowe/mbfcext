@@ -21306,6 +21306,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/aquaculture": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/aquaculture",
+    "n": "Frontiers in Aquaculture",
+    "p": "/journals/aquaculture",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-aquaculture-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -30086,6 +30097,7 @@
     "q": [
       "PS",
       "M",
+      "FN",
       "PSE"
     ]
   },
@@ -30480,6 +30492,16 @@
     "P": 45,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "latestly.com": {
+    "b": "R",
+    "d": "latestly.com",
+    "n": "Latestly",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/latestly-bias/",
+    "c": "M",
+    "a": "H",
     "q": []
   },
   "latimes.com": {
@@ -34445,6 +34467,16 @@
     "t": "missoulian",
     "u": "https://mediabiasfactcheck.com/missoulian/",
     "P": 77,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "missouriindependent.com": {
+    "b": "L",
+    "d": "missouriindependent.com",
+    "n": "Missouri Independent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/missouri-independent-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -39494,6 +39526,16 @@
       "IM"
     ]
   },
+  "northislandgazette.com": {
+    "b": "LC",
+    "d": "northislandgazette.com",
+    "n": "North Island Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/north-island-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "northjeffconews.com": {
     "b": "FN",
     "d": "northjeffconews.com",
@@ -41623,6 +41665,20 @@
     "a": "H",
     "q": []
   },
+  "oxfordreporter.com": {
+    "b": "FN",
+    "d": "oxfordreporter.com",
+    "n": "Oxford Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/oxford-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "oye.news": {
     "b": "CP",
     "d": "oye.news",
@@ -42492,6 +42548,21 @@
       "LT",
       "M",
       "CEN"
+    ]
+  },
+  "peachtreegazette.com": {
+    "b": "FN",
+    "d": "peachtreegazette.com",
+    "n": "Peachtree Gazette",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/peachtree-gazette-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "M",
+      "IM"
     ]
   },
   "peacock-panache.com": {
