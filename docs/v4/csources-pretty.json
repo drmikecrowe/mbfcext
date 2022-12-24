@@ -24625,7 +24625,7 @@
     "u": "https://mediabiasfactcheck.com/homeland-security-news-wire/",
     "P": 60,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "hometownsource.com/abc_newspapers": {
@@ -24847,7 +24847,7 @@
     "u": "https://mediabiasfactcheck.com/hot-air/",
     "P": 89,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "hotnews.ro": {
@@ -25044,7 +25044,7 @@
     "u": "https://mediabiasfactcheck.com/hudson-institute/",
     "P": 73,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "huffpost.com": {
@@ -25108,8 +25108,8 @@
     "t": "HumanProgress",
     "u": "https://mediabiasfactcheck.com/human-progress/",
     "P": 55,
-    "c": "M",
-    "a": "L",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "humansarefree.com": {
@@ -25121,7 +25121,7 @@
     "u": "https://mediabiasfactcheck.com/humans-are-free/",
     "P": 67,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "huntsvilleleader.com": {
@@ -25196,7 +25196,7 @@
     "u": "https://mediabiasfactcheck.com/huzlers/",
     "P": 50,
     "c": "NA",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "i24news.tv": {
@@ -25512,9 +25512,12 @@
     "u": "https://mediabiasfactcheck.com/i-hate-the-media/",
     "P": 58,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
+      "C",
       "P",
+      "LT",
+      "FC",
       "M",
       "FN"
     ]
@@ -27766,6 +27769,16 @@
     "P": 74,
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "journal-advocate.com": {
+    "b": "C",
+    "d": "journal-advocate.com",
+    "n": "Sterling Journal-Advocate",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sterling-journal-advocate-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "journal-neo.org": {
@@ -41271,6 +41284,16 @@
     "a": "L",
     "q": []
   },
+  "orangeobserver.com": {
+    "b": "C",
+    "d": "orangeobserver.com",
+    "n": "West Orange Times & Observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/west-orange-times-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "orangeville.com/erin-on-news": {
     "b": "LC",
     "d": "orangeville.com/erin-on-news",
@@ -42999,6 +43022,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "pinebelttimes.com": {
+    "b": "FN",
+    "d": "pinebelttimes.com",
+    "n": "Pine Belt Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pine-belt-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "pinellastimes.com": {
     "b": "FN",
@@ -55833,7 +55870,7 @@
     "u": "https://mediabiasfactcheck.com/the-hindu-business-line/",
     "P": 87,
     "c": "M",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "thehonestpatriot.net": {
