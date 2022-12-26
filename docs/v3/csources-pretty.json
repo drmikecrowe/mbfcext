@@ -23703,6 +23703,16 @@
     "a": "L",
     "q": []
   },
+  "hattiesburgamerican.com": {
+    "b": "LC",
+    "d": "hattiesburgamerican.com",
+    "n": "Hattiesburg American",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hattiesburg-american-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hawaiinewsnow.com": {
     "b": "C",
     "d": "hawaiinewsnow.com",
@@ -32905,7 +32915,7 @@
     "u": "https://mediabiasfactcheck.com/republican-masslive-springfield-bias-rating/",
     "P": 81,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "matsutimes.com": {
@@ -34586,6 +34596,17 @@
     "n": "MLive (Michigan - Advance Newpapers)",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/mlive-michigan-booth-newspapers/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "mlive.com/ann-arbor": {
+    "b": "C",
+    "d": "mlive.com/ann-arbor",
+    "n": "Ann Arbor News",
+    "p": "/ann-arbor",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ann-arbor-news-mlive-com-bias/",
     "c": "H",
     "a": "H",
     "q": []
@@ -37702,6 +37723,27 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "news.gab.com": {
+    "b": "FN",
+    "d": "news.gab.com",
+    "n": "GAB News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/gab-news-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
   },
   "news.google.com": {
     "b": "LC",
@@ -48919,6 +48961,20 @@
       "IM"
     ]
   },
+  "scmissnews.com": {
+    "b": "FN",
+    "d": "scmissnews.com",
+    "n": "SC Mississippi News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sc-mississippi-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "scmp.com": {
     "b": "LC",
     "d": "scmp.com",
@@ -49741,6 +49797,17 @@
     "P": 67,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "shawlocal.com/kane-county-chronicle": {
+    "b": "C",
+    "d": "shawlocal.com/kane-county-chronicle",
+    "n": "Kane County Chronicle",
+    "p": "/kane-county-chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kane-county-chronicle-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "shawlocal.com/midweek-news": {
@@ -59548,6 +59615,8 @@
     "a": "L",
     "q": [
       "P",
+      "LT",
+      "FFC",
       "M",
       "FN"
     ]
@@ -59571,7 +59640,7 @@
     "u": "https://mediabiasfactcheck.com/true-pundit/",
     "P": 58,
     "c": "L",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "trueviralnews.com": {
@@ -59607,6 +59676,7 @@
       "P",
       "PS",
       "LT",
+      "FFC",
       "FC",
       "M",
       "FN",
@@ -59679,7 +59749,7 @@
     "u": "https://mediabiasfactcheck.com/trunews/",
     "P": 54,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "trust.org": {
@@ -59733,7 +59803,8 @@
       "FFC",
       "FC",
       "M",
-      "FN"
+      "FN",
+      "PSE"
     ]
   },
   "truthbang.net": {
@@ -59826,6 +59897,16 @@
     "a": "L",
     "q": []
   },
+  "truthexam.com": {
+    "b": "FN",
+    "d": "truthexam.com",
+    "n": "Truth Examiner",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "c": "L",
+    "a": "N",
+    "q": []
+  },
   "truthfeednews.com": {
     "b": "FN",
     "d": "truthfeednews.com",
@@ -59846,7 +59927,7 @@
     "u": "https://mediabiasfactcheck.com/truth-in-media/",
     "P": 52,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
