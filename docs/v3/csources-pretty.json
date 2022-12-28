@@ -25243,10 +25243,10 @@
     "b": "C",
     "d": "i24news.tv",
     "n": "I24 News",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/i24-news/",
     "P": 66,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -25294,7 +25294,7 @@
     "u": "https://mediabiasfactcheck.com/ice-age-now/",
     "P": 58,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "icenews.is": {
@@ -25623,7 +25623,7 @@
     "u": "https://mediabiasfactcheck.com/i-hypocrite/",
     "P": 23,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -39090,6 +39090,16 @@
     "a": "M",
     "q": []
   },
+  "niagarafallsreview.ca": {
+    "b": "LC",
+    "d": "niagarafallsreview.ca",
+    "n": "Niagara Falls Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/niagara-falls-review-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "niagarathisweek.com": {
     "b": "LC",
     "d": "niagarathisweek.com",
@@ -45297,6 +45307,16 @@
     "a": "N",
     "q": []
   },
+  "q13fox.com": {
+    "b": "C",
+    "d": "q13fox.com",
+    "n": "KCPQ - Fox 13 - Tacoma",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcpq-fox-13-tacoma-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "qanon.pub": {
     "b": "CP",
     "d": "qanon.pub",
@@ -46460,6 +46480,16 @@
       "FC",
       "IM"
     ]
+  },
+  "redwoodfallsgazette.com": {
+    "b": "C",
+    "d": "redwoodfallsgazette.com",
+    "n": "Redwood Falls Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/redwood-falls-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "redyouth.org": {
     "b": "L",
@@ -51801,6 +51831,16 @@
       "IM"
     ]
   },
+  "sprucegroveexaminer.com": {
+    "b": "RC",
+    "d": "sprucegroveexaminer.com",
+    "n": "Spruce Grove Examiner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/spruce-grove-examiner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sputniknews.com": {
     "b": "FN",
     "d": "sputniknews.com",
@@ -53220,6 +53260,20 @@
     "n": "SW Minnesota Today",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/sw-minnesota-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "swmissnews.com": {
+    "b": "FN",
+    "d": "swmissnews.com",
+    "n": "SW Mississippi News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-mississippi-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
