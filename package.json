@@ -13,22 +13,32 @@
         "package": "plasmo package"
     },
     "dependencies": {
+        "@plasmohq/storage": "^0.13.1",
         "debug": "^4.3.4",
+        "lodash": "^4.17.21",
+        "neverthrow": "^6.0.0",
         "plasmo": "0.59.3",
         "react": "18.2.0",
         "react-dom": "18.2.0",
-        "webextension-polyfill-ts": "^0.26.0"
+        "webext-bridge": "^5.0.5",
+        "webextension-polyfill-ts": "^0.26.0",
+        "whatwg-fetch": "^3.6.2"
     },
     "devDependencies": {
         "@plasmohq/prettier-plugin-sort-imports": "3.6.0",
-        "@plasmohq/storage": "^0.13.1",
         "@tailwindcss/forms": "0.5.3",
         "@tailwindcss/typography": "^0.5.8",
         "@types/chrome": "0.0.202",
         "@types/node": "18.11.9",
         "@types/react": "18.0.25",
         "@types/react-dom": "18.0.9",
+        "@typescript-eslint/eslint-plugin": "^5.47.0",
+        "@typescript-eslint/parser": "^5.47.0",
         "autoprefixer": "^10.4.13",
+        "eslint": "^8.30.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-react": "^7.31.11",
+        "eslint-prettier": "0.0.0-empty",
         "husky": "^8.0.2",
         "postcss": "^8.4.20",
         "prettier": "2.8.0",
@@ -44,7 +54,9 @@
     "manifest": {
         "host_permissions": [
             "*://facebook.com/*",
-            "*://*.facebook.com/*"
+            "*://*.facebook.com/*",
+            "*://twitter.com/*",
+            "*://*.twitter.com/*"
         ],
         "permissions": [
             "alarms",

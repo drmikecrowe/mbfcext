@@ -1,11 +1,24 @@
-import { logger } from "../utils/logger"
-import { getTabGroups } from "./components/tab-groups"
+import type { ReactElement } from "react"
 
-const log = logger("options")
+import { logger } from "../utils/logger"
+import { TabFields, getTabGroups } from "./components/tab-groups"
+
+const log = logger("mbfc:options")
+
+interface ConfigSettings {
+  heading: string
+  name: string
+  description: string | ReactElement
+  checked: boolean
+  help?: string
+  setValue: (n: boolean) => void
+  fieldClasses: string
+  styleClasses: string
+  labelClasses: string
+}
 
 export default function Config() {
-
-  const Checkbox = ({ heading, name, description, checked, setValue, styleClasses, labelClasses, fieldClasses, help }) => {
+  const Checkbox = ({ heading, name, description, checked, setValue, styleClasses, labelClasses, fieldClasses, help }: ConfigSettings) => {
     const toggle = (e) => {
       setValue(!checked)
       checked = !checked
@@ -42,7 +55,7 @@ export default function Config() {
               <hr />
             </div>
           )
-          const fields = g.fields.map((f: any) => (
+          const fields = g.fields.map((f: TabFields) => (
             <Checkbox
               checked={f.value}
               setValue={f.setValue}

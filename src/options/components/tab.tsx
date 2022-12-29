@@ -1,4 +1,5 @@
 import type { ReactElement } from "react"
+
 import FaBook from "../../components/fa/fa-book"
 import FaCog from "../../components/fa/fa-cog"
 
@@ -9,7 +10,7 @@ export interface TabDef {
   component: ReactElement
 }
 
-export default function Tab({ forId, text, icon, activate, activeTab }) {
+export default function Tab({ forId, text, icon, activate, activeTab }: { forId: string; text: string; icon: string; activate: () => void; activeTab: string }) {
   const tabId = `tab-${forId}`
   const aId = `a-${forId}`
   const active = activeTab === forId

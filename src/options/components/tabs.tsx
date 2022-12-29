@@ -1,16 +1,19 @@
 import { useStorage } from "@plasmohq/storage/hook"
+
 import { logger } from "../../utils/logger"
+import Tab, { TabDef } from "./tab"
+import TabContent from "./tab-contents"
 
-import Tab from "./tab"
-import TabContent from "./tab-content"
+const log = logger("mbfc:options:components:tabs")
 
-const log = logger("options:components:tabs")
-
-export default function Tabs({ tabs }) {
-  let [currentTab, setCurrentTab] = useStorage("currentTab", tabs[0].id)
+export default function Tabs({ tabs }: { tabs: TabDef[] }) {
+  const [ct, setCurrentTab] = useStorage("currentTab", tabs[0].id)
+  let currentTab = ct
   if (!currentTab) {
     currentTab = tabs[0].id
     setCurrentTab(currentTab)
+      .then(() => log(`Current tab updated to ${currentTab}`))
+      .catch((err) => console.error(err))
     log(`Updating current tab to ${currentTab}`)
   }
   return (
@@ -21,6 +24,8 @@ export default function Tabs({ tabs }) {
             <Tab
               activate={() => {
                 setCurrentTab(tab.id)
+                  .then(() => log(`Current tab updated to ${currentTab}`))
+                  .catch((err) => console.error(err))
               }}
               activeTab={currentTab}
               forId={tab.id}
