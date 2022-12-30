@@ -1,5 +1,8 @@
-import { onMessage, sendMessage } from "webext-bridge"
+import { onMessage } from "webext-bridge"
+
+import { TabListener } from "~background/tab-listenener"
 import type { PopupDetails } from "~popup"
+import { BiasEnums, ConfigHandler, getCurrentTab, getSiteFromUrl } from "~utils"
 
 import { SourcesProcessor } from "./background/sources-processor"
 import { isDevMode, logger } from "./utils/logger"
@@ -7,7 +10,11 @@ import { isDevMode, logger } from "./utils/logger"
 const log = logger("mbfc:background:index")
 const main = async () => {
   isDevMode()
-  await SourcesProcessor.getInstance().getSourceData()
+  await Promise.all([SourcesProcessor.getInstance().getSourceData(), ConfigHandler.getInstance().retrieve()])
+  chrome.tabs.onHighlighted.addListener(badgeUpdater)
+  chrome.tabs.onActivated.addListener(badgeUpdater)
+  chrome.tabs.onUpdated.addListener(badgeUpdater)
+  chrome.windows.onFocusChanged.addListener(badgeUpdater)
 }
 
 onMessage("get-domain", ({ data }) => {
@@ -45,20 +52,27 @@ onMessage("get-domain-for-tab", ({ data }) => {
   }
 })
 
-let previousTabId = 0
-
-onMessage("get-current-tab", async () => {
-  try {
-    const tab = await chrome.tabs.get(previousTabId)
-    return {
-      title: tab?.url,
+async function badgeUpdater(): Promise<void> {
+  const tl = TabListener.getInstance()
+  const res = await getCurrentTab()
+  const tab = res.isOk() ? res.value : null
+  if (!tab) return
+  if (tab.url && tab.id && !tab.incognito) {
+    const parsed_domain = getSiteFromUrl(tab.url)
+    if (parsed_domain.isErr()) {
+      tl.resetIcon(tab.id)
+      return
     }
-  } catch {
-    return {
-      title: undefined,
+    const { site, collapse } = parsed_domain.value
+    const { bias } = site
+    if (!(bias in BiasEnums)) {
+      return this.resetIcon(tab.id)
     }
+    tl.updateIcon(bias, collapse, tab.id)
+  } else {
+    tl.resetIcon(tab.id)
   }
-})
+}
 
 // while (true) {
 main()

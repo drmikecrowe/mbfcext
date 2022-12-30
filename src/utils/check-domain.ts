@@ -1,11 +1,7 @@
-import { get, has } from "lodash"
 import { Result, err, ok } from "neverthrow"
 
-import type { SiteModel } from "./combined-manager"
-import { logger } from "./logger"
-import { SourcesProcessor } from "./sources-manager"
-
-const log = logger("mbfc:utils:checkDomain")
+import { ConfigHandler, SourcesManager, StorageToOptions, logger } from "."
+import { ReportingEnums, SiteModel } from "./combined-manager"
 
 export interface CheckDomainResults {
   final_domain: string
@@ -19,7 +15,9 @@ export interface CheckDomainResults {
 
 const logged: Record<string, boolean> = {}
 
-export async function checkDomain(domain: string, path: string): Promise<Result<CheckDomainResults, null>> {
+export function checkDomain(domain: string, path: string): Result<CheckDomainResults, null> {
+  const log = logger("mbfc:utils:checkDomain")
+
   const ret: CheckDomainResults = {
     final_domain: domain,
     alias: false,
@@ -33,19 +31,18 @@ export async function checkDomain(domain: string, path: string): Promise<Result<
     return ok(ret)
   }
 
-  const s = SourcesProcessor.getInstance().sourceData
-  if (s.isErr()) {
+  const s = SourcesManager.getInstance().sourceData
+  if (!s || !s.loaded) {
     log("No sources")
     return err(null)
   }
-  const sources = s.value.combined.sources
+  const sources = s.sites_by_domain
 
-  const c = ConfigHandler.getInstance().config
-  if (c.isErr()) {
+  const config = ConfigHandler.getInstance().config
+  if (!config || !config.loaded) {
     log("No config")
     return err(null)
   }
-  const config = c.value
 
   const ch = (d: string, isAlias: boolean, isBase: boolean) => {
     if (d in sources.sources) {
@@ -54,19 +51,19 @@ export async function checkDomain(domain: string, path: string): Promise<Result<
       ret.unknown = false
       ret.alias = isAlias
       ret.baseUrl = isBase
-      const bias: EBiasesKey = get(ret, "site.b", "")
-      const reporting: EReportingKeys = get(ret, "site.r", "")
-      if (config.collapse[StorageToOptions[bias]]) {
+      // const bias: EBiasesKey = get(ret, "site.b", "")
+      // const reporting: EReportingKeys = get(ret, "site.r", "")
+      if (config.collapse[StorageToOptions[ret.site.bias]]) {
         ret.collapse = true
       }
-      if (reporting === "M" && config.collapse.collapseMixed) {
+      if (ret.site.reporting === ReportingEnums.Mixed && config.collapse.collapseMixed) {
         ret.collapse = true
       }
     }
     if (config.hiddenSites[d]) {
       ret.hidden = true
       ret.collapse = true
-    } else if (has(config.hiddenSites, d) && config.hiddenSites[d] === false) {
+    } else if (d in config.hiddenSites && config.hiddenSites[d] === false) {
       ret.collapse = false
     }
     if (ret.site && !logged[d]) {

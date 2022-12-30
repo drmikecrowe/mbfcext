@@ -2,19 +2,9 @@ import { debug } from "debug"
 
 import { Storage } from "@plasmohq/storage"
 
-let browser
 let devMode = false
 
-const storage = new Storage()
-
-try {
-  // eslint-disable-next-line @typescript-eslint/no-extra-semi
-  ;({ browser } = require("webextension-polyfill-ts"))
-} catch (ex) {
-  console.error(ex)
-}
-
-devMode = process.env.NODE_ENV === "development" || (browser && (!browser.runtime || !("update_url" in browser.runtime.getManifest())))
+devMode = process.env.NODE_ENV === "development" || !("update_url" in chrome.runtime.getManifest())
 
 export const isDevMode = (): boolean => {
   return devMode
@@ -29,6 +19,7 @@ export const logger = (namespace: string) => {
 }
 
 if (devMode) {
+  const storage = new Storage()
   const log = logger("mbfc:logger")
   storage
     .set("debug", "mbfc:*")

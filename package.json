@@ -1,67 +1,77 @@
 {
-    "name": "media-bias-fact-check",
-    "description": "Curate Facebook/Twitter with MBFC news categorizations",
-    "version": "4.0.0",
-    "author": "Mike Crowe <drmikecrowe@gmail.com>",
-    "browserslist": [
-        "last 2 versions"
-    ],
-    "bugs": "https://github.com/drmikecrowe/mbfcext/issues",
-    "scripts": {
-        "dev": "plasmo dev",
-        "build": "plasmo build",
-        "package": "plasmo package"
-    },
-    "dependencies": {
-        "@plasmohq/storage": "^0.13.1",
-        "debug": "^4.3.4",
-        "lodash": "^4.17.21",
-        "neverthrow": "^6.0.0",
-        "plasmo": "0.59.3",
-        "react": "18.2.0",
-        "react-dom": "18.2.0",
-        "webext-bridge": "^5.0.5",
-        "webextension-polyfill-ts": "^0.26.0",
-        "whatwg-fetch": "^3.6.2"
-    },
-    "devDependencies": {
-        "@plasmohq/prettier-plugin-sort-imports": "3.6.0",
-        "@tailwindcss/forms": "0.5.3",
-        "@tailwindcss/typography": "^0.5.8",
-        "@types/chrome": "0.0.202",
-        "@types/node": "18.11.9",
-        "@types/react": "18.0.25",
-        "@types/react-dom": "18.0.9",
-        "@typescript-eslint/eslint-plugin": "^5.47.0",
-        "@typescript-eslint/parser": "^5.47.0",
-        "autoprefixer": "^10.4.13",
-        "eslint": "^8.30.0",
-        "eslint-config-prettier": "^8.5.0",
-        "eslint-plugin-react": "^7.31.11",
-        "eslint-prettier": "0.0.0-empty",
-        "husky": "^8.0.2",
-        "postcss": "^8.4.20",
-        "prettier": "2.8.0",
-        "tailwindcss": "^3.2.4",
-        "typescript": "4.9.3"
-    },
-    "engines": {
-        "node": ">=18"
-    },
-    "homepage": "https://drmikecrowe.github.io/mbfcext/",
-    "license": "MIT",
-    "repository": "drmikecrowe/mbfcext",
-    "manifest": {
-        "host_permissions": [
-            "*://facebook.com/*",
-            "*://*.facebook.com/*",
-            "*://twitter.com/*",
-            "*://*.twitter.com/*"
+  "name": "media-bias-fact-check",
+  "description": "Curate Facebook/Twitter with MBFC news categorizations",
+  "version": "4.0.0",
+  "author": "Mike Crowe <drmikecrowe@gmail.com>",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "bugs": "https://github.com/drmikecrowe/mbfcext/issues",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^0.13.1",
+    "debug": "^4.3.4",
+    "lodash": "^4.17.21",
+    "neverthrow": "^6.0.0",
+    "plasmo": "0.61.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "webext-bridge": "^5.0.5",
+    "webextension-polyfill-ts": "^0.26.0",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.1",
+    "@tailwindcss/forms": "0.5.3",
+    "@tailwindcss/typography": "^0.5.8",
+    "@types/chrome": "0.0.206",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-prettier": "0.0.0-empty",
+    "husky": "^8.0.2",
+    "postcss": "^8.4.20",
+    "prettier": "2.8.1",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://drmikecrowe.github.io/mbfcext/",
+  "license": "MIT",
+  "repository": "drmikecrowe/mbfcext",
+  "manifest": {
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "assets/*"
         ],
-        "permissions": [
-            "alarms",
-            "storage",
-            "tabs"
+        "matches": [
+          "<all_urls>"
         ]
-    }
+      }
+    ],
+    "host_permissions": [
+      "*://facebook.com/*",
+      "*://*.facebook.com/*",
+      "*://twitter.com/*",
+      "*://*.twitter.com/*"
+    ],
+    "permissions": [
+      "alarms",
+      "storage",
+      "tabs"
+    ]
+  }
 }

@@ -1,7 +1,7 @@
+import { Storage } from "@plasmohq/storage"
+
 import { BiasEnums } from "./combined-manager"
 import { logger } from "./logger"
-
-const log = logger("mbfc:utils:ConfigHandler")
 
 export type HiddenSites = Record<string, boolean>
 export type UnknownSites = Record<string, boolean>
@@ -33,6 +33,7 @@ export interface Collapse {
 }
 
 export interface ConfigStorage {
+  collapse: Collapse
   hiddenSites: HiddenSites
   unknown: UnknownSites
   lastRun: number
@@ -82,6 +83,7 @@ export const StorageToOptions: Record<BiasEnums & "M", CollapseKeys> = {
 }
 
 const configDefaults: ConfigStorage = {
+  collapse: DefaultCollapse,
   hiddenSites: {},
   unknown: {},
   lastRun: 0,
@@ -94,12 +96,16 @@ const configDefaults: ConfigStorage = {
 export class ConfigHandler {
   private static instance: ConfigHandler
   public config: ConfigStorage
-  private loaded: boolean
+  public loaded: boolean
+  log = logger("mbfc:utils:ConfigHandler")
 
   private constructor() {
-    log(`Initializing ConfigHandler`)
+    this.log(`Initializing ConfigHandler`)
     this.config = configDefaults
     this.loaded = false
+    this.retrieve()
+      .then(() => (this.loaded = true))
+      .catch((err) => console.error(err))
   }
 
   static getInstance() {
@@ -120,7 +126,12 @@ export class ConfigHandler {
 
   async retrieve(): Promise<ConfigStorage> {
     const storage = new Storage()
+    const col: Collapse = configDefaults.collapse
+    for (const key of Object.keys(col)) {
+      col[key] = (await storage.get(key)) || configDefaults.collapse[key]
+    }
     const c: ConfigStorage = {
+      collapse: col,
       hiddenSites: (await storage.get("hiddenSites")) || configDefaults.hiddenSites,
       unknown: (await storage.get("unknown")) || configDefaults.unknown,
       lastRun: (await storage.get("lastRun")) || configDefaults.lastRun,
@@ -130,6 +141,14 @@ export class ConfigHandler {
       pollMinutes: (await storage.get("pollMinutes")) || configDefaults.pollMinutes,
     }
     this.config = c
+    Object.keys(c).forEach((key) => {
+      storage.watch({
+        [key]: (s: any) => {
+          this.log(`Key ${key} changed, updating to ${s.newValue}`)
+          this.config[key] = s.newValue
+        },
+      })
+    })
     return c
   }
 }

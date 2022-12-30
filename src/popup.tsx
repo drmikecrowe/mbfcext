@@ -4,8 +4,7 @@ import { sendMessage } from "webext-bridge"
 import Button from "~components/button"
 import FaAngleDoubleRight from "~components/fa/fa-angle-double-right"
 import FaCog from "~components/fa/fa-cog"
-import { getDomain } from "~utils/get-domain"
-import { getCurrentTab } from "~utils/tabUtils"
+import { getCurrentTab, getDomain } from "~utils"
 
 import { logger } from "./utils/logger"
 
@@ -71,7 +70,7 @@ function IndexPopup() {
   }, [])
 
   return (
-    <div className="w-2/4" style={{width: "400px", height: "300px"}}>
+    <div style={{width: "400px", height: "300px"}}>
       <div className="container mx-auto p-2 centered">
         <div className="absolute top-0 right-0">
           <div className="p-1">
