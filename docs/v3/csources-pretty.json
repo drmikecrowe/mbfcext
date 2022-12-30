@@ -10731,6 +10731,16 @@
     "a": "M",
     "q": []
   },
+  "cleburnetimesreview.com": {
+    "b": "LC",
+    "d": "cleburnetimesreview.com",
+    "n": "Cleburne Times Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cleburne-times-review-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cleveland.com": {
     "b": "LC",
     "d": "cleveland.com",
@@ -16170,6 +16180,15 @@
     "a": "L",
     "q": []
   },
+  "dunning-kruger-times.com": {
+    "b": "S",
+    "d": "dunning-kruger-times.com",
+    "n": "Dunning-Kruger-Times",
+    "u": "https://mediabiasfactcheck.com/dunning-kruger-times/",
+    "c": "NA",
+    "a": "L",
+    "q": []
+  },
   "dupagepolicyjournal.com": {
     "b": "FN",
     "d": "dupagepolicyjournal.com",
@@ -17160,6 +17179,16 @@
     "P": 54,
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "edweek.org": {
+    "b": "LC",
+    "d": "edweek.org",
+    "n": "Education Week",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/education-week-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "eff.org": {
@@ -28748,6 +28777,16 @@
     "a": "H",
     "q": []
   },
+  "keyc.com": {
+    "b": "C",
+    "d": "keyc.com",
+    "n": "KEYC - Mankato News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/keyc-mankato-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "keysnews.com": {
     "b": "C",
     "d": "keysnews.com",
@@ -37036,6 +37075,16 @@
     "a": "M",
     "q": []
   },
+  "nebraskaexaminer.com": {
+    "b": "L",
+    "d": "nebraskaexaminer.com",
+    "n": "Nebraska Examiner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nebraska-examiner-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "necalinews.com": {
     "b": "FN",
     "d": "necalinews.com",
@@ -44607,10 +44656,10 @@
     "q": []
   },
   "prime9ja.com.ng": {
-    "b": "RC",
+    "b": "C",
     "d": "prime9ja.com.ng",
     "n": "Prime 9ja Online",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/prime-9ja-online-bias/",
     "c": "M",
     "a": "L",
