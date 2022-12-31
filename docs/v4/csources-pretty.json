@@ -7117,6 +7117,20 @@
     "a": "H",
     "q": []
   },
+  "bransontimes.com": {
+    "b": "FN",
+    "d": "bransontimes.com",
+    "n": "Branson Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/branson-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "breaking911.com": {
     "b": "FN",
     "d": "breaking911.com",
@@ -21366,6 +21380,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/arachnid-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/arachnid-science",
+    "n": "Frontiers in Arachnid Science",
+    "p": "/journals/arachnid-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-arachnid-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -22941,6 +22966,21 @@
     "c": "L",
     "a": "L",
     "q": [
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
+  "grandrapidsminews.com": {
+    "b": "FN",
+    "d": "grandrapidsminews.com",
+    "n": "Grand Rapids News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/grand-rapids-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
       "LT",
       "M",
       "IM"
@@ -33803,6 +33843,16 @@
     "a": "H",
     "q": []
   },
+  "mensjournal.com": {
+    "b": "LC",
+    "d": "mensjournal.com",
+    "n": "Men's Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/mens-journal-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "mentaldaily.com": {
     "b": "PS",
     "d": "mentaldaily.com",
@@ -40875,6 +40925,16 @@
     "P": 95,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "oakbaynews.com": {
+    "b": "LC",
+    "d": "oakbaynews.com",
+    "n": "Oak Bay News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/oak-bay-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "oaklandcitywire.com": {
@@ -49641,6 +49701,16 @@
     "t": "SentencingProj",
     "u": "https://mediabiasfactcheck.com/sentencing-project/",
     "P": 53,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "sentinelandenterprise.com": {
+    "b": "C",
+    "d": "sentinelandenterprise.com",
+    "n": "Fitchburg Sentinel & Enterprise",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fitchburg-sentinel-enterprise-bias/",
     "c": "H",
     "a": "L",
     "q": []
