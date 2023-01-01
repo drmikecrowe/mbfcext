@@ -1797,6 +1797,16 @@
     "a": "L",
     "q": []
   },
+  "airdrietoday.com": {
+    "b": "LC",
+    "d": "airdrietoday.com",
+    "n": "Airdrie City View",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/airdrie-city-view-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "airforcetimes.com": {
     "b": "C",
     "d": "airforcetimes.com",
@@ -39341,13 +39351,13 @@
     "b": "LC",
     "d": "nola.com",
     "f": "nolanews",
-    "n": "Times-Picayune",
+    "n": "New Orleans Times-Picayune",
     "r": "H",
     "t": "nolanews",
     "u": "https://mediabiasfactcheck.com/the-times-picayune/",
     "P": 78,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "nolabels.org": {
@@ -41533,6 +41543,17 @@
     "n": "West Orange Times & Observer",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/west-orange-times-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "orangeobserver.com/southwest-orange": {
+    "b": "C",
+    "d": "orangeobserver.com/southwest-orange",
+    "n": "Southwest Orange Observer",
+    "p": "/southwest-orange",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/southwest-orange-observer-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -52873,6 +52894,16 @@
     "a": "N",
     "q": []
   },
+  "sueddeutsche.de": {
+    "b": "LC",
+    "d": "sueddeutsche.de",
+    "n": "Süddeutsche Zeitung",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/suddeutsche-zeitung-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "suffolkgazette.com": {
     "b": "S",
     "d": "suffolkgazette.com",
@@ -54494,6 +54525,16 @@
     "a": "M",
     "q": []
   },
+  "theadvocate.com": {
+    "b": "LC",
+    "d": "theadvocate.com",
+    "n": "Baton Rouge Advocate",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/baton-rouge-advocate-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "theadvocates.org": {
     "b": "RC",
     "d": "theadvocates.org",
@@ -56066,7 +56107,7 @@
     "u": "https://mediabiasfactcheck.com/thegrio/",
     "P": 79,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "theguardian.com": {
@@ -57257,7 +57298,7 @@
     "u": "https://mediabiasfactcheck.com/theoswatch-com/",
     "P": 22,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "theoutline.com": {
@@ -58687,7 +58728,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-whim/",
     "c": "H",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "thewire.in": {
@@ -58762,7 +58803,7 @@
     "u": "https://mediabiasfactcheck.com/think-americana/",
     "P": 31,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "P",
       "LT",
@@ -58803,7 +58844,7 @@
     "u": "https://mediabiasfactcheck.com/think-progress/",
     "P": 89,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "thirdway.org": {
@@ -58823,12 +58864,12 @@
     "d": "this.org",
     "f": "thismagazine",
     "n": "This Magazine",
-    "r": "H",
+    "r": "MF",
     "t": "thismagazine",
     "u": "https://mediabiasfactcheck.com/this-magazine/",
     "P": 47,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thisisthezerohour.com": {
@@ -58841,7 +58882,7 @@
     "u": "https://mediabiasfactcheck.com/the-zero-hour/",
     "P": 30,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thoughtcatalog.com": {
@@ -58910,7 +58951,7 @@
     "u": "https://mediabiasfactcheck.com/thrive-movement/",
     "P": 52,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thumbreporter.com": {
@@ -59023,7 +59064,7 @@
   "timescolonist.com": {
     "b": "LC",
     "d": "timescolonist.com",
-    "n": "Times Colonist",
+    "n": "Victori Times-Colonist",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/times-colonist/",
     "P": 57,
@@ -59172,6 +59213,7 @@
     "d": "tittletattle365.com",
     "f": "tittletattle365",
     "n": "TittleTattle365",
+    "r": "H",
     "t": "tittletattle365",
     "u": "https://mediabiasfactcheck.com/tittletattle365/",
     "P": 3,
@@ -63029,7 +63071,7 @@
     "u": "https://mediabiasfactcheck.com/the-watchers/",
     "P": 58,
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "wate.com": {
@@ -64913,7 +64955,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-winchester-star/",
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "windsorstar.com": {
