@@ -1,7 +1,9 @@
 import { Storage } from "@plasmohq/storage"
 
-import { BiasEnums } from "./combined-manager"
-import { logger } from "./logger"
+import { BiasEnums } from "~models"
+import { logger } from "~utils"
+
+const log = logger("mbfc:utils:config-handler")
 
 export type HiddenSites = Record<string, boolean>
 export type UnknownSites = Record<string, boolean>
@@ -95,18 +97,11 @@ const configDefaults: ConfigStorage = {
 
 export class ConfigHandler {
   private static instance: ConfigHandler
-  public config: ConfigStorage
-  public loaded: boolean
-  log = logger("mbfc:utils:ConfigHandler")
 
-  private constructor() {
-    this.log(`Initializing ConfigHandler`)
-    this.config = configDefaults
-    this.loaded = false
-    this.retrieve()
-      .then(() => (this.loaded = true))
-      .catch((err) => console.error(err))
-  }
+  retrievingPromise: Promise<ConfigStorage>
+  config: ConfigStorage = configDefaults
+  loaded: boolean = false
+  loading: boolean = false
 
   static getInstance() {
     if (!ConfigHandler.instance) {
@@ -125,6 +120,15 @@ export class ConfigHandler {
   }
 
   async retrieve(): Promise<ConfigStorage> {
+    if (this.loaded) return this.config
+    if (!this.loading) {
+      this.loading = true
+      this.retrievingPromise = this.loadStorage()
+    }
+    return this.retrievingPromise
+  }
+
+  async loadStorage(): Promise<ConfigStorage> {
     const storage = new Storage()
     const col: Collapse = configDefaults.collapse
     for (const key of Object.keys(col)) {
@@ -144,11 +148,12 @@ export class ConfigHandler {
     Object.keys(c).forEach((key) => {
       storage.watch({
         [key]: (s: any) => {
-          this.log(`Key ${key} changed, updating to ${s.newValue}`)
+          log(`Key ${key} changed, updating to ${s.newValue}`)
           this.config[key] = s.newValue
         },
       })
     })
+    log(`Config loaded`)
     return c
   }
 }

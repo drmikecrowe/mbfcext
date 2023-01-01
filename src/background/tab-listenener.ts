@@ -1,23 +1,51 @@
-import iconSrc from "../../assets/icon.png"
-import { BiasEnums, getTabById, logger } from "../utils"
+import { BiasEnums } from "~models"
+import { getTabById, logger } from "~utils"
+
+import center_invert from "./icons/center-invert.png"
+import center from "./icons/center.png"
+import conspiracy_pseudoscience_invert from "./icons/conspiracy-pseudoscience-invert.png"
+import conspiracy_pseudoscience from "./icons/conspiracy-pseudoscience.png"
+import fake_news_invert from "./icons/fake-news-invert.png"
+import fake_news from "./icons/fake-news.png"
+import icon from "./icons/icon.png"
+import left_center_invert from "./icons/left-center-invert.png"
+import left_center from "./icons/left-center.png"
+import left_invert from "./icons/left-invert.png"
+import left from "./icons/left.png"
+import pro_science_invert from "./icons/pro-science-invert.png"
+import pro_science from "./icons/pro-science.png"
+import right_center_invert from "./icons/right-center-invert.png"
+import right_center from "./icons/right-center.png"
+import right_invert from "./icons/right-invert.png"
+import right from "./icons/right.png"
+import satire_invert from "./icons/satire-invert.png"
+import satire from "./icons/satire.png"
 
 const log = logger("mbfc:background:TabListener")
 
-const colorMap: Record<BiasEnums, { color: string; backColor: string; text: string }> = {
-  [BiasEnums.Left]: { text: "L", color: "white", backColor: "#0a44ff" },
-  [BiasEnums.LeftCenter]: { text: "LC", color: "black", backColor: "#94adff" },
-  [BiasEnums.Center]: { text: "C", color: "black", backColor: "white" },
-  [BiasEnums.RightCenter]: { text: "RC", color: "black", backColor: "#ffb4b5" },
-  [BiasEnums.Right]: { text: "R", color: "white", backColor: "#ff171c" },
-  [BiasEnums.ProScience]: { text: "PS", color: "white", backColor: "green" },
-  [BiasEnums.Satire]: { text: "S", color: "white", backColor: "green" },
-  [BiasEnums.ConspiracyPseudoscience]: { text: "CP", color: "black", backColor: "yellow" },
-  [BiasEnums.FakeNews]: { text: "FN", color: "black", backColor: "yellow" },
+interface ColorMap {
+  color: string
+  backColor: string
+  text: string
+  normal: any
+  invert: any
+}
+
+export const colorMap: Record<BiasEnums, ColorMap> = {
+  [BiasEnums.Left]: { text: "L", color: "white", backColor: "#0a44ff", normal: left, invert: left_invert },
+  [BiasEnums.LeftCenter]: { text: "LC", color: "black", backColor: "#94adff", normal: left_center, invert: left_center_invert },
+  [BiasEnums.Center]: { text: "C", color: "black", backColor: "white", normal: center, invert: center_invert },
+  [BiasEnums.RightCenter]: { text: "RC", color: "black", backColor: "#ffb4b5", normal: right_center, invert: right_center_invert },
+  [BiasEnums.Right]: { text: "R", color: "white", backColor: "#ff171c", normal: right, invert: right_invert },
+  [BiasEnums.ProScience]: { text: "PS", color: "white", backColor: "green", normal: pro_science, invert: pro_science_invert },
+  [BiasEnums.Satire]: { text: "S", color: "white", backColor: "green", normal: satire, invert: satire_invert },
+  [BiasEnums.ConspiracyPseudoscience]: { text: "CP", color: "black", backColor: "yellow", normal: conspiracy_pseudoscience, invert: conspiracy_pseudoscience_invert },
+  [BiasEnums.FakeNews]: { text: "FN", color: "black", backColor: "yellow", normal: fake_news, invert: fake_news_invert },
 }
 
 export class TabListener {
   private static instance: TabListener
-  private imageCache: Record<string, any> = {}
+
   interval: Record<number, number> = {}
   lastBias: string = ""
 
@@ -28,71 +56,31 @@ export class TabListener {
     return TabListener.instance
   }
 
-  private draw(text: string, color: string, backColor: string): any | null {
-    const key = `${text}-${color}-${backColor}`
-    if (!(key in this.imageCache)) {
-      log(`Generating ${key} and caching`)
-      const canvas = document.createElement("canvas") // Create the canvas
-      canvas.width = 19
-      canvas.height = 19
-      let top = 2
-      let left = 10
-      let font = 17
-
-      const context = canvas.getContext("2d")
-      if (!context) return null
-      if (backColor === "white") {
-        context.fillStyle = color
-        context.fillRect(0, 0, 19, 19)
-        context.fillStyle = backColor
-        context.fillRect(1, 1, 17, 17)
-        left -= 1
-      } else {
-        context.fillStyle = backColor
-        context.fillRect(0, 0, 19, 19)
-      }
-      if (text.length > 1) {
-        font = 14
-        top = 4
-      }
-
-      context.fillStyle = color
-      context.textAlign = "center"
-      context.textBaseline = "top"
-      context.font = `${font}px sans-serif`
-      context.fillText(text, left, top)
-      this.imageCache[key] = {
-        imageData: {
-          "19": context.getImageData(0, 0, 19, 19) as any,
-        },
-      }
-    }
-    return this.imageCache[key]
-  }
-
   private show(bias: BiasEnums, inverse: boolean, tabId: number) {
-    const { color, backColor, text } = colorMap[bias]
-    const c = inverse ? backColor : color
-    const bc = !inverse ? backColor : color
-    const imageData = this.draw(text, c, bc)
-    if (imageData) {
+    const { text, normal, invert } = colorMap[bias]
+    const image = inverse ? invert : normal
+    this.lastBias = bias
+    try {
       chrome.action.setIcon({
         tabId,
-        ...imageData,
+        path: image,
       })
+    } catch (e) {
+      console.error(e)
     }
   }
 
-  resetIcon(tabId: number) {
-    if (this.interval[tabId]) {
-      clearInterval(this.interval[tabId])
-      delete this.interval[tabId]
+  resetIcon(tabId: number, windowId: number) {
+    log(`Resetting icon`)
+    if (this.interval[windowId]) {
+      clearInterval(this.interval[windowId])
+      delete this.interval[windowId]
     }
     this.lastBias = ""
     try {
       chrome.action.setIcon({
         tabId,
-        path: iconSrc,
+        path: icon,
       })
     } catch (e) {
       console.error(e)
@@ -100,33 +88,31 @@ export class TabListener {
     return false
   }
 
-  updateIcon(bias: BiasEnums, collapse: boolean, tabId: number) {
+  updateIcon(bias: BiasEnums, collapse: boolean, tabId: number, windowId: number) {
     try {
-      if (bias === this.lastBias) return
-      if (!(bias in BiasEnums)) {
+      // if (bias === this.lastBias) return
+      if (!(bias in colorMap)) {
         log(`Bias ${bias} invalid.  Ignoring`)
-        return this.resetIcon(tabId)
+        return this.resetIcon(tabId, windowId)
       }
-      this.resetIcon(tabId)
+      this.resetIcon(tabId, windowId)
       this.show(bias, false, tabId)
-      this.lastBias = bias
-      log(`Icon: ${bias} ${collapse ? " flashing" : ""}`)
 
       if (collapse) {
         let inverse = false
-        this.interval[tabId] = setInterval(() => {
+        this.interval[windowId] = setInterval(() => {
           getTabById(tabId).then((res) => {
             if (res.isOk()) {
               inverse = !inverse
               this.show(bias, inverse, tabId)
             } else {
-              this.resetIcon(tabId)
+              this.resetIcon(tabId, windowId)
             }
           })
         }, 1000) as any
       }
     } catch (e) {
-      debugger
+      console.error(e)
     }
   }
 }

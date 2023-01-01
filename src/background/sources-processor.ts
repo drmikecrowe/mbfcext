@@ -1,7 +1,8 @@
 import { Storage } from "@plasmohq/storage"
 
+import type { CombinedModel, SiteModel } from "~models"
+
 import { COMBINED } from "../constants"
-import type { CombinedModel, SiteModel } from "../utils/combined-manager"
 import { getDomain } from "../utils/get-domain"
 import { logger } from "../utils/logger"
 
@@ -10,13 +11,14 @@ const log = logger("mbfc:background:sources")
 const LAST_LOAD_KEY = "last_load_date"
 const DATE_TRIM = 16 // TODO: change back to 10
 
+export type DomainSites = Record<string, SiteModel>
+
 export interface SourceData {
-  date: string
   combined: CombinedModel | undefined
   subdomains: Record<string, Record<string, SiteModel>>
   fb_pages: Record<string, string>
   tw_pages: Record<string, string>
-  sites_by_domain: Record<string, SiteModel>
+  sites_by_domain: DomainSites
 }
 
 export class SourcesProcessor {
@@ -97,6 +99,7 @@ export class SourcesProcessor {
     this.sourceData = c
     await this.setLastLoad()
     this.loading = false
+    log(`Source now fully loaded`)
     this.loaded = true
     return c
   }

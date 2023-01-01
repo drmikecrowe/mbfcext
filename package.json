@@ -13,11 +13,14 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@plasmohq/storage": "^0.13.1",
     "debug": "^4.3.4",
     "lodash": "^4.17.21",
     "neverthrow": "^6.0.0",
-    "plasmo": "0.61.0",
+    "plasmo": "canary",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "webext-bridge": "^5.0.5",
@@ -55,7 +58,8 @@
     "web_accessible_resources": [
       {
         "resources": [
-          "assets/*"
+          "assets/*",
+          "src/background/icons/*"
         ],
         "matches": [
           "<all_urls>"

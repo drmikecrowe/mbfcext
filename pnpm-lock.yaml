@@ -1,6 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fortawesome/fontawesome-svg-core': ^6.2.1
+  '@fortawesome/free-solid-svg-icons': ^6.2.1
+  '@fortawesome/react-fontawesome': ^0.2.0
   '@plasmohq/prettier-plugin-sort-imports': 3.6.1
   '@plasmohq/storage': ^0.13.1
   '@tailwindcss/forms': 0.5.3
@@ -20,7 +23,7 @@ specifiers:
   husky: ^8.0.2
   lodash: ^4.17.21
   neverthrow: ^6.0.0
-  plasmo: 0.61.0
+  plasmo: canary
   postcss: ^8.4.20
   prettier: 2.8.1
   react: 18.2.0
@@ -32,11 +35,14 @@ specifiers:
   whatwg-fetch: ^3.6.2
 
 dependencies:
+  '@fortawesome/fontawesome-svg-core': 6.2.1
+  '@fortawesome/free-solid-svg-icons': 6.2.1
+  '@fortawesome/react-fontawesome': 0.2.0_z27bm67dtmuyyvss23ckjdrcuy
   '@plasmohq/storage': 0.13.1_react@18.2.0
   debug: 4.3.4
   lodash: 4.17.21
   neverthrow: 6.0.0
-  plasmo: 0.61.0_irowl2gkbqihyjwbqzcnwmxh2u
+  plasmo: 0.61.1-lab.6_irowl2gkbqihyjwbqzcnwmxh2u
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   webext-bridge: 5.0.5
@@ -308,6 +314,39 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       cross-spawn: 7.0.3
+    dev: false
+
+  /@fortawesome/fontawesome-common-types/6.2.1:
+    resolution: {integrity: sha512-Sz07mnQrTekFWLz5BMjOzHl/+NooTdW8F8kDQxjWwbpOJcnoSg4vUDng8d/WR1wOxM0O+CY9Zw0nR054riNYtQ==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: false
+
+  /@fortawesome/fontawesome-svg-core/6.2.1:
+    resolution: {integrity: sha512-HELwwbCz6C1XEcjzyT1Jugmz2NNklMrSPjZOWMlc+ZsHIVk+XOvOXLGGQtFBwSyqfJDNgRq4xBCwWOaZ/d9DEA==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.2.1
+    dev: false
+
+  /@fortawesome/free-solid-svg-icons/6.2.1:
+    resolution: {integrity: sha512-oKuqrP5jbfEPJWTij4sM+/RvgX+RMFwx3QZCZcK9PrBDgxC35zuc7AOFsyMjMd/PIFPeB2JxyqDr5zs/DZFPPw==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.2.1
+    dev: false
+
+  /@fortawesome/react-fontawesome/0.2.0_z27bm67dtmuyyvss23ckjdrcuy:
+    resolution: {integrity: sha512-uHg75Rb/XORTtVt7OS9WoK8uM276Ufi7gCzshVWkUJbHhh3svsUUeqXerrM96Wm7fRiDzfKRwSoahhMIkGAYHw==}
+    peerDependencies:
+      '@fortawesome/fontawesome-svg-core': ~1 || ~6
+      react: '>=16.3'
+    dependencies:
+      '@fortawesome/fontawesome-svg-core': 6.2.1
+      prop-types: 15.8.1
+      react: 18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.11.8:
@@ -1380,8 +1419,8 @@ packages:
     resolution: {integrity: sha512-LA6dfrBsLSgdOhgLJr8asBcs6gQd9ehb436DU2c1XecjYEmh5vkEr/YjxyECOg7Iz/AdtfUuBXEjH3GGS6qOMg==}
     dev: false
 
-  /@plasmohq/parcel-bundler/0.4.4:
-    resolution: {integrity: sha512-NrmVhuuXBxBc9812NuIjFQfQ2YJzkalKDpJ62e3pUkC6lA252BzfSUSX066ec+mcZRCOwDwTc60nFdtUVO0Iqg==}
+  /@plasmohq/parcel-bundler/0.4.5:
+    resolution: {integrity: sha512-Iqt2kGD/XuCAVi4kTawqYL10GVnYmZMMU5c/VCItR6yjA4w5Jxocw9xLwQ1PLg/AnWnS+qk8PqJ0GOjlgRx51Q==}
     engines: {node: '>= 16.0.0', parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1393,8 +1432,8 @@ packages:
       nullthrows: 1.1.1
     dev: false
 
-  /@plasmohq/parcel-config/0.28.0_irowl2gkbqihyjwbqzcnwmxh2u:
-    resolution: {integrity: sha512-akcgHJzmkQg8b1kbKIiFBzofoCzdaWb2/S1Fkv8EkB3HIyThtp+ax3TtSXz/KFgdiySbi6FD0jHpzQsEUTg5Cw==}
+  /@plasmohq/parcel-config/0.28.6_irowl2gkbqihyjwbqzcnwmxh2u:
+    resolution: {integrity: sha512-joceiPZzBU1f8vvOXzRSHihqixqNtYE421zgdGJXok/u033jOaRxYpj6SUbev/jiWQJdVBg3EbANkvhJW0DNjg==}
     dependencies:
       '@parcel/config-default': 2.8.2_ctizvb22dfntlp7f74us5zzpmi
       '@parcel/core': 2.8.2
@@ -1411,18 +1450,18 @@ packages:
       '@parcel/transformer-raw': 2.8.2_@parcel+core@2.8.2
       '@parcel/transformer-sass': 2.8.2_@parcel+core@2.8.2
       '@parcel/transformer-worklet': 2.8.2_@parcel+core@2.8.2
-      '@plasmohq/parcel-bundler': 0.4.4
-      '@plasmohq/parcel-namer-manifest': 0.3.2
-      '@plasmohq/parcel-optimizer-terser': 0.0.3
-      '@plasmohq/parcel-packager': 0.6.3
-      '@plasmohq/parcel-resolver': 0.9.2
-      '@plasmohq/parcel-resolver-post': 0.1.3_postcss@8.4.20
-      '@plasmohq/parcel-runtime': 0.15.0
-      '@plasmohq/parcel-transformer-inject-env': 0.2.2
-      '@plasmohq/parcel-transformer-inline-css': 0.2.2
-      '@plasmohq/parcel-transformer-manifest': 0.13.2
-      '@plasmohq/parcel-transformer-svelte3': 0.4.0
-      '@plasmohq/parcel-transformer-vue3': 0.3.2_pvnihi4muhoy7kenlmiyxwzuqy
+      '@plasmohq/parcel-bundler': 0.4.5
+      '@plasmohq/parcel-namer-manifest': 0.3.3
+      '@plasmohq/parcel-optimizer-terser': 0.0.4
+      '@plasmohq/parcel-packager': 0.6.4
+      '@plasmohq/parcel-resolver': 0.9.5
+      '@plasmohq/parcel-resolver-post': 0.1.4_postcss@8.4.20
+      '@plasmohq/parcel-runtime': 0.15.3
+      '@plasmohq/parcel-transformer-inject-env': 0.2.3
+      '@plasmohq/parcel-transformer-inline-css': 0.2.3
+      '@plasmohq/parcel-transformer-manifest': 0.13.3
+      '@plasmohq/parcel-transformer-svelte3': 0.4.1
+      '@plasmohq/parcel-transformer-vue3': 0.3.3_pvnihi4muhoy7kenlmiyxwzuqy
     transitivePeerDependencies:
       - '@swc/core'
       - arc-templates
@@ -1482,8 +1521,8 @@ packages:
       - whiskers
     dev: false
 
-  /@plasmohq/parcel-namer-manifest/0.3.2:
-    resolution: {integrity: sha512-qlQ4ss1BP9Rc6P8OlF6Z8zSFF3xrG5+8RKPa1UKX4XF8YuySwiFgWVKwzpnmd8sK4FDjiJ5sPWsgQnoQBUBCsA==}
+  /@plasmohq/parcel-namer-manifest/0.3.3:
+    resolution: {integrity: sha512-CRafhqrsAbfFx5KZZ6WKZVMugO5S5XEnvRGQHG51TkxL3I2eCpU0OfLIW+Hl4UGLJ3cfEBcW2CYlV8doSzgkSg==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1492,8 +1531,8 @@ packages:
       '@parcel/utils': 2.8.2
     dev: false
 
-  /@plasmohq/parcel-optimizer-terser/0.0.3:
-    resolution: {integrity: sha512-ff1LxHIvmKK+U6MdJgN79AyCSpk9CRpRaZv3V29BDYI4MUq0tZnRfUF7+8GcZj8XCwlp42UpQDsyivopGJcA8Q==}
+  /@plasmohq/parcel-optimizer-terser/0.0.4:
+    resolution: {integrity: sha512-jeMJEIhE4czdEN6hWtr59CFMF6WXxGVH0nZSUtrcbymDp5TsETqfZvmrCqdDEQOGGDGY1zYJp2DjulB2hy5Xqw==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1504,8 +1543,8 @@ packages:
       terser: 5.16.1
     dev: false
 
-  /@plasmohq/parcel-packager/0.6.3:
-    resolution: {integrity: sha512-RsqAyAvtCOCl4r4QGjqOANVJIWqOCHVBrUbhjcKaetNXkKwzweYGqXq+frJjiulH0E0byennAskMwdZEg97ScQ==}
+  /@plasmohq/parcel-packager/0.6.4:
+    resolution: {integrity: sha512-g9fY/dlgVE4DF508+LjShgl+r19XVEPuuVAqhLAuqHPUK9R9tYzevy3uz+QBHWtQUfT5syNJ0H2uJVuDXKh+8Q==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1515,8 +1554,8 @@ packages:
       nullthrows: 1.1.1
     dev: false
 
-  /@plasmohq/parcel-resolver-post/0.1.3_postcss@8.4.20:
-    resolution: {integrity: sha512-GHg+oGzXstRErlwHJgJfPKZnxRuEwE7Mf5ryBXsAJpuW7n9wJunc7i6aS8hoNiHEznCFvMkAWZ0yVcfthPspFw==}
+  /@plasmohq/parcel-resolver-post/0.1.4_postcss@8.4.20:
+    resolution: {integrity: sha512-Vj8hxz/L0mu0pdE2Ykp0oh3+s6pIe38JhIxrNBmdbMtAjCQnXkZARH7j6q30n9rFaexlfdHOBRfCyNoj5D+DVg==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1533,8 +1572,8 @@ packages:
       - ts-node
     dev: false
 
-  /@plasmohq/parcel-resolver/0.9.2:
-    resolution: {integrity: sha512-8hrh+csM5B65WZ1uM4w69choVgfBV4UZ4gwQvEoq9/LixiRcSwpb51Xu77oOEzdeguEaeUc6rFSqe/zK+ATyDg==}
+  /@plasmohq/parcel-resolver/0.9.5:
+    resolution: {integrity: sha512-QMmKG3wEmYEBWx5Ez2wsfnB/9O6ZVk5B0Iz3CqoSLIwhNc9WjkknbUHjq/MpG4X64PYfaE7YbSHQzEcpQ4joEg==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1542,10 +1581,11 @@ packages:
       '@parcel/plugin': 2.8.2_@parcel+core@2.8.2
       '@parcel/types': 2.8.2_@parcel+core@2.8.2
       got: 12.5.3
+      tiny-glob: 0.2.9
     dev: false
 
-  /@plasmohq/parcel-runtime/0.15.0:
-    resolution: {integrity: sha512-I62Np7j1qAyTN5y8FgXnglLvfYGunAKKkuITigXskwk08YphSdgoLvp+G+hVGW6JClBZe6VyoZDs/VAeIGxVrw==}
+  /@plasmohq/parcel-runtime/0.15.3:
+    resolution: {integrity: sha512-ktWyHud9GpkoaQN3QTzgbdrRgwSWcLfoa1clLeVRPohsuhArnqwQQvGRY0+2cTYkqSE8PkNcFQM1HY36t1ZTYQ==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1553,8 +1593,8 @@ packages:
       react-refresh: 0.14.0
     dev: false
 
-  /@plasmohq/parcel-transformer-inject-env/0.2.2:
-    resolution: {integrity: sha512-fGZ2mSw15oW/ON4jyIh+k3Y+EJKKBZBesb9iWXlyClFxlX0uNAtJpP9+wd1U/Ca2eel3AtGKoT+I8qTVsZGXNQ==}
+  /@plasmohq/parcel-transformer-inject-env/0.2.3:
+    resolution: {integrity: sha512-rKvOqsosDo/edwh21aV2y4KvJM3F1rAJ6mCR5SAHdOnmQNRgRbbRPl71H0XWHBXRdhfPNksN++NXJsLT9/KMbw==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1562,8 +1602,8 @@ packages:
       '@parcel/types': 2.8.2_@parcel+core@2.8.2
     dev: false
 
-  /@plasmohq/parcel-transformer-inline-css/0.2.2:
-    resolution: {integrity: sha512-JZoOjW9ChYzcTnUdxluqaaCgVb0msjZ9X3Xmr+N2eZ1+0yfqn43u0R4NMidzbkcXAhOunIF4/2w9dZ+w3ZTqrw==}
+  /@plasmohq/parcel-transformer-inline-css/0.2.3:
+    resolution: {integrity: sha512-WNvV974ViI0kddyn9YjJoFNdCueiFlRV0KQaaEaURLMDJJnrkx0TL/vd/FcOtUReJYdP8jb4TY9GF3qkBjeQSQ==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1572,8 +1612,8 @@ packages:
       '@parcel/utils': 2.8.2
     dev: false
 
-  /@plasmohq/parcel-transformer-manifest/0.13.2:
-    resolution: {integrity: sha512-/NeaE7eiwgtNk0ofjZhIuJHK2qoxDtk8Mg5/b2ljMeapd94r76OjHLeDR9OsblHs5+qdsOSjiSx0PKf8Q8i1Og==}
+  /@plasmohq/parcel-transformer-manifest/0.13.3:
+    resolution: {integrity: sha512-4d00pACP7ABKOPsFj5N2EAzuFhQmfFcyIYMNZR2vH1Dk7HbKVXFqMtfjdWVtCeH8Ki+CRLjBK9i+mVw5h1YsHQ==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@mischnic/json-sourcemap': 0.1.0
@@ -1588,8 +1628,8 @@ packages:
       nullthrows: 1.1.1
     dev: false
 
-  /@plasmohq/parcel-transformer-svelte3/0.4.0:
-    resolution: {integrity: sha512-jJ7Vg2mqKOZmw6xq9HMX1TH4p81F/MPJIMYLp8rlBnQ8qE3uNdsuNO7I3v035JuIVpCO/OSYpju1mH6kY7Z0Vg==}
+  /@plasmohq/parcel-transformer-svelte3/0.4.1:
+    resolution: {integrity: sha512-WHLsXRZDn/vJ0X9mQLvBWNZf78Y6/L6UpKVRdezkiCta3aXVBYNQZ+KdyTYuWGfDRRPJr2npBRj6X7ByfVyVaA==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -1599,8 +1639,8 @@ packages:
       '@parcel/utils': 2.8.2
     dev: false
 
-  /@plasmohq/parcel-transformer-vue3/0.3.2_pvnihi4muhoy7kenlmiyxwzuqy:
-    resolution: {integrity: sha512-2pS+sN9kqRQVpGgnBD2NW9zaXivUrSDh5NY01ZkT8eKt/uVa4QJMdrxCpgPbTFvqw8nueaP3M4RB7ucVz/UbsQ==}
+  /@plasmohq/parcel-transformer-vue3/0.3.3_pvnihi4muhoy7kenlmiyxwzuqy:
+    resolution: {integrity: sha512-WAFFXR4QanlVMe0fZOxN09vkgtyXiQY0YUxVjVvI0poaWaylL3dYguwpCzZdxFJsXpV1DchdDcebFu6dzU9dxw==}
     engines: {parcel: '>= 2.7.0'}
     dependencies:
       '@parcel/core': 2.8.2
@@ -4673,8 +4713,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /plasmo/0.61.0_irowl2gkbqihyjwbqzcnwmxh2u:
-    resolution: {integrity: sha512-2bfCqFNV1D4aqyPyMSNPGzf6UmVlZ6X+XhpG5nrNABkXfHpAPwgmi5gCIL/+fHMVr6w8iSoYylCp670w8yJEyg==}
+  /plasmo/0.61.1-lab.6_irowl2gkbqihyjwbqzcnwmxh2u:
+    resolution: {integrity: sha512-C3f4XhE30MoUCMSMllpY/C2F0B8StuhTOtXOX/D1CEk4cYMe5/dIQ1a44SkvDyBQCTAJ2WQ9KjzIXDnmR0LEZg==}
     hasBin: true
     dependencies:
       '@expo/spawn-async': 1.7.0
@@ -4683,7 +4723,7 @@ packages:
       '@parcel/package-manager': 2.8.2_@parcel+core@2.8.2
       '@parcel/watcher': 2.0.7
       '@plasmohq/init': 0.5.3
-      '@plasmohq/parcel-config': 0.28.0_irowl2gkbqihyjwbqzcnwmxh2u
+      '@plasmohq/parcel-config': 0.28.6_irowl2gkbqihyjwbqzcnwmxh2u
       archiver: 5.3.1
       buffer: 6.0.3
       chalk: 5.2.0
@@ -4916,7 +4956,6 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
-    dev: true
 
   /proto-list/1.2.4:
     resolution: {integrity: sha512-vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==}
@@ -4971,7 +5010,6 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: true
 
   /react-refresh/0.14.0:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}

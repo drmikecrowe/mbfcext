@@ -1,10 +1,12 @@
+import { faAngleDoubleRight, faCog } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useEffect, useState } from "react"
 import { sendMessage } from "webext-bridge"
 
 import Button from "~components/button"
-import FaAngleDoubleRight from "~components/fa/fa-angle-double-right"
-import FaCog from "~components/fa/fa-cog"
 import { getCurrentTab, getDomain } from "~utils"
+
+import "./style.css"
 
 import { logger } from "./utils/logger"
 
@@ -24,7 +26,7 @@ const Rated = ({ bias, biasDescription, mbfcLink }) => {
       <p className="text-sm">{biasDescription}</p>
       <a className="pt-2" href={mbfcLink} rel="noreferrer" target="_blank">
         Read the Media Bias/Fact Check detailed report&nbsp;
-        <FaAngleDoubleRight />
+        <FontAwesomeIcon icon={faAngleDoubleRight} />
       </a>
     </div>
   )
@@ -37,7 +39,7 @@ const Unrated = () => {
       <p>Feel free to view the full list of site rating and bias analysis at the</p>
       <a className="pt-2" href="https://mediabiasfactcheck.com" rel="noreferrer" target="_blank">
         Media Bias/Fact Check Website &nbsp;
-        <FaAngleDoubleRight />
+        <FontAwesomeIcon icon={faAngleDoubleRight} />
       </a>
     </div>
   )
@@ -70,18 +72,18 @@ function IndexPopup() {
   }, [])
 
   return (
-    <div style={{width: "400px", height: "300px"}}>
+    <div style={{ width: "500px", height: "250px" }}>
       <div className="container mx-auto p-2 centered">
         <div className="absolute top-0 right-0">
           <div className="p-1">
             <Button handler={() => chrome.runtime.openOptionsPage()}>
-              <FaCog />
+              <FontAwesomeIcon icon={faCog} />
             </Button>
           </div>
         </div>
 
         <div className="clearfix" />
-        <div className="pt-3">{rated ? <Rated bias={bias} biasDescription={biasDescription} mbfcLink={mbfcLink} /> : <Unrated />}</div>
+        <div className="pt-0">{rated ? <Rated bias={bias} biasDescription={biasDescription} mbfcLink={mbfcLink} /> : <Unrated />}</div>
       </div>
     </div>
   )

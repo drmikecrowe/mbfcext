@@ -1,7 +1,10 @@
 import { Result, err, ok } from "neverthrow"
 
-import { ConfigHandler, SourcesManager, StorageToOptions, logger } from "."
-import { ReportingEnums, SiteModel } from "./combined-manager"
+import type { SourceData } from "~background/sources-processor"
+import type { ConfigStorage } from "~background/sources-processor"
+import { ReportingEnums, SiteModel } from "~models/combined-manager"
+import { logger } from "~utils"
+import { StorageToOptions } from ".."
 
 export interface CheckDomainResults {
   final_domain: string
@@ -15,7 +18,7 @@ export interface CheckDomainResults {
 
 const logged: Record<string, boolean> = {}
 
-export function checkDomain(domain: string, path: string): Result<CheckDomainResults, null> {
+export function checkDomain(domain: string, path: string, sources: SourceData, config: ConfigStorage): Result<CheckDomainResults, null> {
   const log = logger("mbfc:utils:checkDomain")
 
   const ret: CheckDomainResults = {
@@ -31,22 +34,9 @@ export function checkDomain(domain: string, path: string): Result<CheckDomainRes
     return ok(ret)
   }
 
-  const s = SourcesManager.getInstance().sourceData
-  if (!s || !s.loaded) {
-    log("No sources")
-    return err(null)
-  }
-  const sources = s.sites_by_domain
-
-  const config = ConfigHandler.getInstance().config
-  if (!config || !config.loaded) {
-    log("No config")
-    return err(null)
-  }
-
   const ch = (d: string, isAlias: boolean, isBase: boolean) => {
-    if (d in sources.sources) {
-      ret.site = sources.sources[d]
+    if (d in sources.sites_by_domain) {
+      ret.site = sources.sites_by_domain[d]
       ret.final_domain = d
       ret.unknown = false
       ret.alias = isAlias
@@ -91,7 +81,7 @@ export function checkDomain(domain: string, path: string): Result<CheckDomainRes
     }
   }
   if (ch(domain, false, false)) return ok(ret)
-  if (ch(sources.aliases[domain], true, false)) return ok(ret)
+  if (ch(sources.combined.aliases[domain], true, false)) return ok(ret)
   const elements = domain.split(".")
   let next_domain = elements.pop()
   next_domain = `${elements.pop()}.${next_domain}`
