@@ -133,6 +133,13 @@ export class ConfigHandler {
     const col: Collapse = configDefaults.collapse
     for (const key of Object.keys(col)) {
       col[key] = (await storage.get(key)) || configDefaults.collapse[key]
+      log(`Listening for changes in ${key}`)
+      storage.watch({
+        [key]: (s: any) => {
+          log(`Collapse Key ${key} changed, updating to ${s.newValue}`)
+          this.config.collapse[key] = s.newValue
+        },
+      })
     }
     const c: ConfigStorage = {
       collapse: col,
@@ -146,6 +153,7 @@ export class ConfigHandler {
     }
     this.config = c
     Object.keys(c).forEach((key) => {
+      log(`Listening for changes in ${key}`)
       storage.watch({
         [key]: (s: any) => {
           log(`Key ${key} changed, updating to ${s.newValue}`)
