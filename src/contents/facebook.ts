@@ -1,7 +1,7 @@
 import type { PlasmoContentScript } from "plasmo"
 
 export const config: PlasmoContentScript = {
-  matches: ["https://www.plasmo.com/*"],
+  matches: ["https://facebook.com/*", "https://www.facebook.com/*"],
 }
 
 window.addEventListener("load", () => {

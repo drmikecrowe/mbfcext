@@ -111,7 +111,8 @@ export class ConfigHandler {
   }
 
   async persist(): Promise<ConfigStorage> {
-    if (!this.config) return
+    if (!this.config) return configDefaults
+
     const storage = new Storage()
     for (const [k, v] of Object.entries(this.config)) {
       await storage.set(k, JSON.stringify(v))

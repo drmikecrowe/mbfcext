@@ -2,7 +2,7 @@ import type { ReactElement } from "react"
 
 import { useStorage } from "@plasmohq/storage/hook"
 
-import { CollapseKeys } from "~background/config-handler"
+import { CollapseKeys } from "~utils/config-handler"
 
 export interface TabFields {
   type: string

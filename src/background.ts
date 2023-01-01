@@ -1,13 +1,13 @@
 import { onMessage } from "webext-bridge"
 
-import { ConfigHandler, ConfigStorage } from "~background/config-handler"
 import { SourceData, SourcesProcessor } from "~background/sources-processor"
 import { TabListener } from "~background/tab-listenener"
 import { getSiteFromUrl } from "~background/utils/get-site-from-url"
 import type { PopupDetails } from "~popup"
-import { getCurrentTab, isDevMode, logger } from "~utils"
+import { ConfigHandler, ConfigStorage, getCurrentTab, isDevMode, logger } from "~utils"
 
 const log = logger("mbfc:background:index")
+
 const main = async () => {
   isDevMode()
   await Promise.all([SourcesProcessor.getInstance().getSourceData(), ConfigHandler.getInstance().retrieve()])

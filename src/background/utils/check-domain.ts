@@ -1,10 +1,8 @@
 import { Result, err, ok } from "neverthrow"
 
 import type { SourceData } from "~background/sources-processor"
-import type { ConfigStorage } from "~background/sources-processor"
 import { ReportingEnums, SiteModel } from "~models/combined-manager"
-import { logger } from "~utils"
-import { StorageToOptions } from ".."
+import { ConfigStorage, StorageToOptions, logger } from "~utils"
 
 export interface CheckDomainResults {
   final_domain: string

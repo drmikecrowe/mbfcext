@@ -1,8 +1,8 @@
 import { Result, err } from "neverthrow"
 
-import type { ConfigStorage } from "~background/config-handler"
 import type { SourceData } from "~background/sources-processor"
 import { getDomain, logger } from "~utils"
+import type { ConfigStorage } from "~utils/config-handler"
 
 import { CheckDomainResults, checkDomain } from "./check-domain"
 
