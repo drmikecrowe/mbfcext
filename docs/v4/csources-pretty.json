@@ -2003,6 +2003,16 @@
     "a": "M",
     "q": []
   },
+  "alaskapublic.org": {
+    "b": "LC",
+    "d": "alaskapublic.org",
+    "n": "KSKA - NPR - Anchorage",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kska-npr-anchorage-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "alaskasnewssource.com": {
     "b": "C",
     "d": "alaskasnewssource.com",
@@ -3522,6 +3532,16 @@
     "P": 92,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "amnews.com": {
+    "b": "RC",
+    "d": "amnews.com",
+    "n": "Danville Advocate-Messenger",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/danville-advocate-messenger-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "amny.com": {
@@ -13013,6 +13033,24 @@
     "a": "L",
     "q": []
   },
+  "creativedestructionmedia.com": {
+    "b": "FN",
+    "d": "creativedestructionmedia.com",
+    "n": "Creative Destruction Media - CD Media",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/creative-destruction-media-cd-media-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "credoaction.com": {
     "b": "LC",
     "d": "credoaction.com",
@@ -13605,6 +13643,16 @@
     "P": 45,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "dailyclout.io": {
+    "b": "CP",
+    "d": "dailyclout.io",
+    "n": "DailyClout",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/dailyclout-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "dailycomet.com": {
@@ -51340,6 +51388,17 @@
     "p": "/faribault_daily_news",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/faribault-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "southernminn.com/the_kenyon_leader": {
+    "b": "LC",
+    "d": "southernminn.com/the_kenyon_leader",
+    "n": "Kenyon Leader",
+    "p": "/the_kenyon_leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kenyon-leader-bias/",
     "c": "H",
     "a": "L",
     "q": []
