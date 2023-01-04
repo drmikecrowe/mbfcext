@@ -9566,6 +9566,20 @@
       "IM"
     ]
   },
+  "centralmissourinews.com": {
+    "b": "FN",
+    "d": "centralmissourinews.com",
+    "n": "Central Missouri News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-missouri-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "centraloctimes.com": {
     "b": "FN",
     "d": "centraloctimes.com",
@@ -11445,6 +11459,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-columbian/",
     "P": 60,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "columbiatribune.com": {
+    "b": "LC",
+    "d": "columbiatribune.com",
+    "n": "Columbia Daily Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/columbia-daily-tribune-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -34827,6 +34851,17 @@
     "a": "M",
     "q": []
   },
+  "mlive.com/saginaw-bay-city": {
+    "b": "C",
+    "d": "mlive.com/saginaw-bay-city",
+    "n": "Bay City Times",
+    "p": "/saginaw-bay-city",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bay-city-times-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "mnbusinessdaily.com": {
     "b": "FN",
     "d": "mnbusinessdaily.com",
@@ -50078,6 +50113,16 @@
     "a": "L",
     "q": []
   },
+  "shawlocal.com": {
+    "b": "C",
+    "d": "shawlocal.com",
+    "n": "Elburn Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/elburn-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "shawlocal.com/bureau-county-republican": {
     "b": "C",
     "d": "shawlocal.com/bureau-county-republican",
@@ -54274,11 +54319,13 @@
     "u": "https://mediabiasfactcheck.com/tehran-times/",
     "P": 79,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
       "C",
       "P",
       "PS",
+      "FFC",
+      "FC",
       "CEN"
     ]
   },
