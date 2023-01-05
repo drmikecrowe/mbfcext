@@ -352,6 +352,16 @@
     "a": "N",
     "q": []
   },
+  "3newsnow.com": {
+    "b": "C",
+    "d": "3newsnow.com",
+    "n": "KMTV - Omaha News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kmtv-omaha-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "4029tv.com": {
     "b": "C",
     "d": "4029tv.com",
@@ -28069,6 +28079,16 @@
     "a": "M",
     "q": []
   },
+  "journalistsresource.org": {
+    "b": "LC",
+    "d": "journalistsresource.org",
+    "n": "The Journalist's Resource",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-journalists-resource-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "journalnow.com": {
     "b": "C",
     "d": "journalnow.com",
@@ -33490,6 +33510,17 @@
     "p": "/journal/alloys",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/alloys-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/analytica": {
+    "b": "PS",
+    "d": "mdpi.com/journal/analytica",
+    "n": "Analytical Journal",
+    "p": "/journal/analytica",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/analytica-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -59880,6 +59911,24 @@
       "FC",
       "M",
       "PSE"
+    ]
+  },
+  "trendingpoliticsnews.com": {
+    "b": "FN",
+    "d": "trendingpoliticsnews.com",
+    "n": "TrendingPoliticsNews.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/trendingpoliticsnews-com-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PG"
     ]
   },
   "tri-cityherald.com": {
