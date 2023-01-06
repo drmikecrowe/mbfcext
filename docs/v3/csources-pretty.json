@@ -9620,6 +9620,20 @@
       "IM"
     ]
   },
+  "centralstlnews.com": {
+    "b": "FN",
+    "d": "centralstlnews.com",
+    "n": "Central STL News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-stl-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "cepr.net": {
     "b": "LC",
     "d": "cepr.net",
@@ -10589,6 +10603,16 @@
     "t": "CityAndStateNY",
     "u": "https://mediabiasfactcheck.com/city-and-state-new-york/",
     "P": 52,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "citybeat.com": {
+    "b": "L",
+    "d": "citybeat.com",
+    "n": "Cincinnati CityBeat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cincinnati-citybeat-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -20439,6 +20463,16 @@
     "u": "https://mediabiasfactcheck.com/wtic-hartford-news/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "fox6now.com": {
+    "b": "C",
+    "d": "fox6now.com",
+    "n": "WITI - FOX 6 - Milwaukee",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/witi-fox-6-milwaukee-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "fox7austin.com": {
@@ -54438,16 +54472,20 @@
     "q": []
   },
   "tennesseestar.com": {
-    "b": "R",
+    "b": "FN",
     "d": "tennesseestar.com",
     "f": "TennesseeStar",
     "n": "The Tennessee Star",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/the-tennessee-star/",
     "P": 47,
-    "c": "M",
+    "c": "L",
     "a": "M",
-    "q": []
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
   },
   "tenthamendmentcenter.com": {
     "b": "R",
@@ -58507,7 +58545,7 @@
     "u": "https://mediabiasfactcheck.com/the-town-talk/",
     "P": 66,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thetrace.org": {
