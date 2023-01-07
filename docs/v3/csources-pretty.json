@@ -23160,6 +23160,16 @@
       "IM"
     ]
   },
+  "granitefallsnews.com": {
+    "b": "C",
+    "d": "granitefallsnews.com",
+    "n": "Granite Falls Advocate-Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/granite-falls-advocate-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "gravelinstitute.org": {
     "b": "L",
     "d": "gravelinstitute.org",
@@ -23796,6 +23806,16 @@
       "C",
       "M"
     ]
+  },
+  "hannaherald.com": {
+    "b": "RC",
+    "d": "hannaherald.com",
+    "n": "Hanna Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hanna-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "hannity.com": {
     "b": "FN",
@@ -25553,14 +25573,14 @@
     "q": []
   },
   "icitizen.com": {
-    "b": "C",
+    "b": "RC",
     "d": "icitizen.com",
     "n": "Icitizen",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/icitizen/",
     "P": 36,
-    "c": "H",
-    "a": "N",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "icr.org": {
@@ -25707,7 +25727,7 @@
     "u": "https://mediabiasfactcheck.com/if-america-knew/",
     "P": 70,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "iflscience.com": {
@@ -25802,7 +25822,7 @@
     "u": "https://mediabiasfactcheck.com/ihealthtube/",
     "P": 53,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "iheartintelligence.com": {
@@ -25882,12 +25902,14 @@
     "u": "https://mediabiasfactcheck.com/illegal-alien-crime-report/",
     "P": 44,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
       "PS",
       "LT",
+      "FFC",
+      "FC",
       "H"
     ]
   },
@@ -25905,7 +25927,9 @@
       "C",
       "P",
       "PS",
-      "FFC"
+      "FFC",
+      "FN",
+      "PSE"
     ]
   },
   "illinoispolicy.org": {
@@ -25996,7 +26020,7 @@
     "u": "https://mediabiasfactcheck.com/imao-in-my-arrogant-opinion/",
     "P": 63,
     "c": "NA",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "imediaethics.org": {
@@ -26066,7 +26090,7 @@
     "u": "https://mediabiasfactcheck.com/imprimis-hillsdale-college/",
     "P": 59,
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "inc.com": {
@@ -57019,6 +57043,20 @@
     "a": "M",
     "q": []
   },
+  "themichiganstar.com": {
+    "b": "FN",
+    "d": "themichiganstar.com",
+    "n": "Michigan Star",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/michigan-star-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
+  },
   "themideastbeast.com": {
     "b": "S",
     "d": "themideastbeast.com",
@@ -57083,15 +57121,19 @@
     "q": []
   },
   "theminnesotasun.com": {
-    "b": "R",
+    "b": "FN",
     "d": "theminnesotasun.com",
     "n": "Minnesota Sun",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/minnesota-sun/",
     "P": 31,
-    "c": "M",
+    "c": "L",
     "a": "L",
-    "q": []
+    "q": [
+      "P",
+      "PS",
+      "IM"
+    ]
   },
   "themoderatedmedia.com": {
     "b": "C",
@@ -57477,7 +57519,7 @@
     "q": []
   },
   "theohiostar.com": {
-    "b": "R",
+    "b": "FN",
     "d": "theohiostar.com",
     "f": "TheOhioStar",
     "n": "The Ohio Star",
@@ -57485,9 +57527,13 @@
     "t": "TheOhioStar",
     "u": "https://mediabiasfactcheck.com/the-ohio-star/",
     "P": 31,
-    "c": "M",
+    "c": "L",
     "a": "L",
-    "q": []
+    "q": [
+      "P",
+      "PS",
+      "IM"
+    ]
   },
   "theolympian.com": {
     "b": "LC",
