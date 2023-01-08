@@ -6447,6 +6447,16 @@
       "M"
     ]
   },
+  "blackhillsfox.com": {
+    "b": "C",
+    "d": "blackhillsfox.com",
+    "n": "KEVN - Rapid City News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kevn-rapid-city-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "blacklistednews.com": {
     "b": "CP",
     "d": "blacklistednews.com",
@@ -8776,6 +8786,23 @@
     "a": "L",
     "q": []
   },
+  "capstonereport.com": {
+    "b": "FN",
+    "d": "capstonereport.com",
+    "n": "Capstone Report",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/capstone-report-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FC",
+      "M",
+      "H"
+    ]
+  },
   "carbonated.tv": {
     "b": "L",
     "d": "carbonated.tv",
@@ -10806,6 +10833,20 @@
     "n": "Clay County Times",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/clay-county-times/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "clayreporter.com": {
+    "b": "FN",
+    "d": "clayreporter.com",
+    "n": "Clay Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/clay-reporter-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -38843,7 +38884,7 @@
     "d": "newsmax.com",
     "f": "newsmax",
     "n": "Newsmax",
-    "r": "M",
+    "r": "L",
     "t": "newsmax",
     "u": "https://mediabiasfactcheck.com/newsmax/",
     "P": 74,
@@ -38856,6 +38897,7 @@
       "FFC",
       "FC",
       "M",
+      "FN",
       "PSE"
     ]
   },
@@ -51212,6 +51254,16 @@
     "a": "L",
     "q": []
   },
+  "somerset-kentucky.com": {
+    "b": "LC",
+    "d": "somerset-kentucky.com",
+    "n": "Somerset Commercial-Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/somerset-commonwealth-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sonorannews.com": {
     "b": "R",
     "d": "sonorannews.com",
@@ -51474,6 +51526,16 @@
       "FC",
       "IM"
     ]
+  },
+  "southdakotasearchlight.com": {
+    "b": "L",
+    "d": "southdakotasearchlight.com",
+    "n": "South Dakota Searchlight",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/south-dakota-searchlight-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "southdsmnews.com": {
     "b": "FN",
@@ -55711,6 +55773,16 @@
     "P": 51,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "thedailyworld.net": {
+    "b": "CP",
+    "d": "thedailyworld.net",
+    "n": "TheDailyWorld.Net",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/thedailyworld-net-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "theday.com": {
@@ -65811,17 +65883,25 @@
     "q": []
   },
   "wn.com": {
-    "b": "C",
+    "b": "FN",
     "d": "wn.com",
     "f": "WNLive",
-    "n": "World News",
-    "r": "MF",
+    "n": "World News (wn.com)",
+    "r": "M",
     "t": "worldnewsdotcom",
     "u": "https://mediabiasfactcheck.com/world-news/",
     "P": 95,
-    "c": "H",
-    "a": "M",
-    "q": []
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "wnct.com": {
     "b": "C",
