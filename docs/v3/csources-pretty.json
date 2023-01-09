@@ -3632,6 +3632,20 @@
     "a": "L",
     "q": []
   },
+  "amuedge.com/category/homeland-security": {
+    "b": "RC",
+    "d": "amuedge.com/category/homeland-security",
+    "f": "InHomelandBlog",
+    "n": "In Homeland Security",
+    "p": "/category/homeland-security",
+    "r": "H",
+    "t": "InHomelandBlog",
+    "u": "https://mediabiasfactcheck.com/in-homeland-security/",
+    "P": 47,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "analyzingamerica.org": {
     "b": "FN",
     "d": "analyzingamerica.org",
@@ -10855,6 +10869,16 @@
       "IM"
     ]
   },
+  "claytodayonline.com": {
+    "b": "C",
+    "d": "claytodayonline.com",
+    "n": "Clay Today",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/clay-today-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "claytonrecord.com": {
     "b": "C",
     "d": "claytonrecord.com",
@@ -11537,6 +11561,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "columbianews.com": {
+    "b": "FN",
+    "d": "columbianews.com",
+    "n": "Columbia News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/columbia-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "columbiatribune.com": {
     "b": "LC",
@@ -22044,6 +22082,16 @@
     "a": "L",
     "q": []
   },
+  "geekwire.com": {
+    "b": "C",
+    "d": "geekwire.com",
+    "n": "GeekWire",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/geekwire-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "gellerreport.com": {
     "b": "FN",
     "d": "gellerreport.com",
@@ -24435,6 +24483,21 @@
     "a": "N",
     "q": []
   },
+  "hendersontimes.org": {
+    "b": "FN",
+    "d": "hendersontimes.org",
+    "n": "Henderson Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/henderson-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "IM"
+    ]
+  },
   "herald-dispatch.com": {
     "b": "C",
     "d": "herald-dispatch.com",
@@ -26413,7 +26476,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/independent-media-center/",
     "P": 84,
-    "c": "M",
+    "c": "H",
     "a": "N",
     "q": []
   },
@@ -26650,19 +26713,6 @@
     "P": 34,
     "c": "L",
     "a": "L",
-    "q": []
-  },
-  "inhomelandsecurity.com": {
-    "b": "RC",
-    "d": "inhomelandsecurity.com",
-    "f": "InHomelandBlog",
-    "n": "In Homeland Security",
-    "r": "H",
-    "t": "InHomelandBlog",
-    "u": "https://mediabiasfactcheck.com/in-homeland-security/",
-    "P": 47,
-    "c": "H",
-    "a": "N",
     "q": []
   },
   "innerstrength.zone": {
@@ -26976,7 +27026,7 @@
     "t": "InTheseTimesMag",
     "u": "https://mediabiasfactcheck.com/in-these-times/",
     "P": 78,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -31161,7 +31211,7 @@
     "u": "https://mediabiasfactcheck.com/learntherisk-org/",
     "P": 40,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "leavenworthtimes.com": {
