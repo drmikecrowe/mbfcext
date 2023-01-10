@@ -21620,6 +21620,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/artificial-intelligence": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/artificial-intelligence",
+    "n": "Frontiers in Artificial Intelligence",
+    "p": "/journals/artificial-intelligence",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-artificial-intelligence-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -26517,7 +26528,7 @@
     "u": "https://mediabiasfactcheck.com/indianapolis-star/",
     "P": 86,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "inequalitymedia.org": {
@@ -26530,7 +26541,7 @@
     "u": "https://mediabiasfactcheck.com/inequality-media/",
     "P": 28,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "inews.co.uk": {
@@ -26550,11 +26561,11 @@
     "b": "CP",
     "d": "infiniteunknown.net",
     "n": "Infinite Unknown",
-    "r": "L",
+    "r": "VL",
     "u": "https://mediabiasfactcheck.com/infinite-unknown/",
     "P": 56,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "influencewatch.org": {
@@ -32555,6 +32566,16 @@
       "FC",
       "IM"
     ]
+  },
+  "lowellsun.com": {
+    "b": "C",
+    "d": "lowellsun.com",
+    "n": "Lowell Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lowell-sun-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "lowndessignal.com": {
     "b": "RC",
@@ -39704,6 +39725,17 @@
     "a": "L",
     "q": []
   },
+  "nonstoplocal.com/billings": {
+    "b": "C",
+    "d": "nonstoplocal.com/billings",
+    "n": "KULR - Billings News",
+    "p": "/billings",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kulr-billings-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "noozhawk.com": {
     "b": "C",
     "d": "noozhawk.com",
@@ -44714,6 +44746,16 @@
     "P": 88,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "pqbnews.com": {
+    "b": "LC",
+    "d": "pqbnews.com",
+    "n": "Parksville Qualicum Beach News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/parksville-qualicum-beach-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "prageru.com": {
@@ -52260,7 +52302,7 @@
     "q": []
   },
   "spokesman.com": {
-    "b": "RC",
+    "b": "C",
     "d": "spokesman.com",
     "f": "spokesmanreview",
     "n": "The Spokesman-Review",
@@ -54878,6 +54920,17 @@
     "u": "https://mediabiasfactcheck.com/baton-rouge-advocate-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "theadvocate.com/acadiana": {
+    "b": "LC",
+    "d": "theadvocate.com/acadiana",
+    "n": "Acadiana Advocate",
+    "p": "/acadiana",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/acadiana-advocate-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "theadvocates.org": {
