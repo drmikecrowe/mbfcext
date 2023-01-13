@@ -704,6 +704,16 @@
     "a": "H",
     "q": []
   },
+  "abc15.com": {
+    "b": "C",
+    "d": "abc15.com",
+    "n": "KNXV - Phoenix News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/knxv-phoenix-news-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "abc17news.com": {
     "b": "C",
     "d": "abc17news.com",
@@ -27844,6 +27854,20 @@
       "IM"
     ]
   },
+  "jeffcotimes.com": {
+    "b": "FN",
+    "d": "jeffcotimes.com",
+    "n": "Jefferson County Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/jefferson-county-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "jeffereyjaxen.com": {
     "b": "CP",
     "d": "jeffereyjaxen.com",
@@ -33739,6 +33763,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/analytics": {
+    "b": "PS",
+    "d": "mdpi.com/journal/analytics",
+    "n": "Analytics Journal",
+    "p": "/journal/analytics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/analytics-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -35080,6 +35115,17 @@
     "u": "https://mediabiasfactcheck.com/ann-arbor-news-mlive-com-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "mlive.com/flint": {
+    "b": "C",
+    "d": "mlive.com/flint",
+    "n": "Flint Journal",
+    "p": "/flint",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/flint-journal-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "mlive.com/grand-rapids-muskegon": {
@@ -49743,6 +49789,16 @@
     "a": "M",
     "q": []
   },
+  "seacoastonline.com": {
+    "b": "LC",
+    "d": "seacoastonline.com",
+    "n": "Portsmouth Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/portsmouth-herald-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "sealaskanews.com": {
     "b": "FN",
     "d": "sealaskanews.com",
@@ -50441,6 +50497,17 @@
     "p": "/kane-county-chronicle",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kane-county-chronicle-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "shawlocal.com/kendall-county-now": {
+    "b": "C",
+    "d": "shawlocal.com/kendall-county-now",
+    "n": "Kendall County Now",
+    "p": "/kendall-county-now",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kendall-county-now-bias/",
     "c": "H",
     "a": "L",
     "q": []
