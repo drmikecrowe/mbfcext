@@ -10965,6 +10965,16 @@
     "a": "M",
     "q": []
   },
+  "clevescene.com": {
+    "b": "L",
+    "d": "clevescene.com",
+    "n": "Cleveland Scene",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cleveland-scene/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "click2houston.com": {
     "b": "C",
     "d": "click2houston.com",
@@ -26651,7 +26661,7 @@
     "u": "https://mediabiasfactcheck.com/information-clearing-house/",
     "P": 64,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "informationliberation.com": {
@@ -28946,6 +28956,20 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "kcreporter.com": {
+    "b": "FN",
+    "d": "kcreporter.com",
+    "n": "KC Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kc-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "kcrw.com": {
     "b": "LC",
@@ -35345,6 +35369,16 @@
       "FC",
       "IM"
     ]
+  },
+  "montenews.com": {
+    "b": "C",
+    "d": "montenews.com",
+    "n": "Montevideo News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/montevideo-american-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "montereyherald.com": {
     "b": "C",
@@ -58251,6 +58285,17 @@
     "a": "N",
     "q": []
   },
+  "therecord.com/local-toronto-north-york": {
+    "b": "LC",
+    "d": "therecord.com/local-toronto-north-york",
+    "n": "North York Mirror",
+    "p": "/local-toronto-north-york",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/north-york-mirror-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "theredelephants.com": {
     "b": "FN",
     "d": "theredelephants.com",
@@ -58427,7 +58472,7 @@
     "u": "https://mediabiasfactcheck.com/the-rundown-live/",
     "P": 37,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thesaturdaypaper.com.au": {
@@ -58451,7 +58496,7 @@
     "u": "https://mediabiasfactcheck.com/the-science-post/",
     "P": 42,
     "c": "NA",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thescinewsreporter.com": {
@@ -59186,6 +59231,21 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "thevirginiastar.com": {
+    "b": "FN",
+    "d": "thevirginiastar.com",
+    "n": "Virginia Star",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/virginia-star-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "thewalrus.ca": {
     "b": "L",
