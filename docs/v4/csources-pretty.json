@@ -12686,6 +12686,16 @@
     "a": "M",
     "q": []
   },
+  "coopercrier.com": {
+    "b": "LC",
+    "d": "coopercrier.com",
+    "n": "Cooperstown Crier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cooperstown-crier-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "copblock.org": {
     "b": "L",
     "d": "copblock.org",
@@ -24813,6 +24823,16 @@
     "a": "M",
     "q": []
   },
+  "highrivertimes.com": {
+    "b": "RC",
+    "d": "highrivertimes.com",
+    "n": "High River Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/high-river-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hightimes.com": {
     "b": "L",
     "d": "hightimes.com",
@@ -35225,6 +35245,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/mobile-courant/",
     "P": 3,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "mobusinessdaily.com": {
+    "b": "FN",
+    "d": "mobusinessdaily.com",
+    "n": "Missouri Business Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/missouri-business-daily-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -48383,16 +48417,24 @@
     ]
   },
   "ronpaulinstitute.org": {
-    "b": "R",
+    "b": "FN",
     "d": "ronpaulinstitute.org",
     "f": "RonPaulInstitute",
     "n": "The Ron Paul Institute",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/the-ron-paul-institute/",
     "P": 63,
-    "c": "M",
+    "c": "L",
     "a": "L",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "ronpaullibertyreport.com": {
     "b": "R",
