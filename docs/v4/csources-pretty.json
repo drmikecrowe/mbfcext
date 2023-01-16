@@ -30626,6 +30626,20 @@
     "a": "L",
     "q": []
   },
+  "lacrosseleader.org": {
+    "b": "FN",
+    "d": "lacrosseleader.org",
+    "n": "La Crosse Leader",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/la-crosse-leader-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
+  },
   "lacrossetribune.com": {
     "b": "C",
     "d": "lacrossetribune.com",
@@ -34744,6 +34758,16 @@
       "FC"
     ]
   },
+  "michiganadvance.com": {
+    "b": "L",
+    "d": "michiganadvance.com",
+    "n": "Michigan Advance",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/michigan-advance-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "michiganindependent.com": {
     "b": "FN",
     "d": "michiganindependent.com",
@@ -37738,6 +37762,20 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "nekansascitynews.com": {
+    "b": "FN",
+    "d": "nekansascitynews.com",
+    "n": "NE Kansas City News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-kansas-city-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "nekansasnews.com": {
     "b": "FN",
@@ -44560,6 +44598,16 @@
       "FC",
       "IM"
     ]
+  },
+  "pontevedrarecorder.com": {
+    "b": "C",
+    "d": "pontevedrarecorder.com",
+    "n": "Ponte Vedra Recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ponte-vedra-recorder-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "pontiacdailyleader.com": {
     "b": "LC",
@@ -58460,7 +58508,15 @@
     "P": 70,
     "c": "L",
     "a": "M",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "therightstuff.biz": {
     "b": "FN",
@@ -58474,8 +58530,12 @@
     "q": [
       "C",
       "P",
+      "PS",
+      "LT",
+      "FC",
       "M",
-      "H"
+      "H",
+      "PSE"
     ]
   },
   "theringer.com": {
