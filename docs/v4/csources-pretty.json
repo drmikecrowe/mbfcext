@@ -7401,6 +7401,16 @@
     "a": "M",
     "q": []
   },
+  "brentwoodlive.co.uk": {
+    "b": "C",
+    "d": "brentwoodlive.co.uk",
+    "n": "Brentwood Live",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/brentwood-live-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "brevardsun.com": {
     "b": "FN",
     "d": "brevardsun.com",
@@ -23941,6 +23951,16 @@
     "a": "L",
     "q": []
   },
+  "hammondstar.com": {
+    "b": "RC",
+    "d": "hammondstar.com",
+    "n": "Hammond Daily Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hammond-daily-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hanfordsentinel.com": {
     "b": "C",
     "d": "hanfordsentinel.com",
@@ -30562,6 +30582,16 @@
     "n": "KXLY - Spokane News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kxly-spokane-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "kxnet.com": {
+    "b": "C",
+    "d": "kxnet.com",
+    "n": "KXMA - Dickinson News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kxma-dickinson-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -37839,6 +37869,20 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "nemissourinews.com": {
+    "b": "FN",
+    "d": "nemissourinews.com",
+    "n": "NE Missouri News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-missouri-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "neonnettle.com": {
     "b": "CP",
@@ -49235,6 +49279,17 @@
     "a": "L",
     "q": []
   },
+  "sasktoday.ca/south/assiniboia-times": {
+    "b": "LC",
+    "d": "sasktoday.ca/south/assiniboia-times",
+    "n": "Assiniboia Times",
+    "p": "/south/assiniboia-times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/assiniboia-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "satiratribune.com": {
     "b": "S",
     "d": "satiratribune.com",
@@ -58180,14 +58235,14 @@
     ]
   },
   "thepostemail.com": {
-    "b": "R",
+    "b": "FN",
     "d": "thepostemail.com",
     "n": "The Post & Email",
     "r": "M",
     "t": "thepostemail",
     "u": "https://mediabiasfactcheck.com/the-post-email/",
     "P": 56,
-    "c": "M",
+    "c": "L",
     "a": "L",
     "q": [
       "C",
