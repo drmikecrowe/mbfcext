@@ -27957,6 +27957,16 @@
       "IM"
     ]
   },
+  "jessaminejournal.com": {
+    "b": "RC",
+    "d": "jessaminejournal.com",
+    "n": "Jessamine Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jessamine-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jesus-is-savior.com": {
     "b": "CP",
     "d": "jesus-is-savior.com",
@@ -30652,6 +30662,16 @@
     "n": "KYOU - Ottumwa News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kyou-ottumwa-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "kyuk.org": {
+    "b": "LC",
+    "d": "kyuk.org",
+    "n": "KYUK - NPR - Yukon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kyuk-npr-yukon-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -40680,6 +40700,20 @@
       "IM"
     ]
   },
+  "northstlnews.com": {
+    "b": "FN",
+    "d": "northstlnews.com",
+    "n": "North STL News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-stl-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "northtamatelegraph.com": {
     "b": "C",
     "d": "northtamatelegraph.com",
@@ -42490,7 +42524,7 @@
     "u": "https://mediabiasfactcheck.com/the-outlook-monmouth-university/",
     "P": 50,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "outragedpatriot.com": {
@@ -52011,6 +52045,17 @@
     "a": "L",
     "q": []
   },
+  "southernminn.com/le_sueur_county_news": {
+    "b": "LC",
+    "d": "southernminn.com/le_sueur_county_news",
+    "n": "Le Sueur County News",
+    "p": "/le_sueur_county_news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/le-sueur-county-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "southernminn.com/the_kenyon_leader": {
     "b": "LC",
     "d": "southernminn.com/the_kenyon_leader",
@@ -56884,6 +56929,17 @@
     "t": "guardian",
     "u": "https://mediabiasfactcheck.com/the-guardian/",
     "P": 98,
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
+  "theguardian.com/observer": {
+    "b": "LC",
+    "d": "theguardian.com/observer",
+    "n": "The Observer (UK)",
+    "p": "/observer",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-observer/",
     "c": "M",
     "a": "H",
     "q": []
