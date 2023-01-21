@@ -8520,6 +8520,20 @@
     "a": "L",
     "q": []
   },
+  "cambridge.org/core/journals/international-organization": {
+    "b": "C",
+    "d": "cambridge.org/core/journals/international-organization",
+    "f": "CambridgeCore",
+    "n": "International Organization",
+    "p": "/core/journals/international-organization",
+    "r": "VH",
+    "t": "CambridgeCore",
+    "u": "https://mediabiasfactcheck.com/international-organization/",
+    "P": 84,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cambridgeanalytica.org": {
     "b": "R",
     "d": "cambridgeanalytica.org",
@@ -25820,7 +25834,7 @@
     "u": "https://mediabiasfactcheck.com/international-center-for-research-on-women/",
     "P": 64,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "idahonews.com": {
@@ -26064,8 +26078,10 @@
     "q": [
       "C",
       "P",
+      "PS",
       "M",
-      "H"
+      "H",
+      "PSE"
     ]
   },
   "ihypocrite.net": {
@@ -27054,7 +27070,7 @@
     "u": "https://mediabiasfactcheck.com/intellihub/",
     "P": 56,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "interfax.ru": {
@@ -28396,19 +28412,6 @@
     "u": "https://mediabiasfactcheck.com/winston-salem-journal/",
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "journals.cambridge.org": {
-    "b": "C",
-    "d": "journals.cambridge.org",
-    "f": "CambridgeCore",
-    "n": "International Organization",
-    "r": "VH",
-    "t": "CambridgeCore",
-    "u": "https://mediabiasfactcheck.com/international-organization/",
-    "P": 84,
-    "c": "H",
-    "a": "H",
     "q": []
   },
   "journalstandard.com": {
@@ -33903,6 +33906,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/anatomia": {
+    "b": "PS",
+    "d": "mdpi.com/journal/anatomia",
+    "n": "Anatomia Journal",
+    "p": "/journal/anatomia",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/anatomia-journal-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -34615,7 +34629,7 @@
   "metrotimes.com": {
     "b": "L",
     "d": "metrotimes.com",
-    "n": "Detroit Metro News",
+    "n": "Detroit Metro Times",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/detroit-metro-times/",
     "c": "H",
@@ -35277,6 +35291,17 @@
     "t": "mlive",
     "u": "https://mediabiasfactcheck.com/grand-rapids-press/",
     "P": 87,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "mlive.com/jackson": {
+    "b": "C",
+    "d": "mlive.com/jackson",
+    "n": "Jackson Citizen Patriot",
+    "p": "/jackson",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jackson-citizen-patriot-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -47822,7 +47847,7 @@
     "u": "https://mediabiasfactcheck.com/institute-for-responsible-technology/",
     "P": 59,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "restoreamericanglory.com": {
@@ -48874,6 +48899,16 @@
       "FC",
       "IM"
     ]
+  },
+  "sacurrent.com": {
+    "b": "L",
+    "d": "sacurrent.com",
+    "n": "San Antonio Current",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/san-antonio-current-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "sagepub.com": {
     "b": "PS",
@@ -57940,7 +57975,7 @@
     "u": "https://mediabiasfactcheck.com/the-new-civil-rights-movement/",
     "P": 66,
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "thenewhumanitarian.org": {
@@ -57992,7 +58027,7 @@
     "u": "https://mediabiasfactcheck.com/the-news-mexico-city/",
     "P": 36,
     "c": "M",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thenewsnerd.com": {
@@ -67468,6 +67503,16 @@
     "n": "WTVM - Columbus News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wtvm-columbus-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wtvr.com": {
+    "b": "C",
+    "d": "wtvr.com",
+    "n": "WTVR - Richmond News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtvr-richmond-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
