@@ -14830,6 +14830,16 @@
     "a": "M",
     "q": []
   },
+  "dcjournal.com": {
+    "b": "RC",
+    "d": "dcjournal.com",
+    "n": "DC Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/dc-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "dcnewsnow.com": {
     "b": "C",
     "d": "dcnewsnow.com",
@@ -35986,6 +35996,16 @@
     "a": "L",
     "q": []
   },
+  "munisingbeacon.com": {
+    "b": "C",
+    "d": "munisingbeacon.com",
+    "n": "Munising Beacon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/munising-beacon-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "muricatoday.com": {
     "b": "CP",
     "d": "muricatoday.com",
@@ -40759,6 +40779,16 @@
     "a": "L",
     "q": []
   },
+  "northumberlandnews.com": {
+    "b": "LC",
+    "d": "northumberlandnews.com",
+    "n": "Northumberland News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/northumberland-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "northwestsignal.net": {
     "b": "RC",
     "d": "northwestsignal.net",
@@ -41445,6 +41475,20 @@
     "n": "NW Mississippi News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/nw-mississippi-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "nwmissouritimes.com": {
+    "b": "FN",
+    "d": "nwmissouritimes.com",
+    "n": "NW Missouri Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-missouri-times-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -43612,6 +43656,16 @@
     "P": 83,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "pennsylvaniadailystar.com": {
+    "b": "FN",
+    "d": "pennsylvaniadailystar.com",
+    "n": "Pennsylvania Daily Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pennsylvania-daily-star-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "pennsylvaniaindependent.com": {
