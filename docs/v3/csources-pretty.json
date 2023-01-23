@@ -12799,6 +12799,16 @@
     "a": "H",
     "q": []
   },
+  "corsicanadailysun.com": {
+    "b": "LC",
+    "d": "corsicanadailysun.com",
+    "n": "Corsicana Daily Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/corsicana-daily-sun-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cosmicintelligenceagency.com": {
     "b": "CP",
     "d": "cosmicintelligenceagency.com",
@@ -23385,6 +23395,16 @@
     "a": "L",
     "q": []
   },
+  "graydc.com": {
+    "b": "C",
+    "d": "graydc.com",
+    "n": "Gray DC Bureau",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/gray-dc-bureau-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "greanvillepost.com": {
     "b": "CP",
     "d": "greanvillepost.com",
@@ -33574,6 +33594,16 @@
     "u": "https://mediabiasfactcheck.com/the-intellectualist/",
     "P": 33,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mayerthorpefreelancer.com": {
+    "b": "RC",
+    "d": "mayerthorpefreelancer.com",
+    "n": "Mayerthorpe Freelancer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mayerthorpe-freelancer/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -44140,6 +44170,20 @@
     "a": "L",
     "q": []
   },
+  "plattenews.com": {
+    "b": "FN",
+    "d": "plattenews.com",
+    "n": "Platte News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/platte-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "plos.org": {
     "b": "PS",
     "d": "plos.org",
@@ -49700,6 +49744,16 @@
     "u": "https://mediabiasfactcheck.com/science-translational-medicine/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "science20.com": {
+    "b": "PS",
+    "d": "science20.com",
+    "n": "Science 2.0",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/science-2-0/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "sciencealert.com": {
@@ -61944,6 +61998,16 @@
     "P": 61,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "unlimitedhangout.com": {
+    "b": "CP",
+    "d": "unlimitedhangout.com",
+    "n": "Unlimited Hangout",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/unlimited-hangout-bias/",
+    "c": "L",
+    "a": "M",
     "q": []
   },
   "unmuzzlednews.com": {
