@@ -21746,6 +21746,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/audiology-and-otology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/audiology-and-otology",
+    "n": "Frontiers in Audiology and Otology",
+    "p": "/journals/audiology-and-otology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-audiology-and-otology/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -31672,6 +31683,20 @@
     "a": "M",
     "q": []
   },
+  "lehighnews.org": {
+    "b": "FN",
+    "d": "lehighnews.org",
+    "n": "Lehigh Valley News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lehigh-valley-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
+  },
   "lehighvalleylive.com": {
     "b": "LC",
     "d": "lehighvalleylive.com",
@@ -35145,6 +35170,16 @@
     "u": "https://mediabiasfactcheck.com/wcco-cbs-minnesota/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "minnesotareformer.com": {
+    "b": "L",
+    "d": "minnesotareformer.com",
+    "n": "Minnesota Reformer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/minnesota-reformer-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "minnesotastatewire.com": {
@@ -48961,6 +48996,16 @@
       "H"
     ]
   },
+  "saanichnews.com": {
+    "b": "LC",
+    "d": "saanichnews.com",
+    "n": "Saanich News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/saanich-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sacbee.com": {
     "b": "LC",
     "d": "sacbee.com",
@@ -50015,6 +50060,20 @@
     "n": "SC Mississippi News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/sc-mississippi-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "scmissourinews.com": {
+    "b": "FN",
+    "d": "scmissourinews.com",
+    "n": "SC Missouri News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sc-missouri-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
