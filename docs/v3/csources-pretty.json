@@ -13960,6 +13960,16 @@
     "a": "H",
     "q": []
   },
+  "dailyfreeman.com": {
+    "b": "C",
+    "d": "dailyfreeman.com",
+    "n": "Kingston Daily Freeman",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kingston-daily-freeman-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "dailygazette.com": {
     "b": "C",
     "d": "dailygazette.com",
@@ -39740,19 +39750,6 @@
       "M"
     ]
   },
-  "newsy.com": {
-    "b": "LC",
-    "d": "newsy.com",
-    "f": "newsy",
-    "n": "Newsy",
-    "r": "H",
-    "t": "newsyvideos",
-    "u": "https://mediabiasfactcheck.com/newsy/",
-    "P": 78,
-    "c": "H",
-    "a": "M",
-    "q": []
-  },
   "newyork.cbslocal.com": {
     "b": "LC",
     "d": "newyork.cbslocal.com",
@@ -40133,6 +40130,17 @@
     "p": "/billings",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kulr-billings-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "nonstoplocal.com/butte-bozeman": {
+    "b": "C",
+    "d": "nonstoplocal.com/butte-bozeman",
+    "n": "KWYB - Butte-Bozeman News",
+    "p": "/butte-bozeman",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kwyb-butte-bozeman-news/",
     "c": "H",
     "a": "L",
     "q": []
@@ -50209,6 +50217,19 @@
     "a": "H",
     "q": []
   },
+  "scrippsnews.com": {
+    "b": "LC",
+    "d": "scrippsnews.com",
+    "f": "newsy",
+    "n": "Scripps News (Newsy)",
+    "r": "H",
+    "t": "newsyvideos",
+    "u": "https://mediabiasfactcheck.com/newsy/",
+    "P": 78,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "scroll.in": {
     "b": "LC",
     "d": "scroll.in",
@@ -51955,6 +51976,26 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "sonsoflibertymedia.com": {
+    "b": "FN",
+    "d": "sonsoflibertymedia.com",
+    "n": "The Sons of Liberty Media",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/sons-liberty-media/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
   },
   "sooeveningnews.com": {
     "b": "LC",
@@ -60637,6 +60678,17 @@
     "P": 60,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "townandcountrytoday.com/athabasca-news": {
+    "b": "LC",
+    "d": "townandcountrytoday.com/athabasca-news",
+    "n": "Athabasca Advocate",
+    "p": "/athabasca-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/athabasca-advocate-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "townhall.com": {
