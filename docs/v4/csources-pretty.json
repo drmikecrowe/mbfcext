@@ -7474,6 +7474,16 @@
       "IM"
     ]
   },
+  "bridgewatermercury.co.uk": {
+    "b": "C",
+    "d": "bridgewatermercury.co.uk",
+    "n": "Bridgewater Mercury",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bridgewater-mercury-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "brief.news": {
     "b": "C",
     "d": "brief.news",
@@ -24747,6 +24757,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/rock-hill-herald/",
     "P": 54,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "heraldpalladium.com": {
+    "b": "RC",
+    "d": "heraldpalladium.com",
+    "n": "St. Joseph Herald-Palladium",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/st-joseph-herald-palladium-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -50553,6 +50573,20 @@
       "IM"
     ]
   },
+  "sekansascitynews.com": {
+    "b": "FN",
+    "d": "sekansascitynews.com",
+    "n": "SE Kansas City News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-kansas-city-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "sekansasnews.com": {
     "b": "FN",
     "d": "sekansasnews.com",
@@ -57901,14 +57935,15 @@
     "u": "https://mediabiasfactcheck.com/the-millennium-report/",
     "P": 52,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
       "LT",
       "FFC",
       "FC",
-      "M"
+      "M",
+      "PSE"
     ]
   },
   "themilreview.com": {
@@ -57970,7 +58005,7 @@
     "u": "https://mediabiasfactcheck.com/the-moderate-voice/",
     "P": 67,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "themonthly.com.au": {
@@ -58020,24 +58055,6 @@
     "a": "M",
     "q": []
   },
-  "thenational.ae": {
-    "b": "FN",
-    "d": "thenational.ae",
-    "f": "thenational.ae",
-    "n": "The National (UAE)",
-    "r": "M",
-    "t": "TheNationalUAE",
-    "u": "https://mediabiasfactcheck.com/the-national-uae/",
-    "P": 86,
-    "c": "L",
-    "a": "L",
-    "q": [
-      "P",
-      "PS",
-      "LT",
-      "CEN"
-    ]
-  },
   "thenational.scot": {
     "b": "LC",
     "d": "thenational.scot",
@@ -58068,6 +58085,24 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "thenationalnews.com": {
+    "b": "FN",
+    "d": "thenationalnews.com",
+    "f": "thenational.ae",
+    "n": "The National (UAE)",
+    "r": "M",
+    "t": "TheNationalUAE",
+    "u": "https://mediabiasfactcheck.com/the-national-uae/",
+    "P": 86,
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "CEN"
+    ]
   },
   "thenationalpatriot.com": {
     "b": "FN",
@@ -61766,7 +61801,7 @@
     "u": "https://mediabiasfactcheck.com/the-nation-institute/",
     "P": 56,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "tyt.com": {
