@@ -27379,7 +27379,7 @@
     "u": "https://mediabiasfactcheck.com/iowa-climate-science-education/",
     "P": 20,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "iowastartingline.com": {
@@ -27444,7 +27444,7 @@
     "u": "https://mediabiasfactcheck.com/ipolitics/",
     "P": 67,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "ips-dc.org": {
@@ -27501,7 +27501,7 @@
     "u": "https://mediabiasfactcheck.com/investigative-reporters-and-editors/",
     "P": 75,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "irena.org": {
@@ -35417,6 +35417,17 @@
     "p": "/jackson",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/jackson-citizen-patriot-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "mlive.com/kalamazoo": {
+    "b": "C",
+    "d": "mlive.com/kalamazoo",
+    "n": "Kalamazoo Gazette",
+    "p": "/kalamazoo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kalamazoo-gazette-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -45724,7 +45735,7 @@
     "u": "https://mediabiasfactcheck.com/international-organization-for-the-family-iof/",
     "P": 54,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -50694,6 +50705,20 @@
       "IM"
     ]
   },
+  "semissourinews.com": {
+    "b": "FN",
+    "d": "semissourinews.com",
+    "n": "SE Missouri News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-missouri-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "sentencingproject.org": {
     "b": "LC",
     "d": "sentencingproject.org",
@@ -52359,6 +52384,17 @@
     "p": "/le_sueur_county_news",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/le-sueur-county-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "southernminn.com/owatonna_peoples_press": {
+    "b": "LC",
+    "d": "southernminn.com/owatonna_peoples_press",
+    "n": "Blooming Prairie Leader",
+    "p": "/owatonna_peoples_press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/blooming-prairie-leader-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -56478,6 +56514,16 @@
     "P": 15,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "thedailyjournal.com": {
+    "b": "LC",
+    "d": "thedailyjournal.com",
+    "n": "Vineland Daily Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vineland-daily-journal-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "thedailyliberator.com": {
