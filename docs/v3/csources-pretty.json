@@ -4304,6 +4304,16 @@
     "a": "L",
     "q": []
   },
+  "arenacindependent.com": {
+    "b": "C",
+    "d": "arenacindependent.com",
+    "n": "Arenac County Independent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/arenac-county-independent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "areomagazine.com": {
     "b": "LC",
     "d": "areomagazine.com",
@@ -15305,6 +15315,16 @@
     "a": "M",
     "q": []
   },
+  "delawarevalleyjournal.com": {
+    "b": "RC",
+    "d": "delawarevalleyjournal.com",
+    "n": "DV Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/dv-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "delawarevalleysun.com": {
     "b": "FN",
     "d": "delawarevalleysun.com",
@@ -18670,6 +18690,25 @@
       "FFC",
       "FC",
       "M"
+    ]
+  },
+  "eviemagazine.com": {
+    "b": "FN",
+    "d": "eviemagazine.com",
+    "n": "Evie Magazine",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/evie-magazine-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
     ]
   },
   "evil.news": {
@@ -22470,6 +22509,21 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "georgiastarnews.com": {
+    "b": "FN",
+    "d": "georgiastarnews.com",
+    "n": "Georgia Star News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/georgia-star-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "getcancerremedies.com": {
     "b": "CP",
@@ -27020,6 +27074,17 @@
     "p": "/burlington-on",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/burlington-post-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "insidehalton.com/oakville-on": {
+    "b": "LC",
+    "d": "insidehalton.com/oakville-on",
+    "n": "Oakville Beaver",
+    "p": "/oakville-on",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/oakville-beaver-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -45546,6 +45611,16 @@
     "a": "L",
     "q": []
   },
+  "pressfreedomtracker.us": {
+    "b": "C",
+    "d": "pressfreedomtracker.us",
+    "n": "U.S. Press Freedom Tracker",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/u-s-press-freedom-tracker-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "pressherald.com": {
     "b": "LC",
     "d": "pressherald.com",
@@ -51317,6 +51392,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "showmestatetimes.com": {
+    "b": "FN",
+    "d": "showmestatetimes.com",
+    "n": "Show-Me State Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/show-me-state-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "shreveportreporter.com": {
     "b": "FN",
