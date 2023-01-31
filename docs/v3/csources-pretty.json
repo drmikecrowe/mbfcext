@@ -13450,6 +13450,16 @@
     "a": "L",
     "q": []
   },
+  "crossville-chronicle.com": {
+    "b": "LC",
+    "d": "crossville-chronicle.com",
+    "n": "Crossville Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/crossville-chronicle-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "crusaderjournal.com": {
     "b": "CP",
     "d": "crusaderjournal.com",
@@ -36738,6 +36748,16 @@
     "a": "L",
     "q": []
   },
+  "nantonnews.com": {
+    "b": "RC",
+    "d": "nantonnews.com",
+    "n": "Nanton News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nanton-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "nap-sack.org": {
     "b": "L",
     "d": "nap-sack.org",
@@ -44292,19 +44312,6 @@
       "FC",
       "IM"
     ]
-  },
-  "pinknews.co.uk": {
-    "b": "L",
-    "d": "pinknews.co.uk",
-    "f": "pinknews",
-    "n": "PinkNews",
-    "r": "H",
-    "t": "PinkNews",
-    "u": "https://mediabiasfactcheck.com/pink-news/",
-    "P": 79,
-    "c": "H",
-    "a": "M",
-    "q": []
   },
   "pix11.com": {
     "b": "C",
@@ -51993,7 +52000,7 @@
     "u": "https://mediabiasfactcheck.com/the-middle-east-in-london/",
     "P": 78,
     "c": "H",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "sociable.co": {
@@ -52660,6 +52667,20 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "southkcnews.com": {
+    "b": "FN",
+    "d": "southkcnews.com",
+    "n": "South KC News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-kc-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "southkentnews.com": {
     "b": "FN",
@@ -58080,12 +58101,12 @@
     "d": "themarysue.com",
     "f": "TheMarySue",
     "n": "The Mary Sue",
-    "r": "M",
+    "r": "MF",
     "t": "TheMarySue",
     "u": "https://mediabiasfactcheck.com/the-mary-sue/",
     "P": 83,
-    "c": "M",
-    "a": "M",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "themichiganstar.com": {
@@ -58149,7 +58170,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-millennial-review/",
     "P": 11,
-    "c": "H",
+    "c": "M",
     "a": "N",
     "q": []
   },
@@ -58708,6 +58729,19 @@
     "u": "https://mediabiasfactcheck.com/kawartha-lakes-this-week-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "thepinknews.com": {
+    "b": "L",
+    "d": "thepinknews.com",
+    "f": "pinknews",
+    "n": "PinkNews",
+    "r": "H",
+    "t": "PinkNews",
+    "u": "https://mediabiasfactcheck.com/pink-news/",
+    "P": 79,
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "thepoliticalbrief.com": {
@@ -66564,6 +66598,16 @@
       "FC",
       "IM"
     ]
+  },
+  "wisconsinexaminer.com": {
+    "b": "L",
+    "d": "wisconsinexaminer.com",
+    "n": "Wisconsin Examiner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wisconsin-examiner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "wisconsinindependent.com": {
     "b": "FN",
