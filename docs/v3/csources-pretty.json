@@ -21836,6 +21836,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/batteries-and-electrochemistry": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/batteries-and-electrochemistry",
+    "n": "Frontiers in Batteries and Electrochemicals",
+    "p": "/journals/batteries-and-electrochemistry",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-batteries-and-electrochemistry-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -33130,6 +33141,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "macombdigest.com": {
+    "b": "FN",
+    "d": "macombdigest.com",
+    "n": "Macomb Digest",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/macomb-digest-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
   },
   "macombtoday.com": {
     "b": "FN",
@@ -52906,6 +52931,20 @@
       "IM"
     ]
   },
+  "southstlnews.com": {
+    "b": "FN",
+    "d": "southstlnews.com",
+    "n": "South STL News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-stl-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "southwichitanews.com": {
     "b": "FN",
     "d": "southwichitanews.com",
@@ -57884,10 +57923,10 @@
     ]
   },
   "theledger.com": {
-    "b": "RC",
+    "b": "LC",
     "d": "theledger.com",
     "f": "theledger",
-    "n": "The Ledger",
+    "n": "The Lakeland Ledger",
     "r": "H",
     "t": "theledger",
     "u": "https://mediabiasfactcheck.com/the-ledger/",
@@ -57915,7 +57954,7 @@
     "t": "thelibrepublic",
     "u": "https://mediabiasfactcheck.com/the-libertarian-republic/",
     "P": 62,
-    "c": "M",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -57929,7 +57968,7 @@
     "u": "https://mediabiasfactcheck.com/the-liberty-beacon/",
     "P": 50,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "thelibertydaily.com": {
