@@ -40327,6 +40327,17 @@
     "a": "L",
     "q": []
   },
+  "nonstoplocal.com/great-falls-helena": {
+    "b": "C",
+    "d": "nonstoplocal.com/great-falls-helena",
+    "n": "KFBB - Great Falls News",
+    "p": "/great-falls-helena",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kfbb-great-falls-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "noozhawk.com": {
     "b": "C",
     "d": "noozhawk.com",
@@ -49687,6 +49698,16 @@
       "IM"
     ]
   },
+  "saratogian.com": {
+    "b": "C",
+    "d": "saratogian.com",
+    "n": "The Saratogian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-saratogian-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sasktoday.ca/north/battlefords-news-optimist": {
     "b": "C",
     "d": "sasktoday.ca/north/battlefords-news-optimist",
@@ -52238,6 +52259,16 @@
     "a": "L",
     "q": []
   },
+  "sookenewsmirror.com": {
+    "b": "LC",
+    "d": "sookenewsmirror.com",
+    "n": "Sooke News Mirror",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sooke-news-mirror-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sootoday.com": {
     "b": "LC",
     "d": "sootoday.com",
@@ -53256,6 +53287,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "springfieldstandard.com": {
+    "b": "FN",
+    "d": "springfieldstandard.com",
+    "n": "Springfield Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/springfield-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "springstimes.com": {
     "b": "FN",
@@ -60982,6 +61027,16 @@
     "P": 60,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "townandcountrytoday.com": {
+    "b": "LC",
+    "d": "townandcountrytoday.com",
+    "n": "Barrhead Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/barrhead-leader-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "townandcountrytoday.com/athabasca-news": {
