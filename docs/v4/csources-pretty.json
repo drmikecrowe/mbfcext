@@ -27728,7 +27728,7 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/israel-hayom/",
     "P": 67,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -27958,7 +27958,7 @@
     ]
   },
   "jacksonsun.com": {
-    "b": "C",
+    "b": "LC",
     "d": "jacksonsun.com",
     "f": "JacksonSun",
     "n": "Jackson Sun",
@@ -28201,7 +28201,7 @@
     "u": "https://mediabiasfactcheck.com/jesus-daily/",
     "P": 38,
     "c": "L",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "jewishbreakingnews.com": {
@@ -28260,7 +28260,7 @@
     "u": "https://mediabiasfactcheck.com/jewish-world-review/",
     "P": 72,
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "jewsnews.co.il": {
@@ -30635,6 +30635,16 @@
     "u": "https://mediabiasfactcheck.com/ktvz-bend-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kuac.org": {
+    "b": "LC",
+    "d": "kuac.org",
+    "n": "KUAC - NPR - Fairbanks",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kuac-npr-fairbanks-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kuow.org": {
@@ -52591,6 +52601,17 @@
     "a": "L",
     "q": []
   },
+  "southernminn.com/lonsdale_area_news_review": {
+    "b": "LC",
+    "d": "southernminn.com/lonsdale_area_news_review",
+    "n": "Lonsdale Area News-Review",
+    "p": "/lonsdale_area_news_review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lonsdale-area-news-review-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "southernminn.com/owatonna_peoples_press": {
     "b": "LC",
     "d": "southernminn.com/owatonna_peoples_press",
@@ -53583,6 +53604,16 @@
     "a": "H",
     "q": []
   },
+  "state-journal.com": {
+    "b": "RC",
+    "d": "state-journal.com",
+    "n": "Frankfort State Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/frankfort-state-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "statefort.com": {
     "b": "FN",
     "d": "statefort.com",
@@ -53704,6 +53735,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "stcharlestimes.com": {
+    "b": "FN",
+    "d": "stcharlestimes.com",
+    "n": "St. Charles Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-charles-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "stclairtoday.com": {
     "b": "FN",
