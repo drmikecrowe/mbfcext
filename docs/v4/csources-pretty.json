@@ -1127,6 +1127,16 @@
     "a": "L",
     "q": []
   },
+  "actaneurocomms.biomedcentral.com": {
+    "b": "PS",
+    "d": "actaneurocomms.biomedcentral.com",
+    "n": "Acta Neuropathologica Communications",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/acta-neuropathologica-communications-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "acting-man.com": {
     "b": "FN",
     "d": "acting-man.com",
@@ -6256,11 +6266,11 @@
     "d": "biomedcentral.com",
     "f": "BioMedCentral",
     "n": "BioMedical Central (BMC)",
-    "r": "H",
+    "r": "MF",
     "t": "biomedcentral",
     "u": "https://mediabiasfactcheck.com/biomed-central-bmc/",
     "P": 91,
-    "c": "H",
+    "c": "M",
     "a": "H",
     "q": []
   },
@@ -35593,6 +35603,17 @@
     "a": "M",
     "q": []
   },
+  "mlive.com/news/muskegon": {
+    "b": "C",
+    "d": "mlive.com/news/muskegon",
+    "n": "Muskegon Chronicle",
+    "p": "/news/muskegon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/muskegon-chronicle-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "mlive.com/saginaw-bay-city": {
     "b": "C",
     "d": "mlive.com/saginaw-bay-city",
@@ -40226,6 +40247,16 @@
     "P": 76,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "njherald.com": {
+    "b": "LC",
+    "d": "njherald.com",
+    "n": "New Jersey Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/new-jersey-herald-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "nknews.org": {
@@ -56314,6 +56345,16 @@
     "P": 60,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "thebuffalocentertribune.com": {
+    "b": "C",
+    "d": "thebuffalocentertribune.com",
+    "n": "Buffalo Center Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/buffalo-center-tribune-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "thebulletin.org": {
