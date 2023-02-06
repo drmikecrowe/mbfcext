@@ -46,6 +46,16 @@
     "a": "L",
     "q": []
   },
+  "10news.com": {
+    "b": "C",
+    "d": "10news.com",
+    "n": "KGTV - San Diego News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kgtv-san-diego-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "10news.one": {
     "b": "FN",
     "d": "10news.one",
@@ -3335,6 +3345,16 @@
     "a": "N",
     "q": []
   },
+  "americanwirenews.com": {
+    "b": "R",
+    "d": "americanwirenews.com",
+    "n": "American Wire News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/american-wire-news/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "americaoutloud.com": {
     "b": "FN",
     "d": "americaoutloud.com",
@@ -6396,7 +6416,7 @@
     "u": "https://mediabiasfactcheck.com/bizpac-review/",
     "P": 69,
     "c": "M",
-    "a": "H",
+    "a": "M",
     "q": []
   },
   "bizstandardnews.com": {
@@ -34193,6 +34213,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/antibiotics": {
+    "b": "PS",
+    "d": "mdpi.com/journal/antibiotics",
+    "n": "Antibiotics Journal",
+    "p": "/journal/antibiotics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/antibiotics-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -42595,6 +42626,16 @@
     "p": "/southwest-orange",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/southwest-orange-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "orangeville.com": {
+    "b": "LC",
+    "d": "orangeville.com",
+    "n": "Orangeville Banner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/orangeville-banner-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -53952,6 +53993,20 @@
     "n": "St. Joe-Benton Harbor News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/st-joe-benton-harbor-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "stlrecord.com": {
+    "b": "FN",
+    "d": "stlrecord.com",
+    "n": "St. Louis Record",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-louis-record-bias/",
     "c": "L",
     "a": "L",
     "q": [
