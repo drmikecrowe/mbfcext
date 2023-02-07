@@ -4410,6 +4410,21 @@
       "IM"
     ]
   },
+  "arizonasuntimes.com": {
+    "b": "FN",
+    "d": "arizonasuntimes.com",
+    "n": "Arizona Sun Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/arizona-sun-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "arkansasadvocate.com": {
     "b": "L",
     "d": "arkansasadvocate.com",
@@ -40134,6 +40149,16 @@
     "a": "L",
     "q": []
   },
+  "nhjournal.com": {
+    "b": "RC",
+    "d": "nhjournal.com",
+    "n": "NH Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/nh-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "nhk.or.jp": {
     "b": "RC",
     "d": "nhk.or.jp",
@@ -42285,6 +42310,16 @@
     "u": "https://mediabiasfactcheck.com/offgrid-survival/",
     "P": 62,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "ogemawherald.com": {
+    "b": "C",
+    "d": "ogemawherald.com",
+    "n": "Ogemaw County Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ogemaw-county-herald-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -56719,7 +56754,16 @@
     "P": 72,
     "c": "L",
     "a": "M",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE"
+    ]
   },
   "thecontroversialfiles.net": {
     "b": "CP",
