@@ -2043,6 +2043,16 @@
     "a": "M",
     "q": []
   },
+  "alaskabeacon.com": {
+    "b": "L",
+    "d": "alaskabeacon.com",
+    "n": "Alaska Beacon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/alaska-beacon-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "alaskahighwaynews.ca": {
     "b": "LC",
     "d": "alaskahighwaynews.ca",
@@ -8756,6 +8766,16 @@
     "P": 66,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "canarymedia.com": {
+    "b": "LC",
+    "d": "canarymedia.com",
+    "n": "Canary Media",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/canary-media-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "cancer.news": {
@@ -33256,6 +33276,20 @@
     "a": "M",
     "q": []
   },
+  "maconreport.com": {
+    "b": "FN",
+    "d": "maconreport.com",
+    "n": "Macon Report",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/macon-report-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
+  },
   "maconreporter.com": {
     "b": "FN",
     "d": "maconreporter.com",
@@ -43956,6 +43990,16 @@
     "a": "L",
     "q": []
   },
+  "peacecountrysun.com": {
+    "b": "RC",
+    "d": "peacecountrysun.com",
+    "n": "Peace Country Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/peace-country-sun-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "peacedata.net": {
     "b": "FN",
     "d": "peacedata.net",
@@ -48904,6 +48948,16 @@
       "FC",
       "IM"
     ]
+  },
+  "rmi.org": {
+    "b": "LC",
+    "d": "rmi.org",
+    "n": "Rocky Mountain Institute (RMI)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rocky-mountain-institute-rmi/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "roanoke.com": {
     "b": "C",
@@ -54028,6 +54082,20 @@
     "n": "St. Joe-Benton Harbor News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/st-joe-benton-harbor-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "stlouisreporter.com": {
+    "b": "FN",
+    "d": "stlouisreporter.com",
+    "n": "St. Louis Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/st-louis-reporter-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -60726,6 +60794,16 @@
     "n": "Times-Georgian",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/times-georgian-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "times-news.com": {
+    "b": "LC",
+    "d": "times-news.com",
+    "n": "Cumberland Times-News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cumberland-times-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
