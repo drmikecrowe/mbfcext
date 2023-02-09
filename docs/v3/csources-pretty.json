@@ -21932,6 +21932,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/bee-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/bee-science",
+    "n": "Frontiers in Bee Science",
+    "p": "/journals/bee-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-bee-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -26624,7 +26635,7 @@
     "t": "IndependentInst",
     "u": "https://mediabiasfactcheck.com/the-independent-review/",
     "P": 74,
-    "c": "M",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -26859,7 +26870,7 @@
     "u": "https://mediabiasfactcheck.com/the-indypendent/",
     "P": 61,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "indystandard.com": {
@@ -28079,7 +28090,7 @@
     "u": "https://mediabiasfactcheck.com/the-jamestown-foundation/",
     "P": 61,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "jamestownsun.com": {
@@ -28101,6 +28112,19 @@
     "t": "JanesIntel",
     "u": "https://mediabiasfactcheck.com/ihs-janes-360/",
     "P": 61,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "japannews.yomiuri.co.jp": {
+    "b": "RC",
+    "d": "japannews.yomiuri.co.jp",
+    "f": "TheJapanNews",
+    "n": "The Japan News",
+    "r": "H",
+    "t": "The_Japan_News",
+    "u": "https://mediabiasfactcheck.com/the-japan-news/",
+    "P": 84,
     "c": "H",
     "a": "M",
     "q": []
@@ -40485,6 +40509,17 @@
     "p": "/great-falls-helena",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kfbb-great-falls-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "nonstoplocal.com/missoula": {
+    "b": "C",
+    "d": "nonstoplocal.com/missoula",
+    "n": "KTMF - Missoula News",
+    "p": "/missoula",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktmf-missoula-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -54129,6 +54164,20 @@
     "a": "H",
     "q": []
   },
+  "stlwestnews.com": {
+    "b": "FN",
+    "d": "stlwestnews.com",
+    "n": "West STL News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-stl-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "stocknewsusa.com": {
     "b": "C",
     "d": "stocknewsusa.com",
@@ -56030,19 +56079,6 @@
     "P": 52,
     "c": "M",
     "a": "L",
-    "q": []
-  },
-  "the-japan-news.com": {
-    "b": "RC",
-    "d": "the-japan-news.com",
-    "f": "TheJapanNews",
-    "n": "The Japan News",
-    "r": "H",
-    "t": "The_Japan_News",
-    "u": "https://mediabiasfactcheck.com/the-japan-news/",
-    "P": 84,
-    "c": "H",
-    "a": "M",
     "q": []
   },
   "the-messenger.com": {
@@ -61703,6 +61739,16 @@
     "a": "L",
     "q": []
   },
+  "troyrecord.com": {
+    "b": "C",
+    "d": "troyrecord.com",
+    "n": "Troy Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/troy-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "trtworld.com": {
     "b": "R",
     "d": "trtworld.com",
@@ -65783,6 +65829,16 @@
       "FC",
       "IM"
     ]
+  },
+  "westerlynews.ca": {
+    "b": "LC",
+    "d": "westerlynews.ca",
+    "n": "Tofino-Ucluelet Westerly News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tofino-ucluelet-westerly-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "westernfreepress.com": {
     "b": "R",
