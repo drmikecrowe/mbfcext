@@ -3159,6 +3159,20 @@
     "a": "N",
     "q": []
   },
+  "americanpharmacynews.com": {
+    "b": "FN",
+    "d": "americanpharmacynews.com",
+    "n": "American Pharmacy News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/american-pharmacy-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "americanpolicy.org": {
     "b": "CP",
     "d": "americanpolicy.org",
@@ -11474,6 +11488,16 @@
     "a": "L",
     "q": []
   },
+  "clreporter.com": {
+    "b": "C",
+    "d": "clreporter.com",
+    "n": "Clear Lake Mirror-Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/clear-lake-mirror-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cnas.org": {
     "b": "LC",
     "d": "cnas.org",
@@ -13930,6 +13954,16 @@
     "P": 57,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "currentargus.com": {
+    "b": "LC",
+    "d": "currentargus.com",
+    "n": "Carlsburg Current-Argus",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/carlsbad-current-argus-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "curvemag.com": {
@@ -32211,7 +32245,7 @@
     "u": "https://mediabiasfactcheck.com/left-over-rights/",
     "P": 22,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "leftscoop.com": {
@@ -32482,7 +32516,7 @@
     "u": "https://mediabiasfactcheck.com/lexington-institute/",
     "P": 42,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "lfpress.com": {
@@ -32506,7 +32540,7 @@
     "t": "lgbtqnation",
     "u": "https://mediabiasfactcheck.com/lgbtq-nation/",
     "P": 76,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -32522,9 +32556,9 @@
     "a": "M",
     "q": []
   },
-  "liberalamerica.life": {
+  "liberalamerica.org": {
     "b": "L",
-    "d": "liberalamerica.life",
+    "d": "liberalamerica.org",
     "f": "liberalprogressivedemocrats",
     "n": "Liberal America",
     "r": "M",
@@ -32575,7 +32609,7 @@
     "u": "https://mediabiasfactcheck.com/liberal-mountain/",
     "P": 22,
     "c": "H",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "liberalplug.com": {
@@ -32736,7 +32770,7 @@
     "u": "https://mediabiasfactcheck.com/liberty-headlines/",
     "P": 40,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "libertyisviral.com": {
@@ -35340,6 +35374,17 @@
     "p": "/aitkin",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/aitkin-independent-age-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "messagemedia.co/millelacs": {
+    "b": "LC",
+    "d": "messagemedia.co/millelacs",
+    "n": "Mille Lacs Messenger",
+    "p": "/millelacs",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mille-lacs-messenger-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -52105,6 +52150,17 @@
     "p": "/prairie-advocate",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/prairie-advocate-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "shawlocal.com/putnam-county-record": {
+    "b": "C",
+    "d": "shawlocal.com/putnam-county-record",
+    "n": "Putnam County Record",
+    "p": "/putnam-county-record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/putnam-county-record-bias/",
     "c": "H",
     "a": "L",
     "q": []
