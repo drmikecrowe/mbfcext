@@ -207,6 +207,16 @@
     "a": "M",
     "q": []
   },
+  "1news.co.nz": {
+    "b": "LC",
+    "d": "1news.co.nz",
+    "n": "1News - New Zealand",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/1news-new-zealand/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "2020conservative.com": {
     "b": "FN",
     "d": "2020conservative.com",
@@ -3300,6 +3310,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "americansecuritynews.com": {
+    "b": "FN",
+    "d": "americansecuritynews.com",
+    "n": "American Security News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/american-security-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "americansforprosperity.org": {
     "b": "R",
@@ -34763,6 +34787,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/applbiosci": {
+    "b": "PS",
+    "d": "mdpi.com/journal/applbiosci",
+    "n": "Applied Biosciences Journal",
+    "p": "/journal/applbiosci",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/applied-biosciences-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -48883,6 +48918,16 @@
       "M"
     ]
   },
+  "republicanherald.com": {
+    "b": "C",
+    "d": "republicanherald.com",
+    "n": "Pottsville Republican-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pottsville-republican-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "republicanssucks.org": {
     "b": "L",
     "d": "republicanssucks.org",
@@ -54851,6 +54896,16 @@
     "a": "L",
     "q": []
   },
+  "stjamesnews.com": {
+    "b": "C",
+    "d": "stjamesnews.com",
+    "n": "St. James Plaindealer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/st-james-plaindealer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "stjoebentonharbor.com": {
     "b": "FN",
     "d": "stjoebentonharbor.com",
@@ -57558,6 +57613,21 @@
     "c": "L",
     "a": "M",
     "q": []
+  },
+  "theconnecticutstar.com": {
+    "b": "FN",
+    "d": "theconnecticutstar.com",
+    "n": "Connecticut Star",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/connecticut-star-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "theconservativebrief.com": {
     "b": "FN",
