@@ -217,6 +217,27 @@
     "a": "H",
     "q": []
   },
+  "1tv.ru": {
+    "b": "FN",
+    "d": "1tv.ru",
+    "n": "Channel One Russia",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/channel-one-russia-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE",
+      "CEN"
+    ]
+  },
   "2020conservative.com": {
     "b": "FN",
     "d": "2020conservative.com",
@@ -14010,6 +14031,20 @@
     "a": "L",
     "q": []
   },
+  "currentsciencedaily.com": {
+    "b": "FN",
+    "d": "currentsciencedaily.com",
+    "n": "Current Science Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/current-science-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "curvemag.com": {
     "b": "L",
     "d": "curvemag.com",
@@ -14506,6 +14541,16 @@
     "P": 61,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "dailymontanan.com": {
+    "b": "L",
+    "d": "dailymontanan.com",
+    "n": "Daily Montanan",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/daily-montanan-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "dailynews.com": {
@@ -17907,6 +17952,20 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "educationdailywire.com": {
+    "b": "FN",
+    "d": "educationdailywire.com",
+    "n": "Education Daily Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/education-daily-wire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "edweek.org": {
     "b": "LC",
@@ -22503,6 +22562,16 @@
     "P": 63,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "gainesvilleregister.com": {
+    "b": "LC",
+    "d": "gainesvilleregister.com",
+    "n": "Gainesville Daily Register",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/gainesville-daily-register-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "galesburgreporter.com": {
@@ -32882,7 +32951,7 @@
     "u": "https://mediabiasfactcheck.com/libertytalk-fm/",
     "P": 30,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "PS",
@@ -35871,6 +35940,20 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "midmichiganstd.com": {
+    "b": "FN",
+    "d": "midmichiganstd.com",
+    "n": "Mid Michigan Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mid-michigan-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
       "IM"
     ]
   },
@@ -55015,6 +55098,16 @@
       "FC",
       "M"
     ]
+  },
+  "stonyplainreporter.com": {
+    "b": "RC",
+    "d": "stonyplainreporter.com",
+    "n": "Stony Plain Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stony-plain-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "stopfake.org": {
     "b": "LC",
