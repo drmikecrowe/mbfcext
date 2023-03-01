@@ -8005,6 +8005,16 @@
     "a": "L",
     "q": []
   },
+  "burnslakelakesdistrictnews.com": {
+    "b": "LC",
+    "d": "burnslakelakesdistrictnews.com",
+    "n": "Burns Lake Lakes District News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/burns-lake-lakes-district-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "burrardstreetjournal.com": {
     "b": "S",
     "d": "burrardstreetjournal.com",
@@ -21908,7 +21918,8 @@
     "a": "L",
     "q": [
       "P",
-      "LT"
+      "LT",
+      "M"
     ]
   },
   "freethink.com": {
@@ -22320,6 +22331,17 @@
     "p": "/journals/behavioral-neuroscience",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-behavioral-neuroscience-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/big-data": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/big-data",
+    "n": "Frontiers in Big Data",
+    "p": "/journals/big-data",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-big-data-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -43003,6 +43025,16 @@
       "IM"
     ]
   },
+  "occrp.org": {
+    "b": "LC",
+    "d": "occrp.org",
+    "n": "The Organized Crime and Corruption Reporting Project (OCCRP)",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-organized-crime-and-corruption-reporting-project-occrp-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "occupy.com": {
     "b": "L",
     "d": "occupy.com",
@@ -46369,6 +46401,16 @@
     "P": 1,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "pottsmerc.com": {
+    "b": "C",
+    "d": "pottsmerc.com",
+    "n": "Pottstown Mercury",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pottstown-mercury-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "powderedwigsociety.com": {
@@ -70314,6 +70356,15 @@
       "M",
       "H"
     ]
+  },
+  "zaytung.com": {
+    "b": "S",
+    "d": "zaytung.com",
+    "n": "Zaytung",
+    "u": "https://mediabiasfactcheck.com/zaytung/",
+    "c": "NA",
+    "a": "M",
+    "q": []
   },
   "zcomm.org": {
     "b": "L",
