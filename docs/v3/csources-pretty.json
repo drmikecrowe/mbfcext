@@ -9798,6 +9798,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/cell-genomics": {
+    "b": "PS",
+    "d": "cell.com/cell-genomics",
+    "n": "Cell Genomics Journal",
+    "p": "/cell-genomics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-genomics-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -19569,7 +19580,8 @@
       "FFC",
       "FC",
       "M",
-      "H"
+      "H",
+      "PSE"
     ]
   },
   "fairviewpost.com": {
@@ -19711,6 +19723,20 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "farminsurancenews.com": {
+    "b": "FN",
+    "d": "farminsurancenews.com",
+    "n": "Farm Insurance News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/farm-insurance-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "farsnews.ir": {
     "b": "FN",
@@ -40699,6 +40725,16 @@
     "a": "M",
     "q": []
   },
+  "newstopicnews.com": {
+    "b": "RC",
+    "d": "newstopicnews.com",
+    "n": "Lenoir News-Topic",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lenoir-news-topic-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newsuptoday.com": {
     "b": "FN",
     "d": "newsuptoday.com",
@@ -47444,6 +47480,16 @@
       "IM"
     ]
   },
+  "pulse.ng": {
+    "b": "LC",
+    "d": "pulse.ng",
+    "n": "Pulse Nigeria",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pulse-nigeria-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "pulsegulfcoast.com": {
     "b": "LC",
     "d": "pulsegulfcoast.com",
@@ -50772,6 +50818,17 @@
     "n": "The Saratogian",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-saratogian-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "sasktoday.ca/central/canora-courier": {
+    "b": "LC",
+    "d": "sasktoday.ca/central/canora-courier",
+    "n": "Canora Courier",
+    "p": "/central/canora-courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/canora-courier-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -56940,6 +56997,16 @@
     "a": "H",
     "q": []
   },
+  "texomashomepage.com": {
+    "b": "C",
+    "d": "texomashomepage.com",
+    "n": "KFDX - Wichita Falls News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kfdx-wichita-falls-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "tfp.org": {
     "b": "FN",
     "d": "tfp.org",
@@ -58295,6 +58362,16 @@
     "u": "https://mediabiasfactcheck.com/bryan-college-station-eagle-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "theearthchild.nz": {
+    "b": "CP",
+    "d": "theearthchild.nz",
+    "n": "The Earth Child",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-earth-child/",
+    "c": "L",
+    "a": "N",
     "q": []
   },
   "theecjournal.com": {
