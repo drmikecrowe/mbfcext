@@ -19871,6 +19871,16 @@
     "a": "L",
     "q": []
   },
+  "fdahealthnews.com": {
+    "b": "FN",
+    "d": "fdahealthnews.com",
+    "n": "FDA Health News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/fda-health-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "fdd.org": {
     "b": "R",
     "d": "fdd.org",
@@ -25911,6 +25921,17 @@
     "p": "/forest_lake_times",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/forest-lake-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "hometownsource.com/monticello_times": {
+    "b": "LC",
+    "d": "hometownsource.com/monticello_times",
+    "n": "Monticello Times",
+    "p": "/monticello_times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/monticello-times-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -32999,16 +33020,24 @@
     "q": []
   },
   "libertynews.com": {
-    "b": "R",
+    "b": "FN",
     "d": "libertynews.com",
     "f": "libertymovement",
     "n": "Liberty News",
-    "r": "M",
+    "r": "L",
     "u": "https://mediabiasfactcheck.com/liberty-news/",
     "P": 45,
-    "c": "M",
-    "a": "N",
-    "q": []
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "libertyplanets.com": {
     "b": "CP",
@@ -45264,6 +45293,16 @@
     "u": "https://mediabiasfactcheck.com/philosophers-stone-bias/",
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "philstar.com": {
+    "b": "LC",
+    "d": "philstar.com",
+    "n": "Philippine Star",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/philippine-star-bias/",
+    "c": "M",
+    "a": "H",
     "q": []
   },
   "phl17.com": {
