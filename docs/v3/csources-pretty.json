@@ -6412,6 +6412,16 @@
     "a": "H",
     "q": []
   },
+  "biologicalproceduresonline.biomedcentral.com": {
+    "b": "PS",
+    "d": "biologicalproceduresonline.biomedcentral.com",
+    "n": "Biological Procedures Online",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/biological-procedures-online-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "biologos.org": {
     "b": "CP",
     "d": "biologos.org",
@@ -8809,6 +8819,16 @@
     "u": "https://mediabiasfactcheck.com/call-to-activism/",
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "calmarcourier.com": {
+    "b": "C",
+    "d": "calmarcourier.com",
+    "n": "Calmar Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/calmar-courier-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "calwatchdog.com": {
@@ -14144,6 +14164,16 @@
     "u": "https://mediabiasfactcheck.com/daily-journal-illinois/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "daily-times.com": {
+    "b": "RC",
+    "d": "daily-times.com",
+    "n": "Farmington Daily Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/farmington-daily-times-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "daily.jstor.org": {
@@ -24466,6 +24496,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "guardian.ng": {
+    "b": "FN",
+    "d": "guardian.ng",
+    "n": "Guardian Nigeria",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/guardian-nigeria/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "PS",
+      "LT",
+      "FFC"
+    ]
   },
   "guardianlv.com": {
     "b": "L",
@@ -52530,6 +52574,17 @@
     "p": "/sauk-valley",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/sauk-valley-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "shawlocal.com/the-herald-news": {
+    "b": "C",
+    "d": "shawlocal.com/the-herald-news",
+    "n": "Will Country Herald-News",
+    "p": "/the-herald-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/will-county-herald-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
