@@ -19911,6 +19911,20 @@
     "a": "L",
     "q": []
   },
+  "fdareporter.com": {
+    "b": "FN",
+    "d": "fdareporter.com",
+    "n": "FDA Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/fda-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "fdd.org": {
     "b": "R",
     "d": "fdd.org",
@@ -36724,6 +36738,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/money-talks-news-bias/",
     "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "monitor.co.ug": {
+    "b": "LC",
+    "d": "monitor.co.ug",
+    "n": "Daily Monitor (Uganda)",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/daily-monitor-uganda-bias/",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -59317,6 +59341,21 @@
     "a": "L",
     "q": []
   },
+  "theiowastar.com": {
+    "b": "FN",
+    "d": "theiowastar.com",
+    "n": "Iowa Star",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/iowa-star-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "FFC",
+      "M",
+      "IM"
+    ]
+  },
   "theirishsentinel.com": {
     "b": "CP",
     "d": "theirishsentinel.com",
@@ -61330,6 +61369,16 @@
     "a": "M",
     "q": []
   },
+  "thetimes-tribune.com": {
+    "b": "C",
+    "d": "thetimes-tribune.com",
+    "n": "Scranton Times-Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/scranton-times-tribune-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "thetimes.co.uk": {
     "b": "RC",
     "d": "thetimes.co.uk",
@@ -62999,6 +63048,16 @@
       "FC",
       "IM"
     ]
+  },
+  "tricountynewsmn.com": {
+    "b": "C",
+    "d": "tricountynewsmn.com",
+    "n": "Tri-County News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tri-county-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "triggerreset.net": {
     "b": "FN",
