@@ -17665,6 +17665,21 @@
     "a": "L",
     "q": []
   },
+  "ebaumsworld.com": {
+    "b": "FN",
+    "d": "ebaumsworld.com",
+    "n": "eBaum's World",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ebaums-world-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "PS",
+      "LT",
+      "M",
+      "PG"
+    ]
+  },
   "ecalabamanews.com": {
     "b": "FN",
     "d": "ecalabamanews.com",
@@ -23556,6 +23571,16 @@
     "a": "N",
     "q": []
   },
+  "gloucestertimes.com": {
+    "b": "LC",
+    "d": "gloucestertimes.com",
+    "n": "Gloucester Daily Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/gloucester-daily-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "gmanetwork.com": {
     "b": "LC",
     "d": "gmanetwork.com",
@@ -25611,6 +25636,16 @@
     "a": "M",
     "q": []
   },
+  "heritagedaily.com": {
+    "b": "C",
+    "d": "heritagedaily.com",
+    "n": "Heritage Daily",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/heritage-daily-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "hermancain.com": {
     "b": "R",
     "d": "hermancain.com",
@@ -25679,6 +25714,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "highereducationtribune.com": {
+    "b": "FN",
+    "d": "highereducationtribune.com",
+    "n": "Higher Education Tribune",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/higher-education-tribune-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "higherperspectives.com": {
     "b": "CP",
@@ -65829,6 +65878,16 @@
     "u": "https://mediabiasfactcheck.com/vtdigger-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "vulcanadvocate.com": {
+    "b": "RC",
+    "d": "vulcanadvocate.com",
+    "n": "Vulcan Advocate",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vulcan-advocate-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "vulture.com": {
