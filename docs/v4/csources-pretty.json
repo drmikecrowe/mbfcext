@@ -11013,6 +11013,25 @@
     "a": "H",
     "q": []
   },
+  "citizengo.org": {
+    "b": "FN",
+    "d": "citizengo.org",
+    "n": "CitizenGo",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/citizengo-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "citizensforethics.org": {
     "b": "LC",
     "d": "citizensforethics.org",
@@ -26381,6 +26400,20 @@
     "a": "M",
     "q": []
   },
+  "hrdailywire.com": {
+    "b": "FN",
+    "d": "hrdailywire.com",
+    "n": "HR Daily Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hr-daily-wire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "hrw.org": {
     "b": "LC",
     "d": "hrw.org",
@@ -36205,6 +36238,20 @@
     "a": "M",
     "q": []
   },
+  "milehighsentinel.com": {
+    "b": "FN",
+    "d": "milehighsentinel.com",
+    "n": "Mile High Sentinel",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mile-high-sentinel-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "M",
+      "IM"
+    ]
+  },
   "milforddailynews.com": {
     "b": "LC",
     "d": "milforddailynews.com",
@@ -39336,6 +39383,16 @@
     "P": 69,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "nevadacurrent.com": {
+    "b": "L",
+    "d": "nevadacurrent.com",
+    "n": "Nevada Current",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nevada-current-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "nevalleytimes.com": {
