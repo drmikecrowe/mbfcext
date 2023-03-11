@@ -8744,6 +8744,16 @@
     "a": "L",
     "q": []
   },
+  "caledoniacourier.com": {
+    "b": "LC",
+    "d": "caledoniacourier.com",
+    "n": "Caledonia Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/caledonia-courier-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "calgary.citynews.ca": {
     "b": "C",
     "d": "calgary.citynews.ca",
@@ -15825,6 +15835,16 @@
       "IM"
     ]
   },
+  "delcotimes.com": {
+    "b": "C",
+    "d": "delcotimes.com",
+    "n": "Delaware County Daily Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/delaware-county-daily-times-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "delgazette.com": {
     "b": "RC",
     "d": "delgazette.com",
@@ -22477,6 +22497,17 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-big-data-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/bioengineering-and-biotechnology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/bioengineering-and-biotechnology",
+    "n": "Frontiers in Bioengineering and Biotechnology",
+    "p": "/journals/bioengineering-and-biotechnology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-bioengineering-and-biotechnology-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -33392,7 +33423,7 @@
     "q": []
   },
   "lifezette.com": {
-    "b": "R",
+    "b": "FN",
     "d": "lifezette.com",
     "f": "lifezette",
     "n": "Lifezette",
@@ -33401,7 +33432,7 @@
     "u": "https://mediabiasfactcheck.com/lifezette/",
     "P": 67,
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "limacharlienews.com": {
@@ -33414,7 +33445,7 @@
     "u": "https://mediabiasfactcheck.com/lima-charlie-news/",
     "P": 38,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "lincolncourier.com": {
@@ -33463,7 +33494,7 @@
     "u": "https://mediabiasfactcheck.com/listverse/",
     "P": 84,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "litchfieldhillstoday.com": {
@@ -33630,7 +33661,7 @@
     "u": "https://mediabiasfactcheck.com/living-whole/",
     "P": 35,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "ljworld.com": {
@@ -36311,6 +36342,16 @@
       "LT",
       "M"
     ]
+  },
+  "milkeninstitute.org": {
+    "b": "LC",
+    "d": "milkeninstitute.org",
+    "n": "Milken Institute",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/milken-institute-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "millburysutton.com": {
     "b": "C",
@@ -40941,6 +40982,16 @@
       "M"
     ]
   },
+  "newstalkzb.co.nz": {
+    "b": "RC",
+    "d": "newstalkzb.co.nz",
+    "n": "Newstalk ZB",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newstalk-zb-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "newstarget.com": {
     "b": "CP",
     "d": "newstarget.com",
@@ -43158,6 +43209,16 @@
     "n": "New York Sun",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/new-york-sun-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "nyteknik.se": {
+    "b": "RC",
+    "d": "nyteknik.se",
+    "n": "Ny Teknik",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/ny-teknik-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -51146,6 +51207,17 @@
     "p": "/south/assiniboia-times",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/assiniboia-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "sasktoday.ca/south/carlyle-observer": {
+    "b": "LC",
+    "d": "sasktoday.ca/south/carlyle-observer",
+    "n": "Carlyle Observer",
+    "p": "/south/carlyle-observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/carlyle-observer-bias/",
     "c": "H",
     "a": "L",
     "q": []
