@@ -1270,6 +1270,16 @@
     "a": "L",
     "q": []
   },
+  "actualized.org": {
+    "b": "CP",
+    "d": "actualized.org",
+    "n": "Actualized.org",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/actualized-org-bias/",
+    "c": "L",
+    "a": "M",
+    "q": []
+  },
   "ad.nl": {
     "b": "C",
     "d": "ad.nl",
@@ -9855,6 +9865,17 @@
     "p": "/cell-genomics",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/cell-genomics-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/cell-host-microbe": {
+    "b": "PS",
+    "d": "cell.com/cell-host-microbe",
+    "n": "Cell Host & Microbe Journal",
+    "p": "/cell-host-microbe",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-host-microbe-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -28017,6 +28038,20 @@
     "a": "M",
     "q": []
   },
+  "insuranceratereporter.com": {
+    "b": "FN",
+    "d": "insuranceratereporter.com",
+    "n": "Insurance Rate Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/insurance-rate-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "intellectualtakeout.org": {
     "b": "R",
     "d": "intellectualtakeout.org",
@@ -32829,6 +32864,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/le-soir/",
     "P": 69,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "lesoleil.com": {
+    "b": "LC",
+    "d": "lesoleil.com",
+    "n": "Le Soleil",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/le-soleil-quebec-bias/",
     "c": "H",
     "a": "H",
     "q": []
@@ -57322,6 +57367,16 @@
     "n": "Teton Valley News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/teton-valley-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "texashomepage.com": {
+    "b": "C",
+    "d": "texashomepage.com",
+    "n": "KJTL - Wichita Falls",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kjtl-wichita-falls-bias/",
     "c": "H",
     "a": "L",
     "q": []
