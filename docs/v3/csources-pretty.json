@@ -3234,6 +3234,16 @@
     "a": "L",
     "q": []
   },
+  "americanpress.com": {
+    "b": "RC",
+    "d": "americanpress.com",
+    "n": "Lake Charles American Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lake-charles-american-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "americanpressinstitute.org": {
     "b": "C",
     "d": "americanpressinstitute.org",
@@ -12060,6 +12070,16 @@
     "a": "L",
     "q": []
   },
+  "coloradopolitics.com": {
+    "b": "LC",
+    "d": "coloradopolitics.com",
+    "n": "ColoradoPolitics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/coloradopolitics-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "coloradosun.com": {
     "b": "LC",
     "d": "coloradosun.com",
@@ -17027,6 +17047,16 @@
     "P": 84,
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "drugpolicy.org": {
+    "b": "LC",
+    "d": "drugpolicy.org",
+    "n": "Drug Policy Alliance",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/drug-policy-alliance-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "drugs.com": {
@@ -26141,6 +26171,17 @@
     "a": "L",
     "q": []
   },
+  "hometownsource.com/morrison_county_record": {
+    "b": "LC",
+    "d": "hometownsource.com/morrison_county_record",
+    "n": "Morrison County Record",
+    "p": "/morrison_county_record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/morrison-county-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hometownsource.com/press_and_news": {
     "b": "LC",
     "d": "hometownsource.com/press_and_news",
@@ -32782,6 +32823,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "legalnewsline.com": {
+    "b": "FN",
+    "d": "legalnewsline.com",
+    "n": "Legal Newsline",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/legal-newsline-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "legitgov.org": {
     "b": "CP",
