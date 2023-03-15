@@ -44178,6 +44178,16 @@
     "a": "L",
     "q": []
   },
+  "osceolaiowa.com": {
+    "b": "C",
+    "d": "osceolaiowa.com",
+    "n": "Osceola Sentinel-Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/osceola-sentinel-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "oscodaherald.com": {
     "b": "C",
     "d": "oscodaherald.com",
@@ -46546,6 +46556,22 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "politros.com": {
+    "b": "FN",
+    "d": "politros.com",
+    "n": "PolitRussia (Politros.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/politrussia-politros-com/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "M",
+      "CEN"
+    ]
   },
   "polktimes.com": {
     "b": "FN",
@@ -50703,6 +50729,16 @@
       "M",
       "CEN"
     ]
+  },
+  "ruidosonews.com": {
+    "b": "C",
+    "d": "ruidosonews.com",
+    "n": "Ruidoso News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ruidoso-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "rumble.com": {
     "b": "FN",
@@ -58909,6 +58945,16 @@
     "a": "M",
     "q": []
   },
+  "theeaglegroveeagle.com": {
+    "b": "C",
+    "d": "theeaglegroveeagle.com",
+    "n": "Eagle Grove Eagle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eagle-grove-eagle-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "theearthchild.nz": {
     "b": "CP",
     "d": "theearthchild.nz",
@@ -62990,6 +63036,24 @@
       "FC",
       "M",
       "PG"
+    ]
+  },
+  "topwar.ru": {
+    "b": "FN",
+    "d": "topwar.ru",
+    "n": "Military Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/military-review-topwar-ru-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "CEN"
     ]
   },
   "toronto.citynews.ca": {
