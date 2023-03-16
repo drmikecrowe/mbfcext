@@ -7893,6 +7893,16 @@
     "a": "L",
     "q": []
   },
+  "bsd.biomedcentral.com": {
+    "b": "PS",
+    "d": "bsd.biomedcentral.com",
+    "n": "Biology of Sex Differences Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/biology-of-sex-differences-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bt.dk": {
     "b": "RC",
     "d": "bt.dk",
@@ -30800,6 +30810,16 @@
     "a": "L",
     "q": []
   },
+  "kjrh.com": {
+    "b": "C",
+    "d": "kjrh.com",
+    "n": "KJRH - Tulsa News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kjrh-tulsa-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "kktv.com": {
     "b": "C",
     "d": "kktv.com",
@@ -41550,6 +41570,17 @@
     "a": "M",
     "q": []
   },
+  "nj.com/hunterdon-county-democrat": {
+    "b": "LC",
+    "d": "nj.com/hunterdon-county-democrat",
+    "n": "Hunterdon County Democrat",
+    "p": "/hunterdon-county-democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hunterton-county-democrat-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "nj.com/jjournal": {
     "b": "LC",
     "d": "nj.com/jjournal",
@@ -44178,6 +44209,25 @@
     "a": "L",
     "q": []
   },
+  "orthochristian.com": {
+    "b": "FN",
+    "d": "orthochristian.com",
+    "n": "Orthodoxy Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pravoslavie-ru-orthodoxy-today/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE",
+      "CEN"
+    ]
+  },
   "osceolaiowa.com": {
     "b": "C",
     "d": "osceolaiowa.com",
@@ -46556,6 +46606,24 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "politnavigator.net": {
+    "b": "FN",
+    "d": "politnavigator.net",
+    "n": "PolitNavigator",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/politnavigator-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "CEN"
+    ]
   },
   "politros.com": {
     "b": "FN",
