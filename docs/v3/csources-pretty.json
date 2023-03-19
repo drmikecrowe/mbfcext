@@ -5573,6 +5573,16 @@
     "a": "N",
     "q": []
   },
+  "bannerherald.com": {
+    "b": "LC",
+    "d": "bannerherald.com",
+    "n": "Greenville Banner-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/greenville-herald-banner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "baptistnews.com": {
     "b": "LC",
     "d": "baptistnews.com",
@@ -22619,6 +22629,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/bioinformatics": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/bioinformatics",
+    "n": "Frontiers in Bioinformatics",
+    "p": "/journals/bioinformatics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-bioinformatics-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -36602,6 +36623,21 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "milwaukeemetrotimes.com": {
+    "b": "FN",
+    "d": "milwaukeemetrotimes.com",
+    "n": "Milwaukee Metro Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/milwaukee-metro-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "FFC",
+      "IM"
+    ]
   },
   "mindbodygreen.com": {
     "b": "CP",
@@ -54181,6 +54217,16 @@
     "a": "M",
     "q": []
   },
+  "sourcenm.com": {
+    "b": "L",
+    "d": "sourcenm.com",
+    "n": "Source New Mexico",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/source-new-mexico-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sourcepolitics.com": {
     "b": "L",
     "d": "sourcepolitics.com",
@@ -63009,6 +63055,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "tobacconewswire.com": {
+    "b": "FN",
+    "d": "tobacconewswire.com",
+    "n": "Tobacco News Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tobacco-news-wire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "today.com": {
     "b": "LC",
