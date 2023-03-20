@@ -11904,6 +11904,26 @@
       "IM"
     ]
   },
+  "coastmountainnews.com": {
+    "b": "LC",
+    "d": "coastmountainnews.com",
+    "n": "Coast Mountain News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/coast-mountain-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "coastreporter.net": {
+    "b": "LC",
+    "d": "coastreporter.net",
+    "n": "Sechelt Coast Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sechelt-coast-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "coasttocoastam.com": {
     "b": "CP",
     "d": "coasttocoastam.com",
@@ -14708,6 +14728,16 @@
     "P": 83,
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "dailylocal.com": {
+    "b": "C",
+    "d": "dailylocal.com",
+    "n": "West Chester Daily Local News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/west-chester-daily-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "dailymail.co.uk": {
@@ -22992,6 +23022,16 @@
     "a": "M",
     "q": []
   },
+  "gaycenter.org": {
+    "b": "L",
+    "d": "gaycenter.org",
+    "n": "The Gay Center",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-gay-center-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "gaycitynews.com": {
     "b": "L",
     "d": "gaycitynews.com",
@@ -23670,6 +23710,16 @@
     "P": 52,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "globalsecurity.org": {
+    "b": "C",
+    "d": "globalsecurity.org",
+    "n": "Global Security",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/global-security-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "globalskywatch.com": {
@@ -67474,6 +67524,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "wealthmanagementwire.com": {
+    "b": "FN",
+    "d": "wealthmanagementwire.com",
+    "n": "Wealth Management Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wealth-management-wire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "wearecentralpa.com": {
     "b": "C",
