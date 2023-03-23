@@ -15729,6 +15729,16 @@
     "a": "H",
     "q": []
   },
+  "declassifieduk.org": {
+    "b": "LC",
+    "d": "declassifieduk.org",
+    "n": "DeClassified UK",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/declassified-uk-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "deepleftfield.info": {
     "b": "FN",
     "d": "deepleftfield.info",
@@ -18011,6 +18021,20 @@
     "n": "EC Mississippi News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/ec-mississippi-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "ecnebraskanews.com": {
+    "b": "FN",
+    "d": "ecnebraskanews.com",
+    "n": "EC Nebraska News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ec-nebraska-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -41480,6 +41504,16 @@
       "M"
     ]
   },
+  "newtondailynews.com": {
+    "b": "C",
+    "d": "newtondailynews.com",
+    "n": "Newton Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newton-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newyork.cbslocal.com": {
     "b": "LC",
     "d": "newyork.cbslocal.com",
@@ -53535,6 +53569,16 @@
     "u": "https://mediabiasfactcheck.com/sky-hi-news-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "si.com": {
+    "b": "LC",
+    "d": "si.com",
+    "n": "Sports Illustrated",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sports-illustrated-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "sickchirpse.com": {
