@@ -34867,7 +34867,7 @@
     "u": "https://mediabiasfactcheck.com/maplight/",
     "P": 70,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "marginalrevolution.com": {
@@ -35530,6 +35530,17 @@
     "p": "/journal/applmicrobiol",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/applied-microbiology-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/applnano": {
+    "b": "PS",
+    "d": "mdpi.com/journal/applnano",
+    "n": "Applied Nano Journal",
+    "p": "/journal/applnano",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/applied-nano-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -61544,6 +61555,17 @@
     "a": "N",
     "q": []
   },
+  "therecord.com/local-port-perry": {
+    "b": "LC",
+    "d": "therecord.com/local-port-perry",
+    "n": "Port Perry Star",
+    "p": "/local-port-perry",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/port-perry-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "therecord.com/local-toronto-north-york": {
     "b": "LC",
     "d": "therecord.com/local-toronto-north-york",
@@ -64920,7 +64942,7 @@
     "q": []
   },
   "unionleader.com": {
-    "b": "R",
+    "b": "RC",
     "d": "unionleader.com",
     "f": "UnionLeader",
     "n": "Manchester Union leader",
@@ -70323,6 +70345,16 @@
     "n": "WPTA - Fort Wayne",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wpta-fort-wayne-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wptv.com": {
+    "b": "C",
+    "d": "wptv.com",
+    "n": "WPTV - West Palm Beach News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wptv-west-palm-beach-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
