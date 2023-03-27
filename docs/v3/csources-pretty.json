@@ -3535,6 +3535,16 @@
     "a": "M",
     "q": []
   },
+  "americashealthrankings.com": {
+    "b": "LC",
+    "d": "americashealthrankings.com",
+    "n": "America's Health Rankings",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/americas-health-rankings/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "americaslastlineofdefense.com": {
     "b": "S",
     "d": "americaslastlineofdefense.com",
@@ -3620,6 +3630,24 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "amerika.org": {
+    "b": "FN",
+    "d": "amerika.org",
+    "n": "Amerika.org",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/amerika-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "amestoday.com": {
     "b": "FN",
@@ -3920,6 +3948,16 @@
       "FC",
       "IM"
     ]
+  },
+  "andmagazine.com": {
+    "b": "CP",
+    "d": "andmagazine.com",
+    "n": "AND Magazine",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/and-magazine/",
+    "c": "L",
+    "a": "L",
+    "q": []
   },
   "andoveradvertiser.co.uk": {
     "b": "C",
@@ -11818,11 +11856,11 @@
     "d": "cnn.com",
     "f": "cnn",
     "n": "CNN",
-    "r": "M",
+    "r": "MF",
     "t": "CNN",
     "u": "https://mediabiasfactcheck.com/cnn/",
     "P": 98,
-    "c": "M",
+    "c": "H",
     "a": "H",
     "q": []
   },
@@ -28325,6 +28363,16 @@
     "a": "N",
     "q": []
   },
+  "interfax.com.ua": {
+    "b": "LC",
+    "d": "interfax.com.ua",
+    "n": "Interfax-Ukraine",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/interfax-ukraine-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "interfax.ru": {
     "b": "RC",
     "d": "interfax.ru",
@@ -39546,6 +39594,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "nebraskabusinessdaily.com": {
+    "b": "FN",
+    "d": "nebraskabusinessdaily.com",
+    "n": "Nebraska Business Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nebraska-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "nebraskaexaminer.com": {
     "b": "L",
@@ -55635,6 +55697,16 @@
     "a": "H",
     "q": []
   },
+  "standardspeaker.com": {
+    "b": "C",
+    "d": "standardspeaker.com",
+    "n": "Hazelton Standard-Speaker",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hazelton-standard-speaker-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "standpointmag.co.uk": {
     "b": "R",
     "d": "standpointmag.co.uk",
@@ -68886,6 +68958,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/government-accountability-project-gap/",
     "P": 65,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "whitecourtstar.com": {
+    "b": "RC",
+    "d": "whitecourtstar.com",
+    "n": "Whitecourt Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whitecourt-star-bias/",
     "c": "H",
     "a": "L",
     "q": []
