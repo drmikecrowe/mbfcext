@@ -4213,6 +4213,16 @@
     "a": "L",
     "q": []
   },
+  "anti-empire.com": {
+    "b": "CP",
+    "d": "anti-empire.com",
+    "n": "Anti-Empire",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/anti-empire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "antifascistnews.net": {
     "b": "L",
     "d": "antifascistnews.net",
@@ -4754,6 +4764,16 @@
     "u": "https://mediabiasfactcheck.com/nikkei-asian-review/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "asian-dawn.com": {
+    "b": "R",
+    "d": "asian-dawn.com",
+    "n": "Asian Dawn",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/asian-dawn/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "asiancorrespondent.com": {
@@ -5609,16 +5629,6 @@
     "P": 15,
     "c": "L",
     "a": "N",
-    "q": []
-  },
-  "bannerherald.com": {
-    "b": "LC",
-    "d": "bannerherald.com",
-    "n": "Greenville Banner-Herald",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/greenville-herald-banner-bias/",
-    "c": "H",
-    "a": "L",
     "q": []
   },
   "baptistnews.com": {
@@ -22777,6 +22787,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/biomaterials-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/biomaterials-science",
+    "n": "Frontiers in Biomaterials Science",
+    "p": "/journals/biomaterials-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-biomaterials-science-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -25809,6 +25830,16 @@
     "P": 69,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "heraldbanner.com": {
+    "b": "LC",
+    "d": "heraldbanner.com",
+    "n": "Greenville Banner-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/greenville-herald-banner-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "heraldbulletin.com": {
@@ -29094,6 +29125,16 @@
     "P": 75,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "jacksonvilleprogress.com": {
+    "b": "LC",
+    "d": "jacksonvilleprogress.com",
+    "n": "Jacksonville Progress",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jacksonville-progress-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "jacobinmag.com": {
@@ -39844,6 +39885,20 @@
     "a": "M",
     "q": []
   },
+  "nepanhandlenews.com": {
+    "b": "FN",
+    "d": "nepanhandlenews.com",
+    "n": "Nebraska Panhandle News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nebraska-panhandle-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nesacramentonews.com": {
     "b": "FN",
     "d": "nesacramentonews.com",
@@ -42380,6 +42435,21 @@
       "IM"
     ]
   },
+  "northeastherald.org": {
+    "b": "FN",
+    "d": "northeastherald.org",
+    "n": "Northeast Herald",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/northeast-herald-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "northegyptnews.com": {
     "b": "FN",
     "d": "northegyptnews.com",
@@ -44408,6 +44478,16 @@
     "P": 77,
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "oregoncapitalchronicle.com": {
+    "b": "L",
+    "d": "oregoncapitalchronicle.com",
+    "n": "Oregon Capital Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/oregon-capital-chronicle-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "oregonlive.com": {
@@ -59420,10 +59500,10 @@
     "b": "L",
     "d": "thedodo.com",
     "n": "The Dodo",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/dodo-bias-rating/",
     "P": 77,
-    "c": "M",
+    "c": "H",
     "a": "H",
     "q": []
   },
