@@ -5273,6 +5273,16 @@
       "M"
     ]
   },
+  "awakecanada.org": {
+    "b": "CP",
+    "d": "awakecanada.org",
+    "n": "Awake Canada",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/awake-canada-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "awarenessact.com": {
     "b": "CP",
     "d": "awarenessact.com",
@@ -15422,6 +15432,16 @@
     "a": "H",
     "q": []
   },
+  "dawsoncreekmirror.ca": {
+    "b": "LC",
+    "d": "dawsoncreekmirror.ca",
+    "n": "Dawson Creek Mirror",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dawson-creek-mirror-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "dayton247now.com": {
     "b": "RC",
     "d": "dayton247now.com",
@@ -25092,6 +25112,16 @@
       "M"
     ]
   },
+  "haidagwaiiobserver.com": {
+    "b": "LC",
+    "d": "haidagwaiiobserver.com",
+    "n": "Haida Gwaii Observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/haida-gwaii-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "halfwaypost.com": {
     "b": "S",
     "d": "halfwaypost.com",
@@ -34512,6 +34542,16 @@
     "a": "M",
     "q": []
   },
+  "macombdaily.com": {
+    "b": "C",
+    "d": "macombdaily.com",
+    "n": "Macomb Daily",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/macomb-daily-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "macombdigest.com": {
     "b": "FN",
     "d": "macombdigest.com",
@@ -35728,7 +35768,7 @@
     "u": "https://mediabiasfactcheck.com/media-equalizer/",
     "P": 45,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "mediafactwatch.com": {
@@ -42733,6 +42773,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-oc-times/",
     "P": 4,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "northomahatimes.com": {
+    "b": "FN",
+    "d": "northomahatimes.com",
+    "n": "North Omaha Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-omaha-times-bias/",
     "c": "L",
     "a": "L",
     "q": [
