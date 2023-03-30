@@ -5532,6 +5532,16 @@
     "a": "M",
     "q": []
   },
+  "ballot-access.org": {
+    "b": "C",
+    "d": "ballot-access.org",
+    "n": "Ballot-Access News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ballot-access-news/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ballotpedia.org": {
     "b": "C",
     "d": "ballotpedia.org",
@@ -9985,6 +9995,17 @@
     "p": "/cell-metabolism",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/cell-metabolism-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/cell-reports": {
+    "b": "PS",
+    "d": "cell.com/cell-reports",
+    "n": "Cell Reports",
+    "p": "/cell-reports",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-reports-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -22958,6 +22979,16 @@
     "P": 77,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "futureoflife.org": {
+    "b": "LC",
+    "d": "futureoflife.org",
+    "n": "Future of Life Institute",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/future-of-life-institute-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "futurism.com": {
@@ -38011,6 +38042,16 @@
     "a": "N",
     "q": []
   },
+  "mxmnews.com": {
+    "b": "R",
+    "d": "mxmnews.com",
+    "n": "MxM News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mxm-news-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "my9nj.com": {
     "b": "C",
     "d": "my9nj.com",
@@ -51702,6 +51743,16 @@
     "u": "https://mediabiasfactcheck.com/sanevax/",
     "P": 53,
     "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "sanfordherald.com": {
+    "b": "RC",
+    "d": "sanfordherald.com",
+    "n": "Sanford Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sanford-herald-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -71669,6 +71720,16 @@
     "n": "KSEE - Fresno News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/ksee-fresno-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "yourerie.com": {
+    "b": "C",
+    "d": "yourerie.com",
+    "n": "WJET - Erie News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wjet-erie-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
