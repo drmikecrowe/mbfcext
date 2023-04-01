@@ -15932,7 +15932,7 @@
     "u": "https://mediabiasfactcheck.com/defcon-warning-system/",
     "P": 42,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "defendevropa.org": {
@@ -18930,11 +18930,16 @@
     "u": "https://mediabiasfactcheck.com/mehr-news-agency/",
     "P": 68,
     "c": "L",
-    "a": "H",
+    "a": "L",
     "q": [
       "C",
       "P",
-      "PS"
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE",
+      "CEN"
     ]
   },
   "en.mercopress.com": {
@@ -34192,6 +34197,16 @@
     "a": "M",
     "q": []
   },
+  "lobservateur.com": {
+    "b": "RC",
+    "d": "lobservateur.com",
+    "n": "L'Observateur",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lobservateur-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "local12.com": {
     "b": "RC",
     "d": "local12.com",
@@ -35911,7 +35926,7 @@
     "u": "https://mediabiasfactcheck.com/media-roots/",
     "P": 48,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "mediashift.org": {
@@ -36027,7 +36042,7 @@
     "u": "https://mediabiasfactcheck.com/medicine-news/",
     "P": 38,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "medium.com": {
@@ -36333,7 +36348,7 @@
     "u": "https://mediabiasfactcheck.com/merry-jane/",
     "P": 69,
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "mesabitribune.com": {
@@ -36452,7 +36467,7 @@
     "u": "https://mediabiasfactcheck.com/metro/",
     "P": 81,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "metroeastsun.com": {
@@ -36544,7 +36559,7 @@
     "u": "https://mediabiasfactcheck.com/mexico-daily-news/",
     "P": 61,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "mg.co.za": {
@@ -44316,6 +44331,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "omahacitywire.com": {
+    "b": "FN",
+    "d": "omahacitywire.com",
+    "n": "Omaha City Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/omaha-city-wire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "oneangrygamer.net": {
     "b": "R",
