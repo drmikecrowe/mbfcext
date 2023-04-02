@@ -5663,6 +5663,16 @@
     "a": "M",
     "q": []
   },
+  "baptiststandard.com": {
+    "b": "RC",
+    "d": "baptiststandard.com",
+    "n": "Baptist Standard",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/baptist-standard/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "barenakedislam.com": {
     "b": "FN",
     "d": "barenakedislam.com",
@@ -8957,6 +8967,16 @@
     "u": "https://mediabiasfactcheck.com/calmar-courier-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "calmatters.org": {
+    "b": "LC",
+    "d": "calmatters.org",
+    "n": "Calmatters",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/calmatters-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "calwatchdog.com": {
@@ -41788,6 +41808,17 @@
     "a": "L",
     "q": []
   },
+  "newtondailynews.com/jasper-county-tribune": {
+    "b": "C",
+    "d": "newtondailynews.com/jasper-county-tribune",
+    "n": "Jasper County Tribune",
+    "p": "/jasper-county-tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jasper-county-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newyork.cbslocal.com": {
     "b": "LC",
     "d": "newyork.cbslocal.com",
@@ -49387,6 +49418,23 @@
     "a": "L",
     "q": []
   },
+  "realnewsnow.com": {
+    "b": "FN",
+    "d": "realnewsnow.com",
+    "n": "Real News Now",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/real-news-now-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M"
+    ]
+  },
   "realnewsrightnow.com": {
     "b": "S",
     "d": "realnewsrightnow.com",
@@ -56026,6 +56074,16 @@
     "n": "Culpeper Star-Exponent",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/culpeper-star-exponent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "stargazette.com": {
+    "b": "C",
+    "d": "stargazette.com",
+    "n": "Elmira Star-Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/elmira-star-gazette-bias/",
     "c": "H",
     "a": "L",
     "q": []
