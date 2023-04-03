@@ -7115,6 +7115,16 @@
       "M"
     ]
   },
+  "bmccancer.biomedcentral.com": {
+    "b": "PS",
+    "d": "bmccancer.biomedcentral.com",
+    "n": "BMC Cancer Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bmc-cancer-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bmj.com": {
     "b": "PS",
     "d": "bmj.com",
@@ -15576,14 +15586,15 @@
     "u": "https://mediabiasfactcheck.com/the-d-c-clothesline/",
     "P": 55,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
       "FFC",
       "FC",
       "M",
-      "FN"
+      "FN",
+      "PSE"
     ]
   },
   "dcdirtylaundry.com": {
@@ -28380,6 +28391,17 @@
     "a": "L",
     "q": []
   },
+  "insideottawavalley.com/ontario-communities/smiths-falls": {
+    "b": "LC",
+    "d": "insideottawavalley.com/ontario-communities/smiths-falls",
+    "n": "Smith's Falls Record News",
+    "p": "/ontario-communities/smiths-falls",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/smiths-falls-record-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "insideottawavalley.com/perth-on": {
     "b": "LC",
     "d": "insideottawavalley.com/perth-on",
@@ -31864,6 +31886,16 @@
     "n": "KSWO - Lawton News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kswo-lawton-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "ktbs.com": {
+    "b": "C",
+    "d": "ktbs.com",
+    "n": "KTBS - Shreveport News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktbs-shreveport-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -37458,6 +37490,16 @@
     "P": 21,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "monde-diplomatique.fr": {
+    "b": "L",
+    "d": "monde-diplomatique.fr",
+    "n": "Le Monde Diplomatique",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/le-monde-diplomatique-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "mondoweiss.net": {
@@ -59575,7 +59617,7 @@
     "u": "https://mediabiasfactcheck.com/the-daily-vox/",
     "P": 51,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "thedailyworld.net": {
@@ -60231,6 +60273,16 @@
     "n": "Grafton News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/grafton-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "thegraphic-advocate.com": {
+    "b": "C",
+    "d": "thegraphic-advocate.com",
+    "n": "Lake City Graphic-Advocate",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lake-city-graphic-advocate-bias/",
     "c": "H",
     "a": "L",
     "q": []
