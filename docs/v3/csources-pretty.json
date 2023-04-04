@@ -35792,6 +35792,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/applsci": {
+    "b": "PS",
+    "d": "mdpi.com/journal/applsci",
+    "n": "Applied Sciences Journal",
+    "p": "/journal/applsci",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/applied-sciences-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -51458,6 +51469,16 @@
     "a": "H",
     "q": []
   },
+  "rtlnieuws.nl": {
+    "b": "RC",
+    "d": "rtlnieuws.nl",
+    "n": "RTL Nieuws",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rtl-nieuws-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "rudaw.net": {
     "b": "FN",
     "d": "rudaw.net",
@@ -51819,6 +51840,20 @@
     "c": "NA",
     "a": "N",
     "q": []
+  },
+  "sandhillstoday.com": {
+    "b": "FN",
+    "d": "sandhillstoday.com",
+    "n": "Sandhills Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sandhills-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "sandiegocitywire.com": {
     "b": "FN",
