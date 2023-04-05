@@ -14978,7 +14978,7 @@
     "u": "https://mediabiasfactcheck.com/the-daily-northwestern/",
     "P": 66,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "dailynotify.com": {
@@ -35201,6 +35201,16 @@
     "a": "N",
     "q": []
   },
+  "marshallnews.com": {
+    "b": "C",
+    "d": "marshallnews.com",
+    "n": "Marshall Democrat-News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/marshall-democrat-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "marshallnewsmessenger.com": {
     "b": "LC",
     "d": "marshallnewsmessenger.com",
@@ -40061,6 +40071,20 @@
       "IM"
     ]
   },
+  "nenebraskanews.com": {
+    "b": "FN",
+    "d": "nenebraskanews.com",
+    "n": "NE Nebraska News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-nebraska-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "neonnettle.com": {
     "b": "CP",
     "d": "neonnettle.com",
@@ -43258,6 +43282,16 @@
     "P": 25,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "nova24tv.si": {
+    "b": "R",
+    "d": "nova24tv.si",
+    "n": "Nova24TV",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nova24tv/",
+    "c": "M",
+    "a": "M",
     "q": []
   },
   "novaramedia.com": {
@@ -54703,6 +54737,16 @@
     "a": "M",
     "q": []
   },
+  "sol.sapo.pt": {
+    "b": "RC",
+    "d": "sol.sapo.pt",
+    "n": "Sol Newspaper",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sol-sun-newspaper-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "solanosun.com": {
     "b": "FN",
     "d": "solanosun.com",
@@ -55424,7 +55468,7 @@
     "d": "southmissouriannews.com",
     "n": "South Missourian News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/ne-nebraska-news-bias/",
+    "u": "https://mediabiasfactcheck.com/south-missourian-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -66653,6 +66697,16 @@
     "u": "https://mediabiasfactcheck.com/verify-fact-check-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "vermilionstandard.com": {
+    "b": "RC",
+    "d": "vermilionstandard.com",
+    "n": "Vermilion Standard",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vermilion-standard-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "vermontindependent.org": {
