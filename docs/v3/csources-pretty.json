@@ -22895,6 +22895,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/bird-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/bird-science",
+    "n": "Frontiers in Bird Science",
+    "p": "/journals/bird-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-bird-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -34309,6 +34320,16 @@
     "a": "M",
     "q": []
   },
+  "lockportjournal.com": {
+    "b": "LC",
+    "d": "lockportjournal.com",
+    "n": "Lockport Union-Sun & Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lockport-union-sun-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "loganwoodbine.com": {
     "b": "C",
     "d": "loganwoodbine.com",
@@ -42685,6 +42706,20 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "northernclarkcountyherald.com": {
+    "b": "FN",
+    "d": "northernclarkcountyherald.com",
+    "n": "Northern Clark County Herald",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/northern-clark-county-herald-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
       "IM"
     ]
   },
@@ -52812,6 +52847,20 @@
     "c": "M",
     "a": "H",
     "q": []
+  },
+  "scnebraskanews.com": {
+    "b": "FN",
+    "d": "scnebraskanews.com",
+    "n": "SC Nebraska News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sc-nebraska-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "scnow.com": {
     "b": "C",
