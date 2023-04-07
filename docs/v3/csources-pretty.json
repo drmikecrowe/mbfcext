@@ -26822,6 +26822,16 @@
     "a": "H",
     "q": []
   },
+  "houston-today.com": {
+    "b": "LC",
+    "d": "houston-today.com",
+    "n": "Houston Today",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/houston-today-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "houstonchronicle.com": {
     "b": "LC",
     "d": "houstonchronicle.com",
@@ -36761,7 +36771,7 @@
     "t": "mic",
     "u": "https://mediabiasfactcheck.com/mic/",
     "P": 83,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -37088,7 +37098,7 @@
     "u": "https://mediabiasfactcheck.com/mindbodygreen/",
     "P": 88,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "mininggazette.com": {
@@ -48750,6 +48760,25 @@
     "a": "L",
     "q": []
   },
+  "publishedreporter.com": {
+    "b": "FN",
+    "d": "publishedreporter.com",
+    "n": "The Published Reporter",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-published-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "pubmed.ncbi.nlm.nih.gov": {
     "b": "PS",
     "d": "pubmed.ncbi.nlm.nih.gov",
@@ -55542,6 +55571,20 @@
     "n": "South OC Times",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/south-oc-times/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "southomahatimes.com": {
+    "b": "FN",
+    "d": "southomahatimes.com",
+    "n": "South Omaha Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-omaha-times-bias/",
     "c": "L",
     "a": "L",
     "q": [
