@@ -10040,6 +10040,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/cell-reports-medicine": {
+    "b": "PS",
+    "d": "cell.com/cell-reports-medicine",
+    "n": "Cell Reports Medicine",
+    "p": "/cell-reports-medicine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-reports-medicine-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -16190,6 +16201,16 @@
     "P": 48,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "delta-optimist.com": {
+    "b": "LC",
+    "d": "delta-optimist.com",
+    "n": "Delta Optimist",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/delta-optimist-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "deltanews.tv": {
@@ -53470,6 +53491,20 @@
       "IM"
     ]
   },
+  "senebraskanews.com": {
+    "b": "FN",
+    "d": "senebraskanews.com",
+    "n": "SE Nebraska News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-nebraska-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "sentencingproject.org": {
     "b": "LC",
     "d": "sentencingproject.org",
@@ -61345,6 +61380,16 @@
     "a": "L",
     "q": []
   },
+  "themorningsun.com": {
+    "b": "C",
+    "d": "themorningsun.com",
+    "n": "Mount Pleasant Morning Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mount-pleasant-morning-sun-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "themoscowtimes.com": {
     "b": "LC",
     "d": "themoscowtimes.com",
@@ -65828,6 +65873,21 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "urdupoint.com": {
+    "b": "FN",
+    "d": "urdupoint.com",
+    "n": "UrduPoint",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/urdupoint-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "PS",
+      "LT",
+      "FFC",
+      "FC"
+    ]
   },
   "us.blastingnews.com": {
     "b": "C",
