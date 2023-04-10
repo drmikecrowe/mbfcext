@@ -14028,6 +14028,16 @@
     "a": "N",
     "q": []
   },
+  "crestonnews.com": {
+    "b": "C",
+    "d": "crestonnews.com",
+    "n": "Creston News Advertiser",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/creston-news-advertiser-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
@@ -14519,7 +14529,7 @@
     "u": "https://mediabiasfactcheck.com/daily-49er/",
     "P": 48,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "dailyadvocate.com": {
@@ -14648,7 +14658,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/daily-citizen-dalton/",
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "dailyclimate.org": {
@@ -14661,7 +14671,7 @@
     "u": "https://mediabiasfactcheck.com/the-daily-climate/",
     "P": 45,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "dailyclout.io": {
@@ -15486,6 +15496,16 @@
     "u": "https://mediabiasfactcheck.com/david-icke/",
     "P": 81,
     "c": "L",
+    "a": "M",
+    "q": []
+  },
+  "davidpakman.com": {
+    "b": "L",
+    "d": "davidpakman.com",
+    "n": "DavidPakman.com",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/davidpakman-com-bias/",
+    "c": "H",
     "a": "M",
     "q": []
   },
@@ -17576,6 +17596,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "eaglevalleytimes.com": {
+    "b": "FN",
+    "d": "eaglevalleytimes.com",
+    "n": "Eagle Valley Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/eagle-valley-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "earth.columbia.edu": {
     "b": "LC",
@@ -33060,6 +33094,16 @@
     "a": "M",
     "q": []
   },
+  "leaderpub.com": {
+    "b": "RC",
+    "d": "leaderpub.com",
+    "n": "Niles Daily Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/niles-daily-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "leadertelegram.com": {
     "b": "C",
     "d": "leadertelegram.com",
@@ -37888,7 +37932,7 @@
     "u": "https://mediabiasfactcheck.com/mosaic/",
     "P": 62,
     "c": "H",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "motherjones.com": {
@@ -38102,7 +38146,7 @@
     "u": "https://mediabiasfactcheck.com/montana-standard/",
     "P": 69,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "munciereporter.com": {
@@ -67601,6 +67645,16 @@
     "P": 67,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "walkermn.com": {
+    "b": "LC",
+    "d": "walkermn.com",
+    "n": "Walker Pilot-Independent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/walker-pilot-independent-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "walkwithher.com": {
