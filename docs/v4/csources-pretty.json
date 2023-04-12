@@ -19796,6 +19796,16 @@
     "a": "M",
     "q": []
   },
+  "examiner.net": {
+    "b": "C",
+    "d": "examiner.net",
+    "n": "Independence Examiner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/independence-examiner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "explainamerica.com": {
     "b": "R",
     "d": "explainamerica.com",
@@ -32878,6 +32888,20 @@
       "FN"
     ]
   },
+  "lasvegascitywire.com": {
+    "b": "FN",
+    "d": "lasvegascitywire.com",
+    "n": "Las Vegas City Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/las-vegas-city-wire-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "lasvegassun.com": {
     "b": "LC",
     "d": "lasvegassun.com",
@@ -33234,6 +33258,16 @@
     "t": "LeDevoir",
     "u": "https://mediabiasfactcheck.com/le-devoir/",
     "P": 81,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "ledroit.com": {
+    "b": "C",
+    "d": "ledroit.com",
+    "n": "Le Droit",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/le-droit-bias/",
     "c": "H",
     "a": "H",
     "q": []
@@ -35977,6 +36011,17 @@
     "p": "/journal/arm",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/advances-on-respiratory-medicine-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/asi": {
+    "b": "PS",
+    "d": "mdpi.com/journal/asi",
+    "n": "Applied System Innovation",
+    "p": "/journal/asi",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/applied-system-innovation-bias/",
     "c": "M",
     "a": "L",
     "q": []
