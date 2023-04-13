@@ -35285,6 +35285,16 @@
     "a": "M",
     "q": []
   },
+  "mankatofreepress.com": {
+    "b": "LC",
+    "d": "mankatofreepress.com",
+    "n": "Mankato Free Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mankato-free-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mapleridgenews.com": {
     "b": "LC",
     "d": "mapleridgenews.com",
@@ -40552,6 +40562,16 @@
     "a": "M",
     "q": []
   },
+  "newindianexpress.com": {
+    "b": "LC",
+    "d": "newindianexpress.com",
+    "n": "New Indian Express",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-new-indian-express-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "newint.org": {
     "b": "L",
     "d": "newint.org",
@@ -43820,6 +43840,20 @@
     "a": "M",
     "q": []
   },
+  "nvbusinessdaily.com": {
+    "b": "FN",
+    "d": "nvbusinessdaily.com",
+    "n": "Nevada Business Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nevada-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nvic.org": {
     "b": "CP",
     "d": "nvic.org",
@@ -44291,6 +44325,21 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "oaklandtimes.org": {
+    "b": "FN",
+    "d": "oaklandtimes.org",
+    "n": "Oakland Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/oakland-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
       "IM"
     ]
   },
@@ -48337,6 +48386,16 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/prime-9ja-online-bias/",
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "princegeorgepost.com": {
+    "b": "RC",
+    "d": "princegeorgepost.com",
+    "n": "Prince George Post",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/prince-george-post/",
+    "c": "H",
     "a": "L",
     "q": []
   },
