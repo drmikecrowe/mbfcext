@@ -22686,9 +22686,11 @@
     "u": "https://mediabiasfactcheck.com/move-on/",
     "P": 85,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
+      "P",
       "FFC",
+      "FC",
       "M"
     ]
   },
@@ -38085,6 +38087,17 @@
     "a": "L",
     "q": []
   },
+  "mountainviewtoday.ca/didsbury-news": {
+    "b": "LC",
+    "d": "mountainviewtoday.ca/didsbury-news",
+    "n": "Didsbury Review",
+    "p": "/didsbury-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/didsbury-review-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "movingleft.com": {
     "b": "FN",
     "d": "movingleft.com",
@@ -38281,7 +38294,7 @@
     ]
   },
   "muncievoice.com": {
-    "b": "LC",
+    "b": "L",
     "d": "muncievoice.com",
     "f": "muncievoice",
     "n": "Middletown Media",
@@ -39286,7 +39299,7 @@
     "t": "NationofChange",
     "u": "https://mediabiasfactcheck.com/nation-of-change/",
     "P": 63,
-    "c": "M",
+    "c": "H",
     "a": "L",
     "q": []
   },
