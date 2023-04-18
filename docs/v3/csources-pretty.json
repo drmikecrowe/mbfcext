@@ -10061,6 +10061,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/cell-reports-methods": {
+    "b": "PS",
+    "d": "cell.com/cell-reports-methods",
+    "n": "Cell Reports Methods",
+    "p": "/cell-reports-methods",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-reports-methods-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -44003,6 +44014,20 @@
       "IM"
     ]
   },
+  "nwclarknews.com": {
+    "b": "FN",
+    "d": "nwclarknews.com",
+    "n": "NW Clark News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-clark-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nwconnnews.com": {
     "b": "FN",
     "d": "nwconnnews.com",
@@ -58172,6 +58197,16 @@
     "a": "M",
     "q": []
   },
+  "tagesschau.de": {
+    "b": "C",
+    "d": "tagesschau.de",
+    "n": "Tagesschau",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tagesschau-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "tahoedailytribune.com": {
     "b": "C",
     "d": "tahoedailytribune.com",
@@ -59601,6 +59636,16 @@
     "a": "L",
     "q": []
   },
+  "thecabin.net": {
+    "b": "RC",
+    "d": "thecabin.net",
+    "n": "Log Cabin Democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/log-cabin-democrat-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thecalifornian.com": {
     "b": "LC",
     "d": "thecalifornian.com",
@@ -59779,7 +59824,7 @@
     "u": "https://mediabiasfactcheck.com/the-common-sense-show/",
     "P": 58,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "theconnecticutstar.com": {
@@ -59840,7 +59885,7 @@
     "u": "https://mediabiasfactcheck.com/the-conservative-nut/",
     "P": 6,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "theconservativeopinion.com": {
@@ -59851,7 +59896,7 @@
     "u": "https://mediabiasfactcheck.com/conservative-opinion/",
     "P": 27,
     "c": "M",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "theconservativetreehouse.com": {
