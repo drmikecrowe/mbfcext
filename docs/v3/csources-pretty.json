@@ -7135,6 +7135,16 @@
     "a": "L",
     "q": []
   },
+  "bmcmedgenomics.biomedcentral.com": {
+    "b": "PS",
+    "d": "bmcmedgenomics.biomedcentral.com",
+    "n": "BMC Medical Genomics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bmc-medical-genomics-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bmj.com": {
     "b": "PS",
     "d": "bmj.com",
@@ -19607,6 +19617,16 @@
     "a": "N",
     "q": []
   },
+  "eveningtribune.com": {
+    "b": "LC",
+    "d": "eveningtribune.com",
+    "n": "Hornell Evening Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hornell-evening-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "everetttimes.com": {
     "b": "FN",
     "d": "everetttimes.com",
@@ -23845,7 +23865,7 @@
     "b": "L",
     "d": "giffords.org",
     "n": "Giffords Law Center to Prevent Gun Violence",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/giffords-law-center-to-prevent-gun-violence-bias/",
     "c": "H",
     "a": "M",
@@ -25403,6 +25423,16 @@
     "n": "Hammond Daily Star",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/hammond-daily-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "hamptonchronicle.com": {
+    "b": "C",
+    "d": "hamptonchronicle.com",
+    "n": "Hampton Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hampton-chronicle-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -50734,6 +50764,20 @@
       "PS",
       "LT",
       "M"
+    ]
+  },
+  "renoreporter.com": {
+    "b": "FN",
+    "d": "renoreporter.com",
+    "n": "Reno Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/reno-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
     ]
   },
   "rense.com": {
