@@ -10858,6 +10858,16 @@
     "a": "M",
     "q": []
   },
+  "chillicothenews.com": {
+    "b": "C",
+    "d": "chillicothenews.com",
+    "n": "Chillicothe Constitution-Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/chillicothe-constitution-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "china.org.cn": {
     "b": "L",
     "d": "china.org.cn",
@@ -36076,6 +36086,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/appliedchem": {
+    "b": "PS",
+    "d": "mdpi.com/journal/appliedchem",
+    "n": "AppliedChem Journal",
+    "p": "/journal/appliedchem",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/appliedchem-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/applmech": {
     "b": "PS",
     "d": "mdpi.com/journal/applmech",
@@ -39051,7 +39072,7 @@
     "u": "https://mediabiasfactcheck.com/national-academy-of-sciences-nas/",
     "P": 34,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "nationalaffairs.com": {
@@ -39234,7 +39255,7 @@
     "u": "https://mediabiasfactcheck.com/national-policy-institute/",
     "P": 34,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "M",
       "H"
@@ -39324,7 +39345,8 @@
       "FFC",
       "FC",
       "M",
-      "H"
+      "H",
+      "PSE"
     ]
   },
   "nationalzero.com": {
@@ -39931,7 +39953,7 @@
     "u": "https://mediabiasfactcheck.com/national-centers-environmental-information-ncei/",
     "P": 89,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "ncfloridanews.com": {
@@ -42009,6 +42031,16 @@
       "LT",
       "M"
     ]
+  },
+  "newsroom.co.nz": {
+    "b": "RC",
+    "d": "newsroom.co.nz",
+    "n": "Newsroom New Zealand",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newsroom-new-zealand-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "newsservis.com": {
     "b": "FN",
@@ -54001,6 +54033,20 @@
       "IM"
     ]
   },
+  "sevegasnews.com": {
+    "b": "FN",
+    "d": "sevegasnews.com",
+    "n": "SE Vegas News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-vegas-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "seventeen.com": {
     "b": "L",
     "d": "seventeen.com",
@@ -62676,6 +62722,17 @@
     "p": "/local-port-perry",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/port-perry-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "therecord.com/local-richmond-hill": {
+    "b": "LC",
+    "d": "therecord.com/local-richmond-hill",
+    "n": "Richmond Hill Liberal",
+    "p": "/local-richmond-hill",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/richmond-hill-liberal-bias/",
     "c": "H",
     "a": "L",
     "q": []
