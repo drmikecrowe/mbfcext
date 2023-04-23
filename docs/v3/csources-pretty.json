@@ -11856,7 +11856,7 @@
     "u": "https://mediabiasfactcheck.com/the-climate-reality-project/",
     "P": 76,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "climatescienceinternational.org": {
@@ -35727,6 +35727,16 @@
     "a": "N",
     "q": []
   },
+  "mcalesternews.com": {
+    "b": "LC",
+    "d": "mcalesternews.com",
+    "n": "McAlester News-Capital",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mcalester-news-capital-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mcall.com": {
     "b": "C",
     "d": "mcall.com",
@@ -45405,6 +45415,21 @@
       "M"
     ]
   },
+  "otptribune.com": {
+    "b": "FN",
+    "d": "otptribune.com",
+    "n": "OTP Tribune",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/otp-tribune-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "ottawa.citynews.ca": {
     "b": "C",
     "d": "ottawa.citynews.ca",
@@ -47632,6 +47657,16 @@
     "u": "https://mediabiasfactcheck.com/politics-co-uk-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "politicshome.com": {
+    "b": "C",
+    "d": "politicshome.com",
+    "n": "PoliticsHome",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/politicshome-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "politicslive.net": {
@@ -54758,6 +54793,20 @@
     "a": "L",
     "q": []
   },
+  "silverstatetiomes.com": {
+    "b": "FN",
+    "d": "silverstatetiomes.com",
+    "n": "Silver State Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/silver-state-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "simcoe.com/alliston-on": {
     "b": "LC",
     "d": "simcoe.com/alliston-on",
@@ -58258,6 +58307,20 @@
     "a": "L",
     "q": []
   },
+  "swvegasnews.com": {
+    "b": "FN",
+    "d": "swvegasnews.com",
+    "n": "SW Vegas News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-vegas-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "syracuse.com": {
     "b": "C",
     "d": "syracuse.com",
@@ -59887,7 +59950,7 @@
     "u": "https://mediabiasfactcheck.com/the-citizen-press/",
     "P": 13,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "thecity.nyc": {
@@ -67206,6 +67269,16 @@
     "u": "https://mediabiasfactcheck.com/vancouver-island-free-daily-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "vancouverprovince.com": {
+    "b": "RC",
+    "d": "vancouverprovince.com",
+    "n": "Vancouver Province",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vancouver-province-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "vancouversun.com": {
