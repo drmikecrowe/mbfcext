@@ -7332,6 +7332,16 @@
     "a": "L",
     "q": []
   },
+  "boredpanda.com": {
+    "b": "LC",
+    "d": "boredpanda.com",
+    "n": "Bored Panda",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bored-panda-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "borehamwoodtimes.co.uk": {
     "b": "C",
     "d": "borehamwoodtimes.co.uk",
@@ -10924,7 +10934,7 @@
     "u": "https://mediabiasfactcheck.com/the-china-post/",
     "P": 67,
     "c": "H",
-    "a": "H",
+    "a": "N",
     "q": []
   },
   "chinookobserver.com": {
@@ -23075,6 +23085,17 @@
     "n": "Mat-Su Valley Frontiersman",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/mat-su-valley-frontiersman-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontierspartnerships.org/journals/british-journal-of-biomedical-science": {
+    "b": "PS",
+    "d": "frontierspartnerships.org/journals/british-journal-of-biomedical-science",
+    "n": "British Journal of Biomedical Science",
+    "p": "/journals/british-journal-of-biomedical-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/british-journal-of-biomedical-science-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -38095,6 +38116,16 @@
     "a": "M",
     "q": []
   },
+  "morningjournal.com": {
+    "b": "C",
+    "d": "morningjournal.com",
+    "n": "Lorain Morning Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lorain-morning-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "morningledger.com": {
     "b": "CP",
     "d": "morningledger.com",
@@ -43797,6 +43828,16 @@
     "u": "https://mediabiasfactcheck.com/now-entertainment/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "nownews.com": {
+    "b": "LC",
+    "d": "nownews.com",
+    "n": "NOWnews Today",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/nownews-today-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "nowtheendbegins.com": {
@@ -62302,6 +62343,16 @@
     "a": "H",
     "q": []
   },
+  "thenorthernview.com": {
+    "b": "LC",
+    "d": "thenorthernview.com",
+    "n": "Prince Rupert Northern View",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/prince-rupert-northern-view-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "theobjectivestandard.com": {
     "b": "RC",
     "d": "theobjectivestandard.com",
@@ -68501,6 +68552,20 @@
       "FC",
       "M",
       "PSE"
+    ]
+  },
+  "washoenews.com": {
+    "b": "FN",
+    "d": "washoenews.com",
+    "n": "Washoe News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/washoe-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
     ]
   },
   "watchdogreport.org": {
