@@ -10708,6 +10708,16 @@
     "a": "L",
     "q": []
   },
+  "chesterstandard.co.uk": {
+    "b": "C",
+    "d": "chesterstandard.co.uk",
+    "n": "Chester and District Standard",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/chester-and-district-standard-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "chicago.cbslocal.com": {
     "b": "LC",
     "d": "chicago.cbslocal.com",
@@ -12640,6 +12650,20 @@
       "M",
       "H",
       "PSE"
+    ]
+  },
+  "concordledger.com": {
+    "b": "FN",
+    "d": "concordledger.com",
+    "n": "Concord Ledger",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/concord-ledger-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
     ]
   },
   "concordmonitor.com": {
@@ -24752,6 +24776,16 @@
     "a": "M",
     "q": []
   },
+  "grandhaventribune.com": {
+    "b": "RC",
+    "d": "grandhaventribune.com",
+    "n": "Grand Haven Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/grand-haven-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "grandjunctiontimes.com": {
     "b": "FN",
     "d": "grandjunctiontimes.com",
@@ -30358,6 +30392,16 @@
     "P": 34,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "justia.com": {
+    "b": "C",
+    "d": "justia.com",
+    "n": "Justia",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/justia-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "justicedenied.org": {
