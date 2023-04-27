@@ -15552,6 +15552,20 @@
     "a": "L",
     "q": []
   },
+  "dartmouthtimes.com": {
+    "b": "LC",
+    "d": "dartmouthtimes.com",
+    "n": "Dartmouth Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dartmouth-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "dataasylum.com": {
     "b": "CP",
     "d": "dataasylum.com",
@@ -26751,6 +26765,17 @@
     "a": "M",
     "q": []
   },
+  "hometownsource.com/elk_river_star_news": {
+    "b": "LC",
+    "d": "hometownsource.com/elk_river_star_news",
+    "n": "Elk River Star",
+    "p": "/elk_river_star_news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/elk-river-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hometownsource.com/forest_lake_times": {
     "b": "LC",
     "d": "hometownsource.com/forest_lake_times",
@@ -32239,6 +32264,16 @@
     "a": "H",
     "q": []
   },
+  "ktna.org": {
+    "b": "LC",
+    "d": "ktna.org",
+    "n": "KTNA - NPR - Talkeetna",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ktna-npr-talkeetna-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ktnv.com": {
     "b": "C",
     "d": "ktnv.com",
@@ -33347,6 +33382,17 @@
     "p": "/category/news/cassopolis-news",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/cassopolis-vigilant-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "leaderpub.com/category/news/dowagiac-news": {
+    "b": "RC",
+    "d": "leaderpub.com/category/news/dowagiac-news",
+    "n": "Dowagiac Daily News",
+    "p": "/category/news/dowagiac-news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dowagiac-daily-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -54506,6 +54552,17 @@
     "u": "https://mediabiasfactcheck.com/the-times-ottawa-illinois-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "shawlocal.com/news-tribune": {
+    "b": "C",
+    "d": "shawlocal.com/news-tribune",
+    "n": "LaSalle News-Tribune",
+    "p": "/news-tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lasalle-news-tribune-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "shawlocal.com/northwest-herald": {
