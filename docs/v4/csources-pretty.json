@@ -7145,6 +7145,16 @@
     "a": "L",
     "q": []
   },
+  "bmcneurosci.biomedcentral.com": {
+    "b": "PS",
+    "d": "bmcneurosci.biomedcentral.com",
+    "n": "BMC Neuroscience",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bmc-neuroscience-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bmj.com": {
     "b": "PS",
     "d": "bmj.com",
@@ -26711,6 +26721,16 @@
     "a": "H",
     "q": []
   },
+  "holsteinadvance.com": {
+    "b": "C",
+    "d": "holsteinadvance.com",
+    "n": "Holstein Advance",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/holstein-advance-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "home.nra.org": {
     "b": "FN",
     "d": "home.nra.org",
@@ -38355,6 +38375,16 @@
     "a": "N",
     "q": []
   },
+  "mpnnow.com": {
+    "b": "LC",
+    "d": "mpnnow.com",
+    "n": "Canadaigua Daily Messenger",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/canadaigua-daily-messenger-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mprnews.org": {
     "b": "LC",
     "d": "mprnews.org",
@@ -39594,7 +39624,7 @@
     "u": "https://mediabiasfactcheck.com/natural-cures/",
     "P": 52,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "naturalcuresnotmedicine.info": {
@@ -39631,7 +39661,7 @@
     "u": "https://mediabiasfactcheck.com/naturally-savvy/",
     "P": 60,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "naturalmedicine.news": {
@@ -40210,6 +40240,19 @@
       "IM"
     ]
   },
+  "ncnewsline.com": {
+    "b": "L",
+    "d": "ncnewsline.com",
+    "f": "ncpolicywatch",
+    "n": "NC Newsline",
+    "r": "MF",
+    "t": "ncpolicywatch",
+    "u": "https://mediabiasfactcheck.com/nc-policy-watch/",
+    "P": 61,
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "ncnewsonline.com": {
     "b": "LC",
     "d": "ncnewsonline.com",
@@ -40218,19 +40261,6 @@
     "u": "https://mediabiasfactcheck.com/new-castle-news/",
     "P": 42,
     "c": "H",
-    "a": "L",
-    "q": []
-  },
-  "ncpolicywatch.com": {
-    "b": "L",
-    "d": "ncpolicywatch.com",
-    "f": "ncpolicywatch",
-    "n": "NC Policy Watch",
-    "r": "MF",
-    "t": "ncpolicywatch",
-    "u": "https://mediabiasfactcheck.com/nc-policy-watch/",
-    "P": 61,
-    "c": "M",
     "a": "L",
     "q": []
   },
@@ -40640,7 +40670,7 @@
     "u": "https://mediabiasfactcheck.com/neuroscience-news/",
     "P": 69,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "nevadacurrent.com": {
@@ -51273,7 +51303,7 @@
     "u": "https://mediabiasfactcheck.com/natural-resource-governance-institute/",
     "P": 57,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "resourcewatch.org": {
@@ -62254,17 +62284,6 @@
       "PSE"
     ]
   },
-  "theneed2know.com": {
-    "b": "C",
-    "d": "theneed2know.com",
-    "n": "Need2Know",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/need-2-know/",
-    "P": 31,
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "theneedling.com": {
     "b": "S",
     "d": "theneedling.com",
@@ -65294,6 +65313,16 @@
     "P": 72,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "tribuneindia.com": {
+    "b": "RC",
+    "d": "tribuneindia.com",
+    "n": "The Tribune (India)",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-tribune-india-bias/",
+    "c": "M",
+    "a": "H",
     "q": []
   },
   "tribunemagazine.org": {
