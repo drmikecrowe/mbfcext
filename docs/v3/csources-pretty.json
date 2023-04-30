@@ -24873,6 +24873,20 @@
     "a": "L",
     "q": []
   },
+  "granitestatetimes.com": {
+    "b": "FN",
+    "d": "granitestatetimes.com",
+    "n": "Granite State Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/granite-state-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "gravelinstitute.org": {
     "b": "L",
     "d": "gravelinstitute.org",
@@ -36249,6 +36263,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/appliedmath": {
+    "b": "PS",
+    "d": "mdpi.com/journal/appliedmath",
+    "n": "AppliedMath Journal",
+    "p": "/journal/appliedmath",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/appliedmath-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/applmech": {
     "b": "PS",
     "d": "mdpi.com/journal/applmech",
@@ -45915,6 +45940,16 @@
     "a": "M",
     "q": []
   },
+  "pa.media": {
+    "b": "C",
+    "d": "pa.media",
+    "n": "PA Media",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/pa-media-uk-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "pacatholictribune.com": {
     "b": "FN",
     "d": "pacatholictribune.com",
@@ -47407,6 +47442,16 @@
     "a": "L",
     "q": []
   },
+  "plus.maths.org": {
+    "b": "C",
+    "d": "plus.maths.org",
+    "n": "Plus Maths",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/plus-maths-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "plymouthpatriotpost.com": {
     "b": "FN",
     "d": "plymouthpatriotpost.com",
@@ -48740,6 +48785,16 @@
     "a": "L",
     "q": []
   },
+  "pressreader.com": {
+    "b": "C",
+    "d": "pressreader.com",
+    "n": "PressReader",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/pressreader-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "presstelegram.com/the-grunion": {
     "b": "C",
     "d": "presstelegram.com/the-grunion",
@@ -49537,6 +49592,16 @@
     "u": "https://mediabiasfactcheck.com/the-punch-nigeria/",
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "punjabitribuneonline.com": {
+    "b": "RC",
+    "d": "punjabitribuneonline.com",
+    "n": "Punjabi Tribune",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/punjabi-tribune-bias/",
+    "c": "M",
+    "a": "M",
     "q": []
   },
   "puppetstringnews.com": {
@@ -60067,7 +60132,7 @@
     "t": "TheCanaryUK",
     "u": "https://mediabiasfactcheck.com/the-canary-uk/",
     "P": 57,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -64963,6 +65028,17 @@
     "a": "H",
     "q": []
   },
+  "toronto.com/news/scarborough": {
+    "b": "LC",
+    "d": "toronto.com/news/scarborough",
+    "n": "Scarborough Mirror",
+    "p": "/news/scarborough",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/scarborough-mirror-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "torontosun.com": {
     "b": "R",
     "d": "torontosun.com",
@@ -65301,6 +65377,16 @@
     "u": "https://mediabiasfactcheck.com/the-seymour-tribune-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "tribune.com.pk": {
+    "b": "C",
+    "d": "tribune.com.pk",
+    "n": "Express Tribune",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-express-tribune/",
+    "c": "M",
+    "a": "H",
     "q": []
   },
   "tribunecontentagency.com": {
