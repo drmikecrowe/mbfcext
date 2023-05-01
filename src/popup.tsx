@@ -1,12 +1,15 @@
 import { faAngleDoubleRight, faCog } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useEffect, useState } from "react"
-import { sendMessage } from "webext-bridge"
+
+import { sendToBackground } from "@plasmohq/messaging"
 
 import Button from "~components/button"
 import { getCurrentTab, getDomain } from "~utils"
 
 import "./style.css"
+
+import { GET_DOMAIN_FOR_TAB, type GetDomainForTabRequestBody, type GetDomainForTabResponseBody } from "~background/messages/get-domain-for-tab"
 
 import { logger } from "./utils/logger"
 
@@ -16,10 +19,10 @@ export interface PopupDetails {
   bias: string
   biasDescription: string
   mbfcLink: string
-  rated: boolean
+  rated?: boolean
 }
 
-const Rated = ({ bias, biasDescription, mbfcLink }) => {
+const Rated = ({ bias, biasDescription, mbfcLink }: PopupDetails) => {
   return (
     <div>
       <h1 className="p-0 pb-2">{bias}</h1>
@@ -57,11 +60,15 @@ function IndexPopup() {
       if (ct.isErr()) return
 
       const domain = getDomain(ct.value.url)
-      const site: PopupDetails | undefined = await sendMessage("get-domain-for-tab", { domain: domain.domain, path: domain.path }, "background")
-      if (!site) {
+      const res = await sendToBackground<GetDomainForTabRequestBody, GetDomainForTabResponseBody>({
+        name: GET_DOMAIN_FOR_TAB,
+        body: { domain: domain.domain, path: domain.path },
+      })
+      if (!res || !res.site) {
         log(`Error: No site returned`)
         return
       }
+      const { site } = res
       setBias(site.bias)
       setBiasDescription(site.biasDescription)
       setMbfcLink(site.mbfcLink)

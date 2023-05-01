@@ -26,8 +26,8 @@ export class SourcesProcessor {
 
   retrievingPromise: Promise<SourceData>
   sourceData: SourceData
-  loaded: boolean = false
-  loading: boolean = false
+  loaded = false
+  loading = false
 
   static getInstance(): SourcesProcessor {
     if (!SourcesProcessor.sm_instance) {

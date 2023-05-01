@@ -47,7 +47,7 @@ export class TabListener {
   private static instance: TabListener
 
   interval: Record<number, number> = {}
-  lastBias: string = ""
+  inverse: Record<number, boolean> = {}
 
   static getInstance(): TabListener {
     if (!TabListener.instance) {
@@ -56,12 +56,11 @@ export class TabListener {
     return TabListener.instance
   }
 
-  private show(bias: BiasEnums, inverse: boolean, tabId: number) {
-    const { text, normal, invert } = colorMap[bias]
+  private async show(bias: BiasEnums, inverse: boolean, tabId: number) {
+    const { normal, invert } = colorMap[bias]
     const image = inverse ? invert : normal
-    this.lastBias = bias
     try {
-      chrome.action.setIcon({
+      await chrome.action.setIcon({
         tabId,
         path: image,
       })
@@ -70,15 +69,15 @@ export class TabListener {
     }
   }
 
-  resetIcon(tabId: number, windowId: number) {
+  async resetIcon(tabId: number, windowId: number) {
     log(`Resetting icon`)
     if (this.interval[windowId]) {
       clearInterval(this.interval[windowId])
       delete this.interval[windowId]
+      delete this.inverse[windowId]
     }
-    this.lastBias = ""
     try {
-      chrome.action.setIcon({
+      await chrome.action.setIcon({
         tabId,
         path: icon,
       })
@@ -88,28 +87,33 @@ export class TabListener {
     return false
   }
 
-  updateIcon(bias: BiasEnums, collapse: boolean, tabId: number, windowId: number) {
+  async blinkIcon(tabId: number, windowId, bias: BiasEnums) {
+    const res = await getTabById(tabId)
+    if (res.isErr()) {
+      log(`Tab ${tabId} not found.  Resetting icon`)
+      return this.resetIcon(tabId, windowId)
+    }
+    this.inverse[windowId] = !this.inverse[windowId]
+    return this.show(bias, this.inverse[windowId], tabId)
+  }
+
+  async updateIcon(bias: BiasEnums, collapse: boolean, tabId: number, windowId: number) {
     try {
-      // if (bias === this.lastBias) return
       if (!(bias in colorMap)) {
         log(`Bias ${bias} invalid.  Ignoring`)
-        return this.resetIcon(tabId, windowId)
+        return
       }
-      this.resetIcon(tabId, windowId)
-      this.show(bias, false, tabId)
+      await this.resetIcon(tabId, windowId)
+      log(`Updating icon for tab ${tabId} to ${bias}`)
+      await this.show(bias, false, tabId)
 
       if (collapse) {
-        let inverse = false
-        this.interval[windowId] = setInterval(() => {
-          getTabById(tabId).then((res) => {
-            if (res.isOk()) {
-              inverse = !inverse
-              this.show(bias, inverse, tabId)
-            } else {
-              this.resetIcon(tabId, windowId)
-            }
-          })
+        if (this.interval[windowId]) return
+        this.inverse[windowId] = false
+        this.interval[windowId] = setInterval(async () => {
+          await this.blinkIcon(tabId, windowId, bias)
         }, 1000) as any
+        log(`Starting to blink icon for tab ${tabId}`)
       }
     } catch (e) {
       console.error(e)
