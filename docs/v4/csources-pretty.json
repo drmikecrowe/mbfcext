@@ -2433,6 +2433,16 @@
     "a": "L",
     "q": []
   },
+  "allthatsinteresting.com": {
+    "b": "LC",
+    "d": "allthatsinteresting.com",
+    "n": "All That's Interesting",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/all-thats-interesting-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "almasdarnews.com": {
     "b": "FN",
     "d": "almasdarnews.com",
@@ -5004,7 +5014,7 @@
     "u": "https://mediabiasfactcheck.com/the-atlanta-banana/",
     "P": 28,
     "c": "NA",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "atlstandard.com": {
@@ -5097,7 +5107,7 @@
     "u": "https://mediabiasfactcheck.com/the-auburn-citizen/",
     "P": 69,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "auburntimes.com": {
@@ -7299,6 +7309,16 @@
     "u": "https://mediabiasfactcheck.com/boomlive-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "boonvilledailynews.com": {
+    "b": "C",
+    "d": "boonvilledailynews.com",
+    "n": "Boonville Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/boonville-daily-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "bordercountiesadvertizer.com": {
@@ -26562,6 +26582,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "hillsboroughsun.com": {
+    "b": "FN",
+    "d": "hillsboroughsun.com",
+    "n": "Hillsborough Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hillsborough-sun-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "hillsdale.net": {
     "b": "LC",
@@ -61313,6 +61347,16 @@
     "a": "L",
     "q": []
   },
+  "thegraphicleader.com": {
+    "b": "RC",
+    "d": "thegraphicleader.com",
+    "n": "The Graphic Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-graphic-leader/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thegrayzone.com": {
     "b": "FN",
     "d": "thegrayzone.com",
@@ -69442,6 +69486,17 @@
     "P": 67,
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "weatherforddemocrat.com/mineral-wells": {
+    "b": "LC",
+    "d": "weatherforddemocrat.com/mineral-wells",
+    "n": "Mineral Wells Index",
+    "p": "/mineral-wells",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mineral-wells-index-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "weau.com": {
