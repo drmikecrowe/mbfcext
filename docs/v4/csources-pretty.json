@@ -10133,6 +10133,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/cell-reports-sustainability": {
+    "b": "PS",
+    "d": "cell.com/cell-reports-sustainability",
+    "n": "Cell Reports Sustainability",
+    "p": "/cell-reports-sustainability",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-reports-sustainability-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -29411,6 +29422,24 @@
     "a": "H",
     "q": []
   },
+  "israelunwired.com": {
+    "b": "FN",
+    "d": "israelunwired.com",
+    "n": "Israel Unwired",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/israel-unwired-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H"
+    ]
+  },
   "israelvideonetwork.com": {
     "b": "FN",
     "d": "israelvideonetwork.com",
@@ -35312,6 +35341,16 @@
     "P": 24,
     "c": "NA",
     "a": "L",
+    "q": []
+  },
+  "madinamerica.com": {
+    "b": "LC",
+    "d": "madinamerica.com",
+    "n": "Mad in America",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/mad-in-america/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "madison.com/wsj": {
@@ -41576,7 +41615,7 @@
     "u": "https://mediabiasfactcheck.com/news-and-guts/",
     "P": 43,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "newsandnews.com": {
@@ -57082,6 +57121,16 @@
     "a": "L",
     "q": []
   },
+  "stacker.com": {
+    "b": "C",
+    "d": "stacker.com",
+    "n": "Stacker",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stacker-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "stamfordadvocate.com": {
     "b": "LC",
     "d": "stamfordadvocate.com",
@@ -63285,6 +63334,16 @@
       "M",
       "H"
     ]
+  },
+  "thereminder.ca": {
+    "b": "LC",
+    "d": "thereminder.ca",
+    "n": "Flin Flon Reminder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/flin-flon-reminder-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "thereporteronline.com": {
     "b": "C",
