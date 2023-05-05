@@ -6124,6 +6124,26 @@
     "a": "M",
     "q": []
   },
+  "bellinghammetronews.com": {
+    "b": "RC",
+    "d": "bellinghammetronews.com",
+    "n": "Bellingham Metro News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bellingham-metro-news/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "belltower.news": {
+    "b": "LC",
+    "d": "belltower.news",
+    "n": "Belltower.News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/belltower-news-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "bemidji pioneer": {
     "b": "RC",
     "n": "Bemidji Pioneer",
@@ -39129,6 +39149,16 @@
     "a": "M",
     "q": []
   },
+  "mypanhandle.com": {
+    "b": "C",
+    "d": "mypanhandle.com",
+    "n": "WMBB - Panama City News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wmbb-panama-city-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "myrecordjournal.com": {
     "b": "C",
     "d": "myrecordjournal.com",
@@ -43327,6 +43357,20 @@
     "n": "North Cook News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-cook-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "northcountryreporter.com": {
+    "b": "FN",
+    "d": "northcountryreporter.com",
+    "n": "North Country Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-country-reporter-bias/",
     "c": "L",
     "a": "L",
     "q": [
