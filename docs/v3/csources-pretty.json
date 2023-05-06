@@ -7725,6 +7725,16 @@
       "M"
     ]
   },
+  "breakingnews.ie": {
+    "b": "LC",
+    "d": "breakingnews.ie",
+    "n": "BreakingNews.ie",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/breakingnews-ie-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "breakingnews247.net": {
     "b": "FN",
     "d": "breakingnews247.net",
@@ -33104,6 +33114,16 @@
     "a": "H",
     "q": []
   },
+  "lancashiretelegraph.co.uk": {
+    "b": "C",
+    "d": "lancashiretelegraph.co.uk",
+    "n": "Lancashire Telegraph",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lancashire-telegraph-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "lancastercourier.com": {
     "b": "FN",
     "d": "lancastercourier.com",
@@ -33635,6 +33655,16 @@
     "n": "Lebanon-Express",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/lebanon-express-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "lebanondemocrat.com": {
+    "b": "RC",
+    "d": "lebanondemocrat.com",
+    "n": "Lebanon Democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lebanon-democrat-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -40916,7 +40946,7 @@
     "u": "https://mediabiasfactcheck.com/new-american-news/",
     "P": 22,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "newarkpostonline.com": {
@@ -40943,7 +40973,7 @@
     "q": []
   },
   "newbernsj.com": {
-    "b": "C",
+    "b": "RC",
     "d": "newbernsj.com",
     "f": "newbernsunjournal",
     "n": "New Bern Sun Journal",
@@ -41033,7 +41063,7 @@
     "u": "https://mediabiasfactcheck.com/new-humanist/",
     "P": 56,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "newideal.aynrand.org": {
@@ -41111,7 +41141,7 @@
     "u": "https://mediabiasfactcheck.com/new-matilda/",
     "P": 65,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "newmexicosun.com": {
@@ -67954,6 +67984,16 @@
     "P": 42,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "verdict.justia.com": {
+    "b": "C",
+    "d": "verdict.justia.com",
+    "n": "Verdict",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/verdict-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "verdugosnews.com": {
