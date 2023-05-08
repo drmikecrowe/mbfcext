@@ -6505,6 +6505,16 @@
     "a": "L",
     "q": []
   },
+  "billmuehlenberg.com": {
+    "b": "CP",
+    "d": "billmuehlenberg.com",
+    "n": "CultureWatch",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/culturewatch-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "bing.com": {
     "b": "LC",
     "d": "bing.com",
@@ -27637,6 +27647,15 @@
     "t": "icrw",
     "u": "https://mediabiasfactcheck.com/international-center-for-research-on-women/",
     "P": 64,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "ida-county-courier-bias": {
+    "b": "C",
+    "n": "ida-county-courier-bias",
+    "r": "H",
+    "u": "http://Ida County Courier/",
     "c": "H",
     "a": "L",
     "q": []
@@ -52346,6 +52365,20 @@
     "a": "L",
     "q": []
   },
+  "rockinghamtimes.com": {
+    "b": "FN",
+    "d": "rockinghamtimes.com",
+    "n": "Rockingham Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rockingham-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "rockislandtoday.com": {
     "b": "FN",
     "d": "rockislandtoday.com",
@@ -59849,6 +59882,16 @@
     "n": "The Journal (Colorado)",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-journal-colorado-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "the-leader.com": {
+    "b": "LC",
+    "d": "the-leader.com",
+    "n": "Corning Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/corning-leader-bias/",
     "c": "H",
     "a": "L",
     "q": []
