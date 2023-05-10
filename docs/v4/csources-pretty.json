@@ -36556,6 +36556,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/aquacj": {
+    "b": "PS",
+    "d": "mdpi.com/journal/aquacj",
+    "n": "Aquaculture Journal",
+    "p": "/journal/aquacj",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/aquaculture-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -58076,6 +58087,20 @@
       "IM"
     ]
   },
+  "straffordnews.com": {
+    "b": "FN",
+    "d": "straffordnews.com",
+    "n": "Strafford News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/strafford-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "straitstimes.com": {
     "b": "RC",
     "d": "straitstimes.com",
@@ -63834,6 +63859,17 @@
     "p": "/local-oshawa/home.html",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/oshawa-this-week-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "thespec.com/local-stoney-creek": {
+    "b": "LC",
+    "d": "thespec.com/local-stoney-creek",
+    "n": "Stoney Creek News",
+    "p": "/local-stoney-creek",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stoney-creek-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
