@@ -1,16 +1,21 @@
-import type { PlasmoContentScript } from "plasmo"
+import type { PlasmoCSConfig } from "plasmo"
 
-import { ConfigHandler } from "~utils"
+import { ConfigHandler, logger } from "~utils"
 
-export const config: PlasmoContentScript = {
+import { Facebook } from "./content/facebook"
+
+export const config: PlasmoCSConfig = {
   matches: ["https://facebook.com/*", "https://www.facebook.com/*"],
 }
+
+const log = logger("mbfc:contentscript:facebook")
 
 window.addEventListener("load", () => {
   console.log("content script loaded")
   ;(async () => {
-    const config = await ConfigHandler.getInstance().retrieve()
-    document.body.style.background = "pink"
+    await ConfigHandler.getInstance().retrieve()
+    log(`Loaded into Facebook...`)
+    Facebook.getInstance()
   })().catch((err) => {
     console.error(err)
   })

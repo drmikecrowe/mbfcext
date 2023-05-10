@@ -1,3 +1,9 @@
+import type { Alarms } from "webextension-polyfill"
+import browser from "webextension-polyfill"
+
+import { ConfigHandler, logger } from "../../utils"
+import { SourcesProcessor } from "../sources-processor"
+
 const log = logger("mbfc:utils:poller")
 
 type PollFunction = () => void
@@ -5,10 +11,10 @@ type PollFunction = () => void
 export class Poller {
   private static instance: Poller
   private pollFunction: PollFunction | undefined
-  private storage: StorageHandler
+  private storage: SourcesProcessor
 
   constructor() {
-    this.storage = StorageHandler.getInstance()
+    this.storage = SourcesProcessor.getInstance()
   }
 
   static getInstance(pollFn?: PollFunction) {
@@ -38,10 +44,8 @@ export class Poller {
   }
 
   async runtimeOnInstalled() {
-    await StorageHandler.getInstance().getConfig()
     log("onInstalled....")
-    this.scheduleRequest()
-    this.scheduleWatchdog()
+    await Promise.allSettled([this.scheduleRequest(), this.scheduleWatchdog()])
   }
 
   async alarmsOnAlarm(alarm: Alarms.Alarm) {
@@ -53,18 +57,17 @@ export class Poller {
       } else {
         // if it is not there, start a new request and reschedule refresh alarm
         log("Refresh alarm doesn't exist, starting a new one")
-        this.startRequest()
-        this.scheduleRequest()
+        return this.runtimeOnInstalled()
       }
     } else {
       // if refresh alarm triggered, start a new request
-      this.startRequest()
+      return this.startRequest()
     }
   }
 
   async runtimeOnStartup() {
     log("onStartup....")
-    this.startRequest()
+    return this.startRequest()
   }
 
   runtimeOnMessage(request: any, sender: any): Promise<any> | void {
@@ -77,9 +80,7 @@ export class Poller {
 
   // schedule a new fetch every 30 minutes
   async scheduleRequest() {
-    const cfg = ConfigHandler.getInstance().config
-    if (cfg.isErr()) return
-    const config = cfg.value
+    const config = ConfigHandler.getInstance().config
     log(`schedule refresh alarm to ${config.pollMinutes} minutes...`)
     browser.alarms.create("refresh", {
       periodInMinutes: config.pollMinutes,
@@ -94,15 +95,13 @@ export class Poller {
 
   // fetch data and save to local storage
   async startRequest() {
-    const cfg = ConfigHandler.getInstance().config
-    if (cfg.isErr()) return
-    const config = cfg.value
+    const config = ConfigHandler.getInstance().config
 
     if (typeof this.pollFunction === "function") {
       log("polling extensions...")
       await this.pollFunction()
     }
     config.lastRun = Date.now()
-    await this.storage.update(config)
+    await this.storage.refreshSources()
   }
 }

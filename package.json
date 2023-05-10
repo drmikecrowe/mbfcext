@@ -21,11 +21,14 @@
     "@plasmohq/storage": "^1.5.0",
     "@types/webextension-polyfill": "^0.10.0",
     "debug": "^4.3.4",
+    "gtm-module": "^1.0.7",
+    "lit": "^2.7.4",
     "lodash": "^4.17.21",
     "neverthrow": "^6.0.0",
     "plasmo": "^0.69.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "webextension-polyfill": "^0.10.0",
     "whatwg-fetch": "^3.6.2"
   },
   "devDependencies": {

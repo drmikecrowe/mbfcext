@@ -4,12 +4,12 @@ import type { CombinedModel, SiteModel } from "~models"
 
 import { COMBINED } from "../constants"
 import { getDomain } from "../utils/get-domain"
-import { logger } from "../utils/logger"
+import { isDevMode, logger } from "../utils/logger"
 
 const log = logger("mbfc:background:sources")
 
 const LAST_LOAD_KEY = "last_load_date"
-const DATE_TRIM = 16 // TODO: change back to 10
+const DATE_TRIM = isDevMode() ? 16 : 10
 
 export type DomainSites = Record<string, SiteModel>
 

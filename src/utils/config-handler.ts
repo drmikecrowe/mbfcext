@@ -100,8 +100,8 @@ export class ConfigHandler {
 
   retrievingPromise: Promise<ConfigStorage>
   config: ConfigStorage = configDefaults
-  loaded: boolean = false
-  loading: boolean = false
+  loaded = false
+  loading = false
 
   static getInstance() {
     if (!ConfigHandler.instance) {

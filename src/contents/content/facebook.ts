@@ -1,19 +1,28 @@
 /* eslint-disable no-param-reassign */
 import { Result, err, ok } from "neverthrow"
 
+import { sendToBackground } from "@plasmohq/messaging"
+
 import { isDevMode, logger } from "~utils/logger"
 
-import { C_FOUND, ElementList, Filter, MBFC, QS_PROCESSED_SEARCH, Story } from "./filter"
+import { GET_DOMAIN_FOR_FILTER, type GetDomainForFilterRequestBody, type GetDomainForFilterResponseBody } from "../../background/messages/get-domain-for-filter"
+import { C_FOUND, C_PROCESSED, Filter, MBFC, type Story } from "./filter"
 
 isDevMode()
 const log = logger("mbfc:facebook")
 
-const QS_DATA_NODE_SEARCH = `div[data-pagelet^="FeedUnit"]`
-const QS_ARTICLES = `[role="article"]`
-const QS_DOMAIN_SEARCH = `a[role='link'] > div > div > div > div > span[dir='auto'] > span[class],a[role='link'] > strong > span`
-const QS_TITLE_SEARCH = `a[role='link'] span[dir='auto'] > span > span[dir='auto']`
-const QS_OBJECT_SEARCH = `a > div > object[type='nested/pressable']`
+interface DomainSort {
+  domain: string
+  count: number
+  html: HTMLElement
+}
 
+const domain_re = /(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]/g
+
+const clean_href = (e1: HTMLAnchorElement) => {
+  const u = new URL(e1.href)
+  return `${u.protocol}//${u.hostname}${u.pathname}`
+}
 export class Facebook extends Filter {
   private static instance: Facebook
   observer = null
@@ -31,145 +40,113 @@ export class Facebook extends Filter {
     return Facebook.instance
   }
 
-  private allDivs(e: HTMLElement): boolean {
-    const all = Array.from(e.children).reduce(
-      (sum, cv) => {
-        if (cv.tagName === "DIV") sum.divCount++
-        else if (cv.tagName !== "MBFC") sum.otherCount++
-        return sum
-      },
-      {
-        divCount: 0,
-        otherCount: 0,
-      },
-    )
-    return all.divCount > 3 && all.divCount <= 5 && all.otherCount === 0
+  findArticleElements(): NodeListOf<Element> {
+    return document.querySelectorAll(`div[role='article'][aria-posinset]:not(.${C_PROCESSED}):not([style*="display:none"])`)
   }
 
-  findBlock(el_list: ElementList) {
-    let count = 0
-    let found = false
-    for (let i = el_list.items.length - 1; i >= 0; i--) {
-      const t = el_list.items[i]
-      if (this.allDivs(t) && !found) {
-        el_list.block = t
-        found = true
-        const span: HTMLElement = t.querySelector(QS_TITLE_SEARCH)
-        if (span) {
-          this.addClasses(span, [C_FOUND, `${MBFC}-title-search`])
-          if (count >= 4) el_list.title_span = span
-        }
-      }
-      count++
-    }
+  findTitleElement(e: HTMLElement): HTMLAnchorElement | undefined {
+    // Title element is the first link in the article
+    return e.querySelector(`a[role='link']`)
   }
 
-  getDomainNode(e: HTMLElement, top_node: HTMLElement): Result<ElementList, null> {
-    if (!this.sources) {
-      return err(null)
-    }
-    this.addClasses(e, [C_FOUND, `${MBFC}-domain-search`])
-    const el_list = this.getResults(e, top_node)
-    this.findBlock(el_list)
-    if (el_list.block?.querySelector(QS_PROCESSED_SEARCH)) {
-      return err(null)
-    }
-    if (e && e.textContent) {
-      const text = e.textContent.toLowerCase().split(" ")[0]
-      this.findDomain(el_list, e, text)
-      if (el_list.domain) el_list.domain_span = e
-    }
-    return ok(el_list)
+  findLikeButtons(e: HTMLElement): HTMLElement | undefined {
+    return e.querySelector('div[data-visualcompletion="ignore-dynamic"]')
   }
 
-  getObjectNode(e: HTMLElement, top_node: HTMLElement): Result<ElementList, null> {
-    if (!this.sources) {
-      return err(null)
-    }
-    this.addClasses(e, [C_FOUND, `${MBFC}-object-search`])
-    const pe = e.parentElement?.parentElement
-    if (!pe) return err(null)
-    const el_list = this.getResults(pe, top_node)
-    this.findBlock(el_list)
-    if (el_list.block?.querySelector(QS_PROCESSED_SEARCH)) {
-      return err(null)
-    }
-    this.findDomain(el_list, pe)
-    if (el_list.domain) el_list.object = pe
-    return ok(el_list)
-  }
-
-  mergeNodes(
-    domain_nodes: ElementList[], // Valid stories where we know the domain
-    object_nodes: ElementList[], // Possible stories that might match domain_nodes, but may be new ones too
-  ): Story[] {
-    const results: Story[] = []
-
-    const addBlock = (dn: ElementList) => {
-      if (!dn.block) {
-        return
-      }
-      this.addClasses(dn.block, [`${MBFC}-domain-block`])
-      const story: Story = {
-        domain_results: dn.domain,
-        parent: dn.block,
-        hides: [],
-        count: -1,
-        ignored: false,
-      }
-      const ch = Array.from(dn.block.children)
-      const look_for = ch.length - 1
-      ch.forEach((e: HTMLElement, i) => {
-        if (e.children.length === 0) return
-        if (!story.top) story.top = e
-        else {
-          if (i === look_for && !story.report) story.report = e
-          story.hides.push(e)
+  findDomainSpan(e: HTMLElement): DomainSort | undefined {
+    const domains: Record<string, DomainSort> = {}
+    Array.from(e.querySelectorAll(`span[dir='auto'] > span:not(:has(*))`)).forEach((el) => {
+      const text = el.textContent
+      if (!text) return
+      const domain = text.split(" ")[0]
+      if (!domain_re.test(domain)) return
+      if (domains[domain]) {
+        domains[domain].count += 1
+      } else {
+        domains[domain] = {
+          domain,
+          count: 1,
+          html: el as HTMLElement,
         }
-      })
-      if (dn.title_span && dn.title_span.textContent) story.tagsearch = dn.title_span.textContent
-      results.forEach((result, index) => {
-        if (result.parent.isSameNode(story.parent)) {
-          results[index] = story
-        }
-      })
-      results.push(story)
-    }
-
-    domain_nodes.forEach((dn) => {
-      const pobj_nodes = object_nodes.filter(
-        (on) => on.block && dn.block && on.block?.isSameNode(dn.block), // Is this the object_node for this block?
-      )
-      // Here we are flagging object_nodes that we are aware of that shouldn't be processed again
-      pobj_nodes.forEach((on) => {
-        on.used = true
-      })
-      const on = pobj_nodes.shift()
-      if (on && on.domain) {
-        if (dn.domain?.site && on.internal_url && !dn.domain?.site.f) {
-          new AssociateSiteMessage(dn.domain.site, on?.internal_url).sendMessage()
-        }
-        log(`Using ${on.domain.final_domain}`)
-        dn.domain = on.domain
       }
-      addBlock(dn)
     })
-
-    object_nodes
-      .filter((on) => !on.used)
-      .forEach((on) => {
-        addBlock(on)
-      })
-    return results
+    const keys = Object.keys(domains)
+    if (keys.length === 0) return undefined
+    const domain = keys.reduce((a, b) => (domains[a].count > domains[b].count ? a : b))
+    log("findDomainSpan:", domains, domain[domain])
+    return domains[domain]
   }
 
-  process(parents: HTMLElement[]) {
-    const nodes: HTMLElement[] = [...document.querySelectorAll(QS_DATA_NODE_SEARCH), ...parents]
-    const stories = this.getStoryNodes(nodes, QS_ARTICLES, QS_DOMAIN_SEARCH, QS_OBJECT_SEARCH)
-    if (stories.isErr()) return
-    stories.value.forEach((story) => {
-      if (story.ignored) return
-      this.inject(story)
+  async buildStory(parent: HTMLElement): Promise<Result<Story, null>> {
+    if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
+    this.addClasses(parent, [C_FOUND, `${MBFC}-story-searched`])
+    const story: Story = {
+      title_element: this.findTitleElement(parent),
+      report_element: this.findLikeButtons(parent),
+      parent,
+      hides: [],
+      count: -1,
+      ignored: false,
+    }
+    if (!story.title_element || !story.title_element.href || !story.report_element) {
+      log(`Cannot find title element for `, parent, story)
+      return err(null)
+    }
+
+    const sections: HTMLElement[] = [story.title_element, story.report_element]
+
+    const dr = this.findDomainSpan(parent)
+    if (dr) {
+      story.domain_element = dr.html
+      story.possible_domain = dr.domain
+      sections.push(dr.html)
+    }
+    const e3 = this.findParent(sections)
+    if (!e3) {
+      log(`Cannot find parent for `, sections)
+      return err(null)
+    }
+    story.parent = e3
+
+    this.addClasses(story.parent, [`${MBFC}-story-block`])
+    const story_children = Array.from(story.parent.children)
+    if (story_children.length < 2) {
+      log(`Cannot find children for `, story.parent)
+      return err(null)
+    }
+
+    const title_holder = story_children.filter((e) => e.contains(story.title_element as Node)).shift()
+    const report_holder = story_children.filter((e) => e.contains(story.report_element as Node)).shift()
+    if (!title_holder || !report_holder) {
+      log(`Cannot find title or report holder for `, story.parent)
+      return err(null)
+    }
+    story.title_holder = title_holder as HTMLElement
+    story.report_holder = report_holder as HTMLElement
+
+    const payload: GetDomainForFilterRequestBody = {
+      fb_path: clean_href(story.title_element),
+      possible_domain: story.possible_domain,
+    }
+    const res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
+      name: GET_DOMAIN_FOR_FILTER,
+      body: payload,
     })
+    if (!res || !res.site) {
+      log(`GET_DOMAIN_FOR_FILTER didn't find a domain `, payload)
+      return err(null)
+    }
+
+    story.domain = res.domain
+
+    const ignore = new Set([title_holder, report_holder])
+    story.hides = story_children.filter((e) => !ignore.has(e))
+    const report_displays = story.report_element.querySelectorAll("div[class]:not([class=''])")
+    const report_divs = this.findFirstDivsWithNonEmptyClass(report_displays)
+    report_divs.forEach((e) => {
+      // if (e.contains(report)) return;
+      story.hides.push(e)
+    })
+    return ok(story)
   }
 }

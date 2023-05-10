@@ -4,7 +4,7 @@ import type { SourceData } from "~background/sources-processor"
 import { getDomain, logger } from "~utils"
 import type { ConfigStorage } from "~utils/config-handler"
 
-import { CheckDomainResults, checkDomain } from "./check-domain"
+import { type CheckDomainResults, checkDomain } from "./check-domain"
 
 const log = logger("mbfc:background:utils:get-site-from-url")
 
