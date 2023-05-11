@@ -6626,6 +6626,16 @@
     "a": "H",
     "q": []
   },
+  "bioscienceresource.org": {
+    "b": "CP",
+    "d": "bioscienceresource.org",
+    "n": "Bioscience Resource Project",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/bioscience-resource-project-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "biospace.com": {
     "b": "PS",
     "d": "biospace.com",
@@ -34720,6 +34730,16 @@
       "FFC"
     ]
   },
+  "linncountyleader.com": {
+    "b": "C",
+    "d": "linncountyleader.com",
+    "n": "Linn County Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/linn-county-leader-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "listverse.com": {
     "b": "RC",
     "d": "listverse.com",
@@ -58876,6 +58896,20 @@
       "IM"
     ]
   },
+  "swnewhampshirenews.com": {
+    "b": "FN",
+    "d": "swnewhampshirenews.com",
+    "n": "SW New Hampshire News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-new-hampshire-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "swprs.org": {
     "b": "CP",
     "d": "swprs.org",
@@ -71318,6 +71352,16 @@
     "P": 60,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "winnipegsun.com": {
+    "b": "RC",
+    "d": "winnipegsun.com",
+    "n": "Winnipeg Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/winnipeg-sun-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "winonadailynews.com": {
