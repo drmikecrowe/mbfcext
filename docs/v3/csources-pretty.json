@@ -6748,6 +6748,16 @@
       "PSE"
     ]
   },
+  "biznews.com": {
+    "b": "RC",
+    "d": "biznews.com",
+    "n": "BizNews",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/biznews-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "bizpacreview.com": {
     "b": "R",
     "d": "bizpacreview.com",
@@ -38404,6 +38414,16 @@
       "IM"
     ]
   },
+  "montgomery-herald.com": {
+    "b": "LC",
+    "d": "montgomery-herald.com",
+    "n": "Montgomery Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/montgomery-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "montgomeryadvertiser.com": {
     "b": "LC",
     "d": "montgomeryadvertiser.com",
@@ -47592,6 +47612,21 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "pimatimes.com": {
+    "b": "FN",
+    "d": "pimatimes.com",
+    "n": "Pima Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pima-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "pinacnews.com": {
     "b": "L",
