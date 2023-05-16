@@ -2208,6 +2208,16 @@
     "a": "L",
     "q": []
   },
+  "albertleatribune.com": {
+    "b": "RC",
+    "d": "albertleatribune.com",
+    "n": "Albert Lea Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/albert-lea-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "aldergrovestar.com": {
     "b": "LC",
     "d": "aldergrovestar.com",
@@ -23667,6 +23677,20 @@
     "a": "M",
     "q": []
   },
+  "gardenstatetimes.com": {
+    "b": "FN",
+    "d": "gardenstatetimes.com",
+    "n": "Garden State Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/garden-state-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "gardnernews.com": {
     "b": "C",
     "d": "gardnernews.com",
@@ -27133,6 +27157,17 @@
     "u": "https://mediabiasfactcheck.com/burnsville-eagan-sun-thisweek-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "hometownsource.com/union_times": {
+    "b": "LC",
+    "d": "hometownsource.com/union_times",
+    "n": "Princeton Union-Times",
+    "p": "/union_times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/princeton-union-times-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "hometownstations.com": {
@@ -31144,6 +31179,16 @@
     "u": "https://mediabiasfactcheck.com/kcrg-news/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "kchu.org": {
+    "b": "LC",
+    "d": "kchu.org",
+    "n": "KCHU - NPR - Valdez",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kchu-npr-valdez-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kcna.kp": {
