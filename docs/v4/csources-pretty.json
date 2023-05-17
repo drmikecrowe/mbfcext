@@ -7279,6 +7279,16 @@
     "a": "L",
     "q": []
   },
+  "bmcresnotes.biomedcentral.com": {
+    "b": "PS",
+    "d": "bmcresnotes.biomedcentral.com",
+    "n": "BMC Research Notes",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bmc-research-notes-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bmj.com": {
     "b": "PS",
     "d": "bmj.com",
@@ -23701,6 +23711,16 @@
     "a": "L",
     "q": []
   },
+  "garnerleader.com": {
+    "b": "C",
+    "d": "garnerleader.com",
+    "n": "Garner Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/garner-leader-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "gatestoneinstitute.org": {
     "b": "FN",
     "d": "gatestoneinstitute.org",
@@ -36732,6 +36752,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/architecture": {
+    "b": "PS",
+    "d": "mdpi.com/journal/architecture",
+    "n": "Architecture Journal",
+    "p": "/journal/architecture",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/architecture-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/arm": {
     "b": "PS",
     "d": "mdpi.com/journal/arm",
@@ -41619,6 +41650,16 @@
     "P": 45,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "news.climate.columbia.edu": {
+    "b": "LC",
+    "d": "news.climate.columbia.edu",
+    "n": "State of the Planet",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/state-of-the-planet-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "news.cn": {
@@ -63673,6 +63714,17 @@
     "a": "L",
     "q": []
   },
+  "therecord.com/local-stouffville": {
+    "b": "LC",
+    "d": "therecord.com/local-stouffville",
+    "n": "Stouffville Sun-Tribune",
+    "p": "/local-stouffville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stouffville-sun-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "therecord.com/local-toronto-north-york": {
     "b": "LC",
     "d": "therecord.com/local-toronto-north-york",
@@ -65341,6 +65393,16 @@
     "n": "Marshalltown Times-Republican",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/marshalltown-times-republican-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "timestelegram.com": {
+    "b": "LC",
+    "d": "timestelegram.com",
+    "n": "Herkimer Times-Telegram",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/herkimer-times-telegram-bias/",
     "c": "H",
     "a": "L",
     "q": []
