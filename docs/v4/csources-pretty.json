@@ -7324,6 +7324,16 @@
     "a": "M",
     "q": []
   },
+  "bnnbloomberg.ca": {
+    "b": "LC",
+    "d": "bnnbloomberg.ca",
+    "n": "BNN Bloomberg",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bnn-bloomberg-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "bnonews.com": {
     "b": "C",
     "d": "bnonews.com",
@@ -24551,6 +24561,20 @@
     "a": "L",
     "q": []
   },
+  "gloucestertoday.com": {
+    "b": "FN",
+    "d": "gloucestertoday.com",
+    "n": "Gloucester Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gloucester-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "gmanetwork.com": {
     "b": "LC",
     "d": "gmanetwork.com",
@@ -40760,6 +40784,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/new-castle-news/",
     "P": 42,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "ncnewspress.com": {
+    "b": "C",
+    "d": "ncnewspress.com",
+    "n": "Nebraska City News-Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nebraska-city-news-press-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -65431,6 +65465,17 @@
     "P": 3,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "tj.news/bugle-observer": {
+    "b": "RC",
+    "d": "tj.news/bugle-observer",
+    "n": "Bugle Observer",
+    "p": "/bugle-observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bugle-observer-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "tmj4.com": {
