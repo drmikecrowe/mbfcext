@@ -7394,6 +7394,16 @@
       "IM"
     ]
   },
+  "bolde.com": {
+    "b": "L",
+    "d": "bolde.com",
+    "n": "Bolde",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/bolde-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "boldprogressives.org": {
     "b": "L",
     "d": "boldprogressives.org",
@@ -7514,6 +7524,16 @@
     "u": "https://mediabiasfactcheck.com/borehamwood-times-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "borgenproject.org": {
+    "b": "LC",
+    "d": "borgenproject.org",
+    "n": "Borgen Project",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/borgen-project-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "borowitz-report": {
@@ -27569,6 +27589,20 @@
     "a": "L",
     "q": []
   },
+  "hudsontoday.com": {
+    "b": "FN",
+    "d": "hudsontoday.com",
+    "n": "Hudson Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hudson-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "huffpost.com": {
     "b": "L",
     "d": "huffpost.com",
@@ -41547,7 +41581,7 @@
     "u": "https://mediabiasfactcheck.com/new-politics-magazine/",
     "P": 49,
     "c": "M",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "newpoliticstoday.com": {
@@ -42075,7 +42109,7 @@
     "b": "S",
     "d": "newsbiscuit.com",
     "f": "None",
-    "n": "News biscuit",
+    "n": "News Biscuit",
     "u": "https://mediabiasfactcheck.com/news-biscuit/",
     "P": 61,
     "c": "NA",
@@ -42092,7 +42126,7 @@
     "u": "https://mediabiasfactcheck.com/news-blaze/",
     "P": 67,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -46609,6 +46643,16 @@
     "a": "L",
     "q": []
   },
+  "palestineherald.com": {
+    "b": "LC",
+    "d": "palestineherald.com",
+    "n": "Palestine Herald-Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/palestine-herald-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "palmbeachdailynews.com": {
     "b": "LC",
     "d": "palmbeachdailynews.com",
@@ -47257,7 +47301,7 @@
     "d": "pbs.org",
     "f": "newshour",
     "n": "PBS News Hour",
-    "r": "H",
+    "r": "MF",
     "t": "PBS",
     "u": "https://mediabiasfactcheck.com/pbs-news-hour/",
     "P": 96,
@@ -52670,6 +52714,20 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "rockinghamjournal.com": {
+    "b": "FN",
+    "d": "rockinghamjournal.com",
+    "n": "Rockinghamd Journal",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/rockingham-journal-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
   },
   "rockinghamtimes.com": {
     "b": "FN",
