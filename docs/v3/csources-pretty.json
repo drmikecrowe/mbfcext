@@ -23386,6 +23386,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/cardiovascular-medicine": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/cardiovascular-medicine",
+    "n": "Frontiers in Cardiovascular Medicine",
+    "p": "/journals/cardiovascular-medicine",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-cardiovascular-medicine-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -37369,6 +37380,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/merced-times/",
     "P": 4,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "mercertimes.com": {
+    "b": "FN",
+    "d": "mercertimes.com",
+    "n": "Mercer Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mercer-times-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -60098,6 +60123,16 @@
     "u": "https://mediabiasfactcheck.com/tenth-amendment-center/",
     "P": 71,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "terracestandard.com": {
+    "b": "LC",
+    "d": "terracestandard.com",
+    "n": "Terrace Standard",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/terrace-standard-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
