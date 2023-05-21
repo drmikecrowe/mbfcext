@@ -10333,6 +10333,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/cell-systems": {
+    "b": "PS",
+    "d": "cell.com/cell-systems",
+    "n": "Cell Systems Journal",
+    "p": "/cell-systems",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-systems-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -30827,6 +30838,16 @@
     "a": "L",
     "q": []
   },
+  "jurist.org": {
+    "b": "LC",
+    "d": "jurist.org",
+    "n": "JURIST",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jurist-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "justfacts.com": {
     "b": "RC",
     "d": "justfacts.com",
@@ -42733,27 +42754,6 @@
     "a": "N",
     "q": []
   },
-  "newspunch.com": {
-    "b": "FN",
-    "d": "newspunch.com",
-    "f": "thepeoplesvoicetv",
-    "n": "News Punch",
-    "r": "VL",
-    "t": "yournewswire",
-    "u": "https://mediabiasfactcheck.com/news-punch/",
-    "P": 52,
-    "c": "L",
-    "a": "M",
-    "q": [
-      "C",
-      "P",
-      "FFC",
-      "FC",
-      "M",
-      "FN",
-      "PSE"
-    ]
-  },
   "newspushed.com": {
     "b": "FN",
     "d": "newspushed.com",
@@ -53701,6 +53701,17 @@
     "a": "L",
     "q": []
   },
+  "sasktoday.ca/central/kamsack-times": {
+    "b": "C",
+    "d": "sasktoday.ca/central/kamsack-times",
+    "n": "Kamsack Times",
+    "p": "/central/kamsack-times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kamsack-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sasktoday.ca/north/battlefords-news-optimist": {
     "b": "C",
     "d": "sasktoday.ca/north/battlefords-news-optimist",
@@ -63504,6 +63515,30 @@
     "a": "N",
     "q": []
   },
+  "thepeoplesvoice.tv": {
+    "b": "FN",
+    "d": "thepeoplesvoice.tv",
+    "f": "thepeoplesvoicetv",
+    "n": "The People's Voice (Newspunch)",
+    "r": "VL",
+    "t": "yournewswire",
+    "u": "https://mediabiasfactcheck.com/news-punch/",
+    "P": 52,
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
+  },
   "thepeterboroughexaminer.com": {
     "b": "LC",
     "d": "thepeterboroughexaminer.com",
@@ -64248,7 +64283,7 @@
   "thespec.com/local-haldimand": {
     "b": "LC",
     "d": "thespec.com/local-haldimand",
-    "n": "Glanbrooke Gazette",
+    "n": "Glanbrook Gazette",
     "p": "/local-haldimand",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/glanbrook-gazette-bias/",
