@@ -1,5 +1,5 @@
 import { BiasEnums } from "~models"
-import { getTabById, logger } from "~utils"
+import { getTabById, logger } from "~shared"
 
 import center_invert from "./icons/center-invert.png"
 import center from "./icons/center.png"

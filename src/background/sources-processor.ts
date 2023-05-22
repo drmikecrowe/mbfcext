@@ -3,8 +3,8 @@ import { Storage } from "@plasmohq/storage"
 import type { CombinedModel, SiteModel } from "~models"
 
 import { COMBINED } from "../constants"
-import { getDomain } from "../utils/get-domain"
-import { isDevMode, logger } from "../utils/logger"
+import { getDomain } from "../shared/get-domain"
+import { isDevMode, logger } from "../shared/logger"
 
 const log = logger("mbfc:background:sources")
 
@@ -37,9 +37,7 @@ export class SourcesProcessor {
     return SourcesProcessor.sm_instance
   }
 
-  public updateFacebook(d: string) {
-    if (!this.sourceData) return
-    let fb: string | undefined = this.sourceData.combined.sources[d].f
+  public updateFacebook(d: string, fb?: string) {
     if (fb && fb > "") {
       if (fb.indexOf("?") > -1) fb = fb.split("?")[0]
       if (fb && fb > "") {
@@ -49,9 +47,7 @@ export class SourcesProcessor {
     }
   }
 
-  public updateTwitter = (d: string) => {
-    if (!this.sourceData) return
-    let tw = this.sourceData.combined.sources[d].t
+  public updateTwitter = (d: string, tw?: string) => {
     if (tw && tw > "") {
       const matches = /(https?:\/\/twitter.com\/[^/]*)/.exec(tw)
       if (matches && matches[1]) {
@@ -84,10 +80,11 @@ export class SourcesProcessor {
       subdomains: {},
       sites_by_domain: {},
     }
+    this.sourceData = c
     log("Extracting facebook and twitter domains")
     c.combined.sources.forEach((site) => {
-      this.updateFacebook(site.domain)
-      this.updateTwitter(site.domain)
+      this.updateFacebook(site.domain, site.facebook)
+      this.updateTwitter(site.domain, site.twitter)
       this.updateSubdomain(site.domain)
       c.sites_by_domain[site.domain] = site
     })
@@ -96,7 +93,6 @@ export class SourcesProcessor {
         c.subdomains[domain]["/"] = source
       }
     })
-    this.sourceData = c
     await this.setLastLoad()
     this.loading = false
     log(`Source now fully loaded`)

@@ -1,17 +1,23 @@
 import { Result, err } from "neverthrow"
 
 import type { SourceData } from "~background/sources-processor"
-import { getDomain, logger } from "~utils"
-import type { ConfigStorage } from "~utils/config-handler"
+import { getDomain, logger } from "~shared"
+import type { ConfigStorage } from "~shared/config-handler"
 
 import { type CheckDomainResults, checkDomain } from "./check-domain"
 
 const log = logger("mbfc:background:utils:get-site-from-url")
 
+let first = true
+
 export const getSiteFromUrl = (url: string, sourceData: SourceData, config: ConfigStorage): Result<CheckDomainResults, null> => {
   try {
     const { domain, path } = getDomain(url)
-    log(`Checking domain ${domain}/${path}`)
+    log(`Checking domain ${domain}${path}`)
+    if (first) {
+      first = false
+      log(`Source data:`, sourceData.fb_pages)
+    }
     if (domain) {
       if (domain.indexOf("facebook.com") > -1) {
         if (sourceData.fb_pages[path]) {

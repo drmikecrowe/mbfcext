@@ -1,4 +1,4 @@
-import { faEye } from "~utils/elements/font-awesome"
+import { faEye } from "~shared/elements/font-awesome"
 import { LitElement, html } from "lit"
 import { customElement, property } from "lit/decorators.js"
 import { C_FOUND } from "../filter"
@@ -26,5 +26,11 @@ class HiddenDiv extends LitElement {
         `
       : ""
     return html`<mbfc class="mbfcext ${C_FOUND}" id="${this.hiddenId}" .innerHTML="${hide}"></mbfc> `
+  }
+}
+
+declare global {
+  interface HTMLElementTagNameMap {
+    'mbfc-hide-control': HiddenDiv
   }
 }

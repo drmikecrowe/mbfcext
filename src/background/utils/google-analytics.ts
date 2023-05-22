@@ -1,8 +1,8 @@
 import GoogleTagManager from "gtm-module"
 
 import { GTM } from "~constants"
-import { ConfigHandler, type ConfigStorage } from "~utils"
-import { isDevMode, logger } from "~utils/logger"
+import { ConfigHandler, type ConfigStorage } from "~shared"
+import { logger } from "~shared/logger"
 
 const log = logger("mbfc:utils:google-analytics")
 
@@ -37,8 +37,11 @@ export class GoogleAnalytics {
   }
 
   reportShowSite(domain: string) {
-    if (!this.allowed()) return
-
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
+    log(`Reporting show site ${domain}`)
     this.gtm.dataLayerPush({
       event: "show-site",
       domain,
@@ -55,32 +58,50 @@ export class GoogleAnalytics {
   }
 
   reportUnknownSite(domain: string) {
-    if (!this.allowed()) return
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
     console.log("TODO: reportUnknownSite")
   }
 
   reportAssociateSite(domain: string, fb_url: string) {
-    if (!this.allowed()) return
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
     console.log("TODO: reportAssociateSite")
   }
 
   reportHidingSite(domain: string) {
-    if (!this.allowed()) return
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
     console.log("TODO: reportHidingSite")
   }
 
   reportUnhidingSite(domain: string) {
-    if (!this.allowed()) return
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
     console.log("TODO: reportUnhidingSite")
   }
 
   reportResetIgnored() {
-    if (!this.allowed()) return
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
     console.log("TODO: reportResetIgnored")
   }
 
   reportStartThanks() {
-    if (!this.allowed()) return
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
     console.log("TODO: reportStartThanks")
   }
 }

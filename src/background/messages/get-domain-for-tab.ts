@@ -1,7 +1,7 @@
 import type { PlasmoMessaging } from "@plasmohq/messaging"
 
 import type { PopupDetails } from "~popup"
-import { logger } from "~utils"
+import { logger } from "~shared"
 
 import { SourcesProcessor } from "../sources-processor"
 

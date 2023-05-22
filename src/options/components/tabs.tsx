@@ -1,6 +1,6 @@
 import { useStorage } from "@plasmohq/storage/hook"
 
-import { logger } from "../../utils/logger"
+import { logger } from "../../shared/logger"
 import Tab, { TabDef } from "./tab"
 import TabContent from "./tab-contents"
 

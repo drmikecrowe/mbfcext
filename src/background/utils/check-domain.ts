@@ -2,7 +2,7 @@ import { Result, err, ok } from "neverthrow"
 
 import type { SourceData } from "~background/sources-processor"
 import { ReportingEnums, type SiteModel } from "~models/combined-manager"
-import { type ConfigStorage, StorageToOptions, logger } from "~utils"
+import { type ConfigStorage, StorageToOptions, logger } from "~shared"
 
 export interface CheckDomainResults {
   final_domain: string

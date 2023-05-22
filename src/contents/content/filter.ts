@@ -3,24 +3,36 @@ import { Result, err, ok } from "neverthrow"
 
 import { sendToBackground } from "@plasmohq/messaging"
 
+import {
+  ASSOCIATE_SITE,
+  type AssociateSiteRequestBody,
+  type AssociateSiteResponseBody,
+  REPORT_UNKNOWN,
+  RESET_IGNORED,
+  type ReportUnknownRequestBody,
+  type ReportUnknownResponseBody,
+  type ResetIgnoredRequestBody,
+  type ResetIgnoredResponseBody,
+  SHOW_SITE,
+  START_THANKS,
+  type ShowSiteRequestBody,
+  type ShowSiteResponseBody,
+  type StartThanksRequestBody,
+  type StartThanksResponseBody,
+} from "~background/messages"
+import { type CheckDomainResults } from "~background/utils"
 import type { SiteModel } from "~models"
-import { ConfigHandler, type ConfigStorage } from "~utils/config-handler"
-import { faEye } from "~utils/elements/font-awesome"
-import { isDevMode, logger } from "~utils/logger"
+import { ConfigHandler, type ConfigStorage } from "~shared/config-handler"
+import { faEye } from "~shared/elements/font-awesome"
+import { isDevMode, logger } from "~shared/logger"
 
-import { ASSOCIATE_SITE, type AssociateSiteRequestBody, type AssociateSiteResponseBody } from "../../background/messages/associate-site"
-import { REPORT_UNKNOWN, type ReportUnknownRequestBody, type ReportUnknownResponseBody } from "../../background/messages/report-unknown"
-import { RESET_IGNORED, type ResetIgnoredRequestBody, type ResetIgnoredResponseBody } from "../../background/messages/reset-ignored"
-import { SHOW_SITE, type ShowSiteRequestBody, type ShowSiteResponseBody } from "../../background/messages/show-site"
-import { START_THANKS, type StartThanksRequestBody, type StartThanksResponseBody } from "../../background/messages/start-thanks"
-import { type CheckDomainResults } from "../../background/utils"
-import { cap } from "./utils/cap"
 import { toggleStory } from "./utils/toggle-story"
 
 import "./utils/report-div"
-import "./utils/hidden-div"
 
 import { NewsAnnotation } from "./utils/report-div"
+
+// import "./utils/hidden-div"
 
 export const MBFC = "mbfc"
 export const C_URL = "https://mediabiasfactcheck.com/"
@@ -54,9 +66,11 @@ export class Filter {
   loaded = false
   windowObjectReference: Window | null = null
   count = 0
+  main_element: HTMLElement | null = null
 
-  constructor() {
+  constructor(e: HTMLElement) {
     log(`Class Filter started`)
+    this.main_element = e
     const c = ConfigHandler.getInstance()
     c.retrieve()
       .then(() => {
@@ -69,19 +83,29 @@ export class Filter {
   startMutationObserver() {
     log(`MutationObserver started`)
 
-    const observer = new MutationObserver(() => {
-      ;(async () => {
-        const pageletNodes = Array.from(this.findArticleElements())
-
-        if (pageletNodes.length === 0) return
-        pageletNodes.forEach((pageLet) => {
-          const n: HTMLElement = pageLet as HTMLElement
-          n.classList.add(C_PROCESSED)
+    const observer = new MutationObserver((nodes) => {
+      const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
+      nodes.forEach((node) => {
+        const addedNodes = Array.from(node.addedNodes)
+        addedNodes.forEach((addedNode) => {
+          const n: HTMLElement = addedNode as HTMLElement
+          const pageletNodes = Array.from(this.findArticleElements(n))
+          if (pageletNodes.length === 0) return
+          pageletNodes.forEach((pageLet) => {
+            const n: HTMLElement = pageLet as HTMLElement
+            n.classList.add(C_PROCESSED)
+            all_nodes.push(n)
+          })
         })
-        await this.process(pageletNodes as HTMLElement[])
-      })().catch((err) => {
-        console.error(err)
       })
+      if (all_nodes.length === 0) return
+      const added = all_nodes.length
+      log(`Processing ${added} nodes`)
+      this.process(all_nodes)
+        .then(() => {
+          log(`Processed ${added} nodes`)
+        })
+        .catch((e) => console.error(e))
     })
 
     observer.observe(document, {
@@ -92,13 +116,19 @@ export class Filter {
     })
   }
 
-  findArticleElements(): NodeListOf<Element> {
+  findArticleElements(_e: HTMLElement): NodeListOf<Element> {
     throw new Error("Must be overloaded")
   }
 
   addClasses(e: Element, cls: string[]) {
     cls.forEach((c) => {
       if (!e.classList.contains(c)) e.classList.add(c)
+    })
+  }
+
+  removeClasses(e: Element, cls: string[]) {
+    cls.forEach((c) => {
+      if (e.classList.contains(c)) e.classList.remove(c)
     })
   }
 
@@ -234,131 +264,18 @@ export class Filter {
     iDiv.className = `mbfcext ${C_FOUND} ${C_REPORT_DIV}`
     iDiv.id = `mbfcext${count}`
 
-    const na = new NewsAnnotation()
-    na.bias = cap(site.bias)
-    if (site.reporting) {
-      na.reporting = cap(site.reporting)
+    const na = new NewsAnnotation(site, iDiv)
+    const html = na.render()
+    if (typeof html !== "string") {
+      return err(null)
     }
-    if (site.credibility) {
-      na.credibility = cap(site.credibility)
-    }
-    if (site.traffic) {
-      na.traffic = cap(site.traffic)
-    }
-    if (site.popularity) {
-      na.popularity = `${site.popularity}`
-    }
-    na.domain = site.domain
-    const t = na.render()
-    console.log(t)
-    debugger
-
-    // const mtype = biasShortToName[site.b]
-    // const external_link = `&nbsp;${faExternalLinkAlt}`
-    // const hide = get(config, site.d) || collapse
-    // const prompt = hide ? "show" : "hide"
-    // const toolbar = `<div>
-    //             <button id="toolbar-button1-${count}" class="mbfc-drop-down mbfc-button-success mbfc-right-spacer toolbar-button1-${count}" data-domain="${site.d}" data-collapse="${prompt}">Always ${prompt} ${site.n}</button><span class="spacer">&nbsp;</span>
-    //             <button class="mbfc-drop-down mbfc-button-warning toolbar-button3-${count}">Reset Hidden Sites</button>
-    //             <button style="float: right; margin-right: 20px;" class="mbfc-drop-down mbfc-button-secondary toolbar-button2-${count}">Say Thanks</button>
-    //         </div>`
-    // const bias_display = biases[mtype].name.replace(/ Bias(ed)?/, "")
-    // const bias_link = `<span class="mbfc-td-text">${bias_display}`
-    // const details: string[] = []
-    // if (site.r > "") {
-    //   if (has(EReportingText, site.r)) {
-    //     details.push(EReportingText[site.r])
-    //   }
-    // }
-    // if (site.c > "" && site.c !== "NA") {
-    //   details.push(ECredibility[site.c])
-    // }
-    // if (site.a > "" && site.a !== "N") {
-    //   details.push(ETraffic[site.a])
-    // }
-    // if (site.P) {
-    //   details.push(`<span title="Within our rated sites, this site has ${site.P}% higher number of sites linking to it than other sites">Links: ${site.P}%</span>`)
-    // }
-    // if (tagsearch && mtype !== "satire") {
-    //   details.push(
-    //     `<a title="Search factualsearch.news for '${tagsearch}'" target="_blank" href="https://factualsearch.news/#gsc.tab=0&fns.type=mostly-center&gsc.q=${encodeURIComponent(
-    //       tagsearch,
-    //     )}">Research ${external_link}</a> `,
-    //   )
-    // }
-    // const mbfc_url = site.u.startsWith("https") ? site.u : `${C_URL}${site.u}`
-    // details.push(
-    //   `<a title="Open MediaBiasFactCheck.com for ${site.n}" target="_blank" href="${mbfc_url}">
-    //                 MBFC ${external_link}
-    //             </a>`,
-    // )
-    // const inline_code = `el=document.getElementById('mbfctt${count}'); if (el.style.display=='none') { el.style.display='table-row'; } else { el.style.display='none'; }`
-    // const drop_down = embed
-    //   ? ""
-    //   : `<td width="20px" align="center"><div
-    //             class="mbfc-drop-down"
-    //             onclick="${inline_code}">${faAngleDoubleDown}</div></td>`
-    // const buildNormalColumns = () => {
-    //   const tdl = mtype === "left" ? bias_link : "&nbsp;"
-    //   const tdlc = mtype === "left-center" ? bias_link : "&nbsp;"
-    //   const tdc = mtype === "center" ? bias_link : "&nbsp;"
-    //   const tdrc = mtype === "right-center" ? bias_link : "&nbsp;"
-    //   const tdr = mtype === "right" ? bias_link : "&nbsp;"
-    //   return `
-    //                 <td width="20%" class="mbfc-td mbfc-td-left">${tdl}</td>
-    //                 <td width="20%" class="mbfc-td mbfc-td-left-center">${tdlc}</td>
-    //                 <td width="20%" class="mbfc-td mbfc-td-center">${tdc}</td>
-    //                 <td width="20%" class="mbfc-td mbfc-td-right-center">${tdrc}</td>
-    //                 <td width="20%" class="mbfc-td mbfc-td-right">${tdr}</td>
-    //             `
-    // }
-    // const buildOtherColumns = () => {
-    //   return `
-    //                 <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
-    //                 <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
-    //                 <td width="60%" class="mbfc-td mbfc-td-${mtype}">${bias_link}</td>
-    //                 <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
-    //                 <td width="10%" class="mbfc-td mbfc-td-${mtype}">&nbsp;</td>
-    //             `
-    // }
-    // let columns
-    // switch (biasShortToName[site.b]) {
-    //   case "satire":
-    //   case "conspiracy":
-    //   case "fake-news":
-    //   case "pro-science":
-    //     columns = buildOtherColumns()
-    //     break
-    //   default:
-    //     columns = buildNormalColumns()
-    //     break
-    // }
-    // const details_contents = `<div class="mbfc-details mbfc-td mbfc-td-text">
-    //             ${details.join(", &nbsp;")}
-    //         </div>`
-    // const table = `
-    // <div style="border-bottom: 1px solid var(--divider); margin-right: 20px; margin-left: 5px;">
-    //     <table class="mbfc-table-table" cellpadding="0" border="0">
-    //         <tbody>
-    //             <tr>
-    //                 ${columns}${drop_down}
-    //             </tr>
-    //             <tr id="mbfctt${count}" class="mbfc-td-text" style="display:none">
-    //                 <td colspan="6">
-    //                     ${toolbar}
-    //                 </td>
-    //             </tr>
-    //             <tr>
-    //                 <td colspan="6" align="center">
-    //                     ${details_contents}
-    //                 </td>
-    //             </tr>
-    //         </tbody>
-    //     </table>
-    // </div>
-    // `
-    // set(iDiv, "innerHTML", table)
+    iDiv.innerHTML = html
     return ok(iDiv)
+  }
+
+  clean_href(e1: HTMLAnchorElement) {
+    const u = new URL(e1.href)
+    return `${u.protocol}//${u.hostname}${u.pathname}`
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -372,9 +289,9 @@ export class Filter {
     if (!e) return null
     const pe = e.parentElement
     if (!pe) return null
-    let all = true
-    for (let i = 1; i < e_list.length; i++) {
-      if (!pe.contains(e_list[i])) {
+    let all = pe.tagName == "DIV"
+    for (const el of e_list) {
+      if (!pe.contains(el)) {
         all = false
         break
       }
@@ -418,22 +335,31 @@ export class Filter {
 
   async inject(story: Story, embed = false) {
     if (!story.domain || !story.domain.site) {
+      debugger
+      log("ERROR: story.domain empty", story)
       return
     }
     if (story.parent.querySelector(MBFC)) {
+      debugger
+      log("ERROR: already injected", story)
       return
     }
-    story.count = this.count
-    this.count += 1
     const { site, collapse } = story.domain
     const iDiv = this.getReportDiv(site, story.count, story.tagsearch, collapse, embed)
     if (iDiv.isErr()) {
-      log("ERROR: iDiv empty")
+      debugger
+      log(`ERROR: iDiv empty for ${story.count}`, story)
       return
     }
     if (story.report_element) {
       const pn = story.report_element.parentNode
-      if (pn) pn.insertBefore(iDiv.value, story.report_element)
+      if (pn) {
+        pn.insertBefore(iDiv.value, story.report_element)
+      } else {
+        debugger
+      }
+    } else {
+      debugger
     }
     // this.addButtons(site.n, story.count)
     const story_class = this.storyClass(story.count)
@@ -443,6 +369,7 @@ export class Filter {
     const hiddenDiv = document.getElementById(hide_id)
     hiddenDiv?.addEventListener("click", () => toggleStory(story_class))
     const domain_class = `${MBFC}-${story.domain.final_domain.replace(/\./g, "-")}`
+    this.addClasses(story.parent, [domain_class, this.storyClass(story.count)])
     story.hides.forEach((e) => {
       this.addClasses(e, [domain_class, this.storyClass(story.count)])
     })
@@ -451,7 +378,14 @@ export class Filter {
         this.hideElement(e)
       })
     }
-    await this.reportSite(story.domain.site, collapse)
+    if (isDevMode()) {
+      log(`inject-${story.count}`, story, story.parent)
+    }
+    try {
+      await this.reportSite(story.domain.site, collapse)
+    } catch (error) {
+      console.error(`Could not report site ${story.domain.site.domain} #${story.count}`, error)
+    }
   }
 
   async process(nodes: HTMLElement[]) {
@@ -461,9 +395,11 @@ export class Filter {
       if (res.isErr()) return
       stories.push(res.value)
     }
-    for (const story of stories) {
-      if (story.ignored) return
-      await this.inject(story)
+    const promises = stories.filter((s) => !s.ignored).map((s) => this.inject(s))
+    try {
+      await Promise.allSettled(promises)
+    } catch (error) {
+      console.error(error)
     }
   }
 }

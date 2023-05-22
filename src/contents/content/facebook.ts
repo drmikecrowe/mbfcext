@@ -3,9 +3,9 @@ import { Result, err, ok } from "neverthrow"
 
 import { sendToBackground } from "@plasmohq/messaging"
 
-import { isDevMode, logger } from "~utils/logger"
+import { GET_DOMAIN_FOR_FILTER, type GetDomainForFilterRequestBody, type GetDomainForFilterResponseBody } from "~background/messages"
+import { isDevMode, logger } from "~shared/logger"
 
-import { GET_DOMAIN_FOR_FILTER, type GetDomainForFilterRequestBody, type GetDomainForFilterResponseBody } from "../../background/messages/get-domain-for-filter"
 import { C_FOUND, C_PROCESSED, Filter, MBFC, type Story } from "./filter"
 
 isDevMode()
@@ -19,16 +19,12 @@ interface DomainSort {
 
 const domain_re = /(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]/g
 
-const clean_href = (e1: HTMLAnchorElement) => {
-  const u = new URL(e1.href)
-  return `${u.protocol}//${u.hostname}${u.pathname}`
-}
 export class Facebook extends Filter {
   private static instance: Facebook
   observer = null
 
   constructor() {
-    super()
+    super(document.querySelector(`a[role='main']`))
 
     log(`Class Facebook started`)
   }
@@ -40,8 +36,9 @@ export class Facebook extends Filter {
     return Facebook.instance
   }
 
-  findArticleElements(): NodeListOf<Element> {
-    return document.querySelectorAll(`div[role='article'][aria-posinset]:not(.${C_PROCESSED}):not([style*="display:none"])`)
+  findArticleElements(e: HTMLElement): NodeListOf<Element> {
+    if (!e || !e.querySelectorAll) return [] as any
+    return e.querySelectorAll(`div[role='article'][aria-posinset]:not(.${C_PROCESSED})`)
   }
 
   findTitleElement(e: HTMLElement): HTMLAnchorElement | undefined {
@@ -73,23 +70,24 @@ export class Facebook extends Filter {
     const keys = Object.keys(domains)
     if (keys.length === 0) return undefined
     const domain = keys.reduce((a, b) => (domains[a].count > domains[b].count ? a : b))
-    log("findDomainSpan:", domains, domain[domain])
     return domains[domain]
   }
 
   async buildStory(parent: HTMLElement): Promise<Result<Story, null>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
-    this.addClasses(parent, [C_FOUND, `${MBFC}-story-searched`])
     const story: Story = {
       title_element: this.findTitleElement(parent),
       report_element: this.findLikeButtons(parent),
       parent,
       hides: [],
-      count: -1,
+      count: this.count,
       ignored: false,
     }
+    this.count += 1
+    this.addClasses(parent, [C_FOUND, `${MBFC}-story-searched`, this.storyClass(story.count)])
     if (!story.title_element || !story.title_element.href || !story.report_element) {
-      log(`Cannot find title element for `, parent, story)
+      log(`${MBFC}-no-title-element for ${story.count}`, story)
+      this.addClasses(parent, [`${MBFC}-no-title-element`])
       return err(null)
     }
 
@@ -103,29 +101,31 @@ export class Facebook extends Filter {
     }
     const e3 = this.findParent(sections)
     if (!e3) {
-      log(`Cannot find parent for `, sections)
+      log(`${MBFC}-no-parent for ${story.count}`, story)
+      this.addClasses(parent, [`${MBFC}-no-parent`])
       return err(null)
     }
     story.parent = e3
 
-    this.addClasses(story.parent, [`${MBFC}-story-block`])
     const story_children = Array.from(story.parent.children)
     if (story_children.length < 2) {
-      log(`Cannot find children for `, story.parent)
+      log(`${MBFC}-no-children for ${story.count}`, story)
+      this.removeClasses(parent, [C_FOUND, `${MBFC}-story-searched`])
       return err(null)
     }
 
     const title_holder = story_children.filter((e) => e.contains(story.title_element as Node)).shift()
     const report_holder = story_children.filter((e) => e.contains(story.report_element as Node)).shift()
     if (!title_holder || !report_holder) {
-      log(`Cannot find title or report holder for `, story.parent)
+      log(`${MBFC}-no-report-holder for ${story.count}`, story)
+      this.addClasses(story.parent, [`${MBFC}-no-report-holder`])
       return err(null)
     }
     story.title_holder = title_holder as HTMLElement
     story.report_holder = report_holder as HTMLElement
 
     const payload: GetDomainForFilterRequestBody = {
-      fb_path: clean_href(story.title_element),
+      fb_path: this.clean_href(story.title_element),
       possible_domain: story.possible_domain,
     }
     const res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
@@ -133,7 +133,8 @@ export class Facebook extends Filter {
       body: payload,
     })
     if (!res || !res.site) {
-      log(`GET_DOMAIN_FOR_FILTER didn't find a domain `, payload)
+      log(`${MBFC}-no-domain for ${story.count}`, story)
+      this.addClasses(parent, [`${MBFC}-no-domain`])
       return err(null)
     }
 
@@ -147,6 +148,10 @@ export class Facebook extends Filter {
       // if (e.contains(report)) return;
       story.hides.push(e)
     })
+    this.addClasses(story.parent, [`${MBFC}-story-block`])
+    if (isDevMode()) {
+      log(`${MBFC}-story-block for ${story.count}`, story, story.parent)
+    }
     return ok(story)
   }
 }

@@ -1,5 +1,3 @@
-// eslint-disable
-
 // To parse this data:
 //
 //   import { Convert, CombinedModel } from "./file";
@@ -13,15 +11,15 @@
  * Distribution format for single data pull
  */
 export interface CombinedModel {
-  date: string
-  version: number
   aliases: { [key: string]: any }
   biases: BiasModel[]
   credibility: CredibilityModel[]
+  date: string
   questionable: QuestionableModel[]
   reporting: ReportingModel[]
   sources: SiteModel[]
   traffic: TrafficModel[]
+  version: number
 }
 
 /**
@@ -203,6 +201,10 @@ export interface SiteModel {
    */
   domain: string
   /**
+   * The path on https://www.facebook.com for the site
+   */
+  facebook?: string
+  /**
    * The human-friendly name for the site
    */
   name: string
@@ -213,6 +215,10 @@ export interface SiteModel {
   questionable: QuestionableEnums[]
   reporting?: ReportingEnums
   traffic?: TrafficEnums
+  /**
+   * The path on https://twitter.com for the site
+   */
+  twitter?: string
   /**
    * The URL on https://mediabiasfactcheck.com for the site
    */
@@ -454,11 +460,13 @@ const typeMap: any = {
       { json: "bias", js: "bias", typ: r("BiasEnums") },
       { json: "credibility", js: "credibility", typ: u(undefined, r("CredibilityEnums")) },
       { json: "domain", js: "domain", typ: "" },
+      { json: "facebook", js: "facebook", typ: u(undefined, "") },
       { json: "name", js: "name", typ: "" },
       { json: "popularity", js: "popularity", typ: u(undefined, 0) },
       { json: "questionable", js: "questionable", typ: a(r("QuestionableEnums")) },
       { json: "reporting", js: "reporting", typ: u(undefined, r("ReportingEnums")) },
       { json: "traffic", js: "traffic", typ: u(undefined, r("TrafficEnums")) },
+      { json: "twitter", js: "twitter", typ: u(undefined, "") },
       { json: "url", js: "url", typ: "" },
     ],
     "any",

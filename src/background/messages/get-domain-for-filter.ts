@@ -1,6 +1,6 @@
 import type { PlasmoMessaging } from "@plasmohq/messaging"
 
-import { ConfigHandler, logger } from "~utils"
+import { ConfigHandler, logger } from "~shared"
 
 import type { SiteModel } from "../../models"
 import { SourcesProcessor } from "../sources-processor"

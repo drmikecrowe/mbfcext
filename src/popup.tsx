@@ -5,13 +5,13 @@ import { useEffect, useState } from "react"
 import { sendToBackground } from "@plasmohq/messaging"
 
 import Button from "~components/button"
-import { getCurrentTab, getDomain } from "~utils"
+import { getCurrentTab, getDomain } from "~shared"
 
 import "./style.css"
 
-import { GET_DOMAIN_FOR_TAB, type GetDomainForTabRequestBody, type GetDomainForTabResponseBody } from "~background/messages/get-domain-for-tab"
+import { GET_DOMAIN_FOR_TAB, type GetDomainForTabRequestBody, type GetDomainForTabResponseBody } from "~background/messages"
 
-import { logger } from "./utils/logger"
+import { logger } from "./shared/logger"
 
 const log = logger("mbfc:popup")
 

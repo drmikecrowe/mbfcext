@@ -1,6 +1,6 @@
 import type { PlasmoMessaging } from "@plasmohq/messaging"
 
-import { logger } from "~utils/logger"
+import { logger } from "~shared/logger"
 
 const log = logger("mbfc:background:messages:start-thanks")
 

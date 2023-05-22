@@ -1,6 +1,6 @@
 import type { ReactElement } from "react"
 
-import { logger } from "../utils/logger"
+import { logger } from "../shared/logger"
 import { TabFields, getTabGroups } from "./components/tab-groups"
 
 const log = logger("mbfc:options")

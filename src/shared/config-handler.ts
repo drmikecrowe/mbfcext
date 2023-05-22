@@ -1,7 +1,7 @@
 import { Storage } from "@plasmohq/storage"
 
 import { BiasEnums } from "~models"
-import { logger } from "~utils"
+import { logger } from "~shared"
 
 const log = logger("mbfc:utils:config-handler")
 

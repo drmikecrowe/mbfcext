@@ -1,6 +1,6 @@
 import type { PlasmoCSConfig } from "plasmo"
 
-import { ConfigHandler, logger } from "~utils"
+import { ConfigHandler, logger } from "~shared"
 
 import { Facebook } from "./content/facebook"
 

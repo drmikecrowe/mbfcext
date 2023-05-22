@@ -1,8 +1,7 @@
 import type { PlasmoMessaging } from "@plasmohq/messaging"
 
-import { ConfigHandler, logger } from "~utils"
-
-import { GoogleAnalytics } from "../utils/google-analytics"
+import { GoogleAnalytics } from "~background/utils/google-analytics"
+import { ConfigHandler, logger } from "~shared"
 
 const log = logger("mbfc:background:messages:reset-ignored")
 

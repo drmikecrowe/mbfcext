@@ -2,7 +2,7 @@
 // const log = logger("mbfc:utils:getDomain");
 
 export const getDomain = (u: string) => {
-  let url = u
+  let url = u.toLowerCase()
   let hn
   let p
   try {

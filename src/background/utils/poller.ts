@@ -1,7 +1,7 @@
 import type { Alarms } from "webextension-polyfill"
 import browser from "webextension-polyfill"
 
-import { ConfigHandler, logger } from "../../utils"
+import { ConfigHandler, logger } from "../../shared"
 import { SourcesProcessor } from "../sources-processor"
 
 const log = logger("mbfc:utils:poller")

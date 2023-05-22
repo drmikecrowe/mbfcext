@@ -1,9 +1,8 @@
 import type { PlasmoMessaging } from "@plasmohq/messaging"
 
+import { GoogleAnalytics } from "~background/utils/google-analytics"
 import type { SiteModel } from "~models"
-import { logger } from "~utils"
-
-import { GoogleAnalytics } from "../utils/google-analytics"
+import { logger } from "~shared"
 
 const log = logger("mbfc:background:messages:associate-site")
 
