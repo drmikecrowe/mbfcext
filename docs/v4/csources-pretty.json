@@ -12235,6 +12235,16 @@
     "a": "L",
     "q": []
   },
+  "clydebankpost.co.uk": {
+    "b": "C",
+    "d": "clydebankpost.co.uk",
+    "n": "Clydebank Post - Bias and Credibility",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/clydebank-post-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cnas.org": {
     "b": "LC",
     "d": "cnas.org",
@@ -27212,6 +27222,17 @@
     "a": "L",
     "q": []
   },
+  "hometownsource.com/sun_patriot": {
+    "b": "LC",
+    "d": "hometownsource.com/sun_patriot",
+    "n": "Waconia Patriot",
+    "p": "/sun_patriot",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/waconia-patriot-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hometownsource.com/sun_post": {
     "b": "LC",
     "d": "hometownsource.com/sun_post",
@@ -32682,6 +32703,16 @@
     "u": "https://mediabiasfactcheck.com/ksnt-topeka-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kstk.org": {
+    "b": "LC",
+    "d": "kstk.org",
+    "n": "KSTK - NPR - Wrangell",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kstk-npr-wrangell-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kstp.com": {
@@ -38904,6 +38935,20 @@
     "c": "NA",
     "a": "L",
     "q": []
+  },
+  "morrisleader.com": {
+    "b": "FN",
+    "d": "morrisleader.com",
+    "n": "Morris Leader",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/morris-leader-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "mosaicscience.com": {
     "b": "PS",
@@ -46809,6 +46854,16 @@
     "n": "Panola Watchman",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/panola-watchman-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "panolian.com": {
+    "b": "RC",
+    "d": "panolian.com",
+    "n": "Batesville Panolian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/batesville-panolian-bias/",
     "c": "H",
     "a": "L",
     "q": []
