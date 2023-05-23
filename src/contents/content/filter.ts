@@ -23,10 +23,8 @@ import {
 import { type CheckDomainResults } from "~background/utils"
 import type { SiteModel } from "~models"
 import { ConfigHandler, type ConfigStorage } from "~shared/config-handler"
-import { faEye } from "~shared/elements/font-awesome"
+import { faEye, faEyeSlash } from "~shared/elements/font-awesome"
 import { isDevMode, logger } from "~shared/logger"
-
-import { toggleStory } from "./utils/toggle-story"
 
 import "./utils/report-div"
 
@@ -238,21 +236,34 @@ export class Filter {
     })
   }
 
-  getHiddenDiv(story_class: string, hidden_id: string, count: number, collapse: boolean) {
+  getHiddenDiv(hide_class: string, count: number, collapse: boolean) {
     const hDiv = document.createElement("mbfc")
     hDiv.className = `mbfcext ${C_FOUND}`
-    hDiv.id = hidden_id
 
-    const span_id = `${story_class}-span`
-    const hide_id = `${story_class}-icon`
+    const show_eye_id = `${hide_class}-show-eye`
+    const hide_eye_id = `${hide_class}-hide-eye`
+    const hide_id = `${hide_class}-icon`
     const hide_classes = `mbfc mbfc-hide-ctrl mbfc-hide-ctrl${count}`
+
+    const inlineCode = `
+            let icon_show=document.getElementById('${show_eye_id}'), icon_hide=document.getElementById('${hide_eye_id}');     
+            let show = icon_show.style.display !== 'none';       
+            let new_story_display = show ? 'block' : 'none';    
+            Array.from(document.getElementsByClassName('${hide_class}')).forEach(function(e) {
+                e.style.display = new_story_display;
+            });
+            icon_show.style.display = show ? 'none' : 'block';
+            icon_hide.style.display = show ? 'block' : 'none';
+        `.replace(/\s+/g, " ")
+
     const hide = collapse
       ? `<div
             id="${hide_id}"
             class="${hide_classes}"
-            style="cursor: pointer"
-            ${faEye}
-            <span id="${span_id}"> Show Anyway</span>
+            onclick="${inlineCode}"
+            style="cursor: pointer; padding-left: 2px;">
+            <span id="${hide_eye_id}" style="display: none">${faEyeSlash} Hide Again</span>
+            <span id="${show_eye_id}">${faEye} Show Anyway</span>
         </div>`
       : ""
     set(hDiv, "innerHTML", hide)
@@ -363,15 +374,13 @@ export class Filter {
     }
     // this.addButtons(site.n, story.count)
     const story_class = this.storyClass(story.count)
-    const hide_id = `mbfcext-hide-${story.count}`
-    const hDiv = this.getHiddenDiv(story_class, hide_id, story.count, collapse)
+    const hide_class = `mbfcext-hide-${story.count}`
+    const hDiv = this.getHiddenDiv(hide_class, story.count, collapse)
     story.parent.appendChild(hDiv)
-    const hiddenDiv = document.getElementById(hide_id)
-    hiddenDiv?.addEventListener("click", () => toggleStory(story_class))
     const domain_class = `${MBFC}-${story.domain.final_domain.replace(/\./g, "-")}`
-    this.addClasses(story.parent, [domain_class, this.storyClass(story.count)])
+    this.addClasses(story.parent, [domain_class, story_class])
     story.hides.forEach((e) => {
-      this.addClasses(e, [domain_class, this.storyClass(story.count)])
+      this.addClasses(e, [domain_class, hide_class])
     })
     if (collapse) {
       story.hides.forEach((e) => {

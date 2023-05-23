@@ -14,9 +14,6 @@
     "package": "plasmo package"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
     "@plasmohq/messaging": "^0.3.0",
     "@plasmohq/storage": "^1.6.0",
     "@types/webextension-polyfill": "^0.10.0",

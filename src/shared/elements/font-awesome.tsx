@@ -1,11 +1,13 @@
-export const faCog = `<svg class="fa-cog" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505.5 296.5l-47.1-27.2c-4.3-12.9-10.1-25.1-17.3-36.5l23.6-43.5c9.6-17.7 7.2-39.9-6.9-54.1l-39.2-39.2c-14.2-14.2-36.4-16.5-54.1-6.9l-43.5 23.6c-11.4-7.2-23.6-13-36.5-17.3l-27.2-47.1c-10.5-18.2-32.1-24.9-50.3-14.4l-44.8 25.9c-12.9-9.6-26.5-17.9-40.6-24.7l-6.4-47.5C139.5 4.7 118.5 0 99.5 10.5l-47.5 27.2c-18.2 10.5-24.9 32.1-14.4 50.3l25.9 44.8c-6.8 14.1-14.9 27.7-24.7 40.6l-44.8 25.9c-18.2 10.5-24.9 32.1-14.4 50.3l27.2 47.1c4.3 12.9 10.1 25.1 17.336.5l-23.6 43.5c-9.6 17.7-7.2 39.9 6.9 54.1l39.2 39.2c14.2 14.2 36.4 16.5 54.1 6.9l43.5-23.6c11.4 7.2 23.6 13 36.5 17.3l27.2 47.1c10.5 18.2 32.1 24.9 50.3 14.4l44.8-25.9c12.9 9.6 26.5 17.9 40.6 24.7l6.4 47.5c3.1 23.1 24.1 39.947.3 36.8l47.5-6.4c18.2-2.5 35.1-10.9 49.5-23.1l44.8-25.9c18.2-10.5 24.9-32.1 14.4-50.3l-25.9-44.8c6.8-14.1 14.9-27.7 24.7-40.6l44.8-25.9c18.2-10.5 24.9-32.1 14.4-50.3zM288 352c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"/></svg>`
+export const faCog = '<img src="https://icongr.am/fontawesome/cog.svg?size=16" alt="faCog" height="12px" />'
 
-export const faBook = `<svg class="fa-book" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="" d="M416 64H32C14.3 64 0 78.3 0 96v320c0 17.7 14.3 32 32 32h384c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zm-32 320H64V128h320v256z"/></svg>`
+export const faEye = '<img src="https://icongr.am/fontawesome/eye.svg?size=16" alt="faEye" height="12px" />'
 
-export const faEye = `<svg class="fa-eye" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M288 192c-53.019 0-96 42.981-96 96s42.981 96 96 96 96-42.981 96-96-42.981-96-96-96zm0 160c-35.29 0-64-28.71-64-64s28.71-64 64-64 64 28.71 64 64-28.71 64-64 64z"/></svg>`
+export const faEyeSlash = '<img src="https://icongr.am/fontawesome/eye-slash.svg?size=16" alt="faEyeSlash" height="12px" />'
 
-export const faAngleDoubleDown = `<svg class="fa-angle-double-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M288 224c-17.8 0-32 14.3-32 32v160H64V256c0-17.7-14.3-32-32-32s-32 14.3-32 32v192c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V2560-17.7-14.3-32-32-32z"/></svg>`
+export const faBook = '<img src="https://icongr.am/fontawesome/book.svg?size=16" alt="faBook" height="12px" />'
 
-export const faExternalLinkAlt = `<svg class="fa-external-link-alt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 0H96C42.98 0 0 42.98 0 96v320c0 53.02 42.98 96 96 96h320c53.02 0 96-42.98 96-96V96c0-53.02-42.98-96-96-96zm32 416c0 17.67-14.33 32-32 32H96c-17.67 0-32-.33-32-32V96c0-17.67 14.33-32 32-32h320c17.67 0 32 14.33 32 32v320z"/><path fill="currentColor" d="M352 96H160c-8.84 0-16 7.16-16 16s7.16 16 16 16h192c8.84 0 16-7.16 16-16s-7.16-16-16-16zM352 160H160c-8.84 0-16 7.16-16 16s7.16 16 16 16h192c8.84 0 16-7.16 16-16s-7.16-16-16-16zM352 224H160c-8.84 0-16 7.16-16 16s7.16 16 16 16h192c8.84 0 16-7.16 16-16s-7.16-16-16-16z"/></svg>`
+export const faAngleDoubleDown = '<img src="https://icongr.am/fontawesome/angle-double-down.svg?size=16" alt="faAngleDoubleDown" height="12px" />'
 
-export const faAngleDoubleRight = `<svg class="fa-angle-double-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256c0 17.7 14.3 32 32 32h224v64H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h224v64c0 17.7 14.3 32 32 32s32-14.3 32-32V288c0-17.7-14.3-32-32-32H32c-17.7 0-32 14.3-32 32z"/></svg>`
+export const faExternalLinkAlt = '<img src="https://icongr.am/fontawesome/external-link.svg?size=16" alt="faExternalLinkAlt" height="12px" style="position: relative;top: 2px;" />'
+
+export const faAngleDoubleRight = '<img src="https://icongr.am/fontawesome/angle-double-right.svg?size=16" alt="faAngleDoubleRight" height="12px" />'
