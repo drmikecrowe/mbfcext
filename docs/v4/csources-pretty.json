@@ -6855,6 +6855,16 @@
     "a": "M",
     "q": []
   },
+  "blackburnnews.ca": {
+    "b": "LC",
+    "d": "blackburnnews.ca",
+    "n": "Blackburn News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/blackburn-news-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "blackcommunitynews.com": {
     "b": "R",
     "d": "blackcommunitynews.com",
@@ -7510,7 +7520,7 @@
     "b": "LC",
     "d": "boredpanda.com",
     "n": "Bored Panda",
-    "r": "MF",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/bored-panda-bias/",
     "c": "H",
     "a": "H",
@@ -23463,19 +23473,6 @@
     "a": "L",
     "q": []
   },
-  "frontpagelive.com": {
-    "b": "L",
-    "d": "frontpagelive.com",
-    "f": "frontpagelive",
-    "n": "Front Page Live",
-    "r": "MF",
-    "t": "frontpage_live",
-    "u": "https://mediabiasfactcheck.com/front-page-live/",
-    "P": 32,
-    "c": "M",
-    "a": "L",
-    "q": []
-  },
   "frontpagemag.com": {
     "b": "FN",
     "d": "frontpagemag.com",
@@ -23496,6 +23493,19 @@
       "H",
       "PSE"
     ]
+  },
+  "frontpageslive.com": {
+    "b": "L",
+    "d": "frontpageslive.com",
+    "f": "frontpagelive",
+    "n": "Front Page Live",
+    "r": "MF",
+    "t": "frontpage_live",
+    "u": "https://mediabiasfactcheck.com/front-page-live/",
+    "P": 32,
+    "c": "M",
+    "a": "L",
+    "q": []
   },
   "ft.com": {
     "b": "C",
@@ -62478,6 +62488,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-humanist-magazine/",
     "P": 62,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "theifp.ca": {
+    "b": "LC",
+    "d": "theifp.ca",
+    "n": "The Independent and Free Press",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-independent-and-free-press-bias/",
     "c": "H",
     "a": "L",
     "q": []
