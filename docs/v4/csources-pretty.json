@@ -36925,6 +36925,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/arthropoda": {
+    "b": "PS",
+    "d": "mdpi.com/journal/arthropoda",
+    "n": "Arthropoda Journal",
+    "p": "/journal/arthropoda",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/arthropoda-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/asi": {
     "b": "PS",
     "d": "mdpi.com/journal/asi",
@@ -41051,6 +41062,20 @@
       "IM"
     ]
   },
+  "nebergennews.com": {
+    "b": "FN",
+    "d": "nebergennews.com",
+    "n": "NE Bergen News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-bergan-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nebraska.tv": {
     "b": "RC",
     "d": "nebraska.tv",
@@ -42581,7 +42606,7 @@
     "u": "https://mediabiasfactcheck.com/news-heist/",
     "P": 14,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -42741,7 +42766,7 @@
     "u": "https://mediabiasfactcheck.com/news-mutiny/",
     "P": 30,
     "c": "NA",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "newsnationnow.com": {
@@ -42840,7 +42865,7 @@
     "u": "https://mediabiasfactcheck.com/news-procession/",
     "P": 7,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "newspushed.com": {
@@ -64689,7 +64714,7 @@
     "b": "R",
     "d": "thetexan.news",
     "n": "The Texan",
-    "r": "MF",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/the-texan/",
     "c": "H",
     "a": "M",
