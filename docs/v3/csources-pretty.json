@@ -41794,7 +41794,7 @@
     "b": "RC",
     "d": "news-gazette.com",
     "f": "newsgazette",
-    "n": "News-Gazette",
+    "n": "Champaign News-Gazette",
     "r": "H",
     "t": "news_gazette",
     "u": "https://mediabiasfactcheck.com/news-gazette/",
@@ -42780,6 +42780,17 @@
     "a": "H",
     "q": []
   },
+  "newsnetmedia.com": {
+    "b": "C",
+    "d": "newsnetmedia.com",
+    "n": "NewsNet (newsnetmedia.com)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newsnet-yournewsnet-com/",
+    "P": 30,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newsnow.co.uk": {
     "b": "C",
     "d": "newsnow.co.uk",
@@ -43008,7 +43019,7 @@
     "u": "https://mediabiasfactcheck.com/news-thump/",
     "P": 60,
     "c": "NA",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "newstimes.com": {
@@ -43083,7 +43094,7 @@
     "u": "https://mediabiasfactcheck.com/newswars/",
     "P": 49,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -47456,6 +47467,16 @@
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/paulcraigroberts-org-bias/",
     "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "paulsvalleydailydemocrat.com": {
+    "b": "LC",
+    "d": "paulsvalleydailydemocrat.com",
+    "n": "Pauls Valley Democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pauls-valley-democrat-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -74175,17 +74196,6 @@
       "LT",
       "M"
     ]
-  },
-  "yournewsnet.com": {
-    "b": "C",
-    "d": "yournewsnet.com",
-    "n": "NewsNet (YourNewsNet.com)",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/newsnet-yournewsnet-com/",
-    "P": 30,
-    "c": "H",
-    "a": "N",
-    "q": []
   },
   "yournewswire.com": {
     "b": "CP",
