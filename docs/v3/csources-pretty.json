@@ -7377,6 +7377,16 @@
     "a": "L",
     "q": []
   },
+  "bohemian.com": {
+    "b": "LC",
+    "d": "bohemian.com",
+    "n": "North Bay Bohemian",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bohemian/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "boingboing.net": {
     "b": "L",
     "d": "boingboing.net",
@@ -8031,6 +8041,16 @@
     "P": 48,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "briarpatchmagazine.com": {
+    "b": "L",
+    "d": "briarpatchmagazine.com",
+    "n": "Briarpatch Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/briarpatch-magazine-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "bridgemi.com": {
@@ -23434,6 +23454,17 @@
     "p": "/journals/cardiovascular-medicine",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-cardiovascular-medicine-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/catalysis": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/catalysis",
+    "n": "Frontiers in Catalysis",
+    "p": "/journals/catalysis",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontier-in-catalysis-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -41484,6 +41515,20 @@
     "a": "L",
     "q": []
   },
+  "newarkreporter.com": {
+    "b": "FN",
+    "d": "newarkreporter.com",
+    "n": "Newark Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/newark-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "newatlas.com": {
     "b": "PS",
     "d": "newatlas.com",
@@ -45891,6 +45936,16 @@
       "FC",
       "IM"
     ]
+  },
+  "ominecaexpress.com": {
+    "b": "LC",
+    "d": "ominecaexpress.com",
+    "n": "Vanderhoof Omineca Express",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vanderhoof-omineca-express-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "oneangrygamer.net": {
     "b": "R",
@@ -52948,6 +53003,20 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "rockvalleytimes.com": {
+    "b": "FN",
+    "d": "rockvalleytimes.com",
+    "n": "Rock Valley Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/rock-valley-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
       "IM"
     ]
   },
@@ -73847,6 +73916,16 @@
       "PS",
       "CEN"
     ]
+  },
+  "xtramagazine.com": {
+    "b": "L",
+    "d": "xtramagazine.com",
+    "n": "Xtra Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/xtra-magazine-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "yaf.org": {
     "b": "R",
