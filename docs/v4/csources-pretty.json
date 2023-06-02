@@ -14010,6 +14010,16 @@
     "a": "M",
     "q": []
   },
+  "cotswoldjournal.com": {
+    "b": "C",
+    "d": "cotswoldjournal.com",
+    "n": "Cotswold Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cotswold-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "councilforthenationalinterest.org": {
     "b": "FN",
     "d": "councilforthenationalinterest.org",
@@ -44116,6 +44126,20 @@
       "IM"
     ]
   },
+  "northessexnews.com": {
+    "b": "FN",
+    "d": "northessexnews.com",
+    "n": "North Essex News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-essex-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "northfultontoday.com": {
     "b": "FN",
     "d": "northfultontoday.com",
@@ -64805,6 +64829,16 @@
     "t": "thesunmagazine",
     "u": "https://mediabiasfactcheck.com/the-sun-magazine/",
     "P": 55,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "thesuntimes.com": {
+    "b": "RC",
+    "d": "thesuntimes.com",
+    "n": "Heber Spring Sun-Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/heber-springs-sun-times-bias/",
     "c": "H",
     "a": "L",
     "q": []
