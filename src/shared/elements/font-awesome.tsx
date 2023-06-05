@@ -6,10 +6,10 @@ import eyeSlash from "raw:~icons/eye-slash-solid.svg"
 import eye from "raw:~icons/eye-solid.svg"
 import cog from "raw:~icons/gear-solid.svg"
 
-export const faCog = `<image class="fa-icon" src="${cog}" alt="cog" />`
-export const faBook = `<image class="fa-icon" src="${book}" alt="book" />`
-export const faEye = `<image class="fa-icon" src="${eye}" alt="eye" />`
-export const faEyeSlash = `<image class="fa-icon" src="${eyeSlash}" alt="eyeSlash" />`
-export const faAngleDoubleDown = `<image class="fa-icon" src="${angleDoubleDown}" alt="angleDoubleDown" />`
-export const faExternalLinkAlt = `<image class="fa-icon" src="${externalLinkAlt}" alt="externalLinkAlt" />`
-export const faAngleDoubleRight = `<image class="fa-icon" src="${angleDoubleRight}" alt="angleDoubleRight" />`
+export const faCog = `<image class="mbfc-fa-icon" src="${cog}" alt="cog" />`
+export const faBook = `<image class="mbfc-fa-icon" src="${book}" alt="book" />`
+export const faEye = `<image class="mbfc-fa-icon" src="${eye}" alt="eye" />`
+export const faEyeSlash = `<image class="mbfc-fa-icon" src="${eyeSlash}" alt="eyeSlash" />`
+export const faAngleDoubleDown = `<image class="mbfc-fa-icon" src="${angleDoubleDown}" alt="angleDoubleDown" />`
+export const faExternalLinkAlt = `<image class="mbfc-fa-icon" src="${externalLinkAlt}" alt="externalLinkAlt" />`
+export const faAngleDoubleRight = `<image class="mbfc-fa-icon" src="${angleDoubleRight}" alt="angleDoubleRight" />`

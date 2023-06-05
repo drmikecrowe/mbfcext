@@ -1,9 +1,6 @@
 import { set } from "lodash"
 import { Result, err, ok } from "neverthrow"
 
-import { getPort } from "@plasmohq/messaging/port"
-
-import { type BackgroundMessage } from "~background/ports/background"
 import { type CheckDomainResults } from "~background/utils"
 import type { SiteModel } from "~models"
 import { ConfigHandler, type ConfigStorage } from "~shared/config-handler"
@@ -12,10 +9,12 @@ import { isDevMode, logger } from "~shared/logger"
 
 import "./utils/report-div"
 
+import { sendToBackground } from "@plasmohq/messaging"
+
+import { HIDE_SITE, type HideSiteRequestBody, type HideSiteResponseBody, RESET_IGNORED, ResetIgnoredRequestBody, ResetIgnoredResponseBody } from "~background/messages"
+
 import { GoogleAnalytics } from "../../shared/google-analytics"
 import { NewsAnnotation } from "./utils/report-div"
-
-const backgroundPort = getPort("background")
 
 export const MBFC = "mbfc"
 export const C_URL = "https://mediabiasfactcheck.com/"
@@ -81,6 +80,10 @@ export class Filter {
         })
         this.cleanMbfcNodes(node.removedNodes)
       })
+      const unattachedButtons = document.querySelectorAll('button.mbfc-toolbar-button[data-attached="false"]')
+      if (unattachedButtons.length > 0) {
+        this.processUnattachedButtons(unattachedButtons)
+      }
       if (all_nodes.length === 0) return
       const added = all_nodes.length
       log(`Processing ${added} nodes`)
@@ -139,11 +142,10 @@ export class Filter {
   waitForElementToDisplay(selector, time, cb) {
     const el = document.querySelector(selector)
     if (el != null) {
+      log(`waitForElementToDisplay found ${selector}`)
       cb(el)
     } else {
-      setTimeout(() => {
-        this.waitForElementToDisplay(selector, time, cb)
-      }, time)
+      log(`waitForElementToDisplay not found ${selector}.  Waiting ${time}ms`)
     }
   }
 
@@ -175,35 +177,91 @@ export class Filter {
   }
 
   async reportUnknown(domain: string) {
-    // const payload: ReportUnknownRequestBody = { domain }
-    // return portReportUnknown.postMessage(payload)
+    GoogleAnalytics.getInstance().reportUnknownSite(domain)
   }
 
   async resetIgnored() {
-    // portResetIgnored.postMessage({})
-    // alert(`OK, reset. You can now begin to hide/show individual sites`)
+    sendToBackground<ResetIgnoredRequestBody, ResetIgnoredResponseBody>({ name: RESET_IGNORED, body: {} })
+      .then(() => {
+        log(`Reset ignored sites`)
+      })
+      .catch((e) => {
+        log(`Error resetting ignored sites: ${e}`)
+      })
   }
 
   async reportAssociated(source: SiteModel, fb_url: string) {
-    // const payload: AssociateSiteRequestBody = { source, fb_url }
-    // return portAssociateSite.postMessage(payload)
+    GoogleAnalytics.getInstance().reportAssociateSite(source.domain, fb_url)
   }
 
   async openRequestedPopup() {
-    // portStartThanks.postMessage({})
-    // this.windowObjectReference = window.open("https://paypal.me/drmikecrowe", "DescriptiveWindowName", "resizable,scrollbars,status")
+    GoogleAnalytics.getInstance().reportStartThanks()
+    this.windowObjectReference = window.open("https://paypal.me/drmikecrowe", "DescriptiveWindowName", "resizable,scrollbars,status")
   }
 
-  addButtonsEvents(text, count) {
-    this.waitForElementToDisplay(`.toolbar-button1-${count}`, 500, (button) => {
-      button.addEventListener("click", () => this.ignoreButton(text, count), false)
-    })
-    this.waitForElementToDisplay(`.toolbar-button2-${count}`, 500, (button) => {
-      button.addEventListener("click", () => this.thanksButton(), false)
-    })
-    this.waitForElementToDisplay(`.toolbar-button3-${count}`, 500, (button) => {
-      button.addEventListener("click", () => this.resetIgnored(), false)
-    })
+  ignoreButton(text, count) {
+    const button = document.getElementById(`mbfc-toolbar-button1-${count}`)
+    if (!button) return
+    const domain = button.attributes["data-domain"].value
+    const collapse = button.attributes["data-collapse"].value !== "Show"
+    log(domain, button.attributes["data-collapse"].value, collapse)
+    const which = collapse ? "hiding" : "showing"
+    sendToBackground<HideSiteRequestBody, HideSiteResponseBody>({ name: HIDE_SITE, body: { domain, collapse } })
+      .then(() => {
+        log(`Always ${which} ${text}/${domain}`)
+        const el = document.getElementById(`mbfcext${count}`)
+        if (el) {
+          el.style.display = collapse ? "none" : "inherit"
+        }
+        const domain_class = `${MBFC}-${domain.replace(/\./g, "-")}`
+        if (collapse) {
+          document.querySelectorAll(`.${domain_class}`).forEach((e) => {
+            this.hideElement(e)
+          })
+          document.querySelectorAll(`button[data-domain="${domain}"]`).forEach((e) => {
+            e.setAttribute("data-collapse", "Show")
+            e.textContent = e.textContent?.replace("hide", "show") || ""
+          })
+        } else {
+          document.querySelectorAll(`.${domain_class}`).forEach((e) => {
+            this.showElement(e)
+          })
+          document.querySelectorAll(`button[data-domain="${domain}"]`).forEach((e) => {
+            e.setAttribute("data-collapse", "Hide")
+            e.textContent = e.textContent?.replace("show", "hide") || ""
+          })
+        }
+        alert(`Always ${which} ${text}/${domain}`)
+        const el2 = document.getElementById(`mbfctt${count}`)
+        if (!el2) return
+        if (el2.style.display == "none") {
+          el2.style.display = "table-row"
+        } else {
+          el2.style.display = "none"
+        }
+      })
+      .catch((e) => {
+        log(`Error ${which} ${text}/${domain}: ${e}`)
+      })
+  }
+
+  processUnattachedButtons(elems: NodeListOf<Element>) {
+    for (const button of elems as never as HTMLButtonElement[]) {
+      const type = button.attributes["data-type"].value
+      switch (type) {
+        case "ignore":
+          button.addEventListener("click", () => this.ignoreButton(button.attributes["data-domain"].value, button.attributes["data-count"].value), false)
+          break
+        case "thanks":
+          button.addEventListener("click", () => this.thanksButton(), false)
+          break
+        case "reset":
+          button.addEventListener("click", () => this.resetIgnored(), false)
+          break
+      }
+      log(`Added ${type} button event listeners to ${button.id}`)
+      button.attributes.removeNamedItem("data-attached")
+    }
   }
 
   getHiddenDiv(hide_class: string, count: number, collapse: boolean) {
@@ -321,19 +379,16 @@ export class Filter {
 
   async inject(story: Story, embed = false) {
     if (!story.domain || !story.domain.site) {
-      debugger
       log("ERROR: story.domain empty", story)
       return
     }
     if (story.parent.querySelector(MBFC)) {
-      debugger
       log("ERROR: already injected", story)
       return
     }
     const { site, collapse } = story.domain
     const iDiv = this.getReportDiv(site, story.count, story.tagsearch, collapse, embed)
     if (iDiv.isErr()) {
-      debugger
       log(`ERROR: iDiv empty for ${story.count}`, story)
       return
     }
@@ -341,11 +396,7 @@ export class Filter {
       const pn = story.report_element.parentNode
       if (pn) {
         pn.insertBefore(iDiv.value, story.report_element)
-      } else {
-        debugger
       }
-    } else {
-      debugger
     }
     // this.addButtons(site.n, story.count)
     const story_class = this.storyClass(story.count)
@@ -354,7 +405,6 @@ export class Filter {
     story.parent.appendChild(hDiv)
     const domain_class = `${MBFC}-${story.domain.final_domain.replace(/\./g, "-")}`
     this.addClasses(story.parent, [domain_class, story_class])
-    this.addButtonsEvents(story.domain.final_domain, story.count)
     story.hides.forEach((e) => {
       this.addClasses(e, [domain_class, hide_class])
     })

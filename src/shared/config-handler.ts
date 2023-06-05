@@ -134,6 +134,18 @@ export class ConfigHandler {
     return this.retrievingPromise
   }
 
+  async getStorageRecord(key: string, dflt: any): Promise<any> {
+    const storage = new Storage()
+    const data = await storage.get(key)
+    if (!data) return dflt
+    try {
+      return JSON.parse(data) as never
+    } catch (e) {
+      log(`Error parsing ${key} data: ${e}`)
+      return dflt
+    }
+  }
+
   async loadStorage(): Promise<ConfigStorage> {
     const storage = new Storage()
     const col: Collapse = configDefaults.collapse
@@ -142,32 +154,32 @@ export class ConfigHandler {
       log(`Listening for changes in ${key}`)
       storage.watch({
         [key]: (s: any) => {
-          log(`Collapse Key ${key} changed, updating to ${s.newValue}`)
-          this.config.collapse[key] = s.newValue
+          this.config.collapse[key] = JSON.parse(s.newValue)
+          log(`Collapse Key ${key} changed, updating to `, this.config.collapse[key])
         },
       })
     }
     const c: ConfigStorage = {
       collapse: col,
-      hiddenSites: (await storage.get("hiddenSites")) || configDefaults.hiddenSites,
-      unknown: (await storage.get("unknown")) || configDefaults.unknown,
-      lastRun: (await storage.get("lastRun")) || configDefaults.lastRun,
-      firstrun: (await storage.get("firstrun")) || configDefaults.firstrun,
-      loaded: (await storage.get("loaded")) || configDefaults.loaded,
-      mbfcBlockAnalytics: (await storage.get("mbfcBlockAnalytics")) || configDefaults.mbfcBlockAnalytics,
-      pollMinutes: (await storage.get("pollMinutes")) || configDefaults.pollMinutes,
+      hiddenSites: await this.getStorageRecord("hiddenSites", configDefaults.hiddenSites),
+      unknown: await this.getStorageRecord("unknown", configDefaults.unknown),
+      lastRun: await this.getStorageRecord("lastRun", configDefaults.lastRun),
+      firstrun: await this.getStorageRecord("firstrun", configDefaults.firstrun),
+      loaded: await this.getStorageRecord("loaded", configDefaults.loaded),
+      mbfcBlockAnalytics: await this.getStorageRecord("mbfcBlockAnalytics", configDefaults.mbfcBlockAnalytics),
+      pollMinutes: await this.getStorageRecord("pollMinutes", configDefaults.pollMinutes),
     }
     this.config = c
     Object.keys(c).forEach((key) => {
       log(`Listening for changes in ${key}`)
       storage.watch({
         [key]: (s: any) => {
-          log(`Key ${key} changed, updating to ${s.newValue}`)
-          this.config[key] = s.newValue
+          this.config[key] = JSON.parse(s.newValue)
+          log(`Key ${key} changed, updating to `, this.config[key])
         },
       })
     })
-    log(`Config loaded`)
+    log(`Config loaded`, c)
     return c
   }
 }
