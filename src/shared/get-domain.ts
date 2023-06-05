@@ -2,6 +2,7 @@
 // const log = logger("mbfc:utils:getDomain");
 
 export const getDomain = (u: string) => {
+  if (!u) return { domain: "", path: "" }
   let url = u.toLowerCase()
   let hn
   let p
@@ -14,6 +15,7 @@ export const getDomain = (u: string) => {
       p = new URL(url).pathname.toLowerCase()
       if (p.indexOf("?") > -1) p = p.split("?").pop()
       if (p.endsWith("/")) p = p.slice(0, p.length - 1)
+      if (p.startsWith("/")) p = p.slice(1)
     }
   } catch (e) {
     // log(e);

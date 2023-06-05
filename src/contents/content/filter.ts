@@ -1,25 +1,9 @@
 import { set } from "lodash"
 import { Result, err, ok } from "neverthrow"
 
-import { sendToBackground } from "@plasmohq/messaging"
+import { getPort } from "@plasmohq/messaging/port"
 
-import {
-  ASSOCIATE_SITE,
-  type AssociateSiteRequestBody,
-  type AssociateSiteResponseBody,
-  REPORT_UNKNOWN,
-  RESET_IGNORED,
-  type ReportUnknownRequestBody,
-  type ReportUnknownResponseBody,
-  type ResetIgnoredRequestBody,
-  type ResetIgnoredResponseBody,
-  SHOW_SITE,
-  START_THANKS,
-  type ShowSiteRequestBody,
-  type ShowSiteResponseBody,
-  type StartThanksRequestBody,
-  type StartThanksResponseBody,
-} from "~background/messages"
+import { type BackgroundMessage } from "~background/ports/background"
 import { type CheckDomainResults } from "~background/utils"
 import type { SiteModel } from "~models"
 import { ConfigHandler, type ConfigStorage } from "~shared/config-handler"
@@ -28,9 +12,10 @@ import { isDevMode, logger } from "~shared/logger"
 
 import "./utils/report-div"
 
+import { GoogleAnalytics } from "../../shared/google-analytics"
 import { NewsAnnotation } from "./utils/report-div"
 
-// import "./utils/hidden-div"
+const backgroundPort = getPort("background")
 
 export const MBFC = "mbfc"
 export const C_URL = "https://mediabiasfactcheck.com/"
@@ -64,11 +49,12 @@ export class Filter {
   loaded = false
   windowObjectReference: Window | null = null
   count = 0
+  main_selector: string
   main_element: HTMLElement | null = null
 
-  constructor(e: HTMLElement) {
+  constructor(e: string) {
     log(`Class Filter started`)
-    this.main_element = e
+    this.main_selector = e
     const c = ConfigHandler.getInstance()
     c.retrieve()
       .then(() => {
@@ -82,19 +68,18 @@ export class Filter {
     log(`MutationObserver started`)
 
     const observer = new MutationObserver((nodes) => {
+      if (!this.main_element) {
+        this.main_element = document.querySelector(this.main_selector)
+        if (!this.main_element) return
+      }
       const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
       nodes.forEach((node) => {
         const addedNodes = Array.from(node.addedNodes)
         addedNodes.forEach((addedNode) => {
           const n: HTMLElement = addedNode as HTMLElement
-          const pageletNodes = Array.from(this.findArticleElements(n))
-          if (pageletNodes.length === 0) return
-          pageletNodes.forEach((pageLet) => {
-            const n: HTMLElement = pageLet as HTMLElement
-            n.classList.add(C_PROCESSED)
-            all_nodes.push(n)
-          })
+          all_nodes.push(...(Array.from(this.findArticleElements(n)) as HTMLElement[]))
         })
+        this.cleanMbfcNodes(node.removedNodes)
       })
       if (all_nodes.length === 0) return
       const added = all_nodes.length
@@ -111,6 +96,27 @@ export class Filter {
       subtree: true,
       attributes: false,
       characterData: false,
+    })
+  }
+
+  cleanMbfcNodes(qn: NodeList | Element[]) {
+    qn.forEach((qne) => {
+      const e: Element = qne as Element
+      if (!e.querySelectorAll) return
+      if (!e.querySelector(`.${MBFC}`)) return
+      if (e.tagName === "MBFC") {
+        if (e.parentElement) this.cleanMbfcNodes([e.parentElement])
+        e.remove()
+      } else {
+        e.querySelectorAll(MBFC).forEach((mbfc) => {
+          mbfc.remove()
+        })
+        e.querySelectorAll(`.${MBFC}`).forEach((p) => {
+          p.classList.forEach((cls) => {
+            if (cls.startsWith(MBFC)) p.classList.remove(cls)
+          })
+        })
+      }
     })
   }
 
@@ -161,70 +167,34 @@ export class Filter {
     return this.openRequestedPopup()
   }
 
-  ignoreButton(text, count) {
-    // const button = document.getElementById(`toolbar-button1-${count}`)
-    // if (!button) return
-    // const domain = button.attributes["data-domain"].value
-    // const collapse = button.attributes["data-collapse"].value !== "show"
-    // log(domain, button.attributes["data-collapse"].value, collapse)
-    // const which = collapse ? "hiding" : "showing"
-    // log(`Always ${which} ${text}/${domain}`)
-    // new HideSiteMessage(domain, collapse).sendMessage()
-    // const el = document.getElementById(`mbfcext${count}`)
-    // if (el) {
-    //   el.style.display = collapse ? "none" : "inherit"
-    // }
-    // const domain_class = `${MBFC}-${domain.replace(/\./g, "-")}`
-    // if (collapse) {
-    //   document.querySelectorAll(`.${domain_class}`).forEach((e) => {
-    //     this.hideElement(e)
-    //   })
-    //   document.querySelectorAll(`button[data-domain="${domain}"]`).forEach((e) => {
-    //     e.setAttribute("data-collapse", "show")
-    //     e.textContent = e.textContent?.replace("hide", "show") || ""
-    //   })
-    // } else {
-    //   document.querySelectorAll(`.${domain_class}`).forEach((e) => {
-    //     this.showElement(e)
-    //   })
-    //   document.querySelectorAll(`button[data-domain="${domain}"]`).forEach((e) => {
-    //     e.setAttribute("data-collapse", "hide")
-    //     e.textContent = e.textContent?.replace("show", "hide") || ""
-    //   })
-    // }
-    // alert(`Always ${which} ${text}/${domain}`)
-    // const el2 = document.getElementById(`mbfctt${count}`)
-    // if (!el2) return
-    // if (el2.style.display == "none") {
-    //   el2.style.display = "table-row"
-    // } else {
-    //   el2.style.display = "none"
-    // }
-  }
-
-  async reportSite(site: SiteModel, collapse: boolean) {
-    return sendToBackground<ShowSiteRequestBody, ShowSiteResponseBody>(SHOW_SITE, { site, collapse })
+  async reportSite(source: SiteModel, collapse: boolean) {
+    if (collapse) {
+      return GoogleAnalytics.getInstance().reportCollapseSite(source.domain)
+    }
+    return GoogleAnalytics.getInstance().reportShowSite(source.domain)
   }
 
   async reportUnknown(domain: string) {
-    return sendToBackground<ReportUnknownRequestBody, ReportUnknownResponseBody>(REPORT_UNKNOWN, { domain })
+    // const payload: ReportUnknownRequestBody = { domain }
+    // return portReportUnknown.postMessage(payload)
   }
 
   async resetIgnored() {
-    await sendToBackground<ResetIgnoredRequestBody, ResetIgnoredResponseBody>(RESET_IGNORED, {})
-    alert(`OK, reset. You can now begin to hide/show individual sites`)
+    // portResetIgnored.postMessage({})
+    // alert(`OK, reset. You can now begin to hide/show individual sites`)
   }
 
   async reportAssociated(source: SiteModel, fb_url: string) {
-    return sendToBackground<AssociateSiteRequestBody, AssociateSiteResponseBody>(ASSOCIATE_SITE, { source, fb_url })
+    // const payload: AssociateSiteRequestBody = { source, fb_url }
+    // return portAssociateSite.postMessage(payload)
   }
 
   async openRequestedPopup() {
-    await sendToBackground<StartThanksRequestBody, StartThanksResponseBody>(START_THANKS, {})
-    this.windowObjectReference = window.open("https://paypal.me/drmikecrowe", "DescriptiveWindowName", "resizable,scrollbars,status")
+    // portStartThanks.postMessage({})
+    // this.windowObjectReference = window.open("https://paypal.me/drmikecrowe", "DescriptiveWindowName", "resizable,scrollbars,status")
   }
 
-  addButtons(text, count) {
+  addButtonsEvents(text, count) {
     this.waitForElementToDisplay(`.toolbar-button1-${count}`, 500, (button) => {
       button.addEventListener("click", () => this.ignoreButton(text, count), false)
     })
@@ -248,7 +218,7 @@ export class Filter {
     const inlineCode = `
             let icon_show=document.getElementById('${show_eye_id}'), icon_hide=document.getElementById('${hide_eye_id}');     
             let show = icon_show.style.display !== 'none';       
-            let new_story_display = show ? 'block' : 'none';    
+            let new_story_display = show ? 'flex' : 'none';    
             Array.from(document.getElementsByClassName('${hide_class}')).forEach(function(e) {
                 e.style.display = new_story_display;
             });
@@ -275,7 +245,7 @@ export class Filter {
     iDiv.className = `mbfcext ${C_FOUND} ${C_REPORT_DIV}`
     iDiv.id = `mbfcext${count}`
 
-    const na = new NewsAnnotation(site, iDiv)
+    const na = new NewsAnnotation(site, iDiv, count, collapse)
     const html = na.render()
     if (typeof html !== "string") {
       return err(null)
@@ -287,6 +257,11 @@ export class Filter {
   clean_href(e1: HTMLAnchorElement) {
     const u = new URL(e1.href)
     return `${u.protocol}//${u.hostname}${u.pathname}`
+  }
+
+  clean_path(e1: HTMLAnchorElement) {
+    const u = new URL(e1.href)
+    return `${u.pathname}`.toLowerCase().replace(/^\/?([^/?]*)[/?]?$/, "$1")
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -326,7 +301,7 @@ export class Filter {
     return result
   }
 
-  async getStoryNodes(nodes: Element[]): Promise<Result<Story[], null>> {
+  async getStoryNodes(nodes: Element[]): Promise<Result<Story[], string>> {
     try {
       const results: Story[] = []
       for (const node of nodes) {
@@ -379,6 +354,7 @@ export class Filter {
     story.parent.appendChild(hDiv)
     const domain_class = `${MBFC}-${story.domain.final_domain.replace(/\./g, "-")}`
     this.addClasses(story.parent, [domain_class, story_class])
+    this.addButtonsEvents(story.domain.final_domain, story.count)
     story.hides.forEach((e) => {
       this.addClasses(e, [domain_class, hide_class])
     })
@@ -401,7 +377,9 @@ export class Filter {
     const stories: Story[] = []
     for (const node of nodes) {
       const res = await this.buildStory(node)
-      if (res.isErr()) return
+      if (res.isErr()) {
+        continue
+      }
       stories.push(res.value)
     }
     const promises = stories.filter((s) => !s.ignored).map((s) => this.inject(s))

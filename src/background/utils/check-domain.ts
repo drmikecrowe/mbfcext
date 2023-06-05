@@ -12,6 +12,7 @@ export interface CheckDomainResults {
   collapse: boolean
   unknown: boolean
   site: SiteModel | null
+  suggested_fbtwpath?: string
 }
 
 const logged: Record<string, boolean> = {}
@@ -62,7 +63,7 @@ export function checkDomain(domain: string, path: string, sources: SourceData, c
     return !!ret.site
   }
 
-  if (ch(`${domain}${path}`, false, false)) return ok(ret)
+  if (ch(`${domain}/${path}`, false, false)) return ok(ret)
   for (const sd in sources.subdomains) {
     const sdk = Object.keys(sources.subdomains[sd])
     if (sdk.length > 1) {

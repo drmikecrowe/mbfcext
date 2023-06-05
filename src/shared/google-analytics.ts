@@ -1,26 +1,30 @@
-import GoogleTagManager from "gtm-module"
+import ga4mp from "@analytics-debugger/ga4mp"
 
-import { GTM } from "~constants"
+import { GA } from "~constants"
 import { ConfigHandler, type ConfigStorage } from "~shared"
 import { logger } from "~shared/logger"
 
-const log = logger("mbfc:utils:google-analytics")
+const log = logger("mbfc:shared:google-analytics")
 
 export class GoogleAnalytics {
   private static instance: GoogleAnalytics
-  private gtm: GoogleTagManager | undefined
   private config: ConfigStorage | undefined
+  private ga4track: any
 
   static getInstance() {
     if (!GoogleAnalytics.instance) {
-      GoogleAnalytics.instance = new GoogleAnalytics()
-      log("GoogleAnalytics initialized")
-      const gtmConfig = {
-        gtmId: GTM, // required
-        sanitizeDataLayerObjects: true, // optional
-        defer: true, // optional
+      const t = new GoogleAnalytics()
+      try {
+        t.ga4track = ga4mp([GA], {
+          user_id: undefined,
+          non_personalized_ads: true,
+          debug: true,
+        })
+      } catch (error) {
+        console.error(error)
       }
-      GoogleAnalytics.instance.gtm = new GoogleTagManager(gtmConfig)
+      GoogleAnalytics.instance = t
+      log("GoogleAnalytics initialized")
     }
     return GoogleAnalytics.instance
   }
@@ -31,6 +35,10 @@ export class GoogleAnalytics {
   }
 
   private allowed(): boolean {
+    if (!this.ga4track) {
+      log("Failed to initialize GA4MP")
+      return false
+    }
     const config = this.getConfig()
     if (config) return !config.mbfcBlockAnalytics
     return false
@@ -42,8 +50,8 @@ export class GoogleAnalytics {
       return
     }
     log(`Reporting show site ${domain}`)
-    this.gtm.dataLayerPush({
-      event: "show-site",
+    this.ga4track.trackEvent("show-site", {
+      event_category: "site",
       domain,
     })
   }
@@ -51,8 +59,8 @@ export class GoogleAnalytics {
   reportCollapseSite(domain: string) {
     if (!this.allowed()) return
 
-    this.gtm.dataLayerPush({
-      event: "collapse-site",
+    this.ga4track.trackEvent("collapse-site", {
+      event_category: "site",
       domain,
     })
   }
@@ -62,7 +70,10 @@ export class GoogleAnalytics {
       log("Analytics not allowed")
       return
     }
-    console.log("TODO: reportUnknownSite")
+    this.ga4track.trackEvent("unknown-site", {
+      event_category: "site",
+      domain,
+    })
   }
 
   reportAssociateSite(domain: string, fb_url: string) {
@@ -70,7 +81,11 @@ export class GoogleAnalytics {
       log("Analytics not allowed")
       return
     }
-    console.log("TODO: reportAssociateSite")
+    this.ga4track.trackEvent("associate-site", {
+      event_category: "site",
+      domain,
+      fb_url,
+    })
   }
 
   reportHidingSite(domain: string) {
@@ -78,7 +93,10 @@ export class GoogleAnalytics {
       log("Analytics not allowed")
       return
     }
-    console.log("TODO: reportHidingSite")
+    this.ga4track.trackEvent("hide-site", {
+      event_category: "site",
+      domain,
+    })
   }
 
   reportUnhidingSite(domain: string) {
@@ -86,7 +104,10 @@ export class GoogleAnalytics {
       log("Analytics not allowed")
       return
     }
-    console.log("TODO: reportUnhidingSite")
+    this.ga4track.trackEvent("unhide-site", {
+      event_category: "site",
+      domain,
+    })
   }
 
   reportResetIgnored() {
@@ -94,7 +115,9 @@ export class GoogleAnalytics {
       log("Analytics not allowed")
       return
     }
-    console.log("TODO: reportResetIgnored")
+    this.ga4track.trackEvent("reset-ignored", {
+      event_category: "extension",
+    })
   }
 
   reportStartThanks() {
@@ -102,6 +125,8 @@ export class GoogleAnalytics {
       log("Analytics not allowed")
       return
     }
-    console.log("TODO: reportStartThanks")
+    this.ga4track.trackEvent("reset-ignored", {
+      event_category: "extension",
+    })
   }
 }

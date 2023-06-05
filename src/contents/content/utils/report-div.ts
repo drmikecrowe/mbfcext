@@ -3,8 +3,10 @@ import vhtml from "vhtml"
 
 import { BiasEnums, CredibilityEnums, type SiteModel, TrafficEnums } from "~models/combined-manager"
 import { cap } from "~shared/cap"
+import { faAngleDoubleDown, faEye, faEyeSlash } from "~shared/elements/font-awesome"
 
 const html = htm.bind(vhtml)
+const icon = (url: string) => html([url] as ReadonlyArray<string> as TemplateStringsArray)
 
 const biasDetails: any = {
   [BiasEnums.Left]: { biasStart: 0, biasEnd: 20 },
@@ -23,14 +25,24 @@ export class NewsAnnotation {
 
   site: SiteModel
   parent: HTMLElement
+  count: number
+  collapse: boolean
 
-  constructor(site: SiteModel, parent: HTMLElement) {
+  constructor(site: SiteModel, parent: HTMLElement, count: number, collapse: boolean) {
     this.site = site
     this.parent = parent
+    this.count = count
+    this.collapse = collapse
   }
 
   static get styles() {
     return `
+      .fa-icon {
+        font-family: FontAwesome, Arial, sans-serif;
+        font-size: smaller;
+        font-weight: 600;
+        width: 10px;
+      }
       .mbfc-annotation-container {
         display: flex;
         flex-direction: column;
@@ -173,14 +185,32 @@ export class NewsAnnotation {
 
     const { biasStart, biasEnd, rowClass = "mbfc-gradient-row", textClass = `mbfc-gradient-text-${this.site.bias}` } = biasDetails[this.site.bias]
 
+    const prompt = this.collapse ? "Show" : "Hide"
+
+    const inlineCode = `let el=document.getElementById("mbfc-story-toolbar-${this.count}"); el.style.display=el.style.display==='none'?"flex":"none"`
+
     return html`
       <div className="mbfc-annotation-container">
         <div className="mbfc-annotation-row">
           <div className="${rowClass} mbfc-common-row">
             <div className="mbfc-bias-start-${biasStart}"></div>
             <div className="${textClass} mbfc-gradient-text">${biasText}</div>
-            <div className="mbfc-bias-end-${biasEnd}"></div>
+            <div className="mbfc-bias-end-${biasEnd}">
+              <div style="float: right; margin-right: -45px;" onclick="${inlineCode}">${icon(faAngleDoubleDown)}</div>
+            </div>
           </div>
+        </div>
+        <div id="mbfc-story-toolbar-${this.count}" style="display: none; justify-content: space-between; width: 100%;">
+          <button
+            id="mbfc-toolbar-button1-${this.count}"
+            class="mbfc-drop-down mbfc-button-success mbfc-right-spacer"
+            style="flex: 1; width: 33%; text-align: center;"
+            data-domain="${this.site.domain}"
+            data-collapse="${prompt}">
+            Always ${prompt} ${this.site.domain}
+          </button>
+          <button id="mbfc-toolbar-button2-${this.count}" class="mbfc-drop-down mbfc-button-warning" style="flex: 1; width: 33%; text-align: center;">Reset Hidden Sites</button>
+          <button id="mbfc-toolbar-button3-${this.count}" class="mbfc-drop-down mbfc-button-secondary" style="flex: 1; width: 33%; text-align: center;">Say Thanks</button>
         </div>
         <div className="mbfc-annotation-row">${reportingDiv} ${credibilityDiv} ${trafficDiv} ${popularityDiv} ${researchDiv} ${mbfcDiv}</div>
       </div>

@@ -19,6 +19,7 @@ export enum CollapseKeys {
   collapseSatire = "collapseSatire",
   collapseFakeNews = "collapseFakeNews",
   collapseMixed = "collapseMixed",
+  collapseSponsored = "collapseSponsored",
 }
 
 export interface Collapse {
@@ -32,6 +33,7 @@ export interface Collapse {
   collapseSatire: boolean
   collapseFakeNews: boolean
   collapseMixed: boolean
+  collapseSponsored: boolean
 }
 
 export interface ConfigStorage {
@@ -56,6 +58,7 @@ export const DefaultCollapse: Collapse = {
   collapseSatire: false,
   collapseFakeNews: true,
   collapseMixed: false,
+  collapseSponsored: false,
 }
 
 export const OptionsToStorage: Record<never, BiasEnums & "M"> = {
@@ -69,6 +72,7 @@ export const OptionsToStorage: Record<never, BiasEnums & "M"> = {
   collapseSatire: BiasEnums.Satire,
   collapseFakeNews: BiasEnums.FakeNews,
   collapseMixed: "M",
+  collapseSponsored: "S",
 }
 
 export const StorageToOptions: Record<BiasEnums & "M", CollapseKeys> = {
@@ -82,6 +86,7 @@ export const StorageToOptions: Record<BiasEnums & "M", CollapseKeys> = {
   [BiasEnums.Satire]: CollapseKeys.collapseSatire,
   [BiasEnums.FakeNews]: CollapseKeys.collapseFakeNews,
   ["M"]: CollapseKeys.collapseMixed,
+  ["S"]: CollapseKeys.collapseSponsored,
 }
 
 const configDefaults: ConfigStorage = {

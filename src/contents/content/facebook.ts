@@ -24,7 +24,7 @@ export class Facebook extends Filter {
   observer = null
 
   constructor() {
-    super(document.querySelector(`a[role='main']`))
+    super(`div[role='main']`)
 
     log(`Class Facebook started`)
   }
@@ -73,7 +73,7 @@ export class Facebook extends Filter {
     return domains[domain]
   }
 
-  async buildStory(parent: HTMLElement): Promise<Result<Story, null>> {
+  async buildStory(parent: HTMLElement): Promise<Result<Story, string>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
     const story: Story = {
       title_element: this.findTitleElement(parent),
@@ -84,11 +84,10 @@ export class Facebook extends Filter {
       ignored: false,
     }
     this.count += 1
-    this.addClasses(parent, [C_FOUND, `${MBFC}-story-searched`, this.storyClass(story.count)])
     if (!story.title_element || !story.title_element.href || !story.report_element) {
       log(`${MBFC}-no-title-element for ${story.count}`, story)
-      this.addClasses(parent, [`${MBFC}-no-title-element`])
-      return err(null)
+      this.addClasses(parent, [`${MBFC}-no-title-element`, C_PROCESSED])
+      return err(`${MBFC}-no-title-element`)
     }
 
     const sections: HTMLElement[] = [story.title_element, story.report_element]
@@ -103,15 +102,15 @@ export class Facebook extends Filter {
     if (!e3) {
       log(`${MBFC}-no-parent for ${story.count}`, story)
       this.addClasses(parent, [`${MBFC}-no-parent`])
-      return err(null)
+      return err(`${MBFC}-no-parent`)
     }
     story.parent = e3
 
     const story_children = Array.from(story.parent.children)
     if (story_children.length < 2) {
       log(`${MBFC}-no-children for ${story.count}`, story)
-      this.removeClasses(parent, [C_FOUND, `${MBFC}-story-searched`])
-      return err(null)
+      this.addClasses(parent, [`${MBFC}-no-children`])
+      return err(`${MBFC}-no-children`)
     }
 
     const title_holder = story_children.filter((e) => e.contains(story.title_element as Node)).shift()
@@ -119,13 +118,14 @@ export class Facebook extends Filter {
     if (!title_holder || !report_holder) {
       log(`${MBFC}-no-report-holder for ${story.count}`, story)
       this.addClasses(story.parent, [`${MBFC}-no-report-holder`])
-      return err(null)
+      return err(`${MBFC}-no-report-holder`)
     }
+    this.addClasses(parent, [C_PROCESSED, C_FOUND, `${MBFC}-story-searched`, this.storyClass(story.count)])
     story.title_holder = title_holder as HTMLElement
     story.report_holder = report_holder as HTMLElement
 
     const payload: GetDomainForFilterRequestBody = {
-      fb_path: this.clean_href(story.title_element),
+      fb_path: this.clean_path(story.title_element),
       possible_domain: story.possible_domain,
     }
     const res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
@@ -135,10 +135,13 @@ export class Facebook extends Filter {
     if (!res || !res.site) {
       log(`${MBFC}-no-domain for ${story.count}`, story)
       this.addClasses(parent, [`${MBFC}-no-domain`])
-      return err(null)
+      return err(`${MBFC}-no-domain`)
     }
 
     story.domain = res.domain
+    if (res.domain.suggested_fbtwpath) {
+      log(`NEW: I think this is ${res.domain.suggested_fbtwpath}`)
+    }
 
     const ignore = new Set([title_holder, report_holder])
     story.hides = story_children.filter((e) => !ignore.has(e))

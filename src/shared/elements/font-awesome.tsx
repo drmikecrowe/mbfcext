@@ -1,13 +1,15 @@
-export const faCog = '<img src="https://icongr.am/fontawesome/cog.svg?size=16" alt="faCog" height="12px" />'
+import angleDoubleDown from "raw:~icons/angles-down-solid.svg"
+import angleDoubleRight from "raw:~icons/angles-right-solid.svg"
+import externalLinkAlt from "raw:~icons/arrow-up-right-from-square-solid.svg"
+import book from "raw:~icons/book-solid.svg"
+import eyeSlash from "raw:~icons/eye-slash-solid.svg"
+import eye from "raw:~icons/eye-solid.svg"
+import cog from "raw:~icons/gear-solid.svg"
 
-export const faEye = '<img src="https://icongr.am/fontawesome/eye.svg?size=16" alt="faEye" height="12px" />'
-
-export const faEyeSlash = '<img src="https://icongr.am/fontawesome/eye-slash.svg?size=16" alt="faEyeSlash" height="12px" />'
-
-export const faBook = '<img src="https://icongr.am/fontawesome/book.svg?size=16" alt="faBook" height="12px" />'
-
-export const faAngleDoubleDown = '<img src="https://icongr.am/fontawesome/angle-double-down.svg?size=16" alt="faAngleDoubleDown" height="12px" />'
-
-export const faExternalLinkAlt = '<img src="https://icongr.am/fontawesome/external-link.svg?size=16" alt="faExternalLinkAlt" height="12px" style="position: relative;top: 2px;" />'
-
-export const faAngleDoubleRight = '<img src="https://icongr.am/fontawesome/angle-double-right.svg?size=16" alt="faAngleDoubleRight" height="12px" />'
+export const faCog = `<image class="fa-icon" src="${cog}" alt="cog" />`
+export const faBook = `<image class="fa-icon" src="${book}" alt="book" />`
+export const faEye = `<image class="fa-icon" src="${eye}" alt="eye" />`
+export const faEyeSlash = `<image class="fa-icon" src="${eyeSlash}" alt="eyeSlash" />`
+export const faAngleDoubleDown = `<image class="fa-icon" src="${angleDoubleDown}" alt="angleDoubleDown" />`
+export const faExternalLinkAlt = `<image class="fa-icon" src="${externalLinkAlt}" alt="externalLinkAlt" />`
+export const faAngleDoubleRight = `<image class="fa-icon" src="${angleDoubleRight}" alt="angleDoubleRight" />`

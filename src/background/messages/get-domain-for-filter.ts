@@ -1,3 +1,5 @@
+import type { Result } from "neverthrow"
+
 import type { PlasmoMessaging } from "@plasmohq/messaging"
 
 import { ConfigHandler, logger } from "~shared"
@@ -21,25 +23,34 @@ export type GetDomainForFilterResponseBody = {
 }
 
 const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody> = async (req, res) => {
+  log("Received request", GET_DOMAIN_FOR_FILTER, req.body)
   const { possible_domain, fb_path } = req.body
   const sp = SourcesProcessor.getInstance()
   const config = ConfigHandler.getInstance().config
   const response: GetDomainForFilterResponseBody = { site: null }
 
-  log(`Domain ${possible_domain} requested`)
-  let cdr = getSiteFromUrl(possible_domain, sp.sourceData, config)
-  if (cdr.isOk()) {
-    response.site = cdr.value.site
-    response.domain = cdr.value
-  } else {
-    cdr = getSiteFromUrl(fb_path, sp.sourceData, config)
-    if (cdr.isOk()) {
+  let cdr: Result<CheckDomainResults, null>
+  if (possible_domain) {
+    cdr = getSiteFromUrl(possible_domain, sp.sourceData, config, fb_path)
+    if (cdr.isOk() && cdr.value.site) {
+      log(`Found domain ${possible_domain}: ${cdr.value.site.name}`)
       response.site = cdr.value.site
       response.domain = cdr.value
-    } else {
-      log(`Domains not loaded `)
+      res.send(response)
+      return
     }
   }
+  if (fb_path) {
+    cdr = getSiteFromUrl(`https://facebook.com/${fb_path}`, sp.sourceData, config)
+    if (cdr.isOk() && cdr.value.site) {
+      log(`Found Facebook page ${fb_path}: ${cdr.value.site.name}`)
+      response.site = cdr.value.site
+      response.domain = cdr.value
+      res.send(response)
+      return
+    }
+  }
+  log(`No domain found for ${possible_domain} or ${fb_path}`)
   res.send(response)
 }
 
