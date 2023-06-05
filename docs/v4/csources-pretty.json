@@ -594,14 +594,12 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "aap.com.au": {
@@ -9492,6 +9490,16 @@
     "u": "https://mediabiasfactcheck.com/american-cancer-society-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "cancerandmetabolism.biomedcentral.com": {
+    "b": "PS",
+    "d": "cancerandmetabolism.biomedcentral.com",
+    "n": "Cancer & Metabolism Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cancer-metabolism-journal-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "canoncitydailyrecord.com": {
@@ -55081,6 +55089,20 @@
     "a": "H",
     "q": []
   },
+  "seekr.com": {
+    "b": "FN",
+    "d": "seekr.com",
+    "n": "Seekr",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/seekr-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "M"
+    ]
+  },
   "segeorgiamews.com": {
     "b": "FN",
     "d": "segeorgiamews.com",
@@ -60827,11 +60849,11 @@
     "b": "R",
     "d": "theamericancause.org",
     "n": "The American Cause",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/the-american-cause/",
     "P": 49,
     "c": "M",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "theamericanconservative.com": {
@@ -60857,11 +60879,15 @@
     "u": "https://mediabiasfactcheck.com/the-american-mirror/",
     "P": 47,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
-      "M"
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
     ]
   },
   "theangle.digitaltrends.com": {
@@ -64221,6 +64247,16 @@
     "P": 42,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "therecord.com": {
+    "b": "LC",
+    "d": "therecord.com",
+    "n": "Waterloo Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/waterloo-record-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "therecord.com/local-port-perry": {
