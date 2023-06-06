@@ -37037,6 +37037,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/astronomy": {
+    "b": "PS",
+    "d": "mdpi.com/journal/astronomy",
+    "n": "Astronomy Journal",
+    "p": "/journal/astronomy",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/astronomy-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdstatewire.com": {
     "b": "FN",
     "d": "mdstatewire.com",
@@ -45204,6 +45215,20 @@
     "n": "NW Atlanta News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/nw-atlanta-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "nwbergennews.com": {
+    "b": "FN",
+    "d": "nwbergennews.com",
+    "n": "NW Bergen News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-bergen-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -61855,6 +61880,16 @@
       "FC",
       "M"
     ]
+  },
+  "thedebrief.org": {
+    "b": "C",
+    "d": "thedebrief.org",
+    "n": "The Brief",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-debrief-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "thedenverchannel": {
     "b": "C",
