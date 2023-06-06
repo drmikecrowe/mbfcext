@@ -3,7 +3,7 @@ import { Result, err, ok } from "neverthrow"
 
 import { type CheckDomainResults } from "~background/utils"
 import type { SiteModel } from "~models"
-import { ConfigHandler, type ConfigStorage } from "~shared/config-handler"
+import { CollapseKeys, ConfigHandler, type ConfigStorage } from "~shared/config-handler"
 import { faEye, faEyeSlash } from "~shared/elements/font-awesome"
 import { isDevMode, logger } from "~shared/logger"
 
@@ -12,8 +12,8 @@ import "./utils/report-div"
 import { sendToBackground } from "@plasmohq/messaging"
 
 import { HIDE_SITE, type HideSiteRequestBody, type HideSiteResponseBody, RESET_IGNORED, ResetIgnoredRequestBody, ResetIgnoredResponseBody } from "~background/messages"
+import { GoogleAnalytics } from "~shared/google-analytics"
 
-import { GoogleAnalytics } from "../../shared/google-analytics"
 import { NewsAnnotation } from "./utils/report-div"
 
 export const MBFC = "mbfc"
@@ -40,6 +40,7 @@ export interface Story {
   count: number
   tagsearch?: string
   ignored: boolean
+  sponsored: boolean
 }
 
 export class Filter {
@@ -50,6 +51,7 @@ export class Filter {
   count = 0
   main_selector: string
   main_element: HTMLElement | null = null
+  hide_sponsored = false
 
   constructor(e: string) {
     log(`Class Filter started`)
@@ -72,14 +74,6 @@ export class Filter {
         if (!this.main_element) return
       }
       const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
-      nodes.forEach((node) => {
-        const addedNodes = Array.from(node.addedNodes)
-        addedNodes.forEach((addedNode) => {
-          const n: HTMLElement = addedNode as HTMLElement
-          all_nodes.push(...(Array.from(this.findArticleElements(n)) as HTMLElement[]))
-        })
-        this.cleanMbfcNodes(node.removedNodes)
-      })
       const unattachedButtons = document.querySelectorAll('button.mbfc-toolbar-button[data-attached="false"]')
       if (unattachedButtons.length > 0) {
         this.processUnattachedButtons(unattachedButtons)
@@ -102,27 +96,6 @@ export class Filter {
     })
   }
 
-  cleanMbfcNodes(qn: NodeList | Element[]) {
-    qn.forEach((qne) => {
-      const e: Element = qne as Element
-      if (!e.querySelectorAll) return
-      if (!e.querySelector(`.${MBFC}`)) return
-      if (e.tagName === "MBFC") {
-        if (e.parentElement) this.cleanMbfcNodes([e.parentElement])
-        e.remove()
-      } else {
-        e.querySelectorAll(MBFC).forEach((mbfc) => {
-          mbfc.remove()
-        })
-        e.querySelectorAll(`.${MBFC}`).forEach((p) => {
-          p.classList.forEach((cls) => {
-            if (cls.startsWith(MBFC)) p.classList.remove(cls)
-          })
-        })
-      }
-    })
-  }
-
   findArticleElements(_e: HTMLElement): NodeListOf<Element> {
     throw new Error("Must be overloaded")
   }
@@ -137,16 +110,6 @@ export class Filter {
     cls.forEach((c) => {
       if (e.classList.contains(c)) e.classList.remove(c)
     })
-  }
-
-  waitForElementToDisplay(selector, time, cb) {
-    const el = document.querySelector(selector)
-    if (el != null) {
-      log(`waitForElementToDisplay found ${selector}`)
-      cb(el)
-    } else {
-      log(`waitForElementToDisplay not found ${selector}.  Waiting ${time}ms`)
-    }
   }
 
   storyClass(count: number): string {
@@ -276,7 +239,7 @@ export class Filter {
     const inlineCode = `
             let icon_show=document.getElementById('${show_eye_id}'), icon_hide=document.getElementById('${hide_eye_id}');     
             let show = icon_show.style.display !== 'none';       
-            let new_story_display = show ? 'flex' : 'none';    
+            let new_story_display = show ? 'inherit' : 'none';    
             Array.from(document.getElementsByClassName('${hide_class}')).forEach(function(e) {
                 e.style.display = new_story_display;
             });
@@ -285,14 +248,14 @@ export class Filter {
         `.replace(/\s+/g, " ")
 
     const hide = collapse
-      ? `<div
+      ? `<mbfc><div
             id="${hide_id}"
             class="${hide_classes}"
             onclick="${inlineCode}"
             style="cursor: pointer; padding-left: 2px;">
             <span id="${hide_eye_id}" style="display: none">${faEyeSlash} Hide Again</span>
             <span id="${show_eye_id}">${faEye} Show Anyway</span>
-        </div>`
+        </div></mbfc>`
       : ""
     set(hDiv, "innerHTML", hide)
     return hDiv
@@ -323,7 +286,7 @@ export class Filter {
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  async buildStory(e: Element): Promise<Result<Story, null>> {
+  async buildStory(e: Element): Promise<Result<Story, any>> {
     throw new Error("Must be overridden")
   }
 
@@ -377,38 +340,64 @@ export class Filter {
     return err(null)
   }
 
+  async loadConfig() {
+    const c = await ConfigHandler.getInstance().loadStorage()
+    this.hide_sponsored = c.collapse[CollapseKeys.collapseSponsored]
+    this.loaded = true
+  }
+
   async inject(story: Story, embed = false) {
-    if (!story.domain || !story.domain.site) {
-      log("ERROR: story.domain empty", story)
-      return
+    if (!this.loaded) await this.loadConfig()
+
+    let hide_this_story = story.sponsored && this.hide_sponsored
+
+    if (hide_this_story) {
+      log(`Sponsored story -- will hide`, story)
     }
-    if (story.parent.querySelector(MBFC)) {
+
+    if (!hide_this_story && (!story.domain || !story.domain.site)) {
+      if (!hide_this_story) {
+        log("ERROR: story.domain empty", story)
+        return
+      }
+    }
+    if (!hide_this_story && story.parent.querySelector(MBFC)) {
       log("ERROR: already injected", story)
       return
     }
-    const { site, collapse } = story.domain
-    const iDiv = this.getReportDiv(site, story.count, story.tagsearch, collapse, embed)
-    if (iDiv.isErr()) {
-      log(`ERROR: iDiv empty for ${story.count}`, story)
-      return
+
+    let reportElem: Element | null = null
+
+    if (!story.sponsored) {
+      const { site, collapse } = story.domain
+      if (collapse) hide_this_story = true
+      const iDiv = this.getReportDiv(site, story.count, story.tagsearch, collapse || story.sponsored, embed)
+      if (iDiv.isErr()) {
+        log(`ERROR: iDiv empty for ${story.count}`, story)
+        return
+      }
+      reportElem = iDiv.value
+      const story_class = this.storyClass(story.count)
+      const domain_class = `${MBFC}-${story.domain.final_domain.replace(/\./g, "-")}`
+      this.addClasses(story.parent, [MBFC, domain_class, story_class])
+      story.hides.forEach((e) => {
+        this.addClasses(e, [MBFC, domain_class])
+      })
     }
     if (story.report_element) {
       const pn = story.report_element.parentNode
-      if (pn) {
-        pn.insertBefore(iDiv.value, story.report_element)
+      if (pn && reportElem) {
+        pn.insertBefore(reportElem, story.report_element)
       }
     }
-    // this.addButtons(site.n, story.count)
-    const story_class = this.storyClass(story.count)
     const hide_class = `mbfcext-hide-${story.count}`
-    const hDiv = this.getHiddenDiv(hide_class, story.count, collapse)
+    const hDiv = this.getHiddenDiv(hide_class, story.count, hide_this_story)
+    this.addClasses(hDiv, [MBFC])
     story.parent.appendChild(hDiv)
-    const domain_class = `${MBFC}-${story.domain.final_domain.replace(/\./g, "-")}`
-    this.addClasses(story.parent, [domain_class, story_class])
     story.hides.forEach((e) => {
-      this.addClasses(e, [domain_class, hide_class])
+      this.addClasses(e, [MBFC, hide_class])
     })
-    if (collapse) {
+    if (hide_this_story) {
       story.hides.forEach((e) => {
         this.hideElement(e)
       })
@@ -417,7 +406,11 @@ export class Filter {
       log(`inject-${story.count}`, story, story.parent)
     }
     try {
-      await this.reportSite(story.domain.site, collapse)
+      if (story.sponsored) {
+        GoogleAnalytics.getInstance().reportSponsoredHide()
+      } else {
+        await this.reportSite(story.domain.site, hide_this_story)
+      }
     } catch (error) {
       console.error(`Could not report site ${story.domain.site.domain} #${story.count}`, error)
     }

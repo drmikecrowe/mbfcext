@@ -33,6 +33,7 @@ export function getTabGroups(): TabGroups[] {
   const [collapseSatire, setCollapseSatire] = useStorage(CollapseKeys.collapseSatire, false)
   const [collapseFakeNews, setCollapseFakeNews] = useStorage(CollapseKeys.collapseFakeNews, false)
   const [collapseMixed, setCollapseMixed] = useStorage(CollapseKeys.collapseMixed, false)
+  const [collapseSponsored, setCollapseSponsored] = useStorage(CollapseKeys.collapseSponsored, false)
   const [mbfcBlockAnalytics, setMbfcBlockAnalytics] = useStorage("mbfcBlockAnalytics", false)
 
   const baseClasses = {
@@ -142,6 +143,16 @@ export function getTabGroups(): TabGroups[] {
           setValue: setCollapseMixed,
           inputName: CollapseKeys.collapseMixed,
           hint: "Mixed Factual Reporting media sources have a track record of publishing false stories, and should be treated used with caution.",
+          ...checkboxClasses,
+        },
+        {
+          type: "checkbox",
+          label: "Sponsored ads",
+          help: "(Check this if you hate Facebook marketing to you)",
+          value: collapseSponsored,
+          setValue: setCollapseSponsored,
+          inputName: CollapseKeys.collapseSponsored,
+          hint: "Sponsored ads typically annoy users. This option will collapse the ads.",
           ...checkboxClasses,
         },
       ],

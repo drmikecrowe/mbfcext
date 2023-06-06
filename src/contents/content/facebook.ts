@@ -4,6 +4,7 @@ import { Result, err, ok } from "neverthrow"
 import { sendToBackground } from "@plasmohq/messaging"
 
 import { GET_DOMAIN_FOR_FILTER, type GetDomainForFilterRequestBody, type GetDomainForFilterResponseBody } from "~background/messages"
+import { CollapseKeys, ConfigHandler } from "~shared"
 import { isDevMode, logger } from "~shared/logger"
 
 import { C_FOUND, C_PROCESSED, Filter, MBFC, type Story } from "./filter"
@@ -50,6 +51,10 @@ export class Facebook extends Filter {
     return e.querySelector('div[data-visualcompletion="ignore-dynamic"]')
   }
 
+  findSponsored(e: HTMLElement): HTMLElement | undefined {
+    return e.querySelector('span > span > a[aria-label="Sponsored"]')
+  }
+
   findDomainSpan(e: HTMLElement): DomainSort | undefined {
     const domains: Record<string, DomainSort> = {}
     Array.from(e.querySelectorAll(`span[dir='auto'] > span:not(:has(*))`)).forEach((el) => {
@@ -82,11 +87,19 @@ export class Facebook extends Filter {
       hides: [],
       count: this.count,
       ignored: false,
+      sponsored: false,
     }
     this.count += 1
+    const sponsored = this.findSponsored(parent)
+    if (sponsored) {
+      if (ConfigHandler.getInstance().config.collapse[CollapseKeys.collapseSponsored]) {
+        story.sponsored = true
+        this.addClasses(parent, [MBFC, `${MBFC}-sponsored`])
+      }
+    }
     if (!story.title_element || !story.title_element.href || !story.report_element) {
       log(`${MBFC}-no-title-element for ${story.count}`, story)
-      this.addClasses(parent, [`${MBFC}-no-title-element`, C_PROCESSED])
+      this.addClasses(parent, [MBFC, `${MBFC}-no-title-element`, C_PROCESSED])
       return err(`${MBFC}-no-title-element`)
     }
 
@@ -101,7 +114,7 @@ export class Facebook extends Filter {
     const e3 = this.findParent(sections)
     if (!e3) {
       log(`${MBFC}-no-parent for ${story.count}`, story)
-      this.addClasses(parent, [`${MBFC}-no-parent`])
+      this.addClasses(parent, [MBFC, `${MBFC}-no-parent`])
       return err(`${MBFC}-no-parent`)
     }
     story.parent = e3
@@ -109,7 +122,7 @@ export class Facebook extends Filter {
     const story_children = Array.from(story.parent.children)
     if (story_children.length < 2) {
       log(`${MBFC}-no-children for ${story.count}`, story)
-      this.addClasses(parent, [`${MBFC}-no-children`])
+      this.addClasses(parent, [MBFC, `${MBFC}-no-children`])
       return err(`${MBFC}-no-children`)
     }
 
@@ -117,30 +130,32 @@ export class Facebook extends Filter {
     const report_holder = story_children.filter((e) => e.contains(story.report_element as Node)).shift()
     if (!title_holder || !report_holder) {
       log(`${MBFC}-no-report-holder for ${story.count}`, story)
-      this.addClasses(story.parent, [`${MBFC}-no-report-holder`])
+      this.addClasses(story.parent, [MBFC, `${MBFC}-no-report-holder`])
       return err(`${MBFC}-no-report-holder`)
     }
-    this.addClasses(parent, [C_PROCESSED, C_FOUND, `${MBFC}-story-searched`, this.storyClass(story.count)])
+    this.addClasses(parent, [MBFC, C_PROCESSED, C_FOUND, `${MBFC}-story-searched`, this.storyClass(story.count)])
     story.title_holder = title_holder as HTMLElement
     story.report_holder = report_holder as HTMLElement
 
-    const payload: GetDomainForFilterRequestBody = {
-      fb_path: this.clean_path(story.title_element),
-      possible_domain: story.possible_domain,
-    }
-    const res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
-      name: GET_DOMAIN_FOR_FILTER,
-      body: payload,
-    })
-    if (!res || !res.site) {
-      log(`${MBFC}-no-domain for ${story.count}`, story)
-      this.addClasses(parent, [`${MBFC}-no-domain`])
-      return err(`${MBFC}-no-domain`)
-    }
+    if (!story.sponsored) {
+      const payload: GetDomainForFilterRequestBody = {
+        fb_path: this.clean_path(story.title_element),
+        possible_domain: story.possible_domain,
+      }
+      const res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
+        name: GET_DOMAIN_FOR_FILTER,
+        body: payload,
+      })
+      if (!res || !res.site) {
+        log(`${MBFC}-no-domain for ${story.count}`, story)
+        this.addClasses(parent, [MBFC, `${MBFC}-no-domain`])
+        return err(`${MBFC}-no-domain`)
+      }
 
-    story.domain = res.domain
-    if (res.domain.suggested_fbtwpath) {
-      log(`NEW: I think this is ${res.domain.suggested_fbtwpath}`)
+      story.domain = res.domain
+      if (res.domain.suggested_fbtwpath) {
+        log(`NEW: I think this is ${res.domain.suggested_fbtwpath}`)
+      }
     }
 
     const ignore = new Set([title_holder, report_holder])
@@ -151,7 +166,7 @@ export class Facebook extends Filter {
       // if (e.contains(report)) return;
       story.hides.push(e)
     })
-    this.addClasses(story.parent, [`${MBFC}-story-block`])
+    this.addClasses(story.parent, [MBFC, `${MBFC}-story-block`])
     if (isDevMode()) {
       log(`${MBFC}-story-block for ${story.count}`, story, story.parent)
     }

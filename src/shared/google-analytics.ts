@@ -129,4 +129,12 @@ export class GoogleAnalytics {
       event_category: "extension",
     })
   }
+
+  reportSponsoredHide() {
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
+    this.ga4track.trackEvent("sponsored-hidden")
+  }
 }
