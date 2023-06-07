@@ -1,0 +1,55 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/biasModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "bias-model",
+    "description": "A bias record",
+    "type": "object",
+    "properties": {
+        "bias": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/biasEnums"
+        },
+        "name": {
+            "title": "Name",
+            "description": "The human-friendly name of the bias",
+            "type": "string",
+            "examples": [
+                "Center"
+            ]
+        },
+        "description": {
+            "type": "string",
+            "examples": [
+                "These media sources are moderately to strongly biased toward liberal causes through story selection and/or political affiliation.  They may utilize strong loaded words (wording that attempts to influence an audience by using appeal to emotion or stereotypes), publish misleading reports and omit reporting of information that may damage liberal causes. Some sources in this category may be untrustworthy."
+            ],
+            "title": "Description",
+            "description": "The description of the bias"
+        },
+        "url": {
+            "type": "string",
+            "examples": [
+                "https://mediabiasfactcheck.com/center/"
+            ],
+            "title": "URL",
+            "description": "The URL on https://mediabiasfactcheck.com for the bias"
+        },
+        "pretty": {
+            "type": "string",
+            "examples": [
+                "Center"
+            ],
+            "title": "Pretty",
+            "description": "The human friendly name for the bias"
+        },
+        "code": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/biasCodes"
+        }
+    },
+    "required": [
+        "bias",
+        "name",
+        "description",
+        "url",
+        "pretty",
+        "code"
+    ]
+}

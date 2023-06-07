@@ -1,0 +1,23 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/questionableEnums",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "questionable-enums",
+    "description": "Allowed enums for questionable",
+    "type": "string",
+    "enum": [
+        "n/a",
+        "conspiracy",
+        "propaganda",
+        "poor-sourcing",
+        "lack-of-transparency",
+        "failed-fact-checks",
+        "false-claims",
+        "misinformation",
+        "hate",
+        "plagiarism",
+        "fake-news",
+        "pseudoscience",
+        "imposter",
+        "censorship"
+    ]
+}

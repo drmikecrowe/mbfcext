@@ -1,0 +1,69 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/siteModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "site-model",
+    "description": "site-model model description",
+    "type": "object",
+    "properties": {
+        "bias": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/biasEnums"
+        },
+        "domain": {
+            "type": "string",
+            "examples": [
+                "wikipedia.org"
+            ],
+            "title": "Domain",
+            "description": "The domain name"
+        },
+        "name": {
+            "type": "string",
+            "examples": [
+                "Wikipedia"
+            ],
+            "title": "Name",
+            "description": "The human-friendly name for the site"
+        },
+        "reporting": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/reportingEnums"
+        },
+        "url": {
+            "type": "string",
+            "examples": [
+                "https://mediabiasfactcheck.com/wikipedia/"
+            ],
+            "title": "URL",
+            "description": "The URL on https://mediabiasfactcheck.com for the site"
+        },
+        "popularity": {
+            "type": "integer",
+            "examples": [
+                97
+            ],
+            "title": "Popularity",
+            "description": "The MBFC popularity rating for the site"
+        },
+        "credibility": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/credibilityEnums"
+        },
+        "traffic": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/trafficEnums"
+        },
+        "questionable": {
+            "type": "array",
+            "title": "Questionable",
+            "items": [
+                {
+                    "$ref": "http://supermodel.io/drmikecrowe/mbfc/questionableEnums"
+                }
+            ]
+        }
+    },
+    "required": [
+        "bias",
+        "domain",
+        "name",
+        "url",
+        "questionable"
+    ]
+}
