@@ -7554,6 +7554,16 @@
     "a": "L",
     "q": []
   },
+  "borgenmagazine.com": {
+    "b": "LC",
+    "d": "borgenmagazine.com",
+    "n": "Borgen Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/borgen-magazine-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "borgenproject.org": {
     "b": "LC",
     "d": "borgenproject.org",
@@ -15170,15 +15180,15 @@
     "a": "L",
     "q": []
   },
-  "dailycurrant.com": {
+  "dailycurrants.com": {
     "b": "S",
-    "d": "dailycurrant.com",
+    "d": "dailycurrants.com",
     "f": "dailycurrant",
     "n": "Daily Currant",
     "u": "https://mediabiasfactcheck.com/the-daily-currant/",
     "P": 56,
     "c": "NA",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "dailydemocrat.com": {
@@ -38751,6 +38761,24 @@
     "a": "N",
     "q": []
   },
+  "momsforliberty.org": {
+    "b": "FN",
+    "d": "momsforliberty.org",
+    "n": "Moms for Liberty",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/moms-for-liberty-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "monde-diplomatique.fr": {
     "b": "L",
     "d": "monde-diplomatique.fr",
@@ -61012,6 +61040,16 @@
     "a": "H",
     "q": []
   },
+  "thebaltimorebanner.com": {
+    "b": "LC",
+    "d": "thebaltimorebanner.com",
+    "n": "The Baltimore Banner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-baltimore-banner-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "thebeardedpatriot.com": {
     "b": "FN",
     "d": "thebeardedpatriot.com",
@@ -66042,6 +66080,16 @@
     "a": "M",
     "q": []
   },
+  "tippinsights.com": {
+    "b": "R",
+    "d": "tippinsights.com",
+    "n": "TIPP Insights",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tipp-insights-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "tittletattle365.com": {
     "b": "S",
     "d": "tittletattle365.com",
@@ -66073,6 +66121,17 @@
     "p": "/kings-county-record",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kings-county-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "tj.news/miramichi-leader": {
+    "b": "RC",
+    "d": "tj.news/miramichi-leader",
+    "n": "Miramichi Leader",
+    "p": "/miramichi-leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/miramichi-leader-bias/",
     "c": "H",
     "a": "L",
     "q": []
