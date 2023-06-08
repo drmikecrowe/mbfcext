@@ -8253,6 +8253,16 @@
     "a": "M",
     "q": []
   },
+  "brownpoliticalreview.org": {
+    "b": "LC",
+    "d": "brownpoliticalreview.org",
+    "n": "Brown Political Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/brown-political-review-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "brownstone.org": {
     "b": "R",
     "d": "brownstone.org",
@@ -14384,6 +14394,16 @@
     "u": "https://mediabiasfactcheck.com/committee-to-protect-journalists/",
     "P": 84,
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cpusa.org": {
+    "b": "L",
+    "d": "cpusa.org",
+    "n": "Communist Party USA",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/communist-party-usa-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -31098,6 +31118,16 @@
     "a": "M",
     "q": []
   },
+  "kacw.org": {
+    "b": "LC",
+    "d": "kacw.org",
+    "n": "KACW - NPR - yuma",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kawc-npr-yuma-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kadn.com": {
     "b": "C",
     "d": "kadn.com",
@@ -45358,6 +45388,20 @@
     "a": "M",
     "q": []
   },
+  "nwjerseynews.com": {
+    "b": "FN",
+    "d": "nwjerseynews.com",
+    "n": "NW Jersey News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-jersey-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nwkansasnews.com": {
     "b": "FN",
     "d": "nwkansasnews.com",
@@ -50441,6 +50485,16 @@
     "a": "M",
     "q": []
   },
+  "ptonline.net": {
+    "b": "LC",
+    "d": "ptonline.net",
+    "n": "Princeton Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/princeton-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "public.wmo.int": {
     "b": "PS",
     "d": "public.wmo.int",
@@ -54200,6 +54254,21 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "savannahsuntimes.com": {
+    "b": "FN",
+    "d": "savannahsuntimes.com",
+    "n": "Savannah Sun Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/savannah-sun-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "savannastandard.com": {
     "b": "FN",
