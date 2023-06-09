@@ -8638,6 +8638,21 @@
     "a": "H",
     "q": []
   },
+  "buzzloving.com": {
+    "b": "FN",
+    "d": "buzzloving.com",
+    "n": "BuzzLoving",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/buzzloving-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "FC",
+      "M"
+    ]
+  },
   "buzzsawpolitics.com": {
     "b": "R",
     "d": "buzzsawpolitics.com",
@@ -23548,6 +23563,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/cell-and-developmental-biology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/cell-and-developmental-biology",
+    "n": "Frontiers in Cell and Development",
+    "p": "/journals/cell-and-developmental-biology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-cell-and-development-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -35940,6 +35966,16 @@
     "u": "https://mediabiasfactcheck.com/wisconsin-state-journal/",
     "P": 67,
     "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "madmaxworld.tv": {
+    "b": "CP",
+    "d": "madmaxworld.tv",
+    "n": "MadMaxWorld.tv",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/madmaxworld-tv-bias/",
+    "c": "L",
     "a": "M",
     "q": []
   },
@@ -52496,6 +52532,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/restore-american-glory/",
     "P": 25,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "retailwire.com": {
+    "b": "LC",
+    "d": "retailwire.com",
+    "n": "RetailWire",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/retailwire-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -72815,6 +72861,16 @@
     "n": "WLRH - NPR - Huntsville",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wlrh-npr-huntsville/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "wltribune.com": {
+    "b": "LC",
+    "d": "wltribune.com",
+    "n": "Williams Lake Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/williams-lake-tribune-bias/",
     "c": "H",
     "a": "L",
     "q": []
