@@ -10458,6 +10458,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/chem-catalysis": {
+    "b": "PS",
+    "d": "cell.com/chem-catalysis",
+    "n": "Cell Chem Journal",
+    "p": "/chem-catalysis",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cell-chem-catalysis-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -45137,6 +45148,16 @@
       "M"
     ]
   },
+  "nsnews.com": {
+    "b": "LC",
+    "d": "nsnews.com",
+    "n": "North Shore News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/north-shore-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "nst.com.my": {
     "b": "C",
     "d": "nst.com.my",
@@ -45983,6 +46004,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "oceancountyleader.com": {
+    "b": "FN",
+    "d": "oceancountyleader.com",
+    "n": "Ocean County Leader",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ocean-county-leader-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "ocregister.com": {
     "b": "RC",
