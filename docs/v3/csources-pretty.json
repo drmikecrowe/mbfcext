@@ -6473,6 +6473,16 @@
     "a": "H",
     "q": []
   },
+  "bigtimberpioneer.net": {
+    "b": "LC",
+    "d": "bigtimberpioneer.net",
+    "n": "Big Timber Pioneer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/big-timber-pioneer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bild.de": {
     "b": "RC",
     "d": "bild.de",
@@ -9533,6 +9543,16 @@
     "n": "Cancer & Metabolism Journal",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/cancer-metabolism-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cancerci.biomedcentral.com": {
+    "b": "PS",
+    "d": "cancerci.biomedcentral.com",
+    "n": "Cancer Cell International",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cancer-cell-international-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -14213,6 +14233,16 @@
     "u": "https://mediabiasfactcheck.com/country-living/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "countytimes.co.uk": {
+    "b": "C",
+    "d": "countytimes.co.uk",
+    "n": "Powys County Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/powys-county-times-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "courant.com": {
@@ -32220,6 +32250,16 @@
     "a": "M",
     "q": []
   },
+  "kjzz.org": {
+    "b": "LC",
+    "d": "kjzz.org",
+    "n": "KJZZ - NPR - Phoenix",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kjzz-npr-phoenix-bias/ ",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kktv.com": {
     "b": "C",
     "d": "kktv.com",
@@ -46080,6 +46120,16 @@
     "a": "L",
     "q": []
   },
+  "ogdenreporter.com": {
+    "b": "C",
+    "d": "ogdenreporter.com",
+    "n": "Ogden Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ogden-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ogemawherald.com": {
     "b": "C",
     "d": "ogemawherald.com",
@@ -57005,6 +57055,20 @@
     "a": "L",
     "q": []
   },
+  "somersettimes.com": {
+    "b": "FN",
+    "d": "somersettimes.com",
+    "n": "Somerset Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/somerset-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "sonorannews.com": {
     "b": "R",
     "d": "sonorannews.com",
@@ -58463,6 +58527,16 @@
     "u": "https://mediabiasfactcheck.com/pocahontas-star-herald-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "starnewsonline.com": {
+    "b": "LC",
+    "d": "starnewsonline.com",
+    "n": "Wilmington Star-News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wilmington-star-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "starpolitical.com": {
@@ -66033,6 +66107,17 @@
     "n": "Times-Georgian",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/times-georgian-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "times-georgian.com/gateway-beacon": {
+    "b": "RC",
+    "d": "times-georgian.com/gateway-beacon",
+    "n": "Haralson County Gateway- Beacon",
+    "p": "/gateway-beacon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/haralson-county-gateway-beacon-bias/",
     "c": "H",
     "a": "L",
     "q": []
