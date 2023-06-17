@@ -1,0 +1,27 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/questionableModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "questionable-model",
+    "description": "questionable-model model description",
+    "type": "object",
+    "properties": {
+        "questionable": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/questionableEnums"
+        },
+        "code": {
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/questionableCodes"
+        },
+        "name": {
+            "type": "string"
+        },
+        "pretty": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "questionable",
+        "code",
+        "name",
+        "pretty"
+    ]
+}

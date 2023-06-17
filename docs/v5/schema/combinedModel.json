@@ -1,0 +1,86 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/combinedModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "combined-model",
+    "description": "Distribution format for single data pull",
+    "type": "object",
+    "properties": {
+        "version": {
+            "type": "number",
+            "title": "Schema Version"
+        },
+        "date": {
+            "type": "string",
+            "title": "Export Date"
+        },
+        "aliases": {
+            "title": "Alias definitions for domains",
+            "$ref": "http://supermodel.io/drmikecrowe/mbfc/aliasesModel"
+        },
+        "biases": {
+            "title": "All Bias Definitions",
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "http://supermodel.io/drmikecrowe/mbfc/biasModel"
+                }
+            ]
+        },
+        "reporting": {
+            "title": "All Reporting Definitions",
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "http://supermodel.io/drmikecrowe/mbfc/reportingModel"
+                }
+            ]
+        },
+        "sources": {
+            "title": "All Reporting",
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "http://supermodel.io/drmikecrowe/mbfc/siteModel"
+                }
+            ]
+        },
+        "traffic": {
+            "title": "All Traffic Definitions",
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "http://supermodel.io/drmikecrowe/mbfc/trafficModel"
+                }
+            ]
+        },
+        "credibility": {
+            "title": "All Credibility Definitions",
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "http://supermodel.io/drmikecrowe/mbfc/credibilityModel"
+                }
+            ]
+        },
+        "questionable": {
+            "title": "All Questionable Definitions",
+            "type": "array",
+            "items": [
+                {
+                    "$ref": "http://supermodel.io/drmikecrowe/mbfc/questionableModel"
+                }
+            ]
+        }
+    },
+    "required": [
+        "version",
+        "date",
+        "aliases",
+        "biases",
+        "reporting",
+        "sources",
+        "traffic",
+        "credibility",
+        "questionable"
+    ]
+}

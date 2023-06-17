@@ -1,0 +1,13 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/credibilityCodes",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "credibility-codes",
+    "description": "Allowed enums for credibility",
+    "type": "string",
+    "enum": [
+        "H",
+        "M",
+        "L",
+        "NA"
+    ]
+}

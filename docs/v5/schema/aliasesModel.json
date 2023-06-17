@@ -1,0 +1,7 @@
+{
+    "$id": "http://supermodel.io/drmikecrowe/mbfc/aliasesModel",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "aliases-model",
+    "description": "Alias definitions for domains",
+    "type": "object"
+}

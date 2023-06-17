@@ -1,5 +1,21 @@
 # Official Media Bias/Fact Check Extension
 
+## Latest News
+
+### New in version 4.0 -- Collapse Sponsonsored Stories
+
+Hate Facebook marketing to you? We do too. So, we've included the capability to hide sponsored story much like that crazy fake-news story. You can still show it, but you will love
+how much it cleans up your feed
+
+### Removed in 4.0 -- Twitter Support
+
+This may be controvercial, but unless there is a huge outcry, we chose to release v4 without Twitter support.  
+
+### New Support Channel
+
+While the subreddit will still be active, we will be shifting our primary support to our [Facebook Page](https://www.facebook.com/mbfcext).  Given this is the bulk of our effort, it
+makes sense to use that as a support channel as well.
+
 ## Build Instructions
 
 See [BUILD.md](BUILD.md) documentation
@@ -18,6 +34,13 @@ If you like this extension, please help us out:
 
 - Give us a favorable review in the [Chrome Web Store](https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh) or the [Firefox Addons Page](https://addons.mozilla.org/en-US/firefox/addon/media-biasfact-check-extension/).  This will help grow our users
 - Please tell your friends.  If you would like to share on Facebook, [click here now](https://www.facebook.com/sharer/sharer.php?u=https%3A//chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh).
+
+## Release Notes for version 4.0
+
+- Upgraded to Node 18
+- Migrated to using Plasmo as the extension foundation
+- Upgraded to manifest v3
+- Upgraded google analytics to v4
 
 ## Release notes for version 3.0
 
