@@ -1,27 +1,22 @@
 {
-  "$schema": "http://json.schemastore.org/tsconfig",
+  "extends": "plasmo/templates/tsconfig.base",
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    ".plasmo/index.d.ts",
+    ".plasmo/**/*",
+    "./**/*.ts",
+    "./**/*.tsx"
+  ],
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "resolveJsonModule": true,
-    "importHelpers": true,
-    "jsx": "react",
-    "jsxFactory": "m",
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "noImplicitAny": false,
     "paths": {
-      "*": ["./src/*"]
+      "~*": [
+        "./src/*"
+      ]
     },
-    "rootDir": ".",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es6",
-    "types": ["chrome", "node", "google.analytics", "jest"]
-  },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.md"],
-  "exclude": ["node_modules"]
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false
+  }
 }
