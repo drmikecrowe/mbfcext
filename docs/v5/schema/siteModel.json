@@ -35,6 +35,22 @@
             "title": "URL",
             "description": "The URL on https://mediabiasfactcheck.com for the site"
         },
+        "facebook": {
+            "type": "string",
+            "examples": [
+                "theonion"
+            ],
+            "title": "Facebook Page",
+            "description": "The path on https://www.facebook.com for the site"
+        },
+        "twitter": {
+            "type": "string",
+            "examples": [
+                "theonion"
+            ],
+            "title": "Twitter Page",
+            "description": "The path on https://twitter.com for the site"
+        },
         "popularity": {
             "type": "integer",
             "examples": [
