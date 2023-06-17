@@ -19,6 +19,7 @@ export type GetDomainForTabResponseBody = {
 }
 
 const handler: PlasmoMessaging.MessageHandler<GetDomainForTabRequestBody, GetDomainForTabResponseBody> = async (req, res) => {
+  log("Received request", GET_DOMAIN_FOR_TAB, req.body)
   const { domain } = req.body
   const sp = SourcesProcessor.getInstance()
   const response: GetDomainForTabResponseBody = { site: null }

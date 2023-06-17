@@ -1,3 +1,5 @@
+import browser from "webextension-polyfill"
+
 import { BiasEnums } from "~models"
 import { getTabById, logger } from "~shared"
 

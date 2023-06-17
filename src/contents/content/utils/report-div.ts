@@ -3,7 +3,7 @@ import vhtml from "vhtml"
 
 import { BiasEnums, CredibilityEnums, type SiteModel, TrafficEnums } from "~models/combined-manager"
 import { cap } from "~shared/cap"
-import { faAngleDoubleDown, faEye, faEyeSlash } from "~shared/elements/font-awesome"
+import { faAngleDoubleDown } from "~shared/elements/font-awesome"
 
 const html = htm.bind(vhtml)
 const icon = (url: string) => html([url] as ReadonlyArray<string> as TemplateStringsArray)
@@ -45,8 +45,9 @@ export class NewsAnnotation {
         padding: 5px;
       }
       .mbfc-icon-div {
-        float: right;
-        margin-right: -28px;
+        position: absolute;
+        right: 0;
+        margin-top: -7px;
         color: white;
         cursor: pointer;
       }
@@ -97,7 +98,6 @@ export class NewsAnnotation {
         font-family: Helvetica, Arial, sans-serif;
         font-size: smaller;
         font-weight: 600;
-        margin-right: 10px;
       }
 
       .mbfc-gradient-text-left, .mbfc-gradient-text-right, .mbfc-white-text {
@@ -180,6 +180,10 @@ export class NewsAnnotation {
       .mbfc-button-secondary {
           background: rgb(66, 184, 221); /* this is a light blue */
       }
+
+      .mbfc-text-buffer {
+        margin-left: 10px;
+      }
       
     `
   }
@@ -204,20 +208,20 @@ export class NewsAnnotation {
     }
 
     if (this.site.credibility && this.site.credibility !== CredibilityEnums.NA) {
-      credibilityDiv = html`<div className="mbfc-gradient-text mbfc-black-text">${cap(this.site.credibility)}</div>` as string
+      credibilityDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer">${cap(this.site.credibility)}</div>` as string
     }
 
     if (this.site.traffic && this.site.traffic !== TrafficEnums.NoData) {
-      trafficDiv = html`<div className="mbfc-gradient-text mbfc-black-text">${cap(this.site.traffic)}</div>` as string
+      trafficDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer">${cap(this.site.traffic)}</div>` as string
     }
 
     if (this.site.popularity) {
-      popularityDiv = html`<div className="mbfc-gradient-text mbfc-black-text">Links: ${this.site.popularity}%</div>` as string
+      popularityDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer">Links: ${this.site.popularity}%</div>` as string
     }
 
     if (this.site.domain) {
-      researchDiv = html`<div className="mbfc-gradient-text mbfc-black-text"><a href="${this.site.domain}" target="_blank">Research</a></div>` as string
-      mbfcDiv = html`<div className="mbfc-gradient-text mbfc-black-text"><a href="${this.site.domain}" target="_blank">MBFC</a></div>` as string
+      researchDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer"><a href="${this.site.domain}" target="_blank">Research</a></div>` as string
+      mbfcDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer"><a href="${this.site.domain}" target="_blank">MBFC</a></div>` as string
     }
     const biasText = cap(this.site.bias)
 
@@ -234,7 +238,7 @@ export class NewsAnnotation {
             <div className="mbfc-bias-start-${biasStart}"></div>
             <div className="${textClass} mbfc-gradient-text">${biasText}</div>
             <div className="mbfc-bias-end-${biasEnd}">
-              <div className="mbfc-icon-div" onclick="${inlineCode}">${icon(faAngleDoubleDown)}</div>
+              <div className="${textClass} mbfc-icon-div" onclick="${inlineCode}">${icon(faAngleDoubleDown)}</div>
             </div>
           </div>
         </div>

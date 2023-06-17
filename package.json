@@ -90,6 +90,12 @@
       "alarms",
       "storage",
       "tabs"
-    ]
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "media-bias-fact-check@drmikecrowe-mbfcext",
+        "strict_min_version": "104.0"
+      }
+    }
   }
 }

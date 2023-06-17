@@ -3,17 +3,20 @@ export default function Intro() {
     <div>
       <h1 id="official-media-bias-fact-check-extension">Official Media Bias/Fact Check Extension</h1>
       <p>
-        Thank you for installing the <a href="https://drmikecrowe.github.io/mbfcext/">Official Media Bias/Fact Check Extension</a>! We appreciate you installing our extension!
+        Thank you for installing the <a href="https://drmikecrowe.github.io/mbfcext/">Official Media Bias/Fact Check Extension</a>! We appreciate you! (yes, we said it that way in
+        homage to Ted Lasso)
       </p>
       <p>
-        Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our
-        database and growing every day. Don’t be fooled by Fake News sources. This extension is completely open source, and the source code is hosted{" "}
-        <a href="https://github.com/drmikecrowe/mbfcext">here</a>, with documentation <a href="https://drmikecrowe.github.io/mbfcext/">here</a>.
+        Are you tired of navigating through a sea of biased news stories while browsing Facebook? Do you wish you had a tool that could help you distinguish between reliable
+        sources and those that may present a skewed or extreme perspective? Look no further! The Media Bias/Fact Check Extension is here to revolutionize your news consumption
+        experience.
       </p>
       <p>
-        If you find any issues with this extension, ideas of ways to make it better or simply want to discuss it, we have the{" "}
-        <a href="https://www.reddit.com/r/MediaBiasFactCheck/">r/MediaBiasFactCheck subreddit</a> available.
+        If you find any issues with this extension, ideas of ways to make it better or simply want to discuss it, we have a{" "}
+        <a href="https://www.facebook.com/mbfcext/">Facebook page</a> available for discussions.
       </p>
+      <h2>Collapse, Collapse, Collapse</h2>
+      <p>If this is your firt time using this extension, make sure and click on the Settings tab (center tab). Select which biases/reporting flavors you would like collapsed.</p>
       <h2 id="we-need-your-help-">We Need Your Help!</h2>
       <p>If you like this extension, please help us out:</p>
       <ul>

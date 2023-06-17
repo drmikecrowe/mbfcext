@@ -1,10 +1,11 @@
 import { Result, err, ok } from "neverthrow"
+import browser from "webextension-polyfill"
 
 import { isDevMode } from "./logger"
 
-export async function getTabById(tabId: number): Promise<Result<chrome.tabs.Tab, null>> {
+export async function getTabById(tabId: number): Promise<Result<browser.Tabs.Tab, null>> {
   try {
-    const tabInfo = await chrome.tabs.get(tabId)
+    const tabInfo = await browser.tabs.get(tabId)
     return ok(tabInfo)
   } catch (error) {
     console.error(error)
@@ -12,7 +13,7 @@ export async function getTabById(tabId: number): Promise<Result<chrome.tabs.Tab,
   return err(null)
 }
 
-export async function getCurrentTab(): Promise<Result<chrome.tabs.Tab, null>> {
+export async function getCurrentTab(): Promise<Result<browser.Tabs.Tab, null>> {
   return new Promise((resolve) => {
     ;(async () => {
       const queryInfo: any = {
@@ -20,8 +21,8 @@ export async function getCurrentTab(): Promise<Result<chrome.tabs.Tab, null>> {
         currentWindow: true,
       }
 
-      const [tabs, wind] = await Promise.all([chrome.tabs.query(queryInfo), chrome.windows.getLastFocused()])
-      let t: chrome.tabs.Tab | undefined
+      const [tabs, wind] = await Promise.all([browser.tabs.query(queryInfo), browser.windows.getLastFocused()])
+      let t: browser.Tabs.Tab | undefined
       tabs.forEach((tab) => {
         if (tab.windowId === wind.id) t = tab
       })
@@ -33,4 +34,3 @@ export async function getCurrentTab(): Promise<Result<chrome.tabs.Tab, null>> {
     })
   })
 }
-

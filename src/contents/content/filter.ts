@@ -69,23 +69,27 @@ export class Filter {
     log(`MutationObserver started`)
 
     const observer = new MutationObserver((nodes) => {
-      if (!this.main_element) {
-        this.main_element = document.querySelector(this.main_selector)
-        if (!this.main_element) return
+      try {
+        if (!this.main_element) {
+          this.main_element = document.querySelector(this.main_selector)
+          if (!this.main_element) return
+        }
+        const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
+        const unattachedButtons = document.querySelectorAll('button.mbfc-toolbar-button[data-attached="false"]')
+        if (unattachedButtons.length > 0) {
+          this.processUnattachedButtons(unattachedButtons)
+        }
+        if (all_nodes.length === 0) return
+        const added = all_nodes.length
+        log(`Processing ${added} nodes`)
+        this.process(all_nodes)
+          .then(() => {
+            log(`Processed ${added} nodes`)
+          })
+          .catch((e) => console.error(e))
+      } catch (error) {
+        console.log(error)
       }
-      const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
-      const unattachedButtons = document.querySelectorAll('button.mbfc-toolbar-button[data-attached="false"]')
-      if (unattachedButtons.length > 0) {
-        this.processUnattachedButtons(unattachedButtons)
-      }
-      if (all_nodes.length === 0) return
-      const added = all_nodes.length
-      log(`Processing ${added} nodes`)
-      this.process(all_nodes)
-        .then(() => {
-          log(`Processed ${added} nodes`)
-        })
-        .catch((e) => console.error(e))
     })
 
     observer.observe(document, {
@@ -278,6 +282,11 @@ export class Filter {
   clean_href(e1: HTMLAnchorElement) {
     const u = new URL(e1.href)
     return `${u.protocol}//${u.hostname}${u.pathname}`
+  }
+
+  clean_domain(e1: HTMLAnchorElement) {
+    const u = new URL(e1.href)
+    return `${u.hostname}`
   }
 
   clean_path(e1: HTMLAnchorElement) {
