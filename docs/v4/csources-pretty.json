@@ -55150,6 +55150,20 @@
     "a": "M",
     "q": []
   },
+  "seacoaststandard.org": {
+    "b": "FN",
+    "d": "seacoaststandard.org",
+    "n": "Seacoast Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/seacoast-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
+  },
   "sealaskanews.com": {
     "b": "FN",
     "d": "sealaskanews.com",
@@ -57675,6 +57689,20 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "southjerseysun.com": {
+    "b": "FN",
+    "d": "southjerseysun.com",
+    "n": "South Jersey Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-jersey-sun-bias-and-credibilty/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "southkcnews.com": {
     "b": "FN",
@@ -66426,6 +66454,17 @@
     "p": "/miramichi-leader",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/miramichi-leader-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "tj.news/telegraph-journal": {
+    "b": "RC",
+    "d": "tj.news/telegraph-journal",
+    "n": "Saint John Telegraph-Journal",
+    "p": "/telegraph-journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/saint-john-telegraph-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
