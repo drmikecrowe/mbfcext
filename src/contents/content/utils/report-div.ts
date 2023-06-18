@@ -44,12 +44,14 @@ export class NewsAnnotation {
         border-radius: 20px;
         padding: 5px;
       }
-      .mbfc-icon-div {
+      .mbfc-icon-svg {
         position: absolute;
         right: 0;
         margin-top: -7px;
         color: white;
         cursor: pointer;
+        height: 10px;
+        width: 10px;
       }
       .mbfc-fa-icon {
         font-family: FontAwesome, Arial, sans-serif;

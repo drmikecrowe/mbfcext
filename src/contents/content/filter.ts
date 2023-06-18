@@ -36,6 +36,8 @@ export interface Story {
   title_holder?: HTMLElement
   domain_holder?: HTMLElement
   possible_domain?: string
+  possible_page?: string
+  possible_name?: string
   hides: Element[]
   count: number
   tagsearch?: string
@@ -81,7 +83,6 @@ export class Filter {
         }
         if (all_nodes.length === 0) return
         const added = all_nodes.length
-        log(`Processing ${added} nodes`)
         this.process(all_nodes)
           .then(() => {
             log(`Processed ${added} nodes`)
@@ -425,16 +426,18 @@ export class Filter {
     }
   }
 
-  async process(nodes: HTMLElement[]) {
-    const stories: Story[] = []
-    for (const node of nodes) {
-      const res = await this.buildStory(node)
-      if (res.isErr()) {
-        continue
-      }
-      stories.push(res.value)
+  async preProcess(node: HTMLElement) {
+    const res = await this.buildStory(node)
+    if (res.isErr()) {
+      return
     }
-    const promises = stories.filter((s) => !s.ignored).map((s) => this.inject(s))
+    const story = res.value
+    if (story.ignored) return
+    return this.inject(story)
+  }
+
+  async process(nodes: HTMLElement[]) {
+    const promises: Promise<void>[] = nodes.map((n) => this.preProcess(n))
     try {
       await Promise.allSettled(promises)
     } catch (error) {

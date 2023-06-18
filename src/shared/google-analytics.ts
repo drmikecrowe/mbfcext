@@ -1,4 +1,4 @@
-import ga4mp from "@analytics-debugger/ga4mp"
+import ga4mp from "@analytics-debugger/ga4mp/dist/ga4mp.esm.js"
 
 import { GA } from "~constants"
 import { ConfigHandler, type ConfigStorage } from "~shared"

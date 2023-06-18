@@ -14,18 +14,11 @@ jobs:
       - uses: DerYeger/pnpm-setup-action@master
         with:
           node-version: 18
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    needs: prepare
-    steps:
-      - uses: DerYeger/pnpm-setup-action@master
-        with:
-          node-version: 18
       - run: pnpm build
-      
+      - run: pnpm package
+
   submit:
-    name: Submit
+    name: Submit to Chrome Web Store
     runs-on: ubuntu-latest
     needs: build
     steps:

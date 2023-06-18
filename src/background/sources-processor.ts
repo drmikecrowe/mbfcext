@@ -18,6 +18,7 @@ export interface SourceData {
   subdomains: Record<string, Record<string, SiteModel>>
   fb_pages: Record<string, string>
   tw_pages: Record<string, string>
+  name_pages: Record<string, string>
   sites_by_domain: DomainSites
 }
 
@@ -79,6 +80,7 @@ export class SourcesProcessor {
       tw_pages: {},
       subdomains: {},
       sites_by_domain: {},
+      name_pages: {},
     }
     this.sourceData = c
     log("Extracting facebook and twitter domains")
@@ -87,6 +89,7 @@ export class SourcesProcessor {
       this.updateTwitter(site.domain, site.twitter)
       this.updateSubdomain(site.domain)
       c.sites_by_domain[site.domain] = site
+      c.name_pages[site.name.toLowerCase()] = site.domain
     })
     Object.entries(c.sites_by_domain).forEach(([domain, source]) => {
       if (domain in c.subdomains) {

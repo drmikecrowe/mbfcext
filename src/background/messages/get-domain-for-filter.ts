@@ -15,6 +15,7 @@ export const GET_DOMAIN_FOR_FILTER = "get-domain-for-filter"
 export type GetDomainForFilterRequestBody = {
   fb_path?: string
   possible_domain?: string
+  possible_name?: string
 }
 
 export type GetDomainForFilterResponseBody = {
@@ -24,7 +25,7 @@ export type GetDomainForFilterResponseBody = {
 
 const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody> = async (req, res) => {
   log("Received request", GET_DOMAIN_FOR_FILTER, req.body)
-  const { possible_domain, fb_path } = req.body
+  const { possible_domain, fb_path, possible_name } = req.body
   const sp = SourcesProcessor.getInstance()
   const config = ConfigHandler.getInstance().config
   const response: GetDomainForFilterResponseBody = { site: null }
@@ -48,6 +49,19 @@ const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, Get
       response.domain = cdr.value
       res.send(response)
       return
+    }
+  }
+  if (possible_name) {
+    if (possible_name in sp.sourceData.name_pages) {
+      log(`Found name ${possible_name}: ${sp.sourceData.name_pages[possible_name]}`)
+      cdr = getSiteFromUrl(sp.sourceData.name_pages[possible_name], sp.sourceData, config, fb_path)
+      if (cdr.isOk() && cdr.value.site) {
+        log(`Found domain from name ${possible_domain}: ${cdr.value.site.name}`)
+        response.site = cdr.value.site
+        response.domain = cdr.value
+        res.send(response)
+        return
+      }
     }
   }
   log(`No domain found for ${possible_domain} or ${fb_path}`)

@@ -78,6 +78,20 @@ export class Facebook extends Filter {
     return domains[domain]
   }
 
+  findPossibleFbPage(e: HTMLElement): string | undefined {
+    const elem = e.querySelector("h3 span > a[href*='https://www.facebook.com']") as HTMLAnchorElement
+    if (elem) {
+      return this.clean_path(elem)
+    }
+  }
+
+  findPossibleName(e: HTMLElement): string | undefined {
+    const elem = e.querySelector("h3 span > a > strong > span") as HTMLSpanElement
+    if (elem) {
+      return elem.textContent
+    }
+  }
+
   async buildStory(parent: HTMLElement): Promise<Result<Story, string>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
     const story: Story = {
@@ -88,6 +102,8 @@ export class Facebook extends Filter {
       count: this.count,
       ignored: false,
       sponsored: false,
+      possible_page: this.findPossibleFbPage(parent),
+      possible_name: this.findPossibleName(parent),
     }
     this.count += 1
     const sponsored = this.findSponsored(parent)
@@ -142,10 +158,34 @@ export class Facebook extends Filter {
         fb_path: this.clean_path(story.title_element),
         possible_domain: story.possible_domain,
       }
-      const res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
+      log(`Sending ${GET_DOMAIN_FOR_FILTER} request 1`, payload)
+      let res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
         name: GET_DOMAIN_FOR_FILTER,
         body: payload,
       })
+      if ((!res || !res.site) && story.possible_page) {
+        payload.fb_path = story.possible_page
+        log(`Sending ${GET_DOMAIN_FOR_FILTER} request 2`, payload)
+        res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
+          name: GET_DOMAIN_FOR_FILTER,
+          body: payload,
+        })
+      }
+      if ((!res || !res.site) && story.possible_name) {
+        if (!story.possible_page) {
+          payload.fb_path = undefined
+        }
+        payload.possible_name = story.possible_name.toLowerCase()
+        log(`Sending ${GET_DOMAIN_FOR_FILTER} request 3`, payload)
+        res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
+          name: GET_DOMAIN_FOR_FILTER,
+          body: payload,
+        })
+        if (res && res.site && story.possible_page) {
+          res.domain.suggested_fbtwpath = story.possible_page
+        }
+      }
+
       if (!res || !res.site) {
         log(`${MBFC}-no-domain for ${story.count}`, story)
         this.addClasses(parent, [MBFC, `${MBFC}-no-domain`])
@@ -153,8 +193,9 @@ export class Facebook extends Filter {
       }
 
       story.domain = res.domain
-      if (res.domain.suggested_fbtwpath) {
+      if (res.domain && res.domain.suggested_fbtwpath) {
         log(`NEW: I think this is ${res.domain.suggested_fbtwpath}`)
+        await this.reportAssociated(res.site, story.possible_page)
       }
     }
 
