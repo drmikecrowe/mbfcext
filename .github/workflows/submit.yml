@@ -20,7 +20,7 @@ jobs:
   submit:
     name: Submit to Chrome Web Store
     runs-on: ubuntu-latest
-    needs: build
+    needs: Prepare
     steps:
       - name: Browser Platform Publish
         uses: PlasmoHQ/bpp@v3
