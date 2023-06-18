@@ -16,20 +16,8 @@ jobs:
           node-version: 18
       - run: pnpm build
       - run: pnpm package
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: chrome-mv3-prod
-          path: |
-            build/chrome-mv3-prod.zip
-
-  submit:
-    name: Submit to Chrome Web Store
-    runs-on: ubuntu-latest
-    needs: Prepare
-    steps:
       - name: Browser Platform Publish
         uses: PlasmoHQ/bpp@v3
         with:
           keys: ${{ secrets.SUBMIT_KEYS }}
-          artifact: chrome-mv3-prod
+          chrome-file: build/chrome-mv3-prod.zip
