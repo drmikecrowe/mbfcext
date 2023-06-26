@@ -10499,6 +10499,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/current-biology": {
+    "b": "PS",
+    "d": "cell.com/current-biology",
+    "n": "Current Biology Journal",
+    "p": "/current-biology",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/current-biology-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -68283,6 +68294,20 @@
     "a": "L",
     "q": []
   },
+  "unioncountyreview.com": {
+    "b": "FN",
+    "d": "unioncountyreview.com",
+    "n": "Union County Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/union-county-review-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "unionleader.com": {
     "b": "RC",
     "d": "unionleader.com",
@@ -74256,6 +74281,16 @@
     "n": "WTOV Steubenville-Wheeling",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wtov-steubenville-wheeling/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wtrf.com": {
+    "b": "C",
+    "d": "wtrf.com",
+    "n": "WTRF - Wheeling News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wtrf-wheeling-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
