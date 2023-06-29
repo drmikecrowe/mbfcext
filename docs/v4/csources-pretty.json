@@ -6415,6 +6415,16 @@
     "a": "L",
     "q": []
   },
+  "bighorncountynews.com": {
+    "b": "LC",
+    "d": "bighorncountynews.com",
+    "n": "Bighorn County News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bighorn-county-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bigislandtimes.com": {
     "b": "FN",
     "d": "bigislandtimes.com",
@@ -9733,6 +9743,16 @@
       "M",
       "H"
     ]
+  },
+  "caravanmagazine.in": {
+    "b": "LC",
+    "d": "caravanmagazine.in",
+    "n": "The Caravan",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-caravan-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "carbonated.tv": {
     "b": "L",
@@ -24060,6 +24080,16 @@
     "u": "https://mediabiasfactcheck.com/garner-leader-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "gastongazette.com": {
+    "b": "LC",
+    "d": "gastongazette.com",
+    "n": "Gaston Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/gaston-gazette-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "gatestoneinstitute.org": {
@@ -47023,6 +47053,16 @@
     "t": "MUoutlook",
     "u": "https://mediabiasfactcheck.com/the-outlook-monmouth-university/",
     "P": 50,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "outlooknewspaper.com": {
+    "b": "C",
+    "d": "outlooknewspaper.com",
+    "n": "Monona Outlook",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/monona-outlook-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -71789,6 +71829,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "westessexnews.com": {
+    "b": "FN",
+    "d": "westessexnews.com",
+    "n": "West Essex News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-essex-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "westflnews.com": {
     "b": "FN",
