@@ -1008,6 +1008,20 @@
     "a": "M",
     "q": []
   },
+  "abqtimes.com": {
+    "b": "FN",
+    "d": "abqtimes.com",
+    "n": "ABQ Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/abq-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "abriluno.com": {
     "b": "S",
     "d": "abriluno.com",
@@ -37308,6 +37322,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/atoms": {
+    "b": "PS",
+    "d": "mdpi.com/journal/atoms",
+    "n": "Atoms Journal",
+    "p": "/journal/atoms",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/atoms-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdstatewire.com": {
     "b": "FN",
     "d": "mdstatewire.com",
@@ -45156,7 +45181,7 @@
     "u": "https://mediabiasfactcheck.com/now8news/",
     "P": 40,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "LT",
       "IM"
@@ -45191,7 +45216,7 @@
     "u": "https://mediabiasfactcheck.com/now-the-end-begins/",
     "P": 62,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "nowthisnews.com": {
@@ -53552,6 +53577,16 @@
       "IM"
     ]
   },
+  "rockwallheraldbanner.com": {
+    "b": "LC",
+    "d": "rockwallheraldbanner.com",
+    "n": "Rockwall County Herald-Banner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rockwall-county-herald-banner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "rodong.rep.kp": {
     "b": "FN",
     "d": "rodong.rep.kp",
@@ -57604,6 +57639,20 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "southeasterntimes.org": {
+    "b": "FN",
+    "d": "southeasterntimes.org",
+    "n": "Southeastern Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/southeastern-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
       "IM"
     ]
   },
@@ -66619,6 +66668,17 @@
     "p": "/bugle-observer",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/bugle-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "tj.news/daily-gleaner": {
+    "b": "RC",
+    "d": "tj.news/daily-gleaner",
+    "n": "Fredericton Daily Gleaner",
+    "p": "/daily-gleaner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fredericton-daily-gleaner-bias/",
     "c": "H",
     "a": "L",
     "q": []
