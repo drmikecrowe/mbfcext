@@ -18575,6 +18575,20 @@
       "IM"
     ]
   },
+  "eastnewmexiconews.com": {
+    "b": "FN",
+    "d": "eastnewmexiconews.com",
+    "n": "East New Mexico News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-new-mexico-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "eastpanhandlenews.com": {
     "b": "FN",
     "d": "eastpanhandlenews.com",
@@ -23738,6 +23752,17 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-cell-death-bias/",
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/cellular-and-infection-microbiology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/cellular-and-infection-microbiology",
+    "n": "Frontiers in Cellular Infection Microbiology",
+    "p": "/journals/cellular-and-infection-microbiology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-cellular-and-infection-microbiology-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -33267,6 +33292,16 @@
     "n": "KUAC - NPR - Fairbanks",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kuac-npr-fairbanks-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "kuaf.com": {
+    "b": "LC",
+    "d": "kuaf.com",
+    "n": "KUAF - NPR - Fayetteville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kuaf-npr-fayetteville-bias/",
     "c": "H",
     "a": "L",
     "q": []
