@@ -15087,6 +15087,16 @@
     "a": "M",
     "q": []
   },
+  "cumnockchronicle.com": {
+    "b": "C",
+    "d": "cumnockchronicle.com",
+    "n": "Cumnock Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cumnock-chronicle-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cureus.com": {
     "b": "CP",
     "d": "cureus.com",
@@ -19862,6 +19872,20 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "enchantmentstatenews.com": {
+    "b": "FN",
+    "d": "enchantmentstatenews.com",
+    "n": "Enchantment State News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/enchantment-state-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "encyclopediadramatica.rs": {
     "b": "S",
@@ -31417,16 +31441,6 @@
     "a": "M",
     "q": []
   },
-  "kacw.org": {
-    "b": "LC",
-    "d": "kacw.org",
-    "n": "KACW - NPR - yuma",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/kawc-npr-yuma-bias/",
-    "c": "H",
-    "a": "L",
-    "q": []
-  },
   "kadn.com": {
     "b": "C",
     "d": "kadn.com",
@@ -31577,6 +31591,16 @@
     "a": "M",
     "q": []
   },
+  "kasu.org": {
+    "b": "LC",
+    "d": "kasu.org",
+    "n": "KASU - NPR - Jonesboro",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kasu-npr-jonesboro-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "katc.com": {
     "b": "C",
     "d": "katc.com",
@@ -31640,6 +31664,16 @@
       "FC",
       "IM"
     ]
+  },
+  "kawc.org": {
+    "b": "LC",
+    "d": "kawc.org",
+    "n": "KAWC - NPR - yuma",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kawc-npr-yuma-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "kbbi.org": {
     "b": "LC",
@@ -44345,7 +44379,7 @@
     "u": "https://mediabiasfactcheck.com/north99/",
     "P": 31,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "northacadiananews.com": {
@@ -51644,6 +51678,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/sludge/",
     "P": 49,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "readthemaple.com": {
+    "b": "L",
+    "d": "readthemaple.com",
+    "n": "The Maple",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-maple-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -63779,6 +63823,28 @@
       "FN"
     ]
   },
+  "theleadingreport.com": {
+    "b": "FN",
+    "d": "theleadingreport.com",
+    "n": "Leading Report",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/leading-report-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PG",
+      "FN",
+      "PSE"
+    ]
+  },
   "theledger.com": {
     "b": "LC",
     "d": "theledger.com",
@@ -66553,6 +66619,17 @@
     "p": "/tallapoosa_journal",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/tallapoosa-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "times-georgian.com/villa_rican": {
+    "b": "RC",
+    "d": "times-georgian.com/villa_rican",
+    "n": "Villa Rican",
+    "p": "/villa_rican",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/villa-rican-bias/",
     "c": "H",
     "a": "L",
     "q": []
