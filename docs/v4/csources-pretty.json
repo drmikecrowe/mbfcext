@@ -20143,6 +20143,16 @@
     "a": "M",
     "q": []
   },
+  "epicom.biomedcentral.com": {
+    "b": "PS",
+    "d": "epicom.biomedcentral.com",
+    "n": "Epigenetics Communications",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/epigenetics-communications-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "epnewsleader.com": {
     "b": "R",
     "d": "epnewsleader.com",
@@ -37493,6 +37503,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/audiolres": {
+    "b": "PS",
+    "d": "mdpi.com/journal/audiolres",
+    "n": "Audiology Research Journal",
+    "p": "/journal/audiolres",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/audiology-research-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdstatewire.com": {
     "b": "FN",
     "d": "mdstatewire.com",
@@ -46682,7 +46703,7 @@
     "u": "https://mediabiasfactcheck.com/ontario-proud/",
     "P": 18,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "opednews.com": {
@@ -46766,19 +46787,6 @@
     "u": "https://mediabiasfactcheck.com/open-society-foundations/",
     "c": "M",
     "a": "M",
-    "q": []
-  },
-  "openthegovernment.org": {
-    "b": "LC",
-    "d": "openthegovernment.org",
-    "f": "OpenTheGov",
-    "n": "Open the Government",
-    "r": "MF",
-    "t": "OpenTheGov",
-    "u": "https://mediabiasfactcheck.com/open-the-government/",
-    "P": 57,
-    "c": "M",
-    "a": "L",
     "q": []
   },
   "openvaers.com": {
@@ -49119,13 +49127,13 @@
   "pogo.org": {
     "b": "LC",
     "d": "pogo.org",
-    "f": "pogo.org",
-    "n": "Project on Government Insight",
-    "r": "H",
-    "t": "POGOBlog",
-    "u": "https://mediabiasfactcheck.com/project-on-government-oversight/",
-    "P": 59,
-    "c": "H",
+    "f": "OpenTheGov",
+    "n": "Open the Government (POGO)",
+    "r": "MF",
+    "t": "OpenTheGov",
+    "u": "https://mediabiasfactcheck.com/open-the-government/",
+    "P": 57,
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -75377,6 +75385,17 @@
     "p": "/ontario-communities/thornhill",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/thornhill-liberal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "yorkregion.com/ontario-communities/vaughan": {
+    "b": "LC",
+    "d": "yorkregion.com/ontario-communities/vaughan",
+    "n": "Vaughan Citizen",
+    "p": "/ontario-communities/vaughan",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vaughan-citizen-bias/",
     "c": "H",
     "a": "L",
     "q": []
