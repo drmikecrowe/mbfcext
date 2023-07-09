@@ -2808,20 +2808,12 @@
     "q": []
   },
   "americamaxnews.com": {
-    "b": "FN",
     "d": "americamaxnews.com",
     "n": "America Max News",
-    "r": "L",
     "u": "https://mediabiasfactcheck.com/america-max-news/",
-    "c": "L",
+    "c": "NA",
     "a": "L",
-    "q": [
-      "P",
-      "PS",
-      "LT",
-      "M",
-      "PG"
-    ]
+    "q": []
   },
   "americanactionforum.org": {
     "b": "RC",
@@ -13175,6 +13167,16 @@
     "u": "https://mediabiasfactcheck.com/complex/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "concealednation.org": {
+    "b": "R",
+    "d": "concealednation.org",
+    "n": "Concealed Nation",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/concealed-nation-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "concernedwomen.org": {
@@ -44183,6 +44185,20 @@
     "a": "M",
     "q": []
   },
+  "nmbusinessdaily.com": {
+    "b": "FN",
+    "d": "nmbusinessdaily.com",
+    "n": "New Mexico Business Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/new-mexico-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nmws.us": {
     "b": "FN",
     "d": "nmws.us",
@@ -53917,6 +53933,16 @@
     "a": "N",
     "q": []
   },
+  "roysecityheraldbanner.com": {
+    "b": "LC",
+    "d": "roysecityheraldbanner.com",
+    "n": "Royse City Herald-Banner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/royse-city-herald-banner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "rrdailyherald.com": {
     "b": "RC",
     "d": "rrdailyherald.com",
@@ -57890,6 +57916,20 @@
     "a": "L",
     "q": []
   },
+  "southerncoloradotimes.com": {
+    "b": "FN",
+    "d": "southerncoloradotimes.com",
+    "n": "Southern Colorado Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/southern-colorado-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "M",
+      "IM"
+    ]
+  },
   "southernindianatoday.com": {
     "b": "FN",
     "d": "southernindianatoday.com",
@@ -58815,6 +58855,27 @@
       "FFC",
       "FC",
       "M",
+      "CEN"
+    ]
+  },
+  "sputniknews.in": {
+    "b": "FN",
+    "d": "sputniknews.in",
+    "n": "Sputnik News Agency - India",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/sputnik-news-agency-india-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE",
       "CEN"
     ]
   },
@@ -60839,6 +60900,7 @@
       "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -60928,7 +60990,7 @@
     "u": "https://mediabiasfactcheck.com/tax-policy-center/",
     "P": 74,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "tbdailynews.com": {
@@ -66960,6 +67022,17 @@
     "a": "L",
     "q": []
   },
+  "tj.news/northern-light": {
+    "b": "RC",
+    "d": "tj.news/northern-light",
+    "n": "The Northern Light",
+    "p": "/northern-light",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-northern-light-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tj.news/telegraph-journal": {
     "b": "RC",
     "d": "tj.news/telegraph-journal",
@@ -72106,7 +72179,7 @@
     "u": "https://mediabiasfactcheck.com/tea-party-news-tpnn/",
     "P": 69,
     "c": "M",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "westernmassnews.com": {
