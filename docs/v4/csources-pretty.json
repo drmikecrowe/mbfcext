@@ -12212,6 +12212,16 @@
     "a": "M",
     "q": []
   },
+  "clearwatertimes.com": {
+    "b": "LC",
+    "d": "clearwatertimes.com",
+    "n": "Clearwater Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/clearwater-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cleburnetimesreview.com": {
     "b": "LC",
     "d": "cleburnetimesreview.com",
@@ -12781,6 +12791,16 @@
       "IM"
     ]
   },
+  "codastory.com": {
+    "b": "L",
+    "d": "codastory.com",
+    "n": "Coda Story",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/coda-story-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "codepink.org": {
     "b": "L",
     "d": "codepink.org",
@@ -12936,6 +12956,16 @@
     "u": "https://mediabiasfactcheck.com/colorlines/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "colorofchange.org": {
+    "b": "L",
+    "d": "colorofchange.org",
+    "n": "Color of Change",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/color-of-change-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "columbiadailyherald.com": {
@@ -13157,6 +13187,16 @@
     "u": "https://mediabiasfactcheck.com/comox-valley-record-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "comparitech.com": {
+    "b": "C",
+    "d": "comparitech.com",
+    "n": "Comparitech",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/comparitech-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "complex.com": {
@@ -23879,6 +23919,17 @@
     "p": "/journals/cellular-and-infection-microbiology",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-cellular-and-infection-microbiology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/cellular-neuroscience": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/cellular-neuroscience",
+    "n": "Frontiers in Cellular Neuroscience",
+    "p": "/journals/cellular-neuroscience",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-is-cellular-neuroscience-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -46007,6 +46058,20 @@
       "IM"
     ]
   },
+  "nwnewmexiconews.com": {
+    "b": "FN",
+    "d": "nwnewmexiconews.com",
+    "n": "NW New Mexico News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-new-mexico-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nworeport.me": {
     "b": "CP",
     "d": "nworeport.me",
@@ -60411,7 +60476,7 @@
     "u": "https://mediabiasfactcheck.com/swi-swissinfo-ch/",
     "P": 73,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "swkansasnews.com": {
@@ -60607,7 +60672,7 @@
     "u": "https://mediabiasfactcheck.com/syrian-observatory-for-human-rights-sohr/",
     "P": 51,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "syriana-analysis.com": {
@@ -60756,10 +60821,10 @@
     "q": []
   },
   "tallahassee.com": {
-    "b": "RC",
+    "b": "LC",
     "d": "tallahassee.com",
     "f": "tallahasseedemocrat",
-    "n": "Tallahasee Democrat",
+    "n": "Tallahassee Democrat",
     "r": "H",
     "t": "TDOnline",
     "u": "https://mediabiasfactcheck.com/tallahassee-democrat/",
@@ -68551,6 +68616,16 @@
     "P": 64,
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "ualrpublicradio.org": {
+    "b": "LC",
+    "d": "ualrpublicradio.org",
+    "n": "KUAR - NPR - Little Rock",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kuar-npr-little-rock-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "uawire.org": {
