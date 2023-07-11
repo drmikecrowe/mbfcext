@@ -10259,6 +10259,16 @@
     "a": "L",
     "q": []
   },
+  "cdapress.com": {
+    "b": "C",
+    "d": "cdapress.com",
+    "n": "Coeur d'Alene Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/coeur-dalene-press-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "cdareporter.com": {
     "b": "FN",
     "d": "cdareporter.com",
@@ -34940,6 +34950,16 @@
     "a": "H",
     "q": []
   },
+  "lesswrong.com": {
+    "b": "LC",
+    "d": "lesswrong.com",
+    "n": "LessWrong",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lesswrong-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "lethbridgeherald.com": {
     "b": "LC",
     "d": "lethbridgeherald.com",
@@ -50976,6 +50996,16 @@
     "a": "M",
     "q": []
   },
+  "prpeak.com": {
+    "b": "LC",
+    "d": "prpeak.com",
+    "n": "Powell River Peak",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/powell-river-peak-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "prrecordgazette.com": {
     "b": "RC",
     "d": "prrecordgazette.com",
@@ -60260,7 +60290,7 @@
     "u": "https://mediabiasfactcheck.com/sustainable-pulse/",
     "P": 51,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "svijmedia.com": {
@@ -60299,12 +60329,16 @@
     "u": "https://mediabiasfactcheck.com/swampdrain-com/",
     "P": 25,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
-      "M"
+      "FC",
+      "M",
+      "FN",
+      "PSE"
     ]
   },
   "swarajyamag.com": {
@@ -73260,6 +73294,16 @@
     "n": "Winchester Sun",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/winchester-sun-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "windsornewstoday.ca": {
+    "b": "LC",
+    "d": "windsornewstoday.ca",
+    "n": "WindsorNewsToday",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/windsornewstoday-bias/",
     "c": "H",
     "a": "L",
     "q": []
