@@ -76,6 +76,7 @@ export class Filter {
           this.main_element = document.querySelector(this.main_selector)
           if (!this.main_element) return
         }
+        NewsAnnotation.load_styles()
         const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
         const unattachedButtons = document.querySelectorAll('button.mbfc-toolbar-button[data-attached="false"]')
         if (unattachedButtons.length > 0) {

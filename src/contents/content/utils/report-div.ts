@@ -186,17 +186,20 @@ export class NewsAnnotation {
       .mbfc-text-buffer {
         margin-left: 10px;
       }
-      
     `
   }
 
-  render() {
+  static load_styles() {
     if (!NewsAnnotation.loaded) {
       NewsAnnotation.loaded = true
       const style = document.createElement("style")
       style.innerHTML = NewsAnnotation.styles
       document.head.appendChild(style)
     }
+  }
+
+  render() {
+    NewsAnnotation.load_styles()
 
     let reportingDiv = ``
     let credibilityDiv = ``
