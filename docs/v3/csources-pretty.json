@@ -10587,6 +10587,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/device": {
+    "b": "PS",
+    "d": "cell.com/device",
+    "n": "Device Journal",
+    "p": "/device",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/device-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -11494,6 +11505,16 @@
       "M",
       "H"
     ]
+  },
+  "christiananswers.net": {
+    "b": "CP",
+    "d": "christiananswers.net",
+    "n": "ChristianAnswers.net",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/christiananswers-net-bias/",
+    "c": "L",
+    "a": "M",
+    "q": []
   },
   "christiancentury.org": {
     "b": "LC",
@@ -27655,6 +27676,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/homeland-security-news-wire/",
     "P": 60,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "hometownregister.com": {
+    "b": "RC",
+    "d": "hometownregister.com",
+    "n": "Mount Carmel Register",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mount-carmel-register-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -54583,6 +54614,19 @@
     "a": "M",
     "q": []
   },
+  "sandovalnews.com": {
+    "b": "FN",
+    "d": "sandovalnews.com",
+    "n": "Sandoval News",
+    "u": "https://mediabiasfactcheck.com/sandoval-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "sanevax.org": {
     "b": "CP",
     "d": "sanevax.org",
@@ -60171,7 +60215,7 @@
     "u": "https://mediabiasfactcheck.com/sunlight-foundation/",
     "P": 80,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "sunshinesentinel.com": {
@@ -75612,6 +75656,16 @@
     "n": "KMID - Midland News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kmid-midland-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "yourbigsky.com": {
+    "b": "C",
+    "d": "yourbigsky.com",
+    "n": "KSVI - Billings News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ksvi-billings-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
