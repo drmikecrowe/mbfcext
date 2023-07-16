@@ -42820,6 +42820,16 @@
     "a": "M",
     "q": []
   },
+  "news.ltn.com.tw": {
+    "b": "LC",
+    "d": "news.ltn.com.tw",
+    "n": "Liberty Times - Taiwan",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/liberty-times-taiwan-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "news.mongabay.com": {
     "b": "LC",
     "d": "news.mongabay.com",
@@ -57456,6 +57466,28 @@
     "a": "H",
     "q": []
   },
+  "slaynews.com": {
+    "b": "FN",
+    "d": "slaynews.com",
+    "n": "Slay News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/slay-news-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PG",
+      "FN",
+      "PSE"
+    ]
+  },
   "sleepyeyesnews.com": {
     "b": "C",
     "d": "sleepyeyesnews.com",
@@ -60205,6 +60237,21 @@
     "a": "L",
     "q": []
   },
+  "summerlinreporter.com": {
+    "b": "FN",
+    "d": "summerlinreporter.com",
+    "n": "Summerlin Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/summerlin-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "summit.news": {
     "b": "FN",
     "d": "summit.news",
@@ -60955,10 +61002,10 @@
     "q": []
   },
   "taipeitimes.com": {
-    "b": "C",
+    "b": "LC",
     "d": "taipeitimes.com",
     "n": "Taipei Times",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/taipei-times/",
     "P": 61,
     "c": "H",
