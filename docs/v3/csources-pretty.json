@@ -9613,6 +9613,16 @@
     "a": "L",
     "q": []
   },
+  "cantonrep.com": {
+    "b": "LC",
+    "d": "cantonrep.com",
+    "n": "Canton Repository",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/canton-repository-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "cap-news.com": {
     "b": "FN",
     "d": "cap-news.com",
@@ -15579,6 +15589,16 @@
     "a": "H",
     "q": []
   },
+  "dailyecho.co.uk": {
+    "b": "C",
+    "d": "dailyecho.co.uk",
+    "n": "Southern Daily Echo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/southern-daily-echo-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "dailyfreeman.com": {
     "b": "C",
     "d": "dailyfreeman.com",
@@ -18059,6 +18079,27 @@
       "LT",
       "FC",
       "IM"
+    ]
+  },
+  "download.news": {
+    "b": "FN",
+    "d": "download.news",
+    "n": "Download.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/download-news-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
     ]
   },
   "downrivertoday.com": {
@@ -21909,6 +21950,16 @@
     "P": 30,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "fluidsbarrierscns.biomedcentral.com": {
+    "b": "PS",
+    "d": "fluidsbarrierscns.biomedcentral.com",
+    "n": "Fluids and Barriers of the CNS",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fluids-and-barriers-of-the-cns-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "fmobserver.com": {
@@ -32434,6 +32485,16 @@
     "a": "M",
     "q": []
   },
+  "khsu.org": {
+    "b": "LC",
+    "d": "khsu.org",
+    "n": "KHSU - NPR - Arcata",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/khsu-npr-arcata-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kiem-tv.com": {
     "b": "C",
     "d": "kiem-tv.com",
@@ -35011,6 +35072,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-daily-poster/",
     "P": 24,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "lewistonnews.com": {
+    "b": "LC",
+    "d": "lewistonnews.com",
+    "n": "Lewiston News-Argus",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lewiston-news-argus-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -37618,6 +37689,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/automation": {
+    "b": "PS",
+    "d": "mdpi.com/journal/automation",
+    "n": "Automation Journal",
+    "p": "/journal/automation",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/automation-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdstatewire.com": {
     "b": "FN",
     "d": "mdstatewire.com",
@@ -40042,6 +40124,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "mutembeitv.com": {
+    "b": "FN",
+    "d": "mutembeitv.com",
+    "n": "Mutembei TV",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mutembei-tv-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "M"
+    ]
   },
   "mwcnews.net": {
     "b": "LC",
@@ -42722,6 +42818,16 @@
     "P": 71,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "news.ltn.com.tw": {
+    "b": "LC",
+    "d": "news.ltn.com.tw",
+    "n": "Liberty Times - Taiwan",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/liberty-times-taiwan-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "news.mongabay.com": {
@@ -47517,7 +47623,7 @@
     "b": "C",
     "d": "oyez.org",
     "n": "Oyez Project",
-    "r": "VH",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/oyez-project/",
     "P": 76,
     "c": "H",
@@ -47544,7 +47650,7 @@
     "u": "https://mediabiasfactcheck.com/ozy-media/",
     "P": 72,
     "c": "H",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "pa.media": {
@@ -47599,8 +47705,8 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/pacific-research-institute/",
     "P": 58,
-    "c": "M",
-    "a": "N",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "paducahsun.com": {
@@ -49454,7 +49560,7 @@
     "u": "https://mediabiasfactcheck.com/politcalite-uk/",
     "P": 36,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "politicalmayhem.news": {
@@ -50148,6 +50254,16 @@
     "P": 69,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "postvilleherald.com": {
+    "b": "C",
+    "d": "postvilleherald.com",
+    "n": "Postville Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/postville-herald-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "potatriotsunite.com": {
@@ -54804,6 +54920,20 @@
     "a": "M",
     "q": []
   },
+  "santafestandard.com": {
+    "b": "FN",
+    "d": "santafestandard.com",
+    "n": "Santa Fe Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/santa-fe-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "santamariatimes.com": {
     "b": "C",
     "d": "santamariatimes.com",
@@ -57336,6 +57466,28 @@
     "a": "H",
     "q": []
   },
+  "slaynews.com": {
+    "b": "FN",
+    "d": "slaynews.com",
+    "n": "Slay News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/slay-news-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PG",
+      "FN",
+      "PSE"
+    ]
+  },
   "sleepyeyesnews.com": {
     "b": "C",
     "d": "sleepyeyesnews.com",
@@ -57809,6 +57961,20 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "southabqnews.com": {
+    "b": "FN",
+    "d": "southabqnews.com",
+    "n": "South ABQ News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-abq-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "southafricatoday.net": {
     "b": "FN",
@@ -59581,7 +59747,7 @@
     "u": "https://mediabiasfactcheck.com/stillness-in-the-storm/",
     "P": 48,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "stiltonsplace.blogspot.com": {
@@ -59716,7 +59882,7 @@
     "u": "https://mediabiasfactcheck.com/stone-cold-truth/",
     "P": 60,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "C",
       "P",
@@ -59805,7 +59971,7 @@
     "u": "https://mediabiasfactcheck.com/stormfront/",
     "P": 71,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "stpaulreporter.com": {
@@ -59956,7 +60122,7 @@
     "u": "https://mediabiasfactcheck.com/stubhill-news/",
     "P": 26,
     "c": "NA",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "studentnewsdaily.com": {
@@ -60070,6 +60236,21 @@
     "c": "NA",
     "a": "L",
     "q": []
+  },
+  "summerlinreporter.com": {
+    "b": "FN",
+    "d": "summerlinreporter.com",
+    "n": "Summerlin Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/summerlin-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "summit.news": {
     "b": "FN",
@@ -60821,10 +61002,10 @@
     "q": []
   },
   "taipeitimes.com": {
-    "b": "C",
+    "b": "LC",
     "d": "taipeitimes.com",
     "n": "Taipei Times",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/taipei-times/",
     "P": 61,
     "c": "H",
@@ -67187,6 +67368,17 @@
     "a": "L",
     "q": []
   },
+  "tj.news/the-tribune": {
+    "b": "RC",
+    "d": "tj.news/the-tribune",
+    "n": "Campbellton Tribune",
+    "p": "/the-tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cambellton-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tmj4.com": {
     "b": "C",
     "d": "tmj4.com",
@@ -71368,6 +71560,16 @@
     "u": "https://mediabiasfactcheck.com/waterford-whispers-news/",
     "P": 54,
     "c": "NA",
+    "a": "L",
+    "q": []
+  },
+  "waterloochronicle.ca": {
+    "b": "LC",
+    "d": "waterloochronicle.ca",
+    "n": "Waterloo Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/waterloo-chronicle-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
