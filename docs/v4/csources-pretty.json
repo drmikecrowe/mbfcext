@@ -24016,6 +24016,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/chemical-biology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/chemical-biology",
+    "n": "Frontiers in Chemical Biology",
+    "p": "/journals/chemical-biology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-chemical-biology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -40453,6 +40464,16 @@
     "P": 75,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "mynspr.org": {
+    "b": "LC",
+    "d": "mynspr.org",
+    "n": "KCHO - NPR - Chico",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcho-npr-chico-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "mypanhandle.com": {
@@ -59760,6 +59781,16 @@
     "a": "L",
     "q": []
   },
+  "stilwelldemocrat.com": {
+    "b": "LC",
+    "d": "stilwelldemocrat.com",
+    "n": "Stilwell Democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stilwell-democrat-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "stimson.org": {
     "b": "C",
     "d": "stimson.org",
@@ -60828,6 +60859,20 @@
     "n": "SW New Hampshire News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/sw-new-hampshire-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "swnewmexiconews.com": {
+    "b": "FN",
+    "d": "swnewmexiconews.com",
+    "n": "SW New Mexico News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-new-mexico-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -70139,6 +70184,16 @@
     "u": "https://mediabiasfactcheck.com/valdosta-daily-times-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "valiantnews.com": {
+    "b": "R",
+    "d": "valiantnews.com",
+    "n": "Valiant News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/valiant-news-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "valleycentral.com": {
