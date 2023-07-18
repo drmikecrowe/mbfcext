@@ -7509,6 +7509,16 @@
       "M"
     ]
   },
+  "bonnersferryherald.com": {
+    "b": "C",
+    "d": "bonnersferryherald.com",
+    "n": "Bonners Ferry Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bonners-ferry-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bonsens.info": {
     "b": "CP",
     "d": "bonsens.info",
@@ -10604,6 +10614,17 @@
     "p": "/device",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/device-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/heliyon": {
+    "b": "PS",
+    "d": "cell.com/heliyon",
+    "n": "Heliyon Journal",
+    "p": "/heliyon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/heliyon-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -18471,6 +18492,16 @@
     "u": "https://mediabiasfactcheck.com/eagle-tribune/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "eaglevalleynews.com": {
+    "b": "LC",
+    "d": "eaglevalleynews.com",
+    "n": "Eagle Valley News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eagle-valley-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "eaglevalleytimes.com": {
@@ -30660,9 +30691,9 @@
     "a": "L",
     "q": []
   },
-  "jacobinmag.com": {
+  "jacobin.com": {
     "b": "L",
-    "d": "jacobinmag.com",
+    "d": "jacobin.com",
     "f": "jacobinmag",
     "n": "Jacobin",
     "r": "H",
@@ -36047,6 +36078,16 @@
     "t": "lompocrecord",
     "u": "https://mediabiasfactcheck.com/lompoc-record/",
     "P": 63,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "londonnewstoday.ca": {
+    "b": "LC",
+    "d": "londonnewstoday.ca",
+    "n": "LondonNewsToday",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/londonnewstoday-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -55045,6 +55086,17 @@
     "a": "L",
     "q": []
   },
+  "sasktoday.ca/central/preeceville-progress": {
+    "b": "LC",
+    "d": "sasktoday.ca/central/preeceville-progress",
+    "n": "Preeceville Progress",
+    "p": "/central/preeceville-progress",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/preeceville-progress-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sasktoday.ca/north/battlefords-news-optimist": {
     "b": "C",
     "d": "sasktoday.ca/north/battlefords-news-optimist",
@@ -59317,7 +59369,7 @@
     "u": "https://mediabiasfactcheck.com/standpoint-magazine/",
     "P": 60,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "stanislausnews.com": {
@@ -59445,7 +59497,7 @@
     "u": "https://mediabiasfactcheck.com/star-political/",
     "P": 29,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "startribune.com": {
