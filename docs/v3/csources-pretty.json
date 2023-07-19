@@ -9977,6 +9977,16 @@
     "a": "M",
     "q": []
   },
+  "catholicworldreport.com": {
+    "b": "R",
+    "d": "catholicworldreport.com",
+    "n": "Catholic World Report",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/catholic-world-report-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "cato.org": {
     "b": "RC",
     "d": "cato.org",
@@ -48662,7 +48672,7 @@
     "u": "https://mediabiasfactcheck.com/peacock-panache/",
     "P": 36,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "pekintimes.com": {
@@ -48871,7 +48881,7 @@
     "u": "https://mediabiasfactcheck.com/personal-liberty/",
     "P": 54,
     "c": "L",
-    "a": "N",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -71996,6 +72006,20 @@
     "n": "WC Missouri News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/wc-missouri-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "wcnewmexiconews.com": {
+    "b": "FN",
+    "d": "wcnewmexiconews.com",
+    "n": "WC New Mexico News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wc-new-mexico-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
