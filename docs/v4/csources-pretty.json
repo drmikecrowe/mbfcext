@@ -8445,6 +8445,20 @@
       "FC"
     ]
   },
+  "buffaloledger.com": {
+    "b": "FN",
+    "d": "buffaloledger.com",
+    "n": "Buffalo Ledger",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/buffalo-ledger-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "buffalonews.com": {
     "b": "C",
     "d": "buffalonews.com",
@@ -12156,6 +12170,16 @@
     "P": 61,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "clarionnewsonline.com": {
+    "b": "C",
+    "d": "clarionnewsonline.com",
+    "n": "Wright County Monitor",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wright-county-monitor-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "clarionproject.org": {
@@ -24695,6 +24719,16 @@
     "a": "M",
     "q": []
   },
+  "genesandnutrition.biomedcentral.com": {
+    "b": "PS",
+    "d": "genesandnutrition.biomedcentral.com",
+    "n": "Genes & Nutrition Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/genes-nutrition-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "geneseenews.com": {
     "b": "FN",
     "d": "geneseenews.com",
@@ -29123,6 +29157,16 @@
     "P": 86,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "indeonline.com": {
+    "b": "LC",
+    "d": "indeonline.com",
+    "n": "Massillon Independent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/massillon-independent-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "independent.co.uk": {
@@ -63554,14 +63598,23 @@
     "q": []
   },
   "theflstandard.com": {
-    "b": "R",
+    "b": "FN",
     "d": "theflstandard.com",
     "n": "The Florida Standard",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/the-florida-standard-bias/",
-    "c": "M",
+    "c": "L",
     "a": "L",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "PSE",
+      "IM"
+    ]
   },
   "thefoothillsfocus.com": {
     "b": "C",
@@ -72440,6 +72493,16 @@
       "M",
       "CEN"
     ]
+  },
+  "wellandtribune.ca": {
+    "b": "LC",
+    "d": "wellandtribune.ca",
+    "n": "Welland Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/welland-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "wellingtondailynews.com": {
     "b": "C",
