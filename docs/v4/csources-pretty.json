@@ -9725,6 +9725,20 @@
     "a": "L",
     "q": []
   },
+  "capitaldistricttimes.com": {
+    "b": "FN",
+    "d": "capitaldistricttimes.com",
+    "n": "Capital District Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/capital-district-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "capitalgazette.com": {
     "b": "LC",
     "d": "capitalgazette.com",
@@ -37826,6 +37840,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/axioms": {
+    "b": "PS",
+    "d": "mdpi.com/journal/axioms",
+    "n": "Axioms Journal",
+    "p": "/journal/axioms",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/axioms-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdstatewire.com": {
     "b": "FN",
     "d": "mdstatewire.com",
@@ -49062,7 +49087,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/philadelphia-tribune/",
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "phillyvoice.com": {
@@ -54573,6 +54598,16 @@
     "t": "JuliaDavisNews",
     "u": "https://mediabiasfactcheck.com/russian-media-monitor/",
     "P": 30,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "russiamatters.org": {
+    "b": "C",
+    "d": "russiamatters.org",
+    "n": "Russia Matters",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/russia-matters-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -65394,8 +65429,10 @@
     "u": "https://mediabiasfactcheck.com/pink-news/",
     "P": 79,
     "c": "H",
-    "a": "M",
-    "q": []
+    "a": "H",
+    "q": [
+      "C"
+    ]
   },
   "thepoliticalbrief.com": {
     "b": "FN",
@@ -67118,6 +67155,20 @@
     "a": "M",
     "q": []
   },
+  "threeriversgazette.com": {
+    "b": "FN",
+    "d": "threeriversgazette.com",
+    "n": "Three Rivers Gazette",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/three-rivers-gazette-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
+  },
   "thrillist.com": {
     "b": "LC",
     "d": "thrillist.com",
@@ -67510,6 +67561,17 @@
     "p": "/daily-gleaner",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/fredericton-daily-gleaner-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "tj.news/greater-saint-john": {
+    "b": "RC",
+    "d": "tj.news/greater-saint-john",
+    "n": "Saint John Times-Globe",
+    "p": "/greater-saint-john",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/saint-john-times-globe-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -73460,20 +73522,6 @@
     "P": 91,
     "c": "H",
     "a": "H",
-    "q": []
-  },
-  "whitehouse.gov/1600daily": {
-    "b": "LC",
-    "d": "whitehouse.gov/1600daily",
-    "f": "WhiteHouse",
-    "n": "1600 Daily",
-    "p": "/1600daily",
-    "r": "MF",
-    "t": "whitehouse",
-    "u": "https://mediabiasfactcheck.com/1600-daily/",
-    "P": 66,
-    "c": "H",
-    "a": "N",
     "q": []
   },
   "whitehouse.news": {
