@@ -11197,6 +11197,16 @@
     "a": "M",
     "q": []
   },
+  "chattanoogan.com": {
+    "b": "RC",
+    "d": "chattanoogan.com",
+    "n": "The Chattanoogan",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-chattanoogan-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "cheboygannews.com": {
     "b": "LC",
     "d": "cheboygannews.com",
@@ -33342,6 +33352,26 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kremlin.ru": {
+    "b": "FN",
+    "d": "kremlin.ru",
+    "n": "Kremlin.ru",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kremlin-ru-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE",
+      "CEN"
+    ]
   },
   "kristv.com": {
     "b": "C",
@@ -57171,6 +57201,16 @@
     "a": "L",
     "q": []
   },
+  "showbiz411.com": {
+    "b": "LC",
+    "d": "showbiz411.com",
+    "n": "Showbiz411",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/showbiz411-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "showmestatetimes.com": {
     "b": "FN",
     "d": "showmestatetimes.com",
@@ -59491,6 +59531,16 @@
     "a": "N",
     "q": []
   },
+  "stanforddaily.com": {
+    "b": "LC",
+    "d": "stanforddaily.com",
+    "n": "The Stanford Daily",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-stanford-daily-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "stanislausnews.com": {
     "b": "FN",
     "d": "stanislausnews.com",
@@ -61205,6 +61255,16 @@
     "u": "https://mediabiasfactcheck.com/tagesschau-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "tahlequahdailypress.com": {
+    "b": "LC",
+    "d": "tahlequahdailypress.com",
+    "n": "Tahledailypress.com",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tahlequah-daily-press-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "tahoedailytribune.com": {
