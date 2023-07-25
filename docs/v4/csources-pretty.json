@@ -24622,9 +24622,9 @@
     "a": "M",
     "q": []
   },
-  "gbnews.uk": {
+  "gbnews.com": {
     "b": "FN",
-    "d": "gbnews.uk",
+    "d": "gbnews.com",
     "n": "GB News UK",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/gb-news-uk-bias/",
@@ -26461,6 +26461,23 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "gunsternews.com": {
+    "b": "FN",
+    "d": "gunsternews.com",
+    "n": "Gunster News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gunster-news-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PG",
+      "IM"
+    ]
   },
   "gunviolencearchive.org": {
     "b": "LC",
@@ -28961,6 +28978,16 @@
       "P",
       "M"
     ]
+  },
+  "ijpr.org": {
+    "b": "LC",
+    "d": "ijpr.org",
+    "n": "KHEC - NPR - Crescent City",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/khec-npr-crescent-city-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "ijr.com": {
     "b": "R",
@@ -48805,6 +48832,20 @@
       "IM"
     ]
   },
+  "peachtreetimes.com": {
+    "b": "FN",
+    "d": "peachtreetimes.com",
+    "n": "Peach Tree Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/peach-tree-times/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "peacock-panache.com": {
     "b": "L",
     "d": "peacock-panache.com",
@@ -50647,20 +50688,6 @@
       "FC",
       "FN",
       "CEN"
-    ]
-  },
-  "preachtreetimes.com": {
-    "b": "FN",
-    "d": "preachtreetimes.com",
-    "n": "Peach Tree Times",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/peach-tree-times/",
-    "c": "L",
-    "a": "L",
-    "q": [
-      "LT",
-      "FC",
-      "IM"
     ]
   },
   "precisionvaccinations.com": {
@@ -74134,6 +74161,19 @@
       "P",
       "LT",
       "IM"
+    ]
+  },
+  "wisevoter.com": {
+    "b": "FN",
+    "d": "wisevoter.com",
+    "n": "WiseVoter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wisevoter-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "PS",
+      "LT"
     ]
   },
   "wishtv.com": {
