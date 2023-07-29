@@ -27771,6 +27771,16 @@
       "CEN"
     ]
   },
+  "hir.harvard.edu": {
+    "b": "L",
+    "d": "hir.harvard.edu",
+    "n": "Harvard International Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/harvard-international-review-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "historynewsnetwork.org": {
     "b": "LC",
     "d": "historynewsnetwork.org",
@@ -28177,7 +28187,7 @@
     "u": "https://mediabiasfactcheck.com/policy-review/",
     "P": 68,
     "c": "H",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "hopestandard.com": {
@@ -49702,7 +49712,7 @@
     "u": "https://mediabiasfactcheck.com/policyed/",
     "P": 27,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "polinews.org": {
@@ -52103,10 +52113,10 @@
     "b": "C",
     "d": "rare.us",
     "n": "Rare News",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/rare-news/",
     "P": 65,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -76568,17 +76578,6 @@
     "a": "M",
     "q": []
   },
-  "zcomm.org": {
-    "b": "L",
-    "d": "zcomm.org",
-    "n": "Z Magazine",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/z-magazine/",
-    "P": 48,
-    "c": "H",
-    "a": "L",
-    "q": []
-  },
   "zdf.de": {
     "b": "C",
     "d": "zdf.de",
@@ -76665,6 +76664,17 @@
     "P": 76,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "znetwork.org": {
+    "b": "L",
+    "d": "znetwork.org",
+    "n": "Z Network",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/z-magazine/",
+    "P": 48,
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "zootfeed.com": {
