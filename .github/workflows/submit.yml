@@ -10,10 +10,21 @@ jobs:
   prepare:
     name: Prepare
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18]
     steps:
-      - uses: DerYeger/pnpm-setup-action@master
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
         with:
-          node-version: 18
+          version: 8
+      - name: use node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+      - name: install dependencies
+        run: pnpm install
       - run: pnpm build
       - run: pnpm package
       - name: Browser Platform Publish
