@@ -64,7 +64,7 @@
 	},
 	"engines": {
 		"node": ">=18",
-		"packageManager": "pnpm@latest"
+		"pnpm": ">=8"
 	},
 	"homepage": "https://drmikecrowe.github.io/mbfcext/",
 	"license": "MIT",
