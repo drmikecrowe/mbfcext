@@ -63,7 +63,8 @@
 		"typescript": "5.0.4"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=18",
+		"packageManager": "pnpm@latest"
 	},
 	"homepage": "https://drmikecrowe.github.io/mbfcext/",
 	"license": "MIT",
