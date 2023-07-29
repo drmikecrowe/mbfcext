@@ -14,6 +14,7 @@ jobs:
       - uses: DerYeger/pnpm-setup-action@master
         with:
           node-version: 18
+          version: 8
       - run: pnpm build
       - run: pnpm package
       - name: Browser Platform Publish
