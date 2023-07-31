@@ -5688,6 +5688,22 @@
     "a": "M",
     "q": []
   },
+  "bannedbook.org": {
+    "b": "FN",
+    "d": "bannedbook.org",
+    "n": "Forbidden News Network",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/forbidden-news-network-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "M",
+      "CEN"
+    ]
+  },
   "bannedinformation.com": {
     "b": "FN",
     "d": "bannedinformation.com",
@@ -20003,6 +20019,20 @@
     "c": "NA",
     "a": "N",
     "q": []
+  },
+  "empirestatetoday.com": {
+    "b": "FN",
+    "d": "empirestatetoday.com",
+    "n": "Empire State Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/empire-state-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "emptywheel.net": {
     "b": "LC",
@@ -59299,7 +59329,7 @@
     "u": "https://mediabiasfactcheck.com/spectrum-report/",
     "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "speech-point.com": {
@@ -59522,9 +59552,9 @@
     "a": "L",
     "q": []
   },
-  "sputniknews.com": {
+  "sputnikglobe.com": {
     "b": "FN",
-    "d": "sputniknews.com",
+    "d": "sputnikglobe.com",
     "f": "SputnikNews",
     "n": "Sputnik",
     "r": "VL",
@@ -71802,6 +71832,16 @@
       "FC",
       "IM"
     ]
+  },
+  "warrickcountystandard.com": {
+    "b": "RC",
+    "d": "warrickcountystandard.com",
+    "n": "Warrick County Standard",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/warrick-county-standard-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "warroom.org": {
     "b": "FN",
