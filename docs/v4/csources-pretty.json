@@ -9827,6 +9827,16 @@
     "a": "L",
     "q": []
   },
+  "capradio.org": {
+    "b": "LC",
+    "d": "capradio.org",
+    "n": "KXPR - NPR - Sacramento",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kxpr-npr-sacramento-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "capstonereport.com": {
     "b": "FN",
     "d": "capstonereport.com",
@@ -18426,6 +18436,16 @@
       "IM"
     ]
   },
+  "dudleynews.co.uk": {
+    "b": "C",
+    "d": "dudleynews.co.uk",
+    "n": "Dudley News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dudley-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "duffelblog.com": {
     "b": "S",
     "d": "duffelblog.com",
@@ -21858,6 +21878,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "fingerlakestoday.com": {
+    "b": "FN",
+    "d": "fingerlakestoday.com",
+    "n": "Finger Lakes Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/finger-lakes-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "finnishnews.fi": {
     "b": "L",
@@ -31731,6 +31765,16 @@
       "FC",
       "M"
     ]
+  },
+  "judithbasinpress.net": {
+    "b": "LC",
+    "d": "judithbasinpress.net",
+    "n": "Judith Basin Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/judith-basin-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "judithcurry.com": {
     "b": "CP",
@@ -58356,7 +58400,7 @@
     "u": "https://mediabiasfactcheck.com/source-politics/",
     "P": 22,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "sourcewatch.org": {
@@ -67743,6 +67787,16 @@
     "P": 8,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "timesreporter.com": {
+    "b": "LC",
+    "d": "timesreporter.com",
+    "n": "Dover Times-Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dover-times-reporter-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "timesrepublican.com": {
