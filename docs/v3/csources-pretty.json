@@ -1214,6 +1214,16 @@
       "LT"
     ]
   },
+  "actionnetwork.org": {
+    "b": "L",
+    "d": "actionnetwork.org",
+    "n": "Action Network",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/action-network-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "actionnews3.com": {
     "b": "FN",
     "d": "actionnews3.com",
@@ -4928,6 +4938,16 @@
     "P": 84,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "atadvocacy.com": {
+    "b": "L",
+    "d": "atadvocacy.com",
+    "n": "AT Advocacy",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/at-advocacy-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "atchisonglobenow.com": {
@@ -18551,6 +18571,17 @@
     "a": "L",
     "q": []
   },
+  "durhamregion.com/ontario-communities/whitby/news": {
+    "b": "LC",
+    "d": "durhamregion.com/ontario-communities/whitby/news",
+    "n": "Whitby This Week",
+    "p": "/ontario-communities/whitby/news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whitby-this-week-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "durhamregion.com/pickering-on": {
     "b": "LC",
     "d": "durhamregion.com/pickering-on",
@@ -24921,6 +24952,16 @@
       "FC",
       "IM"
     ]
+  },
+  "genesenvironment.biomedcentral.com": {
+    "b": "PS",
+    "d": "genesenvironment.biomedcentral.com",
+    "n": "Genes and Environment Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/genes-and-environment-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "genesiustimes.com": {
     "b": "S",
@@ -38079,6 +38120,17 @@
     "p": "/journal/axioms",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/axioms-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/bacteria": {
+    "b": "PS",
+    "d": "mdpi.com/journal/bacteria",
+    "n": "Bacteria Journal",
+    "p": "/journal/bacteria",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bacteria-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
