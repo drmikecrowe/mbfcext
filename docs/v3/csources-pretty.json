@@ -39951,6 +39951,20 @@
     "a": "L",
     "q": []
   },
+  "monroenynews.com": {
+    "b": "FN",
+    "d": "monroenynews.com",
+    "n": "Monroe NY News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/monroe-ny-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "monroereview.com": {
     "b": "FN",
     "d": "monroereview.com",
@@ -62561,6 +62575,16 @@
     "a": "L",
     "q": []
   },
+  "theadanews.com": {
+    "b": "LC",
+    "d": "theadanews.com",
+    "n": "Ada News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ada-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "theadvertiser.com": {
     "b": "LC",
     "d": "theadvertiser.com",
@@ -68627,6 +68651,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "tri-cityrecord.org": {
+    "b": "FN",
+    "d": "tri-cityrecord.org",
+    "n": "Tri-City Record",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tri-city-record-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "M",
+      "IM"
+    ]
   },
   "trialsitenews.com": {
     "b": "CP",
