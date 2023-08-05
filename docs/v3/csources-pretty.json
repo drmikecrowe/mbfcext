@@ -24312,6 +24312,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/chemistry": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/chemistry",
+    "n": "Frontiers in Chemistry",
+    "p": "/journals/chemistry",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-chemistry-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -30689,7 +30700,7 @@
     "u": "https://mediabiasfactcheck.com/political-psychology-journal/",
     "P": 51,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "israel21c.org": {
@@ -32477,6 +32488,16 @@
     "a": "M",
     "q": []
   },
+  "kelownacapnews.com": {
+    "b": "LC",
+    "d": "kelownacapnews.com",
+    "n": "Kelowna Capital News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kelowna-capital-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kendallcountytimes.com": {
     "b": "FN",
     "d": "kendallcountytimes.com",
@@ -33501,6 +33522,16 @@
     "n": "KPAX - Missoula News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kpax-missoula-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "kpcc.org": {
+    "b": "LC",
+    "d": "kpcc.org",
+    "n": "KPCC - NPR - Pasadena",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kpcc-npr-pasadena-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -50118,7 +50149,7 @@
     "u": "https://mediabiasfactcheck.com/political-wire/",
     "P": 74,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "politicer.com": {
@@ -50132,17 +50163,25 @@
     "q": []
   },
   "politichicks.com": {
-    "b": "R",
+    "b": "FN",
     "d": "politichicks.com",
     "f": "politichicks",
     "n": "Politichicks",
-    "r": "M",
+    "r": "L",
     "t": "ThePolitiChicks",
     "u": "https://mediabiasfactcheck.com/politichicks/",
     "P": 45,
-    "c": "M",
+    "c": "L",
     "a": "L",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "politico.com": {
     "b": "LC",
@@ -50260,7 +50299,7 @@
     "u": "https://mediabiasfactcheck.com/politics-that-work/",
     "P": 37,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "politicsusanews.com": {
