@@ -12645,19 +12645,6 @@
     "a": "L",
     "q": []
   },
-  "climatefeedback.org": {
-    "b": "PS",
-    "d": "climatefeedback.org",
-    "f": "ClimateFeedback",
-    "n": "Climate Feedback",
-    "r": "VH",
-    "t": "ClimateFdbk",
-    "u": "https://mediabiasfactcheck.com/climate-feedback/",
-    "P": 55,
-    "c": "H",
-    "a": "L",
-    "q": []
-  },
   "climaterealityproject.org": {
     "b": "L",
     "d": "climaterealityproject.org",
@@ -18542,6 +18529,16 @@
     "P": 73,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dumbartonreporter.co.uk": {
+    "b": "C",
+    "d": "dumbartonreporter.co.uk",
+    "n": "Dumbarton Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/dumbarton-reporter-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "dundalkeagle.com": {
@@ -27278,17 +27275,6 @@
     "P": 27,
     "c": "L",
     "a": "N",
-    "q": []
-  },
-  "healthfeedback.org": {
-    "b": "PS",
-    "d": "healthfeedback.org",
-    "n": "Health Feedback",
-    "r": "VH",
-    "u": "https://mediabiasfactcheck.com/health-feedback/",
-    "P": 43,
-    "c": "H",
-    "a": "M",
     "q": []
   },
   "healthimpactnews.com": {
@@ -41239,6 +41225,20 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "nassaustandard.com": {
+    "b": "FN",
+    "d": "nassaustandard.com",
+    "n": "Nassau Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nassau-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "natall.com": {
     "b": "FN",
@@ -55928,6 +55928,43 @@
     "a": "M",
     "q": []
   },
+  "science.feedback.org": {
+    "b": "PS",
+    "d": "science.feedback.org",
+    "n": "Science Feedback",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/science-feedback/",
+    "P": 42,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "science.feedback.org/climate-feedback": {
+    "b": "PS",
+    "d": "science.feedback.org/climate-feedback",
+    "f": "ClimateFeedback",
+    "n": "Climate Feedback",
+    "p": "/climate-feedback",
+    "r": "VH",
+    "t": "ClimateFdbk",
+    "u": "https://mediabiasfactcheck.com/climate-feedback/",
+    "P": 55,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "science.feedback.org/health-feedback": {
+    "b": "PS",
+    "d": "science.feedback.org/health-feedback",
+    "n": "Health Feedback",
+    "p": "/health-feedback",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/health-feedback/",
+    "P": 43,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "science.news": {
     "b": "CP",
     "d": "science.news",
@@ -56097,17 +56134,6 @@
     "P": 13,
     "c": "L",
     "a": "N",
-    "q": []
-  },
-  "sciencefeedback.co": {
-    "b": "PS",
-    "d": "sciencefeedback.co",
-    "n": "Science Feedback",
-    "r": "VH",
-    "u": "https://mediabiasfactcheck.com/science-feedback/",
-    "P": 42,
-    "c": "H",
-    "a": "L",
     "q": []
   },
   "sciencefocus.com": {
@@ -57194,6 +57220,16 @@
     "P": 34,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "share.america.gov": {
+    "b": "LC",
+    "d": "share.america.gov",
+    "n": "ShareAmerica",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/shareamerica-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "shareably.net": {
@@ -68842,6 +68878,16 @@
     "P": 72,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "tribunecourier.com": {
+    "b": "RC",
+    "d": "tribunecourier.com",
+    "n": "Marshall County Tribune-Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/marshall-county-tribune-courier-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "tribuneindia.com": {
