@@ -34855,6 +34855,16 @@
     "a": "L",
     "q": []
   },
+  "laureloutlook.com": {
+    "b": "LC",
+    "d": "laureloutlook.com",
+    "n": "Laurel Outlook",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/laurel-outlook-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "lavendermagazine.com": {
     "b": "L",
     "d": "lavendermagazine.com",
@@ -39012,6 +39022,21 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "mexicodailypost.com": {
+    "b": "FN",
+    "d": "mexicodailypost.com",
+    "n": "Mexico Daily Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mexico-daily-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "PG",
       "IM"
     ]
   },
@@ -58395,7 +58420,7 @@
     "u": "https://mediabiasfactcheck.com/society-for-science/",
     "P": 74,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "sofrep.com": {
