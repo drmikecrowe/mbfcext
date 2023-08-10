@@ -19829,6 +19829,16 @@
     "a": "M",
     "q": []
   },
+  "elfinanciero.com.mx": {
+    "b": "RC",
+    "d": "elfinanciero.com.mx",
+    "n": "El Financiero",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/el-financiero-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "elisabethparker.com": {
     "b": "L",
     "d": "elisabethparker.com",
@@ -42715,6 +42725,20 @@
       "IM"
     ]
   },
+  "nenewyorktoday.com": {
+    "b": "FN",
+    "d": "nenewyorktoday.com",
+    "n": "NE New York Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-new-york-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "neonnettle.com": {
     "b": "CP",
     "d": "neonnettle.com",
@@ -53406,6 +53430,16 @@
     "a": "N",
     "q": []
   },
+  "reforma.com": {
+    "b": "RC",
+    "d": "reforma.com",
+    "n": "Reforma",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/reforma-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "reformedmedia.net": {
     "b": "FN",
     "d": "reformedmedia.net",
@@ -62647,6 +62681,16 @@
     "P": 13,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "the-daily-record.com": {
+    "b": "LC",
+    "d": "the-daily-record.com",
+    "n": "Wooster Daily Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wooster-daily-record-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "the-daily.buzz": {
