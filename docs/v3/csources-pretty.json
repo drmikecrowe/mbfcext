@@ -25045,6 +25045,16 @@
     "a": "M",
     "q": []
   },
+  "genomemedicine.biomedcentral.com": {
+    "b": "PS",
+    "d": "genomemedicine.biomedcentral.com",
+    "n": "Genome Medicine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/genome-medicine-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "genzconservative.com": {
     "b": "FN",
     "d": "genzconservative.com",
@@ -38213,6 +38223,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/batteries": {
+    "b": "PS",
+    "d": "mdpi.com/journal/batteries",
+    "n": "Batteries Journal",
+    "p": "/journal/batteries",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/batteries-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mdstatewire.com": {
     "b": "FN",
     "d": "mdstatewire.com",
@@ -46914,6 +46935,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "nybusinessdaily.com": {
+    "b": "FN",
+    "d": "nybusinessdaily.com",
+    "n": "New York Business Daily",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/new-york-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "nydailynews.com": {
     "b": "LC",
