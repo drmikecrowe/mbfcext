@@ -11314,6 +11314,16 @@
     "a": "M",
     "q": []
   },
+  "chathamthisweek.com": {
+    "b": "RC",
+    "d": "chathamthisweek.com",
+    "n": "Chatham-Kent This Week",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/chatham-kent-this-week-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "chattanoogan.com": {
     "b": "RC",
     "d": "chattanoogan.com",
@@ -15391,6 +15401,16 @@
     "u": "https://mediabiasfactcheck.com/cumnock-chronicle-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "cumulusmedia.com": {
+    "b": "R",
+    "d": "cumulusmedia.com",
+    "n": "Cumulus Media",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cumulus-media-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "cureus.com": {
@@ -50669,7 +50689,7 @@
     "u": "https://mediabiasfactcheck.com/popular-science/",
     "P": 91,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "popular.info": {
@@ -50772,7 +50792,7 @@
     "u": "https://mediabiasfactcheck.com/populist-wire/",
     "P": 20,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "portlandmainenews.com": {
@@ -67658,6 +67678,20 @@
     "a": "H",
     "q": []
   },
+  "theyucatanpost.com": {
+    "b": "FN",
+    "d": "theyucatanpost.com",
+    "n": "Yucatan Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/yucatan-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "IM"
+    ]
+  },
   "thieme-connect.com/products/ejournals/journal/10.1055/s-00034926": {
     "b": "CP",
     "d": "thieme-connect.com/products/ejournals/journal/10.1055/s-00034926",
@@ -68915,6 +68949,20 @@
     "c": "L",
     "a": "M",
     "q": []
+  },
+  "trianglenews.org": {
+    "b": "FN",
+    "d": "trianglenews.org",
+    "n": "Triangle News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/triangle-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
   },
   "trib.com": {
     "b": "C",
