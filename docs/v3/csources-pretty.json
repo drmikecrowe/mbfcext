@@ -15945,6 +15945,16 @@
     "a": "L",
     "q": []
   },
+  "dailyitem.com": {
+    "b": "LC",
+    "d": "dailyitem.com",
+    "n": "Sunbury Daily Item",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sunbury-daily-item-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "dailyjournal.net": {
     "b": "RC",
     "d": "dailyjournal.net",
@@ -34113,6 +34123,16 @@
     "a": "M",
     "q": []
   },
+  "kusc.org": {
+    "b": "LC",
+    "d": "kusc.org",
+    "n": "KUSC - NPR - Los Angeles",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kusc-npr-los-angeles-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kusi.com": {
     "b": "RC",
     "d": "kusi.com",
@@ -44374,6 +44394,16 @@
       "M"
     ]
   },
+  "newsradiokkob.com": {
+    "b": "R",
+    "d": "newsradiokkob.com",
+    "n": "KKOB - 96.3 - Albuquerque",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kkob-96-3-albuquerque-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "newsready.com": {
     "b": "FN",
     "d": "newsready.com",
@@ -44854,6 +44884,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "niagaraleader.com": {
+    "b": "FN",
+    "d": "niagaraleader.com",
+    "n": "Niagara Leader",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/niagara-leader-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "niagarathisweek.com": {
     "b": "LC",
@@ -58233,9 +58277,9 @@
     "a": "L",
     "q": []
   },
-  "skyandtelescope.com": {
+  "skyandtelescope.org": {
     "b": "PS",
-    "d": "skyandtelescope.com",
+    "d": "skyandtelescope.org",
     "f": "None",
     "n": "Sky and Telescope",
     "r": "VH",
@@ -58243,7 +58287,7 @@
     "u": "https://mediabiasfactcheck.com/sky-and-telescope/",
     "P": 74,
     "c": "H",
-    "a": "N",
+    "a": "M",
     "q": []
   },
   "skynews.com.au": {
