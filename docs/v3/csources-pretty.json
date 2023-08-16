@@ -11087,6 +11087,16 @@
       "IM"
     ]
   },
+  "cepa.org": {
+    "b": "RC",
+    "d": "cepa.org",
+    "n": "Center for European Policy Analysis",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/center-for-european-policy-analysis-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cepr.net": {
     "b": "LC",
     "d": "cepr.net",
@@ -45542,6 +45552,20 @@
       "IM"
     ]
   },
+  "northcountryleader.com": {
+    "b": "FN",
+    "d": "northcountryleader.com",
+    "n": "North Country Leader",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-country-leader-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "northcountryreporter.com": {
     "b": "FN",
     "d": "northcountryreporter.com",
@@ -63505,6 +63529,20 @@
     "c": "M",
     "a": "M",
     "q": []
+  },
+  "thecancunpost.com": {
+    "b": "FN",
+    "d": "thecancunpost.com",
+    "n": "Cancun Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cancun-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
   },
   "thecareerbg.com": {
     "b": "FN",
