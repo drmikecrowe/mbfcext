@@ -27215,6 +27215,16 @@
     "a": "H",
     "q": []
   },
+  "hccpjournal.biomedcentral.com": {
+    "b": "PS",
+    "d": "hccpjournal.biomedcentral.com",
+    "n": "Hereditary Cancer in Clinical Practice",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hereditary-cancer-in-clinical-practice-bias-and-crediblity/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hcn.org": {
     "b": "LC",
     "d": "hcn.org",
@@ -28831,6 +28841,16 @@
     "P": 55,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "humanrightsdefensecenter.org": {
+    "b": "LC",
+    "d": "humanrightsdefensecenter.org",
+    "n": "Human Rights Defense Center",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/human-rights-defense-center-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "humansarefree.com": {
@@ -48699,19 +48719,6 @@
     "a": "M",
     "q": []
   },
-  "pamplinmedia.com": {
-    "b": "LC",
-    "d": "pamplinmedia.com",
-    "f": "Portland",
-    "n": "Portland Tribune",
-    "r": "H",
-    "t": "theportlandtrib",
-    "u": "https://mediabiasfactcheck.com/portland-tribune/",
-    "P": 66,
-    "c": "H",
-    "a": "M",
-    "q": []
-  },
   "panamacityreporter.com": {
     "b": "FN",
     "d": "panamacityreporter.com",
@@ -50994,6 +51001,19 @@
       "IM"
     ]
   },
+  "portlandtribune.com": {
+    "b": "LC",
+    "d": "portlandtribune.com",
+    "f": "Portland",
+    "n": "Portland Tribune",
+    "r": "H",
+    "t": "theportlandtrib",
+    "u": "https://mediabiasfactcheck.com/portland-tribune/",
+    "P": 66,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "portsmouth-dailytimes.com": {
     "b": "RC",
     "d": "portsmouth-dailytimes.com",
@@ -51059,7 +51079,7 @@
   "postbulletin.com": {
     "b": "RC",
     "d": "postbulletin.com",
-    "n": "Post-Bulletin",
+    "n": "Rochester Post-Bulletin",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/post-bulletin/",
     "P": 55,
@@ -51330,7 +51350,7 @@
     "u": "https://mediabiasfactcheck.com/prepare-for-change/",
     "P": 56,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "president45donaldtrump.com": {
@@ -51608,6 +51628,16 @@
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "prisonlegalnews.org": {
+    "b": "LC",
+    "d": "prisonlegalnews.org",
+    "n": "Prison Legal News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/prison-legal-news-pln-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "prisonplanet.com": {
@@ -53158,6 +53188,16 @@
     "n": "Lake County Record-Bee",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/lake-county-record-bee-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "record-courier.com": {
+    "b": "LC",
+    "d": "record-courier.com",
+    "n": "Kent Record-Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kent-record-courier-bias/",
     "c": "H",
     "a": "L",
     "q": []
