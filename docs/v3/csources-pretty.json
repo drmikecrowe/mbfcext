@@ -5573,6 +5573,20 @@
     "a": "L",
     "q": []
   },
+  "bajacaliforniapost.com": {
+    "b": "FN",
+    "d": "bajacaliforniapost.com",
+    "n": "Baja California Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/baja-california-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "bakersfieldnow.com": {
     "b": "RC",
     "d": "bakersfieldnow.com",
@@ -9789,6 +9803,26 @@
       "IM"
     ]
   },
+  "capforcanada.com": {
+    "b": "FN",
+    "d": "capforcanada.com",
+    "n": "Cultural Action Party of Canada",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/cultural-action-party-of-canada-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "capitalandmain.com": {
     "b": "L",
     "d": "capitalandmain.com",
@@ -9904,6 +9938,16 @@
       "M",
       "H"
     ]
+  },
+  "capx.co": {
+    "b": "R",
+    "d": "capx.co",
+    "n": "CapX",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/capx-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
   },
   "caravanmagazine.in": {
     "b": "LC",
@@ -12750,6 +12794,16 @@
     "n": "Clinton Herald",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/clinton-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "clintonnewsrecord.com": {
+    "b": "RC",
+    "d": "clintonnewsrecord.com",
+    "n": "Clinton News-Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/clinton-news-record-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -47761,6 +47815,20 @@
     "c": "M",
     "a": "M",
     "q": []
+  },
+  "oneidatimes.com": {
+    "b": "FN",
+    "d": "oneidatimes.com",
+    "n": "Oneida Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/oneida-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "oneindia.com": {
     "b": "LC",
