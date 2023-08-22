@@ -43199,6 +43199,16 @@
     "a": "L",
     "q": []
   },
+  "newburyportnews.com": {
+    "b": "LC",
+    "d": "newburyportnews.com",
+    "n": "Newburyport Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newburyport-daily-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "newcenturytimes.com": {
     "b": "FN",
     "d": "newcenturytimes.com",
@@ -70186,6 +70196,20 @@
     "a": "H",
     "q": []
   },
+  "tworiversnews.org": {
+    "b": "FN",
+    "d": "tworiversnews.org",
+    "n": "Two Rivers News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/two-rivers-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
+  },
   "tylerpaper.com": {
     "b": "RC",
     "d": "tylerpaper.com",
@@ -77527,6 +77551,16 @@
     "P": 93,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "zenger.news": {
+    "b": "LC",
+    "d": "zenger.news",
+    "n": "Zenger News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/zenger-news-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "zenith.news": {
