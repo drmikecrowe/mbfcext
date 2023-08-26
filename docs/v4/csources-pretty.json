@@ -3167,6 +3167,25 @@
       "M"
     ]
   },
+  "americanmediaperiscope.com": {
+    "b": "FN",
+    "d": "americanmediaperiscope.com",
+    "n": "American Media Periscope",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/american-media-periscope-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "americanmilitarynews.com": {
     "b": "RC",
     "d": "americanmilitarynews.com",
@@ -10856,6 +10875,17 @@
     "p": "/joule",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/joule-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/matter": {
+    "b": "PS",
+    "d": "cell.com/matter",
+    "n": "Matter Journal",
+    "p": "/matter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/matter-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -20474,6 +20504,19 @@
     "P": 48,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "endgamethemovie.com": {
+    "b": "CP",
+    "d": "endgamethemovie.com",
+    "f": "AlexanderEmerickJones",
+    "n": "Prison Planet",
+    "r": "VL",
+    "t": "PrisonPlanet",
+    "u": "https://mediabiasfactcheck.com/prison-planet/",
+    "P": 83,
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "endingthefed.com": {
@@ -31634,6 +31677,17 @@
     "u": "https://mediabiasfactcheck.com/jihadica/",
     "P": 52,
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "jimmydeyoungjr.org": {
+    "b": "CP",
+    "d": "jimmydeyoungjr.org",
+    "n": "Prophecy Today",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/prophecy-today/",
+    "P": 44,
+    "c": "L",
     "a": "L",
     "q": []
   },
@@ -51715,7 +51769,7 @@
     "u": "https://mediabiasfactcheck.com/pretty-cool-site-pcs/",
     "P": 18,
     "c": "NA",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "prevention.com": {
@@ -51790,19 +51844,6 @@
     "a": "M",
     "q": []
   },
-  "prisonplanet.com": {
-    "b": "CP",
-    "d": "prisonplanet.com",
-    "f": "AlexanderEmerickJones",
-    "n": "Prison Planet",
-    "r": "VL",
-    "t": "PrisonPlanet",
-    "u": "https://mediabiasfactcheck.com/prison-planet/",
-    "P": 83,
-    "c": "L",
-    "a": "M",
-    "q": []
-  },
   "private-eye.co.uk": {
     "b": "LC",
     "d": "private-eye.co.uk",
@@ -51840,6 +51881,7 @@
     "a": "L",
     "q": [
       "P",
+      "FC",
       "M",
       "FN"
     ]
@@ -51903,7 +51945,7 @@
     "d": "progressivearmy.com",
     "f": "ProgressiveArmy",
     "n": "Progressive Army",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/progressive-army/",
     "P": 37,
     "c": "H",
@@ -52025,18 +52067,7 @@
     "u": "https://mediabiasfactcheck.com/prophecy-news-watch/",
     "P": 56,
     "c": "L",
-    "a": "M",
-    "q": []
-  },
-  "prophecytoday.com": {
-    "b": "CP",
-    "d": "prophecytoday.com",
-    "n": "Prophecy Today",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/prophecy-today/",
-    "P": 44,
-    "c": "L",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "propornot.com": {
@@ -55131,6 +55162,20 @@
     "n": "Rock Island Today",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/rock-island-today/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "rocklandreporter.com": {
+    "b": "FN",
+    "d": "rocklandreporter.com",
+    "n": "Rockland Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/rockland-reporter-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -62224,6 +62269,19 @@
       "M"
     ]
   },
+  "tabascopost.com": {
+    "b": "FN",
+    "d": "tabascopost.com",
+    "n": "Tabasco Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tabasco-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "IM"
+    ]
+  },
   "tabletmag.com": {
     "b": "RC",
     "d": "tabletmag.com",
@@ -62328,6 +62386,16 @@
     "u": "https://mediabiasfactcheck.com/talk-tv-bias/",
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "talk995.com": {
+    "b": "R",
+    "d": "talk995.com",
+    "n": "Birmingham's Real Talk",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/birminghams-real-talk-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "talkingpointsmemo.com": {
