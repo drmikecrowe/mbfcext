@@ -2838,10 +2838,12 @@
     "q": []
   },
   "americamaxnews.com": {
+    "b": "C",
     "d": "americamaxnews.com",
     "n": "America Max News",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/america-max-news/",
-    "c": "NA",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -4118,6 +4120,16 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/alliance-for-natural-health-bias-junk-science/",
     "P": 63,
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "anhinternational.org": {
+    "b": "CP",
+    "d": "anhinternational.org",
+    "n": "Alliance for Natural Health International",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/alliance-for-natural-health-international-bias/",
     "c": "L",
     "a": "L",
     "q": []
@@ -18933,6 +18945,16 @@
       "IM"
     ]
   },
+  "ealingtimes.co.uk": {
+    "b": "C",
+    "d": "ealingtimes.co.uk",
+    "n": "Ealing Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ealing-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "earth.columbia.edu": {
     "b": "LC",
     "d": "earth.columbia.edu",
@@ -32611,6 +32633,16 @@
     "u": "https://mediabiasfactcheck.com/kcbd-lubbock-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kcbx.org": {
+    "b": "LC",
+    "d": "kcbx.org",
+    "n": "KCBX - NPR - San Luis Obispo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcbx-npr-san-luis-obispo-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kcby.com": {
@@ -63271,6 +63303,17 @@
     "n": "Madisonville Messenger",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/madisonville-messenger-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "the-messenger.com/journal_enterprise": {
+    "b": "RC",
+    "d": "the-messenger.com/journal_enterprise",
+    "n": "Providence Journal Enterprise",
+    "p": "/journal_enterprise",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/providence-journal-enterprise-bias/",
     "c": "H",
     "a": "L",
     "q": []
