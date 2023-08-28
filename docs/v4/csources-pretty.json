@@ -7941,6 +7941,16 @@
     "a": "L",
     "q": []
   },
+  "bradenton.com": {
+    "b": "C",
+    "d": "bradenton.com",
+    "n": "Bradenton Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bradenton-herald-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "bradford-delong.com": {
     "b": "L",
     "d": "bradford-delong.com",
@@ -9382,6 +9392,16 @@
       "PSE"
     ]
   },
+  "caitlinjohnston.com": {
+    "b": "CP",
+    "d": "caitlinjohnston.com",
+    "n": "CaitlinJohnstone.com",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/caitlinjohnstone-com-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "caixinglobal.com": {
     "b": "FN",
     "d": "caixinglobal.com",
@@ -9577,6 +9597,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/cambridge-times-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "camera.org": {
+    "b": "R",
+    "d": "camera.org",
+    "n": "CAMERA",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/camera-committee-for-accuracy-in-middle-east-reporting-and-analysis/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -52853,6 +52883,16 @@
     "a": "L",
     "q": []
   },
+  "rangerreview.com": {
+    "b": "LC",
+    "d": "rangerreview.com",
+    "n": "Glendive Ranger-Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/glendive-ranger-review-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ranker.com": {
     "b": "C",
     "d": "ranker.com",
@@ -56197,6 +56237,20 @@
     "n": "Sarasota Review",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/sarasota-review/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "saratogastandard.com": {
+    "b": "FN",
+    "d": "saratogastandard.com",
+    "n": "Saratoga Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/saratoga-standard-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -68514,6 +68568,16 @@
     "n": "Timeline",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/timeline/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "times-gazette.com": {
+    "b": "LC",
+    "d": "times-gazette.com",
+    "n": "Ahsland Times-Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ashland-times-gazette-bias/",
     "c": "H",
     "a": "L",
     "q": []
