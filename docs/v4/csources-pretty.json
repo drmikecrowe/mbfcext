@@ -9748,6 +9748,16 @@
     "a": "M",
     "q": []
   },
+  "canberradeclaration.org.au": {
+    "b": "CP",
+    "d": "canberradeclaration.org.au",
+    "n": "Canberra Declaration",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/canberra-declaration-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "cancer.news": {
     "b": "CP",
     "d": "cancer.news",
@@ -12012,6 +12022,16 @@
     "P": 13,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "christiantruthcenter.com": {
+    "b": "CP",
+    "d": "christiantruthcenter.com",
+    "n": "Christian Truth Center",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/christian-truth-center-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "christwire.org": {
@@ -29035,6 +29055,16 @@
     "a": "L",
     "q": []
   },
+  "humgenomics.biomedcentral.com": {
+    "b": "PS",
+    "d": "humgenomics.biomedcentral.com",
+    "n": "Human Genomics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/human-genomics-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hungryhorsenews.com": {
     "b": "C",
     "d": "hungryhorsenews.com",
@@ -38635,6 +38665,17 @@
     "p": "/journal/behavsci",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/behavioral-sciences-journal-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/beverages": {
+    "b": "PS",
+    "d": "mdpi.com/journal/beverages",
+    "n": "Beverages Journal",
+    "p": "/journal/beverages",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/beverages-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -56997,6 +57038,20 @@
     "n": "SC Nebraska News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/sc-nebraska-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "scnewyorknews.com": {
+    "b": "FN",
+    "d": "scnewyorknews.com",
+    "n": "SC New York News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sc-new-york-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
