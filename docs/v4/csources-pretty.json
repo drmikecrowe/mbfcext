@@ -15056,6 +15056,25 @@
     "a": "H",
     "q": []
   },
+  "covertactionmagazine.com": {
+    "b": "FN",
+    "d": "covertactionmagazine.com",
+    "n": "CovertAction Magazine",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/covertaction-magazine-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "covid.gov": {
     "b": "PS",
     "d": "covid.gov",
@@ -15074,6 +15093,16 @@
     "u": "https://mediabiasfactcheck.com/front-line-covid-19-critical-care-alliance-flccc-bias/",
     "c": "L",
     "a": "M",
+    "q": []
+  },
+  "covidcalltohumanity.org": {
+    "b": "CP",
+    "d": "covidcalltohumanity.org",
+    "n": "Covid Call to Humanity",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/covid-call-to-humanity-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "covidtracking.com": {
@@ -18805,6 +18834,16 @@
     "n": "Dumbarton Reporter",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/dumbarton-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "duncanbanner.com": {
+    "b": "LC",
+    "d": "duncanbanner.com",
+    "n": "Duncan Banner",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/duncan-banner-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -71105,6 +71144,20 @@
     "a": "M",
     "q": []
   },
+  "upperpeninsulatimes.com": {
+    "b": "FN",
+    "d": "upperpeninsulatimes.com",
+    "n": "Upper Peninsula Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/upper-peninsula-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "M",
+      "IM"
+    ]
+  },
   "upr.org": {
     "b": "LC",
     "d": "upr.org",
@@ -75653,6 +75706,16 @@
     "u": "https://mediabiasfactcheck.com/wjac-nbc-6-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wjbc.com": {
+    "b": "RC",
+    "d": "wjbc.com",
+    "n": "WJBC - 1230AM - Bloomington",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/wjbc-1230am-bloomington-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wjcl.com": {
