@@ -24861,6 +24861,16 @@
     "a": "M",
     "q": []
   },
+  "fully-human.org": {
+    "b": "CP",
+    "d": "fully-human.org",
+    "n": "Fully Human",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/fully-human-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "fury.news": {
     "b": "FN",
     "d": "fury.news",
@@ -32830,6 +32840,16 @@
     "n": "KCHU - NPR - Valdez",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kchu-npr-valdez-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "kclu.org": {
+    "b": "LC",
+    "d": "kclu.org",
+    "n": "KCLU - NPR - Santa Barbara",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kclu-npr-santa-barbara-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -53543,6 +53563,16 @@
       "PSE"
     ]
   },
+  "reclaimthenet.org": {
+    "b": "R",
+    "d": "reclaimthenet.org",
+    "n": "Reclaim the Net",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/reclaim-the-net-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "recode.net": {
     "b": "C",
     "d": "recode.net",
@@ -60891,6 +60921,16 @@
     "a": "L",
     "q": []
   },
+  "starj.com": {
+    "b": "C",
+    "d": "starj.com",
+    "n": "Hillsboro Star-Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/hillsboro-star-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "starnewsonline.com": {
     "b": "LC",
     "d": "starnewsonline.com",
@@ -60946,6 +60986,20 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "statenlislandreporter.com": {
+    "b": "FN",
+    "d": "statenlislandreporter.com",
+    "n": "Staten Island Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/staten-island-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "stateofthenation.co": {
     "b": "FN",
