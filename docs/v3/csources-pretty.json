@@ -15329,6 +15329,16 @@
     "a": "L",
     "q": []
   },
+  "crf-usa.org": {
+    "b": "C",
+    "d": "crf-usa.org",
+    "n": "Constitutional Rights Foundation",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/constitutional-rights-foundation/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
@@ -52907,6 +52917,8 @@
     "c": "L",
     "a": "M",
     "q": [
+      "C",
+      "P",
       "PS",
       "FFC",
       "FC",
@@ -66187,6 +66199,16 @@
     "u": "https://mediabiasfactcheck.com/the-mary-sue/",
     "P": 83,
     "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "themessenger.com": {
+    "b": "RC",
+    "d": "themessenger.com",
+    "n": "The Messenger",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-messenger-bias-and-credibility/",
+    "c": "M",
     "a": "H",
     "q": []
   },
