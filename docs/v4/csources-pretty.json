@@ -2824,6 +2824,16 @@
     "a": "L",
     "q": []
   },
+  "americainsider.org": {
+    "b": "R",
+    "d": "americainsider.org",
+    "n": "America Insider",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/america-insider-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "americamagazine.org": {
     "b": "LC",
     "d": "americamagazine.org",
@@ -25080,6 +25090,16 @@
     "t": "USGAO",
     "u": "https://mediabiasfactcheck.com/us-government-accountability-office-gao/",
     "P": 86,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "gapminder.org": {
+    "b": "C",
+    "d": "gapminder.org",
+    "n": "Gapminder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/gapminder-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -48081,6 +48101,22 @@
       "LT",
       "FC",
       "IM"
+    ]
+  },
+  "okeefemediagroup.com": {
+    "b": "FN",
+    "d": "okeefemediagroup.com",
+    "n": "O'Keefe Media Group",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/okeefe-media-group-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "M"
     ]
   },
   "oklahoman.com": {
