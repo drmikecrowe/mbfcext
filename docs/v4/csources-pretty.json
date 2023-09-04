@@ -2570,6 +2570,16 @@
     "a": "N",
     "q": []
   },
+  "altcensored.com": {
+    "b": "CP",
+    "d": "altcensored.com",
+    "n": "AltCensored.com",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/altcensored-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": []
+  },
   "altermedzentrum.com": {
     "b": "CP",
     "d": "altermedzentrum.com",
@@ -24753,6 +24763,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/clinical-diabetes-and-healthcare": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/clinical-diabetes-and-healthcare",
+    "n": "Frontiers in Clinical Diabetes and Healthcare",
+    "p": "/journals/clinical-diabetes-and-healthcare",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-clinical-diabetes-and-healthcare-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -25710,6 +25731,21 @@
     "c": "NA",
     "a": "L",
     "q": []
+  },
+  "givesendgo.com": {
+    "b": "FN",
+    "d": "givesendgo.com",
+    "n": "GiveSendGo",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/givesendgo-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "M"
+    ]
   },
   "gizmodo.com": {
     "b": "L",
@@ -50038,6 +50074,16 @@
       "IM"
     ]
   },
+  "pentictonwesternnews.com": {
+    "b": "LC",
+    "d": "pentictonwesternnews.com",
+    "n": "Penticton Western News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/penticton-western-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "people.com": {
     "b": "L",
     "d": "people.com",
@@ -53228,7 +53274,7 @@
     "u": "https://mediabiasfactcheck.com/raw-progressive/",
     "P": 12,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "rawstory.com": {
@@ -53403,7 +53449,7 @@
     "u": "https://mediabiasfactcheck.com/real-clear-policy/",
     "P": 61,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "realclearpolitics.com": {
