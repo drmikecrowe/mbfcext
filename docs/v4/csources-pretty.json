@@ -8785,6 +8785,20 @@
     "a": "L",
     "q": []
   },
+  "businessday.ng": {
+    "b": "FN",
+    "d": "businessday.ng",
+    "n": "Business Day Nigeria",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/business-day-nigeria-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "PS",
+      "LT",
+      "FC"
+    ]
+  },
   "businessinsider.com": {
     "b": "LC",
     "d": "businessinsider.com",
@@ -8925,6 +8939,27 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "byoblu.com": {
+    "b": "FN",
+    "d": "byoblu.com",
+    "n": "ByoBlu",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/byoblu-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
   },
   "c-span.org": {
     "b": "C",
@@ -10978,6 +11013,17 @@
     "p": "/matter",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/matter-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/med": {
+    "b": "PS",
+    "d": "cell.com/med",
+    "n": "Med Journal",
+    "p": "/med",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/med-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -32798,6 +32844,16 @@
     "u": "https://mediabiasfactcheck.com/kbjr-duluth-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kboi.com": {
+    "b": "R",
+    "d": "kboi.com",
+    "n": "KBOI - 93.1 - Boise",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kboi-93-1fm-boise-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "kbrw.org": {
@@ -60818,6 +60874,16 @@
     "a": "M",
     "q": []
   },
+  "stalbertgazette.com": {
+    "b": "LC",
+    "d": "stalbertgazette.com",
+    "n": "St. Albert Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/st-albert-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "stamfordadvocate.com": {
     "b": "LC",
     "d": "stamfordadvocate.com",
@@ -72924,6 +72990,16 @@
     "P": 97,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "vp-mi.com": {
+    "b": "C",
+    "d": "vp-mi.com",
+    "n": "Mineral independent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mineral-independent-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "vtdigger.org": {
