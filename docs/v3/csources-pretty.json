@@ -15492,6 +15492,16 @@
     "a": "M",
     "q": []
   },
+  "criticalthreats.org": {
+    "b": "RC",
+    "d": "criticalthreats.org",
+    "n": "Critical Threats",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/critical-threats-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "crooked.com": {
     "b": "L",
     "d": "crooked.com",
@@ -61957,6 +61967,20 @@
     "a": "L",
     "q": []
   },
+  "suffolkreporter.com": {
+    "b": "FN",
+    "d": "suffolkreporter.com",
+    "n": "Suffolk Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/suffolk-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "summerlinreporter.com": {
     "b": "FN",
     "d": "summerlinreporter.com",
@@ -66848,6 +66872,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "theoaxacapost.com": {
+    "b": "FN",
+    "d": "theoaxacapost.com",
+    "n": "Oaxaca Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/oaxaca-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
   },
   "theobjectivestandard.com": {
     "b": "RC",
@@ -73735,6 +73773,16 @@
     "n": "WBNG - Binghamton",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wbng-binghamton/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wboy.com": {
+    "b": "C",
+    "d": "wboy.com",
+    "n": "WBOY - Clarksburg News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wboy-clarksburg-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
