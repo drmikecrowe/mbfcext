@@ -2834,6 +2834,24 @@
     "a": "L",
     "q": []
   },
+  "americafirstreport.com": {
+    "b": "FN",
+    "d": "americafirstreport.com",
+    "n": "America First Report",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/america-first-report-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "americainsider.org": {
     "b": "R",
     "d": "americainsider.org",
@@ -25863,6 +25881,16 @@
     "a": "H",
     "q": []
   },
+  "glasgowtimes.co.uk": {
+    "b": "C",
+    "d": "glasgowtimes.co.uk",
+    "n": "Glasgow Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/glasgow-times-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "glendalestar.com": {
     "b": "C",
     "d": "glendalestar.com",
@@ -30024,6 +30052,16 @@
     "n": "Massillon Independent",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/massillon-independent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "independent-press.com": {
+    "b": "LC",
+    "d": "independent-press.com",
+    "n": "Rosebud Independent Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rosebud-independent-press-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -39581,6 +39619,17 @@
     "a": "M",
     "q": []
   },
+  "messenger-inquirer.com/grayson_county": {
+    "b": "RC",
+    "d": "messenger-inquirer.com/grayson_county",
+    "n": "Grayson County News Gazette",
+    "p": "/grayson_county",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/grayson-county-news-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "messengernews.net": {
     "b": "C",
     "d": "messengernews.net",
@@ -45933,6 +45982,16 @@
       "FC",
       "M"
     ]
+  },
+  "norcalpublicmedia.org": {
+    "b": "LC",
+    "d": "norcalpublicmedia.org",
+    "n": "KRCB - NPR - Rohnert Park",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/krcb-npr-rohnert-park-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "nordicmonitor.com": {
     "b": "FN",
@@ -70819,6 +70878,16 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/tva-nouvelles-bias/",
     "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "tvtropes.org": {
+    "b": "C",
+    "d": "tvtropes.org",
+    "n": "TV Tropes",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tv-tropes-bias/",
+    "c": "M",
     "a": "H",
     "q": []
   },
