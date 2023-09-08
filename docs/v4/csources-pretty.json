@@ -16394,7 +16394,7 @@
     "b": "C",
     "d": "dailymaverick.co.za",
     "n": "Daily Maverick",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/daily-maverick/",
     "P": 61,
     "c": "H",
@@ -29987,6 +29987,16 @@
     "t": "theIMEU",
     "u": "https://mediabiasfactcheck.com/institute-for-middle-east-understanding-imeu/",
     "P": 46,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "immunityageing.biomedcentral.com": {
+    "b": "PS",
+    "d": "immunityageing.biomedcentral.com",
+    "n": "Immunity & Ageing Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/immunity-ageing-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -45134,6 +45144,19 @@
       "PS",
       "LT",
       "M"
+    ]
+  },
+  "newsrnd.com": {
+    "b": "FN",
+    "d": "newsrnd.com",
+    "n": "The Limited Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-limited-times-newsrnd-com-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT"
     ]
   },
   "newsroom.co.nz": {
@@ -62740,6 +62763,20 @@
     "a": "H",
     "q": []
   },
+  "syracusesun.com": {
+    "b": "FN",
+    "d": "syracusesun.com",
+    "n": "Syracuse Sun",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/syracuse-sun-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "syriahr.com": {
     "b": "LC",
     "d": "syriahr.com",
@@ -63812,6 +63849,16 @@
     "u": "https://mediabiasfactcheck.com/the-postillion/",
     "P": 37,
     "c": "NA",
+    "a": "L",
+    "q": []
+  },
+  "the-review.com": {
+    "b": "LC",
+    "d": "the-review.com",
+    "n": "Alliance Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/alliance-review-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -70878,6 +70925,16 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/tva-nouvelles-bias/",
     "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "tvp.info": {
+    "b": "R",
+    "d": "tvp.info",
+    "n": "TVP Info",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tvp-info-bias/",
+    "c": "M",
     "a": "H",
     "q": []
   },
