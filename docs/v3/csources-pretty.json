@@ -13745,6 +13745,16 @@
     "a": "M",
     "q": []
   },
+  "communitypress.ca": {
+    "b": "RC",
+    "d": "communitypress.ca",
+    "n": "Belleville Community Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/belleville-community-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "comoxvalleyrecord.com": {
     "b": "LC",
     "d": "comoxvalleyrecord.com",
@@ -18329,6 +18339,25 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "discernreport.com": {
+    "b": "FN",
+    "d": "discernreport.com",
+    "n": "Discern Report",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/discern-report-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE"
+    ]
   },
   "disclose.tv": {
     "b": "FN",
@@ -36185,6 +36214,16 @@
     "a": "L",
     "q": []
   },
+  "leparisien.fr": {
+    "b": "RC",
+    "d": "leparisien.fr",
+    "n": "Le Parisien",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/le-parisien-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "lesmoutonsrebelles.com": {
     "b": "CP",
     "d": "lesmoutonsrebelles.com",
@@ -38937,6 +38976,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/bdcc": {
+    "b": "PS",
+    "d": "mdpi.com/journal/bdcc",
+    "n": "Big Data and Cognitive Computing journal",
+    "p": "/journal/bdcc",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/big-data-and-cognitive-computing-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/behavsci": {
     "b": "PS",
     "d": "mdpi.com/journal/behavsci",
@@ -39544,6 +39594,16 @@
     "P": 33,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "merkur.de": {
+    "b": "C",
+    "d": "merkur.de",
+    "n": "Munchner Merkur",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/munchner-merkur-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "merrimackvalleynews.com": {
@@ -53648,7 +53708,7 @@
     "u": "https://mediabiasfactcheck.com/realclimate/",
     "P": 81,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "realclimatescience.com": {
@@ -53669,7 +53729,7 @@
     "r": "L",
     "u": "https://mediabiasfactcheck.com/real-conservatives-unite/",
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "C",
       "P",
@@ -53750,7 +53810,7 @@
     "u": "https://mediabiasfactcheck.com/real-news-right-now/",
     "P": 40,
     "c": "NA",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "realrawnews.com": {
@@ -74884,6 +74944,20 @@
     "n": "West HIllsborough News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/west-hillsborough-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "westhudvalleynews.com": {
+    "b": "FN",
+    "d": "westhudvalleynews.com",
+    "n": "West Hudson Valley News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-hudson-valley-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
