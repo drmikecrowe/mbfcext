@@ -614,14 +614,12 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "aap.com.au": {
@@ -15532,6 +15530,16 @@
     "a": "M",
     "q": []
   },
+  "cronkitenews.azpbs.org": {
+    "b": "LC",
+    "d": "cronkitenews.azpbs.org",
+    "n": "Cronkite News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cronkite-news-arizona-pbs-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "crooked.com": {
     "b": "L",
     "d": "crooked.com",
@@ -15578,6 +15586,16 @@
     "u": "https://mediabiasfactcheck.com/crosscut-com/",
     "P": 69,
     "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "crossexamined.org": {
+    "b": "CP",
+    "d": "crossexamined.org",
+    "n": "CrossExamined.org",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/crossexamined-org-bias/",
+    "c": "L",
     "a": "M",
     "q": []
   },
@@ -15865,6 +15883,16 @@
       "IM"
     ]
   },
+  "cursor.org": {
+    "b": "LC",
+    "d": "cursor.org",
+    "n": "Cursor",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cursor-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "curvemag.com": {
     "b": "L",
     "d": "curvemag.com",
@@ -15894,6 +15922,16 @@
     "n": "KIAH - CW39",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kiah-cw39/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "cyberscoop.com": {
+    "b": "C",
+    "d": "cyberscoop.com",
+    "n": "Cyberscoop",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cyberscoop-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -16436,6 +16474,17 @@
     "a": "M",
     "q": []
   },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
+    "q": []
+  },
   "dailynewsreported.com": {
     "b": "S",
     "d": "dailynewsreported.com",
@@ -16747,6 +16796,27 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "dailyveracity.com": {
+    "b": "FN",
+    "d": "dailyveracity.com",
+    "n": "Daily Veracity",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/dailyveracity/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
   },
   "dailywire.com": {
     "b": "R",
@@ -22022,6 +22092,16 @@
     "a": "H",
     "q": []
   },
+  "fayettetribune.com": {
+    "b": "LC",
+    "d": "fayettetribune.com",
+    "n": "Fayette Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fayette-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "fayettevillestandard.com": {
     "b": "FN",
     "d": "fayettevillestandard.com",
@@ -23994,12 +24074,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -24082,16 +24162,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -25684,6 +25754,26 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "georgiarecord.com": {
+    "b": "FN",
+    "d": "georgiarecord.com",
+    "n": "George Record",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/georgia-record-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE",
       "IM"
     ]
   },
@@ -33765,6 +33855,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -56341,6 +56450,19 @@
     "a": "N",
     "q": []
   },
+  "sancristobalpost.com": {
+    "b": "FN",
+    "d": "sancristobalpost.com",
+    "n": "San Cristobal Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/san-cristobal-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "IM"
+    ]
+  },
   "sanctumnews.com": {
     "b": "S",
     "d": "sanctumnews.com",
@@ -69320,6 +69442,16 @@
     "a": "H",
     "q": []
   },
+  "timesofmalta.com": {
+    "b": "C",
+    "d": "timesofmalta.com",
+    "n": "Times of Malta",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/times-of-malta-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "timesofsandiego.com": {
     "b": "C",
     "d": "timesofsandiego.com",
@@ -72375,6 +72507,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "valleygazette.org": {
+    "b": "FN",
+    "d": "valleygazette.org",
+    "n": "Valley Gazette",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/valley-gazette-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
+    ]
   },
   "valleynewslive.com": {
     "b": "C",
