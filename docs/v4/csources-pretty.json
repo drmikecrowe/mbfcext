@@ -16494,6 +16494,16 @@
     "a": "L",
     "q": []
   },
+  "dailynk.com": {
+    "b": "C",
+    "d": "dailynk.com",
+    "n": "Daily NK",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-nk-bias/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "dailynorthwestern.com": {
     "b": "C",
     "d": "dailynorthwestern.com",
@@ -16556,6 +16566,16 @@
       "LT",
       "M"
     ]
+  },
+  "dailypost.ng": {
+    "b": "C",
+    "d": "dailypost.ng",
+    "n": "Daily Post Nigeria",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/daily-post-nigeria-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
   },
   "dailypress.com": {
     "b": "RC",
@@ -24948,6 +24968,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/cognition": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/cognition",
+    "n": "Frontiers in Cognition",
+    "p": "/journals/cognition",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-cognition-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -28332,6 +28363,16 @@
     "P": 70,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "heraldtimesonline.com": {
+    "b": "LC",
+    "d": "heraldtimesonline.com",
+    "n": "Bloomington Herald-Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bloomington-herald-times-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "heraldtribune.com": {
@@ -63106,6 +63147,16 @@
     "a": "M",
     "q": []
   },
+  "talk1270.com": {
+    "b": "R",
+    "d": "talk1270.com",
+    "n": "WHLD - 1270AM - Buffalo",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/whld-1270am-buffalo-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "talk995.com": {
     "b": "R",
     "d": "talk995.com",
@@ -75147,6 +75198,20 @@
     "c": "M",
     "a": "N",
     "q": []
+  },
+  "westnynews.com": {
+    "b": "FN",
+    "d": "westnynews.com",
+    "n": "West NY News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-ny-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "westoctimes.com": {
     "b": "FN",
