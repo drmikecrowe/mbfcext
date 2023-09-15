@@ -7369,6 +7369,16 @@
     "a": "N",
     "q": []
   },
+  "blueprint.ng": {
+    "b": "C",
+    "d": "blueprint.ng",
+    "n": "Blueprint Newspaper",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/blueprint-newspaper-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "bluestatebluesnews.com": {
     "b": "FN",
     "d": "bluestatebluesnews.com",
@@ -11042,6 +11052,17 @@
     "p": "/med",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/med-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/molecular-cell": {
+    "b": "PS",
+    "d": "cell.com/molecular-cell",
+    "n": "Molecular Cell Journal",
+    "p": "/molecular-cell",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/molecular-cell-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -69217,6 +69238,16 @@
     "t": "rjeskow",
     "u": "https://mediabiasfactcheck.com/the-zero-hour/",
     "P": 30,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "thompsoncitizen.net": {
+    "b": "LC",
+    "d": "thompsoncitizen.net",
+    "n": "Thompson Citizen",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/thompson-citizen-bias/",
     "c": "H",
     "a": "L",
     "q": []
