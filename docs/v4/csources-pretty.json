@@ -614,14 +614,12 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "aap.com.au": {
@@ -10354,7 +10352,7 @@
     "u": "https://mediabiasfactcheck.com/regulation-magazine/",
     "P": 41,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "causeur.fr": {
@@ -16497,6 +16495,17 @@
     "a": "M",
     "q": []
   },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
+    "q": []
+  },
   "dailynewsreported.com": {
     "b": "S",
     "d": "dailynewsreported.com",
@@ -16816,6 +16825,16 @@
     "P": 51,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "dailytrust.com": {
+    "b": "LC",
+    "d": "dailytrust.com",
+    "n": "Daily Trust",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/daily-trust-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "dailyusaupdate.com": {
@@ -17613,6 +17632,16 @@
     "P": 42,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "defenddemocracy.press": {
+    "b": "L",
+    "d": "defenddemocracy.press",
+    "n": "Defend Democracy Press",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/defend-democracy-press-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "defendevropa.org": {
@@ -24152,12 +24181,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -24240,16 +24269,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -30763,6 +30782,15 @@
       "M"
     ]
   },
+  "informnny.com": {
+    "d": "informnny.com",
+    "n": "WWTI - Watertown News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wwti-watertown-news-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "inforos.ru": {
     "b": "FN",
     "d": "inforos.ru",
@@ -33974,6 +34002,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -38341,6 +38388,16 @@
     "u": "https://mediabiasfactcheck.com/marion-county-record-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "marketbeat.com": {
+    "b": "C",
+    "d": "marketbeat.com",
+    "n": "MarketBeat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/marketbeat-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "marketrealist.com": {
@@ -48407,6 +48464,16 @@
     "a": "L",
     "q": []
   },
+  "odysee.com": {
+    "b": "CP",
+    "d": "odysee.com",
+    "n": "Odysee",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/odysee-bias-and-credibility/",
+    "c": "L",
+    "a": "H",
+    "q": []
+  },
   "off-guardian.org": {
     "b": "CP",
     "d": "off-guardian.org",
@@ -53386,6 +53453,19 @@
     "a": "M",
     "q": []
   },
+  "queretaropost.com": {
+    "b": "FN",
+    "d": "queretaropost.com",
+    "n": "Queretaro Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/queretaro-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "IM"
+    ]
+  },
   "quesnelobserver.com": {
     "b": "LC",
     "d": "quesnelobserver.com",
@@ -54480,7 +54560,7 @@
     "u": "https://mediabiasfactcheck.com/red-state-watcher/",
     "P": 50,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -74995,6 +75075,20 @@
       "IM"
     ]
   },
+  "westchesterreporter.com": {
+    "b": "FN",
+    "d": "westchesterreporter.com",
+    "n": "Westchester Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/westchester-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "westcontracostanews.com": {
     "b": "FN",
     "d": "westcontracostanews.com",
@@ -77726,6 +77820,16 @@
     "u": "https://mediabiasfactcheck.com/wgnt-hampton-roads-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wtma.com": {
+    "b": "R",
+    "d": "wtma.com",
+    "n": "WTMA - 1250AM - Charleston",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wtma-1250am-charleston-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wtnh.com": {
