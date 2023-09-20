@@ -15987,6 +15987,16 @@
       "M"
     ]
   },
+  "daily-jeff.com": {
+    "b": "LC",
+    "d": "daily-jeff.com",
+    "n": "Daily Jeffersonian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/daily-jeffersonian-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "daily-journal.com": {
     "b": "C",
     "d": "daily-journal.com",
@@ -18719,6 +18729,16 @@
     "a": "L",
     "q": []
   },
+  "distractify.com": {
+    "b": "LC",
+    "d": "distractify.com",
+    "n": "Distractify",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/distractify-bias/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "distributednews.com": {
     "b": "CP",
     "d": "distributednews.com",
@@ -18859,6 +18879,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/dodge-city-daily-globe-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "dollarcollapse.com": {
+    "b": "R",
+    "d": "dollarcollapse.com",
+    "n": "Dollar Collapse",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dollar-collapse-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -30724,6 +30754,16 @@
     "P": 72,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "infectagentscancer.biomedcentral.com": {
+    "b": "PS",
+    "d": "infectagentscancer.biomedcentral.com",
+    "n": "Infectious Agents and Cancer Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/infectious-agents-and-cancer-journal-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "infiniteunknown.net": {
@@ -57707,7 +57747,7 @@
     "u": "https://mediabiasfactcheck.com/science-trends/",
     "P": 47,
     "c": "H",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "sciencevibe.com": {
@@ -57881,7 +57921,7 @@
     "u": "https://mediabiasfactcheck.com/scoopwhoop/",
     "P": 73,
     "c": "M",
-    "a": "H",
+    "a": "M",
     "q": []
   },
   "scoperatings.com": {
@@ -63997,6 +64037,20 @@
       "FFC",
       "FC",
       "CEN"
+    ]
+  },
+  "tellerreport.com": {
+    "b": "FN",
+    "d": "tellerreport.com",
+    "n": "Teller Report",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/teller-report-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "PS",
+      "LT",
+      "M"
     ]
   },
   "tennessean.com": {
