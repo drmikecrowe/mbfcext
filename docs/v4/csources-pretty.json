@@ -8728,6 +8728,20 @@
     "a": "L",
     "q": []
   },
+  "burlingtonreporter.com": {
+    "b": "FN",
+    "d": "burlingtonreporter.com",
+    "n": "Burlington Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/burlington-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "burlingtonreview.com": {
     "b": "FN",
     "d": "burlingtonreview.com",
@@ -20368,6 +20382,16 @@
       "FC",
       "IM"
     ]
+  },
+  "educatorstechnology.com": {
+    "b": "LC",
+    "d": "educatorstechnology.com",
+    "n": "Educators Technology",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/educators-technology-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "edweek.org": {
     "b": "LC",
@@ -39357,6 +39381,17 @@
     "p": "/journal/beverages",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/beverages-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/biochem": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biochem",
+    "n": "BioChem Journal",
+    "p": "/journal/biochem",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biochem-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -73371,6 +73406,16 @@
     "P": 80,
     "c": "L",
     "a": "M",
+    "q": []
+  },
+  "vigilante.tv": {
+    "b": "CP",
+    "d": "vigilante.tv",
+    "n": "Vigilante.TV",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/vigilante-tv-bias-2/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "villages-news.com": {
