@@ -13521,6 +13521,25 @@
     "a": "M",
     "q": []
   },
+  "coloradofreepress.com": {
+    "b": "FN",
+    "d": "coloradofreepress.com",
+    "n": "Colorado Free Press",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/colorado-free-press-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE",
+      "IM"
+    ]
+  },
   "coloradonewsline.com": {
     "b": "L",
     "d": "coloradonewsline.com",
@@ -14544,7 +14563,7 @@
     "b": "L",
     "d": "consortiumnews.com",
     "n": "Consortium News",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/consortium-news/",
     "P": 78,
     "c": "H",
@@ -18939,6 +18958,16 @@
     "a": "N",
     "q": []
   },
+  "dorchesterreview.ca": {
+    "b": "R",
+    "d": "dorchesterreview.ca",
+    "n": "Dorchester Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dorchester-review-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "dorsetecho.co.uk": {
     "b": "C",
     "d": "dorsetecho.co.uk",
@@ -22469,6 +22498,16 @@
     "P": 16,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "fedscoop.com": {
+    "b": "C",
+    "d": "fedscoop.com",
+    "n": "FedScoop",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fedscoop-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "fedsoc.org": {
@@ -35658,6 +35697,16 @@
       "FC",
       "IM"
     ]
+  },
+  "lakeshoreadvance.com": {
+    "b": "RC",
+    "d": "lakeshoreadvance.com",
+    "n": "Exeter Lakeshore Times-Advance",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/exeter-lakeshore-times-advance-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "laketahoesun.com": {
     "b": "FN",
@@ -57473,7 +57522,7 @@
     "u": "https://mediabiasfactcheck.com/scicentral/",
     "P": 36,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "science.energy.gov": {
@@ -57671,7 +57720,7 @@
     "u": "https://mediabiasfactcheck.com/science-debate/",
     "P": 52,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "sciencedirect.com": {
@@ -66302,6 +66351,20 @@
     "c": "M",
     "a": "N",
     "q": []
+  },
+  "theguerreropost.com": {
+    "b": "FN",
+    "d": "theguerreropost.com",
+    "n": "Guerrero Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/guerrero-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
   },
   "thehardtimes.net": {
     "b": "S",
