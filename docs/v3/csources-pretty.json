@@ -19184,6 +19184,26 @@
     "a": "H",
     "q": []
   },
+  "druthers.net": {
+    "b": "FN",
+    "d": "druthers.net",
+    "n": "Druthers",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/druthers-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "dubuquetimes.com": {
     "b": "FN",
     "d": "dubuquetimes.com",
@@ -28727,6 +28747,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/heterodox-academy/",
     "P": 60,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "hgazette.com": {
+    "b": "LC",
+    "d": "hgazette.com",
+    "n": "Haverhill Gazatte",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/haverhill-gazette-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -55163,7 +55193,7 @@
     "u": "https://mediabiasfactcheck.com/represent-us/",
     "P": 70,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "repubblica.it": {
@@ -55232,7 +55262,7 @@
     "u": "https://mediabiasfactcheck.com/republic-report/",
     "P": 59,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "republicworld.com": {
@@ -55309,7 +55339,7 @@
     "u": "https://mediabiasfactcheck.com/resilience-post-carbon-institute/",
     "P": 54,
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "resistancemedia.org": {
@@ -55399,7 +55429,7 @@
     "q": []
   },
   "restoreamericanglory.com": {
-    "b": "R",
+    "b": "FN",
     "d": "restoreamericanglory.com",
     "n": "Restore American Glory",
     "r": "H",
@@ -55407,7 +55437,12 @@
     "P": 25,
     "c": "H",
     "a": "L",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FC"
+    ]
   },
   "retailwire.com": {
     "b": "LC",
@@ -55454,7 +55489,7 @@
     "u": "https://mediabiasfactcheck.com/return-to-now/",
     "P": 44,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "reuters.com": {
@@ -74351,6 +74386,20 @@
       "FC",
       "M",
       "PSE"
+    ]
+  },
+  "washoegazette.com": {
+    "b": "FN",
+    "d": "washoegazette.com",
+    "n": "Washoe Gazette",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/washoe-gazette-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "IM"
     ]
   },
   "washoenews.com": {
