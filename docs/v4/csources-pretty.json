@@ -5300,9 +5300,9 @@
     "b": "C",
     "d": "audacy.com",
     "n": "Audacy",
-    "r": "H",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/radio-com/",
-    "c": "H",
+    "c": "M",
     "a": "H",
     "q": []
   },
@@ -9483,6 +9483,20 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "cabarrustoday.com": {
+    "b": "FN",
+    "d": "cabarrustoday.com",
+    "n": "Cabarrus Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cabarrus-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "cagw.org": {
     "b": "R",
@@ -19106,6 +19120,16 @@
     "a": "N",
     "q": []
   },
+  "drawdown.com": {
+    "b": "PS",
+    "d": "drawdown.com",
+    "n": "Project Drawdown",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/project-drawdown-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "draxe.com": {
     "b": "CP",
     "d": "draxe.com",
@@ -19129,12 +19153,32 @@
     "a": "L",
     "q": []
   },
+  "drmorse.tv": {
+    "b": "CP",
+    "d": "drmorse.tv",
+    "n": "Dr. Morse TV",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/dr-morse-tv-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "drnorthrup.com": {
     "b": "CP",
     "d": "drnorthrup.com",
     "n": "DrNorthrup.com",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/drnorthrup-com/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "drtrozzi.org": {
+    "b": "CP",
+    "d": "drtrozzi.org",
+    "n": "DrTrozzi.org",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/drtrozzi-org-bias/",
     "c": "L",
     "a": "L",
     "q": []
@@ -25229,6 +25273,17 @@
     "p": "/journals/cognition",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-cognition-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/communication": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/communication",
+    "n": "Frontiers in Communication",
+    "p": "/journals/communication",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-communication-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -39855,7 +39910,7 @@
     "u": "https://mediabiasfactcheck.com/meidastouch/",
     "P": 36,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "memeorandum.com": {
@@ -76033,6 +76088,16 @@
     "P": 79,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "wgowam.com": {
+    "b": "R",
+    "d": "wgowam.com",
+    "n": "WGOW - 1150AM - Chattanooga",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wgow-1150am-chattanooga-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wgrz.com": {
