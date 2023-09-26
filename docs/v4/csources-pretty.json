@@ -13955,6 +13955,21 @@
     "a": "H",
     "q": []
   },
+  "congressionalagenda.com": {
+    "b": "FN",
+    "d": "congressionalagenda.com",
+    "n": "Congressional Agenda",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/congressional-agenda-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "M"
+    ]
+  },
   "consciouslifenews.com": {
     "b": "CP",
     "d": "consciouslifenews.com",
@@ -36270,6 +36285,16 @@
     "a": "L",
     "q": []
   },
+  "leaderadvertiser.com": {
+    "b": "C",
+    "d": "leaderadvertiser.com",
+    "n": "Lake County Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lake-county-leader-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "leaderpost.com": {
     "b": "RC",
     "d": "leaderpost.com",
@@ -57264,6 +57289,16 @@
     "a": "M",
     "q": []
   },
+  "saobserver.net": {
+    "b": "LC",
+    "d": "saobserver.net",
+    "n": "Salmon Arm Observer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/salmon-arm-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sapiens.org": {
     "b": "LC",
     "d": "sapiens.org",
@@ -77738,6 +77773,19 @@
       "FC",
       "M",
       "FN"
+    ]
+  },
+  "worldtimetodays.com": {
+    "b": "FN",
+    "d": "worldtimetodays.com",
+    "n": "WorldTimeTodays",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/worldtimetodays-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT"
     ]
   },
   "worldtribune.com": {
