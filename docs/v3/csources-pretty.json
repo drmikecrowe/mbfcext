@@ -11108,6 +11108,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/neuron": {
+    "b": "PS",
+    "d": "cell.com/neuron",
+    "n": "Neuron Journal",
+    "p": "/neuron",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/neuron-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -18821,6 +18832,16 @@
     "t": "DiversityInc",
     "u": "https://mediabiasfactcheck.com/diversityinc/",
     "P": 76,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "dividedwefall.org": {
+    "b": "C",
+    "d": "dividedwefall.org",
+    "n": "Divided We Fall",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/divided-we-fall-bias-and-credibility/",
     "c": "H",
     "a": "L",
     "q": []
@@ -53842,6 +53863,22 @@
     "a": "L",
     "q": []
   },
+  "radaronline.com": {
+    "b": "FN",
+    "d": "radaronline.com",
+    "n": "RadarOnline",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/radaronline-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "FN"
+    ]
+  },
   "radiotelevisionmarti.com": {
     "b": "LC",
     "d": "radiotelevisionmarti.com",
@@ -70974,6 +71011,16 @@
     "a": "H",
     "q": []
   },
+  "tricitynews.com": {
+    "b": "LC",
+    "d": "tricitynews.com",
+    "n": "Tri-City News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tri-city-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "tricitysun.com": {
     "b": "FN",
     "d": "tricitysun.com",
@@ -77213,6 +77260,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wlrh-npr-huntsville/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "wlsam.com": {
+    "b": "R",
+    "d": "wlsam.com",
+    "n": "WLS - 890AM - Chicago",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wls-890am-chicago-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
