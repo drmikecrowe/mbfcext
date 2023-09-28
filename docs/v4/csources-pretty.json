@@ -11119,6 +11119,16 @@
     "a": "L",
     "q": []
   },
+  "cenlanow.com": {
+    "b": "C",
+    "d": "cenlanow.com",
+    "n": "WNTZ - Alexandria News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wntz-alexandria-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "censor.net": {
     "b": "LC",
     "d": "censor.net",
@@ -11590,6 +11600,20 @@
     "c": "H",
     "a": "H",
     "q": []
+  },
+  "chapelhillreview.com": {
+    "b": "FN",
+    "d": "chapelhillreview.com",
+    "n": "Chapel Hill Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/chapel-hill-review-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "chardandilminsternews.co.uk": {
     "b": "C",
@@ -19611,6 +19635,16 @@
     "P": 67,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "earth.com": {
+    "b": "PS",
+    "d": "earth.com",
+    "n": "Earth.com",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/earth-com-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "earthfirstjournal.news": {
@@ -49194,6 +49228,16 @@
     "a": "M",
     "q": []
   },
+  "opindia.com": {
+    "b": "R",
+    "d": "opindia.com",
+    "n": "Opinidia",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/opindia-bias/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "opposingviews.com": {
     "b": "RC",
     "d": "opposingviews.com",
@@ -57568,7 +57612,7 @@
     "u": "https://mediabiasfactcheck.com/save-jersey/",
     "P": 44,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "savethemales.ca": {
@@ -57673,7 +57717,7 @@
     "u": "https://mediabiasfactcheck.com/schmedium/",
     "P": 15,
     "c": "NA",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "scicentral.com": {
@@ -79426,6 +79470,16 @@
     "P": 48,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "zona.media": {
+    "b": "L",
+    "d": "zona.media",
+    "n": "Zona Media (MediaZona)",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/zona-media-bias/",
+    "c": "M",
+    "a": "M",
     "q": []
   },
   "zootfeed.com": {
