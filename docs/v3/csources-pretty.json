@@ -20,6 +20,7 @@
     "c": "L",
     "a": "M",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
@@ -108,7 +109,7 @@
     "u": "https://mediabiasfactcheck.com/12minutos-com/",
     "P": 32,
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "FN"
     ]
@@ -294,7 +295,7 @@
     "u": "https://mediabiasfactcheck.com/21st-century-wire/",
     "P": 64,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "247newsmedia.com": {
@@ -19914,6 +19915,16 @@
       "IM"
     ]
   },
+  "eastlothiancourier.com": {
+    "b": "C",
+    "d": "eastlothiancourier.com",
+    "n": "East Lothian Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/east-lothian-courier-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "eastlouisvillenews.com": {
     "b": "FN",
     "d": "eastlouisvillenews.com",
@@ -20096,6 +20107,16 @@
       "FC",
       "IM"
     ]
+  },
+  "eastwestcenter.org": {
+    "b": "LC",
+    "d": "eastwestcenter.org",
+    "n": "East-West Center",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/east-west-center-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "eastwitchitatimes.com": {
     "b": "FN",
@@ -28715,6 +28736,17 @@
     "n": "St. Joseph Herald-Palladium",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/st-joseph-herald-palladium-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "heraldpalladium.com/southhaventribune": {
+    "b": "RC",
+    "d": "heraldpalladium.com/southhaventribune",
+    "n": "South Haven Tribune",
+    "p": "/southhaventribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/south-haven-tribune-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -41535,6 +41567,20 @@
       "IM"
     ]
   },
+  "monterreydailypost.com": {
+    "b": "FN",
+    "d": "monterreydailypost.com",
+    "n": "Monterrey Daily Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/monterrey-daily-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "montgomery-herald.com": {
     "b": "LC",
     "d": "montgomery-herald.com",
@@ -45729,7 +45775,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/santa-barbara-news-press/",
     "c": "M",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "newspressnow.com": {
@@ -55784,7 +55830,7 @@
     "u": "https://mediabiasfactcheck.com/rewire/",
     "P": 74,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "rexburgstandardjournal.com": {
@@ -56542,7 +56588,7 @@
     "u": "https://mediabiasfactcheck.com/roosevelt-institute/",
     "P": 58,
     "c": "H",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "roysecityheraldbanner.com": {
@@ -57119,7 +57165,7 @@
     "u": "https://mediabiasfactcheck.com/san-diego-reader/",
     "P": 75,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "sandiegouniontribune.com": {
@@ -57347,7 +57393,7 @@
     "u": "https://mediabiasfactcheck.com/santa-maria-times/",
     "P": 68,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "santansun.com": {
@@ -79130,6 +79176,16 @@
       "PS",
       "CEN"
     ]
+  },
+  "youmatter.world": {
+    "b": "LC",
+    "d": "youmatter.world",
+    "n": "YouMatter.World",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/youmatter-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "yourbasin.com": {
     "b": "C",
