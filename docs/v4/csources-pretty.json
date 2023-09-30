@@ -5010,6 +5010,16 @@
     "a": "M",
     "q": []
   },
+  "aspenpublicradio.com": {
+    "b": "LC",
+    "d": "aspenpublicradio.com",
+    "n": "KAJX - NPR - Aspen",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kajx-npr-aspen-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "aspentimes.com": {
     "b": "C",
     "d": "aspentimes.com",
@@ -5450,9 +5460,13 @@
     "c": "L",
     "a": "L",
     "q": [
+      "C",
+      "P",
       "PS",
       "FC",
-      "M"
+      "M",
+      "H",
+      "PSE"
     ]
   },
   "awakecanada.org": {
@@ -20567,6 +20581,16 @@
       "IM"
     ]
   },
+  "educationnext.org": {
+    "b": "RC",
+    "d": "educationnext.org",
+    "n": "Education Next",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/education-next-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "educatorstechnology.com": {
     "b": "LC",
     "d": "educatorstechnology.com",
@@ -21261,6 +21285,16 @@
     "P": 45,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "endlockdowns.org": {
+    "b": "CP",
+    "d": "endlockdowns.org",
+    "n": "Lockdown Resistance",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/lockdown-resistance-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "endthefed.org": {
@@ -64449,6 +64483,16 @@
     "a": "L",
     "q": []
   },
+  "terrytribune.com": {
+    "b": "LC",
+    "d": "terrytribune.com",
+    "n": "Terry Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/terry-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tetonvalleynews.net": {
     "b": "C",
     "d": "tetonvalleynews.net",
@@ -72550,6 +72594,7 @@
     "c": "L",
     "a": "L",
     "q": [
+      "C",
       "P",
       "LT"
     ]
@@ -78862,6 +78907,26 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "xyz.net.au": {
+    "b": "FN",
+    "d": "xyz.net.au",
+    "n": "XYZ.net.au",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/xyz-net-au-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "yaf.org": {
     "b": "R",
