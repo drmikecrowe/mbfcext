@@ -19504,6 +19504,20 @@
     "a": "L",
     "q": []
   },
+  "durhamreporter.com": {
+    "b": "FN",
+    "d": "durhamreporter.com",
+    "n": "Durham Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/durham-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "dutchdailynews.com": {
     "b": "LC",
     "d": "dutchdailynews.com",
@@ -19659,6 +19673,16 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/earth-com-bias/",
     "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "earth.org": {
+    "b": "LC",
+    "d": "earth.org",
+    "n": "Earth.org",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/earth-org-bias/",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -20611,6 +20635,16 @@
     "a": "M",
     "q": []
   },
+  "eenews.net": {
+    "b": "LC",
+    "d": "eenews.net",
+    "n": "E&E News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ee-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "eff.org": {
     "b": "LC",
     "d": "eff.org",
@@ -21455,6 +21489,16 @@
     "u": "https://mediabiasfactcheck.com/the-chosun-ilbo/",
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "english.kyodonews.net": {
+    "b": "C",
+    "d": "english.kyodonews.net",
+    "n": "Kyodo News Plus",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kyodo-news-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "enhlive.com": {
@@ -31061,6 +31105,16 @@
     "a": "L",
     "q": []
   },
+  "inflammregen.biomedcentral.com": {
+    "b": "PS",
+    "d": "inflammregen.biomedcentral.com",
+    "n": "Inflammation and Regeneration Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/inflammation-and-regeneration-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "influencewatch.org": {
     "b": "R",
     "d": "influencewatch.org",
@@ -38794,6 +38848,16 @@
     "n": "Marion County Record",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/marion-county-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "marionstar.com": {
+    "b": "LC",
+    "d": "marionstar.com",
+    "n": "Marion Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/marion-star-bias/",
     "c": "H",
     "a": "L",
     "q": []
