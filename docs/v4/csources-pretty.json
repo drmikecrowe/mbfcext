@@ -19938,6 +19938,20 @@
       "IM"
     ]
   },
+  "eastlakenormannews.com": {
+    "b": "FN",
+    "d": "eastlakenormannews.com",
+    "n": "East Lake Norman News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-lake-norman-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "eastlittlerocktimes.com": {
     "b": "FN",
     "d": "eastlittlerocktimes.com",
@@ -21548,6 +21562,16 @@
     "n": "Entrepreneur Magazine",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/entrepreneur-magazine/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "epa.gov": {
+    "b": "PS",
+    "d": "epa.gov",
+    "n": "Environmental Protection Agency (EPA)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/environmental-protection-agency-epa-bias/",
     "c": "H",
     "a": "H",
     "q": []
@@ -39736,6 +39760,17 @@
     "p": "/journal/biochem",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/biochem-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/bioengineering": {
+    "b": "PS",
+    "d": "mdpi.com/journal/bioengineering",
+    "n": "Bioengineering Journal",
+    "p": "/journal/bioengineering",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bioengineering-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -77472,6 +77507,25 @@
     "a": "L",
     "q": []
   },
+  "wltreport.com": {
+    "b": "FN",
+    "d": "wltreport.com",
+    "n": "WLT Report",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/wlt-report-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "FN",
+      "PSE"
+    ]
+  },
   "wltribune.com": {
     "b": "LC",
     "d": "wltribune.com",
@@ -77941,6 +77995,19 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "worldofbuzz,com": {
+    "b": "FN",
+    "n": "World of Buzz",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/world-of-buzz-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "PS",
+      "LT",
+      "FFC"
+    ]
   },
   "worldometers.info": {
     "b": "C",
@@ -78767,6 +78834,16 @@
     "n": "WVVA -Bluefield News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wvva-bluefield-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wwf.panda.org": {
+    "b": "LC",
+    "d": "wwf.panda.org",
+    "n": "World Wide Fund for Nature",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wwf-world-wide-fund-for-nature-bias/",
     "c": "H",
     "a": "M",
     "q": []
