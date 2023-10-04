@@ -21596,6 +21596,16 @@
     "a": "H",
     "q": []
   },
+  "environmentamerica.org": {
+    "b": "LC",
+    "d": "environmentamerica.org",
+    "n": "Environment America",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/environment-america-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "epa.gov": {
     "b": "PS",
     "d": "epa.gov",
@@ -48834,7 +48844,16 @@
     "P": 59,
     "c": "L",
     "a": "H",
-    "q": []
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE"
+    ]
   },
   "oaoa.com": {
     "b": "RC",
@@ -59324,6 +59343,16 @@
     "a": "N",
     "q": []
   },
+  "sharonherald.com": {
+    "b": "LC",
+    "d": "sharonherald.com",
+    "n": "Sharon Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/sharon-herald-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "sharylattkisson.com": {
     "b": "R",
     "d": "sharylattkisson.com",
@@ -66759,6 +66788,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "theguadalajarapost.com": {
+    "b": "FN",
+    "d": "theguadalajarapost.com",
+    "n": "Guadalajara Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/guadalajara-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
   },
   "theguardian.com": {
     "b": "LC",
@@ -75011,6 +75054,21 @@
       "PSE"
     ]
   },
+  "wayneherald.org": {
+    "b": "FN",
+    "d": "wayneherald.org",
+    "n": "Wayne Herald",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wayne-herald-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "wbaltv.com": {
     "b": "C",
     "d": "wbaltv.com",
@@ -78013,6 +78071,16 @@
     "P": 47,
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "worldisraelnews.com": {
+    "b": "R",
+    "d": "worldisraelnews.com",
+    "n": "World Israel News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/world-israel-news-bias/",
+    "c": "M",
+    "a": "M",
     "q": []
   },
   "worldlifestyle.com": {
