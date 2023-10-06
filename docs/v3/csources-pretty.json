@@ -434,6 +434,16 @@
     "a": "M",
     "q": []
   },
+  "404media.co": {
+    "b": "LC",
+    "d": "404media.co",
+    "n": "404 Media",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/404-media-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "4chan.org": {
     "b": "FN",
     "d": "4chan.org",
@@ -615,14 +625,12 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "aap.com.au": {
@@ -16652,6 +16660,17 @@
     "a": "M",
     "q": []
   },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
+    "q": []
+  },
   "dailynewsreported.com": {
     "b": "S",
     "d": "dailynewsreported.com",
@@ -20181,6 +20200,20 @@
       "IM"
     ]
   },
+  "eastwaketimes.com": {
+    "b": "FN",
+    "d": "eastwaketimes.com",
+    "n": "East Wake Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-wake-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "eastwestcenter.org": {
     "b": "LC",
     "d": "eastwestcenter.org",
@@ -21662,6 +21695,16 @@
     "a": "M",
     "q": []
   },
+  "erininthemorning.com": {
+    "b": "L",
+    "d": "erininthemorning.com",
+    "n": "Erin in the Morning",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/erin-in-the-morning-bias-and-credibility/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "erlc.com": {
     "b": "R",
     "d": "erlc.com",
@@ -21673,6 +21716,16 @@
     "P": 64,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "esa.int": {
+    "b": "PS",
+    "d": "esa.int",
+    "n": "European Space Agency",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/european-space-agency-credible/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "escapeallthesethings.com": {
@@ -24616,12 +24669,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -24704,16 +24757,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -25518,6 +25561,17 @@
     "p": "/journals/communication",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-communication-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/communications-and-networks": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/communications-and-networks",
+    "n": "Frontiers in Communications and Networks",
+    "p": "/journals/communications-and-networks",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-communications-and-networks-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -34520,6 +34574,25 @@
     "a": "M",
     "q": []
   },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "kiyu.com": {
     "b": "LC",
     "d": "kiyu.com",
@@ -35562,6 +35635,16 @@
     "u": "https://mediabiasfactcheck.com/kvoa-tucson-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kvor.com": {
+    "b": "R",
+    "d": "kvor.com",
+    "n": "KVOR - 740AM - Colorado Springs",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kvor-740am-colorado-springs-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "kvpr.org": {
@@ -53197,15 +53280,12 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -53999,17 +54079,6 @@
     "P": 76,
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N",
     "q": []
   },
   "quackwatch.org": {
@@ -59967,6 +60036,16 @@
     "p": "/orillia-on",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/orillia-today-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "similkameenspotlight.com": {
+    "b": "LC",
+    "d": "similkameenspotlight.com",
+    "n": "Similkameen Spotlight",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/similkameen-spotlight-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -71728,6 +71807,16 @@
     "a": "L",
     "q": []
   },
+  "truthexam.com": {
+    "b": "FN",
+    "d": "truthexam.com",
+    "n": "Truth Examiner",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "c": "L",
+    "a": "N",
+    "q": []
+  },
   "truthfeednews.com": {
     "b": "FN",
     "d": "truthfeednews.com",
@@ -76732,6 +76821,16 @@
     "n": "Whitecourt Star",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/whitecourt-star-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "whitefishpilot.com": {
+    "b": "C",
+    "d": "whitefishpilot.com",
+    "n": "Whitefish Pilot",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whitefish-pilot-bias/",
     "c": "H",
     "a": "L",
     "q": []
