@@ -1961,19 +1961,6 @@
     "a": "M",
     "q": []
   },
-  "airspacemag.com": {
-    "b": "PS",
-    "d": "airspacemag.com",
-    "f": "AirSpaceMag",
-    "n": "Air and Space Mag",
-    "r": "VH",
-    "t": "airspacemag",
-    "u": "https://mediabiasfactcheck.com/air-space-magazine/",
-    "P": 58,
-    "c": "H",
-    "a": "M",
-    "q": []
-  },
   "airwars.org": {
     "b": "C",
     "d": "airwars.org",
@@ -5517,7 +5504,7 @@
     "b": "CP",
     "d": "awdnews.com",
     "f": "Awdnews",
-    "n": "Awd News",
+    "n": "Adw News",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/adw-news/",
     "P": 47,
@@ -11140,6 +11127,17 @@
     "p": "/neuron",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/neuron-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/one-earth": {
+    "b": "PS",
+    "d": "cell.com/one-earth",
+    "n": "One Earth Journal",
+    "p": "/one-earth",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/one-earth-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -21812,6 +21810,16 @@
     "P": 64,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "eurasianet.org": {
+    "b": "LC",
+    "d": "eurasianet.org",
+    "n": "Eurasianet",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/eurasianet-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "eurasiareview.com": {
@@ -34671,6 +34679,15 @@
     "u": "https://mediabiasfactcheck.com/klfy-lafayette-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "klif.com": {
+    "d": "klif.com",
+    "n": "KLIF - 570AM - Dallas",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/klif-570am-dallas-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "kltv.com": {
@@ -60411,6 +60428,20 @@
     "P": 92,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "smithsonianmag.com/category/air-space-magazine": {
+    "b": "PS",
+    "d": "smithsonianmag.com/category/air-space-magazine",
+    "f": "AirSpaceMag",
+    "n": "Air and Space Mag",
+    "p": "/category/air-space-magazine",
+    "r": "VH",
+    "t": "airspacemag",
+    "u": "https://mediabiasfactcheck.com/air-space-magazine/",
+    "P": 58,
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "smobserved.com": {
