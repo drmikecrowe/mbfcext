@@ -29949,6 +29949,17 @@
     "a": "L",
     "q": []
   },
+  "hpenews.com/archdale_trinity_news": {
+    "b": "RC",
+    "d": "hpenews.com/archdale_trinity_news",
+    "n": "Archdale-Trinity News",
+    "p": "/archdale_trinity_news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/archdale-trinity-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hrc.org": {
     "b": "L",
     "d": "hrc.org",
@@ -67698,6 +67709,20 @@
     "a": "H",
     "q": []
   },
+  "themazatlanpost.com": {
+    "b": "FN",
+    "d": "themazatlanpost.com",
+    "n": "Mazatlan Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mazatlan-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "themessenger.com": {
     "b": "RC",
     "d": "themessenger.com",
@@ -78125,6 +78150,16 @@
     "P": 72,
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "worldaffairs.blog": {
+    "b": "CP",
+    "d": "worldaffairs.blog",
+    "n": "World Affairs Blog",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/world-affairs-blog-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "worldaffairsbrief.com": {
