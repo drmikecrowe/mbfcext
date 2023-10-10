@@ -8640,6 +8640,16 @@
       "IM"
     ]
   },
+  "bucyrustelegraphforum.com": {
+    "b": "LC",
+    "d": "bucyrustelegraphforum.com",
+    "n": "Bucyrus Telegraph-Forum",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bucyrus-telegraph-forum-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "budapestbeacon.com": {
     "b": "LC",
     "d": "budapestbeacon.com",
@@ -15458,6 +15468,16 @@
     "P": 84,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "cpr.org": {
+    "b": "LC",
+    "d": "cpr.org",
+    "n": "KCFC - NPR - Boulder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kcfc-npr-boulder-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "cpusa.org": {
@@ -22715,6 +22735,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/fayetteville-standard/",
     "P": 3,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "fayettevilletoday.com": {
+    "b": "FN",
+    "d": "fayettevilletoday.com",
+    "n": "Fayetteville Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/fayetteville-today-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -32635,6 +32669,16 @@
     "n": "Jacksonville Daily Record",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/jacksonville-daily-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "jbiomedsci.biomedcentral.com": {
+    "b": "PS",
+    "d": "jbiomedsci.biomedcentral.com",
+    "n": "Journal of Biomedical Science",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/journal-of-biomedical-science-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -62706,6 +62750,16 @@
     "u": "https://mediabiasfactcheck.com/stillness-in-the-storm/",
     "P": 48,
     "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "stillwatercountynews.com": {
+    "b": "LC",
+    "d": "stillwatercountynews.com",
+    "n": "Stillwater County News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stillwater-county-news-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
