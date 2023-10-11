@@ -23604,6 +23604,20 @@
     "a": "H",
     "q": []
   },
+  "foothillsreview.com": {
+    "b": "FN",
+    "d": "foothillsreview.com",
+    "n": "Foothills Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/foothills-review-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "forbes.com": {
     "b": "RC",
     "d": "forbes.com",
@@ -39982,6 +39996,17 @@
     "p": "/journal/bioengineering",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/bioengineering-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/biologics": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biologics",
+    "n": "Biologics Journal",
+    "p": "/journal/biologics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biologics-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -78126,6 +78151,16 @@
     "u": "https://mediabiasfactcheck.com/washington-office-on-latin-america-wola-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "wolfstreet.com": {
+    "b": "C",
+    "d": "wolfstreet.com",
+    "n": "Wolf Street",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wolf-street-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "womenarehuman.com": {
