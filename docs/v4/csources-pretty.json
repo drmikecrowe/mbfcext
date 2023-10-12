@@ -1367,6 +1367,16 @@
     "a": "M",
     "q": []
   },
+  "adams.news": {
+    "b": "CP",
+    "d": "adams.news",
+    "n": "Adams.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/adams-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "adamscountytimes.com": {
     "b": "FN",
     "d": "adamscountytimes.com",
@@ -27061,6 +27071,16 @@
     "n": "Danville Register & Bee",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/danville-register-bee-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "goderichsignalstar.com": {
+    "b": "RC",
+    "d": "goderichsignalstar.com",
+    "n": "Goderich Signal-Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/goderich-signal-star-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -67754,6 +67774,24 @@
     "a": "M",
     "q": []
   },
+  "themanhattan.press": {
+    "b": "FN",
+    "d": "themanhattan.press",
+    "n": "The Manhattan",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-manhattan-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "PSE"
+    ]
+  },
   "themanual.com": {
     "b": "C",
     "d": "themanual.com",
@@ -72618,6 +72656,16 @@
       "H"
     ]
   },
+  "understandingwar.org": {
+    "b": "RC",
+    "d": "understandingwar.org",
+    "n": "Institute for the Study of War",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/institute-for-the-study-of-war-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "understandrealitythroughscience.blogspot.com": {
     "b": "PS",
     "d": "understandrealitythroughscience.blogspot.com",
@@ -77168,6 +77216,16 @@
     "u": "https://mediabiasfactcheck.com/wicz-binghamton-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wide-awake-media.com": {
+    "b": "CP",
+    "d": "wide-awake-media.com",
+    "n": "Wide Awake Media",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/wide-awake-media-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "wifr.com": {
