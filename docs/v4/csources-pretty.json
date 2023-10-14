@@ -21305,6 +21305,23 @@
       "PS"
     ]
   },
+  "en.majalla.com": {
+    "b": "FN",
+    "d": "en.majalla.com",
+    "f": "the.majalla",
+    "n": "The Majalla",
+    "r": "M",
+    "t": "the_majalla",
+    "u": "https://mediabiasfactcheck.com/al-majalla/",
+    "P": 38,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "PS",
+      "CEN"
+    ]
+  },
   "en.mehrnews.com": {
     "b": "FN",
     "d": "en.mehrnews.com",
@@ -21516,23 +21533,6 @@
     "c": "H",
     "a": "M",
     "q": []
-  },
-  "eng.majalla.com": {
-    "b": "FN",
-    "d": "eng.majalla.com",
-    "f": "the.majalla",
-    "n": "The Majalla",
-    "r": "M",
-    "t": "the_majalla",
-    "u": "https://mediabiasfactcheck.com/al-majalla/",
-    "P": 38,
-    "c": "L",
-    "a": "L",
-    "q": [
-      "P",
-      "PS",
-      "CEN"
-    ]
   },
   "engadget.com": {
     "b": "LC",
@@ -21982,6 +21982,16 @@
     "a": "L",
     "q": []
   },
+  "euvsdisinfo.eu": {
+    "b": "LC",
+    "d": "euvsdisinfo.eu",
+    "n": "EUvsDisinfo",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/eu-vs-disinformation-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "eveningharold.com": {
     "b": "S",
     "d": "eveningharold.com",
@@ -22406,6 +22416,16 @@
     "P": 84,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "factchecker.in": {
+    "b": "C",
+    "d": "factchecker.in",
+    "n": "Factchecker.in",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/factchecker-in-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "factcheckingturkey.com": {
@@ -32459,6 +32479,16 @@
       "LT",
       "FC"
     ]
+  },
+  "itemonline.com": {
+    "b": "LC",
+    "d": "itemonline.com",
+    "n": "Huntsville Item",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/huntsville-item-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "itep.org": {
     "b": "LC",
@@ -80104,6 +80134,21 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "yumastandard.com": {
+    "b": "FN",
+    "d": "yumastandard.com",
+    "n": "Yuma Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/yuma-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "LT",
+      "M",
       "IM"
     ]
   },
