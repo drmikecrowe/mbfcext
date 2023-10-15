@@ -4456,7 +4456,7 @@
     "q": []
   },
   "apnews.com": {
-    "b": "C",
+    "b": "LC",
     "d": "apnews.com",
     "f": "APNews",
     "n": "Associated Press",
@@ -8022,6 +8022,16 @@
     "P": 58,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "bpb.de": {
+    "b": "LC",
+    "d": "bpb.de",
+    "n": "Bundeszentrale für Politische Bildung (BPB)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bundeszentrale-fur-politische-bildung-bpb-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "bracknellnews.co.uk": {
@@ -18049,6 +18059,16 @@
     "a": "M",
     "q": []
   },
+  "delfi.lt": {
+    "b": "RC",
+    "d": "delfi.lt",
+    "n": "Delfi",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/delfi-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "delgazette.com": {
     "b": "RC",
     "d": "delgazette.com",
@@ -25710,6 +25730,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/complex-systems": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/complex-systems",
+    "n": "Frontiers in Complex Systems",
+    "p": "/journals/complex-systems",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-complex-systems-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -26114,6 +26145,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "gastoniatimes.com": {
+    "b": "FN",
+    "d": "gastoniatimes.com",
+    "n": "Gastonia Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gastonia-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "gatestoneinstitute.org": {
     "b": "FN",
@@ -75425,6 +75470,16 @@
     "a": "M",
     "q": []
   },
+  "wbap.com": {
+    "b": "R",
+    "d": "wbap.com",
+    "n": "WBAP - 820AM - Dallas",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wbap-820am-dallas-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "wbay.com": {
     "b": "C",
     "d": "wbay.com",
@@ -76088,6 +76143,16 @@
       "M",
       "CEN"
     ]
+  },
+  "wellandgood.com": {
+    "b": "L",
+    "d": "wellandgood.com",
+    "n": "Well+Good",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wellgood-bias/",
+    "c": "M",
+    "a": "H",
+    "q": []
   },
   "wellandtribune.ca": {
     "b": "LC",
