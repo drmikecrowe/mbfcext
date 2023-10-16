@@ -6605,6 +6605,16 @@
     "a": "M",
     "q": []
   },
+  "bigforkeagle.com": {
+    "b": "C",
+    "d": "bigforkeagle.com",
+    "n": "Bigfork Eagle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bigfork-eagle-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "biggovernment.news": {
     "b": "CP",
     "d": "biggovernment.news",
@@ -22464,6 +22474,16 @@
       "M"
     ]
   },
+  "factcheckni.org": {
+    "b": "C",
+    "d": "factcheckni.org",
+    "n": "FactCheckNI",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fact-check-ni-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "factmyth.com": {
     "b": "LC",
     "d": "factmyth.com",
@@ -31075,18 +31095,6 @@
     "a": "L",
     "q": []
   },
-  "independent.co.uk": {
-    "b": "LC",
-    "d": "independent.co.uk",
-    "f": "TheIndependentOnline",
-    "n": "The Independent",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/the-independent/",
-    "P": 97,
-    "c": "M",
-    "a": "H",
-    "q": []
-  },
   "independent.com": {
     "b": "LC",
     "d": "independent.com",
@@ -34169,6 +34177,16 @@
     "n": "KDLL - NPR - Kenai",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kdll-npr-kenai-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "kdnk.org": {
+    "b": "LC",
+    "d": "kdnk.org",
+    "n": "KDNK - NPR - Carbondale",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kdnk-npr-carbondale-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -63438,6 +63456,16 @@
       "IM"
     ]
   },
+  "summerlandreview.com": {
+    "b": "LC",
+    "d": "summerlandreview.com",
+    "n": "Summerland Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/summerland-review-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "summerlinreporter.com": {
     "b": "FN",
     "d": "summerlinreporter.com",
@@ -65206,6 +65234,18 @@
     "P": 52,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "the-independent.com": {
+    "b": "LC",
+    "d": "the-independent.com",
+    "f": "TheIndependentOnline",
+    "n": "The Independent",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-independent/",
+    "P": 97,
+    "c": "M",
+    "a": "H",
     "q": []
   },
   "the-journal.com": {
@@ -76113,6 +76153,16 @@
     "t": "wef",
     "u": "https://mediabiasfactcheck.com/world-economic-forum/",
     "P": 95,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "wegotthiscovered.com": {
+    "b": "C",
+    "d": "wegotthiscovered.com",
+    "n": "We Got This Covered",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/we-got-this-covered-bias/",
     "c": "H",
     "a": "H",
     "q": []
