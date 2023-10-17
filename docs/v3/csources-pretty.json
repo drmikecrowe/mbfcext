@@ -1941,22 +1941,22 @@
     "a": "M",
     "q": []
   },
+  "airdriecityview.com": {
+    "b": "LC",
+    "d": "airdriecityview.com",
+    "n": "Airdrie City View",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/airdrie-city-view-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "airdrieecho.com": {
     "b": "RC",
     "d": "airdrieecho.com",
     "n": "Airdrie Echo",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/airdrie-echo-bias/",
-    "c": "H",
-    "a": "L",
-    "q": []
-  },
-  "airdrietoday.com": {
-    "b": "LC",
-    "d": "airdrietoday.com",
-    "n": "Airdrie City View",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/airdrie-city-view-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -11178,6 +11178,17 @@
     "p": "/one-earth",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/one-earth-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/patterns": {
+    "b": "PS",
+    "d": "cell.com/patterns",
+    "n": "Patterns Journal",
+    "p": "/patterns",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/patterns-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -27897,6 +27908,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "greensbororeporter.com": {
+    "b": "FN",
+    "d": "greensbororeporter.com",
+    "n": "Greensboro Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/greensboro-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "greensburgdailynews.com": {
     "b": "LC",
@@ -74636,6 +74661,16 @@
     "a": "H",
     "q": []
   },
+  "voachinese.com": {
+    "b": "C",
+    "d": "voachinese.com",
+    "n": "VOA Chinese",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/voa-chinese-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "voanews.com": {
     "b": "C",
     "d": "voanews.com",
@@ -76517,9 +76552,9 @@
     "a": "N",
     "q": []
   },
-  "westernslopenews.com": {
+  "westernslopenow.com": {
     "b": "C",
-    "d": "westernslopenews.com",
+    "d": "westernslopenow.com",
     "n": "KREX - Grand Junction News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/krex-grand-junction-news-bias/",
@@ -77953,6 +77988,16 @@
     "u": "https://mediabiasfactcheck.com/wjla-abc-7-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wjr.com": {
+    "b": "RC",
+    "d": "wjr.com",
+    "n": "WJR - 760AM - Detroit",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/wjr-760am-detroit-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wjtv.com": {
