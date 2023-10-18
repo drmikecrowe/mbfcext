@@ -8911,7 +8911,7 @@
     "d": "businessinsider.com",
     "f": "businessinsider",
     "n": "Business Insider",
-    "r": "H",
+    "r": "MF",
     "t": "businessinsider",
     "u": "https://mediabiasfactcheck.com/business-insider/",
     "P": 97,
@@ -22601,6 +22601,16 @@
     "a": "M",
     "q": []
   },
+  "fairplanet.org": {
+    "b": "L",
+    "d": "fairplanet.org",
+    "n": "FairPlanet",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/fair-planet-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "fairus.org": {
     "b": "FN",
     "d": "fairus.org",
@@ -33403,6 +33413,16 @@
     "u": "https://mediabiasfactcheck.com/winston-salem-journal/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "journalpatriot.com": {
+    "b": "RC",
+    "d": "journalpatriot.com",
+    "n": "Wilkes Journal-Patriot",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wilkes-journal-patriot-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "journalstandard.com": {
@@ -68024,6 +68044,21 @@
     "a": "H",
     "q": []
   },
+  "themexicocitypost.com": {
+    "b": "FN",
+    "d": "themexicocitypost.com",
+    "n": "Mexico City Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mexico-city-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "themichiganstar.com": {
     "b": "FN",
     "d": "themichiganstar.com",
@@ -74169,6 +74204,16 @@
       "P",
       "H"
     ]
+  },
+  "vegansociety.com": {
+    "b": "L",
+    "d": "vegansociety.com",
+    "n": "Vegan Society",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vegan-society-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "venezuelaanalysis.com": {
     "b": "L",
