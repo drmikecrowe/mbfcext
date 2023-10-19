@@ -2404,17 +2404,6 @@
     "a": "L",
     "q": []
   },
-  "allianceforadvancedhealth.com": {
-    "b": "CP",
-    "d": "allianceforadvancedhealth.com",
-    "n": "Alliance for Advanced Health",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/alliance-advanced-health/",
-    "P": 30,
-    "c": "L",
-    "a": "L",
-    "q": []
-  },
   "allianceforscience.cornell.edu": {
     "b": "PS",
     "d": "allianceforscience.cornell.edu",
@@ -14787,6 +14776,16 @@
       "LT",
       "M"
     ]
+  },
+  "constitution.com": {
+    "b": "C",
+    "d": "constitution.com",
+    "n": "The Constitution",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "H",
+    "a": "N",
+    "q": []
   },
   "constitutioncenter.org": {
     "b": "C",
@@ -34857,25 +34856,6 @@
     "a": "M",
     "q": []
   },
-  "kiwifarms.net": {
-    "b": "FN",
-    "d": "kiwifarms.net",
-    "n": "Kiwi Farms",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "M",
-    "q": [
-      "C",
-      "P",
-      "PS",
-      "LT",
-      "FC",
-      "M",
-      "H",
-      "PSE"
-    ]
-  },
   "kiyu.com": {
     "b": "LC",
     "d": "kiyu.com",
@@ -43763,6 +43743,17 @@
     "P": 72,
     "c": "L",
     "a": "M",
+    "q": []
+  },
+  "naturalhealthresponse.com": {
+    "b": "CP",
+    "d": "naturalhealthresponse.com",
+    "n": "Natural Health Response",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/alliance-advanced-health/",
+    "P": 30,
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "naturallysavvy.com": {
@@ -53583,12 +53574,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []

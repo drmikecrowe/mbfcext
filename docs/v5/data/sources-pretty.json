@@ -2201,16 +2201,6 @@
     "url": "https://mediabiasfactcheck.com/allgov/"
   },
   {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "allianceforadvancedhealth.com",
-    "name": "Alliance for Advanced Health",
-    "popularity": 30,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/alliance-advanced-health/"
-  },
-  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "allianceforscience.cornell.edu",
@@ -13524,6 +13514,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/constative-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "constitution.com",
+    "name": "The Constitution",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "center",
@@ -31779,25 +31778,6 @@
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
   },
   {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "kiwifarms.net",
-    "name": "Kiwi Farms",
-    "questionable": [
-      "conspiracy",
-      "censorship",
-      "propaganda",
-      "plagiarism",
-      "pseudoscience",
-      "poor-sourcing",
-      "false-claims",
-      "misinformation",
-      "hate"
-    ],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "kiyu.com",
@@ -39797,6 +39777,16 @@
     "reporting": "low",
     "twitter": "thehealthguy",
     "url": "https://mediabiasfactcheck.com/natural-health-365/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "naturalhealthresponse.com",
+    "name": "Natural Health Response",
+    "popularity": 30,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/alliance-advanced-health/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -48684,10 +48674,13 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.com",
-    "name": "Principia-Scientific.com",
+    "domain": "principia-scientific.org",
+    "facebook": "Principia-Scientific-International",
+    "name": "Principia Scientific International",
+    "popularity": 49,
     "questionable": [],
     "reporting": "low",
+    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
