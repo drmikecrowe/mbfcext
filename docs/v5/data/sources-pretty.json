@@ -2203,7 +2203,7 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
-    "domain": "allianceforscience.cornell.edu",
+    "domain": "allianceforscience.org",
     "name": "Alliance for Science",
     "questionable": [],
     "reporting": "high",
@@ -15296,16 +15296,6 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
-  },
-  {
-    "bias": "left",
-    "credibility": "medium-credibility",
-    "domain": "dailynewsbin.com",
-    "name": "Daily Newsbin",
-    "popularity": 34,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -48674,10 +48664,13 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.com",
-    "name": "Principia-Scientific.com",
+    "domain": "principia-scientific.org",
+    "facebook": "Principia-Scientific-International",
+    "name": "Principia Scientific International",
+    "popularity": 49,
     "questionable": [],
     "reporting": "low",
+    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -53772,16 +53765,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
-  },
-  {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "secretsofthefed.com",
-    "name": "Secrets of the Fed",
-    "popularity": 41,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
     "bias": "fake-news",
@@ -65654,10 +65637,10 @@
   },
   {
     "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
+    "credibility": "n/a",
     "domain": "truthbroadcastnetwork.com",
-    "name": "Truth Broadcasting Network",
-    "popularity": 21,
+    "name": "Truth Broadcating Network",
+    "popularity": 17,
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/truth-broadcasting-network/"

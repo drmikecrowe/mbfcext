@@ -2404,14 +2404,14 @@
     "a": "L",
     "q": []
   },
-  "allianceforscience.cornell.edu": {
+  "allianceforscience.org": {
     "b": "PS",
-    "d": "allianceforscience.cornell.edu",
+    "d": "allianceforscience.org",
     "n": "Alliance for Science",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/alliance-for-science/",
     "c": "H",
-    "a": "H",
+    "a": "L",
     "q": []
   },
   "alliednews.com": {
@@ -2532,7 +2532,7 @@
     "u": "https://mediabiasfactcheck.com/alpha-news/",
     "P": 46,
     "c": "L",
-    "a": "L",
+    "a": "M",
     "q": [
       "C",
       "P",
@@ -16716,17 +16716,6 @@
     "P": 85,
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "dailynewsbin.com": {
-    "b": "L",
-    "d": "dailynewsbin.com",
-    "n": "Daily Newsbin",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
-    "P": 34,
-    "c": "M",
-    "a": "N",
     "q": []
   },
   "dailynewsreported.com": {
@@ -53574,12 +53563,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -59109,17 +59101,6 @@
       "IM"
     ]
   },
-  "secretsofthefed.com": {
-    "b": "CP",
-    "d": "secretsofthefed.com",
-    "n": "Secrets of the Fed",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/secrets-of-the-fed/",
-    "P": 41,
-    "c": "L",
-    "a": "N",
-    "q": []
-  },
   "secureamericanow.org": {
     "b": "FN",
     "d": "secureamericanow.org",
@@ -59150,7 +59131,7 @@
     "u": "https://mediabiasfactcheck.com/alliance-securing-democracy/",
     "P": 61,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "sedenvernews.com": {
@@ -72171,11 +72152,11 @@
   "truthbroadcastnetwork.com": {
     "b": "CP",
     "d": "truthbroadcastnetwork.com",
-    "n": "Truth Broadcasting Network",
+    "n": "Truth Broadcating Network",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/truth-broadcasting-network/",
-    "P": 21,
-    "c": "L",
+    "P": 17,
+    "c": "NA",
     "a": "N",
     "q": []
   },
