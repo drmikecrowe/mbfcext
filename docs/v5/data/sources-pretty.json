@@ -579,12 +579,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -13520,15 +13518,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -15298,6 +15287,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -31770,6 +31769,25 @@
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "kiyu.com",
@@ -36580,7 +36598,7 @@
     "domain": "meaww.com",
     "name": "MEAWW",
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/media-entertainment-arts-worldwide-meaww-com/"
   },
   {
@@ -48666,13 +48684,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -53767,6 +53782,16 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "secretsofthefed.com",
+    "name": "Secrets of the Fed",
+    "popularity": 41,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
     "bias": "fake-news",
@@ -65639,10 +65664,10 @@
   },
   {
     "bias": "conspiracy-pseudoscience",
-    "credibility": "n/a",
+    "credibility": "low-credibility",
     "domain": "truthbroadcastnetwork.com",
-    "name": "Truth Broadcating Network",
-    "popularity": 17,
+    "name": "Truth Broadcasting Network",
+    "popularity": 21,
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/truth-broadcasting-network/"
