@@ -14710,7 +14710,7 @@
     "b": "L",
     "d": "consortiumnews.com",
     "n": "Consortium News",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/consortium-news/",
     "P": 78,
     "c": "H",
@@ -53574,12 +53574,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
