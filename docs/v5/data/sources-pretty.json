@@ -15298,16 +15298,6 @@
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
   },
   {
-    "bias": "left",
-    "credibility": "medium-credibility",
-    "domain": "dailynewsbin.com",
-    "name": "Daily Newsbin",
-    "popularity": 34,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
-  },
-  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "dailynewsreported.com",
@@ -45934,13 +45924,13 @@
   },
   {
     "bias": "left",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "palestinechronicle.com",
     "facebook": "palestinechronicle",
     "name": "The Palestine Chronicle",
     "popularity": 71,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "PalestineChron",
     "url": "https://mediabiasfactcheck.com/the-palestine-chronicle/"
   },
