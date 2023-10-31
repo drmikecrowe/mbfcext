@@ -15363,6 +15363,16 @@
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
+  },
+  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "dailynewsreported.com",
@@ -22868,8 +22878,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -22950,15 +22960,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -32055,6 +32056,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -49041,13 +49061,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -49787,16 +49804,6 @@
     "reporting": "high",
     "twitter": "qctimes",
     "url": "https://mediabiasfactcheck.com/quad-city-times/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "qpolitical.com",
-    "name": "Qpolitical",
-    "popularity": 20,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "pro-science",
@@ -54152,6 +54159,16 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "secretsofthefed.com",
+    "name": "Secrets of the Fed",
+    "popularity": 41,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
     "bias": "fake-news",
@@ -66067,6 +66084,15 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "truthexam.com",
+    "name": "Truth Examiner",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/qpolitical/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "truthfeednews.com",
     "name": "Truthfeed",
     "popularity": 40,
@@ -73932,7 +73958,7 @@
     "credibility": "high-credibility",
     "domain": "yr.media",
     "facebook": "yrmediapage",
-    "name": "Youth Radio",
+    "name": "YR Media",
     "popularity": 54,
     "questionable": [],
     "reporting": "high",
