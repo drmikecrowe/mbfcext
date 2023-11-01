@@ -1821,6 +1821,16 @@
     "a": "M",
     "q": []
   },
+  "agriculturedive.com": {
+    "b": "C",
+    "d": "agriculturedive.com",
+    "n": "AgricultureDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/agriculturedive-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "agu.org": {
     "b": "PS",
     "d": "agu.org",
@@ -2749,6 +2759,16 @@
       "PS",
       "H"
     ]
+  },
+  "aluminum.news": {
+    "b": "CP",
+    "d": "aluminum.news",
+    "n": "Aluminum.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/aluminum-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
   },
   "alzres.biomedcentral.com": {
     "b": "PS",
@@ -3829,6 +3849,16 @@
     "P": 57,
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "amherstbulletin.com": {
+    "b": "LC",
+    "d": "amherstbulletin.com",
+    "n": "Amherst Bulletin",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/amherst-bulletin-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "amimagazine.org": {
@@ -11223,6 +11253,17 @@
     "p": "/star-protocols",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/star-protocols-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/structure": {
+    "b": "PS",
+    "d": "cell.com/structure",
+    "n": "Structure Journal",
+    "p": "/structure",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/structure-journal-bias-and-credibility/",
     "c": "H",
     "a": "L",
     "q": []
@@ -23845,6 +23886,16 @@
     "a": "L",
     "q": []
   },
+  "fooddive.com": {
+    "b": "C",
+    "d": "fooddive.com",
+    "n": "FoodDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fooddive-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "foodmatters.com": {
     "b": "CP",
     "d": "foodmatters.com",
@@ -24802,6 +24853,16 @@
     "P": 70,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "franciscanmedia.org": {
+    "b": "LC",
+    "d": "franciscanmedia.org",
+    "n": "Franciscan Media",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/franciscan-media-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "franklinfavorite.com/russellville": {
@@ -25949,6 +26010,17 @@
     "p": "/journals/computational-neuroscience",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-computational-neuroscience-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/computer-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/computer-science",
+    "n": "Frontiers in Computer Science",
+    "p": "/journals/computer-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-computer-science-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -33577,6 +33649,16 @@
     "a": "N",
     "q": []
   },
+  "joplinglobe.com": {
+    "b": "LC",
+    "d": "joplinglobe.com",
+    "n": "Joplin Globe",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/joplin-globe-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "jordanbpeterson.com": {
     "b": "FN",
     "d": "jordanbpeterson.com",
@@ -35300,6 +35382,16 @@
     "a": "M",
     "q": []
   },
+  "kmjnow.com": {
+    "b": "R",
+    "d": "kmjnow.com",
+    "n": "KMJNow - Fresno",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kmjnow-fresno-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "kmov.com": {
     "b": "C",
     "d": "kmov.com",
@@ -36181,6 +36273,16 @@
     "n": "KUGN - 590 AM - Eugene",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/kugn-590-am-eugene-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "kunc.org": {
+    "b": "LC",
+    "d": "kunc.org",
+    "n": "KUNC - NPR - Greeley",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kunc-npr-greeley-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -41477,6 +41579,25 @@
     "a": "H",
     "q": []
   },
+  "miamiindependent.com": {
+    "b": "FN",
+    "d": "miamiindependent.com",
+    "n": "Miami Independent",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/miami-independent-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "IM"
+    ]
+  },
   "miaminewtimes.com": {
     "b": "LC",
     "d": "miaminewtimes.com",
@@ -44744,6 +44865,20 @@
     "n": "NC Mississippi News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/nc-mississippi-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "ncncnews.com": {
+    "b": "FN",
+    "d": "ncncnews.com",
+    "n": "NC North Carolina News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nc-north-carolina-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -58313,6 +58448,21 @@
     "q": [
       "LT",
       "FC",
+      "IM"
+    ]
+  },
+  "sanmiguelpost.com": {
+    "b": "FN",
+    "d": "sanmiguelpost.com",
+    "n": "San Miguel Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/san-miguel-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "PG",
       "IM"
     ]
   },
@@ -77226,6 +77376,16 @@
       "IM"
     ]
   },
+  "westknews.com": {
+    "b": "LC",
+    "d": "westknews.com",
+    "n": "West K News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/west-k-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "westlatimes.com": {
     "b": "FN",
     "d": "westlatimes.com",
@@ -77553,6 +77713,16 @@
     "u": "https://mediabiasfactcheck.com/wftv-orlando-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wftw.com": {
+    "b": "R",
+    "d": "wftw.com",
+    "n": "WFTW - 1260 AM - Fort Walton Beach",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wftw-1260-am-fort-walton-beach-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wfxl.com": {
@@ -79091,6 +79261,16 @@
     "P": 72,
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "workscoop.com": {
+    "b": "C",
+    "d": "workscoop.com",
+    "n": "WorkScoop",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/workscoop-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "worldaffairs.blog": {

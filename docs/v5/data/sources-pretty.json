@@ -1674,6 +1674,15 @@
     "url": "https://mediabiasfactcheck.com/successful-farming-magazine-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "agriculturedive.com",
+    "name": "AgricultureDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/agriculturedive-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "agu.org",
@@ -2522,6 +2531,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/alt-right-tv/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "aluminum.news",
+    "name": "Aluminum.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/aluminum-news-bias/"
   },
   {
     "bias": "pro-science",
@@ -3541,6 +3559,15 @@
     "reporting": "mixed",
     "twitter": "theamgreatness",
     "url": "https://mediabiasfactcheck.com/american-greatness/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "amherstbulletin.com",
+    "name": "Amherst Bulletin",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/amherst-bulletin-bias/"
   },
   {
     "bias": "right",
@@ -10215,6 +10242,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/star-protocols-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/structure",
+    "name": "Structure Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/structure-journal-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -21802,6 +21838,15 @@
     "url": "https://mediabiasfactcheck.com/food-babe/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "fooddive.com",
+    "name": "FoodDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fooddive-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "foodmatters.com",
@@ -22668,6 +22713,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/france-info/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "franciscanmedia.org",
+    "name": "Franciscan Media",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/franciscan-media-bias/"
   },
   {
     "bias": "right-center",
@@ -23690,6 +23744,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-computational-neuroscience-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/computer-science",
+    "name": "Frontiers in Computer Science",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-computer-science-bias/"
   },
   {
     "bias": "pro-science",
@@ -30609,6 +30672,15 @@
     "url": "https://mediabiasfactcheck.com/jookos-news/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "joplinglobe.com",
+    "name": "Joplin Globe",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/joplin-globe-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "jordanbpeterson.com",
@@ -32167,6 +32239,15 @@
     "url": "https://mediabiasfactcheck.com/kmbc-kansas-city-news-bias/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "kmjnow.com",
+    "name": "KMJNow - Fresno",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/kmjnow-fresno-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "kmov.com",
@@ -32970,6 +33051,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/kugn-590-am-eugene-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "kunc.org",
+    "name": "KUNC - NPR - Greeley",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kunc-npr-greeley-bias/"
   },
   {
     "bias": "left-center",
@@ -37728,6 +37818,26 @@
     "url": "https://mediabiasfactcheck.com/miami-herald/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "miamiindependent.com",
+    "name": "Miami Independent",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "imposter"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/miami-independent-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "miaminewtimes.com",
@@ -40674,6 +40784,18 @@
     ],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/nc-mississippi-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "ncncnews.com",
+    "name": "NC North Carolina News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/nc-north-carolina-news-bias/"
   },
   {
     "bias": "left",
@@ -53070,6 +53192,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/san-mateo-sun/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "sanmiguelpost.com",
+    "name": "San Miguel Post",
+    "questionable": [
+      "poor-sourcing",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/san-miguel-post-bias/"
   },
   {
     "bias": "fake-news",
@@ -70264,6 +70398,15 @@
     "url": "https://mediabiasfactcheck.com/west-indy-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "westknews.com",
+    "name": "West K News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/west-k-news-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "westlatimes.com",
@@ -70554,6 +70697,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wftv-orlando-news-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "wftw.com",
+    "name": "WFTW - 1260 AM - Fort Walton Beach",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wftw-1260-am-fort-walton-beach-bias/"
   },
   {
     "bias": "right-center",
@@ -71951,6 +72103,15 @@
     "reporting": "mixed",
     "twitter": "workersworld",
     "url": "https://mediabiasfactcheck.com/workers-world/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "workscoop.com",
+    "name": "WorkScoop",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/workscoop-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
