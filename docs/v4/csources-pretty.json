@@ -4431,6 +4431,16 @@
     "a": "L",
     "q": []
   },
+  "antioxidants.news": {
+    "b": "CP",
+    "d": "antioxidants.news",
+    "n": "Antioxidants.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/antioxidants-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "antiwar.com": {
     "b": "RC",
     "d": "antiwar.com",
@@ -4820,6 +4830,26 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "armedforces.press": {
+    "b": "FN",
+    "d": "armedforces.press",
+    "n": "Armed Forces Press",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/armed-forces-press-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE",
+      "IM"
+    ]
   },
   "armscontrol.org": {
     "b": "LC",
@@ -5474,6 +5504,16 @@
     "u": "https://mediabiasfactcheck.com/autoblog-bias-and-credibility/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "automotivedive.com": {
+    "b": "C",
+    "d": "automotivedive.com",
+    "n": "AutomotiveDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/automotivedive-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "autostraddle.com": {
@@ -10662,6 +10702,16 @@
     "a": "M",
     "q": []
   },
+  "cbs58.com": {
+    "b": "LC",
+    "d": "cbs58.com",
+    "n": "WDJT - CBS - Milwaukee",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wdjt-cbs-milwaukee-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "cbs6albany.com": {
     "b": "RC",
     "d": "cbs6albany.com",
@@ -13203,6 +13253,19 @@
     "a": "L",
     "q": []
   },
+  "climatefeedback.org": {
+    "b": "PS",
+    "d": "climatefeedback.org",
+    "f": "ClimateFeedback",
+    "n": "Climate Feedback",
+    "r": "VH",
+    "t": "ClimateFdbk",
+    "u": "https://mediabiasfactcheck.com/climate-feedback/",
+    "P": 55,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "climaterealityproject.org": {
     "b": "L",
     "d": "climaterealityproject.org",
@@ -14902,16 +14965,6 @@
       "LT",
       "M"
     ]
-  },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
   },
   "constitutioncenter.org": {
     "b": "C",
@@ -23482,6 +23535,16 @@
       "LT"
     ]
   },
+  "filtermag.org": {
+    "b": "LC",
+    "d": "filtermag.org",
+    "n": "Filter Magazine",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/filter-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "financialexpress.com": {
     "b": "RC",
     "d": "financialexpress.com",
@@ -23504,6 +23567,16 @@
     "t": "financialpost",
     "u": "https://mediabiasfactcheck.com/financial-post/",
     "P": 80,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "finextra.com": {
+    "b": "C",
+    "d": "finextra.com",
+    "n": "Finextra",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/finextra-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -26061,6 +26134,17 @@
     "p": "/journals/computer-science",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-computer-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/conservation-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/conservation-science",
+    "n": "Frontiers in Conservation Science",
+    "p": "/journals/conservation-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-conservation-science-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -29159,6 +29243,17 @@
     "P": 27,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "healthfeedback.org": {
+    "b": "PS",
+    "d": "healthfeedback.org",
+    "n": "Health Feedback",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/health-feedback/",
+    "P": 43,
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "healthimpactnews.com": {
@@ -35318,6 +35413,25 @@
     "a": "M",
     "q": []
   },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "kiyu.com": {
     "b": "LC",
     "d": "kiyu.com",
@@ -36409,6 +36523,16 @@
     "u": "https://mediabiasfactcheck.com/kvia-el-paso-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kvnf.org": {
+    "b": "LC",
+    "d": "kvnf.org",
+    "n": "KVNF - NPR - Paonia",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kvnf-npr-paonia-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kvoa.com": {
@@ -39127,6 +39251,16 @@
       "FFC"
     ]
   },
+  "lucknowsentinel.com": {
+    "b": "RC",
+    "d": "lucknowsentinel.com",
+    "n": "Lucknow Sentinel",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lucknow-sentinel-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "lung.org": {
     "b": "PS",
     "d": "lung.org",
@@ -40717,6 +40851,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/biomass": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biomass",
+    "n": "Biomass Journal",
+    "p": "/journal/biomass",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biomass-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/blsf": {
     "b": "PS",
     "d": "mdpi.com/journal/blsf",
@@ -40741,6 +40886,16 @@
       "FC",
       "IM"
     ]
+  },
+  "meadvilletribune.com": {
+    "b": "LC",
+    "d": "meadvilletribune.com",
+    "n": "Meadville Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/meadville-tribune-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "meanlefthook.com": {
     "b": "L",
@@ -41803,6 +41958,21 @@
       "P",
       "LT",
       "M",
+      "IM"
+    ]
+  },
+  "michoacanpost.com": {
+    "b": "FN",
+    "d": "michoacanpost.com",
+    "n": "Michoacan Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/michoacan-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "PG",
       "IM"
     ]
   },
@@ -45533,6 +45703,16 @@
     "a": "N",
     "q": []
   },
+  "new.finalcall.com": {
+    "b": "CP",
+    "d": "new.finalcall.com",
+    "n": "The Final Call",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-final-call-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "newamerica.org": {
     "b": "LC",
     "d": "newamerica.org",
@@ -48123,6 +48303,20 @@
       "IM"
     ]
   },
+  "northcharlottetoday.com": {
+    "b": "FN",
+    "d": "northcharlottetoday.com",
+    "n": "North Charlotte Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-charlotte-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "northcoastcanews.com": {
     "b": "FN",
     "d": "northcoastcanews.com",
@@ -48292,6 +48486,20 @@
     "n": "North Fulton Today",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-fulton-today/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "northguilfordnews.com": {
+    "b": "FN",
+    "d": "northguilfordnews.com",
+    "n": "North Guilford News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-guilford-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -54258,15 +54466,12 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -59060,32 +59265,6 @@
     "P": 42,
     "c": "H",
     "a": "L",
-    "q": []
-  },
-  "science.feedback.org/climate-feedback": {
-    "b": "PS",
-    "d": "science.feedback.org/climate-feedback",
-    "f": "ClimateFeedback",
-    "n": "Climate Feedback",
-    "p": "/climate-feedback",
-    "r": "VH",
-    "t": "ClimateFdbk",
-    "u": "https://mediabiasfactcheck.com/climate-feedback/",
-    "P": 55,
-    "c": "H",
-    "a": "L",
-    "q": []
-  },
-  "science.feedback.org/health-feedback": {
-    "b": "PS",
-    "d": "science.feedback.org/health-feedback",
-    "n": "Health Feedback",
-    "p": "/health-feedback",
-    "r": "VH",
-    "u": "https://mediabiasfactcheck.com/health-feedback/",
-    "P": 43,
-    "c": "H",
-    "a": "M",
     "q": []
   },
   "science.news": {
@@ -74508,6 +74687,16 @@
     "a": "H",
     "q": []
   },
+  "uspharmacist.com": {
+    "b": "PS",
+    "d": "uspharmacist.com",
+    "n": "U.S. Pharmacist",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/u-s-pharmacist-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "uspoliticsinfo.com": {
     "b": "R",
     "d": "uspoliticsinfo.com",
@@ -80360,6 +80549,16 @@
     "u": "https://mediabiasfactcheck.com/wvlt-8/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wvnn.com": {
+    "b": "R",
+    "d": "wvnn.com",
+    "n": "WVNN - 92.5 FM - Huntsville",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wvnn-92-5-fm-huntsville-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wvnstv.com": {

@@ -4086,6 +4086,15 @@
     "url": "https://mediabiasfactcheck.com/canadian-anti-hate-network-bias/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "antioxidants.news",
+    "name": "Antioxidants.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/antioxidants-news-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "medium-credibility",
     "domain": "antiwar.com",
@@ -4441,6 +4450,26 @@
     "reporting": "high",
     "twitter": "arktimes",
     "url": "https://mediabiasfactcheck.com/arkansas-times/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "armedforces.press",
+    "name": "Armed Forces Press",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "imposter"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/armed-forces-press-bias/"
   },
   {
     "bias": "left-center",
@@ -5021,6 +5050,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/autoblog-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "automotivedive.com",
+    "name": "AutomotiveDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/automotivedive-bias/"
   },
   {
     "bias": "left",
@@ -9749,6 +9787,15 @@
     "url": "https://mediabiasfactcheck.com/kdbc-el-paso-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "cbs58.com",
+    "name": "WDJT - CBS - Milwaukee",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wdjt-cbs-milwaukee-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "cbs6albany.com",
@@ -12029,6 +12076,18 @@
     "url": "https://mediabiasfactcheck.com/climate-depot/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "climatefeedback.org",
+    "facebook": "ClimateFeedback",
+    "name": "Climate Feedback",
+    "popularity": 55,
+    "questionable": [],
+    "reporting": "very-high",
+    "twitter": "ClimateFdbk",
+    "url": "https://mediabiasfactcheck.com/climate-feedback/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "climaterealityproject.org",
@@ -13624,15 +13683,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/constative-bias/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "center",
@@ -21464,6 +21514,15 @@
     "url": "https://mediabiasfactcheck.com/filming-cops/"
   },
   {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "filtermag.org",
+    "name": "Filter Magazine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/filter-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "medium-credibility",
     "domain": "financialexpress.com",
@@ -21486,6 +21545,15 @@
     "reporting": "mostly-factual",
     "twitter": "financialpost",
     "url": "https://mediabiasfactcheck.com/financial-post/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "finextra.com",
+    "name": "Finextra",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/finextra-bias/"
   },
   {
     "bias": "fake-news",
@@ -23789,6 +23857,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-computer-science-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/conservation-science",
+    "name": "Frontiers in Conservation Science",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-conservation-science-bias/"
   },
   {
     "bias": "pro-science",
@@ -26633,6 +26710,16 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/health-eternally/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "healthfeedback.org",
+    "name": "Health Feedback",
+    "popularity": 43,
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/health-feedback/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -32186,6 +32273,25 @@
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "kiyu.com",
@@ -33169,6 +33275,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kvia-el-paso-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "kvnf.org",
+    "name": "KVNF - NPR - Paonia",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kvnf-npr-paonia-bias/"
   },
   {
     "bias": "center",
@@ -35653,6 +35768,15 @@
     "url": "https://mediabiasfactcheck.com/lucianne-com/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "lucknowsentinel.com",
+    "name": "Lucknow Sentinel",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lucknow-sentinel-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "lung.org",
@@ -37042,6 +37166,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/biomass",
+    "name": "Biomass Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/biomass-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/blsf",
     "name": "Biology and Life Sciences Forum",
     "questionable": [],
@@ -37059,6 +37192,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/maryland-state-wire-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "meadvilletribune.com",
+    "name": "Meadville Tribune",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/meadville-tribune-bias/"
   },
   {
     "bias": "left",
@@ -38022,6 +38164,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/the-michigan-independent-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "michoacanpost.com",
+    "name": "Michoacan Post",
+    "questionable": [
+      "poor-sourcing",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/michoacan-post-bias/"
   },
   {
     "bias": "fake-news",
@@ -41365,6 +41519,15 @@
     "url": "https://mediabiasfactcheck.com/nevo-news/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "new.finalcall.com",
+    "name": "The Final Call",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/the-final-call-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "newamerica.org",
@@ -43737,6 +43900,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "northcharlottetoday.com",
+    "name": "North Charlotte Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-charlotte-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "northcoastcanews.com",
     "name": "North Coast California News",
     "popularity": 4,
@@ -43892,6 +44067,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-fulton-today/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northguilfordnews.com",
+    "name": "North Guilford News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-guilford-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -49280,13 +49467,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -53721,28 +53905,6 @@
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/science-feedback/"
-  },
-  {
-    "bias": "pro-science",
-    "credibility": "high-credibility",
-    "domain": "science.feedback.org/climate-feedback",
-    "facebook": "ClimateFeedback",
-    "name": "Climate Feedback",
-    "popularity": 55,
-    "questionable": [],
-    "reporting": "very-high",
-    "twitter": "ClimateFdbk",
-    "url": "https://mediabiasfactcheck.com/climate-feedback/"
-  },
-  {
-    "bias": "pro-science",
-    "credibility": "high-credibility",
-    "domain": "science.feedback.org/health-feedback",
-    "name": "Health Feedback",
-    "popularity": 43,
-    "questionable": [],
-    "reporting": "very-high",
-    "url": "https://mediabiasfactcheck.com/health-feedback/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -67779,6 +67941,15 @@
     "url": "https://mediabiasfactcheck.com/us-news-world-report/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "uspharmacist.com",
+    "name": "U.S. Pharmacist",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/u-s-pharmacist-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "uspoliticsinfo.com",
@@ -73093,6 +73264,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wvlt-8/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "wvnn.com",
+    "name": "WVNN - 92.5 FM - Huntsville",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wvnn-92-5-fm-huntsville-bias/"
   },
   {
     "bias": "center",
