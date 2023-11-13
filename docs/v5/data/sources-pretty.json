@@ -4587,6 +4587,15 @@
     "url": "https://mediabiasfactcheck.com/a-sheep-no-more/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "ashepostandtimes.com",
+    "name": "Ashe Post & Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/ashe-post-times-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "asia-pacificresearch.com",
@@ -9215,6 +9224,24 @@
     "url": "https://mediabiasfactcheck.com/canary-media-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "canarymission.org",
+    "name": "Canary Mission",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/canary-mission-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "canberradeclaration.org.au",
@@ -11109,6 +11136,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/child-trends-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "chillicothegazette.com",
+    "name": "Chillicothe Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/chillicothe-gazette/"
   },
   {
     "bias": "center",
@@ -21059,6 +21095,15 @@
     "url": "https://mediabiasfactcheck.com/the-fake-news-codex/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "falmouthpacket.co.uk",
+    "name": "Falmouth Packet",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/falmouth-packet-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "familysecuritymatters.org",
@@ -24636,6 +24681,15 @@
     "reporting": "mixed",
     "twitter": "Geologytime",
     "url": "https://mediabiasfactcheck.com/geology-in/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "geopoliticalmonitor.com",
+    "name": "Geopolitical Monitor",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/geopolitical-monitor-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -31668,6 +31722,15 @@
     "url": "https://mediabiasfactcheck.com/kclu-npr-santa-barbara-bias/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "kcmotalkradio.com",
+    "name": "KCMO - 95.7 - Kansas City",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/kcmo-95-7-fm-kansas-city-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "kcna.kp",
@@ -33527,6 +33590,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kzyx-npr-philo-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "laborpains.org",
+    "name": "LaborPains",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/laborpain-bias/"
   },
   {
     "bias": "left-center",
@@ -44199,6 +44271,18 @@
     "url": "https://mediabiasfactcheck.com/north-iowa-reporter-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northiredellnews.com",
+    "name": "North Iredell News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/north-iredell-news-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "northislandgazette.com",
@@ -44290,6 +44374,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-little-rock-times/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northmecklenburgnews.com",
+    "name": "North Mecklenburg",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-mecklenburg-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -50289,6 +50385,24 @@
     "url": "https://mediabiasfactcheck.com/quanta-magazine/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "qudsnen.com",
+    "name": "Quds News Network",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/quds-news-network-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "queencreektribune.com",
@@ -53496,6 +53610,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/san-luis-obispo-tribune/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "sanluispotosipost.com",
+    "name": "San Luis Potosi Post",
+    "questionable": [
+      "poor-sourcing",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/san-luis-potosi-post-bias/"
   },
   {
     "bias": "center",
@@ -66753,6 +66879,25 @@
     "url": "https://mediabiasfactcheck.com/turkey-and-facts-dogruluk-payi/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "turleytalks.com",
+    "name": "Turley Talks",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/turley-talks-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "turnto10.com",
@@ -66820,6 +66965,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/tva-nouvelles-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "tvn24.pl",
+    "name": "TVN24",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://www.trtafrika.com/"
   },
   {
     "bias": "right",
@@ -67171,6 +67325,15 @@
     "url": "https://mediabiasfactcheck.com/union-county-review-bias/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "unionfacts.com",
+    "name": "Center for Union Facts",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/union-facts-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "unionleader.com",
@@ -67220,6 +67383,23 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/unite-america-first/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "unitedvoice.com",
+    "name": "United Voice",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/united-voice-bias/"
   },
   {
     "bias": "fake-news",
@@ -72979,6 +73159,15 @@
     "url": "https://mediabiasfactcheck.com/wsfl-miami-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wshu.org",
+    "name": "WSHU - NPR - Fairfield",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wshu-npr-fairfield-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "wsiltv.com",
@@ -73576,6 +73765,15 @@
     "reporting": "very-low",
     "twitter": "realalexjones",
     "url": "https://mediabiasfactcheck.com/infowars-alex-jones/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "lebanondemocrat.com/portland",
+    "name": "Portland Leader",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/portland-leader-bias/"
   },
   {
     "bias": "pro-science",
