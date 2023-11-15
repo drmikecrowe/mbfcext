@@ -844,6 +844,16 @@
     "a": "L",
     "q": []
   },
+  "abc57.com": {
+    "b": "LC",
+    "d": "abc57.com",
+    "n": "WBND - South Bend News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbnd-south-bend-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "abc6onyourside.com": {
     "b": "RC",
     "d": "abc6onyourside.com",
@@ -3040,6 +3050,16 @@
       "M",
       "PSE"
     ]
+  },
+  "americancrimejournal.com": {
+    "b": "LC",
+    "d": "americancrimejournal.com",
+    "n": "American Crime Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/american-crime-journal-acj-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
   },
   "americandailynews.org": {
     "b": "R",
@@ -5605,6 +5625,16 @@
     "n": "Awake Canada",
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/awake-canada-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "awakening.news": {
+    "b": "CP",
+    "d": "awakening.news",
+    "n": "Awakening.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/awakening-news-bias/",
     "c": "L",
     "a": "L",
     "q": []
@@ -15034,16 +15064,6 @@
       "M"
     ]
   },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -16994,6 +17014,17 @@
     "P": 85,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
     "q": []
   },
   "dailynewsreported.com": {
@@ -33732,6 +33763,16 @@
     "a": "L",
     "q": []
   },
+  "jneuroengrehab.biomedcentral.com": {
+    "b": "PS",
+    "d": "jneuroengrehab.biomedcentral.com",
+    "n": "Journal of NeuroEngineering and Rehabilitation",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/journal-of-neuroengineering-and-rehabilitation-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jns.org": {
     "b": "RC",
     "d": "jns.org",
@@ -35529,6 +35570,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -40981,6 +41041,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/biomechanics": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biomechanics",
+    "n": "Biomechanics Journal",
+    "p": "/journal/biomechanics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biomechanics-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/blsf": {
     "b": "PS",
     "d": "mdpi.com/journal/blsf",
@@ -42532,6 +42603,16 @@
     "u": "https://mediabiasfactcheck.com/missouri-independent-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "mitchelladvocate.com": {
+    "b": "RC",
+    "d": "mitchelladvocate.com",
+    "n": "Mitchell Advocate",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/mitchell-advocate-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "mitchellrepublic.com": {
@@ -49016,6 +49097,20 @@
       "IM"
     ]
   },
+  "northraleightoday.com": {
+    "b": "FN",
+    "d": "northraleightoday.com",
+    "n": "North Raleigh Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-raleigh-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "northramseynews.com": {
     "b": "FN",
     "d": "northramseynews.com",
@@ -54613,15 +54708,12 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -60174,6 +60266,17 @@
       "IM"
     ]
   },
+  "secretsofthefed.com": {
+    "b": "CP",
+    "d": "secretsofthefed.com",
+    "n": "Secrets of the Fed",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/secrets-of-the-fed/",
+    "P": 41,
+    "c": "L",
+    "a": "N",
+    "q": []
+  },
   "secureamericanow.org": {
     "b": "FN",
     "d": "secureamericanow.org",
@@ -65525,6 +65628,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "tamaulipaspost.com": {
+    "b": "FN",
+    "d": "tamaulipaspost.com",
+    "n": "Tamaulipas Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tamaulipas-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
   },
   "tampa.cbslocal.com": {
     "b": "LC",
@@ -73235,11 +73352,11 @@
   "truthbroadcastnetwork.com": {
     "b": "CP",
     "d": "truthbroadcastnetwork.com",
-    "n": "Truth Broadcating Network",
+    "n": "Truth Broadcasting Network",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/truth-broadcasting-network/",
-    "P": 17,
-    "c": "NA",
+    "P": 21,
+    "c": "L",
     "a": "N",
     "q": []
   },
@@ -73414,6 +73531,27 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "tsionizm.com": {
+    "b": "FN",
+    "d": "tsionizm.com",
+    "n": "Tsionizm",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/tsionizm-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE",
+      "IM"
+    ]
   },
   "tuckercarlson.com": {
     "d": "tuckercarlson.com",

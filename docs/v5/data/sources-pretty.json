@@ -777,6 +777,15 @@
     "url": "https://mediabiasfactcheck.com/wxlv-winston-salem-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "abc57.com",
+    "name": "WBND - South Bend News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wbnd-south-bend-news-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "abc6onyourside.com",
@@ -2791,6 +2800,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/american-conservative-movement-acm/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "americancrimejournal.com",
+    "name": "American Crime Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/american-crime-journal-acj-bias/"
   },
   {
     "bias": "right",
@@ -5146,6 +5164,15 @@
     "questionable": [],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/awake-canada-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "awakening.news",
+    "name": "Awakening.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/awakening-news-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -13750,15 +13777,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -15546,6 +15564,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -30748,6 +30776,15 @@
     "url": "https://mediabiasfactcheck.com/journal-of-neurodevelopmental-disorders-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jneuroengrehab.biomedcentral.com",
+    "name": "Journal of NeuroEngineering and Rehabilitation",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/journal-of-neuroengineering-and-rehabilitation-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "jns.org",
@@ -32378,6 +32415,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -37272,6 +37328,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/biomechanics",
+    "name": "Biomechanics Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/biomechanics-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/blsf",
     "name": "Biology and Life Sciences Forum",
     "questionable": [],
@@ -38676,6 +38741,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/missouri-independent-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "mitchelladvocate.com",
+    "name": "Mitchell Advocate",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/mitchell-advocate-bias/"
   },
   {
     "bias": "right-center",
@@ -44516,6 +44590,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "northraleightoday.com",
+    "name": "North Raleigh Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-raleigh-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "northramseynews.com",
     "name": "North Ramsey News",
     "questionable": [
@@ -49588,13 +49674,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -54711,6 +54794,16 @@
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "secretsofthefed.com",
+    "name": "Secrets of the Fed",
+    "popularity": 41,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "secureamericanow.org",
@@ -59509,6 +59602,17 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/tama-toledo-news-chronicle/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "tamaulipaspost.com",
+    "name": "Tamaulipas Post",
+    "questionable": [
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/tamaulipas-post-bias/"
   },
   {
     "bias": "left-center",
@@ -66590,10 +66694,10 @@
   },
   {
     "bias": "conspiracy-pseudoscience",
-    "credibility": "n/a",
+    "credibility": "low-credibility",
     "domain": "truthbroadcastnetwork.com",
-    "name": "Truth Broadcating Network",
-    "popularity": 17,
+    "name": "Truth Broadcasting Network",
+    "popularity": 21,
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/truth-broadcasting-network/"
@@ -66758,6 +66862,27 @@
     "reporting": "low",
     "twitter": "truthuncensore",
     "url": "https://mediabiasfactcheck.com/truth-uncensored/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "tsionizm.com",
+    "name": "Tsionizm",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "imposter"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/tsionizm-bias/"
   },
   {
     "bias": "left-center",
