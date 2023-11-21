@@ -5154,6 +5154,15 @@
     "url": "https://mediabiasfactcheck.com/avenue-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "averyjournal.com",
+    "name": "Avery Journal Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/avery-journal-times-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "avoiceformen.com",
@@ -16844,6 +16853,15 @@
     "reporting": "high",
     "twitter": "delawareonline",
     "url": "https://mediabiasfactcheck.com/delaware-online-news-journal/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "delawarepublic.org",
+    "name": "WDDE - NPR - Dover",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wdde-npr-dover-bias/"
   },
   {
     "bias": "right-center",
@@ -67283,6 +67301,15 @@
     "url": "https://mediabiasfactcheck.com/tvw-washington-state/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "twc.health",
+    "name": "The Wellness Company",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/the-wellness-company-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "twincities.com",
@@ -67908,6 +67935,15 @@
     "reporting": "mixed",
     "twitter": "UPROXX",
     "url": "https://mediabiasfactcheck.com/uproxx/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "upward.news",
+    "name": "Upward News",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/upward-news-bias/"
   },
   {
     "bias": "left",
