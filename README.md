@@ -33,7 +33,7 @@ If you find any issues with this extension, ideas of ways to make it better or s
 If you like this extension, please help us out:
 
 - Give us a favorable review in the [Chrome Web Store](https://chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh) or the [Firefox Addons Page](https://addons.mozilla.org/en-US/firefox/addon/media-bias-fact-check/).  This will help grow our users
-- Please tell your friends.  If you would like to share on Facebook, [click here now](https://www.facebook.com/sharer/sharer.php?u=https%3A//chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh).
+- Please tell your friends.  If you would like to share on Facebook, [click here now](https://www.facebook.com/sharer/sharer.php?u=https%3A//chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh).
 
 ## Release Notes for version 4.0
 
