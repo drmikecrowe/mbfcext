@@ -15145,16 +15145,6 @@
       "M"
     ]
   },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -19169,6 +19159,16 @@
     "a": "M",
     "q": []
   },
+  "digitimes.com": {
+    "b": "C",
+    "d": "digitimes.com",
+    "n": "DigiTimes Asia",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/digitimes-asia-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "dillontribune.com": {
     "b": "LC",
     "d": "dillontribune.com",
@@ -22192,6 +22192,16 @@
     "u": "https://mediabiasfactcheck.com/environment-america-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "eonline.com": {
+    "b": "C",
+    "d": "eonline.com",
+    "n": "E! News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/e-news-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "epa.gov": {
@@ -33936,6 +33946,16 @@
     "a": "L",
     "q": []
   },
+  "jneuroinflammation.biomedcentral.com": {
+    "b": "PS",
+    "d": "jneuroinflammation.biomedcentral.com",
+    "n": "Journal for Neuroinflammation",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/journal-of-neuroinflammation-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jns.org": {
     "b": "RC",
     "d": "jns.org",
@@ -35743,6 +35763,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -46102,6 +46141,16 @@
     "a": "N",
     "q": []
   },
+  "newarkadvocate.com": {
+    "b": "LC",
+    "d": "newarkadvocate.com",
+    "n": "Newark Advocate",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newark-advocate-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "newarkpostonline.com": {
     "b": "C",
     "d": "newarkpostonline.com",
@@ -48529,6 +48578,16 @@
       "M"
     ]
   },
+  "norfolkandtillsonburgnews.com": {
+    "b": "RC",
+    "d": "norfolkandtillsonburgnews.com",
+    "n": "Norfolk & Tillsonburg News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/norfolk-tillsonburg-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "norfolkdailynews.com": {
     "b": "C",
     "d": "norfolkdailynews.com",
@@ -50928,6 +50987,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "oldnorthnews.com": {
+    "b": "FN",
+    "d": "oldnorthnews.com",
+    "n": "Old North News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/old-north-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "omaha.com": {
     "b": "RC",
@@ -73292,6 +73365,16 @@
     "a": "L",
     "q": []
   },
+  "trtafrika.com": {
+    "b": "RC",
+    "d": "trtafrika.com",
+    "n": "TRT Afrika",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/trt-afrika-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "trtworld.com": {
     "b": "R",
     "d": "trtworld.com",
@@ -73617,6 +73700,16 @@
     "P": 40,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "truthforhealth.org": {
+    "b": "CP",
+    "d": "truthforhealth.org",
+    "n": "Truth for Health Foundation",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/truth-for-health-foundation-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "truthinmedia.com": {
@@ -81649,7 +81742,7 @@
     "u": "https://mediabiasfactcheck.com/ynetnews/",
     "P": 84,
     "c": "H",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "yomiuri.co.jp": {

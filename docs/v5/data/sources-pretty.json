@@ -13851,15 +13851,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -17527,6 +17518,15 @@
     "url": "https://mediabiasfactcheck.com/digital-journal/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "digitimes.com",
+    "name": "DigiTimes Asia",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/digitimes-asia-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "dillontribune.com",
@@ -20268,6 +20268,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/environment-america-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "eonline.com",
+    "name": "E! News",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/e-news-bias/"
   },
   {
     "bias": "pro-science",
@@ -30931,6 +30940,15 @@
     "url": "https://mediabiasfactcheck.com/journal-of-neuroengineering-and-rehabilitation-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jneuroinflammation.biomedcentral.com",
+    "name": "Journal for Neuroinflammation",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/journal-of-neuroinflammation-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "jns.org",
@@ -32570,6 +32588,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -41867,6 +41904,15 @@
     "url": "https://mediabiasfactcheck.com/new-american-news/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "newarkadvocate.com",
+    "name": "Newark Advocate",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/newark-advocate-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "newarkpostonline.com",
@@ -44095,6 +44141,15 @@
     "url": "https://mediabiasfactcheck.com/nordic-monitor/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "norfolkandtillsonburgnews.com",
+    "name": "Norfolk & Tillsonburg News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/norfolk-tillsonburg-news-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "norfolkdailynews.com",
@@ -46236,6 +46291,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-oklahoman/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "oldnorthnews.com",
+    "name": "Old North News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/old-north-news-bias/"
   },
   {
     "bias": "right-center",
@@ -66627,6 +66694,15 @@
     "url": "https://mediabiasfactcheck.com/troy-record-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "trtafrika.com",
+    "name": "TRT Afrika",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/trt-afrika-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "trtworld.com",
@@ -66930,6 +67006,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/truthfeed/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "truthforhealth.org",
+    "name": "Truth for Health Foundation",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/truth-for-health-foundation-bias/"
   },
   {
     "bias": "fake-news",
