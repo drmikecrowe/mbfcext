@@ -3937,6 +3937,18 @@
     "url": "https://mediabiasfactcheck.com/alliance-for-natural-health-international-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "aninews.in",
+    "facebook": "aninews.in",
+    "name": "Asian News International",
+    "popularity": 73,
+    "questionable": [],
+    "reporting": "mixed",
+    "twitter": "ANI",
+    "url": "https://mediabiasfactcheck.com/asian-news-international-ani/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "annarbortimes.com",
@@ -4693,13 +4705,13 @@
   },
   {
     "bias": "center",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "asiatimes.com",
     "facebook": "asiatimesonline",
     "name": "Asia Times",
     "popularity": 84,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/asia-times/"
   },
   {
@@ -13847,6 +13859,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/constative-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "constitution.com",
+    "name": "The Constitution",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "center",
@@ -32588,25 +32609,6 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "kiwifarms.net",
-    "name": "Kiwi Farms",
-    "questionable": [
-      "conspiracy",
-      "censorship",
-      "propaganda",
-      "plagiarism",
-      "pseudoscience",
-      "poor-sourcing",
-      "false-claims",
-      "misinformation",
-      "hate"
-    ],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -73985,18 +73987,6 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wwny-watertown-bias/"
-  },
-  {
-    "bias": "right-center",
-    "credibility": "medium-credibility",
-    "domain": "aninews.in",
-    "facebook": "aninews.in",
-    "name": "Asian News International",
-    "popularity": 73,
-    "questionable": [],
-    "reporting": "mixed",
-    "twitter": "ANI",
-    "url": "https://mediabiasfactcheck.com/asian-news-international-ani/"
   },
   {
     "bias": "conspiracy-pseudoscience",
