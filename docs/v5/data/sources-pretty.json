@@ -5136,13 +5136,13 @@
   },
   {
     "bias": "left",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "autostraddle.com",
     "facebook": "Autostraddle",
     "name": "AutoStraddle",
     "popularity": 78,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mixed",
     "twitter": "autostraddle",
     "url": "https://mediabiasfactcheck.com/autostraddle/"
   },
@@ -5510,7 +5510,7 @@
     "name": "Baltimore City Paper",
     "popularity": 45,
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/baltimore-city-paper/"
   },
   {
@@ -5544,6 +5544,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/bankingdive-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "banned.news",
+    "name": "Banned.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/banned-news-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -13863,15 +13872,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -17960,6 +17960,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/dothan-eagle-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "doubledown.news",
+    "name": "Double Down News",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/double-down-news-ddn-bias/"
   },
   {
     "bias": "pro-science",
@@ -24958,6 +24967,15 @@
     "url": "https://mediabiasfactcheck.com/georgia-star-news-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "gephardtdaily.com",
+    "name": "Gephardt Daily",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/gephardt-daily-news-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "getcancerremedies.com",
@@ -25050,6 +25068,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/gilbert-sun-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "gingrich360.com",
+    "name": "Gingrich 360",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/gingrich-360-bias/"
   },
   {
     "bias": "fake-news",
@@ -30872,6 +30909,15 @@
     "url": "https://mediabiasfactcheck.com/the-jewish-press/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "jewishpresstampa.com",
+    "name": "Jewish Press of Tampa",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/jewish-press-of-tampa-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "jewishunpacked.com",
@@ -32609,6 +32655,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -37512,6 +37577,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/biomed",
+    "name": "BioMed Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/biomed-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/blsf",
     "name": "Biology and Life Sciences Forum",
     "questionable": [],
@@ -39432,6 +39506,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/moon-of-alabama/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "mooreamerican.com",
+    "name": "Moore American",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/moore-american-bias/"
   },
   {
     "bias": "center",
@@ -46397,6 +46480,18 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/online-conservative-press/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "onslownews.com",
+    "name": "Onslow News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/onslow-news-bias/"
   },
   {
     "bias": "right",
@@ -63415,6 +63510,17 @@
     "url": "https://mediabiasfactcheck.com/the-national-pulse/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "thenayaritpost.com",
+    "name": "Nayarit Post",
+    "questionable": [
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/nayarit-post-bias/"
+  },
+  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "theneedling.com",
@@ -67136,6 +67242,26 @@
     "reporting": "low",
     "twitter": "truthuncensore",
     "url": "https://mediabiasfactcheck.com/truth-uncensored/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "tsarizm",
+    "name": "Tsarizm",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "imposter"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/tsarizm-bias/"
   },
   {
     "bias": "fake-news",

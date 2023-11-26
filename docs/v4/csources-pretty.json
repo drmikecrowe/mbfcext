@@ -5586,11 +5586,11 @@
     "d": "autostraddle.com",
     "f": "Autostraddle",
     "n": "AutoStraddle",
-    "r": "H",
+    "r": "M",
     "t": "autostraddle",
     "u": "https://mediabiasfactcheck.com/autostraddle/",
     "P": 78,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -5872,7 +5872,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/the-badger-institute/",
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "bajacaliforniapost.com": {
@@ -5992,7 +5992,7 @@
     "f": "baltimorecitypaper",
     "n": "Baltimore City Paper",
     "p": "/citypaper",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/baltimore-city-paper/",
     "P": 45,
     "c": "H",
@@ -6031,6 +6031,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/bankingdive-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "banned.news": {
+    "b": "CP",
+    "d": "banned.news",
+    "n": "Banned.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/banned-news-bias/",
+    "c": "L",
     "a": "L",
     "q": []
   },
@@ -15145,16 +15155,6 @@
       "M"
     ]
   },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -19622,6 +19622,16 @@
     "u": "https://mediabiasfactcheck.com/dothan-eagle-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "doubledown.news": {
+    "b": "L",
+    "d": "doubledown.news",
+    "n": "Double Down News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/double-down-news-ddn-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "doubtfulnews.com": {
@@ -27340,6 +27350,16 @@
       "IM"
     ]
   },
+  "gephardtdaily.com": {
+    "b": "C",
+    "d": "gephardtdaily.com",
+    "n": "Gephardt Daily",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/gephardt-daily-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "getcancerremedies.com": {
     "b": "CP",
     "d": "getcancerremedies.com",
@@ -27436,6 +27456,24 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "gingrich360.com": {
+    "b": "FN",
+    "d": "gingrich360.com",
+    "n": "Gingrich 360",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/gingrich-360-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "girlsjustwannahaveguns.com": {
     "b": "FN",
@@ -33858,6 +33896,16 @@
     "a": "M",
     "q": []
   },
+  "jewishpresstampa.com": {
+    "b": "LC",
+    "d": "jewishpresstampa.com",
+    "n": "Jewish Press of Tampa",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/jewish-press-of-tampa-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jewishunpacked.com": {
     "b": "RC",
     "d": "jewishunpacked.com",
@@ -35773,6 +35821,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -41236,6 +41303,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/biomed": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biomed",
+    "n": "BioMed Journal",
+    "p": "/journal/biomed",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biomed-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/blsf": {
     "b": "PS",
     "d": "mdpi.com/journal/blsf",
@@ -43363,6 +43441,16 @@
       "FC",
       "M"
     ]
+  },
+  "mooreamerican.com": {
+    "b": "LC",
+    "d": "mooreamerican.com",
+    "n": "Moore American",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/moore-american-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "mooresvilletribune.com": {
     "b": "C",
@@ -51108,6 +51196,20 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "onslownews.com": {
+    "b": "FN",
+    "d": "onslownews.com",
+    "n": "Onslow News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/onslow-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "ontarioproud.ca": {
     "b": "R",
@@ -69766,6 +69868,20 @@
       "PSE"
     ]
   },
+  "thenayaritpost.com": {
+    "b": "FN",
+    "d": "thenayaritpost.com",
+    "n": "Nayarit Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nayarit-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "theneedling.com": {
     "b": "S",
     "d": "theneedling.com",
@@ -73828,6 +73944,25 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "tsarizm": {
+    "b": "FN",
+    "n": "Tsarizm",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/tsarizm-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE",
+      "IM"
+    ]
   },
   "tsionizm.com": {
     "b": "FN",
