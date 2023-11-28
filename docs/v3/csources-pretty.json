@@ -3659,14 +3659,14 @@
     "a": "M",
     "q": []
   },
-  "americaoutloud.com": {
+  "americaoutloud.news": {
     "b": "FN",
-    "d": "americaoutloud.com",
+    "d": "americaoutloud.news",
     "n": "America Out Loud",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/america-out-loud/",
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
@@ -15155,16 +15155,6 @@
       "M"
     ]
   },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -24085,6 +24075,16 @@
       "IM"
     ]
   },
+  "flemingmethod.com": {
+    "b": "CP",
+    "d": "flemingmethod.com",
+    "n": "Fleming-Method",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/fleming-method-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "flippinonline.com": {
     "b": "C",
     "d": "flippinonline.com",
@@ -26439,6 +26439,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/dementia": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/dementia",
+    "n": "Frontiers in Dementia",
+    "p": "/journals/dementia",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-dementia-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -27618,6 +27629,16 @@
     "a": "L",
     "q": []
   },
+  "globalchange.gov": {
+    "b": "PS",
+    "d": "globalchange.gov",
+    "n": "US Global Change Research Program (USGCRP)",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/us-global-change-research-program-usgcrp-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "globalcitizen.org": {
     "b": "LC",
     "d": "globalcitizen.org",
@@ -28436,6 +28457,25 @@
     "a": "L",
     "q": []
   },
+  "granitegrok.com": {
+    "b": "FN",
+    "d": "granitegrok.com",
+    "n": "Granite Grok",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/granite-grok-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
+  },
   "granitestatetimes.com": {
     "b": "FN",
     "d": "granitestatetimes.com",
@@ -28524,6 +28564,16 @@
     "P": 38,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "greatawakening.win": {
+    "b": "CP",
+    "d": "greatawakening.win",
+    "n": "Great Awakening",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/great-awakening-bias/",
+    "c": "L",
+    "a": "M",
     "q": []
   },
   "greatfallstribune.com": {
@@ -35831,6 +35881,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -51779,6 +51848,20 @@
     "c": "NA",
     "a": "N",
     "q": []
+  },
+  "outerbankstimes.com": {
+    "b": "FN",
+    "d": "outerbankstimes.com",
+    "n": "Outer Banks Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/outer-banks-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "outkick.com": {
     "b": "R",
@@ -73443,6 +73526,16 @@
     "a": "L",
     "q": []
   },
+  "trouw.nl": {
+    "b": "LC",
+    "d": "trouw.nl",
+    "n": "Trouw",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trouw-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "troymessenger.com": {
     "b": "RC",
     "d": "troymessenger.com",
@@ -78890,6 +78983,16 @@
     "a": "H",
     "q": []
   },
+  "wgcu.org": {
+    "b": "LC",
+    "d": "wgcu.org",
+    "n": "WGCU - NPR - Fort Myers",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wgcu-npr-fort-myers-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "wgem.com": {
     "b": "C",
     "d": "wgem.com",
@@ -81369,6 +81472,16 @@
     "P": 76,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wvlkam.com": {
+    "b": "R",
+    "d": "wvlkam.com",
+    "n": "WVLK - 590 AM - Lexington",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wvlk-590-am-lexington-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wvlt.tv": {

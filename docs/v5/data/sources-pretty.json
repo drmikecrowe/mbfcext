@@ -3381,7 +3381,7 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "americaoutloud.com",
+    "domain": "americaoutloud.news",
     "name": "America Out Loud",
     "questionable": [
       "conspiracy",
@@ -13872,15 +13872,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -22030,6 +22021,15 @@
     "url": "https://mediabiasfactcheck.com/catholic-tribune-florida-bias/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "flemingmethod.com",
+    "name": "Fleming-Method",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/fleming-method-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "flippinonline.com",
@@ -24145,6 +24145,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/dementia",
+    "name": "Frontiers in Dementia",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-dementia-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -25221,6 +25230,15 @@
     "url": "https://mediabiasfactcheck.com/glitch-news/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "globalchange.gov",
+    "name": "US Global Change Research Program (USGCRP)",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/us-global-change-research-program-usgcrp-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "globalcitizen.org",
@@ -25987,6 +26005,25 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "granitegrok.com",
+    "name": "Granite Grok",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/granite-grok-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "granitestatetimes.com",
     "name": "Granite State Times",
     "questionable": [
@@ -26067,6 +26104,15 @@
     "reporting": "low",
     "twitter": "GreatAmRepublic",
     "url": "https://mediabiasfactcheck.com/allen-west-republic/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "greatawakening.win",
+    "name": "Great Awakening",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/great-awakening-bias/"
   },
   {
     "bias": "center",
@@ -32664,6 +32710,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -47003,6 +47068,18 @@
     "questionable": [],
     "twitter": "outandabouter",
     "url": "https://mediabiasfactcheck.com/the-out-and-abouter/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "outerbankstimes.com",
+    "name": "Outer Banks Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/outer-banks-times-bias/"
   },
   {
     "bias": "right",
@@ -66774,6 +66851,15 @@
     "url": "https://mediabiasfactcheck.com/ring-of-fire/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "trouw.nl",
+    "name": "Trouw",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trouw-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "troymessenger.com",
@@ -71755,6 +71841,15 @@
     "url": "https://mediabiasfactcheck.com/wgal-lancaster-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wgcu.org",
+    "name": "WGCU - NPR - Fort Myers",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wgcu-npr-fort-myers-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "wgem.com",
@@ -74004,6 +74099,15 @@
     "reporting": "high",
     "twitter": "wvgazettemail",
     "url": "https://mediabiasfactcheck.com/charleston-gazette-mail/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "wvlkam.com",
+    "name": "WVLK - 590 AM - Lexington",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wvlk-590-am-lexington-bias/"
   },
   {
     "bias": "center",
