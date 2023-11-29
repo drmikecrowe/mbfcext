@@ -6549,6 +6549,15 @@
     "url": "https://mediabiasfactcheck.com/biomed-central-bmc/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "biopharmadive.com",
+    "name": "BioPharmaDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/biopharmadive-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "bioscienceresource.org",
@@ -10471,6 +10480,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/trends-in-biotechnology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/cancer",
+    "name": "Trends in Cancer",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-cancer-bias/"
   },
   {
     "bias": "center",
@@ -14594,6 +14612,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/crains-detroit/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "cranbrooktownsman.com",
+    "name": "Cranbrook Townsman",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cranbrook-townsman-bias/"
   },
   {
     "bias": "center",
@@ -25148,6 +25175,15 @@
     "url": "https://mediabiasfactcheck.com/givesendgo-bias-and-credibility/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "gizadeathstar.com",
+    "name": "Giza Death Star",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/giza-death-star-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "gizmodo.com",
@@ -26125,6 +26161,15 @@
     "reporting": "high",
     "twitter": "GFTribune",
     "url": "https://mediabiasfactcheck.com/great-falls-tribune/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "greatist.com",
+    "name": "Greatist",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/greatist-bias/"
   },
   {
     "bias": "fake-news",
