@@ -22825,7 +22825,7 @@
     "b": "R",
     "d": "explainamerica.com",
     "n": "Explain America",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/explain-america-bias/",
     "c": "M",
     "a": "L",
@@ -38561,7 +38561,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/le-soleil-quebec-bias/",
     "c": "H",
-    "a": "H",
+    "a": "M",
     "q": []
   },
   "lesswrong.com": {
@@ -47807,6 +47807,16 @@
       "M"
     ]
   },
+  "newsradio1029.com": {
+    "b": "R",
+    "d": "newsradio1029.com",
+    "n": "KARN - 102.9 - Little Rock",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/karn-102-9-fm-little-rock-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "newsradiokkob.com": {
     "b": "R",
     "d": "newsradiokkob.com",
@@ -53574,6 +53584,20 @@
       "IM"
     ]
   },
+  "pinehursttoday.com": {
+    "b": "FN",
+    "d": "pinehursttoday.com",
+    "n": "Pinehurst Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pinehurst-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "pinellastimes.com": {
     "b": "FN",
     "d": "pinellastimes.com",
@@ -56849,6 +56873,16 @@
     "u": "https://mediabiasfactcheck.com/traverse-city-record-eagle/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "recorder.com": {
+    "b": "LC",
+    "d": "recorder.com",
+    "n": "Greenfield Recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/greenfield-recorder-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "recordherald.com": {
@@ -66838,6 +66872,16 @@
     "a": "M",
     "q": []
   },
+  "tfes.org": {
+    "b": "CP",
+    "d": "tfes.org",
+    "n": "Flat Earth Society",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/flat-earth-society-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "tfp.org": {
     "b": "FN",
     "d": "tfp.org",
@@ -73191,6 +73235,16 @@
       "FC",
       "M"
     ]
+  },
+  "traindemocrats.org": {
+    "b": "L",
+    "d": "traindemocrats.org",
+    "n": "National Democratic Training Committee",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/national-democratic-training-committee-ndtc-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "transequality.org": {
     "b": "LC",

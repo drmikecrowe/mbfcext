@@ -20869,7 +20869,7 @@
     "domain": "explainamerica.com",
     "name": "Explain America",
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/explain-america-bias/"
   },
   {
@@ -43460,6 +43460,15 @@
   {
     "bias": "right",
     "credibility": "medium-credibility",
+    "domain": "newsradio1029.com",
+    "name": "KARN - 102.9 - Little Rock",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/karn-102-9-fm-little-rock-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
     "domain": "newsradiokkob.com",
     "name": "KKOB - 96.3 - Albuquerque",
     "questionable": [],
@@ -48662,6 +48671,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "pinehursttoday.com",
+    "name": "Pinehurst Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/pinehurst-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "pinellastimes.com",
     "name": "Pinellas Times",
     "questionable": [
@@ -51658,6 +51679,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/traverse-city-record-eagle/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "recorder.com",
+    "name": "Greenfield Recorder",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/greenfield-recorder-bias/"
   },
   {
     "bias": "right-center",
@@ -60724,6 +60754,15 @@
     "url": "https://mediabiasfactcheck.com/kfdx-wichita-falls-news-bias/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "tfes.org",
+    "name": "Flat Earth Society",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/flat-earth-society-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "tfp.org",
@@ -66542,6 +66581,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/turning-point-usa/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "traindemocrats.org",
+    "name": "National Democratic Training Committee",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/national-democratic-training-committee-ndtc-bias-and-credibility/"
   },
   {
     "bias": "left-center",
