@@ -24922,6 +24922,15 @@
     "url": "https://mediabiasfactcheck.com/geology-in/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "geopoliticaleconomy.com",
+    "name": "Geopolitical Economy Report",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/geopolitical-economy-report-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "geopoliticalmonitor.com",
@@ -30745,6 +30754,15 @@
     "url": "https://mediabiasfactcheck.com/journal-of-the-american-medical-association-jama-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamacardiology",
+    "name": "JAMA Cardiology",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-cardiology-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "jamestown.org",
@@ -36486,6 +36504,15 @@
     "reporting": "high",
     "twitter": "madisondotcom",
     "url": "https://mediabiasfactcheck.com/wisconsin-state-journal/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "madisoncourier.com",
+    "name": "Madison Courier",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/madison-courier-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -64719,6 +64746,18 @@
     "url": "https://mediabiasfactcheck.com/the-smoking-gun/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "thesonorapost.com",
+    "name": "Sonora Post",
+    "questionable": [
+      "poor-sourcing",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/sonora-post-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "medium-credibility",
     "domain": "thesorrentino.com",
@@ -66581,6 +66620,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/turning-point-usa/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "tradingeconomics.com",
+    "name": "Trading Economics",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trading-economics-bias/"
   },
   {
     "bias": "left",

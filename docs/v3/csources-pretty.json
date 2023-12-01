@@ -27307,6 +27307,16 @@
       "LT"
     ]
   },
+  "geopoliticaleconomy.com": {
+    "b": "CP",
+    "d": "geopoliticaleconomy.com",
+    "n": "Geopolitical Economy Report",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/geopolitical-economy-report-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "geopoliticalmonitor.com": {
     "b": "LC",
     "d": "geopoliticalmonitor.com",
@@ -33718,6 +33728,17 @@
     "a": "M",
     "q": []
   },
+  "jamanetwork.com/journals/jamacardiology": {
+    "b": "PS",
+    "d": "jamanetwork.com/journals/jamacardiology",
+    "n": "JAMA Cardiology",
+    "p": "/journals/jamacardiology",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/jama-cardiology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jamestown.org": {
     "b": "C",
     "d": "jamestown.org",
@@ -40041,6 +40062,16 @@
     "P": 67,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "madisoncourier.com": {
+    "b": "RC",
+    "d": "madisoncourier.com",
+    "n": "Madison Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/madison-courier-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "madmaxworld.tv": {
@@ -71166,6 +71197,21 @@
     "a": "M",
     "q": []
   },
+  "thesonorapost.com": {
+    "b": "FN",
+    "d": "thesonorapost.com",
+    "n": "Sonora Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sonora-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "PS",
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "thesorrentino.com": {
     "b": "RC",
     "d": "thesorrentino.com",
@@ -73235,6 +73281,16 @@
       "FC",
       "M"
     ]
+  },
+  "tradingeconomics.com": {
+    "b": "C",
+    "d": "tradingeconomics.com",
+    "n": "Trading Economics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trading-economics-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
   },
   "traindemocrats.org": {
     "b": "L",
