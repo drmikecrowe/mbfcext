@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -2429,7 +2429,7 @@ packages:
       json5: 2.2.3
       msgpackr: 1.8.5
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /@parcel/diagnostic@2.8.3:
@@ -2514,7 +2514,7 @@ packages:
       '@parcel/diagnostic': 2.8.3
       '@parcel/utils': 2.8.3
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /@parcel/optimizer-css@2.8.3(@parcel/core@2.8.3):
@@ -2616,7 +2616,7 @@ packages:
       '@parcel/types': 2.8.3(@parcel/core@2.8.3)
       '@parcel/utils': 2.8.3
       '@parcel/workers': 2.8.3(@parcel/core@2.8.3)
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /@parcel/packager-css@2.8.3(@parcel/core@2.8.3):
@@ -2780,7 +2780,7 @@ packages:
       browserslist: 4.21.5
       json5: 2.2.3
       nullthrows: 1.1.1
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -2822,7 +2822,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
       srcset: 4.0.0
     transitivePeerDependencies:
       - '@parcel/core'
@@ -2867,7 +2867,7 @@ packages:
       detect-libc: 1.0.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.11
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
 
   /@parcel/transformer-json@2.8.3(@parcel/core@2.8.3):
@@ -2903,7 +2903,7 @@ packages:
       clone: 2.1.2
       nullthrows: 1.1.1
       postcss-value-parser: 4.2.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -2918,7 +2918,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -2978,7 +2978,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 5.7.1
+      semver: 5.7.2
     transitivePeerDependencies:
       - '@parcel/core'
     dev: false
@@ -6396,7 +6396,7 @@ packages:
     requiresBuild: true
     dependencies:
       pify: 4.0.1
-      semver: 5.7.1
+      semver: 5.7.2
     dev: false
     optional: true
 
@@ -7474,8 +7474,8 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /semver@5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
+  /semver@5.7.2:
+    resolution: {integrity: sha512-cBznnQ9KjJqU67B52RMC65CMarK2600WFnbkcaiwWq3xy/5haFJlshgnpjovMVJ+Hff49d8GEn0b87C5pDQ10g==}
     hasBin: true
     dev: false
 
