@@ -25169,6 +25169,15 @@
     "url": "https://mediabiasfactcheck.com/gish-gallop/"
   },
   {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "gisreportsonline.com",
+    "name": "Geopolitical Intelligence Services",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/geopolitical-intelligence-services-ag-gis-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "givesendgo.com",
@@ -26206,6 +26215,15 @@
     "url": "https://mediabiasfactcheck.com/greatreject/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "greekreporter.com",
+    "name": "Greek Reporter",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/greek-reporter-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "greeleytribune.com",
@@ -26256,6 +26274,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/greenmedinfo/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "greenocktelegraph.co.uk",
+    "name": "Greenock Telegraph",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/greenock-telegraph-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -66549,6 +66576,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "townandcountrymag.com",
+    "name": "Town & Country Magazine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/town-country-magazine-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "townandcountrytoday.com",
     "name": "Barrhead Leader",
     "questionable": [],
@@ -68749,6 +68785,8 @@
     "name": "US Backlash",
     "popularity": 27,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
@@ -73751,6 +73789,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wqad-moline-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wqcs.org",
+    "name": "WQCS - NPR - Fort Pierce",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wqcs-npr-fort-pierce-bias/"
   },
   {
     "bias": "center",
