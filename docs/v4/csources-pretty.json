@@ -625,12 +625,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -6761,6 +6759,16 @@
     "P": 90,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "biased.news": {
+    "b": "CP",
+    "d": "biased.news",
+    "n": "Biased.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/biased-news-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "bicesteradvertiser.net": {
@@ -15634,6 +15642,16 @@
     "a": "L",
     "q": []
   },
+  "countervortex.org": {
+    "b": "L",
+    "d": "countervortex.org",
+    "n": "CounterVortex",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/countervortex-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "counton2.com": {
     "b": "C",
     "d": "counton2.com",
@@ -17148,6 +17166,17 @@
     "P": 85,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
     "q": []
   },
   "dailynewsreported.com": {
@@ -25489,12 +25518,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -25577,16 +25606,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -34549,6 +34568,16 @@
     "a": "M",
     "q": []
   },
+  "jphcs.biomedcentral.com": {
+    "b": "PS",
+    "d": "jphcs.biomedcentral.com",
+    "n": "Journal of Pharmaceutical Health Care",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/journal-of-pharmaceutical-health-care-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jpost.com": {
     "b": "RC",
     "d": "jpost.com",
@@ -35984,6 +36013,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -41464,6 +41512,17 @@
     "p": "/journal/biomed",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/biomed-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/biomedicines": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biomedicines",
+    "n": "Biomedicines Journal",
+    "p": "/journal/biomedicines",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biomedicines-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -50166,6 +50225,16 @@
     "a": "L",
     "q": []
   },
+  "nugget.ca": {
+    "b": "RC",
+    "d": "nugget.ca",
+    "n": "North Bay Nugget",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/north-bay-nugget-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "nujournal.com": {
     "b": "C",
     "d": "nujournal.com",
@@ -56316,6 +56385,20 @@
     "a": "M",
     "q": []
   },
+  "randolphcountynews.com": {
+    "b": "FN",
+    "d": "randolphcountynews.com",
+    "n": "Randolph County News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/randolph-county-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "randpaul.news": {
     "b": "CP",
     "d": "randpaul.news",
@@ -58757,6 +58840,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "rockymounttoday.com": {
+    "b": "FN",
+    "d": "rockymounttoday.com",
+    "n": "Rocky Mount Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/rocky-mount-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "rodong.rep.kp": {
     "b": "FN",
@@ -72640,6 +72737,16 @@
     "a": "H",
     "q": []
   },
+  "timesnownews.com": {
+    "b": "R",
+    "d": "timesnownews.com",
+    "n": "Times Now News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/time-now-news-bias/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "timesofindia.indiatimes.com": {
     "b": "RC",
     "d": "timesofindia.indiatimes.com",
@@ -72988,6 +73095,16 @@
     "a": "M",
     "q": []
   },
+  "todayonline.com": {
+    "b": "RC",
+    "d": "todayonline.com",
+    "n": "Today Singapore",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/today-singapore-bias/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "toddstarnes.com": {
     "b": "FN",
     "d": "toddstarnes.com",
@@ -73194,6 +73311,31 @@
       "FC",
       "M",
       "FN"
+    ]
+  },
+  "torrentfreak.com": {
+    "b": "C",
+    "d": "torrentfreak.com",
+    "n": "TorrentFreak",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/torrentfreak-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "toutiao.com": {
+    "b": "FN",
+    "d": "toutiao.com",
+    "n": "Toutiao",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mansfield-news-journal-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "FFC",
+      "FC",
+      "CEN"
     ]
   },
   "tovima.gr": {
@@ -77495,6 +77637,17 @@
       "FC",
       "IM"
     ]
+  },
+  "wataugademocrat.com/blowingrocket": {
+    "b": "LC",
+    "d": "wataugademocrat.com/blowingrocket",
+    "n": "Blowing Rocket",
+    "p": "/blowingrocket",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/blowing-rocket-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "watchdogreport.org": {
     "b": "R",
