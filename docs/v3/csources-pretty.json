@@ -197,6 +197,21 @@
     "a": "M",
     "q": []
   },
+  "163.com": {
+    "b": "FN",
+    "d": "163.com",
+    "n": "NetEase (163.com)",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/netease-163-com-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "M",
+      "CEN"
+    ]
+  },
   "180report.com": {
     "b": "C",
     "d": "180report.com",
@@ -17024,6 +17039,17 @@
     "n": "Ashland Independent",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/ashland-independent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "dailyindependent.com/morehead": {
+    "b": "LC",
+    "d": "dailyindependent.com/morehead",
+    "n": "Morehead News",
+    "p": "/morehead",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/morehead-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -55998,6 +56024,20 @@
     "a": "M",
     "q": []
   },
+  "pueblapost.com": {
+    "b": "FN",
+    "d": "pueblapost.com",
+    "n": "Puebla Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/puebla-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "pulaskitimes.com": {
     "b": "FN",
     "d": "pulaskitimes.com",
@@ -76893,6 +76933,16 @@
       "M",
       "PSE"
     ]
+  },
+  "visualcapitalist.com": {
+    "b": "C",
+    "d": "visualcapitalist.com",
+    "n": "Visual Capitalist",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/visual-capitalist-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
   },
   "vivaliberty.com": {
     "b": "R",

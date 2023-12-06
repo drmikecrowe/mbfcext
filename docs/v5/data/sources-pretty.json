@@ -182,6 +182,21 @@
     "url": "https://mediabiasfactcheck.com/wfie-evansville-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "163.com",
+    "name": "NetEase (163.com)",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/netease-163-com-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "medium-credibility",
     "domain": "180report.com",
@@ -15583,6 +15598,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/ashland-independent-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "dailyindependent.com/morehead",
+    "name": "Morehead News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/morehead-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -50864,6 +50888,17 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "pueblapost.com",
+    "name": "Puebla Post",
+    "questionable": [
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/puebla-post-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "pulaskitimes.com",
     "name": "Pulaski Times",
     "popularity": 3,
@@ -69942,6 +69977,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/vision-times/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "visualcapitalist.com",
+    "name": "Visual Capitalist",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/visual-capitalist-bias/"
   },
   {
     "bias": "right",
