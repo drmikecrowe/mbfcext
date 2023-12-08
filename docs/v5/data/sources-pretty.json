@@ -594,12 +594,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -10517,6 +10515,15 @@
     "url": "https://mediabiasfactcheck.com/trends-in-cancer-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/cell-biology",
+    "name": "Trends in Cell Biology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-cell-biology-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "cenlanow.com",
@@ -14737,6 +14744,15 @@
     "url": "https://mediabiasfactcheck.com/creston-news-advertiser-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "crestonvalleyadvance.ca",
+    "name": "Creston Valley Advance",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/creston-valley-advance-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "crf-usa.org",
@@ -14991,6 +15007,15 @@
     "url": "https://mediabiasfactcheck.com/christian-science-monitor/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "cstoredive.com",
+    "name": "C-StoreDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/c-storedive-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "medium-credibility",
     "domain": "ctj.org",
@@ -15213,6 +15238,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/cyberscoop-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "dabangasudan.com",
+    "name": "Dabanga Sudan",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/dabanga-sudan-bias/"
   },
   {
     "bias": "fake-news",
@@ -16602,6 +16636,9 @@
     "name": "DEBKAfile",
     "popularity": 78,
     "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
       "poor-sourcing",
       "misinformation"
     ],
@@ -24225,6 +24262,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/dental-medicine",
+    "name": "Frontiers in Dental Medicine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-dental-medicine-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -28703,7 +28749,7 @@
     "url": "https://mediabiasfactcheck.com/huzlers/"
   },
   {
-    "bias": "center",
+    "bias": "right-center",
     "credibility": "medium-credibility",
     "domain": "i24news.tv",
     "name": "I24 News",
@@ -31813,6 +31859,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kaal-austin-news-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "kabc.com",
+    "name": "KABC - 790 AM - Los Angeles",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/kabc-790-am-los-angeles-bias/"
   },
   {
     "bias": "center",
@@ -53690,6 +53745,18 @@
     "url": "https://mediabiasfactcheck.com/roosevelt-institute/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "rowannews.com",
+    "name": "Rowan News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/rowan-news-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "roysecityheraldbanner.com",
@@ -68060,6 +68127,15 @@
     "url": "https://mediabiasfactcheck.com/ukiah-daily-journal-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "ukrinform.com",
+    "name": "Ukrinform",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ukrinform-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "unbiasedamerica.com",
@@ -70007,6 +70083,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/vladtv-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "vnews.com",
+    "name": "Lebanon Valley News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lebanon-valley-news-bias/"
   },
   {
     "bias": "center",
@@ -74404,6 +74489,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wtxl-tallahassee-news/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wuft.org",
+    "name": "WUFT - NPR - Gainesville",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wuft-npr-gainesville-bias/"
   },
   {
     "bias": "center",

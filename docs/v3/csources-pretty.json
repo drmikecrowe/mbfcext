@@ -640,12 +640,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -11540,6 +11538,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/trends/cell-biology": {
+    "b": "PS",
+    "d": "cell.com/trends/cell-biology",
+    "n": "Trends in Cell Biology",
+    "p": "/trends/cell-biology",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trends-in-cell-biology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cenlanow.com": {
     "b": "C",
     "d": "cenlanow.com",
@@ -16104,6 +16113,16 @@
     "a": "L",
     "q": []
   },
+  "crestonvalleyadvance.ca": {
+    "b": "LC",
+    "d": "crestonvalleyadvance.ca",
+    "n": "Creston Valley Advance",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/creston-valley-advance-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "crf-usa.org": {
     "b": "C",
     "d": "crf-usa.org",
@@ -16382,6 +16401,16 @@
     "a": "M",
     "q": []
   },
+  "cstoredive.com": {
+    "b": "C",
+    "d": "cstoredive.com",
+    "n": "C-StoreDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/c-storedive-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ctj.org": {
     "b": "LC",
     "d": "ctj.org",
@@ -16625,6 +16654,16 @@
     "u": "https://mediabiasfactcheck.com/cyberscoop-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dabangasudan.com": {
+    "b": "LC",
+    "d": "dabangasudan.com",
+    "n": "Dabanga Sudan",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dabanga-sudan-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "dagospia.com": {
@@ -18165,8 +18204,9 @@
     "u": "https://mediabiasfactcheck.com/debkafile/",
     "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
+      "P",
       "PS",
       "LT",
       "M"
@@ -26529,6 +26569,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/dental-medicine": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/dental-medicine",
+    "n": "Frontiers in Dental Medicine",
+    "p": "/journals/dental-medicine",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-dental-medicine-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -31459,14 +31510,14 @@
     "q": []
   },
   "i24news.tv": {
-    "b": "C",
+    "b": "RC",
     "d": "i24news.tv",
     "n": "I24 News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/i24-news/",
     "P": 66,
     "c": "M",
-    "a": "M",
+    "a": "H",
     "q": []
   },
   "ibleedredwhiteblue.com": {
@@ -34884,6 +34935,16 @@
     "u": "https://mediabiasfactcheck.com/kaal-austin-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kabc.com": {
+    "b": "R",
+    "d": "kabc.com",
+    "n": "KABC - 790 AM - Los Angeles",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kabc-790-am-los-angeles-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "kadn.com": {
@@ -43451,7 +43512,7 @@
     "u": "https://mediabiasfactcheck.com/mondoweiss/",
     "P": 77,
     "c": "L",
-    "a": "L",
+    "a": "M",
     "q": [
       "P",
       "M",
@@ -59024,6 +59085,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "rowannews.com": {
+    "b": "FN",
+    "d": "rowannews.com",
+    "n": "Rowan News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/rowan-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "roysecityheraldbanner.com": {
     "b": "LC",
@@ -74868,6 +74943,16 @@
     "a": "L",
     "q": []
   },
+  "ukrinform.com": {
+    "b": "RC",
+    "d": "ukrinform.com",
+    "n": "Ukrinform",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ukrinform-bias/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "unbiasedamerica.com": {
     "b": "R",
     "d": "unbiasedamerica.com",
@@ -76965,6 +77050,16 @@
     "u": "https://mediabiasfactcheck.com/vladtv-bias/",
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "vnews.com": {
+    "b": "LC",
+    "d": "vnews.com",
+    "n": "Lebanon Valley News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lebanon-valley-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "voachinese.com": {
@@ -81817,6 +81912,16 @@
     "u": "https://mediabiasfactcheck.com/wtxl-tallahassee-news/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wuft.org": {
+    "b": "LC",
+    "d": "wuft.org",
+    "n": "WUFT - NPR - Gainesville",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wuft-npr-gainesville-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wusa9.com": {
