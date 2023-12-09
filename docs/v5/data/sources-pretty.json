@@ -30880,6 +30880,15 @@
     "url": "https://mediabiasfactcheck.com/jama-cardiology-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamadermatology",
+    "name": "JAMA Dermatology",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-dermatology-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "jamestown.org",
@@ -36648,6 +36657,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/madison-courier-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "madisoncourier.com/corydon_democrat",
+    "name": "Corydon Democrat",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/corydon-democrat-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -55786,6 +55804,18 @@
     "url": "https://mediabiasfactcheck.com/se-nebraska-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "senorthcarolinanews.com",
+    "name": "SE North Carolina News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/se-north-carolina-news-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "sentencingproject.org",
@@ -66754,6 +66784,17 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "torreonpost.com",
+    "name": "Torreon Post",
+    "questionable": [
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/torreon-post-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "toutiao.com",
     "name": "Toutiao",
     "questionable": [
@@ -73345,6 +73386,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wlwt-cincinnati-news-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "wmac-am.com",
+    "name": "WMAC - 940 AM - Macon",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wmac-940-am-macon-bias/"
   },
   {
     "bias": "center",

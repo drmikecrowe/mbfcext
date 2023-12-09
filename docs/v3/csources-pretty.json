@@ -22601,7 +22601,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/europe-israel-news/",
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P"
@@ -33868,6 +33868,17 @@
     "a": "L",
     "q": []
   },
+  "jamanetwork.com/journals/jamadermatology": {
+    "b": "PS",
+    "d": "jamanetwork.com/journals/jamadermatology",
+    "n": "JAMA Dermatology",
+    "p": "/journals/jamadermatology",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/jama-dermatology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jamestown.org": {
     "b": "C",
     "d": "jamestown.org",
@@ -40219,6 +40230,17 @@
     "n": "Madison Courier",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/madison-courier-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "madisoncourier.com/corydon_democrat": {
+    "b": "RC",
+    "d": "madisoncourier.com/corydon_democrat",
+    "n": "Corydon Democrat",
+    "p": "/corydon_democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/corydon-democrat-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -61369,6 +61391,20 @@
       "IM"
     ]
   },
+  "senorthcarolinanews.com": {
+    "b": "FN",
+    "d": "senorthcarolinanews.com",
+    "n": "SE North Carolina News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/se-north-carolina-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "sentencingproject.org": {
     "b": "LC",
     "d": "sentencingproject.org",
@@ -73440,6 +73476,20 @@
     "a": "H",
     "q": []
   },
+  "torreonpost.com": {
+    "b": "FN",
+    "d": "torreonpost.com",
+    "n": "Torreon Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/torreon-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
+    ]
+  },
   "toutiao.com": {
     "b": "FN",
     "d": "toutiao.com",
@@ -80660,6 +80710,16 @@
     "u": "https://mediabiasfactcheck.com/wlwt-cincinnati-news-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "wmac-am.com": {
+    "b": "R",
+    "d": "wmac-am.com",
+    "n": "WMAC - 940 AM - Macon",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wmac-940-am-macon-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wmar2news.com": {
