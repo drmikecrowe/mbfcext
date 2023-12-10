@@ -7829,6 +7829,15 @@
     "url": "https://mediabiasfactcheck.com/hl12/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "breakthroughnews.org",
+    "name": "Breakthrough News",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/breakthrough-news-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "breast-cancer-research.biomedcentral.com",
@@ -15316,6 +15325,15 @@
     "url": "https://mediabiasfactcheck.com/daily-49er/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "dailyadvance.com",
+    "name": "Elizabeth City Daily Advance",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/elizabeth-city-daily-advance-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "dailyadvocate.com",
@@ -19599,6 +19617,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/egypt-today-bias-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "eiu.com",
+    "name": "Economist Intelligence Unit",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/economist-intelligent-unit-bias/"
   },
   {
     "bias": "left-center",
@@ -26804,6 +26831,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/haida-gwaii-observer-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "halesowen.co.uk",
+    "name": "Halesowen",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/halesowen-news-bias/"
   },
   {
     "bias": "satire",
@@ -42839,6 +42875,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/un-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "news.wjct.org",
+    "name": "WJCT - NPR - Jacksonville",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wjct-npr-jacksonville-bias/"
   },
   {
     "bias": "left-center",
