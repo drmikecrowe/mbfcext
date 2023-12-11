@@ -21568,12 +21568,12 @@
     "d": "electronicintifada.net",
     "f": "electronicintifada",
     "n": "Electronic Intifada",
-    "r": "MF",
+    "r": "M",
     "t": "intifada",
     "u": "https://mediabiasfactcheck.com/electronic-intifada/",
     "P": 78,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "electroverse.net": {
@@ -28837,6 +28837,16 @@
     "a": "M",
     "q": []
   },
+  "greenamerica.org": {
+    "b": "LC",
+    "d": "greenamerica.org",
+    "n": "Green America",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/green-america-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "greenbaypressgazette.com": {
     "b": "C",
     "d": "greenbaypressgazette.com",
@@ -34704,6 +34714,16 @@
     "n": "Journal of Pharmaceutical Health Care",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/journal-of-pharmaceutical-health-care-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "jphysiolanthropol.biomedcentral.com": {
+    "b": "PS",
+    "d": "jphysiolanthropol.biomedcentral.com",
+    "n": "Journal of Physiological Anthropology",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/journal-of-physiological-anthropology-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -63208,6 +63228,20 @@
       "IM"
     ]
   },
+  "southashevillenews.com": {
+    "b": "FN",
+    "d": "southashevillenews.com",
+    "n": "South Asheville News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-asheville-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "southatlantanews.com": {
     "b": "FN",
     "d": "southatlantanews.com",
@@ -72645,6 +72679,23 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "threepercentnation.com": {
+    "b": "FN",
+    "d": "threepercentnation.com",
+    "n": "Three Percent Nation",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/three-percent-nation-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "M",
+      "H"
+    ]
   },
   "threeriversgazette.com": {
     "b": "FN",
@@ -82950,6 +83001,16 @@
       "M",
       "H"
     ]
+  },
+  "zanesvilletimesrecorder.com": {
+    "b": "LC",
+    "d": "zanesvilletimesrecorder.com",
+    "n": "Zanesville Times-Recorder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/zanesville-times-recorder-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "zaytung.com": {
     "b": "S",

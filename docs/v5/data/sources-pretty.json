@@ -19696,7 +19696,7 @@
     "name": "Electronic Intifada",
     "popularity": 78,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "mixed",
     "twitter": "intifada",
     "url": "https://mediabiasfactcheck.com/electronic-intifada/"
   },
@@ -26350,6 +26350,15 @@
     "url": "https://mediabiasfactcheck.com/greeley-tribune/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "greenamerica.org",
+    "name": "Green America",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/green-america-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "greenbaypressgazette.com",
@@ -31641,6 +31650,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/journal-of-pharmaceutical-health-care-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jphysiolanthropol.biomedcentral.com",
+    "name": "Journal of Physiological Anthropology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/journal-of-physiological-anthropology-bias/"
   },
   {
     "bias": "right-center",
@@ -57431,6 +57449,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "southashevillenews.com",
+    "name": "South Asheville News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/south-asheville-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "southatlantanews.com",
     "name": "South Atlanta News",
     "questionable": [
@@ -66048,6 +66078,24 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/tv3-new-zealand-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "threepercentnation.com",
+    "name": "Three Percent Nation",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/three-percent-nation-bias/"
   },
   {
     "bias": "fake-news",
@@ -75853,6 +75901,15 @@
     ],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/z3-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "zanesvilletimesrecorder.com",
+    "name": "Zanesville Times-Recorder",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/zanesville-times-recorder-bias/"
   },
   {
     "bias": "satire",
