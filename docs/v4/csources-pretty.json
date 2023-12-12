@@ -10561,6 +10561,16 @@
       "IM"
     ]
   },
+  "carbontracker.org": {
+    "b": "LC",
+    "d": "carbontracker.org",
+    "n": "Carbon Tracker Initiative",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/carbon-tracker-initiative-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "care2.com": {
     "b": "L",
     "d": "care2.com",
@@ -33567,7 +33577,7 @@
     "b": "RC",
     "d": "israelhayom.com",
     "n": "Israel Hayom",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/israel-hayom/",
     "P": 67,
     "c": "M",
@@ -34341,11 +34351,11 @@
     "d": "jns.org",
     "f": "LIJewishWorld",
     "n": "Jewish News Syndicate",
-    "r": "H",
+    "r": "M",
     "t": "JNS_org",
     "u": "https://mediabiasfactcheck.com/jewish-news-syndicate-jns/",
     "P": 60,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -41694,6 +41704,17 @@
     "p": "/journal/biomedicines",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/biomedicines-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/biomedinformatics": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biomedinformatics",
+    "n": "BioMedInformatics Journal",
+    "p": "/journal/biomedinformatics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biomedinformatics-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -49356,6 +49377,16 @@
       "LT",
       "IM"
     ]
+  },
+  "northernnews.ca": {
+    "b": "RC",
+    "d": "northernnews.ca",
+    "n": "Kirkland Lake Northern News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kirkland-lake-northern-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "northernsentinel.com": {
     "b": "LC",
@@ -63366,6 +63397,20 @@
       "IM"
     ]
   },
+  "southcharlottetoday.com": {
+    "b": "FN",
+    "d": "southcharlottetoday.com",
+    "n": "South Charlotte Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-charlotte-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "southcoasttoday.com": {
     "b": "LC",
     "d": "southcoasttoday.com",
@@ -72610,6 +72655,16 @@
     "P": 47,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "thisismoney.co.uk": {
+    "b": "RC",
+    "d": "thisismoney.co.uk",
+    "n": "This Is Money",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/this-is-money-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "thisisthezerohour.com": {

@@ -9685,6 +9685,15 @@
     "url": "https://mediabiasfactcheck.com/carbondale-reporter/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "carbontracker.org",
+    "name": "Carbon Tracker Initiative",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/carbon-tracker-initiative-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "care2.com",
@@ -30605,7 +30614,7 @@
     "name": "Israel Hayom",
     "popularity": 67,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/israel-hayom/"
   },
   {
@@ -31306,13 +31315,13 @@
   },
   {
     "bias": "right-center",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "jns.org",
     "facebook": "LIJewishWorld",
     "name": "Jewish News Syndicate",
     "popularity": 60,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mixed",
     "twitter": "JNS_org",
     "url": "https://mediabiasfactcheck.com/jewish-news-syndicate-jns/"
   },
@@ -37925,6 +37934,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/biomedicines-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/biomedinformatics",
+    "name": "BioMedInformatics Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/biomedinformatics-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -44845,6 +44863,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/northern-clark-county-herald-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "northernnews.ca",
+    "name": "Kirkland Lake Northern News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kirkland-lake-northern-news-bias/"
   },
   {
     "bias": "left-center",
@@ -57566,6 +57593,18 @@
     "url": "https://mediabiasfactcheck.com/south-central-reporter/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "southcharlottetoday.com",
+    "name": "South Charlotte Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/south-charlotte-today-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "southcoasttoday.com",
@@ -66016,6 +66055,15 @@
     "reporting": "mostly-factual",
     "twitter": "thismagazine",
     "url": "https://mediabiasfactcheck.com/this-magazine/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "thisismoney.co.uk",
+    "name": "This Is Money",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/this-is-money-bias/"
   },
   {
     "bias": "left",
