@@ -6609,6 +6609,15 @@
     "url": "https://mediabiasfactcheck.com/biotech-express-magazine-bias/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "bioterrorism.news",
+    "name": "Bioterrorism.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/bioterrorism-news-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "bipartisanpolicy.org",
@@ -26568,6 +26577,15 @@
     "url": "https://mediabiasfactcheck.com/grist/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "gritdaily.com",
+    "name": "Grit Daily News",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/grit-daily-news-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "gritpost.com",
@@ -40283,6 +40301,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/muskegon-sun-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "muskogeephoenix.com",
+    "name": "Muskogee Phoenix",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/muskogee-phoenix-bias/"
   },
   {
     "bias": "left-center",
@@ -66023,6 +66050,15 @@
   },
   {
     "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "thinkpol.ca",
+    "name": "ThinkPol",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/thinkpol-bias/"
+  },
+  {
+    "bias": "left",
     "credibility": "medium-credibility",
     "domain": "thinkprogress.org",
     "facebook": "thinkprogress",
@@ -75949,6 +75985,17 @@
     ],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/z3-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "zacatecaspost.com",
+    "name": "Zacatecas Post",
+    "questionable": [
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/zacatecas-post-bias/"
   },
   {
     "bias": "left-center",

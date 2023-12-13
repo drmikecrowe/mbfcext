@@ -7182,6 +7182,16 @@
     "a": "L",
     "q": []
   },
+  "bioterrorism.news": {
+    "b": "CP",
+    "d": "bioterrorism.news",
+    "n": "Bioterrorism.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/bioterrorism-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "bipartisanpolicy.org": {
     "b": "RC",
     "d": "bipartisanpolicy.org",
@@ -29080,6 +29090,16 @@
     "a": "M",
     "q": []
   },
+  "gritdaily.com": {
+    "b": "LC",
+    "d": "gritdaily.com",
+    "n": "Grit Daily News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/grit-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "gritpost.com": {
     "b": "L",
     "d": "gritpost.com",
@@ -44309,6 +44329,16 @@
       "FC",
       "IM"
     ]
+  },
+  "muskogeephoenix.com": {
+    "b": "LC",
+    "d": "muskogeephoenix.com",
+    "n": "Muskogee Phoenix",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/muskogee-phoenix-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "muskokaregion.com": {
     "b": "LC",
@@ -72619,6 +72649,16 @@
     "a": "N",
     "q": []
   },
+  "thinkpol.ca": {
+    "b": "L",
+    "d": "thinkpol.ca",
+    "n": "ThinkPol",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/thinkpol-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thinkprogress.org": {
     "b": "L",
     "d": "thinkprogress.org",
@@ -74719,7 +74759,7 @@
   },
   "tuckercarlson.com": {
     "d": "tuckercarlson.com",
-    "n": "TuckerCarlson.com",
+    "n": "Tucker Carlson Network",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/tuckercarlson-com-bias/",
     "c": "L",
@@ -83055,6 +83095,20 @@
       "FC",
       "M",
       "H"
+    ]
+  },
+  "zacatecaspost.com": {
+    "b": "FN",
+    "d": "zacatecaspost.com",
+    "n": "Zacatecas Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/zacatecas-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "PG",
+      "IM"
     ]
   },
   "zanesvilletimesrecorder.com": {
