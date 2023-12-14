@@ -13950,6 +13950,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "constitution.com",
+    "name": "The Constitution",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -31203,7 +31212,7 @@
   },
   {
     "bias": "right",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "jewishpolicycenter.org",
     "facebook": "JewishPolicyCenter",
     "name": "Jewish Policy Center",
@@ -32998,25 +33007,6 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "kiwifarms.net",
-    "name": "Kiwi Farms",
-    "questionable": [
-      "conspiracy",
-      "censorship",
-      "propaganda",
-      "plagiarism",
-      "pseudoscience",
-      "poor-sourcing",
-      "false-claims",
-      "misinformation",
-      "hate"
-    ],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -41913,10 +41903,9 @@
   },
   {
     "bias": "pro-science",
-    "credibility": "high-credibility",
+    "credibility": "n/a",
     "domain": "ncse.ngo",
     "name": "National Center for Science (NCSE)",
-    "popularity": 69,
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/"
@@ -50473,10 +50462,13 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.com",
-    "name": "Principia-Scientific.com",
+    "domain": "principia-scientific.org",
+    "facebook": "Principia-Scientific-International",
+    "name": "Principia Scientific International",
+    "popularity": 49,
     "questionable": [],
     "reporting": "low",
+    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
