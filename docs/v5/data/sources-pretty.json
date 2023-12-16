@@ -465,6 +465,15 @@
     "url": "https://mediabiasfactcheck.com/604-now/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "660wxqw.com",
+    "name": "WXQW - 660 AM - Mobile",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wxqw-660-am-mobile-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "6abc.com",
@@ -594,12 +603,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -6639,6 +6646,8 @@
     "name": "Bipartisan Report",
     "popularity": 40,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
@@ -6854,6 +6863,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kevn-rapid-city-news-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "blacklistednews.com",
+    "facebook": "BlacklistedNewsRadio",
+    "name": "Blacklisted News",
+    "popularity": 65,
+    "questionable": [],
+    "reporting": "mixed",
+    "twitter": "BlackListedNews",
+    "url": "https://mediabiasfactcheck.com/blacklisted-news/"
   },
   {
     "bias": "left",
@@ -10553,6 +10574,15 @@
     "url": "https://mediabiasfactcheck.com/trends-in-cell-biology-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/chemistry",
+    "name": "Trends in Chemistry",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-chemistry-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "cenlanow.com",
@@ -10875,6 +10905,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/committee-constructive-tomorrow-cfact-org/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "cfo.com",
+    "name": "CFO Dive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cfo-dive-bias/"
   },
   {
     "bias": "center",
@@ -15811,6 +15850,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -23438,8 +23487,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -23520,15 +23569,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -24313,6 +24353,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-dental-medicine-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/detector-science-and-technology",
+    "name": "Frontiers in Detector Science and Technology",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-detector-science-and-technology-bias/"
   },
   {
     "bias": "pro-science",
@@ -26411,6 +26460,15 @@
     "url": "https://mediabiasfactcheck.com/green-left-weekly/"
   },
   {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "greenmatters.com",
+    "name": "Green Matters",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/green-matters-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "greenmedinfo.com",
@@ -26605,6 +26663,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/ground-news/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "groundzeromedia.org",
+    "name": "Ground Zero Media",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/ground-zero-media-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -33001,6 +33068,25 @@
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "kiyu.com",
@@ -33975,6 +34061,15 @@
     "reporting": "high",
     "twitter": "kutv2news",
     "url": "https://mediabiasfactcheck.com/kutv-salt-lake-city/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "kval.com",
+    "name": "KVAL - Eugene News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kval-eugene-news-bias/"
   },
   {
     "bias": "center",
@@ -41895,9 +41990,10 @@
   },
   {
     "bias": "pro-science",
-    "credibility": "n/a",
+    "credibility": "high-credibility",
     "domain": "ncse.ngo",
     "name": "National Center for Science (NCSE)",
+    "popularity": 69,
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/"
@@ -43856,6 +43952,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/woki-98-7-fm-knoxville/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "newstalk989.com",
+    "name": "WKIM - 98.9 FM - Memphis",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wkim-98-9-fm-memphis-bias/"
   },
   {
     "bias": "right-center",
@@ -50454,13 +50559,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -57828,6 +57930,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "southguilfordnews.com",
+    "name": "South Guilford News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/south-guilford-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "southgwinnettnews.com",
     "name": "South Gwinnett News",
     "questionable": [
@@ -57966,6 +58080,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/south-maine-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "southmecklenburgnews.com",
+    "name": "South Mecklenburg News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/south-mecklenburg-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -62776,6 +62902,15 @@
     "url": "https://mediabiasfactcheck.com/the-free-patriot/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "thefreepress.ca",
+    "name": "Fernie Free Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fernie-free-press-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "thefreethoughtproject.com",
@@ -63387,6 +63522,7 @@
       "plagiarism",
       "pseudoscience",
       "poor-sourcing",
+      "failed-fact-checks",
       "false-claims",
       "misinformation"
     ],
@@ -65972,6 +66108,15 @@
     "url": "https://mediabiasfactcheck.com/thewrap/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "theyeshivaworld.com",
+    "name": "Yeshiva World News",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/yeshiva-world-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "theyucatanpost.com",
@@ -65982,6 +66127,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/yucatan-post-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "theyucatantimes.com",
+    "name": "Yucatan Times",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/yucatan-times-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -66075,6 +66229,15 @@
     "reporting": "mostly-factual",
     "twitter": "thismagazine",
     "url": "https://mediabiasfactcheck.com/this-magazine/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "thisdaylive.com",
+    "name": "This Day Live",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/this-day-live-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -72372,6 +72535,15 @@
     "url": "https://mediabiasfactcheck.com/wfft-fort-wayne-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wfit.org",
+    "name": "WFIT - NPR - Melbourne",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wfit-npr-melbourne-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "wfla.com",
@@ -74866,18 +75038,6 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wwny-watertown-bias/"
-  },
-  {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "blacklistednews.com",
-    "facebook": "BlacklistedNewsRadio",
-    "name": "Blacklisted News",
-    "popularity": 65,
-    "questionable": [],
-    "reporting": "mixed",
-    "twitter": "BlackListedNews",
-    "url": "https://mediabiasfactcheck.com/blacklisted-news/"
   },
   {
     "bias": "left",
