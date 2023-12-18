@@ -17317,17 +17317,6 @@
     "a": "M",
     "q": []
   },
-  "dailynewsbin.com": {
-    "b": "L",
-    "d": "dailynewsbin.com",
-    "n": "Daily Newsbin",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
-    "P": 34,
-    "c": "M",
-    "a": "N",
-    "q": []
-  },
   "dailynewsreported.com": {
     "b": "S",
     "d": "dailynewsreported.com",
@@ -61291,17 +61280,6 @@
       "IM"
     ]
   },
-  "secretsofthefed.com": {
-    "b": "CP",
-    "d": "secretsofthefed.com",
-    "n": "Secrets of the Fed",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/secrets-of-the-fed/",
-    "P": 41,
-    "c": "L",
-    "a": "N",
-    "q": []
-  },
   "secureamericanow.org": {
     "b": "FN",
     "d": "secureamericanow.org",
@@ -74673,11 +74651,11 @@
   "truthbroadcastnetwork.com": {
     "b": "CP",
     "d": "truthbroadcastnetwork.com",
-    "n": "Truth Broadcasting Network",
+    "n": "Truth Broadcating Network",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/truth-broadcasting-network/",
-    "P": 21,
-    "c": "L",
+    "P": 17,
+    "c": "NA",
     "a": "N",
     "q": []
   },

@@ -15861,16 +15861,6 @@
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
   },
   {
-    "bias": "left",
-    "credibility": "medium-credibility",
-    "domain": "dailynewsbin.com",
-    "name": "Daily Newsbin",
-    "popularity": 34,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
-  },
-  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "dailynewsreported.com",
@@ -55728,16 +55718,6 @@
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
   },
   {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "secretsofthefed.com",
-    "name": "Secrets of the Fed",
-    "popularity": 41,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
-  },
-  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "secureamericanow.org",
@@ -67891,10 +67871,10 @@
   },
   {
     "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
+    "credibility": "n/a",
     "domain": "truthbroadcastnetwork.com",
-    "name": "Truth Broadcasting Network",
-    "popularity": 21,
+    "name": "Truth Broadcating Network",
+    "popularity": 17,
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/truth-broadcasting-network/"
