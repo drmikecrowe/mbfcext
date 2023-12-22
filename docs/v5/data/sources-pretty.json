@@ -13622,6 +13622,8 @@
     "name": "For the Right News",
     "popularity": 16,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
@@ -23066,12 +23068,12 @@
   },
   {
     "bias": "right-center",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "foxbusiness.com",
     "name": "Fox Business",
     "popularity": 77,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/fox-business/"
   },
   {
@@ -41980,10 +41982,9 @@
   },
   {
     "bias": "pro-science",
-    "credibility": "high-credibility",
+    "credibility": "n/a",
     "domain": "ncse.ngo",
     "name": "National Center for Science (NCSE)",
-    "popularity": 69,
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/"

@@ -14888,6 +14888,7 @@
     "c": "L",
     "a": "L",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
@@ -25219,10 +25220,10 @@
     "b": "RC",
     "d": "foxbusiness.com",
     "n": "Fox Business",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/fox-business/",
     "P": 77,
-    "c": "H",
+    "c": "M",
     "a": "H",
     "q": []
   },
@@ -46197,9 +46198,8 @@
     "n": "National Center for Science (NCSE)",
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/",
-    "P": 69,
-    "c": "H",
-    "a": "M",
+    "c": "NA",
+    "a": "N",
     "q": []
   },
   "ncsl.org": {
