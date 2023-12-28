@@ -24722,7 +24722,7 @@
     "name": "Gallup",
     "popularity": 89,
     "questionable": [],
-    "reporting": "very-high",
+    "reporting": "mostly-factual",
     "twitter": "Gallup",
     "url": "https://mediabiasfactcheck.com/gallup/"
   },
@@ -40163,14 +40163,14 @@
     "url": "https://mediabiasfactcheck.com/morning-brew-bias/"
   },
   {
-    "bias": "center",
+    "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "morningconsult.com",
     "facebook": "MorningConsult",
     "name": "Morning Consult",
     "popularity": 70,
     "questionable": [],
-    "reporting": "very-high",
+    "reporting": "mostly-factual",
     "twitter": "morningconsult",
     "url": "https://mediabiasfactcheck.com/morning-consult/"
   },
@@ -50745,10 +50745,13 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.com",
-    "name": "Principia-Scientific.com",
+    "domain": "principia-scientific.org",
+    "facebook": "Principia-Scientific-International",
+    "name": "Principia Scientific International",
+    "popularity": 49,
     "questionable": [],
     "reporting": "low",
+    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -51824,7 +51827,7 @@
     "name": "Rasmussen Reports",
     "popularity": 60,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "Rasmussen_Poll",
     "url": "https://mediabiasfactcheck.com/rasmussen-reports/"
   },
@@ -52878,13 +52881,13 @@
     "url": "https://mediabiasfactcheck.com/religion-news-service-rns/"
   },
   {
-    "bias": "right-center",
+    "bias": "center",
     "credibility": "high-credibility",
     "domain": "remingtonresearchgroup.com",
     "name": "Remington Research Group",
     "popularity": 39,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/remington-research-group/"
   },
   {

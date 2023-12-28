@@ -27076,12 +27076,12 @@
     "d": "gallup.com",
     "f": "gallup",
     "n": "Gallup",
-    "r": "VH",
+    "r": "MF",
     "t": "Gallup",
     "u": "https://mediabiasfactcheck.com/gallup/",
     "P": 89,
     "c": "H",
-    "a": "H",
+    "a": "M",
     "q": []
   },
   "galvnews.com": {
@@ -44166,11 +44166,11 @@
     "q": []
   },
   "morningconsult.com": {
-    "b": "C",
+    "b": "LC",
     "d": "morningconsult.com",
     "f": "MorningConsult",
     "n": "Morning Consult",
-    "r": "VH",
+    "r": "MF",
     "t": "morningconsult",
     "u": "https://mediabiasfactcheck.com/morning-consult/",
     "P": 70,
@@ -55882,12 +55882,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -57044,7 +57047,7 @@
     "d": "rasmussenreports.com",
     "f": "RasmussenPoll",
     "n": "Rasmussen Reports",
-    "r": "H",
+    "r": "MF",
     "t": "Rasmussen_Poll",
     "u": "https://mediabiasfactcheck.com/rasmussen-reports/",
     "P": 60,
@@ -58182,10 +58185,10 @@
     "q": []
   },
   "remingtonresearchgroup.com": {
-    "b": "RC",
+    "b": "C",
     "d": "remingtonresearchgroup.com",
     "n": "Remington Research Group",
-    "r": "H",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/remington-research-group/",
     "P": 39,
     "c": "H",
