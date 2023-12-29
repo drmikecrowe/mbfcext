@@ -30718,12 +30718,12 @@
     "url": "https://mediabiasfactcheck.com/inter-press-service-ips/"
   },
   {
-    "bias": "center",
+    "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "ipsos.com",
     "name": "Ipsos Polling",
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/ipsos-polling/"
   },
   {
@@ -50745,13 +50745,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
