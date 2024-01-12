@@ -567,6 +567,15 @@
     "url": "https://mediabiasfactcheck.com/wxlm-980-am-new-london-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "997wpro.com",
+    "name": "WPRO - 99.7 FM - Providence",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/wpro-99-7-fm-providence-bias-and-credibility/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "997wtn.com",
@@ -7295,6 +7304,15 @@
   },
   {
     "bias": "center",
+    "credibility": "medium-credibility",
+    "domain": "bnnbreaking.com",
+    "name": "BNN Breaking",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/bnn-breaking-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
     "credibility": "high-credibility",
     "domain": "bnonews.com",
     "facebook": "bnonews",
@@ -10258,6 +10276,15 @@
     "url": "https://mediabiasfactcheck.com/centers-disease-control-prevention-cdc/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "cdc.news",
+    "name": "CDC.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/cdc-news-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "cdh2a.com",
@@ -10685,6 +10712,15 @@
     "url": "https://mediabiasfactcheck.com/trends-in-ecology-and-evolution-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/endocrinology-metabolism",
+    "name": "Trends in Endocrinology & Metabolism",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-endocrinology-metabolism-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "cenlanow.com",
@@ -10909,6 +10945,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/central-montana-times-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "centralndnews.com",
+    "name": "Central ND News",
+    "questionable": [
+      "failed-fact-checks",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/central-nd-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -14135,6 +14183,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/constitution-state-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "constructiondive.com",
+    "name": "ConstructionDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/constructiondive-bias/"
   },
   {
     "bias": "center",
@@ -21210,6 +21267,15 @@
     "url": "https://mediabiasfactcheck.com/the-daily-expose/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "exposedbycmd.org",
+    "name": "Exposed by CMD",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/exposed-by-cmd-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "exposinggovernment.com",
@@ -21644,6 +21710,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/family-survival-headlines/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "fargostandard.com",
+    "name": "Fargo Standard",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/fargo-standard-bias/"
   },
   {
     "bias": "satire",
@@ -22155,6 +22233,15 @@
     "reporting": "mostly-factual",
     "twitter": "financialpost",
     "url": "https://mediabiasfactcheck.com/financial-post/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "financialtechtimes.com",
+    "name": "Financial Tech Times",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/financial-tech-times-bias/"
   },
   {
     "bias": "center",
@@ -24548,6 +24635,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-digital-health-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/disaster-and-emergency-medicine",
+    "name": "Frontiers in Disaster and Emergency Medicine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-disaster-and-emergency-medicine-bias/"
   },
   {
     "bias": "pro-science",
@@ -27407,6 +27503,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/harvard-political-review/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "harwichandmanningtreestandard.co.uk",
+    "name": "Harwich and Manningtree Standard",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/harwich-and-manningtree-standard-bias/"
   },
   {
     "bias": "center",
@@ -30443,6 +30548,15 @@
     "url": "https://mediabiasfactcheck.com/ingredients-news/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "inkstickmedia.com",
+    "name": "Inkstick Media",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/inkstick-media-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "innerstrength.zone",
@@ -30453,6 +30567,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/inner-strength-zone/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "innocenceproject.org",
+    "name": "Innocence Project",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/innocence-project-bias/"
   },
   {
     "bias": "left-center",
@@ -30553,6 +30676,15 @@
     "url": "https://mediabiasfactcheck.com/inside-higher-ed/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "insidenova.com",
+    "name": "InsideNoVA",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/insidenova-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "insideottawavalley.com/arnprior-on",
@@ -30617,6 +30749,15 @@
     "reporting": "high",
     "twitter": "InsidePhilanthr",
     "url": "https://mediabiasfactcheck.com/inside-philanthropy/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "insider.co.uk",
+    "name": "Insider.co.uk",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/insider-co-uk-bias/"
   },
   {
     "bias": "left-center",
@@ -31495,6 +31636,15 @@
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/jama-neurology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamaoncology",
+    "name": "JAMA Oncology",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-oncology-bias/"
   },
   {
     "bias": "center",
@@ -33598,6 +33748,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kjzz-npr-phoenix-bias/ "
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "kkoh.com",
+    "name": "KKOH - 780 AM - Reno",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/kkoh-780-am-reno-bias/"
   },
   {
     "bias": "center",
@@ -38546,6 +38705,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/biophysica",
+    "name": "Biophysica Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/biophysica-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/blsf",
     "name": "Biology and Life Sciences Forum",
     "questionable": [],
@@ -42574,6 +42742,18 @@
     "url": "https://mediabiasfactcheck.com/nc-union-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "ndnorthnews.com",
+    "name": "ND North News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/nd-north-news-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "medium-credibility",
     "domain": "ndtv.com",
@@ -42803,6 +42983,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/ne-louisiana-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nelson-star-bias",
+    "name": "Nelson Star",
+    "questionable": [],
+    "reporting": "high",
+    "url": "http://Nelson Star/"
   },
   {
     "bias": "fake-news",
@@ -49845,6 +50034,15 @@
   {
     "bias": "right-center",
     "credibility": "high-credibility",
+    "domain": "pmg-ky2.com/cknj",
+    "name": "Central Kentucky News-Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/central-kentucky-news-journal-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
     "domain": "pmg-ky2.com/kystandard",
     "name": "The Kentucky Standard",
     "questionable": [],
@@ -53283,6 +53481,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/regated-news/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "register-herald.com",
+    "name": "Beckley Register-Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/beckley-register-herald-bias/"
   },
   {
     "bias": "left-center",
@@ -65579,6 +65786,15 @@
     "url": "https://mediabiasfactcheck.com/the-purist-magazine-bias/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "theqanons.com",
+    "name": "TheQanons.com",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/theqanons-com-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "thequint.com",
@@ -71986,6 +72202,15 @@
     "url": "https://mediabiasfactcheck.com/blowing-rocket-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wataugademocrat.com/mountaintimes",
+    "name": "The Mountain Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-mountain-times-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "watchdogreport.org",
@@ -75825,6 +76050,15 @@
     "url": "https://mediabiasfactcheck.com/wuft-npr-gainesville-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wuga.org",
+    "name": "WUGA - NPR - Athens",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wuga-npr-athens-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "wusa9.com",
@@ -75833,6 +76067,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wusa9-com/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wusf.org",
+    "name": "WUSF - NPR - Tampa",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wusf-npr-tampa-bias/"
   },
   {
     "bias": "right-center",
