@@ -1560,6 +1560,26 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "aflegal.org",
+    "name": "America First Legal",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/america-first-legal-afl-bias-and-credibility/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "afn.net",
     "facebook": "onenewsnowcom",
     "name": "American Family News",
@@ -30793,6 +30813,20 @@
     "url": "https://mediabiasfactcheck.com/insidesources/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "insidethemagic.net",
+    "name": "Inside the Magic",
+    "questionable": [
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/inside-the-magic-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "instituteforgovernment.org.uk",
@@ -43061,6 +43095,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/ne-new-york-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "nenorthdakotanews.com",
+    "name": "NE North Dakota News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ne-north-dakota-news-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
