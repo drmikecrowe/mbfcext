@@ -9814,6 +9814,15 @@
     "url": "https://mediabiasfactcheck.com/capx-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "caranddriver.com",
+    "name": "Car and Driver",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/car-and-driver-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "caravanmagazine.in",
@@ -15568,6 +15577,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/cyberscoop-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "cybersecuritydive.com",
+    "name": "CybersecurityDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cybersecuritydive-bias/"
   },
   {
     "bias": "left-center",
@@ -24718,6 +24736,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-disaster-and-emergency-medicine-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/drug-delivery",
+    "name": "Frontiers in Drug Delivery",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-drug-delivery-bias/"
   },
   {
     "bias": "pro-science",
@@ -49443,6 +49470,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/peabody-gazette-bulletin-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "peace garden news",
+    "name": "Peace Garden News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/peace-garden-news-bias/"
   },
   {
     "bias": "left-center",

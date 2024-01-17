@@ -10687,6 +10687,16 @@
     "a": "L",
     "q": []
   },
+  "caranddriver.com": {
+    "b": "C",
+    "d": "caranddriver.com",
+    "n": "Car and Driver",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/car-and-driver-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "caravanmagazine.in": {
     "b": "LC",
     "d": "caravanmagazine.in",
@@ -16994,6 +17004,16 @@
     "u": "https://mediabiasfactcheck.com/cyberscoop-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "cybersecuritydive.com": {
+    "b": "C",
+    "d": "cybersecuritydive.com",
+    "n": "CybersecurityDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cybersecuritydive-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "dabangasudan.com": {
@@ -27052,6 +27072,17 @@
     "p": "/journals/disaster-and-emergency-medicine",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-disaster-and-emergency-medicine-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/drug-delivery": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/drug-delivery",
+    "n": "Frontiers in Drug Delivery",
+    "p": "/journals/drug-delivery",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-drug-delivery-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -54432,6 +54463,19 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "peace garden news": {
+    "b": "FN",
+    "n": "Peace Garden News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/peace-garden-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "peacearchnews.com": {
     "b": "LC",
