@@ -30786,6 +30786,15 @@
     "url": "https://mediabiasfactcheck.com/insidenova-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "insidenova.com/culpeper",
+    "name": "Culpeper Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/culpeper-times-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "insideottawavalley.com/arnprior-on",
@@ -31029,6 +31038,21 @@
     "reporting": "high",
     "twitter": "thenewslensintl",
     "url": "https://mediabiasfactcheck.com/the-news-lens/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "internationalman.com",
+    "name": "Doug Casey's International Man",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/doug-caseys-international-man-bias/"
   },
   {
     "bias": "left-center",
@@ -48057,6 +48081,15 @@
     "url": "https://mediabiasfactcheck.com/open-society-foundations/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "opentodebate.org",
+    "name": "Open to Debate",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/open-to-debate-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "openvaers.com",
@@ -55040,6 +55073,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/roosevelt-institute/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "rosslandnews.com",
+    "name": "Rossland News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/rossland-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -71961,6 +72003,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wabash-plain-dealer-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wabe.org",
+    "name": "WABE - NPR - Atlanta",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wabe-npr-atlanta-bias/"
   },
   {
     "bias": "center",

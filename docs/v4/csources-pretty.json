@@ -33737,6 +33737,17 @@
     "a": "M",
     "q": []
   },
+  "insidenova.com/culpeper": {
+    "b": "C",
+    "d": "insidenova.com/culpeper",
+    "n": "Culpeper Times",
+    "p": "/culpeper",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/culpeper-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "insideottawavalley.com/arnprior-on": {
     "b": "LC",
     "d": "insideottawavalley.com/arnprior-on",
@@ -34011,6 +34022,23 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "internationalman.com": {
+    "b": "FN",
+    "d": "internationalman.com",
+    "n": "Doug Casey's International Man",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/doug-caseys-international-man-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "internationalpolicy.org": {
     "b": "LC",
@@ -52923,6 +52951,16 @@
     "a": "M",
     "q": []
   },
+  "opentodebate.org": {
+    "b": "C",
+    "d": "opentodebate.org",
+    "n": "Open to Debate",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/open-to-debate-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "openvaers.com": {
     "b": "R",
     "d": "openvaers.com",
@@ -60503,6 +60541,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/roosevelt-institute/",
     "P": 58,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "rosslandnews.com": {
+    "b": "LC",
+    "d": "rosslandnews.com",
+    "n": "Rossland News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rossland-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -79112,6 +79160,16 @@
     "n": "Wabash Plain Dealer",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wabash-plain-dealer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "wabe.org": {
+    "b": "LC",
+    "d": "wabe.org",
+    "n": "WABE - NPR - Atlanta",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wabe-npr-atlanta-bias/",
     "c": "H",
     "a": "L",
     "q": []
