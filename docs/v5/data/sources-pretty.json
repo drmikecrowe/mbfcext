@@ -73580,6 +73580,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "westernndnews.com",
+    "name": "Western ND News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/western-nd-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "westernsentinel.com",
     "name": "Western Sentinel",
     "popularity": 23,
