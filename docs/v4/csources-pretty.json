@@ -9103,6 +9103,19 @@
     "a": "L",
     "q": []
   },
+  "buckeyereporter.com": {
+    "d": "buckeyereporter.com",
+    "n": "Buckeye Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/buckeye-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "buckfreepress.co.uk": {
     "b": "C",
     "d": "buckfreepress.co.uk",
@@ -29624,19 +29637,14 @@
     "q": []
   },
   "gript.ie": {
-    "b": "FN",
+    "b": "R",
     "d": "gript.ie",
     "n": "Gript.ie",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/gript-ie-bias/",
-    "c": "L",
+    "c": "M",
     "a": "M",
-    "q": [
-      "PS",
-      "LT",
-      "FFC",
-      "PSE"
-    ]
+    "q": []
   },
   "grist.org": {
     "b": "LC",
@@ -42888,6 +42896,17 @@
     "p": "/journal/biosensors",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/biosensors-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/biotech": {
+    "b": "PS",
+    "d": "mdpi.com/journal/biotech",
+    "n": "BioTech Journal",
+    "p": "/journal/biotech",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/biotech-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -65745,6 +65764,27 @@
       "IM"
     ]
   },
+  "sovren.media": {
+    "b": "FN",
+    "d": "sovren.media",
+    "n": "Sovren.Media",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/sovren-media-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
+  },
   "space.com": {
     "b": "PS",
     "d": "space.com",
@@ -71566,6 +71606,25 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "thelastamericanvagabond.com": {
+    "b": "FN",
+    "d": "thelastamericanvagabond.com",
+    "n": "The Last American Vagabond",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-last-american-vagabond-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "thelastgreatstand.com": {
     "b": "CP",

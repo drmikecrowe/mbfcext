@@ -27089,14 +27089,11 @@
     "url": "https://mediabiasfactcheck.com/griffin-daily-news-bias/"
   },
   {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
+    "bias": "right",
+    "credibility": "medium-credibility",
     "domain": "gript.ie",
     "name": "Gript.ie",
-    "questionable": [
-      "poor-sourcing",
-      "failed-fact-checks"
-    ],
+    "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/gript-ie-bias/"
   },
@@ -39033,6 +39030,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/biosensors-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/biotech",
+    "name": "BioTech Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/biotech-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -59708,6 +59714,27 @@
     "url": "https://mediabiasfactcheck.com/south-winston-salem-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "sovren.media",
+    "name": "Sovren.Media",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/sovren-media-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "space.com",
@@ -65027,6 +65054,25 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/source-newspaper-la-source/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "thelastamericanvagabond.com",
+    "name": "The Last American Vagabond",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/the-last-american-vagabond-bias-and-credibility/"
   },
   {
     "bias": "conspiracy-pseudoscience",
