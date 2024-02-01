@@ -281,6 +281,15 @@
     "url": "https://mediabiasfactcheck.com/2020electioncenter-com-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "medium-credibility",
+    "domain": "2020insightsllc.com",
+    "name": "20/20 Insights",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/20-20-insight-bias-and-credibility/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "21stcenturywire.com",
@@ -2157,6 +2166,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/alaska-survey-research-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "albanyherald.com",
+    "name": "Albany Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/albany-herald-bias/"
   },
   {
     "bias": "fake-news",
@@ -7988,6 +8006,8 @@
     "name": "Breaking News House",
     "popularity": 16,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
@@ -11125,6 +11145,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/central-oc-times/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "centralohiotoday.com",
+    "name": "Central Ohio Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/central-ohio-today-bias/"
   },
   {
     "bias": "fake-news",
@@ -15698,6 +15730,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/cybersecuritydive-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "cyberwar.news",
+    "name": "CyberWar.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/cyberwar-news-bias/"
   },
   {
     "bias": "left-center",
@@ -31761,6 +31802,25 @@
     "url": "https://mediabiasfactcheck.com/israel-video-network/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "israelwarroom.com",
+    "name": "Israel War Room",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/israel-war-room-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "issues.org",
@@ -32315,6 +32375,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/jewish-breaking-news/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "jewishexponent.com",
+    "name": "Philadelphia Jewish Exponent",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/philadelphia-jewish-exponent-bias/"
   },
   {
     "bias": "right-center",
@@ -37992,6 +38061,27 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "magapac.com",
+    "name": "Make America Great Again (MAGA Inc.)",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/make-america-great-again-inc-maga-inc-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "magapill.com",
     "name": "MagaPill",
     "popularity": 51,
@@ -38672,6 +38762,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/maryland-business-daily-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "mdjonline.com",
+    "name": "Marietta Daily Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/marietta-daily-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -40904,6 +41003,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/molad-center-renewal-israeli-democracy/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "molecular-cancer.biomedcentral.com",
+    "name": "Molecular Cancer Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/molecular-cancer-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -68397,6 +68505,15 @@
     "url": "https://mediabiasfactcheck.com/times-san-diego/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "timesonline.com",
+    "name": "Beaver County Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/beaver-county-times-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "timespolice.com",
@@ -75911,6 +76028,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/wonkette/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "woodstocksentinelreview.com",
+    "name": "Woodstock Sentinel-Review",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/woodstock-sentinel-review-bias/"
   },
   {
     "bias": "center",

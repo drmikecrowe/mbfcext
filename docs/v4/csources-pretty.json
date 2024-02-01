@@ -300,6 +300,16 @@
     "a": "H",
     "q": []
   },
+  "2020insightsllc.com": {
+    "b": "C",
+    "d": "2020insightsllc.com",
+    "n": "20/20 Insights",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/20-20-insight-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "21stcenturywire.com": {
     "b": "CP",
     "d": "21stcenturywire.com",
@@ -2354,6 +2364,16 @@
     "n": "Alaska Survey Research",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/alaska-survey-research-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "albanyherald.com": {
+    "b": "RC",
+    "d": "albanyherald.com",
+    "n": "Albany Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/albany-herald-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -8688,6 +8708,7 @@
     "c": "L",
     "a": "N",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
@@ -12200,6 +12221,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/central-oc-times/",
     "P": 4,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "centralohiotoday.com": {
+    "b": "FN",
+    "d": "centralohiotoday.com",
+    "n": "Central Ohio Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-ohio-today-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -17143,6 +17178,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/cybersecuritydive-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cyberwar.news": {
+    "b": "CP",
+    "d": "cyberwar.news",
+    "n": "CyberWar.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/cyberwar-news-bias/",
+    "c": "L",
     "a": "L",
     "q": []
   },
@@ -34815,6 +34860,24 @@
     "a": "N",
     "q": []
   },
+  "israelwarroom.com": {
+    "b": "FN",
+    "d": "israelwarroom.com",
+    "n": "Israel War Room",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/israel-war-room-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "M",
+      "H"
+    ]
+  },
   "issues.org": {
     "b": "PS",
     "d": "issues.org",
@@ -35429,6 +35492,16 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/jewish-breaking-news/",
     "P": 30,
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "jewishexponent.com": {
+    "b": "R",
+    "d": "jewishexponent.com",
+    "n": "Philadelphia Jewish Exponent",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/philadelphia-jewish-exponent-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -41682,6 +41755,27 @@
       "LT"
     ]
   },
+  "magapac.com": {
+    "b": "FN",
+    "d": "magapac.com",
+    "n": "Make America Great Again (MAGA Inc.)",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/make-america-great-again-inc-maga-inc-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
+  },
   "magapill.com": {
     "b": "FN",
     "d": "magapill.com",
@@ -42446,6 +42540,16 @@
       "FC",
       "IM"
     ]
+  },
+  "mdjonline.com": {
+    "b": "C",
+    "d": "mdjonline.com",
+    "n": "Marietta Daily Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/marietta-daily-journal-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "mdpi.com": {
     "b": "PS",
@@ -44982,6 +45086,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/molad-center-renewal-israeli-democracy/",
     "P": 33,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "molecular-cancer.biomedcentral.com": {
+    "b": "PS",
+    "d": "molecular-cancer.biomedcentral.com",
+    "n": "Molecular Cancer Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/molecular-cancer-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -75233,6 +75347,16 @@
     "a": "M",
     "q": []
   },
+  "timesonline.com": {
+    "b": "LC",
+    "d": "timesonline.com",
+    "n": "Beaver County Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/beaver-county-times-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "timespolice.com": {
     "b": "FN",
     "d": "timespolice.com",
@@ -83487,6 +83611,16 @@
     "P": 80,
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "woodstocksentinelreview.com": {
+    "b": "RC",
+    "d": "woodstocksentinelreview.com",
+    "n": "Woodstock Sentinel-Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/woodstock-sentinel-review-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "woodtv.com": {
