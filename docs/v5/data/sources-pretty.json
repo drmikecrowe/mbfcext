@@ -12079,6 +12079,18 @@
     "url": "https://mediabiasfactcheck.com/cincinnati-enquirer/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "cincyreporter.com",
+    "name": "Cincy Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/cincy-reporter-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "ciodive.com",
@@ -31987,6 +31999,23 @@
     "url": "https://mediabiasfactcheck.com/institute-for-womens-policy-research-iwpr/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "iz.ru",
+    "name": "Izvestia",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/izvestia-%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d0%b8%d1%8f-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "jacksonfreepress.com",
@@ -39302,6 +39331,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/biotech-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/blockchains",
+    "name": "Blockchains Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/blockchains-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -60544,6 +60582,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/honolulu-star-advertiser/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "starbeacon.com",
+    "name": "Ashtabula Star Beacon",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/ashtabula-star-beacon-bias/"
   },
   {
     "bias": "center",

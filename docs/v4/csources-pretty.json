@@ -13243,6 +13243,20 @@
     "a": "H",
     "q": []
   },
+  "cincyreporter.com": {
+    "b": "FN",
+    "d": "cincyreporter.com",
+    "n": "Cincy Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cincy-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "ciodive.com": {
     "b": "C",
     "d": "ciodive.com",
@@ -35058,6 +35072,23 @@
     "a": "L",
     "q": []
   },
+  "iz.ru": {
+    "b": "FN",
+    "d": "iz.ru",
+    "n": "Izvestia",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/izvestia-%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d0%b8%d1%8f-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "CEN"
+    ]
+  },
   "jacksonfreepress.com": {
     "b": "LC",
     "d": "jacksonfreepress.com",
@@ -43195,6 +43226,17 @@
     "p": "/journal/biotech",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/biotech-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/blockchains": {
+    "b": "PS",
+    "d": "mdpi.com/journal/blockchains",
+    "n": "Blockchains Journal",
+    "p": "/journal/blockchains",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/blockchains-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -66672,6 +66714,16 @@
     "P": 83,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "starbeacon.com": {
+    "b": "LC",
+    "d": "starbeacon.com",
+    "n": "Ashtabula Star Beacon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ashtabula-star-beacon-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "stardem.com": {
