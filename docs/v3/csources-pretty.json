@@ -13812,6 +13812,20 @@
     "a": "L",
     "q": []
   },
+  "clermonttimes.com": {
+    "b": "FN",
+    "d": "clermonttimes.com",
+    "n": "Clermont Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/clermont-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "cleveland.com": {
     "b": "LC",
     "d": "cleveland.com",
@@ -14232,25 +14246,6 @@
     "c": "M",
     "a": "N",
     "q": []
-  },
-  "cnsnews.com": {
-    "b": "FN",
-    "d": "cnsnews.com",
-    "f": "cnsnewscom?ref",
-    "n": "CNS News",
-    "r": "L",
-    "t": "cnsnews",
-    "u": "https://mediabiasfactcheck.com/cns-news/",
-    "P": 79,
-    "c": "L",
-    "a": "M",
-    "q": [
-      "C",
-      "P",
-      "FFC",
-      "FC",
-      "M"
-    ]
   },
   "cnycentral.com": {
     "b": "RC",
@@ -20830,6 +20825,21 @@
     "a": "L",
     "q": []
   },
+  "dzen.ru": {
+    "b": "FN",
+    "d": "dzen.ru",
+    "n": "Dzen.ru",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dzen-ru-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "M",
+      "CEN"
+    ]
+  },
   "eagleactionreport.com": {
     "b": "R",
     "d": "eagleactionreport.com",
@@ -27313,6 +27323,17 @@
     "p": "/journals/drug-discovery",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-drug-discovery-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/drug-safety-and-regulation": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/drug-safety-and-regulation",
+    "n": "Frontiers in Drug Safety and Regulation",
+    "p": "/journals/drug-safety-and-regulation",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-drug-safety-and-regulation-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -39309,6 +39330,16 @@
     "a": "M",
     "q": []
   },
+  "langerresearch.com": {
+    "b": "C",
+    "d": "langerresearch.com",
+    "n": "ABC News/Washington Post Polling",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/abc-news-washington-post-polling-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "langleyadvancetimes.com": {
     "b": "LC",
     "d": "langleyadvancetimes.com",
@@ -45692,6 +45723,26 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "mrctv.org/cnsnews": {
+    "b": "FN",
+    "d": "mrctv.org/cnsnews",
+    "f": "cnsnewscom?ref",
+    "n": "CNS News",
+    "p": "/cnsnews",
+    "r": "L",
+    "t": "cnsnews",
+    "u": "https://mediabiasfactcheck.com/cns-news/",
+    "P": 79,
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "FFC",
+      "FC",
+      "M"
+    ]
   },
   "msbusinessdaily.com": {
     "b": "FN",
@@ -83351,6 +83402,16 @@
     "n": "WMAC - 940 AM - Macon",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/wmac-940-am-macon-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "wmal.com": {
+    "b": "R",
+    "d": "wmal.com",
+    "n": "WMAL - 105.9 FM - WMAL",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wmal-105-9-fm-washington-dc-bias-and-credibility/",
     "c": "M",
     "a": "L",
     "q": []

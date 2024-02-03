@@ -12609,6 +12609,18 @@
     "url": "https://mediabiasfactcheck.com/cleburne-times-review-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "clermonttimes.com",
+    "name": "Clermont Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/clermont-times-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "cleveland.com",
@@ -12997,27 +13009,6 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/sparkscnntimes/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "cnsnews.com",
-    "facebook": "cnsnewscom?ref",
-    "name": "CNS News",
-    "popularity": 79,
-    "questionable": [
-      "conspiracy",
-      "censorship",
-      "propaganda",
-      "plagiarism",
-      "pseudoscience",
-      "failed-fact-checks",
-      "false-claims",
-      "misinformation"
-    ],
-    "reporting": "low",
-    "twitter": "cnsnews",
-    "url": "https://mediabiasfactcheck.com/cns-news/"
   },
   {
     "bias": "right-center",
@@ -19066,6 +19057,21 @@
     "url": "https://mediabiasfactcheck.com/the-dworkin-report/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "dzen.ru",
+    "name": "Dzen.ru",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/dzen-ru-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "eagleactionreport.com",
@@ -24946,6 +24952,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-drug-discovery-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/drug-safety-and-regulation",
+    "name": "Frontiers in Drug Safety and Regulation",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-drug-safety-and-regulation-bias/"
   },
   {
     "bias": "pro-science",
@@ -35826,6 +35841,15 @@
     "url": "https://mediabiasfactcheck.com/lnp-lancasteronline/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "langerresearch.com",
+    "name": "ABC News/Washington Post Polling",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/abc-news-washington-post-polling-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "langleyadvancetimes.com",
@@ -41555,6 +41579,27 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/mr-conservative-mrc/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "mrctv.org/cnsnews",
+    "facebook": "cnsnewscom?ref",
+    "name": "CNS News",
+    "popularity": 79,
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "twitter": "cnsnews",
+    "url": "https://mediabiasfactcheck.com/cns-news/"
   },
   {
     "bias": "fake-news",
@@ -75784,6 +75829,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/wmac-940-am-macon-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "wmal.com",
+    "name": "WMAL - 105.9 FM - WMAL",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wmal-105-9-fm-washington-dc-bias-and-credibility/"
   },
   {
     "bias": "center",
