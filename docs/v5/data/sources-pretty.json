@@ -3752,6 +3752,21 @@
     "url": "https://mediabiasfactcheck.com/amherst-bulletin-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "amic.ru",
+    "name": "Amic.ru",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/amic-ru-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "amimagazine.org",
@@ -5842,6 +5857,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/barry-and-district-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "bashawstar.com",
+    "name": "Bashaw Star",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bashaw-star-bias/"
   },
   {
     "bias": "center",
@@ -21676,6 +21700,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/facebook-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "facilitiesdive.com",
+    "name": "Facilities Dive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/facilities-dive-bias/"
   },
   {
     "bias": "left-center",
@@ -47792,6 +47825,15 @@
     "url": "https://mediabiasfactcheck.com/nwo-report-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nwpb.org",
+    "name": "KNWO - NPR - Cottonwood",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/knwo-npr-cottonwood-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "nwriversidenews.com",
@@ -62526,20 +62568,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
@@ -66589,6 +66627,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/the-premium-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "theprepared.com",
+    "name": "The Prepared",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-prepared-bias/"
   },
   {
     "bias": "center",

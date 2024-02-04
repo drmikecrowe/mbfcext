@@ -4060,6 +4060,22 @@
     "a": "L",
     "q": []
   },
+  "amic.ru": {
+    "b": "FN",
+    "d": "amic.ru",
+    "n": "Amic.ru",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/amic-ru-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "PS",
+      "M",
+      "PSE",
+      "CEN"
+    ]
+  },
   "amimagazine.org": {
     "b": "R",
     "d": "amimagazine.org",
@@ -6357,6 +6373,16 @@
     "n": "Barry and District News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/barry-and-district-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "bashawstar.com": {
+    "b": "LC",
+    "d": "bashawstar.com",
+    "n": "Bashaw Star",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bashaw-star-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -23698,6 +23724,16 @@
     "P": 54,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "facilitiesdive.com": {
+    "b": "C",
+    "d": "facilitiesdive.com",
+    "n": "Facilities Dive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/facilities-dive-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "factbox.tv": {
@@ -52623,6 +52659,16 @@
     "a": "L",
     "q": []
   },
+  "nwpb.org": {
+    "b": "LC",
+    "d": "nwpb.org",
+    "n": "KNWO - NPR - Cottonwood",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/knwo-npr-cottonwood-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "nwriversidenews.com": {
     "b": "FN",
     "d": "nwriversidenews.com",
@@ -68851,21 +68897,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -73251,6 +73294,16 @@
     "P": 11,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "theprepared.com": {
+    "b": "C",
+    "d": "theprepared.com",
+    "n": "The Prepared",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-prepared-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "theprimarymarket.com": {
