@@ -621,6 +621,16 @@
     "a": "L",
     "q": []
   },
+  "980waav.com": {
+    "b": "R",
+    "d": "980waav.com",
+    "n": "WAAV - 980 AM - Wilmington",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/waav-980-am-wilimington-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "980wxlm.com": {
     "b": "R",
     "d": "980wxlm.com",
@@ -11968,6 +11978,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/trends/microbiology": {
+    "b": "PS",
+    "d": "cell.com/trends/microbiology",
+    "n": "Trends in Microbiology",
+    "p": "/trends/microbiology",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trends-in-microbiology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cenlanow.com": {
     "b": "C",
     "d": "cenlanow.com",
@@ -13884,6 +13905,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "clevelandreporter.com": {
+    "b": "FN",
+    "d": "clevelandreporter.com",
+    "n": "Cleveland Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cleveland-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "clevescene.com": {
     "b": "L",
@@ -23510,6 +23545,23 @@
     "c": "L",
     "a": "M",
     "q": []
+  },
+  "ex.24smi.info": {
+    "b": "FN",
+    "d": "ex.24smi.info",
+    "n": "Агрегатор 24СМИ",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/агрегатор-24сми-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "M",
+      "PSE",
+      "CEN"
+    ]
   },
   "examine.com": {
     "b": "PS",
@@ -38124,6 +38176,22 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kp.ru": {
+    "b": "FN",
+    "d": "kp.ru",
+    "n": "Komsomolskaya Pravda (K.P.)",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/komsomolskaya-pravda-kp-ru-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "CEN"
+    ]
   },
   "kpax.com": {
     "b": "C",

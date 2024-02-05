@@ -578,6 +578,15 @@
   {
     "bias": "right",
     "credibility": "medium-credibility",
+    "domain": "980waav.com",
+    "name": "WAAV - 980 AM - Wilmington",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/waav-980-am-wilimington-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
     "domain": "980wxlm.com",
     "name": "WXLM - 980 AM - New London",
     "questionable": [],
@@ -10911,6 +10920,15 @@
     "url": "https://mediabiasfactcheck.com/trends-in-immunology-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/microbiology",
+    "name": "Trends in Microbiology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-microbiology-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "cenlanow.com",
@@ -12673,6 +12691,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/cleveland-daily-banner-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "clevelandreporter.com",
+    "name": "Cleveland Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/cleveland-reporter-bias/"
   },
   {
     "bias": "left",
@@ -21501,6 +21531,21 @@
     "reporting": "mixed",
     "twitter": "ewg",
     "url": "https://mediabiasfactcheck.com/environmental-working-group-ewg/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "ex.24smi.info",
+    "name": "Агрегатор 24СМИ",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/агрегатор-24сми-bias/"
   },
   {
     "bias": "pro-science",
@@ -34754,6 +34799,21 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kota-rapid-city-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kp.ru",
+    "name": "Komsomolskaya Pravda (K.P.)",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/komsomolskaya-pravda-kp-ru-bias/"
   },
   {
     "bias": "center",
