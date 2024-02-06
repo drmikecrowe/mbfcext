@@ -28664,6 +28664,15 @@
     "url": "https://mediabiasfactcheck.com/heterodox-academy/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "hexham-courant.co.uk",
+    "name": "Hexham Courant",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hexham-courant-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "hgazette.com",
@@ -32266,6 +32275,15 @@
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/jama-otolaryngology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamapediatrics",
+    "name": "JAMA Pediatrics",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-pediatrics-bias/"
   },
   {
     "bias": "center",
@@ -58408,6 +58426,15 @@
     "url": "https://mediabiasfactcheck.com/shondaland/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "shorelinebeacon.com",
+    "name": "Shoreline Beacon",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/shoreline-beacon-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "shorenewsnetwork.com",
@@ -78350,6 +78377,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/venice-gondolier-sun-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "yourtango.com",
+    "name": "YourTango",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/yourtango-bias/"
   },
   {
     "bias": "left-center",

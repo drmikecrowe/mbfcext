@@ -31373,6 +31373,16 @@
     "a": "L",
     "q": []
   },
+  "hexham-courant.co.uk": {
+    "b": "C",
+    "d": "hexham-courant.co.uk",
+    "n": "Hexham Courant",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hexham-courant-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hgazette.com": {
     "b": "LC",
     "d": "hgazette.com",
@@ -35379,6 +35389,17 @@
     "p": "/journals/jamaotolaryngology",
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/jama-otolaryngology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "jamanetwork.com/journals/jamapediatrics": {
+    "b": "PS",
+    "d": "jamanetwork.com/journals/jamapediatrics",
+    "n": "JAMA Pediatrics",
+    "p": "/journals/jamapediatrics",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/jama-pediatrics-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -64283,6 +64304,16 @@
     "a": "M",
     "q": []
   },
+  "shorelinebeacon.com": {
+    "b": "RC",
+    "d": "shorelinebeacon.com",
+    "n": "Shoreline Beacon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/shoreline-beacon-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "shorenewsnetwork.com": {
     "b": "R",
     "d": "shorenewsnetwork.com",
@@ -72200,7 +72231,7 @@
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/leading-report-bias/",
     "c": "L",
-    "a": "L",
+    "a": "M",
     "q": [
       "C",
       "P",
@@ -85747,6 +85778,16 @@
     "u": "https://mediabiasfactcheck.com/venice-gondolier-sun-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "yourtango.com": {
+    "b": "CP",
+    "d": "yourtango.com",
+    "n": "YourTango",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/yourtango-bias/",
+    "c": "L",
+    "a": "H",
     "q": []
   },
   "youthrights.org": {
