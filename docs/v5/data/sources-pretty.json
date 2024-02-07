@@ -16936,6 +16936,18 @@
     "url": "https://mediabiasfactcheck.com/dayton-daily-news/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "daytonreporter.com",
+    "name": "Dayton Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/dayton-reporter-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "dbrnews.com",
@@ -20368,6 +20380,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-elkhart-truth/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "elkintribune.com",
+    "name": "Elkin Tribune",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/elkin-tribune-bias/"
   },
   {
     "bias": "center",
@@ -32185,6 +32206,15 @@
     "reporting": "high",
     "twitter": "jacobinmag",
     "url": "https://mediabiasfactcheck.com/jacobin/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "jakartaglobe.id",
+    "name": "Jakarta Globe",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jakarta-globe-bias/"
   },
   {
     "bias": "left-center",
@@ -47539,6 +47569,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/north-bay-nugget-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nuj.org.uk",
+    "name": "National union of Journalists",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/national-union-of-journalists-nuj-bias/"
   },
   {
     "bias": "center",

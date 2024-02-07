@@ -18539,6 +18539,20 @@
     "a": "M",
     "q": []
   },
+  "daytonreporter.com": {
+    "b": "FN",
+    "d": "daytonreporter.com",
+    "n": "Dayton Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/dayton-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "dbrnews.com": {
     "b": "C",
     "d": "dbrnews.com",
@@ -22295,6 +22309,16 @@
     "n": "The Elkhart Truth",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-elkhart-truth/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "elkintribune.com": {
+    "b": "LC",
+    "d": "elkintribune.com",
+    "n": "Elkin Tribune",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/elkin-tribune-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -35282,6 +35306,16 @@
     "P": 76,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "jakartaglobe.id": {
+    "b": "LC",
+    "d": "jakartaglobe.id",
+    "n": "Jakarta Globe",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/jakarta-globe-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "jalopnik.com": {
@@ -52334,6 +52368,16 @@
     "u": "https://mediabiasfactcheck.com/north-bay-nugget-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "nuj.org.uk": {
+    "b": "LC",
+    "d": "nuj.org.uk",
+    "n": "National union of Journalists",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/national-union-of-journalists-nuj-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "nujournal.com": {
