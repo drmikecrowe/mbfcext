@@ -1158,6 +1158,16 @@
     "a": "N",
     "q": []
   },
+  "abtassociates.com": {
+    "b": "C",
+    "d": "abtassociates.com",
+    "n": "ABT Associates",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/abt-associates-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ac2news.com": {
     "b": "R",
     "d": "ac2news.com",
@@ -17358,6 +17368,16 @@
     "n": "Greenville Daily Advocate",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/greenville-daily-advocate-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "dailyamerican.com": {
+    "b": "LC",
+    "d": "dailyamerican.com",
+    "n": "Somerset Daily American",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/somerset-daily-american-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -35153,7 +35173,7 @@
     "b": "RC",
     "d": "itv.com",
     "n": "ITV News",
-    "r": "H",
+    "r": "MF",
     "t": "itvhub",
     "u": "https://mediabiasfactcheck.com/itv-news/",
     "P": 93,
@@ -35689,6 +35709,16 @@
     "P": 30,
     "c": "M",
     "a": "L",
+    "q": []
+  },
+  "jewishcurrents.org": {
+    "b": "L",
+    "d": "jewishcurrents.org",
+    "n": "Jewish Currents",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/jewish-currents-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "jewishexponent.com": {
@@ -51929,6 +51959,17 @@
       "FC",
       "IM"
     ]
+  },
+  "northwestgeorgianews.com/rome": {
+    "b": "C",
+    "d": "northwestgeorgianews.com/rome",
+    "n": "Rome News-Tribune",
+    "p": "/rome",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rome-news-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "northwestsignal.net": {
     "b": "RC",
@@ -68206,6 +68247,26 @@
       "P",
       "PS",
       "M"
+    ]
+  },
+  "survivethenews.com": {
+    "b": "FN",
+    "d": "survivethenews.com",
+    "n": "Survive The News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/survive-the-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "FN",
+      "PSE"
     ]
   },
   "sussexreview.com": {

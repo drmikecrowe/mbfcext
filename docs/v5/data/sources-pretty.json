@@ -1064,6 +1064,15 @@
     "url": "https://mediabiasfactcheck.com/abril-uno/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "abtassociates.com",
+    "name": "ABT Associates",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/abt-associates-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "ac2news.com",
@@ -15890,6 +15899,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/greenville-daily-advocate-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "dailyamerican.com",
+    "name": "Somerset Daily American",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/somerset-daily-american-bias/"
   },
   {
     "bias": "fake-news",
@@ -32067,7 +32085,7 @@
     "name": "ITV News",
     "popularity": 93,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "itvhub",
     "url": "https://mediabiasfactcheck.com/itv-news/"
   },
@@ -32545,6 +32563,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/jewish-breaking-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "jewishcurrents.org",
+    "name": "Jewish Currents",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jewish-currents-bias/"
   },
   {
     "bias": "right",
@@ -47161,6 +47188,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-wake-news-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "northwestgeorgianews.com/rome",
+    "name": "Rome News-Tribune",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/rome-news-tribune-bias/"
   },
   {
     "bias": "right-center",
@@ -61938,6 +61974,26 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/survivalblog-com/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "survivethenews.com",
+    "name": "Survive The News",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/survive-the-news-bias/"
   },
   {
     "bias": "fake-news",
