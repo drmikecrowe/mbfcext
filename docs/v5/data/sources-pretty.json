@@ -32634,6 +32634,15 @@
     "url": "https://mediabiasfactcheck.com/jewish-unpacked-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "jewishvoiceforpeace.org",
+    "name": "Jewish Voice for Peace",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jewish-voice-for-peace-jvp-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "jewishworldreview.com",
@@ -41251,6 +41260,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/molecular-brain-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "molecularcytogenetics.biomedcentral.com",
+    "name": "Molecular Cytogenetics Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/molecular-cytogenetics-journal-bias/"
   },
   {
     "bias": "fake-news",
@@ -58753,6 +58771,15 @@
     "url": "https://mediabiasfactcheck.com/orillia-today-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "simcoereformer.ca",
+    "name": "Simcoe Reformer",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/simcoe-reformer-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "similkameenspotlight.com",
@@ -69305,6 +69332,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/torreon-post-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "totalityofevidence.com",
+    "name": "Totality of Evidence",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/totality-of-evidence-bias/"
   },
   {
     "bias": "fake-news",
