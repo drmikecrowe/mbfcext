@@ -14559,7 +14559,7 @@
     "b": "LC",
     "d": "colombiareports.com",
     "f": "colombiareports",
-    "n": "Columbia Reports",
+    "n": "Colombia Reports",
     "r": "M",
     "t": "colombiareports",
     "u": "https://mediabiasfactcheck.com/columbia-reports/",
@@ -14773,7 +14773,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/comic-sands/",
     "c": "M",
-    "a": "H",
+    "a": "M",
     "q": []
   },
   "commdiginews.com": {
@@ -19256,6 +19256,20 @@
       "IM"
     ]
   },
+  "delcoreview.com": {
+    "b": "FN",
+    "d": "delcoreview.com",
+    "n": "Delaware County Review",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/delaware-county-review-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "delcotimes.com": {
     "b": "C",
     "d": "delcotimes.com",
@@ -20015,6 +20029,16 @@
       "M",
       "PSE"
     ]
+  },
+  "discoveries.news": {
+    "b": "CP",
+    "d": "discoveries.news",
+    "n": "Discoveries.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/discoveries-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
   },
   "discovermagazine.com": {
     "b": "PS",
@@ -36503,6 +36527,16 @@
     "a": "L",
     "q": []
   },
+  "justinfo.net": {
+    "b": "LC",
+    "d": "justinfo.net",
+    "n": "Just Info",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/justice-info-justiceinfo-net-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "justsecurity.org": {
     "b": "LC",
     "d": "justsecurity.org",
@@ -43478,6 +43512,17 @@
     "p": "/journal/blsf",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/biology-and-life-sciences-forum-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/brainsci": {
+    "b": "PS",
+    "d": "mdpi.com/journal/brainsci",
+    "n": "Brain Sciences Journal",
+    "p": "/journal/brainsci",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/brain-sciences-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -67965,6 +68010,16 @@
     "n": "Sturgis Journal",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/sturgis-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "stwnewspress.com": {
+    "b": "LC",
+    "d": "stwnewspress.com",
+    "n": "Stillwater News Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stillwater-news-press-bias/",
     "c": "H",
     "a": "L",
     "q": []

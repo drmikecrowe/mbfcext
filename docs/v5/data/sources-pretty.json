@@ -13292,7 +13292,7 @@
     "credibility": "medium-credibility",
     "domain": "colombiareports.com",
     "facebook": "colombiareports",
-    "name": "Columbia Reports",
+    "name": "Colombia Reports",
     "popularity": 74,
     "questionable": [],
     "reporting": "mixed",
@@ -17614,6 +17614,18 @@
     "url": "https://mediabiasfactcheck.com/delaware-valley-sun-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "delcoreview.com",
+    "name": "Delaware County Review",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/delaware-county-review-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "delcotimes.com",
@@ -18316,6 +18328,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/disclose-tv/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "discoveries.news",
+    "name": "Discoveries.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/discoveries-news-bias/"
   },
   {
     "bias": "pro-science",
@@ -33290,6 +33311,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "justinfo.net",
+    "name": "Just Info",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/justice-info-justiceinfo-net-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "justsecurity.org",
     "facebook": "JSBlog",
     "name": "Just Security",
@@ -39550,6 +39580,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/biology-and-life-sciences-forum-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/brainsci",
+    "name": "Brain Sciences Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/brain-sciences-journal-bias/"
   },
   {
     "bias": "fake-news",
@@ -61712,6 +61751,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/sturgis-journal-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "stwnewspress.com",
+    "name": "Stillwater News Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/stillwater-news-press-bias/"
   },
   {
     "bias": "fake-news",
