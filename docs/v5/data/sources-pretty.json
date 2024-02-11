@@ -62825,16 +62825,20 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.ru",
-    "name": "Russian New Agency-Tass",
+    "domain": "tass.com",
+    "facebook": "tassagency.eng",
+    "name": "Russian News Agency-TASS",
+    "popularity": 78,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing",
-      "failed-fact-checks"
+      "poor-sourcing"
     ],
     "reporting": "mixed",
+    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
