@@ -5301,6 +5301,26 @@
     "url": "https://mediabiasfactcheck.com/australian-national-review/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "australiaoneparty.com",
+    "name": "AustraliaOne",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/australiaone-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "autismspeaks.org",
@@ -19403,6 +19423,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "eastclevelandnews.com",
+    "name": "East Cleveland News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/east-cleveland-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "eastcontracostanews.com",
     "name": "East Contra Costa News",
     "popularity": 4,
@@ -22215,6 +22247,15 @@
     "reporting": "high",
     "twitter": "FAScientists",
     "url": "https://mediabiasfactcheck.com/federation-of-american-scientists-fas/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "fashiondive.com",
+    "name": "FashionDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fashiondive-bias/"
   },
   {
     "bias": "left-center",
@@ -25129,6 +25170,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/british-journal-of-biomedical-science-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontierspartnerships.org/journals/dystonia",
+    "name": "Dystonia Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/dystonia-journal-bias/"
   },
   {
     "bias": "fake-news",
@@ -32178,6 +32228,15 @@
     "url": "https://mediabiasfactcheck.com/izvestia-%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d0%b8%d1%8f-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jaapl.org",
+    "name": "Journal of the American Academy of Psychiatry and the Law",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/journal-of-the-american-academy-of-psychiatry-and-the-law-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "jacksonfreepress.com",
@@ -33318,6 +33377,15 @@
     "url": "https://mediabiasfactcheck.com/justice-info-justiceinfo-net-bias-and-credibility/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "justonefocus.org",
+    "name": "Just One Focus",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/just-one-focus-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "justsecurity.org",
@@ -33370,6 +33438,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/jehovahs-witnesses-jw-org/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "jyllands-posten.dk",
+    "name": "Jyllands-Posten",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jyllands-posten-bias/"
   },
   {
     "bias": "center",
@@ -41702,6 +41779,15 @@
     "url": "https://mediabiasfactcheck.com/morris-leader-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "morrisoninstitute.asu.edu",
+    "name": "Morrison Institute for Public Policy",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/morrison-institute-for-public-policy-arizona-state-university-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "mosaicscience.com",
@@ -45675,6 +45761,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/wkim-98-9-fm-memphis-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "newstalkwsba.com",
+    "name": "WSBA - 93.5 FM - York",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/wsba-93-9-fm-york-bias/"
   },
   {
     "bias": "right-center",
@@ -62825,20 +62920,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {

@@ -5762,6 +5762,26 @@
     "a": "L",
     "q": []
   },
+  "australiaoneparty.com": {
+    "b": "FN",
+    "d": "australiaoneparty.com",
+    "n": "AustraliaOne",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/australiaone-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "autismspeaks.org": {
     "b": "CP",
     "d": "autismspeaks.org",
@@ -21206,6 +21226,20 @@
       "IM"
     ]
   },
+  "eastclevelandnews.com": {
+    "b": "FN",
+    "d": "eastclevelandnews.com",
+    "n": "East Cleveland News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-cleveland-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "eastcontracostanews.com": {
     "b": "FN",
     "d": "eastcontracostanews.com",
@@ -24289,6 +24323,16 @@
     "P": 88,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "fashiondive.com": {
+    "b": "C",
+    "d": "fashiondive.com",
+    "n": "FashionDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fashiondive-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "fastcompany.com": {
@@ -27525,6 +27569,17 @@
     "p": "/journals/british-journal-of-biomedical-science",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/british-journal-of-biomedical-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontierspartnerships.org/journals/dystonia": {
+    "b": "PS",
+    "d": "frontierspartnerships.org/journals/dystonia",
+    "n": "Dystonia Journal",
+    "p": "/journals/dystonia",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/dystonia-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -35276,6 +35331,16 @@
       "CEN"
     ]
   },
+  "jaapl.org": {
+    "b": "PS",
+    "d": "jaapl.org",
+    "n": "Journal of the American Academy of Psychiatry and the Law",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/journal-of-the-american-academy-of-psychiatry-and-the-law-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jacksonfreepress.com": {
     "b": "LC",
     "d": "jacksonfreepress.com",
@@ -36537,6 +36602,16 @@
     "a": "L",
     "q": []
   },
+  "justonefocus.org": {
+    "b": "CP",
+    "d": "justonefocus.org",
+    "n": "Just One Focus",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/just-one-focus-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "justsecurity.org": {
     "b": "LC",
     "d": "justsecurity.org",
@@ -36588,6 +36663,16 @@
     "r": "L",
     "u": "https://mediabiasfactcheck.com/jehovahs-witnesses-jw-org/",
     "c": "L",
+    "a": "H",
+    "q": []
+  },
+  "jyllands-posten.dk": {
+    "b": "RC",
+    "d": "jyllands-posten.dk",
+    "n": "Jyllands-Posten",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/jyllands-posten-bias/",
+    "c": "H",
     "a": "H",
     "q": []
   },
@@ -45863,6 +45948,16 @@
       "IM"
     ]
   },
+  "morrisoninstitute.asu.edu": {
+    "b": "C",
+    "d": "morrisoninstitute.asu.edu",
+    "n": "Morrison Institute for Public Policy",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/morrison-institute-for-public-policy-arizona-state-university-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mosaicscience.com": {
     "b": "PS",
     "d": "mosaicscience.com",
@@ -50240,6 +50335,16 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/wkim-98-9-fm-memphis-bias/",
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "newstalkwsba.com": {
+    "b": "RC",
+    "d": "newstalkwsba.com",
+    "n": "WSBA - 93.5 FM - York",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/wsba-93-9-fm-york-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -69186,21 +69291,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
