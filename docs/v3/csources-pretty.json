@@ -11052,6 +11052,16 @@
     "a": "L",
     "q": []
   },
+  "castoradvance.com": {
+    "b": "LC",
+    "d": "castoradvance.com",
+    "n": "Castor Advance",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/castor-advance-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "catchnews.com": {
     "b": "LC",
     "d": "catchnews.com",
@@ -12015,6 +12025,17 @@
     "p": "/trends/microbiology",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/trends-in-microbiology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/trends/molecular-medicine": {
+    "b": "PS",
+    "d": "cell.com/trends/molecular-medicine",
+    "n": "Trends in Molecular Medicine",
+    "p": "/trends/molecular-medicine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trends-in-molecular-medicine-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -30260,6 +30281,16 @@
       "CEN"
     ]
   },
+  "gundrymd.com": {
+    "b": "CP",
+    "d": "gundrymd.com",
+    "n": "Gundry MD",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gundry-md-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": []
+  },
   "guns.com": {
     "b": "RC",
     "d": "guns.com",
@@ -37839,6 +37870,16 @@
     "P": 60,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kisu.org": {
+    "b": "LC",
+    "d": "kisu.org",
+    "n": "KISU - NPR - Pocatello",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kisu-npr-pocatello-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kitchener.citynews.ca": {
@@ -73489,6 +73530,25 @@
       "FFC",
       "FC",
       "M"
+    ]
+  },
+  "thepatriotnurse.com": {
+    "b": "FN",
+    "d": "thepatriotnurse.com",
+    "n": "The Patriot Nurse",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-patriot-nurse-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
     ]
   },
   "thepeoplescube.com": {

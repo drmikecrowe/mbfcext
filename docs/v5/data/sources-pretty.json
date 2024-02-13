@@ -10135,6 +10135,15 @@
   },
   {
     "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "castoradvance.com",
+    "name": "Castor Advance",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/castor-advance-bias/"
+  },
+  {
+    "bias": "left-center",
     "credibility": "medium-credibility",
     "domain": "catchnews.com",
     "name": "Catch News",
@@ -10956,6 +10965,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/trends-in-microbiology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/molecular-medicine",
+    "name": "Trends in Molecular Medicine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-molecular-medicine-bias/"
   },
   {
     "bias": "center",
@@ -27641,6 +27659,15 @@
     "url": "https://mediabiasfactcheck.com/gulf-news/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "gundrymd.com",
+    "name": "Gundry MD",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/gundry-md-bias-and-credibility/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "guns.com",
@@ -34495,6 +34522,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kiro-7/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "kisu.org",
+    "name": "KISU - NPR - Pocatello",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kisu-npr-pocatello-bias/"
   },
   {
     "bias": "center",
@@ -66787,6 +66823,25 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/the-patriot-nation/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "thepatriotnurse.com",
+    "name": "The Patriot Nurse",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/the-patriot-nurse-bias/"
   },
   {
     "bias": "satire",
