@@ -504,6 +504,15 @@
     "url": "https://mediabiasfactcheck.com/71-republic/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "790wpic.com",
+    "name": "WPIC - 790 AM - Youngstown",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wpic-790-am-youngstown-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "79days.news",
@@ -19714,6 +19723,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "eaststarknews.com",
+    "name": "East Stark News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/east-stark-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "easttwincities.com",
     "name": "East Twin Cities",
     "questionable": [
@@ -32441,6 +32462,15 @@
     "url": "https://mediabiasfactcheck.com/jama-pediatrics-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamapsychiatry",
+    "name": "JAMA Psychiatry",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-psychiatry-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "jamestown.org",
@@ -33680,6 +33710,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/katehon-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "kathimerini.gr",
+    "name": "Kathimerini",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/kathimerini-bias/"
   },
   {
     "bias": "right-center",
@@ -61799,6 +61838,15 @@
     "reporting": "high",
     "twitter": "starsandstripes",
     "url": "https://mediabiasfactcheck.com/stars-and-stripes/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "stthomastimesjournal.com",
+    "name": "St. Thomas Times-Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/st-thomas-times-journal-bias/"
   },
   {
     "bias": "satire",
