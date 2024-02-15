@@ -19991,6 +19991,18 @@
     "url": "https://mediabiasfactcheck.com/ec-north-carolina-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "ecohionews.com",
+    "name": "EC Ohio News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ec-ohio-news-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "ecology.news",
@@ -28962,6 +28974,15 @@
     "url": "https://mediabiasfactcheck.com/hillary-daily/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "hillingdon times",
+    "name": "Hillingdon Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hillingdon-times-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "hillreporter.com",
@@ -34155,6 +34176,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kepr-pasco-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "keranews.org",
+    "name": "KERA News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kera-news-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -73646,6 +73676,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "wataugademocrat.com",
+    "name": "Watauga Democrat",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/watauga-democrat-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "wataugademocrat.com/blowingrocket",
     "name": "Blowing Rocket",
     "questionable": [],
@@ -77264,6 +77303,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wsil-harrisburg-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wsiu.org",
+    "name": "WSIU - NPR - Carbondale",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wsiu-npr-carbondale-bias/"
   },
   {
     "bias": "right-center",
