@@ -5117,6 +5117,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "atlasintel.org",
+    "name": "AtlasIntel",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/atlasintel-polling-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "atlasobscura.com",
     "name": "Atlas Obscura",
     "popularity": 77,
@@ -34701,6 +34710,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kktv-11-news/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "kla.tv",
+    "name": "Kla.TV",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/kla-tv-klagemauer-tv-bias/"
   },
   {
     "bias": "center",
@@ -67350,6 +67368,15 @@
     "url": "https://mediabiasfactcheck.com/north-york-mirror-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "therecordherald.com",
+    "name": "Waynesboro Record-Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/waynesboro-record-herald-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "therecount.com",
@@ -70043,6 +70070,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/the-tribune-india-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "tribuneledgernews.com",
+    "name": "Cherokee Tribune",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cherokee-tribune-bias/"
   },
   {
     "bias": "left",
