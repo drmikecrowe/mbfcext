@@ -4191,6 +4191,15 @@
     "url": "https://mediabiasfactcheck.com/anniston-star/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "annualreviews.org",
+    "name": "Annual Reviews",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/annual-reviews-bias-and-credibility/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "annunaki.org",
@@ -18939,6 +18948,15 @@
     "reporting": "mixed",
     "twitter": "DRUDGE_REPORT",
     "url": "https://mediabiasfactcheck.com/drudge-report/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "drugcartels.news",
+    "name": "DrugCartels.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/drugcartels-news-bias/"
   },
   {
     "bias": "left-center",
@@ -34482,6 +34500,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "kialo.com",
+    "name": "Kialo",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/kialo-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "kiem-tv.com",
     "name": "KIEM - Redwood News",
     "questionable": [],
@@ -41508,6 +41535,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/molecular-cytogenetics-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "molmed.biomedcentral.com",
+    "name": "Molecular Medicine Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/molecular-medicine-journal-bias/"
   },
   {
     "bias": "fake-news",
@@ -61017,6 +61053,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/de-standaard-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "standard-freeholder.com",
+    "name": "Cornwall Standard-Freeholder",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cornwall-standard-freeholder-bias/"
   },
   {
     "bias": "right-center",
