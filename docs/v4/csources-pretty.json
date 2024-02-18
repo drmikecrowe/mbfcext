@@ -24133,6 +24133,20 @@
     "a": "L",
     "q": []
   },
+  "fairfieldreporter.com": {
+    "b": "FN",
+    "d": "fairfieldreporter.com",
+    "n": "Fairfield Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/fairfield-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "fairmontsentinel.com": {
     "b": "C",
     "d": "fairmontsentinel.com",
@@ -38323,6 +38337,16 @@
     "a": "M",
     "q": []
   },
+  "knowablemagazine.org": {
+    "b": "PS",
+    "d": "knowablemagazine.org",
+    "n": "Knowable Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/knowable-magazine-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "knowherenews.com": {
     "b": "C",
     "d": "knowherenews.com",
@@ -39129,6 +39153,22 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "kunstler.com": {
+    "d": "kunstler.com",
+    "n": "Kunstler.com",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/kunstler-com-bias/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "kuow.org": {
     "b": "LC",
@@ -43777,6 +43817,17 @@
     "p": "/journal/brainsci",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/brain-sciences-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/buildings": {
+    "b": "PS",
+    "d": "mdpi.com/journal/buildings",
+    "n": "Buildings Journal",
+    "p": "/journal/buildings",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/buildings-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -76903,6 +76954,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/transpartisan-review/",
     "P": 10,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "transylvaniatimes.com": {
+    "b": "LC",
+    "d": "transylvaniatimes.com",
+    "n": "Transylvania Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/transylvania-times-bias/",
     "c": "H",
     "a": "L",
     "q": []

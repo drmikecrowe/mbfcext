@@ -22067,6 +22067,18 @@
     "url": "https://mediabiasfactcheck.com/fairborn-daily-herald-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "fairfieldreporter.com",
+    "name": "Fairfield Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/fairfield-reporter-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "fairmontsentinel.com",
@@ -34927,6 +34939,15 @@
     "url": "https://mediabiasfactcheck.com/knop-tv/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "knowablemagazine.org",
+    "name": "Knowable Magazine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/knowable-magazine-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "knowherenews.com",
@@ -39816,6 +39837,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/brain-sciences-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/buildings",
+    "name": "Buildings Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/buildings-journal-bias/"
   },
   {
     "bias": "fake-news",
@@ -69897,6 +69927,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/transpartisan-review/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "transylvaniatimes.com",
+    "name": "Transylvania Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/transylvania-times-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
