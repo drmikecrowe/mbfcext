@@ -464,6 +464,15 @@
     "url": "https://mediabiasfactcheck.com/kfsm-fort-smith-fayetteville-news-bias/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "600wpqx.com",
+    "name": "WPQX - 600 AM - Youngstown",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wrqx-600-am-youngstown-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "604now.com",
@@ -8475,6 +8484,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/biology-of-sex-differences-journal-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "bsgco.com",
+    "name": "Benenson Strategy Group",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/benenson-strategy-group-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -25234,6 +25252,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/earth-science",
+    "name": "Frontiers in Earth Science",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-earth-science-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -31529,13 +31556,13 @@
   },
   {
     "bias": "right",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "intellectualtakeout.org",
     "facebook": "intellectual.takeout.org",
     "name": "Intellectual Takeout",
     "popularity": 64,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/intellectual-takeout/"
   },
   {
@@ -63700,6 +63727,15 @@
     "reporting": "low",
     "twitter": "americatfp",
     "url": "https://mediabiasfactcheck.com/american-society-defense-tradition-family-property/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "tfppwire.com",
+    "name": "TFPP Wire",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/tfpp-wire-bias/"
   },
   {
     "bias": "center",

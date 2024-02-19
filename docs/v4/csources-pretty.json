@@ -498,6 +498,16 @@
     "a": "M",
     "q": []
   },
+  "600wpqx.com": {
+    "b": "R",
+    "d": "600wpqx.com",
+    "n": "WPQX - 600 AM - Youngstown",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wrqx-600-am-youngstown-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "604now.com": {
     "b": "LC",
     "d": "604now.com",
@@ -9216,6 +9226,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/biology-of-sex-differences-journal-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "bsgco.com": {
+    "b": "LC",
+    "d": "bsgco.com",
+    "n": "Benenson Strategy Group",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/benenson-strategy-group-bias-and-credibility/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -27641,6 +27661,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/earth-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/earth-science",
+    "n": "Frontiers in Earth Science",
+    "p": "/journals/earth-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-earth-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -34077,7 +34108,7 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/infoplease-bias/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "informationclearinghouse.info": {
@@ -34584,10 +34615,10 @@
     "d": "intellectualtakeout.org",
     "f": "intellectual.takeout.org",
     "n": "Intellectual Takeout",
-    "r": "MF",
+    "r": "M",
     "u": "https://mediabiasfactcheck.com/intellectual-takeout/",
     "P": 64,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -70155,6 +70186,16 @@
       "M",
       "H"
     ]
+  },
+  "tfppwire.com": {
+    "b": "R",
+    "d": "tfppwire.com",
+    "n": "TFPP Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tfpp-wire-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
   },
   "tghemesatribune.com": {
     "b": "C",
