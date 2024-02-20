@@ -4273,6 +4273,16 @@
     "a": "L",
     "q": []
   },
+  "analyticsindiamag.com": {
+    "b": "RC",
+    "d": "analyticsindiamag.com",
+    "n": "Analytics India Magazine",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/analytics-india-magazine-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "analyzingamerica.org": {
     "b": "FN",
     "d": "analyzingamerica.org",
@@ -21885,6 +21895,16 @@
       "IM"
     ]
   },
+  "eckvilleecho.com": {
+    "b": "LC",
+    "d": "eckvilleecho.com",
+    "n": "Eckville Echo",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eckville-echo-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ecmissnews.com": {
     "b": "FN",
     "d": "ecmissnews.com",
@@ -24952,6 +24972,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "findlaytimes.com": {
+    "b": "FN",
+    "d": "findlaytimes.com",
+    "n": "Findlay Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/findlay-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "finextra.com": {
     "b": "C",
@@ -30198,6 +30232,16 @@
     "P": 35,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "grocerydive.com": {
+    "b": "C",
+    "d": "grocerydive.com",
+    "n": "GroceryDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/grocerydive-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "ground.news": {
@@ -81408,6 +81452,16 @@
     "n": "WBAY Action 2 News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/wbay-action-2-news/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "wbez.org": {
+    "b": "LC",
+    "d": "wbez.org",
+    "n": "WBEZ - NPR - Chicago",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbez-npr-chicago-bias/",
     "c": "H",
     "a": "M",
     "q": []

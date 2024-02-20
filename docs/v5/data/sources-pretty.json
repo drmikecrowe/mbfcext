@@ -3948,6 +3948,15 @@
     "url": "https://mediabiasfactcheck.com/american-viewpoint-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "analyticsindiamag.com",
+    "name": "Analytics India Magazine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/analytics-india-magazine-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "analyzingamerica.org",
@@ -20000,6 +20009,15 @@
     "url": "https://mediabiasfactcheck.com/ec-kansas-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "eckvilleecho.com",
+    "name": "Eckville Echo",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/eckville-echo-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "ecmissnews.com",
@@ -22819,6 +22837,18 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/financial-tech-times-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "findlaytimes.com",
+    "name": "Findlay Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/findlay-times-bias/"
   },
   {
     "bias": "center",
@@ -27582,6 +27612,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/grit-post/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "grocerydive.com",
+    "name": "GroceryDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/grocerydive-bias/"
   },
   {
     "bias": "center",
@@ -74021,6 +74060,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wbay-action-2-news/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wbez.org",
+    "name": "WBEZ - NPR - Chicago",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wbez-npr-chicago-bias/"
   },
   {
     "bias": "left-center",
