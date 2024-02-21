@@ -8013,6 +8013,15 @@
     "url": "https://mediabiasfactcheck.com/branson-times-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "breachmedia.ca",
+    "name": "The Breach",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-breach-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "breaking911.com",
@@ -11028,6 +11037,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/trends-in-molecular-medicine-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/neurosciences",
+    "name": "Trends in Neuroscience",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-neurosciences-bias/"
   },
   {
     "bias": "center",
@@ -24305,6 +24323,15 @@
     "url": "https://mediabiasfactcheck.com/freedom-news/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "freedom1400.com",
+    "name": "WTUC - 1400 AM - Tucson",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ktuc-1400-am-tucson-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "freedomadvocates.org",
@@ -27398,6 +27425,18 @@
     "reporting": "high",
     "twitter": "gbpressgazette",
     "url": "https://mediabiasfactcheck.com/green-bay-press-gazette/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "greenecotimes.com",
+    "name": "Greene County Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/greene-county-times-bias/"
   },
   {
     "bias": "right-center",

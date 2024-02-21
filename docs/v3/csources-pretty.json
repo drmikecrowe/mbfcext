@@ -8714,6 +8714,16 @@
       "IM"
     ]
   },
+  "breachmedia.ca": {
+    "b": "L",
+    "d": "breachmedia.ca",
+    "n": "The Breach",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-breach-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "breaking911.com": {
     "b": "FN",
     "d": "breaking911.com",
@@ -12096,6 +12106,17 @@
     "p": "/trends/molecular-medicine",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/trends-in-molecular-medicine-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/trends/neurosciences": {
+    "b": "PS",
+    "d": "cell.com/trends/neurosciences",
+    "n": "Trends in Neuroscience",
+    "p": "/trends/neurosciences",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trends-in-neurosciences-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -26576,6 +26597,16 @@
     "a": "L",
     "q": []
   },
+  "freedom1400.com": {
+    "b": "R",
+    "d": "freedom1400.com",
+    "n": "WTUC - 1400 AM - Tucson",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ktuc-1400-am-tucson-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "freedomadvocates.org": {
     "b": "CP",
     "d": "freedomadvocates.org",
@@ -29996,6 +30027,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "greenecotimes.com": {
+    "b": "FN",
+    "d": "greenecotimes.com",
+    "n": "Greene County Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/greene-county-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "greenfieldreporter.com": {
     "b": "RC",
