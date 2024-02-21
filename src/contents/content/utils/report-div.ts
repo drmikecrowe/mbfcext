@@ -198,6 +198,8 @@ export class NewsAnnotation {
     }
   }
 
+  // Convert this inline code to a function.  Insert that function like load_styles above.  The this.count will need to be parameter of the function const inlineCode = `let el=document.getElementById("mbfc-story-toolbar-${this.count}"); el.style.display=el.style.display==='none'?"flex":"none"`
+
   render() {
     NewsAnnotation.load_styles()
 
@@ -205,8 +207,10 @@ export class NewsAnnotation {
     let credibilityDiv = ``
     let trafficDiv = ``
     let popularityDiv = ``
-    let researchDiv = ``
+    const researchDiv = ``
     let mbfcDiv = ``
+
+    const tweak = (c: string) => (c === "Center" ? "Least Biased" : c === "Fake News" ? "Questionable" : c)
 
     if (this.site.reporting) {
       reportingDiv = html`<div className="mbfc-gradient-text mbfc-black-text">${cap(this.site.reporting)} Reporting</div>` as string
@@ -225,8 +229,8 @@ export class NewsAnnotation {
     }
 
     if (this.site.domain) {
-      researchDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer"><a href="${this.site.domain}" target="_blank">Research</a></div>` as string
-      mbfcDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer"><a href="${this.site.domain}" target="_blank">MBFC</a></div>` as string
+      console.log(this.site)
+      mbfcDiv = html`<div className="mbfc-gradient-text mbfc-black-text mbfc-text-buffer"><a href="${this.site.url}" target="_blank">MBFC</a></div>` as string
     }
     const biasText = cap(this.site.bias)
 
@@ -241,7 +245,7 @@ export class NewsAnnotation {
         <div className="mbfc-annotation-row">
           <div className="${rowClass} mbfc-common-row">
             <div className="mbfc-bias-start-${biasStart}"></div>
-            <div className="${textClass} mbfc-gradient-text">${biasText}</div>
+            <div className="${textClass} mbfc-gradient-text">${tweak(biasText)}</div>
             <div className="mbfc-bias-end-${biasEnd}">
               <div className="${textClass} mbfc-icon-div" onclick="${inlineCode}">${icon(faAngleDoubleDown)}</div>
             </div>
