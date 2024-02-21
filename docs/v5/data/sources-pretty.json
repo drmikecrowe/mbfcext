@@ -464,6 +464,15 @@
     "url": "https://mediabiasfactcheck.com/kfsm-fort-smith-fayetteville-news-bias/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "600wpqx.com",
+    "name": "WPQX - 600 AM - Youngstown",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wrqx-600-am-youngstown-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "604now.com",
@@ -502,6 +511,15 @@
     "reporting": "high",
     "twitter": "71republicmedia",
     "url": "https://mediabiasfactcheck.com/71-republic/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "790wpic.com",
+    "name": "WPIC - 790 AM - Youngstown",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wpic-790-am-youngstown-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -574,6 +592,15 @@
     "reporting": "high",
     "twitter": "972mag",
     "url": "https://mediabiasfactcheck.com/972-magazine/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "980waav.com",
+    "name": "WAAV - 980 AM - Wilmington",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/waav-980-am-wilimington-bias/"
   },
   {
     "bias": "right",
@@ -1053,6 +1080,15 @@
     "popularity": 33,
     "questionable": [],
     "url": "https://mediabiasfactcheck.com/abril-uno/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "abtassociates.com",
+    "name": "ABT Associates",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/abt-associates-bias/"
   },
   {
     "bias": "right",
@@ -3912,6 +3948,15 @@
     "url": "https://mediabiasfactcheck.com/american-viewpoint-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "analyticsindiamag.com",
+    "name": "Analytics India Magazine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/analytics-india-magazine-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "analyzingamerica.org",
@@ -4162,6 +4207,15 @@
     "reporting": "high",
     "twitter": "AnnistonStar",
     "url": "https://mediabiasfactcheck.com/anniston-star/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "annualreviews.org",
+    "name": "Annual Reviews",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/annual-reviews-bias-and-credibility/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -5090,6 +5144,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "atlasintel.org",
+    "name": "AtlasIntel",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/atlasintel-polling-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "atlasobscura.com",
     "name": "Atlas Obscura",
     "popularity": 77,
@@ -5281,6 +5344,26 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/australian-national-review/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "australiaoneparty.com",
+    "name": "AustraliaOne",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/australiaone-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -7930,6 +8013,15 @@
     "url": "https://mediabiasfactcheck.com/branson-times-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "breachmedia.ca",
+    "name": "The Breach",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-breach-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "breaking911.com",
@@ -8410,6 +8502,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/biology-of-sex-differences-journal-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "bsgco.com",
+    "name": "Benenson Strategy Group",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/benenson-strategy-group-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -10097,6 +10198,15 @@
   },
   {
     "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "castoradvance.com",
+    "name": "Castor Advance",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/castor-advance-bias/"
+  },
+  {
+    "bias": "left-center",
     "credibility": "medium-credibility",
     "domain": "catchnews.com",
     "name": "Catch News",
@@ -10909,6 +11019,33 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/trends-in-immunology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/microbiology",
+    "name": "Trends in Microbiology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-microbiology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/molecular-medicine",
+    "name": "Trends in Molecular Medicine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-molecular-medicine-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/neurosciences",
+    "name": "Trends in Neuroscience",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-neurosciences-bias/"
   },
   {
     "bias": "center",
@@ -12675,6 +12812,18 @@
     "url": "https://mediabiasfactcheck.com/cleveland-daily-banner-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "clevelandreporter.com",
+    "name": "Cleveland Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/cleveland-reporter-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "clevescene.com",
@@ -13253,7 +13402,7 @@
     "credibility": "medium-credibility",
     "domain": "colombiareports.com",
     "facebook": "colombiareports",
-    "name": "Columbia Reports",
+    "name": "Colombia Reports",
     "popularity": 74,
     "questionable": [],
     "reporting": "mixed",
@@ -15862,6 +16011,15 @@
     "url": "https://mediabiasfactcheck.com/greenville-daily-advocate-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "dailyamerican.com",
+    "name": "Somerset Daily American",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/somerset-daily-american-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "dailyboulder.com",
@@ -16906,6 +17064,18 @@
     "url": "https://mediabiasfactcheck.com/dayton-daily-news/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "daytonreporter.com",
+    "name": "Dayton Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/dayton-reporter-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "dbrnews.com",
@@ -17552,6 +17722,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/delaware-valley-sun-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "delcoreview.com",
+    "name": "Delaware County Review",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/delaware-county-review-bias/"
   },
   {
     "bias": "center",
@@ -18258,6 +18440,15 @@
     "url": "https://mediabiasfactcheck.com/disclose-tv/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "discoveries.news",
+    "name": "Discoveries.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/discoveries-news-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "discovermagazine.com",
@@ -18804,6 +18995,15 @@
     "url": "https://mediabiasfactcheck.com/drudge-report/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "drugcartels.news",
+    "name": "DrugCartels.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/drugcartels-news-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "drugpolicy.org",
@@ -19322,6 +19522,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "eastclevelandnews.com",
+    "name": "East Cleveland News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/east-cleveland-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "eastcontracostanews.com",
     "name": "East Contra Costa News",
     "popularity": 4,
@@ -19583,6 +19795,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "eaststarknews.com",
+    "name": "East Stark News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/east-stark-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "easttwincities.com",
     "name": "East Twin Cities",
     "questionable": [
@@ -19803,6 +20027,15 @@
     "url": "https://mediabiasfactcheck.com/ec-kansas-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "eckvilleecho.com",
+    "name": "Eckville Echo",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/eckville-echo-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "ecmissnews.com",
@@ -19837,6 +20070,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/ec-north-carolina-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "ecohionews.com",
+    "name": "EC Ohio News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ec-ohio-news-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -20338,6 +20583,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-elkhart-truth/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "elkintribune.com",
+    "name": "Elkin Tribune",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/elkin-tribune-bias/"
   },
   {
     "bias": "center",
@@ -21503,6 +21757,21 @@
     "url": "https://mediabiasfactcheck.com/environmental-working-group-ewg/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "ex.24smi.info",
+    "name": "Агрегатор 24СМИ",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/агрегатор-24сми-bias/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "examine.com",
@@ -21852,6 +22121,18 @@
     "url": "https://mediabiasfactcheck.com/fairborn-daily-herald-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "fairfieldreporter.com",
+    "name": "Fairfield Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/fairfield-reporter-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "fairmontsentinel.com",
@@ -22110,6 +22391,15 @@
     "reporting": "high",
     "twitter": "FAScientists",
     "url": "https://mediabiasfactcheck.com/federation-of-american-scientists-fas/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "fashiondive.com",
+    "name": "FashionDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fashiondive-bias/"
   },
   {
     "bias": "left-center",
@@ -22565,6 +22855,18 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/financial-tech-times-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "findlaytimes.com",
+    "name": "Findlay Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/findlay-times-bias/"
   },
   {
     "bias": "center",
@@ -24021,6 +24323,15 @@
     "url": "https://mediabiasfactcheck.com/freedom-news/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "freedom1400.com",
+    "name": "WTUC - 1400 AM - Tucson",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ktuc-1400-am-tucson-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "freedomadvocates.org",
@@ -24998,6 +25309,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/earth-science",
+    "name": "Frontiers in Earth Science",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-earth-science-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -25024,6 +25344,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/british-journal-of-biomedical-science-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontierspartnerships.org/journals/dystonia",
+    "name": "Dystonia Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/dystonia-journal-bias/"
   },
   {
     "bias": "fake-news",
@@ -27098,6 +27427,18 @@
     "url": "https://mediabiasfactcheck.com/green-bay-press-gazette/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "greenecotimes.com",
+    "name": "Greene County Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/greene-county-times-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "greenfieldreporter.com",
@@ -27314,6 +27655,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "grocerydive.com",
+    "name": "GroceryDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/grocerydive-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "ground.news",
     "name": "Ground News",
     "questionable": [],
@@ -27484,6 +27834,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/gulf-news/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "gundrymd.com",
+    "name": "Gundry MD",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/gundry-md-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -28619,6 +28978,15 @@
     "url": "https://mediabiasfactcheck.com/heterodox-academy/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "hexham-courant.co.uk",
+    "name": "Hexham Courant",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hexham-courant-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "hgazette.com",
@@ -28748,6 +29116,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/hillary-daily/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "hillingdon times",
+    "name": "Hillingdon Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hillingdon-times-bias/"
   },
   {
     "bias": "left",
@@ -31257,13 +31634,13 @@
   },
   {
     "bias": "right",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "intellectualtakeout.org",
     "facebook": "intellectual.takeout.org",
     "name": "Intellectual Takeout",
     "popularity": 64,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/intellectual-takeout/"
   },
   {
@@ -31992,7 +32369,7 @@
     "name": "ITV News",
     "popularity": 93,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "itvhub",
     "url": "https://mediabiasfactcheck.com/itv-news/"
   },
@@ -32064,6 +32441,15 @@
     "url": "https://mediabiasfactcheck.com/izvestia-%d0%b8%d0%b7%d0%b2%d0%b5%d1%81%d1%82%d0%b8%d1%8f-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jaapl.org",
+    "name": "Journal of the American Academy of Psychiatry and the Law",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/journal-of-the-american-academy-of-psychiatry-and-the-law-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "jacksonfreepress.com",
@@ -32131,6 +32517,15 @@
     "reporting": "high",
     "twitter": "jacobinmag",
     "url": "https://mediabiasfactcheck.com/jacobin/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "jakartaglobe.id",
+    "name": "Jakarta Globe",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jakarta-globe-bias/"
   },
   {
     "bias": "left-center",
@@ -32221,6 +32616,24 @@
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/jama-otolaryngology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamapediatrics",
+    "name": "JAMA Pediatrics",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-pediatrics-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamapsychiatry",
+    "name": "JAMA Psychiatry",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-psychiatry-bias/"
   },
   {
     "bias": "center",
@@ -32454,6 +32867,15 @@
     "url": "https://mediabiasfactcheck.com/jewish-breaking-news/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "jewishcurrents.org",
+    "name": "Jewish Currents",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jewish-currents-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "jewishexponent.com",
@@ -32512,6 +32934,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/jewish-unpacked-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "jewishvoiceforpeace.org",
+    "name": "Jewish Voice for Peace",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jewish-voice-for-peace-jvp-bias/"
   },
   {
     "bias": "right",
@@ -33161,6 +33592,24 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "justinfo.net",
+    "name": "Just Info",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/justice-info-justiceinfo-net-bias-and-credibility/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "justonefocus.org",
+    "name": "Just One Focus",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/just-one-focus-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "justsecurity.org",
     "facebook": "JSBlog",
     "name": "Just Security",
@@ -33211,6 +33660,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/jehovahs-witnesses-jw-org/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "jyllands-posten.dk",
+    "name": "Jyllands-Posten",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/jyllands-posten-bias/"
   },
   {
     "bias": "center",
@@ -33417,6 +33875,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/katehon-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "kathimerini.gr",
+    "name": "Kathimerini",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/kathimerini-bias/"
   },
   {
     "bias": "right-center",
@@ -33857,6 +34324,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "keranews.org",
+    "name": "KERA News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kera-news-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "keremeosreview.com",
     "name": "Keremeos Review",
     "questionable": [],
@@ -34141,6 +34617,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "kialo.com",
+    "name": "Kialo",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/kialo-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "kiem-tv.com",
     "name": "KIEM - Redwood News",
     "questionable": [],
@@ -34261,6 +34746,15 @@
     "url": "https://mediabiasfactcheck.com/kiro-7/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "kisu.org",
+    "name": "KISU - NPR - Pocatello",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kisu-npr-pocatello-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "kitchener.citynews.ca",
@@ -34360,6 +34854,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kktv-11-news/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "kla.tv",
+    "name": "Kla.TV",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/kla-tv-klagemauer-tv-bias/"
   },
   {
     "bias": "center",
@@ -34539,6 +35042,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/knop-tv/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "knowablemagazine.org",
+    "name": "Knowable Magazine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/knowable-magazine-bias/"
   },
   {
     "bias": "center",
@@ -34754,6 +35266,21 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kota-rapid-city-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kp.ru",
+    "name": "Komsomolskaya Pravda (K.P.)",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/komsomolskaya-pravda-kp-ru-bias/"
   },
   {
     "bias": "center",
@@ -39408,6 +39935,24 @@
     "url": "https://mediabiasfactcheck.com/biology-and-life-sciences-forum-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/brainsci",
+    "name": "Brain Sciences Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/brain-sciences-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/buildings",
+    "name": "Buildings Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/buildings-journal-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "mdstatewire.com",
@@ -41118,6 +41663,24 @@
     "url": "https://mediabiasfactcheck.com/molecular-brain-journal-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "molecularcytogenetics.biomedcentral.com",
+    "name": "Molecular Cytogenetics Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/molecular-cytogenetics-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "molmed.biomedcentral.com",
+    "name": "Molecular Medicine Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/molecular-medicine-journal-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "molonlabemedia.com",
@@ -41508,6 +42071,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/morris-leader-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "morrisoninstitute.asu.edu",
+    "name": "Morrison Institute for Public Policy",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/morrison-institute-for-public-policy-arizona-state-university-bias/"
   },
   {
     "bias": "pro-science",
@@ -45487,6 +46059,15 @@
   {
     "bias": "right-center",
     "credibility": "high-credibility",
+    "domain": "newstalkwsba.com",
+    "name": "WSBA - 93.5 FM - York",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/wsba-93-9-fm-york-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
     "domain": "newstalkzb.co.nz",
     "name": "Newstalk ZB",
     "questionable": [],
@@ -47055,6 +47636,15 @@
     "url": "https://mediabiasfactcheck.com/north-wake-news-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "northwestgeorgianews.com/rome",
+    "name": "Rome News-Tribune",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/rome-news-tribune-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "northwestsignal.net",
@@ -47461,6 +48051,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/north-bay-nugget-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nuj.org.uk",
+    "name": "National union of Journalists",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/national-union-of-journalists-nuj-bias/"
   },
   {
     "bias": "center",
@@ -58348,6 +58947,15 @@
     "url": "https://mediabiasfactcheck.com/shondaland/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "shorelinebeacon.com",
+    "name": "Shoreline Beacon",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/shoreline-beacon-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "shorenewsnetwork.com",
@@ -58589,6 +59197,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/orillia-today-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "simcoereformer.ca",
+    "name": "Simcoe Reformer",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/simcoe-reformer-bias/"
   },
   {
     "bias": "left-center",
@@ -60575,6 +61192,15 @@
   {
     "bias": "right-center",
     "credibility": "high-credibility",
+    "domain": "standard-freeholder.com",
+    "name": "Cornwall Standard-Freeholder",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cornwall-standard-freeholder-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
     "domain": "standard.co.uk",
     "facebook": "eveningstandard",
     "name": "London Evening Standard",
@@ -61442,6 +62068,15 @@
     "url": "https://mediabiasfactcheck.com/stars-and-stripes/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "stthomastimesjournal.com",
+    "name": "St. Thomas Times-Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/st-thomas-times-journal-bias/"
+  },
+  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "stubhillnews.com",
@@ -61523,6 +62158,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/sturgis-journal-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "stwnewspress.com",
+    "name": "Stillwater News Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/stillwater-news-press-bias/"
   },
   {
     "bias": "fake-news",
@@ -61812,6 +62456,26 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/survivalblog-com/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "survivethenews.com",
+    "name": "Survive The News",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/survive-the-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -63141,6 +63805,15 @@
     "reporting": "low",
     "twitter": "americatfp",
     "url": "https://mediabiasfactcheck.com/american-society-defense-tradition-family-property/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "tfppwire.com",
+    "name": "TFPP Wire",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/tfpp-wire-bias/"
   },
   {
     "bias": "center",
@@ -66437,6 +67110,25 @@
     "url": "https://mediabiasfactcheck.com/the-patriot-nation/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "thepatriotnurse.com",
+    "name": "The Patriot Nurse",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/the-patriot-nurse-bias/"
+  },
+  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "thepeoplescube.com",
@@ -66863,6 +67555,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/north-york-mirror-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "therecordherald.com",
+    "name": "Waynesboro Record-Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/waynesboro-record-herald-bias/"
   },
   {
     "bias": "center",
@@ -69125,6 +69826,15 @@
     "url": "https://mediabiasfactcheck.com/torreon-post-bias/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "totalityofevidence.com",
+    "name": "Totality of Evidence",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/totality-of-evidence-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "toutiao.com",
@@ -69331,6 +70041,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/transpartisan-review/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "transylvaniatimes.com",
+    "name": "Transylvania Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/transylvania-times-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -69549,6 +70268,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/the-tribune-india-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "tribuneledgernews.com",
+    "name": "Cherokee Tribune",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cherokee-tribune-bias/"
   },
   {
     "bias": "left",
@@ -73182,6 +73910,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "wataugademocrat.com",
+    "name": "Watauga Democrat",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/watauga-democrat-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "wataugademocrat.com/blowingrocket",
     "name": "Blowing Rocket",
     "questionable": [],
@@ -73362,6 +74099,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wbay-action-2-news/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wbez.org",
+    "name": "WBEZ - NPR - Chicago",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wbez-npr-chicago-bias/"
   },
   {
     "bias": "left-center",
@@ -76802,6 +77548,15 @@
     "url": "https://mediabiasfactcheck.com/wsil-harrisburg-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wsiu.org",
+    "name": "WSIU - NPR - Carbondale",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wsiu-npr-carbondale-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "wsj.com",
@@ -78290,6 +79045,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/venice-gondolier-sun-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "yourtango.com",
+    "name": "YourTango",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/yourtango-bias/"
   },
   {
     "bias": "left-center",
