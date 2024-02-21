@@ -30,7 +30,7 @@ jobs:
       - name: package for release
         run: pnpm package
       - name: Browser Platform Publish
-        uses: PlasmoHQ/bpp@v3
+        uses: PlasmoHQ/bpp@v3.3.0
         with:
           keys: ${{ secrets.SUBMIT_KEYS }}
           chrome-file: build/chrome-mv3-prod.zip
