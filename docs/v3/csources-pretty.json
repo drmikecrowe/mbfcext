@@ -15036,6 +15036,16 @@
     "a": "L",
     "q": []
   },
+  "compactmag.com": {
+    "b": "RC",
+    "d": "compactmag.com",
+    "n": "Compact Magazine",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/compact-magazine-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "comparitech.com": {
     "b": "C",
     "d": "comparitech.com",
@@ -33477,6 +33487,16 @@
     "a": "H",
     "q": []
   },
+  "ilkleygazette.co.uk": {
+    "b": "C",
+    "d": "ilkleygazette.co.uk",
+    "n": "Ilkley Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ilkley-gazette-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "illegalaliencrimereport.com": {
     "b": "FN",
     "d": "illegalaliencrimereport.com",
@@ -35796,6 +35816,17 @@
     "p": "/journals/jamapsychiatry",
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/jama-psychiatry-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "jamanetwork.com/journals/jamasurgery": {
+    "b": "PS",
+    "d": "jamanetwork.com/journals/jamasurgery",
+    "n": "JAMA Surgery",
+    "p": "/journals/jamasurgery",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/jama-surgery-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -41505,6 +41536,16 @@
     "P": 54,
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "lifewire.com": {
+    "b": "C",
+    "d": "lifewire.com",
+    "n": "LifeWire",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lifewire-bias/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "lifezette.com": {
@@ -48906,7 +48947,7 @@
     "u": "https://mediabiasfactcheck.com/neon-nettle/",
     "P": 58,
     "c": "L",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "nepanhandlenews.com": {
@@ -51857,6 +51898,16 @@
     "n": "Kirkland Lake Northern News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/kirkland-lake-northern-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "northernpublicradio.org": {
+    "b": "LC",
+    "d": "northernpublicradio.org",
+    "n": "WNIJ - NPR - DeKalb",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wnij-npr-dekalb-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -68357,6 +68408,16 @@
     "t": "stratfor",
     "u": "https://mediabiasfactcheck.com/stratfor/",
     "P": 85,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "strathroyagedispatch.com": {
+    "b": "RC",
+    "d": "strathroyagedispatch.com",
+    "n": "Strathroy Age Dispatch",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/strathroy-age-dispatch-bias/",
     "c": "H",
     "a": "L",
     "q": []

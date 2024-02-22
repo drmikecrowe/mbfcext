@@ -13726,6 +13726,15 @@
     "url": "https://mediabiasfactcheck.com/comox-valley-record-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "compactmag.com",
+    "name": "Compact Magazine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/compact-magazine-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "comparitech.com",
@@ -30536,6 +30545,15 @@
     "url": "https://mediabiasfactcheck.com/il-giornale/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "ilkleygazette.co.uk",
+    "name": "Ilkley Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/ilkley-gazette-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "illegalaliencrimereport.com",
@@ -32634,6 +32652,15 @@
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/jama-psychiatry-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jamanetwork.com/journals/jamasurgery",
+    "name": "JAMA Surgery",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/jama-surgery-bias/"
   },
   {
     "bias": "center",
@@ -37801,6 +37828,15 @@
     "reporting": "low",
     "twitter": "JohnDouillard",
     "url": "https://mediabiasfactcheck.com/lifespa/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "lifewire.com",
+    "name": "LifeWire",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lifewire-bias/"
   },
   {
     "bias": "fake-news",
@@ -47097,6 +47133,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kirkland-lake-northern-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "northernpublicradio.org",
+    "name": "WNIJ - NPR - DeKalb",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wnij-npr-dekalb-bias/"
   },
   {
     "bias": "left-center",
@@ -62042,6 +62087,15 @@
     "reporting": "high",
     "twitter": "stratfor",
     "url": "https://mediabiasfactcheck.com/stratfor/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "strathroyagedispatch.com",
+    "name": "Strathroy Age Dispatch",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/strathroy-age-dispatch-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
