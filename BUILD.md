@@ -1,6 +1,6 @@
 # Build Instructions
 
-- Install node v18.12.1
+- Install node v20.11.0
 - Run the following commands:
 
 ```sh
