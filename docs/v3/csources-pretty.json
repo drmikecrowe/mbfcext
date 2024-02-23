@@ -31387,6 +31387,16 @@
     "a": "N",
     "q": []
   },
+  "hellomagazine.com": {
+    "b": "C",
+    "d": "hellomagazine.com",
+    "n": "Hello Magazine",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/hello-magazine-bias/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "helsinkitimes.fi": {
     "b": "LC",
     "d": "helsinkitimes.fi",
@@ -39860,6 +39870,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "lakecountytimes.com": {
+    "b": "FN",
+    "d": "lakecountytimes.com",
+    "n": "Lake County Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lake-county-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "lakecowichangazette.com": {
     "b": "LC",
@@ -77463,6 +77487,16 @@
       "IM"
     ]
   },
+  "tricountyindependent.com": {
+    "b": "LC",
+    "d": "tricountyindependent.com",
+    "n": "Tri-County Independent",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/tri-county-independent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "tricountynewsmn.com": {
     "b": "C",
     "d": "tricountynewsmn.com",
@@ -86099,6 +86133,16 @@
       "H",
       "PSE"
     ]
+  },
+  "yadkinripple.com": {
+    "b": "LC",
+    "d": "yadkinripple.com",
+    "n": "Yadkin Ripple",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/yadkin-ripple-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "yadkinvalleynews.com": {
     "b": "FN",

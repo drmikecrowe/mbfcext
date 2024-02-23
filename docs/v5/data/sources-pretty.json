@@ -28668,6 +28668,15 @@
     "url": "https://mediabiasfactcheck.com/hello-christian/"
   },
   {
+    "bias": "center",
+    "credibility": "medium-credibility",
+    "domain": "hellomagazine.com",
+    "name": "Hello Magazine",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/hello-magazine-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "helsinkitimes.fi",
@@ -36295,6 +36304,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/lake-county-press-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "lakecountytimes.com",
+    "name": "Lake County Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lake-county-times-bias/"
   },
   {
     "bias": "left-center",
@@ -70384,6 +70405,15 @@
     "url": "https://mediabiasfactcheck.com/tri-city-sun-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "tricountyindependent.com",
+    "name": "Tri-County Independent",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/tri-county-independent-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "tricountynewsmn.com",
@@ -78648,6 +78678,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/xyz-net-au-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "yadkinripple.com",
+    "name": "Yadkin Ripple",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/yadkin-ripple-bias/"
   },
   {
     "bias": "fake-news",
