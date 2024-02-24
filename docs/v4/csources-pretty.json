@@ -39685,6 +39685,16 @@
     "a": "M",
     "q": []
   },
+  "lactualite.com": {
+    "b": "C",
+    "d": "lactualite.com",
+    "n": "L'Actualite",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lactualite-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "ladbible.com": {
     "b": "FN",
     "d": "ladbible.com",
@@ -40076,6 +40086,16 @@
       "FC",
       "IM"
     ]
+  },
+  "laphamsquarterly.org": {
+    "b": "LC",
+    "d": "laphamsquarterly.org",
+    "n": "Lapham's Quarterly",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/laphams-quarterly-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "lapresse.ca": {
     "b": "LC",
@@ -45923,6 +45943,16 @@
     "n": "Molecular Cytogenetics Journal",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/molecular-cytogenetics-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "molecularneurodegeneration.biomedcentral.com": {
+    "b": "PS",
+    "d": "molecularneurodegeneration.biomedcentral.com",
+    "n": "Molecular Neurodegeneration Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/molecular-neurodegeneration-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -65730,7 +65760,7 @@
     "d": "snopes.com",
     "f": "snopes",
     "n": "Snopes",
-    "r": "MF",
+    "r": "H",
     "t": "snopes",
     "u": "https://mediabiasfactcheck.com/snopes/",
     "P": 94,
@@ -68434,6 +68464,16 @@
     "P": 85,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "stratfordbeaconherald.com": {
+    "b": "RC",
+    "d": "stratfordbeaconherald.com",
+    "n": "Stratford Beacon-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stratford-beacon-herald-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "strathroyagedispatch.com": {
@@ -73271,7 +73311,7 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/the-messenger-bias-and-credibility/",
     "c": "M",
-    "a": "H",
+    "a": "N",
     "q": []
   },
   "themexicocitypost.com": {

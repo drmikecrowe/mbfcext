@@ -36141,6 +36141,15 @@
     "url": "https://mediabiasfactcheck.com/la-crosse-tribune-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "lactualite.com",
+    "name": "L'Actualite",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lactualite-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "ladbible.com",
@@ -36487,6 +36496,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/lansing-sun-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "laphamsquarterly.org",
+    "name": "Lapham's Quarterly",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/laphams-quarterly-bias/"
   },
   {
     "bias": "left-center",
@@ -41727,6 +41745,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/molecular-cytogenetics-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "molecularneurodegeneration.biomedcentral.com",
+    "name": "Molecular Neurodegeneration Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/molecular-neurodegeneration-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -59690,7 +59717,7 @@
     "name": "Snopes",
     "popularity": 94,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "high",
     "twitter": "snopes",
     "url": "https://mediabiasfactcheck.com/snopes/"
   },
@@ -62108,6 +62135,15 @@
     "reporting": "high",
     "twitter": "stratfor",
     "url": "https://mediabiasfactcheck.com/stratfor/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "stratfordbeaconherald.com",
+    "name": "Stratford Beacon-Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/stratford-beacon-herald-bias/"
   },
   {
     "bias": "right-center",
