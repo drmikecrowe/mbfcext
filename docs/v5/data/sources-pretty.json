@@ -4218,6 +4218,15 @@
     "url": "https://mediabiasfactcheck.com/annual-reviews-bias-and-credibility/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "annualreviews.org/journal/anchem",
+    "name": "Analytical Chemistry Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/analytical-chemistry-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "annunaki.org",
@@ -21923,6 +21932,15 @@
     "url": "https://mediabiasfactcheck.com/san-antonio-express-news/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "extinction.news",
+    "name": "Extinction.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/extinction-news-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "extranewsfeed.com",
@@ -36615,6 +36633,15 @@
     "url": "https://mediabiasfactcheck.com/las-vegas-sun/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "lasvegasweekly.com",
+    "name": "Las Vegas Weekly",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/las-vegas-weekly-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "latest.com",
@@ -36688,6 +36715,25 @@
     "reporting": "high",
     "twitter": "lavmag",
     "url": "https://mediabiasfactcheck.com/lavender-magazine/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "laverita.info",
+    "name": "La Verita",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/la-verita-bias/"
   },
   {
     "bias": "center",
@@ -37796,6 +37842,18 @@
     "questionable": [],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/libtards-news/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "lickingtoday.com",
+    "name": "Licking Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/licking-today-bias/"
   },
   {
     "bias": "right",

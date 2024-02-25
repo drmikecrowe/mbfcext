@@ -4562,6 +4562,17 @@
     "a": "M",
     "q": []
   },
+  "annualreviews.org/journal/anchem": {
+    "b": "PS",
+    "d": "annualreviews.org/journal/anchem",
+    "n": "Analytical Chemistry Journal",
+    "p": "/journal/anchem",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/analytical-chemistry-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annunaki.org": {
     "b": "CP",
     "d": "annunaki.org",
@@ -23979,6 +23990,16 @@
     "a": "M",
     "q": []
   },
+  "extinction.news": {
+    "b": "CP",
+    "d": "extinction.news",
+    "n": "Extinction.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/extinction-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "extranewsfeed.com": {
     "b": "L",
     "d": "extranewsfeed.com",
@@ -40214,6 +40235,16 @@
     "a": "M",
     "q": []
   },
+  "lasvegasweekly.com": {
+    "b": "LC",
+    "d": "lasvegasweekly.com",
+    "n": "Las Vegas Weekly",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/las-vegas-weekly-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "latest.com": {
     "b": "L",
     "d": "latest.com",
@@ -40295,6 +40326,25 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "laverita.info": {
+    "b": "FN",
+    "d": "laverita.info",
+    "n": "La Verita",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/la-verita-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
+    ]
   },
   "law.com": {
     "b": "C",
@@ -41508,6 +41558,20 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "lickingtoday.com": {
+    "b": "FN",
+    "d": "lickingtoday.com",
+    "n": "Licking Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/licking-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "lifeandabout.com": {
     "b": "R",
