@@ -16340,6 +16340,21 @@
     "url": "https://mediabiasfactcheck.com/daily-hive/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "dailyhonker.com",
+    "name": "Daily Honker",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-honker-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "dailyindependent.com",
@@ -25341,6 +25356,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-earth-science-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/ecology-and-evolution",
+    "name": "Frontiers in Ecology and Evolution",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-ecology-and-evolution-bias/"
   },
   {
     "bias": "pro-science",
@@ -36772,6 +36796,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "law4palestine.org",
+    "name": "Law for Palestine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/law-for-palestine-lp4-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "lawandcrime.com",
     "facebook": "lawandcrime",
     "name": "Law & Crime",
@@ -40084,6 +40117,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/buildings-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "mdpi.com/journal/businesses",
+    "name": "Businesses Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/businesses-journal-bias/"
   },
   {
     "bias": "fake-news",
@@ -70371,6 +70413,15 @@
     "url": "https://mediabiasfactcheck.com/casper-star-tribune/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "tribdem.com",
+    "name": "Johnstown Tribune-Democrat",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/johnstown-tribune-democrat-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "triblive.com",
@@ -73566,6 +73617,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/mineral-independent-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "vrt.be/vrtnws",
+    "name": "VRT",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/vrt-bias-and-credibility/"
   },
   {
     "bias": "left-center",

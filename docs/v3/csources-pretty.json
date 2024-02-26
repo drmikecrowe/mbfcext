@@ -17852,6 +17852,21 @@
     "a": "H",
     "q": []
   },
+  "dailyhonker.com": {
+    "b": "FN",
+    "d": "dailyhonker.com",
+    "n": "Daily Honker",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-honker-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "M"
+    ]
+  },
   "dailyindependent.com": {
     "b": "LC",
     "d": "dailyindependent.com",
@@ -27764,6 +27779,17 @@
     "p": "/journals/earth-science",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-earth-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/ecology-and-evolution": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/ecology-and-evolution",
+    "n": "Frontiers in Ecology and Evolution",
+    "p": "/journals/ecology-and-evolution",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-ecology-and-evolution-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -40384,6 +40410,16 @@
     "a": "M",
     "q": []
   },
+  "law4palestine.org": {
+    "b": "LC",
+    "d": "law4palestine.org",
+    "n": "Law for Palestine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/law-for-palestine-lp4-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "lawandcrime.com": {
     "b": "LC",
     "d": "lawandcrime.com",
@@ -44098,6 +44134,17 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/buildings-journal-bias/",
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/businesses": {
+    "b": "PS",
+    "d": "mdpi.com/journal/businesses",
+    "n": "Businesses Journal",
+    "p": "/journal/businesses",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/businesses-journal-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -77449,6 +77496,16 @@
     "a": "M",
     "q": []
   },
+  "tribdem.com": {
+    "b": "LC",
+    "d": "tribdem.com",
+    "n": "Johnstown Tribune-Democrat",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/johnstown-tribune-democrat-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "triblive.com": {
     "b": "RC",
     "d": "triblive.com",
@@ -80920,6 +80977,17 @@
     "u": "https://mediabiasfactcheck.com/mineral-independent-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "vrt.be/vrtnws": {
+    "b": "C",
+    "d": "vrt.be/vrtnws",
+    "n": "VRT",
+    "p": "/vrtnws",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/vrt-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "vtdigger.org": {
