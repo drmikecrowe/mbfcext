@@ -7097,6 +7097,16 @@
     "a": "L",
     "q": []
   },
+  "big-village.com": {
+    "b": "C",
+    "d": "big-village.com",
+    "n": "Big Village Polling",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/big-village-polling-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bigamericannews.com": {
     "b": "S",
     "d": "bigamericannews.com",
@@ -32775,6 +32785,16 @@
       "IM"
     ]
   },
+  "hrdive.com": {
+    "b": "C",
+    "d": "hrdive.com",
+    "n": "HRDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hrdive-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hrw.org": {
     "b": "LC",
     "d": "hrw.org",
@@ -40520,6 +40540,25 @@
     "a": "M",
     "q": []
   },
+  "lc.org": {
+    "b": "FN",
+    "d": "lc.org",
+    "n": "Liberty Counsel",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/liberty-counsel-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "lcsun-news.com": {
     "b": "C",
     "d": "lcsun-news.com",
@@ -41717,6 +41756,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "limareporter.com": {
+    "b": "FN",
+    "d": "limareporter.com",
+    "n": "Lima Reporter",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lima-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "lincolncourier.com": {
     "b": "LC",
@@ -78245,6 +78298,16 @@
       "PSE",
       "IM"
     ]
+  },
+  "tspr.org": {
+    "b": "LC",
+    "d": "tspr.org",
+    "n": "WVKC - NPR - Galesburg",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wvkc-npr-galesburg-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "tuckercarlson.com": {
     "d": "tuckercarlson.com",

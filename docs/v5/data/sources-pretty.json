@@ -6527,6 +6527,15 @@
     "url": "https://mediabiasfactcheck.com/bicester-advertiser-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "big-village.com",
+    "name": "Big Village Polling",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/big-village-polling-bias-and-credibility/"
+  },
+  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "bigamericannews.com",
@@ -29908,6 +29917,15 @@
     "url": "https://mediabiasfactcheck.com/hr-daily-wire-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "hrdive.com",
+    "name": "HRDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hrdive-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "hrw.org",
@@ -36893,6 +36911,26 @@
     "url": "https://mediabiasfactcheck.com/london-broadcasting-company-lbc/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "lc.org",
+    "name": "Liberty Counsel",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/liberty-counsel-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "lcsun-news.com",
@@ -37991,6 +38029,18 @@
     "reporting": "high",
     "twitter": "LimaCharlieNews",
     "url": "https://mediabiasfactcheck.com/lima-charlie-news/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "limareporter.com",
+    "name": "Lima Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lima-reporter-bias/"
   },
   {
     "bias": "left-center",
@@ -71108,6 +71158,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/tsionizm-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "tspr.org",
+    "name": "WVKC - NPR - Galesburg",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wvkc-npr-galesburg-bias/"
   },
   {
     "bias": "left-center",
