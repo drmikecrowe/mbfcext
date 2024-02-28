@@ -11066,6 +11066,15 @@
     "url": "https://mediabiasfactcheck.com/trends-in-neurosciences-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/parasitology",
+    "name": "Trends in Parasitology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-parasitology-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "cenlanow.com",
@@ -11613,6 +11622,15 @@
     "questionable": [],
     "twitter": "chaser",
     "url": "https://mediabiasfactcheck.com/the-chaser/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "chathamdailynews.ca",
+    "name": "Chatham Daily News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/chatham-daily-news-bias/"
   },
   {
     "bias": "center",
@@ -36170,6 +36188,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "lacombeexpress.com",
+    "name": "Lacombe Express",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lacombe-express-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "laconiadailysun.com",
     "name": "Laconia Daily Sun",
     "popularity": 44,
@@ -36608,6 +36635,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/larouche-pac/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "lasentinel.net",
+    "name": "Los Angeles Sentinel",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/los-angeles-sentinel-bias/"
   },
   {
     "bias": "left-center",
@@ -38436,6 +38472,18 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/loonwatch/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "loraintimes.com",
+    "name": "Lorain Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lorain-times-bias/"
   },
   {
     "bias": "fake-news",

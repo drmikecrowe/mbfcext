@@ -12142,6 +12142,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/trends/parasitology": {
+    "b": "PS",
+    "d": "cell.com/trends/parasitology",
+    "n": "Trends in Parasitology",
+    "p": "/trends/parasitology",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trends-in-parasitology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cenlanow.com": {
     "b": "C",
     "d": "cenlanow.com",
@@ -12742,6 +12753,16 @@
     "P": 54,
     "c": "NA",
     "a": "M",
+    "q": []
+  },
+  "chathamdailynews.ca": {
+    "b": "RC",
+    "d": "chathamdailynews.ca",
+    "n": "Chatham Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/chatham-daily-news-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "chathamhouse.org": {
@@ -39717,6 +39738,16 @@
     "a": "L",
     "q": []
   },
+  "lacombeexpress.com": {
+    "b": "LC",
+    "d": "lacombeexpress.com",
+    "n": "Lacombe Express",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lacombe-express-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "laconiadailysun.com": {
     "b": "LC",
     "d": "laconiadailysun.com",
@@ -40210,6 +40241,16 @@
     "P": 61,
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "lasentinel.net": {
+    "b": "LC",
+    "d": "lasentinel.net",
+    "n": "Los Angeles Sentinel",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/los-angeles-sentinel-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "lastampa.it": {
@@ -42206,6 +42247,20 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "loraintimes.com": {
+    "b": "FN",
+    "d": "loraintimes.com",
+    "n": "Lorain Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lorain-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "loser.com": {
     "b": "FN",
