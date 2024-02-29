@@ -5505,6 +5505,16 @@
     "a": "L",
     "q": []
   },
+  "athensnews.com": {
+    "b": "LC",
+    "d": "athensnews.com",
+    "n": "The Athens News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-athens-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "athensreporter.com": {
     "b": "FN",
     "d": "athensreporter.com",
@@ -33808,6 +33818,16 @@
       "FN"
     ]
   },
+  "impartialreporter.com": {
+    "b": "C",
+    "d": "impartialreporter.com",
+    "n": "Enniskillen Impartial Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/enniskillen-impartial-reporter-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "imperialcanews.com": {
     "b": "FN",
     "d": "imperialcanews.com",
@@ -40997,6 +41017,16 @@
       "IM"
     ]
   },
+  "legalreader.com": {
+    "b": "L",
+    "d": "legalreader.com",
+    "n": "Legal Reader",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/legal-reader-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "legitgov.org": {
     "b": "CP",
     "d": "legitgov.org",
@@ -43069,6 +43099,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "mansfieldtimes.com": {
+    "b": "FN",
+    "d": "mansfieldtimes.com",
+    "n": "Mansfield Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mansfield-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "mapleridgenews.com": {
     "b": "LC",
@@ -51492,6 +51536,19 @@
     "a": "M",
     "q": []
   },
+  "nj.com": {
+    "b": "LC",
+    "d": "nj.com",
+    "f": "NJ.com",
+    "n": "Star Ledger",
+    "r": "H",
+    "t": "njdotcom",
+    "u": "https://mediabiasfactcheck.com/star-ledger/",
+    "P": 91,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "nj.com/hunterdon-county-democrat": {
     "b": "LC",
     "d": "nj.com/hunterdon-county-democrat",
@@ -51523,20 +51580,6 @@
     "u": "https://mediabiasfactcheck.com/south-jersey-times-bias/",
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "nj.com/starledger": {
-    "b": "LC",
-    "d": "nj.com/starledger",
-    "f": "NJ.com",
-    "n": "Star Ledger",
-    "p": "/starledger",
-    "r": "H",
-    "t": "njdotcom",
-    "u": "https://mediabiasfactcheck.com/star-ledger/",
-    "P": 91,
-    "c": "H",
-    "a": "H",
     "q": []
   },
   "nj.com/times": {

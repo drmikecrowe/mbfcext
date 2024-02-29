@@ -5068,6 +5068,15 @@
     "url": "https://mediabiasfactcheck.com/athens-messenger-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "athensnews.com",
+    "name": "The Athens News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-athens-news-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "athensreporter.com",
@@ -30849,6 +30858,15 @@
     "url": "https://mediabiasfactcheck.com/imowired/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "impartialreporter.com",
+    "name": "Enniskillen Impartial Reporter",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/enniskillen-impartial-reporter-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "imperialcanews.com",
@@ -37319,6 +37337,15 @@
     "url": "https://mediabiasfactcheck.com/legal-newsline-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "legalreader.com",
+    "name": "Legal Reader",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/legal-reader-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "legitgov.org",
@@ -39215,6 +39242,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/mankato-free-press-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "mansfieldtimes.com",
+    "name": "Mansfield Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/mansfield-times-bias/"
   },
   {
     "bias": "left-center",
@@ -46790,6 +46829,18 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "nj.com",
+    "facebook": "NJ.com",
+    "name": "Star Ledger",
+    "popularity": 91,
+    "questionable": [],
+    "reporting": "high",
+    "twitter": "njdotcom",
+    "url": "https://mediabiasfactcheck.com/star-ledger/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "nj.com/hunterdon-county-democrat",
     "name": "Hunterdon County Democrat",
     "questionable": [],
@@ -46813,18 +46864,6 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/south-jersey-times-bias/"
-  },
-  {
-    "bias": "left-center",
-    "credibility": "high-credibility",
-    "domain": "nj.com/starledger",
-    "facebook": "NJ.com",
-    "name": "Star Ledger",
-    "popularity": 91,
-    "questionable": [],
-    "reporting": "high",
-    "twitter": "njdotcom",
-    "url": "https://mediabiasfactcheck.com/star-ledger/"
   },
   {
     "bias": "left-center",
