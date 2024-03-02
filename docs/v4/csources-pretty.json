@@ -4573,6 +4573,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/journal/animal": {
+    "b": "PS",
+    "d": "annualreviews.org/journal/animal",
+    "n": "Animal Biosciences Journal",
+    "p": "/journal/animal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/animal-biosciences-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annunaki.org": {
     "b": "CP",
     "d": "annunaki.org",
@@ -8173,7 +8184,7 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/bnc-black-news-channel-bias/",
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "bnd.com": {
@@ -8231,10 +8242,10 @@
     "a": "M",
     "q": []
   },
-  "bocanews.com": {
+  "bocapost.com": {
     "b": "C",
-    "d": "bocanews.com",
-    "n": "Boca News",
+    "d": "bocapost.com",
+    "n": "Boca Post",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/boca-post-bias-and-credibility/",
     "c": "H",
@@ -14962,9 +14973,9 @@
     "a": "N",
     "q": []
   },
-  "commentarymagazine.com": {
+  "commentary.org": {
     "b": "R",
-    "d": "commentarymagazine.com",
+    "d": "commentary.org",
     "f": "commentarymagazine",
     "n": "Commentary Magazine",
     "r": "MF",
@@ -24136,6 +24147,16 @@
     "P": 18,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "factcheck.news": {
+    "b": "CP",
+    "d": "factcheck.news",
+    "n": "FactCheck.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/factcheck-news-bias/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "factcheck.org": {
@@ -43186,6 +43207,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/marin-leader/",
     "P": 4,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "marionmorrowtimes.com": {
+    "b": "FN",
+    "d": "marionmorrowtimes.com",
+    "n": "Marion-Morrow Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/marion-morrow-times-bias/",
     "c": "L",
     "a": "L",
     "q": [

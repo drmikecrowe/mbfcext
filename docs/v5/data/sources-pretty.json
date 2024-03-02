@@ -4227,6 +4227,15 @@
     "url": "https://mediabiasfactcheck.com/analytical-chemistry-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "annualreviews.org/journal/animal",
+    "name": "Animal Biosciences Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/animal-biosciences-journal-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "annunaki.org",
@@ -7573,8 +7582,8 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "bocanews.com",
-    "name": "Boca News",
+    "domain": "bocapost.com",
+    "name": "Boca Post",
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/boca-post-bias-and-credibility/"
@@ -13658,7 +13667,7 @@
   {
     "bias": "right",
     "credibility": "medium-credibility",
-    "domain": "commentarymagazine.com",
+    "domain": "commentary.org",
     "facebook": "commentarymagazine",
     "name": "Commentary Magazine",
     "popularity": 77,
@@ -22066,6 +22075,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/factbox-tv/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "factcheck.news",
+    "name": "FactCheck.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/factcheck-news-bias/"
   },
   {
     "bias": "center",
@@ -39326,6 +39344,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/marin-leader/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "marionmorrowtimes.com",
+    "name": "Marion-Morrow Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/marion-morrow-times-bias/"
   },
   {
     "bias": "center",
