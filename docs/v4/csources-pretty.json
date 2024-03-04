@@ -8756,6 +8756,16 @@
       "IM"
     ]
   },
+  "braunresearch.com": {
+    "b": "LC",
+    "d": "braunresearch.com",
+    "n": "Braun Research",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/braun-research-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "breachmedia.ca": {
     "b": "L",
     "d": "breachmedia.ca",
@@ -44706,6 +44716,20 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "medinatoday.com": {
+    "b": "FN",
+    "d": "medinatoday.com",
+    "n": "Medina Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/medina-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "meditechtoday.com": {
     "b": "LC",

@@ -8049,6 +8049,15 @@
     "url": "https://mediabiasfactcheck.com/branson-times-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "braunresearch.com",
+    "name": "Braun Research",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/braun-research-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "breachmedia.ca",
@@ -40629,6 +40638,18 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/medicine-news/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "medinatoday.com",
+    "name": "Medina Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/medina-today-bias/"
   },
   {
     "bias": "left-center",
