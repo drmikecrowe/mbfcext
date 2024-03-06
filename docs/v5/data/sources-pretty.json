@@ -9949,6 +9949,15 @@
     "url": "https://mediabiasfactcheck.com/cultural-action-party-of-canada-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "capital.fr",
+    "name": "Capital Magazine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/capital-magazine-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "capitalandmain.com",
@@ -11100,6 +11109,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/trends-in-parasitology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/pharmacological-sciences",
+    "name": "Trends in Pharmacological Sciences",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-on-pharmacological-sciences-bias/"
   },
   {
     "bias": "center",
@@ -25905,6 +25923,23 @@
     "url": "https://mediabiasfactcheck.com/gay-times-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "gazeta.ru",
+    "name": "Gazeta.ru",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/gazeta-ru-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "gazette.com",
@@ -28549,6 +28584,15 @@
     "questionable": [],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/health-and-money-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "healthcaredive.com",
+    "name": "HealthCareDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/healthcare-dive-bias/"
   },
   {
     "bias": "center",
@@ -37475,6 +37519,21 @@
     "url": "https://mediabiasfactcheck.com/adrian-daily-telegram-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "lenta.ru",
+    "name": "Lenta.ru",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lenta-ru-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "leominsterchamp.com",
@@ -44628,6 +44687,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/ne-florida-news/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "nefranklinnews.com",
+    "name": "NE Franklin News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ne-franklin-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -52475,6 +52546,15 @@
     "url": "https://mediabiasfactcheck.com/pomona-valley-news/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "ponokanews.com",
+    "name": "Ponoka News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/ponoka-news-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "pontevedrarecorder.com",
@@ -56050,6 +56130,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/reno-journal-gazette-left-center-bias-credible/"
+  },
+  {
+    "bias": "right",
+    "credibility": "high-credibility",
+    "domain": "rhinotimes.com",
+    "name": "Rhino Times",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/rhino-times-bias/"
   },
   {
     "bias": "fake-news",
@@ -63694,20 +63783,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {

@@ -10855,6 +10855,16 @@
       "PSE"
     ]
   },
+  "capital.fr": {
+    "b": "RC",
+    "d": "capital.fr",
+    "n": "Capital Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/capital-magazine-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "capitalandmain.com": {
     "b": "L",
     "d": "capitalandmain.com",
@@ -12180,6 +12190,17 @@
     "p": "/trends/parasitology",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/trends-in-parasitology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/trends/pharmacological-sciences": {
+    "b": "PS",
+    "d": "cell.com/trends/pharmacological-sciences",
+    "n": "Trends in Pharmacological Sciences",
+    "p": "/trends/pharmacological-sciences",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trends-on-pharmacological-sciences-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -28404,6 +28425,23 @@
     "a": "M",
     "q": []
   },
+  "gazeta.ru": {
+    "b": "FN",
+    "d": "gazeta.ru",
+    "n": "Gazeta.ru",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gazeta-ru-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "CEN"
+    ]
+  },
   "gazette.com": {
     "b": "RC",
     "d": "gazette.com",
@@ -31264,6 +31302,16 @@
     "P": 24,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "healthcaredive.com": {
+    "b": "C",
+    "d": "healthcaredive.com",
+    "n": "HealthCareDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/healthcare-dive-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "healthcarefinancenews.com": {
@@ -41170,6 +41218,21 @@
     "a": "L",
     "q": []
   },
+  "lenta.ru": {
+    "b": "FN",
+    "d": "lenta.ru",
+    "n": "Lenta.ru",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lenta-ru-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "M",
+      "CEN"
+    ]
+  },
   "leominsterchamp.com": {
     "b": "C",
     "d": "leominsterchamp.com",
@@ -49149,6 +49212,20 @@
     "n": "NE Florida News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/ne-florida-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "nefranklinnews.com": {
+    "b": "FN",
+    "d": "nefranklinnews.com",
+    "n": "NE Franklin News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-franklin-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -57837,6 +57914,16 @@
       "IM"
     ]
   },
+  "ponokanews.com": {
+    "b": "LC",
+    "d": "ponokanews.com",
+    "n": "Ponoka News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ponoka-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "pontevedrarecorder.com": {
     "b": "C",
     "d": "pontevedrarecorder.com",
@@ -61688,6 +61775,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/reno-journal-gazette-left-center-bias-credible/",
     "P": 81,
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "rhinotimes.com": {
+    "b": "R",
+    "d": "rhinotimes.com",
+    "n": "Rhino Times",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/rhino-times-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -70180,21 +70277,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
