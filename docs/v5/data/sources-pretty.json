@@ -32310,6 +32310,15 @@
     "url": "https://mediabiasfactcheck.com/the-irrawaddy/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "irvinetimes.com",
+    "name": "Irvine Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/irvine-times-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "isgp-studies.com",
@@ -37827,6 +37836,15 @@
     "url": "https://mediabiasfactcheck.com/liberation-news/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "libertarianinstitute.org",
+    "name": "Libertarian Institute",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/libertarian-institute-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "libertarianism.org",
@@ -39388,6 +39406,15 @@
     "reporting": "high",
     "twitter": "MapLight",
     "url": "https://mediabiasfactcheck.com/maplight/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "mapresearch.org",
+    "name": "Movement Advancement Project",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/movement-advancement-project-map-bias/"
   },
   {
     "bias": "right-center",
@@ -69963,6 +69990,15 @@
     "url": "https://mediabiasfactcheck.com/albany-times-union/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "timminspress.com",
+    "name": "Timmins Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/timmins-daily-press-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "tippinsights.com",
@@ -76130,6 +76166,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wgem-quincy-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wglt.org",
+    "name": "WGLT - NPR - Normal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wglt-npr-normal-bias/"
   },
   {
     "bias": "right-center",
