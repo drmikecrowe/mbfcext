@@ -13551,6 +13551,16 @@
     "a": "N",
     "q": []
   },
+  "circlevilleherald.com": {
+    "b": "LC",
+    "d": "circlevilleherald.com",
+    "n": "Circleville Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/circleville-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cis.org": {
     "b": "FN",
     "d": "cis.org",
@@ -23700,6 +23710,16 @@
     "a": "N",
     "q": []
   },
+  "eveningsun.com": {
+    "b": "LC",
+    "d": "eveningsun.com",
+    "n": "Hanover Evening Sun",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hanover-evening-sun-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "eveningtribune.com": {
     "b": "LC",
     "d": "eveningtribune.com",
@@ -30162,6 +30182,16 @@
       "M",
       "PSE"
     ]
+  },
+  "greattask.com": {
+    "b": "RC",
+    "d": "greattask.com",
+    "n": "The Great Task",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-great-task-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "greekreporter.com": {
     "b": "R",
@@ -49462,6 +49492,20 @@
       "IM"
     ]
   },
+  "neohiotimes.com": {
+    "b": "FN",
+    "d": "neohiotimes.com",
+    "n": "NE Ohio Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ne-ohio-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "neonnettle.com": {
     "b": "CP",
     "d": "neonnettle.com",
@@ -53072,6 +53116,17 @@
     "p": "/calhoun_times",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/calhoun-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "northwestgeorgianews.com/polk_standard_journal": {
+    "b": "C",
+    "d": "northwestgeorgianews.com/polk_standard_journal",
+    "n": "Polk County Standard-Journal",
+    "p": "/polk_standard_journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/polk-county-standard-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []

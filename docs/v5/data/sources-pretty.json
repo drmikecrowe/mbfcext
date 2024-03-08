@@ -12352,6 +12352,15 @@
     "url": "https://mediabiasfactcheck.com/circa-news/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "circlevilleherald.com",
+    "name": "Circleville Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/circleville-herald-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "cis.org",
@@ -21657,6 +21666,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "eveningsun.com",
+    "name": "Hanover Evening Sun",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hanover-evening-sun-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "eveningtribune.com",
     "name": "Hornell Evening Tribune",
     "questionable": [],
@@ -27544,6 +27562,15 @@
     ],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/greatreject/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "greattask.com",
+    "name": "The Great Task",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/the-great-task-bias/"
   },
   {
     "bias": "right",
@@ -44900,6 +44927,18 @@
     "url": "https://mediabiasfactcheck.com/ne-north-dakota-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "neohiotimes.com",
+    "name": "NE Ohio Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ne-ohio-times-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "neonnettle.com",
@@ -48167,6 +48206,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/calhoun-times-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "northwestgeorgianews.com/polk_standard_journal",
+    "name": "Polk County Standard-Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/polk-county-standard-journal-bias/"
   },
   {
     "bias": "center",
