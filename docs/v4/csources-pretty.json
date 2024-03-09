@@ -8756,6 +8756,16 @@
       "IM"
     ]
   },
+  "brantfordexpositor.ca": {
+    "b": "RC",
+    "d": "brantfordexpositor.ca",
+    "n": "Brantford Expositor",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/brantford-expositor-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "braunresearch.com": {
     "b": "LC",
     "d": "braunresearch.com",
@@ -23267,6 +23277,23 @@
       "H"
     ]
   },
+  "english.almayadeen.net": {
+    "b": "FN",
+    "d": "english.almayadeen.net",
+    "n": "Al Mayadeen",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/al-mayadeen-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "CEN"
+    ]
+  },
   "english.cctv.com": {
     "b": "FN",
     "d": "english.cctv.com",
@@ -25219,7 +25246,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/fireboebert-com-bias/",
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "firstcoastnews.com": {
@@ -25349,7 +25376,7 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/fl24-net/",
     "c": "L",
-    "a": "L",
+    "a": "N",
     "q": [
       "P",
       "PS",
@@ -41894,6 +41921,16 @@
       "IM"
     ]
   },
+  "lifeadvancer.com": {
+    "b": "CP",
+    "d": "lifeadvancer.com",
+    "n": "Life Advancer",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/life-advancer-bias/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "lifeandabout.com": {
     "b": "R",
     "d": "lifeandabout.com",
@@ -42053,6 +42090,16 @@
       "LT",
       "FFC"
     ]
+  },
+  "link.springer.com": {
+    "b": "PS",
+    "d": "link.springer.com",
+    "n": "SpringerLink",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/springerlink-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
   },
   "linncountyleader.com": {
     "b": "C",
@@ -55889,6 +55936,16 @@
     "P": 19,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "parasitesandvectors.biomedcentral.com": {
+    "b": "PS",
+    "d": "parasitesandvectors.biomedcentral.com",
+    "n": "Parasites & Vectors Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/parasites-vectors-journal-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "parisstaronline.com": {

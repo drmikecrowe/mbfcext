@@ -8049,6 +8049,15 @@
     "url": "https://mediabiasfactcheck.com/branson-times-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "brantfordexpositor.ca",
+    "name": "Brantford Expositor",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/brantford-expositor-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "braunresearch.com",
@@ -21255,6 +21264,22 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/al-manar/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "english.almayadeen.net",
+    "name": "Al Mayadeen",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/al-mayadeen-bias/"
   },
   {
     "bias": "fake-news",
@@ -38148,6 +38173,15 @@
     "url": "https://mediabiasfactcheck.com/licking-today-bias/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "lifeadvancer.com",
+    "name": "Life Advancer",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/life-advancer-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "lifeandabout.com",
@@ -38298,6 +38332,15 @@
     ],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/lindell-tv/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "link.springer.com",
+    "name": "SpringerLink",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/springerlink-bias/"
   },
   {
     "bias": "center",
@@ -50702,6 +50745,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/parallax-news-pxw/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "parasitesandvectors.biomedcentral.com",
+    "name": "Parasites & Vectors Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/parasites-vectors-journal-bias/"
   },
   {
     "bias": "right-center",
