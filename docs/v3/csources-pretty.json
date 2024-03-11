@@ -4584,6 +4584,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/journal/anthro": {
+    "b": "PS",
+    "d": "annualreviews.org/journal/anthro",
+    "n": "Anthropology Journal",
+    "p": "/journal/anthro",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/anthropology-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annunaki.org": {
     "b": "CP",
     "d": "annunaki.org",
@@ -17186,6 +17197,16 @@
     "a": "N",
     "q": []
   },
+  "cshl.edu": {
+    "b": "PS",
+    "d": "cshl.edu",
+    "n": "Cold Spring Harbor Laboratory",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cold-spring-harbor-laboratory/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "csicop.org": {
     "b": "PS",
     "d": "csicop.org",
@@ -24370,6 +24391,16 @@
     "a": "L",
     "q": []
   },
+  "fair360.com": {
+    "b": "LC",
+    "d": "fair360.com",
+    "n": "Fair360",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fair360-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "fairborndailyherald.com": {
     "b": "RC",
     "d": "fairborndailyherald.com",
@@ -24787,6 +24818,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/fulton-county-expositor-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "fda.news": {
+    "b": "CP",
+    "d": "fda.news",
+    "n": "FDA.News",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/fda-news-bias/",
+    "c": "L",
     "a": "L",
     "q": []
   },
@@ -42614,6 +42655,16 @@
     "a": "L",
     "q": []
   },
+  "lowyinstitute.org": {
+    "b": "RC",
+    "d": "lowyinstitute.org",
+    "n": "Lowy Institute",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/lowy-institute-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "lozierinstitute.org": {
     "b": "R",
     "d": "lozierinstitute.org",
@@ -44545,6 +44596,17 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/businesses-journal-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/cancers": {
+    "b": "PS",
+    "d": "mdpi.com/journal/cancers",
+    "n": "Cancers Journal",
+    "p": "/journal/cancers",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/cancers-journal-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -52387,6 +52449,20 @@
     "n": "North Charlotte Today",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-charlotte-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "northcincynews.com": {
+    "b": "FN",
+    "d": "northcincynews.com",
+    "n": "North Cincy News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-cincy-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -70421,21 +70497,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -74319,6 +74392,16 @@
     "a": "L",
     "q": []
   },
+  "thenewdaily.com.au": {
+    "b": "LC",
+    "d": "thenewdaily.com.au",
+    "n": "The New Daily",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-new-daily-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "thenewhumanitarian.org": {
     "b": "LC",
     "d": "thenewhumanitarian.org",
@@ -77141,6 +77224,16 @@
     "P": 69,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "timeswv.com": {
+    "b": "LC",
+    "d": "timeswv.com",
+    "n": "Fairmont Times West Virginian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fairmont-times-west-virginian-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "timminspress.com": {
@@ -80272,6 +80365,16 @@
     "a": "N",
     "q": []
   },
+  "usip.org": {
+    "b": "C",
+    "d": "usip.org",
+    "n": "United States Institute of Peace (USIP)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/united-states-institute-of-peace-usip/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "usjournalreview.com": {
     "b": "FN",
     "d": "usjournalreview.com",
@@ -81588,6 +81691,23 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "vz.ru": {
+    "b": "FN",
+    "d": "vz.ru",
+    "n": "VZ.ru (Vzglyad)",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/vz-ru-vzglyad-bias/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "CEN"
+    ]
   },
   "waaytv.com": {
     "b": "C",

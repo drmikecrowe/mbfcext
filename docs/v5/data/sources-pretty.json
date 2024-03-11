@@ -4236,6 +4236,15 @@
     "url": "https://mediabiasfactcheck.com/animal-biosciences-journal-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "annualreviews.org/journal/anthro",
+    "name": "Anthropology Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/anthropology-journal-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "annunaki.org",
@@ -15724,6 +15733,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "cshl.edu",
+    "name": "Cold Spring Harbor Laboratory",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cold-spring-harbor-laboratory/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "csicop.org",
     "facebook": "skepticalinquirer",
     "name": "Committee for Skeptical Inquiry",
@@ -22278,6 +22296,15 @@
     "url": "https://mediabiasfactcheck.com/fairness-accuracy-in-reporting-fair/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "fair360.com",
+    "name": "Fair360",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fair360-bias-and-credibility/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "fairborndailyherald.com",
@@ -22659,6 +22686,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/fulton-county-expositor-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "fda.news",
+    "name": "FDA.News",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/fda-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -38805,6 +38841,15 @@
     "url": "https://mediabiasfactcheck.com/lowndes-signal-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "lowyinstitute.org",
+    "name": "Lowy Institute",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lowy-institute-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "lozierinstitute.org",
@@ -40486,6 +40531,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/businesses-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/cancers",
+    "name": "Cancers Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/cancers-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -47575,6 +47629,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-charlotte-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northcincynews.com",
+    "name": "North Cincy News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-cincy-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -63911,20 +63977,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
@@ -67500,6 +67562,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "thenewdaily.com.au",
+    "name": "The New Daily",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/the-new-daily-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "thenewhumanitarian.org",
     "facebook": "NewHumanitarian",
     "name": "The New Humanitarian",
@@ -70093,6 +70164,15 @@
     "reporting": "high",
     "twitter": "TimesUnion",
     "url": "https://mediabiasfactcheck.com/albany-times-union/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "timeswv.com",
+    "name": "Fairmont Times West Virginian",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fairmont-times-west-virginian-bias/"
   },
   {
     "bias": "right-center",
@@ -72953,6 +73033,15 @@
     "url": "https://mediabiasfactcheck.com/us-info-news/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "usip.org",
+    "name": "United States Institute of Peace (USIP)",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/united-states-institute-of-peace-usip/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "usjournalreview.com",
@@ -74163,6 +74252,23 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/victorville-daily-press-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "vz.ru",
+    "name": "VZ.ru (Vzglyad)",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/vz-ru-vzglyad-bias/"
   },
   {
     "bias": "center",
