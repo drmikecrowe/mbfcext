@@ -11593,6 +11593,15 @@
     "url": "https://mediabiasfactcheck.com/change-org/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "changeresearch.com",
+    "name": "Change Research",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/change-research-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "channel3000.com",
@@ -13241,7 +13250,7 @@
     "url": "https://mediabiasfactcheck.com/cnn-globalnews-com/"
   },
   {
-    "bias": "left",
+    "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "cnn.com",
     "facebook": "cnn",
@@ -22920,6 +22929,15 @@
   {
     "bias": "right",
     "credibility": "medium-credibility",
+    "domain": "ffcoalition.com",
+    "name": "Faith & Freedom Coalition",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/faith-freedom-coalition-bias-and-credibility/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
     "domain": "fff.org",
     "name": "Future of Freedom Foundation (FFF)",
     "questionable": [],
@@ -25535,6 +25553,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-education-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/electronic-materials",
+    "name": "Frontiers in Electronic Materials",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-electronic-materials-bias/"
   },
   {
     "bias": "pro-science",
@@ -32435,6 +32462,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/intercollegiate-studies-institute-isi-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "isj.org.uk",
+    "name": "International Socialism Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/international-socialism-journal-bias/"
   },
   {
     "bias": "left",
@@ -47654,6 +47690,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-coast-california-news/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northcolumbusnews.com",
+    "name": "North Columbus News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-columbus-news-bias/"
   },
   {
     "bias": "fake-news",

@@ -12723,6 +12723,16 @@
     "a": "H",
     "q": []
   },
+  "changeresearch.com": {
+    "b": "L",
+    "d": "changeresearch.com",
+    "n": "Change Research",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/change-research-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "channel3000.com": {
     "b": "C",
     "d": "channel3000.com",
@@ -14512,7 +14522,7 @@
     ]
   },
   "cnn.com": {
-    "b": "L",
+    "b": "LC",
     "d": "cnn.com",
     "f": "cnn",
     "n": "CNN",
@@ -25072,6 +25082,16 @@
     "a": "N",
     "q": []
   },
+  "ffcoalition.com": {
+    "b": "R",
+    "d": "ffcoalition.com",
+    "n": "Faith & Freedom Coalition",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/faith-freedom-coalition-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "fff.org": {
     "b": "R",
     "d": "fff.org",
@@ -27984,6 +28004,17 @@
     "p": "/journals/education",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-education-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/electronic-materials": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/electronic-materials",
+    "n": "Frontiers in Electronic Materials",
+    "p": "/journals/electronic-materials",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-electronic-materials-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -35582,6 +35613,16 @@
     "n": "Intercollegiate Studies Institute",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/intercollegiate-studies-institute-isi-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "isj.org.uk": {
+    "b": "L",
+    "d": "isj.org.uk",
+    "n": "International Socialism Journal",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/international-socialism-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -52478,6 +52519,20 @@
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-coast-california-news/",
     "P": 4,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "northcolumbusnews.com": {
+    "b": "FN",
+    "d": "northcolumbusnews.com",
+    "n": "North Columbus News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-columbus-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
