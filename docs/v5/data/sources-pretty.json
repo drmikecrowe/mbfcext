@@ -11138,6 +11138,15 @@
     "url": "https://mediabiasfactcheck.com/trends-on-pharmacological-sciences-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/trends/plant-science",
+    "name": "Trends in Plant Science",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trends-in-plant-science-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "cenlanow.com",
@@ -39037,6 +39046,15 @@
     "url": "https://mediabiasfactcheck.com/massachusetts-business-daily-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "macfound.org",
+    "name": "The MacArthur Foundation",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-macarthur-foundation-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "medium-credibility",
     "domain": "mackinac.org",
@@ -47765,6 +47783,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-country-reporter-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northdaytonnews.com",
+    "name": "North Dayton News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-dayton-news-bias/"
   },
   {
     "bias": "left-center",
@@ -69712,6 +69742,15 @@
     "url": "https://mediabiasfactcheck.com/think-americana/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "thinkingaheadinstitute.org",
+    "name": "Thinking Ahead Institute",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/thinking-ahead-institute-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "thinkinghumanity.com",
@@ -73325,6 +73364,15 @@
     "questionable": [],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/vaccine-safety-info/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "vaccinesandchristianity.org",
+    "name": "Vaccines and Christianity",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/vaccines-and-christianity-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",

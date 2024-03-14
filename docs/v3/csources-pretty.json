@@ -12226,6 +12226,17 @@
     "a": "L",
     "q": []
   },
+  "cell.com/trends/plant-science": {
+    "b": "PS",
+    "d": "cell.com/trends/plant-science",
+    "n": "Trends in Plant Science",
+    "p": "/trends/plant-science",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trends-in-plant-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "cenlanow.com": {
     "b": "C",
     "d": "cenlanow.com",
@@ -42874,6 +42885,16 @@
       "IM"
     ]
   },
+  "macfound.org": {
+    "b": "LC",
+    "d": "macfound.org",
+    "n": "The MacArthur Foundation",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-macarthur-foundation-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mackinac.org": {
     "b": "RC",
     "d": "mackinac.org",
@@ -52605,6 +52626,20 @@
     "n": "North Country Reporter",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/north-country-reporter-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "northdaytonnews.com": {
+    "b": "FN",
+    "d": "northdaytonnews.com",
+    "n": "North Dayton News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-dayton-news-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -76729,6 +76764,16 @@
       "M"
     ]
   },
+  "thinkingaheadinstitute.org": {
+    "b": "LC",
+    "d": "thinkingaheadinstitute.org",
+    "n": "Thinking Ahead Institute",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/thinking-ahead-institute-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thinkinghumanity.com": {
     "b": "CP",
     "d": "thinkinghumanity.com",
@@ -80680,6 +80725,16 @@
     "n": "Vaccine Safety Info",
     "r": "VL",
     "u": "https://mediabiasfactcheck.com/vaccine-safety-info/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "vaccinesandchristianity.org": {
+    "b": "CP",
+    "d": "vaccinesandchristianity.org",
+    "n": "Vaccines and Christianity",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/vaccines-and-christianity-bias/",
     "c": "L",
     "a": "L",
     "q": []
