@@ -8074,6 +8074,16 @@
     "a": "L",
     "q": []
   },
+  "bluetent.us": {
+    "b": "LC",
+    "d": "bluetent.us",
+    "n": "Blue Tent",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/blue-tent-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "bluevision.news": {
     "b": "FN",
     "d": "bluevision.news",
@@ -12616,6 +12626,27 @@
       "H"
     ]
   },
+  "cf.org": {
+    "b": "FN",
+    "d": "cf.org",
+    "n": "Conservative Fighters",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/conservative-fighters/",
+    "P": 40,
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PG",
+      "PSE"
+    ]
+  },
   "cfact.org": {
     "b": "CP",
     "d": "cfact.org",
@@ -15577,17 +15608,6 @@
       "FN"
     ]
   },
-  "conservativefighters.co": {
-    "b": "R",
-    "d": "conservativefighters.co",
-    "n": "Conservative Fighters",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/conservative-fighters/",
-    "P": 40,
-    "c": "M",
-    "a": "L",
-    "q": []
-  },
   "conservativefiringline.com": {
     "b": "FN",
     "d": "conservativefiringline.com",
@@ -15697,7 +15717,7 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/conservative-institute/",
     "P": 31,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -16542,6 +16562,16 @@
     "a": "H",
     "q": []
   },
+  "countypress.co.uk": {
+    "b": "C",
+    "d": "countypress.co.uk",
+    "n": "Isle of Wight County Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/isle-of-wight-county-press-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "countytimes.co.uk": {
     "b": "C",
     "d": "countytimes.co.uk",
@@ -16955,6 +16985,16 @@
     "P": 58,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "crescent-news.com": {
+    "b": "LC",
+    "d": "crescent-news.com",
+    "n": "Defiance Crescent News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wvik-npr-rock-island-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "crestonnews.com": {
@@ -35101,6 +35141,16 @@
     "a": "M",
     "q": []
   },
+  "intellicencer.ca": {
+    "b": "RC",
+    "d": "intellicencer.ca",
+    "n": "Belleville Intelligencer",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/belleville-intelligencer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "intellihub.com": {
     "b": "CP",
     "d": "intellihub.com",
@@ -42666,6 +42716,16 @@
       "PS",
       "FFC"
     ]
+  },
+  "loudountimes.com": {
+    "b": "C",
+    "d": "loudountimes.com",
+    "n": "Loudoun Times-Mirror",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/loudoun-times-mirror-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "louisvillecitywire.com": {
     "b": "FN",
@@ -53292,6 +53352,20 @@
       "IM"
     ]
   },
+  "northsummitnews.com": {
+    "b": "FN",
+    "d": "northsummitnews.com",
+    "n": "North Summit News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/north-summit-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "northtamatelegraph.com": {
     "b": "C",
     "d": "northtamatelegraph.com",
@@ -57422,6 +57496,16 @@
       "FC",
       "IM"
     ]
+  },
+  "pionline.com": {
+    "b": "C",
+    "d": "pionline.com",
+    "n": "Pensions & Investments",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/pensions-investments-pi-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "piquenewsmagazine.com": {
     "b": "LC",
@@ -70627,21 +70711,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -79836,6 +79917,16 @@
       "PSE",
       "IM"
     ]
+  },
+  "unrwa.org": {
+    "b": "L",
+    "d": "unrwa.org",
+    "n": "UNRWA",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/unrwa-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
   },
   "unwatch.org": {
     "b": "R",

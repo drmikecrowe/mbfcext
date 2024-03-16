@@ -7423,6 +7423,15 @@
     "url": "https://mediabiasfactcheck.com/bluestem-prairie/"
   },
   {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "bluetent.us",
+    "name": "Blue Tent",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/blue-tent-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "bluevision.news",
@@ -11494,6 +11503,26 @@
     "url": "https://mediabiasfactcheck.com/cerno-cernovich-com/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "cf.org",
+    "name": "Conservative Fighters",
+    "popularity": 40,
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/conservative-fighters/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "cfact.org",
@@ -14234,16 +14263,6 @@
     "url": "https://mediabiasfactcheck.com/conservative-daily-post/"
   },
   {
-    "bias": "right",
-    "credibility": "medium-credibility",
-    "domain": "conservativefighters.co",
-    "name": "Conservative Fighters",
-    "popularity": 40,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/conservative-fighters/"
-  },
-  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "conservativefiringline.com",
@@ -14345,7 +14364,7 @@
   },
   {
     "bias": "right",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "conservativeinstitute.org",
     "name": "Conservative Institute",
     "popularity": 31,
@@ -15132,6 +15151,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "countypress.co.uk",
+    "name": "Isle of Wight County Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/isle-of-wight-county-press-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "countytimes.co.uk",
     "name": "Powys County Times",
     "questionable": [],
@@ -15509,6 +15537,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/credo-action/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "crescent-news.com",
+    "name": "Defiance Crescent News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wvik-npr-rock-island-bias/"
   },
   {
     "bias": "center",
@@ -31990,6 +32027,15 @@
     "url": "https://mediabiasfactcheck.com/intellectual-takeout/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "intellicencer.ca",
+    "name": "Belleville Intelligencer",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/belleville-intelligencer-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "intellihub.com",
@@ -38849,6 +38895,15 @@
     "reporting": "mixed",
     "twitter": "scrowder",
     "url": "https://mediabiasfactcheck.com/louder-with-crowder/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "loudountimes.com",
+    "name": "Loudoun Times-Mirror",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/loudoun-times-mirror-bias/"
   },
   {
     "bias": "fake-news",
@@ -48360,6 +48415,18 @@
     "url": "https://mediabiasfactcheck.com/north-stl-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northsummitnews.com",
+    "name": "North Summit News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-summit-news-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "northtamatelegraph.com",
@@ -52105,6 +52172,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/pine-state-news-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "pionline.com",
+    "name": "Pensions & Investments",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/pensions-investments-pi-bias/"
   },
   {
     "bias": "left-center",
@@ -64091,20 +64167,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
@@ -72537,6 +72609,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/unmuzzled-news-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "unrwa.org",
+    "name": "UNRWA",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/unrwa-bias/"
   },
   {
     "bias": "right",
