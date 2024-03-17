@@ -15326,6 +15326,23 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "cowards.ca",
+    "name": "Cowards of Canada",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/cowards-of-canada-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "cowgernation.com",
     "facebook": "cowgernation",
     "name": "Cowger Nation",
@@ -45616,6 +45633,15 @@
     "url": "https://mediabiasfactcheck.com/new-politics-today/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "newportri.com",
+    "name": "Newport Daily News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/newport-daily-news-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "newrepublic.com",
@@ -48492,6 +48518,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "northwestgeorgianews.com/catoosa_walker_news",
+    "name": "Walker County Messenger",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/walker-county-messenger-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "northwestgeorgianews.com/polk_standard_journal",
     "name": "Polk County Standard-Journal",
     "questionable": [],
@@ -51059,6 +51094,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/parry-sound-beacon-star-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "particleandfibretoxicology.biomedcentral.com",
+    "name": "Particle and Fibre Toxicology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/particle-and-fibre-toxicology-bias/"
   },
   {
     "bias": "center",
@@ -59999,6 +60043,15 @@
     "reporting": "very-low",
     "twitter": "SickChirpse",
     "url": "https://mediabiasfactcheck.com/sick-chirpse/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "sierraclub.org",
+    "name": "The Sierra Club",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/the-sierra-club-bias/"
   },
   {
     "bias": "center",
