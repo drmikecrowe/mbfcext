@@ -5756,6 +5756,15 @@
     "url": "https://mediabiasfactcheck.com/axios/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "aynrandcentre.co.uk",
+    "name": "Ayn Rand Centre UK",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/ayn-rand-centre-uk-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "ayradvertiser.com",
@@ -9101,6 +9110,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "businessdailynetwork.com/states/fl",
+    "name": "Florida Business Daily",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/florida-business-daily-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "businessdailynetwork.com/states/ma",
     "name": "Massachusetts Business Daily",
     "questionable": [
@@ -11459,6 +11480,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/molecular-plant-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/molecular-therapy-family",
+    "name": "Molecular Therapy Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/molecular-therapy-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -16509,7 +16539,7 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "culture wars magazine",
+    "domain": "culturewars.com",
     "name": "Culture Wars Magazine",
     "questionable": [],
     "reporting": "low",
@@ -17320,6 +17350,16 @@
     "url": "https://mediabiasfactcheck.com/daily-notify/"
   },
   {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "dailyo.in",
+    "name": "DailyO",
+    "popularity": 60,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/DailyO-bias-rating/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "dailyoccupation.com",
@@ -17433,7 +17473,7 @@
     "credibility": "high-credibility",
     "domain": "dailyrecord.com",
     "facebook": "DailyRecordNJ",
-    "name": "Daily Record",
+    "name": "Daily Record (Morris County",
     "popularity": 71,
     "questionable": [],
     "reporting": "high",
@@ -17463,7 +17503,7 @@
   },
   {
     "bias": "right",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "dailysignal.com",
     "facebook": "TheDailySignalNews",
     "name": "Daily Signal",
@@ -17523,6 +17563,28 @@
     "reporting": "mixed",
     "twitter": "daily_star",
     "url": "https://mediabiasfactcheck.com/daily-star-uk/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "dailystormer.in",
+    "name": "Daily Stormer",
+    "popularity": 49,
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "fake-news"
+    ],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/daily-stormer/"
   },
   {
     "bias": "fake-news",
@@ -17727,6 +17789,17 @@
     "popularity": 29,
     "questionable": [],
     "url": "https://mediabiasfactcheck.com/the-dandy-goat/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "dangerous.com",
+    "facebook": "myiannopoulos",
+    "name": "Dangerous",
+    "popularity": 46,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/dangerous/"
   },
   {
     "bias": "center",
@@ -43856,13 +43929,13 @@
   },
   {
     "bias": "left",
-    "credibility": "high-credibility",
+    "credibility": "medium-credibility",
     "domain": "monthlyreview.org",
     "facebook": "monthly.review.magazine",
     "name": "Monthly Review",
     "popularity": 73,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "monthly_review",
     "url": "https://mediabiasfactcheck.com/monthly-review/"
   },
@@ -44162,6 +44235,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "mpp.org",
+    "name": "Marijuana Policy Project",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/marijuana-policy-project-mpp-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "mprnews.org",
     "facebook": "MPRnews",
     "name": "Minnesota Public Radio (MPR)",
@@ -44213,6 +44295,15 @@
     "reporting": "low",
     "twitter": "cnsnews",
     "url": "https://mediabiasfactcheck.com/cns-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "mronline.org",
+    "name": "MR Online",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/mr-online-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -44956,6 +45047,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/narratively-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "nas.org",
+    "name": "National Association of Scholars",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/national-association-of-scholars-nas-bias/"
   },
   {
     "bias": "pro-science",
@@ -48671,6 +48771,15 @@
     "reporting": "mostly-factual",
     "twitter": "nknewsorg",
     "url": "https://mediabiasfactcheck.com/nk-news/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nnsl.com",
+    "name": "NNSL Media",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/nnsl-media-bias/"
   },
   {
     "bias": "pro-science",
@@ -52884,18 +52993,6 @@
     "url": "https://mediabiasfactcheck.com/peabody-gazette-bulletin-bias/"
   },
   {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "peace garden news",
-    "name": "Peace Garden News",
-    "questionable": [
-      "false-claims",
-      "imposter"
-    ],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/peace-garden-news-bias/"
-  },
-  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "peacearchnews.com",
@@ -52930,6 +53027,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/peacedata/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "peacegardennews.com",
+    "name": "Peace Garden News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/peace-garden-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -64420,28 +64529,6 @@
     "url": "https://mediabiasfactcheck.com/storm-clouds-gathering/"
   },
   {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "stormer-daily.rw",
-    "name": "Daily Stormer",
-    "popularity": 49,
-    "questionable": [
-      "conspiracy",
-      "censorship",
-      "propaganda",
-      "plagiarism",
-      "pseudoscience",
-      "poor-sourcing",
-      "failed-fact-checks",
-      "false-claims",
-      "misinformation",
-      "hate",
-      "fake-news"
-    ],
-    "reporting": "very-low",
-    "url": "https://mediabiasfactcheck.com/daily-stormer/"
-  },
-  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "stormfront.org",
@@ -66812,6 +66899,8 @@
     "name": "The Beltway Report",
     "popularity": 20,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
@@ -72938,6 +73027,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/trendingpoliticsnews-com-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "trentonian.ca",
+    "name": "Trentonian",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/trentonian-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -80283,7 +80381,7 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "worldofbuzz,com",
+    "domain": "worldofbuzz.com",
     "name": "World of Buzz",
     "questionable": [
       "poor-sourcing",
@@ -80368,6 +80466,8 @@
     "name": "WorldStarHipHop",
     "popularity": 82,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "false-claims",
       "misinformation",
       "fake-news"
@@ -81208,16 +81308,6 @@
     "url": "https://mediabiasfactcheck.com/washington-journal/"
   },
   {
-    "bias": "right-center",
-    "credibility": "medium-credibility",
-    "domain": "dailyo.in",
-    "name": "DailyO",
-    "popularity": 60,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/DailyO-bias-rating/"
-  },
-  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "dailytelegraph.com.au",
@@ -81227,17 +81317,6 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/the-daily-telegraph-australia/"
-  },
-  {
-    "bias": "right",
-    "credibility": "medium-credibility",
-    "domain": "dangerous.com",
-    "facebook": "myiannopoulos",
-    "name": "Dangerous",
-    "popularity": 46,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/dangerous/"
   },
   {
     "bias": "conspiracy-pseudoscience",

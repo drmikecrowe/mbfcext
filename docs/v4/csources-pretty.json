@@ -6269,6 +6269,16 @@
     "a": "H",
     "q": []
   },
+  "aynrandcentre.co.uk": {
+    "b": "R",
+    "d": "aynrandcentre.co.uk",
+    "n": "Ayn Rand Centre UK",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/ayn-rand-centre-uk-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "ayradvertiser.com": {
     "b": "C",
     "d": "ayradvertiser.com",
@@ -9943,6 +9953,21 @@
       "IM"
     ]
   },
+  "businessdailynetwork.com/states/fl": {
+    "b": "FN",
+    "d": "businessdailynetwork.com/states/fl",
+    "n": "Florida Business Daily",
+    "p": "/states/fl",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/florida-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "businessdailynetwork.com/states/ma": {
     "b": "FN",
     "d": "businessdailynetwork.com/states/ma",
@@ -12612,6 +12637,17 @@
     "p": "/molecular-plant",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/molecular-plant-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/molecular-therapy-family": {
+    "b": "PS",
+    "d": "cell.com/molecular-therapy-family",
+    "n": "Molecular Therapy Journal",
+    "p": "/molecular-therapy-family",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/molecular-therapy-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -18106,8 +18142,9 @@
     "a": "L",
     "q": []
   },
-  "culture wars magazine": {
+  "culturewars.com": {
     "b": "CP",
+    "d": "culturewars.com",
     "n": "Culture Wars Magazine",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/culture-wars-magazine-bias/",
@@ -19118,7 +19155,7 @@
     "b": "C",
     "d": "dailyrecord.com",
     "f": "DailyRecordNJ",
-    "n": "Daily Record",
+    "n": "Daily Record (Morris County",
     "r": "H",
     "t": "dailyrecord",
     "u": "https://mediabiasfactcheck.com/daily-record/",
@@ -19159,7 +19196,7 @@
     "t": "dailysignal",
     "u": "https://mediabiasfactcheck.com/daily-signal/",
     "P": 78,
-    "c": "H",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -19171,7 +19208,7 @@
     "u": "https://mediabiasfactcheck.com/dailysnark/",
     "P": 54,
     "c": "NA",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "dailysoundandfury.com": {
@@ -19215,6 +19252,27 @@
       "FFC",
       "FC",
       "M",
+      "PSE"
+    ]
+  },
+  "dailystormer.in": {
+    "b": "FN",
+    "d": "dailystormer.in",
+    "n": "Daily Stormer",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/daily-stormer/",
+    "P": 49,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
       "PSE"
     ]
   },
@@ -48354,11 +48412,11 @@
     "d": "monthlyreview.org",
     "f": "monthly.review.magazine",
     "n": "Monthly Review",
-    "r": "H",
+    "r": "MF",
     "t": "monthly_review",
     "u": "https://mediabiasfactcheck.com/monthly-review/",
     "P": 73,
-    "c": "H",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -48680,6 +48738,16 @@
     "a": "L",
     "q": []
   },
+  "mpp.org": {
+    "b": "LC",
+    "d": "mpp.org",
+    "n": "Marijuana Policy Project",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/marijuana-policy-project-mpp-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mprnews.org": {
     "b": "LC",
     "d": "mprnews.org",
@@ -48736,6 +48804,16 @@
       "FC",
       "M"
     ]
+  },
+  "mronline.org": {
+    "b": "L",
+    "d": "mronline.org",
+    "n": "MR Online",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mr-online-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
   },
   "msgulfnews.com": {
     "b": "FN",
@@ -49575,6 +49653,16 @@
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/narratively-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "nas.org": {
+    "b": "R",
+    "d": "nas.org",
+    "n": "National Association of Scholars",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/national-association-of-scholars-nas-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -53654,6 +53742,16 @@
     "P": 18,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "nnsl.com": {
+    "b": "LC",
+    "d": "nnsl.com",
+    "n": "NNSL Media",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nnsl-media-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "noaa.gov": {
@@ -58342,19 +58440,6 @@
     "a": "L",
     "q": []
   },
-  "peace garden news": {
-    "b": "FN",
-    "n": "Peace Garden News",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/peace-garden-news-bias/",
-    "c": "L",
-    "a": "L",
-    "q": [
-      "LT",
-      "FC",
-      "IM"
-    ]
-  },
   "peacearchnews.com": {
     "b": "LC",
     "d": "peacearchnews.com",
@@ -58391,6 +58476,20 @@
       "LT",
       "M",
       "CEN"
+    ]
+  },
+  "peacegardennews.com": {
+    "b": "FN",
+    "d": "peacegardennews.com",
+    "n": "Peace Garden News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/peace-garden-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
     ]
   },
   "peachtreegazette.com": {
@@ -71044,27 +71143,6 @@
     "a": "N",
     "q": []
   },
-  "stormer-daily.rw": {
-    "b": "FN",
-    "d": "stormer-daily.rw",
-    "n": "Daily Stormer",
-    "r": "VL",
-    "u": "https://mediabiasfactcheck.com/daily-stormer/",
-    "P": 49,
-    "c": "L",
-    "a": "L",
-    "q": [
-      "C",
-      "P",
-      "PS",
-      "FFC",
-      "FC",
-      "M",
-      "H",
-      "FN",
-      "PSE"
-    ]
-  },
   "stormfront.org": {
     "b": "CP",
     "d": "stormfront.org",
@@ -73668,13 +73746,15 @@
     "u": "https://mediabiasfactcheck.com/the-beltway-report/",
     "P": 20,
     "c": "L",
-    "a": "L",
+    "a": "M",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
       "FC",
-      "M"
+      "M",
+      "PSE"
     ]
   },
   "thebipartisanpress.com": {
@@ -80353,6 +80433,16 @@
       "M",
       "PG"
     ]
+  },
+  "trentonian.ca": {
+    "b": "RC",
+    "d": "trentonian.ca",
+    "n": "Trentonian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/trentonian-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "trentonian.com": {
     "b": "C",
@@ -88410,8 +88500,9 @@
     "a": "N",
     "q": []
   },
-  "worldofbuzz,com": {
+  "worldofbuzz.com": {
     "b": "FN",
+    "d": "worldofbuzz.com",
     "n": "World of Buzz",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/world-of-buzz-bias/",
@@ -88506,6 +88597,7 @@
     "c": "L",
     "a": "H",
     "q": [
+      "C",
       "LT",
       "FC",
       "M",
