@@ -78113,6 +78113,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "westclevelandnews.com",
+    "name": "West Cleveland News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/west-cleveland-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "westcontracostanews.com",
     "name": "West Contra Costa News",
     "questionable": [
