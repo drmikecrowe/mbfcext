@@ -2036,6 +2036,15 @@
     "url": "https://mediabiasfactcheck.com/the-american-institute-of-physics/"
   },
   {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "aipac.org",
+    "name": "AIPAC",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/aipac-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "airdriecityview.com",
@@ -37760,6 +37769,15 @@
     "url": "https://mediabiasfactcheck.com/lake-country-calendar-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "lakecountyexam.com",
+    "name": "Lake County Examiner",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lake-county-examiner-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "lakecountygazette.com",
@@ -38816,6 +38834,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/leicester-mercury/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "leighjournal.co.uk",
+    "name": "Leigh Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/leigh-journal-bias/"
   },
   {
     "bias": "left",
