@@ -16793,6 +16793,16 @@
       "M"
     ]
   },
+  "constitution.com": {
+    "b": "C",
+    "d": "constitution.com",
+    "n": "The Constitution",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "H",
+    "a": "N",
+    "q": []
+  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -17798,9 +17808,12 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "n": "Committee for a Responsible Federal Budget",
+    "f": "BudgetHawks",
+    "n": "Committee for a Responsible Federal Buddget",
     "r": "H",
+    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
+    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -39852,25 +39865,6 @@
     "a": "M",
     "q": []
   },
-  "kiwifarms.net": {
-    "b": "FN",
-    "d": "kiwifarms.net",
-    "n": "Kiwi Farms",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "M",
-    "q": [
-      "C",
-      "P",
-      "PS",
-      "LT",
-      "FC",
-      "M",
-      "H",
-      "PSE"
-    ]
-  },
   "kiyu.com": {
     "b": "LC",
     "d": "kiyu.com",
@@ -60878,12 +60872,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -72657,18 +72654,21 @@
       "CEN"
     ]
   },
-  "tass.ru": {
+  "tass.com": {
     "b": "FN",
-    "d": "tass.ru",
-    "n": "Russian New Agency-Tass",
+    "d": "tass.com",
+    "f": "tassagency.eng",
+    "n": "Russian News Agency-TASS",
     "r": "M",
+    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
+    "P": 78,
     "c": "L",
-    "a": "H",
+    "a": "M",
     "q": [
+      "C",
       "P",
       "PS",
-      "FFC",
       "CEN"
     ]
   },
