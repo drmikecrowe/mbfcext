@@ -29521,6 +29521,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/environmental-science": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/environmental-science",
+    "n": "Frontiers in Environmental Science",
+    "p": "/journals/environmental-science",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-environmental-science-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -53280,6 +53291,17 @@
     "a": "L",
     "q": []
   },
+  "newsbug.info/wcinews": {
+    "b": "C",
+    "d": "newsbug.info/wcinews",
+    "n": "Fountain County Neighbor",
+    "p": "/wcinews",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fountain-county-neighbor-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newsbusters.org": {
     "b": "R",
     "d": "newsbusters.org",
@@ -57029,6 +57051,16 @@
     "P": 95,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "o.canada.com": {
+    "b": "RC",
+    "d": "o.canada.com",
+    "n": "O Canada",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/o-canada-canada-com-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "oakbaynews.com": {
@@ -61993,6 +62025,16 @@
       "M",
       "H"
     ]
+  },
+  "programme-tv.net": {
+    "b": "C",
+    "d": "programme-tv.net",
+    "n": "Tele Loisirs",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/tele-loisirs-bias-and-credibility/",
+    "c": "M",
+    "a": "H",
+    "q": []
   },
   "progressive.org": {
     "b": "L",
@@ -77515,6 +77557,26 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "themostimportantnews.com": {
+    "b": "FN",
+    "d": "themostimportantnews.com",
+    "n": "The Most Important News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-most-important-news-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "themountainpress.com": {
     "b": "RC",

@@ -26873,6 +26873,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/environmental-science",
+    "name": "Frontiers in Environmental Science",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-environmental-science-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -48304,6 +48313,15 @@
     "url": "https://mediabiasfactcheck.com/iroquois-times-republic-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "newsbug.info/wcinews",
+    "name": "Fountain County Neighbor",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fountain-county-neighbor-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "newsbusters.org",
@@ -51662,6 +51680,15 @@
     "reporting": "high",
     "twitter": "nzherald",
     "url": "https://mediabiasfactcheck.com/new-zealand-herald/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "o.canada.com",
+    "name": "O Canada",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/o-canada-canada-com-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -56177,6 +56204,15 @@
     "reporting": "low",
     "twitter": "profamorg",
     "url": "https://mediabiasfactcheck.com/international-organization-for-the-family-iof/"
+  },
+  {
+    "bias": "center",
+    "credibility": "medium-credibility",
+    "domain": "programme-tv.net",
+    "name": "Tele Loisirs",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/tele-loisirs-bias-and-credibility/"
   },
   {
     "bias": "left",
@@ -70308,6 +70344,26 @@
     "reporting": "high",
     "twitter": "MoscowTimes",
     "url": "https://mediabiasfactcheck.com/moscow-times/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "themostimportantnews.com",
+    "name": "The Most Important News",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/the-most-important-news-bias-and-credibility/"
   },
   {
     "bias": "right-center",
