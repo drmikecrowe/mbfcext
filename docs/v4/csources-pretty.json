@@ -19975,6 +19975,16 @@
     "a": "N",
     "q": []
   },
+  "dataforprogress.org": {
+    "b": "LC",
+    "d": "dataforprogress.org",
+    "n": "Data for Progress",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/data-for-progress-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "davidharrisjr.com": {
     "b": "FN",
     "d": "davidharrisjr.com",
@@ -31718,6 +31728,20 @@
       "FC",
       "M",
       "PSE"
+    ]
+  },
+  "granitepostnews.com": {
+    "b": "FN",
+    "d": "granitepostnews.com",
+    "n": "Granite Post",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/granite-post-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "P",
+      "M",
+      "IM"
     ]
   },
   "granitestatetimes.com": {
@@ -56865,6 +56889,20 @@
       "IM"
     ]
   },
+  "nwoklahomanews.com": {
+    "b": "FN",
+    "d": "nwoklahomanews.com",
+    "n": "NW Oklahoma News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/nw-oklahoma-news-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "nworeport.me": {
     "b": "CP",
     "d": "nworeport.me",
@@ -57231,6 +57269,16 @@
     "P": 12,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "ocala-news.com": {
+    "b": "C",
+    "d": "ocala-news.com",
+    "n": "Ocala-News",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/ocala-news-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "ocala.com": {
@@ -60307,6 +60355,16 @@
     "u": "https://mediabiasfactcheck.com/places-journal/",
     "P": 70,
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "planetaprisao.com.br": {
+    "b": "CP",
+    "d": "planetaprisao.com.br",
+    "n": "Planeta Prisao",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/planeta-prisao-bias-and-credibility/",
+    "c": "L",
     "a": "L",
     "q": []
   },

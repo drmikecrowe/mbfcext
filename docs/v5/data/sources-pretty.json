@@ -18195,6 +18195,15 @@
     "url": "https://mediabiasfactcheck.com/data-asylum/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "dataforprogress.org",
+    "name": "Data for Progress",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/data-for-progress-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "davidharrisjr.com",
@@ -28896,6 +28905,21 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/granite-grok-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "granitepostnews.com",
+    "name": "Granite Post",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "misinformation",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/granite-post-bias/"
   },
   {
     "bias": "fake-news",
@@ -51525,6 +51549,18 @@
     "url": "https://mediabiasfactcheck.com/nw-ohio-times-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "nwoklahomanews.com",
+    "name": "NW Oklahoma News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/nw-oklahoma-news-bias-and-credibility/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "nworeport.me",
@@ -51852,6 +51888,15 @@
     "popularity": 12,
     "questionable": [],
     "url": "https://mediabiasfactcheck.com/observer-online/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "ocala-news.com",
+    "name": "Ocala-News",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/ocala-news-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -54658,6 +54703,15 @@
     "reporting": "high",
     "twitter": "placesjournal",
     "url": "https://mediabiasfactcheck.com/places-journal/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "planetaprisao.com.br",
+    "name": "Planeta Prisao",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/planeta-prisao-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
