@@ -9353,8 +9353,8 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "businessdailynetwork.com/states/ks",
-    "name": "Kansas Business Daily",
+    "domain": "businessdailynetwork.com/states/ky",
+    "name": "Kentucky Business Daily",
     "questionable": [
       "false-claims",
       "imposter"
@@ -11829,6 +11829,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/structure-journal-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "cell.com/the-innovation",
+    "name": "Innovation Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/innovation-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -21507,6 +21516,16 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/edf-action-fund-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "edge.org",
+    "name": "Edge Foundation",
+    "popularity": 81,
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/edge-foundation/"
   },
   {
     "bias": "center",
@@ -41267,6 +41286,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/malone-institute-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "malverngazette.co.uk",
+    "name": "Malvern Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/malvern-gazette-bias/"
   },
   {
     "bias": "fake-news",
@@ -68739,6 +68767,15 @@
     "url": "https://mediabiasfactcheck.com/the-daily-star/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "thedailytimes.com",
+    "name": "Maryville Daily Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/maryville-daily-times-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "thedailyvox.co.za",
@@ -80303,6 +80340,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "whidbeynewstimes.com",
+    "name": "Whidbey News-Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/whidbey-news-times-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "whio.com",
     "name": "WHIO - Dayton News",
     "questionable": [],
@@ -82712,16 +82758,6 @@
     "reporting": "very-low",
     "twitter": "davidicke",
     "url": "https://mediabiasfactcheck.com/david-icke/"
-  },
-  {
-    "bias": "pro-science",
-    "credibility": "high-credibility",
-    "domain": "edge.org",
-    "name": "Edge Foundation",
-    "popularity": 81,
-    "questionable": [],
-    "reporting": "very-high",
-    "url": "https://mediabiasfactcheck.com/edge-foundation/"
   },
   {
     "bias": "right",

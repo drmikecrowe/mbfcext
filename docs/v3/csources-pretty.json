@@ -10241,11 +10241,11 @@
       "IM"
     ]
   },
-  "businessdailynetwork.com/states/ks": {
+  "businessdailynetwork.com/states/ky": {
     "b": "FN",
-    "d": "businessdailynetwork.com/states/ks",
-    "n": "Kansas Business Daily",
-    "p": "/states/ks",
+    "d": "businessdailynetwork.com/states/ky",
+    "n": "Kentucky Business Daily",
+    "p": "/states/ky",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/kansas-business-daily-bias/",
     "c": "L",
@@ -13051,6 +13051,17 @@
     "p": "/structure",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/structure-journal-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "cell.com/the-innovation": {
+    "b": "PS",
+    "d": "cell.com/the-innovation",
+    "n": "Innovation Journal",
+    "p": "/the-innovation",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/innovation-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -23897,7 +23908,7 @@
     "u": "https://mediabiasfactcheck.com/electoral-vote-com/",
     "P": 74,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "electronicintifada.net": {
@@ -36703,7 +36714,7 @@
     "u": "https://mediabiasfactcheck.com/insider/",
     "P": 72,
     "c": "H",
-    "a": "H",
+    "a": "N",
     "q": []
   },
   "insidescience.org": {
@@ -45401,6 +45412,16 @@
     "r": "L",
     "u": "https://mediabiasfactcheck.com/malone-institute-bias/",
     "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "malverngazette.co.uk": {
+    "b": "C",
+    "d": "malverngazette.co.uk",
+    "n": "Malvern Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/malvern-gazette-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -75821,6 +75842,16 @@
     "a": "L",
     "q": []
   },
+  "thedailytimes.com": {
+    "b": "LC",
+    "d": "thedailytimes.com",
+    "n": "Maryville Daily Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/maryville-daily-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thedailyvox.co.za": {
     "b": "L",
     "d": "thedailyvox.co.za",
@@ -88446,6 +88477,16 @@
     "u": "https://mediabiasfactcheck.com/whec-rochester-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "whidbeynewstimes.com": {
+    "b": "C",
+    "d": "whidbeynewstimes.com",
+    "n": "Whidbey News-Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/whidbey-news-times-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "whio.com": {
