@@ -498,6 +498,17 @@
     "a": "L",
     "q": []
   },
+  "350.org/pacific": {
+    "b": "L",
+    "d": "350.org/pacific",
+    "n": "350 Pacific",
+    "p": "/pacific",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/350-pacific-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "350africa.org": {
     "b": "L",
     "d": "350africa.org",
@@ -8340,6 +8351,15 @@
     "P": 13,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "bluebiotechnology.biomedcentral.com": {
+    "d": "bluebiotechnology.biomedcentral.com",
+    "n": "Blue Biotechnology Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/blue-biotechnology-journal-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "bluedotdaily.com": {
@@ -57112,6 +57132,16 @@
     "a": "H",
     "q": []
   },
+  "nzz.ch": {
+    "b": "RC",
+    "d": "nzz.ch",
+    "n": "Neue Zürcher Zeitung (NZZ)",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/neue-zurcher-zeitung-nzz-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "o.canada.com": {
     "b": "RC",
     "d": "o.canada.com",
@@ -57630,6 +57660,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "okcstandard.com": {
+    "b": "FN",
+    "d": "okcstandard.com",
+    "n": "OKC Standard",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/okc-standard-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "okeechobeetimes.com": {
     "b": "FN",
@@ -79362,6 +79406,16 @@
       "PG",
       "IM"
     ]
+  },
+  "thespectrum.com": {
+    "b": "LC",
+    "d": "thespectrum.com",
+    "n": "St. George Spectrum",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/st-george-spectrum-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "thespinoff.co.nz": {
     "b": "LC",
