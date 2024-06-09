@@ -4469,6 +4469,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/control",
+    "name": "Control, Robotics and Autonomous Systems",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/control-robotics-and-autonomous-systems-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -9550,6 +9559,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/ohio-business-daily-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "businessdailynetwork.com/states/ok",
+    "name": "Oklahoma Business Daily",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/oklahoma-business-daily-bias/"
   },
   {
     "bias": "fake-news",
@@ -48482,6 +48503,15 @@
     "url": "https://mediabiasfactcheck.com/new-scientist/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "newsclick.in",
+    "name": "NewsClick",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/newsclick-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "newsconservative.com",
@@ -81986,6 +82016,15 @@
     "questionable": [],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/worldview-weekend-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "worldwildlife.org",
+    "name": "World Wildlife Fund",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/world-wildlife-fund-bias-and-credibility/"
   },
   {
     "bias": "center",

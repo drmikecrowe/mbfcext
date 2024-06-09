@@ -4852,6 +4852,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/content/journals/control": {
+    "b": "PS",
+    "d": "annualreviews.org/content/journals/control",
+    "n": "Control, Robotics and Autonomous Systems",
+    "p": "/content/journals/control",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/control-robotics-and-autonomous-systems-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annualreviews.org/journal/anchem": {
     "b": "PS",
     "d": "annualreviews.org/journal/anchem",
@@ -10493,6 +10504,21 @@
     "p": "/states/oh",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/ohio-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "businessdailynetwork.com/states/ok": {
+    "b": "FN",
+    "d": "businessdailynetwork.com/states/ok",
+    "n": "Oklahoma Business Daily",
+    "p": "/states/ok",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/oklahoma-business-daily-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -53476,6 +53502,16 @@
     "a": "H",
     "q": []
   },
+  "newsclick.in": {
+    "b": "L",
+    "d": "newsclick.in",
+    "n": "NewsClick",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/newsclick-bias-and-credibility/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "newsconservative.com": {
     "b": "FN",
     "d": "newsconservative.com",
@@ -90306,6 +90342,16 @@
     "u": "https://mediabiasfactcheck.com/worldview-weekend-bias/",
     "c": "L",
     "a": "L",
+    "q": []
+  },
+  "worldwildlife.org": {
+    "b": "LC",
+    "d": "worldwildlife.org",
+    "n": "World Wildlife Fund",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/world-wildlife-fund-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "wowktv.com": {
