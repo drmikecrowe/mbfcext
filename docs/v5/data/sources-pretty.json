@@ -8798,6 +8798,15 @@
     "url": "https://mediabiasfactcheck.com/bristol-reporter-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "bristolworld.com",
+    "name": "Bristol World",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bristol-world-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "brit.co",
@@ -9379,6 +9388,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/kansas-business-daily-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "businessdailynetwork.com/states/la",
+    "name": "Louisiana Business Daily",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/louisiana-business-daily-bias/"
   },
   {
     "bias": "fake-news",
@@ -42572,6 +42593,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/children-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/chips",
+    "name": "Chips Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/chips-journal-bias/"
   },
   {
     "bias": "fake-news",

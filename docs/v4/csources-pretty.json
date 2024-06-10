@@ -9604,6 +9604,16 @@
       "IM"
     ]
   },
+  "bristolworld.com": {
+    "b": "C",
+    "d": "bristolworld.com",
+    "n": "Bristol World",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bristol-world-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "brit.co": {
     "b": "L",
     "d": "brit.co",
@@ -10279,6 +10289,21 @@
     "p": "/states/ky",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/kansas-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "businessdailynetwork.com/states/la": {
+    "b": "FN",
+    "d": "businessdailynetwork.com/states/la",
+    "n": "Louisiana Business Daily",
+    "p": "/states/la",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/louisiana-business-daily-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -46931,6 +46956,17 @@
     "p": "/journal/children",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/children-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/chips": {
+    "b": "PS",
+    "d": "mdpi.com/journal/chips",
+    "n": "Chips Journal",
+    "p": "/journal/chips",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/chips-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
