@@ -20067,6 +20067,16 @@
     "a": "L",
     "q": []
   },
+  "dataorbital.com": {
+    "b": "C",
+    "d": "dataorbital.com",
+    "n": "Data Orbital",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/data-orbital-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "davidharrisjr.com": {
     "b": "FN",
     "d": "davidharrisjr.com",
@@ -29624,6 +29634,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/epidemiology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/epidemiology",
+    "n": "Frontiers in Epidemiology",
+    "p": "/journals/epidemiology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-epidemiology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -32891,6 +32912,16 @@
     "n": "Harrow Times",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/harrow-times-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "hartfordcitynewstimes.com": {
+    "b": "C",
+    "d": "hartfordcitynewstimes.com",
+    "n": "Hartford City News-Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hartford-city-news-times-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -67760,6 +67791,20 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "scoklahomanews.com": {
+    "b": "FN",
+    "d": "scoklahomanews.com",
+    "n": "SC Oklahoma News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sc-oklahoma-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "scoopnest.com": {
     "b": "C",

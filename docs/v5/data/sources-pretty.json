@@ -18264,6 +18264,15 @@
     "url": "https://mediabiasfactcheck.com/data-for-progress-bias-and-credibility/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "dataorbital.com",
+    "name": "Data Orbital",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/data-orbital-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "davidharrisjr.com",
@@ -26961,6 +26970,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/epidemiology",
+    "name": "Frontiers in Epidemiology",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-epidemiology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -29966,6 +29984,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/harrow-times-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "hartfordcitynewstimes.com",
+    "name": "Hartford City News-Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hartford-city-news-times-bias/"
   },
   {
     "bias": "fake-news",
@@ -61469,6 +61496,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-morning-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "scoklahomanews.com",
+    "name": "SC Oklahoma News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/sc-oklahoma-news-bias/"
   },
   {
     "bias": "center",
