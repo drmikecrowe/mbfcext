@@ -5557,6 +5557,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "auburn-reporter.com",
+    "name": "Auburn Reporter",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/auburn-reporter-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "auburnpub.com",
     "facebook": "auburncitizen",
     "name": "The Auburn Citizen",
@@ -10817,6 +10826,15 @@
     "reporting": "high",
     "twitter": "SEIU73",
     "url": "https://mediabiasfactcheck.com/capitol-fax/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "capitolnewsillinois.com",
+    "name": "Capitol News Illinois",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/capitol-news-illinois-bias/"
   },
   {
     "bias": "right-center",
@@ -18538,6 +18556,27 @@
     "reporting": "mixed",
     "twitter": "DCStatesman",
     "url": "https://mediabiasfactcheck.com/dc-statesman/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "dcweekly.org",
+    "name": "DC Weekly",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "fake-news",
+      "imposter"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/dc-weekly-dcweekly-org-bias-and-credibility/"
   },
   {
     "bias": "right",
@@ -58946,6 +58985,15 @@
     "reporting": "mixed",
     "twitter": "IRTnoGMOs",
     "url": "https://mediabiasfactcheck.com/institute-for-responsible-technology/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "restaurantdive.com",
+    "name": "RestaurantDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/restaurantdive-bias-and-credibility/"
   },
   {
     "bias": "fake-news",

@@ -6064,6 +6064,16 @@
     "a": "L",
     "q": []
   },
+  "auburn-reporter.com": {
+    "b": "C",
+    "d": "auburn-reporter.com",
+    "n": "Auburn Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/auburn-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "auburnpub.com": {
     "b": "C",
     "d": "auburnpub.com",
@@ -11898,6 +11908,16 @@
     "t": "SEIU73",
     "u": "https://mediabiasfactcheck.com/capitol-fax/",
     "P": 62,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "capitolnewsillinois.com": {
+    "b": "L",
+    "d": "capitolnewsillinois.com",
+    "n": "Capitol News Illinois",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/capitol-news-illinois-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -20368,6 +20388,28 @@
     "c": "M",
     "a": "N",
     "q": []
+  },
+  "dcweekly.org": {
+    "b": "FN",
+    "d": "dcweekly.org",
+    "n": "DC Weekly",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/dc-weekly-dcweekly-org-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PG",
+      "FN",
+      "IM",
+      "CEN"
+    ]
   },
   "dcwhispers.com": {
     "b": "R",
@@ -64986,6 +65028,16 @@
     "u": "https://mediabiasfactcheck.com/institute-for-responsible-technology/",
     "P": 59,
     "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "restaurantdive.com": {
+    "b": "C",
+    "d": "restaurantdive.com",
+    "n": "RestaurantDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/restaurantdive-bias-and-credibility/",
+    "c": "H",
     "a": "L",
     "q": []
   },
