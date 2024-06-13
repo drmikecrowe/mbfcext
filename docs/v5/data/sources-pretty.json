@@ -29248,6 +29248,15 @@
     "url": "https://mediabiasfactcheck.com/greene-county-times-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "greenevillesun.com",
+    "name": "Greeneville Sun",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/greeneville-sun-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "greenfieldreporter.com",
@@ -43919,6 +43928,15 @@
     "url": "https://mediabiasfactcheck.com/milford-daily-news-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "milfordmercury.co.uk",
+    "name": "Milford Mercury",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/milford-mercury-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "militarist-monitor.org",
@@ -51867,6 +51885,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/ny-teknik-bias/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "nzdsos.com",
+    "name": "New Zealand Doctors Speaking Out with Science",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/new-zealand-doctors-speaking-out-with-science-nzdsos-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -62201,6 +62228,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-ohio-times-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "seoklahomanews.com",
+    "name": "SE Oklahoma News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/se-oklahoma-news-bias/"
   },
   {
     "bias": "left-center",
