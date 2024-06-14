@@ -8546,6 +8546,16 @@
       "M"
     ]
   },
+  "bmcbiotechnol.biomedcentral.com": {
+    "b": "PS",
+    "d": "bmcbiotechnol.biomedcentral.com",
+    "n": "BMC Biotechnology",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bmc-biotechnology-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bmccancer.biomedcentral.com": {
     "b": "PS",
     "d": "bmccancer.biomedcentral.com",
@@ -9940,6 +9950,16 @@
     "u": "https://mediabiasfactcheck.com/burlington-county-times-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "burlingtonfreepress.com": {
+    "b": "LC",
+    "d": "burlingtonfreepress.com",
+    "n": "Burlington Free Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/burlington-free-press-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "burlingtonreporter.com": {
@@ -26960,7 +26980,7 @@
     "u": "https://mediabiasfactcheck.com/flag-cross/",
     "P": 37,
     "c": "L",
-    "a": "M",
+    "a": "N",
     "q": [
       "C",
       "P",
@@ -33184,6 +33204,16 @@
     "P": 58,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "health-helpline.co.nz": {
+    "b": "CP",
+    "d": "health-helpline.co.nz",
+    "n": "Health Helpline",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/health-helpline-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
     "q": []
   },
   "health.com": {
@@ -79612,9 +79642,11 @@
     "c": "L",
     "a": "L",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
+      "FC",
       "M",
       "PG",
       "IM"

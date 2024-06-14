@@ -7832,6 +7832,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "bmcbiotechnol.biomedcentral.com",
+    "name": "BMC Biotechnology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bmc-biotechnology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "bmccancer.biomedcentral.com",
     "name": "BMC Cancer Journal",
     "questionable": [],
@@ -9094,6 +9103,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/burlington-county-times-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "burlingtonfreepress.com",
+    "name": "Burlington Free Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/burlington-free-press-bias/"
   },
   {
     "bias": "fake-news",
@@ -30230,6 +30248,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/healio/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "health-helpline.co.nz",
+    "name": "Health Helpline",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/health-helpline-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -72244,10 +72271,13 @@
     "name": "TheSpectator.info",
     "popularity": 23,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
       "poor-sourcing",
+      "false-claims",
       "misinformation",
       "imposter"
     ],
