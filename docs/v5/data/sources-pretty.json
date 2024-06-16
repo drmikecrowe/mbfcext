@@ -27063,6 +27063,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/epigenetics-and-epigenomics",
+    "name": "Frontiers in Epigenetics and Epigenomics",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-epigenetics-and-epigenomics-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -47861,6 +47870,15 @@
     "url": "https://mediabiasfactcheck.com/new-left-review/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "newlinesmag.com",
+    "name": "New Lines Magazine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/new-lines-magazine-bias-and-credibility/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "newlypress.com",
@@ -51397,6 +51415,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/ntd-tv-new-tang-dynasty/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "nti.org",
+    "name": "Nuclear Threat Initiative",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/nuclear-threat-initiative-nti-bias-and-credibility/"
   },
   {
     "bias": "right",
@@ -63779,6 +63806,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/sooke-news-mirror-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "soonerstatenews.com",
+    "name": "Sooner State News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/sooner-state-news-bias/"
   },
   {
     "bias": "left-center",
