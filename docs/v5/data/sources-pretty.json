@@ -48524,6 +48524,15 @@
     "url": "https://mediabiasfactcheck.com/parkersburg-news-and-sentinel/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "newsandstar.co.uk",
+    "name": "Cumberland News & Star",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/cumberland-news-star-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "newsandstoriesfromusa.com",
@@ -51390,6 +51399,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/nrc-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "nrcc.org",
+    "name": "National Republican Congressional Committee",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/national-republican-congressional-committee-nrcc-bias/"
   },
   {
     "bias": "left",
@@ -59460,6 +59478,15 @@
     "url": "https://mediabiasfactcheck.com/reno-journal-gazette-left-center-bias-credible/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "rheaheraldnews.com",
+    "name": "Dayton Herald-News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/dayton-herald-news-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "high-credibility",
     "domain": "rhinotimes.com",
@@ -64639,6 +64666,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/south-ohio-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "southokcnews.com",
+    "name": "South OKC News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/south-okc-news-bias/"
   },
   {
     "bias": "fake-news",
