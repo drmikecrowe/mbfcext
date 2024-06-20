@@ -7877,6 +7877,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "bmcchem.biomedcentral.com",
+    "name": "BMC Chemistry",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bmc-chemistry-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "bmcimmunol.biomedcentral.com",
     "name": "BMC Immunology Journal",
     "questionable": [],
@@ -51249,6 +51258,15 @@
     "url": "https://mediabiasfactcheck.com/novi-times-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "now.org",
+    "name": "National Organization for Women",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/national-organization-for-women-now-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "now8news.com",
@@ -56685,6 +56703,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/tele-loisirs-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "progress-index.com",
+    "name": "Petersburg Progress-Index",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/petersburg-progress-index-bias/"
   },
   {
     "bias": "left",
