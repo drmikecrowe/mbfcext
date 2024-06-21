@@ -484,6 +484,15 @@
     "url": "https://mediabiasfactcheck.com/350-asia-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "350turkiye.org",
+    "name": "350 Turkiye",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/350-turkiye-bias-and-credibility/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "369news.net",
@@ -4492,6 +4501,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/criminology-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/devpsych",
+    "name": "Developmental Psychology Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/developmental-psychology-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -51457,6 +51475,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/national-right-to-life-committee-nrlc/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "nrsc.org",
+    "name": "National Republican Senatorial Committee",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/national-republican-senatorial-committee-nrsc-bias-and-credibility/"
   },
   {
     "bias": "center",
