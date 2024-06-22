@@ -9228,6 +9228,15 @@
     "url": "https://mediabiasfactcheck.com/burnham-highbridge-weekly/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "burnleyexpress.net",
+    "name": "Burnley Express",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/burnley-express-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "burnslakelakesdistrictnews.com",
@@ -27126,6 +27135,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/ethology",
+    "name": "Frontiers in Ethology",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-ethology-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -42805,6 +42823,15 @@
     "url": "https://mediabiasfactcheck.com/civileng-journal-bias-and-credibility/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/cleantechnol",
+    "name": "Clean Technologies Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/clean-technologies-journal-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "mdstatewire.com",
@@ -48660,6 +48687,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/iroquois-times-republic-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "newsbug.info/kankakee_valley_post_news",
+    "name": "Kankakee Valley Post",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kankakee-valley-post-bias/"
   },
   {
     "bias": "center",
@@ -62142,6 +62178,15 @@
     "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "secure.actblue.com",
+    "name": "ActBlue",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/actblue-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "secureamericanow.org",
@@ -64888,6 +64933,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/south-triangle-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "southtulsatoday.com",
+    "name": "South Tulsa Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/south-tulsa-today-bias/"
   },
   {
     "bias": "center",
@@ -77156,12 +77213,12 @@
     "url": "https://mediabiasfactcheck.com/us-postman/"
   },
   {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
+    "bias": "left",
+    "credibility": "medium-credibility",
     "domain": "usrtk.org",
     "name": "U.S. Right to Know",
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/u-s-right-to-know-bias/"
   },
   {
@@ -81298,6 +81355,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/winona-daily-news/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "winred.com",
+    "name": "WinRed",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/winred-bias-and-credibility/"
   },
   {
     "bias": "fake-news",

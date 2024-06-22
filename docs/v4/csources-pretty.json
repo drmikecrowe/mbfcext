@@ -10092,6 +10092,16 @@
     "a": "L",
     "q": []
   },
+  "burnleyexpress.net": {
+    "b": "C",
+    "d": "burnleyexpress.net",
+    "n": "Burnley Express",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/burnley-express-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "burnslakelakesdistrictnews.com": {
     "b": "LC",
     "d": "burnslakelakesdistrictnews.com",
@@ -29810,6 +29820,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/ethology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/ethology",
+    "n": "Frontiers in Ethology",
+    "p": "/journals/ethology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-ethology-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -47198,6 +47219,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/cleantechnol": {
+    "b": "PS",
+    "d": "mdpi.com/journal/cleantechnol",
+    "n": "Clean Technologies Journal",
+    "p": "/journal/cleantechnol",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/clean-technologies-journal-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdstatewire.com": {
     "b": "FN",
     "d": "mdstatewire.com",
@@ -53681,6 +53713,17 @@
     "p": "/iroquois_countys_times-republic",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/iroquois-times-republic-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "newsbug.info/kankakee_valley_post_news": {
+    "b": "PS",
+    "d": "newsbug.info/kankakee_valley_post_news",
+    "n": "Kankakee Valley Post",
+    "p": "/kankakee_valley_post_news",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kankakee-valley-post-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -68507,6 +68550,16 @@
     "a": "N",
     "q": []
   },
+  "secure.actblue.com": {
+    "b": "L",
+    "d": "secure.actblue.com",
+    "n": "ActBlue",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/actblue-bias-and-credibility/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "secureamericanow.org": {
     "b": "FN",
     "d": "secureamericanow.org",
@@ -71610,6 +71663,20 @@
     "n": "South Triangle News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/south-triangle-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "southtulsatoday.com": {
+    "b": "FN",
+    "d": "southtulsatoday.com",
+    "n": "South Tulsa Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-tulsa-today-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -84994,12 +85061,12 @@
     "q": []
   },
   "usrtk.org": {
-    "b": "CP",
+    "b": "L",
     "d": "usrtk.org",
     "n": "U.S. Right to Know",
-    "r": "M",
+    "r": "MF",
     "u": "https://mediabiasfactcheck.com/u-s-right-to-know-bias/",
-    "c": "L",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -89562,6 +89629,16 @@
     "u": "https://mediabiasfactcheck.com/winona-daily-news/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "winred.com": {
+    "b": "R",
+    "d": "winred.com",
+    "n": "WinRed",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/winred-bias-and-credibility/",
+    "c": "M",
+    "a": "H",
     "q": []
   },
   "winstonsalemtimes.com": {
