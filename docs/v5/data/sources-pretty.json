@@ -8331,6 +8331,15 @@
     "url": "https://mediabiasfactcheck.com/boston-review/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "bothell-reporter.com",
+    "name": "Bothell Reporter",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bothell-reporter-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "boulderleader.com",
@@ -15777,15 +15786,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -16694,12 +16694,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -36566,6 +36563,15 @@
     "url": "https://mediabiasfactcheck.com/lexington-herald-leader/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "kentuckylantern.com",
+    "name": "Kentucky Lantern",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kentucky-lantern-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "kentuckynewera.com",
@@ -37084,6 +37090,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -48057,6 +48082,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "newportplaintalk.com",
+    "name": "Newport Plain Talk",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/newport-plain-talk-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "newportri.com",
     "name": "Newport Daily News",
     "questionable": [],
@@ -50210,6 +50244,15 @@
     "url": "https://mediabiasfactcheck.com/norman-transcript-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "norml.org",
+    "name": "NORML",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/national-organization-for-the-reform-of-marijuana-laws-norml-bias-and-credibility/"
+  },
+  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "north99.org",
@@ -50315,6 +50358,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-broward-news/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "northcarolinamarijuanadoctors.com",
+    "name": "North Carolina Marijuana Doctors",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/north-carolina-marijuana-doctors-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -51096,6 +51148,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "northwaleschronicle.co.uk",
+    "name": "North Wales Chronicle",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/north-wales-chronicle-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "northwestgeorgianews.com/calhoun_times",
     "name": "Calhoun Times",
     "questionable": [],
@@ -51269,6 +51330,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/novara-media-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "novilist.hr",
+    "name": "Novi List",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/novi-list-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -63622,6 +63692,15 @@
     "url": "https://mediabiasfactcheck.com/salt-lake-tribune/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "smartcitiesdive.com",
+    "name": "SmartCitiesDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/smartcitiesdive-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "smartechdaily.com",
@@ -67072,6 +67151,18 @@
     "url": "https://mediabiasfactcheck.com/sw-new-mexico-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "swoklahomanews.com",
+    "name": "SW Oklahoma News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/sw-oklahoma-news-bias/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "swprs.org",
@@ -67517,20 +67608,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {

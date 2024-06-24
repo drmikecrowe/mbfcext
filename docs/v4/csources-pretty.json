@@ -9096,6 +9096,16 @@
     "a": "M",
     "q": []
   },
+  "bothell-reporter.com": {
+    "b": "C",
+    "d": "bothell-reporter.com",
+    "n": "Bothell Reporter",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bothell-reporter-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "boulderleader.com": {
     "b": "FN",
     "d": "boulderleader.com",
@@ -17355,16 +17365,6 @@
       "M"
     ]
   },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
-  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -18359,12 +18359,9 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "f": "BudgetHawks",
-    "n": "Committee for a Responsible Federal Buddget",
+    "n": "Committee for a Responsible Federal Budget",
     "r": "H",
-    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
-    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -40214,6 +40211,16 @@
     "a": "M",
     "q": []
   },
+  "kentuckylantern.com": {
+    "b": "L",
+    "d": "kentuckylantern.com",
+    "n": "Kentucky Lantern",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kentucky-lantern-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kentuckynewera.com": {
     "b": "RC",
     "d": "kentuckynewera.com",
@@ -40790,6 +40797,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -53032,6 +53058,16 @@
     "a": "N",
     "q": []
   },
+  "newportplaintalk.com": {
+    "b": "LC",
+    "d": "newportplaintalk.com",
+    "n": "Newport Plain Talk",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newport-plain-talk-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "newportri.com": {
     "b": "LC",
     "d": "newportri.com",
@@ -55382,6 +55418,16 @@
     "a": "L",
     "q": []
   },
+  "norml.org": {
+    "b": "LC",
+    "d": "norml.org",
+    "n": "NORML",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/national-organization-for-the-reform-of-marijuana-laws-norml-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "north99.org": {
     "b": "L",
     "d": "north99.org",
@@ -55505,6 +55551,16 @@
       "FC",
       "IM"
     ]
+  },
+  "northcarolinamarijuanadoctors.com": {
+    "b": "PS",
+    "d": "northcarolinamarijuanadoctors.com",
+    "n": "North Carolina Marijuana Doctors",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/north-carolina-marijuana-doctors-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "northcharlottetoday.com": {
     "b": "FN",
@@ -56397,6 +56453,16 @@
       "IM"
     ]
   },
+  "northwaleschronicle.co.uk": {
+    "b": "C",
+    "d": "northwaleschronicle.co.uk",
+    "n": "North Wales Chronicle",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/north-wales-chronicle-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "northwestgeorgianews.com/calhoun_times": {
     "b": "C",
     "d": "northwestgeorgianews.com/calhoun_times",
@@ -56596,6 +56662,16 @@
     "u": "https://mediabiasfactcheck.com/novara-media-bias/",
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "novilist.hr": {
+    "b": "C",
+    "d": "novilist.hr",
+    "n": "Novi List",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/novi-list-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "novinite.com": {
@@ -70184,6 +70260,16 @@
     "a": "H",
     "q": []
   },
+  "smartcitiesdive.com": {
+    "b": "C",
+    "d": "smartcitiesdive.com",
+    "n": "SmartCitiesDive",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/smartcitiesdive-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "smartechdaily.com": {
     "b": "LC",
     "d": "smartechdaily.com",
@@ -74028,6 +74114,20 @@
       "IM"
     ]
   },
+  "swoklahomanews.com": {
+    "b": "FN",
+    "d": "swoklahomanews.com",
+    "n": "SW Oklahoma News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sw-oklahoma-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "swprs.org": {
     "b": "CP",
     "d": "swprs.org",
@@ -74511,21 +74611,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
