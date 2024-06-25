@@ -19742,6 +19742,15 @@
     "url": "https://mediabiasfactcheck.com/worthington-globe-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "dhmresearch.com",
+    "name": "DHM Research",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/dhm-research-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "diamondandsilkinc.com",
@@ -51255,6 +51264,15 @@
     "url": "https://mediabiasfactcheck.com/not-allowed-to/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "notesfrompoland.com",
+    "name": "Notes from Poland",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/notes-from-poland-bias-and-credibility/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "noticias.r7.com",
@@ -60848,16 +60866,6 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/charlottetown-guardian-bias/"
-  },
-  {
-    "bias": "left",
-    "credibility": "high-credibility",
-    "domain": "samefacts.com",
-    "name": "The Reality-Based Community",
-    "popularity": 61,
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/reality-based-community/"
   },
   {
     "bias": "left",
@@ -72443,6 +72451,16 @@
     "reporting": "low",
     "twitter": "RundownLive",
     "url": "https://mediabiasfactcheck.com/the-rundown-live/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "thesamefacts.com",
+    "name": "The Reality-Based Community",
+    "popularity": 61,
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/reality-based-community/"
   },
   {
     "bias": "left-center",
