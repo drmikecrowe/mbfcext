@@ -7130,6 +7130,15 @@
     "url": "https://mediabiasfactcheck.com/the-bill-of-rights-institute-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "billtrack50.com",
+    "name": "BillTrack 50",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/billtrack-50-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "bing.com",
@@ -24985,6 +24994,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/food-navigator-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "foodsafetyandrisk.biomedcentral.com",
+    "name": "Food Safety and Risk Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/food-safety-and-risk-journal-bias/"
   },
   {
     "bias": "left-center",
@@ -50031,6 +50049,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/nodisinfo/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "noi.org",
+    "name": "Nation of Islam",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/nation-of-islam-bias-and-credibility/"
   },
   {
     "bias": "left-center",
