@@ -27207,6 +27207,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/evolutionary-neuroscience",
+    "name": "Frontiers in Evolutionary Neuroscience",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-evolutionary-neuroscience-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -48799,6 +48808,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "newsbug.info/newton_county_enterprise",
+    "name": "Newton County Enterprise",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/newton-county-enterprise-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "newsbug.info/wcinews",
     "name": "Fountain County Neighbor",
     "questionable": [],
@@ -50174,6 +50192,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/daily-nonpareil-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "nonprofitquarterly.org",
+    "name": "Nonprofit Quarterly",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/nonprofit-quarterly-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -75912,6 +75939,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/tulare-times/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "tulsastandard.com",
+    "name": "Tulsa Standard",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/tulsa-standard-bias/"
   },
   {
     "bias": "right-center",
