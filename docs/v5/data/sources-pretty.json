@@ -6774,6 +6774,15 @@
     "url": "https://mediabiasfactcheck.com/berkeleyside/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "berkeleyside.org",
+    "name": "BerkeleySide",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/berkeleyside-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "berkleycenter.georgetown.edu",
@@ -24260,6 +24269,15 @@
     "reporting": "high",
     "twitter": "federaltimes",
     "url": "https://mediabiasfactcheck.com/federal-times/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "federalwaymirror.com",
+    "name": "Federal Way Mirror",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/federal-way-mirror-bias/"
   },
   {
     "bias": "satire",
@@ -65870,6 +65888,15 @@
     "url": "https://mediabiasfactcheck.com/state-fort-daily/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "stateline.org",
+    "name": "Stateline",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/stateline-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "statenlislandreporter.com",
@@ -66842,6 +66869,15 @@
     "questionable": [],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/supplementreference-com/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "supplychaindive.com",
+    "name": "SupplyChainDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/supplychaindive-bias/"
   },
   {
     "bias": "fake-news",
