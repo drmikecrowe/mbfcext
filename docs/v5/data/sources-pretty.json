@@ -50002,6 +50002,24 @@
     "url": "https://mediabiasfactcheck.com/nine-com-au-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "ninefornews.nl",
+    "name": "Nine for News",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/nine-for-news-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "niskanencenter.org",
@@ -50011,6 +50029,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/niskanen-center/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "nist.gov",
+    "name": "The National Institute of Standards and Technology",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/national-institute-of-standards-and-technology-nist-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -51279,6 +51306,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/north-wales-chronicle-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "northwalespioneer.co.uk",
+    "name": "North Wales Pioneer",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/north-wales-pioneer-bias/"
   },
   {
     "bias": "center",
@@ -61633,6 +61669,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/sc-connecticut-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "scdailygazette.com",
+    "name": "South Carolina Daily Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/south-carolina-daily-gazette-bias/"
   },
   {
     "bias": "satire",
