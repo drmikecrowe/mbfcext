@@ -7163,6 +7163,20 @@
     "a": "L",
     "q": []
   },
+  "beaverstatenews.com": {
+    "b": "FN",
+    "d": "beaverstatenews.com",
+    "n": "Beaver State News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/beaver-state-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "beaware.one": {
     "b": "FN",
     "d": "beaware.one",
@@ -53250,6 +53264,16 @@
     "a": "M",
     "q": []
   },
+  "news-herald.net": {
+    "b": "LC",
+    "d": "news-herald.net",
+    "n": "Loudon County News-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/loudon-county-news-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "news-journal.com": {
     "b": "C",
     "d": "news-journal.com",
@@ -55038,6 +55062,16 @@
     "P": 60,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "nhs.uk": {
+    "b": "PS",
+    "d": "nhs.uk",
+    "n": "National Health Service",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/national-health-service-nhs-uk-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "niagara-gazette.com": {

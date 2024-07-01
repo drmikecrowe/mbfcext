@@ -6560,6 +6560,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "beaverstatenews.com",
+    "name": "Beaver State News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/beaver-state-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "beaware.one",
     "name": "BeAware",
     "popularity": 12,
@@ -48251,6 +48263,15 @@
     "url": "https://mediabiasfactcheck.com/willoughby-news-herald/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "news-herald.net",
+    "name": "Loudon County News-Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/loudon-county-news-herald-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "news-journal.com",
@@ -49913,6 +49934,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/new-haven-register/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "nhs.uk",
+    "name": "National Health Service",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/national-health-service-nhs-uk-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -70353,6 +70383,18 @@
   {
     "bias": "left-center",
     "credibility": "medium-credibility",
+    "domain": "theguardian.com",
+    "facebook": "theguardian",
+    "name": "The Guardian",
+    "popularity": 98,
+    "questionable": [],
+    "reporting": "mixed",
+    "twitter": "guardian",
+    "url": "https://mediabiasfactcheck.com/the-guardian/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
     "domain": "theguardian.com/observer",
     "name": "The Observer (UK)",
     "questionable": [],
@@ -83906,18 +83948,6 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/the-goldwater/"
-  },
-  {
-    "bias": "left-center",
-    "credibility": "medium-credibility",
-    "domain": "theguardian.com",
-    "facebook": "theguardian",
-    "name": "The Guardian",
-    "popularity": 98,
-    "questionable": [],
-    "reporting": "mixed",
-    "twitter": "guardian",
-    "url": "https://mediabiasfactcheck.com/the-guardian/"
   },
   {
     "bias": "right-center",
