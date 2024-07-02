@@ -4523,6 +4523,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/ecolsys",
+    "name": "Ecology, Evolution, and Systematics",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/ecology-evolution-and-systematics-journal-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -19910,6 +19919,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "digitalresearch.com",
+    "name": "Digital Research",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/digital-research-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "digitimes.com",
     "name": "DigiTimes Asia",
     "questionable": [],
@@ -35029,6 +35047,15 @@
     "url": "https://mediabiasfactcheck.com/john-birch-society-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "jcheminf.biomedcentral.com",
+    "name": "Journal of Cheminformatics",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/journal-of-cheminformatics-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "jconline.com",
@@ -38328,6 +38355,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kwch-wichita-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "kwit.org",
+    "name": "KWIT - NPR - Sioux City",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kwit-npr-sioux-city-bias/"
   },
   {
     "bias": "center",
@@ -49800,6 +49836,25 @@
     "url": "https://mediabiasfactcheck.com/newzjunky-com/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "newzoh.com",
+    "name": "Newzoh",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/newzoh-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "medium-credibility",
     "domain": "nextavenue.org",
@@ -49862,6 +49917,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/next-observer/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nextshark.com",
+    "name": "NextShark",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/nextshark-bias-and-credibility/"
   },
   {
     "bias": "right",
@@ -49991,6 +50055,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/fort-erie-post-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "nichegamer.com",
+    "name": "Niche Gamer",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/niche-gamer-bias-and-credibility/"
   },
   {
     "bias": "left-center",

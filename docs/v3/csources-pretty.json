@@ -4916,6 +4916,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/content/journals/ecolsys": {
+    "b": "PS",
+    "d": "annualreviews.org/content/journals/ecolsys",
+    "n": "Ecology, Evolution, and Systematics",
+    "p": "/content/journals/ecolsys",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ecology-evolution-and-systematics-journal-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annualreviews.org/journal/anchem": {
     "b": "PS",
     "d": "annualreviews.org/journal/anchem",
@@ -21850,6 +21861,16 @@
     "a": "M",
     "q": []
   },
+  "digitalresearch.com": {
+    "b": "C",
+    "d": "digitalresearch.com",
+    "n": "Digital Research",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/digital-research-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "digitimes.com": {
     "b": "C",
     "d": "digitimes.com",
@@ -38526,6 +38547,16 @@
       "H"
     ]
   },
+  "jcheminf.biomedcentral.com": {
+    "b": "PS",
+    "d": "jcheminf.biomedcentral.com",
+    "n": "Journal of Cheminformatics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/journal-of-cheminformatics-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "jconline.com": {
     "b": "LC",
     "d": "jconline.com",
@@ -42186,6 +42217,16 @@
     "u": "https://mediabiasfactcheck.com/kwch-wichita-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "kwit.org": {
+    "b": "LC",
+    "d": "kwit.org",
+    "n": "KWIT - NPR - Sioux City",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/kwit-npr-sioux-city-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "kwqc.com": {
@@ -54917,6 +54958,25 @@
     "a": "M",
     "q": []
   },
+  "newzoh.com": {
+    "b": "FN",
+    "d": "newzoh.com",
+    "n": "Newzoh",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/newzoh-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "PG",
+      "FN"
+    ]
+  },
   "nextavenue.org": {
     "b": "C",
     "d": "nextavenue.org",
@@ -54981,6 +55041,16 @@
     "P": 14,
     "c": "H",
     "a": "N",
+    "q": []
+  },
+  "nextshark.com": {
+    "b": "LC",
+    "d": "nextshark.com",
+    "n": "NextShark",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/nextshark-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "nfrw.org": {
@@ -55127,6 +55197,16 @@
     "u": "https://mediabiasfactcheck.com/fort-erie-post-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "nichegamer.com": {
+    "b": "R",
+    "d": "nichegamer.com",
+    "n": "Niche Gamer",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/niche-gamer-bias-and-credibility/",
+    "c": "M",
+    "a": "M",
     "q": []
   },
   "niemanlab.org": {
