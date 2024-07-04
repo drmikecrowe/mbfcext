@@ -43009,6 +43009,15 @@
     "url": "https://mediabiasfactcheck.com/climate-journal-bias-and-credibility/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/ctn",
+    "name": "Clinical and Translational Neuroscience",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/clinical-and-translational-neuroscience-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "mdstatewire.com",
@@ -48913,6 +48922,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "newsbug.info/rensselaer_republican",
+    "name": "Rensselaer Republican",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/rensselaer-republican-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "newsbug.info/wcinews",
     "name": "Fountain County Neighbor",
     "questionable": [],
@@ -49130,6 +49148,15 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/news-feed-hunter/"
+  },
+  {
+    "bias": "center",
+    "credibility": "medium-credibility",
+    "domain": "newsfulonline.com",
+    "name": "Newsful",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/newsful-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -55041,7 +55068,7 @@
   {
     "bias": "left",
     "credibility": "medium-credibility",
-    "domain": "peopledispatch.org",
+    "domain": "peoplesdispatch.org",
     "name": "The People's Dispatch",
     "questionable": [],
     "reporting": "mixed",
@@ -55344,7 +55371,7 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "physicicansforinformedconsent.org",
+    "domain": "physiciansforinformedconsent.org",
     "name": "Physicians for Informed Consent",
     "questionable": [],
     "reporting": "very-low",
