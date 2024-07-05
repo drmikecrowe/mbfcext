@@ -21521,6 +21521,15 @@
     "url": "https://mediabiasfactcheck.com/ebaums-world-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "ebm-journal.org/journals/experimental-biology-and-medicine",
+    "name": "Experimental Biology and Medicine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/experimental-biology-and-medicine-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "ecalabamanews.com",
@@ -56411,6 +56420,15 @@
     "url": "https://mediabiasfactcheck.com/population-connection/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "populist.com",
+    "name": "The Progressive Populist",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-progressive-populist-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "populistpress.com",
@@ -56482,6 +56500,15 @@
     "reporting": "high",
     "twitter": "theportlandtrib",
     "url": "https://mediabiasfactcheck.com/portland-tribune/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "portside.org",
+    "name": "Portside",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/portside-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -60025,6 +60052,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/richmond-register-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "richmondside.org",
+    "name": "RichmondSide",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/richmondside-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -75617,6 +75653,15 @@
     "reporting": "mixed",
     "twitter": "trtworld",
     "url": "https://mediabiasfactcheck.com/trt-world/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "truckingdive.com",
+    "name": "TruckingDive",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/truckingdive-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
