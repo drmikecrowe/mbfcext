@@ -18011,6 +18011,16 @@
     "a": "L",
     "q": []
   },
+  "courierherald.com": {
+    "b": "C",
+    "d": "courierherald.com",
+    "n": "Enumclaw Courier-Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/enumclaw-courier-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "couriermail.com.au": {
     "b": "RC",
     "d": "couriermail.com.au",
@@ -35200,6 +35210,16 @@
     "u": "https://mediabiasfactcheck.com/thomasville-times-bias/",
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "hppr.org": {
+    "b": "LC",
+    "d": "hppr.org",
+    "n": "High Plains Public Radio",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/high-plains-public-radio-npr-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "hrc.org": {
@@ -60139,6 +60159,27 @@
     "c": "L",
     "a": "N",
     "q": []
+  },
+  "patriot.win": {
+    "b": "FN",
+    "d": "patriot.win",
+    "n": "Patriot,Win",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/patriots-win-bias-and-credibility/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
   },
   "patriotbeacon.com": {
     "b": "FN",
@@ -88617,6 +88658,15 @@
     "u": "https://mediabiasfactcheck.com/wesh-orlando-news-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "west virginia watch": {
+    "b": "L",
+    "n": "West Virginia Watch",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/west-virginia-watch-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "west-stark-news-bias": {

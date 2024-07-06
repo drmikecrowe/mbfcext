@@ -16369,6 +16369,15 @@
     "url": "https://mediabiasfactcheck.com/asheboro-courier-tribune/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "courierherald.com",
+    "name": "Enumclaw Courier-Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/enumclaw-courier-herald-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "couriermail.com.au",
@@ -32033,6 +32042,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/thomasville-times-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "hppr.org",
+    "name": "High Plains Public Radio",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/high-plains-public-radio-npr-bias/"
   },
   {
     "bias": "left",
@@ -54458,6 +54476,27 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/patribotics-blog/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "patriot.win",
+    "name": "Patriot,Win",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/patriots-win-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -80451,6 +80490,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wesh-orlando-news-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "west virginia watch",
+    "name": "West Virginia Watch",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/west-virginia-watch-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
