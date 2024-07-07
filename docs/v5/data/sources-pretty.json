@@ -21332,6 +21332,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "eastoregonnews.com",
+    "name": "East Oregon News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/east-oregon-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "eastpanhandlenews.com",
     "name": "East Panhandle News",
     "questionable": [
@@ -51540,6 +51552,15 @@
     "url": "https://mediabiasfactcheck.com/northwest-signal-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "northwichguardian.co.uk",
+    "name": "Northwich Guardian",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/northwich-guardian-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "northwichitanews.com",
@@ -54480,27 +54501,6 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "patriot.win",
-    "name": "Patriot,Win",
-    "questionable": [
-      "conspiracy",
-      "censorship",
-      "propaganda",
-      "plagiarism",
-      "pseudoscience",
-      "poor-sourcing",
-      "failed-fact-checks",
-      "false-claims",
-      "misinformation",
-      "hate",
-      "fake-news"
-    ],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/patriots-win-bias-and-credibility/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
     "domain": "patriotbeacon.com",
     "facebook": "93642411898",
     "name": "Patriot Beacon",
@@ -54751,6 +54751,27 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/patriotretort-com/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "patriots.win",
+    "name": "Patriots,Win",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/patriots-win-bias-and-credibility/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -57671,6 +57692,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/public-interest-legal-foundation/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "publiclab.org",
+    "name": "Public Lab",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/public-lab-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -72854,6 +72884,15 @@
     "reporting": "high",
     "twitter": "ringer",
     "url": "https://mediabiasfactcheck.com/the-ringer/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "therogersvillereview.com",
+    "name": "Rogersville Review",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/rogersville-review-bias/"
   },
   {
     "bias": "left",

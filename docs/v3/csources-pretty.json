@@ -23419,6 +23419,20 @@
       "IM"
     ]
   },
+  "eastoregonnews.com": {
+    "b": "FN",
+    "d": "eastoregonnews.com",
+    "n": "East Oregon News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-oregon-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "eastpanhandlenews.com": {
     "b": "FN",
     "d": "eastpanhandlenews.com",
@@ -56900,6 +56914,16 @@
     "a": "L",
     "q": []
   },
+  "northwichguardian.co.uk": {
+    "b": "C",
+    "d": "northwichguardian.co.uk",
+    "n": "Northwich Guardian",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/northwich-guardian-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "northwichitanews.com": {
     "b": "FN",
     "d": "northwichitanews.com",
@@ -60160,27 +60184,6 @@
     "a": "N",
     "q": []
   },
-  "patriot.win": {
-    "b": "FN",
-    "d": "patriot.win",
-    "n": "Patriot,Win",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/patriots-win-bias-and-credibility/",
-    "c": "L",
-    "a": "H",
-    "q": [
-      "C",
-      "P",
-      "PS",
-      "LT",
-      "FFC",
-      "FC",
-      "M",
-      "H",
-      "FN",
-      "PSE"
-    ]
-  },
   "patriotbeacon.com": {
     "b": "FN",
     "d": "patriotbeacon.com",
@@ -60445,6 +60448,27 @@
     "c": "M",
     "a": "L",
     "q": []
+  },
+  "patriots.win": {
+    "b": "FN",
+    "d": "patriots.win",
+    "n": "Patriots,Win",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/patriots-win-bias-and-credibility/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
   },
   "patriots4truth.org": {
     "b": "CP",
@@ -63655,6 +63679,16 @@
     "u": "https://mediabiasfactcheck.com/public-interest-legal-foundation/",
     "P": 49,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "publiclab.org": {
+    "b": "LC",
+    "d": "publiclab.org",
+    "n": "Public Lab",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/public-lab-bias-and-credibility/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -80284,6 +80318,16 @@
     "P": 80,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "therogersvillereview.com": {
+    "b": "LC",
+    "d": "therogersvillereview.com",
+    "n": "Rogersville Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rogersville-review-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "theroot.com": {
