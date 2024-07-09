@@ -4532,6 +4532,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/economics",
+    "name": "Annual Review of Economics",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/annual-review-of-economics-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -18486,6 +18495,15 @@
     "url": "https://mediabiasfactcheck.com/data-orbital-bias-and-credibility/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "daventryexpress.co.uk",
+    "name": "Daventry Express",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/daventry-express-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "davidharrisjr.com",
@@ -21352,6 +21370,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/east-panhandle-news/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "eastpdxtoday.com",
+    "name": "East PDX Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/east-pdx-today-bias/"
   },
   {
     "bias": "fake-news",
@@ -30005,6 +30035,15 @@
     "reporting": "high",
     "twitter": "GunDeaths",
     "url": "https://mediabiasfactcheck.com/gun-violence-archive/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "gunwowners.org",
+    "name": "Gun Owners of America",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/gun-owners-of-america-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -43064,6 +43103,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/climate-journal-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/clinpract",
+    "name": "Clinics and Practice Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/clinics-and-practice-journal-bias/"
   },
   {
     "bias": "pro-science",

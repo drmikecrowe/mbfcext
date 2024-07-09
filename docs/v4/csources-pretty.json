@@ -4927,6 +4927,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/content/journals/economics": {
+    "b": "PS",
+    "d": "annualreviews.org/content/journals/economics",
+    "n": "Annual Review of Economics",
+    "p": "/content/journals/economics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/annual-review-of-economics-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annualreviews.org/journal/anchem": {
     "b": "PS",
     "d": "annualreviews.org/journal/anchem",
@@ -20319,6 +20330,16 @@
     "a": "L",
     "q": []
   },
+  "daventryexpress.co.uk": {
+    "b": "C",
+    "d": "daventryexpress.co.uk",
+    "n": "Daventry Express",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/daventry-express-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "davidharrisjr.com": {
     "b": "FN",
     "d": "davidharrisjr.com",
@@ -23439,6 +23460,20 @@
     "n": "East Panhandle News",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/east-panhandle-news/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "eastpdxtoday.com": {
+    "b": "FN",
+    "d": "eastpdxtoday.com",
+    "n": "East PDX Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/east-pdx-today-bias/",
     "c": "L",
     "a": "L",
     "q": [
@@ -32959,6 +32994,16 @@
     "P": 79,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "gunwowners.org": {
+    "b": "R",
+    "d": "gunwowners.org",
+    "n": "Gun Owners of America",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/gun-owners-of-america-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "guttmacher.org": {
@@ -47493,6 +47538,17 @@
     "p": "/journal/climate",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/climate-journal-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/clinpract": {
+    "b": "PS",
+    "d": "mdpi.com/journal/clinpract",
+    "n": "Clinics and Practice Journal",
+    "p": "/journal/clinpract",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/clinics-and-practice-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
