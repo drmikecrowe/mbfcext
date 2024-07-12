@@ -16519,6 +16519,15 @@
     "url": "https://mediabiasfactcheck.com/the-covid-tracking-project/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "covingtonreporter.com",
+    "name": "Covington Reporter",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/covington-reporter-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "cowards.ca",
@@ -66112,6 +66121,15 @@
     "reporting": "mixed",
     "twitter": "StandpointMag",
     "url": "https://mediabiasfactcheck.com/standpoint-magazine/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "standtogether.org",
+    "name": "Stand Together",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/stand-together-bias-and-credibility/"
   },
   {
     "bias": "left-center",
