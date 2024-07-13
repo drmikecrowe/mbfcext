@@ -39049,6 +39049,18 @@
     "url": "https://mediabiasfactcheck.com/lnp-lancasteronline/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "laneconews.com",
+    "name": "Lane County News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lane-county-news-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "langerresearch.com",
@@ -52626,6 +52638,15 @@
   {
     "bias": "left",
     "credibility": "high-credibility",
+    "domain": "nyfocus.com",
+    "name": "New York Focus",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/new-york-focus-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
     "domain": "nymag.com",
     "name": "New York Magazine",
     "popularity": 96,
@@ -55107,6 +55128,15 @@
     "reporting": "mixed",
     "twitter": "PeacockPanache",
     "url": "https://mediabiasfactcheck.com/peacock-panache/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "peeblesshirenews.com",
+    "name": "Peeblesshire News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/peeblesshire-news-bias/"
   },
   {
     "bias": "left-center",
