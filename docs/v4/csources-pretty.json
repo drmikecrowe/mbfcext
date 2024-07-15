@@ -4948,6 +4948,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/content/journals/ento": {
+    "b": "PS",
+    "d": "annualreviews.org/content/journals/ento",
+    "n": "Entomology Journal",
+    "p": "/content/journals/ento",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/entomology-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annualreviews.org/journal/anchem": {
     "b": "PS",
     "d": "annualreviews.org/journal/anchem",
@@ -21615,6 +21626,16 @@
     "P": 7,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "derbyshiretimes.co.uk": {
+    "b": "C",
+    "d": "derbyshiretimes.co.uk",
+    "n": "Derbyshire Times",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/derbyshire-times-bias/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "derfmagazine.com": {
@@ -47608,6 +47629,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/clockssleep": {
+    "b": "PS",
+    "d": "mdpi.com/journal/clockssleep",
+    "n": "Clocks & Sleep Journal",
+    "p": "/journal/clockssleep",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/clocks-sleep-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/ctn": {
     "b": "PS",
     "d": "mdpi.com/journal/ctn",
@@ -48862,6 +48894,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "midcoasttimes.com": {
+    "b": "FN",
+    "d": "midcoasttimes.com",
+    "n": "Mid Coast Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/mid-coast-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "midcoasttoday.com": {
     "b": "FN",
@@ -62971,6 +63017,23 @@
     "a": "L",
     "q": []
   },
+  "preppersdailynews.com": {
+    "b": "FN",
+    "d": "preppersdailynews.com",
+    "n": "Preppers Daily News",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/preppers-daily-news-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "PSE"
+    ]
+  },
   "president45donaldtrump.com": {
     "b": "FN",
     "d": "president45donaldtrump.com",
@@ -63349,6 +63412,21 @@
       "P",
       "M",
       "H"
+    ]
+  },
+  "profile.ru": {
+    "b": "FN",
+    "d": "profile.ru",
+    "n": "Profile.ru",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/profile-ru-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "PS",
+      "M",
+      "CEN"
     ]
   },
   "programme-tv.net": {
@@ -63913,6 +63991,16 @@
     "u": "https://mediabiasfactcheck.com/public-policy-polling-ppp/",
     "P": 69,
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "publicsquaremag.org": {
+    "b": "RC",
+    "d": "publicsquaremag.org",
+    "n": "Public Square Magazine",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/public-square-magazine-bias-and-credibility/",
+    "c": "M",
     "a": "L",
     "q": []
   },

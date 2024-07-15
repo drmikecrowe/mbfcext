@@ -4550,6 +4550,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/ento",
+    "name": "Entomology Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/entomology-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -19685,6 +19694,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/deplorables-report/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "derbyshiretimes.co.uk",
+    "name": "Derbyshire Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/derbyshire-times-bias/"
   },
   {
     "bias": "satire",
@@ -43164,6 +43182,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/clockssleep",
+    "name": "Clocks & Sleep Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/clocks-sleep-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/ctn",
     "name": "Clinical and Translational Neuroscience",
     "questionable": [],
@@ -44292,6 +44319,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/microbiome-journal-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "midcoasttimes.com",
+    "name": "Mid Coast Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/mid-coast-times-bias/"
   },
   {
     "bias": "fake-news",
@@ -57025,6 +57064,23 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "preppersdailynews.com",
+    "name": "Preppers Daily News",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/preppers-daily-news-bias-and-credibility/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "president45donaldtrump.com",
     "name": "President 45 Donald Trump",
     "popularity": 15,
@@ -57379,6 +57435,21 @@
     "reporting": "low",
     "twitter": "profamorg",
     "url": "https://mediabiasfactcheck.com/international-organization-for-the-family-iof/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "profile.ru",
+    "name": "Profile.ru",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/profile-ru-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -57899,6 +57970,15 @@
     "reporting": "high",
     "twitter": "NCPolicyWatch",
     "url": "https://mediabiasfactcheck.com/public-policy-polling-ppp/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "publicsquaremag.org",
+    "name": "Public Square Magazine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/public-square-magazine-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
