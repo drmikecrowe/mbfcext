@@ -27399,6 +27399,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/food-science-and-technology",
+    "name": "Frontiers in Food Science and Technology",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-food-science-and-technology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -53778,6 +53787,23 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/origo-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "orinocotribune.com",
+    "name": "Orinoco Tribune",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/orinoco-tribune-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -82092,6 +82118,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wilx-10/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "winchesternewsgazette.com",
+    "name": "Winchester News-Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/winchester-news-gazette-bias/"
   },
   {
     "bias": "right-center",
