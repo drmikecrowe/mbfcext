@@ -44450,6 +44450,18 @@
     "url": "https://mediabiasfactcheck.com/mid-north-monitor-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "midvalleyreporter.com",
+    "name": "Mid Valley Reporter",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/mid-valley-reporter-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "migrationpolicy.org",
@@ -55272,6 +55284,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "penarthtimes.co.uk",
+    "name": "Penarth Times",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/penarth-times-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "peninsuladailynews.com",
     "facebook": "PenDailyNews",
     "name": "Peninsula Daily News",
@@ -57702,6 +57723,15 @@
     "reporting": "high",
     "twitter": "Stephanie Boland",
     "url": "https://mediabiasfactcheck.com/prospect-magazine/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "protectdemocracy.org",
+    "name": "Protect Democracy",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/protect-democracy-bias-and-credibility/"
   },
   {
     "bias": "left-center",
