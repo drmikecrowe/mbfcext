@@ -7952,6 +7952,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "bmcartificialintel.biomedcentral.com",
+    "name": "BMC Artificial Intelligence",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bmc-artificial-intelligence-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "bmcbiotechnol.biomedcentral.com",
     "name": "BMC Biotechnology",
     "questionable": [],
@@ -22437,6 +22446,15 @@
     "url": "https://mediabiasfactcheck.com/eluxe-magazine/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "elwayresearch.com",
+    "name": "Elway Research",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/elway-research-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "embols.com",
@@ -29170,6 +29188,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-goshen-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "goskagit.com",
+    "name": "Skagit Valley Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/skagit-valley-herald-bias/"
   },
   {
     "bias": "left-center",
@@ -37565,6 +37592,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kmph-fox-26/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "kmuw.org",
+    "name": "KMUW - NPR - Wichita",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kmuw-npr-wichita-bias/"
   },
   {
     "bias": "center",
@@ -57104,6 +57140,15 @@
     ],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/pravda-report/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "prayingmedic.com",
+    "name": "Praying Medic",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/praying-medic-bias-and-credibility/"
   },
   {
     "bias": "pro-science",
