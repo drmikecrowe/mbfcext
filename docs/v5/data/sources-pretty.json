@@ -4550,6 +4550,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/energy",
+    "name": "Environment and Resources Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/environment-and-resources-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/content/journals/ento",
     "name": "Entomology Journal",
     "questionable": [],
@@ -19890,6 +19899,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/devon-dispatch-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "dewsburyreporter.co.uk",
+    "name": "Dewsbury Reporter",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/dewsbury-reporter-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -50984,6 +51002,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/north-coast-california-news/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "northcoasttoday.com",
+    "name": "North Coast Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/north-coast-today-bias/"
   },
   {
     "bias": "fake-news",
