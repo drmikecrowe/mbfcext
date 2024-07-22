@@ -10783,6 +10783,21 @@
       "IM"
     ]
   },
+  "businessdailynetwork.com/states/or": {
+    "b": "FN",
+    "d": "businessdailynetwork.com/states/or",
+    "n": "Oregon Business Daily",
+    "p": "/states/or",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/oregon-business-daily-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "businessday.ng": {
     "b": "FN",
     "d": "businessday.ng",
@@ -32108,6 +32123,17 @@
     "n": "Skagit Valley Herald",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/skagit-valley-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "goskagit.com/anacortes": {
+    "b": "LC",
+    "d": "goskagit.com/anacortes",
+    "n": "Anacortes American",
+    "p": "/anacortes",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/anacortes-american-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -62890,6 +62916,16 @@
     "a": "M",
     "q": []
   },
+  "positivehealthwellness.com": {
+    "b": "CP",
+    "d": "positivehealthwellness.com",
+    "n": "Positive Health Wellness",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/positive-health-wellness-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "post-gazette.com": {
     "b": "RC",
     "d": "post-gazette.com",
@@ -65453,6 +65489,16 @@
       "FC",
       "IM"
     ]
+  },
+  "redditchadvertiser.co.uk": {
+    "b": "C",
+    "d": "redditchadvertiser.co.uk",
+    "n": "Redditch Advertiser",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/redditch-advertiser-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "redflagnews.com": {
     "b": "R",
@@ -91250,6 +91296,16 @@
     "u": "https://mediabiasfactcheck.com/wkyt-news/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wkyufm.org": {
+    "b": "LC",
+    "d": "wkyufm.org",
+    "n": "WKYU - NPR - Bowling Green",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wkyu-npr-bowling-green-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wlbt.com": {

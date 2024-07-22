@@ -9797,6 +9797,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "businessdailynetwork.com/states/or",
+    "name": "Oregon Business Daily",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/oregon-business-daily-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "businessday.ng",
     "name": "Business Day Nigeria",
     "questionable": [
@@ -29224,6 +29236,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/skagit-valley-herald-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "goskagit.com/anacortes",
+    "name": "Anacortes American",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/anacortes-american-bias/"
   },
   {
     "bias": "left-center",
@@ -56948,6 +56969,15 @@
     "url": "https://mediabiasfactcheck.com/positive-news/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "positivehealthwellness.com",
+    "name": "Positive Health Wellness",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/positive-health-wellness-bias-and-credibility/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "post-gazette.com",
@@ -59304,6 +59334,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/redding-today/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "redditchadvertiser.co.uk",
+    "name": "Redditch Advertiser",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/redditch-advertiser-bias/"
   },
   {
     "bias": "right",
@@ -82805,6 +82844,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wkyt-news/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wkyufm.org",
+    "name": "WKYU - NPR - Bowling Green",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wkyu-npr-bowling-green-bias/"
   },
   {
     "bias": "center",
