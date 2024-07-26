@@ -22490,6 +22490,16 @@
     "a": "N",
     "q": []
   },
+  "doncasterfreepress.co.uk": {
+    "b": "C",
+    "d": "doncasterfreepress.co.uk",
+    "n": "Doncaster Free Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/doncaster-free-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "dorchesterreview.ca": {
     "b": "R",
     "d": "dorchesterreview.ca",
@@ -47841,6 +47851,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/coatings": {
+    "b": "PS",
+    "d": "mdpi.com/journal/coatings",
+    "n": "Coatings Journal",
+    "p": "/journal/coatings",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/coatings-journal-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/ctn": {
     "b": "PS",
     "d": "mdpi.com/journal/ctn",
@@ -62907,6 +62928,20 @@
     "a": "L",
     "q": []
   },
+  "portlandcourant.com": {
+    "b": "FN",
+    "d": "portlandcourant.com",
+    "n": "Portland Courant",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/portland-courant-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "portlandmainenews.com": {
     "b": "FN",
     "d": "portlandmainenews.com",
@@ -63533,6 +63568,16 @@
       "FN",
       "CEN"
     ]
+  },
+  "presswatchers.org": {
+    "b": "L",
+    "d": "presswatchers.org",
+    "n": "Press Watch",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/press-watch-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "prettycoolsite.com": {
     "b": "S",
@@ -75095,6 +75140,17 @@
     "p": "/atlantic",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/atlantic-news-telegraph-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "swiowanewssource.com/audubon": {
+    "b": "C",
+    "d": "swiowanewssource.com/audubon",
+    "n": "Audubon Advocate Journal",
+    "p": "/audubon",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/audubon-advocate-journal-bias/",
     "c": "H",
     "a": "L",
     "q": []

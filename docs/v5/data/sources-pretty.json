@@ -20492,6 +20492,15 @@
     "url": "https://mediabiasfactcheck.com/donald-trump-news/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "doncasterfreepress.co.uk",
+    "name": "Doncaster Free Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/doncaster-free-press-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "dorchesterreview.ca",
@@ -43365,6 +43374,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/coatings",
+    "name": "Coatings Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/coatings-journal-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/ctn",
     "name": "Clinical and Translational Neuroscience",
     "questionable": [],
@@ -56962,6 +56980,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "portlandcourant.com",
+    "name": "Portland Courant",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/portland-courant-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "portlandmainenews.com",
     "name": "Portland Maine News",
     "questionable": [
@@ -57529,6 +57559,15 @@
     "reporting": "low",
     "twitter": "PressTV",
     "url": "https://mediabiasfactcheck.com/press-tv/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "presswatchers.org",
+    "name": "Press Watch",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/press-watch-bias-and-credibility/"
   },
   {
     "bias": "satire",
@@ -68026,6 +68065,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/atlantic-news-telegraph-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "swiowanewssource.com/audubon",
+    "name": "Audubon Advocate Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/audubon-advocate-journal-bias/"
   },
   {
     "bias": "fake-news",
