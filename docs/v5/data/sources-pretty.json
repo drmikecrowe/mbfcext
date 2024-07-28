@@ -29312,6 +29312,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "goskagit.com/scnews",
+    "name": "Stanwood Camano News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/stanwood-camano-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "gothamist.com",
     "name": "Gothamist",
     "popularity": 87,
@@ -30807,6 +30816,15 @@
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/health-affairs-journal/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "healthandjusticejournal.biomedcentral.com",
+    "name": "Health & Justice Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/health-justice-journal-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -41018,6 +41036,15 @@
     "reporting": "high",
     "twitter": "Green_Footballs",
     "url": "https://mediabiasfactcheck.com/little-green-footballs/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "littlesis.org",
+    "name": "Public Accountability Initiative",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/littlesis-org-public-accountabilty-initiative-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -57609,6 +57636,15 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
+    "domain": "preventgenocide2030.org",
+    "name": "Prevent Genocide 2030",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/prevent-genocide-2030-bias-and-credibility/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
     "domain": "prevention.com",
     "name": "Prevention Magazine",
     "popularity": 72,
@@ -57917,6 +57953,15 @@
     "reporting": "mixed",
     "twitter": "Project_Veritas",
     "url": "https://mediabiasfactcheck.com/project-veritas/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "prolificnorth.co.uk",
+    "name": "Prolific North",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/prolific-north-bias-and-credibility/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -59464,6 +59509,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/red-flag-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "redhillandreigatelife.co.uk",
+    "name": "Redhill Life",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/redhill-life-bias/"
   },
   {
     "bias": "fake-news",
@@ -65329,6 +65383,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/south-charlotte-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "southcoasttimes.com",
+    "name": "South Coast Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/south-coast-times-bias/"
   },
   {
     "bias": "left-center",

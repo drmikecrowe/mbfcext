@@ -32210,6 +32210,17 @@
     "a": "L",
     "q": []
   },
+  "goskagit.com/scnews": {
+    "b": "LC",
+    "d": "goskagit.com/scnews",
+    "n": "Stanwood Camano News",
+    "p": "/scnews",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stanwood-camano-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "gothamist.com": {
     "b": "LC",
     "d": "gothamist.com",
@@ -33846,6 +33857,16 @@
     "u": "https://mediabiasfactcheck.com/health-affairs-journal/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "healthandjusticejournal.biomedcentral.com": {
+    "b": "PS",
+    "d": "healthandjusticejournal.biomedcentral.com",
+    "n": "Health & Justice Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/health-justice-journal-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "healthandmoneynews.wordpress.com": {
@@ -45155,6 +45176,16 @@
     "t": "Green_Footballs",
     "u": "https://mediabiasfactcheck.com/little-green-footballs/",
     "P": 75,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "littlesis.org": {
+    "b": "L",
+    "d": "littlesis.org",
+    "n": "Public Accountability Initiative",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/littlesis-org-public-accountabilty-initiative-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -63621,6 +63652,16 @@
     "a": "L",
     "q": []
   },
+  "preventgenocide2030.org": {
+    "b": "CP",
+    "d": "preventgenocide2030.org",
+    "n": "Prevent Genocide 2030",
+    "r": "VL",
+    "u": "https://mediabiasfactcheck.com/prevent-genocide-2030-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": []
+  },
   "prevention.com": {
     "b": "CP",
     "d": "prevention.com",
@@ -63951,6 +63992,16 @@
       "FN",
       "PSE"
     ]
+  },
+  "prolificnorth.co.uk": {
+    "b": "C",
+    "d": "prolificnorth.co.uk",
+    "n": "Prolific North",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/prolific-north-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "prophecynewswatch.com": {
     "b": "CP",
@@ -65636,6 +65687,16 @@
     "P": 56,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "redhillandreigatelife.co.uk": {
+    "b": "C",
+    "d": "redhillandreigatelife.co.uk",
+    "n": "Redhill Life",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/redhill-life-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "redice.tv": {
@@ -72088,6 +72149,20 @@
     "n": "South Charlotte Today",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/south-charlotte-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
+  "southcoasttimes.com": {
+    "b": "FN",
+    "d": "southcoasttimes.com",
+    "n": "South Coast Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/south-coast-times-bias/",
     "c": "L",
     "a": "L",
     "q": [
