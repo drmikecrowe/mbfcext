@@ -56336,6 +56336,15 @@
     "url": "https://mediabiasfactcheck.com/open-the-government/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "pointreport.org",
+    "name": "Point Report",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/point-report-bias-and-credibility/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "policetribune.com",
@@ -58270,6 +58279,15 @@
     "reporting": "very-high",
     "twitter": "WMO",
     "url": "https://mediabiasfactcheck.com/world-meteorological-organization/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "publichealth,org",
+    "name": "Publichealth.org",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/publichealth-org-bias-and-credibility/"
   },
   {
     "bias": "left-center",
