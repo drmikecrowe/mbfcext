@@ -23089,6 +23089,15 @@
     "url": "https://mediabiasfactcheck.com/kyodo-news-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "english.pnn.ps",
+    "name": "Palestine News Network",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/pnn-palestine-news-network-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "enhlive.com",
@@ -28894,17 +28903,6 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/global-skywatch/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
-    "domain": "globalslaveryindex.org",
-    "facebook": "walkfreefoundation",
-    "name": "Global Slavery Index",
-    "popularity": 72,
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/global-slavery-index/"
   },
   {
     "bias": "fake-news",
@@ -56634,6 +56632,15 @@
     "url": "https://mediabiasfactcheck.com/political-mayhem-news/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "politicalresearch.org",
+    "name": "Political Research Associates",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/political-research-associates-pra-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "politicalsitenews.com",
@@ -56841,6 +56848,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/politifeed/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "politiken.dk",
+    "name": "Politiken",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/politiken-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -60891,6 +60907,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/rhino-times-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "rhlyjournal.co.uk",
+    "name": "Rhyl Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/rhyl-journal-bias/"
   },
   {
     "bias": "left",
@@ -80071,6 +80096,17 @@
     "url": "https://mediabiasfactcheck.com/walker-pilot-independent-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "walkfree.org/global-slavery-index",
+    "facebook": "walkfreefoundation",
+    "name": "Global Slavery Index",
+    "popularity": 72,
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/global-slavery-index/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "walkwithher.com",
@@ -81914,6 +81950,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "westpdxtoday.com",
+    "name": "West PDX Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/west-pdx-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "westpennyroyalnews.com",
     "name": "West Pennyroyal News",
     "questionable": [
@@ -83195,6 +83243,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wkbw-buffalo-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wkms.org",
+    "name": "WKMS - NPR - Murray",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wkms-npr-murray-bias/"
   },
   {
     "bias": "center",

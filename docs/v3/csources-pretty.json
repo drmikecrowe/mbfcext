@@ -25361,6 +25361,16 @@
     "a": "M",
     "q": []
   },
+  "english.pnn.ps": {
+    "b": "L",
+    "d": "english.pnn.ps",
+    "n": "Palestine News Network",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/pnn-palestine-news-network-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "enhlive.com": {
     "b": "FN",
     "d": "enhlive.com",
@@ -31772,18 +31782,6 @@
     "r": "L",
     "u": "https://mediabiasfactcheck.com/global-skywatch/",
     "c": "L",
-    "a": "L",
-    "q": []
-  },
-  "globalslaveryindex.org": {
-    "b": "C",
-    "d": "globalslaveryindex.org",
-    "f": "walkfreefoundation",
-    "n": "Global Slavery Index",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/global-slavery-index/",
-    "P": 72,
-    "c": "H",
     "a": "L",
     "q": []
   },
@@ -62544,6 +62542,16 @@
     "a": "L",
     "q": []
   },
+  "politicalresearch.org": {
+    "b": "L",
+    "d": "politicalresearch.org",
+    "n": "Political Research Associates",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/political-research-associates-pra-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "politicalsitenews.com": {
     "b": "FN",
     "d": "politicalsitenews.com",
@@ -62787,6 +62795,16 @@
     "P": 20,
     "c": "M",
     "a": "N",
+    "q": []
+  },
+  "politiken.dk": {
+    "b": "LC",
+    "d": "politiken.dk",
+    "n": "Politiken",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/politiken-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
     "q": []
   },
   "politisite.com": {
@@ -67161,6 +67179,16 @@
     "n": "Rhino Times",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/rhino-times-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "rhlyjournal.co.uk": {
+    "b": "C",
+    "d": "rhlyjournal.co.uk",
+    "n": "Rhyl Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/rhyl-journal-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -88226,6 +88254,19 @@
     "a": "L",
     "q": []
   },
+  "walkfree.org/global-slavery-index": {
+    "b": "C",
+    "d": "walkfree.org/global-slavery-index",
+    "f": "walkfreefoundation",
+    "n": "Global Slavery Index",
+    "p": "/global-slavery-index",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/global-slavery-index/",
+    "P": 72,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "walkwithher.com": {
     "b": "FN",
     "d": "walkwithher.com",
@@ -90265,6 +90306,20 @@
     "a": "M",
     "q": []
   },
+  "westpdxtoday.com": {
+    "b": "FN",
+    "d": "westpdxtoday.com",
+    "n": "West PDX Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/west-pdx-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "westpennyroyalnews.com": {
     "b": "FN",
     "d": "westpennyroyalnews.com",
@@ -91696,6 +91751,16 @@
     "u": "https://mediabiasfactcheck.com/wkbw-buffalo-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wkms.org": {
+    "b": "LC",
+    "d": "wkms.org",
+    "n": "WKMS - NPR - Murray",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wkms-npr-murray-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wkow.com": {
