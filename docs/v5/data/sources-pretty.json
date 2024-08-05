@@ -52230,6 +52230,21 @@
     "url": "https://mediabiasfactcheck.com/nottnews/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "nournews.ir",
+    "name": "Nour News",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "failed-fact-checks",
+      "false-claims"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/nour-news-bias-and-credibility/"
+  },
+  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "nova-magazine.net",
