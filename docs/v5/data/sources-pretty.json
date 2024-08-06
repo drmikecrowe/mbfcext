@@ -2868,6 +2868,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "altoonatimes.com",
+    "name": "Altoona Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/altoona-times-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "altright.com",
     "name": "AltRight.com",
     "questionable": [],
@@ -20326,6 +20338,15 @@
     "reporting": "high",
     "twitter": "dissentmag",
     "url": "https://mediabiasfactcheck.com/dissent-magazine/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "dissexpress.co.uk",
+    "name": "Diss Express",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/diss-express-bias/"
   },
   {
     "bias": "fake-news",
@@ -68232,6 +68253,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "sussexexpress.co.uk/your-sussex/east-sussex/eastbourne",
+    "name": "Eastbourne Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/eastbourne-herald-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "sussexexpress.co.uk/your-sussex/west-sussex/chichester",
     "name": "Chichester Observer",
     "questionable": [],
@@ -84374,6 +84404,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wric-richmond-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wrkf.org",
+    "name": "WRKF - NPR - Baton Rouge",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wrkf-npr-baton-rouge-bias/"
   },
   {
     "bias": "left",

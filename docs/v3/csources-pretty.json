@@ -3135,6 +3135,20 @@
     "a": "L",
     "q": []
   },
+  "altoonatimes.com": {
+    "b": "FN",
+    "d": "altoonatimes.com",
+    "n": "Altoona Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/altoona-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "altright.com": {
     "b": "FN",
     "d": "altright.com",
@@ -22312,6 +22326,16 @@
     "t": "dissentmag",
     "u": "https://mediabiasfactcheck.com/dissent-magazine/",
     "P": 72,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "dissexpress.co.uk": {
+    "b": "C",
+    "d": "dissexpress.co.uk",
+    "n": "Diss Express",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/diss-express-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -75331,6 +75355,17 @@
       "PSE"
     ]
   },
+  "sussexexpress.co.uk/your-sussex/east-sussex/eastbourne": {
+    "b": "C",
+    "d": "sussexexpress.co.uk/your-sussex/east-sussex/eastbourne",
+    "n": "Eastbourne Herald",
+    "p": "/your-sussex/east-sussex/eastbourne",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/eastbourne-herald-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sussexexpress.co.uk/your-sussex/west-sussex/chichester": {
     "b": "C",
     "d": "sussexexpress.co.uk/your-sussex/west-sussex/chichester",
@@ -92990,6 +93025,16 @@
     "u": "https://mediabiasfactcheck.com/wric-richmond-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wrkf.org": {
+    "b": "LC",
+    "d": "wrkf.org",
+    "n": "WRKF - NPR - Baton Rouge",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wrkf-npr-baton-rouge-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wrmea.org": {
