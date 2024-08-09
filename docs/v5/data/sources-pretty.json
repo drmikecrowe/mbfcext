@@ -4781,6 +4781,15 @@
     "url": "https://mediabiasfactcheck.com/anti-fascist-news/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "antigojournal.com",
+    "name": "Antigo Daily Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/antigo-daily-journal-bias/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "antihate.ca",
@@ -6631,6 +6640,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/beatrice-daily-sun-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "beaverconews.com",
+    "name": "Beaver County News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/beaver-county-news-bias/"
   },
   {
     "bias": "right-center",
@@ -56568,6 +56589,15 @@
     "url": "https://mediabiasfactcheck.com/point-report-bias-and-credibility/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "pointsoflight.org",
+    "name": "Points of Light",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/points-of-light-bias-and-credibility/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "policetribune.com",
@@ -56590,6 +56620,15 @@
     "reporting": "high",
     "twitter": "Policy_Ed",
     "url": "https://mediabiasfactcheck.com/policyed/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "policyoptions.irpp.org",
+    "name": "Policy Options",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/policy-options-bias/"
   },
   {
     "bias": "left",
@@ -84685,6 +84724,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wtap-parkersburg-news-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "wtaq.com",
+    "name": "WTAQ - 1360 AM - Appleton",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wtaq-1360-am-appleton-bias/"
   },
   {
     "bias": "center",

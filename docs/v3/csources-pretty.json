@@ -5215,6 +5215,16 @@
     "a": "L",
     "q": []
   },
+  "antigojournal.com": {
+    "b": "LC",
+    "d": "antigojournal.com",
+    "n": "Antigo Daily Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/antigo-daily-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "antihate.ca": {
     "b": "L",
     "d": "antihate.ca",
@@ -7253,6 +7263,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "beaverconews.com": {
+    "b": "FN",
+    "d": "beaverconews.com",
+    "n": "Beaver County News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/beaver-county-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "beavercreeknewscurrent.com": {
     "b": "RC",
@@ -62475,6 +62499,16 @@
     "a": "L",
     "q": []
   },
+  "pointsoflight.org": {
+    "b": "C",
+    "d": "pointsoflight.org",
+    "n": "Points of Light",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/points-of-light-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "policetribune.com": {
     "b": "R",
     "d": "policetribune.com",
@@ -62497,6 +62531,16 @@
     "t": "Policy_Ed",
     "u": "https://mediabiasfactcheck.com/policyed/",
     "P": 27,
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "policyoptions.irpp.org": {
+    "b": "LC",
+    "d": "policyoptions.irpp.org",
+    "n": "Policy Options",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/policy-options-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -93339,6 +93383,16 @@
     "u": "https://mediabiasfactcheck.com/wtap-parkersburg-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wtaq.com": {
+    "b": "R",
+    "d": "wtaq.com",
+    "n": "WTAQ - 1360 AM - Appleton",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wtaq-1360-am-appleton-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wthitv.com": {
