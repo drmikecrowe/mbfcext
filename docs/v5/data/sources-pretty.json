@@ -4607,6 +4607,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/genet",
+    "name": "Annual Review of Genetics",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/annual-review-of-genetics-bias-and-credibility/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -6907,6 +6916,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/berkley-center-for-religion-peace-and-world-affairs/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "berksconews.com",
+    "name": "Berks County News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/berks-county-news-bias/"
   },
   {
     "bias": "left-center",
@@ -23969,6 +23990,15 @@
     "url": "https://mediabiasfactcheck.com/fabiosa/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "fabriziolee.com",
+    "name": "Fabrizio, Lee Associates",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/fabrizio-lee-associates-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "facebook.com/conservativepoliticstoday",
@@ -24351,6 +24381,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-fake-news-codex/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "falkirkherald.co.uk",
+    "name": "Falkirk Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/falkirk-herald-bias/"
   },
   {
     "bias": "center",
@@ -37063,6 +37102,15 @@
     "url": "https://mediabiasfactcheck.com/kearney-hub-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "kedm.org",
+    "name": "KEDM - NPR - Monroe",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/kedm-npr-monroe-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "high-credibility",
     "domain": "keepandbear.com",
@@ -37151,6 +37199,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/kent-county-today/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "kentonline.co.uk/dover",
+    "name": "Dover Mercury",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/dover-mercury-bias/"
   },
   {
     "bias": "center",
@@ -43608,6 +43665,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/colorants-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/commodities",
+    "name": "Commodities Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/commodities-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -54876,6 +54942,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/palestine-herald-press-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "palinfo.com",
+    "name": "Palestinian Information Center",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/palestinian-information-center-pic-bias-and-credibility/"
   },
   {
     "bias": "left-center",
