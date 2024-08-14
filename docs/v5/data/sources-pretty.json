@@ -9993,6 +9993,18 @@
     "url": "https://mediabiasfactcheck.com/bustle-magazine/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "butlerconews.com",
+    "name": "Butler County News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/butler-county-news-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "butlercountytimesgazette.com",
@@ -37054,6 +37066,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kctv5/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "kdal610.com",
+    "name": "KDAL - 610 AM - Duluth",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/kdal-610-am-duluth-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -65269,6 +65290,15 @@
     "url": "https://mediabiasfactcheck.com/slo-reporter/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "sloughobserver.co.uk",
+    "name": "Slough Observer",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/slough-observer-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "sltrib.com",
@@ -85247,6 +85277,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kalamazoo-news-wwmt/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wwno.org",
+    "name": "WWNO - NPR - New Orleans",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wwno-npr-new-orleans-bias/"
   },
   {
     "bias": "center",
