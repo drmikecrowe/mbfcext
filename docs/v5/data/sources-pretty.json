@@ -4877,6 +4877,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "apg-wi.com/ashland_daily_press",
+    "name": "Ashland Daily Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/ashland-daily-press-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "apmreports.org",
     "facebook": "APMreports",
     "name": "APM Reports",
@@ -28538,6 +28547,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/geo-tv-pakistan/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "geochemicaltransactions.biomedcentral.com",
+    "name": "Geochemical Transactions",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/geochemical-transactions-journal-bias-and-credibility/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -53603,6 +53621,26 @@
     "url": "https://mediabiasfactcheck.com/ocala-standard/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "occidentaldissent.com",
+    "name": "Occidental Dissent",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/occidental-dissent-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "occrp.org",
@@ -54380,6 +54418,15 @@
     "reporting": "mixed",
     "twitter": "OF_OrganicFacts",
     "url": "https://mediabiasfactcheck.com/organic-facts/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "organiser.org",
+    "name": "Organiser",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/organiser-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -57869,6 +57916,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/preppers-daily-news-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "presidency.ucsb.edu",
+    "name": "The American Presidency Project",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-american-presidency-project-bias-and-credibility/"
   },
   {
     "bias": "fake-news",

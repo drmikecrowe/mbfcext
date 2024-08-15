@@ -5316,6 +5316,17 @@
     "a": "H",
     "q": []
   },
+  "apg-wi.com/ashland_daily_press": {
+    "b": "LC",
+    "d": "apg-wi.com/ashland_daily_press",
+    "n": "Ashland Daily Press",
+    "p": "/ashland_daily_press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ashland-daily-press-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "apmreports.org": {
     "b": "LC",
     "d": "apmreports.org",
@@ -31405,6 +31416,16 @@
     "u": "https://mediabiasfactcheck.com/geo-tv-pakistan/",
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "geochemicaltransactions.biomedcentral.com": {
+    "b": "PS",
+    "d": "geochemicaltransactions.biomedcentral.com",
+    "n": "Geochemical Transactions",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/geochemical-transactions-journal-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "geoengineering.news": {
@@ -59228,6 +59249,26 @@
       "IM"
     ]
   },
+  "occidentaldissent.com": {
+    "b": "FN",
+    "d": "occidentaldissent.com",
+    "n": "Occidental Dissent",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/occidental-dissent-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
+  },
   "occrp.org": {
     "b": "LC",
     "d": "occrp.org",
@@ -60094,6 +60135,16 @@
     "u": "https://mediabiasfactcheck.com/organic-facts/",
     "P": 64,
     "c": "L",
+    "a": "M",
+    "q": []
+  },
+  "organiser.org": {
+    "b": "R",
+    "d": "organiser.org",
+    "n": "Organiser",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/organiser-bias-and-credibility/",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -63939,6 +63990,16 @@
       "FC",
       "PSE"
     ]
+  },
+  "presidency.ucsb.edu": {
+    "b": "C",
+    "d": "presidency.ucsb.edu",
+    "n": "The American Presidency Project",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-american-presidency-project-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "president45donaldtrump.com": {
     "b": "FN",
