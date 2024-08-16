@@ -4616,6 +4616,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/genom",
+    "name": "Genomics and Human Genetics",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/genomics-and-human-genetics-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -24680,6 +24689,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/foundation-defense-democracies/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "fdu.edu/academics/centers-institutes/fdu-poll",
+    "name": "Fairleigh Dickinson Polling",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fairleigh-dickinson-polling-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -49472,6 +49490,22 @@
     "url": "https://mediabiasfactcheck.com/wkbt-la-crosse-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "news89tv.com",
+    "name": "News89TV.com",
+    "questionable": [
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "fake-news",
+      "imposter"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/news89tv-com-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "news9.com",
@@ -55046,6 +55080,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/palestinian-information-center-pic-bias-and-credibility/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "palladiummag.com",
+    "name": "Palladium Magazine",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/palladium-magazine-bias-and-credibility/"
   },
   {
     "bias": "left-center",
