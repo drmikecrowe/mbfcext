@@ -10758,6 +10758,18 @@
     "url": "https://mediabiasfactcheck.com/calwatchdog-com/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "cambriatimes.com",
+    "name": "Cambria Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/cambria-times-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "cambridge.org/core/journals/international-organization",
@@ -37274,6 +37286,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/kent-county-today/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "kentonline.co.uk/deal",
+    "name": "East Kent Mercury",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/east-kent-mercury-bias/"
   },
   {
     "bias": "center",
