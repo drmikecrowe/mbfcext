@@ -23554,7 +23554,7 @@
     "name": "Euronews",
     "popularity": 93,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "euronews",
     "url": "https://mediabiasfactcheck.com/euronews/"
   },
@@ -24959,6 +24959,15 @@
     ],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/washington-news-press/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "fifetoday.co.uk",
+    "name": "Fife Today",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fife-today-bias/"
   },
   {
     "bias": "left",
@@ -27782,6 +27791,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-future-transportation-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/gastroenterology",
+    "name": "Frontiers in Gastroenterology",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-gastroenterology-bias/"
   },
   {
     "bias": "pro-science",
@@ -43774,6 +43792,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/complications",
+    "name": "Complications Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/complications-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/ctn",
     "name": "Clinical and Translational Neuroscience",
     "questionable": [],
@@ -56167,6 +56194,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/perez-hilton/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "permaculture.co.uk",
+    "name": "Permaculture Magazine",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/permaculture-magazine-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -85535,6 +85571,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/mental-daily/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "mississippivalleypublishing.com/daily_gate",
+    "name": "Keokuk Daily Gate City",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/keokuk-daily-gate-city-bias/"
   },
   {
     "bias": "center",
