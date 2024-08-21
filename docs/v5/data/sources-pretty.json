@@ -12547,6 +12547,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "central bucks today",
+    "name": "Central Bucks Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/central-bucks-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "centralbrowardnews.com",
     "name": "Central Broward News",
     "questionable": [
@@ -62380,6 +62392,15 @@
     "url": "https://mediabiasfactcheck.com/rumor-mill-news-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "runcornandwidnesworld.co.uk",
+    "name": "Runcorn & Widnes World",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/runcorn-widnes-world-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "ruptly.tv",
@@ -74667,6 +74688,15 @@
     "questionable": [],
     "twitter": "TheSpoof",
     "url": "https://mediabiasfactcheck.com/the-spoof/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "thespruce.com",
+    "name": "The Spruce",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-spruce-bias/"
   },
   {
     "bias": "left",
