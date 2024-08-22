@@ -6875,6 +6875,15 @@
     "url": "https://mediabiasfactcheck.com/belltower-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "beloitdailynews.com",
+    "name": "Beloit Daily News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/beloit-daily-news-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "bemidji pioneer",
@@ -6882,6 +6891,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/bemidji-pioneer-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "bentoncourier.com",
+    "name": "Saline Courier",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/saline-courier-bias/"
   },
   {
     "bias": "fake-news",
@@ -22420,6 +22438,15 @@
     "url": "https://mediabiasfactcheck.com/egypt-today-bias-credibility/"
   },
   {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "eir.news",
+    "name": "EIR.News",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/eir-news-executive-intelligence-review-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "eiu.com",
@@ -37544,6 +37571,15 @@
     "reporting": "high",
     "twitter": "kff",
     "url": "https://mediabiasfactcheck.com/kaiser-family-foundation/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "kfgo.com",
+    "name": "KFGO - 790 AM - Fargo",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/kfgo-790-am-fargo-bias/"
   },
   {
     "bias": "center",
@@ -55353,6 +55389,15 @@
     "url": "https://mediabiasfactcheck.com/parasites-vectors-journal-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "parents.com",
+    "name": "Parents Magazine",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/parents-magazine-bias-and-credibility/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "parisstaronline.com",
@@ -59305,6 +59350,8 @@
     "domain": "qudsnen.com",
     "name": "Quds News Network",
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
@@ -67610,7 +67657,7 @@
     "credibility": "high-credibility",
     "domain": "startribune.com",
     "facebook": "startribune",
-    "name": "Minneapolis Star-Tribune",
+    "name": "Minnesota Star-Tribune",
     "popularity": 95,
     "questionable": [],
     "reporting": "high",

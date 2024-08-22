@@ -7520,11 +7520,31 @@
     "a": "L",
     "q": []
   },
+  "beloitdailynews.com": {
+    "b": "LC",
+    "d": "beloitdailynews.com",
+    "n": "Beloit Daily News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/beloit-daily-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bemidji pioneer": {
     "b": "RC",
     "n": "Bemidji Pioneer",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/bemidji-pioneer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "bentoncourier.com": {
+    "b": "C",
+    "d": "bentoncourier.com",
+    "n": "Saline Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/saline-courier-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -24656,6 +24676,16 @@
     "a": "M",
     "q": []
   },
+  "eir.news": {
+    "b": "RC",
+    "d": "eir.news",
+    "n": "EIR.News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/eir-news-executive-intelligence-review-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "eiu.com": {
     "b": "C",
     "d": "eiu.com",
@@ -41334,6 +41364,16 @@
     "u": "https://mediabiasfactcheck.com/kaiser-family-foundation/",
     "P": 79,
     "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "kfgo.com": {
+    "b": "RC",
+    "d": "kfgo.com",
+    "n": "KFGO - 790 AM - Fargo",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kfgo-790-am-fargo-bias/",
+    "c": "M",
     "a": "M",
     "q": []
   },
@@ -61182,6 +61222,16 @@
     "a": "L",
     "q": []
   },
+  "parents.com": {
+    "b": "LC",
+    "d": "parents.com",
+    "n": "Parents Magazine",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/parents-magazine-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "parisstaronline.com": {
     "b": "RC",
     "d": "parisstaronline.com",
@@ -65512,6 +65562,7 @@
     "c": "L",
     "a": "M",
     "q": [
+      "C",
       "P",
       "PS",
       "LT",
@@ -74680,7 +74731,7 @@
     "b": "LC",
     "d": "startribune.com",
     "f": "startribune",
-    "n": "Minneapolis Star-Tribune",
+    "n": "Minnesota Star-Tribune",
     "r": "H",
     "t": "StarTribune",
     "u": "https://mediabiasfactcheck.com/minneapolis-star-tribune/",
