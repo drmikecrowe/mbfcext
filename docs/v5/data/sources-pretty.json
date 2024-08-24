@@ -12607,6 +12607,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "centralchestertoday.com",
+    "name": "Central Chester Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/central-chester-today-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "centralcoloradonews.com",
     "name": "Central Colorado News",
     "questionable": [
@@ -30722,6 +30734,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "halifaxcourier.co.uk",
+    "name": "Halifax Courier",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/halifax-courier-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "halsteadgazette.co.uk",
     "name": "Halstead Gazette",
     "questionable": [],
@@ -36813,6 +36834,23 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "kamalaborderbloodbath.com",
+    "name": "Kamala Border Bloodbath",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/kamala-border-bloodbath-bias-and-credibility/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "kanecountyreporter.com",
     "name": "Kane County Reporter",
     "questionable": [
@@ -37397,6 +37435,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/dover-mercury-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "kentonline.co.uk/faversham",
+    "name": "Faversham News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/faversham-news-bias/"
   },
   {
     "bias": "center",
@@ -43890,6 +43937,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/complications-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/compounds",
+    "name": "Compounds Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/compounds-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -56386,6 +56442,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/peru-tribune-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "pesacheck.org",
+    "name": "PesaCheck",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/pesacheck-bias-and-credibility/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -81811,6 +81876,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wdtv-weston-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "weaa.org",
+    "name": "WEAA - NPR - Baltimore",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/weaa-npr-baltimore-bias/"
   },
   {
     "bias": "fake-news",

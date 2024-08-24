@@ -13960,6 +13960,20 @@
       "IM"
     ]
   },
+  "centralchestertoday.com": {
+    "b": "FN",
+    "d": "centralchestertoday.com",
+    "n": "Central Chester Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-chester-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "centralcoloradonews.com": {
     "b": "FN",
     "d": "centralcoloradonews.com",
@@ -33776,6 +33790,16 @@
     "a": "H",
     "q": []
   },
+  "halifaxcourier.co.uk": {
+    "b": "C",
+    "d": "halifaxcourier.co.uk",
+    "n": "Halifax Courier",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/halifax-courier-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "halsteadgazette.co.uk": {
     "b": "C",
     "d": "halsteadgazette.co.uk",
@@ -40521,6 +40545,21 @@
     "a": "L",
     "q": []
   },
+  "kamalaborderbloodbath.com": {
+    "b": "FN",
+    "d": "kamalaborderbloodbath.com",
+    "n": "Kamala Border Bloodbath",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/kamala-border-bloodbath-bias-and-credibility/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "M"
+    ]
+  },
   "kanecountyreporter.com": {
     "b": "FN",
     "d": "kanecountyreporter.com",
@@ -41171,6 +41210,17 @@
     "p": "/dover",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/dover-mercury-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "kentonline.co.uk/faversham": {
+    "b": "C",
+    "d": "kentonline.co.uk/faversham",
+    "n": "Faversham News",
+    "p": "/faversham",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/faversham-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -48449,6 +48499,17 @@
     "p": "/journal/complications",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/complications-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/compounds": {
+    "b": "PS",
+    "d": "mdpi.com/journal/compounds",
+    "n": "Compounds Journal",
+    "p": "/journal/compounds",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/compounds-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -62295,6 +62356,16 @@
     "n": "Peru Tribune",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/peru-tribune-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "pesacheck.org": {
+    "b": "C",
+    "d": "pesacheck.org",
+    "n": "PesaCheck",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/pesacheck-bias-and-credibility/",
     "c": "H",
     "a": "L",
     "q": []
@@ -90181,6 +90252,16 @@
     "u": "https://mediabiasfactcheck.com/wdtv-weston-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "weaa.org": {
+    "b": "LC",
+    "d": "weaa.org",
+    "n": "WEAA - NPR - Baltimore",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/weaa-npr-baltimore-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wealthmanagementwire.com": {
