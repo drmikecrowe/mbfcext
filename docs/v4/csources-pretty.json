@@ -422,6 +422,16 @@
     "a": "L",
     "q": []
   },
+  "270towin.com": {
+    "b": "C",
+    "d": "270towin.com",
+    "n": "270toWin",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/270towin-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "2ndvote.com": {
     "b": "R",
     "d": "2ndvote.com",
@@ -16935,6 +16945,17 @@
     "a": "L",
     "q": []
   },
+  "communitynewspapergroup.com/oelwein_daily_register": {
+    "b": "C",
+    "d": "communitynewspapergroup.com/oelwein_daily_register",
+    "n": "Oelwein Daily Register",
+    "p": "/oelwein_daily_register",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/oelwein-daily-register-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "communitypress.ca": {
     "b": "RC",
     "d": "communitypress.ca",
@@ -17797,16 +17818,6 @@
       "LT",
       "M"
     ]
-  },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
   },
   "constitutioncenter.org": {
     "b": "C",
@@ -18832,12 +18843,9 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "f": "BudgetHawks",
-    "n": "Committee for a Responsible Federal Buddget",
+    "n": "Committee for a Responsible Federal Budget",
     "r": "H",
-    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
-    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -30696,6 +30704,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/genetics": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/genetics",
+    "n": "Frontiers in Genetics",
+    "p": "/journals/genetics",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-genetics-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -41881,6 +41900,25 @@
     "a": "M",
     "q": []
   },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
+  },
   "kiyu.com": {
     "b": "LC",
     "d": "kiyu.com",
@@ -50797,6 +50835,16 @@
       "FC",
       "IM"
     ]
+  },
+  "montanafreepress.org": {
+    "b": "LC",
+    "d": "montanafreepress.org",
+    "n": "Montana Free Press",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/montana-free-press-mtfp-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
   },
   "montenews.com": {
     "b": "C",
@@ -60803,6 +60851,16 @@
     "a": "L",
     "q": []
   },
+  "outlookindia.com": {
+    "b": "LC",
+    "d": "outlookindia.com",
+    "n": "Outlook India",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/outlook-india-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "outlooknewspaper.com": {
     "b": "C",
     "d": "outlooknewspaper.com",
@@ -61060,6 +61118,16 @@
     "u": "https://mediabiasfactcheck.com/wbre-wyou-eyewitness-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "pajiba.com": {
+    "b": "LC",
+    "d": "pajiba.com",
+    "n": "Pajiba",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/pajiba-bias-and-credibility/",
+    "c": "M",
+    "a": "H",
     "q": []
   },
   "pakalertpress.com": {
@@ -64645,15 +64713,12 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -76977,21 +77042,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -80485,6 +80547,16 @@
     "P": 63,
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "thelocal.at": {
+    "b": "LC",
+    "d": "thelocal.at",
+    "n": "The Local (Austria)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-local-austria-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "thelocal.no": {
@@ -88049,6 +88121,16 @@
     "P": 95,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "vashonbeachcomber.com": {
+    "b": "C",
+    "d": "vashonbeachcomber.com",
+    "n": "Vashon-Maury Island Beachcomber",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/vashon-maury-island-beachcomber-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "vaticannews.va": {

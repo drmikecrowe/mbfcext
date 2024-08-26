@@ -392,6 +392,15 @@
     "url": "https://mediabiasfactcheck.com/week-peoria-news-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "270towin.com",
+    "name": "270toWin",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/270towin-bias-and-credibility/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "2ndvote.com",
@@ -15330,6 +15339,15 @@
     "url": "https://mediabiasfactcheck.com/independence-bulletin-journal-bias-and-credibility/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "communitynewspapergroup.com/oelwein_daily_register",
+    "name": "Oelwein Daily Register",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/oelwein-daily-register-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "communitypress.ca",
@@ -16154,15 +16172,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/constative-bias/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "center",
@@ -17102,12 +17111,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -27894,6 +27900,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/genetics",
+    "name": "Frontiers in Genetics",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-genetics-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -38037,6 +38052,25 @@
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "kiyu.com",
@@ -45992,6 +46026,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/monroe-review-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "montanafreepress.org",
+    "name": "Montana Free Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/montana-free-press-mtfp-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -55003,6 +55046,15 @@
     "url": "https://mediabiasfactcheck.com/the-outlook-monmouth-university/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "outlookindia.com",
+    "name": "Outlook India",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/outlook-india-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "outlooknewspaper.com",
@@ -55239,6 +55291,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wbre-wyou-eyewitness-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "pajiba.com",
+    "name": "Pajiba",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/pajiba-bias-and-credibility/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -58501,13 +58562,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -69689,20 +69747,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
@@ -72924,6 +72978,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/the-list/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "thelocal.at",
+    "name": "The Local (Austria)",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-local-austria-bias/"
   },
   {
     "bias": "left-center",
@@ -79871,6 +79934,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/variety-magazine/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "vashonbeachcomber.com",
+    "name": "Vashon-Maury Island Beachcomber",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/vashon-maury-island-beachcomber-bias/"
   },
   {
     "bias": "right-center",
