@@ -901,12 +901,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -17821,6 +17819,16 @@
       "M"
     ]
   },
+  "constitution.com": {
+    "b": "C",
+    "d": "constitution.com",
+    "n": "The Constitution",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "H",
+    "a": "N",
+    "q": []
+  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -29413,16 +29421,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -64698,12 +64696,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -70892,17 +70893,6 @@
       "IM"
     ]
   },
-  "secretsofthefed.com": {
-    "b": "CP",
-    "d": "secretsofthefed.com",
-    "n": "Secrets of the Fed",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/secrets-of-the-fed/",
-    "P": 41,
-    "c": "L",
-    "a": "N",
-    "q": []
-  },
   "secure.actblue.com": {
     "b": "L",
     "d": "secure.actblue.com",
@@ -77027,18 +77017,21 @@
       "CEN"
     ]
   },
-  "tass.ru": {
+  "tass.com": {
     "b": "FN",
-    "d": "tass.ru",
-    "n": "Russian New Agency-Tass",
+    "d": "tass.com",
+    "f": "tassagency.eng",
+    "n": "Russian News Agency-TASS",
     "r": "M",
+    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
+    "P": 78,
     "c": "L",
-    "a": "H",
+    "a": "M",
     "q": [
+      "C",
       "P",
       "PS",
-      "FFC",
       "CEN"
     ]
   },
@@ -85701,11 +85694,11 @@
   "truthbroadcastnetwork.com": {
     "b": "CP",
     "d": "truthbroadcastnetwork.com",
-    "n": "Truth Broadcasting Network",
+    "n": "Truth Broadcating Network",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/truth-broadcasting-network/",
-    "P": 21,
-    "c": "L",
+    "P": 17,
+    "c": "NA",
     "a": "N",
     "q": []
   },
