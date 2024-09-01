@@ -5060,6 +5060,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/content/journals/lawsocsci": {
+    "b": "PS",
+    "d": "annualreviews.org/content/journals/lawsocsci",
+    "n": "Law and Social Science Journal",
+    "p": "/content/journals/lawsocsci",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/law-and-social-science-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annualreviews.org/journal/anchem": {
     "b": "PS",
     "d": "annualreviews.org/journal/anchem",
@@ -7295,6 +7306,16 @@
     "a": "M",
     "q": []
   },
+  "beaconresearch.com": {
+    "b": "LC",
+    "d": "beaconresearch.com",
+    "n": "Beacon Research/Shaw & Co",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/beacon-research-shaw-co-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "beantowntimes.com": {
     "b": "FN",
     "d": "beantowntimes.com",
@@ -9149,6 +9170,16 @@
     "u": "https://mediabiasfactcheck.com/progressive-change-campaign-committee/",
     "P": 57,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "boltsmag.org": {
+    "b": "LC",
+    "d": "boltsmag.org",
+    "n": "Bolts Magazine",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bolts-magazine-bias-and-credibility/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -14178,6 +14209,20 @@
       "IM"
     ]
   },
+  "centralpanews.com": {
+    "b": "FN",
+    "d": "centralpanews.com",
+    "n": "Central PA News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/central-pa-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "centralpatimes.com": {
     "b": "FN",
     "d": "centralpatimes.com",
@@ -14479,7 +14524,7 @@
     "b": "C",
     "d": "charitynavigator.org",
     "n": "Charity Navigator",
-    "r": "VH",
+    "r": "H",
     "u": "https://mediabiasfactcheck.com/charity-navigator/",
     "P": 72,
     "c": "H",
@@ -16363,6 +16408,20 @@
       "IM"
     ]
   },
+  "coalregionnews.com": {
+    "b": "FN",
+    "d": "coalregionnews.com",
+    "n": "Coal Region News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/coal-region-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "coastalganews.com": {
     "b": "FN",
     "d": "coastalganews.com",
@@ -16952,6 +17011,17 @@
     "p": "/oelwein_daily_register",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/oelwein-daily-register-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "communitynewspapergroup.com/waverly_newspapers": {
+    "b": "LC",
+    "d": "communitynewspapergroup.com/waverly_newspapers",
+    "n": "Waverly Newspapers",
+    "p": "/waverly_newspapers",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/waverly-newspapers-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -17818,16 +17888,6 @@
       "LT",
       "M"
     ]
-  },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
   },
   "constitutioncenter.org": {
     "b": "C",
@@ -18853,12 +18913,9 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "f": "BudgetHawks",
-    "n": "Committee for a Responsible Federal Buddget",
+    "n": "Committee for a Responsible Federal Budget",
     "r": "H",
-    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
-    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -20066,6 +20123,17 @@
     "P": 85,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
     "q": []
   },
   "dailynewsreported.com": {
@@ -21638,6 +21706,16 @@
     "u": "https://mediabiasfactcheck.com/salisbury-daily-times-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "delmarvapublicmedia.org": {
+    "b": "LC",
+    "d": "delmarvapublicmedia.org",
+    "n": "WESM - NPR - Ocean City",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wesm-npr-ocean-city-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "delo.si": {
@@ -26976,6 +27054,16 @@
       "LT"
     ]
   },
+  "fandmpoll.org": {
+    "b": "C",
+    "d": "fandmpoll.org",
+    "n": "Franklin & Marshall Opinion Research",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/franklin-marshall-opinion-research-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "fansided.com": {
     "b": "LC",
     "d": "fansided.com",
@@ -27426,6 +27514,16 @@
     "u": "https://mediabiasfactcheck.com/feministing/",
     "P": 80,
     "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "fenlandcitizen.co.uk": {
+    "b": "C",
+    "d": "fenlandcitizen.co.uk",
+    "n": "Fenland Citizen",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fenland-citizen-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -29333,12 +29431,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -35376,6 +35474,17 @@
     "a": "H",
     "q": []
   },
+  "hngnews.com/cambridge_deerfield": {
+    "b": "LC",
+    "d": "hngnews.com/cambridge_deerfield",
+    "n": "Cambridge News & Deerfield Independent",
+    "p": "/cambridge_deerfield",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/cambridge-news-deerfield-independent-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "hoax-slayer.com": {
     "b": "C",
     "d": "hoax-slayer.com",
@@ -39887,6 +39996,16 @@
     "a": "M",
     "q": []
   },
+  "jointheunion.us": {
+    "b": "LC",
+    "d": "jointheunion.us",
+    "n": "Join the Union",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/join-the-union-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "jonathanturley.org": {
     "b": "RC",
     "d": "jonathanturley.org",
@@ -41901,6 +42020,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -46912,6 +47050,16 @@
     "a": "L",
     "q": []
   },
+  "malvern-online.com": {
+    "b": "C",
+    "d": "malvern-online.com",
+    "n": "Malvern Daily Record",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/malvern-daily-record-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "malverngazette.co.uk": {
     "b": "C",
     "d": "malverngazette.co.uk",
@@ -48529,6 +48677,17 @@
     "a": "L",
     "q": []
   },
+  "mdpi.com/journal/computation": {
+    "b": "PS",
+    "d": "mdpi.com/journal/computation",
+    "n": "Computation Journal",
+    "p": "/journal/computation",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/computation-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "mdpi.com/journal/ctn": {
     "b": "PS",
     "d": "mdpi.com/journal/ctn",
@@ -48992,10 +49151,10 @@
     "a": "M",
     "q": []
   },
-  "meidastouch.com": {
+  "meidasnews.com": {
     "b": "L",
-    "d": "meidastouch.com",
-    "n": "MeidasTouch",
+    "d": "meidasnews.com",
+    "n": "MeidasTouch Network",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/meidastouch/",
     "P": 36,
@@ -59659,6 +59818,16 @@
       "IM"
     ]
   },
+  "oceanecosystems.biomedcentral.com": {
+    "b": "PS",
+    "d": "oceanecosystems.biomedcentral.com",
+    "n": "Ocean Ecosystems Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ocean-ecosystems-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "ocregister.com": {
     "b": "RC",
     "d": "ocregister.com",
@@ -64696,15 +64865,12 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -64854,6 +65020,16 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/petersburg-progress-index-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "progressive.international": {
+    "b": "L",
+    "d": "progressive.international",
+    "n": "Progressive International",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/progressive-international-bias/",
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -65800,6 +65976,16 @@
       "PSE"
     ]
   },
+  "quincyinst.org": {
+    "b": "C",
+    "d": "quincyinst.org",
+    "n": "Quincy Institute",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/quincy-institute-for-responsible-statecraft-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "quincyreporter.com": {
     "b": "FN",
     "d": "quincyreporter.com",
@@ -66119,6 +66305,16 @@
     "P": 83,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "rbth.com": {
+    "b": "RC",
+    "d": "rbth.com",
+    "n": "Russia Beyond",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/russia-beyond-rbth-bias-and-credibility/",
+    "c": "M",
+    "a": "M",
     "q": []
   },
   "rd.com": {
@@ -69242,6 +69438,16 @@
     "a": "M",
     "q": []
   },
+  "salisburyjounral.co.uk": {
+    "b": "C",
+    "d": "salisburyjounral.co.uk",
+    "n": "Salibury Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/salisbury-journal-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "salon.com": {
     "b": "L",
     "d": "salon.com",
@@ -69378,6 +69584,16 @@
     "P": 3,
     "c": "NA",
     "a": "N",
+    "q": []
+  },
+  "sandersinstitute.org": {
+    "b": "L",
+    "d": "sandersinstitute.org",
+    "n": "Sanders Institute",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/sanders-institute-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "sandhillstoday.com": {
@@ -70892,6 +71108,17 @@
       "FC",
       "IM"
     ]
+  },
+  "secretsofthefed.com": {
+    "b": "CP",
+    "d": "secretsofthefed.com",
+    "n": "Secrets of the Fed",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/secrets-of-the-fed/",
+    "P": 41,
+    "c": "L",
+    "a": "N",
+    "q": []
   },
   "secure.actblue.com": {
     "b": "L",
@@ -76128,6 +76355,17 @@
     "a": "L",
     "q": []
   },
+  "sussexexpress.co.uk/your-sussex/east-sussex/hastings-and-rye": {
+    "b": "C",
+    "d": "sussexexpress.co.uk/your-sussex/east-sussex/hastings-and-rye",
+    "n": "Hastings Observer",
+    "p": "/your-sussex/east-sussex/hastings-and-rye",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hastings-observer-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sussexexpress.co.uk/your-sussex/west-sussex/chichester": {
     "b": "C",
     "d": "sussexexpress.co.uk/your-sussex/west-sussex/chichester",
@@ -77017,21 +77255,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -80602,6 +80837,16 @@
     "P": 52,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "themainemonitor.org": {
+    "b": "LC",
+    "d": "themainemonitor.org",
+    "n": "Maine Monitor",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/maine-monitor-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "themanhattan.press": {
@@ -85694,11 +85939,11 @@
   "truthbroadcastnetwork.com": {
     "b": "CP",
     "d": "truthbroadcastnetwork.com",
-    "n": "Truth Broadcating Network",
+    "n": "Truth Broadcasting Network",
     "r": "L",
     "u": "https://mediabiasfactcheck.com/truth-broadcasting-network/",
-    "P": 17,
-    "c": "NA",
+    "P": 21,
+    "c": "L",
     "a": "N",
     "q": []
   },
@@ -88897,6 +89142,16 @@
     "P": 29,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "votersoftomorrow.org": {
+    "b": "LC",
+    "d": "votersoftomorrow.org",
+    "n": "Voters of Tomorrow",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/voters-of-tomorrow-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "votevets.org": {
@@ -92751,6 +93006,16 @@
     "a": "L",
     "q": []
   },
+  "wkzo.com": {
+    "b": "R",
+    "d": "wkzo.com",
+    "n": "WKZO - 590 AM - Kalamazoo",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wkzo-590-am-kalamazoo-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "wlbt.com": {
     "b": "C",
     "d": "wlbt.com",
@@ -94633,6 +94898,16 @@
     "u": "https://mediabiasfactcheck.com/kgwn-wyoming-news-now/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wypr.org": {
+    "b": "LC",
+    "d": "wypr.org",
+    "n": "WYPR - NPR - Baltimore",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wypr-npr-baltimore-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "wytv.com": {
