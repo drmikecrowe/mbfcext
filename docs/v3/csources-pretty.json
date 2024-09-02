@@ -6794,6 +6794,16 @@
     "a": "M",
     "q": []
   },
+  "bainbridgereview.com": {
+    "b": "C",
+    "d": "bainbridgereview.com",
+    "n": "Bainbridge Island Review",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/bainbridge-island-review-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "bajacaliforniapost.com": {
     "b": "FN",
     "d": "bajacaliforniapost.com",
@@ -18861,7 +18871,7 @@
     "q": []
   },
   "crescent-news.com": {
-    "b": "LC",
+    "b": "RC",
     "d": "crescent-news.com",
     "n": "Defiance Crescent News",
     "r": "H",
@@ -25353,21 +25363,6 @@
       "FFC"
     ]
   },
-  "en.hawarnews.org": {
-    "b": "FN",
-    "d": "en.hawarnews.org",
-    "n": "Hawar News Agancy",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/hawar-news-agency/",
-    "P": 9,
-    "c": "L",
-    "a": "L",
-    "q": [
-      "C",
-      "P",
-      "PS"
-    ]
-  },
   "en.majalla.com": {
     "b": "FN",
     "d": "en.majalla.com",
@@ -30815,6 +30810,17 @@
     "a": "L",
     "q": []
   },
+  "frontiersin.org/journals/genome-editing": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/genome-editing",
+    "n": "Frontiers in Genome Editing",
+    "p": "/journals/genome-editing",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-genome-editing-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "frontiersin.org/journals/psychology": {
     "b": "PS",
     "d": "frontiersin.org/journals/psychology",
@@ -34240,6 +34246,22 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "hawarnews.com/en": {
+    "b": "FN",
+    "d": "hawarnews.com/en",
+    "n": "Hawar News Agancy",
+    "p": "/en",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/hawar-news-agency/",
+    "P": 9,
+    "c": "L",
+    "a": "L",
+    "q": [
+      "C",
+      "P",
+      "PS"
+    ]
   },
   "hawkeyereporter.com": {
     "b": "FN",
@@ -54113,6 +54135,16 @@
       "IM"
     ]
   },
+  "nepm.org": {
+    "b": "LC",
+    "d": "nepm.org",
+    "n": "WFCR - NPR - Amherst",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wfcr-npr-amherst-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "nesacramentonews.com": {
     "b": "FN",
     "d": "nesacramentonews.com",
@@ -73105,6 +73137,16 @@
     "a": "L",
     "q": []
   },
+  "somersetcountygazette.co.uk": {
+    "b": "C",
+    "d": "somersetcountygazette.co.uk",
+    "n": "Somerset County Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/somerset-county-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "somersettimes.com": {
     "b": "FN",
     "d": "somersettimes.com",
@@ -80768,6 +80810,16 @@
     "n": "The Local (Austria)",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-local-austria-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "thelocal.dk": {
+    "b": "LC",
+    "d": "thelocal.dk",
+    "n": "The Local (Denmark)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-local-denmark-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -88516,6 +88568,16 @@
     "u": "https://mediabiasfactcheck.com/verify-fact-check-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "veritenews.org": {
+    "b": "LC",
+    "d": "veritenews.org",
+    "n": "Verite News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/verite-news-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "vermilionstandard.com": {

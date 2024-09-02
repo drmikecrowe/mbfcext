@@ -6207,6 +6207,15 @@
     "url": "https://mediabiasfactcheck.com/the-badger-institute/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "bainbridgereview.com",
+    "name": "Bainbridge Island Review",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bainbridge-island-review-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "bajacaliforniapost.com",
@@ -17123,7 +17132,7 @@
     "url": "https://mediabiasfactcheck.com/credo-action/"
   },
   {
-    "bias": "left-center",
+    "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crescent-news.com",
     "name": "Defiance Crescent News",
@@ -23057,23 +23066,6 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "en.hawarnews.org",
-    "name": "Hawar News Agancy",
-    "popularity": 9,
-    "questionable": [
-      "conspiracy",
-      "censorship",
-      "propaganda",
-      "plagiarism",
-      "pseudoscience",
-      "poor-sourcing"
-    ],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/hawar-news-agency/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
     "domain": "en.majalla.com",
     "facebook": "the.majalla",
     "name": "The Majalla",
@@ -27996,6 +27988,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/genome-editing",
+    "name": "Frontiers in Genome Editing",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-genome-editing-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "frontiersin.org/journals/psychology",
     "facebook": "Frontiersin",
     "name": "Frontiers in Psychology",
@@ -31138,6 +31139,23 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/hawaii-tribune-herald-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "hawarnews.com/en",
+    "name": "Hawar News Agancy",
+    "popularity": 9,
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/hawar-news-agency/"
   },
   {
     "bias": "fake-news",
@@ -48961,6 +48979,15 @@
     "url": "https://mediabiasfactcheck.com/ne-piedmont-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nepm.org",
+    "name": "WFCR - NPR - Amherst",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wfcr-npr-amherst-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "nesacramentonews.com",
@@ -66208,6 +66235,15 @@
     "url": "https://mediabiasfactcheck.com/somerset-commonwealth-journal-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "somersetcountygazette.co.uk",
+    "name": "Somerset County Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/somerset-county-gazette-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "somersettimes.com",
@@ -73173,6 +73209,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-local-austria-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "thelocal.dk",
+    "name": "The Local (Denmark)",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-local-denmark-bias/"
   },
   {
     "bias": "left-center",
@@ -80286,6 +80331,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/verify-fact-check-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "veritenews.org",
+    "name": "Verite News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/verite-news-bias-and-credibility/"
   },
   {
     "bias": "right-center",
