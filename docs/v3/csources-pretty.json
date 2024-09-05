@@ -5071,6 +5071,17 @@
     "a": "L",
     "q": []
   },
+  "annualreviews.org/content/journals/linguistics": {
+    "b": "PS",
+    "d": "annualreviews.org/content/journals/linguistics",
+    "n": "Annual Review of Linguistics",
+    "p": "/content/journals/linguistics",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/annual-review-of-linguistics-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "annualreviews.org/journal/anchem": {
     "b": "PS",
     "d": "annualreviews.org/journal/anchem",
@@ -18805,6 +18816,20 @@
     "a": "L",
     "q": []
   },
+  "crawfordtimes.com": {
+    "b": "FN",
+    "d": "crawfordtimes.com",
+    "n": "Crawford Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/crawford-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "creambmp.com": {
     "b": "S",
     "d": "creambmp.com",
@@ -18923,12 +18948,9 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "f": "BudgetHawks",
-    "n": "Committee for a Responsible Federal Buddget",
+    "n": "Committee for a Responsible Federal Budget",
     "r": "H",
-    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
-    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -19326,6 +19348,20 @@
       "FC",
       "M",
       "PSE"
+    ]
+  },
+  "cumberlandvalleynews.com": {
+    "b": "FN",
+    "d": "cumberlandvalleynews.com",
+    "n": "Cumberland Valley News",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/cumberland-valley-news-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
     ]
   },
   "cumberlink.com": {
@@ -20529,6 +20565,16 @@
     "a": "M",
     "q": []
   },
+  "dailyunion.com": {
+    "b": "RC",
+    "d": "dailyunion.com",
+    "n": "Daily Jefferson County Union",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/daily-jefferson-county-union-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "dailyusaupdate.com": {
     "b": "FN",
     "d": "dailyusaupdate.com",
@@ -21342,6 +21388,16 @@
       "LT",
       "M"
     ]
+  },
+  "deepsouthtoday.org": {
+    "b": "LC",
+    "d": "deepsouthtoday.org",
+    "n": "Deep South Today",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/deep-south-today-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "deepsouthvoice.com": {
     "b": "L",
@@ -25677,6 +25733,16 @@
       "CEN"
     ]
   },
+  "english.cambodiadaily.com": {
+    "b": "LC",
+    "d": "english.cambodiadaily.com",
+    "n": "Cambodia Daily",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/cambodia-daily-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "english.cctv.com": {
     "b": "FN",
     "d": "english.cctv.com",
@@ -29319,6 +29385,16 @@
     "a": "M",
     "q": []
   },
+  "frederickpolls.com": {
+    "b": "C",
+    "d": "frederickpolls.com",
+    "n": "Frederick Polls",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frederick-polls-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "fredericksburg.com": {
     "b": "C",
     "d": "fredericksburg.com",
@@ -31914,6 +31990,16 @@
       "P",
       "PS"
     ]
+  },
+  "ggenyc.org": {
+    "b": "L",
+    "d": "ggenyc.org",
+    "n": "Girls for Gender Equity",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/girls-for-gender-equity-gge-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "ghionjournal.com": {
     "b": "L",
@@ -35635,7 +35721,7 @@
     "q": []
   },
   "hometownsource.com/abc_newspapers": {
-    "b": "LC",
+    "b": "C",
     "d": "hometownsource.com/abc_newspapers",
     "n": "Anoka County Union Herald",
     "p": "/abc_newspapers",
@@ -60200,6 +60286,16 @@
     "a": "L",
     "q": []
   },
+  "omjournal.biomedcentral.com": {
+    "b": "PS",
+    "d": "omjournal.biomedcentral.com",
+    "n": "Ocean Microbiology Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/ocean-microbiology-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "omni.se": {
     "b": "C",
     "d": "omni.se",
@@ -77300,21 +77396,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -82017,6 +82110,16 @@
     "a": "L",
     "q": []
   },
+  "thepostandmail.com": {
+    "b": "C",
+    "d": "thepostandmail.com",
+    "n": "Columbia City Post and Mail",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/columbia-city-post-and-mail-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thepostemail.com": {
     "b": "FN",
     "d": "thepostemail.com",
@@ -86414,6 +86517,16 @@
       "PSE"
     ]
   },
+  "turnoutpac.org": {
+    "b": "LC",
+    "d": "turnoutpac.org",
+    "n": "Progressive Turnout Project",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/progressive-turnout-project-turnoutpac-bias-and-credibility/",
+    "c": "M",
+    "a": "M",
+    "q": []
+  },
   "turnto10.com": {
     "b": "RC",
     "d": "turnto10.com",
@@ -90296,6 +90409,16 @@
     "a": "M",
     "q": []
   },
+  "wbur.org": {
+    "b": "LC",
+    "d": "wbur.org",
+    "n": "WBUR - NPR - Boston",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/wbur-npr-boston-bias/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "wc minnesota news": {
     "b": "FN",
     "n": "WC Minnesota Newsa",
@@ -93252,6 +93375,16 @@
     "u": "https://mediabiasfactcheck.com/wmar-baltimore-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wmbdradio.com": {
+    "b": "RC",
+    "d": "wmbdradio.com",
+    "n": "WMBD - 1470 AM - Peoria",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/wmbd-1470-am-peoria-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wmbfnews.com": {

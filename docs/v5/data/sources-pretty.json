@@ -4652,6 +4652,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/linguistics",
+    "name": "Annual Review of Linguistics",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/annual-review-of-linguistics-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -17071,6 +17080,18 @@
     "url": "https://mediabiasfactcheck.com/craven-herald-pioneer-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "crawfordtimes.com",
+    "name": "Crawford Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/crawford-times-bias/"
+  },
+  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "creambmp.com",
@@ -17180,12 +17201,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -17549,6 +17567,18 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/culture-watch-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "cumberlandvalleynews.com",
+    "name": "Cumberland Valley News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/cumberland-valley-news-bias/"
   },
   {
     "bias": "center",
@@ -18651,6 +18681,15 @@
     "url": "https://mediabiasfactcheck.com/daily-trust-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "dailyunion.com",
+    "name": "Daily Jefferson County Union",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/daily-jefferson-county-union-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "dailyusaupdate.com",
@@ -19402,6 +19441,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/deep-left-field/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "deepsouthtoday.org",
+    "name": "Deep South Today",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/deep-south-today-bias/"
   },
   {
     "bias": "left",
@@ -23356,6 +23404,15 @@
     "url": "https://mediabiasfactcheck.com/al-mayadeen-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "english.cambodiadaily.com",
+    "name": "Cambodia Daily",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/cambodia-daily-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "english.cctv.com",
@@ -26699,6 +26756,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "frederickpolls.com",
+    "name": "Frederick Polls",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frederick-polls-bias-and-credibility/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "fredericksburg.com",
     "name": "Fredericksburgh Free Lance Star",
     "questionable": [],
@@ -28988,6 +29054,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/gettr/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "ggenyc.org",
+    "name": "Girls for Gender Equity",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/girls-for-gender-equity-gge-bias-and-credibility/"
   },
   {
     "bias": "left",
@@ -32408,7 +32483,7 @@
     "url": "https://mediabiasfactcheck.com/mount-carmel-register-bias/"
   },
   {
-    "bias": "left-center",
+    "bias": "center",
     "credibility": "high-credibility",
     "domain": "hometownsource.com/abc_newspapers",
     "name": "Anoka County Union Herald",
@@ -54464,6 +54539,15 @@
     "url": "https://mediabiasfactcheck.com/vanderhoof-omineca-express-bias/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "omjournal.biomedcentral.com",
+    "name": "Ocean Microbiology Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/ocean-microbiology-journal-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "medium-credibility",
     "domain": "omni.se",
@@ -69972,20 +70056,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
@@ -74344,6 +74424,15 @@
     "url": "https://mediabiasfactcheck.com/hanover-post-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "thepostandmail.com",
+    "name": "Columbia City Post and Mail",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/columbia-city-post-and-mail-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "thepostemail.com",
@@ -78336,6 +78425,15 @@
     "url": "https://mediabiasfactcheck.com/turley-talks-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "turnoutpac.org",
+    "name": "Progressive Turnout Project",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/progressive-turnout-project-turnoutpac-bias-and-credibility/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "turnto10.com",
@@ -81912,6 +82010,15 @@
     "url": "https://mediabiasfactcheck.com/wbtw-myrtle-beach-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wbur.org",
+    "name": "WBUR - NPR - Boston",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wbur-npr-boston-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "wc minnesota news",
@@ -84564,6 +84671,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wmar-baltimore-news-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "wmbdradio.com",
+    "name": "WMBD - 1470 AM - Peoria",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/wmbd-1470-am-peoria-bias/"
   },
   {
     "bias": "center",
