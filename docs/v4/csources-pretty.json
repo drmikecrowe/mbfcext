@@ -901,10 +901,12 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "n": "The American Association for the Advancement of Science (AAAS)",
+    "f": "AAAS.Science",
+    "n": "American association for the advancement of science.",
     "r": "VH",
+    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 74,
+    "P": 87,
     "c": "H",
     "a": "M",
     "q": []
@@ -20177,17 +20179,6 @@
     "a": "M",
     "q": []
   },
-  "dailynewsbin.com": {
-    "b": "L",
-    "d": "dailynewsbin.com",
-    "n": "Daily Newsbin",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
-    "P": 34,
-    "c": "M",
-    "a": "N",
-    "q": []
-  },
   "dailynewsreported.com": {
     "b": "S",
     "d": "dailynewsreported.com",
@@ -29508,12 +29499,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Cross Roads",
+    "n": "Freedom Crossroads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 21,
+    "P": 10,
     "c": "M",
-    "a": "N",
+    "a": "L",
     "q": []
   },
   "freedomdaily.com": {
@@ -29596,6 +29587,16 @@
       "LT",
       "M"
     ]
+  },
+  "freedomoutpost.com": {
+    "b": "FN",
+    "d": "freedomoutpost.com",
+    "n": "Freedom Outpost",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "N",
+    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -42134,25 +42135,6 @@
     "c": "H",
     "a": "M",
     "q": []
-  },
-  "kiwifarms.net": {
-    "b": "FN",
-    "d": "kiwifarms.net",
-    "n": "Kiwi Farms",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "M",
-    "q": [
-      "C",
-      "P",
-      "PS",
-      "LT",
-      "FC",
-      "M",
-      "H",
-      "PSE"
-    ]
   },
   "kiyu.com": {
     "b": "LC",
