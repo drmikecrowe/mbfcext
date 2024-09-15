@@ -901,12 +901,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -1989,7 +1987,7 @@
     ]
   },
   "afp.com": {
-    "b": "C",
+    "b": "LC",
     "d": "afp.com",
     "f": "AFPnewsenglish",
     "n": "Agence France-Presse (AFP)",
@@ -17912,6 +17910,16 @@
       "M"
     ]
   },
+  "constitution.com": {
+    "b": "C",
+    "d": "constitution.com",
+    "n": "The Constitution",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "H",
+    "a": "N",
+    "q": []
+  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -29587,16 +29595,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -64981,12 +64979,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -65968,6 +65969,17 @@
     "P": 76,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "qpolitical.com": {
+    "b": "FN",
+    "d": "qpolitical.com",
+    "n": "Qpolitical",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "P": 20,
+    "c": "L",
+    "a": "N",
     "q": []
   },
   "quackwatch.org": {
@@ -71224,17 +71236,6 @@
       "FC",
       "IM"
     ]
-  },
-  "secretsofthefed.com": {
-    "b": "CP",
-    "d": "secretsofthefed.com",
-    "n": "Secrets of the Fed",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/secrets-of-the-fed/",
-    "P": 41,
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "secure.actblue.com": {
     "b": "L",
@@ -86119,16 +86120,6 @@
     "P": 82,
     "c": "H",
     "a": "L",
-    "q": []
-  },
-  "truthexam.com": {
-    "b": "FN",
-    "d": "truthexam.com",
-    "n": "Truth Examiner",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "c": "L",
-    "a": "N",
     "q": []
   },
   "truthfeednews.com": {

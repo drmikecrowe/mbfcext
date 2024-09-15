@@ -825,12 +825,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -1822,7 +1820,7 @@
     "url": "https://mediabiasfactcheck.com/onenewsnow/"
   },
   {
-    "bias": "center",
+    "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "afp.com",
     "facebook": "AFPnewsenglish",
@@ -16256,6 +16254,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "constitution.com",
+    "name": "The Constitution",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -26943,15 +26950,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -58793,10 +58791,13 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.com",
-    "name": "Principia-Scientific.com",
+    "domain": "principia-scientific.org",
+    "facebook": "Principia-Scientific-International",
+    "name": "Principia Scientific International",
+    "popularity": 49,
     "questionable": [],
     "reporting": "low",
+    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -59706,6 +59707,16 @@
     "reporting": "high",
     "twitter": "qctimes",
     "url": "https://mediabiasfactcheck.com/quad-city-times/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "qpolitical.com",
+    "name": "Qpolitical",
+    "popularity": 20,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "pro-science",
@@ -64530,16 +64541,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
-  },
-  {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "secretsofthefed.com",
-    "name": "Secrets of the Fed",
-    "popularity": 41,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
     "bias": "left",
@@ -78073,15 +78074,6 @@
     "reporting": "high",
     "twitter": "Truthdig",
     "url": "https://mediabiasfactcheck.com/truthdig/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "truthexam.com",
-    "name": "Truth Examiner",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "fake-news",
