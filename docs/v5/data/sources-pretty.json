@@ -23531,6 +23531,15 @@
     "url": "https://mediabiasfactcheck.com/enduring-vision/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "energsustainsoc.biomedcentral.com",
+    "name": "Energy, Sustainability and Society Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/energy-sustainability-and-society-journal-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "energycitizens.org",
@@ -31686,7 +31695,10 @@
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/headline-usa-bias/"
@@ -34052,6 +34064,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/ilkley-gazette-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "illawarramercury.com.au",
+    "name": "Illawarra Mercury",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/illawarra-mercury-bias/"
   },
   {
     "bias": "fake-news",
@@ -66154,6 +66175,15 @@
     "url": "https://mediabiasfactcheck.com/sierra-sun-bias/"
   },
   {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "sightline.org",
+    "name": "Sightline Institute",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/sightline-institute-bias-and-credibility/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "significancemagazine.com",
@@ -75009,6 +75039,15 @@
     ],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/the-phaser-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "thepilotnews.com",
+    "name": "Plymouth Pilot-News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/plymouth-pilot-news-bias/"
   },
   {
     "bias": "left",
@@ -86352,6 +86391,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/wrtv-indianapolis-news-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "wsau.com",
+    "name": "WSAU - 550 AM - Wausau",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/keystone-today-bias/"
   },
   {
     "bias": "center",

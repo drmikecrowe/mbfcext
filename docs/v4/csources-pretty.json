@@ -25883,6 +25883,16 @@
     "a": "N",
     "q": []
   },
+  "energsustainsoc.biomedcentral.com": {
+    "b": "PS",
+    "d": "energsustainsoc.biomedcentral.com",
+    "n": "Energy, Sustainability and Society Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/energy-sustainability-and-society-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "energycitizens.org": {
     "b": "R",
     "d": "energycitizens.org",
@@ -34860,7 +34870,11 @@
       "C",
       "P",
       "PS",
-      "LT"
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "PSE"
     ]
   },
   "headtopics.com": {
@@ -37504,6 +37518,16 @@
     "n": "Ilkley Gazette",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/ilkley-gazette-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "illawarramercury.com.au": {
+    "b": "LC",
+    "d": "illawarramercury.com.au",
+    "n": "Illawarra Mercury",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/illawarra-mercury-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -73061,6 +73085,16 @@
     "a": "M",
     "q": []
   },
+  "sightline.org": {
+    "b": "L",
+    "d": "sightline.org",
+    "n": "Sightline Institute",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/sightline-institute-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "significancemagazine.com": {
     "b": "PS",
     "d": "significancemagazine.com",
@@ -82783,6 +82817,16 @@
       "FN",
       "PSE"
     ]
+  },
+  "thepilotnews.com": {
+    "b": "C",
+    "d": "thepilotnews.com",
+    "n": "Plymouth Pilot-News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/plymouth-pilot-news-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
   },
   "thepinknews.com": {
     "b": "L",
@@ -95231,6 +95275,16 @@
     "u": "https://mediabiasfactcheck.com/wrtv-indianapolis-news-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "wsau.com": {
+    "b": "R",
+    "d": "wsau.com",
+    "n": "WSAU - 550 AM - Wausau",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/keystone-today-bias/",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "wsav.com": {
