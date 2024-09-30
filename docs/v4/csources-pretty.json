@@ -911,12 +911,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -18069,6 +18067,16 @@
       "M"
     ]
   },
+  "constitution.com": {
+    "b": "C",
+    "d": "constitution.com",
+    "n": "The Constitution",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "H",
+    "a": "N",
+    "q": []
+  },
   "constitutioncenter.org": {
     "b": "C",
     "d": "constitutioncenter.org",
@@ -20362,6 +20370,17 @@
     "P": 85,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
     "q": []
   },
   "dailynewsreported.com": {
@@ -29797,12 +29816,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -29885,16 +29904,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -54283,9 +54292,8 @@
     "n": "National Center for Science (NCSE)",
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/",
-    "P": 69,
-    "c": "H",
-    "a": "M",
+    "c": "NA",
+    "a": "N",
     "q": []
   },
   "ncsl.org": {
@@ -65555,12 +65563,15 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.com": {
+  "principia-scientific.org": {
     "b": "CP",
-    "d": "principia-scientific.com",
-    "n": "Principia-Scientific.com",
+    "d": "principia-scientific.org",
+    "f": "Principia-Scientific-International",
+    "n": "Principia Scientific International",
     "r": "L",
+    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
+    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -78123,18 +78134,21 @@
       "CEN"
     ]
   },
-  "tass.ru": {
+  "tass.com": {
     "b": "FN",
-    "d": "tass.ru",
-    "n": "Russian New Agency-Tass",
+    "d": "tass.com",
+    "f": "tassagency.eng",
+    "n": "Russian News Agency-TASS",
     "r": "M",
+    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
+    "P": 78,
     "c": "L",
-    "a": "H",
+    "a": "M",
     "q": [
+      "C",
       "P",
       "PS",
-      "FFC",
       "CEN"
     ]
   },
