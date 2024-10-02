@@ -60217,6 +60217,16 @@
     "url": "https://mediabiasfactcheck.com/quad-city-times/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "qpolitical.com",
+    "name": "Qpolitical",
+    "popularity": 20,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/qpolitical/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "quackwatch.org",
@@ -65065,16 +65075,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
-  },
-  {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "secretsofthefed.com",
-    "name": "Secrets of the Fed",
-    "popularity": 41,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
     "bias": "left",
@@ -78842,15 +78842,6 @@
     "reporting": "high",
     "twitter": "Truthdig",
     "url": "https://mediabiasfactcheck.com/truthdig/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "truthexam.com",
-    "name": "Truth Examiner",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "fake-news",
