@@ -834,12 +834,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -4716,6 +4714,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/annual-review-of-materials-research-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/med",
+    "name": "Annual Review of Medicine",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/annual-review-of-medicine-bias/"
   },
   {
     "bias": "pro-science",
@@ -17360,12 +17367,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -18496,6 +18500,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -21345,6 +21359,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/druthers-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dsausa.org",
+    "name": "Democratic Socialists of America",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/democratic-socialists-of-america-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -27126,8 +27149,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -27208,15 +27231,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -28358,6 +28372,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/frontiers-in-health-services-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "frontiersin.org/journals/hematology",
+    "name": "Frontiers in Hematology",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/frontiers-in-hematology-bias/"
   },
   {
     "bias": "pro-science",
@@ -32097,6 +32120,15 @@
     "url": "https://mediabiasfactcheck.com/journal-of-politics-and-society/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "hemeltoday.co.uk",
+    "name": "Hemel Hempstead Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/hemel-hempstead-gazette-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "hendersondispatch.com",
@@ -33485,6 +33517,14 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/human-genomics-bias/"
+  },
+  {
+    "bias": "satire",
+    "credibility": "n/a",
+    "domain": "humortimes.com",
+    "name": "Humor Times",
+    "questionable": [],
+    "url": "https://mediabiasfactcheck.com/humor-times-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -35118,6 +35158,15 @@
     "url": "https://mediabiasfactcheck.com/insider/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "insideradvantage.com",
+    "name": "InsiderAdvantage",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/insideradvantage-bias-and-credibility/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "insidescience.org",
@@ -35776,6 +35825,15 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/islamicity-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "islandssounder.com",
+    "name": "Islands Sounder",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/islands-sounder-bias/"
   },
   {
     "bias": "pro-science",
@@ -38131,6 +38189,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "kentonline.co.uk/herne-bay",
+    "name": "Herne Bay Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/herne-bay-gazette-bias/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "kentreporter.com",
     "name": "Kent Reporter",
     "questionable": [],
@@ -38724,6 +38791,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -40675,6 +40761,18 @@
     "reporting": "mixed",
     "twitter": "ACNLatitudes",
     "url": "https://mediabiasfactcheck.com/acn-latitudes/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "laurelhighlandstoday.com",
+    "name": "Laurel Highlands Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/laurel-highlands-today-bias/"
   },
   {
     "bias": "left-center",
@@ -44684,6 +44782,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/conservation-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/constrmater",
+    "name": "Construction Materials Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/construction-materials-journal-bias/"
   },
   {
     "bias": "pro-science",
@@ -49107,9 +49214,10 @@
   },
   {
     "bias": "pro-science",
-    "credibility": "n/a",
+    "credibility": "high-credibility",
     "domain": "ncse.ngo",
     "name": "National Center for Science (NCSE)",
+    "popularity": 69,
     "questionable": [],
     "reporting": "very-high",
     "url": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/"
@@ -49748,6 +49856,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/newburyport-daily-news-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "newcastleherald.com.au",
+    "name": "Newcastle Herald",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/newcastle-herald-bias/"
   },
   {
     "bias": "fake-news",
@@ -56010,6 +56127,15 @@
     "url": "https://mediabiasfactcheck.com/paducah-sun-bias/"
   },
   {
+    "bias": "right-center",
+    "credibility": "medium-credibility",
+    "domain": "pagesix.com",
+    "name": "Page Six",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/page-six-bias-and-credibility/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "paho.org",
@@ -59120,6 +59246,15 @@
     "url": "https://mediabiasfactcheck.com/u-s-press-freedom-tracker-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "pressgazette.co.uk",
+    "name": "Press Gazette",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/press-gazette-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "pressherald.com",
@@ -59299,13 +59434,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -60215,16 +60347,6 @@
     "reporting": "high",
     "twitter": "qctimes",
     "url": "https://mediabiasfactcheck.com/quad-city-times/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "qpolitical.com",
-    "name": "Qpolitical",
-    "popularity": 20,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "pro-science",
@@ -65077,6 +65199,16 @@
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
   },
   {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "secretsofthefed.com",
+    "name": "Secrets of the Fed",
+    "popularity": 41,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
+  },
+  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "secure.actblue.com",
@@ -66007,6 +66139,15 @@
     "url": "https://mediabiasfactcheck.com/ludington-daily-news-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "shorelinemedia.net/oceanas_herald_journal",
+    "name": "Oceana's Herald-Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/oceanas-herald-journal-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "shorenewsnetwork.com",
@@ -66398,6 +66539,20 @@
     "url": "https://mediabiasfactcheck.com/stockholm-international-peace-research-institute-sipri-bias-and-credibility/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "sixthtone.com",
+    "name": "Sixth Tone",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/sixth-tone-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "sj-r.com",
@@ -66607,6 +66762,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "slovenskanovice.si",
+    "name": "Slovenska Novice",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/slovenske-novice-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "sltrib.com",
     "facebook": "saltlaketribune",
     "name": "Salt Lake Tribune",
@@ -66615,6 +66779,15 @@
     "reporting": "high",
     "twitter": "sltrib",
     "url": "https://mediabiasfactcheck.com/salt-lake-tribune/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "smartbrief.com",
+    "name": "SmartBrief",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/smartbrief-bias/"
   },
   {
     "bias": "center",
@@ -70701,20 +70874,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
@@ -73323,6 +73492,15 @@
     "url": "https://mediabiasfactcheck.com/the-hard-times/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "theharrispoll.com",
+    "name": "Harris Poll",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/harris-poll-bias-and-credibility/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "thehawkeye.com",
@@ -73973,6 +74151,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-local-denmark-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "thelocal.es",
+    "name": "The Local (Spain)",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-local-spain-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -78842,6 +79029,15 @@
     "reporting": "high",
     "twitter": "Truthdig",
     "url": "https://mediabiasfactcheck.com/truthdig/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "truthexam.com",
+    "name": "Truth Examiner",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "fake-news",

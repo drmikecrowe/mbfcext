@@ -911,12 +911,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -5146,6 +5144,17 @@
     "p": "/content/journals/matsci",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/annual-review-of-materials-research-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "annualreviews.org/content/journals/med": {
+    "b": "PS",
+    "d": "annualreviews.org/content/journals/med",
+    "n": "Annual Review of Medicine",
+    "p": "/content/journals/med",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/annual-review-of-medicine-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -19125,12 +19134,9 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "f": "BudgetHawks",
-    "n": "Committee for a Responsible Federal Buddget",
+    "n": "Committee for a Responsible Federal Budget",
     "r": "H",
-    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
-    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -20362,6 +20368,17 @@
     "P": 85,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
     "q": []
   },
   "dailynewsreported.com": {
@@ -23452,6 +23469,16 @@
       "H",
       "PSE"
     ]
+  },
+  "dsausa.org": {
+    "b": "L",
+    "d": "dsausa.org",
+    "n": "Democratic Socialists of America",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/democratic-socialists-of-america-bias-and-credibility/",
+    "c": "M",
+    "a": "M",
+    "q": []
   },
   "dubuquetimes.com": {
     "b": "FN",
@@ -29797,12 +29824,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -29885,16 +29912,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -31231,6 +31248,17 @@
     "p": "/journals/health-services",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/frontiers-in-health-services-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "frontiersin.org/journals/hematology": {
+    "b": "PS",
+    "d": "frontiersin.org/journals/hematology",
+    "n": "Frontiers in Hematology",
+    "p": "/journals/hematology",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/frontiers-in-hematology-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -35307,6 +35335,16 @@
     "a": "L",
     "q": []
   },
+  "hemeltoday.co.uk": {
+    "b": "C",
+    "d": "hemeltoday.co.uk",
+    "n": "Hemel Hempstead Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/hemel-hempstead-gazette-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "hendersondispatch.com": {
     "b": "RC",
     "d": "hendersondispatch.com",
@@ -36874,6 +36912,15 @@
     "r": "H",
     "u": "https://mediabiasfactcheck.com/human-genomics-bias/",
     "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "humortimes.com": {
+    "b": "S",
+    "d": "humortimes.com",
+    "n": "Humor Times",
+    "u": "https://mediabiasfactcheck.com/humor-times-bias-and-credibility/",
+    "c": "NA",
     "a": "L",
     "q": []
   },
@@ -38696,6 +38743,16 @@
     "a": "N",
     "q": []
   },
+  "insideradvantage.com": {
+    "b": "C",
+    "d": "insideradvantage.com",
+    "n": "InsiderAdvantage",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/insideradvantage-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "insidescience.org": {
     "b": "PS",
     "d": "insidescience.org",
@@ -39415,6 +39472,16 @@
     "u": "https://mediabiasfactcheck.com/islamicity-bias/",
     "c": "M",
     "a": "M",
+    "q": []
+  },
+  "islandssounder.com": {
+    "b": "C",
+    "d": "islandssounder.com",
+    "n": "Islands Sounder",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/islands-sounder-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "ispp.org": {
@@ -42006,6 +42073,17 @@
     "a": "L",
     "q": []
   },
+  "kentonline.co.uk/herne-bay": {
+    "b": "C",
+    "d": "kentonline.co.uk/herne-bay",
+    "n": "Herne Bay Gazette",
+    "p": "/herne-bay",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/herne-bay-gazette-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "kentreporter.com": {
     "b": "C",
     "d": "kentreporter.com",
@@ -42668,6 +42746,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -44850,6 +44947,20 @@
     "c": "L",
     "a": "L",
     "q": []
+  },
+  "laurelhighlandstoday.com": {
+    "b": "FN",
+    "d": "laurelhighlandstoday.com",
+    "n": "Laurel Highlands Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/laurel-highlands-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "laureloutlook.com": {
     "b": "LC",
@@ -49354,6 +49465,17 @@
     "p": "/journal/conservation",
     "r": "MF",
     "u": "https://mediabiasfactcheck.com/conservation-journal-bias/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
+  "mdpi.com/journal/constrmater": {
+    "b": "PS",
+    "d": "mdpi.com/journal/constrmater",
+    "n": "Construction Materials Journal",
+    "p": "/journal/constrmater",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/construction-materials-journal-bias/",
     "c": "M",
     "a": "L",
     "q": []
@@ -54283,8 +54405,9 @@
     "n": "National Center for Science (NCSE)",
     "r": "VH",
     "u": "https://mediabiasfactcheck.com/national-center-for-science-education-ncse/",
-    "c": "NA",
-    "a": "N",
+    "P": 69,
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "ncsl.org": {
@@ -55002,6 +55125,16 @@
     "n": "Newburyport Daily News",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/newburyport-daily-news-bias/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
+  "newcastleherald.com.au": {
+    "b": "LC",
+    "d": "newcastleherald.com.au",
+    "n": "Newcastle Herald",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/newcastle-herald-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -61939,6 +62072,16 @@
     "a": "L",
     "q": []
   },
+  "pagesix.com": {
+    "b": "RC",
+    "d": "pagesix.com",
+    "n": "Page Six",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/page-six-bias-and-credibility/",
+    "c": "M",
+    "a": "H",
+    "q": []
+  },
   "paho.org": {
     "b": "PS",
     "d": "paho.org",
@@ -65361,6 +65504,16 @@
     "a": "L",
     "q": []
   },
+  "pressgazette.co.uk": {
+    "b": "C",
+    "d": "pressgazette.co.uk",
+    "n": "Press Gazette",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/press-gazette-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "pressherald.com": {
     "b": "LC",
     "d": "pressherald.com",
@@ -65554,15 +65707,12 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -66544,17 +66694,6 @@
     "P": 76,
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N",
     "q": []
   },
   "quackwatch.org": {
@@ -71841,6 +71980,17 @@
       "IM"
     ]
   },
+  "secretsofthefed.com": {
+    "b": "CP",
+    "d": "secretsofthefed.com",
+    "n": "Secrets of the Fed",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/secrets-of-the-fed/",
+    "P": 41,
+    "c": "L",
+    "a": "N",
+    "q": []
+  },
   "secure.actblue.com": {
     "b": "L",
     "d": "secure.actblue.com",
@@ -72900,6 +73050,17 @@
     "a": "L",
     "q": []
   },
+  "shorelinemedia.net/oceanas_herald_journal": {
+    "b": "C",
+    "d": "shorelinemedia.net/oceanas_herald_journal",
+    "n": "Oceana's Herald-Journal",
+    "p": "/oceanas_herald_journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/oceanas-herald-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "shorenewsnetwork.com": {
     "b": "R",
     "d": "shorenewsnetwork.com",
@@ -73339,6 +73500,20 @@
     "a": "M",
     "q": []
   },
+  "sixthtone.com": {
+    "b": "FN",
+    "d": "sixthtone.com",
+    "n": "Sixth Tone",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/sixth-tone-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "P",
+      "PS",
+      "CEN"
+    ]
+  },
   "sj-r.com": {
     "b": "LC",
     "d": "sj-r.com",
@@ -73566,6 +73741,16 @@
     "a": "M",
     "q": []
   },
+  "slovenskanovice.si": {
+    "b": "LC",
+    "d": "slovenskanovice.si",
+    "n": "Slovenska Novice",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/slovenske-novice-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
   "sltrib.com": {
     "b": "LC",
     "d": "sltrib.com",
@@ -73575,6 +73760,16 @@
     "t": "sltrib",
     "u": "https://mediabiasfactcheck.com/salt-lake-tribune/",
     "P": 85,
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "smartbrief.com": {
+    "b": "C",
+    "d": "smartbrief.com",
+    "n": "SmartBrief",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/smartbrief-bias/",
     "c": "H",
     "a": "H",
     "q": []
@@ -78125,21 +78320,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -80983,6 +81175,16 @@
     "a": "M",
     "q": []
   },
+  "theharrispoll.com": {
+    "b": "RC",
+    "d": "theharrispoll.com",
+    "n": "Harris Poll",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/harris-poll-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "thehawkeye.com": {
     "b": "LC",
     "d": "thehawkeye.com",
@@ -81672,6 +81874,16 @@
     "n": "The Local (Denmark)",
     "r": "H",
     "u": "https://mediabiasfactcheck.com/the-local-denmark-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
+  "thelocal.es": {
+    "b": "LC",
+    "d": "thelocal.es",
+    "n": "The Local (Spain)",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-local-spain-bias-and-credibility/",
     "c": "H",
     "a": "L",
     "q": []
@@ -86982,6 +87194,16 @@
     "P": 82,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "truthexam.com": {
+    "b": "FN",
+    "d": "truthexam.com",
+    "n": "Truth Examiner",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "c": "L",
+    "a": "N",
     "q": []
   },
   "truthfeednews.com": {
