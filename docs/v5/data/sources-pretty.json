@@ -834,12 +834,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -6209,6 +6207,15 @@
     "reporting": "high",
     "twitter": "azcentral",
     "url": "https://mediabiasfactcheck.com/arizona-republic/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "azcir.org",
+    "name": "Arizona Center for Investigative Reporting",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/arizona-center-for-investigative-reporting-bias/"
   },
   {
     "bias": "left-center",
@@ -17369,12 +17376,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -18505,6 +18509,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -27144,8 +27158,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -27226,15 +27240,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -34331,6 +34336,15 @@
     "url": "https://mediabiasfactcheck.com/imowired/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "impactresearch.com",
+    "name": "Impact Research",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/impact-research-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "impartialreporter.com",
@@ -38797,6 +38811,25 @@
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "kiyu.com",
@@ -40910,6 +40943,18 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "lawrencetimes.com",
+    "name": "Lawrence Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lawrence-times-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "laxleader.com",
     "name": "LAX Leader",
     "popularity": 7,
@@ -41128,6 +41173,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/macon-county-times-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "lebanonpanews.com",
+    "name": "Lebanon PA News",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lebanon-pa-news-bias/"
   },
   {
     "bias": "center",
@@ -47238,6 +47295,15 @@
     "url": "https://mediabiasfactcheck.com/minnesota-public-radio-mpr/"
   },
   {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "mrbadly.com",
+    "name": "Mr. Badly Productions",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/mr-badly-productions-bias-and-credibility/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "mrc.org",
@@ -49691,6 +49757,14 @@
     "reporting": "high",
     "twitter": "NeuroscienceNew",
     "url": "https://mediabiasfactcheck.com/neuroscience-news/"
+  },
+  {
+    "bias": "satire",
+    "credibility": "n/a",
+    "domain": "neutralgroundnews.com",
+    "name": "Neutral Ground News",
+    "questionable": [],
+    "url": "https://mediabiasfactcheck.com/neutral-ground-news-bias-and-credibility/"
   },
   {
     "bias": "left",
@@ -54457,6 +54531,16 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/ny-teknik-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nytimes.com",
+    "name": "New York Times",
+    "popularity": 98,
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/new-york-times/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -68864,6 +68948,15 @@
     "url": "https://mediabiasfactcheck.com/hillsboro-star-journal-bias/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "starkvilledailynews.com",
+    "name": "Starkville Daily News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/starkville-daily-news-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "starnewsonline.com",
@@ -69223,6 +69316,15 @@
     "popularity": 19,
     "questionable": [],
     "url": "https://mediabiasfactcheck.com/st-george-gazette/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "sthelensstar.co.uk",
+    "name": "St Helens Star",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/st-helens-star-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -76437,6 +76539,16 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/scranton-times-tribune-bias/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "thetimes.com",
+    "name": "The Times UK and Sunday Times",
+    "popularity": 97,
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/the-times-of-london/"
   },
   {
     "bias": "right-center",
@@ -87321,16 +87433,6 @@
     "url": "https://mediabiasfactcheck.com/nmws-us/"
   },
   {
-    "bias": "left-center",
-    "credibility": "high-credibility",
-    "domain": "nytimes.com",
-    "name": "New York Times",
-    "popularity": 98,
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/new-york-times/"
-  },
-  {
     "bias": "left",
     "credibility": "medium-credibility",
     "domain": "onegreenplanet.org",
@@ -87474,16 +87576,6 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/the-goldwater/"
-  },
-  {
-    "bias": "right-center",
-    "credibility": "high-credibility",
-    "domain": "thetimes.co.uk",
-    "name": "The Times UK and Sunday Times",
-    "popularity": 97,
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/the-times-of-london/"
   },
   {
     "bias": "right-center",
