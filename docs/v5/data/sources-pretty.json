@@ -54518,6 +54518,16 @@
     "url": "https://mediabiasfactcheck.com/ny-teknik-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "nytimes.com",
+    "name": "New York Times",
+    "popularity": 98,
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/new-york-times/"
+  },
+  {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
     "domain": "nzdsos.com",
@@ -65254,16 +65264,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
-  },
-  {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "secretsofthefed.com",
-    "name": "Secrets of the Fed",
-    "popularity": 41,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
     "bias": "left",
@@ -87414,16 +87414,6 @@
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/nmws-us/"
-  },
-  {
-    "bias": "left-center",
-    "credibility": "high-credibility",
-    "domain": "nytimes.com",
-    "name": "New York Times",
-    "popularity": 98,
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/new-york-times/"
   },
   {
     "bias": "left",
