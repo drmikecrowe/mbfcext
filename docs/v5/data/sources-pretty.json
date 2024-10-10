@@ -834,12 +834,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -16412,6 +16410,15 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
+    "domain": "constitution.com",
+    "name": "The Constitution",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -27153,8 +27160,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -27235,15 +27242,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -60406,16 +60404,6 @@
     "url": "https://mediabiasfactcheck.com/quad-city-times/"
   },
   {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "qpolitical.com",
-    "name": "Qpolitical",
-    "popularity": 20,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/qpolitical/"
-  },
-  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "quackwatch.org",
@@ -79088,10 +79076,10 @@
   },
   {
     "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
+    "credibility": "n/a",
     "domain": "truthbroadcastnetwork.com",
-    "name": "Truth Broadcasting Network",
-    "popularity": 21,
+    "name": "Truth Broadcating Network",
+    "popularity": 17,
     "questionable": [],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/truth-broadcasting-network/"
@@ -79118,6 +79106,15 @@
     "reporting": "high",
     "twitter": "Truthdig",
     "url": "https://mediabiasfactcheck.com/truthdig/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "truthexam.com",
+    "name": "Truth Examiner",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "fake-news",
