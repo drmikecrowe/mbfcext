@@ -911,12 +911,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -6858,6 +6856,16 @@
     "a": "M",
     "q": []
   },
+  "azluminaria.org": {
+    "b": "LC",
+    "d": "azluminaria.org",
+    "n": "Arizona Luminaria",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/arizona-luminaria-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "azmirror.com": {
     "b": "L",
     "d": "azmirror.com",
@@ -10110,6 +10118,22 @@
     "c": "M",
     "a": "N",
     "q": []
+  },
+  "briantylercohen.com": {
+    "b": "FN",
+    "d": "briantylercohen.com",
+    "n": "Brian Tyler Cohen",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/brian-tyler-cohen-btc-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "FFC",
+      "FC",
+      "M"
+    ]
   },
   "briarpatchmagazine.com": {
     "b": "L",
@@ -19195,12 +19219,9 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "f": "BudgetHawks",
-    "n": "Committee for a Responsible Federal Buddget",
+    "n": "Committee for a Responsible Federal Budget",
     "r": "H",
-    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
-    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -20434,6 +20455,17 @@
     "a": "M",
     "q": []
   },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
+    "q": []
+  },
   "dailynewsreported.com": {
     "b": "S",
     "d": "dailynewsreported.com",
@@ -20791,6 +20823,16 @@
     "P": 93,
     "c": "M",
     "a": "H",
+    "q": []
+  },
+  "dailytimesleader.com": {
+    "b": "C",
+    "d": "dailytimesleader.com",
+    "n": "West Point Times Leader",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/west-point-daily-times-leader-bias/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "dailytorch.com": {
@@ -23091,6 +23133,15 @@
     "u": "https://mediabiasfactcheck.com/dagens-nyheter-bias/",
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "dnatured.com": {
+    "b": "S",
+    "d": "dnatured.com",
+    "n": "DNAtured",
+    "u": "https://mediabiasfactcheck.com/dnatured-bias-and-credibility/",
+    "c": "NA",
+    "a": "L",
     "q": []
   },
   "dnj.com": {
@@ -29896,12 +29947,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -29984,16 +30035,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -38307,6 +38348,16 @@
     "a": "H",
     "q": []
   },
+  "indyweek.com": {
+    "b": "L",
+    "d": "indyweek.com",
+    "n": "Indy WeeK",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/indy-week-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
+    "q": []
+  },
   "inequalitymedia.org": {
     "b": "L",
     "d": "inequalitymedia.org",
@@ -38991,6 +39042,16 @@
     "P": 56,
     "c": "L",
     "a": "N",
+    "q": []
+  },
+  "intellinews.com": {
+    "b": "C",
+    "d": "intellinews.com",
+    "n": "bne Intellinews",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/bne-intellinews-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "interfax.com.ua": {
@@ -42890,6 +42951,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -47273,6 +47353,20 @@
     "a": "M",
     "q": []
   },
+  "lowerbuckstoday.com": {
+    "b": "FN",
+    "d": "lowerbuckstoday.com",
+    "n": "Lower Bucks Today",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/lower-bucks-today-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
+  },
   "lowndessignal.com": {
     "b": "RC",
     "d": "lowndessignal.com",
@@ -47401,6 +47495,20 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "luzernetimes.com": {
+    "b": "FN",
+    "d": "luzernetimes.com",
+    "n": "Luzerne Times",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/luzerne-times-bias/",
+    "c": "L",
+    "a": "L",
+    "q": [
+      "LT",
+      "FC",
+      "IM"
+    ]
   },
   "lyincomey.com": {
     "b": "R",
@@ -70862,6 +70970,16 @@
       "IM"
     ]
   },
+  "sanjuanjournal.com": {
+    "b": "C",
+    "d": "sanjuanjournal.com",
+    "n": "San Juan Island Journal",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/san-juan-island-journal-bias/",
+    "c": "H",
+    "a": "L",
+    "q": []
+  },
   "sanluisobispo.com": {
     "b": "LC",
     "d": "sanluisobispo.com",
@@ -76270,6 +76388,16 @@
       "PSE"
     ]
   },
+  "standingforfreedom.com": {
+    "b": "R",
+    "d": "standingforfreedom.com",
+    "n": "Standing for Freedom Center",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/standing-for-freedom-center-bias-and-credibility/",
+    "c": "M",
+    "a": "L",
+    "q": []
+  },
   "standpointmag.co.uk": {
     "b": "R",
     "d": "standpointmag.co.uk",
@@ -77088,6 +77216,16 @@
     "u": "https://mediabiasfactcheck.com/stormfront/",
     "P": 71,
     "c": "L",
+    "a": "L",
+    "q": []
+  },
+  "stourbridgenew.co.uk": {
+    "b": "C",
+    "d": "stourbridgenew.co.uk",
+    "n": "Stourbridge News",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/stourbridge-news-bias/",
+    "c": "H",
     "a": "L",
     "q": []
   },
@@ -81979,6 +82117,27 @@
     "a": "N",
     "q": []
   },
+  "thekylebecker.com": {
+    "b": "FN",
+    "d": "thekylebecker.com",
+    "n": "The Kyle Becker (Relentless)",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/the-kyle-becker-relentless-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M",
+      "H",
+      "FN",
+      "PSE"
+    ]
+  },
   "thelancet.com": {
     "b": "PS",
     "d": "thelancet.com",
@@ -82409,6 +82568,24 @@
     "a": "L",
     "q": []
   },
+  "themainewire.com": {
+    "b": "FN",
+    "d": "themainewire.com",
+    "n": "The Maine Wire",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-maine-wire-bias-and-credibility/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FFC",
+      "FC",
+      "M"
+    ]
+  },
   "themanhattan.press": {
     "b": "FN",
     "d": "themanhattan.press",
@@ -82435,6 +82612,26 @@
     "u": "https://mediabiasfactcheck.com/the-manual-bias/",
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "themarker.com": {
+    "b": "LC",
+    "d": "themarker.com",
+    "n": "The Marker",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-marker-bias-and-credibility/",
+    "c": "H",
+    "a": "H",
+    "q": []
+  },
+  "themarkup.org": {
+    "b": "LC",
+    "d": "themarkup.org",
+    "n": "The Markup",
+    "r": "H",
+    "u": "https://mediabiasfactcheck.com/the-markup-bias-and-credibility/",
+    "c": "H",
+    "a": "L",
     "q": []
   },
   "themarshallproject.org": {
@@ -82474,6 +82671,16 @@
       "PG",
       "IM"
     ]
+  },
+  "themedialine.org": {
+    "b": "R",
+    "d": "themedialine.org",
+    "n": "The Media Line",
+    "r": "MF",
+    "u": "https://mediabiasfactcheck.com/the-media-line-bias-and-credibility/",
+    "c": "M",
+    "a": "M",
+    "q": []
   },
   "themessenger.com": {
     "b": "RC",
@@ -83253,6 +83460,21 @@
     "c": "H",
     "a": "L",
     "q": []
+  },
+  "thepaper.cn": {
+    "b": "FN",
+    "d": "thepaper.cn",
+    "n": "The Paper",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/the-paper-thepaper-cn-bias-and-credibility/",
+    "c": "L",
+    "a": "H",
+    "q": [
+      "P",
+      "PS",
+      "M",
+      "CEN"
+    ]
   },
   "thepatriotictimes.com": {
     "b": "FN",
@@ -86297,6 +86519,16 @@
     "P": 85,
     "c": "H",
     "a": "H",
+    "q": []
+  },
+  "today.yougov.com": {
+    "b": "C",
+    "d": "today.yougov.com",
+    "n": "YouGov Polling US",
+    "r": "VH",
+    "u": "https://mediabiasfactcheck.com/yougov-polling-us-bias-and-credibility/",
+    "c": "H",
+    "a": "M",
     "q": []
   },
   "todaydispatch.com": {

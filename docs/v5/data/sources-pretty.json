@@ -834,12 +834,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -6260,6 +6258,15 @@
     "url": "https://mediabiasfactcheck.com/azfamily-com/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "azluminaria.org",
+    "name": "Arizona Luminaria",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/arizona-luminaria-bias-and-credibility/"
+  },
+  {
     "bias": "left",
     "credibility": "high-credibility",
     "domain": "azmirror.com",
@@ -9231,6 +9238,24 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/brexitcentral/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "briantylercohen.com",
+    "name": "Brian Tyler Cohen",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/brian-tyler-cohen-btc-bias-and-credibility/"
   },
   {
     "bias": "left",
@@ -17420,12 +17445,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -18558,6 +18580,16 @@
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
   },
   {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
+  },
+  {
     "bias": "satire",
     "credibility": "n/a",
     "domain": "dailynewsreported.com",
@@ -18881,6 +18913,15 @@
     "reporting": "high",
     "twitter": "dailytarheel",
     "url": "https://mediabiasfactcheck.com/the-daily-tarheel/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "dailytimesleader.com",
+    "name": "West Point Times Leader",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/west-point-daily-times-leader-bias/"
   },
   {
     "bias": "right",
@@ -21014,6 +21055,14 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/dagens-nyheter-bias/"
+  },
+  {
+    "bias": "satire",
+    "credibility": "n/a",
+    "domain": "dnatured.com",
+    "name": "DNAtured",
+    "questionable": [],
+    "url": "https://mediabiasfactcheck.com/dnatured-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -27215,8 +27264,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -27297,15 +27346,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -34797,6 +34837,15 @@
   {
     "bias": "left",
     "credibility": "high-credibility",
+    "domain": "indyweek.com",
+    "name": "Indy WeeK",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/indy-week-bias-and-credibility/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
     "domain": "inequalitymedia.org",
     "facebook": "inequalitymedia",
     "name": "Inequality Media",
@@ -35384,6 +35433,15 @@
     "reporting": "low",
     "twitter": "intellihubnews",
     "url": "https://mediabiasfactcheck.com/intellihub/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "intellinews.com",
+    "name": "bne Intellinews",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/bne-intellinews-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -38920,6 +38978,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -42885,6 +42962,18 @@
     "url": "https://mediabiasfactcheck.com/lowell-sun-bias/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "lowerbuckstoday.com",
+    "name": "Lower Bucks Today",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/lower-bucks-today-bias/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "lowndessignal.com",
@@ -42999,6 +43088,18 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/luverne-journal-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "luzernetimes.com",
+    "name": "Luzerne Times",
+    "questionable": [
+      "false-claims",
+      "imposter"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/luzerne-times-bias/"
   },
   {
     "bias": "right",
@@ -64219,6 +64320,15 @@
     "url": "https://mediabiasfactcheck.com/san-jose-standard/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "sanjuanjournal.com",
+    "name": "San Juan Island Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/san-juan-island-journal-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "sanluisobispo.com",
@@ -69024,6 +69134,15 @@
   {
     "bias": "right",
     "credibility": "medium-credibility",
+    "domain": "standingforfreedom.com",
+    "name": "Standing for Freedom Center",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/standing-for-freedom-center-bias-and-credibility/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
     "domain": "standpointmag.co.uk",
     "facebook": "standpointmag",
     "name": "StandPoint",
@@ -69783,6 +69902,15 @@
     "questionable": [],
     "reporting": "very-low",
     "url": "https://mediabiasfactcheck.com/stormfront/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "stourbridgenew.co.uk",
+    "name": "Stourbridge News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/stourbridge-news-bias/"
   },
   {
     "bias": "fake-news",
@@ -74241,6 +74369,27 @@
     "url": "https://mediabiasfactcheck.com/the-knife/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "thekylebecker.com",
+    "name": "The Kyle Becker (Relentless)",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "hate",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/the-kyle-becker-relentless-bias-and-credibility/"
+  },
+  {
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "thelancet.com",
@@ -74643,6 +74792,25 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
+    "domain": "themainewire.com",
+    "name": "The Maine Wire",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/the-maine-wire-bias-and-credibility/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "themanhattan.press",
     "name": "The Manhattan",
     "questionable": [
@@ -74666,6 +74834,24 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/the-manual-bias/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "themarker.com",
+    "name": "The Marker",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-marker-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "themarkup.org",
+    "name": "The Markup",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/the-markup-bias-and-credibility/"
   },
   {
     "bias": "center",
@@ -74699,6 +74885,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/mazatlan-post-bias/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "themedialine.org",
+    "name": "The Media Line",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/the-media-line-bias-and-credibility/"
   },
   {
     "bias": "right-center",
@@ -75421,6 +75616,21 @@
     "reporting": "high",
     "twitter": "outline",
     "url": "https://mediabiasfactcheck.com/the-outline/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "thepaper.cn",
+    "name": "The Paper",
+    "questionable": [
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "misinformation"
+    ],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/the-paper-thepaper-cn-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -78212,6 +78422,15 @@
     "questionable": [],
     "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/today-com/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "today.yougov.com",
+    "name": "YouGov Polling US",
+    "questionable": [],
+    "reporting": "very-high",
+    "url": "https://mediabiasfactcheck.com/yougov-polling-us-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
