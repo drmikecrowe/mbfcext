@@ -834,12 +834,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -17447,12 +17445,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -18583,6 +18578,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -26169,7 +26174,7 @@
     "url": "https://mediabiasfactcheck.com/foothills-review-bias/"
   },
   {
-    "bias": "center",
+    "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "forbes.com",
     "facebook": "forbes",
@@ -27259,8 +27264,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -27341,15 +27346,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -34544,6 +34540,17 @@
   },
   {
     "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "independent.co.uk",
+    "facebook": "TheIndependentOnline",
+    "name": "The Independent UK",
+    "popularity": 97,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/the-independent/"
+  },
+  {
+    "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "independent.com",
     "facebook": "sbindependent",
@@ -38982,6 +38989,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -48631,6 +48657,18 @@
     "popularity": 59,
     "questionable": [],
     "url": "https://mediabiasfactcheck.com/national-report/"
+  },
+  {
+    "bias": "right",
+    "credibility": "high-credibility",
+    "domain": "nationalreview.com",
+    "facebook": "nationalreview",
+    "name": "National Review",
+    "popularity": 93,
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "twitter": "NRO",
+    "url": "https://mediabiasfactcheck.com/national-review/"
   },
   {
     "bias": "fake-news",
@@ -72044,17 +72082,6 @@
     "url": "https://mediabiasfactcheck.com/lexington-dispatch-bias/"
   },
   {
-    "bias": "left-center",
-    "credibility": "medium-credibility",
-    "domain": "the-independent.com",
-    "facebook": "TheIndependentOnline",
-    "name": "The Independent",
-    "popularity": 97,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/the-independent/"
-  },
-  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "the-journal.com",
@@ -72304,7 +72331,7 @@
     "credibility": "high-credibility",
     "domain": "theatlantic.com",
     "facebook": "TheAtlantic",
-    "name": "Atlantic",
+    "name": "The Atlantic",
     "popularity": 96,
     "questionable": [],
     "reporting": "high",
@@ -87917,18 +87944,6 @@
     "reporting": "high",
     "twitter": "MyWebTimes",
     "url": "https://mediabiasfactcheck.com/the-times-illinois/"
-  },
-  {
-    "bias": "right",
-    "credibility": "high-credibility",
-    "domain": "nationalreview.com",
-    "facebook": "nationalreview",
-    "name": "National Review",
-    "popularity": 93,
-    "questionable": [],
-    "reporting": "mostly-factual",
-    "twitter": "NRO",
-    "url": "https://mediabiasfactcheck.com/national-review/"
   },
   {
     "bias": "fake-news",
