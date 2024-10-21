@@ -834,10 +834,12 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "name": "The American Association for the Advancement of Science (AAAS)",
-    "popularity": 74,
+    "facebook": "AAAS.Science",
+    "name": "American association for the advancement of science.",
+    "popularity": 87,
     "questionable": [],
     "reporting": "very-high",
+    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -2840,13 +2842,13 @@
   },
   {
     "bias": "left",
-    "credibility": "medium-credibility",
+    "credibility": "high-credibility",
     "domain": "alternet.org",
     "facebook": "AlterNetNews",
     "name": "Alternet",
     "popularity": 90,
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "high",
     "url": "https://mediabiasfactcheck.com/alternet/"
   },
   {
@@ -16479,15 +16481,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -27348,6 +27341,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "freedomoutpost.com",
+    "name": "Freedom Outpost",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -48640,18 +48642,6 @@
     "popularity": 59,
     "questionable": [],
     "url": "https://mediabiasfactcheck.com/national-report/"
-  },
-  {
-    "bias": "right",
-    "credibility": "high-credibility",
-    "domain": "nationalreview.com",
-    "facebook": "nationalreview",
-    "name": "National Review",
-    "popularity": 93,
-    "questionable": [],
-    "reporting": "mostly-factual",
-    "twitter": "NRO",
-    "url": "https://mediabiasfactcheck.com/national-review/"
   },
   {
     "bias": "fake-news",
@@ -72321,7 +72311,7 @@
     "credibility": "high-credibility",
     "domain": "theatlantic.com",
     "facebook": "TheAtlantic",
-    "name": "Atlantic",
+    "name": "The Atlantic",
     "popularity": 96,
     "questionable": [],
     "reporting": "high",
@@ -87925,6 +87915,18 @@
     "reporting": "high",
     "twitter": "MyWebTimes",
     "url": "https://mediabiasfactcheck.com/the-times-illinois/"
+  },
+  {
+    "bias": "right",
+    "credibility": "high-credibility",
+    "domain": "nationalreview.com",
+    "facebook": "nationalreview",
+    "name": "National Review",
+    "popularity": 93,
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "twitter": "NRO",
+    "url": "https://mediabiasfactcheck.com/national-review/"
   },
   {
     "bias": "fake-news",
