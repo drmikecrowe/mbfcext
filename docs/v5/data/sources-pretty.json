@@ -17499,12 +17499,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -18644,6 +18641,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -27356,8 +27363,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -27438,15 +27445,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -37053,7 +37051,7 @@
     "name": "Jezebel",
     "popularity": 89,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "jezebel",
     "url": "https://mediabiasfactcheck.com/jezebel/"
   },
@@ -39171,6 +39169,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -60162,13 +60179,10 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "principia-scientific.org",
-    "facebook": "Principia-Scientific-International",
-    "name": "Principia Scientific International",
-    "popularity": 49,
+    "domain": "principia-scientific.com",
+    "name": "Principia-Scientific.com",
     "questionable": [],
     "reporting": "low",
-    "twitter": "john0sullivanp2",
     "url": "https://mediabiasfactcheck.com/principia-scientific-international/"
   },
   {
@@ -61087,16 +61101,6 @@
     "reporting": "high",
     "twitter": "qctimes",
     "url": "https://mediabiasfactcheck.com/quad-city-times/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "qpolitical.com",
-    "name": "Qpolitical",
-    "popularity": 20,
-    "questionable": [],
-    "reporting": "mixed",
-    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "pro-science",
@@ -64656,13 +64660,13 @@
   },
   {
     "bias": "left",
-    "credibility": "medium-credibility",
+    "credibility": "high-credibility",
     "domain": "salon.com",
     "facebook": "salon",
     "name": "Salon",
     "popularity": 95,
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "mostly-factual",
     "twitter": "Salon",
     "url": "https://mediabiasfactcheck.com/salon/"
   },
@@ -66186,6 +66190,16 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/se-connecticut-news/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "secretsofthefed.com",
+    "name": "Secrets of the Fed",
+    "popularity": 41,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/secrets-of-the-fed/"
   },
   {
     "bias": "left",
@@ -69473,13 +69487,13 @@
   },
   {
     "bias": "left",
-    "credibility": "medium-credibility",
-    "domain": "splinternews.com",
+    "credibility": "high-credibility",
+    "domain": "splinter.com",
     "facebook": "splinternews",
     "name": "Splinter",
     "popularity": 65,
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "mostly-factual",
     "twitter": "Splinter_news",
     "url": "https://mediabiasfactcheck.com/splinter/"
   },
@@ -72069,20 +72083,16 @@
   {
     "bias": "fake-news",
     "credibility": "low-credibility",
-    "domain": "tass.com",
-    "facebook": "tassagency.eng",
-    "name": "Russian News Agency-TASS",
-    "popularity": 78,
+    "domain": "tass.ru",
+    "name": "Russian New Agency-Tass",
     "questionable": [
-      "conspiracy",
-      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
-      "poor-sourcing"
+      "poor-sourcing",
+      "failed-fact-checks"
     ],
     "reporting": "mixed",
-    "twitter": "tass_agency",
     "url": "https://mediabiasfactcheck.com/russian-news-agency-tass/"
   },
   {
@@ -80446,6 +80456,15 @@
     "reporting": "high",
     "twitter": "Truthdig",
     "url": "https://mediabiasfactcheck.com/truthdig/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "truthexam.com",
+    "name": "Truth Examiner",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/qpolitical/"
   },
   {
     "bias": "fake-news",
