@@ -911,12 +911,10 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "f": "AAAS.Science",
-    "n": "American association for the advancement of science.",
+    "n": "The American Association for the Advancement of Science (AAAS)",
     "r": "VH",
-    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 87,
+    "P": 74,
     "c": "H",
     "a": "M",
     "q": []
@@ -19283,12 +19281,9 @@
   "crfb.org": {
     "b": "RC",
     "d": "crfb.org",
-    "f": "BudgetHawks",
-    "n": "Committee for a Responsible Federal Buddget",
+    "n": "Committee for a Responsible Federal Budget",
     "r": "H",
-    "t": "BudgetHawks",
     "u": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/",
-    "P": 60,
     "c": "H",
     "a": "L",
     "q": []
@@ -20530,6 +20525,17 @@
     "P": 85,
     "c": "H",
     "a": "M",
+    "q": []
+  },
+  "dailynewsbin.com": {
+    "b": "L",
+    "d": "dailynewsbin.com",
+    "n": "Daily Newsbin",
+    "r": "M",
+    "u": "https://mediabiasfactcheck.com/daily-news-bin/",
+    "P": 34,
+    "c": "M",
+    "a": "N",
     "q": []
   },
   "dailynewsreported.com": {
@@ -30053,12 +30059,12 @@
   "freedomcrossroads.com": {
     "b": "R",
     "d": "freedomcrossroads.com",
-    "n": "Freedom Crossroads",
+    "n": "Freedom Cross Roads",
     "r": "M",
     "u": "https://mediabiasfactcheck.com/freedom-crossroads/",
-    "P": 10,
+    "P": 21,
     "c": "M",
-    "a": "L",
+    "a": "N",
     "q": []
   },
   "freedomdaily.com": {
@@ -30141,16 +30147,6 @@
       "LT",
       "M"
     ]
-  },
-  "freedomoutpost.com": {
-    "b": "FN",
-    "d": "freedomoutpost.com",
-    "n": "Freedom Outpost",
-    "r": "L",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "L",
-    "a": "N",
-    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -43173,6 +43169,25 @@
     "c": "H",
     "a": "M",
     "q": []
+  },
+  "kiwifarms.net": {
+    "b": "FN",
+    "d": "kiwifarms.net",
+    "n": "Kiwi Farms",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "M",
+    "q": [
+      "C",
+      "P",
+      "PS",
+      "LT",
+      "FC",
+      "M",
+      "H",
+      "PSE"
+    ]
   },
   "kiyu.com": {
     "b": "LC",
@@ -66514,15 +66529,12 @@
     "a": "L",
     "q": []
   },
-  "principia-scientific.org": {
+  "principia-scientific.com": {
     "b": "CP",
-    "d": "principia-scientific.org",
-    "f": "Principia-Scientific-International",
-    "n": "Principia Scientific International",
+    "d": "principia-scientific.com",
+    "n": "Principia-Scientific.com",
     "r": "L",
-    "t": "john0sullivanp2",
     "u": "https://mediabiasfactcheck.com/principia-scientific-international/",
-    "P": 49,
     "c": "L",
     "a": "L",
     "q": []
@@ -67514,17 +67526,6 @@
     "P": 76,
     "c": "H",
     "a": "M",
-    "q": []
-  },
-  "qpolitical.com": {
-    "b": "FN",
-    "d": "qpolitical.com",
-    "n": "Qpolitical",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/qpolitical/",
-    "P": 20,
-    "c": "L",
-    "a": "N",
     "q": []
   },
   "quackwatch.org": {
@@ -76778,17 +76779,17 @@
     "a": "M",
     "q": []
   },
-  "splinter.com": {
+  "splinternews.com": {
     "b": "L",
-    "d": "splinter.com",
+    "d": "splinternews.com",
     "f": "splinternews",
     "n": "Splinter",
-    "r": "MF",
+    "r": "M",
     "t": "Splinter_news",
     "u": "https://mediabiasfactcheck.com/splinter/",
     "P": 65,
-    "c": "H",
-    "a": "M",
+    "c": "M",
+    "a": "L",
     "q": []
   },
   "spokesman.com": {
@@ -79637,21 +79638,18 @@
       "CEN"
     ]
   },
-  "tass.com": {
+  "tass.ru": {
     "b": "FN",
-    "d": "tass.com",
-    "f": "tassagency.eng",
-    "n": "Russian News Agency-TASS",
+    "d": "tass.ru",
+    "n": "Russian New Agency-Tass",
     "r": "M",
-    "t": "tass_agency",
     "u": "https://mediabiasfactcheck.com/russian-news-agency-tass/",
-    "P": 78,
     "c": "L",
-    "a": "M",
+    "a": "H",
     "q": [
-      "C",
       "P",
       "PS",
+      "FFC",
       "CEN"
     ]
   },
@@ -88736,6 +88734,16 @@
     "P": 82,
     "c": "H",
     "a": "L",
+    "q": []
+  },
+  "truthexam.com": {
+    "b": "FN",
+    "d": "truthexam.com",
+    "n": "Truth Examiner",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/qpolitical/",
+    "c": "L",
+    "a": "N",
     "q": []
   },
   "truthfeednews.com": {
