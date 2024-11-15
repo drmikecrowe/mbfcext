@@ -35328,18 +35328,6 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
-    "domain": "infowars.com",
-    "facebook": "AlexanderEmerickJones",
-    "name": "Infowars",
-    "popularity": 90,
-    "questionable": [],
-    "reporting": "very-low",
-    "twitter": "realalexjones",
-    "url": "https://mediabiasfactcheck.com/infowars-alex-jones/"
-  },
-  {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
     "domain": "ingredients.news",
     "name": "Ingredients.News",
     "popularity": 34,
@@ -37211,7 +37199,7 @@
     "name": "Jezebel",
     "popularity": 89,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "high",
     "twitter": "jezebel",
     "url": "https://mediabiasfactcheck.com/jezebel/"
   },
@@ -89264,6 +89252,18 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/infoscum/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
+    "domain": "infowars.com",
+    "facebook": "AlexanderEmerickJones",
+    "name": "Infowars",
+    "popularity": 90,
+    "questionable": [],
+    "reporting": "very-low",
+    "twitter": "realalexjones",
+    "url": "https://mediabiasfactcheck.com/infowars-alex-jones/"
   },
   {
     "bias": "right-center",
