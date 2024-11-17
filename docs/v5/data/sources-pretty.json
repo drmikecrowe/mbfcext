@@ -834,12 +834,10 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "facebook": "AAAS.Science",
-    "name": "American association for the advancement of science.",
-    "popularity": 87,
+    "name": "The American Association for the Advancement of Science (AAAS)",
+    "popularity": 74,
     "questionable": [],
     "reporting": "very-high",
-    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -4774,6 +4772,15 @@
   {
     "bias": "pro-science",
     "credibility": "high-credibility",
+    "domain": "annualreviews.org/content/journals/orgpsych",
+    "name": "Annual Review of Organizational Psychology",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/annual-review-of-organizational-psychology-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
     "domain": "annualreviews.org/journal/anchem",
     "name": "Analytical Chemistry Journal",
     "questionable": [],
@@ -6709,6 +6716,15 @@
     "url": "https://mediabiasfactcheck.com/basnews-agency/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "batemansbaypost.com.au",
+    "name": "Bay Post",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bay-post-bias-and-credibility/"
+  },
+  {
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "batimes.com.ar",
@@ -6995,6 +7011,15 @@
     ],
     "reporting": "low",
     "url": "https://mediabiasfactcheck.com/before-its-news/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "begadistrictnews.com.au",
+    "name": "Bega District News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/bega-district-news-bias-and-credibility/"
   },
   {
     "bias": "pro-science",
@@ -16772,6 +16797,15 @@
     "url": "https://mediabiasfactcheck.com/cop-block/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "coppercountrynews.com",
+    "name": "Copper Country News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/copper-country-news-bias/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "coppercourier.com",
@@ -17582,12 +17616,9 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "crfb.org",
-    "facebook": "BudgetHawks",
-    "name": "Committee for a Responsible Federal Buddget",
-    "popularity": 60,
+    "name": "Committee for a Responsible Federal Budget",
     "questionable": [],
     "reporting": "high",
-    "twitter": "BudgetHawks",
     "url": "https://mediabiasfactcheck.com/committee-for-a-responsible-federal-budget/"
   },
   {
@@ -18727,6 +18758,16 @@
     "reporting": "high",
     "twitter": "ladailynews",
     "url": "https://mediabiasfactcheck.com/los-angeles-daily-news/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "dailynewsbin.com",
+    "name": "Daily Newsbin",
+    "popularity": 34,
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/daily-news-bin/"
   },
   {
     "bias": "satire",
@@ -24025,6 +24066,15 @@
     "url": "https://mediabiasfactcheck.com/entrepreneur-magazine/"
   },
   {
+    "bias": "pro-science",
+    "credibility": "high-credibility",
+    "domain": "environmentalevidencejournal.biomedcentral.com",
+    "name": "Environmental Evidence Journal",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/environmental-evidence-journal-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "environmentamerica.org",
@@ -27484,8 +27534,8 @@
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "freedomcrossroads.com",
-    "name": "Freedom Crossroads",
-    "popularity": 10,
+    "name": "Freedom Cross Roads",
+    "popularity": 21,
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-crossroads/"
@@ -27566,15 +27616,6 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
-  },
-  {
-    "bias": "fake-news",
-    "credibility": "low-credibility",
-    "domain": "freedomoutpost.com",
-    "name": "Freedom Outpost",
-    "questionable": [],
-    "reporting": "low",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
@@ -35328,6 +35369,18 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
+    "domain": "infowars.com",
+    "facebook": "AlexanderEmerickJones",
+    "name": "Infowars",
+    "popularity": 90,
+    "questionable": [],
+    "reporting": "very-low",
+    "twitter": "realalexjones",
+    "url": "https://mediabiasfactcheck.com/infowars-alex-jones/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
     "domain": "ingredients.news",
     "name": "Ingredients.News",
     "popularity": 34,
@@ -37199,7 +37252,7 @@
     "name": "Jezebel",
     "popularity": 89,
     "questionable": [],
-    "reporting": "high",
+    "reporting": "mostly-factual",
     "twitter": "jezebel",
     "url": "https://mediabiasfactcheck.com/jezebel/"
   },
@@ -39326,6 +39379,25 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/kivi-boise-news-bias/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "kiwifarms.net",
+    "name": "Kiwi Farms",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "false-claims",
+      "misinformation",
+      "hate"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "left-center",
@@ -43234,6 +43306,15 @@
     "url": "https://mediabiasfactcheck.com/london-web-news/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "londonworld.com",
+    "name": "London World",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/london-world-bias/"
+  },
+  {
     "bias": "right",
     "credibility": "medium-credibility",
     "domain": "loneconservative.com",
@@ -43552,6 +43633,15 @@
     "reporting": "mixed",
     "twitter": "GOP",
     "url": "https://mediabiasfactcheck.com/lyin-comey/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "lynnnews.co.uk",
+    "name": "Lynn News",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/lynn-news-bias/"
   },
   {
     "bias": "right-center",
@@ -45563,6 +45653,15 @@
   {
     "bias": "pro-science",
     "credibility": "medium-credibility",
+    "domain": "mdpi.com/journal/cryptography",
+    "name": "Cryptography Journal",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/cryptography-journal-bias/"
+  },
+  {
+    "bias": "pro-science",
+    "credibility": "medium-credibility",
     "domain": "mdpi.com/journal/ctn",
     "name": "Clinical and Translational Neuroscience",
     "questionable": [],
@@ -45692,14 +45791,14 @@
     "url": "https://mediabiasfactcheck.com/mediafile/"
   },
   {
-    "bias": "left",
+    "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "mediaite.com",
     "facebook": "mediaite",
     "name": "Mediaite",
     "popularity": 84,
     "questionable": [],
-    "reporting": "mostly-factual",
+    "reporting": "high",
     "twitter": "mediaite",
     "url": "https://mediabiasfactcheck.com/mediaite/"
   },
@@ -54475,12 +54574,22 @@
     "url": "https://mediabiasfactcheck.com/notrickszone/"
   },
   {
-    "bias": "right",
-    "credibility": "high-credibility",
+    "bias": "fake-news",
+    "credibility": "low-credibility",
     "domain": "notthebee.com",
     "name": "Not the Bee",
     "popularity": 28,
-    "questionable": [],
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation"
+    ],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/not-the-bee/"
   },
@@ -60055,6 +60164,8 @@
     "name": "PragerU",
     "popularity": 73,
     "questionable": [
+      "conspiracy",
+      "censorship",
       "propaganda",
       "plagiarism",
       "pseudoscience",
@@ -64182,6 +64293,15 @@
   {
     "bias": "left-center",
     "credibility": "high-credibility",
+    "domain": "rmgresearch.com",
+    "name": "RMG Research",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/rmg-research-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
     "domain": "rmi.org",
     "name": "Rocky Mountain Institute (RMI)",
     "questionable": [],
@@ -64984,6 +65104,15 @@
     "url": "https://mediabiasfactcheck.com/sage-journals/"
   },
   {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "salamancapress.com",
+    "name": "Salamanca Press",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/salamanca-press-bias/"
+  },
+  {
     "bias": "left-center",
     "credibility": "high-credibility",
     "domain": "salemnews.com",
@@ -65777,6 +65906,26 @@
     "url": "https://mediabiasfactcheck.com/henry-makow-savethemales-ca/"
   },
   {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "saveusnow.org",
+    "name": "Save Us Now",
+    "questionable": [
+      "conspiracy",
+      "censorship",
+      "propaganda",
+      "plagiarism",
+      "pseudoscience",
+      "poor-sourcing",
+      "failed-fact-checks",
+      "false-claims",
+      "misinformation",
+      "fake-news"
+    ],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/save-us-now-sun-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "sayfiereview.com",
@@ -65858,6 +66007,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/south-carolina-daily-gazette-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "medium-credibility",
+    "domain": "scheerpost.com",
+    "name": "ScheerPost",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/scheerpost-bias-and-credibility/"
   },
   {
     "bias": "satire",
@@ -66295,6 +66453,15 @@
     "url": "https://mediabiasfactcheck.com/sc-oklahoma-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "scoop.co.nz",
+    "name": "Scoop",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/scoop-bias-and-credibility/"
+  },
+  {
     "bias": "center",
     "credibility": "medium-credibility",
     "domain": "scoopnest.com",
@@ -66335,6 +66502,15 @@
     "popularity": 16,
     "questionable": [],
     "url": "https://mediabiasfactcheck.com/scorched-earth-news/"
+  },
+  {
+    "bias": "right-center",
+    "credibility": "high-credibility",
+    "domain": "scotlanddailyexpress.co.uk",
+    "name": "Scotland Daily Express",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/scottish-daily-express-bias/"
   },
   {
     "bias": "center",
@@ -67108,6 +67284,24 @@
     "url": "https://mediabiasfactcheck.com/san-francisco-globe/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "sfist.com",
+    "name": "SFist",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/sfist-bias-and-credibility/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "sfstandard.com",
+    "name": "San Francisco Standard",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/san-francisco-standard-bias-and-credibility/"
+  },
+  {
     "bias": "fake-news",
     "credibility": "low-credibility",
     "domain": "sfvtoday.com",
@@ -67187,6 +67381,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/shame-project/"
+  },
+  {
+    "bias": "left-center",
+    "credibility": "medium-credibility",
+    "domain": "shape.com",
+    "name": "Shape Magazine",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/shape-magazine-bias-and-credibility/"
   },
   {
     "bias": "left-center",
@@ -67477,6 +67680,15 @@
     "questionable": [],
     "reporting": "high",
     "url": "https://mediabiasfactcheck.com/shelby-star-bias/"
+  },
+  {
+    "bias": "left",
+    "credibility": "high-credibility",
+    "domain": "shepherdexpress.com",
+    "name": "Shepherd Express",
+    "questionable": [],
+    "reporting": "mostly-factual",
+    "url": "https://mediabiasfactcheck.com/shepherd-express-bias-and-crediblity/"
   },
   {
     "bias": "left-center",
@@ -70749,6 +70961,15 @@
   {
     "bias": "conspiracy-pseudoscience",
     "credibility": "low-credibility",
+    "domain": "stevequayle.com",
+    "name": "SteveQuayle.com",
+    "questionable": [],
+    "reporting": "very-low",
+    "url": "https://mediabiasfactcheck.com/steve-quayle-stevequayle-com-bias-and-credibility/"
+  },
+  {
+    "bias": "conspiracy-pseudoscience",
+    "credibility": "low-credibility",
     "domain": "stewpeters.com",
     "name": "Stew Peters Show",
     "questionable": [
@@ -71083,6 +71304,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/st-pete-standard/"
+  },
+  {
+    "bias": "right",
+    "credibility": "medium-credibility",
+    "domain": "str.org",
+    "name": "Stand to Reason",
+    "questionable": [],
+    "reporting": "mixed",
+    "url": "https://mediabiasfactcheck.com/stand-to-reason-bias-and-credibility/"
   },
   {
     "bias": "fake-news",
@@ -74701,6 +74931,15 @@
     "reporting": "high",
     "twitter": "estblshmnt",
     "url": "https://mediabiasfactcheck.com/the-establishment/"
+  },
+  {
+    "bias": "center",
+    "credibility": "high-credibility",
+    "domain": "theeveningleader.com",
+    "name": "St, Marys Evening Leader",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/st-marys-evening-leader-bias/"
   },
   {
     "bias": "conspiracy-pseudoscience",
@@ -81040,7 +81279,7 @@
     "name": "TruthOut",
     "popularity": 84,
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "mostly-factual",
     "twitter": "truthout",
     "url": "https://mediabiasfactcheck.com/truth-out/"
   },
@@ -84453,14 +84692,14 @@
     "url": "https://mediabiasfactcheck.com/washington-blade/"
   },
   {
-    "bias": "right",
-    "credibility": "medium-credibility",
+    "bias": "right-center",
+    "credibility": "high-credibility",
     "domain": "washingtonexaminer.com",
     "facebook": "WashingtonExaminer",
     "name": "Washington Examiner",
     "popularity": 86,
     "questionable": [],
-    "reporting": "mixed",
+    "reporting": "mostly-factual",
     "url": "https://mediabiasfactcheck.com/washington-examiner/"
   },
   {
@@ -87710,6 +87949,15 @@
     "url": "https://mediabiasfactcheck.com/wmtw-portland-news-bias/"
   },
   {
+    "bias": "left-center",
+    "credibility": "high-credibility",
+    "domain": "wmuk.org",
+    "name": "WMUK - NPR - Kalamazoo",
+    "questionable": [],
+    "reporting": "high",
+    "url": "https://mediabiasfactcheck.com/wmuk-npr-kalamazoo-bias/"
+  },
+  {
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "wmur.com",
@@ -89252,18 +89500,6 @@
     "questionable": [],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/infoscum/"
-  },
-  {
-    "bias": "conspiracy-pseudoscience",
-    "credibility": "low-credibility",
-    "domain": "infowars.com",
-    "facebook": "AlexanderEmerickJones",
-    "name": "Infowars",
-    "popularity": 90,
-    "questionable": [],
-    "reporting": "very-low",
-    "twitter": "realalexjones",
-    "url": "https://mediabiasfactcheck.com/infowars-alex-jones/"
   },
   {
     "bias": "right-center",
