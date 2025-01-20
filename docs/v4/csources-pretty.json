@@ -127,10 +127,9 @@
   "12news.com": {
     "b": "C",
     "d": "12news.com",
-    "n": "12 News KPNX",
+    "n": "KNAZ - Flagstaff News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/12-news-kpnx/",
-    "P": 55,
+    "u": "https://mediabiasfactcheck.com/knaz-flagstaff-news/",
     "c": "H",
     "a": "M",
     "q": []
@@ -931,10 +930,12 @@
   "aaas.org": {
     "b": "PS",
     "d": "aaas.org",
-    "n": "The American Association for the Advancement of Science (AAAS)",
+    "f": "AAAS.Science",
+    "n": "American association for the advancement of science.",
     "r": "VH",
+    "t": "aaas",
     "u": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/",
-    "P": 74,
+    "P": 87,
     "c": "H",
     "a": "M",
     "q": []
@@ -1183,9 +1184,9 @@
   "abc7amarillo.com": {
     "b": "RC",
     "d": "abc7amarillo.com",
-    "n": "KVII - Amarillo News",
+    "n": "KVIH - Clovis News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kvii-amarillo-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kvih-clovis-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -3776,12 +3777,13 @@
   "americanindependent.com": {
     "b": "L",
     "d": "americanindependent.com",
-    "n": "The American Independent",
+    "n": "ShareBlue",
     "r": "M",
-    "u": "https://mediabiasfactcheck.com/american-independent-institute/",
-    "P": 62,
+    "t": "Shareblue",
+    "u": "https://mediabiasfactcheck.com/shareblue/",
+    "P": 57,
     "c": "M",
-    "a": "M",
+    "a": "N",
     "q": []
   },
   "americanintelligencereport.com": {
@@ -6391,9 +6393,9 @@
   "aspenpublicradio.com": {
     "b": "LC",
     "d": "aspenpublicradio.com",
-    "n": "KCJX - NPR - Carbondale",
+    "n": "KAJX - NPR - Aspen",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kcjx-npr-carbondale-bias/",
+    "u": "https://mediabiasfactcheck.com/kajx-npr-aspen-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -6720,11 +6722,14 @@
   "auburnpub.com": {
     "b": "C",
     "d": "auburnpub.com",
-    "n": "Auburn Citizen",
+    "f": "auburncitizen",
+    "n": "The Auburn Citizen",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/auburn-citizen-bias/",
+    "t": "the_citizen",
+    "u": "https://mediabiasfactcheck.com/the-auburn-citizen/",
+    "P": 69,
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "auburntimes.com": {
@@ -8366,9 +8371,9 @@
   "bigcountryhomepage.com": {
     "b": "C",
     "d": "bigcountryhomepage.com",
-    "n": "KRBC - Abilene News",
+    "n": "KTAB - Abilene News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/krbc-abilene-news-bias/",
+    "u": "https://mediabiasfactcheck.com/ktab-abilene-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -10119,13 +10124,14 @@
     ]
   },
   "bozemandailychronicle.com": {
-    "b": "LC",
+    "b": "C",
     "d": "bozemandailychronicle.com",
     "n": "Bozeman Daily Chronicle",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/bozeman-daily-chronicle-bias/",
+    "u": "https://mediabiasfactcheck.com/bozeman-daily-chronicle/",
+    "P": 58,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "bpb.de": {
@@ -11851,9 +11857,9 @@
   "butlercountytribune.com": {
     "b": "C",
     "d": "butlercountytribune.com",
-    "n": "Butler County Tribune-Journal",
+    "n": "Clarksville Star",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/butler-county-tribune-journal-bias/",
+    "u": "https://mediabiasfactcheck.com/clarksville-star-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -13632,9 +13638,9 @@
   "cbs2iowa.com": {
     "b": "RC",
     "d": "cbs2iowa.com",
-    "n": "KGAN Cedar Rapids News",
+    "n": "KFXA - Waterloo News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kgan-cedar-rapids-news/",
+    "u": "https://mediabiasfactcheck.com/kfxa-waterloo-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -14845,9 +14851,9 @@
   "centralillinoisproud.com": {
     "b": "C",
     "d": "centralillinoisproud.com",
-    "n": "WMBD - Peoria News",
+    "n": "WYZZ - Bloomington News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wmbd-peoria-news-bias/",
+    "u": "https://mediabiasfactcheck.com/wyzz-bloomington-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -15414,14 +15420,16 @@
     "q": []
   },
   "cheddar.com": {
-    "b": "C",
+    "b": "LC",
     "d": "cheddar.com",
-    "n": "Need2Know",
+    "f": "cheddar",
+    "n": "Cheddar",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/need-2-know/",
-    "P": 31,
+    "t": "cheddar",
+    "u": "https://mediabiasfactcheck.com/cheddar/",
+    "P": 71,
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "chelmsfordweeklynews.co.uk": {
@@ -17208,9 +17216,9 @@
   "cnycentral.com": {
     "b": "RC",
     "d": "cnycentral.com",
-    "n": "WTVH - CNYCentral",
+    "n": "WSTM - CNYCentral",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wtvh-cnycentral-bias/",
+    "u": "https://mediabiasfactcheck.com/wstm-cnycentral-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -17959,9 +17967,9 @@
   "conchovalleyhomepage.com": {
     "b": "C",
     "d": "conchovalleyhomepage.com",
-    "n": "KLST - San Angelo News",
+    "n": "KSAN - San Angelo News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/klst-san-angelo-news-bias/",
+    "u": "https://mediabiasfactcheck.com/ksan-san-angelo-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -18098,7 +18106,7 @@
     "d": "conservative-headlines.org",
     "n": "Council of Conservative Citizens",
     "r": "L",
-    "u": "https://mediabiasfactcheck.com/council-of-conservative-citizens/",
+    "u": "http://mediabiasfactcheck.com/council-of-concerned-citizens/",
     "P": 26,
     "c": "L",
     "a": "L",
@@ -18741,16 +18749,6 @@
       "LT",
       "M"
     ]
-  },
-  "constitution.com": {
-    "b": "C",
-    "d": "constitution.com",
-    "n": "The Constitution",
-    "r": "H",
-    "u": "https://mediabiasfactcheck.com/fake-news/",
-    "c": "H",
-    "a": "N",
-    "q": []
   },
   "constitutioncenter.org": {
     "b": "C",
@@ -20041,9 +20039,9 @@
   "crossroadstoday.com": {
     "b": "C",
     "d": "crossroadstoday.com",
-    "n": "KVCT - Victoria News",
+    "n": "KXTS - Victoria News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kvct-victoria-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kxts-victoria-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -22804,9 +22802,9 @@
   "deltanews.tv": {
     "b": "C",
     "d": "deltanews.tv",
-    "n": "WXVT - DeltaNews",
+    "n": "WABG - DeltaNews",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wxvt-deltanews-bias/",
+    "u": "https://mediabiasfactcheck.com/wabg-deltanews-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -25419,9 +25417,9 @@
   "echo-news.co.uk": {
     "b": "C",
     "d": "echo-news.co.uk",
-    "n": "Essex Echo",
+    "n": "Basildon Echo",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/essex-echo-bias/",
+    "u": "https://mediabiasfactcheck.com/basildon-echo-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -29877,11 +29875,11 @@
   "fourstateshomepage.com": {
     "b": "C",
     "d": "fourstateshomepage.com",
-    "n": "FourstatesHomepage.com",
+    "n": "KODE - Joplin News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/fourstateshomepage-com/",
+    "u": "https://mediabiasfactcheck.com/kode-joplin-news-bias/",
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "fox10phoenix.com": {
@@ -30139,9 +30137,9 @@
   "fox44news.com": {
     "b": "C",
     "d": "fox44news.com",
-    "n": "KWKT - Waco News",
+    "n": "KYLE - Waco News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kwkt-waco-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kyle-waco-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -30400,9 +30398,9 @@
   "foxkansas.com": {
     "b": "RC",
     "d": "foxkansas.com",
-    "n": "KSAS - Wichita News",
+    "n": "KAAS - Wichita News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/ksas-wichita-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kaas-wichita-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -30949,6 +30947,16 @@
       "LT",
       "M"
     ]
+  },
+  "freedomoutpost.com": {
+    "b": "FN",
+    "d": "freedomoutpost.com",
+    "n": "Freedom Outpost",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/fake-news/",
+    "c": "L",
+    "a": "N",
+    "q": []
   },
   "freedomproject.com": {
     "b": "FN",
@@ -36067,9 +36075,9 @@
   "hawaiinewsnow.com": {
     "b": "C",
     "d": "hawaiinewsnow.com",
-    "n": "KGMB - Hawaii News Now",
+    "n": "KHNL - Hawaii News Now",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kgmb-hawaii-news-now-bias/",
+    "u": "https://mediabiasfactcheck.com/khnl-hawaii-news-now-bias/",
     "c": "H",
     "a": "H",
     "q": []
@@ -37679,12 +37687,12 @@
   "hometownsource.com/sun_thisweek": {
     "b": "LC",
     "d": "hometownsource.com/sun_thisweek",
-    "n": "Lakeville Sun ThisWeek",
+    "n": "Burnsville-Eagan Sun ThisWeek",
     "p": "/sun_thisweek",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/lakeville-sun-thisweek-bias/",
+    "u": "https://mediabiasfactcheck.com/burnsville-eagan-sun-thisweek-bias/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "hometownsource.com/union_times": {
@@ -37701,11 +37709,11 @@
   "hometownstations.com": {
     "b": "C",
     "d": "hometownstations.com",
-    "n": "WPNM - Leipsic News",
+    "n": "WLIO - Lima News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wpnm-leipsic-news-bias/",
+    "u": "https://mediabiasfactcheck.com/wlio-lima-news-bias/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "homevaccineeducationnetwork.com": {
@@ -39312,11 +39320,12 @@
     "q": []
   },
   "independentmail.com": {
-    "b": "LC",
+    "b": "C",
     "d": "independentmail.com",
     "n": "Anderson Independent Mail",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/anderson-independent-mail-bias/",
+    "u": "https://mediabiasfactcheck.com/anderson-independent-mail/",
+    "P": 54,
     "c": "H",
     "a": "L",
     "q": []
@@ -40621,9 +40630,9 @@
   "iowapubicradio.org": {
     "b": "LC",
     "d": "iowapubicradio.org",
-    "n": "KNSY - NPR - Dubuque",
+    "n": "KNSK - NPR - Fort Dosdge",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/knsy-npr-dubuque-bias/",
+    "u": "https://mediabiasfactcheck.com/knsk-npr-fort-dodge-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -43017,9 +43026,9 @@
   "kansaspublicradio.org": {
     "b": "LC",
     "d": "kansaspublicradio.org",
-    "n": "KANU - NPR - Lawrence",
+    "n": "KANV - NPR - Olsburg",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kanu-npr-lawrence-bias/",
+    "u": "https://mediabiasfactcheck.com/kanv-npr-olsburg-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -43331,9 +43340,9 @@
   "kclu.org": {
     "b": "LC",
     "d": "kclu.org",
-    "n": "KCLU - NPR - Santa Barbara",
+    "n": "KCLU - NPR - Thousand Oaks",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kclu-npr-santa-barbara-bias/",
+    "u": "https://mediabiasfactcheck.com/kclu-npr-thousand-oaks-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -44578,9 +44587,9 @@
   "kmxt.org": {
     "b": "LC",
     "d": "kmxt.org",
-    "n": "KODK - NPR - Kodiak",
+    "n": "KMXT - NPR - Kodiak",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kodk-npr-kodiak-bias/",
+    "u": "https://mediabiasfactcheck.com/kmxt-npr-kodiak-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -45811,9 +45820,9 @@
   "kxnet.com": {
     "b": "C",
     "d": "kxnet.com",
-    "n": "KXMA - Dickinson News",
+    "n": "KXMB - Bismarck News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kxma-dickinson-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kxmb-bismarck-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -55049,10 +55058,10 @@
   "myheraldreview.com/news/willcox": {
     "b": "RC",
     "d": "myheraldreview.com/news/willcox",
-    "n": "Willcox Range News",
+    "n": "Wilcox Range News",
     "p": "/news/willcox",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/willcox-range-news-bias/",
+    "u": "https://mediabiasfactcheck.com/wilcox-range-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -55162,13 +55171,13 @@
     "q": []
   },
   "myrgv.com": {
-    "b": "C",
+    "b": "LC",
     "d": "myrgv.com",
-    "n": "The Monitor (Texas)",
+    "n": "The Brownsville Herald",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/the-monitor-texas/",
+    "u": "https://mediabiasfactcheck.com/the-brownsville-herald/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "myrightamerica.com": {
@@ -56215,9 +56224,9 @@
   "nbc25news.com": {
     "b": "RC",
     "d": "nbc25news.com",
-    "n": "WEYI - Saginaw News",
+    "n": "WSMH - Flint",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/weyi-saginaw-news-bias/",
+    "u": "https://mediabiasfactcheck.com/wsmh-flint-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -57199,9 +57208,9 @@
   "nepm.org": {
     "b": "LC",
     "d": "nepm.org",
-    "n": "WNNZ - NPR - Westfield",
+    "n": "WFCR - NPR - Amherst",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wnnz-npr-westfield-bias/",
+    "u": "https://mediabiasfactcheck.com/wfcr-npr-amherst-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -58562,9 +58571,9 @@
   "newschannel20.com": {
     "b": "RC",
     "d": "newschannel20.com",
-    "n": "WICD - Champaign News",
+    "n": "WICS - Springfield News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wicd-champaign-news-bias/",
+    "u": "https://mediabiasfactcheck.com/wics-springfield-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -59093,9 +59102,9 @@
   "newspressnow.com": {
     "b": "C",
     "d": "newspressnow.com",
-    "n": "St. Joseph News-Press",
+    "n": "KCJO - St. Jospeph News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/st-joseph-news-press-bias/",
+    "u": "https://mediabiasfactcheck.com/kcjo-st-joseph-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -60211,10 +60220,10 @@
   "nonstoplocal.com/tri-cities-yakima": {
     "b": "C",
     "d": "nonstoplocal.com/tri-cities-yakima",
-    "n": "KNDU - Richland News",
+    "n": "KNDO - Yakima News",
     "p": "/tri-cities-yakima",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kndu-richland-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kndo-yakima-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -62206,9 +62215,9 @@
   "nwahomepage.com": {
     "b": "C",
     "d": "nwahomepage.com",
-    "n": "KFTA - Northwest Arkansas News",
+    "n": "KNWA - Northwest Arkansas News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kfta-northwest-arkansas-news-bias/",
+    "u": "https://mediabiasfactcheck.com/knwa-northwest-arkansas-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -64292,9 +64301,9 @@
   "ourquadcities.com": {
     "b": "C",
     "d": "ourquadcities.com",
-    "n": "WHBF - Quad Cities News",
+    "n": "KLJB - Quad Cities News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/whbf-quad-cities-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kljb-quad-cities-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -66146,11 +66155,11 @@
   "phillyburbs.com": {
     "b": "LC",
     "d": "phillyburbs.com",
-    "n": "Doylestown Intelligencer",
+    "n": "Bucks County Courier Times",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/doylestown-intelligencer-bias/",
+    "u": "https://mediabiasfactcheck.com/bucks-county-courier-times-bias/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "phillyleader.com": {
@@ -66786,13 +66795,13 @@
   "pogo.org": {
     "b": "LC",
     "d": "pogo.org",
-    "f": "pogo.org",
-    "n": "Project on Government Insight",
-    "r": "H",
-    "t": "POGOBlog",
-    "u": "https://mediabiasfactcheck.com/project-on-government-oversight/",
-    "P": 59,
-    "c": "H",
+    "f": "OpenTheGov",
+    "n": "Open the Government (POGO)",
+    "r": "MF",
+    "t": "OpenTheGov",
+    "u": "https://mediabiasfactcheck.com/open-the-government/",
+    "P": 57,
+    "c": "M",
     "a": "L",
     "q": []
   },
@@ -72651,9 +72660,9 @@
   "rockdalenewtoncitizen.com": {
     "b": "C",
     "d": "rockdalenewtoncitizen.com",
-    "n": "Rockdale Citizen",
+    "n": "Newton Citizen",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/rockdale-citizen-bias/",
+    "u": "https://mediabiasfactcheck.com/newton-citizen-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -73556,12 +73565,12 @@
   "saltwire.com/nova-scotia": {
     "b": "RC",
     "d": "saltwire.com/nova-scotia",
-    "n": "Colchester Wire",
+    "n": "The News (New Glasgow)",
     "p": "/nova-scotia",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/colchester-wire-bias/",
+    "u": "https://mediabiasfactcheck.com/the-news-new-glasgow-bias/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "saltwire.com/nova-scotia/communities/annapolis-valley": {
@@ -73578,10 +73587,10 @@
   "saltwire.com/prince-edward-island": {
     "b": "RC",
     "d": "saltwire.com/prince-edward-island",
-    "n": "Charlottetown Guardian",
+    "n": "Journal Pioneer",
     "p": "/prince-edward-island",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/charlottetown-guardian-bias/",
+    "u": "https://mediabiasfactcheck.com/journal-pioneer-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -76133,14 +76142,12 @@
   "shawlocal.com/daily-chronicle": {
     "b": "C",
     "d": "shawlocal.com/daily-chronicle",
-    "n": "The Daily Chronicle",
+    "n": "Dekalb Daily Chronicle",
     "p": "/daily-chronicle",
     "r": "H",
-    "t": "daily_chronicle",
-    "u": "https://mediabiasfactcheck.com/the-daily-chronicle/",
-    "P": 67,
+    "u": "https://mediabiasfactcheck.com/dekalb-daily-chronicle-bias/",
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "shawlocal.com/kane-county-chronicle": {
@@ -76157,10 +76164,10 @@
   "shawlocal.com/kendall-county-now": {
     "b": "C",
     "d": "shawlocal.com/kendall-county-now",
-    "n": "Kendall County Now",
+    "n": "Owsego Ledger",
     "p": "/kendall-county-now",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kendall-county-now-bias/",
+    "u": "https://mediabiasfactcheck.com/oswego-ledger-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -76234,10 +76241,10 @@
   "shawlocal.com/ogle-county-news": {
     "b": "C",
     "d": "shawlocal.com/ogle-county-news",
-    "n": "Forreston Journal",
+    "n": "Mt Morris News",
     "p": "/ogle-county-news",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/forreston-journal-bias/",
+    "u": "https://mediabiasfactcheck.com/mt-morris-times-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -76267,10 +76274,10 @@
   "shawlocal.com/sauk-valley": {
     "b": "C",
     "d": "shawlocal.com/sauk-valley",
-    "n": "Sauk Valley Gazette",
+    "n": "Sauk Valley Telegraph",
     "p": "/sauk-valley",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/sauk-valley-gazette-bias/",
+    "u": "https://mediabiasfactcheck.com/sauk-valley-telegraph-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -76962,9 +76969,9 @@
   "siouxlandnews.com": {
     "b": "RC",
     "d": "siouxlandnews.com",
-    "n": "KBVK - Sioux City News",
+    "n": "KMEG - Sioux City News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kbvk-sioux-city-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kmeg-sioux-city-news/",
     "c": "H",
     "a": "L",
     "q": []
@@ -80948,9 +80955,9 @@
   "sun-courier.com": {
     "b": "C",
     "d": "sun-courier.com",
-    "n": "Reinbeck Courier",
+    "n": "Gladbrook Sun-Courier",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/reinbeck-courier-bias/",
+    "u": "https://mediabiasfactcheck.com/gladbrook-sun-courier-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -85041,14 +85048,12 @@
   "thefirsttv.com": {
     "b": "R",
     "d": "thefirsttv.com",
-    "f": "theresurgent",
-    "n": "The Resurgent",
+    "n": "The First TV",
     "r": "M",
-    "t": "resurgent",
-    "u": "https://mediabiasfactcheck.com/the-resurgent/",
-    "P": 55,
+    "u": "https://mediabiasfactcheck.com/the-first-tv/",
+    "P": 25,
     "c": "M",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "thefiscaltimes.com": {
@@ -91224,19 +91229,21 @@
   "trendingpoliticsnews.com": {
     "b": "FN",
     "d": "trendingpoliticsnews.com",
-    "n": "TrendingPoliticsNews.com",
-    "r": "M",
-    "u": "https://mediabiasfactcheck.com/trendingpoliticsnews-com-bias/",
+    "n": "Trending Politics",
+    "r": "L",
+    "u": "https://mediabiasfactcheck.com/trending-politics/",
+    "P": 41,
     "c": "L",
-    "a": "M",
+    "a": "L",
     "q": [
       "C",
       "P",
       "PS",
       "LT",
+      "FFC",
       "FC",
       "M",
-      "PG"
+      "PSE"
     ]
   },
   "trentonian.ca": {
@@ -94275,13 +94282,14 @@
     "q": []
   },
   "vancouver.citynews.ca": {
-    "b": "C",
+    "b": "LC",
     "d": "vancouver.citynews.ca",
-    "n": "CityNews Vancouver",
+    "n": "News1130 & City News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/citynews-vancouver-bias/",
+    "u": "https://mediabiasfactcheck.com/news1130-city-news/",
+    "P": 50,
     "c": "H",
-    "a": "H",
+    "a": "M",
     "q": []
   },
   "vancouverislandfreedaily.com": {
@@ -96297,11 +96305,11 @@
   "wbez.org": {
     "b": "LC",
     "d": "wbez.org",
-    "n": "WBEZ - NPR - Chicago",
+    "n": "WBEK - NPR - Kankakee",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wbez-npr-chicago-bias/",
+    "u": "https://mediabiasfactcheck.com/wbek-npr-kankakee-bias/",
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "wbhm.org": {
@@ -100353,11 +100361,11 @@
   "wptv.com": {
     "b": "C",
     "d": "wptv.com",
-    "n": "WHDT - West Palm Beach News",
+    "n": "WPTV - West Palm Beach News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/whdt-west-palm-beach-news-bias/",
+    "u": "https://mediabiasfactcheck.com/wptv-west-palm-beach-news-bias/",
     "c": "H",
-    "a": "L",
+    "a": "M",
     "q": []
   },
   "wpxi.com": {
@@ -101280,11 +101288,11 @@
   "wyomingnewsnow.tv": {
     "b": "C",
     "d": "wyomingnewsnow.tv",
-    "n": "KGWN - Wyoming News Now",
+    "n": "KCWY - Casper News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kgwn-wyoming-news-now/",
+    "u": "https://mediabiasfactcheck.com/kcwy-casper-news-bias/",
     "c": "H",
-    "a": "M",
+    "a": "L",
     "q": []
   },
   "wypr.org": {
@@ -101454,9 +101462,9 @@
   "yaktrinews.com": {
     "b": "C",
     "d": "yaktrinews.com",
-    "n": "KVEW - Kennewick News",
+    "n": "KAPP - Yakima News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kvew-kennewick-news/",
+    "u": "https://mediabiasfactcheck.com/kapp-yakima-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
@@ -101789,9 +101797,9 @@
   "yourbasin.com": {
     "b": "C",
     "d": "yourbasin.com",
-    "n": "KMID - Midland News",
+    "n": "KPEJ - Odessa News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/kmid-midland-news-bias/",
+    "u": "https://mediabiasfactcheck.com/kpej-odessa-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -101799,9 +101807,9 @@
   "yourbigsky.com": {
     "b": "C",
     "d": "yourbigsky.com",
-    "n": "KHMT - Hardin News",
+    "n": "KSVI - Billings News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/khmt-harding-news-bias/",
+    "u": "https://mediabiasfactcheck.com/ksvi-billings-news-bias/",
     "c": "H",
     "a": "L",
     "q": []
@@ -101831,9 +101839,9 @@
   "yourerie.com": {
     "b": "C",
     "d": "yourerie.com",
-    "n": "WJET - Erie News",
+    "n": "WXFP - Erie News",
     "r": "H",
-    "u": "https://mediabiasfactcheck.com/wjet-erie-news-bias/",
+    "u": "https://mediabiasfactcheck.com/wfxp-erie-news-bias/",
     "c": "H",
     "a": "M",
     "q": []
