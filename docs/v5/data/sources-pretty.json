@@ -852,10 +852,12 @@
     "bias": "pro-science",
     "credibility": "high-credibility",
     "domain": "aaas.org",
-    "name": "The American Association for the Advancement of Science (AAAS)",
-    "popularity": 74,
+    "facebook": "AAAS.Science",
+    "name": "American association for the advancement of science.",
+    "popularity": 87,
     "questionable": [],
     "reporting": "very-high",
+    "twitter": "aaas",
     "url": "https://mediabiasfactcheck.com/american-association-for-the-advancement-of-science-aaas/"
   },
   {
@@ -15702,10 +15704,10 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "cnycentral.com",
-    "name": "WSTM - CNYCentral",
+    "name": "WTVH - CNYCentral",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/wstm-cnycentral-bias/"
+    "url": "https://mediabiasfactcheck.com/wtvh-cnycentral-bias/"
   },
   {
     "bias": "center",
@@ -17135,15 +17137,6 @@
   {
     "bias": "center",
     "credibility": "high-credibility",
-    "domain": "constitution.com",
-    "name": "The Constitution",
-    "questionable": [],
-    "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/fake-news/"
-  },
-  {
-    "bias": "center",
-    "credibility": "high-credibility",
     "domain": "constitutioncenter.org",
     "facebook": "constitutionctr",
     "name": "Constitution Daily",
@@ -18316,10 +18309,10 @@
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "crossroadstoday.com",
-    "name": "KVCT - Victoria News",
+    "name": "KXTS - Victoria News",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/kvct-victoria-news-bias/"
+    "url": "https://mediabiasfactcheck.com/kxts-victoria-news-bias/"
   },
   {
     "bias": "left-center",
@@ -20223,10 +20216,10 @@
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "dcnewsnow.com",
-    "name": "WDCW - DC News Now",
+    "name": "WDVM - DC News Now",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/wdcw-dc-news-now-bias/"
+    "url": "https://mediabiasfactcheck.com/wdvm-dcw-50/"
   },
   {
     "bias": "left-center",
@@ -20896,10 +20889,10 @@
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "deltanews.tv",
-    "name": "WNBD - Greenville News",
+    "name": "WABG - DeltaNews",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/wnbd-greenville-news-bias/"
+    "url": "https://mediabiasfactcheck.com/wabg-deltanews-bias/"
   },
   {
     "bias": "left-center",
@@ -23290,10 +23283,10 @@
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "echo-news.co.uk",
-    "name": "Essex Echo",
+    "name": "Southend Echo",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/essex-echo-bias/"
+    "url": "https://mediabiasfactcheck.com/southend-echo-bias/"
   },
   {
     "bias": "fake-news",
@@ -27443,10 +27436,10 @@
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "fourstateshomepage.com",
-    "name": "KSNF - Joplin News",
+    "name": "KODE - Joplin News",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/ksnf-joplin-news-bias/"
+    "url": "https://mediabiasfactcheck.com/kode-joplin-news-bias/"
   },
   {
     "bias": "center",
@@ -27679,10 +27672,10 @@
     "bias": "center",
     "credibility": "high-credibility",
     "domain": "fox44news.com",
-    "name": "KYLE - Waco News",
+    "name": "KWKT - Waco News",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/kyle-waco-news-bias/"
+    "url": "https://mediabiasfactcheck.com/kwkt-waco-news-bias/"
   },
   {
     "bias": "center",
@@ -27914,10 +27907,10 @@
     "bias": "right-center",
     "credibility": "high-credibility",
     "domain": "foxkansas.com",
-    "name": "KSAS - Wichita News",
+    "name": "KAAS - Wichita News",
     "questionable": [],
     "reporting": "high",
-    "url": "https://mediabiasfactcheck.com/ksas-wichita-news-bias/"
+    "url": "https://mediabiasfactcheck.com/kaas-wichita-news-bias/"
   },
   {
     "bias": "center",
@@ -28424,6 +28417,15 @@
     ],
     "reporting": "mixed",
     "url": "https://mediabiasfactcheck.com/freedom-news-report/"
+  },
+  {
+    "bias": "fake-news",
+    "credibility": "low-credibility",
+    "domain": "freedomoutpost.com",
+    "name": "Freedom Outpost",
+    "questionable": [],
+    "reporting": "low",
+    "url": "https://mediabiasfactcheck.com/fake-news/"
   },
   {
     "bias": "fake-news",
