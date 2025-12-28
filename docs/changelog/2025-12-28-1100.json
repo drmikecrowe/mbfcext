@@ -1,0 +1,20 @@
+{
+  "date": "2025-12-28-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "beingliberal.org": {
+        "name": "Being Liberal",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      }
+    }
+  }
+}
