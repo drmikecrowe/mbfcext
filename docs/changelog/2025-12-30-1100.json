@@ -1,0 +1,38 @@
+{
+  "date": "2025-12-30-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 4
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "middleamericandemocrat.com": {
+        "name": "Middle American Democrat",
+        "changes": [
+          "questionable: removed ['failed-fact-checks', 'lack-of-transparency', 'misinformation']"
+        ]
+      },
+      "midmichiganstd.com": {
+        "name": "Mid Michigan Standard",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "milehighsentinel.com": {
+        "name": "Mile High Sentinel",
+        "changes": [
+          "questionable: removed ['imposter', 'misinformation', 'propaganda']"
+        ]
+      },
+      "milwaukeemetrotimes.com": {
+        "name": "Milwaukee Metro Times",
+        "changes": [
+          "questionable: removed ['failed-fact-checks', 'imposter', 'lack-of-transparency', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
