@@ -1,0 +1,26 @@
+{
+  "date": "2026-01-03-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "natall.com": {
+        "name": "National Alliance",
+        "changes": [
+          "questionable: added ['false-claims', 'misinformation']"
+        ]
+      },
+      "nationalpolicy.institute": {
+        "name": "National Policy Institute",
+        "changes": [
+          "questionable: removed ['hate', 'misinformation']"
+        ]
+      }
+    }
+  }
+}
