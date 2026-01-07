@@ -1,0 +1,74 @@
+{
+  "date": "2026-01-07-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 10
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "americanaccountabilityfoundation.com": {
+        "name": "American Accountability Foundation",
+        "changes": [
+          "reporting: 'high' -> 'mixed'"
+        ]
+      },
+      "americandemocracyscorecard.org": {
+        "name": "American Democracy Scorecard",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "jewishpolicycenter.org": {
+        "name": "Jewish Policy Center",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "johnsoncitytimes.com": {
+        "name": "Johnson City Times",
+        "changes": [
+          "reporting: 'high' -> 'mixed'"
+        ]
+      },
+      "nesdnews.com": {
+        "name": "NorthEast South Dakota News",
+        "changes": [
+          "reporting: 'high' -> 'mixed'"
+        ]
+      },
+      "nzreport.com": {
+        "name": "NZ Report",
+        "changes": [
+          "reporting: 'high' -> 'mixed'"
+        ]
+      },
+      "siouxempiretoday.com": {
+        "name": "Sioux Empire Today",
+        "changes": [
+          "reporting: 'high' -> 'mixed'"
+        ]
+      },
+      "toronto99.com": {
+        "name": "Toronto 99",
+        "changes": [
+          "reporting: 'low' -> 'mixed'"
+        ]
+      },
+      "truththeory.com": {
+        "name": "Truth Theory",
+        "changes": [
+          "bias: 'left' -> 'conspiracy-pseudoscience'"
+        ]
+      },
+      "uscis.gov": {
+        "name": "United States Citizenship and Immigration Services",
+        "changes": [
+          "reporting: 'very-high' -> 'mixed'"
+        ]
+      }
+    }
+  }
+}
