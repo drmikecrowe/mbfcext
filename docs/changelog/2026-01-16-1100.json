@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-16-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "stripes.com": {
+        "name": "Stars and Stripes",
+        "changes": [
+          "bias: 'center' -> 'right-center'"
+        ]
+      }
+    }
+  }
+}
