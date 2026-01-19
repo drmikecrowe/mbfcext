@@ -1,0 +1,21 @@
+{
+  "date": "2026-01-19-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "ibtimes.com": {
+        "name": "International Business Times",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      }
+    }
+  }
+}
