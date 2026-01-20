@@ -1,0 +1,27 @@
+{
+  "date": "2026-01-20-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "huffpost.com": {
+        "name": "Huffington Post",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      },
+      "newsline.com": {
+        "name": "Newsline",
+        "changes": [
+          "bias: 'right-center' -> 'center'",
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      }
+    }
+  }
+}
