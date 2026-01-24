@@ -1,0 +1,32 @@
+{
+  "date": "2026-01-24-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "northeastherald.org": {
+        "name": "Northeast Herald",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      },
+      "northernclarkcountyherald.com": {
+        "name": "Northern Clark County Herald",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "notallowedto.com": {
+        "name": "Not Allowed to",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation']"
+        ]
+      }
+    }
+  }
+}
