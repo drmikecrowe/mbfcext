@@ -1,0 +1,26 @@
+{
+  "date": "2026-01-27-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "electronicintifada.net": {
+        "name": "Electronic Intifada",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      },
+      "oathkeepers.org": {
+        "name": "Oath Keepers",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
