@@ -1,0 +1,20 @@
+{
+  "date": "2026-01-29-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "newsnationnow.com": {
+        "name": "NewsNation",
+        "changes": [
+          "bias: 'center' -> 'right-center'"
+        ]
+      }
+    }
+  }
+}
