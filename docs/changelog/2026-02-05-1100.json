@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-05-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "cygn.al": {
+        "name": "Cygnal Polling",
+        "changes": [
+          "bias: 'left-center' -> 'right-center'"
+        ]
+      }
+    }
+  }
+}
