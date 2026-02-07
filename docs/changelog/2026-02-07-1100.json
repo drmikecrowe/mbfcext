@@ -1,0 +1,40 @@
+{
+  "date": "2026-02-07-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 4
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "americanresearchgroup.com": {
+        "name": "American Research Group",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "amview.com": {
+        "name": "American Viewpoint",
+        "changes": [
+          "bias: 'center' -> 'right-center'",
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      },
+      "otptribune.com": {
+        "name": "OTP Tribune",
+        "changes": [
+          "questionable: removed ['false-claims', 'imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "outragedpatriot.com": {
+        "name": "Outraged Patriot",
+        "changes": [
+          "questionable: removed ['conspiracy', 'fake-news', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      }
+    }
+  }
+}
