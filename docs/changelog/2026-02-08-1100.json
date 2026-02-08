@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-08-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "atlasintel.org": {
+        "name": "AtlasIntel",
+        "changes": [
+          "reporting: 'high' -> 'very-high'"
+        ]
+      }
+    }
+  }
+}
