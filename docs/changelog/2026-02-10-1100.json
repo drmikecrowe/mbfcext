@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-10-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "changeresearch.com": {
+        "name": "Change Research",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      },
+      "ciruli.com": {
+        "name": "Cirulia Associates",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      }
+    }
+  }
+}
