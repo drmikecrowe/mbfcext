@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-11-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "civiqs.com": {
+        "name": "Civiqs",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "claritycampaigns.com": {
+        "name": "Clarity Campaign Labs",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      }
+    }
+  }
+}
