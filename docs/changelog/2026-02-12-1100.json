@@ -1,0 +1,34 @@
+{
+  "date": "2026-02-12-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "coefficient.org": {
+        "name": "co/efficient",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      },
+      "danjonescenter.com": {
+        "name": "Dan Jones Center for Public Service",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "dataforprogress.org": {
+        "name": "Data for Progress",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      }
+    }
+  }
+}
