@@ -1,0 +1,27 @@
+{
+  "date": "2026-02-13-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "dhmresearch.com": {
+        "name": "DHM Research",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "echeloninsights.com": {
+        "name": "Echelon Insights",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      }
+    }
+  }
+}
