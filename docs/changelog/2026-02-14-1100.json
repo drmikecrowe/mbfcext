@@ -1,0 +1,27 @@
+{
+  "date": "2026-02-14-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "ssl2002.webhosting.comcast.net/epic-mra": {
+        "name": "Epic-MRA",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "surveyresearch.ecu.edu": {
+        "name": "ECU Center for Survey Research",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      }
+    }
+  }
+}
