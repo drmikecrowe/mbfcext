@@ -1,0 +1,44 @@
+{
+  "date": "2026-02-15-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 5
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "patrioticviralnews.com": {
+        "name": "Patriotic Viral News",
+        "changes": [
+          "questionable: added ['conspiracy']"
+        ]
+      },
+      "patriotreport.com": {
+        "name": "Patriot Report",
+        "changes": [
+          "questionable: removed ['conspiracy', 'fake-news', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "patriotuproar.com": {
+        "name": "Patriot Uproar",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'lack-of-transparency', 'misinformation', 'plagiarism', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "pcmustdie.com": {
+        "name": "PC Must Die News",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "peachtreegazette.com": {
+        "name": "Peachtree Gazette",
+        "changes": [
+          "questionable: removed ['false-claims', 'imposter', 'lack-of-transparency', 'misinformation']"
+        ]
+      }
+    }
+  }
+}
