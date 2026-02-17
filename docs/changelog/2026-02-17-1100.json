@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-17-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "personalinterpretation.com": {
+        "name": "Personal Interpretation",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'hate', 'lack-of-transparency', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
