@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-19-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "globalstrategygroup.com": {
+        "name": "Global Strategy Group",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "gqrr.com": {
+        "name": "GQR Insights",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "impactresearch.com": {
+        "name": "Impact Research",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      }
+    }
+  }
+}
