@@ -1,0 +1,53 @@
+{
+  "date": "2026-02-20-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 6
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "ippsr.msu.edu": {
+        "name": "Institute for Public Policy and Social Research",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "ipsos.com": {
+        "name": "Ipsos Polling",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "jlpartners.com": {
+        "name": "J.L. Partners",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "lakeresearchpartners.com": {
+        "name": "Lake Research Partners/The Tarrance Group",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "law.marquette.edu/poll": {
+        "name": "Marquette University Poll",
+        "changes": [
+          "reporting: 'very-high' -> 'high'"
+        ]
+      },
+      "mitchellresearch.net": {
+        "name": "Mitchell Research",
+        "changes": [
+          "reporting: 'high' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      }
+    }
+  }
+}
