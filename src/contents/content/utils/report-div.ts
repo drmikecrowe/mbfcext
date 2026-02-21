@@ -238,7 +238,7 @@ export class NewsAnnotation {
 
     const prompt = this.collapse ? "Show" : "Hide"
 
-    const inlineCode = `let el=document.getElementById("mbfc-story-toolbar-${this.count}"); el.style.display=el.style.display==='none'?"flex":"none"`
+    const inlineCode = `let el=document.getElementById("mbfc-story-expanded-${this.count}"); el.style.display=el.style.display==='none'?"block":"none"`
 
     return html`
       <div className="mbfc-annotation-container">
@@ -251,33 +251,35 @@ export class NewsAnnotation {
             </div>
           </div>
         </div>
-        <div id="mbfc-story-toolbar-${this.count}" style="display: none; justify-content: space-between; width: 100%;">
-          <button
-            id="mbfc-toolbar-button1-${this.count}"
-            class="mbfc-toolbar-button mbfc-drop-down mbfc-button-success mbfc-dropdown-button"
-            data-attached="false"
-            data-type="ignore"
-            data-count="${this.count}"
-            data-domain="${this.site.domain}"
-            data-collapse="${prompt}">
-            Always ${prompt} ${this.site.domain}
-          </button>
-          <button
-            id="mbfc-toolbar-button2-${this.count}"
-            class="mbfc-toolbar-button mbfc-drop-down mbfc-button-warning mbfc-dropdown-button"
-            data-attached="false"
-            data-type="reset">
-            Reset Hidden Sites
-          </button>
-          <button
-            id="mbfc-toolbar-button3-${this.count}"
-            class="mbfc-toolbar-button mbfc-drop-down mbfc-button-secondary mbfc-dropdown-button"
-            data-attached="false"
-            data-type="thanks">
-            Say Thanks
-          </button>
+        <div id="mbfc-story-expanded-${this.count}" style="display: none">
+          <div style="display: flex; justify-content: space-between; width: 100%;">
+            <button
+              id="mbfc-toolbar-button1-${this.count}"
+              class="mbfc-toolbar-button mbfc-drop-down mbfc-button-success mbfc-dropdown-button"
+              data-attached="false"
+              data-type="ignore"
+              data-count="${this.count}"
+              data-domain="${this.site.domain}"
+              data-collapse="${prompt}">
+              Always ${prompt} ${this.site.domain}
+            </button>
+            <button
+              id="mbfc-toolbar-button2-${this.count}"
+              class="mbfc-toolbar-button mbfc-drop-down mbfc-button-warning mbfc-dropdown-button"
+              data-attached="false"
+              data-type="reset">
+              Reset Hidden Sites
+            </button>
+            <button
+              id="mbfc-toolbar-button3-${this.count}"
+              class="mbfc-toolbar-button mbfc-drop-down mbfc-button-secondary mbfc-dropdown-button"
+              data-attached="false"
+              data-type="thanks">
+              Say Thanks
+            </button>
+          </div>
+          <div className="mbfc-annotation-row">${reportingDiv} ${credibilityDiv} ${trafficDiv} ${popularityDiv} ${researchDiv} ${mbfcDiv}</div>
         </div>
-        <div className="mbfc-annotation-row">${reportingDiv} ${credibilityDiv} ${trafficDiv} ${popularityDiv} ${researchDiv} ${mbfcDiv}</div>
       </div>
     `
   }
