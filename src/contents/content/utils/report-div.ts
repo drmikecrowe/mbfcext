@@ -62,11 +62,12 @@ export class NewsAnnotation {
       .mbfc-annotation-container {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
         justify-content: center;
         padding: 10px;
         border-radius: 5px;
         margin-bottom: 10px;
+        width: 100%;
       }
 
       .mbfc-caution-row {
