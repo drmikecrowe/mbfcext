@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss/tailwind-config').TailwindConfig} */
 module.exports = {
   mode: "jit",
-  content: ["./**/*.{ts,tsx}"],
+  content: ["./src/**/*.{ts,tsx,html}"],
   theme: {
     fontFamily: {
       sans: ["Roboto", "system-ui"],
