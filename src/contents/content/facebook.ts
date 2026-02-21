@@ -37,55 +37,102 @@ export class Facebook extends Filter {
     return Facebook.instance
   }
 
-  findArticleElements(e: HTMLElement): NodeListOf<Element> {
-    if (!e || !e.querySelectorAll) return [] as any
-    return e.querySelectorAll(`div[role='article'][aria-posinset]:not(.${C_PROCESSED})`)
+  /**
+   * Find post containers using the new data-ad-rendering-role approach.
+   *
+   * Algorithm:
+   * 1. Find all [data-ad-rendering-role="like_button"] elements not already processed
+   * 2. For each: walk up DOM to find nearest ancestor that also contains [data-ad-rendering-role="profile_name"]
+   * 3. That ancestor IS the post container
+   * 4. Deduplicate containers (Set)
+   */
+  findArticleElements(e: HTMLElement): Element[] {
+    if (!e || !e.querySelectorAll) return []
+    const containers = new Set<Element>()
+    const likeButtons = e.querySelectorAll(`[data-ad-rendering-role="like_button"]:not(.${C_PROCESSED})`)
+
+    likeButtons.forEach((likeBtn) => {
+      // Walk up DOM to find ancestor containing both like_button and profile_name
+      let ancestor: Element | null = likeBtn.parentElement
+      while (ancestor && ancestor !== e) {
+        const profileName = ancestor.querySelector(`[data-ad-rendering-role="profile_name"]`)
+        if (profileName) {
+          // Found the post container - add it if not already processed
+          if (!ancestor.classList.contains(C_PROCESSED)) {
+            containers.add(ancestor)
+          }
+          break
+        }
+        ancestor = ancestor.parentElement
+      }
+    })
+
+    return Array.from(containers)
   }
 
   findTitleElement(e: HTMLElement): HTMLAnchorElement | undefined {
-    // Title element is the first link in the article
+    // Use profile_name role to find the posting page/person link
+    const profileLink = e.querySelector(`[data-ad-rendering-role="profile_name"] a`) as HTMLAnchorElement
+    if (profileLink) return profileLink
+    // Fallback to first link
     return e.querySelector(`a[role='link']`)
   }
 
   findLikeButtons(e: HTMLElement): HTMLElement | undefined {
-    return e.querySelector('div[data-visualcompletion="ignore-dynamic"]')
+    // Use the new like_button role
+    return e.querySelector(`[data-ad-rendering-role="like_button"]`) as HTMLElement | undefined
   }
 
   findSponsored(e: HTMLElement): HTMLElement | undefined {
     return e.querySelector('span > span > a[aria-label="Sponsored"]')
   }
 
+  /**
+   * Extract domain from [data-ad-rendering-role="meta"].textContent
+   * This is the primary domain source - Facebook shows the article domain directly.
+   */
   findDomainSpan(e: HTMLElement): DomainSort | undefined {
-    const domains: Record<string, DomainSort> = {}
-    Array.from(e.querySelectorAll(`span[dir='auto'] > span:not(:has(*))`)).forEach((el) => {
-      const text = el.textContent
-      if (!text) return
-      const domain = text.split(" ")[0]
-      if (!domain_re.test(domain)) return
-      if (domains[domain]) {
-        domains[domain].count += 1
-      } else {
-        domains[domain] = {
-          domain,
-          count: 1,
-          html: el as HTMLElement,
-        }
-      }
-    })
-    const keys = Object.keys(domains)
-    if (keys.length === 0) return undefined
-    const domain = keys.reduce((a, b) => (domains[a].count > domains[b].count ? a : b))
-    return domains[domain]
+    const metaElement = e.querySelector(`[data-ad-rendering-role="meta"]`)
+    if (!metaElement) return undefined
+
+    const text = metaElement.textContent?.trim().toLowerCase()
+    if (!text) return undefined
+
+    // The meta role contains the domain directly (e.g., "reuters.com")
+    const domain = text.split(" ")[0]
+    if (!domain_re.test(domain)) return undefined
+
+    return {
+      domain,
+      count: 1,
+      html: metaElement as HTMLElement,
+    }
   }
 
+  /**
+   * Find Facebook page path from profile_name role
+   */
   findPossibleFbPage(e: HTMLElement): string | undefined {
-    const elem = e.querySelector("h3 span > a[href*='https://www.facebook.com']") as HTMLAnchorElement
+    const elem = e.querySelector(`[data-ad-rendering-role="profile_name"] a[href*='facebook.com']`) as HTMLAnchorElement
     if (elem) {
       return this.clean_path(elem)
+    }
+    // Fallback to old selector
+    const fallback = e.querySelector("h3 span > a[href*='https://www.facebook.com']") as HTMLAnchorElement
+    if (fallback) {
+      return this.clean_path(fallback)
     }
   }
 
   findPossibleName(e: HTMLElement): string | undefined {
+    // Use profile_name role text content
+    const profileElement = e.querySelector(`[data-ad-rendering-role="profile_name"]`)
+    if (profileElement) {
+      // Get text from the profile link or direct text content
+      const link = profileElement.querySelector("a")
+      return (link?.textContent || profileElement.textContent)?.trim()
+    }
+    // Fallback
     const elem = e.querySelector("h3 span > a > strong > span") as HTMLSpanElement
     if (elem) {
       return elem.textContent
