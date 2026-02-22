@@ -242,8 +242,10 @@ export class Facebook extends Filter {
   async buildStory(parent: HTMLElement): Promise<Result<Story, string>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
 
-    // Add News Search button for any post (independent of MBFC lookup)
-    this.addNewsSearchButton(parent)
+    // Add News Search button for any post (independent of MBFC lookup), unless disabled
+    if (!ConfigHandler.getInstance().config.disableNewsSearchButton) {
+      this.addNewsSearchButton(parent)
+    }
 
     const story: Story = {
       title_element: this.findTitleElement(parent),

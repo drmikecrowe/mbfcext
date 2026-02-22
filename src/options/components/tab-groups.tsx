@@ -35,6 +35,7 @@ export function getTabGroups(): TabGroups[] {
   const [collapseMixed, setCollapseMixed] = useStorage(CollapseKeys.collapseMixed, false)
   const [collapseSponsored, setCollapseSponsored] = useStorage(CollapseKeys.collapseSponsored, false)
   const [mbfcBlockAnalytics, setMbfcBlockAnalytics] = useStorage("mbfcBlockAnalytics", false)
+  const [disableNewsSearchButton, setDisableNewsSearchButton] = useStorage("disableNewsSearchButton", false)
 
   const baseClasses = {
     styleClasses: "mb-4",
@@ -199,6 +200,23 @@ export function getTabGroups(): TabGroups[] {
                 <li className="show-list">Sites that are ignored</li>
               </ul>
             </div>
+          ),
+          ...checkboxClasses,
+        },
+        {
+          type: "checkbox",
+          label: "Disable News Search button on Facebook",
+          value: disableNewsSearchButton,
+          setValue: setDisableNewsSearchButton,
+          inputName: "disableNewsSearchButton",
+          hint: (
+            <span>
+              When enabled, hides the 'News Search' button that appears next to 'See more' on Facebook posts. This button searches post text on{" "}
+              <a href="https://factualsearch.news" rel="noreferrer" target="_blank">
+                factualsearch.news
+              </a>
+              .
+            </span>
           ),
           ...checkboxClasses,
         },
