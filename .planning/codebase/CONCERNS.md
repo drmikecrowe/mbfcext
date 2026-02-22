@@ -34,11 +34,12 @@
 - Impact: First-call flag is never reset, logging behavior differs across extension lifetime
 - Fix approach: Remove this side effect or move to class-based implementation with proper state management
 
-**Outdated ESLint and TypeScript Packages:**
-- Issue: ESLint v5 and @typescript-eslint v5 are deprecated (latest v8/v10)
-- Files: package.json devDependencies
-- Impact: Security vulnerabilities, missing latest TypeScript features, slower linting
-- Fix approach: Upgrade to ESLint v8+ and @typescript-eslint v8+ with proper configuration migration
+**Outdated @typescript-eslint Packages:**
+- Issue: @typescript-eslint v5 is deprecated (latest v8)
+- Files: package.json devDependencies (`@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser`)
+- Impact: Missing latest TypeScript features, potential linting issues with newer TS syntax
+- Fix approach: Upgrade to @typescript-eslint v8+ with proper configuration migration
+- Note: ESLint is already at v8.56.0 ✅
 
 ## Known Bugs
 
@@ -218,14 +219,14 @@
 
 ## Dependencies at Risk
 
-**Legacy TypeScript/ESLint Configuration:**
-- Risk: ESLint v5 and @typescript-eslint v5 are end-of-life (EOL)
-- Impact: Security vulnerabilities, missing latest TypeScript features, slower performance
-- Migration plan: Upgrade to ESLint v8+ and @typescript-eslint v8+ with:
-  - Update to ESLint v8.56.0+
-  - Update @typescript-eslint to v8.56.0+
-  - Update @types/node to match Node.js 24+ requirement
-  - Update React types to v19 if upgrading React
+**Legacy @typescript-eslint Configuration:**
+- Risk: @typescript-eslint v5 is end-of-life (EOL), latest is v8
+- Impact: Missing latest TypeScript features, potential incompatibility with TS 5.9
+- Migration plan: Upgrade @typescript-eslint to v8+ with:
+  - Update @typescript-eslint/eslint-plugin to v8.x
+  - Update @typescript-eslint/parser to v8.x
+  - Review breaking changes in v8 migration guide
+- Note: ESLint is already at v8.56.0 ✅
 
 **Outdated React FontAwesome Icons:**
 - Risk: @fortawesome/react-fontawesome v0.2.0 is 2+ years old (v3.2.0 available)
