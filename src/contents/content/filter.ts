@@ -82,6 +82,14 @@ export class Filter {
         if (unattachedButtons.length > 0) {
           this.processUnattachedButtons(unattachedButtons)
         }
+        const unattachedDropdowns = document.querySelectorAll('.mbfc-dropdown-toggle[data-attached="false"]')
+        if (unattachedDropdowns.length > 0) {
+          this.processUnattachedDropdowns(unattachedDropdowns)
+        }
+        const unattachedHideCtrls = document.querySelectorAll('.mbfc-hide-ctrl[data-attached="false"]')
+        if (unattachedHideCtrls.length > 0) {
+          this.processUnattachedHideCtrls(unattachedHideCtrls)
+        }
         if (all_nodes.length === 0) return
         const added = all_nodes.length
         this.process(all_nodes)
@@ -169,22 +177,31 @@ export class Filter {
   }
 
   ignoreButton(text, count) {
+    log(`ignoreButton called with text=${text}, count=${count}`)
     const button = document.getElementById(`mbfc-toolbar-button1-${count}`)
-    if (!button) return
+    if (!button) {
+      log(`Button not found for count ${count}`)
+      return
+    }
     const domain = button.attributes["data-domain"].value
     const collapse = button.attributes["data-collapse"].value !== "Show"
-    log(domain, button.attributes["data-collapse"].value, collapse)
+    log(`Domain: ${domain}, collapse: ${collapse}, data-collapse attr: ${button.attributes["data-collapse"].value}`)
     const which = collapse ? "hiding" : "showing"
     sendToBackground<HideSiteRequestBody, HideSiteResponseBody>({ name: HIDE_SITE, body: { domain, collapse } })
       .then(() => {
+        log(`sendToBackground resolved for ${domain}`)
         log(`Always ${which} ${text}/${domain}`)
         const el = document.getElementById(`mbfcext${count}`)
         if (el) {
           el.style.display = collapse ? "none" : "inherit"
         }
         const domain_class = `${MBFC}-${domain.replace(/\./g, "-")}`
+        log(`Looking for elements with class ${domain_class} to ${which}`)
         if (collapse) {
-          document.querySelectorAll(`.${domain_class}`).forEach((e) => {
+          const elements = document.querySelectorAll(`.${domain_class}`)
+          log(`Found ${elements.length} elements with class ${domain_class}`)
+          elements.forEach((e) => {
+            log(`Hiding element:`, e.tagName, e.className)
             this.hideElement(e)
           })
           document.querySelectorAll(`button[data-domain="${domain}"]`).forEach((e) => {
@@ -219,7 +236,10 @@ export class Filter {
       const type = button.attributes["data-type"].value
       switch (type) {
         case "ignore":
-          button.addEventListener("click", () => this.ignoreButton(button.attributes["data-domain"].value, button.attributes["data-count"].value), false)
+          button.addEventListener("click", (e) => {
+            log(`Ignore button clicked for domain=${button.attributes["data-domain"].value}`)
+            this.ignoreButton(button.attributes["data-domain"].value, button.attributes["data-count"].value)
+          }, false)
           break
         case "thanks":
           button.addEventListener("click", () => this.thanksButton(), false)
@@ -233,34 +253,72 @@ export class Filter {
     }
   }
 
+  processUnattachedDropdowns(elems: NodeListOf<Element>) {
+    for (const dropdown of elems as HTMLElement[]) {
+      const count = dropdown.attributes["data-count"].value
+      dropdown.addEventListener("click", () => {
+        const el = document.getElementById(`mbfc-story-expanded-${count}`)
+        if (el) {
+          el.style.display = el.style.display === "none" ? "block" : "none"
+        }
+      }, false)
+      log(`Added dropdown event listener for count ${count}`)
+      dropdown.attributes.removeNamedItem("data-attached")
+    }
+  }
+
+  processUnattachedHideCtrls(elems: NodeListOf<Element>) {
+    for (const hideCtrl of elems as HTMLElement[]) {
+      const hideClass = hideCtrl.attributes["data-hide-class"].value
+
+      hideCtrl.addEventListener("click", () => {
+        const isHidden = hideCtrl.attributes["data-hidden"].value === "true"
+        const newStoryDisplay = isHidden ? "inherit" : "none"
+
+        document.querySelectorAll(`.${hideClass}`).forEach((e) => {
+          (e as HTMLElement).style.display = newStoryDisplay
+        })
+
+        // Also toggle report_holder visibility
+        // Find the report_holder by looking for the sibling between the two mbfc elements
+        const parentMbfc = hideCtrl.closest("mbfc")?.previousElementSibling
+        if (parentMbfc) {
+          const reportHolder = parentMbfc.nextElementSibling as HTMLElement
+          if (reportHolder && reportHolder.tagName !== "MBFC") {
+            reportHolder.style.display = newStoryDisplay
+          }
+        }
+
+        // Update button text and icon
+        hideCtrl.setAttribute("data-hidden", isHidden ? "false" : "true")
+        const spanEl = hideCtrl.querySelector("span")
+        if (spanEl) {
+          spanEl.textContent = isHidden ? "Hide Again" : "Show Anyway"
+        }
+        // Update icon (it's the first text node before the span)
+        hideCtrl.innerHTML = (isHidden ? faEyeSlash : faEye) + ` <span>${isHidden ? "Hide Again" : "Show Anyway"}</span>`
+      }, false)
+      log(`Added hide control event listener for ${hideClass}`)
+      hideCtrl.attributes.removeNamedItem("data-attached")
+    }
+  }
+
   getHiddenDiv(hide_class: string, count: number, collapse: boolean) {
     const hDiv = document.createElement("mbfc")
     hDiv.className = `mbfcext ${C_FOUND}`
 
-    const show_eye_id = `${hide_class}-show-eye`
-    const hide_eye_id = `${hide_class}-hide-eye`
     const hide_id = `${hide_class}-icon`
     const hide_classes = `mbfc mbfc-hide-ctrl mbfc-hide-ctrl${count}`
 
-    const inlineCode = `
-            let icon_show=document.getElementById('${show_eye_id}'), icon_hide=document.getElementById('${hide_eye_id}');     
-            let show = icon_show.style.display !== 'none';       
-            let new_story_display = show ? 'inherit' : 'none';    
-            Array.from(document.getElementsByClassName('${hide_class}')).forEach(function(e) {
-                e.style.display = new_story_display;
-            });
-            icon_show.style.display = show ? 'none' : 'block';
-            icon_hide.style.display = show ? 'block' : 'none';
-        `.replace(/\s+/g, " ")
-
     const hide = collapse
-      ? `<mbfc><div
+      ? `<mbfc style="padding: 8px; text-align: center;"><div
             id="${hide_id}"
             class="${hide_classes}"
-            onclick="${inlineCode}"
-            style="cursor: pointer; padding-left: 2px;">
-            <span id="${hide_eye_id}" style="display: none">${faEyeSlash} Hide Again</span>
-            <span id="${show_eye_id}">${faEye} Show Anyway</span>
+            data-attached="false"
+            data-hide-class="${hide_class}"
+            data-hidden="true"
+            style="cursor: pointer; display: inline-block; padding: 4px 12px; border-radius: 16px; background: #e4e6eb; font-size: 12px; margin-bottom: 10px;">
+            ${faEye} <span>Show Anyway</span>
         </div></mbfc>`
       : ""
     set(hDiv, "innerHTML", hide)
@@ -395,10 +453,16 @@ export class Filter {
         this.addClasses(e, [MBFC, domain_class])
       })
     }
-    if (story.report_element) {
-      const pn = story.report_element.parentNode
-      if (pn && reportElem) {
-        pn.insertBefore(reportElem, story.report_element)
+    if (story.report_holder && reportElem) {
+      // Insert BEFORE the report_holder (like buttons container) as a sibling
+      // This places the MBFC bar above the like buttons at the correct level
+      story.parent.insertBefore(reportElem, story.report_holder)
+      // Add domain class to report_holder (the div between the two mbfc tags) so it hides when domain is collapsed
+      // Do this AFTER insert to ensure we have the right element
+      if (!story.sponsored) {
+        const domain_class = `${MBFC}-${story.domain.final_domain.replace(/\./g, "-")}`
+        log(`Adding domain class ${domain_class} to report_holder for story ${story.count}`)
+        this.addClasses(story.report_holder, [MBFC, domain_class])
       }
     }
     const hide_class = `mbfcext-hide-${story.count}`
@@ -412,6 +476,10 @@ export class Filter {
       story.hides.forEach((e) => {
         this.hideElement(e)
       })
+      // Also hide report_holder (the div between the two mbfc tags)
+      if (story.report_holder) {
+        this.hideElement(story.report_holder)
+      }
     }
     if (isDevMode()) {
       log(`inject-${story.count}`, story, story.parent)

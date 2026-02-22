@@ -45,13 +45,12 @@ export class NewsAnnotation {
         padding: 5px;
       }
       .mbfc-icon-svg {
-        position: absolute;
-        right: 0;
-        margin-top: -7px;
         color: white;
         cursor: pointer;
         height: 10px;
         width: 10px;
+        float: right;
+        margin-left: 10px;
       }
       .mbfc-fa-icon {
         font-family: FontAwesome, Arial, sans-serif;
@@ -68,6 +67,7 @@ export class NewsAnnotation {
         border-radius: 5px;
         margin-bottom: 10px;
         width: 100%;
+        box-sizing: border-box;
       }
 
       .mbfc-caution-row {
@@ -239,8 +239,6 @@ export class NewsAnnotation {
 
     const prompt = this.collapse ? "Show" : "Hide"
 
-    const inlineCode = `let el=document.getElementById("mbfc-story-expanded-${this.count}"); el.style.display=el.style.display==='none'?"block":"none"`
-
     return html`
       <div className="mbfc-annotation-container">
         <div className="mbfc-annotation-row">
@@ -248,7 +246,11 @@ export class NewsAnnotation {
             <div className="mbfc-bias-start-${biasStart}"></div>
             <div className="${textClass} mbfc-gradient-text">${tweak(biasText)}</div>
             <div className="mbfc-bias-end-${biasEnd}">
-              <div className="${textClass} mbfc-icon-div" onclick="${inlineCode}">${icon(faAngleDoubleDown)}</div>
+              <div
+                class="mbfc-dropdown-toggle"
+                data-attached="false"
+                data-count="${this.count}"
+                style="cursor: pointer;">${icon(faAngleDoubleDown)}</div>
             </div>
           </div>
         </div>
