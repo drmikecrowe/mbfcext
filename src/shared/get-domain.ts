@@ -4,8 +4,8 @@
 export const getDomain = (u: string) => {
   if (!u) return { domain: "", path: "" }
   let url = u.toLowerCase()
-  let hn
-  let p
+  let hn = ""
+  let p = ""
   try {
     if (url.indexOf(".") > -1) {
       if (!url.startsWith("http")) url = `https://${url}`
@@ -17,7 +17,7 @@ export const getDomain = (u: string) => {
       if (p.endsWith("/")) p = p.slice(0, p.length - 1)
       if (p.startsWith("/")) p = p.slice(1)
     }
-  } catch (e) {
+  } catch {
     // log(e);
     // invalid domain is normal
   }
