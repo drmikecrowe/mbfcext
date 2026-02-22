@@ -8,6 +8,7 @@ import { CollapseKeys, ConfigHandler } from "~shared"
 import { isDevMode, logger } from "~shared/logger"
 
 import { C_FOUND, C_PROCESSED, Filter, MBFC, type Story } from "./filter"
+import { GoogleAnalytics } from "~shared/google-analytics"
 
 isDevMode()
 const log = logger("mbfc:facebook")
@@ -161,7 +162,7 @@ export class Facebook extends Filter {
   /**
    * Find "See more" button and get the post text from its parent div.
    * Returns the text content and the "See more" button element.
-   */
+   *search/
   findSeeMoreButton(e: HTMLElement): { text: string; button: HTMLElement } | undefined {
     // Find "See more" button - role="button" containing "See more" text
     const buttons = e.querySelectorAll('[role="button"]')
@@ -188,7 +189,7 @@ export class Facebook extends Filter {
    * Add a discrete "News Search" button near the "See more" button.
    * Opens factualsearch.news with the post text as the query.
    */
-  addNewsSearchButton(e: HTMLElement): void {
+  addNewsSearchButton(e: HTMLElement, possible_name?: string): void {
     // Skip if already processed
     if (e.querySelector(`.${FNS_SEARCH_CLASS}`)) return
 
@@ -226,9 +227,14 @@ export class Facebook extends Filter {
       searchBtn.style.opacity = "1"
     })
 
+    // Capture possible_name for analytics closure
+    const pageName = possible_name
+
     // Open search on click
     searchBtn.addEventListener("click", (ev) => {
       ev.stopPropagation()
+      // Track news search click
+      GoogleAnalytics.getInstance().reportNewsSearch(undefined, pageName)
       const query = encodeURIComponent(text.substring(0, 200)) // Limit query length
       const url = `https://factualsearch.news/#gsc.tab=0&gsc.q=${query}&gsc.sort=`
       window.open(url, "_blank")
@@ -242,9 +248,12 @@ export class Facebook extends Filter {
   async buildStory(parent: HTMLElement): Promise<Result<Story, string>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
 
+    const possible_page = this.findPossibleFbPage(parent)
+    const possible_name = this.findPossibleName(parent)
+
     // Add News Search button for any post (independent of MBFC lookup), unless disabled
     if (!ConfigHandler.getInstance().config.disableNewsSearchButton) {
-      this.addNewsSearchButton(parent)
+      this.addNewsSearchButton(parent, possible_name)
     }
 
     const story: Story = {
@@ -255,8 +264,8 @@ export class Facebook extends Filter {
       count: this.count,
       ignored: false,
       sponsored: false,
-      possible_page: this.findPossibleFbPage(parent),
-      possible_name: this.findPossibleName(parent),
+      possible_page,
+      possible_name,
     }
     this.count += 1
     const sponsored = this.findSponsored(parent)
@@ -311,11 +320,18 @@ export class Facebook extends Filter {
         fb_path: this.clean_path(story.title_element),
         possible_domain: story.possible_domain,
       }
+      let matchMethod: string | undefined
+
       log(`Sending ${GET_DOMAIN_FOR_FILTER} request 1`, payload)
       let res = await sendToBackground<GetDomainForFilterRequestBody, GetDomainForFilterResponseBody>({
         name: GET_DOMAIN_FOR_FILTER,
         body: payload,
       })
+      if (res?.site) {
+        // Domain found via meta element or URL path
+        matchMethod = story.possible_domain ? "meta-domain" : "url-path"
+      }
+
       if ((!res || !res.site) && story.possible_page) {
         payload.fb_path = story.possible_page
         log(`Sending ${GET_DOMAIN_FOR_FILTER} request 2`, payload)
@@ -323,6 +339,10 @@ export class Facebook extends Filter {
           name: GET_DOMAIN_FOR_FILTER,
           body: payload,
         })
+        if (res?.site) {
+          // Domain found via known Facebook page mapping
+          matchMethod = res.domain.suggested_fbtwpath ? "fb-page-new" : "fb-page-known"
+        }
       }
       if ((!res || !res.site) && story.possible_name) {
         if (!story.possible_page) {
@@ -334,18 +354,40 @@ export class Facebook extends Filter {
           name: GET_DOMAIN_FOR_FILTER,
           body: payload,
         })
-        if (res && res.site && story.possible_page) {
-          res.domain.suggested_fbtwpath = story.possible_page
+        if (res?.site) {
+          // Domain found via page name matching
+          matchMethod = "name-match"
+          if (story.possible_page) {
+            res.domain.suggested_fbtwpath = story.possible_page
+          }
         }
       }
 
       if (!res || !res.site) {
         log(`${MBFC}-no-domain for ${story.count}`, story)
         this.addClasses(parent, [MBFC, `${MBFC}-no-domain`])
+        // Track failed lookup - we have a domain from meta but it's not in our database
+        if (story.possible_domain || story.possible_page) {
+          GoogleAnalytics.getInstance().reportFailedLookup(
+            story.possible_domain || "none",
+            story.possible_page,
+            story.possible_name
+          )
+        }
         return err(`${MBFC}-no-domain`)
       }
 
       story.domain = res.domain
+      
+      // Track successful match method
+      if (matchMethod) {
+        GoogleAnalytics.getInstance().reportMatchMethod(
+          res.domain.final_domain,
+          matchMethod,
+          story.possible_page
+        )
+      }
+
       if (res.domain && res.domain.suggested_fbtwpath) {
         log(`NEW: I think this is ${res.domain.suggested_fbtwpath}`)
         await this.reportAssociated(res.site, story.possible_page)

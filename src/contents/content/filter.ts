@@ -256,10 +256,16 @@ export class Filter {
   processUnattachedDropdowns(elems: NodeListOf<Element>) {
     for (const dropdown of elems as HTMLElement[]) {
       const count = dropdown.attributes["data-count"].value
+      const domain = dropdown.attributes["data-domain"]?.value
       dropdown.addEventListener("click", () => {
         const el = document.getElementById(`mbfc-story-expanded-${count}`)
         if (el) {
-          el.style.display = el.style.display === "none" ? "block" : "none"
+          const isExpanding = el.style.display === "none"
+          el.style.display = isExpanding ? "block" : "none"
+          // Track dropdown expansion
+          if (isExpanding) {
+            GoogleAnalytics.getInstance().reportUIInteraction("dropdown-expanded", domain)
+          }
         }
       }, false)
       log(`Added dropdown event listener for count ${count}`)
@@ -270,6 +276,7 @@ export class Filter {
   processUnattachedHideCtrls(elems: NodeListOf<Element>) {
     for (const hideCtrl of elems as HTMLElement[]) {
       const hideClass = hideCtrl.attributes["data-hide-class"].value
+      const domain = hideCtrl.attributes["data-domain"]?.value
 
       hideCtrl.addEventListener("click", () => {
         const isHidden = hideCtrl.attributes["data-hidden"].value === "true"
@@ -289,6 +296,11 @@ export class Filter {
           }
         }
 
+        // Track show-anyway clicks
+        if (isHidden) {
+          GoogleAnalytics.getInstance().reportUIInteraction("show-anyway", domain)
+        }
+
         // Update button text and icon
         hideCtrl.setAttribute("data-hidden", isHidden ? "false" : "true")
         const spanEl = hideCtrl.querySelector("span")
@@ -303,7 +315,7 @@ export class Filter {
     }
   }
 
-  getHiddenDiv(hide_class: string, count: number, collapse: boolean) {
+  getHiddenDiv(hide_class: string, count: number, collapse: boolean, domain?: string) {
     const hDiv = document.createElement("mbfc")
     hDiv.className = `mbfcext ${C_FOUND}`
 
@@ -317,6 +329,7 @@ export class Filter {
             data-attached="false"
             data-hide-class="${hide_class}"
             data-hidden="true"
+            data-domain="${domain || ''}"
             style="cursor: pointer; display: inline-block; padding: 4px 12px; border-radius: 16px; background: #e4e6eb; font-size: 12px; margin-bottom: 10px;">
             ${faEye} <span>Show Anyway</span>
         </div></mbfc>`
@@ -466,7 +479,8 @@ export class Filter {
       }
     }
     const hide_class = `mbfcext-hide-${story.count}`
-    const hDiv = this.getHiddenDiv(hide_class, story.count, hide_this_story)
+    const domain = story.sponsored ? undefined : story.domain.final_domain
+    const hDiv = this.getHiddenDiv(hide_class, story.count, hide_this_story, domain)
     this.addClasses(hDiv, [MBFC])
     story.parent.appendChild(hDiv)
     story.hides.forEach((e) => {

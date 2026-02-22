@@ -250,6 +250,7 @@ export class NewsAnnotation {
                 class="mbfc-dropdown-toggle"
                 data-attached="false"
                 data-count="${this.count}"
+                data-domain="${this.site.domain}"
                 style="cursor: pointer;">${icon(faAngleDoubleDown)}</div>
             </div>
           </div>
