@@ -11,7 +11,9 @@
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "package": "plasmo package"
+    "package": "plasmo package",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@analytics-debugger/ga4mp": "^0.0.8",
@@ -36,6 +38,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "0.5.7",
     "@tailwindcss/typography": "^0.5.10",
+    "@testing-library/jest-dom": "^6.9.1",
     "@types/chrome": "0.0.260",
     "@types/debug": "^4.1.12",
     "@types/effective-domain-name-parser": "^0.0.2",
@@ -56,11 +59,14 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-prettier": "0.0.0-empty",
     "husky": "^8.0.3",
+    "jsdom": "^28.1.0",
     "postcss": "^8.4.35",
     "prettier": "3.2.5",
     "tailwindcss": "^3.4.1",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "vitest": "^4.0.18"
   },
+  "packageManager": "pnpm@10.0.0",
   "engines": {
     "node": ">=24"
   },
