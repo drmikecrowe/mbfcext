@@ -13,8 +13,7 @@ export default function ReleaseNotes() {
       </ul>
       <h2 id="release-notes-for-version-3-2">Release notes for version 3.2</h2>
       <ul>
-        <li>Improving Twitter article detection</li>
-        <li>Placing MBFC insert below image if we use the Twitter handle, and under the article if we use the article domain</li>
+        <li>Improved article detection</li>
       </ul>
       <h2 id="release-notes-for-version-3-1">Release notes for version 3.1</h2>
       <ul>
@@ -33,12 +32,6 @@ export default function ReleaseNotes() {
       <ul>
         <li>Browse to a site reviewed by Media Bias/Fact Check and the extension icon will now change to the bias of the site</li>
         <li>If you have collapsed the site in settings, that icon will flash to get your attention</li>
-      </ul>
-      <h3 id="twitter-support-">Twitter Support!</h3>
-      <ul>
-        <li>
-          <a href="https://twitter.com">Twitter</a> feed is now annotated with a basic MBFC review for reported site.
-        </li>
       </ul>
       <h2 id="release-notes-for-version-1-0-15">Release notes for version 1.0.15</h2>
       <h3 id="now-showing-more-detailed-information-">Now showing more detailed information:</h3>

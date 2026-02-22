@@ -17,7 +17,6 @@ export interface SourceData {
   combined: CombinedModel | undefined
   subdomains: Record<string, Record<string, SiteModel>>
   fb_pages: Record<string, string>
-  tw_pages: Record<string, string>
   name_pages: Record<string, string>
   sites_by_domain: DomainSites
 }
@@ -48,19 +47,6 @@ export class SourcesProcessor {
     }
   }
 
-  public updateTwitter = (d: string, tw?: string) => {
-    if (tw && tw > "") {
-      const matches = /(https?:\/\/twitter.com\/[^/]*)/.exec(tw)
-      if (matches && matches[1]) {
-        tw = matches[1]
-      }
-      if (tw && tw > "") {
-        const { path } = getDomain(`https://twitter.com/${tw.toLowerCase()}`)
-        this.sourceData.tw_pages[path] = d
-      }
-    }
-  }
-
   public updateSubdomain(d: string) {
     if (!this.sourceData) return
     if (d.indexOf("/") > -1) {
@@ -77,16 +63,14 @@ export class SourcesProcessor {
     const c: SourceData = {
       combined: in_combined,
       fb_pages: {},
-      tw_pages: {},
       subdomains: {},
       sites_by_domain: {},
       name_pages: {},
     }
     this.sourceData = c
-    log("Extracting facebook and twitter domains")
+    log("Extracting facebook domains")
     c.combined.sources.forEach((site) => {
       this.updateFacebook(site.domain, site.facebook)
-      this.updateTwitter(site.domain, site.twitter)
       this.updateSubdomain(site.domain)
       c.sites_by_domain[site.domain] = site
       c.name_pages[site.name.toLowerCase()] = site.domain

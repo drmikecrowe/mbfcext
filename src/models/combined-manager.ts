@@ -216,10 +216,6 @@ export interface SiteModel {
   reporting?: ReportingEnums
   traffic?: TrafficEnums
   /**
-   * The path on https://twitter.com for the site
-   */
-  twitter?: string
-  /**
    * The URL on https://mediabiasfactcheck.com for the site
    */
   url: string
@@ -466,7 +462,6 @@ const typeMap: any = {
       { json: "questionable", js: "questionable", typ: a(r("QuestionableEnums")) },
       { json: "reporting", js: "reporting", typ: u(undefined, r("ReportingEnums")) },
       { json: "traffic", js: "traffic", typ: u(undefined, r("TrafficEnums")) },
-      { json: "twitter", js: "twitter", typ: u(undefined, "") },
       { json: "url", js: "url", typ: "" },
     ],
     "any",
