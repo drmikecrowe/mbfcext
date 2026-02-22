@@ -76,7 +76,10 @@ export class Filter {
       try {
         if (!this.main_element) {
           this.main_element = document.querySelector(this.main_selector)
-          if (!this.main_element) return
+          // Fallback to document body if main selector not found (e.g., search pages)
+          if (!this.main_element) {
+            this.main_element = document.body
+          }
         }
         NewsAnnotation.load_styles()
         const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
