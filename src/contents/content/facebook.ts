@@ -162,7 +162,7 @@ export class Facebook extends Filter {
   /**
    * Find "See more" button and get the post text from its parent div.
    * Returns the text content and the "See more" button element.
-   *search/
+   */
   findSeeMoreButton(e: HTMLElement): { text: string; button: HTMLElement } | undefined {
     // Find "See more" button - role="button" containing "See more" text
     const buttons = e.querySelectorAll('[role="button"]')
@@ -378,7 +378,7 @@ export class Facebook extends Filter {
       }
 
       story.domain = res.domain
-      
+
       // Track successful match method
       if (matchMethod) {
         GoogleAnalytics.getInstance().reportMatchMethod(
