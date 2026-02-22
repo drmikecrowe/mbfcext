@@ -70,7 +70,9 @@ export class Filter {
   startMutationObserver() {
     log(`MutationObserver started`)
 
-    const observer = new MutationObserver((nodes) => {
+    let debounceTimer: ReturnType<typeof setTimeout> | null = null
+
+    const processMutations = () => {
       try {
         if (!this.main_element) {
           this.main_element = document.querySelector(this.main_selector)
@@ -92,6 +94,19 @@ export class Filter {
       } catch (error) {
         console.log(error)
       }
+    }
+
+    const observer = new MutationObserver(() => {
+      if (debounceTimer) {
+        clearTimeout(debounceTimer)
+      }
+      debounceTimer = setTimeout(() => {
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(processMutations, { timeout: 200 })
+        } else {
+          processMutations()
+        }
+      }, 150)
     })
 
     observer.observe(document, {
