@@ -13,7 +13,7 @@ export const isDevMode = (): boolean => {
 export const logger = (namespace: string) => {
   const log = debug(namespace)
   if (devMode) {
-    return console.log // hack until I can get it to work
+    debug.enable("mbfc:*")
   }
   return log
 }
