@@ -2,67 +2,18 @@
 
 ## What This Is
 
-A Chrome and Firefox browser extension that annotates Facebook news feed posts with Media Bias/Fact Check ratings. When a user scrolls their Facebook feed, the extension detects news article links and injects a color-coded bias badge showing the source's rating (Left, Right, Center, Satire, Conspiracy, etc.) pulled from the MBFC database. The extension also provides a popup for looking up the bias of the currently-visited site.
+A Chrome and Firefox browser extension that annotates Facebook news feed posts with Media Bias/Fact Check ratings. When a user scrolls their Facebook feed, the extension detects news article links and injects a color-coded bias badge showing the source's rating (Left, Right, Center, Satire, Conspiracy, etc.) pulled from the MBFC database. The extension also provides a popup for looking up the bias of the currently-visited site and a configurable News Search button.
 
 ## Core Value
 
 Facebook feed annotation must work reliably — if posts aren't annotated, the extension is useless. Everything else is secondary to detection working correctly.
-
-## Research Findings (2026-02-21)
-
-**Key DOM research conducted via live browser inspection:**
-
-### What Broke (Old Approach)
-- Old selector: `div[role='article'][aria-posinset]` — **completely gone**. Facebook removed `aria-posinset` from article elements.
-- The old inner selectors (`div[data-visualcompletion="ignore-dynamic"]` for like buttons, `h3 span > a` for page names, `span[dir='auto'] > span:not(:has(*))` for domains) are all broken.
-
-### New Stable API: `data-ad-rendering-role`
-Facebook now marks all feed post sections with `data-ad-rendering-role` attributes. These are consistent across both the home News Feed and Facebook Pages:
-
-| Role | Content | Use |
-|------|---------|-----|
-| `profile_name` | The posting page/person | Post container anchor + fallback domain lookup |
-| `story_message` | The post text | — |
-| `meta` | **The article domain as plain text** (e.g., "reuters.com") | **Primary domain source** |
-| `title` | Article headline | — |
-| `description` | Article summary | — |
-| `like_button` | Engagement block anchor | **Insertion point marker** |
-| `comment_button` | Engagement | — |
-| `share_button` | Engagement | — |
-| `image` | Media/link image | — |
-
-### New Post Detection Algorithm
-```
-1. Find all [data-ad-rendering-role="like_button"] elements not already processed
-2. For each: walk up DOM to find nearest ancestor that also contains [data-ad-rendering-role="profile_name"]
-3. That ancestor IS the post container
-4. Deduplicate containers (Set)
-```
-
-### Domain Extraction
-- **Primary**: `post.querySelector('[data-ad-rendering-role="meta"]').textContent.trim().toLowerCase()` — gives the article domain directly
-- **Fallback**: Extract path from `post.querySelector('[data-ad-rendering-role="profile_name"] a[href*="facebook.com"]').href` → Facebook page path (e.g., `/Reuters`)
-
-### Annotation Insertion Point
-The child of the post container that contains `like_button` is the engagement bar (always the last block). Insert annotation immediately before it:
-```javascript
-const engagementBlock = Array.from(post.children).find(c => c.contains(likeBtn));
-engagementBlock.before(annotationElement);
-```
-
-### Post Structure
-All posts observed have 4 top-level blocks:
-- Block 0: FB internal/tracking content
-- Block 1: Profile header (`profile_name`)
-- Block 2: Content (`story_message` + optional link preview with `meta`+`title`+`description`)
-- Block 3: Engagement bar (`like_button`+`comment_button`+`share_button`) ← insert before this
 
 ## Requirements
 
 ### Validated
 
 - ✓ Chrome and Firefox browser extension — existing
-- ✓ Facebook feed annotation with MBFC bias badges — existing (currently broken)
+- ✓ Facebook feed annotation with MBFC bias badges — v4.1 (fixed with `data-ad-rendering-role` detection)
 - ✓ Sponsored story collapse/hide — existing
 - ✓ Popup for current tab domain lookup — existing
 - ✓ Options page for collapse/hide preferences — existing
@@ -70,18 +21,18 @@ All posts observed have 4 top-level blocks:
 - ✓ GA4 analytics (optional, user-controlled) — existing
 - ✓ In-memory domain cache indexed by domain/alias — existing
 - ✓ Multi-strategy domain matching (direct, subdomain, alias, parent domain) — existing
+- ✓ Domain extraction via `[data-ad-rendering-role="meta"]` textContent — v4.1
+- ✓ Annotation insertion before engagement block — v4.1
+- ✓ Plasmo 0.90.x framework — v4.1
+- ✓ React 18.3.x — v4.1
+- ✓ TypeScript 5.9.x — v4.1
+- ✓ ESLint v8.x — v4.1
+- ✓ Node.js 24 compatibility — v4.1
+- ✓ News Search button for Facebook posts — v4.1 (configurable)
 
 ### Active
 
-- [ ] Fix Facebook annotation: replace broken `div[role='article'][aria-posinset]` approach with `data-ad-rendering-role` based detection
-- [ ] Domain extraction via `[data-ad-rendering-role="meta"]` textContent (primary) with FB page path fallback
-- [ ] Annotation insertion before engagement block (`[data-ad-rendering-role="like_button"]` container)
-- [ ] Upgrade Plasmo from 0.84.2 → latest (currently 0.89.x)
-- [ ] Upgrade React from 18.2.0 → latest 18.x (or 19 if stable)
-- [ ] Upgrade TypeScript from 5.3.3 → 5.7.x
-- [ ] Upgrade ESLint from v5.x → v8.x (or v9.x flat config)
-- [ ] Verify Node.js 22 LTS compatibility (currently targets `>=20`)
-- [ ] Verify Manifest V3 compliance after upgrades
+(None — ready for next milestone planning)
 
 ### Out of Scope
 
@@ -89,15 +40,26 @@ All posts observed have 4 top-level blocks:
 - New platforms (Reddit, YouTube, etc.) — future milestone
 - Backend server — extension is fully client-side
 - Link preview resolution (reut.rs → actual domain) — domain shown in `meta` role is sufficient
+- ESLint v9 flat config — deferred, v8.x is stable
+- React 19 — 18.x is stable and well-supported
 
 ## Context
 
+**Current State (v4.1):**
 - Extension is live in Chrome Web Store and Firefox Add-ons
-- Version 4.0 removed Twitter support, added sponsored story collapse
-- README says "Upgraded to Node 18" in v4.0 release notes, but `package.json` already specifies `>=20` — this is inconsistent and should be cleaned up
-- Plasmo framework handles MV3 manifest generation, bundling, and hot reload
-- Data source: public GitHub JSON (no auth required)
-- `data-ad-rendering-role` attributes appear tied to Facebook's ad rendering infrastructure — likely more stable than DOM class names which Facebook randomizes
+- Version 4.1 fixed Facebook annotation (broken due to Facebook DOM changes)
+- Using `data-ad-rendering-role` attributes for stable post detection
+- All core dependencies upgraded to modern versions
+- ~3,711 LOC TypeScript
+
+**Tech Stack:**
+- Framework: Plasmo 0.90.5 (handles MV3 manifest, bundling, HMR)
+- UI: React 18.3.1 + Tailwind CSS
+- Language: TypeScript 5.9.3
+- Linting: ESLint 8.56.0
+- Runtime: Node.js >=24
+
+**Data Source:** MBFC's combined.json from GitHub (no API key, rate limits)
 
 ## Constraints
 
@@ -110,10 +72,11 @@ All posts observed have 4 top-level blocks:
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Use `data-ad-rendering-role` as primary post detection | Tied to Facebook's ad system, more stable than randomized CSS classes | — Pending |
-| Keep FB page path as fallback (not primary) | `meta` domain is more direct and accurate than FB page lookup | — Pending |
-| Upgrade Plasmo before fixing FB detection | Ensures fix runs on current framework, avoids double-work | — Pending |
-| ESLint v8 (not v9 flat config) | Less migration risk, v9 flat config requires significant config rewrite | — Pending |
+| Use `data-ad-rendering-role` as primary post detection | Tied to Facebook's ad system, more stable than randomized CSS classes | ✓ Good |
+| Keep FB page path as fallback (not primary) | `meta` domain is more direct and accurate than FB page lookup | ✓ Good |
+| Add role="article" fallback | Handles edge cases where data-ad-rendering-role might be missing | ✓ Good |
+| ESLint v8 (not v9 flat config) | Less migration risk, v9 flat config requires significant config rewrite | ✓ Good |
+| Add News Search button | User-requested feature for searching news topics | ✓ Good |
 
 ---
-*Last updated: 2026-02-21 after initialization + live DOM research*
+*Last updated: 2026-02-22 after v4.1 milestone completion*
