@@ -1,202 +1,171 @@
 # Codebase Structure
 
-**Analysis Date:** 2026-02-20
+**Analysis Date:** 2026-02-22
 
 ## Directory Layout
 
 ```
-show_media_bias-main/
-├── src/                          # Primary source code
-│   ├── background/               # Service worker and background logic
-│   ├── contents/                 # Content scripts for web pages
-│   ├── options/                  # Settings page UI components
-│   ├── shared/                   # Cross-layer utilities and services
-│   ├── models/                   # TypeScript type definitions
+media-bias-fact-check/
+├── src/                          # Source code
+│   ├── background/               # Background service worker
+│   │   ├── index.ts              # Background service entry point
+│   │   ├── messages/             # Message handlers
+│   │   ├── sources-processor.ts  # Data fetching and processing
+│   │   └── update-icon.ts        # Icon update logic
 │   ├── components/               # Reusable UI components
-│   ├── popup.tsx                 # Extension popup entry point
-│   ├── options.tsx               # Options page entry point
-│   ├── constants.ts              # Global constants
-│   └── style.css                 # Global popup styles
-├── types/                        # Additional type definitions
-├── assets/                       # Static assets (icons, images)
-├── build/                        # Build output (git-ignored)
-├── docs/                         # Documentation and changelog
-├── bin/                          # Utility scripts
-├── package.json                  # Dependencies and build config
-├── tsconfig.json                 # TypeScript configuration
-├── .eslintrc.json                # ESLint configuration
-├── tailwind.config.js            # Tailwind CSS configuration (if present)
-└── devenv.*                      # Development environment config
-
+│   │   └── button.tsx            # Button component
+│   ├── contents/                 # Content scripts
+│   │   ├── facebook.ts           # Facebook content script entry
+│   │   └── content/              # Content script implementations
+│   │       ├── filter.ts         # Base filter class
+│   │       ├── facebook.ts       # Facebook-specific logic
+│   │       └── utils/            # Content script utilities
+│   │           ├── cap.ts        # CAPTCHA handling
+│   │           └── report-div.ts # Report display component
+│   ├── models/                   # TypeScript interfaces and models
+│   │   ├── index.ts              # Model exports
+│   │   └── combined-manager.ts  # Combined data model and converters
+│   ├── options/                  # Options page components
+│   │   ├── index.ts              # Options page router
+│   │   ├── intro.tsx             # Introduction tab
+│   │   ├── options.tsx           # Main settings tab
+│   │   ├── release-notes.tsx     # Release notes tab
+│   │   └── components/           # Options components
+│   │       ├── icons.tsx         # Tab icons
+│   │       ├── tab-contents.tsx  # Tab content container
+│   │       ├── tab-groups.tsx    # Tab grouping
+│   │       ├── tab.tsx          # Individual tab component
+│   │       └── tabs.tsx         # Tab navigation
+│   ├── popup.tsx                 # Popup interface
+│   ├── shared/                   # Cross-layer utilities
+│   │   ├── index.ts              # Shared exports
+│   │   ├── config-handler.ts     # Configuration management
+│   │   ├── get-domain.ts         # Domain extraction
+│   │   ├── google-analytics.ts   # GA integration
+│   │   ├── logger.ts             # Logging utilities
+│   │   ├── tab-utils.ts          # Tab utilities
+│   │   └── cap.ts               # Shared CAPTCHA handling
+│   ├── constants.ts              # Application constants
+│   ├── options.tsx               # Options page entry
+│   └── style.css                # Global styles
+├── assets/                       # Static assets (icons, etc.)
+├── docs/                         # Documentation
+├── .github/                     # GitHub workflows
+├── .plasmo/                      # Plasmo framework config
+├── node_modules/                 # Dependencies
+└── build/                       # Build output
 ```
 
 ## Directory Purposes
 
-**src/background/**
-- Purpose: Service worker code managing extension lifecycle, data fetching, message routing
-- Contains: Service worker entry point, message handlers, data processors, event listeners, tab utilities, icons
-- Key files: `index.ts`, `sources-processor.ts`, `update-icon.ts`, `tab-listener.ts`, `messages/`, `icons/`, `utils/`
+**src/background/:**
+- Purpose: Background service worker and message handling
+- Contains: Extension lifecycle management, data processing, inter-process messaging
+- Key files: `index.ts` (main service), `sources-processor.ts` (data management), `messages/` (handlers)
 
-**src/contents/**
-- Purpose: Content scripts injected into web pages to detect and annotate stories with media bias
-- Contains: Page-specific filter implementations (Facebook, Twitter), DOM selectors, story processing logic
-- Key files: `facebook.ts`, `twitter.ts` (entry points), `content/filter.ts`, `content/facebook.ts`, `content/utils/`
+**src/contents/:**
+- Purpose: Content scripts for DOM manipulation on target sites
+- Contains: Facebook-specific post detection and filtering logic
+- Key files: `facebook.ts` (entry point), `content/filter.ts` (base class), `content/facebook.ts` (implementation)
 
-**src/options/**
-- Purpose: Settings/preferences page UI with tabbed navigation
-- Contains: React component tree for options page, tab definitions, settings controls, UI sub-components
-- Key files: `options.tsx`, `intro.tsx`, `release-notes.tsx`, `components/tabs.tsx`, `components/tab.tsx`
+**src/options/:**
+- Purpose: Extension configuration interface
+- Contains: Tab-based settings interface with multiple configuration screens
+- Key files: `options.tsx` (main), `intro.tsx` (welcome), `release-notes.tsx` (changelog)
 
-**src/shared/**
-- Purpose: Cross-context utilities usable from background, content scripts, and UI layers
-- Contains: Logger wrapper, config storage handler, domain parsing, tab utilities, Google Analytics
-- Key files: `logger.ts`, `config-handler.ts`, `get-domain.ts`, `tab-utils.ts`, `google-analytics.ts`, `elements/`
+**src/shared/:**
+- Purpose: Shared utilities used across all layers
+- Contains: Configuration, logging, domain parsing, and utility functions
+- Key files: `config-handler.ts`, `logger.ts`, `get-domain.ts`
 
-**src/models/**
-- Purpose: TypeScript interfaces and enums for media bias data structure
-- Contains: Type definitions generated from JSON schema, conversion helpers, validation
-- Key files: `combined-manager.ts` (auto-generated comprehensive model)
-
-**src/components/**
-- Purpose: Reusable React UI components used across popup and options pages
-- Contains: Button component, icon wrappers
-- Key files: `button.tsx`
-
-**types/**
-- Purpose: Custom TypeScript type definitions not in models
-- Contains: Type declarations for extensions, libraries, custom types
-
-**assets/**
-- Purpose: Static images and icons for extension UI
-- Contains: Extension icons, popup icons, badge images
-
-**docs/**
-- Purpose: Documentation, changelog, and version history
-- Contains: Markdown docs, version-specific data schemas, generated site files
-
-**build/**
-- Purpose: Compiled extension output (created by plasmo build)
-- Contains: Platform-specific builds (chrome-mv3-dev, chrome-mv3-prod, firefox-mv3-dev)
-- Note: Generated at build time, not committed
+**src/models/:**
+- Purpose: TypeScript type definitions for all data structures
+- Contains: Complete model definitions for MBFC data with validation
+- Key files: `combined-manager.ts` (all interfaces and enums)
 
 ## Key File Locations
 
 **Entry Points:**
-- `src/background/index.ts`: Service worker initialization, event listeners, promise chain
-- `src/popup.tsx`: Popup UI entry point (shown on icon click)
-- `src/options.tsx`: Options page entry point
-- `src/contents/facebook.ts`: Facebook content script with PlasmoCSConfig
-- `src/contents/twitter.ts`: Twitter content script (pattern: src/contents/{site}.ts)
+- `src/background/index.ts`: Background service worker entry
+- `src/popup.tsx`: Popup interface
+- `src/options.tsx`: Options page entry
+- `src/contents/facebook.ts`: Facebook content script
 
 **Configuration:**
-- `src/constants.ts`: GA tracking ID, combined.json URL, first-run flag
-- `tsconfig.json`: TypeScript compiler options, path aliases (~* → ./src/*)
-- `package.json`: Dependencies (React, Plasmo, @plasmohq/*, Tailwind), scripts
-- `.eslintrc.json`: ESLint rules and parser config
+- `src/shared/config-handler.ts`: Storage and configuration management
+- `src/constants.ts`: Application constants
 
 **Core Logic:**
-- `src/background/sources-processor.ts`: Loads and indexes media bias data from GitHub
-- `src/background/messages/get-domain-for-tab.ts`: Popup query handler
-- `src/background/utils/check-domain.ts`: Domain lookup and site classification logic
-- `src/shared/config-handler.ts`: User preferences storage and retrieval
-- `src/shared/get-domain.ts`: URL parsing for consistent domain extraction
+- `src/background/sources-processor.ts`: Data fetching and caching
+- `src/contents/content/filter.ts`: Base content script logic
+- `src/contents/content/facebook.ts`: Facebook post detection
 
-**Testing:**
-- No test files detected (no .test.ts or .spec.ts files in src/)
+**Data Models:**
+- `src/models/combined-manager.ts`: All MBFC data interfaces
+- `src/shared/get-domain.ts`: Domain extraction utilities
 
 ## Naming Conventions
 
 **Files:**
-- Kebab-case for multi-word filenames: `get-domain.ts`, `config-handler.ts`, `update-icon.ts`
-- PascalCase for React components: `Button.tsx`, `Tabs.tsx`, `TabGroups.tsx`
-- camelCase for utility and service files: `poller.ts`, `logger.ts`
-- Index files as `index.ts` or `index.tsx` with barrel exports
+- TypeScript files: `.ts` for modules, `.tsx` for React components
+- Component files: descriptive names with PascalCase (e.g., `Button.tsx`)
+- Utility files: descriptive names with camelCase (e.g., `get-domain.ts`)
+- Index files: `index.ts` for barrel exports
 
-**Directories:**
-- Lower kebab-case for all directories: `src/`, `src/background/`, `src/contents/`, `src/shared/`
-- Feature-based organization in `src/background/messages/`, `src/background/utils/`
-- No nested component subdirectories deeper than 2 levels
+**Functions:**
+- Async functions: descriptive names with camelCase (e.g., `getSourceData`)
+- Event handlers: camelCase with clear intent (e.g., `handleTabUpdate`)
+- Utility functions: camelCase with verb prefix (e.g., `getDomain`)
 
-**Imports:**
-- Path aliases: `~background`, `~contents`, `~shared`, `~models`, `~components`, `~popup`, `~options`
-- Relative imports avoided in favor of ~-aliased absolute imports
+**Variables:**
+- Constants: UPPER_SNAKE_CASE (e.g., `DEFAULT_COLLAPSE`)
+- Instances: camelCase with clear type indication (e.g., `configHandler`)
+- Collections: plural names (e.g., `sites_by_domain`)
 
-**Exports:**
-- Barrel exports in `index.ts` files (auto-generated from bmakeIndex script)
-- Re-export specific exports from modules: `export * from './logger'`
-- Default exports for React components and content script handlers
+**Classes:**
+- PascalCase with clear purpose (e.g., `SourcesProcessor`, `ConfigHandler`)
+- Singleton instances: `getInstance()` static method
 
 ## Where to Add New Code
 
-**New Message Handler (Background ↔ Content/Popup):**
-- Create: `src/background/messages/{name}.ts`
-- Export: Add to `src/background/messages/index.ts`
-- Types: Define RequestBody and ResponseBody types in handler file
-- Pattern: PlasmoMessaging.MessageHandler<Request, Response> functional handler with const handler = ...
+**New Feature:**
+- Popup code: `src/popup.tsx` or new component in `src/components/`
+- Background functionality: `src/background/` with new message handler
+- Content script feature: `src/contents/content/` with platform-specific implementation
+- Utility function: `src/shared/`
 
-**New Content Script (for new site):**
-- Create: `src/contents/{site}.ts` as entry point with PlasmoCSConfig matches
-- Create: `src/contents/content/{site}.ts` for site-specific Filter subclass
-- Use: Filter base class from `src/contents/content/filter.ts`
-- Selectors: Define DOM selectors for story elements specific to site
+**New Platform Support:**
+- Content script: Create new file in `src/contents/content/` extending Filter base class
+- Manifest: Update `package.json` manifest with new match patterns
+- Entry point: Add new script in `src/contents/`
 
-**New Shared Utility:**
-- Create: `src/shared/{name}.ts`
-- Export: Add to `src/shared/index.ts` barrel export
-- Dependencies: Avoid circular imports; shared utilities should not depend on background/content specific code
-
-**New UI Component (Popup/Options):**
-- For options tabs: Create in `src/options/{name}.tsx` and register in `src/options.tsx` tabs array
-- For reusable components: Create in `src/components/{name}.tsx` and add to barrel export
-- Pattern: React functional component with prop types/interfaces
-
-**New Type/Model:**
-- Simple types: Add to `types/` or relevant module's type definitions
-- Data models: Update `src/models/combined-manager.ts` (auto-generated from schema)
-- Enums: Group by domain (BiasEnums, CredibilityEnums, etc.)
-
-**Configuration:**
-- App constants: Update `src/constants.ts`
-- User preferences: Update ConfigStorage interface and DefaultCollapse in `src/shared/config-handler.ts`
-- Build config: Modify `package.json` manifest section for extension permissions/resources
+**New Configuration Option:**
+- Type definition: Update `ConfigStorage` interface in `src/shared/config-handler.ts`
+- UI component: Add to `src/options/options.tsx` or create new component
+- Persistence: Automatic via existing ConfigHandler.watch() pattern
 
 ## Special Directories
 
-**src/background/icons/**
-- Purpose: Stores bias-specific badge icons used for extension action icon and story badges
-- Generated: Contains color-coded icon variants for each bias category (left, right, center, etc.)
-- Committed: Yes, source assets stored here
+**.plasmo/:**
+- Purpose: Plasmo framework configuration
+- Generated: Yes
+- Committed: Yes
 
-**src/background/messages/**
-- Purpose: Message handler modules for IPC between service worker and content scripts/popup
-- Generated: No, manually created per message type
-- Committed: Yes, contains handler implementations
+**build/:**
+- Purpose: Compiled extension output
+- Generated: Yes
+- Committed: No (in .gitignore)
 
-**src/shared/elements/**
-- Purpose: Small reusable UI elements shared across popup and options pages
+**assets/:**
+- Purpose: Extension icons and static assets
 - Generated: No
-- Committed: Yes, includes Button.tsx, font-awesome.tsx (FontAwesome wrapper)
+- Committed: Yes
 
-**src/contents/content/utils/**
-- Purpose: Utilities specific to content script DOM manipulation
+**docs/:**
+- Purpose: Project documentation and changelog
 - Generated: No
-- Committed: Yes, includes report-div.ts (custom element definition), cap.ts (text capitalization)
-
-**.plasmo/**
-- Purpose: Plasmo build framework cache and generated files
-- Generated: Yes, created during build
-- Committed: No (git-ignored)
-
-**build/**
-- Purpose: Compiled extension output for different platforms
-- Generated: Yes, via plasmo build command
-- Committed: No (git-ignored)
-
-**docs/**
-- Purpose: Documentation site and API schema documentation
-- Generated: Partially (site content), source files committed
-- Committed: Yes for source .md files and data schemas
+- Committed: Yes
 
 ---
 
-*Structure analysis: 2026-02-20*
+*Structure analysis: 2026-02-22*
