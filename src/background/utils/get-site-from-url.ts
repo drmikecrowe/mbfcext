@@ -12,7 +12,7 @@ let first = true
 
 export const getSiteFromUrl = (url: string, sourceData: SourceData, config: ConfigStorage, fb_path?: string): Result<CheckDomainResults, null> => {
   try {
-    if (!sourceData || !sourceData.fb_pages || !sourceData.tw_pages) {
+    if (!sourceData || !sourceData.fb_pages) {
       log("No source data")
       return err(null)
     }
@@ -33,17 +33,11 @@ export const getSiteFromUrl = (url: string, sourceData: SourceData, config: Conf
             cdr.value.suggested_fbtwpath = lfb_path
           }
         }
-        // TODO: tw_path
         return cdr
       }
       if (ldomain.indexOf("facebook.com") > -1) {
         if (sourceData.fb_pages[lpath]) {
           const ndomain = sourceData.fb_pages[lpath]
-          return checkDomain(ndomain, "/", sourceData, config)
-        }
-      } else if (domain.indexOf("twitter.com") > -1) {
-        if (sourceData.tw_pages[path]) {
-          const ndomain = sourceData.tw_pages[lpath]
           return checkDomain(ndomain, "/", sourceData, config)
         }
       }
