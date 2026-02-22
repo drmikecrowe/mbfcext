@@ -45,6 +45,7 @@ export class Facebook extends Filter {
    * 2. For each: walk up DOM to find nearest ancestor that also contains [data-ad-rendering-role="profile_name"]
    * 3. That ancestor IS the post container
    * 4. Deduplicate containers (Set)
+   * 5. FALLBACK: If nothing found, use role="article" elements
    */
   findArticleElements(e: HTMLElement): Element[] {
     if (!e || !e.querySelectorAll) return []
@@ -66,6 +67,20 @@ export class Facebook extends Filter {
         ancestor = ancestor.parentElement
       }
     })
+
+    // Fallback: Use role="article" elements when primary method finds nothing
+    // This handles search pages and other non-feed layouts
+    if (containers.size === 0) {
+      const articles = e.querySelectorAll(`div[role="article"]:not(.${C_PROCESSED})`)
+      articles.forEach((article) => {
+        // Only include articles that have both like_button and profile_name
+        const hasLikeButton = article.querySelector(`[data-ad-rendering-role="like_button"]`)
+        const hasProfileName = article.querySelector(`[data-ad-rendering-role="profile_name"]`)
+        if (hasLikeButton && hasProfileName) {
+          containers.add(article)
+        }
+      })
+    }
 
     return Array.from(containers)
   }
