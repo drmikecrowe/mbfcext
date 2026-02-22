@@ -20,6 +20,10 @@ interface DomainSort {
 
 const domain_re = /(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]/g
 
+// FactualSearch favicon (base64 encoded 16x16 PNG)
+const FNS_FAVICON = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAACFUlEQVQ4jaWRT0hUURSHf/e9e9/43jAj40wDGaRSO0lhrIjaiLQwYjCSgYwxoYXRKkaCFrlw7bZFEEibiaxhGpmhMaI/s2kRFa0iMaMkaKHvTaJT+N68c2+Lkhw1CPstzz3fxz3nAP8ZtmN1Qmk9n5Y6AlKYxrr/uZKL1/5NkFJ6l2VnBCEjJFqFZOASriA1wxW/Vn4QWdwq0Bpg084LQoaTGhd1P643rZlCsj4uERbkvx5MOp1//UHXyPJVQchovnbs1XT0S2ObYmeTzpQhcZSsaHcux2jjhW/MLBbsDCc1/nIL3H/uW7ux7tzR3foZDjEfXLX7ATxsGOHI/FK7kGg10VRKpJcO9ox+tQAgmVrpCH6n52EX2dzs3mVDoqJJdmL7DhQ3hWRAwKmZxIYj1cCjgYHqIeuH/yzsYjI7G7sJALrEmpDM2iYI+rTIJVyjFk68uBubaPYwF/Lk22YXk7cf/4IBwJCshxOb2yao5OI1QWqGkxwHgHyx5VLI0xK3nvyBL/c5KZ3QxvR6YccrJFPV/ZpHb3TJSj5TV4rFPWub4Y8tyHKi6XIhPrKjAAAGk06nkOoel9hnSFR0hVWD2GGd0LYQobxtsaFQnV18ej+WbVzi7+RL0XdkRbsFqWFd4r0gtqITu8F0/0C5EB8Jedpw0MPU+VP2Bew2Q6ft9OhJxxvrraZ3LRnrraavH69+2LVgc34C7gDZ7M4ZCkwAAAAASUVORK5CYII="
+const FNS_SEARCH_CLASS = `${MBFC}-fns-search`
+
 export class Facebook extends Filter {
   private static instance: Facebook
   observer = null
@@ -154,8 +158,93 @@ export class Facebook extends Filter {
     }
   }
 
+  /**
+   * Find "See more" button and get the post text from its parent div.
+   * Returns the text content and the "See more" button element.
+   */
+  findSeeMoreButton(e: HTMLElement): { text: string; button: HTMLElement } | undefined {
+    // Find "See more" button - role="button" containing "See more" text
+    const buttons = e.querySelectorAll('[role="button"]')
+    for (const btn of buttons) {
+      if (btn.textContent?.trim() === "See more") {
+        // Get the parent div that contains the text
+        const parent = btn.parentElement
+        if (parent) {
+          // Clone to extract text without the button text
+          const clone = parent.cloneNode(true) as HTMLElement
+          const btnClone = clone.querySelector('[role="button"]')
+          if (btnClone) btnClone.remove()
+          const text = clone.textContent?.trim()
+          if (text && text.length > 10) {
+            return { text, button: btn as HTMLElement }
+          }
+        }
+      }
+    }
+    return undefined
+  }
+
+  /**
+   * Add a discrete "News Search" button near the "See more" button.
+   * Opens factualsearch.news with the post text as the query.
+   */
+  addNewsSearchButton(e: HTMLElement): void {
+    // Skip if already processed
+    if (e.querySelector(`.${FNS_SEARCH_CLASS}`)) return
+
+    const seeMore = this.findSeeMoreButton(e)
+    if (!seeMore) return
+
+    const { text, button } = seeMore
+
+    // Create the News Search button
+    const searchBtn = document.createElement("div")
+    searchBtn.className = FNS_SEARCH_CLASS
+    searchBtn.style.cssText = `
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: 8px;
+      padding: 2px 6px;
+      font-size: 11px;
+      color: #333;
+      cursor: pointer;
+      border-radius: 4px;
+      background: linear-gradient(to right, rgba(0, 0, 255, 0.15), rgba(255, 255, 255, 0.15), rgba(255, 0, 0, 0.15));
+      transition: opacity 0.2s;
+    `
+    searchBtn.innerHTML = `
+      <span>News Search</span>
+      <img src="${FNS_FAVICON}" width="14" height="14" style="vertical-align: middle;">
+    `
+
+    // Add hover effect
+    searchBtn.addEventListener("mouseenter", () => {
+      searchBtn.style.opacity = "0.8"
+    })
+    searchBtn.addEventListener("mouseleave", () => {
+      searchBtn.style.opacity = "1"
+    })
+
+    // Open search on click
+    searchBtn.addEventListener("click", (ev) => {
+      ev.stopPropagation()
+      const query = encodeURIComponent(text.substring(0, 200)) // Limit query length
+      const url = `https://factualsearch.news/#gsc.tab=0&gsc.q=${query}&gsc.sort=`
+      window.open(url, "_blank")
+    })
+
+    // Insert after the "See more" button
+    button.parentElement?.insertBefore(searchBtn, button.nextSibling)
+    log(`Added News Search button for story`)
+  }
+
   async buildStory(parent: HTMLElement): Promise<Result<Story, string>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
+
+    // Add News Search button for any post (independent of MBFC lookup)
+    this.addNewsSearchButton(parent)
+
     const story: Story = {
       title_element: this.findTitleElement(parent),
       report_element: this.findLikeButtons(parent),
