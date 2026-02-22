@@ -2,6 +2,26 @@ export default function ReleaseNotes() {
   return (
     <div>
       <h1 id="official-media-bias-fact-check-extension-release-notes">Official Media Bias/Fact Check Extension Release Notes</h1>
+      <h2 id="release-notes-for-version-4-1">Release notes for version 4.1</h2>
+      <ul>
+        <li>
+          <strong>Facebook feed annotation restored</strong> — Bias badges now appear correctly on news posts in your
+          Facebook feed after Facebook's recent changes
+        </li>
+        <li>
+          <strong>News Search button</strong> — Search for more information about any news article directly from the
+          bias badge (can be disabled in Options)
+        </li>
+        <li>Performance and stability improvements</li>
+      </ul>
+      <h2 id="release-notes-for-version-4-0">Release notes for version 4.0</h2>
+      <ul>
+        <li>
+          <strong>Sponsored story controls</strong> — New option to collapse or hide sponsored stories in your feed
+        </li>
+        <li>Removed Twitter/X support due to platform API changes</li>
+        <li>Upgraded to modern extension architecture for better reliability</li>
+      </ul>
       <h2 id="release-notes-for-version-3-3-0">Release notes for version 3.3.0</h2>
       <ul>
         <li>Changing to browserAction to allow separate windows to have separate icons</li>
