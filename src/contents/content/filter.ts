@@ -165,7 +165,7 @@ export class Filter {
 
   async openRequestedPopup() {
     GoogleAnalytics.getInstance().reportStartThanks()
-    this.windowObjectReference = window.open("https://paypal.me/drmikecrowe", "DescriptiveWindowName", "resizable,scrollbars,status")
+    this.windowObjectReference = window.open("https://paypal.me/drmikecrowe", "DescriptiveWindowName", "noopener,noreferrer,resizable,scrollbars,status")
   }
 
   ignoreButton(text, count) {
