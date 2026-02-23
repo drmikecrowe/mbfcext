@@ -1,6 +1,6 @@
 # Codebase Concerns
 
-**Analysis Date:** 2026-02-20
+**Analysis Date:** 2026-02-22
 
 ## Tech Debt
 
@@ -11,15 +11,14 @@
 - Fix approach: Implement Twitter path mapping similar to `fb_path` handling in `getSiteFromUrl()` function
 
 **Excessive Use of `any` Type:**
-- Issue: 50+ instances of `any` type in TypeScript code, disabling type safety
+- Issue: 60+ instances of `any` type in TypeScript code, disabling type safety
 - Files:
-  - `src/shared/google-analytics.ts:12` (ga4track)
-  - `src/contents/content/filter.ts:50` (unknown object)
-  - `src/shared/google-analytics.ts:12` (ga4track)
-  - `src/background/utils/poller.ts:73` (request, sender parameters)
   - `src/models/combined-manager.ts` (extensive use in type transformation functions)
   - `src/shared/config-handler.ts:137, 156, 176` (getStorageRecord methods)
+  - `src/shared/google-analytics.ts:12` (ga4track)
+  - `src/contents/content/filter.ts:50` (unknown object)
   - `src/contents/content/utils/report-div.ts:11` (biasDetails)
+  - `src/background/utils/poller.ts:73` (request, sender parameters)
 - Impact: Loss of compile-time type checking, potential runtime type errors, reduced IDE support
 - Fix approach: Replace `any` with proper typed interfaces/generics; import proper types from dependencies
 
@@ -35,6 +34,13 @@
 - Impact: First-call flag is never reset, logging behavior differs across extension lifetime
 - Fix approach: Remove this side effect or move to class-based implementation with proper state management
 
+**Outdated @typescript-eslint Packages:**
+- Issue: @typescript-eslint v5 is deprecated (latest v8)
+- Files: package.json devDependencies (`@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser`)
+- Impact: Missing latest TypeScript features, potential linting issues with newer TS syntax
+- Fix approach: Upgrade to @typescript-eslint v8+ with proper configuration migration
+- Note: ESLint is already at v8.56.0 ✅
+
 ## Known Bugs
 
 **Case-Sensitivity Mismatch in Domain Lookup:**
@@ -42,7 +48,7 @@
 - Files: `src/background/utils/get-site-from-url.ts:45-46`
 - Trigger: When `sourceData.tw_pages[path]` lookup fails, the code uses `lpath` (lowercased) to look up `sourceData.tw_pages[lpath]`, but the key in tw_pages may not be lowercase
 - Workaround: Facebook path handling already lowercases the lookup variable correctly; Twitter needs same fix
-- Code issue: Line 45-46 uses `path` (original case) for conditional check but `lpath` (lowercase) for actual lookup - inconsistent
+- Code issue: Lines 45-46 use `path` (original case) for conditional check but `lpath` (lowercase) for actual lookup - inconsistent
 
 **Uninitialized getDomain Return Values:**
 - Symptoms: getDomain function may return undefined values in `domain` or `path` properties
@@ -213,30 +219,34 @@
 
 ## Dependencies at Risk
 
-**webextension-polyfill (^0.10.0):**
-- Risk: API compatibility layer between Firefox/Chrome may lag behind browser updates
-- Impact: New WebExtension APIs may not be available until polyfill updates
-- Migration plan: Monitor browser compatibility issues, maintain fallback implementations
+**Legacy @typescript-eslint Configuration:**
+- Risk: @typescript-eslint v5 is end-of-life (EOL), latest is v8
+- Impact: Missing latest TypeScript features, potential incompatibility with TS 5.9
+- Migration plan: Upgrade @typescript-eslint to v8+ with:
+  - Update @typescript-eslint/eslint-plugin to v8.x
+  - Update @typescript-eslint/parser to v8.x
+  - Review breaking changes in v8 migration guide
+- Note: ESLint is already at v8.56.0 ✅
 
-**neverthrow (^6.1.0):**
-- Risk: Result/Error pattern requires wrapping all async operations
-- Impact: Mixed usage with Promise chains creates hard-to-follow code paths
+**Outdated React FontAwesome Icons:**
+- Risk: @fortawesome/react-fontawesome v0.2.0 is 2+ years old (v3.2.0 available)
+- Impact: Missing features, potential security issues, deprecated patterns
+- Migration plan: Upgrade to v3.x with new component structure
+
+**pre-1.0 Analytics Package:**
+- Risk: @analytics-debugger/ga4mp v0.0.8 is pre-1.0, unstable API
+- Impact: Breaking changes possible in minor versions
+- Migration plan: Pin exact version or migrate to official @google-analytics/data package
+
+**Mixed Neverthrow/Promise Usage:**
+- Risk: neverthrow and Promises used inconsistently throughout codebase
+- Impact: Hard-to-follow code paths, inconsistent error handling
 - Migration plan: Standardize on either neverthrow OR native Promises, not both; see `src/contents/content/filter.ts` for mixed usage
 
-**@analytics-debugger/ga4mp (^0.0.8):**
-- Risk: GA4 API library version 0.0.8 is pre-1.0, unstable
-- Impact: Breaking changes possible in minor versions
-- Migration plan: Pin exact version, or migrate to official @google-analytics/data package
-
-**debug (^4.3.4):**
-- Risk: Logger returns console.log in dev mode instead of debug module (broken)
-- Impact: Inconsistent logging behavior across environments
-- Migration plan: Fix logger.ts to properly use debug module, or replace with winston/pino
-
-**plasmo (^0.84.2):**
-- Risk: WebExtension framework depends on specific webpack/parcel versions
-- Impact: Build system updates may break extension compilation
-- Migration plan: Monitor plasmo releases, test upgrades in CI before applying
+**Plasmo Framework Version:**
+- Risk: Plasmo v0.90.5 has minor updates available
+- Impact: Bug fixes and performance improvements missed
+- Migration plan: Monitor Plasmo releases and test updates in CI
 
 ## Missing Critical Features
 
@@ -314,4 +324,4 @@
 
 ---
 
-*Concerns audit: 2026-02-20*
+*Concerns audit: 2026-02-22*

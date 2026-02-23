@@ -1,6 +1,6 @@
 # Coding Conventions
 
-**Analysis Date:** 2026-02-20
+**Analysis Date:** 2026-02-22
 
 ## Naming Patterns
 
@@ -65,7 +65,7 @@
 
 **Comments:**
 - Use relative paths for imports within same directory: `import Tab from "./tab"`
-- ESLint ignore comments for specific rules: `// eslint-disable-next-line prefer-destructuring`
+- ESLint ignore comments for specific rules: `// eslint-disable-line prefer-destructuring`
 - Explain non-obvious code: `// hack until I can get it to work` in `src/shared/logger.ts`
 
 ## Error Handling
@@ -143,4 +143,4 @@
 
 ---
 
-*Convention analysis: 2026-02-20*
+*Convention analysis: 2026-02-22*

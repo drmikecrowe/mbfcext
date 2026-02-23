@@ -1,35 +1,61 @@
 export default function Intro() {
   return (
     <div>
-      <h1 id="official-media-bias-fact-check-extension">Official Media Bias/Fact Check Extension</h1>
+      <h1>Media Bias/Fact Check Extension</h1>
+
       <p>
-        Thank you for installing the <a href="https://drmikecrowe.github.io/mbfcext/">Official Media Bias/Fact Check Extension</a>! We appreciate you! (yes, we said it that way in
-        homage to Ted Lasso)
+        This extension displays bias ratings from{" "}
+        <a href="https://mediabiasfactcheck.com">Media Bias/Fact Check</a> directly on
+        Facebook news posts, helping you quickly assess source credibility.
       </p>
-      <p>
-        Are you tired of navigating through a sea of biased news stories while browsing Facebook? Do you wish you had a tool that could help you distinguish between reliable
-        sources and those that may present a skewed or extreme perspective? Look no further! The Media Bias/Fact Check Extension is here to revolutionize your news consumption
-        experience.
-      </p>
-      <p>
-        If you find any issues with this extension, ideas of ways to make it better or simply want to discuss it, we have a{" "}
-        <a href="https://www.facebook.com/mbfcext/">Facebook page</a> available for discussions.
-      </p>
-      <h2>Collapse, Collapse, Collapse</h2>
-      <p>If this is your firt time using this extension, make sure and click on the Settings tab (center tab). Select which biases/reporting flavors you would like collapsed.</p>
-      <h2 id="we-need-your-help-">We Need Your Help!</h2>
-      <p>If you like this extension, please help us out:</p>
+
+      <h2>Features</h2>
       <ul>
         <li>
-          Give us a favorable review in the <a href="https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh">Chrome Web Store</a> or
-          the <a href="https://addons.mozilla.org/en-US/firefox/addon/media-bias-fact-check/">Firefox Addons Page</a>. This will help grow our users
+          <strong>Bias badges</strong> — Color-coded ratings appear on news posts in your
+          Facebook feed
         </li>
         <li>
-          Please tell your friends. If you would like to share on Facebook,{" "}
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh">
-            click here now
-          </a>
-          .
+          <strong>Domain lookup</strong> — Click the extension icon to see bias info for any
+          site you're visiting
+        </li>
+        <li>
+          <strong>News search</strong> — Search for more information about any article with
+          one click
+        </li>
+        <li>
+          <strong>Collapse filters</strong> — Automatically collapse stories from sources with
+          specific bias or credibility ratings
+        </li>
+        <li>
+          <strong>Sponsored story control</strong> — Hide or collapse sponsored content in
+          your feed
+        </li>
+      </ul>
+
+      <h2>Get Started</h2>
+      <p>
+        Visit the <strong>Settings</strong> tab to configure which types of sources to
+        collapse in your feed.
+      </p>
+
+      <h2>Feedback & Support</h2>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/mbfcext/">Facebook page</a> — Questions and
+          discussion
+        </li>
+        <li>
+          <a href="https://chrome.google.com/webstore/detail/official-media-biasfact-c/ganicjnkcddicfioohdaegodjodcbkkh">
+            Chrome Web Store
+          </a>{" "}
+          — Leave a review
+        </li>
+        <li>
+          <a href="https://addons.mozilla.org/en-US/firefox/addon/media-bias-fact-check/">
+            Firefox Add-ons
+          </a>{" "}
+          — Leave a review
         </li>
       </ul>
     </div>

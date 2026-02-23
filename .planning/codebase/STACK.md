@@ -1,11 +1,12 @@
 # Technology Stack
 
-**Analysis Date:** 2026-02-20
+**Analysis Date:** 2024-02-22
 
 ## Languages
 
 **Primary:**
-- TypeScript 5.3.3 - Used for all source code (.ts, .tsx files)
+- TypeScript 5.9.3 - Core language used throughout the extension
+- JavaScript - For runtime functionality
 
 **Markup:**
 - JSX/TSX - React component templates in `src/**/*.tsx`
@@ -14,7 +15,7 @@
 ## Runtime
 
 **Environment:**
-- Node.js >= 20 (specified in `package.json` engines)
+- Node.js >=24 - Build environment and tooling
 
 **Browser Target:**
 - Chrome/Chromium (Web Extension API)
@@ -28,19 +29,21 @@
 ## Frameworks
 
 **Core:**
-- React 18.2.0 - UI framework for components in `src/**/*.tsx`
-- Plasmo 0.84.2 - Web extension framework and build tool
+- React 18.3.1 - UI framework for components in `src/**/*.tsx`
+- Plasmo 0.90.5 - Web extension framework and build tool
 
 **Styling:**
 - Tailwind CSS 3.4.1 - Utility-first CSS framework
   - Config: `tailwind.config.js`
   - PostCSS plugins for processing
+  - Form plugin: `@tailwindcss/forms` 0.5.7
+  - Typography plugin: `@tailwindcss/typography` 0.5.10
 
 **Testing:**
 - No testing framework configured (no Jest/Vitest config present)
 
 **Build/Dev:**
-- Plasmo 0.84.2 - Handles bundling, dev server, and packaging
+- Plasmo 0.90.5 - Handles bundling, dev server, and packaging
   - Dev command: `plasmo dev`
   - Build command: `plasmo build`
   - Package command: `plasmo package`
@@ -53,7 +56,7 @@
 - `webextension-polyfill` 0.10.0 - Provides Firefox compatibility for Chrome WebExtension API in `src/shared/tab-utils.ts`, `src/background/utils/poller.ts`
 - `@plasmohq/storage` 1.9.3 - Storage abstraction layer used throughout for extension storage (`src/shared/config-handler.ts`, `src/options/components/*.tsx`)
 - `@plasmohq/messaging` 0.6.2 - Message passing between extension contexts
-- `react` 18.2.0 - Core React library
+- `react` 18.3.1 - Core React library
 
 **Analytics:**
 - `@analytics-debugger/ga4mp` 0.0.8 - Google Analytics 4 Measurement Protocol client in `src/shared/google-analytics.ts`
@@ -78,6 +81,7 @@
 - Configured through `@plasmohq/storage` (browser extension storage)
 - Config handler: `src/shared/config-handler.ts`
 - Stored in extension storage: `collapse` settings, `hiddenSites`, `unknown` sites, `mbfcBlockAnalytics`, `pollMinutes`, `lastRun`
+- Google Analytics ID: G-0MYFRRVGKH (hardcoded in `src/constants.ts`)
 
 **Build:**
 - Plasmo base tsconfig: `tsconfig.json` extends `plasmo/templates/tsconfig.base`
@@ -97,9 +101,9 @@
 ## Platform Requirements
 
 **Development:**
-- Node.js >= 20
+- Node.js >=24
 - pnpm package manager
-- Optional: Nix devenv (`.devenv.nix`, `devenv.lock` present for reproducible dev environment)
+- direnv for environment management (`.envrc` with devenv)
 
 **Production:**
 - Chrome/Chromium extension runtime
@@ -108,4 +112,4 @@
 
 ---
 
-*Stack analysis: 2026-02-20*
+*Stack analysis: 2024-02-22*

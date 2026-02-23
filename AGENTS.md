@@ -12,6 +12,38 @@ bd close <id>         # Complete work
 bd sync               # Sync with git
 ```
 
+## Package Manager
+
+**CRITICAL:** Always use **pnpm**, never npm or yarn.
+
+```bash
+pnpm add <package>        # Add dependency
+pnpm add -D <package>     # Add dev dependency
+pnpm install              # Install all dependencies
+```
+
+## Project Stack
+
+- **TypeScript 5.9.3** with strict mode
+- **React 18.3.1** for UI components
+- **Plasmo 0.90.5** for browser extension build
+- **Tailwind CSS 3.4.1** for styling
+- **pnpm** for package management
+- **Node.js >=24** required
+
+## Code Conventions
+
+- **Path aliases:** `~` maps to `./src/` (e.g., `import { foo } from "~shared"`)
+- **Error handling:** Use `neverthrow` Result types (`ok()`/`err()`)
+- **Naming:** camelCase for functions/variables, PascalCase for types/components
+- **Formatting:** Prettier with 180 print width, no semicolons, double quotes
+
+## Testing
+
+- Test framework: **Vitest** with jsdom environment
+- Run: `pnpm test` or `pnpm test:watch`
+- Test files: `*.test.ts` or `*.spec.ts` alongside source or in `__tests__/`
+
 ## Landing the Plane (Session Completion)
 
 **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.

@@ -4,23 +4,22 @@
 
 ---
 
-## v4.1 Dependency Upgrades & Facebook Fix (In Progress)
+## v4.1 Dependency Upgrades & Facebook Fix (Shipped: 2026-02-22)
 
-**Goal:** Fix broken Facebook annotation and upgrade core dependencies
+**Delivered:** Fixed broken Facebook annotation, upgraded core dependencies, added News Search feature
 
-**Phases planned:** 1-2
+**Key accomplishments:**
+- Fixed Facebook feed annotation with new `data-ad-rendering-role` detection (replaced broken `aria-posinset` approach)
+- Upgraded Plasmo 0.84.2 → 0.90.5
+- Upgraded React 18.2.0 → 18.3.1
+- Upgraded TypeScript 5.3.3 → 5.9.3
+- Upgraded ESLint v5.x → v8.56.0
+- Added configurable News Search button for Facebook posts
+- Verified Node.js 24 + Manifest V3 compliance
 
-**Key deliverables:**
-- Fix Facebook feed annotation with new `data-ad-rendering-role` detection
-- Upgrade Plasmo 0.84.2 → 0.89.x
-- Upgrade React 18.2.0 → latest 18.x
-- Upgrade TypeScript 5.3.3 → 5.7.x
-- Upgrade ESLint v5.x → v8.x
-- Verify Node.js 22 LTS + Manifest V3 compliance
+**Stats:** 10 commits, 9 files, +7,561/-5,956 lines, 2 days
 
-**Status:** Planning complete, execution pending
-
-**What's next:** Start with dependency upgrades, then implement FB fix
+**Archive:** `.planning/milestones/v4.1-ROADMAP.md`
 
 ---
 

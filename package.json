@@ -2,7 +2,7 @@
   "name": "media-bias-fact-check",
   "displayName": "Media Bias Fact Check",
   "description": "Show Media Bias / Fact Check ratings for Facebook, Twitter and news websites as you browse",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "author": "Mike Crowe <drmikecrowe@gmail.com>",
   "browserslist": [
     "defaults and supports es6-module"
@@ -11,7 +11,9 @@
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
-    "package": "plasmo package"
+    "package": "plasmo package",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@analytics-debugger/ga4mp": "^0.0.8",
@@ -26,9 +28,9 @@
     "htm": "^3.1.1",
     "lodash": "^4.17.21",
     "neverthrow": "^6.1.0",
-    "plasmo": "^0.84.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "plasmo": "^0.90.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "vhtml": "^2.2.0",
     "webextension-polyfill": "^0.10.0",
     "whatwg-fetch": "^3.6.20"
@@ -36,6 +38,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "0.5.7",
     "@tailwindcss/typography": "^0.5.10",
+    "@testing-library/jest-dom": "^6.9.1",
     "@types/chrome": "0.0.260",
     "@types/debug": "^4.1.12",
     "@types/effective-domain-name-parser": "^0.0.2",
@@ -44,8 +47,8 @@
     "@types/lodash": "^4.14.202",
     "@types/node": "18.19.17",
     "@types/prettier": "2.7.3",
-    "@types/react": "18.2.57",
-    "@types/react-dom": "18.2.19",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
     "@types/vhtml": "^2.2.9",
     "@types/whatwg-fetch": "^0.0.33",
     "@typescript-eslint/eslint-plugin": "^8.56.0",
@@ -56,11 +59,14 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-prettier": "0.0.0-empty",
     "husky": "^8.0.3",
+    "jsdom": "^28.1.0",
     "postcss": "^8.4.35",
     "prettier": "3.2.5",
     "tailwindcss": "^3.4.1",
-    "typescript": "5.3.3"
+    "typescript": "5.9.3",
+    "vitest": "^4.0.18"
   },
+  "packageManager": "pnpm@10.0.0",
   "engines": {
     "node": ">=24"
   },

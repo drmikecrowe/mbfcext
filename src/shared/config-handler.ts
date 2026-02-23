@@ -44,6 +44,7 @@ export interface ConfigStorage {
   firstrun: boolean
   loaded: boolean
   mbfcBlockAnalytics: boolean
+  disableNewsSearchButton: boolean
   pollMinutes: number
 }
 
@@ -97,6 +98,7 @@ const configDefaults: ConfigStorage = {
   firstrun: true,
   loaded: false,
   mbfcBlockAnalytics: false,
+  disableNewsSearchButton: false,
   pollMinutes: 60,
 }
 
@@ -167,6 +169,7 @@ export class ConfigHandler {
       firstrun: await this.getStorageRecord("firstrun", configDefaults.firstrun),
       loaded: await this.getStorageRecord("loaded", configDefaults.loaded),
       mbfcBlockAnalytics: await this.getStorageRecord("mbfcBlockAnalytics", configDefaults.mbfcBlockAnalytics),
+      disableNewsSearchButton: await this.getStorageRecord("disableNewsSearchButton", configDefaults.disableNewsSearchButton),
       pollMinutes: await this.getStorageRecord("pollMinutes", configDefaults.pollMinutes),
     }
     this.config = c

@@ -1,193 +1,155 @@
 # Architecture
 
-**Analysis Date:** 2026-02-20
+**Analysis Date:** 2026-02-22
 
 ## Pattern Overview
 
-**Overall:** Browser Extension with Message-Driven Backend + Content Script Layer
+**Overall:** Extension Architecture with Content Script Integration
 
 **Key Characteristics:**
-- Three-tier architecture: Background Service Worker, Content Scripts, UI Layer (Popup/Options)
-- Message-passing communication via @plasmohq/messaging for cross-context async operations
-- Singleton pattern for shared services (SourcesProcessor, ConfigHandler, TabListener)
-- Domain-based lookup pattern for media bias classification
-- React component-driven UI for popup and settings pages
+- Browser extension architecture using Plasmo framework
+- Content script injection for Facebook page modification
+- Background service worker for data management and messaging
+- Popup interface for quick information display
+- Options page for configuration management
 
 ## Layers
 
-**Background Service Worker:**
-- Purpose: Central hub managing sources data, message routing, icon updates, tab lifecycle monitoring
+**Background Layer:**
+- Purpose: Service worker handling data fetching, icon updates, and inter-process messaging
 - Location: `src/background/`
-- Contains: Service worker entry point, message handlers, data processors, event listeners
-- Depends on: @plasmohq/messaging, @plasmohq/storage, models (CombinedModel), Chrome APIs
-- Used by: Content scripts and popup via messaging, Chrome event listeners
+- Contains: Background service, message handlers, data source processing
+- Depends on: Storage API, Chrome extension APIs, shared utilities
+- Used by: Popup, content scripts, extension lifecycle
 
-**Content Scripts:**
-- Purpose: Inject into Facebook/Twitter pages to detect and annotate media bias on story links
+**Content Script Layer:**
+- Purpose: DOM manipulation and filtering on target websites
 - Location: `src/contents/`
-- Contains: Page-specific filters (Facebook, Twitter), DOM manipulation, story detection logic
-- Depends on: Background messages, ConfigHandler, CheckDomain utilities, DOM APIs
-- Used by: Browser tab pages directly
+- Contains: Content scripts, DOM filters, post detection logic
+- Depends on: Background messages, shared utilities, browser APIs
+- Used by: Facebook page for post detection and bias indicators
 
-**UI Layer (Popup & Options):**
-- Purpose: User-facing interfaces for quick lookup (popup) and preference configuration (options)
-- Location: `src/popup.tsx`, `src/options.tsx`, `src/options/`
-- Contains: React components, tab navigation, settings controls
-- Depends on: @plasmohq/messaging, models, shared utilities
-- Used by: Browser popup icon click, extension options page
+**UI Layer:**
+- Purpose: User interface components and pages
+- Location: `src/popup.tsx`, `src/options/`
+- Contains: Popup display, options configuration, components
+- Depends on: React, Plasmo messaging, shared utilities
+- Used by: End users, extension users
 
-**Shared Utilities:**
-- Purpose: Cross-context utilities for domain parsing, logging, configuration, Google Analytics
-- Location: `src/shared/`
-- Contains: Logger wrapper, ConfigHandler (storage management), domain extraction, tab utilities
-- Depends on: @plasmohq/storage, Chrome APIs, debug library
-- Used by: All layers
-
-**Models & Data:**
-- Purpose: Define TypeScript interfaces for media bias classification data structure
-- Location: `src/models/combined-manager.ts`
-- Contains: CombinedModel interface, BiasModel, SiteModel, enums for bias/credibility/traffic categories
-- Depends on: No dependencies (pure types)
-- Used by: All layers for type safety
+**Data Layer:**
+- Purpose: Data models, configuration handling, and data management
+- Location: `src/models/`, `src/shared/`
+- Contains: TypeScript interfaces, data models, configuration storage
+- Depends on: Storage API, JSON parsing, utilities
+- Used by: All layers for data consistency
 
 ## Data Flow
 
-**Initial Load Flow:**
+**Popup Initialization:**
 
-1. Background service worker initializes at `src/background/index.ts`
-2. SourcesProcessor singleton retrieves combined.json from GitHub (URL in `src/constants.ts`)
-3. Combined data is deserialized into CombinedModel and indexed by domain into `sites_by_domain` Map
-4. ConfigHandler retrieves user settings from chrome.storage.sync
-5. Both promises resolve via `Promise.all()`, marking extension ready
+1. User opens popup → `popup.tsx` loads
+2. `getCurrentTab()` → Gets current tab information
+3. `getDomain()` → Extracts domain from URL
+4. `sendToBackground()` → Requests domain data from background
+5. Background receives request → Queries source data and configuration
+6. Returns bias information → Popup displays rating and link
 
-**Tab/Popup Query Flow:**
+**Content Script Processing:**
 
-1. User clicks extension popup or popup.tsx loads
-2. Popup component calls `getCurrentTab()` to get active tab URL
-3. getDomain utility extracts hostname and path from URL
-4. Popup sends `GET_DOMAIN_FOR_TAB` message to background via @plasmohq/messaging
-5. Background handler (get-domain-for-tab.ts) looks up domain in `sites_by_domain` cache
-6. Handler retrieves matching SiteModel and associated BiasModel (color, description)
-7. Response includes bias rating, description, and MBFC link
-8. Popup renders PopupDetails component with site information
+1. Content script loads → `facebook.ts` entry point
+2. `ConfigHandler.getInstance()` → Loads user preferences
+3. `Facebook.getInstance()` → Initializes post detection
+4. MutationObserver watches DOM → Detects new posts
+5. `findArticleElements()` → Identifies post containers
+6. `findTitleElement()` → Extracts domain/link information
+7. `sendToBackground()` → Requests bias information
+8. Posts filtered/blocked based on configuration
+9. Bias indicators added to posts
 
-**Content Script Annotation Flow:**
+**Configuration Management:**
 
-1. Facebook content script (src/contents/facebook.ts) injects into https://facebook.com/*
-2. Facebook.getInstance() initializes Filter with "article" selector
-3. Filter scans DOM for story links, extracts domain from href attributes
-4. For each domain, checkDomain utility (src/background/utils/check-domain.ts) validates:
-   - Direct domain match in sites_by_domain
-   - Subdomain path matching
-   - Domain alias lookup
-   - Parent domain fallback
-5. If site found, ReportDiv custom element displays bias badge with color-coded icon
-6. User can hide/unhide specific sites via HIDE_SITE message
-7. Collapse configuration determines if stories auto-hide per bias category
-
-**State Management:**
-
-- SourcesProcessor maintains in-memory cache of combined.json data and indexed domains
-- ConfigHandler uses chrome.storage.sync for user preferences (collapse states, hidden sites)
-- Filter instances maintain local DOM state tracking which stories have been processed
+1. User changes preferences → Options page updates
+2. `ConfigHandler.getInstance().persist()` → Saves to storage
+3. `Storage.watch()` → Listens for changes
+4. Updates propagate to background and content scripts
+5. Content scripts adapt filtering behavior immediately
 
 ## Key Abstractions
 
-**SourcesProcessor:**
-- Purpose: Singleton managing all sources data lifecycle and querying
-- Examples: `src/background/sources-processor.ts`
-- Pattern: Lazy-loads combined.json, indexes by domain/subdomain/alias, provides read-only access via getInstance()
-- Key Methods: getSourceData(), updateFacebook(), updateTwitter(), updateName()
+**Filter Abstraction:**
+- Purpose: Base class for content script filtering logic
+- Examples: `src/contents/content/filter.ts`
+- Pattern: Template method pattern with platform-specific implementations
 
-**ConfigHandler:**
-- Purpose: Abstraction over chrome.storage.sync for extension preferences
+**ConfigHandler Abstraction:**
+- Purpose: Centralized configuration management with storage synchronization
 - Examples: `src/shared/config-handler.ts`
-- Pattern: Singleton with ConfigStorage interface defining collapse states, hidden sites, poll intervals
-- Key Methods: retrieve(), get(), set()
+- Pattern: Singleton with reactive storage watching
 
-**Filter:**
-- Purpose: Page-specific annotation logic for processing stories and adding bias badges
-- Examples: `src/contents/content/filter.ts`, `src/contents/content/facebook.ts`
-- Pattern: Base Filter class with Story interface for tracking annotation state
-- Key Methods: processStory(), hideStory(), showStory()
+**CombinedModel Abstraction:**
+- Purpose: TypeScript interfaces for all MBFC data structures
+- Examples: `src/models/combined-manager.ts`
+- Pattern: Data model with validation and conversion utilities
 
-**Message Handlers:**
-- Purpose: Request-response handlers for background tasks callable from content scripts/popup
-- Examples: `src/background/messages/get-domain-for-tab.ts`, `src/background/messages/hide-site.ts`
-- Pattern: PlasmoMessaging.MessageHandler<RequestBody, ResponseBody> functional handlers
-- Handlers: GET_DOMAIN_FOR_TAB, HIDE_SITE, RESET_IGNORED, GET_DOMAIN_FOR_FILTER
-
-**getDomain Utility:**
-- Purpose: Consistent domain extraction from URLs across all layers
-- Examples: `src/shared/get-domain.ts`
-- Pattern: Pure function that normalizes hostnames, removes www prefix, extracts pathname
-- Returns: { domain: string, path: string }
-
-**CheckDomainResults:**
-- Purpose: Encapsulate domain lookup results with metadata about site state
-- Examples: `src/background/utils/check-domain.ts`
-- Pattern: Result type using neverthrow for error handling
-- Returns: CheckDomainResults with site reference, alias detection, collapse/hidden flags
+**Message Passing Abstraction:**
+- Purpose: Typed inter-process communication
+- Examples: `src/background/messages/`
+- Pattern: Plasmo messaging with request/response types
 
 ## Entry Points
 
-**Service Worker:**
+**Background Service:**
 - Location: `src/background/index.ts`
-- Triggers: Extension load, chrome startup
-- Responsibilities: Initialize SourcesProcessor and ConfigHandler, attach event listeners for tabs, listen for messages
+- Triggers: Extension installation, tab updates, window focus
+- Responsibilities: Data initialization, icon updates, event listeners
 
-**Content Scripts:**
-- Location: `src/contents/facebook.ts`, `src/contents/twitter.ts` (manifest match patterns)
-- Triggers: Page navigation to matched domains (facebook.com, twitter.com)
-- Responsibilities: Detect stories, query background for bias info, inject bias badges
-
-**Popup:**
+**Popup Interface:**
 - Location: `src/popup.tsx`
-- Triggers: User clicks extension icon
-- Responsibilities: Display media bias info for current tab's domain
+- Triggers: User clicking extension icon
+- Responsibilities: Display bias information, navigate to options
+
+**Content Script:**
+- Location: `src/contents/facebook.ts`
+- Triggers: Navigation to Facebook domains
+- Responsibilities: Detect posts, apply filtering, show bias indicators
 
 **Options Page:**
-- Location: `src/options.tsx`
-- Triggers: User opens extension options/settings
-- Responsibilities: Display settings tabs (intro, settings, release notes), manage collapse/hidden preferences
+- Location: `src/options/options.tsx`
+- Triggers: User opening options
+- Responsibilities: Configure extension behavior, preferences
 
 ## Error Handling
 
-**Strategy:** Graceful degradation with logging and null checks
+**Strategy:** Result-based error handling with neverthrow
 
 **Patterns:**
-- neverthrow Result<T, E> type for checkDomain errors (returns Ok() with unknown flag set)
-- Try-catch in getDomain with silent failure (invalid URLs return empty domain/path)
-- Null checks before accessing sourceData in message handlers (logs "Domains not loaded")
-- Async/await with .catch() logging in popup and content script main functions
-- Log levels controlled by isDevMode() for verbose dev vs. silent production logging
+- `Result<T, E>` for async operations
+- Early returns with `if (isErr())`
+- Logging for debugging purposes
+- Graceful degradation when data unavailable
 
 ## Cross-Cutting Concerns
 
 **Logging:**
-- Centralized logger wrapper at `src/shared/logger.ts`
-- Namespaced debug instances per module (e.g., "mbfc:background:index", "mbfc:content:filter")
-- Controlled by isDevMode() environment detection
+- Framework: Debug library with structured logging
+- Patterns: Module-specific loggers with prefixing
+- Levels: Info for events, error for failures
 
-**Validation:**
-- Domain validation in getDomain (URL parsing with try-catch)
-- Type validation in CombinedModel.Convert with schema casting
-- BiasEnums validation at deserialization time
+**Storage:**
+- Framework: Plasmo Storage API
+- Patterns: Watch for changes, singleton instances
+- Data types: JSON serialization for complex objects
 
-**Authentication:**
-- No authentication required (data from public GitHub repo)
-- Chrome extension permissions: tabs, storage, alarms, host_permissions for Facebook/Twitter
+**DOM Manipulation:**
+- Framework: Native DOM APIs with TypeScript types
+- Patterns: MutationObserver for reactive updates
+- Safety: Class markers to prevent duplicate processing
 
-**Configuration:**
-- User preferences stored in chrome.storage.sync (collapse states, hidden sites, poll interval)
-- Defaults defined in DefaultCollapse and ConfigStorage interface
-- Poll interval for data refresh managed by ConfigHandler
-
-**Data Fetching:**
-- Single source of truth: combined.json from GitHub (URL in constants.ts)
-- Lazy loading on extension startup
-- In-memory caching with no persistence (fetched on each extension reload)
+**Messaging:**
+- Framework: Plasmo @plasmohq/messaging
+- Patterns: Typed request/response objects
+- Flow: Bidirectional between background and content scripts
 
 ---
 
-*Architecture analysis: 2026-02-20*
+*Architecture analysis: 2026-02-22*

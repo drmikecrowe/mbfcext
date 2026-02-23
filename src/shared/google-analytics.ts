@@ -137,4 +137,54 @@ export class GoogleAnalytics {
     }
     this.ga4track.trackEvent("sponsored-hidden")
   }
+
+  reportNewsSearch(domain: string | undefined, page_name: string | undefined) {
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
+    this.ga4track.trackEvent("news-search", {
+      event_category: "ui",
+      domain: domain || "unknown",
+      page_name: page_name || "unknown",
+    })
+  }
+
+  reportMatchMethod(domain: string, method: string, fb_page?: string) {
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
+    this.ga4track.trackEvent("domain-match", {
+      event_category: "lookup",
+      domain,
+      match_method: method,
+      fb_page: fb_page || "none",
+    })
+  }
+
+  reportFailedLookup(possible_domain: string, possible_page: string | undefined, possible_name: string | undefined) {
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
+    this.ga4track.trackEvent("failed-lookup", {
+      event_category: "lookup",
+      possible_domain,
+      possible_page: possible_page || "none",
+      possible_name: possible_name || "none",
+    })
+  }
+
+  reportUIInteraction(action: string, domain?: string) {
+    if (!this.allowed()) {
+      log("Analytics not allowed")
+      return
+    }
+    this.ga4track.trackEvent("ui-interaction", {
+      event_category: "ui",
+      action,
+      domain: domain || "none",
+    })
+  }
 }

@@ -1,59 +1,47 @@
-# Official Media Bias/Fact Check Extension Release Notes
+# Release Notes
 
-## Release notes for version 3.3.0
+## Version 4.1
 
-- Changing to browserAction to allow separate windows to have separate icons
+- **Facebook feed annotation restored** — Bias badges now appear correctly on news posts after Facebook's recent changes
+- **News Search button** — Search for more information about any article directly from the bias badge
+- Performance and stability improvements
 
-## Release notes for version 3.2.1
+## Version 4.0
 
-- Fixing finding subdomains such as nhk.or.jp/nhkworld/article..
-- Adding jest test frameworks
+- **Sponsored story controls** — New option to collapse or hide sponsored stories in your feed
+- Removed Twitter/X support due to platform API changes
+- Upgraded to modern extension architecture
 
-## Release notes for version 3.2
+## Version 3.3
 
-- Improving Twitter article detection
-- Placing MBFC insert below image if we use the Twitter handle, and under the article if we use the article domain
+- Separate extension icons for different browser windows
 
-## Release notes for version 3.1
+## Version 3.2
 
-- Adding support for Credibility and Traffic
-- Fixing issue with hiding/showing a site permanently
-- Adding version number to config
+- Improved subdomain detection
+- Better Twitter article detection
 
-## Release notes for version 3.0
+## Version 3.1
 
-- Now support the new Facebook layout
-- Major overhall of code
-- Now have the ability to target Firefox and Opera for extensions
+- Added Credibility and Traffic ratings
+- Fixed site hide/show persistence
+- Version number now displayed in settings
 
-## Release notes for version 2.0
+## Version 3.0
 
-### Now Showing Bias Icon for Reported Sites
+- Support for new Facebook layout
+- Major code overhaul
+- Firefox and Opera support
 
-- Browse to a site reviewed by Media Bias/Fact Check and the extension icon will now change to the bias of the site
-- If you have collapsed the site in settings, that icon will flash to get your attention
+## Version 2.0
 
-### Twitter Support!
+- Extension icon shows bias of current site
+- Icon flashes when visiting a collapsed site
+- Twitter feed annotation
 
-- [Twitter](https://twitter.com) feed is now annotated with a basic MBFC review for reported site.
+## Version 1.0
 
-## Release notes for version 1.0.15
-
-### Now showing more detailed information: 
-
-- Reporting: The reporting analysis by [Media Bias/Fact Check](https://mediabiasfactcheck.com)
-- References: This is [Moz's Link equity](https://moz.com/learn/seo/what-is-link-equity), once colloquially referred to with the awful term "link juice," is a search engine ranking factor based on the idea that certain links pass value and authority from one page to another. This value is dependent on a number of factors, such as the linking page's authority, topical relevance, HTTP status, and more. Links that pass equity are one of many signals that Google and other search engines use to determine a page's rankings in the SERPs. Moz's Link Equity analysis.
-- Popularity: Of the 2000+ MBFC sites, this indicates the where this site falls in the continuum of sites analyzed. Sites with few References (Link Equity) are close to 0% in popularity. Sites with 3M References are at 100%. This percentage should help you determine how seriously to take the site.
-- Search: This link opens a new window at our sister site [https://factualsearch.news](https://factualsearch.news) and tries to search for the tagline. It should help you start your research into a specific topic and it's accuracy.
-
-### New Features:
-
-- Now allow collapsing "Mixed" factual reporting sources
-
-## Release notes for version 1.0.13
-
-We are very excited to announce a new feature:  **_Collapsable News_**
-
-- Click on the "Collapse" section on the left
-- Choose which news categories to collapse in your feed
-- Revel in the reduction in stress from your extreme FB friends
+- Initial release with Facebook feed annotation
+- Collapsible news categories
+- Detailed source information (Reporting, References, Popularity)
+- Link to search for more information about articles
