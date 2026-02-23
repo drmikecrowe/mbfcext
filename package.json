@@ -10,8 +10,15 @@
   "bugs": "https://github.com/drmikecrowe/mbfcext/issues",
   "scripts": {
     "dev": "plasmo dev",
+    "dev:chrome": "plasmo dev --target=chrome-mv3",
+    "dev:firefox": "plasmo dev --target=firefox-mv3",
     "build": "plasmo build",
+    "build:chrome": "plasmo build --target=chrome-mv3",
+    "build:firefox": "plasmo build --target=firefox-mv3",
+    "build:all": "plasmo build --target=chrome-mv3 && plasmo build --target=firefox-mv3",
     "package": "plasmo package",
+    "package:chrome": "plasmo package --target=chrome-mv3",
+    "package:firefox": "plasmo package --target=firefox-mv3",
     "test": "vitest run",
     "test:watch": "vitest"
   },
