@@ -2,19 +2,21 @@
 
 ## Latest News
 
-### New in version 4.0 -- Collapse Sponsonsored Stories
+### New in version 4.1
 
-Hate Facebook marketing to you? We do too. So, we've included the capability to hide sponsored story much like that crazy fake-news story. You can still show it, but you will love
-how much it cleans up your feed
+- **Facebook feed annotation restored** — Bias badges now appear correctly on news posts after Facebook's recent DOM changes
+- **News Search button** — Search for more information about any article directly from the bias badge (can be disabled in settings)
+- **Performance improvements** — Debounced MutationObserver processing for better efficiency
 
-### Removed in 4.0 -- Twitter Support
+### Version 4.0 Highlights
 
-This may be controvercial, but unless there is a huge outcry, we chose to release v4 without Twitter support.  
+- **Sponsored story controls** — Option to collapse or hide sponsored stories in your feed
+- **Removed Twitter/X support** — Due to platform API changes
+- **Modern extension architecture** — Upgraded to Plasmo framework with Manifest v3
 
 ### New Support Channel
 
-While the subreddit will still be active, we will be shifting our primary support to our [Facebook Page](https://www.facebook.com/mbfcext).  Given this is the bulk of our effort, it
-makes sense to use that as a support channel as well.
+While the subreddit will still be active, we will be shifting our primary support to our [Facebook Page](https://www.facebook.com/mbfcext).
 
 ## Build Instructions
 
@@ -34,6 +36,14 @@ If you like this extension, please help us out:
 
 - Give us a favorable review in the [Chrome Web Store](https://chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh) or the [Firefox Addons Page](https://addons.mozilla.org/en-US/firefox/addon/media-bias-fact-check/).  This will help grow our users
 - Please tell your friends.  If you would like to share on Facebook, [click here now](https://www.facebook.com/sharer/sharer.php?u=https%3A//chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh).
+
+## Release Notes for version 4.1
+
+- Restored Facebook feed annotation after Facebook's DOM changes
+- Added News Search button for researching articles (configurable)
+- Upgraded to Node 24 and modern TypeScript 5.9
+- Debounced MutationObserver for better performance
+- Added Google Analytics tracking for feature usage
 
 ## Release Notes for version 4.0
 
