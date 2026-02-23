@@ -1,10 +1,11 @@
 # Build Instructions
 
-- Install node v20.11.0
+- Install Node.js 24 or later (v24.0.0+ required)
 - Run the following commands:
 
 ```sh
 npm install -g pnpm
+pnpm install
 pnpm build
 ```
 
