@@ -1,0 +1,104 @@
+{
+  "date": "2026-02-24-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 14
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "eagletonpoll.rutgers.edu": {
+        "name": "Rutgers-Eagleton Poll",
+        "changes": [
+          "reporting: 'high' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "morrisoninstitute.asu.edu": {
+        "name": "Morrison Institute for Public Policy",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "muhlenberg.edu/aboutus/polling": {
+        "name": "Muhlenberg College Polling",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "panatlanticresearch.com": {
+        "name": "Pan Atlantic Research",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "poll.qu.edu": {
+        "name": "Quinnipiac Poll",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "ppic.org": {
+        "name": "Public Policy Institute of California",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "redfieldandwiltonstrategies.com": {
+        "name": "Redfield & Wilton Strategies",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "remingtonresearchgroup.com": {
+        "name": "Remington Research Group",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "researchco.ca": {
+        "name": "Research Co.",
+        "changes": [
+          "bias: 'center' -> 'left-center'",
+          "reporting: 'high' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "rmgresearch.com": {
+        "name": "RMG Research",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "surveyusa.net": {
+        "name": "SurveyUSA",
+        "changes": [
+          "bias: 'left' -> 'center'"
+        ]
+      },
+      "susquehannapolling.com": {
+        "name": "Susquehanna Polling and Research",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "today.yougov.com": {
+        "name": "YouGov Polling US",
+        "changes": [
+          "reporting: 'very-high' -> 'high'"
+        ]
+      },
+      "trafalgargroup.org": {
+        "name": "Trafalgar Group Polling",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      }
+    }
+  }
+}
