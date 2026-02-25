@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-25-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "politicalstate.org": {
+        "name": "Political State",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      },
+      "thepoliticalinsider.com": {
+        "name": "Political Insider",
+        "changes": [
+          "questionable: added ['conspiracy', 'failed-fact-checks', 'fake-news', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
