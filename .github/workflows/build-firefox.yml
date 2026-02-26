@@ -28,6 +28,15 @@ jobs:
       - name: Install web-ext
         run: npm install -g web-ext
 
+      - name: Stamp version with short SHA
+        run: |
+          BASE=$(jq -r .version package.json)
+          SHA=$(git rev-parse --short HEAD)
+          STAMPED="${BASE}.${SHA}"
+          jq --arg v "$STAMPED" '.version = $v' package.json > package.json.tmp
+          mv package.json.tmp package.json
+          echo "Version: $STAMPED"
+
       - name: Build Firefox extension
         run: pnpm build --target=firefox-mv3
 
