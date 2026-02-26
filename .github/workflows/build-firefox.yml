@@ -26,6 +26,9 @@ jobs:
         run: pnpm install
 
       - name: Build Firefox extension
+        run: pnpm build --target=firefox-mv3
+
+      - name: Package Firefox extension
         run: pnpm package:firefox
 
       - name: Upload XPI artifact
