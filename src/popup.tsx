@@ -1,6 +1,7 @@
 import { faAngleDoubleRight, faCog } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useEffect, useState } from "react"
+import browser from "webextension-polyfill"
 
 import { sendToBackground } from "@plasmohq/messaging"
 
@@ -83,7 +84,8 @@ function IndexPopup() {
       <div className="container mx-auto p-2 centered">
         <div className="absolute top-0 right-0">
           <div className="p-1">
-            <Button handler={() => chrome.runtime.openOptionsPage()}>
+            {/* Use webextension-polyfill instead of chrome.* directly */}
+            <Button handler={() => browser.runtime.openOptionsPage()}>
               <FontAwesomeIcon icon={faCog} />
             </Button>
           </div>

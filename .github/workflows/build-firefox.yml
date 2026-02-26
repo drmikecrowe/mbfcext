@@ -1,0 +1,38 @@
+name: "Build Firefox XPI"
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-firefox:
+    name: Build & Upload Firefox XPI
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Use Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build Firefox extension
+        run: pnpm package:firefox
+
+      - name: Upload XPI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mbfc-firefox-${{ github.sha }}
+          path: build/firefox-mv3-prod.zip
+          retention-days: 30
