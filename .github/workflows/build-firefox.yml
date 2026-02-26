@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-firefox:
-    name: Build & Upload Firefox XPI
+    name: Build, Sign & Upload Firefox XPI
     runs-on: ubuntu-latest
 
     steps:
@@ -25,15 +25,27 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Install web-ext
+        run: npm install -g web-ext
+
       - name: Build Firefox extension
         run: pnpm build --target=firefox-mv3
 
       - name: Package Firefox extension
         run: pnpm package:firefox
 
-      - name: Upload XPI artifact
+      - name: Sign XPI via AMO
+        run: |
+          web-ext sign \
+            --source-dir build/firefox-mv3-prod \
+            --artifacts-dir build/signed \
+            --channel unlisted \
+            --api-key ${{ secrets.AMO_JWT_ISSUER }} \
+            --api-secret ${{ secrets.AMO_JWT_SECRET }}
+
+      - name: Upload signed XPI
         uses: actions/upload-artifact@v4
         with:
-          name: mbfc-firefox-${{ github.sha }}
-          path: build/firefox-mv3-prod.zip
+          name: mbfc-firefox-signed-${{ github.sha }}
+          path: build/signed/*.xpi
           retention-days: 30
