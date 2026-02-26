@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-26-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "insideradvantage.com": {
+        "name": "InsiderAdvantage",
+        "changes": [
+          "bias: 'right-center' -> 'center'",
+          "reporting: 'mixed' -> 'mostly-factual'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      },
+      "political-discussion.com": {
+        "name": "PoliticalDiscussion",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'hate', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
