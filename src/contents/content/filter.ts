@@ -1,4 +1,3 @@
-import { set } from "lodash"
 import { Result, err, ok } from "neverthrow"
 
 import { type CheckDomainResults } from "~background/utils"
@@ -8,6 +7,37 @@ import { faEye, faEyeSlash } from "~shared/elements/font-awesome"
 import { isDevMode, logger } from "~shared/logger"
 
 import "./utils/report-div"
+
+/**
+ * Safely insert HTML into an element using DOMParser instead of insertAdjacentHTML.
+ * This avoids Firefox's UNSAFE_VAR_ASSIGNMENT warnings while still handling SVG content.
+ */
+function safeInsertHTML(element: Element, position: InsertPosition, html: string): void {
+  const parser = new DOMParser()
+  const doc = parser.parseFromString(html, "text/html")
+  const fragment = document.createDocumentFragment()
+
+  // Collect nodes to insert (body children for HTML fragments)
+  const nodes = Array.from(doc.body.childNodes)
+  for (const node of nodes) {
+    fragment.appendChild(node.cloneNode(true))
+  }
+
+  switch (position) {
+    case "afterbegin":
+      element.insertBefore(fragment, element.firstChild)
+      break
+    case "beforeend":
+      element.appendChild(fragment)
+      break
+    case "beforebegin":
+      element.parentNode?.insertBefore(fragment, element)
+      break
+    case "afterend":
+      element.parentNode?.insertBefore(fragment, element.nextSibling)
+      break
+  }
+}
 
 import { sendToBackground } from "@plasmohq/messaging"
 
@@ -150,13 +180,13 @@ export class Filter {
 
   hideElement(el) {
     if (el && el.tagName !== "MBFC") {
-      set(el, "style.display", "none")
+      el.style.display = "none"
     }
   }
 
   showElement(el) {
     if (el) {
-      set(el, "style.display", "inherit")
+      el.style.display = "inherit"
     }
   }
 
@@ -325,8 +355,14 @@ export class Filter {
         if (spanEl) {
           spanEl.textContent = isHidden ? "Hide Again" : "Show Anyway"
         }
-        // Update icon (it's the first text node before the span)
-        hideCtrl.innerHTML = (isHidden ? faEyeSlash : faEye) + ` <span>${isHidden ? "Hide Again" : "Show Anyway"}</span>`
+        // Update icon and text using safe HTML insertion for SVG
+        const icon = isHidden ? faEyeSlash : faEye
+        const text = isHidden ? "Hide Again" : "Show Anyway"
+        hideCtrl.textContent = ""
+        safeInsertHTML(hideCtrl, "afterbegin", icon + " ")
+        const newSpan = document.createElement("span")
+        newSpan.textContent = text
+        hideCtrl.appendChild(newSpan)
       }, false)
       log(`Added hide control event listener for ${hideClass}`)
       hideCtrl.attributes.removeNamedItem("data-attached")
@@ -352,7 +388,7 @@ export class Filter {
             ${faEye} <span>Show Anyway</span>
         </div></mbfc>`
       : ""
-    set(hDiv, "innerHTML", hide)
+    safeInsertHTML(hDiv, "afterbegin", hide)
     return hDiv
   }
 
@@ -366,7 +402,7 @@ export class Filter {
     if (typeof html !== "string") {
       return err(null)
     }
-    iDiv.innerHTML = html
+    safeInsertHTML(iDiv, "afterbegin", html)
     return ok(iDiv)
   }
 

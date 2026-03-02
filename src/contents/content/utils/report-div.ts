@@ -194,7 +194,7 @@ export class NewsAnnotation {
     if (!NewsAnnotation.loaded) {
       NewsAnnotation.loaded = true
       const style = document.createElement("style")
-      style.innerHTML = NewsAnnotation.styles
+      style.textContent = NewsAnnotation.styles
       document.head.appendChild(style)
     }
   }

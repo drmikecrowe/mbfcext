@@ -1,6 +1,6 @@
-import { faBook, faCog } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import type { ReactElement } from "react"
+
+import { BookIcon, GearIcon } from "~shared/elements/Icons"
 
 export interface TabDef {
   id: string
@@ -20,7 +20,7 @@ export default function Tab({ forId, text, icon, activate, activeTab }: { forId:
   return (
     <li key={tabId} className="-mb-px mr-2 last:mr-12 flex-auto text-center" id={tabId}>
       <a key={aId} className={cls} href="#" onClick={activate}>
-        {icon === "faBook" ? <FontAwesomeIcon icon={faBook} /> : <FontAwesomeIcon icon={faCog} />}
+        {icon === "faBook" ? <BookIcon size={14} /> : <GearIcon size={14} />}
         &nbsp;
         {text}
       </a>

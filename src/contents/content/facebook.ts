@@ -214,10 +214,15 @@ export class Facebook extends Filter {
       background: linear-gradient(to right, rgba(0, 0, 255, 0.15), rgba(255, 255, 255, 0.15), rgba(255, 0, 0, 0.15));
       transition: opacity 0.2s;
     `
-    searchBtn.innerHTML = `
-      <span>News Search</span>
-      <img src="${FNS_FAVICON}" width="14" height="14" style="vertical-align: middle;">
-    `
+    const span = document.createElement("span")
+    span.textContent = "News Search"
+    const img = document.createElement("img")
+    img.src = FNS_FAVICON
+    img.width = 14
+    img.height = 14
+    img.style.verticalAlign = "middle"
+    searchBtn.appendChild(span)
+    searchBtn.appendChild(img)
 
     // Add hover effect
     searchBtn.addEventListener("mouseenter", () => {
