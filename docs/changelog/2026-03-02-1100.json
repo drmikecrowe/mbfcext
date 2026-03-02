@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-02-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "nationalnewswatch.com": {
+        "name": "National Newswatch",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'"
+        ]
+      }
+    }
+  }
+}
