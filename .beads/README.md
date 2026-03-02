@@ -23,11 +23,11 @@ bd list
 bd show <issue-id>
 
 # Update issue status
-bd update <issue-id> --status in_progress
+bd update <issue-id> --claim
 bd update <issue-id> --status done
 
-# Sync with git remote
-bd sync
+# Sync with Dolt remote
+bd dolt push
 ```
 
 ### Working with Issues

@@ -1,7 +1,6 @@
 {
-  "backend": "dolt",
   "database": "dolt",
-  "dolt_database": "beads_show_media_bias-main",
+  "backend": "dolt",
   "dolt_mode": "server",
-  "jsonl_export": "issues.jsonl"
+  "dolt_database": "smb"
 }

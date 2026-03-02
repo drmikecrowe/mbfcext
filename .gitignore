@@ -78,3 +78,7 @@ coverage/
 .devenv*
 mise.toml
 tsconfig.tsbuildinfo
+
+# Dolt database files (added by bd init)
+.dolt/
+*.db
