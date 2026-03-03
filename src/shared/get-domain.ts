@@ -21,5 +21,5 @@ export const getDomain = (u: string) => {
     // log(e);
     // invalid domain is normal
   }
-  return { domain: hn, path: p }
+  return { domain: hn || "", path: p || "" }
 }
