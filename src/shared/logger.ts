@@ -1,28 +1,24 @@
 import { debug } from "debug"
 
-import { Storage } from "@plasmohq/storage"
-
 let devMode = false
 
 devMode = process.env.NODE_ENV === "development" || !("update_url" in chrome.runtime.getManifest())
+
+// Enable debug mode for all mbfc namespaces BEFORE any loggers are created
+if (devMode) {
+  debug.enable("mbfc:*")
+}
 
 export const isDevMode = (): boolean => {
   return devMode
 }
 
 export const logger = (namespace: string) => {
-  const log = debug(namespace)
-  if (devMode) {
-    debug.enable("mbfc:*")
-  }
-  return log
+  return debug(namespace)
 }
 
+// Log that debug mode is enabled (after exports so loggers can be created)
 if (devMode) {
-  const storage = new Storage()
   const log = logger("mbfc:logger")
-  storage
-    .set("debug", "mbfc:*")
-    .then(() => log(`Setting debug mode`))
-    .catch((err) => console.error(err))
+  log("Debug mode enabled for mbfc:*")
 }
