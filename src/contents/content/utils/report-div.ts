@@ -249,14 +249,13 @@ export class NewsAnnotation {
           <div className="${rowClass} mbfc-common-row">
             <div className="mbfc-bias-start-${biasStart}"></div>
             <div className="${textClass} mbfc-gradient-text">${tweak(biasText)}</div>
-            <div className="mbfc-bias-end-${biasEnd}">
-              <div
-                class="mbfc-dropdown-toggle"
-                data-attached="false"
-                data-count="${this.count}"
-                data-domain="${this.site.domain}"
-                style="cursor: pointer;">${icon(faAngleDoubleDown)}</div>
-            </div>
+            <div className="mbfc-bias-end-${biasEnd}"></div>
+            <div
+              class="mbfc-dropdown-toggle"
+              data-attached="false"
+              data-count="${this.count}"
+              data-domain="${this.site.domain}"
+              style="cursor: pointer; flex-shrink: 0;">${icon(faAngleDoubleDown)}</div>
           </div>
         </div>
         <div id="mbfc-story-expanded-${this.count}" style="display: none">
