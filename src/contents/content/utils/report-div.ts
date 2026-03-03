@@ -49,8 +49,8 @@ export class NewsAnnotation {
         cursor: pointer;
         height: 10px;
         width: 10px;
-        float: right;
-        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
       }
       .mbfc-fa-icon {
         font-family: FontAwesome, Arial, sans-serif;
@@ -146,15 +146,19 @@ export class NewsAnnotation {
       }
       .mbfc-bias-end-20 {
         width: 80%;
+        text-align: right;
       }
       .mbfc-bias-end-40 {
         width: 60%;
+        text-align: right;
       }
       .mbfc-bias-end-60 {
         width: 40%;
+        text-align: right;
       }
       .mbfc-bias-end-80 {
         width: 20%;
+        text-align: right;
       }
       .mbfc-bias-end-100 {
         width: 0%;
