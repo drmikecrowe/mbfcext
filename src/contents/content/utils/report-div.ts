@@ -245,7 +245,7 @@ export class NewsAnnotation {
     const prompt = this.collapse ? "Show" : "Hide"
 
     return html`
-      <div className="mbfc-annotation-container">
+      <div className="mbfc-annotation-container" data-bias="${this.site.bias}" data-credibility="${this.site.credibility || ''}" data-reporting="${this.site.reporting || ''}">
         <div className="mbfc-annotation-row">
           <div
             class="mbfc-dropdown-toggle"

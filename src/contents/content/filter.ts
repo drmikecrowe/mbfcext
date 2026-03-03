@@ -1,8 +1,11 @@
 import { Result, err, ok } from "neverthrow"
 
+import { Storage } from "@plasmohq/storage"
+
 import { type CheckDomainResults } from "~background/utils"
 import type { SiteModel } from "~models"
-import { CollapseKeys, ConfigHandler, type ConfigStorage } from "~shared/config-handler"
+import { BiasEnums } from "~models"
+import { CollapseKeys, ConfigHandler, type ConfigStorage, StorageToOptions } from "~shared/config-handler"
 import { faEye, faEyeSlash } from "~shared/elements/font-awesome"
 import { isDevMode, logger } from "~shared/logger"
 
@@ -155,6 +158,164 @@ export class Filter {
       subtree: true,
       attributes: false,
       characterData: false,
+    })
+
+    // Setup watchers for collapse setting changes
+    this.setupCollapseWatchers()
+  }
+
+  /**
+   * Setup storage watchers to toggle story visibility when collapse settings change.
+   * This allows real-time updates when users change settings in the Options page.
+   */
+  setupCollapseWatchers() {
+    const storage = new Storage()
+
+    // Map of collapse keys to bias enums for finding matching stories
+    const collapseToBiasMap: Record<string, string> = {
+      [CollapseKeys.collapseLeft]: BiasEnums.Left,
+      [CollapseKeys.collapseLeftCenter]: BiasEnums.LeftCenter,
+      [CollapseKeys.collapseCenter]: BiasEnums.Center,
+      [CollapseKeys.collapseRightCenter]: BiasEnums.RightCenter,
+      [CollapseKeys.collapseRight]: BiasEnums.Right,
+      [CollapseKeys.collapseProScience]: BiasEnums.ProScience,
+      [CollapseKeys.collapseConspiracy]: BiasEnums.ConspiracyPseudoscience,
+      [CollapseKeys.collapseSatire]: BiasEnums.Satire,
+      [CollapseKeys.collapseFakeNews]: BiasEnums.FakeNews,
+    }
+
+    // Watch each collapse key for changes
+    Object.entries(collapseToBiasMap).forEach(([collapseKey, biasEnum]) => {
+      storage.watch({
+        [collapseKey]: (change: { newValue: any }) => {
+          const shouldCollapse = this.parseStorageValue(change.newValue)
+          log(`Collapse setting ${collapseKey} changed to ${shouldCollapse}, updating stories with bias ${biasEnum}`)
+          this.toggleStoriesByBias(biasEnum, shouldCollapse)
+        },
+      })
+    })
+
+    // Watch for Mixed credibility changes
+    storage.watch({
+      [CollapseKeys.collapseMixed]: (change: { newValue: any }) => {
+        const shouldCollapse = this.parseStorageValue(change.newValue)
+        log(`Collapse setting collapseMixed changed to ${shouldCollapse}, updating stories with mixed reporting`)
+        this.toggleStoriesByReporting("M", shouldCollapse)
+      },
+    })
+
+    // Watch for Sponsored changes
+    storage.watch({
+      [CollapseKeys.collapseSponsored]: (change: { newValue: any }) => {
+        const shouldCollapse = this.parseStorageValue(change.newValue)
+        log(`Collapse setting collapseSponsored changed to ${shouldCollapse}, updating sponsored stories`)
+        this.hide_sponsored = shouldCollapse
+        this.toggleSponsoredStories(shouldCollapse)
+      },
+    })
+  }
+
+  /**
+   * Parse a storage value that might be a raw boolean or JSON string.
+   */
+  private parseStorageValue(value: any): boolean {
+    if (typeof value === "boolean") return value
+    if (typeof value === "string") {
+      try {
+        return JSON.parse(value)
+      } catch {
+        return false
+      }
+    }
+    return false
+  }
+
+  /**
+   * Toggle visibility of all stories with a specific bias type.
+   */
+  private toggleStoriesByBias(biasEnum: string, shouldCollapse: boolean) {
+    // Find all story containers with this bias
+    const storyContainers = document.querySelectorAll(`.mbfc-annotation-container[data-bias="${biasEnum}"]`)
+    log(`Found ${storyContainers.length} stories with bias ${biasEnum}`)
+
+    storyContainers.forEach((container) => {
+      const parentMbfc = container.closest("mbfc")
+      if (parentMbfc) {
+        // Find the parent article element (the one with hide classes)
+        const articleElement = parentMbfc.parentElement
+        if (articleElement) {
+          // Find the hide class for this story
+          const hideClasses = Array.from(articleElement.classList).filter(c => c.startsWith("mbfcext-hide-"))
+          hideClasses.forEach(hideClass => {
+            // Toggle all elements with this hide class
+            const elementsToToggle = document.querySelectorAll(`.${hideClass}`)
+            elementsToToggle.forEach((el) => {
+              if (shouldCollapse) {
+                this.hideElement(el as HTMLElement)
+              } else {
+                this.showElement(el as HTMLElement)
+              }
+            })
+          })
+
+          // Also toggle the report_holder (the div between mbfc elements)
+          const reportHolder = parentMbfc.nextElementSibling as HTMLElement
+          if (reportHolder && reportHolder.tagName !== "MBFC") {
+            if (shouldCollapse) {
+              this.hideElement(reportHolder)
+            } else {
+              this.showElement(reportHolder)
+            }
+          }
+        }
+      }
+
+      // Update the hide/show control button
+      const hideCtrl = container.querySelector(".mbfc-hide-ctrl") as HTMLElement
+      if (hideCtrl) {
+        const isCurrentlyHidden = hideCtrl.getAttribute("data-hidden") === "true"
+        if (isCurrentlyHidden !== shouldCollapse) {
+          hideCtrl.setAttribute("data-hidden", shouldCollapse ? "true" : "false")
+          const spanEl = hideCtrl.querySelector("span")
+          if (spanEl) {
+            spanEl.textContent = shouldCollapse ? "Show Anyway" : "Hide"
+          }
+        }
+      }
+    })
+  }
+
+  /**
+   * Toggle visibility of stories with Mixed factual reporting.
+   */
+  private toggleStoriesByReporting(reporting: string, shouldCollapse: boolean) {
+    const storyContainers = document.querySelectorAll(`.mbfc-annotation-container[data-reporting="${reporting}"]`)
+    log(`Found ${storyContainers.length} stories with reporting ${reporting}`)
+
+    storyContainers.forEach((container) => {
+      const bias = container.getAttribute("data-bias")
+      if (bias) {
+        // Use the bias-based toggle which handles the full logic
+        this.toggleStoriesByBias(bias, shouldCollapse)
+      }
+    })
+  }
+
+  /**
+   * Toggle visibility of sponsored stories.
+   */
+  private toggleSponsoredStories(shouldCollapse: boolean) {
+    // Sponsored stories don't have a bias, they're marked differently
+    // Find all elements with sponsored-related classes
+    const sponsoredElements = document.querySelectorAll("[data-sponsored]")
+    log(`Found ${sponsoredElements.length} sponsored elements`)
+
+    sponsoredElements.forEach((el) => {
+      if (shouldCollapse) {
+        this.hideElement(el as HTMLElement)
+      } else {
+        this.showElement(el as HTMLElement)
+      }
     })
   }
 
