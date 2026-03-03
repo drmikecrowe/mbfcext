@@ -251,7 +251,7 @@ export class NewsAnnotation {
             data-attached="false"
             data-count="${this.count}"
             data-domain="${this.site.domain}"
-            style="cursor: pointer; float: right;">${icon(faAngleDoubleDown)}</div>
+            style="cursor: pointer; float: right; margin-top: -7px;">${icon(faAngleDoubleDown)}</div>
           <div className="${rowClass} mbfc-common-row">
             <div className="mbfc-bias-start-${biasStart}"></div>
             <div className="${textClass} mbfc-gradient-text">${tweak(biasText)}</div>
