@@ -51,6 +51,7 @@ export class NewsAnnotation {
         width: 10px;
         display: inline-block;
         vertical-align: middle;
+        transform: translateY(-7px);
       }
       .mbfc-fa-icon {
         font-family: FontAwesome, Arial, sans-serif;
@@ -251,7 +252,7 @@ export class NewsAnnotation {
             data-attached="false"
             data-count="${this.count}"
             data-domain="${this.site.domain}"
-            style="cursor: pointer; float: right; transform: translateY(-7px);">${icon(faAngleDoubleDown)}</div>
+            style="cursor: pointer; float: right;">${icon(faAngleDoubleDown)}</div>
           <div className="${rowClass} mbfc-common-row">
             <div className="mbfc-bias-start-${biasStart}"></div>
             <div className="${textClass} mbfc-gradient-text">${tweak(biasText)}</div>
