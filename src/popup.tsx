@@ -37,7 +37,7 @@ function renderRated(container: HTMLElement, bias: string, biasDescription: stri
   p.textContent = biasDescription
 
   const a = document.createElement("a")
-  a.className = "pt-2"
+  a.className = "pt-2 inline-flex items-center"
   a.href = mbfcLink
   a.rel = "noreferrer"
   a.target = "_blank"
@@ -63,7 +63,7 @@ function renderUnrated(container: HTMLElement): void {
   p.textContent = "Feel free to view the full list of site rating and bias analysis at the"
 
   const a = document.createElement("a")
-  a.className = "pt-2"
+  a.className = "pt-2 inline-flex items-center"
   a.href = "https://mediabiasfactcheck.com"
   a.rel = "noreferrer"
   a.target = "_blank"
