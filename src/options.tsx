@@ -110,6 +110,12 @@ function IndexOptions() {
           // Show the correct content
           showTabContent(tab.id)
 
+          // Render content if not already rendered (container is empty)
+          const container = document.getElementById(tab.id)
+          if (container && container.children.length === 0) {
+            await tab.render(tab.id)
+          }
+
           log(`Current tab updated to ${tab.id}`)
         })
 

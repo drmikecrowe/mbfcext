@@ -127,7 +127,21 @@ function createCheckbox(config: CheckboxConfig, storage: Storage): HTMLDivElemen
 
   // Load initial value from storage
   storage.get(config.inputName).then((value) => {
-    checkbox.checked = value ?? config.default
+    // Handle both raw booleans and JSON-stringified values
+    if (value === undefined || value === null) {
+      checkbox.checked = config.default
+    } else if (typeof value === "boolean") {
+      checkbox.checked = value
+    } else if (typeof value === "string") {
+      // Handle JSON-stringified values from persist()
+      try {
+        checkbox.checked = JSON.parse(value)
+      } catch {
+        checkbox.checked = config.default
+      }
+    } else {
+      checkbox.checked = config.default
+    }
   })
 
   // Handle changes
