@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-04-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "proamericanews.com": {
+        "name": "Pro-America News",
+        "changes": [
+          "questionable: added ['conspiracy', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
