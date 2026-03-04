@@ -127,20 +127,27 @@ function createCheckbox(config: CheckboxConfig, storage: Storage): HTMLDivElemen
 
   // Load initial value from storage
   storage.get(config.inputName).then((value) => {
+    log(`Loading ${config.inputName}: raw value =`, value, `type = ${typeof value}, default = ${config.default}`)
     // Handle both raw booleans and JSON-stringified values
     if (value === undefined || value === null) {
       checkbox.checked = config.default
+      log(`No value in storage, using default: ${config.default}`)
     } else if (typeof value === "boolean") {
       checkbox.checked = value
+      log(`Using boolean value: ${value}`)
     } else if (typeof value === "string") {
       // Handle JSON-stringified values from persist()
       try {
-        checkbox.checked = JSON.parse(value)
+        const parsed = JSON.parse(value)
+        checkbox.checked = parsed
+        log(`Parsed string value: ${parsed}`)
       } catch {
         checkbox.checked = config.default
+        log(`Failed to parse string, using default: ${config.default}`)
       }
     } else {
       checkbox.checked = config.default
+      log(`Unknown type, using default: ${config.default}`)
     }
   })
 
@@ -149,6 +156,9 @@ function createCheckbox(config: CheckboxConfig, storage: Storage): HTMLDivElemen
     const checked = checkbox.checked
     log(`Updating ${config.inputName} to ${checked}`)
     await storage.set(config.inputName, checked)
+    // Verify it was stored
+    const stored = await storage.get(config.inputName)
+    log(`Verified ${config.inputName} stored as: ${stored} (type: ${typeof stored})`)
   })
 
   // Create label text without innerHTML
