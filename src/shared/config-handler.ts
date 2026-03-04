@@ -123,16 +123,25 @@ function parseStorageValue(value: any): any {
 export class ConfigHandler {
   private static instance: ConfigHandler
 
-  retrievingPromise: Promise<ConfigStorage>
+  private retrievingPromise: Promise<ConfigStorage>
   config: ConfigStorage = configDefaults
   loaded = false
-  loading = false
+  private loading = false
 
   static getInstance() {
     if (!ConfigHandler.instance) {
       ConfigHandler.instance = new ConfigHandler()
     }
     return ConfigHandler.instance
+  }
+
+  async retrieve(): Promise<ConfigStorage> {
+    if (this.loaded) return this.config
+    if (!this.loading) {
+      this.loading = true
+      this.retrievingPromise = this.loadStorage()
+    }
+    return this.retrievingPromise
   }
 
   async persist(): Promise<ConfigStorage> {
@@ -143,15 +152,6 @@ export class ConfigHandler {
       await storage.set(k, JSON.stringify(v))
     }
     return this.config
-  }
-
-  async retrieve(): Promise<ConfigStorage> {
-    if (this.loaded) return this.config
-    if (!this.loading) {
-      this.loading = true
-      this.retrievingPromise = this.loadStorage()
-    }
-    return this.retrievingPromise
   }
 
   async getStorageRecord(key: string, dflt: any): Promise<any> {
@@ -176,11 +176,12 @@ export class ConfigHandler {
 
   async loadStorage(): Promise<ConfigStorage> {
     const storage = new Storage()
-    const col: Collapse = configDefaults.collapse
+    // Create a COPY of defaults, not a reference
+    const col: Collapse = { ...configDefaults.collapse }
     for (const key of Object.keys(col)) {
       const rawValue = await storage.get(key)
       col[key] = parseStorageValue(rawValue) ?? configDefaults.collapse[key]
-      log(`Listening for changes in ${key}`)
+      log(`Collapse key ${key} = ${col[key]}`)
       storage.watch({
         [key]: (s: any) => {
           this.config.collapse[key] = parseStorageValue(s.newValue)
@@ -200,15 +201,8 @@ export class ConfigHandler {
       pollMinutes: await this.getStorageRecord("pollMinutes", configDefaults.pollMinutes),
     }
     this.config = c
-    Object.keys(c).forEach((key) => {
-      log(`Listening for changes in ${key}`)
-      storage.watch({
-        [key]: (s: any) => {
-          this.config[key] = parseStorageValue(s.newValue)
-          log(`Key ${key} changed, updating to `, this.config[key])
-        },
-      })
-    })
+    this.loaded = true
+    this.loading = false
     log(`Config loaded`, c)
     return c
   }

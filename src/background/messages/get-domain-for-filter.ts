@@ -27,7 +27,10 @@ const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, Get
   log("Received request", GET_DOMAIN_FOR_FILTER, req.body)
   const { possible_domain, fb_path, possible_name } = req.body
   const sp = SourcesProcessor.getInstance()
-  const config = ConfigHandler.getInstance().config
+  // Wait for config to be loaded before using it
+  const ch = ConfigHandler.getInstance()
+  await ch.retrieve()
+  const config = ch.config
   const response: GetDomainForFilterResponseBody = { site: null }
 
   let cdr: Result<CheckDomainResults, null>
