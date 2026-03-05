@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-05-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "puppetstringnews.com": {
+        "name": "Puppet String News",
+        "changes": [
+          "questionable: removed ['conspiracy', 'fake-news', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
