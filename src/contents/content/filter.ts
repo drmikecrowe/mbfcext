@@ -583,31 +583,27 @@ export class Filter {
 
   processUnattachedSettings(elems: NodeListOf<Element>) {
     for (const elem of elems as HTMLElement[]) {
-      const type = elem.attributes["data-type"].value
-      switch (type) {
-        case "disable-news-search":
-          elem.addEventListener("change", async (e) => {
-            const checked = (e.target as HTMLInputElement).checked
-            const storage = new Storage()
-            await storage.set("disableNewsSearchButton", checked)
-            log(`Set disableNewsSearchButton to ${checked}`)
-          })
-          break
-        case "disable-annotation-bar":
-          elem.addEventListener("change", async (e) => {
-            const checked = (e.target as HTMLInputElement).checked
-            const storage = new Storage()
-            await storage.set("disableAnnotationBar", checked)
-            log(`Set disableAnnotationBar to ${checked}`)
+      const type = elem.attributes["data-type"]?.value
+      const setting = elem.attributes["data-setting"]?.value
+
+      if (setting) {
+        // Handle checkbox settings with data-setting attribute
+        elem.addEventListener("change", async (e) => {
+          const checked = (e.target as HTMLInputElement).checked
+          const storage = new Storage()
+          await storage.set(setting, checked)
+          log(`Set ${setting} to ${checked}`)
+          // Show refresh message for annotation bar setting
+          if (setting === "disableAnnotationBar") {
             alert("Please refresh the page for this change to take effect.")
-          })
-          break
-        case "open-options":
-          elem.addEventListener("click", (e) => {
-            e.preventDefault()
-            chrome.runtime.openOptionsPage()
-          })
-          break
+          }
+        })
+      } else if (type === "open-options") {
+        // Handle options link
+        elem.addEventListener("click", (e) => {
+          e.preventDefault()
+          chrome.runtime.openOptionsPage()
+        })
       }
       elem.attributes.removeNamedItem("data-attached")
     }
