@@ -39,6 +39,23 @@ const chromeMock = {
 
 // Assign to global
 ;(globalThis as any).chrome = chromeMock
+// Also assign browser global for webextension-polyfill compatibility
+;(globalThis as any).browser = chromeMock
 
 // Mock process.env for tests
 vi.stubEnv("NODE_ENV", "test")
+
+// Mock webextension-polyfill to prevent browser extension check
+vi.mock("webextension-polyfill", () => ({
+  default: chromeMock,
+}))
+
+// Mock @plasmohq/storage to avoid browser extension dependencies
+vi.mock("@plasmohq/storage", () => ({
+  Storage: vi.fn().mockImplementation(() => ({
+    get: vi.fn().mockResolvedValue(undefined),
+    set: vi.fn().mockResolvedValue(undefined),
+    remove: vi.fn().mockResolvedValue(undefined),
+    watch: vi.fn(),
+  })),
+}))
