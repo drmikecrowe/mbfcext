@@ -286,8 +286,16 @@ export class Filter {
    */
   private toggleStoriesByBias(biasEnum: string, shouldCollapse: boolean) {
     // Find all story containers with this bias
-    const storyContainers = document.querySelectorAll(`.mbfc-annotation-container[data-bias="${biasEnum}"]`)
-    log(`Found ${storyContainers.length} stories with bias ${biasEnum}`)
+    const selector = `.mbfc-annotation-container[data-bias="${biasEnum}"]`
+    const storyContainers = document.querySelectorAll(selector)
+    log(`toggleStoriesByBias: looking for "${selector}", found ${storyContainers.length} stories, shouldCollapse=${shouldCollapse}`)
+
+    // Debug: log all mbfc-annotation-container elements and their data-bias values
+    const allContainers = document.querySelectorAll('.mbfc-annotation-container')
+    log(`Total .mbfc-annotation-container elements: ${allContainers.length}`)
+    allContainers.forEach((c, i) => {
+      log(`  Container ${i}: data-bias="${c.getAttribute('data-bias')}"`)
+    })
 
     storyContainers.forEach((container) => {
       const parentMbfc = container.closest("mbfc")
@@ -607,10 +615,12 @@ export class Filter {
         }
         elem.removeAttribute("data-checked")
       } else if (tagName === "a" && type === "open-options") {
-        // Handle options link
+        // Handle options link - open in new tab
         elem.addEventListener("click", (e) => {
           e.preventDefault()
-          chrome.runtime.openOptionsPage()
+          // openOptionsPage not available in content scripts, open URL directly
+          const optionsUrl = chrome.runtime.getURL("options.html")
+          window.open(optionsUrl, "_blank")
         })
       }
       elem.removeAttribute("data-attached")

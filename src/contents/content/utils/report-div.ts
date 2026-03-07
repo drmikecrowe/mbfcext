@@ -263,6 +263,9 @@ export class NewsAnnotation {
   render() {
     NewsAnnotation.load_styles()
 
+    // Debug: log the bias value being used
+    console.log(`[mbfc] NewsAnnotation.render: site.bias="${this.site.bias}", domain="${this.site.domain}"`)
+
     let reportingDiv = ``
     let credibilityDiv = ``
     let trafficDiv = ``
@@ -301,7 +304,7 @@ export class NewsAnnotation {
     // Get current settings for inline config
     const config = ConfigHandler.getInstance().config
 
-    return html`
+    const result = html`
       <div className="mbfc-annotation-container" data-bias="${this.site.bias}" data-credibility="${this.site.credibility || ''}" data-reporting="${this.site.reporting || ''}">
         <div className="mbfc-annotation-row">
           <div
@@ -428,6 +431,10 @@ export class NewsAnnotation {
           </div>
         </div>
       </div>
-    `
+    ` as unknown as string
+    // Debug: check if data-bias is in the generated HTML
+    const hasDataBias = result.includes('data-bias=')
+    console.log(`[mbfc] NewsAnnotation.render: generated HTML has data-bias: ${hasDataBias}, bias value: "${this.site.bias}"`)
+    return result
   }
 }
