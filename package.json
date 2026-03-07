@@ -1,7 +1,7 @@
 {
   "name": "media-bias-fact-check",
   "displayName": "Media Bias Fact Check",
-  "description": "Show Media Bias / Fact Check ratings for Facebook, Twitter and news websites as you browse",
+  "description": "Show Media Bias / Fact Check ratings for Facebook and news websites as you browse",
   "version": "4.1.0",
   "author": "Mike Crowe <drmikecrowe@gmail.com>",
   "browserslist": [
@@ -97,9 +97,7 @@
     ],
     "host_permissions": [
       "*://facebook.com/*",
-      "*://*.facebook.com/*",
-      "*://twitter.com/*",
-      "*://*.twitter.com/*"
+      "*://*.facebook.com/*"
     ],
     "permissions": [
       "alarms",
