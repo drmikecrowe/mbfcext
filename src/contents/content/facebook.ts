@@ -208,10 +208,10 @@ export class Facebook extends Filter {
       margin-left: 8px;
       padding: 2px 6px;
       font-size: 11px;
-      color: #333;
+      color: #1a1a1a;
       cursor: pointer;
       border-radius: 4px;
-      background: linear-gradient(to right, rgba(0, 0, 255, 0.15), rgba(255, 255, 255, 0.15), rgba(255, 0, 0, 0.15));
+      background: linear-gradient(to right, rgba(100, 100, 255, 0.35), rgba(255, 255, 255, 0.75), rgba(255, 100, 100, 0.35));
       transition: opacity 0.2s;
     `
     const span = document.createElement("span")
@@ -256,8 +256,9 @@ export class Facebook extends Filter {
     const possible_page = this.findPossibleFbPage(parent)
     const possible_name = this.findPossibleName(parent)
 
-    // Add News Search button for any post (independent of MBFC lookup), unless disabled
-    if (!ConfigHandler.getInstance().config.disableNewsSearchButton) {
+    // Add News Search button only when there's an actual news link (domain detected), unless disabled
+    const domainInfo = this.findDomainSpan(parent)
+    if (domainInfo && !ConfigHandler.getInstance().config.disableNewsSearchButton) {
       this.addNewsSearchButton(parent, possible_name)
     }
 
