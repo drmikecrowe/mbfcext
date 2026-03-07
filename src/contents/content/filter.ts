@@ -104,6 +104,13 @@ export class Filter {
     log(`MutationObserver started`)
 
     let debounceTimer: ReturnType<typeof setTimeout> | null = null
+    let idleCallbackId: number | null = null
+    let mutationCount = 0
+    let lastMutationTime = Date.now()
+
+    const DEBOUNCE_MS = 300 // Increased from 150ms to batch more mutations
+    const IDLE_TIMEOUT_MS = 1000 // Increased from 200ms to allow more idle time
+    const RAPID_MUTATION_THRESHOLD = 50 // If we see this many mutations in DEBOUNCE_MS, extend wait
 
     const processMutations = () => {
       try {
@@ -140,17 +147,57 @@ export class Filter {
       }
     }
 
-    const observer = new MutationObserver(() => {
+    const scheduleProcessing = () => {
+      const now = Date.now()
+      const timeSinceLastMutation = now - lastMutationTime
+
+      // If mutations are coming in rapidly, extend the debounce period
+      // This prevents processing during heavy page load
+      const debounceTime = mutationCount > RAPID_MUTATION_THRESHOLD ? DEBOUNCE_MS * 2 : DEBOUNCE_MS
+
+      // Reset mutation count if enough time has passed
+      if (timeSinceLastMutation > debounceTime) {
+        mutationCount = 0
+      }
+
       if (debounceTimer) {
         clearTimeout(debounceTimer)
       }
+
+      // Cancel any pending idle callback
+      if (idleCallbackId !== null && 'cancelIdleCallback' in window) {
+        window.cancelIdleCallback(idleCallbackId)
+        idleCallbackId = null
+      }
+
       debounceTimer = setTimeout(() => {
+        debounceTimer = null
+
+        // Use requestIdleCallback for non-urgent processing
         if ('requestIdleCallback' in window) {
-          requestIdleCallback(processMutations, { timeout: 200 })
+          idleCallbackId = window.requestIdleCallback(
+            (deadline) => {
+              idleCallbackId = null
+              // Only process if we have enough time or if deadline has passed
+              if (deadline.timeRemaining() > 0 || deadline.didTimeout) {
+                processMutations()
+              } else {
+                // Reschedule if we don't have enough idle time
+                scheduleProcessing()
+              }
+            },
+            { timeout: IDLE_TIMEOUT_MS }
+          )
         } else {
           processMutations()
         }
-      }, 150)
+      }, debounceTime)
+    }
+
+    const observer = new MutationObserver(() => {
+      lastMutationTime = Date.now()
+      mutationCount++
+      scheduleProcessing()
     })
 
     observer.observe(document, {
