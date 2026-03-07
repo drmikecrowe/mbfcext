@@ -190,6 +190,22 @@ export class ConfigHandler {
         },
       })
     }
+
+    // Load privacy settings and set up watchers for them
+    const privacyKeys = ["mbfcBlockAnalytics", "disableNewsSearchButton", "disableAnnotationBar"] as const
+    const privacyValues: Record<string, boolean> = {}
+    for (const key of privacyKeys) {
+      const rawValue = await storage.get(key)
+      privacyValues[key] = parseStorageValue(rawValue) ?? configDefaults[key]
+      log(`Privacy key ${key} = ${privacyValues[key]}`)
+      storage.watch({
+        [key]: (s: any) => {
+          (this.config as any)[key] = parseStorageValue(s.newValue)
+          log(`Privacy Key ${key} changed, updating to `, (this.config as any)[key])
+        },
+      })
+    }
+
     const c: ConfigStorage = {
       collapse: col,
       hiddenSites: await this.getStorageRecord("hiddenSites", configDefaults.hiddenSites),
@@ -197,9 +213,9 @@ export class ConfigHandler {
       lastRun: await this.getStorageRecord("lastRun", configDefaults.lastRun),
       firstrun: await this.getStorageRecord("firstrun", configDefaults.firstrun),
       loaded: await this.getStorageRecord("loaded", configDefaults.loaded),
-      mbfcBlockAnalytics: await this.getStorageRecord("mbfcBlockAnalytics", configDefaults.mbfcBlockAnalytics),
-      disableNewsSearchButton: await this.getStorageRecord("disableNewsSearchButton", configDefaults.disableNewsSearchButton),
-      disableAnnotationBar: await this.getStorageRecord("disableAnnotationBar", configDefaults.disableAnnotationBar),
+      mbfcBlockAnalytics: privacyValues.mbfcBlockAnalytics,
+      disableNewsSearchButton: privacyValues.disableNewsSearchButton,
+      disableAnnotationBar: privacyValues.disableAnnotationBar,
       pollMinutes: await this.getStorageRecord("pollMinutes", configDefaults.pollMinutes),
     }
     this.config = c

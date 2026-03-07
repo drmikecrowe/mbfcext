@@ -1,6 +1,8 @@
 import htm from "htm"
 import vhtml from "vhtml"
 
+import { Storage } from "@plasmohq/storage"
+
 import { BiasEnums, CredibilityEnums, type SiteModel, TrafficEnums } from "~models/combined-manager"
 import { cap } from "~shared/cap"
 import { faAngleDoubleDown, faCog } from "~shared/elements/font-awesome"
@@ -293,10 +295,8 @@ export class NewsAnnotation {
     nsCheckbox.checked = config.disableNewsSearchButton
     nsCheckbox.addEventListener("change", async (e) => {
       const checked = (e.target as HTMLInputElement).checked
-      const storage = chrome.storage?.local ?? chrome.storage?.sync
-      if (storage) {
-        await storage.set({ disableNewsSearchButton: checked })
-      }
+      const storage = new Storage()
+      await storage.set("disableNewsSearchButton", checked)
     })
     nsLabel.appendChild(nsCheckbox)
     nsLabel.appendChild(document.createTextNode("Disable News Search button"))
@@ -309,12 +309,10 @@ export class NewsAnnotation {
     abCheckbox.checked = config.disableAnnotationBar
     abCheckbox.addEventListener("change", async (e) => {
       const checked = (e.target as HTMLInputElement).checked
-      const storage = chrome.storage?.local ?? chrome.storage?.sync
-      if (storage) {
-        await storage.set({ disableAnnotationBar: checked })
-        // Show message that refresh is needed
-        alert("Please refresh the page for this change to take effect.")
-      }
+      const storage = new Storage()
+      await storage.set("disableAnnotationBar", checked)
+      // Show message that refresh is needed
+      alert("Please refresh the page for this change to take effect.")
     })
     abLabel.appendChild(abCheckbox)
     abLabel.appendChild(document.createTextNode("Disable Annotation Bar"))
