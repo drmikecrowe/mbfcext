@@ -310,8 +310,8 @@ export class Filter {
           // Debug: log all classes on storyParent
           log(`storyParent classes:`, Array.from(storyParent.classList).join(", "))
 
-          // Find the story class to get the story number
-          const storyClass = Array.from(storyParent.classList).find(c => c.startsWith("mbfc-story-"))
+          // Find the story class to get the story number (must end with a number, e.g., mbfc-story-2)
+          const storyClass = Array.from(storyParent.classList).find(c => /^mbfc-story-\d+$/.test(c))
           log(`Found storyClass:`, storyClass)
 
           if (storyClass) {
