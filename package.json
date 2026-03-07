@@ -28,7 +28,7 @@
     "@analytics-debugger/ga4mp": "^0.0.8",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@fortawesome/react-fontawesome": "^0.2.6",
+    "@fortawesome/react-fontawesome": "^3.0.0",
     "@plasmohq/messaging": "^0.7.2",
     "@plasmohq/storage": "^1.15.0",
     "@types/webextension-polyfill": "^0.12.5",
