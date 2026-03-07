@@ -289,11 +289,10 @@ export class Facebook extends Filter {
 
     const sections: HTMLElement[] = [story.title_element, story.report_element]
 
-    const dr = this.findDomainSpan(parent)
-    if (dr) {
-      story.domain_element = dr.html
-      story.possible_domain = dr.domain
-      sections.push(dr.html)
+    if (domainInfo) {
+      story.domain_element = domainInfo.html
+      story.possible_domain = domainInfo.domain
+      sections.push(domainInfo.html)
     }
     const e3 = this.findParent(sections)
     if (!e3) {
