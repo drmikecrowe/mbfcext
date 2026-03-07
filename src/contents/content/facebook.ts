@@ -256,11 +256,7 @@ export class Facebook extends Filter {
     const possible_page = this.findPossibleFbPage(parent)
     const possible_name = this.findPossibleName(parent)
 
-    // Add News Search button only when there's an actual news link (domain detected), unless disabled
     const domainInfo = this.findDomainSpan(parent)
-    if (domainInfo && !ConfigHandler.getInstance().config.disableNewsSearchButton) {
-      this.addNewsSearchButton(parent, possible_name)
-    }
 
     const story: Story = {
       title_element: this.findTitleElement(parent),
@@ -383,6 +379,11 @@ export class Facebook extends Filter {
       }
 
       story.domain = res.domain
+
+      // Add News Search button only when domain is matched in MBFC database (gradient shown)
+      if (!ConfigHandler.getInstance().config.disableNewsSearchButton) {
+        this.addNewsSearchButton(parent, possible_name)
+      }
 
       // Track successful match method
       if (matchMethod) {
