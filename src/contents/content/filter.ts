@@ -135,6 +135,10 @@ export class Filter {
         if (unattachedHideCtrls.length > 0) {
           this.processUnattachedHideCtrls(unattachedHideCtrls)
         }
+        const unattachedSettings = document.querySelectorAll('.mbfc-inline-settings [data-attached="false"]')
+        if (unattachedSettings.length > 0) {
+          this.processUnattachedSettings(unattachedSettings)
+        }
         if (all_nodes.length === 0) return
         const added = all_nodes.length
         this.process(all_nodes)
@@ -574,6 +578,38 @@ export class Filter {
       }, false)
       log(`Added hide control event listener for ${hideClass}`)
       hideCtrl.attributes.removeNamedItem("data-attached")
+    }
+  }
+
+  processUnattachedSettings(elems: NodeListOf<Element>) {
+    for (const elem of elems as HTMLElement[]) {
+      const type = elem.attributes["data-type"].value
+      switch (type) {
+        case "disable-news-search":
+          elem.addEventListener("change", async (e) => {
+            const checked = (e.target as HTMLInputElement).checked
+            const storage = new Storage()
+            await storage.set("disableNewsSearchButton", checked)
+            log(`Set disableNewsSearchButton to ${checked}`)
+          })
+          break
+        case "disable-annotation-bar":
+          elem.addEventListener("change", async (e) => {
+            const checked = (e.target as HTMLInputElement).checked
+            const storage = new Storage()
+            await storage.set("disableAnnotationBar", checked)
+            log(`Set disableAnnotationBar to ${checked}`)
+            alert("Please refresh the page for this change to take effect.")
+          })
+          break
+        case "open-options":
+          elem.addEventListener("click", (e) => {
+            e.preventDefault()
+            chrome.runtime.openOptionsPage()
+          })
+          break
+      }
+      elem.attributes.removeNamedItem("data-attached")
     }
   }
 
