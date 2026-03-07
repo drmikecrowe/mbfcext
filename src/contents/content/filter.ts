@@ -300,30 +300,38 @@ export class Filter {
     storyContainers.forEach((container) => {
       const parentMbfc = container.closest("mbfc")
       if (parentMbfc) {
-        // Find the parent article element (the one with hide classes)
-        const articleElement = parentMbfc.parentElement
-        if (articleElement) {
-          // Find the hide class for this story
-          const hideClasses = Array.from(articleElement.classList).filter(c => c.startsWith("mbfcext-hide-"))
-          hideClasses.forEach(hideClass => {
+        // Find the story parent element (the one with mbfc-story-N class)
+        const storyParent = parentMbfc.parentElement
+        if (storyParent) {
+          // Find the story class to get the story number
+          const storyClass = Array.from(storyParent.classList).find(c => c.startsWith("mbfc-story-"))
+          if (storyClass) {
+            const hideClass = `mbfcext-hide-${storyClass.replace("mbfc-story-", "")}`
+            log(`Found story class ${storyClass}, looking for hide class ${hideClass}`)
+
             // Toggle all elements with this hide class
             const elementsToToggle = document.querySelectorAll(`.${hideClass}`)
+            log(`Found ${elementsToToggle.length} elements with hide class ${hideClass}`)
             elementsToToggle.forEach((el) => {
               if (shouldCollapse) {
                 this.hideElement(el as HTMLElement)
+                log(`Hiding element:`, el.tagName, el.className)
               } else {
                 this.showElement(el as HTMLElement)
+                log(`Showing element:`, el.tagName, el.className)
               }
             })
-          })
+          }
 
           // Also toggle the report_holder (the div between mbfc elements)
           const reportHolder = parentMbfc.nextElementSibling as HTMLElement
           if (reportHolder && reportHolder.tagName !== "MBFC") {
             if (shouldCollapse) {
               this.hideElement(reportHolder)
+              log(`Hiding report_holder`)
             } else {
               this.showElement(reportHolder)
+              log(`Showing report_holder`)
             }
           }
         }
