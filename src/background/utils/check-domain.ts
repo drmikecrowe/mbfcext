@@ -41,10 +41,14 @@ export function checkDomain(domain: string, path: string, sources: SourceData, c
       ret.baseUrl = isBase
       // const bias: EBiasesKey = get(ret, "site.b", "")
       // const reporting: EReportingKeys = get(ret, "site.r", "")
-      if (config.collapse[StorageToOptions[ret.site.bias]]) {
+      const collapseKey = StorageToOptions[ret.site.bias]
+      log(`checkDomain: bias=${ret.site.bias}, collapseKey=${collapseKey}, collapseValue=${config.collapse[collapseKey]}`)
+      if (config.collapse[collapseKey]) {
+        log(`  -> Collapsing due to bias setting`)
         ret.collapse = true
       }
       if (ret.site.reporting === ReportingEnums.Mixed && config.collapse.collapseMixed) {
+        log(`  -> Collapsing due to mixed reporting`)
         ret.collapse = true
       }
     }
