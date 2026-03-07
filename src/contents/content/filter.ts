@@ -646,6 +646,12 @@ export class Filter {
   async inject(story: Story, embed = false) {
     if (!this.loaded) await this.loadConfig()
 
+    // Skip annotation bar injection if disabled (unless it's a sponsored story which has different handling)
+    if (this.config.disableAnnotationBar && !story.sponsored) {
+      log(`Skipping annotation bar for story ${story.count} - disabled in settings`)
+      return
+    }
+
     let hide_this_story = story.sponsored && this.hide_sponsored
 
     if (hide_this_story) {

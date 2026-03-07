@@ -45,6 +45,7 @@ export interface ConfigStorage {
   loaded: boolean
   mbfcBlockAnalytics: boolean
   disableNewsSearchButton: boolean
+  disableAnnotationBar: boolean
   pollMinutes: number
 }
 
@@ -99,6 +100,7 @@ const configDefaults: ConfigStorage = {
   loaded: false,
   mbfcBlockAnalytics: false,
   disableNewsSearchButton: false,
+  disableAnnotationBar: false,
   pollMinutes: 60,
 }
 
@@ -123,25 +125,16 @@ function parseStorageValue(value: any): any {
 export class ConfigHandler {
   private static instance: ConfigHandler
 
-  private retrievingPromise: Promise<ConfigStorage>
+  retrievingPromise: Promise<ConfigStorage>
   config: ConfigStorage = configDefaults
   loaded = false
-  private loading = false
+  loading = false
 
   static getInstance() {
     if (!ConfigHandler.instance) {
       ConfigHandler.instance = new ConfigHandler()
     }
     return ConfigHandler.instance
-  }
-
-  async retrieve(): Promise<ConfigStorage> {
-    if (this.loaded) return this.config
-    if (!this.loading) {
-      this.loading = true
-      this.retrievingPromise = this.loadStorage()
-    }
-    return this.retrievingPromise
   }
 
   async persist(): Promise<ConfigStorage> {
@@ -154,6 +147,14 @@ export class ConfigHandler {
     return this.config
   }
 
+  async retrieve(): Promise<ConfigStorage> {
+    if (this.loaded) return this.config
+    if (!this.loading) {
+      this.loading = true
+      this.retrievingPromise = this.loadStorage()
+    }
+    return this.retrievingPromise
+  }
   async getStorageRecord(key: string, dflt: any): Promise<any> {
     const storage = new Storage()
     const data = await storage.get(key)
@@ -198,6 +199,7 @@ export class ConfigHandler {
       loaded: await this.getStorageRecord("loaded", configDefaults.loaded),
       mbfcBlockAnalytics: await this.getStorageRecord("mbfcBlockAnalytics", configDefaults.mbfcBlockAnalytics),
       disableNewsSearchButton: await this.getStorageRecord("disableNewsSearchButton", configDefaults.disableNewsSearchButton),
+      disableAnnotationBar: await this.getStorageRecord("disableAnnotationBar", configDefaults.disableAnnotationBar),
       pollMinutes: await this.getStorageRecord("pollMinutes", configDefaults.pollMinutes),
     }
     this.config = c

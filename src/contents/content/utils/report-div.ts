@@ -3,7 +3,8 @@ import vhtml from "vhtml"
 
 import { BiasEnums, CredibilityEnums, type SiteModel, TrafficEnums } from "~models/combined-manager"
 import { cap } from "~shared/cap"
-import { faAngleDoubleDown } from "~shared/elements/font-awesome"
+import { faAngleDoubleDown, faCog } from "~shared/elements/font-awesome"
+import { ConfigHandler } from "~shared/config-handler"
 
 const html = htm.bind(vhtml)
 const icon = (url: string) => html([url] as ReadonlyArray<string> as TemplateStringsArray)
@@ -192,6 +193,65 @@ export class NewsAnnotation {
       .mbfc-text-buffer {
         margin-left: 10px;
       }
+
+      .mbfc-config-icon {
+        cursor: pointer;
+        opacity: 0.6;
+        transition: opacity 0.2s;
+        margin-left: 8px;
+        font-size: 12px;
+      }
+
+      .mbfc-config-icon:hover {
+        opacity: 1;
+      }
+
+      .mbfc-config-popup {
+        position: absolute;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 10000;
+        min-width: 200px;
+        font-family: system-ui, -apple-system, sans-serif;
+        font-size: 13px;
+      }
+
+      .mbfc-config-popup label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 8px;
+        cursor: pointer;
+      }
+
+      .mbfc-config-popup input[type="checkbox"] {
+        cursor: pointer;
+      }
+
+      .mbfc-config-popup a {
+        color: #0066cc;
+        text-decoration: none;
+        display: block;
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px solid #eee;
+      }
+
+      .mbfc-config-popup a:hover {
+        text-decoration: underline;
+      }
+
+      .mbfc-config-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+      }
     `
   }
 
@@ -201,6 +261,95 @@ export class NewsAnnotation {
       const style = document.createElement("style")
       style.textContent = NewsAnnotation.styles
       document.head.appendChild(style)
+    }
+  }
+
+  /**
+   * Create and show the in-content configuration popup
+   */
+  private showConfigPopup(iconElement: HTMLElement): void {
+    // Remove any existing popup
+    this.closeConfigPopup()
+
+    // Create overlay to catch clicks outside
+    const overlay = document.createElement("div")
+    overlay.className = "mbfc-config-overlay"
+    overlay.id = "mbfc-config-overlay"
+    overlay.addEventListener("click", () => this.closeConfigPopup())
+    document.body.appendChild(overlay)
+
+    // Create popup
+    const popup = document.createElement("div")
+    popup.className = "mbfc-config-popup"
+    popup.id = "mbfc-config-popup"
+
+    // Get current settings
+    const config = ConfigHandler.getInstance().config
+
+    // Create News Search toggle
+    const nsLabel = document.createElement("label")
+    const nsCheckbox = document.createElement("input")
+    nsCheckbox.type = "checkbox"
+    nsCheckbox.checked = config.disableNewsSearchButton
+    nsCheckbox.addEventListener("change", async (e) => {
+      const checked = (e.target as HTMLInputElement).checked
+      const storage = chrome.storage?.local ?? chrome.storage?.sync
+      if (storage) {
+        await storage.set({ disableNewsSearchButton: checked })
+      }
+    })
+    nsLabel.appendChild(nsCheckbox)
+    nsLabel.appendChild(document.createTextNode("Disable News Search button"))
+    popup.appendChild(nsLabel)
+
+    // Create Annotation Bar toggle
+    const abLabel = document.createElement("label")
+    const abCheckbox = document.createElement("input")
+    abCheckbox.type = "checkbox"
+    abCheckbox.checked = config.disableAnnotationBar
+    abCheckbox.addEventListener("change", async (e) => {
+      const checked = (e.target as HTMLInputElement).checked
+      const storage = chrome.storage?.local ?? chrome.storage?.sync
+      if (storage) {
+        await storage.set({ disableAnnotationBar: checked })
+        // Show message that refresh is needed
+        alert("Please refresh the page for this change to take effect.")
+      }
+    })
+    abLabel.appendChild(abCheckbox)
+    abLabel.appendChild(document.createTextNode("Disable Annotation Bar"))
+    popup.appendChild(abLabel)
+
+    // Add link to full options
+    const optionsLink = document.createElement("a")
+    optionsLink.href = "#"
+    optionsLink.textContent = "More settings..."
+    optionsLink.addEventListener("click", (e) => {
+      e.preventDefault()
+      chrome.runtime.openOptionsPage()
+      this.closeConfigPopup()
+    })
+    popup.appendChild(optionsLink)
+
+    // Position popup near the icon
+    const rect = iconElement.getBoundingClientRect()
+    popup.style.left = `${rect.left}px`
+    popup.style.top = `${rect.bottom + 5}px`
+
+    document.body.appendChild(popup)
+  }
+
+  /**
+   * Close the config popup if open
+   */
+  private closeConfigPopup(): void {
+    const existingPopup = document.getElementById("mbfc-config-popup")
+    if (existingPopup) {
+      existingPopup.remove()
+    }
+    const existingOverlay = document.getElementById("mbfc-config-overlay")
+    if (existingOverlay) {
+      existingOverlay.remove()
     }
   }
 
@@ -244,9 +393,27 @@ export class NewsAnnotation {
 
     const prompt = this.collapse ? "Show" : "Hide"
 
+    // Create a unique ID for the config icon
+    const configIconId = `mbfc-config-icon-${this.count}`
+
+    // Use setTimeout to attach event listener after render
+    setTimeout(() => {
+      const configIcon = document.getElementById(configIconId)
+      if (configIcon) {
+        configIcon.addEventListener("click", (e) => {
+          e.stopPropagation()
+          this.showConfigPopup(configIcon)
+        })
+      }
+    }, 0)
+
     return html`
       <div className="mbfc-annotation-container" data-bias="${this.site.bias}" data-credibility="${this.site.credibility || ''}" data-reporting="${this.site.reporting || ''}">
         <div className="mbfc-annotation-row">
+          <div
+            id="${configIconId}"
+            class="mbfc-config-icon"
+            title="Configure MBFC">${icon(faCog)}</div>
           <div
             class="mbfc-dropdown-toggle"
             data-attached="false"

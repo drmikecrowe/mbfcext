@@ -106,6 +106,12 @@ const privacyConfigs: CheckboxConfig[] = [
     hint: 'When enabled, hides the "News Search" button that appears next to "See more" on Facebook posts. This button searches post text on factualsearch.news.',
     default: false,
   },
+  {
+    label: "Disable Annotation Bar",
+    inputName: "disableAnnotationBar",
+    hint: "When enabled, hides the MBFC bias/fact-check annotation bars that appear on news story posts.",
+    default: false,
+  },
 ]
 
 function createCheckbox(config: CheckboxConfig, storage: Storage): HTMLDivElement {
