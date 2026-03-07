@@ -349,29 +349,29 @@ export class NewsAnnotation {
             <div class="mbfc-settings-columns">
               <div class="mbfc-settings-column">
                 <label title="Conspiracy-Pseudoscience sources may publish unverifiable information">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseConspiracy}" checked="${config.collapse[CollapseKeys.collapseConspiracy]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseConspiracy}" data-checked="${config.collapse[CollapseKeys.collapseConspiracy]}" />
                   Conspiracy
                 </label>
                 <label title="Fake News sources exhibit extreme bias or publish hoaxes">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseFakeNews}" checked="${config.collapse[CollapseKeys.collapseFakeNews]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseFakeNews}" data-checked="${config.collapse[CollapseKeys.collapseFakeNews]}" />
                   Fake News
                 </label>
                 <label title="Left Bias sources are strongly biased toward liberal causes">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseLeft}" checked="${config.collapse[CollapseKeys.collapseLeft]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseLeft}" data-checked="${config.collapse[CollapseKeys.collapseLeft]}" />
                   Left Bias
                 </label>
               </div>
               <div class="mbfc-settings-column">
                 <label title="Right Bias sources are strongly biased toward conservative causes">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseRight}" checked="${config.collapse[CollapseKeys.collapseRight]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseRight}" data-checked="${config.collapse[CollapseKeys.collapseRight]}" />
                   Right Bias
                 </label>
                 <label title="Mixed Factual Reporting sources have a track record of publishing false stories">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseMixed}" checked="${config.collapse[CollapseKeys.collapseMixed]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseMixed}" data-checked="${config.collapse[CollapseKeys.collapseMixed]}" />
                   Mixed Factual
                 </label>
                 <label title="Sponsored ads typically annoy users">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseSponsored}" checked="${config.collapse[CollapseKeys.collapseSponsored]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseSponsored}" data-checked="${config.collapse[CollapseKeys.collapseSponsored]}" />
                   Sponsored
                 </label>
               </div>
@@ -380,25 +380,25 @@ export class NewsAnnotation {
             <div class="mbfc-settings-columns">
               <div class="mbfc-settings-column">
                 <label title="Left-Center sources have slight liberal bias">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseLeftCenter}" checked="${config.collapse[CollapseKeys.collapseLeftCenter]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseLeftCenter}" data-checked="${config.collapse[CollapseKeys.collapseLeftCenter]}" />
                   Left-Center
                 </label>
                 <label title="Least Biased sources have minimal bias">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseCenter}" checked="${config.collapse[CollapseKeys.collapseCenter]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseCenter}" data-checked="${config.collapse[CollapseKeys.collapseCenter]}" />
                   Least Biased
                 </label>
                 <label title="Right-Center sources have slight conservative bias">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseRightCenter}" checked="${config.collapse[CollapseKeys.collapseRightCenter]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseRightCenter}" data-checked="${config.collapse[CollapseKeys.collapseRightCenter]}" />
                   Right-Center
                 </label>
               </div>
               <div class="mbfc-settings-column">
                 <label title="Pro-Science sources are evidence-based">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseProScience}" checked="${config.collapse[CollapseKeys.collapseProScience]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseProScience}" data-checked="${config.collapse[CollapseKeys.collapseProScience]}" />
                   Pro-Science
                 </label>
                 <label title="Satire sources use humor and irony">
-                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseSatire}" checked="${config.collapse[CollapseKeys.collapseSatire]}" />
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseSatire}" data-checked="${config.collapse[CollapseKeys.collapseSatire]}" />
                   Satire
                 </label>
               </div>
@@ -407,17 +407,17 @@ export class NewsAnnotation {
             <div class="mbfc-settings-columns">
               <div class="mbfc-settings-column">
                 <label title="Disable anonymous usage reporting">
-                  <input type="checkbox" data-attached="false" data-setting="mbfcBlockAnalytics" checked="${config.mbfcBlockAnalytics}" />
+                  <input type="checkbox" data-attached="false" data-setting="mbfcBlockAnalytics" data-checked="${config.mbfcBlockAnalytics}" />
                   Block Analytics
                 </label>
                 <label title="Disable News Search button on Facebook">
-                  <input type="checkbox" data-attached="false" data-setting="disableNewsSearchButton" checked="${config.disableNewsSearchButton}" />
+                  <input type="checkbox" data-attached="false" data-setting="disableNewsSearchButton" data-checked="${config.disableNewsSearchButton}" />
                   No News Search
                 </label>
               </div>
               <div class="mbfc-settings-column">
                 <label title="Disable the MBFC annotation bars">
-                  <input type="checkbox" data-attached="false" data-setting="disableAnnotationBar" checked="${config.disableAnnotationBar}" />
+                  <input type="checkbox" data-attached="false" data-setting="disableAnnotationBar" data-checked="${config.disableAnnotationBar}" />
                   No Annotations
                 </label>
               </div>
