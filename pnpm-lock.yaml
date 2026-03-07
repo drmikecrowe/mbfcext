@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@analytics-debugger/ga4mp':
-        specifier: ^0.0.8
+        specifier: 0.0.8
         version: 0.0.8(picomatch@4.0.3)
       '@fortawesome/fontawesome-svg-core':
         specifier: ^6.7.2
