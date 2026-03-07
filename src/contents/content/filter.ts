@@ -299,15 +299,24 @@ export class Filter {
 
     storyContainers.forEach((container) => {
       const parentMbfc = container.closest("mbfc")
+      log(`Found parentMbfc:`, parentMbfc?.tagName, parentMbfc?.className)
+
       if (parentMbfc) {
         // Find the story parent element (the one with mbfc-story-N class)
         const storyParent = parentMbfc.parentElement
+        log(`Found storyParent:`, storyParent?.tagName, storyParent?.className)
+
         if (storyParent) {
+          // Debug: log all classes on storyParent
+          log(`storyParent classes:`, Array.from(storyParent.classList).join(", "))
+
           // Find the story class to get the story number
           const storyClass = Array.from(storyParent.classList).find(c => c.startsWith("mbfc-story-"))
+          log(`Found storyClass:`, storyClass)
+
           if (storyClass) {
             const hideClass = `mbfcext-hide-${storyClass.replace("mbfc-story-", "")}`
-            log(`Found story class ${storyClass}, looking for hide class ${hideClass}`)
+            log(`Looking for hide class ${hideClass}`)
 
             // Toggle all elements with this hide class
             const elementsToToggle = document.querySelectorAll(`.${hideClass}`)
@@ -321,10 +330,13 @@ export class Filter {
                 log(`Showing element:`, el.tagName, el.className)
               }
             })
+          } else {
+            log(`ERROR: No mbfc-story-N class found on storyParent`)
           }
 
           // Also toggle the report_holder (the div between mbfc elements)
           const reportHolder = parentMbfc.nextElementSibling as HTMLElement
+          log(`reportHolder:`, reportHolder?.tagName)
           if (reportHolder && reportHolder.tagName !== "MBFC") {
             if (shouldCollapse) {
               this.hideElement(reportHolder)
