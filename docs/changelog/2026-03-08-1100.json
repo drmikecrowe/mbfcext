@@ -1,0 +1,23 @@
+{
+  "date": "2026-03-08-1100",
+  "summary": {
+    "added": 1,
+    "removed": 1,
+    "modified": 0
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "kioncentralcoast.com",
+        "name": "KION - Monterey News"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "kion546.com",
+        "name": "KION - Monterey News"
+      }
+    ],
+    "modified": {}
+  }
+}
