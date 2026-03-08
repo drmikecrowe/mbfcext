@@ -113,15 +113,25 @@ export class Facebook extends Filter {
    */
   findDomainSpan(e: HTMLElement): DomainSort | undefined {
     const metaElement = e.querySelector(`[data-ad-rendering-role="meta"]`)
-    if (!metaElement) return undefined
+    if (!metaElement) {
+      log(`No meta element found in story`)
+      return undefined
+    }
 
     const text = metaElement.textContent?.trim().toLowerCase()
-    if (!text) return undefined
+    if (!text) {
+      log(`Meta element has no text content`)
+      return undefined
+    }
 
     // The meta role contains the domain directly (e.g., "reuters.com")
     const domain = text.split(" ")[0]
-    if (!domain_re.test(domain)) return undefined
+    if (!domain_re.test(domain)) {
+      log(`Meta text "${text}" does not match domain pattern`)
+      return undefined
+    }
 
+    log(`Found domain from meta: ${domain}`)
     return {
       domain,
       count: 1,
