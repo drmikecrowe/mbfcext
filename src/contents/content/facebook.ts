@@ -145,12 +145,21 @@ export class Facebook extends Filter {
   findPossibleFbPage(e: HTMLElement): string | undefined {
     const elem = e.querySelector(`[data-ad-rendering-role="profile_name"] a[href*='facebook.com']`) as HTMLAnchorElement
     if (elem) {
-      return this.clean_path(elem)
+      const path = this.clean_path(elem)
+      // Skip generic paths that aren't unique identifiers
+      if (path === "profile.php" || path === "groups" || path === "pages") {
+        return undefined
+      }
+      return path
     }
     // Fallback to old selector
     const fallback = e.querySelector("h3 span > a[href*='https://www.facebook.com']") as HTMLAnchorElement
     if (fallback) {
-      return this.clean_path(fallback)
+      const path = this.clean_path(fallback)
+      if (path === "profile.php" || path === "groups" || path === "pages") {
+        return undefined
+      }
+      return path
     }
   }
 
@@ -329,8 +338,19 @@ export class Facebook extends Filter {
     story.report_holder = report_holder as HTMLElement
 
     if (!story.sponsored) {
+      // Get the title element path, but skip generic paths that aren't unique identifiers
+      const titlePath = this.clean_path(story.title_element)
+      const skipGenericPaths = (path: string | undefined): string | undefined => {
+        if (!path) return undefined
+        const lower = path.toLowerCase()
+        if (lower === "profile.php" || lower === "groups" || lower === "pages") {
+          return undefined
+        }
+        return path
+      }
+
       const payload: GetDomainForFilterRequestBody = {
-        fb_path: this.clean_path(story.title_element),
+        fb_path: skipGenericPaths(titlePath),
         possible_domain: story.possible_domain,
       }
       let matchMethod: string | undefined
