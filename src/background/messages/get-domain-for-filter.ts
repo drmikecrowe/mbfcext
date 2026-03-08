@@ -46,16 +46,21 @@ const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, Get
     log(`Domain ${possible_domain} not found in database`)
   }
   if (fb_path) {
-    log(`Trying Facebook page lookup for ${fb_path}, exists in fb_pages: ${!!sp.sourceData?.fb_pages?.[fb_path.toLowerCase()]}`)
-    cdr = getSiteFromUrl(`https://facebook.com/${fb_path}`, sp.sourceData, config)
-    if (cdr.isOk() && cdr.value.site) {
-      log(`Found Facebook page ${fb_path}: ${cdr.value.site.name}`)
-      response.site = cdr.value.site
-      response.domain = cdr.value
-      res.send(response)
-      return
+    // Skip generic profile.php paths - they are not unique identifiers
+    if (fb_path.toLowerCase() === 'profile.php') {
+      log(`Skipping generic profile.php path`)
+    } else {
+      log(`Trying Facebook page lookup for ${fb_path}, exists in fb_pages: ${!!sp.sourceData?.fb_pages?.[fb_path.toLowerCase()]}`)
+      cdr = getSiteFromUrl(`https://facebook.com/${fb_path}`, sp.sourceData, config)
+      if (cdr.isOk() && cdr.value.site) {
+        log(`Found Facebook page ${fb_path}: ${cdr.value.site.name}`)
+        response.site = cdr.value.site
+        response.domain = cdr.value
+        res.send(response)
+        return
+      }
+      log(`Facebook page ${fb_path} not found`)
     }
-    log(`Facebook page ${fb_path} not found`)
   }
   if (possible_name) {
     const lowerName = possible_name.toLowerCase()
