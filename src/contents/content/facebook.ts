@@ -262,6 +262,8 @@ export class Facebook extends Filter {
 
   async buildStory(parent: HTMLElement): Promise<Result<Story, string>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
+    // Mark as processed immediately to prevent duplicate processing
+    this.addClasses(parent, [C_PROCESSED])
 
     const possible_page = this.findPossibleFbPage(parent)
     const possible_name = this.findPossibleName(parent)
