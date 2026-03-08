@@ -107,10 +107,24 @@ export class Filter {
     let idleCallbackId: number | null = null
     let mutationCount = 0
     let lastMutationTime = Date.now()
+    let lastUrl = window.location.href
 
     const DEBOUNCE_MS = 300 // Increased from 150ms to batch more mutations
     const IDLE_TIMEOUT_MS = 1000 // Increased from 200ms to allow more idle time
     const RAPID_MUTATION_THRESHOLD = 50 // If we see this many mutations in DEBOUNCE_MS, extend wait
+
+    // Listen for URL changes (SPA navigation)
+    const checkUrlChange = () => {
+      const currentUrl = window.location.href
+      if (currentUrl !== lastUrl) {
+        log(`URL changed from ${lastUrl} to ${currentUrl}`)
+        lastUrl = currentUrl
+        // Reset main_element to force re-query
+        this.main_element = null
+        // Trigger immediate processing
+        processMutations()
+      }
+    }
 
     const processMutations = () => {
       try {
