@@ -30,7 +30,11 @@ export class Facebook extends Filter {
   observer = null
 
   constructor() {
-    super(`div[role='main']`)
+    // Use body as the main selector since feed and search have different DOM structures
+    // Feed: .../div/div[4]/div
+    // Search: .../div[2]/div/div/div/div/div
+    // Both have articles with like_button and profile_name roles
+    super(`body`)
 
     log(`Class Facebook started`)
   }
