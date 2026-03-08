@@ -55,7 +55,7 @@ export class Facebook extends Filter {
   findArticleElements(e: HTMLElement): Element[] {
     if (!e || !e.querySelectorAll) return []
     const containers = new Set<Element>()
-    const likeButtons = e.querySelectorAll(`[data-ad-rendering-role="like_button"]:not(.${C_PROCESSED})`)
+    const likeButtons = e.querySelectorAll(`[data-ad-rendering-role="like_button"]`)
 
     likeButtons.forEach((likeBtn) => {
       // Walk up DOM to find ancestor containing both like_button and profile_name
