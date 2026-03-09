@@ -30,8 +30,10 @@ jobs:
         run: |
           VERSION=$(node -p "require('./package.json').version")
           TAG="v${VERSION}"
+          NOTES=$(node scripts/get-release-notes.mjs)
           gh release create "$TAG" \
             --title "Release $TAG" \
+            --notes "$NOTES" \
             --latest \
             "build/chrome-mv3-prod.zip#Chrome Extension" \
             "build/firefox-mv3-prod.zip#Firefox Extension" \
