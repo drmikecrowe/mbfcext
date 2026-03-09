@@ -55,10 +55,26 @@ export function renderReleaseNotes(containerId: string): void {
 
   const sections = [
     {
+      title: "Release notes for version 4.2",
+      items: [
+        "**Facebook feed annotation restored** — Bias badges now appear correctly on news posts in your Facebook feed and search results after Facebook's recent changes",
+        "**News Search button** — Search for more information about any news article directly from the bias badge; only shown for sites in the MBFC database (can be disabled in Options)",
+        "**Settings panel in popup** — Access collapse and visibility settings directly from the extension popup without opening the Options page",
+        "**Disable annotation bar** — New toggle to hide the bias annotation bar, with a quick-access config popup available in-page",
+        "**Real-time story updates** — Collapse and hide settings now take effect immediately without requiring a page reload",
+        "**Single-page app navigation** — Extension now correctly handles Facebook's dynamic navigation between pages",
+        "**Dark mode improvements** — Show Anyway button and News Search button now display correctly in dark mode",
+        "**Settings reliability** — Fixed settings not persisting across page loads and checkboxes not reflecting actual saved state",
+        "**Reduced page jank** — Significantly less layout shifting during initial Facebook page load",
+        "**Network resilience** — Automatic retry logic when source data fails to download",
+        "Performance, reliability, and code quality improvements",
+      ],
+    },
+    {
       title: "Release notes for version 4.1",
       items: [
-        "**Facebook feed annotation restored** — Bias badges now appear correctly on news posts in your Facebook feed after Facebook's recent changes",
-        "**News Search button** — Search for more information about any news article directly from the bias badge (can be disabled in Options)",
+        "**Facebook feed annotation** — Initial restoration of bias badges on Facebook news posts",
+        "**News Search button** — Search for more information about any news article directly from the bias badge",
         "Performance and stability improvements",
       ],
     },
