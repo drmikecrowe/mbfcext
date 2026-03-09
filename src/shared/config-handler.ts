@@ -45,6 +45,7 @@ export interface ConfigStorage {
   loaded: boolean
   mbfcBlockAnalytics: boolean
   disableNewsSearchButton: boolean
+  disableAnnotationBar: boolean
   pollMinutes: number
 }
 
@@ -99,7 +100,26 @@ const configDefaults: ConfigStorage = {
   loaded: false,
   mbfcBlockAnalytics: false,
   disableNewsSearchButton: false,
+  disableAnnotationBar: false,
   pollMinutes: 60,
+}
+
+/**
+ * Parse a storage value that might be a raw boolean/number or a JSON string.
+ * This handles the inconsistency where options.ts stores raw values but persist() uses JSON strings.
+ */
+function parseStorageValue(value: any): any {
+  if (value === undefined || value === null) return undefined
+  if (typeof value === "boolean") return value
+  if (typeof value === "number") return value
+  if (typeof value === "string") {
+    try {
+      return JSON.parse(value)
+    } catch {
+      return value
+    }
+  }
+  return value
 }
 
 export class ConfigHandler {
@@ -135,32 +155,57 @@ export class ConfigHandler {
     }
     return this.retrievingPromise
   }
-
   async getStorageRecord(key: string, dflt: any): Promise<any> {
     const storage = new Storage()
     const data = await storage.get(key)
-    if (!data) return dflt
-    try {
-      return JSON.parse(data) as never
-    } catch (e) {
-      log(`Error parsing ${key} data: ${e}`)
-      return dflt
+    if (data === undefined || data === null) return dflt
+    // Handle raw booleans directly (stored by options.ts)
+    if (typeof data === "boolean") return data
+    // Handle numbers directly
+    if (typeof data === "number") return data
+    // Handle JSON strings
+    if (typeof data === "string") {
+      try {
+        return JSON.parse(data) as never
+      } catch (e) {
+        log(`Error parsing ${key} data: ${e}`)
+        return dflt
+      }
     }
+    return dflt
   }
 
   async loadStorage(): Promise<ConfigStorage> {
     const storage = new Storage()
-    const col: Collapse = configDefaults.collapse
+    // Create a COPY of defaults, not a reference
+    const col: Collapse = { ...configDefaults.collapse }
     for (const key of Object.keys(col)) {
-      col[key] = (await storage.get(key)) || configDefaults.collapse[key]
-      log(`Listening for changes in ${key}`)
+      const rawValue = await storage.get(key)
+      col[key] = parseStorageValue(rawValue) ?? configDefaults.collapse[key]
+      log(`Collapse key ${key} = ${col[key]}`)
       storage.watch({
         [key]: (s: any) => {
-          this.config.collapse[key] = JSON.parse(s.newValue)
+          this.config.collapse[key] = parseStorageValue(s.newValue)
           log(`Collapse Key ${key} changed, updating to `, this.config.collapse[key])
         },
       })
     }
+
+    // Load privacy settings and set up watchers for them
+    const privacyKeys = ["mbfcBlockAnalytics", "disableNewsSearchButton", "disableAnnotationBar"] as const
+    const privacyValues: Record<string, boolean> = {}
+    for (const key of privacyKeys) {
+      const rawValue = await storage.get(key)
+      privacyValues[key] = parseStorageValue(rawValue) ?? configDefaults[key]
+      log(`Privacy key ${key} = ${privacyValues[key]}`)
+      storage.watch({
+        [key]: (s: any) => {
+          (this.config as any)[key] = parseStorageValue(s.newValue)
+          log(`Privacy Key ${key} changed, updating to `, (this.config as any)[key])
+        },
+      })
+    }
+
     const c: ConfigStorage = {
       collapse: col,
       hiddenSites: await this.getStorageRecord("hiddenSites", configDefaults.hiddenSites),
@@ -168,20 +213,14 @@ export class ConfigHandler {
       lastRun: await this.getStorageRecord("lastRun", configDefaults.lastRun),
       firstrun: await this.getStorageRecord("firstrun", configDefaults.firstrun),
       loaded: await this.getStorageRecord("loaded", configDefaults.loaded),
-      mbfcBlockAnalytics: await this.getStorageRecord("mbfcBlockAnalytics", configDefaults.mbfcBlockAnalytics),
-      disableNewsSearchButton: await this.getStorageRecord("disableNewsSearchButton", configDefaults.disableNewsSearchButton),
+      mbfcBlockAnalytics: privacyValues.mbfcBlockAnalytics,
+      disableNewsSearchButton: privacyValues.disableNewsSearchButton,
+      disableAnnotationBar: privacyValues.disableAnnotationBar,
       pollMinutes: await this.getStorageRecord("pollMinutes", configDefaults.pollMinutes),
     }
     this.config = c
-    Object.keys(c).forEach((key) => {
-      log(`Listening for changes in ${key}`)
-      storage.watch({
-        [key]: (s: any) => {
-          this.config[key] = JSON.parse(s.newValue)
-          log(`Key ${key} changed, updating to `, this.config[key])
-        },
-      })
-    })
+    this.loaded = true
+    this.loading = false
     log(`Config loaded`, c)
     return c
   }

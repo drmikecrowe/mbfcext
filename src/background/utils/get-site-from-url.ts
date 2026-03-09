@@ -8,8 +8,6 @@ import { type CheckDomainResults, checkDomain } from "./check-domain"
 
 const log = logger("mbfc:background:utils:get-site-from-url")
 
-let first = true
-
 export const getSiteFromUrl = (url: string, sourceData: SourceData, config: ConfigStorage, fb_path?: string): Result<CheckDomainResults, null> => {
   try {
     if (!sourceData || !sourceData.fb_pages) {
@@ -18,10 +16,6 @@ export const getSiteFromUrl = (url: string, sourceData: SourceData, config: Conf
     }
     const { domain, path } = getDomain(url)
     log(`Checking domain ${domain}/${path}`)
-    if (first) {
-      first = false
-      log(`Source data:`, sourceData.fb_pages)
-    }
     if (domain) {
       const ldomain = domain.toLowerCase()
       const lpath = path.toLowerCase()

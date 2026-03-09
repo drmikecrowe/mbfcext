@@ -21,16 +21,21 @@ export async function getCurrentTab(): Promise<Result<browser.Tabs.Tab, null>> {
         currentWindow: true,
       }
 
-      const [tabs, wind] = await Promise.all([browser.tabs.query(queryInfo), browser.windows.getLastFocused()])
+      // Desktop path — use window focus to find the right active tab
+      const [tabs, wind] = await Promise.all([
+        browser.tabs.query({ active: true, currentWindow: true }),
+        browser.windows.getLastFocused(),
+      ])
       let t: browser.Tabs.Tab | undefined
       tabs.forEach((tab) => {
         if (tab.windowId === wind.id) t = tab
       })
       if (t) return resolve(ok(t))
       if (isDevMode() && tabs.length) return resolve(ok(tabs[0]))
-      resolve(err(null))
+      return resolve(err(null))
     })().catch((e) => {
       console.error(e)
+      resolve(err(null))
     })
   })
 }

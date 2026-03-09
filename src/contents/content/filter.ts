@@ -1,13 +1,46 @@
-import { set } from "lodash"
 import { Result, err, ok } from "neverthrow"
+
+import { Storage } from "@plasmohq/storage"
 
 import { type CheckDomainResults } from "~background/utils"
 import type { SiteModel } from "~models"
-import { CollapseKeys, ConfigHandler, type ConfigStorage } from "~shared/config-handler"
+import { BiasEnums } from "~models"
+import { CollapseKeys, ConfigHandler, type ConfigStorage, StorageToOptions } from "~shared/config-handler"
 import { faEye, faEyeSlash } from "~shared/elements/font-awesome"
 import { isDevMode, logger } from "~shared/logger"
 
 import "./utils/report-div"
+
+/**
+ * Safely insert HTML into an element using DOMParser instead of insertAdjacentHTML.
+ * This avoids Firefox's UNSAFE_VAR_ASSIGNMENT warnings while still handling SVG content.
+ */
+function safeInsertHTML(element: Element, position: InsertPosition, html: string): void {
+  const parser = new DOMParser()
+  const doc = parser.parseFromString(html, "text/html")
+  const fragment = document.createDocumentFragment()
+
+  // Collect nodes to insert (body children for HTML fragments)
+  const nodes = Array.from(doc.body.childNodes)
+  for (const node of nodes) {
+    fragment.appendChild(node.cloneNode(true))
+  }
+
+  switch (position) {
+    case "afterbegin":
+      element.insertBefore(fragment, element.firstChild)
+      break
+    case "beforeend":
+      element.appendChild(fragment)
+      break
+    case "beforebegin":
+      element.parentNode?.insertBefore(fragment, element)
+      break
+    case "afterend":
+      element.parentNode?.insertBefore(fragment, element.nextSibling)
+      break
+  }
+}
 
 import { sendToBackground } from "@plasmohq/messaging"
 
@@ -71,15 +104,32 @@ export class Filter {
     log(`MutationObserver started`)
 
     let debounceTimer: ReturnType<typeof setTimeout> | null = null
+    let idleCallbackId: number | null = null
+    let mutationCount = 0
+    let lastMutationTime = Date.now()
+    let lastUrl = window.location.href
+
+    const DEBOUNCE_MS = 300 // Increased from 150ms to batch more mutations
+    const IDLE_TIMEOUT_MS = 1000 // Increased from 200ms to allow more idle time
+    const RAPID_MUTATION_THRESHOLD = 50 // If we see this many mutations in DEBOUNCE_MS, extend wait
+
+    // Listen for URL changes (SPA navigation)
+    const checkUrlChange = () => {
+      const currentUrl = window.location.href
+      if (currentUrl !== lastUrl) {
+        log(`URL changed from ${lastUrl} to ${currentUrl}`)
+        lastUrl = currentUrl
+        // Reset main_element to force re-query
+        this.main_element = null
+        // Trigger immediate processing
+        processMutations()
+      }
+    }
 
     const processMutations = () => {
       try {
         if (!this.main_element) {
-          this.main_element = document.querySelector(this.main_selector)
-          // Fallback to document body if main selector not found (e.g., search pages)
-          if (!this.main_element) {
-            this.main_element = document.body
-          }
+          this.main_element = document.querySelector(this.main_selector) || document.body
         }
         NewsAnnotation.load_styles()
         const all_nodes: HTMLElement[] = Array.from(this.findArticleElements(this.main_element)) as HTMLElement[]
@@ -95,6 +145,10 @@ export class Filter {
         if (unattachedHideCtrls.length > 0) {
           this.processUnattachedHideCtrls(unattachedHideCtrls)
         }
+        const unattachedSettings = document.querySelectorAll('.mbfc-inline-settings [data-attached="false"]')
+        if (unattachedSettings.length > 0) {
+          this.processUnattachedSettings(unattachedSettings)
+        }
         if (all_nodes.length === 0) return
         const added = all_nodes.length
         this.process(all_nodes)
@@ -107,17 +161,57 @@ export class Filter {
       }
     }
 
-    const observer = new MutationObserver(() => {
+    const scheduleProcessing = () => {
+      const now = Date.now()
+      const timeSinceLastMutation = now - lastMutationTime
+
+      // If mutations are coming in rapidly, extend the debounce period
+      // This prevents processing during heavy page load
+      const debounceTime = mutationCount > RAPID_MUTATION_THRESHOLD ? DEBOUNCE_MS * 2 : DEBOUNCE_MS
+
+      // Reset mutation count if enough time has passed
+      if (timeSinceLastMutation > debounceTime) {
+        mutationCount = 0
+      }
+
       if (debounceTimer) {
         clearTimeout(debounceTimer)
       }
+
+      // Cancel any pending idle callback
+      if (idleCallbackId !== null && 'cancelIdleCallback' in window) {
+        window.cancelIdleCallback(idleCallbackId)
+        idleCallbackId = null
+      }
+
       debounceTimer = setTimeout(() => {
+        debounceTimer = null
+
+        // Use requestIdleCallback for non-urgent processing
         if ('requestIdleCallback' in window) {
-          requestIdleCallback(processMutations, { timeout: 200 })
+          idleCallbackId = window.requestIdleCallback(
+            (deadline) => {
+              idleCallbackId = null
+              // Only process if we have enough time or if deadline has passed
+              if (deadline.timeRemaining() > 0 || deadline.didTimeout) {
+                processMutations()
+              } else {
+                // Reschedule if we don't have enough idle time
+                scheduleProcessing()
+              }
+            },
+            { timeout: IDLE_TIMEOUT_MS }
+          )
         } else {
           processMutations()
         }
-      }, 150)
+      }, debounceTime)
+    }
+
+    const observer = new MutationObserver(() => {
+      lastMutationTime = Date.now()
+      mutationCount++
+      scheduleProcessing()
     })
 
     observer.observe(document, {
@@ -125,6 +219,192 @@ export class Filter {
       subtree: true,
       attributes: false,
       characterData: false,
+    })
+
+    // Setup watchers for collapse setting changes
+    this.setupCollapseWatchers()
+  }
+
+  /**
+   * Setup storage watchers to toggle story visibility when collapse settings change.
+   * This allows real-time updates when users change settings in the Options page.
+   */
+  setupCollapseWatchers() {
+    const storage = new Storage()
+
+    // Map of collapse keys to bias enums for finding matching stories
+    const collapseToBiasMap: Record<string, string> = {
+      [CollapseKeys.collapseLeft]: BiasEnums.Left,
+      [CollapseKeys.collapseLeftCenter]: BiasEnums.LeftCenter,
+      [CollapseKeys.collapseCenter]: BiasEnums.Center,
+      [CollapseKeys.collapseRightCenter]: BiasEnums.RightCenter,
+      [CollapseKeys.collapseRight]: BiasEnums.Right,
+      [CollapseKeys.collapseProScience]: BiasEnums.ProScience,
+      [CollapseKeys.collapseConspiracy]: BiasEnums.ConspiracyPseudoscience,
+      [CollapseKeys.collapseSatire]: BiasEnums.Satire,
+      [CollapseKeys.collapseFakeNews]: BiasEnums.FakeNews,
+    }
+
+    // Watch each collapse key for changes
+    Object.entries(collapseToBiasMap).forEach(([collapseKey, biasEnum]) => {
+      storage.watch({
+        [collapseKey]: (change: { newValue: any }) => {
+          const shouldCollapse = this.parseStorageValue(change.newValue)
+          log(`Collapse setting ${collapseKey} changed to ${shouldCollapse}, updating stories with bias ${biasEnum}`)
+          this.toggleStoriesByBias(biasEnum, shouldCollapse)
+        },
+      })
+    })
+
+    // Watch for Mixed credibility changes
+    storage.watch({
+      [CollapseKeys.collapseMixed]: (change: { newValue: any }) => {
+        const shouldCollapse = this.parseStorageValue(change.newValue)
+        log(`Collapse setting collapseMixed changed to ${shouldCollapse}, updating stories with mixed reporting`)
+        this.toggleStoriesByReporting("M", shouldCollapse)
+      },
+    })
+
+    // Watch for Sponsored changes
+    storage.watch({
+      [CollapseKeys.collapseSponsored]: (change: { newValue: any }) => {
+        const shouldCollapse = this.parseStorageValue(change.newValue)
+        log(`Collapse setting collapseSponsored changed to ${shouldCollapse}, updating sponsored stories`)
+        this.hide_sponsored = shouldCollapse
+        this.toggleSponsoredStories(shouldCollapse)
+      },
+    })
+  }
+
+  /**
+   * Parse a storage value that might be a raw boolean or JSON string.
+   */
+  private parseStorageValue(value: any): boolean {
+    if (typeof value === "boolean") return value
+    if (typeof value === "string") {
+      try {
+        return JSON.parse(value)
+      } catch {
+        return false
+      }
+    }
+    return false
+  }
+
+  /**
+   * Toggle visibility of all stories with a specific bias type.
+   */
+  private toggleStoriesByBias(biasEnum: string, shouldCollapse: boolean) {
+    // Find all story containers with this bias
+    const selector = `.mbfc-annotation-container[data-bias="${biasEnum}"]`
+    const storyContainers = document.querySelectorAll(selector)
+    log(`toggleStoriesByBias: looking for "${selector}", found ${storyContainers.length} stories, shouldCollapse=${shouldCollapse}`)
+
+    // Debug: log all mbfc-annotation-container elements and their data-bias values
+    const allContainers = document.querySelectorAll('.mbfc-annotation-container')
+    log(`Total .mbfc-annotation-container elements: ${allContainers.length}`)
+    allContainers.forEach((c, i) => {
+      log(`  Container ${i}: data-bias="${c.getAttribute('data-bias')}"`)
+    })
+
+    storyContainers.forEach((container) => {
+      const parentMbfc = container.closest("mbfc")
+      log(`Found parentMbfc:`, parentMbfc?.tagName, parentMbfc?.className)
+
+      if (parentMbfc) {
+        // Find the story parent element (the one with mbfc-story-N class)
+        const storyParent = parentMbfc.parentElement
+        log(`Found storyParent:`, storyParent?.tagName, storyParent?.className)
+
+        if (storyParent) {
+          // Debug: log all classes on storyParent
+          log(`storyParent classes:`, Array.from(storyParent.classList).join(", "))
+
+          // Find the story class to get the story number (must end with a number, e.g., mbfc-story-2)
+          const storyClass = Array.from(storyParent.classList).find(c => /^mbfc-story-\d+$/.test(c))
+          log(`Found storyClass:`, storyClass)
+
+          if (storyClass) {
+            const hideClass = `mbfcext-hide-${storyClass.replace("mbfc-story-", "")}`
+            log(`Looking for hide class ${hideClass}`)
+
+            // Toggle all elements with this hide class
+            const elementsToToggle = document.querySelectorAll(`.${hideClass}`)
+            log(`Found ${elementsToToggle.length} elements with hide class ${hideClass}`)
+            elementsToToggle.forEach((el) => {
+              if (shouldCollapse) {
+                this.hideElement(el as HTMLElement)
+                log(`Hiding element:`, el.tagName, el.className)
+              } else {
+                this.showElement(el as HTMLElement)
+                log(`Showing element:`, el.tagName, el.className)
+              }
+            })
+          } else {
+            log(`ERROR: No mbfc-story-N class found on storyParent`)
+          }
+
+          // Also toggle the report_holder (the div between mbfc elements)
+          const reportHolder = parentMbfc.nextElementSibling as HTMLElement
+          log(`reportHolder:`, reportHolder?.tagName)
+          if (reportHolder && reportHolder.tagName !== "MBFC") {
+            if (shouldCollapse) {
+              this.hideElement(reportHolder)
+              log(`Hiding report_holder`)
+            } else {
+              this.showElement(reportHolder)
+              log(`Showing report_holder`)
+            }
+          }
+        }
+      }
+
+      // Update the hide/show control button
+      const hideCtrl = container.querySelector(".mbfc-hide-ctrl") as HTMLElement
+      if (hideCtrl) {
+        const isCurrentlyHidden = hideCtrl.getAttribute("data-hidden") === "true"
+        if (isCurrentlyHidden !== shouldCollapse) {
+          hideCtrl.setAttribute("data-hidden", shouldCollapse ? "true" : "false")
+          const spanEl = hideCtrl.querySelector("span")
+          if (spanEl) {
+            spanEl.textContent = shouldCollapse ? "Show Anyway" : "Hide"
+          }
+        }
+      }
+    })
+  }
+
+  /**
+   * Toggle visibility of stories with Mixed factual reporting.
+   */
+  private toggleStoriesByReporting(reporting: string, shouldCollapse: boolean) {
+    const storyContainers = document.querySelectorAll(`.mbfc-annotation-container[data-reporting="${reporting}"]`)
+    log(`Found ${storyContainers.length} stories with reporting ${reporting}`)
+
+    storyContainers.forEach((container) => {
+      const bias = container.getAttribute("data-bias")
+      if (bias) {
+        // Use the bias-based toggle which handles the full logic
+        this.toggleStoriesByBias(bias, shouldCollapse)
+      }
+    })
+  }
+
+  /**
+   * Toggle visibility of sponsored stories.
+   */
+  private toggleSponsoredStories(shouldCollapse: boolean) {
+    // Sponsored stories don't have a bias, they're marked differently
+    // Find all elements with sponsored-related classes
+    const sponsoredElements = document.querySelectorAll("[data-sponsored]")
+    log(`Found ${sponsoredElements.length} sponsored elements`)
+
+    sponsoredElements.forEach((el) => {
+      if (shouldCollapse) {
+        this.hideElement(el as HTMLElement)
+      } else {
+        this.showElement(el as HTMLElement)
+      }
     })
   }
 
@@ -150,13 +430,13 @@ export class Filter {
 
   hideElement(el) {
     if (el && el.tagName !== "MBFC") {
-      set(el, "style.display", "none")
+      el.style.display = "none"
     }
   }
 
   showElement(el) {
     if (el) {
-      set(el, "style.display", "inherit")
+      el.style.display = "inherit"
     }
   }
 
@@ -325,11 +605,55 @@ export class Filter {
         if (spanEl) {
           spanEl.textContent = isHidden ? "Hide Again" : "Show Anyway"
         }
-        // Update icon (it's the first text node before the span)
-        hideCtrl.innerHTML = (isHidden ? faEyeSlash : faEye) + ` <span>${isHidden ? "Hide Again" : "Show Anyway"}</span>`
+        // Update icon and text using safe HTML insertion for SVG
+        const icon = isHidden ? faEyeSlash : faEye
+        const text = isHidden ? "Hide Again" : "Show Anyway"
+        hideCtrl.textContent = ""
+        safeInsertHTML(hideCtrl, "afterbegin", icon + " ")
+        const newSpan = document.createElement("span")
+        newSpan.textContent = text
+        hideCtrl.appendChild(newSpan)
       }, false)
       log(`Added hide control event listener for ${hideClass}`)
       hideCtrl.attributes.removeNamedItem("data-attached")
+    }
+  }
+
+  processUnattachedSettings(elems: NodeListOf<Element>) {
+    for (const elem of elems as HTMLElement[]) {
+      const tagName = elem.tagName.toLowerCase()
+      const type = elem.attributes["data-type"]?.value
+      const setting = elem.attributes["data-setting"]?.value
+
+      if (tagName === "input" && elem.getAttribute("type") === "checkbox") {
+        // Set initial checked state from data-checked attribute
+        const checkedAttr = elem.getAttribute("data-checked")
+        ;(elem as HTMLInputElement).checked = checkedAttr === "true"
+
+        if (setting) {
+          // Handle checkbox settings
+          elem.addEventListener("change", async (e) => {
+            const checked = (e.target as HTMLInputElement).checked
+            const storage = new Storage()
+            await storage.set(setting, checked)
+            log(`Set ${setting} to ${checked}`)
+            // Show refresh message for annotation bar setting
+            if (setting === "disableAnnotationBar") {
+              alert("Please refresh the page for this change to take effect.")
+            }
+          })
+        }
+        elem.removeAttribute("data-checked")
+      } else if (tagName === "a" && type === "open-options") {
+        // Handle options link - open in new tab
+        elem.addEventListener("click", (e) => {
+          e.preventDefault()
+          // openOptionsPage not available in content scripts, open URL directly
+          const optionsUrl = chrome.runtime.getURL("options.html")
+          window.open(optionsUrl, "_blank")
+        })
+      }
+      elem.removeAttribute("data-attached")
     }
   }
 
@@ -348,11 +672,11 @@ export class Filter {
             data-hide-class="${hide_class}"
             data-hidden="true"
             data-domain="${domain || ''}"
-            style="cursor: pointer; display: inline-block; padding: 4px 12px; border-radius: 16px; background: #e4e6eb; font-size: 12px; margin-bottom: 10px;">
+            style="cursor: pointer; display: inline-block; padding: 4px 12px; border-radius: 16px; background: #e4e6eb; color: #1a1a1a; font-size: 12px; margin-bottom: 10px;">
             ${faEye} <span>Show Anyway</span>
         </div></mbfc>`
       : ""
-    set(hDiv, "innerHTML", hide)
+    safeInsertHTML(hDiv, "afterbegin", hide)
     return hDiv
   }
 
@@ -366,7 +690,7 @@ export class Filter {
     if (typeof html !== "string") {
       return err(null)
     }
-    iDiv.innerHTML = html
+    safeInsertHTML(iDiv, "afterbegin", html)
     return ok(iDiv)
   }
 
@@ -448,6 +772,12 @@ export class Filter {
 
   async inject(story: Story, embed = false) {
     if (!this.loaded) await this.loadConfig()
+
+    // Skip annotation bar injection if disabled (unless it's a sponsored story which has different handling)
+    if (this.config.disableAnnotationBar && !story.sponsored) {
+      log(`Skipping annotation bar for story ${story.count} - disabled in settings`)
+      return
+    }
 
     let hide_this_story = story.sponsored && this.hide_sponsored
 

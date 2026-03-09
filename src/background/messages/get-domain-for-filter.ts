@@ -27,7 +27,10 @@ const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, Get
   log("Received request", GET_DOMAIN_FOR_FILTER, req.body)
   const { possible_domain, fb_path, possible_name } = req.body
   const sp = SourcesProcessor.getInstance()
-  const config = ConfigHandler.getInstance().config
+  // Wait for config to be loaded before using it
+  const ch = ConfigHandler.getInstance()
+  await ch.retrieve()
+  const config = ch.config
   const response: GetDomainForFilterResponseBody = { site: null }
 
   let cdr: Result<CheckDomainResults, null>
@@ -40,23 +43,33 @@ const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, Get
       res.send(response)
       return
     }
+    log(`Domain ${possible_domain} not found in database`)
   }
   if (fb_path) {
-    cdr = getSiteFromUrl(`https://facebook.com/${fb_path}`, sp.sourceData, config)
-    if (cdr.isOk() && cdr.value.site) {
-      log(`Found Facebook page ${fb_path}: ${cdr.value.site.name}`)
-      response.site = cdr.value.site
-      response.domain = cdr.value
-      res.send(response)
-      return
+    // Skip generic profile.php paths - they are not unique identifiers
+    if (fb_path.toLowerCase() === 'profile.php') {
+      log(`Skipping generic profile.php path`)
+    } else {
+      log(`Trying Facebook page lookup for ${fb_path}, exists in fb_pages: ${!!sp.sourceData?.fb_pages?.[fb_path.toLowerCase()]}`)
+      cdr = getSiteFromUrl(`https://facebook.com/${fb_path}`, sp.sourceData, config)
+      if (cdr.isOk() && cdr.value.site) {
+        log(`Found Facebook page ${fb_path}: ${cdr.value.site.name}`)
+        response.site = cdr.value.site
+        response.domain = cdr.value
+        res.send(response)
+        return
+      }
+      log(`Facebook page ${fb_path} not found`)
     }
   }
   if (possible_name) {
-    if (possible_name in sp.sourceData.name_pages) {
-      log(`Found name ${possible_name}: ${sp.sourceData.name_pages[possible_name]}`)
-      cdr = getSiteFromUrl(sp.sourceData.name_pages[possible_name], sp.sourceData, config, fb_path)
+    const lowerName = possible_name.toLowerCase()
+    log(`Trying name lookup for "${lowerName}", exists in name_pages: ${!!sp.sourceData?.name_pages?.[lowerName]}`)
+    if (lowerName in sp.sourceData.name_pages) {
+      log(`Found name ${lowerName}: ${sp.sourceData.name_pages[lowerName]}`)
+      cdr = getSiteFromUrl(sp.sourceData.name_pages[lowerName], sp.sourceData, config, fb_path)
       if (cdr.isOk() && cdr.value.site) {
-        log(`Found domain from name ${possible_domain}: ${cdr.value.site.name}`)
+        log(`Found domain from name ${lowerName}: ${cdr.value.site.name}`)
         response.site = cdr.value.site
         response.domain = cdr.value
         res.send(response)
@@ -64,7 +77,7 @@ const handler: PlasmoMessaging.MessageHandler<GetDomainForFilterRequestBody, Get
       }
     }
   }
-  log(`No domain found for ${possible_domain} or ${fb_path}`)
+  log(`No domain found for ${possible_domain} or ${fb_path} or ${possible_name}`)
   res.send(response)
 }
 

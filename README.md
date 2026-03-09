@@ -65,10 +65,6 @@ If you like this extension, please help us out:
 - Browse to a site reviewed by Media Bias/Fact Check and the extension icon will now change to the bias of the site
 - If you have collapsed the site in settings, that icon will flash to get your attention
 
-### Twitter Support!
-
-- [Twitter](https://twitter.com) feed is now annotated with a basic MBFC review for reported site. Please let us know what you think via a comment in the [Chrome Web Store](https://chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh)
-
 ## Release notes for version 1.0.15
 
 ### Now showing more detailed information: 

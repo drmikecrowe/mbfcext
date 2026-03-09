@@ -15,10 +15,9 @@ export interface CheckDomainResults {
   suggested_fbtwpath?: string
 }
 
-const logged: Record<string, boolean> = {}
-
 export function checkDomain(domain: string, path: string, sources: SourceData, config: ConfigStorage): Result<CheckDomainResults, null> {
   const log = logger("mbfc:utils:checkDomain")
+  const logged: Record<string, boolean> = {}
 
   const ret: CheckDomainResults = {
     final_domain: domain,
@@ -42,10 +41,14 @@ export function checkDomain(domain: string, path: string, sources: SourceData, c
       ret.baseUrl = isBase
       // const bias: EBiasesKey = get(ret, "site.b", "")
       // const reporting: EReportingKeys = get(ret, "site.r", "")
-      if (config.collapse[StorageToOptions[ret.site.bias]]) {
+      const collapseKey = StorageToOptions[ret.site.bias]
+      log(`checkDomain: bias=${ret.site.bias}, collapseKey=${collapseKey}, collapseValue=${config.collapse[collapseKey]}`)
+      if (config.collapse[collapseKey]) {
+        log(`  -> Collapsing due to bias setting`)
         ret.collapse = true
       }
       if (ret.site.reporting === ReportingEnums.Mixed && config.collapse.collapseMixed) {
+        log(`  -> Collapsing due to mixed reporting`)
         ret.collapse = true
       }
     }
@@ -82,9 +85,11 @@ export function checkDomain(domain: string, path: string, sources: SourceData, c
   if (ch(domain, false, false)) return ok(ret)
   if (ch(sources.combined.aliases[domain], true, false)) return ok(ret)
   const elements = domain.split(".")
-  let next_domain = elements.pop()
-  next_domain = `${elements.pop()}.${next_domain}`
-  if (ch(next_domain, false, true)) return ok(ret)
+  if (elements.length >= 2) {
+    let next_domain = elements.pop()
+    next_domain = `${elements.pop()}.${next_domain}`
+    if (ch(next_domain, false, true)) return ok(ret)
+  }
   ret.unknown = true
   return ok(ret)
 }
