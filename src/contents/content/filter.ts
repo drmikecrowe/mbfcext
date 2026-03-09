@@ -672,7 +672,7 @@ export class Filter {
             data-hide-class="${hide_class}"
             data-hidden="true"
             data-domain="${domain || ''}"
-            style="cursor: pointer; display: inline-block; padding: 4px 12px; border-radius: 16px; background: #e4e6eb; font-size: 12px; margin-bottom: 10px;">
+            style="cursor: pointer; display: inline-block; padding: 4px 12px; border-radius: 16px; background: #e4e6eb; color: #1a1a1a; font-size: 12px; margin-bottom: 10px;">
             ${faEye} <span>Show Anyway</span>
         </div></mbfc>`
       : ""
