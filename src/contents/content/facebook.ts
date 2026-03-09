@@ -30,7 +30,11 @@ export class Facebook extends Filter {
   observer = null
 
   constructor() {
-    super(`div[role='main']`)
+    // Use body as the main selector since feed and search have different DOM structures
+    // Feed: .../div/div[4]/div
+    // Search: .../div[2]/div/div/div/div/div
+    // Both have articles with like_button and profile_name roles
+    super(`body`)
 
     log(`Class Facebook started`)
   }
@@ -55,7 +59,7 @@ export class Facebook extends Filter {
   findArticleElements(e: HTMLElement): Element[] {
     if (!e || !e.querySelectorAll) return []
     const containers = new Set<Element>()
-    const likeButtons = e.querySelectorAll(`[data-ad-rendering-role="like_button"]:not(.${C_PROCESSED})`)
+    const likeButtons = e.querySelectorAll(`[data-ad-rendering-role="like_button"]`)
 
     likeButtons.forEach((likeBtn) => {
       // Walk up DOM to find ancestor containing both like_button and profile_name
@@ -113,15 +117,25 @@ export class Facebook extends Filter {
    */
   findDomainSpan(e: HTMLElement): DomainSort | undefined {
     const metaElement = e.querySelector(`[data-ad-rendering-role="meta"]`)
-    if (!metaElement) return undefined
+    if (!metaElement) {
+      log(`No meta element found in story`)
+      return undefined
+    }
 
     const text = metaElement.textContent?.trim().toLowerCase()
-    if (!text) return undefined
+    if (!text) {
+      log(`Meta element has no text content`)
+      return undefined
+    }
 
     // The meta role contains the domain directly (e.g., "reuters.com")
     const domain = text.split(" ")[0]
-    if (!domain_re.test(domain)) return undefined
+    if (!domain_re.test(domain)) {
+      log(`Meta text "${text}" does not match domain pattern`)
+      return undefined
+    }
 
+    log(`Found domain from meta: ${domain}`)
     return {
       domain,
       count: 1,
@@ -135,12 +149,21 @@ export class Facebook extends Filter {
   findPossibleFbPage(e: HTMLElement): string | undefined {
     const elem = e.querySelector(`[data-ad-rendering-role="profile_name"] a[href*='facebook.com']`) as HTMLAnchorElement
     if (elem) {
-      return this.clean_path(elem)
+      const path = this.clean_path(elem)
+      // Skip generic paths that aren't unique identifiers
+      if (path === "profile.php" || path === "groups" || path === "pages") {
+        return undefined
+      }
+      return path
     }
     // Fallback to old selector
     const fallback = e.querySelector("h3 span > a[href*='https://www.facebook.com']") as HTMLAnchorElement
     if (fallback) {
-      return this.clean_path(fallback)
+      const path = this.clean_path(fallback)
+      if (path === "profile.php" || path === "groups" || path === "pages") {
+        return undefined
+      }
+      return path
     }
   }
 
@@ -208,16 +231,21 @@ export class Facebook extends Filter {
       margin-left: 8px;
       padding: 2px 6px;
       font-size: 11px;
-      color: #333;
+      color: #1a1a1a;
       cursor: pointer;
       border-radius: 4px;
-      background: linear-gradient(to right, rgba(0, 0, 255, 0.15), rgba(255, 255, 255, 0.15), rgba(255, 0, 0, 0.15));
+      background: linear-gradient(to right, rgba(100, 100, 255, 0.35), rgba(255, 255, 255, 0.75), rgba(255, 100, 100, 0.35));
       transition: opacity 0.2s;
     `
-    searchBtn.innerHTML = `
-      <span>News Search</span>
-      <img src="${FNS_FAVICON}" width="14" height="14" style="vertical-align: middle;">
-    `
+    const span = document.createElement("span")
+    span.textContent = "News Search"
+    const img = document.createElement("img")
+    img.src = FNS_FAVICON
+    img.width = 14
+    img.height = 14
+    img.style.verticalAlign = "middle"
+    searchBtn.appendChild(span)
+    searchBtn.appendChild(img)
 
     // Add hover effect
     searchBtn.addEventListener("mouseenter", () => {
@@ -247,14 +275,13 @@ export class Facebook extends Filter {
 
   async buildStory(parent: HTMLElement): Promise<Result<Story, string>> {
     if (parent.classList.contains(`${MBFC}-story-searched`)) return err(null)
+    // Mark as processed immediately to prevent duplicate processing
+    this.addClasses(parent, [C_PROCESSED])
 
     const possible_page = this.findPossibleFbPage(parent)
     const possible_name = this.findPossibleName(parent)
 
-    // Add News Search button for any post (independent of MBFC lookup), unless disabled
-    if (!ConfigHandler.getInstance().config.disableNewsSearchButton) {
-      this.addNewsSearchButton(parent, possible_name)
-    }
+    const domainInfo = this.findDomainSpan(parent)
 
     const story: Story = {
       title_element: this.findTitleElement(parent),
@@ -283,11 +310,10 @@ export class Facebook extends Filter {
 
     const sections: HTMLElement[] = [story.title_element, story.report_element]
 
-    const dr = this.findDomainSpan(parent)
-    if (dr) {
-      story.domain_element = dr.html
-      story.possible_domain = dr.domain
-      sections.push(dr.html)
+    if (domainInfo) {
+      story.domain_element = domainInfo.html
+      story.possible_domain = domainInfo.domain
+      sections.push(domainInfo.html)
     }
     const e3 = this.findParent(sections)
     if (!e3) {
@@ -316,8 +342,19 @@ export class Facebook extends Filter {
     story.report_holder = report_holder as HTMLElement
 
     if (!story.sponsored) {
+      // Get the title element path, but skip generic paths that aren't unique identifiers
+      const titlePath = this.clean_path(story.title_element)
+      const skipGenericPaths = (path: string | undefined): string | undefined => {
+        if (!path) return undefined
+        const lower = path.toLowerCase()
+        if (lower === "profile.php" || lower === "groups" || lower === "pages") {
+          return undefined
+        }
+        return path
+      }
+
       const payload: GetDomainForFilterRequestBody = {
-        fb_path: this.clean_path(story.title_element),
+        fb_path: skipGenericPaths(titlePath),
         possible_domain: story.possible_domain,
       }
       let matchMethod: string | undefined
@@ -378,6 +415,11 @@ export class Facebook extends Filter {
       }
 
       story.domain = res.domain
+
+      // Add News Search button only when domain is matched in MBFC database (gradient shown)
+      if (!ConfigHandler.getInstance().config.disableNewsSearchButton) {
+        this.addNewsSearchButton(parent, possible_name)
+      }
 
       // Track successful match method
       if (matchMethod) {

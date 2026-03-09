@@ -1,4 +1,5 @@
 import { Storage } from "@plasmohq/storage"
+import { Result, err, ok } from "neverthrow"
 
 import type { CombinedModel, SiteModel } from "~models"
 
@@ -10,6 +11,18 @@ const log = logger("mbfc:background:sources")
 
 const LAST_LOAD_KEY = "last_load_date"
 const DATE_TRIM = isDevMode() ? 16 : 10
+
+// Retry configuration for network failures
+const MAX_RETRIES = 3
+const INITIAL_DELAY_MS = 1000 // 1 second
+const MAX_DELAY_MS = 10000 // 10 seconds
+
+export interface SourceDataError {
+  message: string
+  retryCount: number
+  isNetworkError: boolean
+  originalError?: unknown
+}
 
 export type DomainSites = Record<string, SiteModel>
 
@@ -96,15 +109,123 @@ export class SourcesProcessor {
     return this.retrievingPromise
   }
 
+  /**
+   * Sleep for a given number of milliseconds
+   */
+  private sleep(ms: number): Promise<void> {
+    return new Promise((resolve) => setTimeout(resolve, ms))
+  }
+
+  /**
+   * Calculate delay with exponential backoff and jitter
+   */
+  private calculateBackoff(attempt: number): number {
+    const delay = Math.min(INITIAL_DELAY_MS * Math.pow(2, attempt), MAX_DELAY_MS)
+    // Add jitter (±10%) to prevent thundering herd
+    const jitter = delay * 0.1 * (Math.random() * 2 - 1)
+    return Math.round(delay + jitter)
+  }
+
+  /**
+   * Check if an error is a network-related error that should be retried
+   */
+  private isRetryableError(error: unknown): boolean {
+    if (error instanceof TypeError) {
+      // TypeError from fetch usually means network error
+      const message = error.message?.toLowerCase() ?? ""
+      return (
+        message.includes("network") ||
+        message.includes("failed to fetch") ||
+        message.includes("networkerror") ||
+        message.includes("abort") ||
+        message.includes("timeout")
+      )
+    }
+    return false
+  }
+
+  /**
+   * Fetch with retry logic and exponential backoff
+   */
+  private async fetchWithRetry(url: string, maxRetries: number = MAX_RETRIES): Promise<Result<Response, SourceDataError>> {
+    let lastError: SourceDataError | null = null
+
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      try {
+        log(`Fetching ${url} (attempt ${attempt + 1}/${maxRetries + 1})`)
+        const response = await fetch(url)
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`)
+        }
+
+        return ok(response)
+      } catch (e) {
+        const isNetwork = this.isRetryableError(e)
+        lastError = {
+          message: e instanceof Error ? e.message : String(e),
+          retryCount: attempt,
+          isNetworkError: isNetwork,
+          originalError: e,
+        }
+
+        log(`Fetch attempt ${attempt + 1} failed: ${lastError.message}`)
+
+        // Don't retry if this isn't a retryable error or we've exhausted retries
+        if (!isNetwork || attempt >= maxRetries) {
+          break
+        }
+
+        const delay = this.calculateBackoff(attempt)
+        log(`Retrying in ${delay}ms (exponential backoff)...`)
+        await this.sleep(delay)
+      }
+    }
+
+    return err(lastError!)
+  }
+
   async retrieveRemote(): Promise<SourceData> {
-    const res = await fetch(COMBINED)
+    const fetchResult = await this.fetchWithRetry(COMBINED)
+
+    if (fetchResult.isErr()) {
+      const error = fetchResult.error
+      this.loading = false
+
+      // Log error for debugging and user awareness
+      if (error.isNetworkError) {
+        console.error(
+          `[MBFC] Network error fetching source data after ${error.retryCount + 1} attempts: ${error.message}. ` +
+            `Using cached data if available. The extension will retry on the next scheduled refresh.`
+        )
+      } else {
+        console.error(
+          `[MBFC] Error fetching source data: ${error.message}. ` +
+            `Using cached data if available.`
+        )
+      }
+
+      // Return existing data if available, allowing graceful degradation
+      if (this.sourceData) {
+        log(`Returning cached source data due to fetch failure`)
+        return this.sourceData
+      }
+
+      // No cached data available - this is a critical state
+      log(`No cached data available, source data refresh failed`)
+      return undefined as unknown as SourceData
+    }
+
     try {
+      const res = fetchResult.value
       const combined: CombinedModel = await res.json()
       log(`Loaded combined data ${combined.version} from ${combined.date}`)
       if (combined) return await this.initializeCombined(combined)
       return this.sourceData
     } catch (e) {
       this.loading = false
+      console.error(`[MBFC] Error parsing source data: ${e instanceof Error ? e.message : String(e)}`)
+      return this.sourceData
     }
   }
 

@@ -4,6 +4,7 @@ import vhtml from "vhtml"
 import { BiasEnums, CredibilityEnums, type SiteModel, TrafficEnums } from "~models/combined-manager"
 import { cap } from "~shared/cap"
 import { faAngleDoubleDown } from "~shared/elements/font-awesome"
+import { CollapseKeys, ConfigHandler } from "~shared/config-handler"
 
 const html = htm.bind(vhtml)
 const icon = (url: string) => html([url] as ReadonlyArray<string> as TemplateStringsArray)
@@ -49,8 +50,9 @@ export class NewsAnnotation {
         cursor: pointer;
         height: 10px;
         width: 10px;
-        float: right;
-        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        transform: translateY(-7px);
       }
       .mbfc-fa-icon {
         font-family: FontAwesome, Arial, sans-serif;
@@ -146,15 +148,19 @@ export class NewsAnnotation {
       }
       .mbfc-bias-end-20 {
         width: 80%;
+        text-align: right;
       }
       .mbfc-bias-end-40 {
         width: 60%;
+        text-align: right;
       }
       .mbfc-bias-end-60 {
         width: 40%;
+        text-align: right;
       }
       .mbfc-bias-end-80 {
         width: 20%;
+        text-align: right;
       }
       .mbfc-bias-end-100 {
         width: 0%;
@@ -187,6 +193,59 @@ export class NewsAnnotation {
       .mbfc-text-buffer {
         margin-left: 10px;
       }
+
+      .mbfc-inline-settings {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #ddd;
+        font-size: 11px;
+      }
+
+      .mbfc-settings-section {
+        margin-bottom: 8px;
+      }
+
+      .mbfc-settings-section-header {
+        font-weight: bold;
+        margin-bottom: 4px;
+        color: #555;
+        font-size: 10px;
+        text-transform: uppercase;
+      }
+
+      .mbfc-settings-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px 12px;
+      }
+
+      .mbfc-inline-settings label {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .mbfc-inline-settings input[type="checkbox"] {
+        cursor: pointer;
+        margin: 0;
+      }
+
+      .mbfc-settings-footer {
+        margin-top: 8px;
+        padding-top: 6px;
+        border-top: 1px solid #eee;
+      }
+
+      .mbfc-inline-settings a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+
+      .mbfc-inline-settings a:hover {
+        text-decoration: underline;
+      }
     `
   }
 
@@ -194,7 +253,7 @@ export class NewsAnnotation {
     if (!NewsAnnotation.loaded) {
       NewsAnnotation.loaded = true
       const style = document.createElement("style")
-      style.innerHTML = NewsAnnotation.styles
+      style.textContent = NewsAnnotation.styles
       document.head.appendChild(style)
     }
   }
@@ -203,6 +262,9 @@ export class NewsAnnotation {
 
   render() {
     NewsAnnotation.load_styles()
+
+    // Debug: log the bias value being used
+    console.log(`[mbfc] NewsAnnotation.render: site.bias="${this.site.bias}", domain="${this.site.domain}"`)
 
     let reportingDiv = ``
     let credibilityDiv = ``
@@ -239,20 +301,22 @@ export class NewsAnnotation {
 
     const prompt = this.collapse ? "Show" : "Hide"
 
-    return html`
-      <div className="mbfc-annotation-container">
+    // Get current settings for inline config
+    const config = ConfigHandler.getInstance().config
+
+    const result = html`
+      <div className="mbfc-annotation-container" data-bias="${this.site.bias}" data-credibility="${this.site.credibility || ''}" data-reporting="${this.site.reporting || ''}">
         <div className="mbfc-annotation-row">
+          <div
+            class="mbfc-dropdown-toggle"
+            data-attached="false"
+            data-count="${this.count}"
+            data-domain="${this.site.domain}"
+            style="cursor: pointer; float: right;">${icon(faAngleDoubleDown)}</div>
           <div className="${rowClass} mbfc-common-row">
             <div className="mbfc-bias-start-${biasStart}"></div>
             <div className="${textClass} mbfc-gradient-text">${tweak(biasText)}</div>
-            <div className="mbfc-bias-end-${biasEnd}">
-              <div
-                class="mbfc-dropdown-toggle"
-                data-attached="false"
-                data-count="${this.count}"
-                data-domain="${this.site.domain}"
-                style="cursor: pointer;">${icon(faAngleDoubleDown)}</div>
-            </div>
+            <div className="mbfc-bias-end-${biasEnd}"></div>
           </div>
         </div>
         <div id="mbfc-story-expanded-${this.count}" style="display: none">
@@ -283,8 +347,94 @@ export class NewsAnnotation {
             </button>
           </div>
           <div className="mbfc-annotation-row">${reportingDiv} ${credibilityDiv} ${trafficDiv} ${popularityDiv} ${researchDiv} ${mbfcDiv}</div>
+          <div class="mbfc-inline-settings">
+            <div class="mbfc-settings-section">-- Recommended --</div>
+            <div class="mbfc-settings-columns">
+              <div class="mbfc-settings-column">
+                <label title="Conspiracy-Pseudoscience sources may publish unverifiable information">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseConspiracy}" data-checked="${config.collapse[CollapseKeys.collapseConspiracy]}" />
+                  Conspiracy
+                </label>
+                <label title="Fake News sources exhibit extreme bias or publish hoaxes">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseFakeNews}" data-checked="${config.collapse[CollapseKeys.collapseFakeNews]}" />
+                  Fake News
+                </label>
+                <label title="Left Bias sources are strongly biased toward liberal causes">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseLeft}" data-checked="${config.collapse[CollapseKeys.collapseLeft]}" />
+                  Left Bias
+                </label>
+              </div>
+              <div class="mbfc-settings-column">
+                <label title="Right Bias sources are strongly biased toward conservative causes">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseRight}" data-checked="${config.collapse[CollapseKeys.collapseRight]}" />
+                  Right Bias
+                </label>
+                <label title="Mixed Factual Reporting sources have a track record of publishing false stories">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseMixed}" data-checked="${config.collapse[CollapseKeys.collapseMixed]}" />
+                  Mixed Factual
+                </label>
+                <label title="Sponsored ads typically annoy users">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseSponsored}" data-checked="${config.collapse[CollapseKeys.collapseSponsored]}" />
+                  Sponsored
+                </label>
+              </div>
+            </div>
+            <div class="mbfc-settings-section">-- Available --</div>
+            <div class="mbfc-settings-columns">
+              <div class="mbfc-settings-column">
+                <label title="Left-Center sources have slight liberal bias">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseLeftCenter}" data-checked="${config.collapse[CollapseKeys.collapseLeftCenter]}" />
+                  Left-Center
+                </label>
+                <label title="Least Biased sources have minimal bias">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseCenter}" data-checked="${config.collapse[CollapseKeys.collapseCenter]}" />
+                  Least Biased
+                </label>
+                <label title="Right-Center sources have slight conservative bias">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseRightCenter}" data-checked="${config.collapse[CollapseKeys.collapseRightCenter]}" />
+                  Right-Center
+                </label>
+              </div>
+              <div class="mbfc-settings-column">
+                <label title="Pro-Science sources are evidence-based">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseProScience}" data-checked="${config.collapse[CollapseKeys.collapseProScience]}" />
+                  Pro-Science
+                </label>
+                <label title="Satire sources use humor and irony">
+                  <input type="checkbox" data-attached="false" data-setting="${CollapseKeys.collapseSatire}" data-checked="${config.collapse[CollapseKeys.collapseSatire]}" />
+                  Satire
+                </label>
+              </div>
+            </div>
+            <div class="mbfc-settings-section">-- Privacy --</div>
+            <div class="mbfc-settings-columns">
+              <div class="mbfc-settings-column">
+                <label title="Disable anonymous usage reporting">
+                  <input type="checkbox" data-attached="false" data-setting="mbfcBlockAnalytics" data-checked="${config.mbfcBlockAnalytics}" />
+                  Block Analytics
+                </label>
+                <label title="Disable News Search button on Facebook">
+                  <input type="checkbox" data-attached="false" data-setting="disableNewsSearchButton" data-checked="${config.disableNewsSearchButton}" />
+                  No News Search
+                </label>
+              </div>
+              <div class="mbfc-settings-column">
+                <label title="Disable the MBFC annotation bars">
+                  <input type="checkbox" data-attached="false" data-setting="disableAnnotationBar" data-checked="${config.disableAnnotationBar}" />
+                  No Annotations
+                </label>
+              </div>
+            </div>
+            <div class="mbfc-settings-footer">
+              <a href="#" data-attached="false" data-type="open-options">Full Settings Page →</a>
+            </div>
+          </div>
         </div>
       </div>
-    `
+    ` as unknown as string
+    // Debug: check if data-bias is in the generated HTML
+    const hasDataBias = result.includes('data-bias=')
+    console.log(`[mbfc] NewsAnnotation.render: generated HTML has data-bias: ${hasDataBias}, bias value: "${this.site.bias}"`)
+    return result
   }
 }
