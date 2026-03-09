@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-07-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "rawconservativeopinions.com": {
+        "name": "Raw Conservative Opinions",
+        "changes": [
+          "questionable: removed ['conspiracy', 'lack-of-transparency', 'misinformation', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
