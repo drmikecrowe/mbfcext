@@ -4,12 +4,12 @@ on:
     branches:
       - main
 
-#  workflow_dispatch:
-
 jobs:
-  prepare:
-    name: Prepare
+  release:
+    name: Build and Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -22,13 +22,23 @@ jobs:
         run: pnpm install
       - name: Build and package Chrome + Firefox
         run: pnpm package:all
-      - name: Upload Chrome artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: chrome-mv3-prod
-          path: build/chrome-mv3-prod.zip
-      - name: Upload Firefox artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: firefox-mv3-prod
-          path: build/firefox-mv3-prod.zip
+      - name: Create source distribution
+        run: git archive --format=zip --output=build/source.zip HEAD
+      - name: Create or update GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          TAG="v${VERSION}"
+          gh release create "$TAG" \
+            --title "Release $TAG" \
+            --latest \
+            "build/chrome-mv3-prod.zip#Chrome Extension" \
+            "build/firefox-mv3-prod.zip#Firefox Extension" \
+            "build/source.zip#Source Code (Mozilla Review)" \
+          2>/dev/null || \
+          gh release upload "$TAG" \
+            build/chrome-mv3-prod.zip \
+            build/firefox-mv3-prod.zip \
+            build/source.zip \
+            --clobber
