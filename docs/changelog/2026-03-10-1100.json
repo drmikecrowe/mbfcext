@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-10-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "redvoicemedia.com": {
+        "name": "Red Voice Media",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
