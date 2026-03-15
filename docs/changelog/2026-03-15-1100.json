@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-15-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "righterway.com": {
+        "name": "Righter WAy",
+        "changes": [
+          "questionable: removed ['conspiracy', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "rockinghamjournal.com": {
+        "name": "Rockinghamd Journal",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
