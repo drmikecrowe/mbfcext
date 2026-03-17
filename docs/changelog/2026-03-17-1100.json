@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-17-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "roguereview.net": {
+        "name": "Rogue Review",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "russia-insider.com": {
+        "name": "Russia Insider",
+        "changes": [
+          "questionable: added ['conspiracy']"
+        ]
+      }
+    }
+  }
+}
