@@ -1,0 +1,32 @@
+{
+  "date": "2026-03-21-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "savannahsuntimes.com": {
+        "name": "Savannah Sun Times",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      },
+      "scitechdaily.com": {
+        "name": "SciTechDaily",
+        "changes": [
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      },
+      "scottsdaleairpark.com": {
+        "name": "Scottsdale Airpark News",
+        "changes": [
+          "name: 'Scottdale Airpark News' -> 'Scottsdale Airpark News'"
+        ]
+      }
+    }
+  }
+}
