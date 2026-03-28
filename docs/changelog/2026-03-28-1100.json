@@ -1,0 +1,44 @@
+{
+  "date": "2026-03-28-1100",
+  "summary": {
+    "added": 2,
+    "removed": 2,
+    "modified": 2
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "derryjournal.com",
+        "name": "Derry Journal"
+      },
+      {
+        "domain": "southfront.press",
+        "name": "Southfront"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "fabiosa.com",
+        "name": "Fabiosa"
+      },
+      {
+        "domain": "southfront.org",
+        "name": "Southfront"
+      }
+    ],
+    "modified": {
+      "southeasterntimes.org": {
+        "name": "Southeastern Times",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "southerncoloradotimes.com": {
+        "name": "Southern Colorado Times",
+        "changes": [
+          "questionable: removed ['imposter', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
