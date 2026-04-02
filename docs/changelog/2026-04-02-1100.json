@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-02-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "durangoherald.com": {
+        "name": "The Durango Herald",
+        "changes": [
+          "bias: 'right-center' -> 'left-center'"
+        ]
+      },
+      "premiumtimesng.com": {
+        "name": "Premium Times",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      }
+    }
+  }
+}
