@@ -1,0 +1,38 @@
+{
+  "date": "2026-04-11-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 4
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "stormfront.org": {
+        "name": "Stormfront",
+        "changes": [
+          "questionable: added ['conspiracy']"
+        ]
+      },
+      "supportisraelnow.com": {
+        "name": "Support Israel Now",
+        "changes": [
+          "questionable: removed ['conspiracy', 'hate', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "swampdrain.com": {
+        "name": "SwampDrain.com",
+        "changes": [
+          "questionable: removed ['conspiracy', 'fake-news', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "trumpstudents.org": {
+        "name": "Students for Trump",
+        "changes": [
+          "questionable: added ['conspiracy', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
