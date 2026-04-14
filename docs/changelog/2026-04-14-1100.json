@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-14-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "syriana-analysis.com": {
+        "name": "Syriana Analysis",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "takimag.com": {
+        "name": "Taki's Magazine",
+        "changes": [
+          "questionable: added ['false-claims']"
+        ]
+      }
+    }
+  }
+}
