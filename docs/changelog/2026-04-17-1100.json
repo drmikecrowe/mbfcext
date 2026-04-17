@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-17-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "angrypatriotmovement.com": {
+        "name": "The Angry Patriot",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
