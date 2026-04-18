@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-18-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "thebl.com": {
+        "name": "The BL",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "thebluestateconservative.com": {
+        "name": "The Blue State Conservative",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      }
+    }
+  }
+}
