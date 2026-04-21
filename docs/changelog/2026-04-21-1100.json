@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-21-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "examine.com": {
+        "name": "Examine.com",
+        "changes": [
+          "reporting: 'high' -> 'very-high'"
+        ]
+      },
+      "shafaq.com": {
+        "name": "Shafaq News",
+        "changes": [
+          "bias: 'fake-news' -> 'center'",
+          "reporting: 'mixed' -> 'high'",
+          "credibility: 'low-credibility' -> 'high-credibility'",
+          "questionable: removed ['censorship', 'lack-of-transparency', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
