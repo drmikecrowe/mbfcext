@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-25-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "thefreedomtimes.com": {
+        "name": "The Freedom Times",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "thefreepatriot.org": {
+        "name": "The Free Patriot",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "thefrisky.com": {
+        "name": "The Frisky",
+        "changes": [
+          "questionable: added ['conspiracy']"
+        ]
+      }
+    }
+  }
+}
