@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-06-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "theconservativetreehouse.com": {
+        "name": "The Last Refuge",
+        "changes": [
+          "questionable: added ['lack-of-transparency']"
+        ]
+      }
+    }
+  }
+}
