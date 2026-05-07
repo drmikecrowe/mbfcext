@@ -1,0 +1,194 @@
+{
+  "date": "2026-05-07-1100",
+  "summary": {
+    "added": 21,
+    "removed": 22,
+    "modified": 1
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "baconsrebellion.com",
+        "name": "Bacon's Rebellion"
+      },
+      {
+        "domain": "bemidjipioneer.com",
+        "name": "Bemidji Pioneer"
+      },
+      {
+        "domain": "brunswicktimes-gazette.com",
+        "name": "Brunswick Times-Gazette"
+      },
+      {
+        "domain": "centralbuckstoday.com",
+        "name": "Central Bucks Today"
+      },
+      {
+        "domain": "current.org",
+        "name": "Current.org"
+      },
+      {
+        "domain": "dominotheory.com",
+        "name": "Domino Theory"
+      },
+      {
+        "domain": "evidenceforchristianity.org",
+        "name": "Evidence for Christianity"
+      },
+      {
+        "domain": "hillingdontimes.co.uk",
+        "name": "Hillingdon Times"
+      },
+      {
+        "domain": "idacountycourier.com",
+        "name": "Ida County Courier"
+      },
+      {
+        "domain": "leesburgtodaynews.com",
+        "name": "Leesburg Today"
+      },
+      {
+        "domain": "nelsonstar.com",
+        "name": "Nelson Star"
+      },
+      {
+        "domain": "newyorker.com/humor/borowitz-report",
+        "name": "Borowitz Report"
+      },
+      {
+        "domain": "oleantimesherald.com",
+        "name": "Olean Times Herald"
+      },
+      {
+        "domain": "publichealth.org",
+        "name": "Publichealth.org"
+      },
+      {
+        "domain": "shieldsgazette.com",
+        "name": "Shields Gazette"
+      },
+      {
+        "domain": "theglobalist.com",
+        "name": "The Globalist"
+      },
+      {
+        "domain": "thenewsenterprise.com",
+        "name": "Elizabethtown News-Enterprise"
+      },
+      {
+        "domain": "tsarizm.com",
+        "name": "Tsarizm"
+      },
+      {
+        "domain": "wcminnesotanews.com",
+        "name": "WC Minnesota Newsa"
+      },
+      {
+        "domain": "weststarknews.com",
+        "name": "West Stark News"
+      },
+      {
+        "domain": "westvirginiawatch.com",
+        "name": "West Virginia Watch"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "baconsrebellion",
+        "name": "Bacon's Rebellion"
+      },
+      {
+        "domain": "bemidji pioneer",
+        "name": "Bemidji Pioneer"
+      },
+      {
+        "domain": "borowitz-report",
+        "name": "Borowitz Report"
+      },
+      {
+        "domain": "brunswicktimes-gazette",
+        "name": "Brunswick Times-Gazette"
+      },
+      {
+        "domain": "central bucks today",
+        "name": "Central Bucks Today"
+      },
+      {
+        "domain": "current,org",
+        "name": "Current.org"
+      },
+      {
+        "domain": "domino theory",
+        "name": "Domino Theory"
+      },
+      {
+        "domain": "elizabethtown new-enterprise",
+        "name": "Elizabethtown News-Enterprise"
+      },
+      {
+        "domain": "evidence for christianity",
+        "name": "Evidence for Christianity"
+      },
+      {
+        "domain": "hillingdon times",
+        "name": "Hillingdon Times"
+      },
+      {
+        "domain": "leesburgtodaynewscom",
+        "name": "Leesburg Today"
+      },
+      {
+        "domain": "mediabiasfactcheck.com/ida-county-courier-bias",
+        "name": "https://mediabiasfactcheck.com/ida-county-courier-bias/"
+      },
+      {
+        "domain": "mediabiasfactcheck.com/nelson-star-bias",
+        "name": "Nelson Star"
+      },
+      {
+        "domain": "mediabiasfactcheck.com/olean-times-herald-bias-and-credibility",
+        "name": "Olean Times Herald"
+      },
+      {
+        "domain": "mediabiasfactcheck.com/west-stark-news-bias",
+        "name": "West Stark News"
+      },
+      {
+        "domain": "publichealth,org",
+        "name": "Publichealth.org"
+      },
+      {
+        "domain": "shields gazette",
+        "name": "Shields Gazette"
+      },
+      {
+        "domain": "the globalist",
+        "name": "The Globalist"
+      },
+      {
+        "domain": "thedenverchannel",
+        "name": "KMGH - Denver7"
+      },
+      {
+        "domain": "tsarizm",
+        "name": "Tsarizm"
+      },
+      {
+        "domain": "wc minnesota news",
+        "name": "WC Minnesota Newsa"
+      },
+      {
+        "domain": "west virginia watch",
+        "name": "West Virginia Watch"
+      }
+    ],
+    "modified": {
+      "thedenverchannel.com": {
+        "name": "KMGH - Denver7",
+        "changes": [
+          "name: 'KCDO - Denver News' -> 'KMGH - Denver7'"
+        ]
+      }
+    }
+  }
+}
