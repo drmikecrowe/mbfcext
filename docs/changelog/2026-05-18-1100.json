@@ -1,0 +1,21 @@
+{
+  "date": "2026-05-18-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "theoutline.com": {
+        "name": "The Outline",
+        "changes": [
+          "reporting: 'high' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      }
+    }
+  }
+}
