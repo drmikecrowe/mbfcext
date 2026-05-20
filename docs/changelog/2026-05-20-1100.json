@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-20-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "thepolitics.online": {
+        "name": "The Politics Online",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'hate', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
