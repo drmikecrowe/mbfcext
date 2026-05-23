@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-23-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "publishedreporter.com": {
+        "name": "The Published Reporter",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'hate', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "theproudliberal.org": {
+        "name": "The Proud Liberal",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "theredelephants.com": {
+        "name": "The Red Elephants",
+        "changes": [
+          "questionable: removed ['conspiracy', 'fake-news', 'lack-of-transparency', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
