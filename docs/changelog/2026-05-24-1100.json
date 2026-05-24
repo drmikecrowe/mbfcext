@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-24-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "mindbodygreen.com": {
+        "name": "MindBodyGreen",
+        "changes": [
+          "bias: 'conspiracy-pseudoscience' -> 'left-center'",
+          "reporting: 'mixed' -> 'high'",
+          "credibility: 'low-credibility' -> 'high-credibility'"
+        ]
+      },
+      "nrdc.org": {
+        "name": "Natural Resources Defense Council",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'"
+        ]
+      }
+    }
+  }
+}
