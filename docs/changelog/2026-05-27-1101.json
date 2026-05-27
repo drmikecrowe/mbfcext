@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-27-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "pulsegulfcoast.com": {
+        "name": "Pulse Gulf Coast",
+        "changes": [
+          "bias: 'left-center' -> 'fake-news'",
+          "reporting: 'high' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'low-credibility'",
+          "name: 'The Pulse' -> 'Pulse Gulf Coast'",
+          "questionable: added ['lack-of-transparency', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
