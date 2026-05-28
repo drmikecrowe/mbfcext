@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-28-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "ronpaulinstitute.org": {
+        "name": "The Ron Paul Institute",
+        "changes": [
+          "bias: 'fake-news' -> 'right'",
+          "credibility: 'low-credibility' -> 'medium-credibility'",
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "thescinewsreporter.com": {
+        "name": "The Science News Reporter",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation']"
+        ]
+      }
+    }
+  }
+}
