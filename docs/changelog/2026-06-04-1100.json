@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-04-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "limitless-news.com": {
+        "name": "Limitless Media",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      }
+    }
+  }
+}
