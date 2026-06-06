@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-06-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "tri-cityrecord.org": {
+        "name": "Tri-City Record",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'misinformation']"
+        ]
+      },
+      "trianglenews.org": {
+        "name": "Triangle News",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "tworiversnews.org": {
+        "name": "Two Rivers News",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
