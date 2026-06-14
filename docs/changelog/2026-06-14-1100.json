@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-14-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "washoegazette.com": {
+        "name": "Washoe Gazette",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "wayneherald.org": {
+        "name": "Wayne Herald",
+        "changes": [
+          "questionable: removed ['false-claims', 'imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
