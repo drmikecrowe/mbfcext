@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-21-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "canadaland.com": {
+        "name": "Canadaland",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      },
+      "newcriterion.com": {
+        "name": "The New Criterion",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "southafricatoday.net": {
+        "name": "South Africa Today",
+        "changes": [
+          "questionable: removed ['lack-of-transparency']"
+        ]
+      }
+    }
+  }
+}
