@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-22-1100",
+  "summary": {
+    "added": 1,
+    "removed": 1,
+    "modified": 3
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "wjon.com",
+        "name": "WJON - 1240 AM - St. Cloud"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "medicaldialogues.in",
+        "name": "Medical Dailogues"
+      }
+    ],
+    "modified": {
+      "canadaland.com": {
+        "name": "Canadaland",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "newcriterion.com": {
+        "name": "The New Criterion",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'"
+        ]
+      },
+      "southafricatoday.net": {
+        "name": "South Africa Today",
+        "changes": [
+          "questionable: added ['lack-of-transparency']"
+        ]
+      }
+    }
+  }
+}
