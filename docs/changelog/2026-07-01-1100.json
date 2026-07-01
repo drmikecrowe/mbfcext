@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-01-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "yumastandard.com": {
+        "name": "Yuma Standard",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
