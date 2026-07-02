@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-02-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 4
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "msn.com": {
+        "name": "MSN.com",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "nih.gov": {
+        "name": "National Institutes of Health (NIH)",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "poynter.org": {
+        "name": "Poynter Institute",
+        "changes": [
+          "bias: 'center' -> 'left-center'"
+        ]
+      },
+      "yumastandard.com": {
+        "name": "Yuma Standard",
+        "changes": [
+          "questionable: removed ['imposter', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
