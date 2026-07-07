@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-07-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "americasvoice.news": {
+        "name": "Real America's Voice",
+        "changes": [
+          "reporting: 'low' -> 'mixed'",
+          "credibility: 'low-credibility' -> 'medium-credibility'",
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      }
+    }
+  }
+}
