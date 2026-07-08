@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-08-1100",
+  "summary": {
+    "added": 1,
+    "removed": 1,
+    "modified": 1
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "observer.co.uk",
+        "name": "The Observer (UK)"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "theguardian.com/observer",
+        "name": "The Observer (UK)"
+      }
+    ],
+    "modified": {
+      "americasvoice.news": {
+        "name": "Real America's Voice",
+        "changes": [
+          "reporting: 'mixed' -> 'low'",
+          "credibility: 'medium-credibility' -> 'low-credibility'",
+          "questionable: added ['conspiracy', 'failed-fact-checks', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      }
+    }
+  }
+}
