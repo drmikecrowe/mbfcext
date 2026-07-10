@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-10-1100",
+  "summary": {
+    "added": 1,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "16wmpo.com",
+        "name": "16 WMPO"
+      }
+    ],
+    "removed": [],
+    "modified": {
+      "12minutos.com": {
+        "name": "12minutos.com",
+        "changes": [
+          "questionable: removed ['fake-news']"
+        ]
+      }
+    }
+  }
+}
