@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-11-1100",
+  "summary": {
+    "added": 3,
+    "removed": 4,
+    "modified": 18
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "medicaldialogues.in",
+        "name": "Medical Dailogues"
+      },
+      {
+        "domain": "theguardian.com/observer",
+        "name": "The Observer (UK)"
+      },
+      {
+        "domain": "theprovince.com",
+        "name": "The Province"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "16wmpo.com",
+        "name": "16 WMPO"
+      },
+      {
+        "domain": "kurgan-news.net",
+        "name": "Kurgan News"
+      },
+      {
+        "domain": "observer.co.uk",
+        "name": "The Observer (UK)"
+      },
+      {
+        "domain": "wjon.com",
+        "name": "WJON - 1240 AM - St. Cloud"
+      }
+    ],
+    "modified": {
+      "12minutos.com": {
+        "name": "12minutos.com",
+        "changes": [
+          "questionable: added ['fake-news']"
+        ]
+      },
+      "americasvoice.news": {
+        "name": "Real America's Voice",
+        "changes": [
+          "reporting: 'low' -> 'mixed'",
+          "credibility: 'low-credibility' -> 'medium-credibility'",
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "baltimoresun.com": {
+        "name": "Baltimore Sun",
+        "changes": [
+          "bias: 'right-center' -> 'left-center'"
+        ]
+      },
+      "canadaland.com": {
+        "name": "Canadaland",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      },
+      "limitless-news.com": {
+        "name": "Limitless Media",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "msn.com": {
+        "name": "MSN.com",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      },
+      "newcriterion.com": {
+        "name": "The New Criterion",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'"
+        ]
+      },
+      "nih.gov": {
+        "name": "National Institutes of Health (NIH)",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      },
+      "poynter.org": {
+        "name": "Poynter Institute",
+        "changes": [
+          "bias: 'left-center' -> 'center'"
+        ]
+      },
+      "southafricatoday.net": {
+        "name": "South Africa Today",
+        "changes": [
+          "questionable: removed ['lack-of-transparency']"
+        ]
+      },
+      "tri-cityrecord.org": {
+        "name": "Tri-City Record",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'misinformation']"
+        ]
+      },
+      "trianglenews.org": {
+        "name": "Triangle News",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "tworiversnews.org": {
+        "name": "Two Rivers News",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "upperpeninsulatimes.com": {
+        "name": "Upper Peninsula Times",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'misinformation']"
+        ]
+      },
+      "valleygazette.org": {
+        "name": "Valley Gazette",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "washoegazette.com": {
+        "name": "Washoe Gazette",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "wayneherald.org": {
+        "name": "Wayne Herald",
+        "changes": [
+          "questionable: added ['false-claims', 'imposter', 'lack-of-transparency', 'propaganda']"
+        ]
+      },
+      "yumastandard.com": {
+        "name": "Yuma Standard",
+        "changes": [
+          "questionable: added ['imposter', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
