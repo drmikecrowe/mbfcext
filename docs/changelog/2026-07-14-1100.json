@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-14-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "inews.co.uk": {
+        "name": "iNews (The I Paper)",
+        "changes": [
+          "name: 'iNews' -> 'iNews (The I Paper)'"
+        ]
+      }
+    }
+  }
+}
