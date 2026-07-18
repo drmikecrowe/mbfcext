@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-18-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "columbiadailyherald.com": {
+        "name": "Columbia Daily Herald",
+        "changes": [
+          "bias: 'left-center' -> 'center'"
+        ]
+      },
+      "inews.co.uk": {
+        "name": "iNews",
+        "changes": [
+          "name: 'iNews (The I Paper)' -> 'iNews'"
+        ]
+      },
+      "ronpaulinstitute.org": {
+        "name": "The Ron Paul Institute",
+        "changes": [
+          "reporting: 'mixed' -> 'low'"
+        ]
+      }
+    }
+  }
+}
