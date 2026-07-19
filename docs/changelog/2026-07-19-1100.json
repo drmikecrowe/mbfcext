@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-19-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "columbiadailyherald.com": {
+        "name": "Columbia Daily Herald",
+        "changes": [
+          "bias: 'center' -> 'left-center'"
+        ]
+      },
+      "ronpaulinstitute.org": {
+        "name": "The Ron Paul Institute",
+        "changes": [
+          "reporting: 'low' -> 'mixed'"
+        ]
+      }
+    }
+  }
+}
