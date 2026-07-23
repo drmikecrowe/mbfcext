@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-23-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "acting-man.com": {
+        "name": "Acting Man",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
