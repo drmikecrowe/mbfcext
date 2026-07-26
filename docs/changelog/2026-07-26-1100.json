@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-26-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "actionnews3.com": {
+        "name": "Action News 3",
+        "changes": [
+          "questionable: removed ['fake-news', 'imposter', 'lack-of-transparency']"
+        ]
+      },
+      "awdnews.com": {
+        "name": "AWD News",
+        "changes": [
+          "name: 'Adw News' -> 'AWD News'"
+        ]
+      }
+    }
+  }
+}
