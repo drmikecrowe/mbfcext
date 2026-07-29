@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-29-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "researchgate.net": {
+        "name": "ResearchGate",
+        "changes": [
+          "bias: 'pro-science' -> 'center'",
+          "reporting: 'high' -> 'mixed'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      }
+    }
+  }
+}
