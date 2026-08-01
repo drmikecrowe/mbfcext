@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-01-1101",
+  "summary": {
+    "added": 1,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "alabamaobserver.com",
+        "name": "Alabama Observer"
+      }
+    ],
+    "removed": [],
+    "modified": {
+      "almasdarnews.com": {
+        "name": "Al-Masdar News",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
