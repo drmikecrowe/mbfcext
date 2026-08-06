@@ -1,5 +1,9 @@
 # Official Media Bias/Fact Check Extension
 
+<!-- hy-mt2-i18n:start -->
+**English** · [中文](./README_zh-CN.md) · [日本語](./README_ja.md) · [Español](./README_es.md)
+<!-- hy-mt2-i18n:end -->
+
 ## Latest News
 
 ### New in version 4.1
@@ -24,7 +28,7 @@ See [BUILD.md](BUILD.md) documentation
 
 ## Introduction
 
-Thank you for installing the [Official Media Bias/Fact Check Extension](https://drmikecrowe.github.io/mbfcext/)!  We appreciate you installing our extension!
+Thank you for installing the [Official Media Bias/Fact Check Extension](https://drmikecrowe.github.io/mbfcext/)!  We appreciate you installing our extension!
 
 Be informed as you read your Facebook feed. We are the most comprehensive media bias resource on the internet. There are currently 1100+ media sources listed in our database and growing every day. Don’t be fooled by Fake News sources. This extension is completely open source, and the source code is hosted [here](https://github.com/drmikecrowe/mbfcext).
 
@@ -34,8 +38,8 @@ If you find any issues with this extension, ideas of ways to make it better or s
 
 If you like this extension, please help us out:
 
-- Give us a favorable review in the [Chrome Web Store](https://chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh) or the [Firefox Addons Page](https://addons.mozilla.org/en-US/firefox/addon/media-bias-fact-check/).  This will help grow our users
-- Please tell your friends.  If you would like to share on Facebook, [click here now](https://www.facebook.com/sharer/sharer.php?u=https%3A//chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh).
+- Give us a favorable review in the [Chrome Web Store](https://chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh) or the [Firefox Addons Page](https://addons.mozilla.org/en-US/firefox/addon/media-bias-fact-check/).  This will help grow our users
+- Please tell your friends.  If you would like to share on Facebook, [click here now](https://www.facebook.com/sharer/sharer.php?u=https%3A//chromewebstore.google.com/detail/media-bias-fact-check/ganicjnkcddicfioohdaegodjodcbkkh).
 
 ## Release Notes for version 4.1
 
@@ -67,7 +71,7 @@ If you like this extension, please help us out:
 
 ## Release notes for version 1.0.15
 
-### Now showing more detailed information: 
+### Now showing more detailed information: 
 
 - Reporting: The reporting analysis by [Media Bias/Fact Check](https://mediabiasfactcheck.com)
 - References: This is [Moz's Link equity](https://moz.com/learn/seo/what-is-link-equity), once colloquially referred to with the awful term "link juice," is a search engine ranking factor based on the idea that certain links pass value and authority from one page to another. This value is dependent on a number of factors, such as the linking page's authority, topical relevance, HTTP status, and more. Links that pass equity are one of many signals that Google and other search engines use to determine a page's rankings in the SERPs. Moz's Link Equity analysis.
@@ -80,7 +84,7 @@ If you like this extension, please help us out:
 
 ## Release notes for version 1.0.13
 
-We are very excited to announce a new feature:  **_Collapsable News_**
+We are very excited to announce a new feature:  **_Collapsable News_**
 
 - Click on the "Collapse" section on the left
 - Choose which news categories to collapse in your feed
