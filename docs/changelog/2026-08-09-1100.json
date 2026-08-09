@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-09-1100",
+  "summary": {
+    "added": 1,
+    "removed": 1,
+    "modified": 2
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "link.springer.com/journal/13195",
+        "name": "Alzheimer's Research & Therapy"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "alzres.biomedcentral.com",
+        "name": "Alzheimer's Research & Therapy"
+      }
+    ],
+    "modified": {
+      "americadaily.com": {
+        "name": "America Daily",
+        "changes": [
+          "questionable: removed ['conspiracy', 'lack-of-transparency', 'misinformation', 'pseudoscience']"
+        ]
+      },
+      "eastisread.com": {
+        "name": "East is Read",
+        "changes": [
+          "bias: 'left-center' -> 'center'",
+          "reporting: 'mostly-factual' -> 'high'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      }
+    }
+  }
+}
