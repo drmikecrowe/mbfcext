@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-16-1100",
+  "summary": {
+    "added": 2,
+    "removed": 1,
+    "modified": 3
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "cpac.org/foundation/home",
+        "name": "American Conservative Union (ACU)"
+      },
+      {
+        "domain": "resolvephilly.org",
+        "name": "Resolve Philly"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "conservative.org",
+        "name": "American Conservative Union (ACU)"
+      }
+    ],
+    "modified": {
+      "aaas.org": {
+        "name": "The American Association for the Advancement of Science (AAAS)",
+        "changes": [
+          "name: 'American association for the advancement of science.' -> 'The American Association for the Advancement of Science (AAAS)'"
+        ]
+      },
+      "aim4truth.org": {
+        "name": "American Intelligence Media",
+        "changes": [
+          "questionable: added ['conspiracy', 'failed-fact-checks', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "americafans.com": {
+        "name": "Americann Fans",
+        "changes": [
+          "name: 'American Fans' -> 'Americann Fans'"
+        ]
+      }
+    }
+  }
+}
