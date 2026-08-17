@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-17-1100",
+  "summary": {
+    "added": 1,
+    "removed": 1,
+    "modified": 0
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "peterbeinart.substack.com",
+        "name": "Beinart Notebook"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "virologyj.biomedcentral.com",
+        "name": "Virology Jounral"
+      }
+    ],
+    "modified": {}
+  }
+}
