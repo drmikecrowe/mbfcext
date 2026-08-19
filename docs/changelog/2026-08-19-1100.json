@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-19-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "americandailynews.org": {
+        "name": "American News",
+        "changes": [
+          "bias: 'right' -> 'fake-news'",
+          "reporting: 'mixed' -> 'low'",
+          "credibility: 'medium-credibility' -> 'low-credibility'",
+          "name: 'American News 24/7' -> 'American News'"
+        ]
+      },
+      "taskandpurpose.com": {
+        "name": "Task and Purpose",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'"
+        ]
+      },
+      "volkskrant.nl": {
+        "name": "de Volkskrant",
+        "changes": [
+          "bias: 'right-center' -> 'left-center'"
+        ]
+      }
+    }
+  }
+}
