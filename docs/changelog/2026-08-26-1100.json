@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-26-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 4
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "americansarepissed.com": {
+        "name": "Americans Are Pissed",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation', 'plagiarism', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "americansfortruth.com": {
+        "name": "Americans for Truth",
+        "changes": [
+          "questionable: removed ['hate', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      },
+      "americantruthtoday.com": {
+        "name": "American Truth Today",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "awm.com": {
+        "name": "American Web Media (AWM)",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
