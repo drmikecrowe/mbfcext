@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-03-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "foreignpolicyjournal.com": {
+        "name": "Foreign Policy Journal",
+        "changes": [
+          "bias: 'left' -> 'fake-news'",
+          "credibility: 'medium-credibility' -> 'low-credibility'",
+          "questionable: added ['imposter', 'lack-of-transparency', 'plagiarism', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
