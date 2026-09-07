@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-07-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "bb4sp.com": {
+        "name": "BB4SP",
+        "changes": [
+          "questionable: removed ['conspiracy', 'false-claims', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "en.bbarta24.net": {
+        "name": "Bbarta24",
+        "changes": [
+          "questionable: removed ['censorship', 'lack-of-transparency', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
