@@ -148,6 +148,12 @@ export class SourcesProcessor {
    * Fetch with retry logic and exponential backoff
    */
   private async fetchWithRetry(url: string, maxRetries: number = MAX_RETRIES): Promise<Result<Response, SourceDataError>> {
+    // Validate URL against allowlisted origin to prevent SSRF
+    const allowedOrigin = new URL(COMBINED).origin
+    if (new URL(url).origin !== allowedOrigin) {
+      return err({ message: `URL not allowed: ${url}`, retryCount: 0, isNetworkError: false })
+    }
+
     let lastError: SourceDataError | null = null
 
     for (let attempt = 0; attempt <= maxRetries; attempt++) {
