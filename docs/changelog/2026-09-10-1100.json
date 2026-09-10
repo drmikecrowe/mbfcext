@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-10-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "bestdailynews.info": {
+        "name": "Best Daily News",
+        "changes": [
+          "questionable: removed ['fake-news', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      },
+      "gatesfoundation.org": {
+        "name": "Gates Foundation",
+        "changes": [
+          "name: 'Bill & Melinda Gates Foundation' -> 'Gates Foundation'"
+        ]
+      }
+    }
+  }
+}
