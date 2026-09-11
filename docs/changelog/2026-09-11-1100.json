@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-11-1100",
+  "summary": {
+    "added": 2,
+    "removed": 2,
+    "modified": 0
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "link.springer.com/brands/bmc",
+        "name": "BioMedical Central (BMC)"
+      },
+      {
+        "domain": "washingtonsun.com",
+        "name": "The Washington Sun (NOTUS)"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "biomedcentral.com",
+        "name": "BioMedical Central (BMC)"
+      },
+      {
+        "domain": "notus.org",
+        "name": "NOTUS"
+      }
+    ],
+    "modified": {}
+  }
+}
