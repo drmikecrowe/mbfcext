@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-13-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "bipartisanreport.com": {
+        "name": "Bipartisan Report",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'fake-news', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
