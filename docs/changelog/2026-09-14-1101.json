@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-14-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "blackenterprise.com": {
+        "name": "Black Enterprise Magazine",
+        "changes": [
+          "name: 'Black Ennterprise Magazine' -> 'Black Enterprise Magazine'"
+        ]
+      }
+    }
+  }
+}
