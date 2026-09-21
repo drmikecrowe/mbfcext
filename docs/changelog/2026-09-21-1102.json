@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-21-1102",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "breakingnewshouse.com": {
+        "name": "Breaking News House",
+        "changes": [
+          "questionable: removed ['conspiracy', 'lack-of-transparency', 'misinformation', 'plagiarism', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
