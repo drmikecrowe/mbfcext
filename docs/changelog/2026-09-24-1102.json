@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-24-1102",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "buzzloving.com": {
+        "name": "BuzzLoving",
+        "changes": [
+          "questionable: removed ['false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
