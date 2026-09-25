@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-25-1102",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "cambridgeanalytica.org": {
+        "name": "CA Privacy Watch",
+        "changes": [
+          "bias: 'right' -> 'fake-news'",
+          "credibility: 'medium-credibility' -> 'low-credibility'",
+          "name: 'Cambridge Analytica' -> 'CA Privacy Watch'",
+          "questionable: added ['censorship', 'lack-of-transparency', 'misinformation', 'poor-sourcing']"
+        ]
+      }
+    }
+  }
+}
