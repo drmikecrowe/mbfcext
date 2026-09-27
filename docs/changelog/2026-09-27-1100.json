@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-27-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "cap-news.com": {
+        "name": "Cap News",
+        "changes": [
+          "questionable: removed ['fake-news', 'misinformation']"
+        ]
+      }
+    }
+  }
+}
