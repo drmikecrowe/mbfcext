@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-30-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 2
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "capitalgazette.com": {
+        "name": "Capital Gazette",
+        "changes": [
+          "bias: 'left-center' -> 'center'"
+        ]
+      },
+      "dworkinreport.com": {
+        "name": "The Dworkin Report",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      }
+    }
+  }
+}
