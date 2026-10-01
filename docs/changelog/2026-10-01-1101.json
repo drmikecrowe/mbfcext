@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-01-1101",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "massdailynews.com": {
+        "name": "Mass Daily News",
+        "changes": [
+          "bias: 'fake-news' -> 'right'",
+          "reporting: 'mixed' -> 'mostly-factual'",
+          "credibility: 'low-credibility' -> 'medium-credibility'",
+          "questionable: removed ['lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
