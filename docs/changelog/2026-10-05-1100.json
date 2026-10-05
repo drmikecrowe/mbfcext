@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-05-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "7news.com.au": {
+        "name": "7NEWS",
+        "changes": [
+          "bias: 'right-center' -> 'center'",
+          "reporting: 'mixed' -> 'high'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      }
+    }
+  }
+}
