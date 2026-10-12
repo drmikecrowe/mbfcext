@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-12-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "researchantisemitism.ca": {
+        "name": "Center for Research of Radicalism and National Security",
+        "changes": [
+          "questionable: removed ['conspiracy', 'hate', 'lack-of-transparency', 'misinformation', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
