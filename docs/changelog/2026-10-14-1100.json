@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 1
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "cernovich.com": {
+        "name": "Cerno (Cernovich.com)",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'hate', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
