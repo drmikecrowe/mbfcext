@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-01-1100",
+  "summary": {
+    "added": 1,
+    "removed": 1,
+    "modified": 5
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "newsbusters.org/cnsnews",
+        "name": "CNS News"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "mrctv.org/cnsnews",
+        "name": "CNS News"
+      }
+    ],
+    "modified": {
+      "cloverchronicle.com": {
+        "name": "Clover Chronicle",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'fake-news', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "cnbc.com": {
+        "name": "CNBC",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'"
+        ]
+      },
+      "cnn-globalnews.com": {
+        "name": "cnn-globalnews.com",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'fake-news', 'false-claims', 'imposter', 'lack-of-transparency', 'misinformation', 'plagiarism', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "cnn.com.de": {
+        "name": "Cnn.com.de",
+        "changes": [
+          "questionable: removed ['failed-fact-checks', 'fake-news', 'false-claims', 'imposter', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "upward.news": {
+        "name": "Upward News",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'"
+        ]
+      }
+    }
+  }
+}
