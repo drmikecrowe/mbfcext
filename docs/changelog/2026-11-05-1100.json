@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-05-1100",
+  "summary": {
+    "added": 1,
+    "removed": 2,
+    "modified": 2
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "cdm.press",
+        "name": "Creative Destruction Media - CDM.Press"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "columbusfreepress.com",
+        "name": "Columbus Free Press"
+      },
+      {
+        "domain": "creativedestructionmedia.com",
+        "name": "Creative Destruction Media - CD Media"
+      }
+    ],
+    "modified": {
+      "concernedwomen.org": {
+        "name": "Concerned Women for America",
+        "changes": [
+          "questionable: added ['conspiracy']"
+        ]
+      },
+      "freepress.org": {
+        "name": "Columbus Free Press",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'mixed'",
+          "name: 'FreePress.org' -> 'Columbus Free Press'"
+        ]
+      }
+    }
+  }
+}
