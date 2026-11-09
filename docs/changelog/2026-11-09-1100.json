@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-09-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 5
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "conservativefreepress.com": {
+        "name": "Conservative Free Press",
+        "changes": [
+          "questionable: added ['false-claims']"
+        ]
+      },
+      "conservativepapers.com": {
+        "name": "The Conservative Papers",
+        "changes": [
+          "questionable: removed ['failed-fact-checks', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "conservativepost.com": {
+        "name": "Conservative Post",
+        "changes": [
+          "questionable: removed ['conspiracy', 'failed-fact-checks', 'false-claims', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "facebook.com/conservativepoliticstoday": {
+        "name": "Conservative Politics Today",
+        "changes": [
+          "questionable: removed ['conspiracy', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "massdailynews.com": {
+        "name": "Mass Daily News",
+        "changes": [
+          "reporting: 'mostly-factual' -> 'high'",
+          "credibility: 'medium-credibility' -> 'high-credibility'"
+        ]
+      }
+    }
+  }
+}
