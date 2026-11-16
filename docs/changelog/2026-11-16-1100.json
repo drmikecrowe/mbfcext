@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-16-1100",
+  "summary": {
+    "added": 2,
+    "removed": 2,
+    "modified": 2
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "spectator.co.uk",
+        "name": "The Spectator (uk)"
+      },
+      {
+        "domain": "spectator.us",
+        "name": "The Spectator (USA)"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "spectator.com",
+        "name": "The Spectator (uk)"
+      },
+      {
+        "domain": "spectator.com/?edition=us",
+        "name": "The Spectator (USA)"
+      }
+    ],
+    "modified": {
+      "cowards.ca": {
+        "name": "Cowards of Canada",
+        "changes": [
+          "questionable: added ['conspiracy', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "cowgernation.com": {
+        "name": "Cowger Nation",
+        "changes": [
+          "questionable: added ['lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      }
+    }
+  }
+}
