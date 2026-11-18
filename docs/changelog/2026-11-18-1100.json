@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-18-1100",
+  "summary": {
+    "added": 2,
+    "removed": 2,
+    "modified": 6
+  },
+  "changes": {
+    "added": [
+      {
+        "domain": "spectator.com",
+        "name": "The Spectator (uk)"
+      },
+      {
+        "domain": "spectator.com/?edition=us",
+        "name": "The Spectator (USA)"
+      }
+    ],
+    "removed": [
+      {
+        "domain": "spectator.co.uk",
+        "name": "The Spectator (uk)"
+      },
+      {
+        "domain": "spectator.us",
+        "name": "The Spectator (USA)"
+      }
+    ],
+    "modified": {
+      "cowards.ca": {
+        "name": "Cowards of Canada",
+        "changes": [
+          "questionable: removed ['conspiracy', 'lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda', 'pseudoscience']"
+        ]
+      },
+      "cowgernation.com": {
+        "name": "Cowger Nation",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "crimeresearch.org": {
+        "name": "Crime Prevention Research Center",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      },
+      "crimethinc.com": {
+        "name": "CrimethInc",
+        "changes": [
+          "reporting: 'high' -> 'mostly-factual'",
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "crooksandliars.com": {
+        "name": "Crooks and Liars",
+        "changes": [
+          "credibility: 'high-credibility' -> 'medium-credibility'"
+        ]
+      },
+      "triblive.com": {
+        "name": "Pittsburgh Tribune Review",
+        "changes": [
+          "bias: 'right-center' -> 'center'"
+        ]
+      }
+    }
+  }
+}
