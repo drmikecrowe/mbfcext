@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-21-1100",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "modified": 3
+  },
+  "changes": {
+    "added": [],
+    "removed": [],
+    "modified": {
+      "dailyhonker.com": {
+        "name": "Daily Honker",
+        "changes": [
+          "questionable: removed ['lack-of-transparency', 'misinformation', 'poor-sourcing', 'propaganda']"
+        ]
+      },
+      "dailykos.com": {
+        "name": "Daily Kos",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      },
+      "mirror.co.uk": {
+        "name": "Daily Mirror",
+        "changes": [
+          "reporting: 'mixed' -> 'mostly-factual'"
+        ]
+      }
+    }
+  }
+}
